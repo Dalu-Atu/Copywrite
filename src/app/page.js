@@ -216,40 +216,97 @@ export default async function BlogPage() {
 
       <HeaderComponent />
 
-      <div className="min-h-screen bg-white text-black">
-        <div className="container mx-auto px-4 mt-12 pb-10">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-12 text-[#015979]">
-            AI Blog: Handwriting to Text & OCR Insights
+      <div
+        style={{ minHeight: "100vh", backgroundColor: "white", color: "black" }}
+      >
+        <div
+          style={{
+            maxWidth: "1200px",
+            margin: "0 auto",
+            padding: "48px 16px 40px",
+          }}
+        >
+          <h1
+            style={{
+              fontSize: "2.25rem",
+              fontWeight: "800",
+              textAlign: "center",
+              marginBottom: "48px",
+              color: "#015979",
+            }}
+          >
+            Daily Insights and Tools
           </h1>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(1, 1fr)",
+              gap: "24px",
+            }}
+          >
             {blogs.map(({ slug, title, date, description, image }) => (
               <div
                 key={slug}
-                className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow bg-white"
+                style={{
+                  borderRadius: "16px",
+                  overflow: "hidden",
+                  // boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+                  transition: "box-shadow 0.3s ease",
+                  backgroundColor: "white",
+                }}
               >
-                <Link href={`solution/${slug}`}>
-                  <div className="relative w-full aspect-[16/9]">
+                <Link href={`/blog/solution/${slug}`}>
+                  {/* <a> */}
+                  <div style={{}}>
                     <Image
                       src={image}
                       alt={title} // 🔹 Improved SEO for images
-                      layout="fill"
                       objectFit="cover"
                       className="rounded-t-xl"
+                      width={300}
+                      height={200}
                     />
                   </div>
-                  <div className="p-4 md:p-6">
-                    <h2 className="text-lg md:text-2xl font-bold text-[#015979]">
+                  <div style={{ padding: "16px" }}>
+                    <h2
+                      style={{
+                        fontSize: "1.125rem",
+                        fontWeight: "700",
+                        color: "#015979",
+                      }}
+                    >
                       {title}
                     </h2>
-                    <p className="text-xs md:text-sm text-gray-600 mt-1">
+                    <p
+                      style={{
+                        fontSize: "0.75rem",
+                        color: "#6b7280",
+                        marginTop: "4px",
+                      }}
+                    >
                       {date}
                     </p>
-                    <p className="text-sm text-gray-800 mt-2">{description}</p>
-                    <div className="mt-3 md:mt-4 text-[#1b9e99] hover:underline">
+                    <p
+                      style={{
+                        fontSize: "0.875rem",
+                        color: "#2d3748",
+                        marginTop: "8px",
+                      }}
+                    >
+                      {description}
+                    </p>
+                    <div
+                      style={{
+                        marginTop: "12px",
+                        color: "#1b9e99",
+                        cursor: "pointer",
+                      }}
+                    >
                       Read More →
                     </div>
                   </div>
+                  {/* </a> */}
                 </Link>
               </div>
             ))}
