@@ -228,7 +228,7 @@ export default async function BlogPage() {
                 key={slug}
                 className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow bg-white"
               >
-                <Link href={`/${slug}`}>
+                <Link href={`solution/${slug}`}>
                   <div className="relative w-full aspect-[16/9]">
                     <Image
                       src={image}
