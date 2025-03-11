@@ -17,8 +17,5 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: "Merriweather", serif;
   @apply text-lg leading-relaxed;
 }

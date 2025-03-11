@@ -1,5 +1,3 @@
-"use client";
-
 function Logo() {
   const styleLogo = {
     cursor: "pointer",
@@ -7,11 +5,13 @@ function Logo() {
     alignItems: "center",
     margin: "0 24px",
     overflow: "hidden",
-    maxHeight: "30px",
+    maxHeight: "40px",
     position: "relative",
     left: "-0.4rem",
     zIndex: 0,
     maxWidth: "170px",
+
+    transform: "scale(1.2)",
   };
 
   const styleLogoMedia768 = {
@@ -22,10 +22,10 @@ function Logo() {
   };
 
   const imgStyle = {
-    height: "180px",
-    width: "auto",
-    position: "relative",
-    right: "1rem",
+    // height: "200px",
+    // width: "auto",
+    // position: "relative",
+    // right: "1rem",
   };
 
   const imgStyleMedia400 = {
