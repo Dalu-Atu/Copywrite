@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Logo() {
   const styleLogo = {
     cursor: "pointer",
@@ -41,9 +43,11 @@ function Logo() {
         ...styleLogoMedia768["@media (max-width: 768px)"],
       }}
     >
-      <img
+      <Image
         src="/default.png"
         alt="Copywrite+ Logo"
+        width={150}
+        height={100}
         style={{
           ...imgStyle,
           ...imgStyleMedia400["@media (max-width: 400px)"],

@@ -1,94 +1,71 @@
-"use client";
 import React from "react";
 import Head from "next/head";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
 import HeaderComponent from "../ui/HeaderComponent";
 import { blogPosts } from "../lib/posts";
 import Footer from "../ui/Footer";
+import ArticleCard from "../ui/ArticleCard";
+
+export const metadata = {
+  title: "Copywrite+ | Convert Handwriting to Text",
+  description:
+    "Save time and skip the typing. convert handwriting to text or document instantly!",
+  keywords: [
+    "handwriting to text",
+    "AI converter",
+    "OCR software",
+    "handwriting recognition",
+    "image to text",
+    "text recognition",
+    "handwriting to digital text",
+    "convert handwriting to text online",
+    "best AI handwriting converter",
+    "free handwriting to text converter",
+    "scan handwritten notes to text",
+    "AI-powered handwriting recognition",
+    "turn handwriting into editable text",
+    "digital handwriting conversion software",
+    "handwritten notes to text",
+    "handwriting transcription software",
+    "text extraction from image",
+    "document scanning software",
+    "AI text recognition",
+    "PDF handwriting to text",
+    "online OCR handwriting",
+    "handwriting-to-text app",
+    "How do I convert handwriting to text?",
+    "What is the best handwriting recognition software?",
+    "Can AI convert handwriting to text?",
+    "Is there a free handwriting-to-text converter?",
+    "How to scan and edit handwritten notes?",
+  ],
+  alternates: { canonical: "https://copywritee.com/solutions" },
+  openGraph: {
+    title: "Convert Handwriting to Text",
+    description:
+      "Save time and skip the typing. convert handwriting to document instantly!",
+    url: "https://copywritee.com",
+    siteName: "Copywrite+",
+    images: [
+      {
+        url: "/default.png",
+        width: 800,
+        height: 450,
+        alt: "Handwriting to text conversion",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Copywrite+ Convert Handwriting to Text",
+    description: "Effortlessly digitize handwritten notes using AI technology.",
+    images: ["/images/default.png"],
+  },
+};
 
 const Solutions = () => {
-  const router = useRouter();
-  const { asPath } = router;
-
-  const handlePostClick = (slug) => {
-    router.push(`/solutions/${slug}`);
-  };
-
   return (
     <>
-      <Head>
-        <title>
-          Convert Handwriting to Text Instantly – AI-Powered OCR | Copywrit+
-        </title>
-        <meta
-          name="description"
-          content="Transform your handwritten notes into editable, digital text in seconds with Copywrit+ AI OCR technology. Accurate, fast, and free handwriting recognition."
-        />
-        <meta
-          name="keywords"
-          content="convert handwriting to text, AI OCR tool, best handwriting converter, text recognition software, digital notes, scan handwriting to text, OCR AI"
-        />
-        {/* Open Graph */}
-        <meta
-          property="og:title"
-          content="Convert Handwriting to Text Instantly – AI-Powered OCR | Copywrit+"
-        />
-        <meta
-          property="og:description"
-          content="Tired of messy notes? Convert handwriting into clear, editable text in seconds! Try Copywrit+ AI OCR – Fast, Accurate & Free."
-        />
-        <meta
-          property="og:image"
-          content="https://copywritee.com/images/as1.jpeg"
-        />
-        <meta property="og:url" content="https://copywritee.com/solutions" />
-        <meta property="og:type" content="website" />
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Convert Handwriting to Text Instantly – AI-Powered OCR | Copywrit+"
-        />
-        <meta
-          name="twitter:description"
-          content="Tired of messy notes? Convert handwriting into clear, editable text in seconds! Try Copywrit+ AI OCR – Fast, Accurate & Free."
-        />
-        <meta
-          name="twitter:image"
-          content="https://copywritee.com/images/as1.jpeg"
-        />
-        {/* Schema Markup */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            name: "Convert Handwriting to Text Instantly – AI-Powered OCR | Copywrit+",
-            description:
-              "Convert messy handwritten notes into clear, editable text in seconds with Copywrit+ AI OCR technology.",
-            url: "https://copywritee.com/solutions",
-            breadcrumb: {
-              "@type": "BreadcrumbList",
-              itemListElement: [
-                {
-                  "@type": "ListItem",
-                  position: 1,
-                  name: "Home",
-                  item: "https://copywritee.com/",
-                },
-                {
-                  "@type": "ListItem",
-                  position: 2,
-                  name: "Solutions",
-                  item: "https://copywritee.com/solutions",
-                },
-              ],
-            },
-            image: "https://copywritee.com/images/as1.jpeg",
-          })}
-        </script>
-      </Head>
-
       <HeaderComponent />
       <section className="text-center py-20 px-4 bg-gradient-to-r from-[#d4f1f4] to-[#e8f9f9]">
         <h1 className="text-4xl font-extrabold text-[#0b3d4f] mb-4">
@@ -112,36 +89,7 @@ const Solutions = () => {
 
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-10 bg-white">
         {blogPosts.map((post) => (
-          <article
-            key={post.id}
-            onClick={() => handlePostClick(post.slug)}
-            className="rounded-lg overflow-hidden shadow-md cursor-pointer hover:shadow-lg transition-shadow duration-300"
-          >
-            <div className="relative w-full h-56">
-              <Image
-                src={post.imageUrl}
-                alt={post.title}
-                layout="fill"
-                objectFit="cover"
-                className="rounded-t-lg"
-                priority
-              />
-            </div>
-            <div className="p-6">
-              <h2 className="text-xl font-semibold text-[#062530] mb-2">
-                {post.title}
-              </h2>
-              <p className="text-gray-600 text-sm mb-4">{post.description}</p>
-              <div className="flex items-center justify-between">
-                <time className="text-gray-500 text-xs">
-                  {new Date(post.date).toLocaleDateString()}
-                </time>
-                <span className="text-[#2ec4b6] font-semibold text-sm">
-                  Read More
-                </span>
-              </div>
-            </div>
-          </article>
+          <ArticleCard post={post} key={post.id} />
         ))}
       </section>
       <Footer />

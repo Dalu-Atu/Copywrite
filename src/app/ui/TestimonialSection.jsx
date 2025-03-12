@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const testimonials = [
   {
     img: "/images/testimonial-woman-1.jpeg",
@@ -34,10 +36,12 @@ const TestimonialSection = () => {
             key={index}
             className="bg-white p-4 rounded-3xl shadow-lg max-w-[400px] text-left transition-transform border border-[#00415a] hover:-translate-y-2"
           >
-            <img
+            <Image
               src={testimonial.img}
               alt={testimonial.name}
-              className="w-16 h-16 rounded-full mb-4"
+              width={64} // 16 * 4 (pixels per rem)
+              height={64} // 16 * 4 (pixels per rem)
+              className="rounded-full mb-4"
             />
             <h4 className="text-xl text-[#00415a] mb-2">{testimonial.name}</h4>
             <p className="text-base text-[#555]">{testimonial.text}</p>

@@ -1,18 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import GlobalStyles from "./styles/GlobalStyles";
-import Head from "next/head";
-import StyledComponentsRegistry from "./lib/styledComponentsRegistry";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Convert Handwriting to Text | Copywrite+ AI OCR",
@@ -74,12 +60,9 @@ export default function RootLayout({ children }) {
         </script>
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <GlobalStyles />
-        <StyledComponentsRegistry>
-          <div>{children}</div>
-        </StyledComponentsRegistry>
+        <div>{children}</div>
       </body>
     </html>
   );

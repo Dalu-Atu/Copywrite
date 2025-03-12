@@ -1,3 +1,9 @@
+# *
 User-agent: *
 Allow: /
-Sitemap: https://www.copywritee.com/blog/sitemap.xml
+
+# Host
+Host: https://copywritee.com
+
+# Sitemaps
+Sitemap: https://copywritee.com/sitemap.xml

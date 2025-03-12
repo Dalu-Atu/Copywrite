@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import styled from "styled-components";
 import HeaderComponent from "./HeaderComponent";
 import FeaturesSection from "./FeatureSection";
 import {
@@ -16,52 +15,6 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import HowItWorksSection from "./HowItWorks";
 import BlogSection from "./BlogSection";
-
-const BackgroundWrapper = styled.div`
-  position: absolute;
-  top: 80%;
-  left: 90%;
-  width: 10vw;
-  height: 10vw;
-  z-index: -1;
-  background: linear-gradient(to right, #56b4d3, #348f50);
-  filter: blur(40px);
-  border-radius: 50%;
-  @media (max-width: 768px) {
-    position: absolute;
-    top: 60%;
-    left: 70%;
-    width: 15vw;
-    height: 15vw;
-    z-index: -1;
-    background: linear-gradient(to right, #56b4d3, #348f50);
-    filter: blur(40px);
-    border-radius: 50%;
-  }
-`;
-
-const BackgroundWrapperTwo = styled.div`
-  position: absolute;
-  top: 80%;
-  right: 90%;
-  width: 10vw;
-  height: 10vw;
-  z-index: -1;
-  background: linear-gradient(to right, #348f50, #56b4d3);
-  filter: blur(40px);
-  border-radius: 50%;
-  @media (max-width: 768px) {
-    position: absolute;
-    top: 60%;
-    right: 70%;
-    width: 15vw;
-    height: 15vw;
-    z-index: -1;
-    background: linear-gradient(to right, #348f50, #56b4d3);
-    filter: blur(40px);
-    border-radius: 50%;
-  }
-`;
 
 const messages = [
   "Upload your paper, convert it to text, and get a professional document ready for download or editing",
@@ -106,7 +59,7 @@ const HomePage = () => {
   return (
     <>
       <Head>
-        <title>Copywrite+ Convert Handwriting to Text </title>
+        <title>Copy+ Convert Handwriting to Text </title>
         <meta
           name="description"
           content="Easily convert handwriting into perfectly formatted text documents. Fast, accurate, and effortless conversion."
@@ -141,8 +94,9 @@ const HomePage = () => {
       </Head>
 
       <main>
-        <BackgroundWrapper />
-        <BackgroundWrapperTwo />
+        <div className="absolute top-[90%] left-[90%] w-[10vw] h-[10vw] z-[-1] bg-gradient-to-r from-[#56b4d3] to-[#62e389] blur-[40px] rounded-full md:top-[60%] md:left-[70%] md:w-[15vw] md:h-[15vw]"></div>
+
+        <div className="absolute top-[90%] right-[90%] w-[10vw] h-[10vw] z-[-1] bg-gradient-to-r from-[#62e389] to-[#56b4d3] blur-[40px] rounded-full md:top-[60%] md:right-[70%] md:w-[15vw] md:h-[15vw]"></div>
         <HeaderComponent />
 
         <section id="home" className="text-center max-w-5xl mx-auto mt-12">

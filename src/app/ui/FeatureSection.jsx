@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styled from "styled-components";
 const features = [
   {
     image: "/images/accurate-conversion.png",
@@ -59,7 +58,7 @@ const FeaturesSection = () => {
               image: "/images/accurate-conversion.png",
               title: "99% OCR & ICR Accuracy",
               description:
-                "With advanced OCR technology, your handwriting is converted to text with high precision, ensuring minimal errors.",
+                "Convert Handwriting into Perfectly Formatted Documents in Seconds With advanced OCR & ICR technology, ",
             },
             {
               image: "/images/converting-image.png",
@@ -97,10 +96,14 @@ const FeaturesSection = () => {
               className="bg-white rounded-xl shadow-md p-8 transition-transform duration-300 hover:-translate-y-1 sm:p-2"
             >
               <div className="w-full min-h-[150px] rounded-md overflow-hidden flex justify-center items-center">
-                <img
+                <Image
                   src={feature.image}
                   alt={feature.title}
-                  className="w-full h-auto object-cover rounded-md mb-4"
+                  width={500} // Adjust width as needed
+                  height={300} // Adjust height as needed
+                  layout="responsive" // Make the image responsive
+                  objectFit="cover" // Maintain aspect ratio and cover the container
+                  className="rounded-md mb-4" // Apply your existing styles
                 />
               </div>
               <h3 className="text-xl font-semibold text-[#00415a]">

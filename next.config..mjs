@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  compiler: {
-    styledComponents: true, // Enables styled-components support in Next.js
-  },
-};
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
+});
+
+const nextConfig = withBundleAnalyzer({
+  reactStrictMode: true,
+  swcMinify: true, // Helps optimize JavaScript
+});
 
 module.exports = nextConfig;

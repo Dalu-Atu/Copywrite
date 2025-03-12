@@ -15,6 +15,9 @@ export const metadata = {
   url: "https://copywritee.com/solutions/ai-handwriting",
   keywords:
     "handwriting to text, AI converter, digital handwriting, OCR software, handwritten notes to text, image to text, text recognition, handwriting recognition, document scanning, digital note taking, handwriting analysis, convert handwriting to digital text, ai handwriting reader, best handwriting converter, free handwriting to text, online handwriting recognition",
+  alternates: {
+    canonical: "https://copywritee.com/solutions/Handwriting-to-text",
+  },
 };
 
 export default function AIHandwritingPost() {

@@ -1,3 +1,4 @@
+"use client";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { FaCheck } from "react-icons/fa";
@@ -15,7 +16,7 @@ const PricingSection = () => {
         "High Accuracy (Handwriting to text)",
         "Convert up to 100 pages of handwritten notes to documents",
         "Upload, create, and edit documents with our editor",
-        "Continous uploads of handwritten pages to create a single document",
+        "continuous uploads of handwritten pages to create a single document",
         "Upload and transcribe one handwritten image at a time",
         "Save and manage up to 50 documents in the cloud",
         "Priority customer support",
@@ -54,9 +55,9 @@ const PricingSection = () => {
 
   return (
     <section id="pricing" className="text-center py-12 px-5 bg-gray-100">
-      <h1 className="text-2xl font-bold leading-snug text-[#00415a] sm:text-3xl md:text-4xl px-2">
+      <h2 className="text-2xl font-bold leading-snug text-[#00415a] sm:text-3xl md:text-4xl px-2">
         Flexible Plans for Every Need
-      </h1>
+      </h2>
       <div className="flex justify-center items-center gap-2.5 mt-5">
         <button
           className={`px-5 py-2 rounded-md text-base transition-colors ${
