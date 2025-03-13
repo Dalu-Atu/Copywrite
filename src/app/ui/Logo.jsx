@@ -46,6 +46,8 @@ function Logo() {
       <Image
         src="/default.png"
         alt="Copywrite+ Logo"
+        title="Copywrite+ Logo"
+        priority
         width={150}
         height={100}
         style={{

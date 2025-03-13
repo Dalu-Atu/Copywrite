@@ -55,13 +55,13 @@ const HeaderComponent = () => {
 
       <div className="hidden md:flex gap-4">
         <button
-          onClick={() => router.push("/login")}
+          onClick={() => router.push("https://app.copywritee.com/")}
           className="text-gray-800 font-medium hover:text-teal-700"
         >
           Login
         </button>
         <button
-          onClick={() => router.push("/signup")}
+          onClick={() => router.push("https://app.copywritee.com/signup")}
           className="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-600"
         >
           Sign Up

@@ -63,7 +63,8 @@ export default async function Home() {
 }
 
 //root page
-//seobility 65
-//seositecheckup 81
-//rank math 76
-//sitechecker 53
+//seobility 65 73                                     pp   67
+//seositecheckup 81 88                                     86
+//rank math 76      88                                     77
+//sitechecker 53  73
+//seooptiner  c

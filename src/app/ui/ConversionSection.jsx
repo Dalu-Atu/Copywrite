@@ -31,9 +31,11 @@ export const ConversionSectionWord = () => {
           <Image
             src="/images/text-image.png"
             alt="Effortlessly convert handwritten data into Excel spreadsheets"
+            title="Effortlessly convert handwritten data into Excel spreadsheets"
             width={450}
             height={380}
             className="w-full max-w-[450px] rounded-lg shadow-lg object-cover"
+            loading="lazy"
           />
         </div>
       </section>
@@ -49,9 +51,11 @@ export const ConversionSectionExcel = () => {
           <Image
             src="/images/text-image.png"
             alt="Effortlessly convert handwritten data into Excel spreadsheets"
+            title="Effortlessly convert handwritten data into Excel spreadsheets"
             width={450}
             height={380}
             className="w-full max-w-[450px] rounded-lg shadow-lg object-cover"
+            loading="lazy"
           />
         </div>
         <div className="flex-1 min-w-[300px] md:mb-6">

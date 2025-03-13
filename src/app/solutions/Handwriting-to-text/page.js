@@ -98,11 +98,12 @@ export default function AIHandwritingPost() {
           <Image
             src={metadata.imageUrl}
             alt="Handwriting-to-text"
+            title="Handwriting-to-text"
             width={1200}
             height={600}
             layout="responsive"
             objectFit="cover"
-            // loading="lazy"
+            loading="lazy"
             className="rounded-lg"
           />
         </div>
@@ -196,10 +197,12 @@ export default function AIHandwritingPost() {
               <Image
                 src="/images/cover.png" // Placeholder logo
                 alt="Copywrite+ logo"
+                title="Copywrite+ logo"
                 width={200}
                 height={100}
                 layout="responsive"
                 objectFit="contain"
+                loading="lazy"
               />
             </div>
             <div className="md:w-1/2 px-3">

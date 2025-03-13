@@ -19,10 +19,12 @@ function ArticleCard({ post }) {
         <Image
           src={post.imageUrl}
           alt={post.title}
+          title={post.title}
           layout="fill"
           objectFit="cover"
           className="rounded-t-lg"
           priority
+          loading="lazy"
         />
       </div>
       <div className="p-6">

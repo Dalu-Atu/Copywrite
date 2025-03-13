@@ -39,9 +39,11 @@ const TestimonialSection = () => {
             <Image
               src={testimonial.img}
               alt={testimonial.name}
+              title={testimonial.name}
               width={64} // 16 * 4 (pixels per rem)
               height={64} // 16 * 4 (pixels per rem)
               className="rounded-full mb-4"
+              loading="lazy"
             />
             <h4 className="text-xl text-[#00415a] mb-2">{testimonial.name}</h4>
             <p className="text-base text-[#555]">{testimonial.text}</p>

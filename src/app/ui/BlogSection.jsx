@@ -32,6 +32,7 @@ const BlogSection = () => {
               <Image
                 src={post.imageUrl}
                 alt={post.title}
+                title={post.title}
                 layout="fill"
                 objectFit="cover"
                 className="rounded-t-lg"

@@ -99,11 +99,13 @@ const FeaturesSection = () => {
                 <Image
                   src={feature.image}
                   alt={feature.title}
+                  title={feature.title}
                   width={500} // Adjust width as needed
                   height={300} // Adjust height as needed
                   layout="responsive" // Make the image responsive
                   objectFit="cover" // Maintain aspect ratio and cover the container
                   className="rounded-md mb-4" // Apply your existing styles
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-semibold text-[#00415a]">

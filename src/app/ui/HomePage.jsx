@@ -111,13 +111,15 @@ const HomePage = () => {
 
           <div className="flex justify-center gap-4 mt-6 mb-4">
             <button
-              onClick={() => router.push("/solutions")}
+              onClick={() => router.push("https://app.copywritee.com/signup")}
               className="border-2 border-[#1b9e99] text-[#1b9e99] rounded-md px-6 py-3 transition-all hover:bg-[#015979] hover:text-white"
             >
               Get Started
             </button>
             <button
-              onClick={() => router.push("/upload-image")}
+              onClick={() =>
+                router.push("https://app.copywritee.com/upload-image")
+              }
               className="bg-[#1b9e99] text-white rounded-md px-6 py-3 transition-all hover:bg-[#015979]"
             >
               Upload Image
@@ -128,6 +130,7 @@ const HomePage = () => {
             <Image
               src="/images/handwritting-to-text.png"
               alt="AI-powered handwriting to text conversion"
+              title="AI-powered handwriting to text conversion"
               width={800}
               height={450}
               layout="responsive"
