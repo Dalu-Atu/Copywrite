@@ -3,7 +3,7 @@ import HomePage from "./ui/HomePage";
 export const metadata = {
   title: "Copywrite+ | Convert Handwriting to Text Accurately",
   description:
-    "Save time and skip the typing. convert handwriting to text or document instantly!",
+    "Convert Handwriting into Perfectly Formatted Documents in Seconds. Upload your paper, convert it to text, and get a professional document. Save time and skip the typing. Try it Now.
   keywords: [
     "handwriting to text",
     "AI converter",
