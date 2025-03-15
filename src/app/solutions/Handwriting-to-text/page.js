@@ -10,7 +10,7 @@ export const metadata = {
   title: "Convert Handwriting to Text with Copywrite+",
   description:
     "Easily convert handwriting into perfectly formatted text documents. Fast, accurate, and effortless conversion.",
-  imageUrl: "/images/as1.jpeg",
+  imageUrl: "/images/solutions/as1.jpeg",
   datePublished: "2024-03-08",
   url: "https://copywritee.com/solutions/ai-handwriting",
   keywords:
