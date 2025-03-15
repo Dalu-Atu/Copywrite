@@ -23,7 +23,6 @@ function ArticleCard({ post }) {
           layout="fill"
           objectFit="cover"
           className="rounded-t-lg"
-          priority
           loading="lazy"
         />
       </div>

@@ -94,9 +94,9 @@ const HomePage = () => {
       </Head>
 
       <main>
-        <div className="absolute top-[90%] left-[90%] w-[10vw] h-[10vw] z-[-1] bg-gradient-to-r from-[#56b4d3] to-[#62e389] blur-[40px] rounded-full md:top-[60%] md:left-[70%] md:w-[15vw] md:h-[15vw]"></div>
+        <div className="absolute top-[35%] left-[85%] w-[10vw] h-[10vw] z-[-1] bg-gradient-to-r from-[#56b4d3] to-[#62e389] blur-[40px] rounded-full md:top-[45%] md:left-[80%] md:w-[15vw] md:h-[15vw]"></div>
 
-        <div className="absolute top-[90%] right-[90%] w-[10vw] h-[10vw] z-[-1] bg-gradient-to-r from-[#62e389] to-[#56b4d3] blur-[40px] rounded-full md:top-[60%] md:right-[70%] md:w-[15vw] md:h-[15vw]"></div>
+        <div className="absolute top-[35%] right-[85%] w-[10vw] h-[10vw] z-[-1] bg-gradient-to-r from-[#62e389] to-[#56b4d3] blur-[40px] rounded-full md:top-[45%] md:right-[80%] md:w-[15vw] md:h-[15vw]"></div>
         <HeaderComponent />
 
         <section id="home" className="text-center max-w-5xl mx-auto mt-12">

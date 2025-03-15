@@ -8,11 +8,8 @@ function Logo() {
     margin: "0 24px",
     overflow: "hidden",
     maxHeight: "40px",
-    position: "relative",
-    left: "-0.4rem",
     zIndex: 0,
     maxWidth: "170px",
-
     transform: "scale(1.2)",
   };
 

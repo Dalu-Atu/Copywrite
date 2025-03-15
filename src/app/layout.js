@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({ children }) {
   return (
@@ -39,7 +40,8 @@ export default function RootLayout({ children }) {
           })}
         </script>
       </head>
-      <body className={` bg-gray-100 antialiased`}>
+      <body className={` bg-gray-100 font-sans antialiased`}>
+        <Analytics />
         <div>{children}</div>
       </body>
     </html>
