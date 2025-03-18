@@ -13,6 +13,7 @@ const PricingSection = () => {
       monthlyPrice: "$8 / month",
       yearlyPrice: "$75 /year (25% off)",
       features: [
+        "Auto-charge monthly after trial ends (Cancel anytime)",
         "High Accuracy (Handwriting to text)",
         "Convert up to 100 pages of handwritten notes to documents",
         "Upload, create, and edit documents with our editor",
@@ -27,6 +28,7 @@ const PricingSection = () => {
       monthlyPrice: "$25 / month",
       yearlyPrice: " $225 /year (25% off)",
       features: [
+        "Auto-charge monthly after trial ends (Cancel anytime)",
         "All features in the Starter Plan",
         "Convert up to 500 pages",
         "Save up to 200 documents in the cloud",
@@ -42,6 +44,7 @@ const PricingSection = () => {
       monthlyPrice: "$85 / month",
       yearlyPrice: "$765/year (25% off)",
       features: [
+        "Auto-charge monthly after trial ends (Cancel anytime)",
         "All features in the Pro Plan",
         "Convert up to 2,000 pages",
         "Convert between Word, Excel, and PDF",
@@ -92,6 +95,12 @@ const PricingSection = () => {
             <h4 className="text-base text-[#00415a] text-center mt-2.5">
               <strong>{isYearly ? plan.yearlyPrice : plan.monthlyPrice}</strong>
             </h4>
+            <i
+              style={{ fontSize: "15px", marginTop: "10px", color: "#706900" }}
+            >
+              {" "}
+              2-Day Free Trial → Includes 10 pages free
+            </i>
             <ul className="list-none p-0 mt-2.5">
               {plan.features.map((feature, idx) => (
                 <li

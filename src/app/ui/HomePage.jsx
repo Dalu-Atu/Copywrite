@@ -95,10 +95,8 @@ const HomePage = () => {
 
       <main>
         <div className="absolute top-[35%] left-[85%] w-[10vw] h-[10vw] z-[-1] bg-gradient-to-r from-[#56b4d3] to-[#62e389] blur-[40px] rounded-full md:top-[45%] md:left-[80%] md:w-[15vw] md:h-[15vw]"></div>
-
         <div className="absolute top-[35%] right-[85%] w-[10vw] h-[10vw] z-[-1] bg-gradient-to-r from-[#62e389] to-[#56b4d3] blur-[40px] rounded-full md:top-[45%] md:right-[80%] md:w-[15vw] md:h-[15vw]"></div>
         <HeaderComponent />
-
         <section id="home" className="text-center max-w-5xl mx-auto mt-12">
           <h1 className="text-2xl font-bold leading-snug text-[#00415a] sm:text-3xl md:text-4xl px-2">
             Convert Handwriting into Perfectly
@@ -108,7 +106,19 @@ const HomePage = () => {
             </span>
           </h1>
           <p className="text-lg text-gray-600 w-4/5 mx-auto mt-2">{text}</p>
-
+          <p
+            style={{
+              marginTop: "1rem",
+              textAlign: "center",
+              color: "#706900",
+              fontSize: "large",
+              marginLeft: "20px",
+              marginRight: "20px",
+            }}
+          >
+            {" "}
+            <i>Start Your 2-Day Free Trial</i>
+          </p>
           <div className="flex justify-center gap-4 mt-6 mb-4">
             <button
               onClick={() => router.push("https://app.copywritee.com/signup")}
@@ -139,22 +149,31 @@ const HomePage = () => {
             <div className="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-b from-transparent to-white"></div>
           </div>
         </section>
-
+        <p
+          style={{
+            textAlign: "center",
+            color: "gray",
+            marginTop: "1rem",
+            position: "relative",
+            top: "1rem",
+            fontSize: "large",
+            marginLeft: "20px",
+            marginRight: "20px",
+          }}
+        >
+          {" "}
+          ❤️ Loved by +5000 working professionals!
+        </p>
         <FeaturesSection />
         <HowItWorksSection />
-
         <section>
           <ConversionSectionWord />
           <ConversionSectionExcel />
         </section>
-
         <TestimonialSection />
-
         <PricingSection />
-
         <FAQSection />
         <BlogSection />
-
         <Footer />
       </main>
     </>
