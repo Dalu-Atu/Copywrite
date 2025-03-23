@@ -33,12 +33,13 @@ export const metadata = {
     "Is there a free handwriting-to-text converter?",
     "How to scan and edit handwritten notes?",
   ],
-  alternates: { canonical: "https://copywritee.com" },
+
+  alternates: { canonical: " https://copywritee.com/" },
   openGraph: {
     title: "Convert Handwriting to Text",
     description:
       "Save time and skip the typing. convert handwriting to document instantly!",
-    url: "https://copywritee.com",
+    url: "https://copywritee.com/",
     siteName: "Copywrite+",
     images: [
       {
