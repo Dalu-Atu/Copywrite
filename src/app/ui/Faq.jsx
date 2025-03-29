@@ -379,9 +379,15 @@ const FAQSection = () => {
                     itemProp="acceptedAnswer"
                     itemType="https://schema.org/Answer"
                   >
-                    <p className="text-gray-700" itemProp="text">
-                      {faq.answer}
-                    </p>
+                    <div
+                      itemScope
+                      itemProp="acceptedAnswer"
+                      itemType="https://schema.org/Answer"
+                    >
+                      <p className="text-gray-700" itemProp="text">
+                        {faq.answer}
+                      </p>
+                    </div>
 
                     <div className="mt-3 flex flex-wrap gap-2">
                       {faq.tags.map((tag, tagIndex) => (
@@ -421,12 +427,14 @@ export default FAQSection;
 const generateFAQSchema = (faqs) => ({
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: faqs.map((faq) => ({
-    "@type": "Question",
-    name: faq.question,
-    acceptedAnswer: {
-      "@type": "Answer",
-      text: faq.answer,
-    },
-  })),
+  mainEntity: faqs
+    .filter((faq) => faq.question && faq.answer) // Ensure both fields exist
+    .map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer.trim(),
+      },
+    })),
 });

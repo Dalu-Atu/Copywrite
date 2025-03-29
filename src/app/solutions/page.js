@@ -43,17 +43,17 @@ export const metadata = {
   ],
   alternates: { canonical: "https://copywritee.com/solutions" },
   openGraph: {
-    title: "Convert Handwriting to Text with 97% Accuracy | Copywrite+",
+    title: "Convert Handwriting to Text with 98% Accuracy | Copywrite",
     description:
       "Save time and skip the typing. Convert handwriting to document instantly with our AI-powered OCR technology!",
     url: "https://copywritee.com/solutions",
-    siteName: "Copywrite+",
+    siteName: "Copywrite",
     images: [
       {
         url: "https://copywritee.com/images/handwriting-conversion-demo.png",
         width: 1200,
         height: 630,
-        alt: "Handwriting to text conversion with Copywrite+",
+        alt: "Handwriting to text conversion with Copywrite",
       },
     ],
     locale: "en_US",
@@ -61,7 +61,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Copywrite+ - Convert Handwriting to Text with 97% Accuracy",
+    title: "Copywrite - Convert Handwriting to Text with 97% Accuracy",
     description: "Effortlessly digitize handwritten notes using AI technology.",
     images: ["https://copywritee.com/images/handwriting-conversion-demo.png"],
     site: "@copywriteeapp",
@@ -82,7 +82,7 @@ const Solutions = () => {
   const productSchemaData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "Copywrite+ OCR",
+    name: "Copywrite OCR",
     applicationCategory: "BusinessApplication",
     applicationSubCategory: "Document Processing Software",
     operatingSystem: "Web browser",
@@ -106,7 +106,7 @@ const Solutions = () => {
     <>
       <Head>
         <title>
-          Copywrite+ | Convert Handwriting to Text with AI OCR Technology
+          Copywrite | Convert Handwriting to Text with AI OCR Technology
         </title>
         <meta
           name="description"
