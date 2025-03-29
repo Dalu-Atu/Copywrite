@@ -331,11 +331,7 @@ const FAQSection = () => {
           .
         </p>
       ) : (
-        <div
-          className="space-y-4"
-          itemScope
-          itemType="https://schema.org/FAQPage"
-        >
+        <div className="space-y-4" itemScope>
           {filteredFaqs.map((faq, index) => (
             <div
               key={index}
