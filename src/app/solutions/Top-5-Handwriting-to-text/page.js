@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "Discover the best handwriting to text converters! Easily turn handwritten notes into digital text with high accuracy and speed. Find the perfect tool for your needs.",
   imageUrl: "/images/solutions/top-5.jpeg",
-  datePublished: "2025-03-16",
+
   url: "https://copywritee.com/solutions/Top-5-Handwriting-to-text",
   keywords:
     "handwriting to text, AI handwriting converter, OCR software, text recognition, handwriting recognition, digital note-taking, convert handwriting to text, best handwriting to text tools, online handwriting converter, handwritten notes to digital text",

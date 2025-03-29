@@ -11,7 +11,7 @@ export const metadata = {
   description:
     "Easily convert handwriting into perfectly formatted text documents. Fast, accurate, and effortless conversion.",
   imageUrl: "/images/solutions/as1.jpeg",
-  datePublished: "2024-03-08",
+
   url: "https://copywritee.com/solutions/ai-handwriting",
   keywords:
     "handwriting to text, AI converter, digital handwriting, OCR software, handwritten notes to text, image to text, text recognition, handwriting recognition, document scanning, digital note taking, handwriting analysis, convert handwriting to digital text, ai handwriting reader, best handwriting converter, free handwriting to text, online handwriting recognition",
@@ -47,7 +47,6 @@ export default function AIHandwritingPost() {
               headline: metadata.title,
               description: metadata.description,
               image: metadata.imageUrl,
-              datePublished: metadata.datePublished,
               author: { "@type": "Person", name: "Copywrite" },
               publisher: { "@type": "Organization", name: "Copywrite" },
             },
@@ -89,10 +88,6 @@ export default function AIHandwritingPost() {
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0a3746] mb-2">
           {metadata.title}
         </h1>
-
-        <p className="text-gray-500 text-sm mb-6">
-          {new Date(metadata.datePublished).toLocaleDateString()}
-        </p>
 
         <div className="relative rounded-lg overflow-hidden mb-8">
           <Image
