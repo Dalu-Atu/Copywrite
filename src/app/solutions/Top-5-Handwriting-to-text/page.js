@@ -72,7 +72,7 @@ function TopFiveHandwritingToTextSoftwaare() {
             benchmarking various leading OCR technologies, including our very
             own solution,{" "}
             <b>
-              <a href="https://www.copywritee.com/">Copywrite+</a>
+              <a href="https://www.copywritee.com/">Copywrite</a>
             </b>
             . We’ve subjected these tools to real-world challenges, simulating
             the conditions under which they’ll most often be used. Our testing
@@ -271,7 +271,7 @@ function TopFiveHandwritingToTextSoftwaare() {
                     {" "}
                     {/* Reduced padding */}
                     <div className="flex items-center">
-                      <div className="font-semibold">Copywrite+</div>
+                      <div className="font-semibold">Copywrite</div>
                     </div>
                   </td>
                   <td className="px-4 py-3 whitespace-nowrap">
@@ -547,14 +547,14 @@ function TopFiveHandwritingToTextSoftwaare() {
             Reviews of Top OCR Tools: Best Handwriting Recognition Software
           </h2>
 
-          {/* Copywrite+ Review */}
+          {/* Copywrite Review */}
           <div className="mb-12">
-            <h3 className="text-2xl font-semibold mb-4">Copywrite+</h3>
+            <h3 className="text-2xl font-semibold mb-4">Copywrite</h3>
             <div className="mb-4">
               <Image
                 src="/logo-icon.png"
-                alt="Copywrite+ logo"
-                title="Copywrite+ logo"
+                alt="Copywrite logo"
+                title="Copywrite logo"
                 width={50} // Adjust the width for a better size (50px)
                 height={50} // Keep the height the same as width to make it a circle
                 layout="intrinsic" // Use intrinsic layout to respect the width and height directly
@@ -562,7 +562,7 @@ function TopFiveHandwritingToTextSoftwaare() {
               />
             </div>
             <p className="mb-4">
-              Copywrite+ stands out with its exceptional accuracy in converting
+              Copywrite stands out with its exceptional accuracy in converting
               both handwriting and printed text. Its multi-language support and
               cloud synchronization make it a versatile tool for various users.
               It has its own built-in editor similar to MS Word & MS Excel to
@@ -728,7 +728,7 @@ function TopFiveHandwritingToTextSoftwaare() {
             <p className="mb-4">
               For students, researchers, and those attending lectures, accuracy
               and speed are crucial for capturing notes and assignments. Tools
-              like <strong>Copywrite+</strong> and <strong>Google Lens</strong>{" "}
+              like <strong>Copywrite</strong> and <strong>Google Lens</strong>{" "}
               shine due to their high recognition accuracy, multi-language
               support, and advanced features like cloud synchronization and
               seamless integration with note-taking apps. These tools allow
@@ -742,7 +742,7 @@ function TopFiveHandwritingToTextSoftwaare() {
               allows students to quickly transcribe handwritten notes into
               editable text without complex setup or advanced features. However,
               for long lecture notes or research-heavy writing,{" "}
-              <strong>Copywrite+</strong> is more reliable due to its inbuilt
+              <strong>Copywrite</strong> is more reliable due to its inbuilt
               editor and export features for various document formats.
             </p>
           </div>
@@ -752,7 +752,7 @@ function TopFiveHandwritingToTextSoftwaare() {
             <p className="mb-4">
               Professionals often need to digitize important documents such as
               contracts, meeting minutes, reports, and handwritten
-              correspondence. In such cases, <strong>Copywrite+</strong> excels,
+              correspondence. In such cases, <strong>Copywrite</strong> excels,
               offering high precision, cloud integration, and a powerful inbuilt
               editor. Its support for a variety of document formats (PDF, DOCX,
               TXT, CSV, XlSX etc.) allows professionals to convert handwritten
@@ -769,7 +769,7 @@ function TopFiveHandwritingToTextSoftwaare() {
               and its OCR (Optical Character Recognition) capabilities can
               recognize text from printed documents and convert it into editable
               content. However, Adobe Scan lacks the advanced editing
-              capabilities of Copywrite+.
+              capabilities of Copywrite.
             </p>
           </div>
 
@@ -800,7 +800,7 @@ function TopFiveHandwritingToTextSoftwaare() {
             </p>
             <p className="mb-4">
               For research-heavy tasks, where complex editing and formatting are
-              involved, <strong>Copywrite+</strong> remains a top choice due to
+              involved, <strong>Copywrite</strong> remains a top choice due to
               its advanced image editing capabilities and integration with
               cloud-based platforms for collaboration.
             </p>
@@ -847,12 +847,11 @@ function TopFiveHandwritingToTextSoftwaare() {
               productive, from managing contracts to taking notes and scanning
               business documents. <strong>Microsoft OneNote</strong> can be
               ideal for taking meeting notes and organizing thoughts, while{" "}
-              <strong>Copywrite+</strong> allows for converting handwritten
-              ideas into structured, editable content for client proposals or
-              business reports. Freelancers who frequently travel or work
-              remotely will benefit from <strong>Google Lens</strong>, which
-              enables quick text extraction from photos of whiteboards or
-              documents.
+              <strong>Copywrite</strong> allows for converting handwritten ideas
+              into structured, editable content for client proposals or business
+              reports. Freelancers who frequently travel or work remotely will
+              benefit from <strong>Google Lens</strong>, which enables quick
+              text extraction from photos of whiteboards or documents.
             </p>
             <p className="mb-4">
               Entrepreneurs who need quick digitization of business cards,
@@ -873,7 +872,7 @@ function TopFiveHandwritingToTextSoftwaare() {
             student trying to digitize lecture notes, a professional managing
             contracts, or a researcher working with complex documents, there's a
             tool tailored to meet your needs. By evaluating the features,
-            accuracy, and ease of use of tools like Copywrite+, Google Lens, Pen
+            accuracy, and ease of use of tools like Copywrite, Google Lens, Pen
             to Print, Microsoft OneNote, and Adobe Scan, you can find the
             solution that best fits your specific requirements.
           </p>
@@ -903,14 +902,14 @@ function TopFiveHandwritingToTextSoftwaare() {
           <p className="text-lg mb-8">
             Whether you're a student, professional, or researcher, the right
             handwriting to text converter can significantly enhance your
-            productivity. Explore the features and benefits of Copywrite+ and
+            productivity. Explore the features and benefits of Copywrite and
             experience the difference.
           </p>
           <a
             href="https://copywritee.com/" // Replace with your signup/trial link
             className="inline-block bg-white text-[#015979]  py-3 px-6 rounded-full font-semibold hover:bg-indigo-100 transition duration-300"
           >
-            Try Copywrite+ for Free Today!
+            Try Copywrite for Free Today!
           </a>
         </div>
       </section>
@@ -918,7 +917,7 @@ function TopFiveHandwritingToTextSoftwaare() {
       <footer className="bg-gray-800 text-gray-400 py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <p>
-            &copy; {new Date().getFullYear()} Copywrite+. All rights reserved.
+            &copy; {new Date().getFullYear()} Copywrite. All rights reserved.
           </p>
         </div>
       </footer>

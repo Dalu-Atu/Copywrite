@@ -1,32 +1,35 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
 import { FaCheck } from "react-icons/fa";
 
+import React, { useState } from "react";
+
 const PricingSection = () => {
-  const router = useRouter();
   const [isYearly, setIsYearly] = useState(false);
+  const router = useRouter();
 
   const plans = [
     {
       title: "Starter Plan",
-      monthlyPrice: "$8 / month",
-      yearlyPrice: "$75 /year (25% off)",
+      monthlyPrice: 8,
+      yearlyPrice: 75,
       features: [
         "Auto-charge monthly after trial ends (Cancel anytime)",
         "High Accuracy (Handwriting to text)",
         "Convert up to 100 pages of handwritten notes to documents",
         "Upload, create, and edit documents with our editor",
-        "continuous uploads of handwritten pages to create a single document",
+        "Continuous uploads of handwritten pages to create a single document",
         "Upload and transcribe one handwritten image at a time",
         "Save and manage up to 50 documents in the cloud",
         "Priority customer support",
       ],
+      recommended: false,
+      color: "bg-blue-50",
     },
     {
       title: "Pro Plan",
-      monthlyPrice: "$25 / month",
-      yearlyPrice: " $225 /year (25% off)",
+      monthlyPrice: 25,
+      yearlyPrice: 225,
       features: [
         "Auto-charge monthly after trial ends (Cancel anytime)",
         "All features in the Starter Plan",
@@ -38,11 +41,13 @@ const PricingSection = () => {
         "Continuous Conversion (Keep transcribing different image on one documents)",
         "Upload and transcribe four (4) handwritten image at a time",
       ],
+      recommended: true,
+      color: "bg-indigo-50",
     },
     {
       title: "Enterprise Suite",
-      monthlyPrice: "$85 / month",
-      yearlyPrice: "$765/year (25% off)",
+      monthlyPrice: 85,
+      yearlyPrice: 765,
       features: [
         "Auto-charge monthly after trial ends (Cancel anytime)",
         "All features in the Pro Plan",
@@ -50,80 +55,136 @@ const PricingSection = () => {
         "Convert between Word, Excel, and PDF",
         "Save up to 1000 documents in the cloud",
         "Document AI Formatter",
-        "Batch Upload, convert multiple handwritten pages to  documents at once",
+        "Batch Upload, convert multiple handwritten pages to documents at once",
         "Continuous Conversion (Convert a whole book)",
       ],
+      recommended: false,
+      color: "bg-green-50",
     },
   ];
 
+  const calculateSavings = (monthlyPrice, yearlyPrice) => {
+    const monthlyCost = monthlyPrice * 12;
+    const yearlyCost = yearlyPrice;
+    const savingsPercentage = Math.round(
+      ((monthlyCost - yearlyCost) / monthlyCost) * 100
+    );
+    return savingsPercentage;
+  };
+
   return (
-    <section id="pricing" className="text-center py-12 px-5 bg-gray-100">
-      <h2 className="text-2xl font-bold leading-snug text-[#00415a] sm:text-3xl md:text-4xl px-2">
-        Flexible Plans for Every Need
-      </h2>
-      <div className="flex justify-center items-center gap-2.5 mt-5">
-        <button
-          className={`px-5 py-2 rounded-md text-base transition-colors ${
-            !isYearly
-              ? "bg-[#00415a] text-white hover:bg-[#00415a]"
-              : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-          }`}
-          onClick={() => setIsYearly(false)}
-        >
-          Monthly
-        </button>
-        <button
-          className={`px-5 py-2 rounded-md text-base transition-colors ${
-            isYearly
-              ? "bg-[#00415a] text-white hover:bg-[#18779d]"
-              : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-          }`}
-          onClick={() => setIsYearly(true)}
-        >
-          Yearly (Save 25%)
-        </button>
-      </div>
-      <div className="flex flex-wrap justify-center gap-5 max-w-[1300px] mx-auto mt-5">
-        {plans.map((plan, index) => (
+    <div className="bg-white py-16 px-4">
+      <div className="max-w-7xl mx-auto">
+        {/* Title Section */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-extrabold text-gray-800 mb-4">
+            Pricing Plans
+          </h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Choose the perfect plan that fits your document conversion needs.
+            Flexible, scalable, and designed to boost your productivity.
+          </p>
+        </div>
+
+        {/* Yearly/Monthly Toggle */}
+        <div className="flex justify-center items-center mb-12">
+          <span className="mr-4 text-gray-700 font-semibold">Monthly</span>
           <div
-            key={index}
-            className="bg-white rounded-3xl p-5 w-full max-w-[350px] shadow-lg text-left transition-transform hover:translate-y-[-5px]"
+            className="relative inline-block w-14 h-8 bg-gray-200 rounded-full cursor-pointer"
+            onClick={() => setIsYearly(!isYearly)}
           >
-            <h3 className="text-2xl text-[#00415a] text-center">
-              {plan.title}
-            </h3>
-            <h4 className="text-base text-[#00415a] text-center mt-2.5">
-              <strong>{isYearly ? plan.yearlyPrice : plan.monthlyPrice}</strong>
-            </h4>
-            <i
-              style={{ fontSize: "15px", marginTop: "10px", color: "#706900" }}
-            >
-              {" "}
-              2-Day Free Trial → Includes 10 pages free
-            </i>
-            <ul className="list-none p-0 mt-2.5">
-              {plan.features.map((feature, idx) => (
-                <li
-                  key={idx}
-                  className="flex items-center text-base text-[#00415a] mt-3"
-                >
-                  <div className="flex justify-center items-center min-w-[20px] h-5 rounded-full bg-teal-500 text-white text-xs mr-2.5">
-                    <FaCheck size={12} />
-                  </div>
-                  {feature}
-                </li>
-              ))}
-            </ul>
-            <button
-              className="block w-full py-3 bg-[#00415a] text-white rounded-md text-base cursor-pointer text-center mt-3.5 transition-colors hover:bg-blue-800"
-              onClick={() => router.push("/signup")}
-            >
-              Get started
-            </button>
+            <div
+              className={`
+                absolute top-1 w-6 h-6 bg-white rounded-full shadow-md transition-all duration-300
+                ${isYearly ? "translate-x-full right-0.99" : "left-1"}
+              `}
+            ></div>
           </div>
-        ))}
+          <span className="ml-4 text-gray-700 font-semibold">
+            Yearly
+            {isYearly && (
+              <span className="ml-2 bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">
+                Save 25%
+              </span>
+            )}
+          </span>
+        </div>
+
+        {/* Pricing Cards */}
+        <div className="grid md:grid-cols-3 gap-8">
+          {plans.map((plan) => (
+            <div
+              key={plan.title}
+              className={`
+                ${plan.color} 
+                rounded-2xl shadow-lg overflow-hidden 
+                transform transition-all duration-300 
+                hover:scale-105 hover:shadow-xl
+                ${plan.recommended ? "border-2 border-[#0280ae]" : ""}
+              `}
+            >
+              {plan.recommended && (
+                <div className="bg-[#015979] text-white text-center py-2 font-bold">
+                  Most Popular
+                </div>
+              )}
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                  {plan.title}
+                </h3>
+                <div className="mb-6">
+                  <span className="text-4xl font-extrabold text-gray-900">
+                    ${isYearly ? plan.yearlyPrice : plan.monthlyPrice}
+                  </span>
+                  <span className="text-gray-600 ml-2">
+                    {isYearly ? "/ year" : "/ month"}
+                  </span>
+                  {isYearly && (
+                    <div className="text-green-600 font-semibold mt-2">
+                      Save{" "}
+                      {calculateSavings(plan.monthlyPrice, plan.yearlyPrice)}%
+                    </div>
+                  )}
+                </div>
+                <ul className="space-y-3 mb-6">
+                  {plan.features.map((feature, index) => (
+                    <li key={index} className="flex items-start text-gray-700">
+                      <svg
+                        className="w-5 h-5 text-green-500 mr-2 flex-shrink-0"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-sm">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+                <button
+                  onClick={() =>
+                    router.push("https://app.copywritee.com/signup")
+                  }
+                  className={`
+                    w-full py-3 rounded-lg font-bold transition-all duration-300
+                    ${
+                      plan.recommended
+                        ? "bg-[#015979] text-white hover:bg-[#05678b]"
+                        : "bg-white text-[#015979] border-2 border-[#015979] hover:bg-indigo-50"
+                    }
+                  `}
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 

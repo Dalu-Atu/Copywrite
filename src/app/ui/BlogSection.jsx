@@ -14,7 +14,9 @@ const BlogSection = () => {
   return (
     <section className="bg-gradient-to-r from-[#f0f8ff] to-[#e0f7fa] py-16">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-semibold text-[#00415a]">Read Our Blog</h2>
+        <h2 className="text-3xl font-semibold text-[#00415a]">
+          Browse our solutions
+        </h2>
         <p className="text-lg text-gray-600 mt-4 max-w-xl mx-auto">
           Stay updated with the latest news, tips, and trends in
           handwriting-to-text conversion and AI technologies.
@@ -45,9 +47,6 @@ const BlogSection = () => {
               </h3>
               <p className="text-gray-600 text-sm mb-4">{post.description}</p>
               <div className="flex items-center justify-between">
-                <time className="text-gray-500 text-xs">
-                  {new Date(post.date).toLocaleDateString()}
-                </time>
                 <span className="text-[#2ec4b6] font-semibold text-sm">
                   Read More
                 </span>

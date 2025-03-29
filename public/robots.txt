@@ -1,9 +1,6 @@
-# *
 User-agent: *
 Allow: /
 
-# Host
-Host: https://copywritee.com
-
 # Sitemaps
 Sitemap: https://copywritee.com/sitemap.xml
+Sitemap: https://app.copywritee.com/sitemap.xml

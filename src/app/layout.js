@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
 
-        <meta name="author" content="Copywrite+" />
+        <meta name="author" content="Copywrite" />
         <meta name="robots" content="index, follow" />
 
         <meta property="og:image" content="/social-preview.jpg" />
@@ -28,13 +28,13 @@ export default function RootLayout({ children }) {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            name: "Copywrite+",
+            name: "Copywrite",
             url: "https://copywritee.com",
             description:
               "Save time and skip the typing. convert handwriting to text or document instantly!",
             publisher: {
               "@type": "Organization",
-              name: "Copywrite+",
+              name: "Copywrite",
               logo: "/logo-icon.png",
             },
           })}

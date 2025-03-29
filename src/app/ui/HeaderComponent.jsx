@@ -69,6 +69,10 @@ const HeaderComponent = () => {
       </div>
 
       <button
+        style={{
+          position: "relative",
+          left: "1.5rem",
+        }}
         onClick={() => router.push("https://app.copywritee.com/")}
         className="md:hidden bg-white text-teal-700 px-4 py-2 rounded-md text-lg"
       >

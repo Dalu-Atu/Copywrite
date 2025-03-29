@@ -5,7 +5,7 @@ function Logo() {
     cursor: "pointer",
     display: "flex",
     alignItems: "center",
-    margin: "0 24px",
+    margin: "0 10px",
     overflow: "hidden",
     maxHeight: "40px",
     zIndex: 0,
@@ -16,15 +16,15 @@ function Logo() {
   const styleLogoMedia768 = {
     "@media (max-width: 768px)": {
       position: "relative",
-      left: "-0.5rem",
+      left: "-0.2rem",
     },
   };
 
   const imgStyle = {
-    // height: "200px",
-    // width: "auto",
-    // position: "relative",
-    // right: "1rem",
+    height: "200px",
+    width: "auto",
+    position: "relative",
+    right: "1rem",
   };
 
   const imgStyleMedia400 = {
@@ -42,8 +42,8 @@ function Logo() {
     >
       <Image
         src="/default.png"
-        alt="Copywrite+ Logo"
-        title="Copywrite+ Logo"
+        alt="Copywrite Logo"
+        title="Copywrite Logo"
         priority
         width={150}
         height={100}

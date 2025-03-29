@@ -7,7 +7,7 @@ import Footer from "@/app/ui/Footer";
 import FAQSection from "@/app/ui/Faq";
 
 export const metadata = {
-  title: "Convert Handwriting to Text with Copywrite+",
+  title: "Convert Handwriting to Text with Copywrite",
   description:
     "Easily convert handwriting into perfectly formatted text documents. Fast, accurate, and effortless conversion.",
   imageUrl: "/images/solutions/as1.jpeg",
@@ -48,8 +48,8 @@ export default function AIHandwritingPost() {
               description: metadata.description,
               image: metadata.imageUrl,
               datePublished: metadata.datePublished,
-              author: { "@type": "Person", name: "Copywrite+" },
-              publisher: { "@type": "Organization", name: "Copywrite+" },
+              author: { "@type": "Person", name: "Copywrite" },
+              publisher: { "@type": "Organization", name: "Copywrite" },
             },
             {
               "@context": "https://schema.org",
@@ -156,7 +156,7 @@ export default function AIHandwritingPost() {
               <strong>Easy Collaboration:</strong> Streamline collaboration,
               especially with tools like{" "}
               <Link href="/" className=" text-[#0a3746] ">
-                <strong> Copywrite+</strong>
+                <strong> Copywrite</strong>
               </Link>
               .
             </li>
@@ -196,8 +196,8 @@ export default function AIHandwritingPost() {
             <div className="md:w-1/2 mb-4 md:mb-0">
               <Image
                 src="/images/cover.png" // Placeholder logo
-                alt="Copywrite+ logo"
-                title="Copywrite+ logo"
+                alt="Copywrite logo"
+                title="Copywrite logo"
                 width={200}
                 height={100}
                 layout="responsive"
@@ -210,7 +210,7 @@ export default function AIHandwritingPost() {
                 <strong>
                   {" "}
                   <Link href="/" className=" text-[#0a3746] ">
-                    <strong> Copywrite+</strong>
+                    <strong> Copywrite</strong>
                   </Link>
                   :
                 </strong>{" "}
@@ -225,7 +225,7 @@ export default function AIHandwritingPost() {
           <h2 className="text-2xl font-semibold text-[#0a3746] mb-4 mt-8">
             Step-by-Step Guide to Converting Handwritten Notes with{" "}
             <Link href="/" className=" text-[#0a3746] ">
-              <strong> Copywrite+</strong>
+              <strong> Copywrite</strong>
             </Link>
           </h2>
           <ol className="list-decimal list-inside mb-8">
@@ -236,7 +236,7 @@ export default function AIHandwritingPost() {
                 Ensure proper lighting to avoid shadows and keep the paper flat
                 to minimize distortion.{" "}
                 <Link href="/" className=" text-[#0a3746] ">
-                  <strong> Copywrite+</strong>
+                  <strong> Copywrite</strong>
                 </Link>{" "}
                 even detects handwriting on blur images.
               </p>
@@ -245,7 +245,7 @@ export default function AIHandwritingPost() {
               <strong>
                 Step 2: Upload the Image to{" "}
                 <Link href="/" className=" text-[#0a3746] ">
-                  <strong> Copywrite+</strong>
+                  <strong> Copywrite</strong>
                 </Link>{" "}
                 (Multiple Input Methods)
               </strong>
@@ -259,13 +259,13 @@ export default function AIHandwritingPost() {
               <strong>
                 Step 3: Process the Image with{" "}
                 <Link href="/" className=" text-[#0a3746] ">
-                  <strong> Copywrite+</strong>
+                  <strong> Copywrite</strong>
                 </Link>{" "}
                 (AI-Powered Conversion)
               </strong>
               <p className="mt-2">
                 <Link href="/" className=" text-[#0a3746] ">
-                  <strong> Copywrite+</strong>
+                  <strong> Copywrite</strong>
                 </Link>{" "}
                 analyzes the image, recognizing text, shapes, and patterns. AI
                 enhancements ensure accurate conversion, even with messy
@@ -280,7 +280,7 @@ export default function AIHandwritingPost() {
               <p className="mt-2">
                 Proofread for errors, make manual corrections within
                 <Link href="/" className=" text-[#0a3746] ">
-                  <strong> Copywrite+</strong>
+                  <strong> Copywrite</strong>
                 </Link>
                 's editor, and verify tables and special formats.
               </p>
@@ -294,7 +294,7 @@ export default function AIHandwritingPost() {
                 Save and export your document in various formats (TXT, DOCX,
                 PDF, Excel). Utilize{" "}
                 <Link href="/" className=" text-[#0a3746] ">
-                  <strong> Copywrite+</strong>
+                  <strong> Copywrite</strong>
                 </Link>
                 's cloud storage for easy access and further editing.
               </p>
@@ -305,7 +305,7 @@ export default function AIHandwritingPost() {
           <h2 className="text-2xl font-semibold text-[#0a3746] mb-4 mt-8">
             Best Practices for Accurate Handwriting Conversion with{" "}
             <Link href="/" className=" text-[#0a3746] ">
-              <strong> Copywrite+</strong>
+              <strong> Copywrite</strong>
             </Link>
           </h2>
           <ul className="list-disc list-inside mb-8">
@@ -320,7 +320,7 @@ export default function AIHandwritingPost() {
             <li className="mb-2">
               <strong>Take Advantage of AI Learning:</strong> Train{" "}
               <Link href="/" className=" text-[#0a3746] ">
-                <strong> Copywrite+</strong>
+                <strong> Copywrite</strong>
               </Link>
               by correcting errors, use regular updates, and provide feedback.
             </li>
@@ -382,7 +382,7 @@ export default function AIHandwritingPost() {
             The transition to digital text enhances productivity and
             organization.{" "}
             <Link href="/" className=" text-[#0a3746] ">
-              <strong> Copywrite+</strong>
+              <strong> Copywrite</strong>
             </Link>{" "}
             and advanced OCR technology ensure accurate and reliable
             transcriptions. Embrace this technology for collaboration and

@@ -4,7 +4,6 @@ import { useRouter } from "next/navigation";
 
 function ArticleCard({ post }) {
   const router = useRouter();
-  const { asPath } = router;
   const handlePostClick = (slug) => {
     router.push(`/solutions/${slug}`);
   };
@@ -32,9 +31,6 @@ function ArticleCard({ post }) {
         </h2>
         <p className="text-gray-600 text-sm mb-4">{post.description}</p>
         <div className="flex items-center justify-between">
-          <time className="text-gray-500 text-xs">
-            {new Date(post.date).toLocaleDateString()}
-          </time>
           <span className="text-[#2ec4b6] font-semibold text-sm">
             Read More
           </span>
