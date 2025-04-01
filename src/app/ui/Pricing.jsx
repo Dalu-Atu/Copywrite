@@ -9,16 +9,32 @@ const PricingSection = () => {
   const router = useRouter();
 
   const plans = [
+    // {
+    //   title: "Starter Plan",
+    //   monthlyPrice: 8,
+    //   yearlyPrice: 75,
+    //   features: [
+    //     "Auto-charge monthly after trial ends (Cancel anytime)",
+    //     "High Accuracy (Handwriting to text)",
+    //     "Convert up to 100 pages of handwritten notes to documents",
+    //     "Upload, create, and edit documents with our editor",
+    //     "Continuous uploads of handwritten pages to create a single document",
+    //     "Upload and transcribe one handwritten image at a time",
+    //     "Save and manage up to 50 documents in the cloud",
+    //     "Priority customer support",
+    //   ],
+    //   recommended: false,
+    //   color: "bg-blue-50",
+    // },
     {
-      title: "Starter Plan",
-      monthlyPrice: 8,
-      yearlyPrice: 75,
+      title: "Free Plan",
+      monthlyPrice: 0,
+      yearlyPrice: 0,
       features: [
-        "Auto-charge monthly after trial ends (Cancel anytime)",
         "High Accuracy (Handwriting to text)",
-        "Convert up to 100 pages of handwritten notes to documents",
+        "Convert up to 50 pages of handwritten notes to documents",
         "Upload, create, and edit documents with our editor",
-        "Continuous uploads of handwritten pages to create a single document",
+
         "Upload and transcribe one handwritten image at a time",
         "Save and manage up to 50 documents in the cloud",
         "Priority customer support",

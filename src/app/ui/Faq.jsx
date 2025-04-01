@@ -407,12 +407,9 @@ const FAQSection = () => {
         <p className="text-gray-700 mb-4">
           Still have questions? We're here to help!
         </p>
-        <a
-          href="/contact"
-          className="inline-block bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300"
-        >
+        <button className="inline-block bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300">
           Contact Our Support Team
-        </a>
+        </button>
       </div>
     </section>
   );

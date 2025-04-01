@@ -7,7 +7,7 @@ import Footer from "@/app/ui/Footer";
 import FAQSection from "@/app/ui/Faq";
 
 export const metadata = {
-  title: "Convert Handwriting to Text with Copywrite",
+  title: "Convert Handwriting to Text with Copywrite for free",
   description:
     "Easily convert handwriting into perfectly formatted text documents. Fast, accurate, and effortless conversion.",
   imageUrl: "/images/solutions/as1.jpeg",
