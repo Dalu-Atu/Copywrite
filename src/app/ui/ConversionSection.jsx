@@ -29,7 +29,7 @@ export const ConversionSectionWord = () => {
         </div>
         <div className="flex-1 min-w-[300px] flex justify-center">
           <Image
-            src="/images/text-image.png"
+            src="/images/to-word.jpeg"
             alt="Effortlessly convert handwritten data into Excel spreadsheets"
             title="Effortlessly convert handwritten data into Excel spreadsheets"
             width={450}
@@ -49,7 +49,7 @@ export const ConversionSectionExcel = () => {
       <section className="flex items-center justify-center flex-wrap p-16 px-8 bg-[#f9f9f9] gap-8 md:px-8">
         <div className="flex-1 min-w-[300px] flex justify-center">
           <Image
-            src="/images/text-image.png"
+            src="/images/to-excel.jpeg"
             alt="Effortlessly convert handwritten data into Excel spreadsheets"
             title="Effortlessly convert handwritten data into Excel spreadsheets"
             width={450}

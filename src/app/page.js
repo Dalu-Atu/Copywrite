@@ -20,14 +20,6 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          CopyWrite | Convert handwriting to text instantly | We Tested Every
-          Handwriting
-        </title>
-        <meta
-          name="description"
-          content="Convert handwritten notes, images, and PDFs to editable text with 98% accuracy using our AI-powered OCR technology. Free trial available."
-        />
         <meta
           name="keywords"
           content="OCR software, text extraction, handwriting recognition, PDF conversion, image to text, handwriting to text"
