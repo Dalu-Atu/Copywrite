@@ -25,4 +25,12 @@ export const blogPosts = [
     imageUrl: "/images/solutions/image-to-text-poster.jpeg",
     slug: "images-to-text",
   },
+  {
+    id: 4,
+    title: "Convert Handwritten Notes to Word Documents – Try For Free",
+    description:
+      "Transform your handwritten notes into editable, searchable documents in minutes. Convert your handwritten notes into word documents and allow you to edit document online",
+    imageUrl: "/images/text-word.png",
+    slug: "notes-to-word",
+  },
 ];

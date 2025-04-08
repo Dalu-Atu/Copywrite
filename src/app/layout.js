@@ -5,16 +5,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta charSet="UTF-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=5"
-        />
-
-        <meta name="author" content="Copywrite" />
         <meta name="robots" content="index, follow" />
 
-        <meta property="og:image" content="/social-preview.jpg" />
+        <meta property="og:image" content="/images/cover.png" />
         <meta property="og:url" content="https://copywritee.com" />
         <meta property="og:type" content="website" />
         {/* Favicon & Icons */}

@@ -104,29 +104,6 @@ const Solutions = () => {
 
   return (
     <>
-      <Head>
-        <title>
-          Copywrite | Convert Handwriting to Text with AI OCR Technology
-        </title>
-        <meta
-          name="description"
-          content="Save time and skip the typing. Convert handwritten notes to editable text or documents instantly with 97% accuracy. Free trial available!"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://copywritee.com/solutions" />
-        {/* Structured data for search engines */}
-        <script
-          type="application/ld+json"
-          // dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchemaData) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(productSchemaData),
-          }}
-        />
-      </Head>
-
       <HeaderComponent />
 
       <main>

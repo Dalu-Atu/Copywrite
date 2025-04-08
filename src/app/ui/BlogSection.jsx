@@ -24,7 +24,7 @@ const BlogSection = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 justify-items-center">
-        {blogPosts.map((post) => (
+        {blogPosts.slice(-3).map((post) => (
           <div
             key={post.id}
             onClick={() => handlePostClick(post.slug)}
