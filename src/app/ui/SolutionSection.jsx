@@ -2,7 +2,7 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { blogPosts } from "../lib/posts";
+import { solutions } from "../lib/solutions";
 
 const BlogSection = () => {
   const router = useRouter();
@@ -24,7 +24,7 @@ const BlogSection = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 justify-items-center">
-        {blogPosts.slice(-3).map((post) => (
+        {solutions.slice(-3).map((post) => (
           <div
             key={post.id}
             onClick={() => handlePostClick(post.slug)}

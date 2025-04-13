@@ -1,4 +1,3 @@
-// app/page.js or pages/index.js depending on your Next.js version
 import Head from "next/head";
 import HomePage from "./ui/HomePage";
 
@@ -20,10 +19,6 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta
-          name="keywords"
-          content="OCR software, text extraction, handwriting recognition, PDF conversion, image to text, handwriting to text"
-        />
         <link rel="canonical" href="https://copywriteplus.com/" />
         <script
           type="application/ld+json"

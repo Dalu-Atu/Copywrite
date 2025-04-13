@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import HeaderComponent from "../ui/HeaderComponent";
-import { blogPosts } from "../lib/posts";
+import { solutions } from "../lib/solutions";
 import Footer from "../ui/Footer";
 import ArticleCard from "../ui/ArticleCard";
 import Script from "next/script";
@@ -175,8 +175,8 @@ const Solutions = () => {
               document processing workflow and boost productivity.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {blogPosts.map((post) => (
-                <ArticleCard post={post} key={post.id} />
+              {solutions.map((sol) => (
+                <ArticleCard post={sol} key={sol.id} />
               ))}
             </div>
           </div>

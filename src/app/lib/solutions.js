@@ -1,4 +1,4 @@
-export const blogPosts = [
+export const solutions = [
   {
     id: 1,
     title: "How to convert handwriting to text",
@@ -32,5 +32,14 @@ export const blogPosts = [
       "Transform your handwritten notes into editable, searchable documents in minutes. Convert your handwritten notes into word documents and allow you to edit document online",
     imageUrl: "/images/text-word.png",
     slug: "notes-to-word",
+  },
+  {
+    id: 5,
+    title:
+      "Why Copywrite is Better Than Google Docs for Handwriting Conversion | Best Handwriting OCR Tool",
+    description:
+      "Discover why Copywrite outperforms Google Docs for document management. Preserve formatting, colors, and tables while converting handwritten notes to digital documents",
+    imageUrl: "/images/copywrite-image002.png",
+    slug: "digitize-document",
   },
 ];

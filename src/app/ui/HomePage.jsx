@@ -14,7 +14,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import HowItWorksSection from "./HowItWorks";
-import BlogSection from "./BlogSection";
+import SolutionSection from "./SolutionSection";
 
 const messages = [
   "Upload your paper, convert it to text, and get a professional document ready for download or editing",
@@ -173,7 +173,7 @@ const HomePage = () => {
         <TestimonialSection />
         <PricingSection />
         <FAQSection />
-        <BlogSection />
+        <SolutionSection />
         <Footer />
       </main>
     </>
