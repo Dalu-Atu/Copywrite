@@ -85,11 +85,11 @@ const PricingSection = () => {
     const savingsPercentage = Math.round(
       ((monthlyCost - yearlyCost) / monthlyCost) * 100
     );
-    return savingsPercentage;
+    return savingsPercentage || 100;
   };
 
   return (
-    <div className="bg-white py-16 px-4">
+    <section id="pricing" className="bg-white py-16 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Title Section */}
         <div className="text-center mb-12">
@@ -200,7 +200,7 @@ const PricingSection = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,6 +1,6 @@
 const HowItWorksSection = () => {
   return (
-    <section className="max-w-5xl mx-auto py-16 px-6 text-center">
+    <section id="about" className="max-w-5xl mx-auto py-16 px-6 text-center">
       <h2 className="text-4xl font-bold text-gray-900">How It Works</h2>
       <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
         Follow these simple steps to convert your handwritten or scanned

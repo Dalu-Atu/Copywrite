@@ -42,4 +42,12 @@ export const solutions = [
     imageUrl: "/images/copywrite-image002.png",
     slug: "digitize-document",
   },
+  {
+    id: 6,
+    title: "Convert Handwritten Tables to Excel Documents – Try For Free",
+    description:
+      "Convert your handwritten tables into fully editable and searchable Excel spreadsheets. Easily transform scanned notes into structured, online spreadsheets you can update anytime.",
+    imageUrl: "/images/text-excel.png",
+    slug: "notes-to-excel",
+  },
 ];

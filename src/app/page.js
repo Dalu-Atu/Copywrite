@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://copywriteplus.com/" />
+        <link rel="canonical" href="https://copywritee.com/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -31,7 +31,7 @@ export default function Home() {
               operatingSystem: "Web browser",
               offers: {
                 "@type": "Offer",
-                price: "7.99",
+                price: "9.99",
                 priceCurrency: "USD",
               },
               description:

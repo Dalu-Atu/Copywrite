@@ -1,119 +1,152 @@
-import Image from "next/image";
-const features = [
-  {
-    image: "/images/accurate-conversion.png",
-    title: "High-Precision OCR & ICR",
-    description:
-      "Leverage advanced OCR and ICR technology for accurate handwriting-to-text conversion with minimal errors.",
-  },
-  {
-    image: "/images/converting-image.png",
-    title: "Instant Digital Conversion",
-    description:
-      "Convert handwritten notes into editable Word or Excel documents in seconds—fast and seamless.",
-  },
-  {
-    image: "/images/editing-image.jpeg",
-    title: "Effortless Editing & Formatting",
-    description:
-      "Easily modify and structure your digital notes to match your workflow after conversion.",
-  },
-  {
-    image: "/images/saving-image.png",
-    title: "Cloud Sync & Secure Backup",
-    description:
-      "Access your converted documents from any device with automatic cloud storage.",
-  },
-  {
-    image: "/images/convert-multilanguage.png",
-    title: "Multi-Language Handwriting Support",
-    description:
-      "Convert handwritten text in multiple languages, perfect for global teams and projects.",
-  },
-  {
-    image: "/images/collaboration.jpg",
-    title: "Real-Time Team Collaboration",
-    description:
-      "Share and edit converted documents with your team for seamless productivity.",
-  },
-];
+import {
+  ArrowRight,
+  Edit,
+  Database,
+  Cloud,
+  FileText,
+  Share2,
+  FileSpreadsheet,
+  Download,
+  Maximize2,
+  Layers,
+} from "lucide-react";
 
-const FeaturesSection = () => {
+const CopywriteFeatures = () => {
+  const mainFeatures = [
+    {
+      icon: <FileText className="text-blue-600" size={28} />,
+      title: "Complete Document Ecosystem",
+      description:
+        "Not just a converter—a full document management system that preserves formatting, handles tables, and offers MS Word-like editing in the cloud.",
+    },
+    {
+      icon: <Edit className="text-green-600" size={28} />,
+      title: "Familiar Editing Interface",
+      description:
+        "Edit your converted documents in our intuitive editor that feels just like MS Word—no learning curve required.",
+    },
+    {
+      icon: <FileSpreadsheet className="text-amber-600" size={28} />,
+      title: "Spreadsheet Support",
+      description:
+        "Handwritten tables? We convert them to perfectly formatted digital spreadsheets with our Excel-like interface.",
+    },
+  ];
+
+  const features = [
+    {
+      icon: <Layers className="text-indigo-600" size={24} />,
+      title: "High-Precision OCR & ICR",
+      description:
+        "99% accuracy when converting handwritten notes to perfectly formatted digital text.",
+    },
+    {
+      icon: <Cloud className="text-sky-600" size={24} />,
+      title: "Cloud Document Management",
+      description:
+        "Create folders, organize files, and access your documents from anywhere, anytime.",
+    },
+    {
+      icon: <Download className="text-rose-600" size={24} />,
+      title: "Export to 20+ Formats",
+      description:
+        "Save your documents in various formats including DOCX, PDF, XLSX, and many more.",
+    },
+    {
+      icon: <Database className="text-purple-600" size={24} />,
+      title: "Import Existing Documents",
+      description:
+        "Upload your Word files and edit them directly in Copywrite's familiar interface.",
+    },
+    {
+      icon: <Share2 className="text-teal-600" size={24} />,
+      title: "Seamless Collaboration",
+      description:
+        "Share documents with team members and collaborate in real-time.",
+    },
+    {
+      icon: <Maximize2 className="text-orange-600" size={24} />,
+      title: "Format Preservation",
+      description:
+        "We maintain your original formatting, including tables, colors, and layouts.",
+    },
+  ];
+
   return (
-    <section id="features" className="bg-gray-100 py-16 px-4">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-2xl font-bold leading-snug text-[#00415a] sm:text-3xl md:text-4xl px-2">
-          Write by Hand ➝ Convert to Text ➝{" "}
-          <span className="bg-gradient-to-r from-[#015979] via-[#1b9e99] to-[#39f8f2] bg-clip-text text-transparent font-bold">
-            Download Document
-          </span>
-        </h2>
-        <p className="text-gray-700 text-lg mt-2 w-3/4 mx-auto sm:w-11/12 md:w-full">
-          Stop wasting time typing! Convert handwritten notes into digital text
-          and boost your productivity.
-        </p>
-        <div className="grid grid-cols-1 gap-6 mt-8 sm:grid-cols-2 lg:grid-cols-3">
-          {[
-            {
-              image: "/images/accurate-conversion.png",
-              title: "99% OCR & ICR Accuracy",
-              description:
-                "Convert Handwriting into Perfectly Formatted Documents in Seconds With advanced OCR & ICR technology, ",
-            },
-            {
-              image: "/images/converting-image.png",
-              title: "Instant Digital Conversion",
-              description:
-                "Transform handwritten notes into editable digital documents including word or excel instantly—no waiting, just seamless results.",
-            },
-            {
-              image: "/images/editing-image.jpeg",
-              title: "Easy Editing & Formatting",
-              description:
-                "Once your notes are digitized, effortlessly edit, format, and organize them to suit your needs.",
-            },
-            {
-              image: "/images/saving-image.png",
-              title: "Cloud Syncing",
-              description:
-                "Automatically sync your converted documents across devices, so you can access them from anywhere, anytime.",
-            },
-            {
-              image: "/images/convert-multilanguage.png",
-              title: "Multi-Language Support",
-              description:
-                "Convert handwritten documents in various languages, making it easy to work on international projects.",
-            },
-            {
-              image: "/images/collaboration.jpg",
-              title: "Team Collaboration",
-              description:
-                "Collaborate seamlessly on project goals with an intuitive, shared workspace for teams.",
-            },
-          ].map((feature, index) => (
+    <section
+      id="features"
+      className="py-20 bg-gradient-to-b from-white to-gray-50"
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Section Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+            More Than Just{" "}
+            <span className="text-[#1b9e99]">Handwriting Recognition</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Copywrite transforms how you work with handwritten notes, creating a
+            complete document management ecosystem.
+          </p>
+        </div>
+
+        {/* Main Feature Workflow */}
+        <div className="relative mb-24">
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="h-1 w-full bg-gradient-to-r from-blue-400 to-teal-400 opacity-25 rounded-full"></div>
+          </div>
+
+          <div className="relative flex justify-between flex-col md:flex-row">
+            {["Capture", "Process", "Edit & Organize"].map((step, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <div className="flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-r from-blue-600 to-teal-500 text-white font-bold text-xl shadow-lg">
+                  {index + 1}
+                </div>
+                <h3 className="mt-3 text-lg font-medium text-gray-900">
+                  {step}
+                </h3>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Main Features */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-20">
+          {mainFeatures.map((feature, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-md p-8 transition-transform duration-300 hover:-translate-y-1 sm:p-2"
+              className="bg-white rounded-xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl"
             >
-              <div className="w-full min-h-[150px] rounded-md overflow-hidden flex justify-center items-center">
-                <Image
-                  src={feature.image}
-                  alt={feature.title}
-                  title={feature.title}
-                  width={500} // Adjust width as needed
-                  height={300} // Adjust height as needed
-                  layout="responsive" // Make the image responsive
-                  objectFit="cover" // Maintain aspect ratio and cover the container
-                  className="rounded-md mb-4" // Apply your existing styles
-                  loading="lazy"
-                />
+              <div className="p-8">
+                <div className="h-12 mb-6 flex items-center">
+                  {feature.icon}
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">
+                  {feature.title}
+                </h3>
+                <p className="text-gray-600">{feature.description}</p>
               </div>
-              <h3 className="text-xl font-semibold text-[#00415a]">
-                {feature.title}
-              </h3>
-              <p className="text-gray-600 mt-2 text-sm">
-                {feature.description}
-              </p>
+              <div className="h-2 bg-gradient-to-r from-blue-400 to-teal-400"></div>
+            </div>
+          ))}
+        </div>
+
+        {/* Secondary Features */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              className="bg-white p-6 rounded-lg shadow-md border border-gray-100 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+            >
+              <div className="flex items-center mb-4">
+                <div className="p-2 bg-gray-50 rounded-lg mr-4">
+                  {feature.icon}
+                </div>
+                <h3 className="font-semibold text-lg text-gray-900">
+                  {feature.title}
+                </h3>
+              </div>
+              <p className="text-gray-600">{feature.description}</p>
             </div>
           ))}
         </div>
@@ -122,4 +155,4 @@ const FeaturesSection = () => {
   );
 };
 
-export default FeaturesSection;
+export default CopywriteFeatures;

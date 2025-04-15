@@ -29,38 +29,7 @@ const testimonials = [
 ];
 const TestimonialSection = () => {
   return (
-    // <section
-    //   id="testimonials"
-    //   className="py-16 px-4 text-center bg-[#f9f9f9] md:px-8"
-    // >
-    //   <h2 className="text-2xl font-bold leading-snug text-[#00415a] sm:text-3xl md:text-4xl px-2">
-    //     What Our Users Say
-    //   </h2>
-    //   <p className="text-xl text-[#666] mb-10 max-w-[600px] mx-auto">
-    //     See what our customers have to say about their experience with us.
-    //   </p>
-    //   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center max-w-[1200px] mx-auto text-center">
-    //     {testimonials.map((testimonial, index) => (
-    //       <div
-    //         key={index}
-    //         className="bg-white p-4 rounded-3xl shadow-lg max-w-[400px] text-left transition-transform border border-[#00415a] hover:-translate-y-2"
-    //       >
-    //         <Image
-    //           src={testimonial.img}
-    //           alt={testimonial.name}
-    //           title={testimonial.name}
-    //           width={64} // 16 * 4 (pixels per rem)
-    //           height={64} // 16 * 4 (pixels per rem)
-    //           className="rounded-full mb-4"
-    //           loading="lazy"
-    //         />
-    //         <h4 className="text-xl text-[#00415a] mb-2">{testimonial.name}</h4>
-    //         <p className="text-base text-[#555]">{testimonial.text}</p>
-    //       </div>
-    //     ))}
-    //   </div>
-    // </section>
-    <section className="py-16 bg-gray-50">
+    <section id="testimonials" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto mb-16 text-center">
           <span className="inline-block px-3 py-1 bg-blue-100 text-[#015979] rounded-full text-sm font-semibold mb-4">
