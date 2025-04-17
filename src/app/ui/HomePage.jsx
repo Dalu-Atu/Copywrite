@@ -15,7 +15,6 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import HowItWorksSection from "./HowItWorks";
 import SolutionSection from "./SolutionSection";
-import { ArrowRight, CheckCircle, ChevronDown } from "lucide-react";
 
 const messages = [
   "Upload your paper, convert it to text, and get a professional document ready for download or editing",

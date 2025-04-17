@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { solutions } from "../lib/solutions";
 
-const BlogSection = () => {
+const SolutionSection = () => {
   const router = useRouter();
 
   const handlePostClick = (slug) => {
@@ -59,4 +59,4 @@ const BlogSection = () => {
   );
 };
 
-export default BlogSection;
+export default SolutionSection;

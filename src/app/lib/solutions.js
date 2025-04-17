@@ -50,4 +50,12 @@ export const solutions = [
     imageUrl: "/images/text-excel.png",
     slug: "notes-to-excel",
   },
+  {
+    id: 7,
+    title: "Access Your Handwritten Notes Online Anytime | Copywrite",
+    description:
+      "Store, access, and manage your handwritten notes converted to document online with Copywrite's secure cloud platform. Access your notes anytime, anywhere, from any device with our intuitive online document system.",
+    imageUrl: "/images/copywrite-image004.png",
+    slug: "store-document-online",
+  },
 ];
