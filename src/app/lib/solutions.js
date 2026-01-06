@@ -6,7 +6,7 @@ export const solutions = [
       "Easily convert handwriting into perfectly formatted text documents. Fast, accurate, and effortless conversion.",
     imageUrl: "/images/solutions/as1.jpeg",
 
-    slug: "Handwriting-to-text",
+    slug: "handwriting-to-text",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const solutions = [
       "Discover the best tools to turn handwritten notes into digital text. Compare accuracy, speed, and features to find the perfect converter for your needs.",
     imageUrl: "/images/solutions/top-5.jpeg",
 
-    slug: "Top-5-Handwriting-to-text",
+    slug: "top-5-handwriting-to-text",
   },
   {
     id: 3,

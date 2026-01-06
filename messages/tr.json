@@ -1,0 +1,1141 @@
+{
+  "HomePage": {
+    "trust_pill": "V2.0 El Yazısı OCR: %99.2 Doğruluk",
+    "hero_title_1": "El Yazısını Metne ve Düzenlenebilir",
+    "hero_title_2": "Belgelere Dönüştürün.",
+    "hero_subtitle": "El yazısı notları, taranmış PDF formlarını veya beyaz tahta fotoğraflarını yükleyin. Motorumuz bunları saniyeler içinde düzenlenebilir Word, Excel ve PDF dosyalarına dönüştürür.",
+    "check_1": "Kredi kartı gerekmez",
+    "check_2": "Ayda 50 Ücretsiz dönüşüm",
+    "rating_text": "10 binden fazla kullanıcıdan 4.9/5 puan",
+    "cta_start": "Ücretsiz Başla",
+    "cta_upload": "Görsel Yükle",
+    "stat_time": "İşlem Süresi",
+    "stat_accuracy": "OCR Doğruluğu",
+    "meta_title": "El Yazısını Metne Dönüştürme | Yapay Zeka El Yazısı OCR | Copywritee",
+    "meta_desc": "El yazısı notları anında düzenlenebilir dijital metne dönüştürün. Dünyanın en doğru yapay zeka destekli el yazısı OCR aracı."
+  },
+  "Features": {
+    "section_label": "Ekosistem",
+    "main_title_1": "Belgeleri dijitalleştirmek için",
+    "main_title_2": "ihtiyacınız olan her şey.",
+    "main_desc": "Çoğu OCR aracı sadece metni çıkarır ve formatı bozar. Copywritee düzeni yeniden oluşturur, verilerinizi korur ve notlarınızı profesyonel belgelere dönüştürür.",
+    "editor_label": "Tanıdık Arayüz",
+    "editor_title": "Word kullanıyormuş gibi düzenleyin.",
+    "editor_desc": "Yeni bir araç öğrenmenize gerek yok. Editörümüz MS Word ile aynı hissettirir. El yazısı notlarınızı dönüştürdükten sonra üzerinde anında değişiklik yapın.",
+    "editor_check_1": "Öğrenme eğrisi yok: Tanıdık araç çubuğu ve düzen.",
+    "editor_check_2": "Format Koruma: Kalın, italik ve listeleri korur.",
+    "editor_mock_doc": "Toplanti_Notlari_Temmuz.docx",
+    "table_label": "Veri Dönüşümü",
+    "table_title": "Tabloları Elektronik Tablolara Dönüştürün.",
+    "table_desc": "Yazılı verilerinizi anında analiz edin. El yazısı günlükleri ve tabloları mükemmel hücre hizalamasıyla .xlsx dosyalarına dönüştürün.",
+    "table_check_1": "Otomatik Algılama: Notlarınızdaki satır ve sütunları tanır.",
+    "table_check_2": "Formüle Hazır: Pivot tablolar için temiz veri sağlar.",
+    "table_mock_doc": "Butce_Donusumu_Q3.xlsx",
+    "eco_title": "Eksiksiz bir ekosistem",
+    "eco_subtitle": "Profesyonel iş akışları ve tam güvenlik için tasarlandı.",
+    "lang_label": "Küresel Motor",
+    "lang_title": "30+ Dil Desteği",
+    "lang_desc": "İngilizce el yazısından Japonca Kanji'ye kadar tüm alfabeleri yüksek hassasiyetle anlar.",
+    "cloud_label": "Depolama",
+    "cloud_title": "Akıllı Kütüphane",
+    "cloud_desc": "Notlarınız tarandığı anda otomatik etiketleme ve AI klasörleri ile organize edilir.",
+    "export_label": "Entegrasyonlar",
+    "export_title": "Her Yere Aktarın",
+    "export_desc": "Favori araçlarınıza tek tıkla senkronizasyon. Dijital alanla aradaki boşluğu kapatıyoruz."
+  },
+  "Trust": {
+    "title": "Liderlerin tercihi.",
+    "description": "Okullardan küresel teknoloji firmalarına kadar vizyoner ekipler Copywritee'yi seçiyor."
+  },
+  "HowItWorks": {
+    "label": "İŞ AKIŞI",
+    "title_1": "El yazısını düzenlenebilir metne",
+    "title_2": "dönüştürmek için üç adım.",
+    "description": "Saatlerce yeniden yazmaktan kurtulun. Copywritee eski OCR sürecini 3 saniyelik bir akışa dönüştürür.",
+    "step_1_title": "Yükle ve Tara",
+    "step_1_desc": "Görselleri veya PDF'leri bırakın. Motorumuz kontrastı otomatik olarak iyileştirir.",
+    "step_2_title": "Nöral Analiz",
+    "step_2_desc": "Yapay zekamız tablo, başlık ve stilleri tanımlayarak belgeyi haritalandırır.",
+    "step_3_title": "Yapısal Sentez",
+    "step_3_desc": "Belge Word, Excel veya Notion'da düzenlemeye hazır şekilde yeniden oluşturulur.",
+    "processing": "İşleniyor..."
+  },
+  "Why": {
+    "label": "NEDEN BİZ?",
+    "title_main": "Hatalı OCR düzeltmeyi",
+    "title_bad_ocr": "bırakın.",
+    "title_suffix": "Anında çalışmaya başlayın.",
+    "subtitle": "Geleneksel araçlar sadece metni çıkarır. Biz belgeyi yeniden inşa ederiz.",
+    "others_label": "Geleneksel OCR",
+    "others_error": "Hata",
+    "others_notes": "* Biçimlendirme kaybolur | * Tablolar bozulur | * Manuel temizlik gerekir",
+    "our_label": "Akıllı Yeniden İnşa",
+    "our_status": "Doğrulandı",
+    "our_table_desc": "Açıklama",
+    "our_table_total": "Toplam",
+    "our_table_item": "Web Geliştirme",
+    "our_table_date": "Tarih",
+    "our_features": "Düzen Korundu | %100 Düzenlenebilir",
+    "card_1_title": "10 Kat Daha Hızlı",
+    "card_1_desc": "Manuel yazım saatler sürer. Biz saniyeler içinde hallederiz.",
+    "card_1_manual": "Manuel",
+    "card_2_title": "Maliyetleri %70 Azaltın",
+    "card_2_desc": "Veri girişi hatalarını ortadan kaldırın. Copywritee ilk ayda kendini amorti eder.",
+    "card_2_stat": "aylık tasarruf*",
+    "card_3_title": "Veri Egemenliği",
+    "card_3_desc": "Verilerinizle model eğitmiyoruz. Belgeleriniz şifrelenir ve silinir."
+  },
+  "Testimonials": {
+    "label": "Başarı Hikayeleri",
+    "title_main": "Üretken ekipler",
+    "title_highlight": "tarafından sevildi.",
+    "subtitle": "Eğitimcilerden analistlere kadar herkesin iş akışını nasıl modernize ettiğini görün.",
+    "trust_footer": "Bugün belgelerini dönüştüren 10.000+ kullanıcıya katılın.",
+    "items": {
+      "ev": {
+        "role": "Öğretmen",
+        "company": "Sapele Mesleki Eğitim Merkezi",
+        "quote": "Copywritee el yazısı notlarla çalışma şeklimi değiştirdi. Word'e dönüştürmek bana her hafta saatler kazandırıyor."
+      },
+      "ab": {
+        "role": "Veri Analisti",
+        "company": "TechCorp Inc.",
+        "quote": "Excel dönüşümü harika. Finansal kayıtları tarayıp anında hatasız tablolar alabiliyorum."
+      },
+      "gc": {
+        "role": "Kurucu Ortak",
+        "company": "QueerHaven",
+        "quote": "PDF düzenleme ve bulut depolama tam ihtiyacımız olan şeydi. İş birliği artık çok daha sorunsuz."
+      }
+    }
+  },
+  "FAQ": {
+    "title_main": "Sıkça Sorulan",
+    "title_highlight": "Sorular",
+    "items": {
+      "what_is": {
+        "q": "Copywritee nedir?",
+        "a": "Copywritee, el yazısı notları Word ve Excel gibi düzenlenebilir dijital belgelere dönüştüren bir platformdur. PDF düzenleme ve bulut depolama araçları sunar."
+      },
+      "who_benefit": {
+        "q": "Copywritee'den kimler yararlanabilir?",
+        "a": "Öğrenciler, profesyoneller, araştırmacılar, öğretmenler ve el yazısı notlarla uğraşan herkes hızlıca dijitalleştirme yapabilir."
+      },
+      "how_work": {
+        "q": "Copywritee nasıl çalışır?",
+        "a": "Notunuzun fotoğrafını yükleyin. Gelişmiş OCR motorumuz el yazısını analiz eder ve Word, PDF veya Excel formatında çıktı verir."
+      },
+      "accuracy": {
+        "q": "El yazısı tanıma ne kadar doğru?",
+        "a": "Copywritee, el yazısı ve bitişik eğik yazılarda %95-98 doğruluk oranına ulaşır."
+      },
+      "cursive": {
+        "q": "Eğik yazıyı metne dönüştürebilir mi?",
+        "a": "Evet. OCR motorumuz hem blok hem de karmaşık bitişik eğik yazıları yüksek doğrulukla tanımak için eğitilmiştir."
+      },
+      "formats": {
+        "q": "Hangi dosya formatlarına dönüştürebilirim?",
+        "a": "Microsoft Word (.docx), PDF, Excel (.xlsx), Google Dokümanlar ve düz metin (.txt) formatlarına aktarım yapabilirsiniz."
+      },
+      "how_to_word": {
+        "q": "Notları Word belgesine nasıl dönüştürürüm?",
+        "a": "Görseli yükleyin, saniyeler içinde işlenmesini bekleyin ve 'Word'e Aktar' butonuna tıklayın. Dosyanız anında hazır olur."
+      },
+      "limits": {
+        "q": "Maksimum dosya boyutu ve sayfa sınırı nedir?",
+        "a": "Ücretsiz kullanıcılar 10MB ve 5 sayfa; Premium kullanıcılar 50MB ve 50 sayfaya kadar işlem yapabilir."
+      },
+      "math": {
+        "q": "Matematik denklemlerini veya sembollerini destekliyor mu?",
+        "a": "Evet, Copywritee matematiksel denklemleri, formülleri ve bilimsel notasyonları desteklemek üzere geliştirilmiştir."
+      },
+      "phone_scan": {
+        "q": "Telefonumla notları tarayabilir miyim?",
+        "a": "Evet. Telefonunuzun kamerasıyla çektiğiniz notları doğrudan Copywritee'ye yükleyerek tarayabilirsiniz."
+      },
+      "quality": {
+        "q": "En iyi sonuç için görsel kalitesi nasıl olmalı?",
+        "a": "İyi aydınlatma kullanın, gölgelerden kaçının ve görüntünün düz (eğilmemiş) olduğundan emin olun. 300 DPI çözünürlük idealdir."
+      },
+      "history": {
+        "q": "Eski aile mektuplarını veya tarihi belgeleri dijitalleştirebilir miyim?",
+        "a": "Kesinlikle! Kağıt çok solmamış ve metin okunabilir olduğu sürece tarihi belgeleri korumak için mükemmeldir."
+      },
+      "low_accuracy": {
+        "q": "Dönüşüm doğru değilse ne yapmalıyım?",
+        "a": "Dışa aktarmadan önce metni editörümüzde düzenleyebilirsiniz. Kötü sonuçlarda aydınlatmayı ve çözünürlüğü artırmayı deneyin."
+      },
+      "pdf_edit": {
+        "q": "PDF'leri doğrudan düzenleyebilir miyim?",
+        "a": "Evet. Copywritee, metin eklemenize, vurgulamanıza ve belgeleri imzalamanıza olanak tanıyan yerleşik bir PDF düzenleyici içerir."
+      },
+      "cloud_save": {
+        "q": "Belgeler çevrimiçi kaydediliyor mu?",
+        "a": "Evet. Her belge güvenli bir şekilde Copywritee bulutunda saklanır ve her cihazdan erişilebilir."
+      },
+      "sharing": {
+        "q": "Belgeleri başkalarıyla paylaşabilir miyim?",
+        "a": "Evet. Paylaşılabilir bağlantılar oluşturabilir veya Notion, OneDrive ve Dropbox gibi platformlara aktarabilirsiniz."
+      },
+      "storage_limit": {
+        "q": "Ne kadar bulut depolama alanım var?",
+        "a": "Ücretsiz kullanıcılar 1GB, Premium kullanıcılar ise 100GB depolama alanına sahip olur."
+      },
+      "languages": {
+        "q": "Copywritee hangi dilleri destekliyor?",
+        "a": "Şu an İngilizce, İspanyolca, Fransızca, Almanca, İtalyanca ve Portekizce dahil birçok dili destekliyoruz."
+      },
+      "messy_writing": {
+        "q": "Kötü el yazılarında çalışıyor mu?",
+        "a": "Evet. Sistemimiz karışık ve eğik dahil geniş bir el yazısı stili yelpazesi üzerinde eğitilmiştir."
+      },
+      "security": {
+        "q": "Verilerim güvende mi?",
+        "a": "Evet. Belgeler AES-256 ile şifrelenir. Buluta kaydetmediğiniz sürece belgeler 30 gün sonra sunuculardan silinir."
+      },
+      "install": {
+        "q": "Yazılım yüklemem gerekiyor mu?",
+        "a": "Hayır. Tamamen web tabanlıdır. Ancak isterseniz çevrimdışı kullanım için masaüstü uygulaması da mevcuttur."
+      },
+      "offline": {
+        "q": "Çevrimdışı çalışıyor mu?",
+        "a": "Web sürümü internet gerektirir, ancak masaüstü uygulamamız bazı temel özellikleri çevrimdışı sunar."
+      },
+      "batch": {
+        "q": "Aynı anda birden fazla sayfa işleyebilir miyim?",
+        "a": "Evet! Premium ile aynı anda 50 sayfaya kadar toplu işlem yapabilirsiniz."
+      },
+      "is_free": {
+        "q": "Copywritee kullanımı ücretsiz mi?",
+        "a": "Evet. Ayda 50 dönüşüm ve 1GB depolama sunan bir Ücretsiz Planımız mevcuttur."
+      },
+      "pricing_diff": {
+        "q": "Ücretsiz ve Premium arasındaki fark nedir?",
+        "a": "Premium sınırsız dönüşüm, PDF düzenleme, 100GB depolama ve öncelikli destek sunar."
+      },
+      "cancel": {
+        "q": "İstediğim zaman iptal edebilir miyim?",
+        "a": "Evet. Herhangi bir sözleşme yoktur, aboneliğinizi dilediğiniz zaman panelden iptal edebilirsiniz."
+      },
+      "why_manual": {
+        "q": "Neden manuel yazmak yerine Copywritee seçilmeli?",
+        "a": "Manuel yazım yavaştır. Copywritee süreci dijitalleştirerek vaktinizin %90'ını size geri kazandırır."
+      },
+      "diff_others": {
+        "q": "Copywritee diğer uygulamalardan nasıl farklıdır?",
+        "a": "Sadece metin çıkarmaz; PDF düzenleme, bulut depolama ve çoklu format desteği ile uçtan uca yönetim sunar."
+      },
+      "digitize_free": {
+        "q": "Ücretsiz nasıl dijitalleştirme yaparım?",
+        "a": "Ücretsiz planımızla görseli yükleyin, dönüşümü bekleyin ve Word veya PDF olarak dışa aktarın. Kart bilgisi gerekmez."
+      }
+    }
+  },
+  "WordPage": {
+    "meta_title": "El Yazısını Word'e Dönüştür (DOCX) | Copywritee",
+    "meta_desc": "El yazısı notları anında düzenlenebilir MS Word belgelerine dönüştürün...",
+    "hero_title_1": "El Yazısından",
+    "hero_title_2": "Word'e",
+    "hero_subtitle": "Notlarınızı tekrar yazmayın. Yapay zekamız orijinal düzeni, tabloları ve stili koruyarak görselleri .docx dosyalarına dönüştürür.",
+    "feat_1_title": "Düzen Koruma",
+    "feat_1_desc": "Çoğu araç metni yığın olarak atar. Biz listeleri ve kenar boşluklarını algılayarak Word belgenizin orijinali gibi görünmesini sağlarız.",
+    "feat_2_title": "Karmaşık Yazılar mı? Sorun Değil.",
+    "feat_2_desc": "ICR motorumuz milyonlarca el yazısı örneği ile eğitilmiştir.",
+    "feat_3_title": "Otomatik Silme",
+    "feat_3_desc": "Gizliliğiniz önemlidir. Dosyalar şifreli bir kapta işlenir ve kalıcı olarak silinir.",
+    "faq_title": "Sıkça Sorulan Sorular",
+    "faq_q1": "Eğik yazıyı okuyabilir mi?",
+    "faq_a1": "Evet. Copywritee, bitişik scriptler için eğitilmiş sinir ağlarını kullanır.",
+    "faq_q2": "Verilerim güvende mi?",
+    "faq_a2": "Kesinlikle. TLS şifreleme kullanıyoruz ve dosyaları 60 dakika içinde siliyoruz."
+  },
+  "PdfPage": {
+    "meta_title": "Ücretsiz Online PDF Düzenleyici ve AI Sohbet | Copywritee",
+    "meta_desc": "AI kullanarak PDF'lerinizi düzenleyin, imzalayın ve sohbet edin. Dokümanları özetleyin, yanıtları çıkarın ve formları tarayıcınızda güvenle doldurun.",
+    "hero_pill": "Akıllı PDF Paketi",
+    "hero_title_1": "PDF'leri düzenleyin ve sohbet edin,",
+    "hero_title_2": "her zaman, her yerde.",
+    "hero_subtitle": "Hepsi bir arada PDF çalışma alanı. Metni düzenleyin, sözleşmeleri imzalayın ve raporları anında özetlemek veya soruları yanıtlamak için AI kullanın.",
+    "btn_upload": "PDF Dosyası Yükle",
+    "trust_soc2": "SOC2 Uyumlu Güvenlik",
+    "trust_ai": "AI Destekli Sohbet",
+    "trust_esign": "Yasal Olarak Bağlayıcı e-İmza",
+    "feat_1_title": "Dokümanlarla Sohbet Edin",
+    "feat_1_desc": "100 sayfalık bir sözleşme yükleyin ve sorun: 'Fesih maddeleri nelerdir?' Yapay zekamız saniyeler içinde tarar ve yanıtlar.",
+    "feat_2_title": "Doldur ve İmzala",
+    "feat_2_desc": "Yazdırmayı bırakın. İmzanızı ekleyin, formları doldurun ve kutucukları dijital olarak işaretleyin. İş kullanımı için tamamen uyumludur.",
+    "feat_3_title": "Düzenle ve Birleştir",
+    "feat_3_desc": "Birden fazla PDF'yi tek bir dosyada birleştirin, sayfaları döndürün veya gereksiz bölümleri silin. Dosyalarınız üzerinde tam kontrol.",
+    "workflow_title": "Yeni PDF İş Akışınız",
+    "step_1_title": "Yükle",
+    "step_1_desc": "50MB'a kadar olan tüm PDF'leri sürükleyip bırakın.",
+    "step_2_title": "Analiz Et",
+    "step_2_desc": "AI, arama ve sohbet için metni dizine ekler.",
+    "step_3_title": "Düzenle",
+    "step_3_desc": "Metin, resim veya imza ekleyin.",
+    "step_4_title": "İndir",
+    "step_4_desc": "Tamamlanan dokümanı dışa aktarın.",
+    "cta_title": "Dokümantasyonunuzu evcilleştirin.",
+    "cta_desc": "Sözleşmeleri ve raporları yönetmek için Copywritee kullanan 10.000'den fazla profesyonele katılın.",
+    "cta_btn": "Şimdi Ücretsiz Başlayın",
+    "btn_new": "Yeni belge oluştur"
+  },
+  "EditorPage": {
+    "meta_title": "Ücretsiz Online Doküman Düzenleyici | Word ve Excel Düzenle | Copywritee",
+    "meta_desc": "DOCX, XLSX ve metin dosyalarını doğrudan tarayıcınızda düzenleyin. Kurulum gerektirmez. Hızlı, güvenli ve tanıdık bir ofis paketi alternatifi.",
+    "hero_pill": "Bulut Ofis Paketi",
+    "hero_title_1": "Dokümanlarınızı düzenleyin,",
+    "hero_title_2": "her an, her yerden.",
+    "hero_subtitle": "Microsoft Word ve Excel dosyalarını doğrudan tarayıcınızda düzenleyin. Hızlı düzenlemeler için kurulum veya giriş gerekmez.",
+    "btn_new": "Yeni Doküman Başlat",
+    "btn_upload": "Dosya Yükle",
+    "trust_secure": "Özel ve Güvenli",
+    "trust_os": "Tüm İşletim Sistemlerinde Çalışır",
+    "trust_office": "%100 MS Office Uyumlu",
+    "feat_1_title": "Her Yerden Çalışın",
+    "feat_1_desc": "Dokümanlarınıza her cihazdan erişin. İster Windows, ister Mac veya Linux olsun; düzenleyiciniz bir tık uzağınızda.",
+    "feat_2_title": "Tanıdık Arayüz",
+    "feat_2_desc": "Yazmayı yeniden öğrenmenize gerek yok. Araç çubuğumuz ve kısayollarımız Word ve Excel'i taklit eder, böylece anında üretken olursunuz.",
+    "feat_3_title": "Hafif ve Hızlı",
+    "feat_3_desc": "Ağır yazılımların yüklenmesini beklemeyin. Copywritee Düzenleyici, yavaş bağlantılarda bile 2 saniyenin altında açılır.",
+    "formats_title": "Desteklenen Formatlar",
+    "formats_subtitle": "Tüm Office ekosistemini destekliyoruz. Mevcut dosyalarınızı yükleyin veya yeni bir başlangıç yapın.",
+    "format_docx": "Microsoft Word",
+    "format_xlsx": "Microsoft Excel",
+    "format_txt": "Düz Metin",
+    "format_csv": "Veri Sayfaları"
+  },
+  "ExcelPage": {
+    "meta_title": "El Yazısı Tabloları Excel'e (XLSX) Dönüştür | Copywritee",
+    "meta_desc": "Veri girişini otomatikleştirin. El yazısı ızgaraları, finansal tabloları ve çizelgeleri AI ile anında düzenlenebilir Excel sayfalarına dönüştürün.",
+    "hero_pill": "Akıllı Izgara Tanıma",
+    "hero_title": "El Yazısından",
+    "hero_highlight": "Excel'e",
+    "hero_subtitle": "Manuel veri girişine son verin. AI, el yazısı notlarınızdaki satırları, sütunları ve başlıkları algılar ve bunları .xlsx dosyalarına dönüştürür.",
+    "trust_security": "Banka Düzeyinde Güvenlik",
+    "trust_grid": "Çoklu Sütun Algılama",
+    "trust_accuracy": "%99,8 Sayısal Doğruluk",
+    "feat_1_title": "Akıllı Izgaralar",
+    "feat_1_desc": "Sadece metni görmüyoruz; yapıyı görüyoruz. Motorumuz çizilen çizgileri ve birleştirilmiş hücreleri otomatik olarak tanımlar.",
+    "feat_2_title": "Finansal Doğruluk",
+    "feat_2_desc": "Sayılar için optimize edildi. El yazısı faturaları, envanter listelerini ve finansal defterleri dijitalleştirmek için mükemmeldir.",
+    "feat_3_title": "Evrensel Dışa Aktarım",
+    "feat_3_desc": "Verilerinizi standart Microsoft Excel (.xlsx) veya CSV formatında indirin, Google E-Tablolar'a kolayca aktarın.",
+    "how_title": "Kağıttan e-tabloya saniyeler içinde",
+    "step_1_title": "Çek",
+    "step_1_desc": "Defterinizin veya veri tablonuzun bir fotoğrafını çekin.",
+    "step_2_title": "Çözümle",
+    "step_2_desc": "AI, satırların ve sütunların geometrisini haritalandırır.",
+    "step_3_title": "Dışa Aktar",
+    "step_3_desc": "Temiz ve formüllü bir Excel dosyası indirin.",
+    "faq_title": "Sıkça Sorulan Sorular",
+    "cta_title": "Verilerinizi bugün dijitalleştirin",
+    "cta_btn": "Tabloyu Şimdi Dönüştür"
+  },
+  "nav": {
+    "product": "Ürün",
+    "solutions": "Çözümler",
+    "company": "Kurumsal",
+    "notes_to_word": "Notları Word'e",
+    "desc_word": "Notları belgelere dönüştür",
+    "table_to_excel": "Tabloyu Excel'e",
+    "desc_excel": "Çizili tabloları veriye dönüştür",
+    "online_editor": "Çevrimiçi Belge Editörü",
+    "desc_editor": "Tarayıcıda Word/Excel düzenle",
+    "pdf_tools": "PDF Araçları",
+    "desc_pdf": "PDF düzenle, imzala ve sohbet et",
+    "academic": "Akademik",
+    "desc_academic": "Ders notlarını dijitalleştir",
+    "enterprise": "Kurumsal",
+    "desc_enterprise": "Güvenli belge iş akışları",
+    "support": "Destek",
+    "desc_support": "Ekibimizden yardım alın",
+    "pricing": "Fiyatlandırma",
+    "login": "Giriş Yap",
+    "get_started": "Ücretsiz Başla"
+  },
+
+  "Footer": {
+    "description": "El yazısı notları anında temiz, düzenlenebilir belgelere dönüştürün. Güvenli, hızlı ve modern ekipler için tasarlandı.",
+    "stay_updated": "Güncel Kalın",
+    "email_placeholder": "E-posta adresinizi girin",
+    "systems_ok": "Tüm sistemler çalışıyor",
+    "product": "Ürün",
+    "company": "Kurumsal",
+    "resources": "Kaynaklar",
+    "hiring": "Alım Var",
+    "copyright": "© {year} Copywritee Inc. | Küresel ekipler için tasarlandı.",
+    "links": {
+      "notes_to_word": "Notları Word'e",
+      "table_to_excel": "Tabloyu Excel'e",
+      "online_editor": "Çevrimiçi Belge Editörü",
+      "pricing": "Fiyatlandırma",
+      "about": "Hakkımızda",
+      "careers": "Kariyer",
+      "contact": "İletişim",
+      "docs": "Dokümantasyon",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Şartları"
+    }
+  },
+  "Contact": {
+    "meta_title": "İletişim | Copywritee Destek ve Yardım Merkezi",
+    "meta_desc": "El yazısını metne dönüştürmek için yardıma mı ihtiyacınız var? Teknik destek veya iş birliği için Copywritee ekibiyle iletişime geçin.",
+    "meta_keywords": "copywritee iletişim, müşteri desteği, el yazısı OCR yardımı, teknik destek, iletişim formu",
+    "og_title": "İletişim | Copywritee Destek",
+    "og_desc": "El yazısı dönüşümü için hızlı yardım alın. Bugün ekibimize ulaşın.",
+    "breadcrumb_home": "Anasayfa",
+    "breadcrumb_contact": "İletişim",
+    "org_name": "Copywritee"
+  },
+  "Pricing": {
+    "meta_title": "Fiyatlandırma | El Yazısı Metin Dönüştürücü | Copywritee",
+    "meta_desc": "İhtiyacınıza uygun planı seçin. Ücretsiz denemeden Pro ($8/ay) ve Business ($25/ay) planlarına kadar. %99 doğruluk.",
+    "meta_keywords": "el yazısı metin fiyatları, OCR yazılım maliyeti, öğrenci araçları fiyatları, doküman otomasyonu fiyatı",
+    "og_title": "Uygun Fiyatlı Yapay Zeka El Yazısı Tanıma | Copywritee",
+    "og_desc": "Ayda 50 sayfa ile ücretsiz başlayın. Sınırsız toplu işlem ve Notion senkronizasyonu için yükseltin.",
+    "product_name": "Copywritee El Yazısı OCR",
+    "product_desc": "El yazısını metne dönüştürme yazılımı.",
+    "plan_free": "Ücretsiz Plan",
+    "plan_pro": "Pro Plan",
+    "plan_biz": "Kurumsal Plan"
+  },
+  "PricingUI": {
+    "hero": {
+      "title_start": "Kusursuz dijitalleşme için",
+      "title_highlight": "şeffaf fiyatlandırma.",
+      "subtitle": "El yazısı notları saniyeler içinde düzenlenebilir metne dönüştürün. İş akışınıza en uygun planı seçin."
+    },
+    "billing": {
+      "monthly": "Aylık",
+      "yearly": "Yıllık",
+      "save": "%20 Tasarruf Et",
+      "per_month": "/ay"
+    },
+    "labels": { "capacity": "Kapasite", "features": "Özellikler" },
+   "plans": {
+    "free": {
+      "name": "Ücretsiz",
+      "description": "Öğrenciler ve bireysel kullanıcılar için temel el yazısı dönüştürme.",
+      "pages": "Aylık 50 sayfa",
+      "buttonText": "Ücretsiz Başla",
+      "features": [
+        "Aylık 50 Sayfa",
+        "Yüksek Doğruluk (El yazısından metne)",
+        "Standart İşlem Hızı",
+        "Güvenli Bulut Depolama",
+        "E-posta Desteği",
+        "TXT, Word, Excel, Html formatında dışa aktarma",
+        "Editörümüzle belge yükleyin, oluşturun ve düzenleyin",
+        "Aynı anda tek bir el yazısı görseli yükleme ve metne dökme",
+        "Bulutta 50 belgeye kadar kaydetme ve yönetme"
+      ],
+      "missing": [
+        "Toplu İşleme",
+        "Tablo Tanıma",
+        "Özel Formatlama",
+        "Çoklu formatta dışa aktarma (Docx, Xlsx, Pdf, html, odt ve daha fazlası)",
+        "Aynı anda dört (4) el yazısı görseli yükleme ve metne dökme",
+        "Kesintisiz Dönüştürme (Farklı görselleri tek bir belgede dönüştürmeye devam etme)"
+      ]
+    },
+    "starter": {
+      "name": "Starter",
+      "description": "Daha fazla güce ihtiyaç duyan serbest çalışanlar ve araştırmacılar için mükemmel.",
+      "pages": "Aylık 200 sayfa",
+      "buttonText": "Başlayın",
+      "features": [
+        "Ücretsiz plandaki tüm özellikler",
+        "Aylık 200 Sayfa",
+        "%98 Doğruluk Motoru",
+        "Tam iş akışı otomasyonu",
+        "Hızlı el yazısı transkripsiyonu",
+        "Öncelikli müşteri desteği",
+        "Toplu Yükleme",
+        "Aynı anda beş (5) el yazısı görseli yükleme ve metne dökme",
+        "Kesintisiz Dönüştürme (Farklı görselleri tek bir belgede dönüştürmeye devam etme)",
+        "PDF, Word, Excel, Json ve daha fazlasına aktarma",
+        "Bulut Depolama: 500 belge",
+        "El Yazısı Stili Öğrenme"
+      ],
+      "missing": [
+        "Yükleme başına 5 görselle sınırlı",
+        "Sınırlı PDF Düzenleme",
+        "Ekip Yönetimi",
+        "Belge Yapay Zeka Biçimlendirici"
+      ]
+    },
+    "pro": {
+      "badge": "En Popüler",
+      "name": "Pro",
+      "description": "Ekipler ve profesyoneller için yüksek hacimli çözüm.",
+      "pages": "Aylık 1.000 sayfa",
+      "buttonText": "Business Planına Yükselt",
+      "features": [
+        "Pro plandaki tüm özellikler",
+        "Aylık 1.000 Sayfa",
+        "Belge Yapay Zeka Biçimlendirici",
+        "Gerçek Zamanlı İşlem Kuyruğu",
+        "Sınırsız Toplu İşleme",
+        "Word, Excel ve PDF arasında dönüştürme",
+        "Gelişmiş Tablo Ayıklama",
+        "PDF belgelerini düzenleme",
+        "Öncelikli Sohbet ve E-posta Desteği",
+        "Kesintisiz Dönüştürme (Tüm bir kitabı dönüştürme)",
+        "Toplu Yükleme, birden fazla el yazısı sayfasını aynı anda belgelere dönüştürme",
+        "Özel Fatura Markalama"
+      ]
+    }
+  },
+    "enterprise": {
+      "title": "1.000 sayfadan fazlasına mı ihtiyacınız var?",
+      "desc": "Özel API limitleri ve hesap yönetimi ile Enterprise planımızı deneyin.",
+      "cta": "Satışla İletişime Geç"
+    },
+    "comparison": {
+      "title": "Detaylı Karşılaştırma",
+      "subtitle": "Teknik özellikleri inceleyin.",
+      "header_feature": "Özellik",
+      "rows": [
+        { "name": "Aylık Sayfa", "free": "50", "pro": "200", "bus": "1.000" },
+        {
+          "name": "Desteklenen Diller",
+          "free": "15",
+          "pro": "35+",
+          "bus": "50+"
+        },
+        {
+          "name": "İşlem Hızı",
+          "free": "Standart",
+          "pro": "Hızlı",
+          "bus": "Anlık"
+        }
+      ]
+    },
+    "faq_title": "Sıkça Sorulan Sorular",
+    "faqs": [
+      {
+        "q": "Bir sayfa ne sayılır?",
+        "a": "Bir görsel dosyası veya bir PDF sayfası."
+      },
+      {
+        "q": "Verilerim güvende mi?",
+        "a": "Evet, banka düzeyinde AES-256 şifreleme kullanıyoruz."
+      }
+    ],
+    "support": {
+      "title": "Hala sorularınız mı var?",
+      "email_label": "Bize Yazın",
+      "chat_label": "Canlı Sohbet",
+      "chat_time": "9:00 - 17:00 EST arası uygun"
+    }
+  },
+  "Signup": {
+    "meta_title": "Copywritee'ye Katıl | İş Akışını Dijitalleştir",
+    "meta_desc": "Ücretsiz hesap oluşturun ve el yazısını metne dönüştürmeye hemen başlayın.",
+    "hero": {
+      "badge": "Küresel Topluluk",
+      "title": "10.000'den fazla profesyonele katılın.",
+      "check_1": "50 sayfayı ücretsiz dönüştürün",
+      "check_2": "Word, Excel, PDF olarak dışa aktarın",
+      "check_3": "Banka düzeyinde güvenlik",
+      "trusted_by": "Güvenen markalar"
+    },
+    "form": {
+      "title": "Hesap oluştur",
+      "subtitle": "Notlarınızı saniyeler içinde dijitalleştirin.",
+      "google_btn": "Google ile Kayıt Ol",
+      "divider": "Veya e-posta ile kayıt ol",
+      "label_name": "Ad Soyad",
+      "placeholder_name": "Ahmet Yılmaz",
+      "label_email": "İş E-postası",
+      "label_password": "Şifre",
+      "password_hint": "En az 8 karakter olmalı",
+      "terms_prefix": "Şartları kabul ediyorum:",
+      "terms_link": "Hizmet Şartları",
+      "privacy_link": "Gizlilik Politikası",
+      "submit_btn": "Başlayın",
+      "footer_text": "Zaten hesabınız var mı?",
+      "login_link": "Giriş yap"
+    }
+  },
+  "Login": {
+    "meta_title": "Giriş Yap | Copywritee",
+    "meta_desc": "Tekrar hoş geldiniz. Belgelerinizi dönüştürmeye devam etmek için giriş yapın.",
+    "hero": {
+      "badge": "10.000+ Ekip Tarafından Kullanılıyor",
+      "testimonial": "\"Doğruluk oranı korkutucu derecede iyi. Bu hafta ekibimize 40 saat kazandırdı.\"",
+      "author": "James Machiavelli",
+      "stat_accuracy": "Doğruluk",
+      "stat_scanned": "Taranan Sayfa"
+    },
+    "form": {
+      "title": "Tekrar hoş geldiniz",
+      "subtitle": "Çalışma alanınıza erişmek için bilgilerinizi girin.",
+      "google_btn": "Google ile Giriş Yap",
+      "divider": "Veya e-posta ile devam et",
+      "label_email": "E-posta adresi",
+      "label_password": "Şifre",
+      "forgot_password": "Şifremi unuttum",
+      "remember_me": "30 gün boyunca beni hatırla",
+      "submit_btn": "Giriş Yap",
+      "footer_text": "Hesabınız yok mu?",
+      "signup_link": "Ücretsiz kaydolun",
+      "copyright": "Güvenli Giriş"
+    }
+  },
+  "ContactPage": {
+    "meta_title": "İletişim | Copywritee Destek ve Yardım Merkezi",
+    "meta_desc": "El yazısını metne dönüştürme konusunda hızlı yardım alın. Teknik destek ve kurumsal talepleriniz için ekibimize ulaşın.",
+    "hero": {
+      "badge": "İletişim Merkezi",
+      "title_start": "Bir",
+      "title_highlight": "sohbet başlatalım.",
+      "subtitle": "Doğrudan bize ulaşın. 'Gönder'e tıkladığınızda mesajınızı güvenle iletmeniz için e-posta uygulamanız açılacaktır."
+    },
+    "form": {
+      "first_name": "Adınız",
+      "last_name": "Soyadınız",
+      "email": "İş E-postası",
+      "needs": "İhtiyaçlarınızı bize anlatın",
+      "placeholder_msg": "Hangi konuyu görüşmek istersiniz...",
+      "submit_btn": "E-posta Uygulamasıyla Gönder",
+      "success": "E-posta uygulamanız açılıyor...",
+      "loading": "İşleniyor..."
+    },
+    "sidebar": {
+      "hq_title": "Zürih Genel Merkezi",
+      "hq_address": "Copywritee Technologies AG\nBahnhofstrasse 12, 8001 Zürih\nİsviçre",
+      "timezone": "Orta Avrupa Saati (GMT+1)",
+      "support": "Genel Destek",
+      "sales": "Kurumsal Satış",
+      "press": "Basın ve Medya"
+    }
+  },
+  "EnterprisePage": {
+    "meta_title": "Kurumsal Doküman Zekası | Hukuk, Sağlık ve İş Dünyası için OCR",
+    "meta_desc": "Güvenli, SOC2 uyumlu doküman işleme. Özel yapay zeka ile hukuk büroları, sağlık kuruluşları ve küresel işletmeler için iş akışlarını otomatikleştirin.",
+    "hero": {
+      "badge": "Kurumsal Sınıf",
+      "title_start": "Doküman Zekasını",
+      "title_highlight": "Ölçeklendirin.",
+      "subtitle": "El yazısı formlardan, hukuk arşivlerinden ve tıbbi kayıtlardan veri çıkarımını otomatikleştirin. Güvenli, gizli ve karmaşık kurumsal iş akışları için tasarlandı.",
+      "cta": "Satış Ekibiyle Konuşun",
+      "visual_active": "AKTİF"
+    },
+    "solutions": {
+      "title": "Sektörünüze özel çözümler.",
+      "desc": "Sektörünüzün benzersiz düzenleyici ve format ihtiyaçları için uzmanlaşmış tek bir motor.",
+      "legal": {
+        "title": "Hukuk ve Uyumluluk",
+        "desc": "Dava belgelerini, el yazısı beyanları ve eski arşivleri e-keşif (e-discovery) için yüksek doğrulukla dijitalleştirin.",
+        "item1": "Bate damgalama desteği",
+        "item2": "Kişisel Verilerin (PII) Karartılması"
+      },
+      "health": {
+        "title": "Sağlık Hizmetleri",
+        "desc": "Hasta giriş formlarını ve doktor notlarını otomatikleştirin. Kağıttaki verileri gizliliği koruyarak sorunsuz bir şekilde HBYS sistemlerine aktarın.",
+        "item1": "KVKK / HIPAA Uyumluluğu",
+        "item2": "Tıbbi El Yazısı OCR"
+      },
+      "biz": {
+        "title": "Genel İşletme",
+        "desc": "Faturaları, masraf raporlarını ve beyin fırtınası tahtalarını işleyin. Hacminiz arttıkça ölçeklendirin.",
+        "item1": "SSO / SAML Girişi",
+        "item2": "Toplu API Erişimi"
+      }
+    },
+    "security": {
+      "title": "Güvenlik bir eklenti değil, temeldir.",
+      "desc": "Kurumsal verilerin risklerini anlıyoruz. Copywritee, en hassas belgeleriniz için 'Sıfır Güven' (Zero-Trust) ortamı sağlar.",
+      "item1_title": "AES-256 Şifreleme",
+      "item1_desc": "Veriler hem beklemede hem de aktarım sırasında şifrelenir.",
+      "item2_title": "Yerinde (On-Prem) Seçeneği",
+      "item2_desc": "Kendi VPC'nizde veya bulutunuzda konuşlandırın.",
+      "item3_title": "RBAC",
+      "item3_desc": "Granüler rol tabanlı erişim kontrolü.",
+      "item4_title": "Denetim Günlükleri",
+      "item4_desc": "Her dosya etkileşimine dair tam görünürlük.",
+      "stats_title": "API Performansı",
+      "stat1_label": "Başarı Oranı",
+      "stat2_label": "Gecikme (Toplu OCR)",
+      "stats_footer": "Küresel edge ağımızdan gerçek zamanlı istatistikler."
+    },
+    "cta": {
+      "title": "Doküman iş akışlarınızı ölçeklendirin.",
+      "desc": "Arka ofisinizi otomatikleştirmeye hazır mısınız? Kağıt dünyasını güvenle dijitalleştirmek için Copywritee kullanan liderlere katılın.",
+      "button": "Demo Talep Et"
+    }
+  },
+  "EducationPage": {
+    "meta_title": "Öğrenciler için el yazısından metne | Notion, Obsidian ve Anki notları",
+    "meta_desc": "El yazısı ders notlarını, beyaz tahtaları ve araştırma defterlerini aranabilir ve düzenlenebilir metne dönüştürün. Öğrenciler için tasarlandı, hızlı, doğru ve ücretsiz.",
+    "hero": {
+      "badge": "Akademik Versiyon",
+      "title_start": "El yazınız,",
+      "title_highlight": "aranabilir ve düzenlenebilir.",
+      "subtitle": "Ders notlarını yeniden yazmayı bırakın. El yazısı ders notlarını, beyaz tahta fotoğraflarını ve araştırma günlüklerini temiz dijital metne dönüştürün.",
+      "platforms": "Notion, Obsidian ve Anki için.",
+      "cta_primary": "Ücretsiz Dijitalleştirmeye Başla",
+      "cta_secondary": "Öğrenci İndirimini Al",
+      "trust1": "Kredi Kartı Gerekmez",
+      "trust2": ".edu İndirimi"
+    },
+    "values": {
+      "title": "Notları temize çekmek bilişsel enerji kaybıdır.",
+      "subtitle": "Klavyeyle savaşmak yerine verileri analiz etmeye ve kavramları birleştirmeye odaklanmalısınız.",
+      "v1_title": "Haftada 10+ Saat Kazanın",
+      "v1_desc": "Öğrenciler çalışma sürelerinin %20'sini notları yeniden yazarak harcıyor. Bunu sıfıra indiriyoruz.",
+      "v2_title": "Anında Arama",
+      "v2_desc": "Bir yıllık el yazısı laboratuvar notları içinde 0,5 saniyede arama yapın. Her alıntıyı anında bulun.",
+      "v3_title": "Yapay Zeka Özetleme",
+      "v3_desc": "Dijitalleştikten sonra yapay zekamız notlarınızı maddeler halinde veya sınav soruları olarak özetleyebilir."
+    },
+    "steps": {
+      "title": "3 adımda defterden Notion'a.",
+      "subtitle": "Modern akademisyenler için en hızlı iş akışı.",
+      "s1_title": "Çek",
+      "s1_desc": "Defterinizin, tahtanızın veya belgenizin telefonunuzla fotoğrafını çekin.",
+      "s2_title": "Dönüştür",
+      "s2_desc": "Sinirsel motorumuz el yazısını, matematik formüllerini ve çizimleri %99 doğrulukla tanır.",
+      "s3_title": "Senkronize Et",
+      "s3_desc": "Doğrudan Markdown, PDF veya Word'e aktarın. 'İkinci beyniniz' için mükemmel format."
+    },
+    "compare": {
+      "title": "Öğrenciler Neden Copywritee'yi Seçiyor?",
+      "h1": "Özellik",
+      "h2": "Copywritee",
+      "h3": "Manuel Yazım",
+      "r1_c1": "İşlem Hızı",
+      "r1_c2": "Saniyeler",
+      "r1_c3": "Saatler",
+      "r2_c1": "Aranabilirlik",
+      "r2_c2": "Küresel (OCR)",
+      "r2_c3": "Yok",
+      "r3_c1": "Dışa Aktarma Formatları",
+      "r3_c2": "Markdown / Docx / Anki",
+      "r3_c3": "YOK"
+    },
+    "cta": {
+      "title": "Çalışma akışınızı yükseltmeye hazır mısınız?",
+      "desc": "Haftada 10 saat kazanan 50.000+ öğrenci ve araştırmacıya katılın. İlk 10 sayfanızı ücretsiz dönüştürün.",
+      "btn1": "Ücretsiz Başla",
+      "btn2": "Satışla İletişime Geç",
+      "footer": "Geçerli .edu e-postası? Tüm yıllık planlarda %50 indirim alın."
+    }
+  },
+  "AboutPage": {
+    "meta_title": "Hakkımızda - Copywritee | Ürünün Arkasındaki Ekip",
+    "meta_desc": "Kağıda hapsolmuş bilgiyi açığa çıkarma misyonumuzu öğrenin. Daniel tarafından kurulan Copywritee, belgeleri dijitalleştirmek için yapay zeka kullanır.",
+    "hero": {
+      "badge": "Misyonumuz",
+      "title_start": "Kağıda hapsolmuş",
+      "title_highlight": "bilgiyi özgür bırakıyoruz.",
+      "p1": "Dünya hala el yazısıyla dönüyor, ancak bu veriler genellikle analog formda sıkışıp kalıyor.",
+      "p2": "Copywritee'nin misyonu, el yazısı metinleri dijital kod kadar güçlü kılmaktır:",
+      "p2_bold": "aranabilir, düzenlenebilir ve formatlanmış."
+    },
+    "tech": {
+      "title_start": "Gücünü",
+      "title_highlight": "Akıllı Teknolojilerden Alır",
+      "subtitle": "Yazı stillerini ve dilleri %98 doğruluğa kadar anlamak için",
+      "subtitle_end": "teknolojilerini entegre ediyoruz.",
+      "card1_t": "Akıllı Tanıma",
+      "card1_d": "El yazısı veya baskı stillerine anında uyum sağlayan derin öğrenme modelleri.",
+      "card2_t": "Bağlam Duyarlı Formatlama",
+      "card2_d": "Sadece metni okumuyoruz; tabloları ve paragrafları algılayarak düzeninizi koruyoruz.",
+      "card3_t": "Çok Dilli Motor",
+      "card3_d": "Asya alfabeleri ve karmaşık semboller dahil 50'den fazla dil için yerel destek."
+    },
+    "ecosystem": {
+      "highlight": "Ekosistem",
+      "subtitle": "Bir dönüştürücüden fazlası. Analog fikirleri dijital varlıklara dönüştüren eksiksiz bir platform.",
+      "explore": "Özelliği keşfet"
+    },
+    "features": {
+      "engine": {
+        "title": "Doküman Motoru",
+        "tag": "Ana Güç",
+        "desc": "El yazısını, orijinal düzeni koruyarak tam formatlı belgelere dönüştürün."
+      },
+      "spreadsheets": {
+        "title": "Akıllı Tablolar",
+        "tag": "Veri Otomasyonu",
+        "desc": "El yazısı tabloları, hücre ilişkileri bozulmadan işlevsel Excel dosyalarına dönüştürün."
+      },
+      "hub": {
+        "title": "Bulut Doküman Merkezi",
+        "tag": "Güvenli Depolama",
+        "desc": "Dosyalarınızı kurumsal düzeyde güvenlikle her yerden düzenleyin ve erişin."
+      },
+      "collab": {
+        "title": "Gerçek Zamanlı İş Birliği",
+        "tag": "Ekip İş Akışı",
+        "desc": "Belgeleri gerçek zamanlı paylaşın ve düzenleyin. Ekipler ve eğitmenler için ideal."
+      },
+      "export": {
+        "title": "Dışa Aktarma ve Entegrasyon",
+        "tag": "Tam Esneklik",
+        "desc": "Yapıyı bozmadan DOCX ve PDF gibi 20'den fazla formata aktarın."
+      }
+    },
+    "founder": {
+      "badge": "Kurucunun Notu",
+      "title": "Geliştiriciler tarafından, verimlilik tutkunları için yapıldı.",
+      "p1": "Copywritee şu kişi tarafından kuruldu:",
+      "p2": "Daniel, saatlerce notları dijitalleştirmekle uğraşma sorununu çözmek için Copywritee'yi kurdu. Teknolojinin insan verimliliğini artırması gerektiğine inanıyor.",
+      "role": "Kurucu ve Baş Mühendis"
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "p": "El yazısı notlarınızı anlamını yitirmeden hızlı ve doğru bir şekilde yapılandırılmış dijital belgelere dönüştürmenize yardımcı oluyoruz.",
+      "cta": "Dönüştürmeye Bugün Başlayın"
+    }
+  },
+  "CareersPage": {
+    "meta": {
+      "title": "Kariyer - Copywritee | Dokümantasyonun Geleceğini İnşa Edin",
+      "description": "Copywritee'ye katılın ve işletmelerin yapay zeka araçlarıyla sorunsuz çalışmasına yardımcı olun."
+    },
+    "hero": {
+      "badge": "Bize Katılın",
+      "title_start": "Geleceği",
+      "title_highlight": "Birlikte İnşa Edelim",
+      "subtitle": "İşletmeleri güçlendiren ekibe katılın. Karmaşık verimlilik zorluklarını çözecek yenilikçiler arıyoruz.",
+      "cta1": "Açık Pozisyonları Gör",
+      "cta2": "Kültürümüz Hakkında Oku"
+    },
+    "values": {
+      "title_start": "Neden",
+      "title_highlight": "Bizimle Çalışmalısın?",
+      "subtitle": "Biz sadece başka bir SaaS aracı değiliz. Yeni neslin dokümanlarla nasıl çalışacağını tanımlıyoruz.",
+      "v1_t": "Yüksek Etki",
+      "v1_d": "Sadece bir çark olmayacaksınız. Kodunuz ve tasarımlarınız her hafta binlerce kullanıcıya ulaşacak.",
+      "v2_t": "Küresel Özgürlük",
+      "v2_d": "Önce asenkron çalışıyoruz. İster Berlin'den ister evinizden çalışın. Biz sonuçlara odaklanırız.",
+      "v3_t": "Derin Teknoloji",
+      "v3_d": "Yapay zeka ve gerçek zamanlı senkronizasyon gibi zor sorunları çözüyoruz. Bu tatmin edici bir iş."
+    },
+    "benefits": {
+      "badge": "Yan Haklar",
+      "title": "Siz en iyi işinizi yapın diye biz size bakıyoruz.",
+      "desc": "Tükenmişlik, inovasyonun düşmanıdır. Haklar paketimizi refahınızı desteklemek için tasarladık.",
+      "visual_label": "Gelişim Ekosistemi"
+    },
+    "perks": {
+      "remote": {
+        "title": "Önce Uzaktan",
+        "desc": "İstediğiniz yerden çalışın. Saatlerden ziyade çıktıya değer veriyoruz."
+      },
+      "health": {
+        "title": "Sağlık ve Zindelik",
+        "desc": "Kapsamlı sağlık sigortası seçenekleri mevcuttur."
+      },
+      "growth": {
+        "title": "Gelişim Bütçesi",
+        "desc": "Kurslar, kitaplar ve konferanslar için ödenek."
+      },
+      "pto": {
+        "title": "Esnek İzin",
+        "desc": "İhtiyacınız olduğunda dinlenin. Ruh sağlığı önemlidir."
+      }
+    },
+    "process": {
+      "main_title": "İşe Alım Süreci",
+      "review": {
+        "title": "Başvuru İncelemesi",
+        "desc": "Yeteneklerinizin misyonumuzla nasıl örtüştüğünü inceliyoruz."
+      },
+      "screening": {
+        "title": "İlk Görüşme",
+        "desc": "Geçmişiniz ve beklentileriniz hakkında samimi bir sohbet."
+      },
+      "culture": {
+        "title": "Kültür Mülakatı",
+        "desc": "Ekiple tanışın ve değerlerimizin uyuşup uyuşmadığını görün."
+      },
+      "onboarding": {
+        "title": "Teklif ve Oryantasyon",
+        "desc": "Aramıza hoş geldiniz! İhtiyacınız olan her şeyi hazırlıyoruz."
+      }
+    },
+    "jobs": {
+      "main_title": "Açık Pozisyonlar",
+      "main_subtitle": "Copywritee'deki bir sonraki rolünüzü bulun",
+      "apply_btn": "Şimdi Başvur",
+      "marketing": {
+        "title": "Pazarlama ve Sosyal Medya Stajyeri",
+        "dept": "Pazarlama",
+        "type": "Staj",
+        "loc": "Uzaktan (Küresel)",
+        "desc": "Etkileyici paylaşımlar oluşturarak Copywritee'nin büyümesine yardımcı olun."
+      },
+      "campus": {
+        "title": "Kampüs Elçisi",
+        "dept": "Topluluk",
+        "type": "Yarı Zamanlı",
+        "loc": "Uzaktan / Kampüste",
+        "desc": "Copywritee'yi topluluğunuzda temsil edin. Ağ kurmak için büyük bir fırsat."
+      },
+      "creator": {
+        "title": "İçerik Üretici Ortağı",
+        "dept": "Kreatif",
+        "type": "Sözleşmeli",
+        "loc": "Uzaktan (Küresel)",
+        "desc": "Özelliklerimizi sergileyen videolar ve varlıklar oluşturmak için iş birliği yapın."
+      }
+    },
+    "culture": {
+      "title": "Çeşitlilik Üzerine Kurulu.",
+      "desc": "En iyi çözümlerin farklı ekiplerden geldiğine inanıyoruz. Her sesin önemli olduğu bir iş yeri taahhüt ediyoruz.",
+      "team_count": "Küresel çapta 40+ ekip üyesine katılın"
+    },
+    "modal": {
+      "title": "Pozisyona Başvur",
+      "subject_prefix": "Başvuru:",
+      "body_greeting": "Sayın İşe Alım Ekibi,",
+      "body_intro": "Şu pozisyon için başvuruyorum:",
+      "body_fields": "İsim: \nLinkedIn: \n\n[Deneyiminizi açıklayın]",
+      "body_closing": "Saygılarımla,",
+      "note_label": "Not",
+      "note_text": "Göndere tıkladığınızda varsayılan e-posta istemciniz açılacaktır. Lütfen özgeçmişinizi manuel olarak eklemeyi unutmayın.",
+      "field_name": "Tam Adınız",
+      "field_email": "E-posta Adresiniz",
+      "submit": "E-posta Uygulamasına Devam Et"
+    }
+  },
+  "TermsPage": {
+    "meta_title": "Hizmet Şartları - Copywritee | Kullanıcı Sözleşmesi",
+    "meta_desc": "Copywritee kullanım şartlarını okuyun. Haklarınız ve İsviçre yasalarına tabi sorumluluklarımız hakkında bilgi edinin.",
+    "hero_title": "Hizmet Şartları",
+    "last_updated": "Son Güncelleme",
+    "date": "Kasım 2025",
+    "welcome_text": "Copywritee'ye hoş geldiniz. Hizmetlerimize erişerek bu şartlara bağlı kalmayı kabul etmiş sayılırsınız. Lütfen dikkatlice okuyun.",
+    "s1_t": "Hizmetlerimizin Kullanımı",
+    "s1_c": "Copywritee'yi kullanmak için en az 13 yaşında olmalısınız. Hizmetleri yalnızca yasal amaçlarla kullanmayı kabul edersiniz.",
+    "s2_t": "Kullanıcı İçeriği",
+    "s2_c": "Yüklediğiniz tüm dosyaların mülkiyeti size aittir. İçerik yükleyerek, bize yalnızca hizmeti sağlamak için sınırlı bir işleme lisansı verirsiniz.",
+    "s3_t": "Fikri Mülkiyet",
+    "s3_c": "Copywritee tarafından sunulan tüm yazılım ve tasarımlar bizim fikri mülkiyetimizdir. İzin almadan kopyalanamaz.",
+    "s4_t": "Abonelik ve Ödemeler",
+    "s4_c": "Bazı özellikler ücretli abonelik gerektirir. Abone olarak faturalandırma şartlarımızı kabul etmiş olursunuz.",
+    "s5_t": "Yasaklanmış Faaliyetler",
+    "prohibited_item_1": "Platformu tersine mühendislik işlemine tabi tutmak.",
+    "prohibited_item_2": "Yasa dışı veya kötü amaçlı içerik yüklemek.",
+    "prohibited_item_3": "Sistem güvenliğini bozmaya çalışmak.",
+    "prohibited_item_4": "Başkasının kimliğine bürünmek.",
+    "s6_t": "Fesih",
+    "s6_c": "Şartları ihlal ederseniz hesabınızı askıya alabiliriz. İstediğiniz zaman hesabınızı silebilirsiniz.",
+    "s7_t": "Sorumluluğun Sınırlandırılması",
+    "s7_c": "Copywritee 'olduğu gibi' sunulur. Kullanımdan doğabilecek dolaylı zararlardan sorumlu tutulamaz.",
+    "s8_t": "Şartlardaki Değişiklikler",
+    "s8_c": "Bu şartları periyodik olarak güncelleyebiliriz. Devam eden kullanım, yeni şartların kabulü sayılır.",
+    "s9_t": "Uygulanacak Hukuk",
+    "s9_c": "Bu şartlar İsviçre yasalarına tabidir.",
+    "contact_t": "Sorularınız mı var?",
+    "contact_d": "Hukuk ekibimiz politikalarımızı netleştirmek için burada."
+  },
+  "PrivacyPage": {
+    "meta_title": "Gizlilik Politikası - Copywritee | Veri Güvenliğiniz",
+    "meta_desc": "Copywritee'nin verilerinizi nasıl işlediğini öğrenin. İsviçre standartlarında veri koruma ile gizliliğinize öncelik veriyoruz.",
+    "hero_title": "Gizlilik Politikası",
+    "last_updated": "Son Güncelleme",
+    "date": "Kasım 2025",
+    "welcome_text": "Gizliliğinize saygı duyuyoruz. Bu politika, bilgilerinizi nasıl topladığımızı ve koruduğumuzu açıklar.",
+    "s1_t": "Topladığımız Bilgiler",
+    "collect_item_1_t": "Hesap Bilgileri",
+    "collect_item_1_d": "İsim, e-posta ve güvenlik için gereken kimlik bilgileri.",
+    "collect_item_2_t": "Kullanıcı İçeriği",
+    "collect_item_2_d": "Yüklediğiniz veya oluşturduğunuz dosyalar ve el yazısı notlar.",
+    "collect_item_3_t": "Ödeme Verileri",
+    "collect_item_3_d": "Güvenli üçüncü taraflarca işlenen fatura detayları.",
+    "collect_item_4_t": "Kullanım Verileri",
+    "collect_item_4_d": "Etkileşim günlükleri ve özellik performans metrikleri.",
+    "collect_item_5_t": "Cihaz Verileri",
+    "collect_item_5_d": "Güvenlik için IP adresi ve teknik meta veriler.",
+    "s2_t": "Verileri Nasıl Kullanıyoruz",
+    "use_item_1": "Doküman dönüştürme deneyiminizi kişiselleştirmek.",
+    "use_item_2": "Yapay zeka işlemlerini yürütmek.",
+    "use_item_3": "Güncellemeleri ve güvenlik uyarılarını iletmek.",
+    "use_item_4": "Hizmet kalitesini artırmak için kullanım modellerini analiz etmek.",
+    "use_item_5": "Kötüye kullanımı önlemek ve yasalara uymak.",
+    "s3_t": "Bilgi Paylaşımı",
+    "share_item_1_t": "Hizmet Sağlayıcılar",
+    "share_item_1_d": "Operasyonlarımıza yardımcı olan altyapı ortakları.",
+    "share_item_2_t": "Yasal Gereklilikler",
+    "share_item_2_d": "Yasalara uymak veya güvenliği korumak gerektiğinde.",
+    "share_item_3_t": "İş Transferleri",
+    "share_item_3_d": "Birleşme durumunda veriler devredilebilir.",
+    "s4_t": "Veri Güvenliği",
+    "s4_c": "Verileri sadece gerekli olduğu sürece tutuyoruz. Tüm veriler şifrelenmiş olarak saklanır.",
+    "s5_t": "Gizlilik Haklarınız",
+    "s5_c": "Verilerinize erişme, silme veya düzeltme hakkına sahipsiniz. KVKK ve uluslararası yasalara uyuyoruz.",
+    "s7_t": "Çerezler ve Analiz",
+    "s7_c": "Navigasyonu iyileştirmek için çerezler kullanıyoruz. Tarayıcınızdan yönetebilirsiniz.",
+    "s8_t": "Çocukların Gizliliği",
+    "s8_c": "13 yaş altı kullanıcılar için uygun değildir.",
+    "s9_t": "Politika Değişiklikleri",
+    "s9_c": "Önemli değişiklikler e-posta ile bildirilecektir.",
+    "contact_t": "Gizlilik Desteği",
+    "contact_d": "Verilerinizle ilgili endişeniz mi var? Veri koruma görevlimizle iletişime geçin.",
+    "hq_label": "Genel Merkez"
+  },
+  "DocsPage": {
+    "meta": {
+      "title": "Dokümantasyon | Copywritee - El Yazısı OCR ve Belge Zekası",
+      "description": "El yazısını metne dönüştürmeyi, tabloları Excel'e aktarmayı ve belge iş akışlarını otomatikleştirmeyi öğrenin."
+    },
+    "sidebar": {
+      "external_links": "Dış Bağlantılar",
+      "api_reference": "API Referansı",
+      "system_status": "Sistem Durumu",
+      "nav": {
+        "overview": "Genel Bakış",
+        "getting_started": "Başlangıç",
+        "converter": "El Yazısı Dönüştürücü",
+        "templates": "Şablonlar",
+        "integrations": "Entegrasyonlar & API",
+        "enterprise": "Kurumsal & Yönetici",
+        "billing": "Ödeme ve Planlar",
+        "support": "Destek"
+      }
+    },
+    "header": {
+      "breadcrumb": "Dokümantasyon",
+      "category": "Giriş",
+      "title": "Copywritee Belgeleri",
+      "subtitle": "El yazısı notları, tabloları ve karmaşık karalamaları yapılandırılmış dijital varlıklara dönüştürme kılavuzu.",
+      "cta": "Hızlı Rehber Aşağıda"
+    },
+    "overview": {
+      "title": "Platforma Genel Bakış",
+      "description": "Copywritee sadece bir OCR aracı değildir. {bold1}, {bold2} ve {bold3} konularında uzmanlaşmış uçtan uca bir iş akışı aracıdır.",
+      "bold1": "karışık el yazıları",
+      "bold2": "karmaşık tablolar",
+      "bold3": "çok sayfalı belgeler",
+      "cards": {
+        "ocr": {
+          "title": "AI OCR Motoru",
+          "desc": "Bitişik, blok ve karma stilleri tanır."
+        },
+        "tables": {
+          "title": "Tablo Çıkarma",
+          "desc": "Çizilmiş tabloları doğrudan Excel/CSV'ye dönüştürür."
+        },
+        "teams": {
+          "title": "Takım Alanı",
+          "desc": "Gerçek zamanlı düzenleme ve versiyon kontrolü."
+        }
+      }
+    },
+    "getting_started": {
+      "title": "Başlangıç",
+      "step1_title": "Çalışma alanınızı oluşturun",
+      "step1_desc": "{link} adresinden kaydolun. Bir organizasyona katılıyorsanız davet linkini kullanın.",
+      "step2_title": "Dönüştürme modunu seçin",
+      "step2_desc": "Panonun sağ üstünde {button} butonuna tıklayın. Doğru motoru seçin:",
+      "step2_button": "Görsel Yükle",
+      "mode_word_title": "Görselden Word'e",
+      "mode_word_desc": "Ders notları ve mektuplar için en iyisi.",
+      "mode_excel_title": "Görselden Excel'e",
+      "mode_excel_desc": "Envanter listeleri ve tablolar için en iyisi.",
+      "step3_title": "Düzenle",
+      "step3_desc": "Platformumuz yerleşik bir editör sunar. Dönüştürülen belge otomatik olarak buraya yerleştirilir."
+    },
+    "converter": {
+      "title": "El Yazısı Dönüştürme Motoru",
+      "description": "Derin öğrenme teknolojimiz, düşük ışıkta bile el yazılarını analiz eder.",
+      "constraint_label": "Kısıtlama:",
+      "constraint_text": "Şu an 25MB'a kadar dosyalar desteklenmektedir."
+    },
+    "integrations": {
+      "title": "Dışa Aktarma ve Uyumluluk",
+      "description": "Favori araçlarınızla uyumlu standart dosyalar oluşturun.",
+      "roadmap_title": "Yol Haritası",
+      "roadmap_desc": "Ekosisteminizle bağlantılar kuruyoruz.",
+      "planned": "Planlanan",
+      "api_badge": "Yakında",
+      "api_title": "Geliştirici API",
+      "api_desc": "Programatik dönüşümler için API tasarlıyoruz. {link} ile sıraya girin.",
+      "api_link_text": "Bekleme listesine katıl",
+      "api_preview_title": "Geliştiriciler İçin",
+      "api_preview_desc": "Uygulamalarınıza OCR yetenekleri getirin.",
+      "api_btn": "API Bekleme Listesi"
+    },
+    "templates": {
+      "title": "Şablonlar",
+      "description": "Metni sadece dönüştürmeyin, yapılandırın.",
+      "items": {
+        "meeting": "Toplantı Notları",
+        "medical": "Tıbbi Form",
+        "legal": "Hukuki Sözleşme",
+        "syllabus": "Ders Müfredatı"
+      }
+    },
+    "enterprise": {
+      "title": "Kurumsal",
+      "description": "Binlerce kullanıcıyı kurumsal düzeyde kontrollerle yönetin.",
+      "sso_title": "SSO & SCIM",
+      "sso_desc": "Okta veya Azure AD ile SAML 2.0 yapılandırın.",
+      "sso_cta": "Yapılandırma Kılavuzu →",
+      "data_title": "Veri Yerleşimi",
+      "data_desc": "Verilerin nerede saklanacağını seçin."
+    },
+    "billing": {
+      "title": "Ödeme Planları",
+      "description": "Hacim ihtiyaçlarınıza göre üç seviye.",
+      "starter": "Başlangıç",
+      "pro": "Pro",
+      "business": "İşletme",
+      "free": "Ücretsiz",
+      "mo": "/ay",
+      "popular": "POPÜLER",
+      "limit_prefix": "Sınır:",
+      "tier_starter_desc": "Öğrenciler için",
+      "tier_pro_desc": "Freelancerlar için",
+      "tier_biz_desc": "Ekipler için",
+      "matrix_title": "Karşılaştırma Matrisi",
+      "matrix_head_cat": "Kategori",
+      "rows": {
+        "usage": "Kullanım Sınırları",
+        "vol": "Aylık Sayfa Hacmi",
+        "storage": "Bulut Depolama",
+        "batch": "Toplu Yükleme",
+        "core": "Temel Özellikler",
+        "formats": "Formatlar",
+        "tables": "Tablo Tanıma",
+        "ai": "AI Formatlayıcı",
+        "cont": "Sürekli Dönüşüm",
+        "pdf": "PDF Düzenleme",
+        "support_slas": "Destek",
+        "cust_supp": "Müşteri Desteği",
+        "queue": "Sıra"
+      },
+      "values": {
+        "unlimited": "Sınırsız",
+        "standard": "Standart",
+        "priority_email": "Öncelikli E-posta",
+        "priority_chat": "Sohbet & E-posta",
+        "fast": "Hızlı",
+        "real_time": "Gerçek Zamanlı"
+      },
+      "note_title": "Not:",
+      "note_text": "Sayfa sınırları her ayın 1'inde sıfırlanır."
+    },
+    "contact": {
+      "title": "Yardım mı lazım?",
+      "description": "Destek ekibimiz Pzt-Cum hizmetinizde.",
+      "btn": "Destekle İletişime Geç"
+    },
+    "demo": {
+      "process_id": "scan_to_doc_v2.islem",
+      "uploaded_label": "Yüklenen Görsel",
+      "converting_status": "Dönüştürülüyor...",
+      "filename": "orijinal_not.jpg",
+      "converted_label": "Dönüştürülen Belge",
+      "file_ext": ".docx",
+      "alt_input": "El Yazısı Girişi",
+      "alt_output": "Dijital Belge Arayüzü"
+    }
+  }
+}

@@ -1,0 +1,1149 @@
+{
+  "HomePage": {
+    "trust_pill": "V2.0 Handschrift-OCR: 99,2% Genauigkeit",
+    "hero_title_1": "Handschrift in Text und editierbare",
+    "hero_title_2": "Dokumente umwandeln.",
+    "hero_subtitle": "Laden Sie handschriftliche Notizen, gescannte PDF-Formulare oder Whiteboard-Fotos hoch. Unsere Engine wandelt sie in Sekundenschnelle in editierbare Word-, Excel- und PDF-Dateien um.",
+    "check_1": "Keine Kreditkarte erforderlich",
+    "check_2": "50 kostenlose Konvertierungen/Mo",
+    "rating_text": "4,9/5 von über 10.000 Nutzern",
+    "cta_start": "Kostenlos starten",
+    "cta_upload": "Bild hochladen",
+    "stat_time": "Bearbeitungszeit",
+    "stat_accuracy": "OCR-Genauigkeit",
+    "meta_title": "Handschrift in Text umwandeln | KI-Schreibschrift-OCR | Copywritee",
+    "meta_desc": "Wandeln Sie handschriftliche Notizen sofort in editierbaren digitalen Text um. Die weltweit präziseste KI-Handschrifterkennung (OCR)."
+  },
+
+  "Features": {
+    "section_label": "Das Ökosystem",
+    "main_title_1": "Alles, was Sie zur Digitalisierung",
+    "main_title_2": "von Dokumenten benötigen.",
+    "main_desc": "Die meisten OCR-Tools hören bei der Textextraktion auf und hinterlassen ein Formatierungschaos. Copywritee übernimmt die Schwerstarbeit: Rekonstruktion des Layouts, Sicherung Ihrer Daten und sofortige Umwandlung in professionelle Dokumente.",
+    "editor_label": "Vertraute Benutzeroberfläche",
+    "editor_title": "Bearbeiten wie in Word.",
+    "editor_desc": "Keine Einarbeitung nötig. Unser Editor fühlt sich exakt wie MS Word an. Laden Sie bestehende .docx-Dateien hoch oder bearbeiten Sie konvertierte Bilder direkt im Browser.",
+    "editor_check_1": "Keine Lernkurve: Vertraute Symbolleiste und Layout.",
+    "editor_check_2": "Formaterhaltung: Behält Fettdruck, Kursivschrift und Listen bei.",
+    "editor_mock_doc": "Meeting_Notizen_Juli.docx",
+    "table_label": "Datentransformation",
+    "table_title": "Tabellen in Tabellenkalkulationen verwandeln.",
+    "table_desc": "Analysieren Sie Ihre schriftlichen Daten sofort. Wandeln Sie handschriftliche Protokolle und Tabellen in strukturierte .xlsx-Dateien mit perfekter Zellenausrichtung um.",
+    "table_check_1": "Automatische Erkennung: Erkennt Zeilen und Spalten aus Ihren Notizen.",
+    "table_check_2": "Formelbereit: Exportiert saubere Daten für Pivot-Tabellen und Sortierungen.",
+    "table_mock_doc": "Budget_Konvertierung_Q3.xlsx",
+    "eco_title": "Ein komplettes Ökosystem",
+    "eco_subtitle": "Entwickelt für professionelle Workflows und totale Sicherheit.",
+    "lang_label": "Globale Engine",
+    "lang_title": "30+ Sprachen",
+    "lang_desc": "Von englischer Schreibschrift bis hin zu japanischen Kanji – unsere KI versteht globale Schriften mit nativer Präzision.",
+    "cloud_label": "Speicher",
+    "cloud_title": "Intelligente Bibliothek",
+    "cloud_desc": "Auto-Tagging und KI-Ordner. Ihre Notizen werden in dem Moment organisiert, in dem Sie sie scannen.",
+    "export_label": "Integrationen",
+    "export_title": "Überallhin exportieren",
+    "export_desc": "Synchronisierung mit Ihren Lieblingstools mit nur einem Klick. Wir schlagen die Brücke zu Ihrem digitalen Arbeitsplatz."
+  },
+  "Trust": {
+    "title": "Vertrauen von Marktführern.",
+    "description": "Von lokalen Schulen bis hin zu globalen Tech-Unternehmen – zukunftsorientierte Teams wählen Copywritee."
+  },
+  "HowItWorks": {
+    "label": "WORKFLOW",
+    "title_1": "Drei Schritte zur Umwandlung",
+    "title_2": "von Handschrift in Text.",
+    "description": "Sparen Sie Stunden mühsamer Abtipparbeit. Copywritee macht aus dem alten OCR-Prozess einen 3-Sekunden-Workflow.",
+    "step_1_title": "Hochladen & Scannen",
+    "step_1_desc": "Laden Sie Bilder oder PDFs hoch. Unsere Engine optimiert Kontrast und Zuschnitt sofort.",
+    "step_2_title": "Neuronale Analyse",
+    "step_2_desc": "Unsere KI erfasst die Geometrie des Dokuments und identifiziert Tabellen, Header und Stile.",
+    "step_3_title": "Strukturelle Synthese",
+    "step_3_desc": "Das Dokument wird in Word, Excel oder Notion rekonstruiert und ist bereit zur Bearbeitung.",
+    "processing": "Verarbeitung..."
+  },
+
+  "Why": {
+    "label": "WARUM WIR?",
+    "title_main": "Hören Sie auf,",
+    "title_bad_ocr": "schlechte OCR",
+    "title_suffix": "zu korrigieren.",
+    "subtitle": "Herkömmliche Tools extrahieren nur Text. Wir rekonstruieren das gesamte Dokument.",
+    "others_label": "Herkömmliche OCR",
+    "others_error": "Fehler",
+    "others_notes": "* Formatierung geht verloren | * Tabellen zerbrochen | * Manuelle Nacharbeit nötig",
+    "our_label": "Intelligente Rekonstruktion",
+    "our_status": "Verifiziert",
+    "our_table_desc": "Beschreibung",
+    "our_table_total": "Gesamt",
+    "our_table_item": "Web-Entwicklung",
+    "our_table_date": "Datum",
+    "our_features": "Layout erhalten | 100% editierbar",
+    "card_1_title": "10x schnellere Erledigung",
+    "card_1_desc": "Manuelles Abtippen dauert Stunden. Wir brauchen Sekunden.",
+    "card_1_manual": "Manuell",
+    "card_2_title": "Kosten um 70% senken",
+    "card_2_desc": "Vermeiden Sie Dateneingabefehler. Copywritee amortisiert sich im ersten Monat.",
+    "card_2_stat": "monatlich gespart*",
+    "card_3_title": "Datensouveränität",
+    "card_3_desc": "Wir trainieren keine Modelle mit Ihren Daten. Dokumente werden verschlüsselt und gelöscht."
+  },
+  "Testimonials": {
+    "label": "Erfolgsgeschichten",
+    "title_main": "Geliebt von",
+    "title_highlight": "produktiven Teams.",
+    "subtitle": "Von Lehrern bis zu Datenanalysten – so modernisiert Copywritee Workflows weltweit.",
+    "trust_footer": "Schließen Sie sich über 10.000 Nutzern an, die ihre Dokumente heute transformieren.",
+    "items": {
+      "ev": {
+        "role": "Lehrer",
+        "company": "Sapele Vocational Centre",
+        "quote": "Copywritee hat meine Arbeit mit handschriftlichen Notizen revolutioniert. Das Umwandeln in Word spart mir jede Woche Stunden."
+      },
+      "ab": {
+        "role": "Datenanalyst",
+        "company": "TechCorp Inc.",
+        "quote": "Die Excel-Konvertierung ist ein Game-Changer. Ich scanne Finanzberichte und erhalte sofort strukturierte Tabellen ohne Fehler."
+      },
+      "gc": {
+        "role": "Mitbegründer",
+        "company": "QueerHaven",
+        "quote": "Die Möglichkeit, PDFs zu bearbeiten und in der Cloud zu speichern, war genau das, was mein Team brauchte."
+      }
+    }
+  },
+
+  "FAQ": {
+    "title_main": "Häufig gestellte",
+    "title_highlight": "Fragen",
+    "items": {
+      "what_is": {
+        "q": "Was ist Copywritee?",
+        "a": "Copywritee ist eine Plattform zur Handschrifterkennung, die handschriftliche Notizen in editierbare digitale Dokumente wie Word und Excel umwandelt."
+      },
+      "who_benefit": {
+        "q": "Wer kann von Copywritee profitieren?",
+        "a": "Studenten, Fachleute, Forscher, Lehrer und Anwälte können damit Notizen, Protokolle oder Briefe schnell digitalisieren."
+      },
+      "how_work": {
+        "q": "Wie funktioniert Copywritee?",
+        "a": "Laden Sie einfach ein Foto Ihrer Notizen hoch. Unsere OCR-Engine analysiert die Handschrift und exportiert sie in Word, PDF oder Excel."
+      },
+      "accuracy": {
+        "q": "Wie genau ist die Erkennung?",
+        "a": "Copywritee erreicht eine Genauigkeit von 95-98% bei Handschrift und Schreibschrift."
+      },
+      "cursive": {
+        "q": "Kann es auch Schreibschrift konvertieren?",
+        "a": "Ja, unsere Engine ist speziell auf Druck- und Schreibschrift trainiert, selbst bei unordentlicher Handschrift."
+      },
+      "formats": {
+        "q": "Welche Dateiformate werden unterstützt?",
+        "a": "Sie können in Microsoft Word (.docx), PDF, Excel (.xlsx), Google Docs und reinen Text (.txt) exportieren."
+      },
+      "how_to_word": {
+        "q": "Wie wandle ich Notizen in Word um?",
+        "a": "Bild hochladen, kurz warten, konvertierten Text prüfen und auf 'Export nach Word' klicken."
+      },
+      "limits": {
+        "q": "Was sind die Limits für Dateigröße und Seiten?",
+        "a": "Kostenlose Nutzer: bis zu 10MB und 5 Seiten. Premium: 50MB und bis zu 50 Seiten pro Dokument."
+      },
+      "math": {
+        "q": "Werden mathematische Gleichungen unterstützt?",
+        "a": "Ja, Copywritee unterstützt mathematische Gleichungen, Formeln und wissenschaftliche Notationen."
+      },
+      "phone_scan": {
+        "q": "Kann ich Notizen mit dem Handy scannen?",
+        "a": "Ja, nutzen Sie die Kamera Ihres Smartphones und laden Sie das Bild direkt bei Copywritee hoch."
+      },
+      "quality": {
+        "q": "Welche Bildqualität liefert die besten Ergebnisse?",
+        "a": "Gute Beleuchtung, keine Schatten und eine gerade Ausrichtung sind ideal. 300 DPI werden empfohlen."
+      },
+      "history": {
+        "q": "Kann ich alte Familienbriefe digitalisieren?",
+        "a": "Absolut! Copywritee eignet sich hervorragend zur Archivierung historischer Dokumente und Tagebücher."
+      },
+      "low_accuracy": {
+        "q": "Was, wenn die Konvertierung ungenau ist?",
+        "a": "Sie können den Text in unserem Editor korrigieren, bevor Sie ihn exportieren."
+      },
+      "pdf_edit": {
+        "q": "Kann ich PDFs direkt bearbeiten?",
+        "a": "Ja, Copywritee enthält einen PDF-Editor zum Hinzufügen von Text, Bildern oder Unterschriften."
+      },
+      "cloud_save": {
+        "q": "Werden Dokumente online gespeichert?",
+        "a": "Ja, Dokumente können sicher in der Cloud gespeichert und von jedem Gerät abgerufen werden."
+      },
+      "sharing": {
+        "q": "Kann ich Dokumente mit anderen teilen?",
+        "a": "Ja, via Link oder Direktexport zu Tools wie Notion, OneDrive und Dropbox."
+      },
+      "storage_limit": {
+        "q": "Wie viel Cloud-Speicher erhalte ich?",
+        "a": "Kostenlose Nutzer erhalten 1GB, Premium-Nutzer 100GB Speicherplatz."
+      },
+      "languages": {
+        "q": "Welche Sprachen werden unterstützt?",
+        "a": "Aktuell Englisch, Spanisch, Französisch, Deutsch, Italienisch und Portugiesisch. Weitere folgen."
+      },
+      "messy_writing": {
+        "q": "Funktioniert es bei unordentlicher Handschrift?",
+        "a": "Ja, das System erkennt eine Vielzahl von Stilen, auch schräge oder unsaubere Schrift."
+      },
+      "security": {
+        "q": "Sind meine Daten sicher?",
+        "a": "Ja, alle Daten sind AES-256 verschlüsselt. Wir sind SOC 2 konform und löschen Dateien nach 30 Tagen automatisch."
+      },
+      "install": {
+        "q": "Muss ich Software installieren?",
+        "a": "Nein, es ist webbasiert. Eine optionale App für Desktop und Mobile ist für die Offline-Nutzung verfügbar."
+      },
+      "offline": {
+        "q": "Funktioniert es offline?",
+        "a": "Die Webversion benötigt Internet. Die Desktop-App bietet grundlegende Offline-Funktionen."
+      },
+      "batch": {
+        "q": "Kann ich mehrere Seiten gleichzeitig verarbeiten?",
+        "a": "Ja, Premium-Nutzer können bis zu 50 Seiten im Stapel verarbeiten."
+      },
+      "is_free": {
+        "q": "Ist Copywritee kostenlos?",
+        "a": "Ja, es gibt einen kostenlosen Plan mit 50 Konvertierungen pro Monat."
+      },
+      "pricing_diff": {
+        "q": "Was ist der Unterschied zwischen Free und Premium?",
+        "a": "Premium bietet unbegrenzte Konvertierungen, PDF-Bearbeitung, mehr Speicher und Priority-Support."
+      },
+      "cancel": {
+        "q": "Kann ich jederzeit kündigen?",
+        "a": "Ja, es gibt keine festen Vertragslaufzeiten. Die Kündigung ist jederzeit im Dashboard möglich."
+      },
+      "why_manual": {
+        "q": "Warum Copywritee statt manuellem Abtippen?",
+        "a": "Manuelles Tippen ist langsam. Copywritee spart 90% der Zeit und steigert die Produktivität."
+      },
+      "diff_others": {
+        "q": "Wie unterscheidet sich Copywritee von anderen Apps?",
+        "a": "Wir bieten End-to-End-Management: Erkennung, PDF-Editor, Cloud-Speicher und Multi-Format-Export."
+      },
+      "digitize_free": {
+        "q": "Wie digitalisiere ich Dokumente kostenlos?",
+        "a": "Nutzen Sie unseren kostenlosen Plan, laden Sie das Dokument hoch und exportieren Sie es nach Word."
+      }
+    }
+  },
+
+  "WordPage": {
+    "meta_title": "Handschrift in Word umwandeln (DOCX) | Copywritee",
+    "meta_desc": "Verwandeln Sie handschriftliche Notizen sofort in editierbare MS Word-Dokumente...",
+    "hero_title_1": "Handschrift zu",
+    "hero_title_2": "Word",
+    "hero_subtitle": "Tippen Sie Ihre Notizen nicht ab. Unsere KI wandelt Bilder in .docx-Dateien um und erhält Layout und Tabellen.",
+    "feat_1_title": "Layouterhaltung",
+    "feat_1_desc": "Wir erkennen Listen und Ränder, damit Ihr Word-Dokument exakt wie Ihre Notizbuchseite aussieht.",
+    "feat_2_title": "Schlechte Handschrift? Kein Problem.",
+    "feat_2_desc": "Unsere ICR-Engine wurde mit Millionen von Schriftproben trainiert.",
+    "feat_3_title": "Automatische Löschung",
+    "feat_3_desc": "Ihre Privatsphäre zählt. Dateien werden verschlüsselt verarbeitet und permanent gelöscht.",
+    "faq_title": "Häufig gestellte Fragen",
+    "faq_q1": "Kann es Schreibschrift lesen?",
+    "faq_a1": "Ja, Copywritee nutzt neuronale Netze, die speziell auf verbundene Schreibschrift trainiert sind.",
+    "faq_q2": "Sind meine Daten sicher?",
+    "faq_a2": "Absolut. Wir nutzen TLS-Verschlüsselung und löschen Dateien nach 60 Minuten."
+  },
+  "PdfPage": {
+    "btn_new": "Neues Dokument starten",
+    "meta_title": "Kostenloser Online-PDF-Editor & KI-Chat | Copywritee",
+    "meta_desc": "Bearbeiten, signieren und chatten Sie mit Ihren PDFs via KI. Dokumente zusammenfassen, Antworten extrahieren und Formulare sicher im Browser ausfüllen.",
+    "hero_pill": "Intelligente PDF-Suite",
+    "hero_title_1": "PDFs bearbeiten und chatten,",
+    "hero_title_2": "jederzeit und überall.",
+    "hero_subtitle": "Der All-in-One PDF-Arbeitsbereich. Texte bearbeiten, Verträge unterzeichnen und Berichte mit KI sofort zusammenfassen oder Fragen beantworten.",
+    "btn_upload": "PDF-Datei hochladen",
+    "trust_soc2": "SOC2-konforme Sicherheit",
+    "trust_ai": "KI-gestützter Chat",
+    "trust_esign": "Rechtsverbindliche eSignatur",
+    "feat_1_title": "Mit Dokumenten chatten",
+    "feat_1_desc": "Laden Sie einen 100-seitigen Vertrag hoch und fragen Sie: 'Was sind die Kündigungsklauseln?' Unsere KI antwortet in Sekunden.",
+    "feat_2_title": "Ausfüllen & Signieren",
+    "feat_2_desc": "Schluss mit dem Drucken. Fügen Sie Signaturen hinzu und füllen Sie Formulare digital aus. Vollständig geschäftskonform.",
+    "feat_3_title": "Organisieren & Zusammenfügen",
+    "feat_3_desc": "Verbinden Sie mehrere PDFs, drehen Sie Seiten oder löschen Sie Abschnitte. Volle Kontrolle über Ihre Dateien.",
+    "workflow_title": "Ihr neuer PDF-Workflow",
+    "step_1_title": "Hochladen",
+    "step_1_desc": "Drag & Drop für jede PDF bis zu 50MB.",
+    "step_2_title": "Analysieren",
+    "step_2_desc": "KI indiziert Text für Suche & Chat.",
+    "step_3_title": "Bearbeiten",
+    "step_3_desc": "Texte, Bilder oder Signaturen hinzufügen.",
+    "step_4_title": "Herunterladen",
+    "step_4_desc": "Das fertige Dokument exportieren.",
+    "cta_title": "Meistern Sie Ihre Dokumentation.",
+    "cta_desc": "Schließen Sie sich über 10.000 Profis an, die Copywritee für Verträge und Berichte nutzen.",
+    "cta_btn": "Jetzt kostenlos starten"
+  },
+  "EditorPage": {
+    "meta_title": "Kostenloser Online-Dokumenteneditor | Word & Excel bearbeiten | Copywritee",
+    "meta_desc": "Bearbeiten Sie DOCX, XLSX und Textdateien direkt im Browser. Keine Installation erforderlich. Eine schnelle und sichere Office-Alternative.",
+    "hero_pill": "Cloud Office Suite",
+    "hero_title_1": "Dokumente bearbeiten,",
+    "hero_title_2": "jederzeit und überall.",
+    "hero_subtitle": "Bearbeiten Sie Microsoft Word- und Excel-Dateien direkt im Browser. Keine Installation, kein Login für schnelle Änderungen nötig.",
+    "btn_new": "Neues Dokument erstellen",
+    "btn_upload": "Datei hochladen",
+    "trust_secure": "Privat & Sicher",
+    "trust_os": "Läuft auf jedem Betriebssystem",
+    "trust_office": "100% MS Office kompatibel",
+    "feat_1_title": "Von überall arbeiten",
+    "feat_1_desc": "Greifen Sie von jedem Gerät auf Ihre Dateien zu. Egal ob Windows, Mac oder Linux – Ihr Editor ist nur einen Klick entfernt.",
+    "feat_2_title": "Vertraute Benutzeroberfläche",
+    "feat_2_desc": "Keine Umstellung nötig. Unsere Werkzeugleiste ähnelt Microsoft Word und Excel für sofortige Produktivität.",
+    "feat_3_title": "Leichtgewichtig & Schnell",
+    "feat_3_desc": "Keine Wartezeiten für schwere Software. Der Copywritee Editor lädt in unter 2 Sekunden, auch bei langsamer Verbindung.",
+    "formats_title": "Unterstützte Formate",
+    "formats_subtitle": "Wir unterstützen das gesamte Office-Ökosystem. Laden Sie Dateien hoch oder starten Sie neu.",
+    "format_docx": "Microsoft Word",
+    "format_xlsx": "Microsoft Excel",
+    "format_txt": "Reiner Text",
+    "format_csv": "Datenblätter"
+  },
+  "ExcelPage": {
+    "meta_title": "Handschriftliche Tabellen in Excel konvertieren | Copywritee",
+    "meta_desc": "Automatisieren Sie die Datenerfassung. Verwandeln Sie handschriftliche Raster und Tabellen sofort in editierbare Excel-Tabellen mit KI.",
+    "hero_pill": "Intelligente Raster-Erkennung",
+    "hero_title": "Handschrift zu",
+    "hero_highlight": "Excel",
+    "hero_subtitle": "Stoppen Sie die manuelle Dateneingabe. Unsere KI erkennt Zeilen, Spalten und Kopfzeilen und konvertiert sie in .xlsx-Dateien.",
+    "trust_security": "Sicherheit auf Bankenniveau",
+    "trust_grid": "Mehrspaltige Erkennung",
+    "trust_accuracy": "99,8% numerische Genauigkeit",
+    "feat_1_title": "Intelligente Raster",
+    "feat_1_desc": "Wir erkennen Strukturen. Unsere Engine identifiziert gezeichnete Linien, Spalten und verbundene Zellen automatisch.",
+    "feat_2_title": "Finanzielle Präzision",
+    "feat_2_desc": "Optimiert für Zahlen. Perfekt für Rechnungen, Inventarlisten, Finanzbücher und Notenspiegel.",
+    "feat_3_title": "Universeller Export",
+    "feat_3_desc": "Daten als Microsoft Excel (.xlsx) oder CSV herunterladen für den Import in Google Sheets oder Datenbanken.",
+    "how_title": "Vom Papier zur Tabelle in Sekunden",
+    "step_1_title": "Aufnehmen",
+    "step_1_desc": "Fotografieren Sie Ihr Hauptbuch oder Ihre Datentabelle.",
+    "step_2_title": "Analysieren",
+    "step_2_desc": "Die KI erfasst die Geometrie von Zeilen und Spalten.",
+    "step_3_title": "Exportieren",
+    "step_3_desc": "Laden Sie eine saubere, formatierte Excel-Datei herunter.",
+    "faq_title": "Häufig gestellte Fragen",
+    "cta_title": "Digitalisieren Sie Ihre Daten heute",
+    "cta_btn": "Tabelle jetzt konvertieren"
+  },
+  "nav": {
+    "product": "Produkt",
+    "solutions": "Lösungen",
+    "company": "Unternehmen",
+    "notes_to_word": "Notizen zu Word",
+    "desc_word": "Notizen in Dokumente umwandeln",
+    "table_to_excel": "Tabelle zu Excel",
+    "desc_excel": "Gezeichnete Tabellen in Daten wandeln",
+    "online_editor": "Online-Editor",
+    "desc_editor": "Word & Excel im Browser bearbeiten",
+    "pdf_tools": "PDF-Tools",
+    "desc_pdf": "PDFs bearbeiten, signieren & chatten",
+    "academic": "Akademisch",
+    "desc_academic": "Vorlesungsnotizen digitalisieren",
+    "enterprise": "Enterprise",
+    "desc_enterprise": "Sichere Dokumenten-Workflows",
+    "support": "Support",
+    "desc_support": "Hilfe von unserem Team erhalten",
+    "pricing": "Preise",
+    "login": "Anmelden",
+    "get_started": "Kostenlos starten"
+  },
+  "Footer": {
+    "description": "Wandeln Sie handschriftliche Notizen sofort in saubere, editierbare Dokumente um. Sicher, schnell und für moderne Teams gebaut.",
+    "stay_updated": "Bleiben Sie auf dem Laufenden",
+    "email_placeholder": "E-Mail eingeben",
+    "systems_ok": "Alle Systeme betriebsbereit",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "resources": "Ressourcen",
+    "hiring": "Jobs",
+    "copyright": "© {year} Copywritee Inc. | Entwickelt für globale Teams.",
+    "links": {
+      "notes_to_word": "Notizen zu Word",
+      "table_to_excel": "Tabelle zu Excel",
+      "online_editor": "Online-Editor",
+      "pricing": "Preise",
+      "about": "Über uns",
+      "careers": "Karriere",
+      "contact": "Kontakt",
+      "docs": "Dokumentation",
+      "privacy": "Datenschutz",
+      "terms": "AGB"
+    }
+  },
+  "Contact": {
+    "meta_title": "Kontaktieren Sie uns | Copywritee Hilfe-Center",
+    "meta_desc": "Benötigen Sie Hilfe bei der Umwandlung von Notizen in Text? Kontaktieren Sie das Copywritee-Support-Team für Unterstützung.",
+    "meta_keywords": "Copywritee Kontakt, Kundensupport, Handschrift OCR Hilfe, technischer Support, Kontaktformular",
+    "og_title": "Kontakt | Copywritee Support",
+    "og_desc": "Schnelle Hilfe bei der Handschrift-zu-Text-Konvertierung. Kontaktieren Sie uns noch heute.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_contact": "Kontakt",
+    "org_name": "Copywritee"
+  },
+  "Pricing": {
+    "meta_title": "Preise | Handschrift zu Text Konverter | Copywritee",
+    "meta_desc": "Wählen Sie den besten Plan. Vom kostenlosen Einstieg bis Pro (8 $/Monat) und Business (25 $/Monat). 99% Genauigkeit.",
+    "meta_keywords": "Handschrift Text Preise, OCR Software Kosten, Studenten Tools Kosten, Dokumentenautomatisierung Preis",
+    "og_title": "Günstige KI-Handschrifterkennung | Copywritee Preise",
+    "og_desc": "Kostenlos starten mit 50 Seiten/Monat. Upgrade für Stapelverarbeitung und Notion-Sync.",
+    "product_name": "Copywritee Handschrift OCR",
+    "product_desc": "Software zur Umwandlung von Handschrift in Text.",
+    "plan_free": "Kostenloser Plan",
+    "plan_pro": "Pro Plan",
+    "plan_biz": "Business Plan"
+  },
+  "PricingUI": {
+    "hero": {
+      "title_start": "Transparente Preise für perfekte",
+      "title_highlight": "Digitalisierung.",
+      "subtitle": "Verwandeln Sie handschriftliche Notizen in Sekunden in bearbeitbaren Text. Wählen Sie den passenden Plan."
+    },
+    "billing": {
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "save": "20% sparen",
+      "per_month": "/Monat"
+    },
+    "labels": { "capacity": "Kapazität", "features": "Funktionen" },
+    "plans": {
+      "free": {
+        "name": "Kostenlos",
+        "description": "Grundlegende Handschrift-Konvertierung für Studenten und Gelegenheitsnutzer.",
+        "pages": "50 Seiten / Monat",
+        "buttonText": "Kostenlos starten",
+        "features": [
+          "50 Seiten pro Monat",
+          "Hohe Genauigkeit (Handschrift zu Text)",
+          "Standard-Verarbeitungsgeschwindigkeit",
+          "Sicherer Cloud-Speicher",
+          "E-Mail-Unterstützung",
+          "Export in TXT, Word, Excel, HTML",
+          "Dokumente mit unserem Editor hochladen, erstellen und bearbeiten",
+          "Jeweils ein handschriftliches Bild gleichzeitig hochladen und transkribieren",
+          "Bis zu 50 Dokumente in der Cloud speichern und verwalten"
+        ],
+        "missing": [
+          "Stapelverarbeitung (Batch Processing)",
+          "Tabellenerkennung",
+          "Benutzerdefinierte Formatierung",
+          "Export in mehreren Formaten (Docx, Xlsx, Pdf, html, odt und viele mehr)",
+          "Vier (4) handschriftliche Bilder gleichzeitig hochladen und transkribieren",
+          "Fortlaufende Konvertierung (Mehrere Bilder in einem Dokument transkribieren)"
+        ]
+      },
+      "starter": {
+        "name": "Starter",
+        "description": "Perfekt für Freiberufler und Forscher, die mehr Leistung benötigen.",
+        "pages": "200 Seiten / Monat",
+        "buttonText": "Erste Schritte",
+        "features": [
+          "Alle Funktionen des kostenlosen Plans",
+          "200 Seiten pro Monat",
+          "98% Genauigkeits-Engine",
+          "Vollständige Workflow-Automatisierung",
+          "Schnelle Handschrift-Transkription",
+          "Vorrangiger Kundensupport",
+          "Batch-Upload",
+          "Fünf (5) handschriftliche Bilder gleichzeitig hochladen und transkribieren",
+          "Fortlaufende Konvertierung (Mehrere Bilder in einem Dokument transkribieren)",
+          "Export in PDF, Word, Excel, Json und viele mehr",
+          "Cloud-Speicher: 500 Dokumente",
+          "Lernen des Handschriftstils"
+        ],
+        "missing": [
+          "Begrenzt auf 5 Bilder pro Upload",
+          "Eingeschränkte PDF-Bearbeitung",
+          "Team-Management",
+          "Dokumenten-KI-Formatierer"
+        ]
+      },
+      "pro": {
+        "badge": "Am beliebtesten",
+        "name": "Pro",
+        "description": "Hochvolumige Lösung für Teams und Profis.",
+        "pages": "1.000 Seiten / Monat",
+        "buttonText": "Auf Business upgraden",
+        "features": [
+          "Alle Funktionen des Pro-Plans",
+          "1.000 Seiten pro Monat",
+          "Dokumenten-KI-Formatierer",
+          "Echtzeit-Verarbeitungswarteschlange",
+          "Unbegrenzte Stapelverarbeitung",
+          "Konvertierung zwischen Word, Excel und PDF",
+          "Erweiterte Tabellenextraktion",
+          "Bearbeitung von PDF-Dokumenten",
+          "Prioritäts-Chat & E-Mail-Unterstützung",
+          "Fortlaufende Konvertierung (Ein ganzes Buch konvertieren)",
+          "Batch-Upload, mehrere handschriftliche Seiten gleichzeitig in Dokumente umwandeln",
+          "Benutzerdefiniertes Rechnungs-Branding"
+        ]
+      }
+    },
+    "enterprise": {
+      "title": "Mehr als 1.000 Seiten nötig?",
+      "desc": "Enterprise-Plan mit individuellen API-Limits und dediziertem Management.",
+      "cta": "Vertrieb kontaktieren"
+    },
+    "comparison": {
+      "title": "Detaillierter Vergleich",
+      "subtitle": "Technische Spezifikationen im Überblick.",
+      "header_feature": "Funktion",
+      "rows": [
+        {
+          "name": "Monatliche Seiten",
+          "free": "50",
+          "pro": "200",
+          "bus": "1.000"
+        },
+        {
+          "name": "Unterstützte Sprachen",
+          "free": "15",
+          "pro": "35+",
+          "bus": "50+"
+        },
+        {
+          "name": "Geschwindigkeit",
+          "free": "Standard",
+          "pro": "Schnell",
+          "bus": "Echtzeit"
+        }
+      ]
+    },
+    "faq_title": "Häufig gestellte Fragen",
+    "faqs": [
+      {
+        "q": "Was zählt als eine Seite?",
+        "a": "Eine Bilddatei oder eine PDF-Seite."
+      },
+      {
+        "q": "Sind meine Daten sicher?",
+        "a": "Ja, wir nutzen AES-256-Verschlüsselung auf Bankenniveau."
+      }
+    ],
+    "support": {
+      "title": "Noch Fragen?",
+      "email_label": "E-Mail schreiben",
+      "chat_label": "Live-Chat",
+      "chat_time": "Verfügbar 9:00 - 17:00 EST"
+    }
+  },
+  "Signup": {
+    "meta_title": "Copywritee beitreten | Workflow digitalisieren",
+    "meta_desc": "Erstellen Sie ein kostenloses Konto und wandeln Sie Handschrift in Text um.",
+    "hero": {
+      "badge": "Globale Community",
+      "title": "Werden Sie Teil von über 10.000 Profis.",
+      "check_1": "50 Seiten kostenlos konvertieren",
+      "check_2": "Export nach Word, Excel, PDF",
+      "check_3": "Verschlüsselung auf Bankenniveau",
+      "trusted_by": "Vertraut von"
+    },
+    "form": {
+      "title": "Konto erstellen",
+      "subtitle": "Digitalisieren Sie Ihre Notizen in Sekunden.",
+      "google_btn": "Mit Google registrieren",
+      "divider": "Oder mit E-Mail registrieren",
+      "label_name": "Vollständiger Name",
+      "placeholder_name": "Max Mustermann",
+      "label_email": "Geschäftliche E-Mail",
+      "label_password": "Passwort",
+      "password_hint": "Mindestens 8 Zeichen",
+      "terms_prefix": "Ich stimme den",
+      "terms_link": "Nutzungsbedingungen",
+      "privacy_link": "Datenschutzbestimmungen",
+      "submit_btn": "Jetzt starten",
+      "footer_text": "Bereits ein Konto?",
+      "login_link": "Anmelden"
+    }
+  },
+  "Login": {
+    "meta_title": "Anmelden | Copywritee",
+    "meta_desc": "Willkommen zurück. Melden Sie sich an, um Ihre Dokumente weiter zu digitalisieren.",
+    "hero": {
+      "badge": "Von 10.000+ Teams genutzt",
+      "testimonial": "„Die Genauigkeit ist erschreckend gut. Es hat unserem Team diese Woche 40 Stunden erspart.“",
+      "author": "James Machiavelli",
+      "stat_accuracy": "Genauigkeit",
+      "stat_scanned": "Gescannte Seiten"
+    },
+    "form": {
+      "title": "Willkommen zurück",
+      "subtitle": "Geben Sie Ihre Daten ein, um fortzufahren.",
+      "google_btn": "Mit Google anmelden",
+      "divider": "Oder mit E-Mail fortfahren",
+      "label_email": "E-Mail-Adresse",
+      "label_password": "Passwort",
+      "forgot_password": "Passwort vergessen?",
+      "remember_me": "Für 30 Tage angemeldet bleiben",
+      "submit_btn": "Anmelden",
+      "footer_text": "Noch kein Konto?",
+      "signup_link": "Kostenlos registrieren",
+      "copyright": "Sicherer Login"
+    }
+  },
+  "ContactPage": {
+    "meta_title": "Kontaktieren Sie uns | Copywritee Hilfe-Center",
+    "meta_desc": "Hilfe bei der Handschrift-zu-Text-Konvertierung. Kontaktieren Sie unser Team für technischen Support oder Enterprise-Anfragen.",
+    "hero": {
+      "badge": "Kontakt-Zentrum",
+      "title_start": "Beginnen wir ein",
+      "title_highlight": "Gespräch.",
+      "subtitle": "Kontaktieren Sie uns direkt. Ein Klick auf 'Senden' öffnet Ihre Standard-E-Mail-App."
+    },
+    "form": {
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "email": "Geschäftliche E-Mail",
+      "needs": "Beschreiben Sie Ihr Anliegen",
+      "placeholder_msg": "Ich würde gerne über ... sprechen",
+      "submit_btn": "Über E-Mail-App senden",
+      "success": "E-Mail-App wird geöffnet...",
+      "loading": "Wird verarbeitet..."
+    },
+    "sidebar": {
+      "hq_title": "Hauptsitz Zürich",
+      "hq_address": "Copywritee Technologies AG\nBahnhofstrasse 12, 8001 Zürich\nSchweiz",
+      "timezone": "Mitteleuropäische Zeit (GMT+1)",
+      "support": "Allgemeiner Support",
+      "sales": "Unternehmensvertrieb",
+      "press": "Presse & Medien"
+    }
+  },
+  "EnterprisePage": {
+    "meta_title": "Enterprise Document Intelligence | OCR für Recht, Medizin & Business",
+    "meta_desc": "Sichere, SOC2-konforme Dokumentenverarbeitung. Automatisieren Sie Workflows für Kanzleien und Kliniken mit privater KI-Technologie.",
+    "hero": {
+      "badge": "Enterprise-Klasse",
+      "title_start": "Document Intelligence",
+      "title_highlight": "im großen Stil.",
+      "subtitle": "Automatisieren Sie die Datenextraktion aus handschriftlichen Formularen, Rechtsarchiven und Patientenakten. Sicher, privat und für komplexe Unternehmensprozesse entwickelt.",
+      "cta": "Vertrieb kontaktieren",
+      "visual_active": "AKTIV"
+    },
+    "solutions": {
+      "title": "Maßgeschneidert für Ihren Sektor.",
+      "desc": "Eine Engine, spezialisiert auf die regulatorischen und formatierungstechnischen Anforderungen Ihrer Branche.",
+      "legal": {
+        "title": "Recht & Compliance",
+        "desc": "Digitalisieren Sie Beweisdokumente, handschriftliche eidesstattliche Erklärungen und Altarchive mit höchster Genauigkeit für E-Discovery.",
+        "item1": "Bate-Stamping Unterstützung",
+        "item2": "Anonymisierung personenbezogener Daten"
+      },
+      "health": {
+        "title": "Gesundheitswesen",
+        "desc": "Automatisieren Sie Patientenaufnahmeformulare und Arztnotizen. Nahtloser Datentransfer von Papier zu KIS-Systemen unter Wahrung des Datenschutzes.",
+        "item1": "DSGVO-konform",
+        "item2": "Medizinische Schreibschrift-OCR"
+      },
+      "biz": {
+        "title": "Allgemeines Business",
+        "desc": "Verarbeiten Sie Rechnungen, Spesenberichte und Whiteboards für globale Teams. Skalierbar mit wachsendem Volumen.",
+        "item1": "SSO / SAML Login",
+        "item2": "Bulk-API Zugriff"
+      }
+    },
+    "security": {
+      "title": "Sicherheit ist kein Extra. Sie ist das Fundament.",
+      "desc": "Wir verstehen die Risiken von Unternehmensdaten. Copywritee bietet eine 'Zero-Trust'-Umgebung für Ihre sensibelsten Dokumente.",
+      "item1_title": "AES-256 Verschlüsselung",
+      "item1_desc": "Daten sind im Ruhezustand und bei der Übertragung verschlüsselt.",
+      "item2_title": "On-Prem Option",
+      "item2_desc": "Bereitstellung in Ihrer eigenen VPC oder Cloud.",
+      "item3_title": "RBAC",
+      "item3_desc": "Granulare rollenbasierte Zugriffskontrolle.",
+      "item4_title": "Audit-Logs",
+      "item4_desc": "Vollständige Sichtbarkeit jeder Dateiinteraktion.",
+      "stats_title": "API Performance",
+      "stat1_label": "Erfolgsrate",
+      "stat2_label": "Latenz (Batch OCR)",
+      "stats_footer": "Echtzeit-Statistiken aus unserem globalen Edge-Netzwerk."
+    },
+    "cta": {
+      "title": "Skalieren Sie Ihre Dokumenten-Workflows.",
+      "desc": "Bereit für die Back-Office-Automatisierung? Schließen Sie sich Branchenführern an, die Copywritee nutzen.",
+      "button": "Demo anfordern"
+    }
+  },
+  "EducationPage": {
+    "meta_title": "Handschrift in Text umwandeln für Studenten | Notizen für Notion, Obsidian & Anki",
+    "meta_desc": "Wandle handschriftliche Vorlesungsnotizen, Whiteboards und Forschungsjournale in durchsuchbaren, bearbeitbaren Text um. Schnell, präzise und ideal für Studierende.",
+    "hero": {
+      "badge": "Academic Edition",
+      "title_start": "Deine Handschrift,",
+      "title_highlight": "durchsuchbar & editierbar.",
+      "subtitle": "Hör auf, Lernnotizen abzutippen. Verwandle Vorlesungen, Whiteboard-Fotos und Forschungsjournale in digitalen Text für",
+      "platforms": "Notion, Obsidian und Anki.",
+      "cta_primary": "Kostenlos digitalisieren",
+      "cta_secondary": "Studentenrabatt sichern",
+      "trust1": "Keine Kreditkarte nötig",
+      "trust2": ".edu Rabatt verfügbar"
+    },
+    "values": {
+      "title": "Notizen abtippen ist Verschwendung deiner Energie.",
+      "subtitle": "Analysiere Daten und verknüpfe Konzepte, anstatt mit der Tastatur zu kämpfen.",
+      "v1_title": "Spare 10+ Stunden/Woche",
+      "v1_desc": "Studenten verbringen 20% ihrer Lernzeit mit Abtippen. Wir reduzieren das auf Null.",
+      "v2_title": "Sofort-Suche",
+      "v2_desc": "Durchsuche handschriftliche Labornotizen eines ganzen Jahres in 0,5 Sekunden.",
+      "v3_title": "KI-Zusammenfassung",
+      "v3_desc": "Einmal digitalisiert, erstellt unsere KI Bullet Points oder Prüfungsfragen aus deinen Notizen."
+    },
+    "steps": {
+      "title": "Vom Notizbuch zu Notion in 3 Schritten.",
+      "subtitle": "Der schnellste Workflow für die moderne Wissenschaft.",
+      "s1_title": "Erfassen",
+      "s1_desc": "Fotografiere dein Notizbuch oder Whiteboard einfach mit deinem Handy.",
+      "s2_title": "Konvertieren",
+      "s2_desc": "Unsere Neural Engine erkennt Schreibschrift und Formeln mit 99% Genauigkeit.",
+      "s3_title": "Synchronisieren",
+      "s3_desc": "Direkter Export nach Markdown, PDF oder Word. Perfekt für dein 'Second Brain'."
+    },
+    "compare": {
+      "title": "Warum Studierende Copywritee wählen",
+      "h1": "Feature",
+      "h2": "Copywritee",
+      "h3": "Manuelles Tippen",
+      "r1_c1": "Geschwindigkeit",
+      "r1_c2": "Sekunden",
+      "r1_c3": "Stunden",
+      "r2_c1": "Durchsuchbarkeit",
+      "r2_c2": "Vollständig (OCR)",
+      "r2_c3": "Keine",
+      "r3_c1": "Export-Formate",
+      "r3_c2": "Markdown / Docx / Anki",
+      "r3_c3": "N/V"
+    },
+    "cta": {
+      "title": "Bereit für das Upgrade deines Studiums?",
+      "desc": "Schließe dich 50.000+ Studierenden an. Deine ersten 10 Seiten sind kostenlos.",
+      "btn1": "Gratis starten",
+      "btn2": "Vertrieb kontaktieren",
+      "footer": "Gültige .edu Mail? Sichere dir 50% Rabatt auf Jahrespläne."
+    }
+  },
+  "AboutPage": {
+    "meta_title": "Über uns - Copywritee | Das Team hinter dem Produkt",
+    "meta_desc": "Erfahren Sie mehr über die Mission von Copywritee. Gegründet von Atu Chukwudalu Daniel, digitalisieren wir Papierdokumente mittels KI.",
+    "hero": {
+      "badge": "Unsere Mission",
+      "title_start": "Wissen befreien,",
+      "title_highlight": "das auf Papier gefangen ist.",
+      "p1": "Die Welt läuft noch immer auf Handschrift. Doch diese Daten sind oft in analoger Form gefangen.",
+      "p2": "Copywritee macht handschriftlichen Text so mächtig wie digitalen Code:",
+      "p2_bold": "durchsuchbar, editierbar und formatiert."
+    },
+    "tech": {
+      "title_start": "Angetrieben durch",
+      "title_highlight": "Intelligente Technologien",
+      "subtitle": "Wir integrieren",
+      "subtitle_end": "um Handschrift über Stile und Sprachen hinweg mit bis zu 98% Genauigkeit zu verstehen.",
+      "card1_t": "Smarte Erkennung",
+      "card1_d": "Deep-Learning-Modelle, die sich sofort an Schreibschrift oder Druckschrift anpassen.",
+      "card2_t": "Kontextsensitive Formatierung",
+      "card2_d": "Wir erkennen Tabellen, Absätze und Listen, um Ihr Layout originalgetreu zu bewahren.",
+      "card3_t": "Mehrsprachige Engine",
+      "card3_d": "Native Unterstützung für über 50 Sprachen, inklusive komplexer Symbole."
+    },
+    "ecosystem": {
+      "highlight": "Ökosystem",
+      "subtitle": "Mehr als ein Konverter. Eine Plattform, die analoge Ideen in digitale Assets verwandelt.",
+      "explore": "Feature erkunden"
+    },
+    "features": {
+      "engine": {
+        "title": "Dokumenten-Engine",
+        "tag": "Kernleistung",
+        "desc": "Wandeln Sie Handschrift in formatierte Dokumente unter Beibehaltung des Layouts um."
+      },
+      "spreadsheets": {
+        "title": "Smarte Tabellen",
+        "tag": "Datenautomatisierung",
+        "desc": "Verwandeln Sie handschriftliche Tabellen in funktionale Excel-Dateien."
+      },
+      "hub": {
+        "title": "Cloud Dokumenten-Hub",
+        "tag": "Sicherer Speicher",
+        "desc": "Greifen Sie überall sicher auf Ihre Dateien zu – mit Enterprise-Sicherheit."
+      },
+      "collab": {
+        "title": "Echtzeit-Kollaboration",
+        "tag": "Team-Workflow",
+        "desc": "Teilen und bearbeiten Sie Dokumente gemeinsam in Echtzeit."
+      },
+      "export": {
+        "title": "Export & Integration",
+        "tag": "Volle Flexibilität",
+        "desc": "Export in über 20 Formate wie DOCX und PDF ohne Strukturverlust."
+      }
+    },
+    "founder": {
+      "badge": "Anmerkung des Gründers",
+      "title": "Von Entwicklern für Effizienz-Liebhaber gebaut.",
+      "p1": "Copywritee wurde gegründet von",
+      "p2": "Daniel entwickelte Copywritee, um das manuelle Abtippen von Notizen zu beenden. Er glaubt, dass Technik die menschliche Produktivität verstärken sollte.",
+      "role": "Gründer & Lead Engineer"
+    },
+    "vision": {
+      "title": "Unsere Vision",
+      "p": "Wir helfen Ihnen, handschriftliche Notizen schnell und präzise in strukturierte digitale Dokumente zu verwandeln.",
+      "cta": "Heute mit der Konvertierung starten"
+    }
+  },
+  "CareersPage": {
+    "meta": {
+      "title": "Karriere - Copywritee | Baue die Zukunft der Dokumentation",
+      "description": "Werde Teil von Copywritee und hilf Unternehmen dabei, Dokumente nahtlos mit KI-Tools zu erstellen und zu bearbeiten."
+    },
+    "hero": {
+      "badge": "Komm zu uns",
+      "title_start": "Baue die Zukunft der",
+      "title_highlight": "Dokumentation",
+      "subtitle": "Werde Teil eines Teams, das Unternehmen weltweit stärkt. Wir suchen Innovatoren für komplexe Herausforderungen.",
+      "cta1": "Offene Stellen ansehen",
+      "cta2": "Über unsere Kultur lesen"
+    },
+    "values": {
+      "title_start": "Warum bei uns",
+      "title_highlight": "mitwirken",
+      "subtitle": "Wir sind nicht nur ein weiteres SaaS-Tool. Wir definieren, wie die nächste Generation mit Dokumenten arbeitet.",
+      "v1_t": "Hoher Impact",
+      "v1_d": "Du bist kein kleines Rädchen im Getriebe. Deine Arbeit erreicht wöchentlich tausende Nutzer.",
+      "v2_t": "Globale Freiheit",
+      "v2_d": "Wir arbeiten 'Async-First'. Arbeite von Bali, Berlin oder deinem Schlafzimmer aus.",
+      "v3_t": "Deep Tech",
+      "v3_d": "Wir lösen harte Probleme in den Bereichen KI und Echtzeit-Sync. Es ist fordernd und lohnend."
+    },
+    "benefits": {
+      "badge": "Benefits",
+      "title": "Wir sorgen für dich, damit du dein Bestes geben kannst.",
+      "desc": "Burnout ist der Feind der Innovation. Unsere Perks unterstützen dein Wohlbefinden.",
+      "visual_label": "Wellness & Growth Ökosystem"
+    },
+    "perks": {
+      "remote": {
+        "title": "Remote-First",
+        "desc": "Arbeite von überall. Wir schätzen Ergebnisse mehr als Präsenzzeit."
+      },
+      "health": {
+        "title": "Gesundheit & Wellness",
+        "desc": "Umfassende Vorsorgeoptionen sind verfügbar."
+      },
+      "growth": {
+        "title": "Entwicklungsbudget",
+        "desc": "Zuschüsse für Kurse, Bücher und Konferenzen."
+      },
+      "pto": {
+        "title": "Flexibler Urlaub",
+        "desc": "Lade deine Akkus auf, wenn du es brauchst. Mentale Gesundheit zählt."
+      }
+    },
+    "process": {
+      "main_title": "Der Einstellungsprozess",
+      "review": {
+        "title": "Bewerbungsprüfung",
+        "desc": "Wir prüfen, wie deine Fähigkeiten zu unserer Mission passen."
+      },
+      "screening": {
+        "title": "Erstes Screening",
+        "desc": "Ein lockerer Chat über deinen Hintergrund und deine Erwartungen."
+      },
+      "culture": {
+        "title": "Kultur-Interview",
+        "desc": "Lerne das Team kennen und finde heraus, ob unsere Werte übereinstimmen."
+      },
+      "onboarding": {
+        "title": "Angebot & Onboarding",
+        "desc": "Willkommen an Bord! Wir statten dich mit allem aus, was du brauchst."
+      }
+    },
+    "jobs": {
+      "main_title": "Offene Positionen",
+      "main_subtitle": "Finde deine nächste Rolle bei Copywritee",
+      "apply_btn": "Jetzt bewerben",
+      "marketing": {
+        "title": "Marketing & Social Media Praktikant",
+        "dept": "Marketing",
+        "type": "Praktikum",
+        "loc": "Remote (Global)",
+        "desc": "Hilf uns, die Online-Präsenz von Copywritee durch kreative Posts und Updates zu stärken."
+      },
+      "campus": {
+        "title": "Campus Botschafter",
+        "dept": "Community",
+        "type": "Teilzeit",
+        "loc": "Remote / On-Campus",
+        "desc": "Repräsentiere Copywritee in deiner Community. Ideal für Netzwerker."
+      },
+      "creator": {
+        "title": "Content Creator Partner",
+        "dept": "Creative",
+        "type": "Freelance",
+        "loc": "Remote (Global)",
+        "desc": "Erstelle Videos und Assets, die unsere Features präsentieren."
+      }
+    },
+    "culture": {
+      "title": "Auf Diversität gebaut, durch Inklusion getrieben.",
+      "desc": "Wir glauben, dass die besten Lösungen aus diversen Teams entstehen. Wir fördern ein authentisches Arbeitsumfeld.",
+      "team_count": "Werde Teil von 40+ Mitgliedern weltweit"
+    },
+    "modal": {
+      "title": "Für Stelle bewerben",
+      "subject_prefix": "Bewerbung als",
+      "body_greeting": "Hallo Recruiting-Team,",
+      "body_intro": "hiermit bewerbe ich mich für die Position als",
+      "body_fields": "Name: \nLinkedIn: \n\n[Beschreibe hier deine relevante Erfahrung]",
+      "body_closing": "Mit freundlichen Grüßen,",
+      "note_label": "Hinweis",
+      "note_text": "Klicken öffnet dein Mail-Programm. Bitte vergiss nicht, deinen Lebenslauf manuell anzuhängen.",
+      "field_name": "Vollständiger Name",
+      "field_email": "E-Mail-Adresse",
+      "submit": "Weiter zur Mail-App"
+    }
+  },
+  "TermsPage": {
+    "meta_title": "Nutzungsbedingungen - Copywritee | Nutzervereinbarung",
+    "meta_desc": "Lesen Sie die Bedingungen für die Nutzung von Copywritee. Erfahren Sie mehr über Ihre Rechte und unsere geltenden Gesetze in der Schweiz.",
+    "hero_title": "Nutzungsbedingungen",
+    "last_updated": "Zuletzt aktualisiert",
+    "date": "November 2025",
+    "welcome_text": "Willkommen bei Copywritee. Durch den Zugriff auf unsere Dienste erklären Sie sich mit diesen Bedingungen einverstanden. Bitte lesen Sie diese sorgfältig durch.",
+    "s1_t": "Nutzung unserer Dienste",
+    "s1_c": "Sie müssen mindestens 13 Jahre alt sein. Sie erklären sich damit einverstanden, die Dienste nur für rechtmäßige Zwecke zu nutzen. Sie sind für die Geheimhaltung Ihrer Zugangsdaten verantwortlich.",
+    "s2_t": "Nutzerinhalte",
+    "s2_c": "Sie behalten das Eigentum an allen hochgeladenen Inhalten. Sie gewähren uns eine begrenzte Lizenz zur Verarbeitung, um den Dienst bereitzustellen und zu verbessern.",
+    "s3_t": "Geistiges Eigentum",
+    "s3_c": "Alle Software, Designs und Marken von Copywritee bleiben unser Eigentum. Das Kopieren oder Modifizieren ohne Genehmigung ist untersagt.",
+    "s4_t": "Abonnements und Zahlungen",
+    "s4_c": "Einige Funktionen sind kostenpflichtig. Mit dem Abo stimmen Sie unseren Preisen und Abrechnungszyklen zu. Zahlungen erfolgen über sichere Drittanbieter.",
+    "s5_t": "Verbotene Aktivitäten",
+    "prohibited_item_1": "Reverse Engineering oder Modifizierung der Plattform.",
+    "prohibited_item_2": "Hochladen von rechtswidrigen oder schädlichen Inhalten.",
+    "prohibited_item_3": "Störung der Systemsicherheit oder Integrität.",
+    "prohibited_item_4": "Identitätsmissbrauch oder falsche Angaben zur Person.",
+    "s6_t": "Kündigung",
+    "s6_c": "Wir können Ihr Konto bei Verstößen jederzeit sperren. Sie können die Nutzung jederzeit beenden, indem Sie Ihr Konto löschen.",
+    "s7_t": "Haftungsbeschränkung",
+    "s7_c": "Copywritee wird 'wie besehen' bereitgestellt. Soweit gesetzlich zulässig, haften wir nicht für indirekte Schäden aus der Nutzung des Dienstes.",
+    "s8_t": "Änderungen der Bedingungen",
+    "s8_c": "Wir können diese Bedingungen periodisch anpassen. Die fortgesetzte Nutzung gilt als Annahme der neuen Bedingungen.",
+    "s9_t": "Anwendbares Recht",
+    "s9_c": "Diese Bedingungen unterliegen dem Schweizer Recht, ungeachtet kollisionsrechtlicher Bestimmungen.",
+    "contact_t": "Fragen?",
+    "contact_d": "Unser Rechtsteam steht Ihnen bei Fragen zu unseren Richtlinien zur Verfügung."
+  },
+  "PrivacyPage": {
+    "meta_title": "Datenschutzerklärung - Copywritee | Datensicherheit",
+    "meta_desc": "Erfahren Sie, wie Copywritee mit Ihren persönlichen Daten umgeht. Wir priorisieren Ihren Datenschutz nach Schweizer Standards.",
+    "hero_title": "Datenschutzerklärung",
+    "last_updated": "Zuletzt aktualisiert",
+    "date": "November 2025",
+    "welcome_text": "Wir bei Copywritee respektieren Ihre Privatsphäre. Diese Richtlinie erklärt, wie wir Informationen sammeln, nutzen und schützen.",
+    "s1_t": "Daten, die wir sammeln",
+    "collect_item_1_t": "Kontoinformationen",
+    "collect_item_1_d": "Name, E-Mail und Zugangsdaten zur Sicherung Ihres Workspace.",
+    "collect_item_2_t": "Nutzerinhalte",
+    "collect_item_2_d": "Dateien, handschriftliche Notizen und Vorlagen, die Sie hochladen.",
+    "collect_item_3_t": "Zahlungsdaten",
+    "collect_item_3_d": "Rechnungsdetails über sichere Anbieter (wir speichern keine Kartendaten).",
+    "collect_item_4_t": "Nutzungsdaten",
+    "collect_item_4_d": "Interaktionsprotokolle, besuchte Seiten und Performance-Metriken.",
+    "collect_item_5_t": "Gerätedaten",
+    "collect_item_5_d": "Browsertyp, IP-Adresse und technische Metadaten für die Sicherheit.",
+    "s2_t": "Nutzung der Daten",
+    "use_item_1": "Bereitstellung und Personalisierung Ihres Dokumentenerlebnisses.",
+    "use_item_2": "Verarbeitung von KI-Konvertierungen und Workflows.",
+    "use_item_3": "Kommunikation von Updates und Sicherheitswarnungen.",
+    "use_item_4": "Analyse von Nutzungsmustern zur Qualitätsverbesserung.",
+    "use_item_5": "Verhinderung von Missbrauch und Einhaltung von Gesetzen.",
+    "s3_t": "Weitergabe von Informationen",
+    "share_item_1_t": "Dienstleister",
+    "share_item_1_d": "Infrastruktur- und Zahlungspartner, die uns beim Betrieb helfen.",
+    "share_item_2_t": "Rechtliche Anforderungen",
+    "share_item_2_d": "Wenn gesetzlich erforderlich oder zum Schutz der Nutzersicherheit.",
+    "share_item_3_t": "Unternehmensübertragungen",
+    "share_item_3_d": "Daten können bei Fusionen oder Reorganisationen übertragen werden.",
+    "s4_t": "Datensicherheit",
+    "s4_c": "Wir speichern Daten nur so lange wie nötig. Informationen werden während der Übertragung und Speicherung verschlüsselt.",
+    "s5_t": "Ihre Datenschutzrechte",
+    "s5_c": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung oder Export Ihrer Daten nach Schweizer und internationalem Recht.",
+    "s7_t": "Cookies & Analyse",
+    "s7_c": "Wir nutzen Cookies zur Verbesserung der Navigation. Diese können Sie in Ihrem Browser jederzeit verwalten.",
+    "s8_t": "Schutz von Minderjährigen",
+    "s8_c": "Copywritee ist nicht für Kinder unter 13 Jahren bestimmt. Wir sammeln wissentlich keine Daten von Minderjährigen.",
+    "s9_t": "Richtlinienänderungen",
+    "s9_c": "Wir aktualisieren diese Richtlinie regelmäßig. Wesentliche Änderungen werden per E-Mail oder App-Benachrichtigung mitgeteilt.",
+    "contact_t": "Datenschutz-Support",
+    "contact_d": "Haben Sie Fragen zu Ihren Daten? Kontaktieren Sie unseren Datenschutzbeauftragten.",
+    "hq_label": "Hauptsitz"
+  },
+  "DocsPage": {
+    "meta": {
+      "title": "Dokumentation | Copywritee - Handschrift-OCR & Dokumenten-KI",
+      "description": "Erfahren Sie, wie Sie Handschrift in Text umwandeln, Tabellen nach Excel exportieren und Dokumenten-Workflows automatisieren mit den Copywritee-Leitfäden."
+    },
+    "sidebar": {
+      "external_links": "Externe Links",
+      "api_reference": "API-Referenz",
+      "system_status": "Systemstatus",
+      "nav": {
+        "overview": "Übersicht",
+        "getting_started": "Erste Schritte",
+        "converter": "Handschrift-Konverter",
+        "templates": "Vorlagen",
+        "integrations": "Integrationen & API",
+        "enterprise": "Enterprise & Admin",
+        "billing": "Abrechnung & Tarife",
+        "support": "Support"
+      }
+    },
+    "header": {
+      "breadcrumb": "Dokumentation",
+      "category": "Einführung",
+      "title": "Copywritee Docs",
+      "subtitle": "Der vollständige Leitfaden zur Umwandlung von handschriftlichen Notizen, Tabellen und Skizzen in strukturierte digitale Assets.",
+      "cta": "Kurzanleitung unten"
+    },
+    "overview": {
+      "title": "Plattform-Übersicht",
+      "description": "Copywritee ist mehr als nur OCR. Es ist ein Workflow-Tool für die Digitalisierung analoger Daten. Wir spezialisieren uns auf .",
+      "bold1": "unleserliche Handschrift",
+      "bold2": "komplexe Tabellen",
+      "bold3": "mehrseitige Dokumente",
+      "cards": {
+        "ocr": {
+          "title": "KI-OCR-Engine",
+          "desc": "Erkennt Schreibschrift, Druckschrift und gemischte Stile."
+        },
+        "tables": {
+          "title": "Tabellen-Extraktion",
+          "desc": "Konvertiert gezeichnete Gitter direkt in Excel/CSV."
+        },
+        "teams": {
+          "title": "Team-Workspace",
+          "desc": "Echtzeit-Bearbeitung und Versionskontrolle."
+        }
+      }
+    },
+    "getting_started": {
+      "title": "Erste Schritte",
+      "step1_title": "Workspace erstellen",
+      "step1_desc": "Registrieren Sie sich unter {link}. Wenn Sie einer Organisation beitreten, nutzen Sie Ihren Einladungslink.",
+      "step2_title": "Konvertierungsmodus wählen",
+      "step2_desc": "Klicken Sie oben rechts auf {button}. Wählen Sie die richtige Engine für maximale Genauigkeit:",
+      "step2_button": "Bild hochladen",
+      "mode_word_title": "Bild zu Word",
+      "mode_word_desc": "Ideal für Vorlesungsnotizen, Aufsätze und Briefe.",
+      "mode_excel_title": "Bild zu Excel",
+      "mode_excel_desc": "Ideal für Finanzberichte, Inventarlisten und Tabellen.",
+      "step3_title": "Dokument bearbeiten",
+      "step3_desc": "Unsere Plattform bietet einen integrierten Editor. Das transkribierte Dokument wird automatisch zur Verfeinerung platziert, was Stunden an Abtippen spart."
+    },
+    "converter": {
+      "title": "Handschrift-Konverter-Engine",
+      "description": "Unsere Technologie nutzt Deep Learning, um Strichmuster zu analysieren. Sie erkennt Schreibschrift auch bei schlechten Lichtverhältnissen.",
+      "constraint_label": "Einschränkung:",
+      "constraint_text": "Unterstützt Dateien bis 25MB. Bitte teilen Sie größere PDFs vor dem Upload auf."
+    },
+    "integrations": {
+      "title": "Export & Kompatibilität",
+      "description": "Copywritee erstellt Standarddateien, die mit all Ihren Lieblingstools kompatibel sind.",
+      "roadmap_title": "Integrationen & Roadmap",
+      "roadmap_desc": "Wir bauen Verbindungen zu Ihrem Ökosystem auf. Bi-direktionale Synchronisierung ist in Entwicklung.",
+      "planned": "Geplant",
+      "api_badge": "Demnächst",
+      "api_title": "Entwickler-API",
+      "api_desc": "Wir entwerfen eine robuste REST-API. {link}, um frühen Zugriff zu erhalten.",
+      "api_link_text": "Auf die Warteliste setzen",
+      "api_preview_title": "Für Entwickler bauen",
+      "api_preview_desc": "Bringen Sie OCR-Funktionen direkt in Ihre Anwendungen.",
+      "api_btn": "API-Warteliste beitreten"
+    },
+    "templates": {
+      "title": "Vorlagen & Workflows",
+      "description": "Strukturieren Sie Text automatisch in Berichte, medizinische Formulare oder Lernhilfen.",
+      "items": {
+        "meeting": "Besprechungsnotizen",
+        "medical": "Medizinisches Formular",
+        "legal": "Rechtlicher Vertrag",
+        "syllabus": "Lehrplan"
+      }
+    },
+    "enterprise": {
+      "title": "Enterprise & Admin",
+      "description": "Verwalten Sie tausende Nutzer mit Kontrollen auf Unternehmensebene.",
+      "sso_title": "SSO & SCIM",
+      "sso_desc": "SAML 2.0 mit Okta oder Azure AD konfigurieren. Automatisierte Bereitstellung via SCIM.",
+      "sso_cta": "Konfigurationsleitfaden ansehen →",
+      "data_title": "Datenresidenz",
+      "data_desc": "Wählen Sie den Speicherort: US-East, EU (Frankfurt) oder APAC."
+    },
+    "billing": {
+      "title": "Abrechnung & Tarife",
+      "description": "Drei Tarife basierend auf Ihrem Volumen.",
+      "starter": "Starter",
+      "pro": "Pro",
+      "business": "Business",
+      "free": "Kostenlos",
+      "mo": "/Mon.",
+      "popular": "BELIEBT",
+      "limit_prefix": "Limit:",
+      "tier_starter_desc": "Für Studenten & Gelegenheitsnutzer",
+      "tier_pro_desc": "Für Freelancer & Forscher",
+      "tier_biz_desc": "Hohes Volumen & Teams",
+      "matrix_title": "Vergleichsmatrix",
+      "matrix_head_cat": "Kategorie",
+      "rows": {
+        "usage": "Nutzungslimits",
+        "vol": "Monatliches Seitenvolumen",
+        "storage": "Cloud-Speicher",
+        "batch": "Batch-Upload-Größe",
+        "core": "Kernfunktionen",
+        "formats": "Export-Formate",
+        "tables": "Tabellenerkennung",
+        "ai": "Dokumenten-KI",
+        "cont": "Kontinuierliche Konvertierung",
+        "pdf": "PDF-Bearbeitung",
+        "support_slas": "Support & SLAs",
+        "cust_supp": "Kundensupport",
+        "queue": "Warteschlange"
+      },
+      "values": {
+        "unlimited": "Unbegrenzt",
+        "standard": "Standard",
+        "priority_email": "Priorisierter E-Mail-Support",
+        "priority_chat": "Chat & E-Mail Support",
+        "fast": "Schnell",
+        "real_time": "Echtzeit"
+      },
+      "note_title": "Hinweis zu Zyklen:",
+      "note_text": "Seitenlimits werden am 1. jedes Monats zurückgesetzt."
+    },
+    "contact": {
+      "title": "Brauchen Sie Hilfe?",
+      "description": "Support Mo-Fr, 9:00 - 18:00 Uhr CET.",
+      "btn": "Support kontaktieren"
+    },
+    "demo": {
+      "process_id": "scan_to_doc_v2.prozess",
+      "uploaded_label": "Hochgeladenes Bild",
+      "converting_status": "Konvertierung...",
+      "filename": "notiz_original.jpg",
+      "converted_label": "Konvertiertes Dokument",
+      "file_ext": ".docx",
+      "alt_input": "Handschriftliche Eingabe",
+      "alt_output": "Digitale Schnittstelle"
+    }
+  }
+}

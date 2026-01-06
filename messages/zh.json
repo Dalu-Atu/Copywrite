@@ -1,0 +1,1125 @@
+{
+  "HomePage": {
+    "trust_pill": "V2.0 手写文字识别: 99.2% 准确率",
+    "hero_title_1": "将手写文字转换为文本和",
+    "hero_title_2": "可编辑文档。",
+    "hero_subtitle": "上传手写笔记、扫描版PDF或白板照片。我们的AI引擎可在几秒钟内将其转换为Word、Excel和PDF。",
+    "check_1": "无需信用卡",
+    "check_2": "每月50次免费识别",
+    "rating_text": "超过1万名用户的4.9/5好评",
+    "cta_start": "免费开始使用",
+    "cta_upload": "上传图片",
+    "stat_time": "处理速度",
+    "stat_accuracy": "识别准确率",
+    "meta_title": "手写转文字识别器 | AI手写OCR | Copywritee",
+    "meta_desc": "立即将手写笔记转换为可编辑的数字文本。全球领先的高精度AI手写OCR识别工具。"
+  },
+  "Features": {
+    "section_label": "生态系统",
+    "main_title_1": "文档数字化",
+    "main_title_2": "所需的一切。",
+    "main_desc": "大多数OCR工具仅提取文本，导致排版混乱。Copywritee 自动还原版面，确保数据安全，并将笔记转化为专业文档。",
+    "editor_label": "熟悉的操作界面",
+    "editor_title": "像使用Word一样编辑。",
+    "editor_desc": "无需学习新工具。我们的编辑器与MS Word完全一致，转换后可立即在浏览器中修改格式。",
+    "editor_check_1": "零学习成本：熟悉的工具栏和布局。",
+    "editor_check_2": "格式保留：保留加粗、斜体和列表。",
+    "editor_mock_doc": "会议记录_7月.docx",
+    "table_label": "数据转换",
+    "table_title": "手写表格转为电子表格。",
+    "table_desc": "立即分析书面数据。将手写日志、表格和清单转换为排列整齐的.xlsx文件。",
+    "table_check_1": "自动检测：识别纸质笔记中的行和列。",
+    "table_check_2": "公式就绪：导出的纯净数据可直接用于数据分析。",
+    "table_mock_doc": "预算转换_Q3.xlsx",
+    "eco_title": "完整的生态系统",
+    "eco_subtitle": "为专业工作流和全面安全而生。",
+    "lang_label": "全球化引擎",
+    "lang_title": "支持30多种语言",
+    "lang_desc": "从英文草书到中文汉字，我们的AI能以母语级的精度进行识别。",
+    "cloud_label": "云存储",
+    "cloud_title": "智能库",
+    "cloud_desc": "自动标记和AI文件夹，扫描完成即完成归档整理。",
+    "export_label": "多平台集成",
+    "export_title": "随处导出",
+    "export_desc": "一键同步至常用工具，无缝连接您的数字化工作空间。"
+  },
+  "Trust": {
+    "title": "行业领先者的选择。",
+    "description": "从学校到全球科技巨头，前瞻性的团队都在使用 Copywritee。"
+  },
+  "HowItWorks": {
+    "label": "工作流程",
+    "title_1": "只需三步",
+    "title_2": "完成手写转文字。",
+    "description": "节省数小时的手打时间。Copywritee 将复杂的识别过程简化为3秒钟的高效体验。",
+    "step_1_title": "上传扫描",
+    "step_1_desc": "拖入图片或PDF。引擎会自动优化对比度以提高识别度。",
+    "step_2_title": "神经元分析",
+    "step_2_desc": "AI映射文档几何结构，识别表格、标题和样式。",
+    "step_3_title": "结构化重组",
+    "step_3_desc": "在Word、Excel或Notion中还原文档，方便直接编辑。",
+    "processing": "处理中..."
+  },
+  "Why": {
+    "label": "为什么选择我们",
+    "title_main": "拒绝修复",
+    "title_bad_ocr": "劣质识别",
+    "title_suffix": "立即开始高效工作。",
+    "subtitle": "我们不只是提取文字，我们是在“重建”文档。",
+    "others_label": "传统OCR",
+    "others_error": "识别错误",
+    "others_notes": "* 格式丢失 | * 表格错位 | * 需要大量手动修改",
+    "our_label": "智能重组",
+    "our_status": "已验证",
+    "our_table_desc": "描述",
+    "our_table_total": "总计",
+    "our_table_item": "网页开发",
+    "our_table_date": "日期",
+    "our_features": "保留布局 | 100% 可编辑",
+    "card_1_title": "10倍速提升",
+    "card_1_desc": "手动输入需要数小时，我们只需几秒钟。",
+    "card_1_manual": "手动",
+    "card_2_title": "降低70%成本",
+    "card_2_desc": "消除数据录入错误。Copywritee 在第一个月即可为您省下成本。",
+    "card_2_stat": "每月节省*",
+    "card_3_title": "数据自主权",
+    "card_3_desc": "我们不会使用您的数据训练模型。文档经过加密处理后即刻删除。"
+  },
+  "Testimonials": {
+    "label": "成功案例",
+    "title_main": "深受",
+    "title_highlight": "高效团队喜爱。",
+    "subtitle": "从教育工作者到数据分析师，了解 Copywritee 如何使全球工作流现代化。",
+    "trust_footer": "立即加入1万多名用户，开启文档数字化转型。",
+    "items": {
+      "ev": {
+        "role": "教师",
+        "company": "Sapele Vocational Centre",
+        "quote": "Copywritee 改变了我的办公效率，将笔记转换为Word文档每周帮我节省大量时间。"
+      },
+      "ab": {
+        "role": "数据分析师",
+        "company": "TechCorp Inc.",
+        "quote": "Excel转换功能简直是神器。我可以扫描财务记录并立即获得零错误的结构化表格。"
+      },
+      "gc": {
+        "role": "联合创始人",
+        "company": "QueerHaven",
+        "quote": "直接编辑PDF并保存在云端的功能正是我们团队所需要的。"
+      }
+    }
+  },
+  "FAQ": {
+    "title_main": "常见",
+    "title_highlight": "问题",
+    "items": {
+      "what_is": {
+        "q": "什么是 Copywritee？",
+        "a": "Copywritee 是一款手写识别平台，可将笔记和草书转换为 Word 及 Excel 等可编辑格式。"
+      },
+      "who_benefit": {
+        "q": "谁能从中受益？",
+        "a": "学生、学者、教师、律师以及任何需要将手写笔记、会议记录或手写信件数字化的人群。"
+      },
+      "how_work": {
+        "q": "它是如何工作的？",
+        "a": "只需上传笔记照片。我们的AI引擎会分析手写内容，将其转换为可编辑文本，并导出为 Word、PDF 或 Excel。"
+      },
+      "accuracy": {
+        "q": "识别准确率有多高？",
+        "a": "对于手写和草书文本，我们的识别准确率可达95-98%。"
+      },
+      "cursive": {
+        "q": "能识别草书或连体字吗？",
+        "a": "可以。引擎经过专门训练，可高精度识别各种连体字、斜体字和潦草字迹。"
+      },
+      "formats": {
+        "q": "支持导出哪些格式？",
+        "a": "支持导出为 Word (.docx)、PDF、Excel (.xlsx)、Google Docs 和纯文本 (.txt)。"
+      },
+      "how_to_word": {
+        "q": "如何将手写笔记转为 Word？",
+        "a": "上传图片，等待引擎处理约10-30秒，查看文本，点击“导出为 Word”即可。"
+      },
+      "limits": {
+        "q": "文件大小和页数有限制吗？",
+        "a": "免费用户上限10MB/5页；付费用户上限50MB/50页。"
+      },
+      "math": {
+        "q": "支持数学公式和符号吗？",
+        "a": "支持。Copywritee 可以识别复杂的数学等式、公式和科学符号。"
+      },
+      "phone_scan": {
+        "q": "能用手机拍照识别吗？",
+        "a": "可以。手机拍照后直接上传即可，支持 JPG、PNG 和 PDF 格式。"
+      },
+      "quality": {
+        "q": "什么样的图片质量效果最好？",
+        "a": "光线充足、无阴影、文字水平对齐且分辨率在 300 DPI 以上的效果最佳。"
+      },
+      "history": {
+        "q": "能识别旧信件或历史文献吗？",
+        "a": "可以。Copywritee 非常适合用于数字化家书、日记和历史手写文件。"
+      },
+      "low_accuracy": {
+        "q": "如果识别不准确怎么办？",
+        "a": "您可以在导出前直接在编辑器中修改。尝试提高图片质量通常可以改善效果。"
+      },
+      "pdf_edit": {
+        "q": "可以直接编辑 PDF 吗？",
+        "a": "可以。内置 PDF 编辑器支持增删文字、高亮标注以及在线签名。"
+      },
+      "cloud_save": {
+        "q": "文档会保存在线吗？",
+        "a": "是的。每个转换后的文档都可以安全存储在 Copywritee 云端，多设备同步。"
+      },
+      "sharing": {
+        "q": "可以与他人分享文档吗？",
+        "a": "支持生成分享链接，或直接同步至 Notion、OneDrive 和 Dropbox。"
+      },
+      "storage_limit": {
+        "q": "云存储空间有多少？",
+        "a": "免费用户 1GB，付费用户 100GB 存储空间并支持版本回溯。"
+      },
+      "languages": {
+        "q": "支持哪些语言？",
+        "a": "目前支持中文、英文、西班牙语、法语、德语、意大利语和葡萄牙语等。"
+      },
+      "messy_writing": {
+        "q": "字迹很乱也能识别吗？",
+        "a": "是的。系统经过海量样本训练，能处理包括潦草、倾斜和混合书写在内的多种风格。"
+      },
+      "security": {
+        "q": "我的数据安全吗？",
+        "a": "所有文档均采用 AES-256 加密。我们符合 SOC 2 标准，文档在一定期限后会自动删除。"
+      },
+      "install": {
+        "q": "需要安装软件吗？",
+        "a": "无需安装，完全基于 Web。我们也提供可选的桌面端和移动端应用。"
+      },
+      "offline": {
+        "q": "支持离线使用吗？",
+        "a": "网页版需联网。桌面应用版本提供基础的离线识别功能。"
+      },
+      "batch": {
+        "q": "能批量处理多页吗？",
+        "a": "付费用户支持单次批量处理最多 50 页文档。"
+      },
+      "is_free": {
+        "q": "Copywritee 免费吗？",
+        "a": "提供免费计划，每月可享受 50 次免费转换次数。"
+      },
+      "pricing_diff": {
+        "q": "免费版和专业版的区别？",
+        "a": "专业版包含无限次转换、PDF 编辑、100GB 存储和优先技术支持。"
+      },
+      "cancel": {
+        "q": "可以随时取消订阅吗？",
+        "a": "是的。无合同限制，您可以在个人控制台随时取消订阅。"
+      },
+      "why_manual": {
+        "q": "为什么要选择 Copywritee 而不是人工录入？",
+        "a": "人工录入效率低下。Copywritee 可节省 90% 的时间，大幅提升工作效率。"
+      },
+      "diff_others": {
+        "q": "相比其他应用，优势在哪？",
+        "a": "不只是 OCR，我们提供包括识别、PDF 编辑、云存储和多格式导出在内的全链路管理。"
+      },
+      "digitize_free": {
+        "q": "如何免费数字化文档？",
+        "a": "直接上传文档，通过免费额度转换并导出为 Word 即可，无需绑定信用卡。"
+      }
+    }
+  },
+  "WordPage": {
+    "meta_title": "手写转Word (DOCX) | Copywritee",
+    "meta_desc": "立即将手写笔记转为Word文档，完美保留原始布局和表格。",
+    "hero_title_1": "手写转",
+    "hero_title_2": "Word",
+    "hero_subtitle": "不再重复打字。AI识别图片并生成可编辑的.docx文件，同时保留表格和样式。",
+    "feat_1_title": "布局保留",
+    "feat_1_desc": "自动识别列表、页眉和边距，确保 Word 文档版面与纸质笔记保持一致。",
+    "feat_2_title": "中文手写识别",
+    "feat_2_desc": "经过海量中文笔迹训练，能够精准识别各种中文字形及简繁体。",
+    "feat_3_title": "隐私至上",
+    "feat_3_desc": "文件采用加密处理，处理完成后 60 分钟内将从服务器永久删除。",
+    "faq_title": "常见问题",
+    "faq_q1": "能识别连体草书吗？",
+    "faq_a1": "可以。Copywritee 使用针对连体和草写字迹优化过的神经网络。 ",
+    "faq_q2": "我的文件安全吗？",
+    "faq_a2": "绝对安全。我们使用 TLS 传输加密并在处理后即刻删除文件。"
+  },
+
+  "PdfPage": {
+    "meta_title": "免费在线 PDF 编辑器与 AI 聊天 | Copywritee",
+    "meta_desc": "使用 AI 编辑、签名并与 PDF 对话。在浏览器中安全地总结文档、提取答案并填写表单。",
+    "hero_pill": "智能 PDF 套件",
+    "hero_title_1": "随时随地编辑 PDF",
+    "hero_title_2": "并与文档 AI 聊天。",
+    "hero_subtitle": "全能型 PDF 工作空间。在线编辑文本、签署合同，并利用 AI 瞬间总结报告或回答问题。",
+    "btn_upload": "上传 PDF 文件",
+    "trust_soc2": "符合 SOC2 安全标准",
+    "trust_ai": "AI 驱动对话",
+    "trust_esign": "具有法律效力的电子签名",
+    "feat_1_title": "与文档对话",
+    "feat_1_desc": "上传一份 100 页 conversion 的合同并询问：“解约条款是什么？”我们的 AI 会在几秒钟内扫描并回答。",
+    "feat_2_title": "填写与签名",
+    "feat_2_desc": "告别打印。在线添加签名、填写表单并勾选复选框。完全符合商业法律用途。",
+    "feat_3_title": "整理与合并",
+    "feat_3_desc": "将多个 PDF 合并为一个，旋转页面或删除不需要的部分。完全掌控您的文件。",
+    "workflow_title": "全新的 PDF 工作流",
+    "step_1_title": "上传",
+    "step_1_desc": "拖放任何大小不超过 50MB 的 PDF。",
+    "step_2_title": "分析",
+    "step_2_desc": "AI 索引文本以便进行搜索和对话。",
+    "step_3_title": "编辑",
+    "step_3_desc": "添加文本、图像或签名。",
+    "step_4_title": "下载",
+    "step_4_desc": "导出完成后的文档。",
+    "cta_title": "让文档管理更高效。",
+    "cta_desc": "加入 10,000 多名专业人士，使用 Copywritee 管理合同和报告。",
+    "cta_btn": "立即免费开始",
+    "btn_new": "新建文档"
+  },
+  "EditorPage": {
+    "meta_title": "免费在线文档编辑器 | 编辑 Word 和 Excel | Copywritee",
+    "meta_desc": "在浏览器中直接编辑 DOCX、XLSX 和文本文件。无需安装，是一个快速、安全且熟悉的云端办公替代方案。",
+    "hero_pill": "云端办公套件",
+    "hero_title_1": "随时随地",
+    "hero_title_2": "在线编辑您的文档。",
+    "hero_subtitle": "在浏览器中直接编辑 Microsoft Word 和 Excel 文件。无需安装，无需登录即可快速修改。",
+    "btn_new": "新建文档",
+    "btn_upload": "上传文件",
+    "trust_secure": "私密且安全",
+    "trust_os": "支持任何操作系统",
+    "trust_office": "100% 兼容微软 Office",
+    "feat_1_title": "随处办公",
+    "feat_1_desc": "从任何设备访问您的文档。无论您使用的是 Windows、Mac 还是 Linux，编辑器只需点击即可使用。",
+    "feat_2_title": "熟悉的界面",
+    "feat_2_desc": "无需重新学习。我们的工具栏和快捷键模拟了 Word 和 Excel，让您瞬间提高生产力。",
+    "feat_3_title": "轻量且快速",
+    "feat_3_desc": "无需等待笨重的软件加载。即使在低速网络下，Copywritee 编辑器也能在 2 秒内启动。",
+    "formats_title": "支持的格式",
+    "formats_subtitle": "我们支持整个 Office 生态系统。上传现有文件或从头开始。",
+    "format_docx": "微软 Word",
+    "format_xlsx": "微软 Excel",
+    "format_txt": "纯文本",
+    "format_csv": "数据表"
+  },
+  "ExcelPage": {
+    "meta_title": "手写表格转 Excel (XLSX) | Copywritee",
+    "meta_desc": "自动化数据录入。使用 AI 将手写网格、财务报表和日程表立即转换为可编辑的 Excel 表格。",
+    "hero_pill": "智能网格识别",
+    "hero_title": "手写内容转",
+    "hero_highlight": "Excel",
+    "hero_subtitle": "停止手动录入数据。我们的 AI 自动识别手写笔记中的行、列和表头，并将其转换为 .xlsx 文件。",
+    "trust_security": "银行级安全防护",
+    "trust_grid": "多列自动检测",
+    "trust_accuracy": "99.8% 数字识别准确率",
+    "feat_1_title": "智能网格技术",
+    "feat_1_desc": "我们不只识别文字，还识别结构。引擎自动识别手绘线条、隐含列和合并单元格。",
+    "feat_2_title": "财务级精度",
+    "feat_2_desc": "针对数字进行了深度优化。非常适合将手写发票、库存清单、财务账簿和成绩单数字化。",
+    "feat_3_title": "通用导出",
+    "feat_3_desc": "以标准的微软 Excel (.xlsx) 或 CSV 格式下载，方便导入 Google 表格或数据库。",
+    "how_title": "秒速将纸质文档变为电子表格",
+    "step_1_title": "拍摄",
+    "step_1_desc": "拍摄您的账簿或数据表的照片。",
+    "step_2_title": "解析",
+    "step_2_desc": "AI 映射行与列的几何结构。",
+    "step_3_title": "导出",
+    "step_3_desc": "下载整洁、格式化的 Excel 文件。",
+    "faq_title": "常见问题",
+    "cta_title": "立即实现数据数字化",
+    "cta_btn": "立即转换表格"
+  },
+  "nav": {
+    "product": "产品",
+    "solutions": "解决方案",
+    "company": "公司",
+    "notes_to_word": "手写转Word",
+    "desc_word": "笔记转为可编辑文档",
+    "table_to_excel": "手写转Excel",
+    "desc_excel": "手写表格转为数据",
+    "online_editor": "在线编辑器",
+    "desc_editor": "浏览器内编辑文档",
+    "pdf_tools": "PDF 工具",
+    "desc_pdf": "编辑、签名及对话 PDF",
+    "academic": "学术教育",
+    "desc_academic": "数字化课堂与研究笔记",
+    "enterprise": "企业服务",
+    "desc_enterprise": "安全文档工作流",
+    "support": "客户支持",
+    "desc_support": "获取技术协助",
+    "pricing": "价格",
+    "login": "登录",
+    "get_started": "免费开始"
+  },
+  "Footer": {
+    "description": "立即将手写笔记转换为整洁、可编辑的文档。专为现代团队打造的安全、快速的工具。",
+    "stay_updated": "获取最新动态",
+    "email_placeholder": "输入您的邮箱",
+    "systems_ok": "系统运行正常",
+    "product": "产品",
+    "company": "公司",
+    "resources": "资源",
+    "hiring": "人才招聘",
+    "copyright": "© {year} Copywritee Inc. | 专为全球团队设计",
+    "links": {
+      "notes_to_word": "手写转Word",
+      "table_to_excel": "表格转Excel",
+      "online_editor": "文档编辑器",
+      "pricing": "定价方案",
+      "about": "关于我们",
+      "careers": "加入我们",
+      "contact": "联系我们",
+      "docs": "文档中心",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    }
+  },
+  "Contact": {
+    "meta_title": "联系我们 | Copywritee 帮助中心",
+    "meta_desc": "需要将手写笔记转换为文本？联系 Copywritee 支持团队获取技术协助或商务咨询。",
+    "meta_keywords": "联系 copywritee, 客户支持, 手写OCR帮助, 技术支持, 联系表单",
+    "og_title": "联系我们 | Copywritee 支持",
+    "og_desc": "获取手写转文本转换的快速帮助。立即联系我们的团队。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_contact": "联系我们",
+    "org_name": "Copywritee"
+  },
+  "Pricing": {
+    "meta_title": "价格方案 | 手写转文本转换器 | Copywritee",
+    "meta_desc": "选择最适合您的方案。从免费版到专业版（$8/月）和商业版（$25/月）。对手写字体识别率高达 99%。",
+    "meta_keywords": "手写转文本价格, OCR软件成本, 学生学习工具费用, 文档自动化价格",
+    "og_title": "实惠的 AI 手写识别 | Copywritee 价格",
+    "og_desc": "每月免费 50 页起步。升级以获取无限批量处理、Notion 同步和高级支持。",
+    "product_name": "Copywritee 手写 OCR",
+    "product_desc": "手写体转文本软件。",
+    "plan_free": "免费版",
+    "plan_pro": "专业版",
+    "plan_biz": "商业版"
+  },
+  "PricingUI": {
+    "hero": {
+      "title_start": "透明的价格，实现",
+      "title_highlight": "完美数字化。",
+      "subtitle": "几秒钟内将手写笔记转换为可编辑文本。选择适合您工作流程的方案。"
+    },
+    "billing": {
+      "monthly": "月付",
+      "yearly": "年付",
+      "save": "节省 20%",
+      "per_month": "/月"
+    },
+    "labels": { "capacity": "容量", "features": "功能" },
+   "plans": {
+    "free": {
+      "name": "免费版",
+      "description": "适用于学生和普通用户的基本手写识别转换。",
+      "pages": "50 页 / 月",
+      "buttonText": "免费开始",
+      "features": [
+        "每月 50 页",
+        "高准确率（手写转文本）",
+        "标准处理速度",
+        "安全云存储",
+        "电子邮件支持",
+        "导出为 TXT, Word, Excel, Html",
+        "使用我们的编辑器上传、创建和编辑文档",
+        "一次上传并识别一张手写图像",
+        "在云端保存并管理多达 50 份文档"
+      ],
+      "missing": [
+        "批量处理",
+        "表格识别",
+        "自定义格式设置",
+        "导出为多种格式（Docx, Xlsx, Pdf, html, odt 等更多）",
+        "一次上传并识别四 (4) 张手写图像",
+        "连续转换（在同一份文档中持续识别不同的图像）"
+      ]
+    },
+    "starter": {
+      "name": "入门版",
+      "description": "非常适合需要更强大功能的自由职业者和研究人员。",
+      "pages": "200 页 / 月",
+      "buttonText": "立即开始",
+      "features": [
+        "包含免费版的所有功能",
+        "每月 200 页",
+        "98% 准确率引擎",
+        "全工作流自动化",
+        "快速手写识别文字转写",
+        "优先客户支持",
+        "批量上传",
+        "一次上传并识别五 (5) 张手写图像",
+        "连续转换（在同一份文档中持续识别不同的图像）",
+        "导出为 PDF, Word, Excel, Json 等更多格式",
+        "云存储：500 份文档",
+        "手写风格学习"
+      ],
+      "missing": [
+        "每次上传限制为 5 张图像",
+        "有限的 PDF 编辑功能",
+        "团队管理",
+        "文档 AI 格式化工具"
+      ]
+    },
+    "pro": {
+      "badge": "最受欢迎",
+      "name": "专业版",
+      "description": "面向团队和专业人士的高容量解决方案。",
+      "pages": "1,000 页 / 月",
+      "buttonText": "升级到商务版",
+      "features": [
+        "包含专业版的所有功能",
+        "每月 1,000 页",
+        "文档 AI 格式化工具",
+        "实时处理队列",
+        "无限制批量处理",
+        "Word, Excel 和 PDF 之间的相互转换",
+        "高级表格提取",
+        "编辑 PDF 文档",
+        "优先聊天和邮件支持",
+        "连续转换（转换整本书籍）",
+        "批量上传，一次性将多页手写内容转换为文档",
+        "自定义发票品牌标识"
+      ]
+    }
+  },
+    "enterprise": {
+      "title": "需要超过 1,000 页？",
+      "desc": "获取具有自定义 API 限制、专属客户管理和 SLA 保证的企业方案。",
+      "cta": "联系销售"
+    },
+    "comparison": {
+      "title": "详细对比",
+      "subtitle": "查看技术参数以选择适合的版本。",
+      "header_feature": "功能",
+      "rows": [
+        { "name": "每月页数", "free": "50", "pro": "200", "bus": "1,000" },
+        { "name": "支持语言", "free": "15", "pro": "35+", "bus": "50+" },
+        { "name": "处理速度", "free": "标准", "pro": "快速", "bus": "实时" }
+      ]
+    },
+    "faq_title": "常见问题",
+    "faqs": [
+      { "q": "如何计算页数？", "a": "一张图片或 PDF 中的一页计为一页。" },
+      {
+        "q": "我的数据安全吗？",
+        "a": "绝对安全。我们使用银行级 AES-256 加密。"
+      }
+    ],
+    "support": {
+      "title": "还有疑问？",
+      "email_label": "发送邮件",
+      "chat_label": "在线客服",
+      "chat_time": "服务时间：周一至五 9am - 5pm EST"
+    }
+  },
+  "Signup": {
+    "meta_title": "加入 Copywritee | 开启数字化工作流",
+    "meta_desc": "创建免费账户，立即开始将手写内容转换为文本。",
+    "hero": {
+      "badge": "全球社区",
+      "title": "加入 10,000+ 专业人士行列。",
+      "check_1": "免费转录 50 页",
+      "check_2": "导出为 Word, Excel, PDF",
+      "check_3": "银行级加密保护",
+      "trusted_by": "深受以下团队信赖"
+    },
+    "form": {
+      "title": "创建账户",
+      "subtitle": "几秒钟内数字化您的笔记。",
+      "google_btn": "使用 Google 注册",
+      "divider": "或使用邮箱注册",
+      "label_name": "全名",
+      "placeholder_name": "张三",
+      "label_email": "工作邮箱",
+      "label_password": "密码",
+      "password_hint": "至少 8 个字符",
+      "terms_prefix": "我同意",
+      "terms_link": "服务条款",
+      "privacy_link": "隐私政策",
+      "submit_btn": "立即开始",
+      "footer_text": "已有账户？",
+      "login_link": "登录"
+    }
+  },
+  "Login": {
+    "meta_title": "登录 | Copywritee",
+    "meta_desc": "欢迎回来。登录您的账户继续数字化文档。",
+    "hero": {
+      "badge": "10,000+ 团队都在用",
+      "testimonial": "“准确度高得惊人。这周为我们团队节省了 40 小时。”",
+      "author": "James Machiavelli",
+      "stat_accuracy": "准确率",
+      "stat_scanned": "已扫描页数"
+    },
+    "form": {
+      "title": "欢迎回来",
+      "subtitle": "请输入您的详细信息以登录。",
+      "google_btn": "使用 Google 登录",
+      "divider": "或使用邮箱继续",
+      "label_email": "电子邮箱",
+      "label_password": "密码",
+      "forgot_password": "忘记密码？",
+      "remember_me": "保持登录 30 天",
+      "submit_btn": "登录",
+      "footer_text": "没有账户？",
+      "signup_link": "免费注册",
+      "copyright": "安全登录"
+    }
+  },
+  "ContactPage": {
+    "meta_title": "联系我们 | Copywritee 帮助中心",
+    "meta_desc": "获取手写转文本转换的快速帮助。联系我们的团队获取技术支持、企业查询或提供反馈。",
+    "hero": {
+      "badge": "联系中心",
+      "title_start": "让我们开始",
+      "title_highlight": "沟通。",
+      "subtitle": "直接与我们联系。点击“发送”将打开您首选的电子邮件应用程序，安全地将消息发送给我们的团队。"
+    },
+    "form": {
+      "first_name": "名",
+      "last_name": "姓",
+      "email": "工作邮箱",
+      "needs": "告诉我们您的需求",
+      "placeholder_msg": "我想讨论...",
+      "submit_btn": "通过邮件应用发送",
+      "success": "正在打开您的邮件应用...",
+      "loading": "正在处理..."
+    },
+    "sidebar": {
+      "hq_title": "苏黎世总部",
+      "hq_address": "Copywritee Technologies AG\nBahnhofstrasse 12, 8001 Zurich\nSwitzerland",
+      "timezone": "中欧时间 (GMT+1)",
+      "support": "一般支持",
+      "sales": "企业销售",
+      "press": "媒体与新闻"
+    }
+  },
+  "EnterprisePage": {
+    "meta_title": "企业级文档智能 | 法律、医疗与商业 OCR",
+    "meta_desc": "安全且符合 SOC2 标准的文档处理。通过私有 AI 为律师事务所、医疗机构和全球企业实现工作流自动化。",
+    "hero": {
+      "badge": "企业级方案",
+      "title_start": "规模化",
+      "title_highlight": "文档智能。",
+      "subtitle": "自动化提取手写表单、法律档案和医疗记录中的数据。专为复杂组织工作流打造，安全且私密。",
+      "cta": "联系销售",
+      "visual_active": "运行中"
+    },
+    "solutions": {
+      "title": "深耕行业，量身定制。",
+      "desc": "单一引擎，针对您行业的独特监管和格式需求进行专业优化。",
+      "legal": {
+        "title": "法律与合规",
+        "desc": "为电子取证（e-discovery）提供高保真度的证据文档、手写宣誓书和历史档案数字化。",
+        "item1": "支持贝茨盖章 (Bate-stamping)",
+        "item2": "个人隐私数据 (PII) 脱敏"
+      },
+      "health": {
+        "title": "医疗保健",
+        "desc": "实现患者入院表单和医生笔记自动化。在保护隐私的同时，将数据从纸质无缝同步到 EHR 系统。",
+        "item1": "符合 HIPAA 标准",
+        "item2": "医疗手写体 OCR"
+      },
+      "biz": {
+        "title": "通用商业",
+        "desc": "为全球团队处理发票、费用报告和头脑风暴白板。随业务量增长灵活扩展。",
+        "item1": "SSO / SAML 登录",
+        "item2": "批量 API 访问"
+      }
+    },
+    "security": {
+      "title": "安全不是插件，而是基石。",
+      "desc": "我们深知企业数据的风险。Copywritee 为您最敏感的文档提供“零信任”环境。",
+      "item1_title": "AES-256 加密",
+      "item1_desc": "数据在存储和传输过程中均经过加密。",
+      "item2_title": "本地化部署选项",
+      "item2_desc": "可在您自己的 VPC 或云环境中部署。",
+      "item3_title": "RBAC 权限控制",
+      "item3_desc": "精细化的基于角色的访问控制。",
+      "item4_title": "审计日志",
+      "item4_desc": "对每一次文件交互拥有完全的可视化监控。",
+      "stats_title": "API 性能",
+      "stat1_label": "成功率",
+      "stat2_label": "延迟 (批量 OCR)",
+      "stats_footer": "来自我们全球边缘网络的实时数据。"
+    },
+    "cta": {
+      "title": "规模化您的文档工作流。",
+      "desc": "准备好实现后勤自动化了吗？加入行业领先者的行列，使用 Copywritee 安全地开启纸质世界数字化。",
+      "button": "预约演示"
+    }
+  },
+  "EducationPage": {
+    "meta_title": "学生手写转文字 | 适用于 Notion、Obsidian 和 Anki 的笔记",
+    "meta_desc": "将手写课堂笔记、白板内容和研究记录转换为可搜索、可编辑的文本。专为学生打造，快速精准，免费开始使用。",
+    "hero": {
+      "badge": "学术版",
+      "title_start": "让您的手写笔记",
+      "title_highlight": "可搜索、可编辑。",
+      "subtitle": "告别手动录入学习笔记。将手写讲义、白板照片和研究日志转换为清晰的数字文本，适配：",
+      "platforms": "Notion, Obsidian, 和 Anki。",
+      "cta_primary": "免费开始数字化",
+      "cta_secondary": "领取学生折扣",
+      "trust1": "无需信用卡",
+      "trust2": ".edu 专属优惠"
+    },
+    "values": {
+      "title": "转录笔记是在浪费您的认知精力。",
+      "subtitle": "您应该专注于分析数据和联想概念，而不是与键盘作斗争。",
+      "v1_title": "每周节省 10+ 小时",
+      "v1_desc": "普通学生花费 20% 的学习时间在录入笔记。我们将其降至零。",
+      "v2_title": "即时搜索",
+      "v2_desc": "在 0.5 秒内检索一整年的手写实验笔记。瞬间找到每一个引用。",
+      "v3_title": "AI 摘要生成",
+      "v3_desc": "数字化后，我们的 AI 可以将您的讲义笔记总结为要点或考试题目。"
+    },
+    "steps": {
+      "title": "只需 3 步，从笔记本到 Notion。",
+      "subtitle": "为现代学者打造的最快工作流。",
+      "s1_title": "拍摄",
+      "s1_desc": "使用手机拍摄您的笔记本、白板或历史文献。",
+      "s2_title": "转换",
+      "s2_desc": "我们的神经引擎能以 99% 的准确率识别草写体、数学公式和草图。",
+      "s3_title": "同步",
+      "s3_desc": "直接导出为 Markdown, PDF 或 Word。为您的“第二大脑”完美排版。"
+    },
+    "compare": {
+      "title": "为什么学生选择 Copywritee",
+      "h1": "功能",
+      "h2": "Copywritee",
+      "h3": "手动打字",
+      "r1_c1": "处理速度",
+      "r1_c2": "秒级",
+      "r1_c3": "数小时",
+      "r2_c1": "搜索能力",
+      "r2_c2": "全局搜索 (OCR)",
+      "r2_c3": "无",
+      "r3_c1": "导出格式",
+      "r3_c2": "Markdown / Docx / Anki",
+      "r3_c3": "不适用"
+    },
+    "cta": {
+      "title": "准备好升级您的学习流了吗？",
+      "desc": "加入 50,000+ 名学生和研究人员，每周节省 10 小时。您的前 10 页转换完全免费。",
+      "btn1": "免费开始使用",
+      "btn2": "联系销售",
+      "footer": "拥有有效的 .edu 邮箱？所有年度计划均可享受 5 折优惠。"
+    }
+  },
+  "AboutPage": {
+    "meta_title": "关于我们 - Copywritee | 产品背后的团队",
+    "meta_desc": "了解 Copywritee 释放手写知识的使命。由 Daniel 创立，我们利用 AI 瞬间实现纸质文档数字化。",
+    "hero": {
+      "badge": "我们的使命",
+      "title_start": "释放封印在纸上的",
+      "title_highlight": "知识内容。",
+      "p1": "从现场笔记到科学公式，世界依然运行在手写之上。然而，这些数据往往被困在模拟形式中。",
+      "p2": "Copywritee 的使命是让手写文本拥有数字代码般的强大能力：",
+      "p2_bold": "可搜索、可编辑且结构化。"
+    },
+    "tech": {
+      "title_start": "驱动自",
+      "title_highlight": "智能科技",
+      "subtitle": "我们集成",
+      "subtitle_end": "以理解不同风格、语言和背景的手写内容，准确率高达 98%。",
+      "card1_t": "智能识别",
+      "card1_d": "深度学习模型可瞬间适应草写、印刷或混合手写风格。",
+      "card2_t": "上下文感知的排版",
+      "card2_d": "我们不仅读取文字，还能识别表格、段落和列表，保留您的原始布局。",
+      "card3_t": "多语言引擎",
+      "card3_d": "原生支持超过 50 种语言，包括亚洲语系脚本和复杂符号。"
+    },
+    "ecosystem": {
+      "highlight": "生态系统",
+      "subtitle": "不仅仅是一个转换器。这是一个将模拟灵感转化为协作数字资产的完整平台。",
+      "explore": "探索功能"
+    },
+    "features": {
+      "engine": {
+        "title": "文档引擎",
+        "tag": "核心动力",
+        "desc": "将手写内容转换为格式完整的文档，并保留原始布局。"
+      },
+      "spreadsheets": {
+        "title": "智能表格",
+        "tag": "数据自动化",
+        "desc": "将手写表格转化为具有单元格关联功能的 Excel 文件。"
+      },
+      "hub": {
+        "title": "云端文档中心",
+        "tag": "安全存储",
+        "desc": "通过企业级安全防护，随时随地管理和访问您的文件。"
+      },
+      "collab": {
+        "title": "实时协作",
+        "tag": "团队工作流",
+        "desc": "实时共享和共同编辑文档。非常适合团队和教育工作者。"
+      },
+      "export": {
+        "title": "导出与集成",
+        "tag": "极致灵活性",
+        "desc": "支持导出至 DOCX 和 PDF 等 20 多种格式，且不丢失结构。"
+      }
+    },
+    "founder": {
+      "badge": "创始人寄语",
+      "title": "由开发者打造，为效率追求者而生。",
+      "p1": "Copywritee 创立者为",
+      "p2": "Daniel 创立 Copywritee 是为了解决一个个人痛点：花费数小时手动转录手写笔记。他相信技术应当放大人类的生产力。",
+      "role": "创始人兼首席工程师"
+    },
+    "vision": {
+      "title": "我们的愿景",
+      "p": "我们帮助您快速准确地将手写笔记转换为结构化数字文档，在不丢失原意的前提下实现随时随地访问。",
+      "cta": "今日开启转换"
+    }
+  },
+  "CareersPage": {
+    "meta": {
+      "title": "加入我们 - Copywritee | 打造文档处理的未来",
+      "description": "加入 Copywritee，帮助我们通过 AI 驱动的工具赋能企业，实现无缝创作与协作。"
+    },
+    "hero": {
+      "badge": "加入我们",
+      "title_start": "打造文档处理的",
+      "title_highlight": "未来",
+      "subtitle": "加入赋能企业高效协作的团队。我们正在寻找创新者来解决复杂的生产力挑战。",
+      "cta1": "查看开放职位",
+      "cta2": "了解企业文化"
+    },
+    "values": {
+      "title_start": "为什么",
+      "title_highlight": "选择我们",
+      "subtitle": "我们不只是又一个 SaaS 工具。我们正在定义下一代处理文档的方式。",
+      "v1_t": "高影响力",
+      "v1_d": "你不会是机器上的一颗螺丝钉。你的代码和设计每周都会触达数千名用户。",
+      "v2_t": "全球自由",
+      "v2_d": "我们推崇异步协作。无论在巴厘岛、柏林还是你的卧室，我们只看结果。",
+      "v3_t": "深科技领域",
+      "v3_d": "我们攻克 AI、实时同步和渲染方面的硬核问题，这是一份极具成就感的工作。"
+    },
+    "benefits": {
+      "badge": "福利待遇",
+      "title": "我们照顾好你，让你能发挥最佳水平。",
+      "desc": "职业倦怠是创新的敌人。我们设计的福利包旨在支持你的身心健康。",
+      "visual_label": "健康与成长生态"
+    },
+    "perks": {
+      "remote": {
+        "title": "远程优先",
+        "desc": "随时随地办公。我们看重产出而非工时。"
+      },
+      "health": {
+        "title": "身心健康",
+        "desc": "提供全面的健康保障方案。"
+      },
+      "growth": {
+        "title": "成长预算",
+        "desc": "用于课程、书籍和参加会议的津贴。"
+      },
+      "pto": {
+        "title": "灵活带薪假",
+        "desc": "在需要时充电。心理健康至关重要。"
+      }
+    },
+    "process": {
+      "main_title": "招聘流程",
+      "review": {
+        "title": "申请审核",
+        "desc": "我们会评估你的技能与我们使命的契合度。"
+      },
+      "screening": {
+        "title": "初次筛选",
+        "desc": "轻松的聊天，讨论你的背景和期望。"
+      },
+      "culture": {
+        "title": "文化面试",
+        "desc": "与团队见面，看看我们的价值观是否一致。"
+      },
+      "onboarding": {
+        "title": "录取与入职",
+        "desc": "欢迎加入！我们会为你准备好一切所需工具。"
+      }
+    },
+    "jobs": {
+      "main_title": "开放职位",
+      "main_subtitle": "在 Copywritee 开启职业生涯新篇章",
+      "apply_btn": "立即申请",
+      "marketing": {
+        "title": "营销与社交媒体实习生",
+        "dept": "市场部",
+        "type": "实习",
+        "loc": "远程 (全球)",
+        "desc": "通过创作引人入胜的内容，帮助提升 Copywritee 的线上影响力。"
+      },
+      "campus": {
+        "title": "校园大使",
+        "dept": "社区",
+        "type": "兼职",
+        "loc": "远程 / 校园内",
+        "desc": "在你的社区代表 Copywritee，这是一个高影响力的社交机会。"
+      },
+      "creator": {
+        "title": "内容创作合伙人",
+        "dept": "创意部",
+        "type": "合同制",
+        "loc": "远程 (全球)",
+        "desc": "与我们团队合作，制作展示产品功能的视频和素材。"
+      }
+    },
+    "culture": {
+      "title": "基于多样性，驱动自包容。",
+      "desc": "我们相信最棒的方案来自多元化的团队。我们致力于打造一个尊重每个声音的职场。",
+      "team_count": "加入全球 40 多名团队成员的行列"
+    },
+    "modal": {
+      "title": "申请职位",
+      "subject_prefix": "职位申请：",
+      "body_greeting": "招聘团队您好：",
+      "body_intro": "我正在申请以下职位：",
+      "body_fields": "姓名：\nLinkedIn：\n\n[请描述您的相关经验]",
+      "body_closing": "此致，",
+      "note_label": "提示",
+      "note_text": "点击发送将打开您的默认邮件客户端。请记得手动附上您的简历/CV。",
+      "field_name": "全名",
+      "field_email": "邮箱地址",
+      "submit": "跳转至邮件应用"
+    }
+  },
+  "TermsPage": {
+    "meta_title": "服务条款 - Copywritee | 用户协议",
+    "meta_desc": "阅读使用 Copywritee 的条款和条件。了解您的权利、我们的责任以及瑞士的相关法律。",
+    "hero_title": "服务条款",
+    "last_updated": "最后更新",
+    "date": "2025年11月",
+    "welcome_text": "欢迎使用 Copywritee。访问或使用我们的网站、应用程序和服务，即表示您同意受这些服务条款的约束。请在使用前仔细阅读。",
+    "s1_t": "服务使用",
+    "s1_c": "您必须年满 13 岁才能使用 Copywritee。您同意仅出于合法目的使用本服务，并负责维护账户凭据的机密性。",
+    "s2_t": "用户内容",
+    "s2_c": "您保留上传的所有文件和材料的所有权。上传内容即表示您授予 Copywritee 仅为提供和改进服务而处理及存储内容的有限许可。",
+    "s3_t": "知识产权",
+    "s3_c": "Copywritee 提供的所有软件、功能和商标均属于我们的知识产权。未经书面许可，不得复制或修改任何部分。",
+    "s4_t": "订阅与支付",
+    "s4_c": "部分功能通过付费订阅提供。订阅即表示同意我们的定价和计费条款。支付将通过第三方安全提供商处理。",
+    "s5_t": "禁止行为",
+    "prohibited_item_1": "逆向工程或修改平台的任何部分。",
+    "prohibited_item_2": "使用 Copywritee 上传非法或恶意内容。",
+    "prohibited_item_3": "干扰或破坏系统安全或完整性。",
+    "prohibited_item_4": "冒充他人或伪造身份。",
+    "s6_t": "终止服务",
+    "s6_c": "如果您违反本条款，我们可能随时暂停或终止您的账户。您也可以随时通过注销账户停止使用服务。",
+    "s7_t": "责任限制",
+    "s7_c": "Copywritee 按“现状”提供。在法律允许的最大范围内，我们不对因使用服务而产生的任何间接损害负责。",
+    "s8_t": "条款变更",
+    "s8_c": "我们可能会定期修改条款。变更生效后继续使用服务即视为您接受新条款。",
+    "s9_t": "管辖法律",
+    "s9_c": "本条款受瑞士法律管辖并按其解释，不考虑冲突法原则。",
+    "contact_t": "疑问？",
+    "contact_d": "我们的法律团队随时为您解答有关使用政策的疑虑。"
+  },
+  "PrivacyPage": {
+    "meta_title": "隐私政策 - Copywritee | 您的数据安全",
+    "meta_desc": "了解 Copywritee 如何处理您的个人信息。我们通过瑞士标准的保护和加密优先保障您的隐私。",
+    "hero_title": "隐私政策",
+    "last_updated": "最后更新",
+    "date": "2025年11月",
+    "welcome_text": "Copywritee 尊重并致力于保护您的隐私。本政策说明了您使用平台时，我们如何收集、使用和共享信息。",
+    "s1_t": "信息收集",
+    "collect_item_1_t": "账户信息",
+    "collect_item_1_d": "用于保护工作空间的姓名、邮箱和凭据。",
+    "collect_item_2_t": "用户内容",
+    "collect_item_2_d": "您上传或创建的文件、手写笔记和模板。",
+    "collect_item_3_t": "支付数据",
+    "collect_item_3_d": "通过安全第三方处理的账单信息（我们不存储卡号）。",
+    "collect_item_4_t": "使用数据",
+    "collect_item_4_d": "交互日志、访问页面及功能性能指标。",
+    "collect_item_5_t": "设备数据",
+    "collect_item_5_d": "浏览器类型、IP 地址及安全技术元数据。",
+    "s2_t": "数据用途",
+    "use_item_1": "提供并个性化您的文档转换体验。",
+    "use_item_2": "处理 AI 驱动的转换和排版工作流。",
+    "use_item_3": "发送产品更新和关键安全通知。",
+    "use_item_4": "分析使用模式以改进核心功能质量。",
+    "use_item_5": "防止平台滥用并确保法律合规。",
+    "s3_t": "信息共享",
+    "share_item_1_t": "服务提供商",
+    "share_item_1_d": "协助运营的基础设施和支付合作伙伴。",
+    "share_item_2_t": "法律要求",
+    "share_item_2_d": "在遵守法律或保护用户安全所必需的情况下。",
+    "share_item_3_t": "业务转让",
+    "share_item_3_d": "在合并或重组过程中，数据可能会被转移。",
+    "s4_t": "数据安全",
+    "s4_c": "我们仅在必要期间保留数据。信息在传输和存储过程中均采用行业标准协议加密。",
+    "s5_t": "隐私权利",
+    "s5_c": "您有权访问、更正、删除或导出您的数据。我们会依据瑞士及国际法律处理请求。",
+    "s7_t": "Cookies 与分析",
+    "s7_c": "我们使用 Cookie 增强导航并分析流量。您可随时通过浏览器管理设置。",
+    "s8_t": "儿童隐私",
+    "s8_c": "Copywritee 不面向 13 岁以下用户，我们不会刻意收集未成年人数据。",
+    "s9_t": "政策变更",
+    "s9_c": "重要变更将通过邮件或应用内控制面板通知。",
+    "contact_t": "隐私支持",
+    "contact_d": "对您的数据有疑虑？请联系我们的数据保护官。",
+    "hq_label": "总部"
+  },
+  "DocsPage": {
+    "meta": {
+      "title": "文档 | Copywritee - 手写OCR与文档智能化",
+      "description": "了解如何使用 Copywritee 将手写内容转换为文本、将表格提取到 Excel，并实现文档工作流自动化。"
+    },
+    "sidebar": {
+      "external_links": "外部链接",
+      "api_reference": "API 参考",
+      "system_status": "系统状态",
+      "nav": {
+        "overview": "概览",
+        "getting_started": "快速入门",
+        "converter": "手写转换器",
+        "templates": "模板",
+        "integrations": "集成与 API",
+        "enterprise": "企业与管理",
+        "billing": "账单与方案",
+        "support": "帮助支持"
+      }
+    },
+    "header": {
+      "breadcrumb": "文档",
+      "category": "简介",
+      "title": "Copywritee 文档",
+      "subtitle": "将手写笔记、表格和杂乱草稿转换为结构化数字资产的完整指南。",
+      "cta": "快速指南见下文"
+    },
+    "overview": {
+      "title": "平台概览",
+      "description": "Copywritee 不仅仅是 OCR。它是一个专为数字化模拟数据而设计的端到端工具。我们专注于处理 ",
+      "bold1": "潦草字迹",
+      "bold2": "复杂表格",
+      "bold3": "多页文档",
+      "cards": {
+        "ocr": {
+          "title": "AI OCR 引擎",
+          "desc": "识别手写体、印刷体及混合风格。"
+        },
+        "tables": {
+          "title": "表格提取",
+          "desc": "将手绘表格直接转换为 Excel/CSV。"
+        },
+        "teams": { "title": "团队工作区", "desc": "实时编辑与版本控制。" }
+      }
+    },
+    "getting_started": {
+      "title": "快速入门",
+      "step1_title": "创建工作区",
+      "step1_desc": "在 {link} 注册。如果是加入组织，请使用邀请链接。",
+      "step2_title": "选择转换模式",
+      "step2_desc": "在控制面板右上角点击 {button}。为您的文档选择正确的引擎：",
+      "step2_button": "上传图片",
+      "mode_word_title": "图片转 Word",
+      "mode_word_desc": "适用于讲义、文章和信件。",
+      "mode_excel_title": "图片转 Excel",
+      "mode_excel_desc": "适用于财务报表、库存清单和表格。",
+      "step3_title": "编辑文档",
+      "step3_desc": "我们提供内置编辑器。转录后的文档会自动载入，方便您进一步完善。"
+    },
+    "converter": {
+      "title": "手写转换引擎",
+      "description": "我们的核心技术利用深度学习分析笔画模式，即使在弱光环境下也能识别。",
+      "constraint_label": "限制：",
+      "constraint_text": "当前支持最大 25MB 的文件。大文件请在上传前分割 PDF。"
+    },
+    "integrations": {
+      "title": "导出与兼容性",
+      "description": "Copywritee 生成的标准文件与您的常用工具完全兼容。",
+      "roadmap_title": "集成与路线图",
+      "roadmap_desc": "我们正在构建生态系统连接，双向同步功能开发中。",
+      "planned": "计划中",
+      "api_badge": "即将推出",
+      "api_title": "开发者 API",
+      "api_desc": "我们正在设计强大的 REST API。{link} 加入等待名单。",
+      "api_link_text": "加入名单",
+      "api_preview_title": "为开发者打造",
+      "api_preview_desc": "为您的应用带来 OCR 能力。",
+      "api_btn": "加入 API 等待名单"
+    },
+    "templates": {
+      "title": "模板与工作流",
+      "description": "不仅是转换，更是结构化。使用模板自动将文本格式化为报告或学习指南。",
+      "items": {
+        "meeting": "会议纪要",
+        "medical": "医疗表格",
+        "legal": "法律合同",
+        "syllabus": "课程大纲"
+      }
+    },
+    "enterprise": {
+      "title": "企业与管理",
+      "description": "通过企业级控制管理数千名用户。",
+      "sso_title": "SSO 与 SCIM",
+      "sso_desc": "配置 SAML 2.0。支持通过 SCIM 进行自动配置。",
+      "sso_cta": "查看配置指南 →",
+      "data_title": "数据驻留",
+      "data_desc": "选择数据处理与存储地点：美国、欧洲或亚太。"
+    },
+    "billing": {
+      "title": "账单与方案",
+      "description": "根据您的容量需求提供三个等级。",
+      "starter": "入门版",
+      "pro": "专业版",
+      "business": "企业版",
+      "free": "免费",
+      "mo": "/月",
+      "popular": "热门",
+      "limit_prefix": "限制：",
+      "tier_starter_desc": "适用于学生和个人用户",
+      "tier_pro_desc": "适用于自由职业者和研究人员",
+      "tier_biz_desc": "高容量处理与团队协作",
+      "matrix_title": "功能对比矩阵",
+      "matrix_head_cat": "功能类别",
+      "rows": {
+        "usage": "使用限制",
+        "vol": "每月页数",
+        "storage": "云存储",
+        "batch": "批量上传大小",
+        "core": "核心功能",
+        "formats": "导出格式",
+        "tables": "表格识别",
+        "ai": "AI 格式化",
+        "cont": "连续转换",
+        "pdf": "PDF 编辑",
+        "support_slas": "支持与 SLA",
+        "cust_supp": "客户支持",
+        "queue": "处理队列"
+      },
+      "values": {
+        "unlimited": "无限制",
+        "standard": "标准",
+        "priority_email": "优先邮件支持",
+        "priority_chat": "优先聊天与邮件",
+        "fast": "快速",
+        "real_time": "实时"
+      },
+      "note_title": "注：",
+      "note_text": "页数限制在每月 1 日重置。"
+    },
+    "contact": {
+      "title": "需要帮助？",
+      "description": "我们的支持团队周一至周五在线。专业版和企业版用户享有优先权。",
+      "btn": "联系支持"
+    },
+    "demo": {
+      "process_id": "scan_to_doc_v2.process",
+      "uploaded_label": "上传图片",
+      "converting_status": "转换中...",
+      "filename": "original_note.jpg",
+      "converted_label": "转换后的文档",
+      "file_ext": ".docx",
+      "alt_input": "手写输入",
+      "alt_output": "数字文档界面"
+    }
+  }
+}

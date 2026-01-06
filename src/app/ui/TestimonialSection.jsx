@@ -1,86 +1,112 @@
-import { Star } from "lucide-react";
-import Image from "next/image";
+"use client";
+import React from "react";
+import { useTranslations } from "next-intl";
+import { Star, Quote, CheckCircle2 } from "lucide-react";
 
-const testimonials = [
-  {
-    name: "Sarah Thompson",
-    role: "Marketing Director",
-    company: "GlobalTech Solutions",
-    quote:
-      "Copywrite has revolutionized how our team manages documentation. What used to take hours now takes minutes!",
-    avatar: "/images/testimonial-woman-1.jpeg",
-  },
-  {
-    name: "Dr. Michael Chen",
-    role: "Research Scientist",
-    company: "BioInnovate Labs",
-    quote:
-      "As a researcher, my handwritten notes are my most valuable asset. Copywrite ensures not a single insight is lost.",
-    avatar: "/images/testimonial-man.jpeg",
-  },
-  {
-    name: "Mia Rodriguez",
-    role: "Legal Consultant",
-    company: "Rodriguez Law Group",
-    quote:
-      "The accuracy and preservation of formatting in legal documents is crucial. Copywrite exceeds our expectations.",
-    avatar: "/images/testimonial-woman-2.jpeg",
-  },
-];
 const TestimonialSection = () => {
+  const t = useTranslations("Testimonials");
+
+  const testimonials = [
+    {
+      name: "Erewa Victor",
+      initials: "EV",
+      color: "bg-blue-100 text-blue-700",
+      key: "ev",
+    },
+    {
+      name: "Aya Britany",
+      initials: "AB",
+      color: "bg-teal-100 text-teal-700",
+      key: "ab",
+    },
+    {
+      name: "Gbenedion Cathier",
+      initials: "GC",
+      color: "bg-purple-100 text-purple-700",
+      key: "gc",
+    },
+  ];
+
   return (
-    <section id="testimonials" className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto mb-16 text-center">
-          <span className="inline-block px-3 py-1 bg-blue-100 text-[#015979] rounded-full text-sm font-semibold mb-4">
-            TRUSTED BY PROFESSIONALS
-          </span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            What Our Users Say
+    <section
+      id="testimonials"
+      className="py-24 bg-white relative overflow-hidden"
+    >
+      {/* Background Texture */}
+      <div className="absolute inset-0 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none"></div>
+
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+        <div className="text-center max-w-3xl mx-auto mb-6">
+          <div className="inline-flex items-center gap-2 mb-6">
+            <span className="h-px w-8 bg-slate-300"></span>
+            <span className="text-slate-400 text-xs font-bold uppercase tracking-widest">
+              {t("label")}
+            </span>
+            <span className="h-px w-8 bg-slate-300"></span>
+          </div>
+        </div>
+
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
+            {t("title_main")}{" "}
+            <span className="text-teal-600">{t("title_highlight")}</span>
           </h2>
-          <p className="text-lg text-gray-600">
-            Real stories from professionals who have transformed their workflow
-            with Copywrite.
+          <p className="text-lg text-slate-500 leading-relaxed">
+            {t("subtitle")}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          {testimonials.map((item) => (
             <div
-              key={index}
-              className="bg-white rounded-xl shadow-md p-6 transform transition-all hover:shadow-lg"
+              key={item.key}
+              className="group flex flex-col justify-between bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-xl hover:shadow-slate-200/40 hover:-translate-y-1 transition-all duration-300 relative"
             >
-              <div className="flex items-center mb-4">
-                <div className="w-16 h-16 rounded-full overflow-hidden mr-4">
-                  <Image
-                    src={testimonial.avatar}
-                    alt={testimonial.name}
-                    width={80}
-                    height={80}
-                    className="w-full h-full object-cover"
-                  />
+              <div className="absolute top-6 right-8 text-slate-100 group-hover:text-teal-50 transition-colors duration-300">
+                <Quote className="w-12 h-12 fill-current" />
+              </div>
+
+              <div className="relative z-10">
+                <div className="flex gap-0.5 mb-6">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star
+                      key={i}
+                      className="w-4 h-4 text-amber-400 fill-amber-400"
+                    />
+                  ))}
+                </div>
+                <blockquote className="text-slate-700 leading-relaxed mb-8 italic">
+                  "{t(`items.${item.key}.quote`)}"
+                </blockquote>
+              </div>
+
+              <div className="flex items-center gap-4 pt-6 border-t border-slate-50 mt-auto">
+                <div
+                  className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold ${item.color}`}
+                >
+                  {item.initials}
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-800">
-                    {testimonial.name}
-                  </h4>
-                  <p className="text-sm text-gray-600">
-                    {testimonial.role}, {testimonial.company}
+                  <div className="flex items-center gap-2">
+                    <h4 className="font-bold text-slate-900 text-sm">
+                      {item.name}
+                    </h4>
+                    <CheckCircle2 className="w-3 h-3 text-teal-500" />
+                  </div>
+                  <p className="text-xs text-slate-500">
+                    {t(`items.${item.key}.role`)},{" "}
+                    {t(`items.${item.key}.company`)}
                   </p>
                 </div>
               </div>
-              <p className="italic text-gray-700 mb-4">"{testimonial.quote}"</p>
-              <div className="flex">
-                {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    className="h-5 w-5 text-yellow-400"
-                    fill="currentColor"
-                  />
-                ))}
-              </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-16 text-center">
+          <p className="text-sm font-medium text-slate-400">
+            {t("trust_footer")}
+          </p>
         </div>
       </div>
     </section>

@@ -19,4 +19,9 @@ body {
     --background: #ffffff;
     --foreground: #e6f0f3;
   }
+
+  html[lang="ja"],
+  html[lang="zh"] {
+    font-family: "Noto Sans JP", "Microsoft YaHei", sans-serif;
+  }
 }

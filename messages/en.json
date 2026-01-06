@@ -1,0 +1,1147 @@
+{
+  "HomePage": {
+    "trust_pill": "V2.0 Handwriting OCR: 99.2% Accuracy",
+    "hero_title_1": "Convert Handwriting to Text and",
+    "hero_title_2": "Editable Documents.",
+    "hero_subtitle": "Upload handwritten notes, scanned PDF forms, or whiteboard photos. Our Engine converts them into editable Word, Excel, and PDF files in seconds.",
+    "check_1": "No credit card required",
+    "check_2": "50 Free conversions/mo",
+    "rating_text": "4.9/5 from 10k+ users",
+    "cta_start": "Start for Free",
+    "cta_upload": "Upload Image",
+    "stat_time": "Processing Time",
+    "stat_accuracy": "OCR Accuracy",
+    "meta_title": "Handwriting to Text Converter | AI Cursive OCR | Copywritee",
+    "meta_desc": "Convert cursive handwritten notes into editable digital text instantly. The world's most accurate AI handwriting OCR."
+  },
+
+  "Features": {
+    "section_label": "The Ecosystem",
+    "main_title_1": "Everything you need to digitize",
+    "main_title_2": " documents.",
+    "main_desc": "Most OCR tools stop at text extraction, leaving you with a formatting mess. Copywritee handles the heavy lifting, reconstructing your layout, securing your data, and even translating your notes instantly into professional, ready-to-share documents.",
+    "editor_label": "Familiar Interface",
+    "editor_title": "Edit like you're in Word.",
+    "editor_desc": "Don't learn a new tool. Our editor feels exactly like MS Word. Upload existing .docx files or edit your uploaded handwritten image after being converted to a formatted document instantly.",
+    "editor_check_1": "Zero learning curve: Familiar toolbar and layout.",
+    "editor_check_2": "Format Preservation: Keeps bold, italics, and lists.",
+    "editor_mock_doc": "Meeting_Notes_July.docx",
+    "table_label": "Data Transformation",
+    "table_title": "Turn Tables into Spreadsheets.",
+    "table_desc": "Analyze your written data instantly. Convert handwritten logs, tables, and lists into structured .xlsx files with perfect cell alignment.",
+    "table_check_1": "Automatic Detection: Recognizes rows and columns from your paper notes.",
+    "table_check_2": "Formula Ready: Exports clean data ready for pivot tables and sorting.",
+    "table_mock_doc": "Budget_Conversion_Q3.xlsx",
+    "eco_title": "A complete ecosystem",
+    "eco_subtitle": "Built for professional workflows and total security.",
+    "lang_label": "Global Engine",
+    "lang_title": "30+ Languages",
+    "lang_desc": "From English Cursive to Japanese Kanji, our AI understands global scripts with native-level precision.",
+    "cloud_label": "Storage",
+    "cloud_title": "Smart Library",
+    "cloud_desc": "Auto-tagging and AI folders. Your notes are organized the moment you scan them.",
+    "export_label": "Integrations",
+    "export_title": "Export Anywhere",
+    "export_desc": "One-click sync to your favorite tools. We bridge the gap to your digital workspace."
+  },
+  "Trust": {
+    "title": "Trusted by leaders.",
+    "description": "From local schools to global tech firms, forward-thinking teams choose Copywritee."
+  },
+  "HowItWorks": {
+    "label": "WORKFLOW",
+    "title_1": "Three steps to convert",
+    "title_2": "cursive to editable text.",
+    "description": "Save hours of retyping. Copywritee turns the old OCR process into a 3-second workflow: we scan your handwritten notes, intelligently reconstruct the formatting, and deliver a polished document that's ready to send.",
+    "step_1_title": "Upload & Scan",
+    "step_1_desc": "Drop your images or PDFs. Our engine auto-crops and enhances contrast instantly.",
+    "step_2_title": "Neural Analysis",
+    "step_2_desc": "Our AI maps the document geometry, identifying tables, headers, and styles.",
+    "step_3_title": "Structural Synthesis",
+    "step_3_desc": "The document is reconstructed in Word, Excel, or Notion, ready for editing.",
+    "processing": "Processing..."
+  },
+
+  "Why": {
+    "label": "WHY CHOOSE US",
+    "title_main": "Stop fixing",
+    "title_bad_ocr": "bad OCR",
+    "title_suffix": "Start working immediately.",
+    "subtitle": "Traditional tools just extract text. We reconstruct the document. See why 10,000+ users switched to Copywritee.",
+    "others_label": "Traditional OCR",
+    "others_error": "Error",
+    "others_notes": "* Formatting lost | * Tables broken | * Manual cleanup required",
+    "our_label": "Intelligent Reconstruction",
+    "our_status": "Verified",
+    "our_table_desc": "Description",
+    "our_table_total": "Total",
+    "our_table_item": "Web Development",
+    "our_table_date": "Date",
+    "our_features": "Layout Preserved | 100% Editable",
+    "card_1_title": "10x Faster Turnaround",
+    "card_1_desc": "Manual typing takes hours. We take seconds. Free up your team to focus on high-value work.",
+    "card_1_manual": "Manual",
+    "card_2_title": "Reduce Costs by 70%",
+    "card_2_desc": "Eliminate data entry errors and overhead. Copywritee pays for itself in the first month.",
+    "card_2_stat": "saved per month*",
+    "card_3_title": "Data Sovereignty",
+    "card_3_desc": "We don't train models on your data. Your documents are encrypted, processed, and deleted."
+  },
+  "Testimonials": {
+    "label": "Success Stories",
+    "title_main": "Loved by",
+    "title_highlight": "productive teams.",
+    "subtitle": "From educators to data analysts, see how Copywritee is modernizing workflows around the world.",
+    "trust_footer": "Join 10,000+ users transforming their documents today.",
+    "items": {
+      "ev": {
+        "role": "Teacher",
+        "company": "Sapele Vocational Centre",
+        "quote": "Copywritee has transformed how I work with handwritten notes. Converting pages into editable Word documents saves me hours every week."
+      },
+      "ab": {
+        "role": "Data Analyst",
+        "company": "TechCorp Inc.",
+        "quote": "The Excel conversion is a game-changer. I can scan financial records and instantly get structured spreadsheets without errors."
+      },
+      "gc": {
+        "role": "Co-Founder",
+        "company": "QueerHaven",
+        "quote": "The ability to edit PDFs and store them in the cloud is exactly what my team needed. Collaboration has never been this seamless."
+      }
+    }
+  },
+
+  "FAQ": {
+    "title_main": "Frequently Asked",
+    "title_highlight": "Questions",
+    "items": {
+      "what_is": {
+        "q": "What is Copywritee?",
+        "a": "Copywritee is an handwriting recognition platform that converts handwritten notes, including cursive, into editable digital documents like Word and Excel. It also provides tools for editing PDFs, saving documents securely in the cloud, and collaborating across devices."
+      },
+      "who_benefit": {
+        "q": "Who can benefit from using Copywritee?",
+        "a": "Students, professionals, researchers, teachers, lawyers, and anyone dealing with handwritten notes can benefit. Copywritee helps digitize meeting notes, lecture scribbles, journal entries, or even personal letters quickly and accurately."
+      },
+      "how_work": {
+        "q": "How does Copywritee work?",
+        "a": "Simply upload an image, scan, or photo of your handwritten notes. Copywritee's advanced OCR engine analyzes the handwriting, converts it into editable text, and lets you edit it, export it into Word, PDF, Excel, or plain text formats."
+      },
+      "accuracy": {
+        "q": "How accurate is Copywritee's handwriting recognition?",
+        "a": "Copywritee achieves 95-98% accuracy on handwriting or cursive text."
+      },
+      "cursive": {
+        "q": "Can Copywritee convert cursive handwriting to text?",
+        "a": "Yes. Copywritee's OCR engine is trained on both print and cursive handwriting, making it possible to convert even messy or slanted cursive into digital text with high accuracy."
+      },
+      "formats": {
+        "q": "Which file formats can I convert handwriting into?",
+        "a": "You can export to Microsoft Word (.docx), PDF, Excel (.xlsx), Google Docs, and plain text (.txt). More formats such as Markdown and Rich Text (.rtf) are also added."
+      },
+      "how_to_word": {
+        "q": "How to convert handwritten notes to Word document?",
+        "a": "Upload your handwritten note image, wait 10-30 seconds for our Engine processing, review the converted text, make any edits, then click 'Export to Word'. Your .docx file will be ready for download instantly."
+      },
+      "limits": {
+        "q": "What's the maximum file size and page limit?",
+        "a": "Free users can upload files up to 10MB with 5 pages per document. Premium users get 50MB files with up to 50 pages per document. Processing typically takes 10-60 seconds depending on complexity."
+      },
+      "math": {
+        "q": "Does Copywritee support math equations or symbols?",
+        "a": "Yes Copywritee is developed to support mathematical equations, formulas, and scientific notations."
+      },
+      "phone_scan": {
+        "q": "Can I scan notes with my phone?",
+        "a": "Yes. You can capture handwritten notes with your phone's camera and upload directly to Copywritee. Our OCR works on scans, photos, and uploaded images."
+      },
+      "quality": {
+        "q": "What image quality gives the best results?",
+        "a": "For optimal results: use good lighting, ensure text is clearly visible, avoid shadows, keep images straight, and use at least 300 DPI resolution. JPG, PNG, and PDF formats work best."
+      },
+      "history": {
+        "q": "Can I digitize old family letters or historical documents?",
+        "a": "Absolutely! Copywritee works excellent for preserving family letters, diary entries, and historical handwritten documents. Just ensure the paper isn't too faded and text is legible."
+      },
+      "low_accuracy": {
+        "q": "What if the handwriting conversion isn't accurate?",
+        "a": "You can edit the converted text directly in our editor before exporting. For consistently poor results, try better lighting or higher resolution images."
+      },
+      "pdf_edit": {
+        "q": "Can I edit PDFs directly on Copywritee?",
+        "a": "Absolutely. Copywritee includes a built-in PDF editor that lets you add, remove, or highlight text, insert images, and sign documents without extra software."
+      },
+      "cloud_save": {
+        "q": "Does Copywritee save documents online?",
+        "a": "Yes. Every converted or uploaded document can be securely stored in Copywritee's cloud. You can access files anytime, from any device."
+      },
+      "sharing": {
+        "q": "Can I share documents with others?",
+        "a": "Yes. You can generate shareable links, collaborate in Google Docs, or export directly to platforms like Notion, OneDrive, and Dropbox."
+      },
+      "storage_limit": {
+        "q": "How much cloud storage do I get?",
+        "a": "Free users get 1GB of cloud storage. Premium users receive 100GB with automatic backups and version history."
+      },
+      "languages": {
+        "q": "Which languages does Copywritee support?",
+        "a": "Currently, Copywritee supports English, Spanish, French, German, Italian, and Portuguese handwriting. Additional languages are being rolled out."
+      },
+      "messy_writing": {
+        "q": "Does Copywritee work with messy handwriting?",
+        "a": "Yes. Our System is trained on a wide range of styles, including messy, slanted, and mixed cursive-print writing."
+      },
+      "security": {
+        "q": "Is my handwriting data secure?",
+        "a": "Yes. All documents are encrypted with AES-256. We're SOC 2 compliant and documents are automatically deleted after 30 days unless saved to your cloud."
+      },
+      "install": {
+        "q": "Do I need to install software?",
+        "a": "No installation required. Copywritee is fully web-based. An optional desktop and mobile app is available for offline use."
+      },
+      "offline": {
+        "q": "Does Copywritee work offline?",
+        "a": "The web version requires internet. However, our desktop app allows offline handwriting conversion with basic features."
+      },
+      "batch": {
+        "q": "Can I process multiple pages at once?",
+        "a": "Yes! Batch process up to 50 pages simultaneously with Premium. Free users can process up to 5 pages per batch."
+      },
+      "is_free": {
+        "q": "Is Copywritee free to use?",
+        "a": "Yes. Copywritee offers a Free Plan with 50 monthly conversions. For unlimited access, users can upgrade to Premium."
+      },
+      "pricing_diff": {
+        "q": "What's the difference between Free and Premium?",
+        "a": "Free: 50 monthly conversions, 1GB storage. Premium: unlimited conversions, PDF editing, 100GB storage, and priority support."
+      },
+      "cancel": {
+        "q": "Can I cancel anytime?",
+        "a": "Yes. Copywritee has no contracts. You can cancel your subscription anytime from your dashboard."
+      },
+      "why_manual": {
+        "q": "Why choose Copywritee over manual typing?",
+        "a": "Manual typing is slow. Copywritee instantly digitizes your handwriting, saving 90% of your time while improving productivity."
+      },
+      "diff_others": {
+        "q": "How is Copywritee different from other apps?",
+        "a": "Unlike basic OCR apps, Copywritee offers end-to-end management: recognition, PDF editing, cloud storage, and export to multiple formats."
+      },
+      "digitize_free": {
+        "q": "How to digitize documents for free?",
+        "a": "With our free plan, upload your document, let our engine convert it, then export to Word or PDF. No credit card required."
+      }
+    }
+  },
+  "WordPage": {
+    "meta_title": "Convert Handwriting to Word (DOCX) | Copywritee",
+    "meta_desc": "Turn handwritten notes into editable MS Word documents instantly...",
+    "hero_title_1": "Handwriting to",
+    "hero_title_2": "Word",
+    "hero_subtitle": "Don't retype your notes. Our AI converts images to editable .docx files while preserving your original layout, tables, and handwriting style.",
+    "feat_1_title": "Layout Preservation",
+    "feat_1_desc": "Most converters just dump text. We detect lists, headers, and margins so your Word doc looks exactly like your notebook page.",
+    "feat_2_title": "Messy Ink? No Problem.",
+    "feat_2_desc": "Our Intelligent Character Recognition (ICR) engine is trained on millions of handwriting samples.",
+    "feat_3_title": "Auto-Deletion",
+    "feat_3_desc": "Your privacy matters. Files are processed in an encrypted container and permanently deleted.",
+    "faq_title": "Frequently Asked Questions",
+    "faq_q1": "Can it read cursive handwriting?",
+    "faq_a1": "Yes. Copywritee uses advanced neural networks specifically trained on cursive and connected scripts.",
+    "faq_q2": "Is my data secure?",
+    "faq_a2": "Absolutely. We use TLS encryption and delete files after 60 minutes."
+  },
+  "PdfPage": {
+    "meta_title": "Free Online PDF Editor & AI Chat | Copywritee",
+    "meta_desc": "Edit, sign, and chat with your PDFs using AI. Summarize documents, extract answers, and fill forms securely in your browser.",
+    "hero_pill": "Intelligent PDF Suite",
+    "hero_title_1": "Edit and chat with PDFs,",
+    "hero_title_2": "anytime, anywhere.",
+    "hero_subtitle": "The all-in-one PDF workspace. Edit text, sign contracts, and use AI to summarize reports or answer questions instantly.",
+    "btn_upload": "Upload PDF File",
+    "trust_soc2": "SOC2 Compliant Security",
+    "trust_ai": "AI Powered Chat",
+    "trust_esign": "Legally Binding eSign",
+    "feat_1_title": "Chat with Documents",
+    "feat_1_desc": "Upload a 100-page contract and ask: 'What are the termination clauses?' Our AI scans and answers in seconds.",
+    "feat_2_title": "Fill & Sign",
+    "feat_2_desc": "Stop printing. Add your signature, fill out forms, and check boxes digitally. Fully compliant for business use.",
+    "feat_3_title": "Organize & Merge",
+    "feat_3_desc": "Combine multiple PDFs into one, rotate pages, or delete unnecessary sections. Total control over your files.",
+    "workflow_title": "Your new PDF workflow",
+    "step_1_title": "Upload",
+    "step_1_desc": "Drag & drop any PDF up to 50MB.",
+    "step_2_title": "Analyze",
+    "step_2_desc": "AI indexes text for search & chat.",
+    "step_3_title": "Edit",
+    "step_3_desc": "Add text, images, or signatures.",
+    "step_4_title": "Download",
+    "step_4_desc": "Export the finished document.",
+    "cta_title": "Tame your documentation.",
+    "cta_desc": "Join 10,000+ professionals using Copywritee to manage contracts and reports.",
+    "cta_btn": "Start Now Free",
+    "btn_new": "Start New Document"
+  },
+  "EditorPage": {
+    "meta_title": "Free Online Document Editor | Edit Word & Excel | Copywritee",
+    "meta_desc": "Edit DOCX, XLSX, and text files directly in your browser. No installation required. A fast, secure, and familiar office suite alternative.",
+    "hero_pill": "Cloud Office Suite",
+    "hero_title_1": "Edit your documents,",
+    "hero_title_2": "anytime, anywhere.",
+    "hero_subtitle": "Edit Microsoft Word and Excel files directly in your browser. No installation, no login required for quick edits.",
+    "btn_new": "Start New Document",
+    "btn_upload": "Upload File",
+    "trust_secure": "Private & Secure",
+    "trust_os": "Works on any OS",
+    "trust_office": "100% MS Office Compatible",
+    "feat_1_title": "Work from Anywhere",
+    "feat_1_desc": "Access your documents from any device. Whether you are on Windows, Mac, or Linux, your editor is just a click away.",
+    "feat_2_title": "Familiar Interface",
+    "feat_2_desc": "Don't relearn how to type. Our toolbar and shortcuts mimic Microsoft Word and Excel, so you can be productive instantly.",
+    "feat_3_title": "Lightweight & Fast",
+    "feat_3_desc": "Stop waiting for heavy software to load. Copywritee Editor launches in under 2 seconds, even on slow connections.",
+    "formats_title": "Supported Formats",
+    "formats_subtitle": "We support the entire Office ecosystem. Upload your existing files or start fresh.",
+    "format_docx": "Microsoft Word",
+    "format_xlsx": "Microsoft Excel",
+    "format_txt": "Plain Text",
+    "format_csv": "Data Sheets"
+  },
+  "ExcelPage": {
+    "meta_title": "Convert Handwritten Tables to Excel (XLSX) | Copywritee",
+    "meta_desc": "Automate data entry. Convert handwritten grids, financial tables, and schedules into editable Excel spreadsheets instantly using AI.",
+    "hero_pill": "Smart Grid Recognition",
+    "hero_title": "Handwriting to",
+    "hero_highlight": "Excel",
+    "hero_subtitle": "Stop manual data entry. Our AI detects rows, columns, and headers in your handwritten notes and converts them into formatted .xlsx or .csv files.",
+    "trust_security": "Bank-Grade Security",
+    "trust_grid": "Multi-Column Detection",
+    "trust_accuracy": "99.8% Numeric Accuracy",
+    "feat_1_title": "Intelligent Grids",
+    "feat_1_desc": "We don't just see text; we see structure. Our engine identifies drawn lines, implicit columns, and merged cells automatically.",
+    "feat_2_title": "Financial Accuracy",
+    "feat_2_desc": "Optimized for numbers. Perfect for digitizing handwritten invoices, inventory lists, financial ledgers, and grade sheets.",
+    "feat_3_title": "Universal Export",
+    "feat_3_desc": "Download your data in standard Microsoft Excel (.xlsx) format or plain CSV for easy import into Google Sheets or databases.",
+    "how_title": "From paper to spreadsheet in seconds",
+    "step_1_title": "Snap",
+    "step_1_desc": "Take a photo of your ledger or data table.",
+    "step_2_title": "Parse",
+    "step_2_desc": "AI maps the geometry of rows and columns.",
+    "step_3_title": "Export",
+    "step_3_desc": "Download a clean, formulated Excel file.",
+    "faq_title": "Frequently Asked Questions",
+    "cta_title": "Digitize your data today",
+    "cta_btn": "Convert Table Now"
+  },
+  "nav": {
+    "product": "Product",
+    "solutions": "Solutions",
+    "company": "Company",
+    "notes_to_word": "Notes to Word",
+    "desc_word": "Turn notes into editable docs",
+    "table_to_excel": "Table to Excel",
+    "desc_excel": "Turn drawn tables into data",
+    "online_editor": "Online Document Editor",
+    "desc_editor": "Edit Word & Excel in-browser",
+    "pdf_tools": "PDF Tools",
+    "desc_pdf": "Edit, sign, and chat with PDFs",
+    "academic": "Academic",
+    "desc_academic": "Digitize lecture & research notes",
+    "enterprise": "Enterprise",
+    "desc_enterprise": "Secure document workflows",
+    "support": "Support",
+    "desc_support": "Get help from our team",
+    "pricing": "Pricing",
+    "login": "Log in",
+    "get_started": "Get Started"
+  },
+  "Footer": {
+    "description": "Turn handwritten notes into clean, editable documents instantly. Secure, fast, and built for modern teams.",
+    "stay_updated": "Stay Updated",
+    "email_placeholder": "Enter your email",
+    "systems_ok": "All systems operational",
+    "product": "Product",
+    "company": "Company",
+    "resources": "Resources",
+    "hiring": "Hiring",
+    "copyright": "© {year} Copywritee Inc. | Designed for global teams.",
+    "links": {
+      "notes_to_word": "Notes to Word",
+      "table_to_excel": "Table to Excel",
+      "online_editor": "Online Document Editor",
+      "pricing": "Pricing",
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact",
+      "docs": "Documentation",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "Contact": {
+    "meta_title": "Contact Us | Copywritee Support & Help Center",
+    "meta_desc": "Need help converting handwritten notes to text? Contact the Copywritee support team for technical assistance, business inquiries, or feedback.",
+    "meta_keywords": "contact copywritee, customer support, handwriting OCR help, technical support, contact form, digital note taking assistance",
+    "og_title": "Contact Us | Copywritee Support",
+    "og_desc": "Get fast help with your handwriting-to-text conversion. Reach out to our team today.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_contact": "Contact",
+    "org_name": "Copywritee"
+  },
+  "Pricing": {
+    "meta_title": "Pricing Plans | Handwriting to Text Converter | Copywritee",
+    "meta_desc": "Choose the best plan for your document needs. From a generous Free tier to Pro ($8/mo) and Business ($25/mo) plans. 99% accuracy for cursive and messy notes.",
+    "meta_keywords": "handwriting to text pricing, OCR software cost, student study tools cost, business document automation price, handwriting recognition subscription",
+    "og_title": "Affordable AI Handwriting Recognition | Copywritee Pricing",
+    "og_desc": "Start for free with 50 pages/mo. Upgrade for unlimited batch processing, Notion sync, and premium support.",
+    "product_name": "Copywritee Handwriting OCR",
+    "product_desc": "Handwriting to text conversion software.",
+    "plan_free": "Free Plan",
+    "plan_pro": "Pro Plan",
+    "plan_biz": "Business Plan"
+  },
+  "PricingUI": {
+    "hero": {
+      "title_start": "Transparent pricing for flawless",
+      "title_highlight": "digitization.",
+      "subtitle": "Turn handwritten notes into editable text in seconds. Choose the plan that fits your workflow, from study notes to enterprise archives."
+    },
+    "billing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 20%",
+      "per_month": "/month"
+    },
+    "labels": {
+      "capacity": "Capacity",
+      "features": "Features"
+    },
+    "plans": {
+      "free": {
+        "name": "Free",
+        "description": "Essential handwriting conversion for students and casual users.",
+        "pages": "50 pages / month",
+        "buttonText": "Start for Free",
+        "features": [
+          "50 Pages per month",
+          "High Accuracy (Handwriting to text)",
+          "Standard Processing Speed",
+          "Secure Cloud Storage",
+          "Email Support",
+          "Export to TXT, Word, Excel, Html,",
+          "Upload, create, and edit documents with our editor",
+          "Upload and transcribe one handwritten image at a time",
+          "Save and manage up to 50 documents in the cloud"
+        ],
+        "missing": [
+          "Batch Processing",
+          "Table Recognition",
+          "Custom Formatting",
+          "Export in multiple formats (Docx, Xlsx, Pdf, html, odt and many more)",
+          "Upload and transcribe four (4) handwritten image at a time",
+          "Continuous Conversion (Keep transcribing different image on one documents)"
+        ]
+      },
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect for freelancers and researchers needing more power.",
+        "pages": "200 pages / month",
+        "buttonText": "Get Started",
+        "features": [
+          "All features in the free Plan",
+          "200 Pages per month",
+          "98% Accuracy Engine",
+          "Full workflow automation",
+          "Fast handwriting transcription",
+          "Priority customer support",
+          "Batch Upload",
+          "Upload and transcribe five (5) handwritten image at a time",
+          "Continuous Conversion (Keep transcribing different image on one documents)",
+          "Export to PDF, Word, Excel, Json, Pdf, and many more",
+          "Cloud Storage. 500 documents",
+          "Handwriting Style Learning"
+        ],
+        "missing": [
+          "Limited to 5 images per upload",
+          "Limited to Pdf Editing",
+          "Team Management",
+          "Document AI Formatter"
+        
+        ]
+      },
+      "pro": {
+        "badge": "Most Popular",
+        "name": "Pro",
+        "description": "High-volume solution for teams and professionals.",
+        "pages": "1,000 pages / month",
+        "buttonText": "Upgrade to Business",
+        "features": [
+          "All features in the Pro Plan",
+          "1,000 Pages per month",
+          "Document AI Formatter",
+          "Real-time Processing Queue",
+          "Unlimited Batch Processing",
+          "Convert between Word, Excel, and PDF",
+          "Advanced Table Extraction",
+          "Editing of Pdf documents",
+          "Priority Chat & Email Support",
+          "Continuous Conversion (Convert a whole book)",
+          "Batch Upload, convert multiple handwritten pages to documents at once",
+          "Custom Invoice Branding"
+        ]
+      }
+    },
+    "enterprise": {
+      "title": "Need more than 1,000 pages?",
+      "desc": "Get our Enterprise plan with custom API rate limits, dedicated account management, custom language models, and SLA guarantees.",
+      "cta": "Contact Sales"
+    },
+   
+    "faq_title": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "What counts as a page?",
+        "a": "One page equals one image file or one page within a PDF document. If you upload a picture of a double-page notebook spread, it counts as one page."
+      },
+      {
+        "q": "Can I cancel my subscription anytime?",
+        "a": "Yes, you can cancel your subscription at any time from your account settings. You will retain access until the end of your billing period."
+      },
+      {
+        "q": "What happens if I use up my pages?",
+        "a": "If you reach your limit, you can wait for the next billing cycle or purchase a 'Top-up' pack instantly from your dashboard."
+      },
+      {
+        "q": "Is my data secure?",
+        "a": "Absolutely. We use bank-grade AES-256 encryption. Your documents are processed automatically and are not viewed by humans unless you specifically request support."
+      },
+      {
+        "q": "Do unused pages roll over?",
+        "a": "Monthly page limits reset at the start of each billing cycle and do not roll over to the next month."
+      }
+    ],
+    "support": {
+      "title": "Still have questions?",
+      "email_label": "Email Us",
+      "chat_label": "Live Chat",
+      "chat_time": "Available 9am - 5pm EST"
+    }
+  },
+  "Signup": {
+    "meta_title": "Join Copywritee | Start Digitizing Your Workflow",
+    "meta_desc": "Create a free account and start converting handwriting to text. Join 10,000+ professionals using AI-powered OCR.",
+    "hero": {
+      "badge": "Global Community",
+      "title": "Join 10,000+ professionals digitizing their workflow.",
+      "check_1": "Upload / Transcribe 50 Pages for free",
+      "check_2": "Export to Word, Excel, PDF and many more..",
+      "check_3": "Bank-grade 256-bit encryption",
+      "trusted_by": "Trusted by teams at"
+    },
+    "form": {
+      "title": "Create an account",
+      "subtitle": "Join 10,000+ professionals digitizing their workflow.",
+      "google_btn": "Sign up with Google",
+      "divider": "Or register with email",
+      "label_name": "Full Name",
+      "placeholder_name": "John Doe",
+      "label_email": "Work Email",
+      "placeholder_email": "name@company.com",
+      "label_password": "Password",
+      "placeholder_password": "Create a strong password",
+      "password_hint": "Must be at least 8 characters",
+      "terms_prefix": "I agree to the",
+      "terms_link": "Terms of Service",
+      "privacy_link": "Privacy Policy",
+      "submit_btn": "Get Started",
+      "footer_text": "Already have an account?",
+      "login_link": "Log in"
+    }
+  },
+  "Login": {
+    "meta_title": "Login | Copywritee - Access Your Workspace",
+    "meta_desc": "Welcome back. Log in to your Copywritee account to continue digitizing your documents and handwritten notes.",
+    "hero": {
+      "badge": "Trusted by 10,000+ Teams",
+      "testimonial": "\"The accuracy is frighteningly good. It saved our team 40 hours this week.\"",
+      "author": "James Machiavelli",
+      "role": "CTO, Oruese International School.",
+      "stat_accuracy": "Accuracy",
+      "stat_scanned": "Pages Scanned"
+    },
+    "form": {
+      "title": "Welcome back",
+      "subtitle": "Enter your details to access your workspace.",
+      "google_btn": "Sign in with Google",
+      "divider": "Or continue with email",
+      "label_email": "Email address",
+      "placeholder_email": "name@company.com",
+      "label_password": "Password",
+      "forgot_password": "Forgot password?",
+      "remember_me": "Remember me for 30 days",
+      "submit_btn": "Sign in",
+      "footer_text": "Don't have an account?",
+      "signup_link": "Sign up for free",
+      "copyright": "Secure Login"
+    }
+  },
+  "ContactPage": {
+    "meta_title": "Contact Us | Copywritee Support & Help Center",
+    "meta_desc": "Get fast help with handwriting-to-text conversion. Reach out to our team for technical assistance, enterprise inquiries, or feedback.",
+    "hero": {
+      "badge": "Contact Hub",
+      "title_start": "Let's start a",
+      "title_highlight": "conversation.",
+      "subtitle": "Reach out directly. Clicking 'Send' will open your preferred email app to securely deliver your message to our care team."
+    },
+    "form": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Work Email",
+      "needs": "Tell us your needs",
+      "placeholder_msg": "I would like to discuss...",
+      "submit_btn": "Send via Email App",
+      "success": "Opening your email app...",
+      "loading": "Processing..."
+    },
+    "sidebar": {
+      "hq_title": "Zurich Headquarters",
+      "hq_address": "Copywritee Technologies AG\nBahnhofstrasse 12, 8001 Zurich\nSwitzerland",
+      "timezone": "Central European Time (GMT+1)",
+      "support": "General Support",
+      "sales": "Enterprise Sales",
+      "press": "Press & Media"
+    }
+  },
+  "EnterprisePage": {
+    "meta_title": "Enterprise Document Intelligence | Legal, Healthcare & Business OCR",
+    "meta_desc": "Secure, SOC2-compliant document processing. Automate workflows for law firms, medical providers, and global enterprises with private AI.",
+    "hero": {
+      "badge": "Enterprise Grade",
+      "title_start": "Document Intelligence",
+      "title_highlight": "at Scale.",
+      "subtitle": "Automate data extraction from handwritten forms, legal archives, and medical records. Secure, private, and built for complex organizational workflows.",
+      "cta": "Talk to Sales",
+      "visual_active": "ACTIVE"
+    },
+    "solutions": {
+      "title": "Tailored for your sector.",
+      "desc": "One engine, specialized for the unique regulatory and formatting needs of your industry.",
+      "legal": {
+        "title": "Legal & Compliance",
+        "desc": "Digitize discovery documents, handwritten affidavits, and legacy archives with high-fidelity accuracy for e-discovery.",
+        "item1": "Bate-stamping support",
+        "item2": "PII Redaction"
+      },
+      "health": {
+        "title": "Healthcare",
+        "desc": "Automate patient intake forms and doctor notes. Seamlessly move data from paper to EHR systems while maintaining privacy.",
+        "item1": "HIPAA Compliant",
+        "item2": "Medical Cursive OCR"
+      },
+      "biz": {
+        "title": "General Business",
+        "desc": "Process invoices, expense reports, and brainstorming whiteboards for global teams. Scale as your volume grows.",
+        "item1": "SSO / SAML Login",
+        "item2": "Bulk API Access"
+      }
+    },
+    "security": {
+      "title": "Security is not an add-on. It's the foundation.",
+      "desc": "We understand the risks of enterprise data. Copywritee provides a 'Zero-Trust' environment for your most sensitive documents.",
+      "item1_title": "AES-256 Encryption",
+      "item1_desc": "Data is encrypted at rest and in transit.",
+      "item2_title": "On-Prem Option",
+      "item2_desc": "Deploy within your own VPC or cloud.",
+      "item3_title": "RBAC",
+      "item3_desc": "Granular role-based access control.",
+      "item4_title": "Audit Logs",
+      "item4_desc": "Full visibility into every file interaction.",
+      "stats_title": "API Performance",
+      "stat1_label": "Success Rate",
+      "stat2_label": "Latency (Batch OCR)",
+      "stats_footer": "Real-time stats from our global edge network."
+    },
+    "cta": {
+      "title": "Scale your document workflows.",
+      "desc": "Ready to automate your back-office? Join industry leaders using Copywritee to digitize the paper world securely.",
+      "button": "Request a Demo"
+    }
+  },
+  "EducationPage": {
+    "meta_title": "Handwriting to Text for Students | Notes to Notion, Obsidian & Anki",
+    "meta_desc": "Convert handwritten lecture notes, whiteboards, and research journals into searchable, editable text. Built for students, fast, accurate, and free to start.",
+
+    "hero": {
+      "badge": "Academic Edition",
+      "title_start": "Your handwriting,",
+      "title_highlight": "searchable & editable.",
+      "subtitle": "Stop re-typing your study notes. Convert handwritten lectures, whiteboard photos, and research journals into clean digital text for",
+      "platforms": "Notion, Obsidian, and Anki.",
+      "cta_primary": "Start Digitizing Free",
+      "cta_secondary": "Claim Student Discount",
+      "trust1": "No Credit Card",
+      "trust2": ".edu Discount"
+    },
+    "values": {
+      "title": "Transcribing notes is a waste of your cognitive energy.",
+      "subtitle": "You should be analyzing data and connecting concepts, not fighting with your keyboard.",
+      "v1_title": "Save 10+ Hours/Week",
+      "v1_desc": "Average students spend 20% of their study time re-typing notes. We reduce that to zero.",
+      "v2_title": "Instant Search",
+      "v2_desc": "Search through a year’s worth of handwritten lab notes in 0.5 seconds. Find every citation instantly.",
+      "v3_title": "AI Summarization",
+      "v3_desc": "Once digitized, our AI can summarize your lecture notes into bullet points or exam questions."
+    },
+    "steps": {
+      "title": "Notebook to Notion in 3 steps.",
+      "subtitle": "The fastest workflow for the modern academic.",
+      "s1_title": "Capture",
+      "s1_desc": "Take a photo of your notebook, whiteboard, or historical document with your phone.",
+      "s2_title": "Convert",
+      "s2_desc": "Our neural engine recognizes cursive, math formulas, and sketches with 99% accuracy.",
+      "s3_title": "Sync",
+      "s3_desc": "Export directly to Markdown, PDF, or Word. Perfectly formatted for your second brain."
+    },
+    "compare": {
+      "title": "Why Students Choose Copywritee",
+      "h1": "Feature",
+      "h2": "Copywritee",
+      "h3": "Manual Typing",
+      "r1_c1": "Processing Speed",
+      "r1_c2": "Seconds",
+      "r1_c3": "Hours",
+      "r2_c1": "Searchability",
+      "r2_c2": "Global (OCR)",
+      "r2_c3": "None",
+      "r3_c1": "Export Formats",
+      "r3_c2": "Markdown / Docx / Anki",
+      "r3_c3": "N/A"
+    },
+    "cta": {
+      "title": "Ready to upgrade your study workflow?",
+      "desc": "Join 50,000+ students and researchers saving 10 hours a week. Get your first 10 pages converted for free.",
+      "btn1": "Get Started Free",
+      "btn2": "Contact Sales",
+      "footer": "Valid .edu email? Get 50% off all annual plans."
+    }
+  },
+  "AboutPage": {
+    "meta_title": "About Us - Copywritee | The Team Behind the Product",
+    "meta_desc": "Learn about Copywritee's mission to unlock handwritten knowledge. Founded by Atu Chukwudalu Daniel, we use AI to digitize paper documents instantly.",
+    "hero": {
+      "badge": "Our Mission",
+      "title_start": "Unlocking the knowledge",
+      "title_highlight": "trapped on paper.",
+      "p1": "The world still runs on handwriting, from field notes to equations. Yet, that data is often stuck in analog form.",
+      "p2": "Copywritee's mission is to make handwritten text as powerful as digital code:",
+      "p2_bold": "searchable, editable, and formatted."
+    },
+    "tech": {
+      "title_start": "Powered by",
+      "title_highlight": "Intelligent Technologies",
+      "subtitle": "We integrate",
+      "subtitle_end": "to understand handwriting across styles, languages, and contexts, achieving up to 98% accuracy.",
+      "card1_t": "Smart Recognition",
+      "card1_d": "Deep-learning models that adapt to cursive, printed, or mixed handwriting styles instantly.",
+      "card2_t": "Context-Aware Formatting",
+      "card2_d": "We don't just read text; we see tables, paragraphs, and lists, preserving your layout.",
+      "card3_t": "Multilingual Engine",
+      "card3_d": "Native support for over 50 languages, including Asian scripts and complex symbols."
+    },
+    "ecosystem": {
+      "highlight": "Ecosystem",
+      "subtitle": "More than a converter. A complete platform that transforms analog ideas into collaborative digital assets.",
+      "explore": "Explore feature"
+    },
+    "features": {
+      "engine": {
+        "title": "Document Engine",
+        "tag": "Core Power",
+        "desc": "Convert handwriting into fully formatted documents with original layout preservation."
+      },
+      "spreadsheets": {
+        "title": "Smart Spreadsheets",
+        "tag": "Data Automation",
+        "desc": "Transform handwritten tables into functional Excel files with cell relationships intact."
+      },
+      "hub": {
+        "title": "Cloud Document Hub",
+        "tag": "Secure Storage",
+        "desc": "Organize and access your files anywhere with enterprise-grade security."
+      },
+      "collab": {
+        "title": "Real-Time Collaboration",
+        "tag": "Team Workflow",
+        "desc": "Share and co-edit documents in real-time. Ideal for teams and educators."
+      },
+      "export": {
+        "title": "Export & Integration",
+        "tag": "Total Flexibility",
+        "desc": "Export to 20+ formats like DOCX and PDF without losing structure."
+      }
+    },
+    "founder": {
+      "badge": "Founder's Note",
+      "title": "Built by developers, for efficiency lovers.",
+      "p1": "Copywritee was founded by",
+      "p2": "Daniel built Copywritee to solve a personal pain point: spending hours manually transcribing handwritten notes. He believes technology should amplify human productivity.",
+      "role": "Founder & Lead Engineer"
+    },
+    "vision": {
+      "title": "Our Vision",
+      "p": "We help you turn handwritten notes into structured digital documents quickly and accurately without losing meaning, and access them from anywhere.",
+      "cta": "Start Converting Today"
+    }
+  },
+  "CareersPage": {
+    "meta": {
+      "title": "Careers - Copywritee | Build the Future of Documentation",
+      "description": "Join Copywritee and help us empower businesses to create, edit, and collaborate seamlessly using AI-powered documentation tools."
+    },
+    "hero": {
+      "badge": "Join Us",
+      "title_start": "Build the Future of",
+      "title_highlight": "Documentation",
+      "subtitle": "Join the team empowering businesses to create, edit, and collaborate seamlessly. We're looking for innovators to solve complex productivity challenges.",
+      "cta1": "View Open Roles",
+      "cta2": "Read About Our Culture"
+    },
+    "values": {
+      "title_start": "Why Build",
+      "title_highlight": "With Us",
+      "subtitle": "We aren't just another SaaS tool. We are defining how the next generation works with documents.",
+      "v1_t": "High Impact",
+      "v1_d": "You won't be a cog in a machine. Your code and designs deploy to thousands of users weekly.",
+      "v2_t": "Global Freedom",
+      "v2_d": "We are async-first. Work from Bali, Berlin, or your bedroom. We care about results.",
+      "v3_t": "Deep Tech",
+      "v3_d": "We tackle hard problems in AI, real-time sync, and rendering. It's rewarding work."
+    },
+    "benefits": {
+      "badge": "Benefits",
+      "title": "We take care of you, so you can do your best work.",
+      "desc": "Burnout is the enemy of innovation. We've designed our perks package to support your well-being.",
+      "visual_label": "Wellness & Growth Ecosystem"
+    },
+    "perks": {
+      "remote": {
+        "title": "Remote-First",
+        "desc": "Work from anywhere. We value output over hours."
+      },
+      "health": {
+        "title": "Health & Wellness",
+        "desc": "Comprehensive coverage options available."
+      },
+      "growth": {
+        "title": "Growth Budget",
+        "desc": "Stipends for courses, books, and conferences."
+      },
+      "pto": {
+        "title": "Flexible PTO",
+        "desc": "Recharge when you need to. Mental health matters."
+      }
+    },
+    "process": {
+      "main_title": "The Hiring Process",
+      "review": {
+        "title": "Application Review",
+        "desc": "We review your skills to see how they align with our mission."
+      },
+      "screening": {
+        "title": "Initial Screening",
+        "desc": "A casual chat to discuss your background and expectations."
+      },
+      "culture": {
+        "title": "Culture Interview",
+        "desc": "Meet the team and see if our values align with yours."
+      },
+      "onboarding": {
+        "title": "Offer & Onboarding",
+        "desc": "Welcome aboard! We set you up with everything you need."
+      }
+    },
+    "jobs": {
+      "main_title": "Open Positions",
+      "main_subtitle": "Find your next role at Copywritee",
+      "apply_btn": "Apply Now",
+      "marketing": {
+        "title": "Marketing & Social Media Intern",
+        "dept": "Marketing",
+        "type": "Internship",
+        "loc": "Remote (Global)",
+        "desc": "Help grow Copywritee’s online presence by creating engaging posts and sharing updates."
+      },
+      "campus": {
+        "title": "Campus Ambassador",
+        "dept": "Community",
+        "type": "Part-Time",
+        "loc": "Remote / On-Campus",
+        "desc": "Represent Copywritee in your community. A high-impact opportunity for networking."
+      },
+      "creator": {
+        "title": "Content Creator Partner",
+        "dept": "Creative",
+        "type": "Contract",
+        "loc": "Remote (Global)",
+        "desc": "Collaborate with our team to create videos and assets that showcase our features."
+      }
+    },
+    "culture": {
+      "title": "Built on Diversity, Driven by Inclusion.",
+      "desc": "We believe the best solutions come from diverse teams. We are committed to a workplace where every voice matters.",
+      "team_count": "Join 40+ team members globally"
+    },
+    "modal": {
+      "title": "Apply for Role",
+      "subject_prefix": "Application for",
+      "body_greeting": "Dear Hiring Team,",
+      "body_intro": "I am applying for the",
+      "body_fields": "Name: \nLinkedIn: \n\n[Describe your experience]",
+      "body_closing": "Sincerely,",
+      "note_label": "Note",
+      "note_text": "Clicking send will open your default email client. Please remember to attach your Resume/CV manually.",
+      "field_name": "Full Name",
+      "field_email": "Email Address",
+      "submit": "Continue to Email App"
+    }
+  },
+  "TermsPage": {
+    "meta_title": "Terms of Service - Copywritee | User Agreement",
+    "meta_desc": "Read the terms and conditions for using Copywritee. Learn about your rights, our responsibilities, and our governing laws in Switzerland.",
+    "hero_title": "Terms of Service",
+
+    "last_updated": "Last Updated",
+    "date": "November 2025",
+    "welcome_text": "Welcome to Copywritee. By accessing or using our website, applications, and services, you agree to be bound by these Terms of Service. Please read them carefully before using our platform.",
+    "s1_t": "Use of Our Services",
+    "s1_c": "You must be at least 13 years old to use Copywritee. You agree to use the Services only for lawful purposes and in accordance with these Terms. You are responsible for maintaining the confidentiality of your account credentials.",
+    "s2_t": "User Content",
+    "s2_c": "You retain ownership of all files, text, and materials you upload. By uploading content, you grant Copywritee a limited license to process and store your content solely to provide and improve our Services.",
+    "s3_t": "Intellectual Property",
+    "s3_c": "All software, features, designs, and trademarks provided by Copywritee remain our intellectual property. You may not copy or modify any part of the platform without written permission.",
+    "s4_t": "Subscriptions and Payments",
+    "s4_c": "Some features are available through paid subscriptions. By subscribing, you agree to our pricing and billing terms. Payments are processed securely via third-party providers.",
+    "s5_t": "Prohibited Activities",
+    "prohibited_item_1": "Reverse-engineer or modify any part of the platform.",
+    "prohibited_item_2": "Use Copywritee to upload unlawful or malicious content.",
+    "prohibited_item_3": "Interfere with or disrupt system security or integrity.",
+    "prohibited_item_4": "Impersonate another person or misrepresent your identity.",
+    "s6_t": "Termination",
+    "s6_c": "We may suspend or terminate your account at any time if you violate these Terms. You may stop using Copywritee at any time by deleting your account.",
+    "s7_t": "Limitation of Liability",
+    "s7_c": "Copywritee is provided 'as is'. To the maximum extent permitted by law, we shall not be liable for any indirect or incidental damages arising from your use of the Services.",
+    "s8_t": "Changes to These Terms",
+    "s8_c": "We may modify these Terms periodically. Continued use of the Services after changes take effect constitutes your acceptance of the new Terms.",
+    "s9_t": "Governing Law",
+    "s9_c": "These Terms are governed by and construed in accordance with the laws of Switzerland, without regard to its conflict-of-law principles.",
+    "contact_t": "Questions?",
+    "contact_d": "Our legal team is here to clarify any concerns regarding our usage policies."
+  },
+  "PrivacyPage": {
+    "meta_title": "Privacy Policy - Copywritee | Your Data Security",
+    "meta_desc": "Discover how Copywritee handles your personal information. We prioritize your privacy with Swiss-standard data protection and encryption.",
+    "hero_title": "Privacy Policy",
+    "last_updated": "Last Updated",
+    "date": "November 2025",
+    "welcome_text": "We at Copywritee respect your privacy and are committed to protecting your personal information. This policy explains how we collect, use, and share information when you use our platform.",
+    "s1_t": "Information We Collect",
+    "collect_item_1_t": "Account Information",
+    "collect_item_1_d": "Name, email, and credentials used to secure your workspace.",
+    "collect_item_2_t": "User Content",
+    "collect_item_2_d": "Files, handwritten notes, and templates you upload or create.",
+    "collect_item_3_t": "Payment Data",
+    "collect_item_3_d": "Billing details processed via secure third-parties (we don't store cards).",
+    "collect_item_4_t": "Usage Data",
+    "collect_item_4_d": "Interaction logs, pages visited, and feature performance metrics.",
+    "collect_item_5_t": "Device Data",
+    "collect_item_5_d": "Browser type, IP address, and technical metadata for security.",
+    "s2_t": "How We Use Data",
+    "use_item_1": "Provide and personalize your document conversion experience.",
+    "use_item_2": "Process AI-powered conversions and formatting workflows.",
+    "use_item_3": "Communicate product updates and critical security alerts.",
+    "use_item_4": "Analyze usage patterns to improve core feature quality.",
+    "use_item_5": "Prevent platform misuse and ensure legal compliance.",
+    "s3_t": "Sharing Information",
+    "share_item_1_t": "Service Providers",
+    "share_item_1_d": "Infrastructure and payment partners who help us operate.",
+    "share_item_2_t": "Legal Requirements",
+    "share_item_2_d": "When necessary to comply with law or protect user safety.",
+    "share_item_3_t": "Business Transfers",
+    "share_item_3_d": "Data may be transferred during mergers or reorganizations.",
+    "s4_t": "Data Security",
+    "s4_c": "We retain data only as long as necessary. Information is encrypted during transmission and storage using industry-standard protocols.",
+    "s5_t": "Your Privacy Rights",
+    "s5_c": "You have the right to access, correct, delete, or export your data. We respond to all requests in accordance with Swiss and international law.",
+    "s7_t": "Cookies & Analytics",
+    "s7_c": "We use cookies to enhance navigation and analyze traffic. You can manage these settings through your browser at any time.",
+    "s8_t": "Children's Privacy",
+    "s8_c": "Copywritee is not intended for users under 13. We do not knowingly collect data from minors.",
+    "s9_t": "Policy Changes",
+    "s9_c": "We may update this policy periodically. Significant changes will be notified via email or in-app dashboard.",
+    "contact_t": "Privacy Support",
+    "contact_d": "Have concerns about your data? Reach out to our protection officer.",
+    "hq_label": "Headquarters"
+  },
+  "DocsPage": {
+    "meta": {
+      "title": "Documentation | Copywritee - Handwriting OCR & Document Intelligence",
+      "description": "Learn how to convert handwriting to text, extract tables to Excel, and automate your document workflows with Copywritee's comprehensive guides."
+    },
+
+    "sidebar": {
+      "external_links": "External Links",
+      "api_reference": "API Reference",
+      "system_status": "System Status",
+      "nav": {
+        "overview": "Overview",
+        "getting_started": "Getting Started",
+        "converter": "Handwriting Converter",
+        "templates": "Templates",
+        "integrations": "Integrations & API",
+        "enterprise": "Enterprise & Admin",
+        "billing": "Billing & Plans",
+        "support": "Support"
+      }
+    },
+    "header": {
+      "breadcrumb": "Documentation",
+      "category": "Introduction",
+      "title": "Copywritee Docs",
+      "subtitle": "The complete guide to turning handwritten notes, tables, and chaotic scribbles into structured digital assets using our Comprehensive Ecosystem.",
+      "cta": "Quick Guide Below"
+    },
+    "overview": {
+      "title": "Platform Overview",
+      "description": "Copywritee is more than just OCR. It is an end-to-end workflow tool designed for students, researchers, and enterprises who need to digitize analogue data. We specialize in handling",
+      "bold1": "messy handwriting",
+      "bold2": "complex tables",
+      "bold3": "multi-page documents",
+      "cards": {
+        "ocr": {
+          "title": "AI OCR Engine",
+          "desc": "Recognizes cursive, print, and mixed styles."
+        },
+        "tables": {
+          "title": "Table Extraction",
+          "desc": "Converts drawn grids directly to Excel/CSV."
+        },
+        "teams": {
+          "title": "Team Workspace",
+          "desc": "Real-time editing and version control."
+        }
+      }
+    },
+    "getting_started": {
+      "title": "Getting Started",
+      "step1_title": "Create your workspace",
+      "step1_desc": "Sign up at {link}. If you are joining an existing organization, use your invite link to automatically join the team folder.",
+      "step2_title": "Select conversion mode",
+      "step2_desc": "At the top right of your dashboard, click {button}. Choose the right engine for your document type to maximize accuracy:",
+      "step2_button": "Upload Image",
+      "mode_word_title": "Image to Word",
+      "mode_word_desc": "Best for lecture notes, essays, and letters.",
+      "mode_excel_title": "Image to Excel",
+      "mode_excel_desc": "Best for financial ledgers, inventory lists, and grids.",
+      "step3_title": "Edit transcribed document",
+      "step3_desc": "Our platform provides an inbuilt comprehensive editor similar to MS Word. Your transcribed formatted paper document is automatically placed in the editor for you to refine, adding content as needed while saving hours of retyping."
+    },
+    "converter": {
+      "title": "Handwriting Converter Engine",
+      "description": "Our core technology utilizes deep learning to analyze stroke patterns. It can decipher legible cursive and block letters even in low-light conditions.",
+      "constraint_label": "Constraint:",
+      "constraint_text": "The converter currently supports files up to 25MB. For larger architectural plans or books, please split the PDF before uploading."
+    },
+    "integrations": {
+      "title": "Export & Compatibility",
+      "description": "Copywritee generates standard files compatible with all your favorite tools. Simply download your converted documents and drop them anywhere.",
+      "roadmap_title": "Integrations & Roadmap",
+      "roadmap_desc": "We are building connections to your existing ecosystem. Bi-directional sync is currently in development.",
+      "planned": "Planned",
+      "api_badge": "Coming Soon",
+      "api_title": "Developer API",
+      "api_desc": "We are designing a robust REST API for programmatic conversions. {link} to get early access keys when we launch.",
+      "api_link_text": "Join the waitlist",
+      "api_preview_title": "Building for Developers",
+      "api_preview_desc": "We are crafting a powerful API to bring OCR capabilities to your applications.",
+      "api_btn": "Join API Waitlist"
+    },
+    "templates": {
+      "title": "Templates & Workflows",
+      "description": "Don't just convert text, structure it. Use templates to automatically format recognized text into reports, patient forms, or study guides.",
+      "items": {
+        "meeting": "Meeting Notes",
+        "medical": "Medical Form",
+        "legal": "Legal Contract",
+        "syllabus": "Class Syllabus"
+      }
+    },
+    "enterprise": {
+      "title": "Enterprise & Admin",
+      "description": "Manage thousands of users with enterprise-grade controls.",
+      "sso_title": "SSO & SCIM",
+      "sso_desc": "Configure SAML 2.0 with Okta, Azure AD, or OneLogin. Automated provisioning via SCIM ensures user access is always up to date.",
+      "sso_cta": "View Configuration Guide →",
+      "data_title": "Data Residency",
+      "data_desc": "Choose where your data is processed and stored: US-East (N. Virginia), EU (Frankfurt), or APAC (Singapore)."
+    },
+    "billing": {
+      "title": "Billing & Plans",
+      "description": "Copywritee offers three tiers depending on your volume needs. All plans include our core handwriting recognition engine, but differ in processing limits, export formats, and advanced workflow automation.",
+      "free": "free",
+      "pro": "Pro",
+      "business": "Business",
+      "free": "Free",
+      "mo": "/mo",
+      "popular": "POPULAR",
+      "limit_prefix": "Limit:",
+      "tier_free_desc": "For students & casual use",
+      "tier_pro_desc": "For freelancers & researchers",
+      "tier_biz_desc": "High volume & teams",
+      "matrix_title": "Feature Comparison Matrix",
+      "matrix_head_cat": "Feature Category",
+      "rows": {
+        "usage": "Usage Limits",
+        "vol": "Monthly Page Volume",
+        "storage": "Cloud Storage",
+        "batch": "Batch Upload Size",
+        "core": "Core Capabilities",
+        "formats": "Export Formats",
+        "tables": "Table Recognition",
+        "ai": "Document AI Formatter",
+        "cont": "Continuous Conversion",
+        "pdf": "PDF Editing",
+        "support_slas": "Support & SLAs",
+        "cust_supp": "Customer Support",
+        "queue": "Processing Queue"
+      },
+      "values": {
+        "unlimited": "Unlimited",
+        "standard": "Standard",
+        "priority_email": "Priority Email",
+        "priority_chat": "Priority Chat & Email",
+        "fast": "Fast",
+        "real_time": "Real-time"
+      },
+      "note_title": "Note on Usage Cycles:",
+      "note_text": "Page limits reset on the 1st of every billing month. Unused pages do not rollover to the next month. For \"Business\" plans, the Real-time Processing Queue ensures your documents skip the standard waiting line during peak server hours."
+    },
+    "contact": {
+      "title": "Still need help?",
+      "description": "Our support team is available Mon-Fri, 9am - 6pm CET. We prioritize Pro and Enterprise tickets.",
+      "btn": "Contact Support"
+    },
+    "demo": {
+      "process_id": "scan_to_doc_v2.process",
+      "uploaded_label": "Uploaded Image",
+      "converting_status": "Converting...",
+      "filename": "original_note.jpg",
+      "converted_label": "Converted Document",
+      "file_ext": ".docx",
+      "alt_input": "Handwritten Input",
+      "alt_output": "Digital Document Interface"
+    }
+  }
+}

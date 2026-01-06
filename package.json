@@ -1,5 +1,5 @@
 {
-  "name": "blog",
+  "name": "copywritee",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,28 +9,35 @@
     "start": "next start",
     "lint": "next lint",
     "analyze": "ANALYZE=true next build",
-    "sitemap": "next-sitemap"
+    "sitemap": "next-sitemap",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
+    "@formatjs/intl-localematcher": "^0.7.3",
     "@mdx-js/loader": "^3.1.0",
     "@next/bundle-analyzer": "^15.2.2",
     "@next/mdx": "^15.1.7",
+    "@tanstack/react-query": "^5.90.16",
     "@vercel/analytics": "^1.5.0",
+    "axios": "^1.13.2",
     "framer-motion": "^12.4.7",
     "gray-matter": "^4.0.3",
+    "js-cookie": "^3.0.5",
     "lucide-react": "^0.483.0",
+    "negotiator": "^1.0.0",
     "next": "15.1.7",
+    "next-intl": "^4.6.1",
     "next-mdx-remote": "^5.0.0",
     "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
-    "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0",
-    "recharts": "^2.15.1"
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/negotiator": "^0.6.4",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "postcss": "^8",
