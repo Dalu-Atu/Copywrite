@@ -1,16 +1,62 @@
 /** @type {import('next-sitemap').IConfig} */
-export default {
+const config = {
   siteUrl: "https://copywritee.com",
   generateRobotsTxt: true,
-  exclude: ["/icon.ico", "/apple-icon.png"], // Keep the sitemap clean
+  exclude: ["/icon.ico", "/apple-icon.png"],
   changefreq: "daily",
   priority: 0.7,
+  outDir: "public",
+
+  additionalPaths: async (config) => {
+    const locales = ["en", "tr", "es", "zh", "hi", "de", "ja", "pt-br"];
+
+    // 1. ALL BASE ROUTES (Mapped from your VS Code Sidebar)
+    const basePages = [
+      "",
+      "/about",
+      "/blog",
+      "/careers",
+      "/contact",
+      "/docs",
+      "/edit-pdf",
+      "/handwriting-to-docx",
+      "/handwriting-to-excel",
+      "/online-editor",
+      "/pricing",
+      "/privacy",
+      "/solutions",
+      "/solutions/business",
+      "/solutions/education",
+      "/terms",
+    ];
+
+    // 2. DYNAMIC SLUGS (Optional)
+    // If you have specific blog slugs or solution slugs, add them here
+    const dynamicSlugs = [];
+
+    const allBasePaths = [...basePages, ...dynamicSlugs];
+    const result = [];
+
+    // 3. THE MULTIPLIER LOGIC
+    // This creates the path for every language automatically
+    locales.forEach((locale) => {
+      allBasePaths.forEach((path) => {
+        result.push({
+          loc: `/${locale}${path}`,
+          changefreq: "daily",
+          priority: path === "" ? 1.0 : 0.7,
+          lastmod: new Date().toISOString(),
+        });
+      });
+    });
+
+    return result;
+  },
 
   transform: async (config, path) => {
     const locales = ["en", "tr", "es", "zh", "hi", "de", "ja", "pt-br"];
 
-    // 1. CLEAN THE PATH: Remove any existing locale prefix from the path
-    // This prevents URLs like /en/es/tool-name
+    // Clean the path to find the "base" version for alternate refs
     const cleanPath = path.replace(
       /^\/(en|tr|es|zh|hi|de|ja|pt-br)(\/|$)/,
       "/"
@@ -23,13 +69,12 @@ export default {
       priority: config.priority,
       lastmod: new Date().toISOString(),
 
+      // This tells Search Engines how the languages link together
       alternateRefs: [
-        // 2. ADD X-DEFAULT: Points to English for unsupported regions
         {
           href: `${config.siteUrl}/en${normalizedPath}`,
           hreflang: "x-default",
         },
-        // 3. MAP ALL LOCALES
         ...locales.map((locale) => ({
           href: `${config.siteUrl}/${locale}${normalizedPath}`,
           hreflang: locale,
@@ -38,3 +83,5 @@ export default {
     };
   },
 };
+
+export default config;
