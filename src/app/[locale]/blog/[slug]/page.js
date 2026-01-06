@@ -1,4 +1,4 @@
-import { articles } from "../../data/articles"; // Adjust path as needed
+import { articles } from "../../../data/articles"; // Adjust path as needed
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -296,4 +296,3 @@ export default function BlogPost({ params }) {
 }
 
 // --- CLIENT COMPONENTS (Inline for brevity, separate files in production) ---
-

@@ -1,6 +1,5 @@
 // app/blog/page.js
-import BlogSection from "../ui/BlogSection";
-
+import BlogSection from "../../ui/BlogSection";
 
 export const metadata = {
   title: "Blog | Copywritee",
