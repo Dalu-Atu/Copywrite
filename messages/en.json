@@ -5,7 +5,7 @@
     "hero_title_2": "Editable Documents.",
     "hero_subtitle": "Upload handwritten notes, scanned PDF forms, or whiteboard photos. Our Engine converts them into editable Word, Excel, and PDF files in seconds.",
     "check_1": "No credit card required",
-    "check_2": "50 Free conversions/mo",
+    "check_2": "10 Free conversions/mo",
     "rating_text": "4.9/5 from 10k+ users",
     "cta_start": "Start for Free",
     "cta_upload": "Upload Image",
@@ -392,10 +392,10 @@
   },
   "Pricing": {
     "meta_title": "Pricing Plans | Handwriting to Text Converter | Copywritee",
-    "meta_desc": "Choose the best plan for your document needs. From a generous Free tier to Pro ($8/mo) and Business ($25/mo) plans. 99% accuracy for cursive and messy notes.",
+    "meta_desc": "Choose the best plan for your document needs. From a generous Free tier to Pro ($8) ($15) and Business ($25) plans. 99% accuracy for cursive and messy notes.",
     "meta_keywords": "handwriting to text pricing, OCR software cost, student study tools cost, business document automation price, handwriting recognition subscription",
     "og_title": "Affordable AI Handwriting Recognition | Copywritee Pricing",
-    "og_desc": "Start for free with 50 pages/mo. Upgrade for unlimited batch processing, Notion sync, and premium support.",
+    "og_desc": "Start for free with 10 pages, Upgrade for unlimited batch processing, Notion sync, and premium support.",
     "product_name": "Copywritee Handwriting OCR",
     "product_desc": "Handwriting to text conversion software.",
     "plan_free": "Free Plan",
@@ -404,129 +404,146 @@
   },
   "PricingUI": {
     "hero": {
-      "title_start": "Transparent pricing for flawless",
-      "title_highlight": "digitization.",
-      "subtitle": "Turn handwritten notes into editable text in seconds. Choose the plan that fits your workflow, from study notes to enterprise archives."
+      "title_start": "Simple pricing for flawless",
+      "title_highlight": "handwriting conversion.",
+      "subtitle": "Convert handwritten notes into editable text when you need it. Pay once, use anytime — no subscriptions, no pressure."
     },
-    "billing": {
-      "monthly": "Monthly",
-      "yearly": "Yearly",
-      "save": "Save 20%",
-      "per_month": "/month"
-    },
+
     "labels": {
-      "capacity": "Capacity",
-      "features": "Features"
+      "capacity": "Page Credits",
+      "features": "What you get"
     },
+
     "plans": {
       "free": {
-        "name": "Free",
-        "description": "Essential handwriting conversion for students and casual users.",
-        "pages": "50 pages / month",
-        "buttonText": "Start for Free",
+        "name": "Free Trial",
+        "description": "Try handwriting conversion before spending a cent.",
+        "pages": "7 pages (one-time)",
+        "buttonText": "Try for Free",
         "features": [
-          "50 Pages per month",
-          "High Accuracy (Handwriting to text)",
-          "Standard Processing Speed",
-          "Secure Cloud Storage",
-          "Email Support",
-          "Export to TXT, Word, Excel, Html,",
-          "Upload, create, and edit documents with our editor",
-          "Upload and transcribe one handwritten image at a time",
-          "Save and manage up to 50 documents in the cloud"
+          "7 pages total (no expiry)",
+          "High-accuracy handwriting to text",
+          "Standard processing speed",
+          "Upload and transcribe 1 handwritten image at a time",
+          "Preview converted text",
+          "Export to TXT",
+          "Basic document editor",
+          "Save up to 3 documents in the cloud"
         ],
         "missing": [
-          "Batch Processing",
-          "Table Recognition",
-          "Custom Formatting",
-          "Export in multiple formats (Docx, Xlsx, Pdf, html, odt and many more)",
-          "Upload and transcribe four (4) handwritten image at a time",
-          "Continuous Conversion (Keep transcribing different image on one documents)"
+          "Batch processing",
+          "Continuous conversion",
+          "Advanced formatting",
+          "Table recognition",
+          "Export to Word, Excel, PDF, HTML",
+          "Multiple image upload",
+          "Document history & versioning"
         ]
       },
+
       "starter": {
         "name": "Starter",
-        "description": "Perfect for freelancers and researchers needing more power.",
-        "pages": "200 pages / month",
-        "buttonText": "Get Started",
+        "description": "Ideal for students and light note conversion.",
+        "pages": "100 pages",
+        "buttonText": "Get Starter",
         "features": [
-          "All features in the free Plan",
-          "200 Pages per month",
-          "98% Accuracy Engine",
-          "Full workflow automation",
+          "100 page credits (no expiration)",
+          "98% handwriting accuracy engine",
           "Fast handwriting transcription",
-          "Priority customer support",
-          "Batch Upload",
-          "Upload and transcribe five (5) handwritten image at a time",
-          "Continuous Conversion (Keep transcribing different image on one documents)",
-          "Export to PDF, Word, Excel, Json, Pdf, and many more",
-          "Cloud Storage. 500 documents",
-          "Handwriting Style Learning"
+          "Batch upload support",
+          "Upload and transcribe up to 5 images at once",
+          "Continuous conversion (merge multiple images)",
+          "Export to Word, Excel, PDF, HTML, TXT",
+          "Cloud storage for up to 500 documents",
+          "Priority email support",
+          "Handwriting style learning"
         ],
         "missing": [
-          "Limited to 5 images per upload",
-          "Limited to Pdf Editing",
-          "Team Management",
-          "Document AI Formatter"
-        
+          "Unlimited batch processing",
+          "Advanced table extraction",
+          "Document AI formatter",
+          "Team collaboration"
         ]
       },
-      "pro": {
+
+      "plus": {
         "badge": "Most Popular",
-        "name": "Pro",
-        "description": "High-volume solution for teams and professionals.",
-        "pages": "1,000 pages / month",
-        "buttonText": "Upgrade to Business",
+        "name": "Plus",
+        "description": "For power users working with larger documents.",
+        "pages": "300 pages",
+        "buttonText": "Upgrade to Plus",
         "features": [
-          "All features in the Pro Plan",
-          "1,000 Pages per month",
-          "Document AI Formatter",
-          "Real-time Processing Queue",
-          "Unlimited Batch Processing",
-          "Convert between Word, Excel, and PDF",
-          "Advanced Table Extraction",
-          "Editing of Pdf documents",
-          "Priority Chat & Email Support",
-          "Continuous Conversion (Convert a whole book)",
-          "Batch Upload, convert multiple handwritten pages to documents at once",
-          "Custom Invoice Branding"
+          "300 page credits",
+          "All Starter features",
+          "Faster processing queue",
+          "Advanced table recognition",
+          "Edit PDF documents",
+          "Upload and convert up to 10 images at once",
+          "Enhanced formatting controls",
+          "Priority chat & email support"
+        ],
+        "missing": [
+          "Unlimited batch processing",
+          "Document AI formatter",
+          "Team management"
         ]
+      },
+
+      "pro": {
+        "name": "Pro",
+        "description": "High-volume conversion for professionals and teams.",
+        "pages": "1,000 pages",
+        "buttonText": "Upgrade to Pro",
+        "features": [
+          "1,000 page credits",
+          "All Plus features",
+          "Document AI formatter",
+          "Real-time processing queue",
+          "Unlimited batch processing",
+          "Continuous conversion (convert entire books)",
+          "Advanced table extraction",
+          "Convert between Word, Excel, and PDF",
+          "Custom invoice branding",
+          "Priority chat & email support"
+        ],
+        "missing": []
       }
     },
     "enterprise": {
       "title": "Need more than 1,000 pages?",
-      "desc": "Get our Enterprise plan with custom API rate limits, dedicated account management, custom language models, and SLA guarantees.",
+      "desc": "Get a custom Enterprise package with dedicated limits, API access, custom models, and SLA guarantees.",
       "cta": "Contact Sales"
     },
-   
+
     "faq_title": "Frequently Asked Questions",
     "faqs": [
       {
         "q": "What counts as a page?",
-        "a": "One page equals one image file or one page within a PDF document. If you upload a picture of a double-page notebook spread, it counts as one page."
+        "a": "One page equals one uploaded image or one page within a PDF document. A single photo of a notebook page counts as one page."
       },
       {
-        "q": "Can I cancel my subscription anytime?",
-        "a": "Yes, you can cancel your subscription at any time from your account settings. You will retain access until the end of your billing period."
+        "q": "Do my pages expire?",
+        "a": "No. All purchased pages are yours forever. Use them whenever you need — no monthly resets."
       },
       {
-        "q": "What happens if I use up my pages?",
-        "a": "If you reach your limit, you can wait for the next billing cycle or purchase a 'Top-up' pack instantly from your dashboard."
+        "q": "What happens when I run out of pages?",
+        "a": "You can purchase another page bundle instantly from your dashboard. Your documents remain saved."
+      },
+      {
+        "q": "Can I upgrade later?",
+        "a": "Yes. You can upgrade to a larger bundle at any time. Your unused pages stay intact."
       },
       {
         "q": "Is my data secure?",
-        "a": "Absolutely. We use bank-grade AES-256 encryption. Your documents are processed automatically and are not viewed by humans unless you specifically request support."
-      },
-      {
-        "q": "Do unused pages roll over?",
-        "a": "Monthly page limits reset at the start of each billing cycle and do not roll over to the next month."
+        "a": "Yes. All documents are encrypted using AES-256 encryption and processed automatically. No human sees your files unless you request support."
       }
     ],
+
     "support": {
       "title": "Still have questions?",
       "email_label": "Email Us",
       "chat_label": "Live Chat",
-      "chat_time": "Available 9am - 5pm EST"
+      "chat_time": "Available 9am – 5pm EST"
     }
   },
   "Signup": {

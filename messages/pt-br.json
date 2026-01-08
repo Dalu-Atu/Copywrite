@@ -5,7 +5,7 @@
     "hero_title_2": "Documentos Editáveis.",
     "hero_subtitle": "Faça upload de notas manuscritas, formulários PDF digitalizados ou fotos de quadros brancos. Nosso mecanismo os converte em arquivos Word, Excel e PDF editáveis em segundos.",
     "check_1": "Não requer cartão de crédito",
-    "check_2": "50 Conversões grátis/mês",
+    "check_2": "10 Conversões grátis/mês",
     "rating_text": "4.9/5 de mais de 10 mil usuários",
     "cta_start": "Começar Grátis",
     "cta_upload": "Enviar Imagem",
@@ -391,12 +391,12 @@
     "org_name": "Copywritee"
   },
   "Pricing": {
-    "meta_title": "Planos e Preços | Conversor de Manuscrito para Texto | Copywritee",
-    "meta_desc": "Escolha o melhor plano para você. Do plano Gratuito aos planos Pro ($8/mês) e Business ($25/mês). 99% de precisão.",
-    "meta_keywords": "preço ocr manuscrito, custo software transcrição, ferramentas para estudantes, automação de documentos preço",
-    "og_title": "Reconhecimento de Caligrafia com IA | Preços Copywritee",
-    "og_desc": "Comece grátis com 50 páginas/mês. Faça o upgrade para processamento em lote e sincronização com Notion.",
-    "product_name": "Copywritee OCR Manuscrito",
+    "meta_title": "Planos de Preços | Conversor de Caligrafia para Texto | Copywritee",
+    "meta_desc": "Escolha o melhor plano para seus documentos. Desde o nível Gratuito até os planos Pro ($8) ($15) e Business ($25). 99% de precisão para notas cursivas.",
+    "meta_keywords": "preço conversão de caligrafia, custo software OCR, ferramentas de estudo para estudantes, automação de documentos empresariais, reconhecimento de escrita",
+    "og_title": "Reconhecimento de Caligrafia IA Acessível | Preços Copywritee",
+    "og_desc": "Comece grátis com 10 páginas. Atualize para processamento em lote ilimitado, sincronização com Notion e suporte premium.",
+    "product_name": "Copywritee Handwriting OCR",
     "product_desc": "Software de conversão de caligrafia em texto.",
     "plan_free": "Plano Gratuito",
     "plan_pro": "Plano Pro",
@@ -404,137 +404,127 @@
   },
   "PricingUI": {
     "hero": {
-      "title_start": "Preços transparentes para uma",
-      "title_highlight": "digitalização impecável.",
-      "subtitle": "Transforme notas manuscritas em texto editável em segundos. Escolha o plano que se ajusta ao seu fluxo de trabalho."
+      "title_start": "Preços simples para uma",
+      "title_highlight": "conversão manual perfeita.",
+      "subtitle": "Converta notas manuscritas em texto editável quando precisar. Pague uma vez, use sempre — sem assinaturas, sem pressão."
     },
-    "billing": {
-      "monthly": "Mensal",
-      "yearly": "Anual",
-      "save": "Economize 20%",
-      "per_month": "/mês"
+    "labels": {
+      "capacity": "Créditos de Página",
+      "features": "O que você recebe"
     },
-    "labels": { "capacity": "Capacidade", "features": "Recursos" },
-   "plans": {
-    "free": {
-      "name": "Grátis",
-      "description": "Conversão essencial de escrita à mão para estudantes e usuários casuais.",
-      "pages": "50 páginas / mês",
-      "buttonText": "Começar Grátis",
-      "features": [
-        "50 páginas por mês",
-        "Alta precisão (escrita à mão para texto)",
-        "Velocidade de processamento padrão",
-        "Armazenamento seguro na nuvem",
-        "Suporte por e-mail",
-        "Exportação para TXT, Word, Excel, Html",
-        "Carregue, crie e edite documentos com nosso editor",
-        "Carregue e transcreva uma imagem manuscrita por vez",
-        "Salve e gerencie até 50 documentos na nuvem"
-      ],
-      "missing": [
-        "Processamento em lote",
-        "Reconhecimento de tabelas",
-        "Formatação personalizada",
-        "Exportação em múltiplos formatos (Docx, Xlsx, Pdf, html, odt e muito mais)",
-        "Carregue e transcreva quatro (4) imagens manuscritas de uma vez",
-        "Conversão contínua (continue transcrevendo diferentes imagens em um único documento)"
-      ]
+    "plans": {
+      "free": {
+        "name": "Teste Grátis",
+        "description": "Experimente a conversão de caligrafia antes de gastar um centavo.",
+        "pages": "7 páginas (único)",
+        "buttonText": "Testar Grátis",
+        "features": [
+          "7 páginas no total (sem validade)",
+          "Caligrafia para texto de alta precisão",
+          "Velocidade de processamento padrão",
+          "Transcreva 1 imagem manuscrita por vez",
+          "Prévia do texto convertido",
+          "Exportar para TXT",
+          "Editor de documentos básico",
+          "Salve até 3 documentos na nuvem"
+        ],
+        "missing": [
+          "Processamento em lote",
+          "Conversão contínua",
+          "Formatação avançada",
+          "Reconhecimento de tabelas",
+          "Exportar para Word, Excel, PDF, HTML",
+          "Upload de múltiplas imagens",
+          "Histórico e versionamento de documentos"
+        ]
+      },
+      "starter": {
+        "name": "Starter",
+        "description": "Ideal para estudantes e conversão leve de notas.",
+        "pages": "100 páginas",
+        "buttonText": "Obter Starter",
+        "features": [
+          "100 créditos de página (sem expiração)",
+          "Motor de precisão de caligrafia de 98%",
+          "Transcrição rápida de manuscritos",
+          "Suporte para upload em lote",
+          "Transcreva até 5 imagens de uma vez",
+          "Conversão contínua (mesclar imagens)",
+          "Exportar para Word, Excel, PDF, HTML, TXT",
+          "Armazenamento em nuvem para 500 documentos",
+          "Suporte prioritário por e-mail",
+          "Aprendizado de estilo de caligrafia"
+        ],
+        "missing": [
+          "Processamento em lote ilimitado",
+          "Extração avançada de tabelas",
+          "Formatador de IA de documentos",
+          "Colaboração em equipe"
+        ]
+      },
+      "plus": {
+        "badge": "Mais Popular",
+        "name": "Plus",
+        "description": "Para usuários avançados com documentos maiores.",
+        "pages": "300 páginas",
+        "buttonText": "Atualizar para Plus",
+        "features": [
+          "300 créditos de página",
+          "Todos os recursos Starter",
+          "Fila de processamento mais rápida",
+          "Reconhecimento avançado de tabelas",
+          "Editar documentos PDF",
+          "Converta até 10 imagens de uma vez",
+          "Controles de formatação aprimorados",
+          "Suporte prioritário por chat e e-mail"
+        ],
+        "missing": [
+          "Processamento em lote ilimitado",
+          "Formatador de IA de documentos",
+          "Gestão de equipe"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Conversão de alto volume para profissionais e equipes.",
+        "pages": "1.000 páginas",
+        "buttonText": "Atualizar para Pro",
+        "features": [
+          "1.000 créditos de página",
+          "Todos os recursos Plus",
+          "Formatador de IA de documentos",
+          "Fila de processamento em tempo real",
+          "Processamento em lote ilimitado",
+          "Conversão contínua (converta livros inteiros)",
+          "Extração avançada de tabelas",
+          "Converter entre Word, Excel e PDF",
+          "Branding de fatura personalizado",
+          "Suporte prioritário por chat e e-mail"
+        ],
+        "missing": []
+      }
     },
-    "starter": {
-      "name": "Starter",
-      "description": "Perfeito para freelancers e pesquisadores que precisam de mais poder.",
-      "pages": "200 páginas / mês",
-      "buttonText": "Começar agora",
-      "features": [
-        "Todos os recursos do plano Grátis",
-        "200 páginas por mês",
-        "Motor de precisão de 98%",
-        "Automação completa de fluxo de trabalho",
-        "Transcrição rápida de escrita à mão",
-        "Suporte prioritário ao cliente",
-        "Upload em lote",
-        "Carregue e transcreva cinco (5) imagens manuscritas de uma vez",
-        "Conversão contínua (continue transcrevendo diferentes imagens em um único documento)",
-        "Exportação para PDF, Word, Excel, Json e muito mais",
-        "Armazenamento na nuvem: 500 documentos",
-        "Aprendizado de estilo de escrita"
-      ],
-      "missing": [
-        "Limitado a 5 imagens por upload",
-        "Edição de PDF limitada",
-        "Gestão de equipe",
-        "Formatador de IA de documentos"
-      ]
-    },
-    "pro": {
-      "badge": "Mais Popular",
-      "name": "Pro",
-      "description": "Solução de alto volume para equipes e profissionais.",
-      "pages": "1.000 páginas / mês",
-      "buttonText": "Upgrade para Business",
-      "features": [
-        "Todos os recursos do plano Pro",
-        "1.000 páginas por mês",
-        "Formatador de IA de documentos",
-        "Fila de processamento em tempo real",
-        "Processamento em lote ilimitado",
-        "Conversão entre Word, Excel e PDF",
-        "Extração avançada de tabelas",
-        "Edição de documentos PDF",
-        "Suporte prioritário via chat e e-mail",
-        "Conversão contínua (converta um livro inteiro)",
-        "Upload em lote, converta várias páginas manuscritas em documentos de uma só vez",
-        "Branding personalizado em faturas"
-      ]
-    }
-  },
     "enterprise": {
       "title": "Precisa de mais de 1.000 páginas?",
-      "desc": "Plano Enterprise com limites de API personalizados, gestão de conta dedicada e SLA.",
-      "cta": "Falar com Vendas"
-    },
-    "comparison": {
-      "title": "Comparação Detalhada",
-      "subtitle": "Revise as especificações técnicas.",
-      "header_feature": "Recurso",
-      "rows": [
-        {
-          "name": "Páginas Mensais",
-          "free": "50",
-          "pro": "200",
-          "bus": "1.000"
-        },
-        {
-          "name": "Idiomas Suportados",
-          "free": "15",
-          "pro": "35+",
-          "bus": "50+"
-        },
-        {
-          "name": "Velocidade",
-          "free": "Padrão",
-          "pro": "Rápida",
-          "bus": "Tempo real"
-        }
-      ]
+      "desc": "Obtenha um pacote Enterprise personalizado com limites dedicados, acesso à API, modelos customizados e garantias de SLA.",
+      "cta": "Contatar Vendas"
     },
     "faq_title": "Perguntas Frequentes",
     "faqs": [
       {
         "q": "O que conta como uma página?",
-        "a": "Um arquivo de imagem ou uma página de um PDF."
+        "a": "Uma página equivale a uma imagem enviada ou uma página dentro de um documento PDF."
       },
       {
-        "q": "Meus dados estão seguros?",
-        "a": "Sim. Usamos criptografia AES-256 de nível bancário."
+        "q": "Minhas páginas expiram?",
+        "a": "Não. Todas as páginas compradas são suas para sempre."
       }
     ],
     "support": {
       "title": "Ainda tem dúvidas?",
-      "email_label": "E-mail",
-      "chat_label": "Chat ao vivo",
-      "chat_time": "Disponível 9h - 17h EST"
+      "email_label": "Envie-nos um e-mail",
+      "chat_label": "Chat ao Vivo",
+      "chat_time": "Disponível das 9h às 17h EST"
     }
   },
   "Signup": {

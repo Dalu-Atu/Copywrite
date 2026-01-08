@@ -18,43 +18,59 @@ const PricingPage = () => {
   const [billingCycle, setBillingCycle] = useState("monthly");
   const [openFaq, setOpenFaq] = useState(null);
 
-  const plans = [
-    {
-      name: t("plans.free.name"),
-      description: t("plans.free.description"),
-      price: { monthly: 0, yearly: 0 },
-      pages: t("plans.free.pages"),
-      highlight: false,
-      buttonText: t("plans.free.buttonText"),
-      buttonVariant: "outline",
-      features: t.raw("plans.free.features"),
-      missing: t.raw("plans.free.missing"),
-    },
-    {
-      name: t("plans.starter.name"),
-      description: t("plans.starter.description"),
-      price: { monthly: 8, yearly: 6 },
-      pages: t("plans.starter.pages"),
-      highlight: false,
-      badge: t("plans.starter.badge"),
-      buttonText: t("plans.starter.buttonText"),
-      buttonVariant: "primary",
-      features: t.raw("plans.starter.features"),
-      missing: t.raw("plans.starter.missing"),
-    },
-    {
-      name: t("plans.pro.name"),
-      description: t("plans.pro.description"),
-      price: { monthly: 25, yearly: 20 },
-      pages: t("plans.pro.pages"),
-      highlight: true,
-      badge: t("plans.pro.badge"),
-      buttonText: t("plans.pro.buttonText"),
-      buttonVariant: "dark",
-      features: t.raw("plans.pro.features"),
-      missing: [],
-    },
-  ];
+ const plans = [
+   {
+     name: t("plans.free.name"),
+     description: t("plans.free.description"),
+     price: { oneTime: 0 },
+     pages: t("plans.free.pages"), // "7 pages (one-time)"
+     highlight: false,
+     buttonText: t("plans.free.buttonText"),
+     buttonVariant: "outline",
+     features: t.raw("plans.free.features"),
+     missing: t.raw("plans.free.missing"),
+   },
+
+   {
+     name: t("plans.starter.name"),
+     description: t("plans.starter.description"),
+     price: { oneTime: 8 },
+     pages: t("plans.starter.pages"), // "200 pages"
+     highlight: false,
+     badge: t("plans.starter.badge"),
+     buttonText: t("plans.starter.buttonText"),
+     buttonVariant: "primary",
+     features: t.raw("plans.starter.features"),
+     missing: t.raw("plans.starter.missing"),
+   },
+
+   {
+     name: t("plans.plus.name"),
+     description: t("plans.plus.description"),
+     price: { oneTime: 15 },
+     pages: t("plans.plus.pages"), // "500 pages"
+     highlight: false,
+     badge: t("plans.plus.badge"),
+     buttonText: t("plans.plus.buttonText"),
+     buttonVariant: "secondary",
+     features: t.raw("plans.plus.features"),
+     missing: t.raw("plans.plus.missing"),
+     badge: t("plans.plus.badge"),
+     highlight: true,
+   },
+
+   {
+     name: t("plans.pro.name"),
+     description: t("plans.pro.description"),
+     price: { oneTime: 25 },
+     pages: t("plans.pro.pages"), // "1,000 pages"
+     buttonText: t("plans.pro.buttonText"),
+     buttonVariant: "dark",
+     features: t.raw("plans.pro.features"),
+     missing: [],
+   },
+ ];
+
 
   const faqs = t.raw("faqs");
   const comparisonRows = t.raw("comparison.rows");
@@ -79,40 +95,6 @@ const PricingPage = () => {
           <p className="max-w-2xl mx-auto md:text-xl text-slate-600 mb-10 leading-relaxed">
             {t("hero.subtitle")}
           </p>
-
-          <div className="flex items-center justify-center space-x-4 mb-12">
-            <span
-              className={`text-sm font-medium ${
-                billingCycle === "monthly" ? "text-slate-900" : "text-slate-500"
-              }`}
-            >
-              {t("billing.monthly")}
-            </span>
-            <button
-              onClick={() =>
-                setBillingCycle((prev) =>
-                  prev === "monthly" ? "yearly" : "monthly"
-                )
-              }
-              className="relative inline-flex h-7 w-12 rounded-full transition-colors bg-slate-200"
-            >
-              <span
-                className={`${
-                  billingCycle === "yearly" ? "translate-x-5" : "translate-x-0"
-                } inline-block h-6 w-6 transform rounded-full bg-white transition duration-200`}
-              />
-            </button>
-            <span
-              className={`text-sm font-medium ${
-                billingCycle === "yearly" ? "text-slate-900" : "text-slate-500"
-              }`}
-            >
-              {t("billing.yearly")}{" "}
-              <span className="ml-1.5 inline-flex items-center rounded-full bg-green-100 px-2 py-0.5 text-xs font-medium text-green-800">
-                {t("billing.save")}
-              </span>
-            </span>
-          </div>
         </div>
       </section>
 
@@ -145,15 +127,13 @@ const PricingPage = () => {
               </div>
               <div className="mb-6 flex items-baseline text-slate-900">
                 <span className="text-5xl font-extrabold tracking-tight">
-                  $
-                  {billingCycle === "yearly"
-                    ? plan.price.yearly
-                    : plan.price.monthly}
-                </span>
-                <span className="ml-2 text-slate-500 font-medium">
-                  {t("billing.per_month")}
+                  ${plan.price.oneTime}
+                </span>{" "}
+                <span className="text-gray-400 text-xs font-normal">
+                  /one-time
                 </span>
               </div>
+
               <div className="mb-8 p-3 bg-slate-50 rounded-xl border border-slate-100 text-center">
                 <span className="block text-sm font-bold text-slate-700 uppercase tracking-wide">
                   {t("labels.capacity")}

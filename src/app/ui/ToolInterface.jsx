@@ -85,7 +85,7 @@ const generateRandomDocName = (baseName = "copywritee_transcription") => {
                   type="file"
                   onChange={onFileChange}
                   className="absolute inset-0 opacity-0 cursor-pointer"
-                  accept="image/*,.pdf"
+                  accept="image/*"
                 />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">

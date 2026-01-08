@@ -5,7 +5,7 @@
     "hero_title_2": "Dokumente umwandeln.",
     "hero_subtitle": "Laden Sie handschriftliche Notizen, gescannte PDF-Formulare oder Whiteboard-Fotos hoch. Unsere Engine wandelt sie in Sekundenschnelle in editierbare Word-, Excel- und PDF-Dateien um.",
     "check_1": "Keine Kreditkarte erforderlich",
-    "check_2": "50 kostenlose Konvertierungen/Mo",
+    "check_2": "10 kostenlose Konvertierungen",
     "rating_text": "4,9/5 von über 10.000 Nutzern",
     "cta_start": "Kostenlos starten",
     "cta_upload": "Bild hochladen",
@@ -393,149 +393,139 @@
   },
   "Pricing": {
     "meta_title": "Preise | Handschrift zu Text Konverter | Copywritee",
-    "meta_desc": "Wählen Sie den besten Plan. Vom kostenlosen Einstieg bis Pro (8 $/Monat) und Business (25 $/Monat). 99% Genauigkeit.",
-    "meta_keywords": "Handschrift Text Preise, OCR Software Kosten, Studenten Tools Kosten, Dokumentenautomatisierung Preis",
-    "og_title": "Günstige KI-Handschrifterkennung | Copywritee Preise",
-    "og_desc": "Kostenlos starten mit 50 Seiten/Monat. Upgrade für Stapelverarbeitung und Notion-Sync.",
-    "product_name": "Copywritee Handschrift OCR",
-    "product_desc": "Software zur Umwandlung von Handschrift in Text.",
+    "meta_desc": "Wählen Sie den besten Plan für Ihre Dokumente. Vom kostenlosen Plan bis zu Pro ($8), Plus ($15) und Pro ($25). 99% Genauigkeit für Schreibschrift.",
+    "meta_keywords": "Preise Handschrift zu Text, OCR Software Kosten, Studententools Kosten, Dokumentenautomatisierung Preis",
+    "og_title": "Bezahlbare KI-Handschrifterkennung | Copywritee Preise",
+    "og_desc": "Kostenlos starten mit 10 Seiten. Upgrade für unbegrenzte Stapelverarbeitung und Premium-Support.",
+    "product_name": "Copywritee Handschrift-OCR",
+    "product_desc": "Software zur Konvertierung von Handschrift in Text.",
     "plan_free": "Kostenloser Plan",
     "plan_pro": "Pro Plan",
     "plan_biz": "Business Plan"
   },
   "PricingUI": {
     "hero": {
-      "title_start": "Transparente Preise für perfekte",
-      "title_highlight": "Digitalisierung.",
-      "subtitle": "Verwandeln Sie handschriftliche Notizen in Sekunden in bearbeitbaren Text. Wählen Sie den passenden Plan."
+      "title_start": "Einfache Preise für perfekte",
+      "title_highlight": "Handschrift-Konvertierung.",
+      "subtitle": "Wandeln Sie handschriftliche Notizen bei Bedarf in editierbaren Text um. Einmal zahlen, jederzeit nutzen – kein Abo, kein Druck."
     },
-    "billing": {
-      "monthly": "Monatlich",
-      "yearly": "Jährlich",
-      "save": "20% sparen",
-      "per_month": "/Monat"
+    "labels": {
+      "capacity": "Seiten-Guthaben",
+      "features": "Ihre Vorteile"
     },
-    "labels": { "capacity": "Kapazität", "features": "Funktionen" },
     "plans": {
       "free": {
-        "name": "Kostenlos",
-        "description": "Grundlegende Handschrift-Konvertierung für Studenten und Gelegenheitsnutzer.",
-        "pages": "50 Seiten / Monat",
-        "buttonText": "Kostenlos starten",
+        "name": "Kostenlose Testversion",
+        "description": "Testen Sie die Konvertierung, bevor Sie einen Cent ausgeben.",
+        "pages": "7 Seiten (einmalig)",
+        "buttonText": "Kostenlos testen",
         "features": [
-          "50 Seiten pro Monat",
-          "Hohe Genauigkeit (Handschrift zu Text)",
+          "7 Seiten insgesamt (unbegrenzt gültig)",
+          "Hochpräzise Handschrift-zu-Text-KI",
           "Standard-Verarbeitungsgeschwindigkeit",
-          "Sicherer Cloud-Speicher",
-          "E-Mail-Unterstützung",
-          "Export in TXT, Word, Excel, HTML",
-          "Dokumente mit unserem Editor hochladen, erstellen und bearbeiten",
-          "Jeweils ein handschriftliches Bild gleichzeitig hochladen und transkribieren",
-          "Bis zu 50 Dokumente in der Cloud speichern und verwalten"
+          "1 Bild gleichzeitig transkribieren",
+          "Vorschau des konvertierten Textes",
+          "Export als TXT",
+          "Basis-Dokumenteneditor",
+          "Bis zu 3 Dokumente in der Cloud speichern"
         ],
         "missing": [
-          "Stapelverarbeitung (Batch Processing)",
+          "Stapelverarbeitung",
+          "Kontinuierliche Konvertierung",
+          "Erweiterte Formatierung",
           "Tabellenerkennung",
-          "Benutzerdefinierte Formatierung",
-          "Export in mehreren Formaten (Docx, Xlsx, Pdf, html, odt und viele mehr)",
-          "Vier (4) handschriftliche Bilder gleichzeitig hochladen und transkribieren",
-          "Fortlaufende Konvertierung (Mehrere Bilder in einem Dokument transkribieren)"
+          "Export zu Word, Excel, PDF, HTML",
+          "Mehrfach-Upload",
+          "Dokumentenverlauf & Versionierung"
         ]
       },
       "starter": {
         "name": "Starter",
-        "description": "Perfekt für Freiberufler und Forscher, die mehr Leistung benötigen.",
-        "pages": "200 Seiten / Monat",
-        "buttonText": "Erste Schritte",
+        "description": "Ideal für Studenten und gelegentliche Notizen.",
+        "pages": "100 Seiten",
+        "buttonText": "Starter wählen",
         "features": [
-          "Alle Funktionen des kostenlosen Plans",
-          "200 Seiten pro Monat",
+          "100 Seiten-Guthaben (kein Ablauf)",
           "98% Genauigkeits-Engine",
-          "Vollständige Workflow-Automatisierung",
-          "Schnelle Handschrift-Transkription",
-          "Vorrangiger Kundensupport",
-          "Batch-Upload",
-          "Fünf (5) handschriftliche Bilder gleichzeitig hochladen und transkribieren",
-          "Fortlaufende Konvertierung (Mehrere Bilder in einem Dokument transkribieren)",
-          "Export in PDF, Word, Excel, Json und viele mehr",
-          "Cloud-Speicher: 500 Dokumente",
-          "Lernen des Handschriftstils"
+          "Schnelle Transkription",
+          "Stapel-Upload Support",
+          "Bis zu 5 Bilder gleichzeitig",
+          "Mehrere Bilder zusammenfügen",
+          "Export zu Word, Excel, PDF, HTML, TXT",
+          "Cloud-Speicher für 500 Dokumente",
+          "Priorisierter E-Mail-Support",
+          "Lernfähiger Handschrift-Stil"
         ],
         "missing": [
-          "Begrenzt auf 5 Bilder pro Upload",
-          "Eingeschränkte PDF-Bearbeitung",
-          "Team-Management",
-          "Dokumenten-KI-Formatierer"
+          "Unbegrenzte Stapelverarbeitung",
+          "Erweiterte Tabellenextraktion",
+          "KI-Dokument-Formatierer",
+          "Team-Zusammenarbeit"
+        ]
+      },
+      "plus": {
+        "badge": "Beliebtest",
+        "name": "Plus",
+        "description": "Für Power-User mit umfangreichen Dokumenten.",
+        "pages": "300 Seiten",
+        "buttonText": "Upgrade auf Plus",
+        "features": [
+          "300 Seiten-Guthaben",
+          "Alle Starter-Funktionen",
+          "Schnellere Verarbeitungswarteschlange",
+          "Erweiterte Tabellenerkennung",
+          "PDF-Dokumente bearbeiten",
+          "Bis zu 10 Bilder gleichzeitig",
+          "Verbesserte Formatierungskontrolle",
+          "Priorisierter Chat & E-Mail-Support"
+        ],
+        "missing": [
+          "Unbegrenzte Stapelverarbeitung",
+          "KI-Dokument-Formatierer",
+          "Team-Management"
         ]
       },
       "pro": {
-        "badge": "Am beliebtesten",
         "name": "Pro",
-        "description": "Hochvolumige Lösung für Teams und Profis.",
-        "pages": "1.000 Seiten / Monat",
-        "buttonText": "Auf Business upgraden",
+        "description": "Hohes Volumen für Profis und Teams.",
+        "pages": "1.000 Seiten",
+        "buttonText": "Upgrade auf Pro",
         "features": [
-          "Alle Funktionen des Pro-Plans",
-          "1.000 Seiten pro Monat",
-          "Dokumenten-KI-Formatierer",
-          "Echtzeit-Verarbeitungswarteschlange",
+          "1.000 Seiten-Guthaben",
+          "Alle Plus-Funktionen",
+          "KI-Dokument-Formatierer",
+          "Echtzeit-Verarbeitung",
           "Unbegrenzte Stapelverarbeitung",
-          "Konvertierung zwischen Word, Excel und PDF",
+          "Ganze Bücher konvertieren",
           "Erweiterte Tabellenextraktion",
-          "Bearbeitung von PDF-Dokumenten",
-          "Prioritäts-Chat & E-Mail-Unterstützung",
-          "Fortlaufende Konvertierung (Ein ganzes Buch konvertieren)",
-          "Batch-Upload, mehrere handschriftliche Seiten gleichzeitig in Dokumente umwandeln",
-          "Benutzerdefiniertes Rechnungs-Branding"
-        ]
+          "Zwischen Word, Excel und PDF konvertieren",
+          "Eigenes Rechnungs-Branding",
+          "Premium-Support per Chat & E-Mail"
+        ],
+        "missing": []
       }
     },
     "enterprise": {
-      "title": "Mehr als 1.000 Seiten nötig?",
-      "desc": "Enterprise-Plan mit individuellen API-Limits und dediziertem Management.",
+      "title": "Benötigen Sie mehr als 1.000 Seiten?",
+      "desc": "Holen Sie sich ein individuelles Enterprise-Paket mit API-Zugriff und SLA-Garantien.",
       "cta": "Vertrieb kontaktieren"
-    },
-    "comparison": {
-      "title": "Detaillierter Vergleich",
-      "subtitle": "Technische Spezifikationen im Überblick.",
-      "header_feature": "Funktion",
-      "rows": [
-        {
-          "name": "Monatliche Seiten",
-          "free": "50",
-          "pro": "200",
-          "bus": "1.000"
-        },
-        {
-          "name": "Unterstützte Sprachen",
-          "free": "15",
-          "pro": "35+",
-          "bus": "50+"
-        },
-        {
-          "name": "Geschwindigkeit",
-          "free": "Standard",
-          "pro": "Schnell",
-          "bus": "Echtzeit"
-        }
-      ]
     },
     "faq_title": "Häufig gestellte Fragen",
     "faqs": [
       {
         "q": "Was zählt als eine Seite?",
-        "a": "Eine Bilddatei oder eine PDF-Seite."
+        "a": "Eine Seite entspricht einem hochgeladenen Bild oder einer Seite in einem PDF."
       },
       {
-        "q": "Sind meine Daten sicher?",
-        "a": "Ja, wir nutzen AES-256-Verschlüsselung auf Bankenniveau."
+        "q": "Läuft mein Guthaben ab?",
+        "a": "Nein. Alle gekauften Seiten gehören Ihnen für immer. Kein monatlicher Reset."
       }
     ],
     "support": {
-      "title": "Noch Fragen?",
-      "email_label": "E-Mail schreiben",
+      "title": "Haben Sie noch Fragen?",
+      "email_label": "Schreiben Sie uns",
       "chat_label": "Live-Chat",
-      "chat_time": "Verfügbar 9:00 - 17:00 EST"
+      "chat_time": "Verfügbar 9:00 – 17:00 EST"
     }
   },
   "Signup": {

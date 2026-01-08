@@ -389,145 +389,140 @@
     "org_name": "Copywritee"
   },
   "Pricing": {
-    "meta_title": "Fiyatlandırma | El Yazısı Metin Dönüştürücü | Copywritee",
-    "meta_desc": "İhtiyacınıza uygun planı seçin. Ücretsiz denemeden Pro ($8/ay) ve Business ($25/ay) planlarına kadar. %99 doğruluk.",
-    "meta_keywords": "el yazısı metin fiyatları, OCR yazılım maliyeti, öğrenci araçları fiyatları, doküman otomasyonu fiyatı",
-    "og_title": "Uygun Fiyatlı Yapay Zeka El Yazısı Tanıma | Copywritee",
-    "og_desc": "Ayda 50 sayfa ile ücretsiz başlayın. Sınırsız toplu işlem ve Notion senkronizasyonu için yükseltin.",
-    "product_name": "Copywritee El Yazısı OCR",
+    "meta_title": "Fiyatlandırma | El Yazısını Metne Çevirme | Copywritee",
+    "meta_desc": "Doküman ihtiyaçlarınız için en iyi planı seçin. Ücretsiz seviyeden Pro ($8), Plus ($15) ve Pro ($25) planlarına kadar. %99 doğruluk.",
+    "meta_keywords": "el yazısı metne çevirme fiyat, OCR yazılımı maliyeti, öğrenci araçları fiyatları, doküman otomasyonu fiyatı",
+    "og_title": "Uygun Fiyatlı Yapay Zeka El Yazısı Tanıma | Copywritee Fiyatlar",
+    "og_desc": "10 sayfa ile ücretsiz başlayın. Sınırsız toplu işlem ve premium destek için yükseltin.",
+    "product_name": "Copywritee Handwriting OCR",
     "product_desc": "El yazısını metne dönüştürme yazılımı.",
     "plan_free": "Ücretsiz Plan",
     "plan_pro": "Pro Plan",
-    "plan_biz": "Kurumsal Plan"
+    "plan_biz": "İş Planı"
   },
   "PricingUI": {
     "hero": {
-      "title_start": "Kusursuz dijitalleşme için",
-      "title_highlight": "şeffaf fiyatlandırma.",
-      "subtitle": "El yazısı notları saniyeler içinde düzenlenebilir metne dönüştürün. İş akışınıza en uygun planı seçin."
+      "title_start": "Kusursuz el yazısı dönüşümü için",
+      "title_highlight": "basit fiyatlandırma.",
+      "subtitle": "El yazısı notları düzenlenebilir metne dönüştürün. Bir kez ödeyin, dilediğiniz zaman kullanın — abonelik yok, baskı yok."
     },
-    "billing": {
-      "monthly": "Aylık",
-      "yearly": "Yıllık",
-      "save": "%20 Tasarruf Et",
-      "per_month": "/ay"
+    "labels": {
+      "capacity": "Sayfa Kredisi",
+      "features": "Neler Alacaksınız"
     },
-    "labels": { "capacity": "Kapasite", "features": "Özellikler" },
-   "plans": {
-    "free": {
-      "name": "Ücretsiz",
-      "description": "Öğrenciler ve bireysel kullanıcılar için temel el yazısı dönüştürme.",
-      "pages": "Aylık 50 sayfa",
-      "buttonText": "Ücretsiz Başla",
-      "features": [
-        "Aylık 50 Sayfa",
-        "Yüksek Doğruluk (El yazısından metne)",
-        "Standart İşlem Hızı",
-        "Güvenli Bulut Depolama",
-        "E-posta Desteği",
-        "TXT, Word, Excel, Html formatında dışa aktarma",
-        "Editörümüzle belge yükleyin, oluşturun ve düzenleyin",
-        "Aynı anda tek bir el yazısı görseli yükleme ve metne dökme",
-        "Bulutta 50 belgeye kadar kaydetme ve yönetme"
-      ],
-      "missing": [
-        "Toplu İşleme",
-        "Tablo Tanıma",
-        "Özel Formatlama",
-        "Çoklu formatta dışa aktarma (Docx, Xlsx, Pdf, html, odt ve daha fazlası)",
-        "Aynı anda dört (4) el yazısı görseli yükleme ve metne dökme",
-        "Kesintisiz Dönüştürme (Farklı görselleri tek bir belgede dönüştürmeye devam etme)"
-      ]
+    "plans": {
+      "free": {
+        "name": "Ücretsiz Deneme",
+        "description": "Bir kuruş harcamadan el yazısı dönüşümünü deneyin.",
+        "pages": "7 sayfa (tek seferlik)",
+        "buttonText": "Ücretsiz Dene",
+        "features": [
+          "Toplam 7 sayfa (süre sınırı yok)",
+          "Yüksek doğruluklu el yazısı motoru",
+          "Standart işlem hızı",
+          "Aynı anda 1 el yazısı görseli çevirme",
+          "Dönüştürülen metni önizleme",
+          "TXT olarak dışa aktarma",
+          "Temel doküman düzenleyici",
+          "Bulutta 3 dokümana kadar saklama"
+        ],
+        "missing": [
+          "Toplu işlem",
+          "Sürekli dönüşüm",
+          "Gelişmiş biçimlendirme",
+          "Tablo tanıma",
+          "Word, Excel, PDF dışa aktarma",
+          "Çoklu görsel yükleme",
+          "Doküman geçmişi ve versiyonlama"
+        ]
+      },
+      "starter": {
+        "name": "Starter",
+        "description": "Öğrenciler ve hafif not dönüşümleri için ideal.",
+        "pages": "100 sayfa",
+        "buttonText": "Starter'ı Al",
+        "features": [
+          "100 sayfa kredisi (asla silinmez)",
+          "%98 el yazısı doğruluk oranı",
+          "Hızlı el yazısı transkripsiyonu",
+          "Toplu yükleme desteği",
+          "Aynı anda 5 görsel yükleme",
+          "Sürekli dönüşüm (görsel birleştirme)",
+          "Word, Excel, PDF, HTML, TXT dışa aktarma",
+          "500 dokümana kadar bulut depolama",
+          "Öncelikli e-posta desteği",
+          "El yazısı stili öğrenme"
+        ],
+        "missing": [
+          "Sınırsız toplu işlem",
+          "Gelişmiş tablo ayıklama",
+          "Yapay zeka doküman biçimlendirici",
+          "Ekip işbirliği"
+        ]
+      },
+      "plus": {
+        "badge": "En Popüler",
+        "name": "Plus",
+        "description": "Büyük dokümanlarla çalışan yoğun kullanıcılar için.",
+        "pages": "300 sayfa",
+        "buttonText": "Plus'a Yükselt",
+        "features": [
+          "300 sayfa kredisi",
+          "Tüm Starter özellikleri",
+          "Daha hızlı işlem kuyruğu",
+          "Gelişmiş tablo tanıma",
+          "PDF dokümanlarını düzenleme",
+          "Aynı anda 10 görsel yükleme",
+          "Gelişmiş biçimlendirme kontrolleri",
+          "Öncelikli sohbet ve e-posta desteği"
+        ],
+        "missing": [
+          "Sınırsız toplu işlem",
+          "Yapay zeka doküman biçimlendirici",
+          "Ekip yönetimi"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Profesyoneller ve ekipler için yüksek hacimli dönüşüm.",
+        "pages": "1.000 sayfa",
+        "buttonText": "Pro'ya Yükselt",
+        "features": [
+          "1.000 sayfa kredisi",
+          "Tüm Plus özellikleri",
+          "Yapay zeka doküman biçimlendirici",
+          "Gerçek zamanlı işlem kuyruğu",
+          "Sınırsız toplu işlem",
+          "Sürekli dönüşüm (tüm kitabı çevir)",
+          "Gelişmiş tablo ayıklama",
+          "Word, Excel ve PDF arası dönüşüm",
+          "Özel fatura markalama",
+          "Öncelikli sohbet ve e-posta desteği"
+        ],
+        "missing": []
+      }
     },
-    "starter": {
-      "name": "Starter",
-      "description": "Daha fazla güce ihtiyaç duyan serbest çalışanlar ve araştırmacılar için mükemmel.",
-      "pages": "Aylık 200 sayfa",
-      "buttonText": "Başlayın",
-      "features": [
-        "Ücretsiz plandaki tüm özellikler",
-        "Aylık 200 Sayfa",
-        "%98 Doğruluk Motoru",
-        "Tam iş akışı otomasyonu",
-        "Hızlı el yazısı transkripsiyonu",
-        "Öncelikli müşteri desteği",
-        "Toplu Yükleme",
-        "Aynı anda beş (5) el yazısı görseli yükleme ve metne dökme",
-        "Kesintisiz Dönüştürme (Farklı görselleri tek bir belgede dönüştürmeye devam etme)",
-        "PDF, Word, Excel, Json ve daha fazlasına aktarma",
-        "Bulut Depolama: 500 belge",
-        "El Yazısı Stili Öğrenme"
-      ],
-      "missing": [
-        "Yükleme başına 5 görselle sınırlı",
-        "Sınırlı PDF Düzenleme",
-        "Ekip Yönetimi",
-        "Belge Yapay Zeka Biçimlendirici"
-      ]
-    },
-    "pro": {
-      "badge": "En Popüler",
-      "name": "Pro",
-      "description": "Ekipler ve profesyoneller için yüksek hacimli çözüm.",
-      "pages": "Aylık 1.000 sayfa",
-      "buttonText": "Business Planına Yükselt",
-      "features": [
-        "Pro plandaki tüm özellikler",
-        "Aylık 1.000 Sayfa",
-        "Belge Yapay Zeka Biçimlendirici",
-        "Gerçek Zamanlı İşlem Kuyruğu",
-        "Sınırsız Toplu İşleme",
-        "Word, Excel ve PDF arasında dönüştürme",
-        "Gelişmiş Tablo Ayıklama",
-        "PDF belgelerini düzenleme",
-        "Öncelikli Sohbet ve E-posta Desteği",
-        "Kesintisiz Dönüştürme (Tüm bir kitabı dönüştürme)",
-        "Toplu Yükleme, birden fazla el yazısı sayfasını aynı anda belgelere dönüştürme",
-        "Özel Fatura Markalama"
-      ]
-    }
-  },
     "enterprise": {
       "title": "1.000 sayfadan fazlasına mı ihtiyacınız var?",
-      "desc": "Özel API limitleri ve hesap yönetimi ile Enterprise planımızı deneyin.",
-      "cta": "Satışla İletişime Geç"
-    },
-    "comparison": {
-      "title": "Detaylı Karşılaştırma",
-      "subtitle": "Teknik özellikleri inceleyin.",
-      "header_feature": "Özellik",
-      "rows": [
-        { "name": "Aylık Sayfa", "free": "50", "pro": "200", "bus": "1.000" },
-        {
-          "name": "Desteklenen Diller",
-          "free": "15",
-          "pro": "35+",
-          "bus": "50+"
-        },
-        {
-          "name": "İşlem Hızı",
-          "free": "Standart",
-          "pro": "Hızlı",
-          "bus": "Anlık"
-        }
-      ]
+      "desc": "Özel limitler, API erişimi ve SLA garantileri ile size özel Kurumsal paket alın.",
+      "cta": "Satışla İletişime Geçin"
     },
     "faq_title": "Sıkça Sorulan Sorular",
     "faqs": [
       {
         "q": "Bir sayfa ne sayılır?",
-        "a": "Bir görsel dosyası veya bir PDF sayfası."
+        "a": "Bir sayfa, yüklenen bir görsele veya bir PDF dokümanı içindeki bir sayfaya eşittir."
       },
       {
-        "q": "Verilerim güvende mi?",
-        "a": "Evet, banka düzeyinde AES-256 şifreleme kullanıyoruz."
+        "q": "Sayfalarımın süresi dolar mı?",
+        "a": "Hayır. Satın alınan tüm sayfalar sonsuza dek sizindir. Aylık sıfırlama yoktur."
       }
     ],
     "support": {
       "title": "Hala sorularınız mı var?",
-      "email_label": "Bize Yazın",
+      "email_label": "Bize E-posta Gönderin",
       "chat_label": "Canlı Sohbet",
-      "chat_time": "9:00 - 17:00 EST arası uygun"
+      "chat_time": "Hafta içi 09:00 – 17:00 EST"
     }
   },
   "Signup": {
