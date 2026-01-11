@@ -127,6 +127,7 @@ export default function PdfClientContent() {
     const formData = new FormData();
     formData.append("file", selectedFile);
     formData.append("userId", userId);
+    formData.append("folderName", "Personal");
     importFile(formData);
   };
 

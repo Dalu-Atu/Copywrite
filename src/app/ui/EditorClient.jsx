@@ -59,10 +59,11 @@ export default function EditorClientContent({ locale }) {
   // --- 2. IMPORT/UPLOAD MUTATION ---
   const { mutate: importFile, isPending: isImporting } = useMutation({
     mutationFn: async (formData) => {
+      console.log(formData);
+
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_API_URL}/users/upload`,
-        formData,
-        { headers: { "Content-Type": "multipart/form-data" } }
+        formData
       );
       return response.data;
     },
@@ -72,7 +73,7 @@ export default function EditorClientContent({ locale }) {
       const { document } = data;
       // Redirect to editor with the uploaded file
       console.log(data);
-      
+
       const trialUrl = `https://app.copywritee.com/trial-editor/${document.dest}/${document.name}`;
       window.location.href = trialUrl;
     },
@@ -138,10 +139,12 @@ export default function EditorClientContent({ locale }) {
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
     if (!selectedFile) return;
+console.log(selectedFile);
 
     const formData = new FormData();
     formData.append("file", selectedFile);
     formData.append("userId", userId);
+     formData.append("folderName", 'Personal');
     importFile(formData);
   };
 
