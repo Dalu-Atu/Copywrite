@@ -15,10 +15,9 @@ import {
   ChevronDown,
   Menu,
   X,
-  ArrowRight, // Added for the banner
+  ArrowRight,
 } from "lucide-react";
 
-// Import your new component
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const HeaderComponent = () => {
@@ -27,7 +26,7 @@ const HeaderComponent = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [showBanner, setShowBanner] = useState(true); // Banner State
+  const [showBanner, setShowBanner] = useState(true);
   const dropdownRefs = useRef({});
 
   useEffect(() => {
@@ -63,7 +62,6 @@ const HeaderComponent = () => {
 
   const lLink = (path) => `/${locale}${path}`;
 
-  // Navigation Items (kept from your original)
   const navItems = {
     features: {
       title: t("product"),
@@ -133,16 +131,16 @@ const HeaderComponent = () => {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="fixed top-0 left-0 right-0 z-[51] bg-[#015979] text-white overflow-hidden"
+            className="fixed top-0 left-0 right-0 z-[60] bg-[#015979] text-white overflow-hidden"
           >
-            <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-center gap-4 text-xs sm:text-sm font-medium">
+            <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-center gap-4 text-[10px] sm:text-sm font-medium">
               <span className="opacity-90">
-                Copywritee is now <strong>NoteOCR</strong>. smarter features, new
-                home!
+                Copywritee is now <strong>NoteOCR</strong>. smarter features,
+                new home!
               </span>
               <button
                 onClick={() => setShowBanner(false)}
-                className="p-1 hover:bg-white/10 rounded-full transition-colors"
+                className="p-1 hover:bg-white/10 rounded-full transition-colors flex-shrink-0"
               >
                 <X className="w-3.5 h-3.5" />
               </button>
@@ -153,7 +151,7 @@ const HeaderComponent = () => {
 
       <header
         className={`fixed left-0 right-0 z-[40] transition-all duration-300 ${
-          showBanner ? "top-8 sm:top-9" : "top-0"
+          showBanner ? "top-[36px] sm:top-[40px]" : "top-0"
         } ${
           isScrolled
             ? "bg-white/80 backdrop-blur-xl border-b border-zinc-200 py-3"
@@ -162,7 +160,6 @@ const HeaderComponent = () => {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between">
-            {/* Logo */}
             <Link
               href={lLink("/")}
               className="flex items-center gap-2 relative z-[50]"
@@ -235,7 +232,6 @@ const HeaderComponent = () => {
               </Link>
             </nav>
 
-            {/* Desktop CTA & Language Switcher */}
             <div className="hidden lg:flex items-center gap-3">
               <LanguageSwitcher />
               <div className="w-px h-4 bg-zinc-200 mx-1" />
@@ -270,7 +266,7 @@ const HeaderComponent = () => {
         </div>
       </header>
 
-      {/* Mobile Menu (kept from original) */}
+      {/* Mobile Menu */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
@@ -278,9 +274,91 @@ const HeaderComponent = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed inset-0 z-[45] bg-white flex flex-col"
+            className={`fixed left-0 right-0 bottom-0 z-[45] bg-white flex flex-col transition-all duration-300 ${
+              showBanner ? "top-[36px] sm:top-[40px]" : "top-0"
+            }`}
           >
-            {/* ... (rest of your mobile menu code) ... */}
+            <div className="sticky top-0 z-[110] bg-white/95 px-6 py-5 flex items-center justify-between border-b border-zinc-100">
+              <div className="flex items-center gap-2">
+                <img src="/logo.png" className="h-7" alt="Logo" />
+                <span className="font-bold text-zinc-900 uppercase tracking-tight">
+                  NoteOcr
+                </span>
+              </div>
+              <div className="flex items-center gap-3">
+                <LanguageSwitcher />
+                <button
+                  onClick={closeAll}
+                  className="p-2 bg-zinc-100 rounded-full"
+                >
+                  <X className="w-6 h-6 text-zinc-900" />
+                </button>
+              </div>
+            </div>
+
+            <div className="flex-1 overflow-y-auto px-6 pt-5 pb-40">
+              <Link
+                href={lLink("/pricing")}
+                onClick={closeAll}
+                className="flex items-center justify-between p-4 bg-zinc-50 rounded-2xl border border-zinc-100 mb-8"
+              >
+                <span className="text-lg font-bold text-zinc-900">
+                  {t("pricing")}
+                </span>
+                <ChevronDown className="w-4 h-4 -rotate-90 text-zinc-400" />
+              </Link>
+
+              <div className="space-y-10">
+                {Object.entries(navItems).map(([key, item]) => (
+                  <div key={key}>
+                    <p className="text-[11px] font-black text-zinc-400 uppercase tracking-widest mb-4 ml-1">
+                      {item.title}
+                    </p>
+                    <div className="grid gap-6">
+                      {item.items.map((subItem) => (
+                        <Link
+                          key={subItem.name}
+                          href={subItem.href}
+                          onClick={closeAll}
+                          className="flex items-start gap-4 group"
+                        >
+                          <div className="w-10 h-10 flex-none flex items-center justify-center bg-zinc-50 rounded-xl text-zinc-400 group-active:text-[#015979]">
+                            {subItem.icon}
+                          </div>
+                          <div className="flex-1 pt-1">
+                            <span className="font-bold text-zinc-900 text-base block mb-1">
+                              {subItem.name}
+                            </span>
+                            <p className="text-xs text-zinc-500 line-clamp-1">
+                              {subItem.desc}
+                            </p>
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="absolute bottom-0 left-0 right-0 p-6 bg-white border-t border-zinc-100 pb-8 shadow-[0_-10px_40px_rgba(0,0,0,0.05)]">
+              <div className="grid grid-cols-2 gap-4">
+                <a
+                  href="https://app.noteocr.com/"
+                  onClick={closeAll}
+                  className="flex items-center justify-center py-3.5 text-base font-bold text-zinc-700 bg-zinc-100 rounded-xl"
+                >
+                  {t("login")}
+                </a>
+                <a
+                  href="https://app.noteocr.com/signup"
+                  onClick={closeAll}
+                  className="flex items-center justify-center py-3.5 text-base font-bold text-white bg-[#015979] rounded-xl"
+                >
+                  {t("get_started")}
+                </a>
+              </div>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
