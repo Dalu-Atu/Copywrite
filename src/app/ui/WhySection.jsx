@@ -66,10 +66,10 @@ const WhySection = () => {
               </div>
             </div>
 
-            {/* RIGHT: Copywritee */}
+            {/* RIGHT: NoteOcr */}
             <div className="bg-white rounded-2xl border border-teal-100 p-6 md:p-8 relative overflow-hidden shadow-xl shadow-teal-900/5">
               <div className="absolute top-4 right-4 px-3 py-1 bg-teal-50 text-teal-700 text-xs font-bold uppercase rounded-full border border-teal-100 flex items-center gap-1">
-                <CheckCircle2 className="w-3 h-3" /> Copywritee
+                <CheckCircle2 className="w-3 h-3" /> NoteOcr
               </div>
               <h3 className="text-sm font-semibold text-teal-600 uppercase tracking-wider mb-6">
                 {t("our_label")}
@@ -127,7 +127,7 @@ const WhySection = () => {
                 <span>4h</span>
               </div>
               <div className="flex items-center gap-2 text-xs font-bold text-teal-700">
-                <span className="w-16">Copywritee</span>
+                <span className="w-16">NoteOcr</span>
                 <div className="w-12 h-2 bg-teal-500 rounded-full"></div>
                 <span>3s</span>
               </div>

@@ -27,7 +27,7 @@ export const ConversionSectionWord = () => {
           No Credit card required • Free & Premium options available
         </p>
         <a
-          href="https://app.copywritee.com/signup"
+          href="https://app.noteocr.com/signup"
           className="inline-block mt-8 px-8 py-3 bg-[#1b9e99] text-white rounded-xl font-semibold shadow-md hover:shadow-xl hover:bg-[#158b88] transition"
         >
           Start Word Conversion →
@@ -37,7 +37,7 @@ export const ConversionSectionWord = () => {
       {/* Video */}
       <div className="flex-1 flex justify-center">
         <video
-          src="/videos/copywritee-note-to-document.mp4"
+          src="/videos/noteocr-note-to-document.mp4"
           autoPlay
           loop
           muted
@@ -58,7 +58,7 @@ export const ConversionSectionExcel = () => {
       {/* Video */}
       <div className="flex-1 flex justify-center">
         <video
-          src="/videos/copywritee-table-to-excel.mp4"
+          src="/videos/noteocr-table-to-excel.mp4"
           autoPlay
           loop
           muted
@@ -155,7 +155,7 @@ export const ConversionSectionCloud = () => {
       {/* Image */}
       <div className="flex-1 flex justify-center">
         <Image
-          src="/images/copywritee-save-in-cloud.png"
+          src="/images/noteocr-save-in-cloud.png"
           alt="Save converted documents securely in the cloud for instant access"
           width={500}
           height={400}

@@ -117,7 +117,7 @@ const CopywriteFeatures = () => {
               </div>
               <div className="p-2 md:p-6 flex justify-center">
                 <img
-                  src="/images/copywritee-image002-bg.png"
+                  src="/images/noteocr-image002-bg.png"
                   alt="Handwriting to Word"
                   className="w-full shadow-lg rounded-lg border border-slate-300/50"
                 />

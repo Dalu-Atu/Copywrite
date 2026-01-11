@@ -31,11 +31,11 @@ export default function ToolInterface() {
       setFile(null);
     },
   });
-const generateRandomDocName = (baseName = "copywritee_transcription") => {
-  const timestamp = Date.now(); // unique
-  const random = Math.random().toString(36).substring(2, 8); // short random
-  return `${baseName}_${timestamp}_${random}`;
-};
+  const generateRandomDocName = (baseName = "noteocr_transcription") => {
+    const timestamp = Date.now(); // unique
+    const random = Math.random().toString(36).substring(2, 8); // short random
+    return `${baseName}_${timestamp}_${random}`;
+  };
 
   // 2. Helper: Convert File to Base64
   const processFile = async (selectedFile) => {

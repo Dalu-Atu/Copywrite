@@ -18,59 +18,58 @@ const PricingPage = () => {
   const [billingCycle, setBillingCycle] = useState("monthly");
   const [openFaq, setOpenFaq] = useState(null);
 
- const plans = [
-   {
-     name: t("plans.free.name"),
-     description: t("plans.free.description"),
-     price: { oneTime: 0 },
-     pages: t("plans.free.pages"), // "7 pages (one-time)"
-     highlight: false,
-     buttonText: t("plans.free.buttonText"),
-     buttonVariant: "outline",
-     features: t.raw("plans.free.features"),
-     missing: t.raw("plans.free.missing"),
-   },
+  const plans = [
+    {
+      name: t("plans.free.name"),
+      description: t("plans.free.description"),
+      price: { oneTime: 0 },
+      pages: t("plans.free.pages"), // "7 pages (one-time)"
+      highlight: false,
+      buttonText: t("plans.free.buttonText"),
+      buttonVariant: "outline",
+      features: t.raw("plans.free.features"),
+      missing: t.raw("plans.free.missing"),
+    },
 
-   {
-     name: t("plans.starter.name"),
-     description: t("plans.starter.description"),
-     price: { oneTime: 8 },
-     pages: t("plans.starter.pages"), // "200 pages"
-     highlight: false,
-     badge: t("plans.starter.badge"),
-     buttonText: t("plans.starter.buttonText"),
-     buttonVariant: "primary",
-     features: t.raw("plans.starter.features"),
-     missing: t.raw("plans.starter.missing"),
-   },
+    {
+      name: t("plans.starter.name"),
+      description: t("plans.starter.description"),
+      price: { oneTime: 8 },
+      pages: t("plans.starter.pages"), // "200 pages"
+      highlight: false,
+      badge: t("plans.starter.badge"),
+      buttonText: t("plans.starter.buttonText"),
+      buttonVariant: "primary",
+      features: t.raw("plans.starter.features"),
+      missing: t.raw("plans.starter.missing"),
+    },
 
-   {
-     name: t("plans.plus.name"),
-     description: t("plans.plus.description"),
-     price: { oneTime: 15 },
-     pages: t("plans.plus.pages"), // "500 pages"
-     highlight: false,
-     badge: t("plans.plus.badge"),
-     buttonText: t("plans.plus.buttonText"),
-     buttonVariant: "secondary",
-     features: t.raw("plans.plus.features"),
-     missing: t.raw("plans.plus.missing"),
-     badge: t("plans.plus.badge"),
-     highlight: true,
-   },
+    {
+      name: t("plans.plus.name"),
+      description: t("plans.plus.description"),
+      price: { oneTime: 15 },
+      pages: t("plans.plus.pages"), // "500 pages"
+      highlight: false,
+      badge: t("plans.plus.badge"),
+      buttonText: t("plans.plus.buttonText"),
+      buttonVariant: "secondary",
+      features: t.raw("plans.plus.features"),
+      missing: t.raw("plans.plus.missing"),
+      badge: t("plans.plus.badge"),
+      highlight: true,
+    },
 
-   {
-     name: t("plans.pro.name"),
-     description: t("plans.pro.description"),
-     price: { oneTime: 25 },
-     pages: t("plans.pro.pages"), // "1,000 pages"
-     buttonText: t("plans.pro.buttonText"),
-     buttonVariant: "dark",
-     features: t.raw("plans.pro.features"),
-     missing: [],
-   },
- ];
-
+    {
+      name: t("plans.pro.name"),
+      description: t("plans.pro.description"),
+      price: { oneTime: 25 },
+      pages: t("plans.pro.pages"), // "1,000 pages"
+      buttonText: t("plans.pro.buttonText"),
+      buttonVariant: "dark",
+      features: t.raw("plans.pro.features"),
+      missing: [],
+    },
+  ];
 
   const faqs = t.raw("faqs");
   const comparisonRows = t.raw("comparison.rows");
@@ -143,7 +142,7 @@ const PricingPage = () => {
                 </span>
               </div>
               <a
-                href="https://app.copywritee.com/signup"
+                href="https://app.noteocr.com/signup"
                 className={`text-center w-full py-3.5 px-4 rounded-xl text-sm font-semibold transition-all ${
                   plan.buttonVariant === "primary"
                     ? "bg-emerald-600 text-white"

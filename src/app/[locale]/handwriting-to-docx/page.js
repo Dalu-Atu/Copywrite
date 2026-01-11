@@ -1,4 +1,3 @@
-
 import React from "react";
 import ToolInterface from "../../ui/ToolInterface";
 import {
@@ -53,17 +52,17 @@ export async function generateMetadata({ params }) {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://copywritee.com/${locale}/handwriting-to-docx`,
+      canonical: `https://noteocr.com/${locale}/handwriting-to-docx`,
       languages: {
-        en: "https://copywritee.com/en/handwriting-to-docx",
-        tr: "https://copywritee.com/tr/handwriting-to-docx",
-        es: "https://copywritee.com/es/handwriting-to-docx",
-        zh: "https://copywritee.com/zh/handwriting-to-docx",
-        hi: "https://copywritee.com/hi/handwriting-to-docx",
-        de: "https://copywritee.com/de/handwriting-to-docx",
-        ja: "https://copywritee.com/ja/handwriting-to-docx",
-        "pt-br": "https://copywritee.com/pt-br/handwriting-to-docx",
-        "x-default": "https://copywritee.com/en/handwriting-to-docx",
+        en: "https://noteocr.com/en/handwriting-to-docx",
+        tr: "https://noteocr.com/tr/handwriting-to-docx",
+        es: "https://noteocr.com/es/handwriting-to-docx",
+        zh: "https://noteocr.com/zh/handwriting-to-docx",
+        hi: "https://noteocr.com/hi/handwriting-to-docx",
+        de: "https://noteocr.com/de/handwriting-to-docx",
+        ja: "https://noteocr.com/ja/handwriting-to-docx",
+        "pt-br": "https://noteocr.com/pt-br/handwriting-to-docx",
+        "x-default": "https://noteocr.com/en/handwriting-to-docx",
       },
     },
     openGraph: {

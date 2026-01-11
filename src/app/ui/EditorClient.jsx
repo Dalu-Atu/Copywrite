@@ -45,7 +45,7 @@ export default function EditorClientContent({ locale }) {
       queryClient.invalidateQueries(["user"]);
       toast.success("Workspace Initialized!");
       const { document } = data;
-      const trialUrl = `https://app.copywritee.com/trial-editor/${document.folder}/${document.name}`;
+      const trialUrl = `https://app.noteocr.com/trial-editor/${document.folder}/${document.name}`;
       window.location.href = trialUrl;
     },
     onError: (error) => {
@@ -74,7 +74,7 @@ export default function EditorClientContent({ locale }) {
       // Redirect to editor with the uploaded file
       console.log(data);
 
-      const trialUrl = `https://app.copywritee.com/trial-editor/${document.dest}/${document.name}`;
+      const trialUrl = `https://app.noteocr.com/trial-editor/${document.dest}/${document.name}`;
       window.location.href = trialUrl;
     },
     onError: (error) => {
@@ -139,12 +139,12 @@ export default function EditorClientContent({ locale }) {
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
     if (!selectedFile) return;
-console.log(selectedFile);
+    console.log(selectedFile);
 
     const formData = new FormData();
     formData.append("file", selectedFile);
     formData.append("userId", userId);
-     formData.append("folderName", 'Personal');
+    formData.append("folderName", "Personal");
     importFile(formData);
   };
 

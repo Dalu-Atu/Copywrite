@@ -1,5 +1,3 @@
-
-
 import HomePage from "../ui/HomePage";
 import { getTranslations } from "next-intl/server";
 
@@ -22,17 +20,17 @@ export async function generateMetadata({ params }) {
     // 3. Hreflang Tags (CRITICAL for SEO)
     // Tells Google about all versions of this page
     alternates: {
-      canonical: `https://copywritee.com/${locale}`,
+      canonical: `https://noteocr.com/${locale}`,
       languages: {
-        en: "https://copywritee.com/en",
-        tr: "https://copywritee.com/tr",
-        es: "https://copywritee.com/es",
-        zh: "https://copywritee.com/zh",
-        hi: "https://copywritee.com/hi",
-        de: "https://copywritee.com/de",
-        ja: "https://copywritee.com/ja",
-        "pt-br": "https://copywritee.com/pt-br",
-        "x-default": "https://copywritee.com/en",
+        en: "https://noteocr.com/en",
+        tr: "https://noteocr.com/tr",
+        es: "https://noteocr.com/es",
+        zh: "https://noteocr.com/zh",
+        hi: "https://noteocr.com/hi",
+        de: "https://noteocr.com/de",
+        ja: "https://noteocr.com/ja",
+        "pt-br": "https://noteocr.com/pt-br",
+        "x-default": "https://noteocr.com/en",
       },
     },
 
@@ -40,14 +38,14 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: t("meta_title"),
       description: t("meta_desc"),
-      url: `https://copywritee.com/${locale}`,
-      siteName: "Copywritee",
+      url: `https://noteocr.com/${locale}`,
+      siteName: "NoteOcr",
       images: [
         {
           url: "/images/copywrite-image002.png",
           width: 1200,
           height: 630,
-          alt: "Copywritee Handwriting OCR",
+          alt: "NoteOcr Handwriting OCR",
         },
       ],
       locale: locale === "en" ? "en_US" : "es_ES",

@@ -34,7 +34,7 @@ export default function ExcelToolInterface() {
       setFile(null);
     },
   });
-  const generateRandomDocName = (baseName = "copywritee_transcription") => {
+  const generateRandomDocName = (baseName = "noteocr_transcription") => {
     const timestamp = Date.now(); // unique
     const random = Math.random().toString(36).substring(2, 8); // short random
     return `${baseName}_${timestamp}_${random}`;

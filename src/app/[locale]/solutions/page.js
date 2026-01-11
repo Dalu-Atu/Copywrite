@@ -41,16 +41,16 @@ export const metadata = {
     "Is there a free handwriting-to-text converter?",
     "How to scan and edit handwritten notes?",
   ],
-  alternates: { canonical: "https://copywritee.com/solutions" },
+  alternates: { canonical: "https://noteocr.com/solutions" },
   openGraph: {
     title: "Convert Handwriting to Text with 98% Accuracy | Copywrite",
     description:
       "Save time and skip the typing. Convert handwriting to document instantly with our AI-powered OCR technology!",
-    url: "https://copywritee.com/solutions",
+    url: "https://noteocr.com/solutions",
     siteName: "Copywrite",
     images: [
       {
-        url: "https://copywritee.com/images/handwriting-conversion-demo.png",
+        url: "https://noteocr.com/images/handwriting-conversion-demo.png",
         width: 1200,
         height: 630,
         alt: "Handwriting to text conversion with Copywrite",
@@ -63,9 +63,9 @@ export const metadata = {
     card: "summary_large_image",
     title: "Copywrite - Convert Handwriting to Text with 97% Accuracy",
     description: "Effortlessly digitize handwritten notes using AI technology.",
-    images: ["https://copywritee.com/images/handwriting-conversion-demo.png"],
-    site: "@copywriteeapp",
-    creator: "@copywriteeapp",
+    images: ["https://noteocr.com/images/handwriting-conversion-demo.png"],
+    site: "@noteocrapp",
+    creator: "@noteocrapp",
   },
 };
 
@@ -78,8 +78,6 @@ const solutionCategories = [
 ];
 
 const Solutions = () => {
-
-
   return (
     <>
       <HeaderComponent />
@@ -171,13 +169,13 @@ const Solutions = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://app.copywritee.com/signup"
+                href="https://app.noteocr.com/signup"
                 className="px-8 py-3 bg-[#2ec4b6] text-white rounded-lg font-medium hover:bg-[#27b3a3] transition duration-300 shadow-md"
               >
                 Try For Free
               </a>
               <a
-                href="https://app.copywritee.com/upload-image"
+                href="https://app.noteocr.com/upload-image"
                 className="px-8 py-3 bg-white text-[#0b3d4f] border border-[#0b3d4f] rounded-lg font-medium hover:bg-gray-50 transition duration-300"
               >
                 See Live Demo
@@ -202,13 +200,13 @@ const Solutions = () => {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://copywritee.com",
+                item: "https://noteocr.com",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Solutions",
-                item: "https://copywritee.com/solutions",
+                item: "https://noteocr.com/solutions",
               },
             ],
           }),

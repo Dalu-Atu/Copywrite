@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://copywritee.com/${locale}/login`,
+      canonical: `https://noteocr.com/${locale}/login`,
     },
   };
 }

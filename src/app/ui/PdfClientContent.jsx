@@ -44,7 +44,7 @@ export default function PdfClientContent() {
       toast.success("PDF Workspace Ready!");
       const { document } = data;
       // Redirect to trial-editor on the app subdomain
-      const trialUrl = `https://app.copywritee.com/trial-editor/${document.folder}/${document.name}`;
+      const trialUrl = `https://app.noteocr.com/trial-editor/${document.folder}/${document.name}`;
       window.location.href = trialUrl;
     },
     onError: (error) => {
@@ -67,7 +67,7 @@ export default function PdfClientContent() {
       queryClient.invalidateQueries(["user"]);
       toast.success("PDF Uploaded successfully!");
       const { document } = data;
-      const trialUrl = `https://app.copywritee.com/trial-editor/${document.dest}/${document.name}`;
+      const trialUrl = `https://app.noteocr.com/trial-editor/${document.dest}/${document.name}`;
       window.location.href = trialUrl;
     },
     onError: (error) => {

@@ -11,16 +11,16 @@ export async function generateMetadata({ params }) {
     description: t("meta_desc"),
 
     alternates: {
-      canonical: `https://copywritee.com/${locale}/edit-pdf`,
+      canonical: `https://noteocr.com/${locale}/edit-pdf`,
       languages: {
-        en: "https://copywritee.com/en/edit-pdf",
-        es: "https://copywritee.com/es/edit-pdf",
-        tr: "https://copywritee.com/tr/edit-pdf",
-        zh: "https://copywritee.com/zh/edit-pdf",
-        hi: "https://copywritee.com/hi/edit-pdf",
-        de: "https://copywritee.com/de/edit-pdf",
-        ja: "https://copywritee.com/ja/edit-pdf",
-        "pt-br": "https://copywritee.com/pt-br/edit-pdf",
+        en: "https://noteocr.com/en/edit-pdf",
+        es: "https://noteocr.com/es/edit-pdf",
+        tr: "https://noteocr.com/tr/edit-pdf",
+        zh: "https://noteocr.com/zh/edit-pdf",
+        hi: "https://noteocr.com/hi/edit-pdf",
+        de: "https://noteocr.com/de/edit-pdf",
+        ja: "https://noteocr.com/ja/edit-pdf",
+        "pt-br": "https://noteocr.com/pt-br/edit-pdf",
       },
     },
   };

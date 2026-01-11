@@ -91,7 +91,7 @@ const HomePage = () => {
           {/* 4. CTAs */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
             <a
-              href="https://app.copywritee.com/signup"
+              href="https://app.noteocr.com/signup"
               className="group relative overflow-hidden bg-[#1b9e99] text-white rounded-xl px-8 py-4 font-bold text-lg transition-all duration-300 hover:bg-[#158782] hover:shadow-[0_10px_40px_rgba(27,158,153,0.3)] hover:-translate-y-1"
             >
               <span className="relative flex items-center justify-center gap-2">
@@ -101,7 +101,7 @@ const HomePage = () => {
             </a>
 
             <a
-              href="https://app.copywritee.com/upload-image"
+              href="https://app.noteocr.com/upload-image"
               className="group relative overflow-hidden bg-white text-[#00415a] border border-slate-200 rounded-xl px-8 py-4 font-bold text-lg transition-all duration-300 hover:border-[#1b9e99]/50 hover:text-[#1b9e99] hover:shadow-lg hover:-translate-y-1"
             >
               <span className="relative flex items-center justify-center gap-2">
@@ -125,7 +125,7 @@ const HomePage = () => {
                 <div className="flex items-center gap-2 text-[10px] md:text-xs font-mono text-slate-400">
                   <Loader2 className="w-3 h-3 animate-spin text-indigo-400" />
                   <span className="tracking-widest uppercase opacity-70">
-                    Copywritee_Engine_V2.4
+                    NoteOcr_Engine_V2.4
                   </span>
                 </div>
                 <div className="w-12"></div>
@@ -137,11 +137,11 @@ const HomePage = () => {
                   loop
                   muted
                   playsInline
-                  poster="/images/copywritee-image002-bg.png"
+                  poster="/images/noteocr-image002-bg.png"
                   className="w-full h-full object-cover opacity-90 transition-opacity duration-700"
                 >
                   <source
-                    src="/videos/copywritee-note-to-document.mp4"
+                    src="/videos/noteocr-note-to-document.mp4"
                     type="video/mp4"
                   />
                 </video>

@@ -25,9 +25,6 @@ import {
 import ConversionDemo from "./ConversionDemo";
 import { useTranslations } from "next-intl";
 
-
-
-
 export default function DocsPage() {
   const t = useTranslations("DocsPage");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -152,8 +149,7 @@ export default function DocsPage() {
                 {t("overview.title")}
               </h2>
               <p className="text-sm md:text-xl text-slate-500 leading-relaxed max-w-3xl">
-              {t("overview.description")}
-               
+                {t("overview.description")}
               </p>
 
               <div className="grid sm:grid-cols-3 gap-6 my-8">
@@ -206,7 +202,7 @@ export default function DocsPage() {
                     </h3>
                     <p className="text-sm md:text-xl text-slate-500 leading-relaxed max-w-3xl">
                       Sign up at{" "}
-                      <span className="text-[#1b9e99]">copywritee.com</span>. If
+                      <span className="text-[#1b9e99]">noteocr.com</span>. If
                       you are joining an organization, use your invite link.
                     </p>
                   </div>
@@ -430,7 +426,7 @@ export default function DocsPage() {
 
               <div className="relative overflow-hidden rounded-xl bg-slate-900 border border-slate-800 p-8 text-center">
                 <div className="absolute inset-0 opacity-20 blur-[2px] pointer-events-none select-none p-6 font-mono text-xs text-left text-teal-400">
-                  {`import { Copywritee } from '@copywritee/sdk';\nconst client = new Copywritee(process.env.API_KEY);`}
+                  {`import { NoteOcr } from '@noteocr/sdk';\nconst client = new NoteOcr(process.env.API_KEY);`}
                 </div>
                 <div className="relative z-10 flex flex-col items-center justify-center h-full space-y-4">
                   <div className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-slate-700">

@@ -169,7 +169,7 @@ export default function PrivacyPolicy() {
                   <p className="font-bold text-white uppercase tracking-widest text-xs">
                     {t("hq_label")}
                   </p>
-                  <p>Copywritee Technologies</p>
+                  <p>NoteOcr Technologies</p>
                   <p>Zurich, Switzerland</p>
                 </div>
               </div>

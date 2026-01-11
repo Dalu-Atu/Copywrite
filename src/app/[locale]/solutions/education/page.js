@@ -29,14 +29,13 @@ export async function generateMetadata({ params }) {
       "anki OCR",
       "study notes digitization",
     ],
- 
+
     robots: {
       index: true,
       follow: true,
     },
   };
 }
-
 
 export default function EducationPage() {
   const t = useTranslations("EducationPage");
@@ -69,7 +68,7 @@ export default function EducationPage() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a
-                  href="https://app.copywritee.com/signup"
+                  href="https://app.noteocr.com/signup"
                   className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 px-10 rounded-lg shadow-xl shadow-emerald-200 transition-all flex items-center justify-center gap-2 group"
                 >
                   {t("hero.cta_primary")}
@@ -251,7 +250,7 @@ export default function EducationPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://app.copywritee.com/signup"
+                  href="https://app.noteocr.com/signup"
                   className="bg-white text-emerald-600 font-bold py-4 px-10 rounded-lg shadow-lg hover:bg-emerald-50 transition-all"
                 >
                   {t("cta.btn1")}

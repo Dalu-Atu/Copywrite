@@ -11,16 +11,16 @@ export async function generateMetadata({ params }) {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://copywritee.com/${locale}/online-editor`,
+      canonical: `https://noteocr.com/${locale}/online-editor`,
       languages: {
-        en: "https://copywritee.com/en/online-editor",
-        es: "https://copywritee.com/es/online-editor",
-        tr: "https://copywritee.com/tr/online-editor",
-        zh: "https://copywritee.com/zh/online-editor",
-        hi: "https://copywritee.com/hi/online-editor",
-        de: "https://copywritee.com/de/online-editor",
-        ja: "https://copywritee.com/ja/online-editor",
-        "pt-br": "https://copywritee.com/pt-br/online-editor",
+        en: "https://noteocr.com/en/online-editor",
+        es: "https://noteocr.com/es/online-editor",
+        tr: "https://noteocr.com/tr/online-editor",
+        zh: "https://noteocr.com/zh/online-editor",
+        hi: "https://noteocr.com/hi/online-editor",
+        de: "https://noteocr.com/de/online-editor",
+        ja: "https://noteocr.com/ja/online-editor",
+        "pt-br": "https://noteocr.com/pt-br/online-editor",
       },
     },
     openGraph: {
@@ -35,7 +35,6 @@ export default async function OnlineEditorPage({ params }) {
 
   return (
     <main className="min-h-screen bg-white">
-
       <div className="h-20 w-full bg-[#f1f5f9] border-b border-slate-200" />
 
       {/* INTERACTIVE CONTENT: Hooks and State */}

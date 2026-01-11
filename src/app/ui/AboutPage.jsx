@@ -74,7 +74,7 @@ export default function About() {
           <div className="relative">
             <div className="absolute inset-0 bg-emerald-600 rounded-2xl transform rotate-3 opacity-10"></div>
             <img
-              src="/images/copywritee-illustration.png"
+              src="/images/noteocr-illustration.png"
               alt="Interface"
               className="relative rounded-2xl shadow-2xl border border-slate-200 bg-white"
             />
@@ -138,7 +138,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-6">
-              The Copywritee{" "}
+              The NoteOcr{" "}
               <span className="text-emerald-600">
                 {t("ecosystem.highlight")}
               </span>
@@ -168,7 +168,7 @@ export default function About() {
                     {feature.description}
                   </p>
                   <a
-                    href="https://app.copywritee.com/signup"
+                    href="https://app.noteocr.com/signup"
                     className="inline-flex items-center text-sm font-semibold text-emerald-600 hover:text-emerald-800 group"
                   >
                     {t("ecosystem.explore")}{" "}
@@ -227,7 +227,7 @@ export default function About() {
           </p>
           <button
             onClick={() =>
-              (window.location.href = "https://app.copywritee.com/signup")
+              (window.location.href = "https://app.noteocr.com/signup")
             }
             className="inline-flex items-center px-8 py-4 text-lg font-bold text-white bg-emerald-600 rounded-xl shadow-lg hover:bg-emerald-700 transition-all"
           >

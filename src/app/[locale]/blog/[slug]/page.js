@@ -47,16 +47,16 @@ export async function generateMetadata({ params }) {
   if (!post) return;
 
   return {
-    title: `${post.title} | Copywritee Blog`,
+    title: `${post.title} | NoteOcr Blog`,
     description: post.excerpt,
     alternates: {
-      canonical: `https://copywritee.com/blog/${post.slug}`,
+      canonical: `https://noteocr.com/blog/${post.slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://copywritee.com/blog/${post.slug}`,
-      siteName: "Copywritee",
+      url: `https://noteocr.com/blog/${post.slug}`,
+      siteName: "NoteOcr",
       images: [
         {
           url: post.image, // Ensure this is a full URL in production
@@ -96,15 +96,15 @@ export default function BlogPost({ params }) {
     },
     publisher: {
       "@type": "Organization",
-      name: "Copywritee",
+      name: "NoteOcr",
       logo: {
         "@type": "ImageObject",
-        url: "https://copywritee.com/logo.png",
+        url: "https://noteocr.com/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://copywritee.com/blog/${post.slug}`,
+      "@id": `https://noteocr.com/blog/${post.slug}`,
     },
   };
 

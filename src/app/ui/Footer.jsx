@@ -19,8 +19,8 @@ const Footer = () => {
           <div className="md:col-span-5 flex flex-col gap-6">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/copywritee-full-logo-white.png"
-                alt="Copywritee"
+                src="/noteocr-full-logo-white.png"
+                alt="NoteOcr"
                 width={160}
                 height={40}
                 className="opacity-90 hover:opacity-100 transition-opacity"
@@ -139,7 +139,7 @@ const Footer = () => {
             {/* Add a check or a default string if t fails */}
             {t.rich("copyright", {
               year: (chunks) => currentYear,
-            }) || `© ${currentYear} Copywritee Inc.`}
+            }) || `© ${currentYear} NoteOcr Inc.`}
           </p>
 
           <div className="flex gap-6 items-center">

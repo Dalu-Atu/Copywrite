@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: "https://copywritee.com",
+  siteUrl: "https://noteocr.com",
   generateRobotsTxt: true,
   exclude: ["/icon.ico", "/apple-icon.png"],
   changefreq: "daily",

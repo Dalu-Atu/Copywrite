@@ -2,7 +2,7 @@
 import BlogSection from "../../ui/BlogSection";
 
 export const metadata = {
-  title: "Blog | Copywritee",
+  title: "Blog | NoteOcr",
   description: "Insights on AI, copywriting, and productivity",
 };
 

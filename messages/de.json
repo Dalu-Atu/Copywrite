@@ -11,7 +11,7 @@
     "cta_upload": "Bild hochladen",
     "stat_time": "Bearbeitungszeit",
     "stat_accuracy": "OCR-Genauigkeit",
-    "meta_title": "Handschrift in Text umwandeln | KI-Schreibschrift-OCR | Copywritee",
+    "meta_title": "Handschrift in Text umwandeln | KI-Schreibschrift-OCR | NoteOcr",
     "meta_desc": "Wandeln Sie handschriftliche Notizen sofort in editierbaren digitalen Text um. Die weltweit präziseste KI-Handschrifterkennung (OCR)."
   },
 
@@ -19,7 +19,7 @@
     "section_label": "Das Ökosystem",
     "main_title_1": "Alles, was Sie zur Digitalisierung",
     "main_title_2": "von Dokumenten benötigen.",
-    "main_desc": "Die meisten OCR-Tools hören bei der Textextraktion auf und hinterlassen ein Formatierungschaos. Copywritee übernimmt die Schwerstarbeit: Rekonstruktion des Layouts, Sicherung Ihrer Daten und sofortige Umwandlung in professionelle Dokumente.",
+    "main_desc": "Die meisten OCR-Tools hören bei der Textextraktion auf und hinterlassen ein Formatierungschaos. NoteOcr übernimmt die Schwerstarbeit: Rekonstruktion des Layouts, Sicherung Ihrer Daten und sofortige Umwandlung in professionelle Dokumente.",
     "editor_label": "Vertraute Benutzeroberfläche",
     "editor_title": "Bearbeiten wie in Word.",
     "editor_desc": "Keine Einarbeitung nötig. Unser Editor fühlt sich exakt wie MS Word an. Laden Sie bestehende .docx-Dateien hoch oder bearbeiten Sie konvertierte Bilder direkt im Browser.",
@@ -46,13 +46,13 @@
   },
   "Trust": {
     "title": "Vertrauen von Marktführern.",
-    "description": "Von lokalen Schulen bis hin zu globalen Tech-Unternehmen – zukunftsorientierte Teams wählen Copywritee."
+    "description": "Von lokalen Schulen bis hin zu globalen Tech-Unternehmen – zukunftsorientierte Teams wählen NoteOcr."
   },
   "HowItWorks": {
     "label": "WORKFLOW",
     "title_1": "Drei Schritte zur Umwandlung",
     "title_2": "von Handschrift in Text.",
-    "description": "Sparen Sie Stunden mühsamer Abtipparbeit. Copywritee macht aus dem alten OCR-Prozess einen 3-Sekunden-Workflow.",
+    "description": "Sparen Sie Stunden mühsamer Abtipparbeit. NoteOcr macht aus dem alten OCR-Prozess einen 3-Sekunden-Workflow.",
     "step_1_title": "Hochladen & Scannen",
     "step_1_desc": "Laden Sie Bilder oder PDFs hoch. Unsere Engine optimiert Kontrast und Zuschnitt sofort.",
     "step_2_title": "Neuronale Analyse",
@@ -82,7 +82,7 @@
     "card_1_desc": "Manuelles Abtippen dauert Stunden. Wir brauchen Sekunden.",
     "card_1_manual": "Manuell",
     "card_2_title": "Kosten um 70% senken",
-    "card_2_desc": "Vermeiden Sie Dateneingabefehler. Copywritee amortisiert sich im ersten Monat.",
+    "card_2_desc": "Vermeiden Sie Dateneingabefehler. NoteOcr amortisiert sich im ersten Monat.",
     "card_2_stat": "monatlich gespart*",
     "card_3_title": "Datensouveränität",
     "card_3_desc": "Wir trainieren keine Modelle mit Ihren Daten. Dokumente werden verschlüsselt und gelöscht."
@@ -91,13 +91,13 @@
     "label": "Erfolgsgeschichten",
     "title_main": "Geliebt von",
     "title_highlight": "produktiven Teams.",
-    "subtitle": "Von Lehrern bis zu Datenanalysten – so modernisiert Copywritee Workflows weltweit.",
+    "subtitle": "Von Lehrern bis zu Datenanalysten – so modernisiert NoteOcr Workflows weltweit.",
     "trust_footer": "Schließen Sie sich über 10.000 Nutzern an, die ihre Dokumente heute transformieren.",
     "items": {
       "ev": {
         "role": "Lehrer",
         "company": "Sapele Vocational Centre",
-        "quote": "Copywritee hat meine Arbeit mit handschriftlichen Notizen revolutioniert. Das Umwandeln in Word spart mir jede Woche Stunden."
+        "quote": "NoteOcr hat meine Arbeit mit handschriftlichen Notizen revolutioniert. Das Umwandeln in Word spart mir jede Woche Stunden."
       },
       "ab": {
         "role": "Datenanalyst",
@@ -117,20 +117,20 @@
     "title_highlight": "Fragen",
     "items": {
       "what_is": {
-        "q": "Was ist Copywritee?",
-        "a": "Copywritee ist eine Plattform zur Handschrifterkennung, die handschriftliche Notizen in editierbare digitale Dokumente wie Word und Excel umwandelt."
+        "q": "Was ist NoteOcr?",
+        "a": "NoteOcr ist eine Plattform zur Handschrifterkennung, die handschriftliche Notizen in editierbare digitale Dokumente wie Word und Excel umwandelt."
       },
       "who_benefit": {
-        "q": "Wer kann von Copywritee profitieren?",
+        "q": "Wer kann von NoteOcr profitieren?",
         "a": "Studenten, Fachleute, Forscher, Lehrer und Anwälte können damit Notizen, Protokolle oder Briefe schnell digitalisieren."
       },
       "how_work": {
-        "q": "Wie funktioniert Copywritee?",
+        "q": "Wie funktioniert NoteOcr?",
         "a": "Laden Sie einfach ein Foto Ihrer Notizen hoch. Unsere OCR-Engine analysiert die Handschrift und exportiert sie in Word, PDF oder Excel."
       },
       "accuracy": {
         "q": "Wie genau ist die Erkennung?",
-        "a": "Copywritee erreicht eine Genauigkeit von 95-98% bei Handschrift und Schreibschrift."
+        "a": "NoteOcr erreicht eine Genauigkeit von 95-98% bei Handschrift und Schreibschrift."
       },
       "cursive": {
         "q": "Kann es auch Schreibschrift konvertieren?",
@@ -150,11 +150,11 @@
       },
       "math": {
         "q": "Werden mathematische Gleichungen unterstützt?",
-        "a": "Ja, Copywritee unterstützt mathematische Gleichungen, Formeln und wissenschaftliche Notationen."
+        "a": "Ja, NoteOcr unterstützt mathematische Gleichungen, Formeln und wissenschaftliche Notationen."
       },
       "phone_scan": {
         "q": "Kann ich Notizen mit dem Handy scannen?",
-        "a": "Ja, nutzen Sie die Kamera Ihres Smartphones und laden Sie das Bild direkt bei Copywritee hoch."
+        "a": "Ja, nutzen Sie die Kamera Ihres Smartphones und laden Sie das Bild direkt bei NoteOcr hoch."
       },
       "quality": {
         "q": "Welche Bildqualität liefert die besten Ergebnisse?",
@@ -162,7 +162,7 @@
       },
       "history": {
         "q": "Kann ich alte Familienbriefe digitalisieren?",
-        "a": "Absolut! Copywritee eignet sich hervorragend zur Archivierung historischer Dokumente und Tagebücher."
+        "a": "Absolut! NoteOcr eignet sich hervorragend zur Archivierung historischer Dokumente und Tagebücher."
       },
       "low_accuracy": {
         "q": "Was, wenn die Konvertierung ungenau ist?",
@@ -170,7 +170,7 @@
       },
       "pdf_edit": {
         "q": "Kann ich PDFs direkt bearbeiten?",
-        "a": "Ja, Copywritee enthält einen PDF-Editor zum Hinzufügen von Text, Bildern oder Unterschriften."
+        "a": "Ja, NoteOcr enthält einen PDF-Editor zum Hinzufügen von Text, Bildern oder Unterschriften."
       },
       "cloud_save": {
         "q": "Werden Dokumente online gespeichert?",
@@ -209,7 +209,7 @@
         "a": "Ja, Premium-Nutzer können bis zu 50 Seiten im Stapel verarbeiten."
       },
       "is_free": {
-        "q": "Ist Copywritee kostenlos?",
+        "q": "Ist NoteOcr kostenlos?",
         "a": "Ja, es gibt einen kostenlosen Plan mit 50 Konvertierungen pro Monat."
       },
       "pricing_diff": {
@@ -221,11 +221,11 @@
         "a": "Ja, es gibt keine festen Vertragslaufzeiten. Die Kündigung ist jederzeit im Dashboard möglich."
       },
       "why_manual": {
-        "q": "Warum Copywritee statt manuellem Abtippen?",
-        "a": "Manuelles Tippen ist langsam. Copywritee spart 90% der Zeit und steigert die Produktivität."
+        "q": "Warum NoteOcr statt manuellem Abtippen?",
+        "a": "Manuelles Tippen ist langsam. NoteOcr spart 90% der Zeit und steigert die Produktivität."
       },
       "diff_others": {
-        "q": "Wie unterscheidet sich Copywritee von anderen Apps?",
+        "q": "Wie unterscheidet sich NoteOcr von anderen Apps?",
         "a": "Wir bieten End-to-End-Management: Erkennung, PDF-Editor, Cloud-Speicher und Multi-Format-Export."
       },
       "digitize_free": {
@@ -236,7 +236,7 @@
   },
 
   "WordPage": {
-    "meta_title": "Handschrift in Word umwandeln (DOCX) | Copywritee",
+    "meta_title": "Handschrift in Word umwandeln (DOCX) | NoteOcr",
     "meta_desc": "Verwandeln Sie handschriftliche Notizen sofort in editierbare MS Word-Dokumente...",
     "hero_title_1": "Handschrift zu",
     "hero_title_2": "Word",
@@ -249,13 +249,13 @@
     "feat_3_desc": "Ihre Privatsphäre zählt. Dateien werden verschlüsselt verarbeitet und permanent gelöscht.",
     "faq_title": "Häufig gestellte Fragen",
     "faq_q1": "Kann es Schreibschrift lesen?",
-    "faq_a1": "Ja, Copywritee nutzt neuronale Netze, die speziell auf verbundene Schreibschrift trainiert sind.",
+    "faq_a1": "Ja, NoteOcr nutzt neuronale Netze, die speziell auf verbundene Schreibschrift trainiert sind.",
     "faq_q2": "Sind meine Daten sicher?",
     "faq_a2": "Absolut. Wir nutzen TLS-Verschlüsselung und löschen Dateien nach 60 Minuten."
   },
   "PdfPage": {
     "btn_new": "Neues Dokument starten",
-    "meta_title": "Kostenloser Online-PDF-Editor & KI-Chat | Copywritee",
+    "meta_title": "Kostenloser Online-PDF-Editor & KI-Chat | NoteOcr",
     "meta_desc": "Bearbeiten, signieren und chatten Sie mit Ihren PDFs via KI. Dokumente zusammenfassen, Antworten extrahieren und Formulare sicher im Browser ausfüllen.",
     "hero_pill": "Intelligente PDF-Suite",
     "hero_title_1": "PDFs bearbeiten und chatten,",
@@ -281,11 +281,11 @@
     "step_4_title": "Herunterladen",
     "step_4_desc": "Das fertige Dokument exportieren.",
     "cta_title": "Meistern Sie Ihre Dokumentation.",
-    "cta_desc": "Schließen Sie sich über 10.000 Profis an, die Copywritee für Verträge und Berichte nutzen.",
+    "cta_desc": "Schließen Sie sich über 10.000 Profis an, die NoteOcr für Verträge und Berichte nutzen.",
     "cta_btn": "Jetzt kostenlos starten"
   },
   "EditorPage": {
-    "meta_title": "Kostenloser Online-Dokumenteneditor | Word & Excel bearbeiten | Copywritee",
+    "meta_title": "Kostenloser Online-Dokumenteneditor | Word & Excel bearbeiten | NoteOcr",
     "meta_desc": "Bearbeiten Sie DOCX, XLSX und Textdateien direkt im Browser. Keine Installation erforderlich. Eine schnelle und sichere Office-Alternative.",
     "hero_pill": "Cloud Office Suite",
     "hero_title_1": "Dokumente bearbeiten,",
@@ -301,7 +301,7 @@
     "feat_2_title": "Vertraute Benutzeroberfläche",
     "feat_2_desc": "Keine Umstellung nötig. Unsere Werkzeugleiste ähnelt Microsoft Word und Excel für sofortige Produktivität.",
     "feat_3_title": "Leichtgewichtig & Schnell",
-    "feat_3_desc": "Keine Wartezeiten für schwere Software. Der Copywritee Editor lädt in unter 2 Sekunden, auch bei langsamer Verbindung.",
+    "feat_3_desc": "Keine Wartezeiten für schwere Software. Der NoteOcr Editor lädt in unter 2 Sekunden, auch bei langsamer Verbindung.",
     "formats_title": "Unterstützte Formate",
     "formats_subtitle": "Wir unterstützen das gesamte Office-Ökosystem. Laden Sie Dateien hoch oder starten Sie neu.",
     "format_docx": "Microsoft Word",
@@ -310,7 +310,7 @@
     "format_csv": "Datenblätter"
   },
   "ExcelPage": {
-    "meta_title": "Handschriftliche Tabellen in Excel konvertieren | Copywritee",
+    "meta_title": "Handschriftliche Tabellen in Excel konvertieren | NoteOcr",
     "meta_desc": "Automatisieren Sie die Datenerfassung. Verwandeln Sie handschriftliche Raster und Tabellen sofort in editierbare Excel-Tabellen mit KI.",
     "hero_pill": "Intelligente Raster-Erkennung",
     "hero_title": "Handschrift zu",
@@ -367,7 +367,7 @@
     "company": "Unternehmen",
     "resources": "Ressourcen",
     "hiring": "Jobs",
-    "copyright": "© {year} Copywritee Inc. | Entwickelt für globale Teams.",
+    "copyright": "© {year} NoteOcr Inc. | Entwickelt für globale Teams.",
     "links": {
       "notes_to_word": "Notizen zu Word",
       "table_to_excel": "Tabelle zu Excel",
@@ -382,22 +382,22 @@
     }
   },
   "Contact": {
-    "meta_title": "Kontaktieren Sie uns | Copywritee Hilfe-Center",
-    "meta_desc": "Benötigen Sie Hilfe bei der Umwandlung von Notizen in Text? Kontaktieren Sie das Copywritee-Support-Team für Unterstützung.",
-    "meta_keywords": "Copywritee Kontakt, Kundensupport, Handschrift OCR Hilfe, technischer Support, Kontaktformular",
-    "og_title": "Kontakt | Copywritee Support",
+    "meta_title": "Kontaktieren Sie uns | NoteOcr Hilfe-Center",
+    "meta_desc": "Benötigen Sie Hilfe bei der Umwandlung von Notizen in Text? Kontaktieren Sie das NoteOcr-Support-Team für Unterstützung.",
+    "meta_keywords": "NoteOcr Kontakt, Kundensupport, Handschrift OCR Hilfe, technischer Support, Kontaktformular",
+    "og_title": "Kontakt | NoteOcr Support",
     "og_desc": "Schnelle Hilfe bei der Handschrift-zu-Text-Konvertierung. Kontaktieren Sie uns noch heute.",
     "breadcrumb_home": "Startseite",
     "breadcrumb_contact": "Kontakt",
-    "org_name": "Copywritee"
+    "org_name": "NoteOcr"
   },
   "Pricing": {
-    "meta_title": "Preise | Handschrift zu Text Konverter | Copywritee",
+    "meta_title": "Preise | Handschrift zu Text Konverter | NoteOcr",
     "meta_desc": "Wählen Sie den besten Plan für Ihre Dokumente. Vom kostenlosen Plan bis zu Pro ($8), Plus ($15) und Pro ($25). 99% Genauigkeit für Schreibschrift.",
     "meta_keywords": "Preise Handschrift zu Text, OCR Software Kosten, Studententools Kosten, Dokumentenautomatisierung Preis",
-    "og_title": "Bezahlbare KI-Handschrifterkennung | Copywritee Preise",
+    "og_title": "Bezahlbare KI-Handschrifterkennung | NoteOcr Preise",
     "og_desc": "Kostenlos starten mit 10 Seiten. Upgrade für unbegrenzte Stapelverarbeitung und Premium-Support.",
-    "product_name": "Copywritee Handschrift-OCR",
+    "product_name": "NoteOcr Handschrift-OCR",
     "product_desc": "Software zur Konvertierung von Handschrift in Text.",
     "plan_free": "Kostenloser Plan",
     "plan_pro": "Pro Plan",
@@ -529,7 +529,7 @@
     }
   },
   "Signup": {
-    "meta_title": "Copywritee beitreten | Workflow digitalisieren",
+    "meta_title": "NoteOcr beitreten | Workflow digitalisieren",
     "meta_desc": "Erstellen Sie ein kostenloses Konto und wandeln Sie Handschrift in Text um.",
     "hero": {
       "badge": "Globale Community",
@@ -558,7 +558,7 @@
     }
   },
   "Login": {
-    "meta_title": "Anmelden | Copywritee",
+    "meta_title": "Anmelden | NoteOcr",
     "meta_desc": "Willkommen zurück. Melden Sie sich an, um Ihre Dokumente weiter zu digitalisieren.",
     "hero": {
       "badge": "Von 10.000+ Teams genutzt",
@@ -583,7 +583,7 @@
     }
   },
   "ContactPage": {
-    "meta_title": "Kontaktieren Sie uns | Copywritee Hilfe-Center",
+    "meta_title": "Kontaktieren Sie uns | NoteOcr Hilfe-Center",
     "meta_desc": "Hilfe bei der Handschrift-zu-Text-Konvertierung. Kontaktieren Sie unser Team für technischen Support oder Enterprise-Anfragen.",
     "hero": {
       "badge": "Kontakt-Zentrum",
@@ -603,7 +603,7 @@
     },
     "sidebar": {
       "hq_title": "Hauptsitz Zürich",
-      "hq_address": "Copywritee Technologies AG\nBahnhofstrasse 12, 8001 Zürich\nSchweiz",
+      "hq_address": "NoteOcr Technologies AG\nBahnhofstrasse 12, 8001 Zürich\nSchweiz",
       "timezone": "Mitteleuropäische Zeit (GMT+1)",
       "support": "Allgemeiner Support",
       "sales": "Unternehmensvertrieb",
@@ -645,7 +645,7 @@
     },
     "security": {
       "title": "Sicherheit ist kein Extra. Sie ist das Fundament.",
-      "desc": "Wir verstehen die Risiken von Unternehmensdaten. Copywritee bietet eine 'Zero-Trust'-Umgebung für Ihre sensibelsten Dokumente.",
+      "desc": "Wir verstehen die Risiken von Unternehmensdaten. NoteOcr bietet eine 'Zero-Trust'-Umgebung für Ihre sensibelsten Dokumente.",
       "item1_title": "AES-256 Verschlüsselung",
       "item1_desc": "Daten sind im Ruhezustand und bei der Übertragung verschlüsselt.",
       "item2_title": "On-Prem Option",
@@ -661,7 +661,7 @@
     },
     "cta": {
       "title": "Skalieren Sie Ihre Dokumenten-Workflows.",
-      "desc": "Bereit für die Back-Office-Automatisierung? Schließen Sie sich Branchenführern an, die Copywritee nutzen.",
+      "desc": "Bereit für die Back-Office-Automatisierung? Schließen Sie sich Branchenführern an, die NoteOcr nutzen.",
       "button": "Demo anfordern"
     }
   },
@@ -700,9 +700,9 @@
       "s3_desc": "Direkter Export nach Markdown, PDF oder Word. Perfekt für dein 'Second Brain'."
     },
     "compare": {
-      "title": "Warum Studierende Copywritee wählen",
+      "title": "Warum Studierende NoteOcr wählen",
       "h1": "Feature",
-      "h2": "Copywritee",
+      "h2": "NoteOcr",
       "h3": "Manuelles Tippen",
       "r1_c1": "Geschwindigkeit",
       "r1_c2": "Sekunden",
@@ -723,14 +723,14 @@
     }
   },
   "AboutPage": {
-    "meta_title": "Über uns - Copywritee | Das Team hinter dem Produkt",
-    "meta_desc": "Erfahren Sie mehr über die Mission von Copywritee. Gegründet von Atu Chukwudalu Daniel, digitalisieren wir Papierdokumente mittels KI.",
+    "meta_title": "Über uns - NoteOcr | Das Team hinter dem Produkt",
+    "meta_desc": "Erfahren Sie mehr über die Mission von NoteOcr. Gegründet von Atu Chukwudalu Daniel, digitalisieren wir Papierdokumente mittels KI.",
     "hero": {
       "badge": "Unsere Mission",
       "title_start": "Wissen befreien,",
       "title_highlight": "das auf Papier gefangen ist.",
       "p1": "Die Welt läuft noch immer auf Handschrift. Doch diese Daten sind oft in analoger Form gefangen.",
-      "p2": "Copywritee macht handschriftlichen Text so mächtig wie digitalen Code:",
+      "p2": "NoteOcr macht handschriftlichen Text so mächtig wie digitalen Code:",
       "p2_bold": "durchsuchbar, editierbar und formatiert."
     },
     "tech": {
@@ -780,8 +780,8 @@
     "founder": {
       "badge": "Anmerkung des Gründers",
       "title": "Von Entwicklern für Effizienz-Liebhaber gebaut.",
-      "p1": "Copywritee wurde gegründet von",
-      "p2": "Daniel entwickelte Copywritee, um das manuelle Abtippen von Notizen zu beenden. Er glaubt, dass Technik die menschliche Produktivität verstärken sollte.",
+      "p1": "NoteOcr wurde gegründet von",
+      "p2": "Daniel entwickelte NoteOcr, um das manuelle Abtippen von Notizen zu beenden. Er glaubt, dass Technik die menschliche Produktivität verstärken sollte.",
       "role": "Gründer & Lead Engineer"
     },
     "vision": {
@@ -792,8 +792,8 @@
   },
   "CareersPage": {
     "meta": {
-      "title": "Karriere - Copywritee | Baue die Zukunft der Dokumentation",
-      "description": "Werde Teil von Copywritee und hilf Unternehmen dabei, Dokumente nahtlos mit KI-Tools zu erstellen und zu bearbeiten."
+      "title": "Karriere - NoteOcr | Baue die Zukunft der Dokumentation",
+      "description": "Werde Teil von NoteOcr und hilf Unternehmen dabei, Dokumente nahtlos mit KI-Tools zu erstellen und zu bearbeiten."
     },
     "hero": {
       "badge": "Komm zu uns",
@@ -859,21 +859,21 @@
     },
     "jobs": {
       "main_title": "Offene Positionen",
-      "main_subtitle": "Finde deine nächste Rolle bei Copywritee",
+      "main_subtitle": "Finde deine nächste Rolle bei NoteOcr",
       "apply_btn": "Jetzt bewerben",
       "marketing": {
         "title": "Marketing & Social Media Praktikant",
         "dept": "Marketing",
         "type": "Praktikum",
         "loc": "Remote (Global)",
-        "desc": "Hilf uns, die Online-Präsenz von Copywritee durch kreative Posts und Updates zu stärken."
+        "desc": "Hilf uns, die Online-Präsenz von NoteOcr durch kreative Posts und Updates zu stärken."
       },
       "campus": {
         "title": "Campus Botschafter",
         "dept": "Community",
         "type": "Teilzeit",
         "loc": "Remote / On-Campus",
-        "desc": "Repräsentiere Copywritee in deiner Community. Ideal für Netzwerker."
+        "desc": "Repräsentiere NoteOcr in deiner Community. Ideal für Netzwerker."
       },
       "creator": {
         "title": "Content Creator Partner",
@@ -903,18 +903,18 @@
     }
   },
   "TermsPage": {
-    "meta_title": "Nutzungsbedingungen - Copywritee | Nutzervereinbarung",
-    "meta_desc": "Lesen Sie die Bedingungen für die Nutzung von Copywritee. Erfahren Sie mehr über Ihre Rechte und unsere geltenden Gesetze in der Schweiz.",
+    "meta_title": "Nutzungsbedingungen - NoteOcr | Nutzervereinbarung",
+    "meta_desc": "Lesen Sie die Bedingungen für die Nutzung von NoteOcr. Erfahren Sie mehr über Ihre Rechte und unsere geltenden Gesetze in der Schweiz.",
     "hero_title": "Nutzungsbedingungen",
     "last_updated": "Zuletzt aktualisiert",
     "date": "November 2025",
-    "welcome_text": "Willkommen bei Copywritee. Durch den Zugriff auf unsere Dienste erklären Sie sich mit diesen Bedingungen einverstanden. Bitte lesen Sie diese sorgfältig durch.",
+    "welcome_text": "Willkommen bei NoteOcr. Durch den Zugriff auf unsere Dienste erklären Sie sich mit diesen Bedingungen einverstanden. Bitte lesen Sie diese sorgfältig durch.",
     "s1_t": "Nutzung unserer Dienste",
     "s1_c": "Sie müssen mindestens 13 Jahre alt sein. Sie erklären sich damit einverstanden, die Dienste nur für rechtmäßige Zwecke zu nutzen. Sie sind für die Geheimhaltung Ihrer Zugangsdaten verantwortlich.",
     "s2_t": "Nutzerinhalte",
     "s2_c": "Sie behalten das Eigentum an allen hochgeladenen Inhalten. Sie gewähren uns eine begrenzte Lizenz zur Verarbeitung, um den Dienst bereitzustellen und zu verbessern.",
     "s3_t": "Geistiges Eigentum",
-    "s3_c": "Alle Software, Designs und Marken von Copywritee bleiben unser Eigentum. Das Kopieren oder Modifizieren ohne Genehmigung ist untersagt.",
+    "s3_c": "Alle Software, Designs und Marken von NoteOcr bleiben unser Eigentum. Das Kopieren oder Modifizieren ohne Genehmigung ist untersagt.",
     "s4_t": "Abonnements und Zahlungen",
     "s4_c": "Einige Funktionen sind kostenpflichtig. Mit dem Abo stimmen Sie unseren Preisen und Abrechnungszyklen zu. Zahlungen erfolgen über sichere Drittanbieter.",
     "s5_t": "Verbotene Aktivitäten",
@@ -925,7 +925,7 @@
     "s6_t": "Kündigung",
     "s6_c": "Wir können Ihr Konto bei Verstößen jederzeit sperren. Sie können die Nutzung jederzeit beenden, indem Sie Ihr Konto löschen.",
     "s7_t": "Haftungsbeschränkung",
-    "s7_c": "Copywritee wird 'wie besehen' bereitgestellt. Soweit gesetzlich zulässig, haften wir nicht für indirekte Schäden aus der Nutzung des Dienstes.",
+    "s7_c": "NoteOcr wird 'wie besehen' bereitgestellt. Soweit gesetzlich zulässig, haften wir nicht für indirekte Schäden aus der Nutzung des Dienstes.",
     "s8_t": "Änderungen der Bedingungen",
     "s8_c": "Wir können diese Bedingungen periodisch anpassen. Die fortgesetzte Nutzung gilt als Annahme der neuen Bedingungen.",
     "s9_t": "Anwendbares Recht",
@@ -934,12 +934,12 @@
     "contact_d": "Unser Rechtsteam steht Ihnen bei Fragen zu unseren Richtlinien zur Verfügung."
   },
   "PrivacyPage": {
-    "meta_title": "Datenschutzerklärung - Copywritee | Datensicherheit",
-    "meta_desc": "Erfahren Sie, wie Copywritee mit Ihren persönlichen Daten umgeht. Wir priorisieren Ihren Datenschutz nach Schweizer Standards.",
+    "meta_title": "Datenschutzerklärung - NoteOcr | Datensicherheit",
+    "meta_desc": "Erfahren Sie, wie NoteOcr mit Ihren persönlichen Daten umgeht. Wir priorisieren Ihren Datenschutz nach Schweizer Standards.",
     "hero_title": "Datenschutzerklärung",
     "last_updated": "Zuletzt aktualisiert",
     "date": "November 2025",
-    "welcome_text": "Wir bei Copywritee respektieren Ihre Privatsphäre. Diese Richtlinie erklärt, wie wir Informationen sammeln, nutzen und schützen.",
+    "welcome_text": "Wir bei NoteOcr respektieren Ihre Privatsphäre. Diese Richtlinie erklärt, wie wir Informationen sammeln, nutzen und schützen.",
     "s1_t": "Daten, die wir sammeln",
     "collect_item_1_t": "Kontoinformationen",
     "collect_item_1_d": "Name, E-Mail und Zugangsdaten zur Sicherung Ihres Workspace.",
@@ -971,7 +971,7 @@
     "s7_t": "Cookies & Analyse",
     "s7_c": "Wir nutzen Cookies zur Verbesserung der Navigation. Diese können Sie in Ihrem Browser jederzeit verwalten.",
     "s8_t": "Schutz von Minderjährigen",
-    "s8_c": "Copywritee ist nicht für Kinder unter 13 Jahren bestimmt. Wir sammeln wissentlich keine Daten von Minderjährigen.",
+    "s8_c": "NoteOcr ist nicht für Kinder unter 13 Jahren bestimmt. Wir sammeln wissentlich keine Daten von Minderjährigen.",
     "s9_t": "Richtlinienänderungen",
     "s9_c": "Wir aktualisieren diese Richtlinie regelmäßig. Wesentliche Änderungen werden per E-Mail oder App-Benachrichtigung mitgeteilt.",
     "contact_t": "Datenschutz-Support",
@@ -980,8 +980,8 @@
   },
   "DocsPage": {
     "meta": {
-      "title": "Dokumentation | Copywritee - Handschrift-OCR & Dokumenten-KI",
-      "description": "Erfahren Sie, wie Sie Handschrift in Text umwandeln, Tabellen nach Excel exportieren und Dokumenten-Workflows automatisieren mit den Copywritee-Leitfäden."
+      "title": "Dokumentation | NoteOcr - Handschrift-OCR & Dokumenten-KI",
+      "description": "Erfahren Sie, wie Sie Handschrift in Text umwandeln, Tabellen nach Excel exportieren und Dokumenten-Workflows automatisieren mit den NoteOcr-Leitfäden."
     },
     "sidebar": {
       "external_links": "Externe Links",
@@ -1001,13 +1001,13 @@
     "header": {
       "breadcrumb": "Dokumentation",
       "category": "Einführung",
-      "title": "Copywritee Docs",
+      "title": "NoteOcr Docs",
       "subtitle": "Der vollständige Leitfaden zur Umwandlung von handschriftlichen Notizen, Tabellen und Skizzen in strukturierte digitale Assets.",
       "cta": "Kurzanleitung unten"
     },
     "overview": {
       "title": "Plattform-Übersicht",
-      "description": "Copywritee ist mehr als nur OCR. Es ist ein Workflow-Tool für die Digitalisierung analoger Daten. Wir spezialisieren uns auf .",
+      "description": "NoteOcr ist mehr als nur OCR. Es ist ein Workflow-Tool für die Digitalisierung analoger Daten. Wir spezialisieren uns auf .",
       "bold1": "unleserliche Handschrift",
       "bold2": "komplexe Tabellen",
       "bold3": "mehrseitige Dokumente",
@@ -1048,7 +1048,7 @@
     },
     "integrations": {
       "title": "Export & Kompatibilität",
-      "description": "Copywritee erstellt Standarddateien, die mit all Ihren Lieblingstools kompatibel sind.",
+      "description": "NoteOcr erstellt Standarddateien, die mit all Ihren Lieblingstools kompatibel sind.",
       "roadmap_title": "Integrationen & Roadmap",
       "roadmap_desc": "Wir bauen Verbindungen zu Ihrem Ökosystem auf. Bi-direktionale Synchronisierung ist in Entwicklung.",
       "planned": "Geplant",

@@ -10,22 +10,22 @@ export async function generateMetadata({ params }) {
     description: t("meta_desc"),
     keywords: t("meta_keywords"),
     alternates: {
-      canonical: `https://copywritee.com/${locale}/pricing`,
+      canonical: `https://noteocr.com/${locale}/pricing`,
       languages: {
-        en: "https://copywritee.com/en/pricing",
-        es: "https://copywritee.com/es/pricing",
-        tr: "https://copywritee.com/tr/pricing",
-        zh: "https://copywritee.com/zh/pricing",
-        hi: "https://copywritee.com/hi/pricing",
-        de: "https://copywritee.com/de/pricing",
-        ja: "https://copywritee.com/ja/pricing",
-        "pt-br": "https://copywritee.com/pt-br/pricing",
+        en: "https://noteocr.com/en/pricing",
+        es: "https://noteocr.com/es/pricing",
+        tr: "https://noteocr.com/tr/pricing",
+        zh: "https://noteocr.com/zh/pricing",
+        hi: "https://noteocr.com/hi/pricing",
+        de: "https://noteocr.com/de/pricing",
+        ja: "https://noteocr.com/ja/pricing",
+        "pt-br": "https://noteocr.com/pt-br/pricing",
       },
     },
     openGraph: {
       title: t("og_title"),
       description: t("og_desc"),
-      url: `https://copywritee.com/${locale}/pricing`,
+      url: `https://noteocr.com/${locale}/pricing`,
       type: "website",
       images: [
         {
@@ -44,7 +44,7 @@ export async function generateMetadata({ params }) {
         description: t("product_desc"),
         brand: {
           "@type": "Brand",
-          name: "Copywritee",
+          name: "NoteOcr",
         },
         offers: {
           "@type": "AggregateOffer",

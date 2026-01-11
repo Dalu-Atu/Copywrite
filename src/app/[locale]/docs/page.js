@@ -10,21 +10,21 @@ export async function generateMetadata({ params: { locale } }) {
     description: t("description"),
     alternates: {
       // Helps Google understand localized versions of the same content
-      canonical: `https://copywritee.com/${locale}/docs`,
+      canonical: `https://noteocr.com/${locale}/docs`,
       languages: {
-        "en-US": "https://copywritee.com/en/docs",
-        "fr-FR": "https://copywritee.com/fr/docs",
-        "ja-JP": "https://copywritee.com/ja/docs",
+        "en-US": "https://noteocr.com/en/docs",
+        "fr-FR": "https://noteocr.com/fr/docs",
+        "ja-JP": "https://noteocr.com/ja/docs",
       },
     },
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: `https://copywritee.com/${locale}/docs`,
-      siteName: "Copywritee",
+      url: `https://noteocr.com/${locale}/docs`,
+      siteName: "NoteOcr",
       images: [
         {
-          url: "https://copywritee.com/og-docs.png", // Create a dedicated OG image for docs
+          url: "https://noteocr.com/og-docs.png", // Create a dedicated OG image for docs
           width: 1200,
           height: 630,
         },
