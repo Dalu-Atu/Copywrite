@@ -2,22 +2,22 @@
   "redirects": [
     {
       "source": "/solutions/Handwriting-to-text",
-      "destination": "https://noteocr.com/?from=hw_text",
+      "destination": "https://noteocr.com/handwriting-to-docx",
       "permanent": true
     },
     {
       "source": "/solutions/Top-5-Handwriting-to-text",
-      "destination": "https://noteocr.com/?from=top5",
+      "destination": "https://noteocr.com/online-editor",
       "permanent": true
     },
     {
       "source": "/solutions/notes-to-excel",
-      "destination": "https://noteocr.com/?from=excel",
+      "destination": "https://noteocr.com/handwriting-to-excel",
       "permanent": true
     },
     {
       "source": "/solutions/notes-to-word",
-      "destination": "https://noteocr.com/?from=word",
+      "destination": "https://noteocr.com/edit-pdf",
       "permanent": true
     },
     {
