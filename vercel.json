@@ -2,27 +2,32 @@
   "redirects": [
     {
       "source": "/solutions/Handwriting-to-text",
-      "destination": "https://noteocr.com/",
+      "destination": "https://noteocr.com/?from=hw_text",
       "permanent": true
     },
     {
       "source": "/solutions/Top-5-Handwriting-to-text",
-      "destination": "https://noteocr.com/",
+      "destination": "https://noteocr.com/?from=top5",
       "permanent": true
     },
     {
       "source": "/solutions/notes-to-excel",
-      "destination": "https://noteocr.com/",
+      "destination": "https://noteocr.com/?from=excel",
       "permanent": true
     },
     {
       "source": "/solutions/notes-to-word",
-      "destination": "https://noteocr.com/",
+      "destination": "https://noteocr.com/?from=word",
       "permanent": true
     },
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "copywritee.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?copywritee\\.com"
+        }
+      ],
       "destination": "https://noteocr.com/:path*",
       "permanent": true
     }
