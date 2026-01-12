@@ -57,7 +57,7 @@ const HomePage = () => {
           </div>
 
           {/* 2. HEADLINE */}
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-[#00415a] mb-6 leading-[1.1]">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-[#00415a] mb-6 leading-[1.1]">
             {t("hero_title_1")} <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#015979] via-[#1b9e99] to-[#39f8f2]">
               {t("hero_title_2")}
@@ -70,13 +70,13 @@ const HomePage = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 mb-10 text-sm text-slate-500 font-medium">
-            <div className="flex items-center gap-1.5">
+            {/* <div className="flex items-center gap-1.5">
               <CheckCircle className="w-4 h-4 text-[#1b9e99]" /> {t("check_1")}
-            </div>
+            </div> */}
             <div className="flex items-center gap-1.5">
               <CheckCircle className="w-4 h-4 text-[#1b9e99]" /> {t("check_2")}
             </div>
-            <div className="flex items-center gap-1">
+            {/* <div className="flex items-center gap-1">
               <div className="flex text-amber-400">
                 <Star className="w-3 h-3 fill-current" />
                 <Star className="w-3 h-3 fill-current" />
@@ -85,7 +85,7 @@ const HomePage = () => {
                 <Star className="w-3 h-3 fill-current" />
               </div>
               <span className="ml-1">{t("rating_text")}</span>
-            </div>
+            </div> */}
           </div>
 
           {/* 4. CTAs */}

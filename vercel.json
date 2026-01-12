@@ -2,33 +2,34 @@
   "redirects": [
     {
       "source": "/solutions/Handwriting-to-text",
-      "destination": "https://noteocr.com/handwriting-to-docx",
+      "destination": "https://noteocr.com/handwriting-to-docx?v=1",
       "permanent": true
     },
     {
       "source": "/solutions/Top-5-Handwriting-to-text",
-      "destination": "https://noteocr.com/online-editor",
+      "destination": "https://noteocr.com/online-editor?v=2",
       "permanent": true
     },
     {
       "source": "/solutions/notes-to-excel",
-      "destination": "https://noteocr.com/handwriting-to-excel",
+      "destination": "https://noteocr.com/handwriting-to-excel?v=3",
       "permanent": true
     },
     {
       "source": "/solutions/notes-to-word",
-      "destination": "https://noteocr.com/edit-pdf",
+      "destination": "https://noteocr.com/edit-pdf?v=4",
       "permanent": true
     },
     {
       "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "(www\\.)?copywritee\\.com"
-        }
-      ],
-      "destination": "https://noteocr.com/:path*",
+      "has": [{ "type": "host", "value": "www.copywritee.com" }],
+      "destination": "https://noteocr.com/:path*?site=www",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "copywritee.com" }],
+      "destination": "https://noteocr.com/:path*?site=root",
       "permanent": true
     }
   ]
