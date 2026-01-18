@@ -21,7 +21,7 @@ export async function generateMetadata({ params: { locale } }) {
       title: t("title"),
       description: t("description"),
       url: `https://noteocr.com/${locale}/docs`,
-      siteName: "NoteOcr",
+      siteName: "NoteOCR",
       images: [
         {
           url: "https://noteocr.com/og-docs.png", // Create a dedicated OG image for docs

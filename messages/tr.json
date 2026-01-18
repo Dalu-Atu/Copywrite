@@ -11,14 +11,14 @@
     "cta_upload": "Görsel Yükle",
     "stat_time": "İşlem Süresi",
     "stat_accuracy": "OCR Doğruluğu",
-    "meta_title": "El Yazısını Metne Dönüştürme | Yapay Zeka El Yazısı OCR | NoteOcr",
+    "meta_title": "El Yazısını Metne Dönüştürme | Yapay Zeka El Yazısı OCR | NoteOCR",
     "meta_desc": "El yazısı notları anında düzenlenebilir dijital metne dönüştürün. Dünyanın en doğru yapay zeka destekli el yazısı OCR aracı."
   },
   "Features": {
     "section_label": "Ekosistem",
     "main_title_1": "Belgeleri dijitalleştirmek için",
     "main_title_2": "ihtiyacınız olan her şey.",
-    "main_desc": "Çoğu OCR aracı sadece metni çıkarır ve formatı bozar. NoteOcr düzeni yeniden oluşturur, verilerinizi korur ve notlarınızı profesyonel belgelere dönüştürür.",
+    "main_desc": "Çoğu OCR aracı sadece metni çıkarır ve formatı bozar. NoteOCR düzeni yeniden oluşturur, verilerinizi korur ve notlarınızı profesyonel belgelere dönüştürür.",
     "editor_label": "Tanıdık Arayüz",
     "editor_title": "Word kullanıyormuş gibi düzenleyin.",
     "editor_desc": "Yeni bir araç öğrenmenize gerek yok. Editörümüz MS Word ile aynı hissettirir. El yazısı notlarınızı dönüştürdükten sonra üzerinde anında değişiklik yapın.",
@@ -45,13 +45,13 @@
   },
   "Trust": {
     "title": "Liderlerin tercihi.",
-    "description": "Okullardan küresel teknoloji firmalarına kadar vizyoner ekipler NoteOcr'yi seçiyor."
+    "description": "Okullardan küresel teknoloji firmalarına kadar vizyoner ekipler NoteOCR'yi seçiyor."
   },
   "HowItWorks": {
     "label": "İŞ AKIŞI",
     "title_1": "El yazısını düzenlenebilir metne",
     "title_2": "dönüştürmek için üç adım.",
-    "description": "Saatlerce yeniden yazmaktan kurtulun. NoteOcr eski OCR sürecini 3 saniyelik bir akışa dönüştürür.",
+    "description": "Saatlerce yeniden yazmaktan kurtulun. NoteOCR eski OCR sürecini 3 saniyelik bir akışa dönüştürür.",
     "step_1_title": "Yükle ve Tara",
     "step_1_desc": "Görselleri veya PDF'leri bırakın. Motorumuz kontrastı otomatik olarak iyileştirir.",
     "step_2_title": "Nöral Analiz",
@@ -80,7 +80,7 @@
     "card_1_desc": "Manuel yazım saatler sürer. Biz saniyeler içinde hallederiz.",
     "card_1_manual": "Manuel",
     "card_2_title": "Maliyetleri %70 Azaltın",
-    "card_2_desc": "Veri girişi hatalarını ortadan kaldırın. NoteOcr ilk ayda kendini amorti eder.",
+    "card_2_desc": "Veri girişi hatalarını ortadan kaldırın. NoteOCR ilk ayda kendini amorti eder.",
     "card_2_stat": "aylık tasarruf*",
     "card_3_title": "Veri Egemenliği",
     "card_3_desc": "Verilerinizle model eğitmiyoruz. Belgeleriniz şifrelenir ve silinir."
@@ -95,7 +95,7 @@
       "ev": {
         "role": "Öğretmen",
         "company": "Sapele Mesleki Eğitim Merkezi",
-        "quote": "NoteOcr el yazısı notlarla çalışma şeklimi değiştirdi. Word'e dönüştürmek bana her hafta saatler kazandırıyor."
+        "quote": "NoteOCR el yazısı notlarla çalışma şeklimi değiştirdi. Word'e dönüştürmek bana her hafta saatler kazandırıyor."
       },
       "ab": {
         "role": "Veri Analisti",
@@ -114,20 +114,20 @@
     "title_highlight": "Sorular",
     "items": {
       "what_is": {
-        "q": "NoteOcr nedir?",
-        "a": "NoteOcr, el yazısı notları Word ve Excel gibi düzenlenebilir dijital belgelere dönüştüren bir platformdur. PDF düzenleme ve bulut depolama araçları sunar."
+        "q": "NoteOCR nedir?",
+        "a": "NoteOCR, el yazısı notları Word ve Excel gibi düzenlenebilir dijital belgelere dönüştüren bir platformdur. PDF düzenleme ve bulut depolama araçları sunar."
       },
       "who_benefit": {
-        "q": "NoteOcr'den kimler yararlanabilir?",
+        "q": "NoteOCR'den kimler yararlanabilir?",
         "a": "Öğrenciler, profesyoneller, araştırmacılar, öğretmenler ve el yazısı notlarla uğraşan herkes hızlıca dijitalleştirme yapabilir."
       },
       "how_work": {
-        "q": "NoteOcr nasıl çalışır?",
+        "q": "NoteOCR nasıl çalışır?",
         "a": "Notunuzun fotoğrafını yükleyin. Gelişmiş OCR motorumuz el yazısını analiz eder ve Word, PDF veya Excel formatında çıktı verir."
       },
       "accuracy": {
         "q": "El yazısı tanıma ne kadar doğru?",
-        "a": "NoteOcr, el yazısı ve bitişik eğik yazılarda %95-98 doğruluk oranına ulaşır."
+        "a": "NoteOCR, el yazısı ve bitişik eğik yazılarda %95-98 doğruluk oranına ulaşır."
       },
       "cursive": {
         "q": "Eğik yazıyı metne dönüştürebilir mi?",
@@ -147,11 +147,11 @@
       },
       "math": {
         "q": "Matematik denklemlerini veya sembollerini destekliyor mu?",
-        "a": "Evet, NoteOcr matematiksel denklemleri, formülleri ve bilimsel notasyonları desteklemek üzere geliştirilmiştir."
+        "a": "Evet, NoteOCR matematiksel denklemleri, formülleri ve bilimsel notasyonları desteklemek üzere geliştirilmiştir."
       },
       "phone_scan": {
         "q": "Telefonumla notları tarayabilir miyim?",
-        "a": "Evet. Telefonunuzun kamerasıyla çektiğiniz notları doğrudan NoteOcr'ye yükleyerek tarayabilirsiniz."
+        "a": "Evet. Telefonunuzun kamerasıyla çektiğiniz notları doğrudan NoteOCR'ye yükleyerek tarayabilirsiniz."
       },
       "quality": {
         "q": "En iyi sonuç için görsel kalitesi nasıl olmalı?",
@@ -167,11 +167,11 @@
       },
       "pdf_edit": {
         "q": "PDF'leri doğrudan düzenleyebilir miyim?",
-        "a": "Evet. NoteOcr, metin eklemenize, vurgulamanıza ve belgeleri imzalamanıza olanak tanıyan yerleşik bir PDF düzenleyici içerir."
+        "a": "Evet. NoteOCR, metin eklemenize, vurgulamanıza ve belgeleri imzalamanıza olanak tanıyan yerleşik bir PDF düzenleyici içerir."
       },
       "cloud_save": {
         "q": "Belgeler çevrimiçi kaydediliyor mu?",
-        "a": "Evet. Her belge güvenli bir şekilde NoteOcr bulutunda saklanır ve her cihazdan erişilebilir."
+        "a": "Evet. Her belge güvenli bir şekilde NoteOCR bulutunda saklanır ve her cihazdan erişilebilir."
       },
       "sharing": {
         "q": "Belgeleri başkalarıyla paylaşabilir miyim?",
@@ -182,7 +182,7 @@
         "a": "Ücretsiz kullanıcılar 1GB, Premium kullanıcılar ise 100GB depolama alanına sahip olur."
       },
       "languages": {
-        "q": "NoteOcr hangi dilleri destekliyor?",
+        "q": "NoteOCR hangi dilleri destekliyor?",
         "a": "Şu an İngilizce, İspanyolca, Fransızca, Almanca, İtalyanca ve Portekizce dahil birçok dili destekliyoruz."
       },
       "messy_writing": {
@@ -206,7 +206,7 @@
         "a": "Evet! Premium ile aynı anda 50 sayfaya kadar toplu işlem yapabilirsiniz."
       },
       "is_free": {
-        "q": "NoteOcr kullanımı ücretsiz mi?",
+        "q": "NoteOCR kullanımı ücretsiz mi?",
         "a": "Evet. Ayda 50 dönüşüm ve 1GB depolama sunan bir Ücretsiz Planımız mevcuttur."
       },
       "pricing_diff": {
@@ -218,11 +218,11 @@
         "a": "Evet. Herhangi bir sözleşme yoktur, aboneliğinizi dilediğiniz zaman panelden iptal edebilirsiniz."
       },
       "why_manual": {
-        "q": "Neden manuel yazmak yerine NoteOcr seçilmeli?",
-        "a": "Manuel yazım yavaştır. NoteOcr süreci dijitalleştirerek vaktinizin %90'ını size geri kazandırır."
+        "q": "Neden manuel yazmak yerine NoteOCR seçilmeli?",
+        "a": "Manuel yazım yavaştır. NoteOCR süreci dijitalleştirerek vaktinizin %90'ını size geri kazandırır."
       },
       "diff_others": {
-        "q": "NoteOcr diğer uygulamalardan nasıl farklıdır?",
+        "q": "NoteOCR diğer uygulamalardan nasıl farklıdır?",
         "a": "Sadece metin çıkarmaz; PDF düzenleme, bulut depolama ve çoklu format desteği ile uçtan uca yönetim sunar."
       },
       "digitize_free": {
@@ -232,7 +232,7 @@
     }
   },
   "WordPage": {
-    "meta_title": "El Yazısını Word'e Dönüştür (DOCX) | NoteOcr",
+    "meta_title": "El Yazısını Word'e Dönüştür (DOCX) | NoteOCR",
     "meta_desc": "El yazısı notları anında düzenlenebilir MS Word belgelerine dönüştürün...",
     "hero_title_1": "El Yazısından",
     "hero_title_2": "Word'e",
@@ -245,12 +245,12 @@
     "feat_3_desc": "Gizliliğiniz önemlidir. Dosyalar şifreli bir kapta işlenir ve kalıcı olarak silinir.",
     "faq_title": "Sıkça Sorulan Sorular",
     "faq_q1": "Eğik yazıyı okuyabilir mi?",
-    "faq_a1": "Evet. NoteOcr, bitişik scriptler için eğitilmiş sinir ağlarını kullanır.",
+    "faq_a1": "Evet. NoteOCR, bitişik scriptler için eğitilmiş sinir ağlarını kullanır.",
     "faq_q2": "Verilerim güvende mi?",
     "faq_a2": "Kesinlikle. TLS şifreleme kullanıyoruz ve dosyaları 60 dakika içinde siliyoruz."
   },
   "PdfPage": {
-    "meta_title": "Ücretsiz Online PDF Düzenleyici ve AI Sohbet | NoteOcr",
+    "meta_title": "Ücretsiz Online PDF Düzenleyici ve AI Sohbet | NoteOCR",
     "meta_desc": "AI kullanarak PDF'lerinizi düzenleyin, imzalayın ve sohbet edin. Dokümanları özetleyin, yanıtları çıkarın ve formları tarayıcınızda güvenle doldurun.",
     "hero_pill": "Akıllı PDF Paketi",
     "hero_title_1": "PDF'leri düzenleyin ve sohbet edin,",
@@ -276,12 +276,12 @@
     "step_4_title": "İndir",
     "step_4_desc": "Tamamlanan dokümanı dışa aktarın.",
     "cta_title": "Dokümantasyonunuzu evcilleştirin.",
-    "cta_desc": "Sözleşmeleri ve raporları yönetmek için NoteOcr kullanan 10.000'den fazla profesyonele katılın.",
+    "cta_desc": "Sözleşmeleri ve raporları yönetmek için NoteOCR kullanan 10.000'den fazla profesyonele katılın.",
     "cta_btn": "Şimdi Ücretsiz Başlayın",
     "btn_new": "Yeni belge oluştur"
   },
   "EditorPage": {
-    "meta_title": "Ücretsiz Online Doküman Düzenleyici | Word ve Excel Düzenle | NoteOcr",
+    "meta_title": "Ücretsiz Online Doküman Düzenleyici | Word ve Excel Düzenle | NoteOCR",
     "meta_desc": "DOCX, XLSX ve metin dosyalarını doğrudan tarayıcınızda düzenleyin. Kurulum gerektirmez. Hızlı, güvenli ve tanıdık bir ofis paketi alternatifi.",
     "hero_pill": "Bulut Ofis Paketi",
     "hero_title_1": "Dokümanlarınızı düzenleyin,",
@@ -297,7 +297,7 @@
     "feat_2_title": "Tanıdık Arayüz",
     "feat_2_desc": "Yazmayı yeniden öğrenmenize gerek yok. Araç çubuğumuz ve kısayollarımız Word ve Excel'i taklit eder, böylece anında üretken olursunuz.",
     "feat_3_title": "Hafif ve Hızlı",
-    "feat_3_desc": "Ağır yazılımların yüklenmesini beklemeyin. NoteOcr Düzenleyici, yavaş bağlantılarda bile 2 saniyenin altında açılır.",
+    "feat_3_desc": "Ağır yazılımların yüklenmesini beklemeyin. NoteOCR Düzenleyici, yavaş bağlantılarda bile 2 saniyenin altında açılır.",
     "formats_title": "Desteklenen Formatlar",
     "formats_subtitle": "Tüm Office ekosistemini destekliyoruz. Mevcut dosyalarınızı yükleyin veya yeni bir başlangıç yapın.",
     "format_docx": "Microsoft Word",
@@ -306,7 +306,7 @@
     "format_csv": "Veri Sayfaları"
   },
   "ExcelPage": {
-    "meta_title": "El Yazısı Tabloları Excel'e (XLSX) Dönüştür | NoteOcr",
+    "meta_title": "El Yazısı Tabloları Excel'e (XLSX) Dönüştür | NoteOCR",
     "meta_desc": "Veri girişini otomatikleştirin. El yazısı ızgaraları, finansal tabloları ve çizelgeleri AI ile anında düzenlenebilir Excel sayfalarına dönüştürün.",
     "hero_pill": "Akıllı Izgara Tanıma",
     "hero_title": "El Yazısından",
@@ -364,7 +364,7 @@
     "company": "Kurumsal",
     "resources": "Kaynaklar",
     "hiring": "Alım Var",
-    "copyright": "© {year} NoteOcr Inc. | Küresel ekipler için tasarlandı.",
+    "copyright": "© {year} NoteOCR Inc. | Küresel ekipler için tasarlandı.",
     "links": {
       "notes_to_word": "Notları Word'e",
       "table_to_excel": "Tabloyu Excel'e",
@@ -379,22 +379,22 @@
     }
   },
   "Contact": {
-    "meta_title": "İletişim | NoteOcr Destek ve Yardım Merkezi",
-    "meta_desc": "El yazısını metne dönüştürmek için yardıma mı ihtiyacınız var? Teknik destek veya iş birliği için NoteOcr ekibiyle iletişime geçin.",
+    "meta_title": "İletişim | NoteOCR Destek ve Yardım Merkezi",
+    "meta_desc": "El yazısını metne dönüştürmek için yardıma mı ihtiyacınız var? Teknik destek veya iş birliği için NoteOCR ekibiyle iletişime geçin.",
     "meta_keywords": "noteocr iletişim, müşteri desteği, el yazısı OCR yardımı, teknik destek, iletişim formu",
-    "og_title": "İletişim | NoteOcr Destek",
+    "og_title": "İletişim | NoteOCR Destek",
     "og_desc": "El yazısı dönüşümü için hızlı yardım alın. Bugün ekibimize ulaşın.",
     "breadcrumb_home": "Anasayfa",
     "breadcrumb_contact": "İletişim",
-    "org_name": "NoteOcr"
+    "org_name": "NoteOCR"
   },
   "Pricing": {
-    "meta_title": "Fiyatlandırma | El Yazısını Metne Çevirme | NoteOcr",
+    "meta_title": "Fiyatlandırma | El Yazısını Metne Çevirme | NoteOCR",
     "meta_desc": "Doküman ihtiyaçlarınız için en iyi planı seçin. Ücretsiz seviyeden Pro ($8), Plus ($15) ve Pro ($25) planlarına kadar. %99 doğruluk.",
     "meta_keywords": "el yazısı metne çevirme fiyat, OCR yazılımı maliyeti, öğrenci araçları fiyatları, doküman otomasyonu fiyatı",
-    "og_title": "Uygun Fiyatlı Yapay Zeka El Yazısı Tanıma | NoteOcr Fiyatlar",
+    "og_title": "Uygun Fiyatlı Yapay Zeka El Yazısı Tanıma | NoteOCR Fiyatlar",
     "og_desc": "10 sayfa ile ücretsiz başlayın. Sınırsız toplu işlem ve premium destek için yükseltin.",
-    "product_name": "NoteOcr Handwriting OCR",
+    "product_name": "NoteOCR Handwriting OCR",
     "product_desc": "El yazısını metne dönüştürme yazılımı.",
     "plan_free": "Ücretsiz Plan",
     "plan_pro": "Pro Plan",
@@ -526,7 +526,7 @@
     }
   },
   "Signup": {
-    "meta_title": "NoteOcr'ye Katıl | İş Akışını Dijitalleştir",
+    "meta_title": "NoteOCR'ye Katıl | İş Akışını Dijitalleştir",
     "meta_desc": "Ücretsiz hesap oluşturun ve el yazısını metne dönüştürmeye hemen başlayın.",
     "hero": {
       "badge": "Küresel Topluluk",
@@ -555,7 +555,7 @@
     }
   },
   "Login": {
-    "meta_title": "Giriş Yap | NoteOcr",
+    "meta_title": "Giriş Yap | NoteOCR",
     "meta_desc": "Tekrar hoş geldiniz. Belgelerinizi dönüştürmeye devam etmek için giriş yapın.",
     "hero": {
       "badge": "10.000+ Ekip Tarafından Kullanılıyor",
@@ -580,7 +580,7 @@
     }
   },
   "ContactPage": {
-    "meta_title": "İletişim | NoteOcr Destek ve Yardım Merkezi",
+    "meta_title": "İletişim | NoteOCR Destek ve Yardım Merkezi",
     "meta_desc": "El yazısını metne dönüştürme konusunda hızlı yardım alın. Teknik destek ve kurumsal talepleriniz için ekibimize ulaşın.",
     "hero": {
       "badge": "İletişim Merkezi",
@@ -600,7 +600,7 @@
     },
     "sidebar": {
       "hq_title": "Zürih Genel Merkezi",
-      "hq_address": "NoteOcr Technologies AG\nBahnhofstrasse 12, 8001 Zürih\nİsviçre",
+      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zürih\nİsviçre",
       "timezone": "Orta Avrupa Saati (GMT+1)",
       "support": "Genel Destek",
       "sales": "Kurumsal Satış",
@@ -642,7 +642,7 @@
     },
     "security": {
       "title": "Güvenlik bir eklenti değil, temeldir.",
-      "desc": "Kurumsal verilerin risklerini anlıyoruz. NoteOcr, en hassas belgeleriniz için 'Sıfır Güven' (Zero-Trust) ortamı sağlar.",
+      "desc": "Kurumsal verilerin risklerini anlıyoruz. NoteOCR, en hassas belgeleriniz için 'Sıfır Güven' (Zero-Trust) ortamı sağlar.",
       "item1_title": "AES-256 Şifreleme",
       "item1_desc": "Veriler hem beklemede hem de aktarım sırasında şifrelenir.",
       "item2_title": "Yerinde (On-Prem) Seçeneği",
@@ -658,7 +658,7 @@
     },
     "cta": {
       "title": "Doküman iş akışlarınızı ölçeklendirin.",
-      "desc": "Arka ofisinizi otomatikleştirmeye hazır mısınız? Kağıt dünyasını güvenle dijitalleştirmek için NoteOcr kullanan liderlere katılın.",
+      "desc": "Arka ofisinizi otomatikleştirmeye hazır mısınız? Kağıt dünyasını güvenle dijitalleştirmek için NoteOCR kullanan liderlere katılın.",
       "button": "Demo Talep Et"
     }
   },
@@ -697,9 +697,9 @@
       "s3_desc": "Doğrudan Markdown, PDF veya Word'e aktarın. 'İkinci beyniniz' için mükemmel format."
     },
     "compare": {
-      "title": "Öğrenciler Neden NoteOcr'yi Seçiyor?",
+      "title": "Öğrenciler Neden NoteOCR'yi Seçiyor?",
       "h1": "Özellik",
-      "h2": "NoteOcr",
+      "h2": "NoteOCR",
       "h3": "Manuel Yazım",
       "r1_c1": "İşlem Hızı",
       "r1_c2": "Saniyeler",
@@ -720,14 +720,14 @@
     }
   },
   "AboutPage": {
-    "meta_title": "Hakkımızda - NoteOcr | Ürünün Arkasındaki Ekip",
-    "meta_desc": "Kağıda hapsolmuş bilgiyi açığa çıkarma misyonumuzu öğrenin. Daniel tarafından kurulan NoteOcr, belgeleri dijitalleştirmek için yapay zeka kullanır.",
+    "meta_title": "Hakkımızda - NoteOCR | Ürünün Arkasındaki Ekip",
+    "meta_desc": "Kağıda hapsolmuş bilgiyi açığa çıkarma misyonumuzu öğrenin. Daniel tarafından kurulan NoteOCR, belgeleri dijitalleştirmek için yapay zeka kullanır.",
     "hero": {
       "badge": "Misyonumuz",
       "title_start": "Kağıda hapsolmuş",
       "title_highlight": "bilgiyi özgür bırakıyoruz.",
       "p1": "Dünya hala el yazısıyla dönüyor, ancak bu veriler genellikle analog formda sıkışıp kalıyor.",
-      "p2": "NoteOcr'nin misyonu, el yazısı metinleri dijital kod kadar güçlü kılmaktır:",
+      "p2": "NoteOCR'nin misyonu, el yazısı metinleri dijital kod kadar güçlü kılmaktır:",
       "p2_bold": "aranabilir, düzenlenebilir ve formatlanmış."
     },
     "tech": {
@@ -777,8 +777,8 @@
     "founder": {
       "badge": "Kurucunun Notu",
       "title": "Geliştiriciler tarafından, verimlilik tutkunları için yapıldı.",
-      "p1": "NoteOcr şu kişi tarafından kuruldu:",
-      "p2": "Daniel, saatlerce notları dijitalleştirmekle uğraşma sorununu çözmek için NoteOcr'yi kurdu. Teknolojinin insan verimliliğini artırması gerektiğine inanıyor.",
+      "p1": "NoteOCR şu kişi tarafından kuruldu:",
+      "p2": "Daniel, saatlerce notları dijitalleştirmekle uğraşma sorununu çözmek için NoteOCR'yi kurdu. Teknolojinin insan verimliliğini artırması gerektiğine inanıyor.",
       "role": "Kurucu ve Baş Mühendis"
     },
     "vision": {
@@ -789,8 +789,8 @@
   },
   "CareersPage": {
     "meta": {
-      "title": "Kariyer - NoteOcr | Dokümantasyonun Geleceğini İnşa Edin",
-      "description": "NoteOcr'ye katılın ve işletmelerin yapay zeka araçlarıyla sorunsuz çalışmasına yardımcı olun."
+      "title": "Kariyer - NoteOCR | Dokümantasyonun Geleceğini İnşa Edin",
+      "description": "NoteOCR'ye katılın ve işletmelerin yapay zeka araçlarıyla sorunsuz çalışmasına yardımcı olun."
     },
     "hero": {
       "badge": "Bize Katılın",
@@ -856,21 +856,21 @@
     },
     "jobs": {
       "main_title": "Açık Pozisyonlar",
-      "main_subtitle": "NoteOcr'deki bir sonraki rolünüzü bulun",
+      "main_subtitle": "NoteOCR'deki bir sonraki rolünüzü bulun",
       "apply_btn": "Şimdi Başvur",
       "marketing": {
         "title": "Pazarlama ve Sosyal Medya Stajyeri",
         "dept": "Pazarlama",
         "type": "Staj",
         "loc": "Uzaktan (Küresel)",
-        "desc": "Etkileyici paylaşımlar oluşturarak NoteOcr'nin büyümesine yardımcı olun."
+        "desc": "Etkileyici paylaşımlar oluşturarak NoteOCR'nin büyümesine yardımcı olun."
       },
       "campus": {
         "title": "Kampüs Elçisi",
         "dept": "Topluluk",
         "type": "Yarı Zamanlı",
         "loc": "Uzaktan / Kampüste",
-        "desc": "NoteOcr'yi topluluğunuzda temsil edin. Ağ kurmak için büyük bir fırsat."
+        "desc": "NoteOCR'yi topluluğunuzda temsil edin. Ağ kurmak için büyük bir fırsat."
       },
       "creator": {
         "title": "İçerik Üretici Ortağı",
@@ -900,18 +900,18 @@
     }
   },
   "TermsPage": {
-    "meta_title": "Hizmet Şartları - NoteOcr | Kullanıcı Sözleşmesi",
-    "meta_desc": "NoteOcr kullanım şartlarını okuyun. Haklarınız ve İsviçre yasalarına tabi sorumluluklarımız hakkında bilgi edinin.",
+    "meta_title": "Hizmet Şartları - NoteOCR | Kullanıcı Sözleşmesi",
+    "meta_desc": "NoteOCR kullanım şartlarını okuyun. Haklarınız ve İsviçre yasalarına tabi sorumluluklarımız hakkında bilgi edinin.",
     "hero_title": "Hizmet Şartları",
     "last_updated": "Son Güncelleme",
     "date": "Kasım 2025",
-    "welcome_text": "NoteOcr'ye hoş geldiniz. Hizmetlerimize erişerek bu şartlara bağlı kalmayı kabul etmiş sayılırsınız. Lütfen dikkatlice okuyun.",
+    "welcome_text": "NoteOCR'ye hoş geldiniz. Hizmetlerimize erişerek bu şartlara bağlı kalmayı kabul etmiş sayılırsınız. Lütfen dikkatlice okuyun.",
     "s1_t": "Hizmetlerimizin Kullanımı",
-    "s1_c": "NoteOcr'yi kullanmak için en az 13 yaşında olmalısınız. Hizmetleri yalnızca yasal amaçlarla kullanmayı kabul edersiniz.",
+    "s1_c": "NoteOCR'yi kullanmak için en az 13 yaşında olmalısınız. Hizmetleri yalnızca yasal amaçlarla kullanmayı kabul edersiniz.",
     "s2_t": "Kullanıcı İçeriği",
     "s2_c": "Yüklediğiniz tüm dosyaların mülkiyeti size aittir. İçerik yükleyerek, bize yalnızca hizmeti sağlamak için sınırlı bir işleme lisansı verirsiniz.",
     "s3_t": "Fikri Mülkiyet",
-    "s3_c": "NoteOcr tarafından sunulan tüm yazılım ve tasarımlar bizim fikri mülkiyetimizdir. İzin almadan kopyalanamaz.",
+    "s3_c": "NoteOCR tarafından sunulan tüm yazılım ve tasarımlar bizim fikri mülkiyetimizdir. İzin almadan kopyalanamaz.",
     "s4_t": "Abonelik ve Ödemeler",
     "s4_c": "Bazı özellikler ücretli abonelik gerektirir. Abone olarak faturalandırma şartlarımızı kabul etmiş olursunuz.",
     "s5_t": "Yasaklanmış Faaliyetler",
@@ -922,7 +922,7 @@
     "s6_t": "Fesih",
     "s6_c": "Şartları ihlal ederseniz hesabınızı askıya alabiliriz. İstediğiniz zaman hesabınızı silebilirsiniz.",
     "s7_t": "Sorumluluğun Sınırlandırılması",
-    "s7_c": "NoteOcr 'olduğu gibi' sunulur. Kullanımdan doğabilecek dolaylı zararlardan sorumlu tutulamaz.",
+    "s7_c": "NoteOCR 'olduğu gibi' sunulur. Kullanımdan doğabilecek dolaylı zararlardan sorumlu tutulamaz.",
     "s8_t": "Şartlardaki Değişiklikler",
     "s8_c": "Bu şartları periyodik olarak güncelleyebiliriz. Devam eden kullanım, yeni şartların kabulü sayılır.",
     "s9_t": "Uygulanacak Hukuk",
@@ -931,8 +931,8 @@
     "contact_d": "Hukuk ekibimiz politikalarımızı netleştirmek için burada."
   },
   "PrivacyPage": {
-    "meta_title": "Gizlilik Politikası - NoteOcr | Veri Güvenliğiniz",
-    "meta_desc": "NoteOcr'nin verilerinizi nasıl işlediğini öğrenin. İsviçre standartlarında veri koruma ile gizliliğinize öncelik veriyoruz.",
+    "meta_title": "Gizlilik Politikası - NoteOCR | Veri Güvenliğiniz",
+    "meta_desc": "NoteOCR'nin verilerinizi nasıl işlediğini öğrenin. İsviçre standartlarında veri koruma ile gizliliğinize öncelik veriyoruz.",
     "hero_title": "Gizlilik Politikası",
     "last_updated": "Son Güncelleme",
     "date": "Kasım 2025",
@@ -977,7 +977,7 @@
   },
   "DocsPage": {
     "meta": {
-      "title": "Dokümantasyon | NoteOcr - El Yazısı OCR ve Belge Zekası",
+      "title": "Dokümantasyon | NoteOCR - El Yazısı OCR ve Belge Zekası",
       "description": "El yazısını metne dönüştürmeyi, tabloları Excel'e aktarmayı ve belge iş akışlarını otomatikleştirmeyi öğrenin."
     },
     "sidebar": {
@@ -998,13 +998,13 @@
     "header": {
       "breadcrumb": "Dokümantasyon",
       "category": "Giriş",
-      "title": "NoteOcr Belgeleri",
+      "title": "NoteOCR Belgeleri",
       "subtitle": "El yazısı notları, tabloları ve karmaşık karalamaları yapılandırılmış dijital varlıklara dönüştürme kılavuzu.",
       "cta": "Hızlı Rehber Aşağıda"
     },
     "overview": {
       "title": "Platforma Genel Bakış",
-      "description": "NoteOcr sadece bir OCR aracı değildir. {bold1}, {bold2} ve {bold3} konularında uzmanlaşmış uçtan uca bir iş akışı aracıdır.",
+      "description": "NoteOCR sadece bir OCR aracı değildir. {bold1}, {bold2} ve {bold3} konularında uzmanlaşmış uçtan uca bir iş akışı aracıdır.",
       "bold1": "karışık el yazıları",
       "bold2": "karmaşık tablolar",
       "bold3": "çok sayfalı belgeler",

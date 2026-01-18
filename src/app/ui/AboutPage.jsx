@@ -138,7 +138,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-6">
-              The NoteOcr{" "}
+              The NoteOCR{" "}
               <span className="text-emerald-600">
                 {t("ecosystem.highlight")}
               </span>

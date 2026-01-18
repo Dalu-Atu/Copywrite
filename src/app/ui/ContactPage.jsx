@@ -37,7 +37,7 @@ export default function ContactPage() {
     setStatus("loading");
 
     const subject = encodeURIComponent(
-      `Inquiry from ${formData.firstName} ${formData.lastName} - NoteOcr Support`
+      `Inquiry from ${formData.firstName} ${formData.lastName} - NoteOCR Support`
     );
     const body = encodeURIComponent(
       `Name: ${formData.firstName} ${formData.lastName}\n` +

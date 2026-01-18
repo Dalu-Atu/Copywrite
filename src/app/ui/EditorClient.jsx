@@ -15,12 +15,46 @@ import {
   X,
   ArrowRight,
   Loader2,
+  FileCode,
+  CheckCircle2,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import { toast } from "react-hot-toast";
+
+const ALLOWED_EXTENSIONS = [
+  ".doc",
+  ".docx",
+  ".odt",
+  ".rtf",
+  ".txt",
+  ".wps",
+  ".xls",
+  ".xlsx",
+  ".ods",
+  ".csv",
+  ".ppt",
+  ".pptx",
+  ".odp",
+];
+
+const ACCEPTED_MIME_TYPES = [
+  "application/msword",
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "application/vnd.oasis.opendocument.text",
+  "application/rtf",
+  "text/plain",
+  "application/vnd.ms-works",
+  "application/vnd.ms-excel",
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "application/vnd.oasis.opendocument.spreadsheet",
+  "text/csv",
+  "application/vnd.ms-powerpoint",
+  "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+  "application/vnd.oasis.opendocument.presentation",
+].join(",");
 
 export default function EditorClientContent({ locale }) {
   const t = useTranslations("EditorPage");
@@ -29,10 +63,9 @@ export default function EditorClientContent({ locale }) {
   const fileInputRef = useRef(null);
 
   const [modalOpen, setModalOpen] = useState(false);
-  const [actionType, setActionType] = useState(""); // "new" or "upload"
-  const userId = "67b746ab6256a6bdb691b18a"; // Static UID as per your requirement
+  const [actionType, setActionType] = useState("");
+  const userId = "67b746ab6256a6bdb691b18a";
 
-  // --- 1. NEW DOCUMENT MUTATION ---
   const { mutate: createBlankDoc, isPending: isCreating } = useMutation({
     mutationFn: async (data) => {
       const response = await axios.post(
@@ -43,24 +76,16 @@ export default function EditorClientContent({ locale }) {
     },
     onSuccess: (data) => {
       queryClient.invalidateQueries(["user"]);
-      toast.success("Workspace Initialized!");
+      toast.success("Workspace Initialized");
       const { document } = data;
-      const trialUrl = `https://app.noteocr.com/trial-editor/${document.folder}/${document.name}`;
-      window.location.href = trialUrl;
+      window.location.href = `https://app.noteocr.com/trial-editor/${document.folder}/${document.name}`;
     },
-    onError: (error) => {
-      console.error("Creation Error:", error);
-      toast.error(
-        error?.response?.data?.message || "Failed to create document."
-      );
-    },
+    onError: (err) =>
+      toast.error(err?.response?.data?.message || "Creation failed"),
   });
 
-  // --- 2. IMPORT/UPLOAD MUTATION ---
   const { mutate: importFile, isPending: isImporting } = useMutation({
     mutationFn: async (formData) => {
-      console.log(formData);
-
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_API_URL}/users/upload`,
         formData
@@ -69,78 +94,28 @@ export default function EditorClientContent({ locale }) {
     },
     onSuccess: (data) => {
       queryClient.invalidateQueries(["user"]);
-      toast.success("File Uploaded successfully!");
+      toast.success("Document imported");
       const { document } = data;
-      // Redirect to editor with the uploaded file
-      console.log(data);
-
-      const trialUrl = `https://app.noteocr.com/trial-editor/${document.dest}/${document.name}`;
-      window.location.href = trialUrl;
+      window.location.href = `https://app.noteocr.com/trial-editor/${document.dest}/${document.name}`;
     },
-    onError: (error) => {
-      console.error("Upload error:", error);
-      toast.error(
-        error.response?.data?.message || "Something went wrong during upload"
-      );
-    },
+    onError: (err) =>
+      toast.error(err.response?.data?.message || "Upload failed"),
   });
-
-  // --- 3. LOGIC HANDLERS ---
-  const generateProfessionalName = (docType) => {
-    const prefixes = {
-      word: [
-        "Project",
-        "Draft",
-        "Report",
-        "Analysis",
-        "Summary",
-        "Legal",
-        "Contract",
-      ],
-      excel: [
-        "Data",
-        "Budget",
-        "Audit",
-        "Inventory",
-        "Stats",
-        "Metrics",
-        "Forecast",
-      ],
-    };
-    const adjectives = [
-      "Alpha",
-      "Corporate",
-      "Final",
-      "Quarterly",
-      "Secure",
-      "Internal",
-    ];
-    const typeSet = prefixes[docType];
-    const randomPrefix = typeSet[Math.floor(Math.random() * typeSet.length)];
-    const randomAdj = adjectives[Math.floor(Math.random() * adjectives.length)];
-    const date = new Date()
-      .toLocaleDateString("en-GB", { day: "2-digit", month: "2-digit" })
-      .replace(/\//g, "");
-    const randomID = Math.floor(1000 + Math.random() * 9000);
-    return `${randomPrefix}_${randomAdj}_${date}_${randomID}`;
-  };
 
   const handleSelection = (docType) => {
     if (isCreating) return;
-    const generatedName = generateProfessionalName(docType);
     createBlankDoc({
       userId,
       folderName: "Personal",
-      documentName: generatedName,
-      fileType: docType === "word" ? "docx" : "xlsx",
+      documentName: `UNTITLED_${new Date().getTime()}`,
+      fileType:
+        docType === "word" ? "docx" : docType === "excel" ? "xlsx" : "pptx",
     });
   };
 
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
     if (!selectedFile) return;
-    console.log(selectedFile);
-
     const formData = new FormData();
     formData.append("file", selectedFile);
     formData.append("userId", userId);
@@ -148,256 +123,217 @@ export default function EditorClientContent({ locale }) {
     importFile(formData);
   };
 
-  const openChoice = (type) => {
-    setActionType(type);
-    setModalOpen(true);
-  };
-
   const isGlobalLoading = isCreating || isImporting;
 
   return (
-    <>
-      {/* 1. HERO SECTION */}
-      <section className="relative pt-20 pb-20 overflow-hidden bg-[#0B1120]">
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-500/50 to-transparent shadow-[0_0_20px_rgba(59,130,246,0.3)]" />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl pointer-events-none">
-          <div className="absolute top-0 right-0 w-[600px] h-[500px] bg-blue-500/10 rounded-full blur-[120px]"></div>
-          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-indigo-500/10 rounded-full blur-[120px]"></div>
-        </div>
+    <div className="min-h-screen bg-white font-sans text-slate-900">
+      {/* PROFESSIONAL HERO SECTION */}
+      <section className="relative pt-32 pb-24 bg-[#0F172A] border-b border-slate-800">
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10 pointer-events-none"></div>
 
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-wider mb-6">
-            <Cloud className="w-3 h-3" />
-            <span>{t("hero_pill")}</span>
+        <div className="max-w-5xl mx-auto px-6 relative z-10 text-center">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-800/50 border border-slate-700 text-slate-300 text-xs font-semibold tracking-wide mb-8 animate-fade-in">
+            <ShieldCheck className="w-3.5 h-3.5 text-blue-400" />
+            Enterprise Document Protocol
           </div>
 
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-6 tracking-tight">
-            {t("hero_title_1")} <br className="hidden md:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">
-              {t("hero_title_2")}
-            </span>
+          <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-6 tracking-tight leading-tight">
+            Advanced Document <span className="text-blue-500">Workspace</span>
           </h1>
 
-          <p className="md:text-lg text-slate-400 leading-relaxed max-w-2xl mx-auto mb-10">
-            {t("hero_subtitle")}
+          <p className="md:text-lg text-slate-400 max-w-2xl mx-auto mb-12 font-medium leading-relaxed">
+            Professional Online Editor for Word, Excel & PowerPoint." Securely
+            create, edit, and share all your documents in one place. Full
+            compatibility with DOCX, XLSX, and PDF.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 relative z-20">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
             <button
-              onClick={() => openChoice("new")}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 px-8 rounded-xl shadow-lg transition-all hover:-translate-y-1"
+              onClick={() => {
+                setActionType("new");
+                setModalOpen(true);
+              }}
+              className="group w-full sm:w-auto flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-bold transition-all shadow-xl shadow-blue-900/20"
             >
-              <Edit3 className="w-5 h-5" /> {t("btn_new")}
+              <Edit3 className="w-5 h-5" /> Create Blank Document
             </button>
             <button
-              onClick={() => openChoice("upload")}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white font-bold py-4 px-8 rounded-xl border border-slate-700 transition-all hover:-translate-y-1"
+              onClick={() => {
+                setActionType("upload");
+                setModalOpen(true);
+              }}
+              className="w-full sm:w-auto flex items-center justify-center gap-3 bg-slate-800 hover:bg-slate-700 text-white px-10 py-4 rounded-lg font-bold border border-slate-600 transition-all"
             >
-              <Upload className="w-5 h-5 text-blue-400" /> {t("btn_upload")}
+              <Upload className="w-5 h-5 text-slate-400" /> Import Local File
             </button>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-8 mt-16 opacity-60">
-            <div className="flex items-center gap-2 text-slate-400 text-sm font-medium">
-              <ShieldCheck className="w-4 h-4 text-blue-500" />{" "}
-              {t("trust_secure")}
-            </div>
-            <div className="flex items-center gap-2 text-slate-400 text-sm font-medium">
-              <MonitorPlay className="w-4 h-4 text-blue-500" /> {t("trust_os")}
-            </div>
-            <div className="flex items-center gap-2 text-slate-400 text-sm font-medium">
-              <FileType className="w-4 h-4 text-blue-500" /> {t("trust_office")}
-            </div>
           </div>
         </div>
       </section>
 
-      {/* 2. VALUE PROPS */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-12">
-            {[1, 2, 3].map((n) => (
-              <div
-                key={n}
-                className="bg-slate-50 rounded-2xl p-8 border border-slate-100 transition-all hover:border-blue-100 hover:shadow-sm"
-              >
-                <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center text-blue-600 mb-6 shadow-sm">
-                  {n === 1 ? <Globe /> : n === 2 ? <Edit3 /> : <Zap />}
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">
-                  {t(`feat_${n}_title`)}
-                </h3>
-                <p className="text-slate-600 leading-relaxed">
-                  {t(`feat_${n}_desc`)}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 3. FORMATS SECTION */}
-      <section className="py-24 bg-slate-50 border-y border-slate-200">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-center gap-16">
-          <div className="w-full md:w-1/2">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              {t("formats_title")}
-            </h2>
-            <p className="text-slate-600 mb-8">{t("formats_subtitle")}</p>
-            <div className="grid grid-cols-2 gap-4">
-              {["docx", "xlsx", "txt", "csv"].map((ext) => (
-                <div
+      {/* COMPATIBILITY GRID */}
+      <section className="py-20 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col md:flex-row items-end justify-between mb-12 gap-6">
+            <div className="max-w-xl">
+              <h2 className="text-sm font-bold text-blue-600 uppercase tracking-[0.2em] mb-3">
+                Compatibility
+              </h2>
+              <h3 className="text-3xl font-bold text-slate-900 mb-4">
+                Universal Format Support
+              </h3>
+              <p className="text-slate-600">
+                Our engine supports legacy and modern extensions across the
+                complete Microsoft Office and OpenOffice suites.
+              </p>
+            </div>
+            <div className="flex gap-4">
+              {["DOCX", "XLSX", "PPTX", "ODT", "CSV"].map((ext) => (
+                <span
                   key={ext}
-                  className="flex items-center gap-3 bg-white p-4 rounded-xl border border-slate-200 shadow-sm"
+                  className="px-3 py-1 bg-white border border-slate-200 rounded text-[11px] font-bold text-slate-500 shadow-sm"
                 >
-                  <span className="text-xs font-bold bg-slate-100 px-2 py-1 rounded text-slate-600 uppercase">
-                    {ext}
-                  </span>
-                  <span className="text-sm font-medium text-slate-900">
-                    {t(`format_${ext}`)}
-                  </span>
-                </div>
+                  {ext}
+                </span>
               ))}
             </div>
           </div>
-          <div className="w-full md:w-1/2">
-            <div className="aspect-square bg-white rounded-2xl border border-slate-200 shadow-xl p-8 relative overflow-hidden">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-64 bg-blue-50 border border-blue-100 rounded-lg shadow-sm -rotate-6"></div>
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-64 bg-white border border-slate-200 rounded-lg shadow-lg rotate-3 p-6 flex flex-col gap-3">
-                <div className="w-1/3 h-4 bg-slate-100 rounded"></div>
-                <div className="w-full h-2 bg-slate-50 rounded"></div>
-                <div className="w-full h-2 bg-slate-50 rounded"></div>
-              </div>
-            </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <FeatureCard
+              icon={<Globe className="w-6 h-6" />}
+              title="Cloud Sync"
+              desc="Instant synchronization across global nodes for zero-latency document updates."
+            />
+            <FeatureCard
+              icon={<ShieldCheck className="w-6 h-6" />}
+              title="AES-256 Security"
+              desc="End-to-end encryption on all document buffers and transient file storage."
+            />
+            <FeatureCard
+              icon={<Zap className="w-6 h-6" />}
+              title="Native Performance"
+              desc="Browser-optimized rendering engine for large spreadsheets and complex documents."
+            />
           </div>
         </div>
       </section>
 
-      {/* 4. MODAL SELECTION */}
+      {/* SELECTION MODAL */}
       {modalOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6">
-          <div
-            className="absolute inset-0 bg-slate-900/60 backdrop-blur-md"
-            onClick={() => !isGlobalLoading && setModalOpen(false)}
-          />
-
-          <div className="relative bg-white rounded-[24px] sm:rounded-[32px] overflow-hidden max-w-xl w-full shadow-2xl animate-in fade-in zoom-in duration-300">
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 backdrop-blur-sm bg-slate-950/40">
+          <div className="relative bg-white rounded-xl shadow-2xl max-w-2xl w-full overflow-hidden border border-slate-200">
             {isGlobalLoading && (
-              <div className="absolute inset-0 z-50 bg-white/60 backdrop-blur-[2px] flex flex-col items-center justify-center text-center p-6">
-                <Loader2 className="w-12 h-12 text-blue-600 animate-spin mb-4" />
-                <h4 className="text-xl font-bold text-slate-900">
-                  {isImporting ? "Uploading File" : "Provisioning Workspace"}
-                </h4>
-                <p className="text-slate-500 text-sm">
-                  Please wait while we initialize your secure editor
-                  environment.
+              <div className="absolute inset-0 z-50 bg-white/80 backdrop-blur-sm flex flex-col items-center justify-center">
+                <Loader2 className="w-10 h-10 text-blue-600 animate-spin mb-4" />
+                <p className="text-sm font-bold text-slate-700 tracking-wide uppercase">
+                  Processing Request...
                 </p>
               </div>
             )}
 
-            <div className="h-1.5 w-full bg-gradient-to-r from-blue-500 via-indigo-500 to-emerald-500" />
-
-            <div className="p-6 sm:p-10">
-              <button
-                onClick={() => setModalOpen(false)}
-                disabled={isGlobalLoading}
-                className="absolute top-5 right-5 p-2 hover:bg-slate-100 rounded-full transition-all active:scale-95"
-              >
-                <X className="w-5 h-5 text-slate-400" />
-              </button>
-
-              <div className="mb-8 pr-8">
-                <h3 className="text-2xl sm:text-3xl font-black text-slate-900 mb-2 tracking-tight">
-                  {actionType === "new" ? "New Workspace" : "Import Document"}
-                </h3>
-                <p className="text-slate-500 text-sm font-medium">
-                  {actionType === "new"
-                    ? "Select your preferred format to get started."
-                    : "Upload an existing file to continue editing online."}
-                </p>
+            <div className="p-8">
+              <div className="flex justify-between items-start mb-10">
+                <div>
+                  <h3 className="text-2xl font-bold text-slate-900 leading-tight">
+                    {actionType === "new"
+                      ? "New Asset Creation"
+                      : "System Import"}
+                  </h3>
+                  <p className="text-slate-500 text-sm mt-1">
+                    Select the protocol for your new document environment.
+                  </p>
+                </div>
+                <button
+                  onClick={() => setModalOpen(false)}
+                  className="p-2 hover:bg-slate-100 rounded-lg transition-colors"
+                >
+                  <X className="w-5 h-5 text-slate-400" />
+                </button>
               </div>
 
               {actionType === "new" ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {/* WORD */}
-                  <button
-                    disabled={isGlobalLoading}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  <DocOption
                     onClick={() => handleSelection("word")}
-                    className="relative flex flex-row sm:flex-col items-center sm:items-start p-5 sm:p-8 rounded-2xl border-2 border-slate-100 bg-white hover:border-blue-500 hover:shadow-2xl transition-all group active:scale-[0.98] disabled:opacity-50"
-                  >
-                    <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 mb-0 sm:mb-6 mr-4 sm:mr-0 shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
-                      <FileText className="w-6 h-6" />
-                    </div>
-                    <div className="flex-1">
-                      <span className="block font-bold text-slate-900 text-base sm:text-xl">
-                        Word Editor
-                      </span>
-                      <span className="mt-2 inline-block px-2 py-0.5 bg-blue-50 text-[10px] font-mono text-blue-600 rounded border border-blue-100 uppercase font-bold">
-                        DOC_AUTO_GEN
-                      </span>
-                    </div>
-                    <ArrowRight className="w-5 h-5 text-blue-500 sm:opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all ml-auto sm:ml-0 sm:mt-4" />
-                  </button>
-
-                  {/* EXCEL */}
-                  <button
-                    disabled={isGlobalLoading}
+                    icon={<FileText className="text-blue-600" />}
+                    label="Document"
+                    sub="Word / ODT"
+                  />
+                  <DocOption
                     onClick={() => handleSelection("excel")}
-                    className="relative flex flex-row sm:flex-col items-center sm:items-start p-5 sm:p-8 rounded-2xl border-2 border-slate-100 bg-white hover:border-emerald-500 hover:shadow-2xl transition-all group active:scale-[0.98] disabled:opacity-50"
-                  >
-                    <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 mb-0 sm:mb-6 mr-4 sm:mr-0 shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-300">
-                      <FileSpreadsheet className="w-6 h-6" />
-                    </div>
-                    <div className="flex-1">
-                      <span className="block font-bold text-slate-900 text-base sm:text-xl">
-                        Excel Editor
-                      </span>
-                      <span className="mt-2 inline-block px-2 py-0.5 bg-emerald-50 text-[10px] font-mono text-emerald-600 rounded border border-emerald-100 uppercase font-bold">
-                        XLS_AUTO_GEN
-                      </span>
-                    </div>
-                    <ArrowRight className="w-5 h-5 text-emerald-500 sm:opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all ml-auto sm:ml-0 sm:mt-4" />
-                  </button>
+                    icon={<FileSpreadsheet className="text-emerald-600" />}
+                    label="Spreadsheet"
+                    sub="Excel / CSV"
+                  />
+                  <DocOption
+                    onClick={() => handleSelection("powerpoint")}
+                    icon={<FileCode className="text-orange-600" />}
+                    label="Presentation"
+                    sub="PPTX / ODP"
+                  />
                 </div>
               ) : (
-                /* UPLOAD ZONE */
                 <div
-                  onClick={() =>
-                    !isGlobalLoading && fileInputRef.current?.click()
-                  }
-                  className="group relative border-2 border-dashed border-slate-200 rounded-3xl p-12 text-center hover:border-blue-500 hover:bg-blue-50/30 transition-all cursor-pointer"
+                  onClick={() => fileInputRef.current?.click()}
+                  className="group border-2 border-dashed border-slate-200 rounded-xl p-12 text-center hover:border-blue-500 hover:bg-blue-50/20 transition-all cursor-pointer"
                 >
                   <input
                     type="file"
                     ref={fileInputRef}
                     onChange={handleFileChange}
                     className="hidden"
-                    accept=".docx,.xlsx,.txt,.csv"
+                    accept={ACCEPTED_MIME_TYPES}
                   />
-                  <div className="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 mx-auto mb-4 group-hover:scale-110 transition-transform">
-                    <Upload className="w-8 h-8" />
-                  </div>
-                  <h4 className="text-lg font-bold text-slate-900 mb-1">
-                    Click to browse files
+                  <Upload className="w-10 h-10 text-slate-400 group-hover:text-blue-600 mx-auto mb-4 transition-colors" />
+                  <h4 className="text-lg font-bold text-slate-900">
+                    Drag & drop or browse
                   </h4>
-                  <p className="text-slate-500 text-sm">
-                    Supports DOCX, XLSX, TXT and CSV
+                  <p className="text-slate-500 text-xs mt-2 max-w-xs mx-auto">
+                    Supports Microsoft Office, OpenDocument, RTF, and Plain Text
+                    formats.
                   </p>
                 </div>
               )}
             </div>
 
-            <div className="bg-slate-50/80 backdrop-blur-sm p-4 border-t border-slate-100 flex items-center justify-center gap-6">
-              <div className="flex items-center gap-1.5 opacity-40">
-                <ShieldCheck className="w-3.5 h-3.5" />
-                <span className="text-[10px] font-bold uppercase tracking-widest text-slate-900">
-                  Encrypted Workspace
-                </span>
-              </div>
+            <div className="bg-slate-50 px-8 py-4 border-t border-slate-200 flex justify-between items-center">
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
+                <CheckCircle2 className="w-3 h-3 text-emerald-500" />
+                Ready for secure session
+              </span>
             </div>
           </div>
         </div>
       )}
-    </>
+    </div>
+  );
+}
+
+function FeatureCard({ icon, title, desc }) {
+  return (
+    <div className="p-8 bg-white border border-slate-200 rounded-xl hover:shadow-md transition-shadow">
+      <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mb-6">
+        {icon}
+      </div>
+      <h4 className="text-xl font-bold mb-3">{title}</h4>
+      <p className="text-slate-600 text-sm leading-relaxed">{desc}</p>
+    </div>
+  );
+}
+
+function DocOption({ onClick, icon, label, sub }) {
+  return (
+    <button
+      onClick={onClick}
+      className="flex flex-col items-start p-6 rounded-xl border border-slate-200 bg-white hover:border-blue-500 hover:shadow-lg transition-all text-left group"
+    >
+      <div className="p-3 bg-slate-50 rounded-lg group-hover:bg-blue-50 transition-colors mb-4">
+        {React.cloneElement(icon, { className: "w-6 h-6" })}
+      </div>
+      <span className="font-bold text-slate-900 text-sm">{label}</span>
+      <span className="text-[10px] text-slate-400 font-medium uppercase mt-1 tracking-tighter">
+        {sub}
+      </span>
+    </button>
   );
 }

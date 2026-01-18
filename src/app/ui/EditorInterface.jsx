@@ -35,7 +35,7 @@ export default function EditorInterface() {
             <div className="w-3 h-3 rounded-full bg-green-400 border border-green-500/20"></div>
           </div>
           <div className="text-xs font-medium text-slate-500">
-            NoteOcr Editor
+            NoteOCR Editor
           </div>
           <div className="w-10"></div> {/* Spacer */}
         </div>
@@ -143,7 +143,7 @@ export default function EditorInterface() {
                   {/* Fake Selection Highlight */}
                   <p className="text-slate-800 leading-relaxed">
                     <span className="bg-blue-100 text-blue-900 selection:bg-blue-200">
-                      NoteOcr allows you to edit DOCX files directly in the
+                      NoteOCR allows you to edit DOCX files directly in the
                       browser without installing any software.
                     </span>{" "}
                     It is fast, secure, and built for modern teams.

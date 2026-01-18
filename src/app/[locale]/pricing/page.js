@@ -44,7 +44,7 @@ export async function generateMetadata({ params }) {
         description: t("product_desc"),
         brand: {
           "@type": "Brand",
-          name: "NoteOcr",
+          name: "NoteOCR",
         },
         offers: {
           "@type": "AggregateOffer",

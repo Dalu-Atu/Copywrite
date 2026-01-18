@@ -11,14 +11,14 @@
     "cta_upload": "Subir Imagen",
     "stat_time": "Tiempo de Procesamiento",
     "stat_accuracy": "Precisión OCR",
-    "meta_title": "Convertidor de Letra Manuscrita a Texto | OCR de Letra Ligada | NoteOcr",
+    "meta_title": "Convertidor de Letra Manuscrita a Texto | OCR de Letra Ligada | NoteOCR",
     "meta_desc": "Convierta notas manuscritas en texto digital editable al instante. El OCR de escritura a mano con IA más preciso del mundo."
   },
   "Features": {
     "section_label": "El Ecosistema",
     "main_title_1": "Todo lo que necesita para",
     "main_title_2": "digitalizar documentos.",
-    "main_desc": "La mayoría de las herramientas OCR solo extraen texto. NoteOcr reconstruye su diseño, asegura sus datos y profesionaliza sus notas.",
+    "main_desc": "La mayoría de las herramientas OCR solo extraen texto. NoteOCR reconstruye su diseño, asegura sus datos y profesionaliza sus notas.",
     "editor_label": "Interfaz Familiar",
     "editor_title": "Edite como si estuviera en Word.",
     "editor_desc": "Sin curvas de aprendizaje. Nuestro editor se siente exactamente como MS Word para que pueda modificar sus documentos al instante.",
@@ -45,13 +45,13 @@
   },
   "Trust": {
     "title": "Confianza de líderes.",
-    "description": "Desde escuelas hasta empresas tecnológicas, los equipos modernos eligen NoteOcr."
+    "description": "Desde escuelas hasta empresas tecnológicas, los equipos modernos eligen NoteOCR."
   },
   "HowItWorks": {
     "label": "FLUJO DE TRABAJO",
     "title_1": "Tres pasos para convertir",
     "title_2": "escritura manuscrita en texto.",
-    "description": "Ahorre horas de transcripción manual. NoteOcr convierte el proceso OCR en un flujo de 3 segundos.",
+    "description": "Ahorre horas de transcripción manual. NoteOCR convierte el proceso OCR en un flujo de 3 segundos.",
     "step_1_title": "Subir y Escanear",
     "step_1_desc": "Suelte sus imágenes o PDFs. Nuestro motor mejora el contraste al instante.",
     "step_2_title": "Análisis Neuronal",
@@ -80,7 +80,7 @@
     "card_1_desc": "Escribir a mano toma horas. Nosotros lo hacemos en segundos.",
     "card_1_manual": "Manual",
     "card_2_title": "Reduzca Costos en un 70%",
-    "card_2_desc": "Elimine errores de entrada de datos. NoteOcr se paga solo en el primer mes.",
+    "card_2_desc": "Elimine errores de entrada de datos. NoteOCR se paga solo en el primer mes.",
     "card_2_stat": "ahorrado por mes*",
     "card_3_title": "Soberanía de Datos",
     "card_3_desc": "No entrenamos modelos con sus datos. Sus documentos se cifran y eliminan."
@@ -95,7 +95,7 @@
       "ev": {
         "role": "Profesor",
         "company": "Centro Vocacional Sapele",
-        "quote": "NoteOcr ha transformado mi forma de trabajar. Ahorro horas cada semana."
+        "quote": "NoteOCR ha transformado mi forma de trabajar. Ahorro horas cada semana."
       },
       "ab": {
         "role": "Analista de Datos",
@@ -114,7 +114,7 @@
     "title_highlight": "Frecuentes",
     "items": {
       "what_is": {
-        "q": "¿Qué es NoteOcr?",
+        "q": "¿Qué es NoteOCR?",
         "a": "Es una plataforma que convierte notas manuscritas en documentos digitales editables como Word y Excel."
       },
       "who_benefit": {
@@ -127,7 +127,7 @@
       },
       "accuracy": {
         "q": "¿Qué tan preciso es?",
-        "a": "NoteOcr alcanza un 95-98% de precisión en letra de mano y cursiva."
+        "a": "NoteOCR alcanza un 95-98% de precisión en letra de mano y cursiva."
       },
       "cursive": {
         "q": "¿Puede convertir letra ligada?",
@@ -219,7 +219,7 @@
       },
       "why_manual": {
         "q": "¿Por qué no escribirlo a mano?",
-        "a": "Escribir es lento. NoteOcr ahorra un 90% del tiempo de transcripción."
+        "a": "Escribir es lento. NoteOCR ahorra un 90% del tiempo de transcripción."
       },
       "diff_others": {
         "q": "¿En qué se diferencia de otras apps?",
@@ -232,7 +232,7 @@
     }
   },
   "WordPage": {
-    "meta_title": "Convertir Letra Manuscrita a Word (DOCX) | NoteOcr",
+    "meta_title": "Convertir Letra Manuscrita a Word (DOCX) | NoteOCR",
     "meta_desc": "Convierta notas manuscritas en documentos MS Word editables...",
     "hero_title_1": "Escritura a",
     "hero_title_2": "Word",
@@ -250,7 +250,7 @@
     "faq_a2": "Usamos cifrado TLS y borramos archivos en 60 minutos."
   },
   "PdfPage": {
-    "meta_title": "Editor de PDF gratuito y Chat con IA | NoteOcr",
+    "meta_title": "Editor de PDF gratuito y Chat con IA | NoteOCR",
     "meta_desc": "Edita, firma y chatea con tus PDF usando IA. Resume documentos, extrae respuestas y completa formularios de forma segura en tu navegador.",
     "hero_pill": "Suite de PDF Inteligente",
     "hero_title_1": "Edita y chatea con tus PDF,",
@@ -276,11 +276,11 @@
     "step_4_title": "Descargar",
     "step_4_desc": "Exporta el documento finalizado.",
     "cta_title": "Domina tu documentación.",
-    "cta_desc": "Únete a más de 10,000 profesionales que usan NoteOcr para gestionar contratos e informes.",
+    "cta_desc": "Únete a más de 10,000 profesionales que usan NoteOCR para gestionar contratos e informes.",
     "cta_btn": "Empieza gratis ahora"
   },
   "EditorPage": {
-    "meta_title": "Editor de documentos online gratis | Editar Word y Excel | NoteOcr",
+    "meta_title": "Editor de documentos online gratis | Editar Word y Excel | NoteOCR",
     "meta_desc": "Edita archivos DOCX, XLSX y de texto directamente en tu navegador. Sin instalaciones. Una alternativa rápida y segura a la suite de oficina tradicional.",
     "hero_pill": "Suite de oficina en la nube",
     "hero_title_1": "Edita tus documentos,",
@@ -296,7 +296,7 @@
     "feat_2_title": "Interfaz familiar",
     "feat_2_desc": "No pierdas tiempo aprendiendo. Nuestra barra de herramientas y atajos imitan a Word y Excel para que seas productivo al instante.",
     "feat_3_title": "Ligero y Rápido",
-    "feat_3_desc": "No esperes a que carguen programas pesados. El editor de NoteOcr abre en menos de 2 segundos, incluso con conexiones lentas.",
+    "feat_3_desc": "No esperes a que carguen programas pesados. El editor de NoteOCR abre en menos de 2 segundos, incluso con conexiones lentas.",
     "formats_title": "Formatos soportados",
     "formats_subtitle": "Soportamos todo el ecosistema de Office. Sube tus archivos existentes o empieza uno nuevo.",
     "format_docx": "Microsoft Word",
@@ -305,7 +305,7 @@
     "format_csv": "Hojas de datos"
   },
   "ExcelPage": {
-    "meta_title": "Convertir tablas manuscritas a Excel (XLSX) | NoteOcr",
+    "meta_title": "Convertir tablas manuscritas a Excel (XLSX) | NoteOCR",
     "meta_desc": "Automatiza la entrada de datos. Convierte cuadrículas, tablas financieras y horarios escritos a mano en Excel al instante con IA.",
     "hero_pill": "Reconocimiento de celdas inteligente",
     "hero_title": "De manuscrito a",
@@ -362,7 +362,7 @@
     "company": "Empresa",
     "resources": "Recursos",
     "hiring": "Contratando",
-    "copyright": "© {year} NoteOcr Inc. | Diseñado para equipos globales.",
+    "copyright": "© {year} NoteOCR Inc. | Diseñado para equipos globales.",
     "links": {
       "notes_to_word": "Notas a Word",
       "table_to_excel": "Tablas a Excel",
@@ -377,22 +377,22 @@
     }
   },
   "Contact": {
-    "meta_title": "Contáctenos | Soporte y Centro de Ayuda de NoteOcr",
-    "meta_desc": "¿Necesita ayuda para convertir notas a texto? Contacte al equipo de soporte de NoteOcr para asistencia técnica o consultas comerciales.",
+    "meta_title": "Contáctenos | Soporte y Centro de Ayuda de NoteOCR",
+    "meta_desc": "¿Necesita ayuda para convertir notas a texto? Contacte al equipo de soporte de NoteOCR para asistencia técnica o consultas comerciales.",
     "meta_keywords": "contacto noteocr, soporte al cliente, ayuda OCR manuscrito, soporte técnico, formulario de contacto",
-    "og_title": "Contáctenos | Soporte de NoteOcr",
+    "og_title": "Contáctenos | Soporte de NoteOCR",
     "og_desc": "Obtenga ayuda rápida para su conversión de manuscrito a texto. Contacte a nuestro equipo hoy.",
     "breadcrumb_home": "Inicio",
     "breadcrumb_contact": "Contacto",
-    "org_name": "NoteOcr"
+    "org_name": "NoteOCR"
   },
   "Pricing": {
-    "meta_title": "Planes de Precios | Convertidor de Letra a Texto | NoteOcr",
+    "meta_title": "Planes de Precios | Convertidor de Letra a Texto | NoteOCR",
     "meta_desc": "Elige el mejor plan para tus documentos. Desde nivel Gratuito hasta Pro ($8), Plus ($15) y Pro ($25). 99% de precisión en notas cursivas.",
     "meta_keywords": "precios convertir letra a texto, costo software OCR, herramientas para estudiantes, automatización de documentos precio",
-    "og_title": "Reconocimiento de IA de Manuscritos Asequible | Precios NoteOcr",
+    "og_title": "Reconocimiento de IA de Manuscritos Asequible | Precios NoteOCR",
     "og_desc": "Empieza gratis con 10 páginas. Mejora para procesamiento por lotes ilimitado y soporte premium.",
-    "product_name": "NoteOcr Handwriting OCR",
+    "product_name": "NoteOCR Handwriting OCR",
     "product_desc": "Software de conversión de caligrafía en texto.",
     "plan_free": "Plan Gratis",
     "plan_pro": "Plan Pro",
@@ -524,7 +524,7 @@
     }
   },
   "Signup": {
-    "meta_title": "Únete a NoteOcr | Digitaliza tu flujo de trabajo",
+    "meta_title": "Únete a NoteOCR | Digitaliza tu flujo de trabajo",
     "meta_desc": "Crea una cuenta gratuita y comienza a convertir manuscritos a texto hoy.",
     "hero": {
       "badge": "Comunidad Global",
@@ -553,7 +553,7 @@
     }
   },
   "Login": {
-    "meta_title": "Iniciar Sesión | NoteOcr",
+    "meta_title": "Iniciar Sesión | NoteOCR",
     "meta_desc": "Bienvenido de nuevo. Acceda a su cuenta para continuar digitalizando sus documentos.",
     "hero": {
       "badge": "Usado por 10,000+ equipos",
@@ -578,7 +578,7 @@
     }
   },
   "ContactPage": {
-    "meta_title": "Contacto | Centro de Ayuda de NoteOcr",
+    "meta_title": "Contacto | Centro de Ayuda de NoteOCR",
     "meta_desc": "Obtenga ayuda rápida para convertir escritura a mano en texto. Contacte a nuestro equipo para soporte técnico o consultas empresariales.",
     "hero": {
       "badge": "Centro de contacto",
@@ -598,7 +598,7 @@
     },
     "sidebar": {
       "hq_title": "Sede central en Zúrich",
-      "hq_address": "NoteOcr Technologies AG\nBahnhofstrasse 12, 8001 Zúrich\nSuiza",
+      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zúrich\nSuiza",
       "timezone": "Hora de Europa Central (GMT+1)",
       "support": "Soporte General",
       "sales": "Ventas Corporativas",
@@ -640,7 +640,7 @@
     },
     "security": {
       "title": "La seguridad no es un extra. Es la base.",
-      "desc": "Entendemos los riesgos de los datos empresariales. NoteOcr proporciona un entorno 'Zero-Trust' para sus documentos más sensibles.",
+      "desc": "Entendemos los riesgos de los datos empresariales. NoteOCR proporciona un entorno 'Zero-Trust' para sus documentos más sensibles.",
       "item1_title": "Cifrado AES-256",
       "item1_desc": "Datos cifrados en reposo y en tránsito.",
       "item2_title": "Opción On-Prem",
@@ -656,7 +656,7 @@
     },
     "cta": {
       "title": "Escale sus flujos de trabajo documentales.",
-      "desc": "¿Listo para automatizar su back-office? Únase a los líderes que usan NoteOcr para digitalizar el mundo del papel.",
+      "desc": "¿Listo para automatizar su back-office? Únase a los líderes que usan NoteOCR para digitalizar el mundo del papel.",
       "button": "Solicitar Demo"
     }
   },
@@ -696,9 +696,9 @@
       "s3_desc": "Exporta directamente a Markdown, PDF o Word. Formateado para tu 'segundo cerebro'."
     },
     "compare": {
-      "title": "Por qué los estudiantes eligen NoteOcr",
+      "title": "Por qué los estudiantes eligen NoteOCR",
       "h1": "Función",
-      "h2": "NoteOcr",
+      "h2": "NoteOCR",
       "h3": "Escritura Manual",
       "r1_c1": "Velocidad",
       "r1_c2": "Segundos",
@@ -719,14 +719,14 @@
     }
   },
   "AboutPage": {
-    "meta_title": "Sobre Nosotros - NoteOcr | El Equipo tras el Producto",
-    "meta_desc": "Conozca la misión de NoteOcr para desbloquear el conocimiento manuscrito. Fundado por Daniel, usamos IA para digitalizar papel al instante.",
+    "meta_title": "Sobre Nosotros - NoteOCR | El Equipo tras el Producto",
+    "meta_desc": "Conozca la misión de NoteOCR para desbloquear el conocimiento manuscrito. Fundado por Daniel, usamos IA para digitalizar papel al instante.",
     "hero": {
       "badge": "Nuestra Misión",
       "title_start": "Desbloqueando el saber",
       "title_highlight": "atrapado en el papel.",
       "p1": "El mundo aún funciona con manuscritos, pero esos datos suelen quedar estancados en formato analógico.",
-      "p2": "La misión de NoteOcr es hacer que el texto manuscrito sea tan potente como el código digital:",
+      "p2": "La misión de NoteOCR es hacer que el texto manuscrito sea tan potente como el código digital:",
       "p2_bold": "buscable, editable y formateado."
     },
     "tech": {
@@ -776,8 +776,8 @@
     "founder": {
       "badge": "Nota del Fundador",
       "title": "Creado por desarrolladores para amantes de la eficiencia.",
-      "p1": "NoteOcr fue fundado por",
-      "p2": "Daniel creó NoteOcr para resolver un problema personal: pasar horas transcribiendo notas a mano. Cree que la tecnología debe amplificar la productividad humana.",
+      "p1": "NoteOCR fue fundado por",
+      "p2": "Daniel creó NoteOCR para resolver un problema personal: pasar horas transcribiendo notas a mano. Cree que la tecnología debe amplificar la productividad humana.",
       "role": "Fundador e Ingeniero Principal"
     },
     "vision": {
@@ -788,8 +788,8 @@
   },
   "CareersPage": {
     "meta": {
-      "title": "Carreras - NoteOcr | Construye el Futuro de la Documentación",
-      "description": "Únete a NoteOcr y ayúdanos a empoderar a las empresas para crear y colaborar con herramientas de IA."
+      "title": "Carreras - NoteOCR | Construye el Futuro de la Documentación",
+      "description": "Únete a NoteOCR y ayúdanos a empoderar a las empresas para crear y colaborar con herramientas de IA."
     },
     "hero": {
       "badge": "Únete a nosotros",
@@ -855,21 +855,21 @@
     },
     "jobs": {
       "main_title": "Posiciones Abiertas",
-      "main_subtitle": "Encuentra tu próximo rol en NoteOcr",
+      "main_subtitle": "Encuentra tu próximo rol en NoteOCR",
       "apply_btn": "Aplicar Ahora",
       "marketing": {
         "title": "Intern de Marketing y RRSS",
         "dept": "Marketing",
         "type": "Pasantía",
         "loc": "Remoto (Global)",
-        "desc": "Ayuda a crecer la presencia online de NoteOcr creando contenido atractivo."
+        "desc": "Ayuda a crecer la presencia online de NoteOCR creando contenido atractivo."
       },
       "campus": {
         "title": "Embajador de Campus",
         "dept": "Comunidad",
         "type": "Tiempo Parcial",
         "loc": "Remoto / En Campus",
-        "desc": "Representa a NoteOcr en tu comunidad universitaria."
+        "desc": "Representa a NoteOCR en tu comunidad universitaria."
       },
       "creator": {
         "title": "Socio Creador de Contenido",
@@ -899,18 +899,18 @@
     }
   },
   "TermsPage": {
-    "meta_title": "Términos de Servicio - NoteOcr | Acuerdo de Usuario",
-    "meta_desc": "Lea los términos y condiciones para usar NoteOcr. Conozca sus derechos, nuestras responsabilidades y las leyes de Suiza.",
+    "meta_title": "Términos de Servicio - NoteOCR | Acuerdo de Usuario",
+    "meta_desc": "Lea los términos y condiciones para usar NoteOCR. Conozca sus derechos, nuestras responsabilidades y las leyes de Suiza.",
     "hero_title": "Términos de Servicio",
     "last_updated": "Última actualización",
     "date": "Noviembre 2025",
-    "welcome_text": "Bienvenido a NoteOcr. Al acceder a nuestros servicios, usted acepta cumplir con estos términos. Por favor, léalos detenidamente.",
+    "welcome_text": "Bienvenido a NoteOCR. Al acceder a nuestros servicios, usted acepta cumplir con estos términos. Por favor, léalos detenidamente.",
     "s1_t": "Uso de Nuestros Servicios",
     "s1_c": "Debe tener al menos 13 años. Acepta usar los servicios solo para fines legales. Usted es responsable de mantener la confidencialidad de su cuenta.",
     "s2_t": "Contenido del Usuario",
     "s2_c": "Usted conserva la propiedad de lo que sube. Nos otorga una licencia limitada para procesar y almacenar su contenido con el fin de mejorar el servicio.",
     "s3_t": "Propiedad Intelectual",
-    "s3_c": "Todo el software, diseños y marcas de NoteOcr son de nuestra propiedad. No puede copiar ni modificar la plataforma sin permiso.",
+    "s3_c": "Todo el software, diseños y marcas de NoteOCR son de nuestra propiedad. No puede copiar ni modificar la plataforma sin permiso.",
     "s4_t": "Suscripciones y Pagos",
     "s4_c": "Algunas funciones son de pago. Al suscribirse, acepta nuestros precios y facturación. Los pagos se procesan de forma segura mediante terceros.",
     "s5_t": "Actividades Prohibidas",
@@ -919,9 +919,9 @@
     "prohibited_item_3": "Interferir con la seguridad o integridad del sistema.",
     "prohibited_item_4": "Suplantar a otra persona o falsear su identidad.",
     "s6_t": "Terminación",
-    "s6_c": "Podemos suspender su cuenta si viola estos términos. Usted puede dejar de usar NoteOcr eliminando su cuenta.",
+    "s6_c": "Podemos suspender su cuenta si viola estos términos. Usted puede dejar de usar NoteOCR eliminando su cuenta.",
     "s7_t": "Limitación de Responsabilidad",
-    "s7_c": "NoteOcr se ofrece 'tal cual'. No seremos responsables de daños indirectos derivados del uso de los servicios.",
+    "s7_c": "NoteOCR se ofrece 'tal cual'. No seremos responsables de daños indirectos derivados del uso de los servicios.",
     "s8_t": "Cambios en los Términos",
     "s8_c": "Podemos modificar estos términos periódicamente. El uso continuado implica la aceptación de los nuevos términos.",
     "s9_t": "Ley Aplicable",
@@ -930,12 +930,12 @@
     "contact_d": "Nuestro equipo legal está disponible para aclarar cualquier duda sobre nuestras políticas."
   },
   "PrivacyPage": {
-    "meta_title": "Política de Privacidad - NoteOcr | Seguridad de Datos",
-    "meta_desc": "Descubra cómo NoteOcr maneja su información personal. Priorizamos su privacidad con estándares suizos de protección.",
+    "meta_title": "Política de Privacidad - NoteOCR | Seguridad de Datos",
+    "meta_desc": "Descubra cómo NoteOCR maneja su información personal. Priorizamos su privacidad con estándares suizos de protección.",
     "hero_title": "Política de Privacidad",
     "last_updated": "Última actualización",
     "date": "Noviembre 2025",
-    "welcome_text": "En NoteOcr respetamos su privacidad. Esta política explica cómo recopilamos y protegemos su información al usar nuestra plataforma.",
+    "welcome_text": "En NoteOCR respetamos su privacidad. Esta política explica cómo recopilamos y protegemos su información al usar nuestra plataforma.",
     "s1_t": "Información que Recopilamos",
     "collect_item_1_t": "Información de la Cuenta",
     "collect_item_1_d": "Nombre, correo y credenciales para asegurar su espacio de trabajo.",
@@ -967,7 +967,7 @@
     "s7_t": "Cookies y Analítica",
     "s7_c": "Usamos cookies para mejorar la navegación. Puede gestionarlas desde su navegador en cualquier momento.",
     "s8_t": "Privacidad de Menores",
-    "s8_c": "NoteOcr no es para menores de 13 años. No recopilamos datos de menores a sabiendas.",
+    "s8_c": "NoteOCR no es para menores de 13 años. No recopilamos datos de menores a sabiendas.",
     "s9_t": "Cambios en la Política",
     "s9_c": "Podemos actualizar esta política. Los cambios importantes se notificarán por email o en la app.",
     "contact_t": "Soporte de Privacidad",
@@ -977,8 +977,8 @@
 
   "DocsPage": {
     "meta": {
-      "title": "Documentación | NoteOcr - OCR de Escritura y Gestión Documental",
-      "description": "Aprenda a convertir escritura a mano en texto, extraer tablas a Excel y automatizar flujos de trabajo con las guias de NoteOcr."
+      "title": "Documentación | NoteOCR - OCR de Escritura y Gestión Documental",
+      "description": "Aprenda a convertir escritura a mano en texto, extraer tablas a Excel y automatizar flujos de trabajo con las guias de NoteOCR."
     },
     "sidebar": {
       "external_links": "Enlaces Externos",
@@ -998,13 +998,13 @@
     "header": {
       "breadcrumb": "Documentación",
       "category": "Introducción",
-      "title": "Docs de NoteOcr",
+      "title": "Docs de NoteOCR",
       "subtitle": "La guía completa para convertir notas manuscritas, tablas y garabatos en activos digitales estructurados.",
       "cta": "Guía Rápida Abajo"
     },
     "overview": {
       "title": "Resumen de la Plataforma",
-      "description": "NoteOcr es más que OCR. Es una herramienta de flujo de trabajo para digitalizar datos analógicos. Nos especializamos en .",
+      "description": "NoteOCR es más que OCR. Es una herramienta de flujo de trabajo para digitalizar datos analógicos. Nos especializamos en .",
       "bold1": "escritura difícil",
       "bold2": "tablas complejas",
       "bold3": "documentos multipágina",
@@ -1045,7 +1045,7 @@
     },
     "integrations": {
       "title": "Exportación y Compatibilidad",
-      "description": "NoteOcr genera archivos estándar compatibles con sus herramientas favoritas.",
+      "description": "NoteOCR genera archivos estándar compatibles con sus herramientas favoritas.",
       "roadmap_title": "Integraciones",
       "roadmap_desc": "Estamos construyendo conexiones. Sincronización bidireccional en desarrollo.",
       "planned": "Planeado",

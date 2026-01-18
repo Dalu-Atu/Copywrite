@@ -15,7 +15,6 @@ import {
   ChevronDown,
   Menu,
   X,
-  ArrowRight,
 } from "lucide-react";
 
 import LanguageSwitcher from "./LanguageSwitcher";
@@ -124,149 +123,141 @@ const HeaderComponent = () => {
 
   return (
     <>
-      {/* --- MIGRATION BANNER --- */}
-      <AnimatePresence>
-        {showBanner && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="fixed top-0 left-0 right-0 z-[60] bg-[#015979] text-white overflow-hidden"
-          >
-            <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-center gap-4 text-[10px] sm:text-sm font-medium">
-              <span className="opacity-90">
-                Copywritee is now <strong>NoteOCR</strong>. smarter features,
-                new home!
-              </span>
-              <button
-                onClick={() => setShowBanner(false)}
-                className="p-1 hover:bg-white/10 rounded-full transition-colors flex-shrink-0"
-              >
-                <X className="w-3.5 h-3.5" />
-              </button>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      <header
-        className={`fixed left-0 right-0 z-[40] transition-all duration-300 ${
-          showBanner ? "top-[36px] sm:top-[40px]" : "top-0"
-        } ${
-          isScrolled
-            ? "bg-white/80 backdrop-blur-xl border-b border-zinc-200 py-3"
-            : "bg-transparent py-5"
-        }`}
-      >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between">
-            <Link
-              href={lLink("/")}
-              className="flex items-center gap-2 relative z-[50]"
+      <div className="fixed top-0 left-0 right-0 z-[100] flex flex-col w-full">
+        {/* --- MIGRATION BANNER --- */}
+        <AnimatePresence>
+          {showBanner && (
+            <motion.div
+              initial={{ height: 0 }}
+              animate={{ height: "auto" }}
+              exit={{ height: 0 }}
+              className="bg-[#015979] text-white overflow-hidden w-full"
             >
-              <img src="/logo.png" alt="Logo" className="h-8 w-auto" />
-              <span className="text-xl font-bold text-zinc-900">NoteOcr</span>
-            </Link>
-
-            {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-1 bg-zinc-100/50 p-1 rounded-full">
-              {Object.entries(navItems).map(([key, item]) => (
-                <div
-                  key={key}
-                  className="relative"
-                  ref={(el) => (dropdownRefs.current[key] = el)}
+              <div className="max-w-7xl mx-auto px-6 py-2.5 flex items-center justify-center gap-4 text-[11px] sm:text-sm font-medium">
+                <span className="opacity-90">
+                  Copywritee is now <strong>NoteOCR</strong>. Smarter features,
+                  new home!
+                </span>
+                <button
+                  onClick={() => setShowBanner(false)}
+                  className="p-1 hover:bg-white/10 rounded-full transition-colors flex-shrink-0"
                 >
-                  <button
-                    onClick={() => toggleDropdown(key)}
-                    className={`flex items-center gap-1 px-4 py-2 text-[13px] font-semibold rounded-full transition-all ${
-                      activeDropdown === key
-                        ? "bg-white shadow-sm text-zinc-900"
-                        : "text-zinc-500 hover:text-zinc-800"
-                    }`}
-                  >
-                    {item.title}
-                    <ChevronDown
-                      className={`w-3 h-3 transition-transform ${
-                        activeDropdown === key ? "rotate-180" : ""
-                      }`}
-                    />
-                  </button>
-                  <AnimatePresence>
-                    {activeDropdown === key && (
-                      <motion.div
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: 5 }}
-                        className="absolute top-full left-0 mt-3 w-80 bg-white rounded-2xl shadow-xl border border-zinc-100 p-2"
-                      >
-                        {item.items.map((subItem) => (
-                          <Link
-                            key={subItem.name}
-                            href={subItem.href}
-                            onClick={closeAll}
-                            className="flex items-center gap-4 p-3 rounded-xl hover:bg-zinc-50 transition-all"
-                          >
-                            <div className="w-8 h-8 flex items-center justify-center bg-zinc-50 rounded-lg text-zinc-400">
-                              {subItem.icon}
-                            </div>
-                            <div>
-                              <div className="text-sm font-semibold text-zinc-900">
-                                {subItem.name}
-                              </div>
-                              <p className="text-xs text-zinc-400">
-                                {subItem.desc}
-                              </p>
-                            </div>
-                          </Link>
-                        ))}
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </div>
-              ))}
-              <Link
-                href={lLink("/pricing")}
-                className="px-4 py-2 text-[13px] font-semibold text-zinc-500 hover:text-zinc-800 transition-colors"
-              >
-                {t("pricing")}
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* --- HEADER --- */}
+        <header className="w-full bg-white border-b border-zinc-200 py-3 shadow-sm transition-all duration-300">
+          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+            <div className="flex items-center justify-between">
+              <Link href={lLink("/")} className="flex items-center gap-2">
+                <img src="/logo.png" alt="Logo" className="h-8 w-auto" />
+                <span className="text-xl font-bold text-zinc-900">NoteOCR</span>
               </Link>
-            </nav>
 
-            <div className="hidden lg:flex items-center gap-3">
-              <LanguageSwitcher />
-              <div className="w-px h-4 bg-zinc-200 mx-1" />
-              <a
-                href="https://app.noteocr.com/"
-                className="px-4 py-2 text-[13px] font-semibold text-zinc-600 hover:text-zinc-900 transition-colors"
-              >
-                {t("login")}
-              </a>
-              <a
-                href="https://app.noteocr.com/signup"
-                className="px-5 py-2.5 text-[13px] font-bold text-white bg-[#015979] rounded-full hover:bg-[#014a66] transition-all shadow-sm"
-              >
-                {t("get_started")}
-              </a>
-            </div>
+              {/* Desktop Nav */}
+              <nav className="hidden lg:flex items-center gap-1 bg-zinc-100/80 p-1 rounded-full">
+                {Object.entries(navItems).map(([key, item]) => (
+                  <div
+                    key={key}
+                    className="relative"
+                    ref={(el) => (dropdownRefs.current[key] = el)}
+                  >
+                    <button
+                      onClick={() => toggleDropdown(key)}
+                      className={`flex items-center gap-1 px-4 py-2 text-[13px] font-semibold rounded-full transition-all ${
+                        activeDropdown === key
+                          ? "bg-white shadow-sm text-zinc-900"
+                          : "text-zinc-600 hover:text-zinc-900"
+                      }`}
+                    >
+                      {item.title}
+                      <ChevronDown
+                        className={`w-3 h-3 transition-transform ${
+                          activeDropdown === key ? "rotate-180" : ""
+                        }`}
+                      />
+                    </button>
+                    <AnimatePresence>
+                      {activeDropdown === key && (
+                        <motion.div
+                          initial={{ opacity: 0, y: 10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: 5 }}
+                          className="absolute top-full left-0 mt-3 w-80 bg-white rounded-2xl shadow-xl border border-zinc-100 p-2"
+                        >
+                          {item.items.map((subItem) => (
+                            <Link
+                              key={subItem.name}
+                              href={subItem.href}
+                              onClick={closeAll}
+                              className="flex items-center gap-4 p-3 rounded-xl hover:bg-zinc-50 transition-all"
+                            >
+                              <div className="w-8 h-8 flex items-center justify-center bg-zinc-50 rounded-lg text-zinc-400">
+                                {subItem.icon}
+                              </div>
+                              <div>
+                                <div className="text-sm font-semibold text-zinc-900">
+                                  {subItem.name}
+                                </div>
+                                <p className="text-xs text-zinc-400">
+                                  {subItem.desc}
+                                </p>
+                              </div>
+                            </Link>
+                          ))}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                ))}
+                <Link
+                  href={lLink("/pricing")}
+                  className="px-4 py-2 text-[13px] font-semibold text-zinc-600 hover:text-zinc-900 transition-colors"
+                >
+                  {t("pricing")}
+                </Link>
+              </nav>
 
-            {/* Mobile Toggle */}
-            <div className="flex items-center gap-3 lg:hidden">
-              <button
-                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="p-2 bg-zinc-100 rounded-full relative z-[50]"
-              >
-                {isMobileMenuOpen ? (
-                  <X className="w-5 h-5" />
-                ) : (
-                  <Menu className="w-5 h-5" />
-                )}
-              </button>
+              <div className="hidden lg:flex items-center gap-3">
+                <LanguageSwitcher />
+                <div className="w-px h-4 bg-zinc-200 mx-1" />
+                <a
+                  href="https://app.noteocr.com/"
+                  className="px-4 py-2 text-[13px] font-semibold text-zinc-600 hover:text-zinc-900 transition-colors"
+                >
+                  {t("login")}
+                </a>
+                <a
+                  href="https://app.noteocr.com/signup"
+                  className="px-5 py-2.5 text-[13px] font-bold text-white bg-[#015979] rounded-full hover:bg-[#014a66] transition-all shadow-sm"
+                >
+                  {t("get_started")}
+                </a>
+              </div>
+
+              {/* Mobile Toggle */}
+              <div className="lg:hidden">
+                <button
+                  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                  className="p-2 bg-zinc-100 rounded-full text-zinc-900"
+                >
+                  {isMobileMenuOpen ? (
+                    <X className="w-5 h-5" />
+                  ) : (
+                    <Menu className="w-5 h-5" />
+                  )}
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </header>
+        </header>
+      </div>
 
-      {/* Mobile Menu */}
+      {/* --- MOBILE MENU --- */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
@@ -274,15 +265,13 @@ const HeaderComponent = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className={`fixed left-0 right-0 bottom-0 z-[45] bg-white flex flex-col transition-all duration-300 ${
-              showBanner ? "top-[36px] sm:top-[40px]" : "top-0"
-            }`}
+            className="fixed inset-0 z-[110] bg-white flex flex-col"
           >
-            <div className="sticky top-0 z-[110] bg-white/95 px-6 py-5 flex items-center justify-between border-b border-zinc-100">
+            <div className="sticky top-0 z-[120] bg-white px-6 py-5 flex items-center justify-between border-b border-zinc-100">
               <div className="flex items-center gap-2">
                 <img src="/logo.png" className="h-7" alt="Logo" />
                 <span className="font-bold text-zinc-900 uppercase tracking-tight">
-                  NoteOcr
+                  NoteOCR
                 </span>
               </div>
               <div className="flex items-center gap-3">

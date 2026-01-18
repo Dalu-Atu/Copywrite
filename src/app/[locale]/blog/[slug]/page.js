@@ -47,7 +47,7 @@ export async function generateMetadata({ params }) {
   if (!post) return;
 
   return {
-    title: `${post.title} | NoteOcr Blog`,
+    title: `${post.title} | NoteOCR Blog`,
     description: post.excerpt,
     alternates: {
       canonical: `https://noteocr.com/blog/${post.slug}`,
@@ -56,7 +56,7 @@ export async function generateMetadata({ params }) {
       title: post.title,
       description: post.excerpt,
       url: `https://noteocr.com/blog/${post.slug}`,
-      siteName: "NoteOcr",
+      siteName: "NoteOCR",
       images: [
         {
           url: post.image, // Ensure this is a full URL in production
@@ -96,7 +96,7 @@ export default function BlogPost({ params }) {
     },
     publisher: {
       "@type": "Organization",
-      name: "NoteOcr",
+      name: "NoteOCR",
       logo: {
         "@type": "ImageObject",
         url: "https://noteocr.com/logo.png",

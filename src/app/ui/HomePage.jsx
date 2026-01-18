@@ -125,7 +125,7 @@ const HomePage = () => {
                 <div className="flex items-center gap-2 text-[10px] md:text-xs font-mono text-slate-400">
                   <Loader2 className="w-3 h-3 animate-spin text-indigo-400" />
                   <span className="tracking-widest uppercase opacity-70">
-                    NoteOcr_Engine_V2.4
+                    NoteOCR_Engine_V2.4
                   </span>
                 </div>
                 <div className="w-12"></div>

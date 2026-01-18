@@ -426,7 +426,7 @@ export default function DocsPage() {
 
               <div className="relative overflow-hidden rounded-xl bg-slate-900 border border-slate-800 p-8 text-center">
                 <div className="absolute inset-0 opacity-20 blur-[2px] pointer-events-none select-none p-6 font-mono text-xs text-left text-teal-400">
-                  {`import { NoteOcr } from '@noteocr/sdk';\nconst client = new NoteOcr(process.env.API_KEY);`}
+                  {`import { NoteOCR } from '@noteocr/sdk';\nconst client = new NoteOCR(process.env.API_KEY);`}
                 </div>
                 <div className="relative z-10 flex flex-col items-center justify-center h-full space-y-4">
                   <div className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-slate-700">

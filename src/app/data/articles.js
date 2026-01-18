@@ -53,7 +53,7 @@ export const articles = [
           </thead>
           <tbody>
             <tr>
-              <td class="p-4 border border-slate-200 font-bold">NoteOcr AI</td>
+              <td class="p-4 border border-slate-200 font-bold">NoteOCR AI</td>
               <td class="p-4 border border-slate-200">Preserves layout, LaTeX support</td>
               <td class="p-4 border border-slate-200">Subscription required</td>
               <td class="p-4 border border-slate-200 text-teal-600 font-black">99.2%</td>

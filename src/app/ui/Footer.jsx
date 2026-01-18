@@ -20,7 +20,7 @@ const Footer = () => {
             <Link href="/" className="flex items-center gap-2">
               <Image
                 src="/noteocr-full-logo-white.png"
-                alt="NoteOcr"
+                alt="NoteOCR"
                 width={160}
                 height={40}
                 className="opacity-90 hover:opacity-100 transition-opacity"
@@ -139,7 +139,7 @@ const Footer = () => {
             {/* Add a check or a default string if t fails */}
             {t.rich("copyright", {
               year: (chunks) => currentYear,
-            }) || `© ${currentYear} NoteOcr Inc.`}
+            }) || `© ${currentYear} NoteOCR Inc.`}
           </p>
 
           <div className="flex gap-6 items-center">

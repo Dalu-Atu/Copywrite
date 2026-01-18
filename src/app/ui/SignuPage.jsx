@@ -44,7 +44,7 @@ const SignupPage = () => {
 
         <div className="flex items-center gap-2">
           <img src="/logo-white.png" className="h-12" alt="Logo" />
-          <span className="font-bold text-2xl">NoteOcr</span>
+          <span className="font-bold text-2xl">NoteOCR</span>
         </div>
 
         <div className="relative z-10 max-w-lg">
