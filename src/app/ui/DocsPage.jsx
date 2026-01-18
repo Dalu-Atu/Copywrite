@@ -602,7 +602,7 @@ export default function DocsPage() {
                 </p>
                 <div className="flex justify-center gap-4">
                   <a
-                    href="mailto:care.copywrite@gmail.com"
+                    href="mailto:support@noteocr.com"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-[#00415a] text-white rounded-lg font-semibold hover:shadow-lg transition-all"
                   >
                     <Mail className="w-4 h-4" /> {t("contact.btn")}

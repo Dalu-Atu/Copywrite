@@ -52,7 +52,7 @@ export async function generateMetadata({ params }) {
           logo: "https://noteocr.com/noteocr-full-logo.png",
           contactPoint: {
             "@type": "ContactPoint",
-            email: "care.copywrite@gmail.com",
+            email: "support@noteocr.com",
             contactType: "customer service",
             availableLanguage: [
               "en",

@@ -25,7 +25,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 
-const RECIPIENT_EMAIL = "care.copywrite@gmail.com";
+const RECIPIENT_EMAIL = "support@noteocr.com";
 
 const ApplicationModal = ({ isOpen, onClose, jobTitle }) => {
   const t = useTranslations("CareersPage.modal");

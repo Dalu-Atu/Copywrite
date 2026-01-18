@@ -300,7 +300,7 @@ const PricingPage = () => {
             <Mail className="w-6 h-6 text-slate-400" />
             <div className="text-left">
               <div className="font-bold">{t("support.email_label")}</div>
-              <div className="text-sm">care.copywrite@gmail.com</div>
+              <div className="text-sm">support@noteocr.com</div>
             </div>
           </div>
           <div className="flex items-center gap-3">

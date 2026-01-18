@@ -160,9 +160,7 @@ export default function PrivacyPolicy() {
                   <p className="text-slate-400 mb-6">{t("contact_d")}</p>
                   <div className="flex items-center gap-4 bg-white/10 p-4 rounded-xl border border-white/10">
                     <Mail className="w-5 h-5 text-emerald-400" />
-                    <span className="font-semibold">
-                      care.copywrite@gmail.com
-                    </span>
+                    <span className="font-semibold">support@noteocr.com</span>
                   </div>
                 </div>
                 <div className="text-sm text-slate-400 space-y-2 border-l border-white/10 pl-8">

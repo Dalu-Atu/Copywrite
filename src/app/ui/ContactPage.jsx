@@ -46,7 +46,7 @@ export default function ContactPage() {
         `Message:\n${formData.message}`
     );
 
-    const mailtoLink = `mailto:care.copywrite@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:support@noteocr.com?subject=${subject}&body=${body}`;
 
     setTimeout(() => {
       window.location.href = mailtoLink;
@@ -215,7 +215,7 @@ export default function ContactPage() {
               ].map((item, i) => (
                 <a
                   key={i}
-                  href="mailto:care.copywrite@gmail.com"
+                  href="mailto:support@noteocr.com"
                   className="flex items-center justify-between p-6 bg-white rounded-2xl border border-slate-200 hover:border-[#1b9e99] hover:shadow-lg transition-all group"
                 >
                   <div className="flex items-center gap-4">
@@ -227,7 +227,7 @@ export default function ContactPage() {
                         {item.label}
                       </p>
                       <p className="text-xs text-slate-400 font-medium tracking-wide">
-                        care.copywrite@gmail.com
+                        support@noteocr.com
                       </p>
                     </div>
                   </div>

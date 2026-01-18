@@ -158,7 +158,7 @@ export default function TermsOfService() {
                   <div className="flex items-center gap-4 bg-white/10 p-4 rounded-xl backdrop-blur-md border border-white/10">
                     <Mail className="w-5 h-5 text-emerald-400" />
                     <span className="font-semibold tracking-wide">
-                      care.copywrite@gmail.com
+                      support@noteocr.com
                     </span>
                   </div>
                 </div>
