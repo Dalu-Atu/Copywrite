@@ -231,106 +231,872 @@
       }
     }
   },
+
   "WordPage": {
-    "meta_title": "El Yazısını Word'e Dönüştür (DOCX) | NoteOCR",
-    "meta_desc": "El yazısı notları anında düzenlenebilir MS Word belgelerine dönüştürün...",
-    "hero_title_1": "El Yazısından",
-    "hero_title_2": "Word'e",
-    "hero_subtitle": "Notlarınızı tekrar yazmayın. Yapay zekamız orijinal düzeni, tabloları ve stili koruyarak görselleri .docx dosyalarına dönüştürür.",
-    "feat_1_title": "Düzen Koruma",
-    "feat_1_desc": "Çoğu araç metni yığın olarak atar. Biz listeleri ve kenar boşluklarını algılayarak Word belgenizin orijinali gibi görünmesini sağlarız.",
-    "feat_2_title": "Karmaşık Yazılar mı? Sorun Değil.",
-    "feat_2_desc": "ICR motorumuz milyonlarca el yazısı örneği ile eğitilmiştir.",
-    "feat_3_title": "Otomatik Silme",
-    "feat_3_desc": "Gizliliğiniz önemlidir. Dosyalar şifreli bir kapta işlenir ve kalıcı olarak silinir.",
-    "faq_title": "Sıkça Sorulan Sorular",
-    "faq_q1": "Eğik yazıyı okuyabilir mi?",
-    "faq_a1": "Evet. NoteOCR, bitişik scriptler için eğitilmiş sinir ağlarını kullanır.",
-    "faq_q2": "Verilerim güvende mi?",
-    "faq_a2": "Kesinlikle. TLS şifreleme kullanıyoruz ve dosyaları 60 dakika içinde siliyoruz."
+    "meta_title": "El Yazısını Word'e (DOCX) Dönüştür | NoteOCR",
+    "meta_desc": "Yazıları elle temize çekmeyi bırakın. AI ile el yazısı notlarınızı düzenlenebilir Word belgelerine dönüştürün. Listeleri, başlıkları ve mizanpajı korur.",
+
+    "hero_pill": "Akıllı Belge Tanıma",
+    "hero_title": "El Yazısı Notları Word Belgelerine Dönüştürün",
+    "hero_subtitle": "Notlarınızı yeniden yazarak vakit kaybetmeyin. Yapay zekamız, el yazısı sayfalarınızı listeleri, başlıkları ve orijinal düzeni koruyarak düzenlenebilir .docx dosyalarına dönüştürür.",
+
+    "trust_ssl": "SSL ŞİFRELEME",
+    "trust_processing": "30 SANİYEDE İŞLEME",
+    "trust_accuracy": "%95 METİN DOĞRULUĞU",
+
+    "before_after_title": "Farkı Görün",
+    "before_after_desc": "Korunan yapı ve formatı gösteren gerçek bir dönüşüm örneği",
+    "before_label": "Önce: El Yazısı Notlar",
+    "before_placeholder": "[Sonuçları görmek için el yazısı notlarınızı yükleyin]",
+    "after_label": "Sonra: Word Belgesi",
+    "after_placeholder": "[Formatlanmış Word belgesi önizlemesi]",
+
+    "use_cases_title": "Kimler El Yazısını Word'e Dönüştürüyor?",
+    "use_cases_subtitle": "Öğrencilerden profesyonellere kadar binlerce kişi notlarını günlük olarak dijitalleştiriyor",
+
+    "use_case_1_title": "Öğrenciler ve Araştırmacılar",
+    "use_case_1_desc": "Ders notlarını, araştırma günlüklerini ve çalışma materyallerini makale yazımı ve kaynak yönetimi için aranabilir Word belgelerine dönüştürün.",
+
+    "use_case_2_title": "İş Profesyonelleri",
+    "use_case_2_desc": "Toplantı notlarını ve beyaz tahta seanslarını ekip paylaşımı ve raporlar için formatlanmış dijital belgelere dönüştürün.",
+
+    "use_case_3_title": "Yazarlar ve Gazeteciler",
+    "use_case_3_desc": "El yazısı taslakları, hikaye ana hatlarını ve röportaj notlarını düzenlemeye ve yayınlamaya hazır metinlere dönüştürün.",
+
+    "use_case_4_title": "Arşivciler ve Tarihçiler",
+    "use_case_4_desc": "Tarihi belgeleri, kişisel mektupları ve günlük girişlerini koruma ve araştırma için dijital arşivlere dönüştürün.",
+
+    "comparison_title": "Yöntem Karşılaştırması: El Yazısından Word'e",
+    "comparison_subtitle": "NoteOCR neden manuel yazmaya göre saatler kazandırır?",
+    "comparison_col_method": "Yöntem",
+    "comparison_col_time": "Süre",
+    "comparison_col_accuracy": "Doğruluk",
+    "comparison_col_cost": "Maliyet",
+
+    "comparison_row1_method": "Manuel Yazma",
+    "comparison_row1_time": "60 dakika/sayfa",
+    "comparison_row1_accuracy": "%98 (yavaş ve yorucu)",
+    "comparison_row1_cost": "Ücretsiz (vaktiniz gider)",
+
+    "comparison_row2_method": "Temel OCR Araçları",
+    "comparison_row2_time": "10 dakika",
+    "comparison_row2_accuracy": "%70 (format kaybolur)",
+    "comparison_row2_cost": "Ücretsiz - 15$",
+
+    "comparison_row3_method": "NoteOCR Word Dönüştürücü",
+    "comparison_row3_time": "30 saniye",
+    "comparison_row3_accuracy": "%95 (düzen korunur)",
+    "comparison_row3_cost": "100 sayfa / 8$",
+
+    "features_title": "El Yazısı OCR Teknolojimizin Farkı Nedir?",
+    "features_subtitle": "El yazısı notları Word'e dönüştürmek için özel olarak tasarlandı",
+
+    "feature_1_title": "Düzen Koruma",
+    "feature_1_desc": "Sadece düz metin çıkaran temel OCR'ların aksine, yapay zekamız listeleri, başlıkları ve paragrafları algılar. Word belgeniz orijinal notlarınızın yapısıyla eşleşir.",
+
+    "feature_2_title": "Bitişik ve Blok Yazı Tanıma",
+    "feature_2_desc": "Milyonlarca el yazısı örneğiyle eğitilmiş gelişmiş sinir ağları. Karışık mürekkep, bitişik yazı ve hatta karalamaları yüksek doğrulukla işler.",
+
+    "feature_3_title": "Önce Gizlilik",
+    "feature_3_desc": "Notlarınız yükleme sırasında şifrelenir ve dönüşümden sonra kalıcı olarak silinir. İçeriğinizi asla saklamıyor veya paylaşmıyoruz.",
+
+    "tech_title": "El Yazısı Tanıma Teknolojisi Nasıl Çalışır?",
+    "tech_intro": "Standart OCR araçları el yazısını daktilo metni gibi görerek formatı bozar. NoteOCR'ın özel yapay zekası, notlarınızı tam yazdığınız gibi —listeler ve girintiler korunmuş olarak— yeniden oluşturur.",
+
+    "tech_detect_title": "Neleri Algılıyoruz?",
+    "tech_detect_1": "Paragraflar, listeler ve başlıklar",
+    "tech_detect_2": "Bitişik (el yazısı) ve dik temel harfler",
+    "tech_detect_3": "Üstü çizili metinler ve düzeltmeler",
+    "tech_detect_4": "Kenar boşlukları ve girintiler",
+    "tech_detect_5": "Çizgili, kareli veya düz kağıtlar",
+
+    "tech_tips_title": "En İyi Sonuç İçin İpuçları",
+    "tech_tips_1": "Fotoğraf çekerken iyi ışık kullanın",
+    "tech_tips_2": "Kamerayı sayfaya paralel tutun",
+    "tech_tips_3": "Taramalar için 300 DPI tercih edin",
+    "tech_tips_4": "Mürekkep ve kağıt kontrastına dikkat edin",
+    "tech_tips_5": "Kaydetmeden önce sonucu kontrol edin",
+
+    "related_tools_title": "İlgili OCR Araçları",
+
+    "related_tool_1_name": "Görüntüden Word'e",
+    "related_tool_1_desc": "El yazısı metinleri formatlı belgelere dönüştürün",
+
+    "related_tool_2_name": "Online PDF Düzenle",
+    "related_tool_2_desc": "Kurulum yapmadan PDF belgelerini düzenleyin",
+
+    "related_tool_3_name": "Online Belge Düzenleyici",
+    "related_tool_3_desc": "MS Word veya Excel belgelerini ücretsiz düzenleyin",
+
+    "related_tool_4_name": "Görüntüden Metne",
+    "related_tool_4_desc": "Resimdeki el yazısını düzenlenebilir metne çevirin",
+
+    "faq_title": "El Yazısından Word'e Dönüştürme Hakkında Sık Sorulan Sorular",
+
+    "cta_title": "Notlarınızı Dijitalleştirmeye Hazır mısınız?",
+    "cta_subtitle": "NoteOCR ile notlarını dönüştüren 50.000'den fazla kullanıcıya katılın",
+    "cta_button": "Notlarımı Şimdi Dönüştür",
+
+    "footer_text": "NoteOCR // Akıllı Belge İşleme",
+
+    "tool_upload_title": "El Yazısı Notlarınızı Yükleyin",
+    "tool_upload_desc": "Ders notlarını, toplantı tutanaklarını ve günlükleri destekler. Bitişik ve dik yazı tiplerinde çalışır.",
+    "tool_upload_button": "Görsel Seç",
+    "tool_upload_check_1": "JPG, PNG, PDF",
+    "tool_upload_check_2": "Maks 25MB",
+    "tool_upload_check_3": "Güvenli SSL",
+
+    "tool_processing_title": "El Yazısı Analiz Ediliyor...",
+    "tool_processing_desc": "AI karakterleri tanıyor ve düzeni koruyor",
+
+    "tool_complete_title": "Dönüşüm Tamamlandı!",
+    "tool_complete_desc": "Word belgeniz hazır. İndirin ve düzenlemeye başlayın.",
+    "tool_complete_file_type": "Word Belgesi (.docx)",
+    "tool_complete_status": "HAZIR",
+    "tool_download_button": "Word İndir",
+    "tool_new_button": "Yeni Belge",
+
+    "tool_info_1_title": "Düzen Korundu",
+    "tool_info_1_desc": "Listeler ve paragraflar bozulmadan kalır",
+
+    "tool_info_2_title": "%95 Doğruluk",
+    "tool_info_2_desc": "Türkçe el yazısı karakterlerine optimize edildi",
+
+    "tool_info_3_title": "DOCX Formatı",
+    "tool_info_3_desc": "Word, Docs ve Pages ile uyumlu",
+
+    "tool_tip_label": "Profesyonel İpucu:",
+    "tool_tip_text": "En iyi sonuç için notlarınızı doğrudan tepeden ve gölge oluşmayacak şekilde fotoğraflayın.",
+
+    "toast_success": "Dönüştürme tamamlandı!",
+    "toast_error_type": "Lütfen geçerli bir görsel (JPG, PNG, WEBP) veya PDF yükleyin",
+    "toast_error_size": "Dosya boyutu 25MB'ın altında olmalıdır",
+    "toast_error_conversion": "Dönüştürme başarısız oldu.",
+    "toast_download_success": "Word belgesi indirildi!",
+    "toast_download_error": "İndirme başarısız.",
+
+    "FAQ": {
+      "items": {
+        "handwriting_to_word": {
+          "q": "El yazısı notları Word'e nasıl dönüştürebilirim?",
+          "a": "Notlarınızın fotoğrafını NoteOCR'a yükleyin. AI yazıyı tanır, düzeni korur ve saniyeler içinde indirilebilir bir .docx dosyasına dönüştürür."
+        },
+        "cursive_reading": {
+          "q": "NoteOCR bitişik el yazısını okuyabilir mi?",
+          "a": "Evet. Yapay zekamız milyonlarca el yazısı ve bitişik yazı örneğiyle eğitilmiştir; standart OCR araçlarından çok daha yüksek başarı oranına sahiptir."
+        },
+        "layout_preserved": {
+          "q": "Orijinal sayfa düzenim korunur mu?",
+          "a": "Kesinlikle. Madde işaretlerini, numaralı listeleri, girintileri ve paragraf başlarını algılayarak Word dosyanıza yansıtırız."
+        },
+        "is_free_word": {
+          "q": "El yazısından Word'e dönüştürücü ücretsiz mi?",
+          "a": "Doğruluğumuzu test etmeniz için ücretsiz deneme sunuyoruz. Yüksek hacimli işlemler için abonelik gerektirmeyen tek seferlik paketlerimiz mevcuttur."
+        },
+        "messy_handwriting": {
+          "q": "Yazım kötüyse veya okunaksızsa ne olur?",
+          "a": "NoteOCR, kötü el yazılarını bile piyasadaki çoğu araçtan daha iyi işler. Doğruluk oranı biraz düşse de metin büyük oranda düzenlenebilir kalır."
+        },
+        "notebook_vs_loose": {
+          "q": "Defter kağıdı ile çalışır mı?",
+          "a": "Evet. Çizgili, kareli veya düz kağıt olması fark etmez. Çizgiler metin tanıma işlemini engellemez."
+        },
+        "math_formulas": {
+          "q": "Matematik formüllerini dönüştürebilir mi?",
+          "a": "Temel sayıları ve sembolleri tanır ancak karmaşık denklemler için dönüşüm sonrası manuel kontrol gerekebilir."
+        },
+        "multiple_pages": {
+          "q": "Aynı anda birden fazla sayfa dönüştürebilir miyim?",
+          "a": "Evet, seçtiğiniz pakete bağlı olarak birden fazla görseli tek bir Word belgesinde birleştirebilirsiniz."
+        },
+        "word_vs_google_docs": {
+          "q": "Dosyayı Google Dokümanlar'da açabilir miyim?",
+          "a": "Evet. .docx formatı Google Dokümanlar, Word ve LibreOffice dahil tüm modern platformlarla uyumludur."
+        },
+        "edit_after_conversion": {
+          "q": "Dönüştürme sonrası metni düzenleyebilir miyim?",
+          "a": "Evet. İndirdiğiniz dosya tamamen düzenlenebilir bir Word belgesidir. İstediğiniz değişiklikleri yapabilirsiniz."
+        },
+        "crossed_out_text": {
+          "q": "Üstü çizili yazıları tanır mı?",
+          "a": "AI genellikle üstü çizili metinleri algılar ve bunları final belgesine dahil etmemeye çalışır."
+        },
+        "handwriting_styles": {
+          "q": "Hangi yazı stillerini destekliyor?",
+          "a": "Bitişik yazı, dik yazı, büyük harf ve farklı kalem türleriyle (tükenmez, kurşun, jel) yazılmış her türlü metni destekler."
+        },
+        "quality_tips_word": {
+          "q": "En iyi sonucu nasıl alırım?",
+          "a": "İyi aydınlatma kullanın, kamerayı sayfaya paralel tutun ve metnin odakta olduğundan emin olun."
+        },
+        "privacy_notes": {
+          "q": "Kişisel notlarım veya günlüğüm güvende mi?",
+          "a": "Evet. SSL şifreleme kullanıyoruz ve verilerinizi 24 saat içinde sunucularımızdan tamamen siliyoruz."
+        },
+        "why_not_type": {
+          "q": "Neden kendim yazmıyorum?",
+          "a": "Manuel yazmak sayfa başına 10-15 dakika sürerken, NoteOCR bunu 30 saniyede yaparak size ciddi zaman kazandırır."
+        },
+        "student_benefits": {
+          "q": "Öğrenciler için avantajları nelerdir?",
+          "a": "Ders notlarını aranabilir hale getirir, sınav hazırlığını hızlandırır ve notları dijital ortamda saklamayı sağlar."
+        },
+        "meeting_notes": {
+          "q": "Beyaz tahta fotoğraflarını Word'e dönüştürebilir miyim?",
+          "a": "Evet. Beyaz tahta veya flipchart fotoğraflarını yükleyebilirsiniz, AI metni başarıyla ayıklayacaktır."
+        },
+        "languages_supported": {
+          "q": "Hangi dilleri destekliyor?",
+          "a": "Türkçe, İngilizce ve birçok Avrupa dilini destekliyoruz. Yeni diller eklemeye devam ediyoruz."
+        },
+        "comparison_apps": {
+          "q": "Tarayıcı uygulamalarından farkı nedir?",
+          "a": "Sıradan uygulamalar sadece PDF yapar, NoteOCR ise el yazısını analiz edip düzenlenebilir Word belgesi oluşturur."
+        },
+        "historical_documents": {
+          "q": "Eski tarihi belgeleri dijitalleştirebilir miyim?",
+          "a": "Evet, NoteOCR eski kağıtlar ve soluk mürekkepler üzerinde çalışabilir. Ancak çok eski yazı stilleri için kontrol gerekebilir."
+        }
+      }
+    }
   },
+
   "PdfPage": {
-    "meta_title": "Ücretsiz Online PDF Düzenleyici ve AI Sohbet | NoteOCR",
-    "meta_desc": "AI kullanarak PDF'lerinizi düzenleyin, imzalayın ve sohbet edin. Dokümanları özetleyin, yanıtları çıkarın ve formları tarayıcınızda güvenle doldurun.",
-    "hero_pill": "Akıllı PDF Paketi",
-    "hero_title_1": "PDF'leri düzenleyin ve sohbet edin,",
-    "hero_title_2": "her zaman, her yerde.",
-    "hero_subtitle": "Hepsi bir arada PDF çalışma alanı. Metni düzenleyin, sözleşmeleri imzalayın ve raporları anında özetlemek veya soruları yanıtlamak için AI kullanın.",
-    "btn_upload": "PDF Dosyası Yükle",
-    "trust_soc2": "SOC2 Uyumlu Güvenlik",
-    "trust_ai": "AI Destekli Sohbet",
-    "trust_esign": "Yasal Olarak Bağlayıcı e-İmza",
-    "feat_1_title": "Dokümanlarla Sohbet Edin",
-    "feat_1_desc": "100 sayfalık bir sözleşme yükleyin ve sorun: 'Fesih maddeleri nelerdir?' Yapay zekamız saniyeler içinde tarar ve yanıtlar.",
-    "feat_2_title": "Doldur ve İmzala",
-    "feat_2_desc": "Yazdırmayı bırakın. İmzanızı ekleyin, formları doldurun ve kutucukları dijital olarak işaretleyin. İş kullanımı için tamamen uyumludur.",
-    "feat_3_title": "Düzenle ve Birleştir",
-    "feat_3_desc": "Birden fazla PDF'yi tek bir dosyada birleştirin, sayfaları döndürün veya gereksiz bölümleri silin. Dosyalarınız üzerinde tam kontrol.",
-    "workflow_title": "Yeni PDF İş Akışınız",
-    "step_1_title": "Yükle",
-    "step_1_desc": "50MB'a kadar olan tüm PDF'leri sürükleyip bırakın.",
-    "step_2_title": "Analiz Et",
-    "step_2_desc": "AI, arama ve sohbet için metni dizine ekler.",
-    "step_3_title": "Düzenle",
-    "step_3_desc": "Metin, resim veya imza ekleyin.",
-    "step_4_title": "İndir",
-    "step_4_desc": "Tamamlanan dokümanı dışa aktarın.",
-    "cta_title": "Dokümantasyonunuzu evcilleştirin.",
-    "cta_desc": "Sözleşmeleri ve raporları yönetmek için NoteOCR kullanan 10.000'den fazla profesyonele katılın.",
-    "cta_btn": "Şimdi Ücretsiz Başlayın",
-    "btn_new": "Yeni belge oluştur"
+    "meta_title": "Taranmış PDF'leri OCR ile Online Düzenle | Ücretsiz PDF Editörü | NoteOCR",
+    "meta_desc": "Taranmış belgeler için tarayıcı tabanlı PDF düzenleyici. AI OCR ile el yazısı metinleri ayıklayın, imza ekleyin ve içeriği düzenleyin — yazılım gerekmez.",
+
+    "hero_pill": "Profesyonel PDF Çalışma Alanı",
+    "hero_title": "Taranmış PDF'leri AI OCR ile Online Düzenleyin",
+    "hero_subtitle": "Taranmış belgeler için özel olarak tasarlanmış tek tarayıcı tabanlı PDF editörü. El yazısı PDF'leri yükleyin, OCR ile metni ayıklayın, imza ekleyin veya sıfırdan yeni belgeler oluşturun.",
+
+    "trust_ssl": "SSL ŞİFRELİ",
+    "trust_processing": "ANINDA İŞLEME",
+    "trust_accuracy": "EL YAZISI OCR",
+
+    "workspace_title": "Eksiksiz Bir Online Belge Çalışma Alanı",
+    "workspace_subtitle": "Sadece OCR'ın ötesinde. Belgelerinizi dosyalarınızı tamamen bulutta düzenleyebileceğiniz, arayabileceğiniz ve yönetebileceğiniz güvenli bir ortama yükleyin.",
+
+    "workspace_feature_1_title": "Canlı Metin Düzenleme",
+    "workspace_feature_1_desc": "Ayıklanan metni doğrudan tarayıcınızda değiştirin. Yazım hatalarını düzeltin, paragrafları yeniden formatlayın ve dışa aktarmadan önce verileri güncelleyin.",
+
+    "workspace_feature_2_title": "Önce Gizlilik",
+    "workspace_feature_2_desc": "Belgeleriniz şifrelenir ve güvenli bir korumalı alanda işlenir. Hassas verilerinizi izniniz olmadan asla saklamayız.",
+
+    "workspace_feature_3_title": "Anında Dışa Aktarma",
+    "workspace_feature_3_desc": "Düzenleme bitti mi? Düzenlenmiş belgenizi anında aranabilir PDF, Word veya Excel sayfası olarak indirin.",
+
+    "use_cases_title": "Taranmış PDF'leri Online Kimler Düzenliyor?",
+    "use_cases_subtitle": "Hukuk bürolarından sağlık sektörüne kadar binlerce kişi her gün taranmış belgeleri düzenliyor",
+
+    "use_case_1_title": "Hukuk Profesyonelleri",
+    "use_case_1_desc": "Taranmış sözleşmeleri düzenleyin, yasal belgeleri dijital olarak imzalayın ve hassas bilgileri sansürleyin. Taranmış mahkeme belgeleriyle uğraşan avukatlar için mükemmeldir.",
+
+    "use_case_2_title": "Küçük İşletmeler",
+    "use_case_2_desc": "Taranmış formları doldurun, faturalara şirket imzası ekleyin ve pahalı Adobe abonelikleri olmadan teklifleri notlandırın.",
+
+    "use_case_3_title": "Öğrenciler ve Eğitimciler",
+    "use_case_3_desc": "Taranmış ders kitaplarına notlar ekleyin, el yazısı ödevleri aranabilir PDF'lere dönüştürün ve sınıf notlarını çalışma kılavuzlarında birleştirin.",
+
+    "use_case_4_title": "Sağlık Hizmeti Sağlayıcıları",
+    "use_case_4_desc": "Hasta giriş formlarını düzenleyin, el yazısı tıbbi kayıtları dijitalleştirin ve taranmış tıbbi grafikleri düzenli hale getirin.",
+
+    "comparison_title": "PDF Düzenleme: Masaüstü vs Online Araçlar",
+    "comparison_subtitle": "Neden tarayıcı tabanlı düzenleme masaüstü yazılımlardan daha iyidir?",
+    "comparison_col_tool": "Araç",
+    "comparison_col_access": "Erişim",
+    "comparison_col_features": "Özellikler",
+    "comparison_col_cost": "Maliyet",
+
+    "comparison_row1_tool": "Adobe Acrobat Pro",
+    "comparison_row1_access": "Yükleme ve güncelleme gerektirir",
+    "comparison_row1_features": "Tam özellikli, el yazısı OCR'ı yok",
+    "comparison_row1_cost": "Aylık ₺600+",
+
+    "comparison_row2_tool": "Temel Online Editörler",
+    "comparison_row2_access": "Web tabanlı",
+    "comparison_row2_features": "Sınırlı OCR, el yazısı desteği yok",
+    "comparison_row2_cost": "Ücretsiz - ₺250",
+
+    "comparison_row3_tool": "NoteOCR PDF Editörü",
+    "comparison_row3_access": "Anında, tarayıcı tabanlı",
+    "comparison_row3_features": "OCR + El Yazısı + Tam Belge Editörü",
+    "comparison_row3_cost": "Ücretsiz - ₺200",
+
+    "features_title": "Taranmış PDF Editörümüz Neden Farklı?",
+    "features_subtitle": "Taranmış ve el yazısı PDF'leri düzenlemek için özel olarak üretildi",
+
+    "feature_1_title": "Taranmış PDF'ler için OCR",
+    "feature_1_desc": "Taranmış belgeleri ve el yazısı PDF'leri aranabilir, düzenlenebilir metne dönüştürün. Yapay zekamız orijinal düzeni korurken el yazısını ve tabloları tanır.",
+
+    "feature_2_title": "Tam Düzenleme Paketi",
+    "feature_2_desc": "Metin ekleyin, imza çizin, resim yerleştirin ve sayfaları yeniden düzenleyin. Profesyonel bir çalışma alanındaki tüm PDF araçları tarayıcınızda.",
+
+    "feature_3_title": "Tarayıcı Tabanlı Güvenlik",
+    "feature_3_desc": "Yüklemeler için banka düzeyinde şifreleme. PDF'leriniz izole konteynerlerde işlenir ve 24 saat sonra otomatik olarak silinir.",
+
+    "tech_title": "Tarayıcı Tabanlı PDF OCR Nasıl Çalışır?",
+    "tech_intro": "Geleneksel PDF düzenleyicileri yalnızca dijital metinlerle çalışır. NoteOCR, taranmış belgeleri ve el yazısı formları tarayıcınızda işlemek için gelişmiş OCR'ı düzen analiziyle birleştirir.",
+
+    "tech_support_title": "Neleri Destekliyoruz?",
+    "tech_support_1": "El yazısı belgeler ve formlar",
+    "tech_support_2": "Taranmış sözleşmeler ve yasal dosyalar",
+    "tech_support_3": "Metin katmanı olmayan resim tabanlı PDF'ler",
+    "tech_support_4": "Dijital imzalar ve açıklamalar",
+    "tech_support_5": "Çok sayfalı PDF belgeleri",
+
+    "tech_tips_title": "En İyi Sonuçlar İçin İpuçları",
+    "tech_tips_1": "300 DPI veya daha yüksek çözünürlükte tarayın",
+    "tech_tips_2": "İyi aydınlatma ve kontrast sağlayın",
+    "tech_tips_3": "Sayfaları kırışıklık olmadan düz tutun",
+    "tech_tips_4": "El yazısı için renkli/gri tonlamayı kullanın",
+    "tech_tips_5": "Mümkünse doğrudan tarayıcıdan yükleyin",
+
+    "related_tools_title": "İlgili OCR Araçları",
+
+    "related_tool_1_name": "Görüntüden Word'e",
+    "related_tool_1_desc": "El yazısı metinleri formatlı belgelere dönüştürün",
+
+    "related_tool_2_name": "PDF Online Düzenle (Kurulumsuz)",
+    "related_tool_2_desc": "Her yerden online PDF belgeleri yükleyin ve düzenleyin",
+
+    "related_tool_3_name": "Online Belge Düzenleyici",
+    "related_tool_3_desc": "MS Word veya Excel belgelerini ücretsiz düzenleyin",
+
+    "related_tool_4_name": "Görüntüden Metne",
+    "related_tool_4_desc": "Resimdeki el yazısı metni düzenlenebilir metne çevirin",
+
+    "faq_title": "Taranmış PDF Düzenleme Hakkında Sık Sorulan Sorular",
+
+    "cta_title": "Taranmış PDF'leri Online Düzenlemeye Hazır mısınız?",
+    "cta_subtitle": "NoteOCR ile taranmış belgelerini düzenleyen 100.000'den fazla kullanıcıya katılın",
+    "cta_button": "Düzenlemeye Şimdi Başla",
+
+    "tool_main_title": "Profesyonel PDF Çalışma Alanı",
+    "tool_main_desc": "OCR için el yazısı içeren taranmış PDF yükleyin veya sıfırdan bir belge başlatın.",
+    "tool_upload_button": "Taranmış PDF Yükle",
+    "tool_new_button": "Sıfırdan Başla",
+
+    "tool_upload_check_1": "Sadece PDF",
+    "tool_upload_check_2": "Maks 25MB",
+    "tool_upload_check_3": "Güvenli SSL",
+
+    "tool_info_1_title": "El Yazısı OCR",
+    "tool_info_1_desc": "Taranmış el yazısı belgelerden metin ayıklayın",
+
+    "tool_info_2_title": "Tam Editör Paketi",
+    "tool_info_2_desc": "Metin, imza, açıklama ve daha fazlasını ekleyin",
+
+    "tool_info_3_title": "Tarayıcı Tabanlı",
+    "tool_info_3_desc": "Yazılım indirmeye gerek yok, anında çalışır",
+
+    "tool_tip_label": "Pro İpucu:",
+    "tool_tip_text": "Taranmış PDF'lerde en iyi OCR sonuçları için belgelerin 300 DPI'da taranmasını sağlayın.",
+
+    "modal_new_title": "Yeni PDF Oluştur",
+    "modal_new_desc": "Boş bir sayfa ile başlayın ve belgenizi sıfırdan oluşturun.",
+    "modal_new_button": "Boş PDF Oluştur",
+
+    "modal_upload_title": "Taranmış PDF Yükle",
+    "modal_upload_desc": "Metin ayıklamak, imza eklemek veya içeriği düzenlemek için PDF'nizi içe aktarın.",
+    "modal_upload_placeholder": "PDF'yi buraya tıklayın veya sürükleyin",
+    "modal_upload_info": "Maks dosya boyutu: 25MB • Taranmış ve el yazısı PDF'ler desteklenir",
+
+    "modal_processing_new": "Çalışma Alanı Oluşturuluyor...",
+    "modal_processing_upload": "PDF İşleniyor...",
+    "modal_processing_desc": "Güvenli PDF ortamınız ayarlanıyor",
+
+    "modal_security_badge": "Banka Düzeyinde Şifreleme",
+
+    "toast_success_create": "PDF Çalışma Alanı Hazır!",
+    "toast_success_upload": "PDF başarıyla yüklendi!",
+    "toast_error_type": "Lütfen geçerli bir PDF dosyası seçin",
+    "toast_error_size": "Dosya boyutu 25MB'ın altında olmalıdır",
+    "toast_error_create": "PDF oluşturulamadı.",
+    "toast_error_upload": "PDF yüklenemedi",
+    "toast_error_drop": "Lütfen geçerli bir PDF dosyası sürükleyin",
+
+    "FAQ": {
+      "items": {
+        "edit_scanned_pdf": {
+          "q": "Taranmış bir PDF'yi online olarak nasıl düzenlerim?",
+          "a": "Taranmış PDF'nizi NoteOCR editörüne yükleyin. Görüntüleri düzenlenebilir metne dönüştürmek için 'OCR Çalıştır'a tıklayın. Ardından tarayıcınızda metni değiştirebilir, imza ekleyebilir ve sayfaları yeniden düzenleyebilirsiniz."
+        },
+        "handwritten_pdf_edit": {
+          "q": "El yazısı PDF'leri OCR ile düzenleyebilir miyim?",
+          "a": "Evet. NoteOCR'ın yapay zekası el yazısı metinler için özel olarak eğitilmiştir. Orijinal düzeni koruyarak metni ayıklar ve düzenlemenize olanak tanır. Çıkartılan metni dijital bir doküman gibi düzenleyebilirsiniz."
+        },
+        "browser_based_editor": {
+          "q": "'Tarayıcı tabanlı' PDF editörü ne anlama gelir?",
+          "a": "Adobe Acrobat gibi bir yazılım indirmeden PDF'leri doğrudan web tarayıcınızda (Chrome, Safari, Firefox vb.) düzenlemeniz anlamına gelir. Her şey güvenli bir şekilde bulutta işlenir."
+        },
+        "is_pdf_editor_free": {
+          "q": "Taranmış PDF düzenleyici ücretsiz mi?",
+          "a": "Evet. Temel planımızla taranmış PDF'leri ücretsiz düzenleyebilirsiniz. OCR, metin düzenleme ve imza araçlarını ücretsiz sunuyoruz. Daha yoğun kullanım için profesyonel planlarımız mevcuttur."
+        },
+        "add_signature_scanned": {
+          "q": "Taranmış bir PDF'ye nasıl imza eklerim?",
+          "a": "Editördeki 'İmza' aracına tıklayın. İmzanızı farenizle çizebilir, imzanızın bir resmini yükleyebilir veya adınızı yazarak metin tabanlı bir imza oluşturabilirsiniz."
+        },
+        "ocr_accuracy_handwriting": {
+          "q": "El yazısı PDF'ler için OCR ne kadar doğrudur?",
+          "a": "Yazı kalitesine bağlı olarak doğruluk oranı ortalama %85-95'tir. Okunaklı el yazısı %95+ başarı sağlar. Kritik belgeler için son haline getirmeden önce gözden geçirmenizi öneririz."
+        },
+        "edit_protected_scanned": {
+          "q": "Şifre korumalı taranmış PDF'leri düzenleyebilir miyim?",
+          "a": "Şifreyi biliyorsanız, editörümüzde kilidi açıp düzenleyebilirsiniz. Ancak, taranmış PDF'ler genellikle sadece görüntü dosyaları olduğu için nadiren bu tür kısıtlamalara sahip olurlar."
+        },
+        "multiple_scanned_pages": {
+          "q": "Çok sayfalı taranmış PDF'leri düzenleyebilir miyim?",
+          "a": "Evet. Herhangi bir sayfa sayısındaki PDF'yi yükleyebilirsiniz. Editörümüz, kolay gezinme için tüm sayfaları yan panelde gösterir. Belgenin tamamında tek seferde OCR çalıştırabilirsiniz."
+        },
+        "mobile_pdf_editing": {
+          "q": "Telefonumda veya tabletimde PDF düzenleyebilir miyim?",
+          "a": "Evet. NoteOCR, mobil tarayıcılarda (iOS ve Android) çalışır. Arayüz mobil cihazlara uyum sağlar, ancak karmaşık düzenlemeler için tablet veya masaüstü bilgisayar öneririz."
+        },
+        "searchable_pdf": {
+          "q": "Düzenlediğim PDF, OCR'dan sonra aranabilir olacak mı?",
+          "a": "Evet. OCR işlemi orijinal görüntünün altında görünmez bir metin katmanı oluşturur. Bu, tıpkı dijital bir PDF'de olduğu gibi Ctrl+F kullanarak kelime aramanıza olanak tanır."
+        },
+        "combine_scanned_pdfs": {
+          "q": "Birden fazla taranmış PDF'yi tek bir belgede birleştirebilir miyim?",
+          "a": "Evet. İlk PDF'nizi yükleyin, ardından diğer dosyaları içe aktarmak için 'Sayfa Ekle' veya 'Birleştir' aracını kullanın. Sonuçta oluşan belge üzerinde OCR çalıştırabilirsiniz."
+        },
+        "form_filling_scanned": {
+          "q": "Doldurulabilir alanları olmayan taranmış formları doldurabilir miyim?",
+          "a": "Evet. Taranmış form alanlarının üzerine doğrudan yazmak için 'Metin Ekle' aracını kullanın. Ayrıca onay işaretleri, tarihler ve imzalar da ekleyebilirsiniz."
+        },
+        "quality_tips_scanned_pdf": {
+          "q": "Taranmış bir PDF'de en iyi OCR sonucunu nasıl alırım?",
+          "a": "En iyi doğruluk için: (1) 300 DPI veya üstünde tarayın, (2) el yazısı için renkli veya gri tonlamalı kullanın, (3) iyi aydınlatma sağlayın ve (4) kağıdı mümkün olduğunca düz tutun."
+        },
+        "privacy_browser_editor": {
+          "q": "Hassas PDF'leri bir web editörüne yüklemek güvenli mi?",
+          "a": "Evet. NoteOCR tüm yüklemeler için banka düzeyinde SSL şifreleme kullanır. Dosyalarınız güvenli ortamlarda işlenir ve 24 saat sonra sunucularımızdan kalıcı olarak silinir."
+        },
+        "why_browser_vs_desktop": {
+          "q": "Adobe Acrobat yerine neden bir tarayıcı editörü kullanmalıyım?",
+          "a": "Web editörleri kurulum gerektirmeden her cihazdan anında erişim sağlar. Ayrıca NoteOCR, el yazısı belgeleri Adobe'nin standart OCR'ından daha iyi tanır."
+        },
+        "redact_scanned_pdf": {
+          "q": "PDF'deki hassas bilgileri sansürleyebilir miyim?",
+          "a": "Evet. Hassas metinleri veya görüntüleri kalıcı olarak kaldırmak için 'Redact' (Karartma) aracını kullanın. Bu işlem geri alınamaz, bu da güvenlik için mükemmeldir."
+        },
+        "annotations_scanned": {
+          "q": "Yorum ve açıklamalar ekleyebilir miyim?",
+          "a": "Evet. Yapışkan notlar, metin yorumları, vurgular, oklar ve şekiller ekleyebilirsiniz. Tüm açıklamalar dosyanızı kaydettiğinizde korunur."
+        },
+        "convert_scanned_pdf_word": {
+          "q": "OCR'dan sonra taranmış PDF'yi Word'e dönüştürebilir miyim?",
+          "a": "Evet. OCR işleminden sonra 'Dışa Aktar'a tıklayın ve 'Word (.docx)' seçeneğini seçin. Ayıklanan metin, düzenlenebilir bir Word belgesine aktarılır."
+        },
+        "offline_editing": {
+          "q": "Tarayıcıda PDF'leri çevrimdışı düzenleyebilir miyim?",
+          "a": "Tam olarak değil. OCR işlemi sunucularımıza bağlantı gerektirir. Ancak OCR tamamlandıktan sonra, bazı metin düzenlemeleri ve notlar kısa süreliğine çevrimdışı çalışabilir."
+        },
+        "no_software_required": {
+          "q": "PDF düzenlemek için gerçekten herhangi bir yazılıma ihtiyacım yok mu?",
+          "a": "Kesinlikle. Sadece modern bir tarayıcıya ihtiyacınız var. Kurulum yok, eklenti yok. Sadece NoteOCR'a gidin ve çalışmaya başlayın."
+        }
+      }
+    }
   },
+
   "EditorPage": {
-    "meta_title": "Ücretsiz Online Doküman Düzenleyici | Word ve Excel Düzenle | NoteOCR",
-    "meta_desc": "DOCX, XLSX ve metin dosyalarını doğrudan tarayıcınızda düzenleyin. Kurulum gerektirmez. Hızlı, güvenli ve tanıdık bir ofis paketi alternatifi.",
-    "hero_pill": "Bulut Ofis Paketi",
-    "hero_title_1": "Dokümanlarınızı düzenleyin,",
-    "hero_title_2": "her an, her yerden.",
-    "hero_subtitle": "Microsoft Word ve Excel dosyalarını doğrudan tarayıcınızda düzenleyin. Hızlı düzenlemeler için kurulum veya giriş gerekmez.",
-    "btn_new": "Yeni Doküman Başlat",
-    "btn_upload": "Dosya Yükle",
-    "trust_secure": "Özel ve Güvenli",
-    "trust_os": "Tüm İşletim Sistemlerinde Çalışır",
-    "trust_office": "%100 MS Office Uyumlu",
-    "feat_1_title": "Her Yerden Çalışın",
-    "feat_1_desc": "Dokümanlarınıza her cihazdan erişin. İster Windows, ister Mac veya Linux olsun; düzenleyiciniz bir tık uzağınızda.",
-    "feat_2_title": "Tanıdık Arayüz",
-    "feat_2_desc": "Yazmayı yeniden öğrenmenize gerek yok. Araç çubuğumuz ve kısayollarımız Word ve Excel'i taklit eder, böylece anında üretken olursunuz.",
-    "feat_3_title": "Hafif ve Hızlı",
-    "feat_3_desc": "Ağır yazılımların yüklenmesini beklemeyin. NoteOCR Düzenleyici, yavaş bağlantılarda bile 2 saniyenin altında açılır.",
-    "formats_title": "Desteklenen Formatlar",
-    "formats_subtitle": "Tüm Office ekosistemini destekliyoruz. Mevcut dosyalarınızı yükleyin veya yeni bir başlangıç yapın.",
-    "format_docx": "Microsoft Word",
-    "format_xlsx": "Microsoft Excel",
-    "format_txt": "Düz Metin",
-    "format_csv": "Veri Sayfaları"
+    "meta_title": "Office Belgelerini Çevrimiçi Ücretsiz Düzenleyin - Tarayıcı Tabanlı Word, Excel ve PowerPoint Editörü",
+    "meta_desc": "Profesyonel çevrimiçi belge düzenleyici. Microsoft Office olmadan tarayıcınızda doğrudan Word (DOCX), Excel (XLSX) ve PowerPoint (PPTX) dosyaları oluşturun ve düzenleyin.",
+    "hero_pill": "Bulut Belge Çalışma Alanı",
+    "hero_title": "Office Belgelerini Çevrimiçi Düzenleyin",
+    "hero_highlight": "Yazılım Gerektirmeden",
+    "hero_subtitle": "Word, Excel ve PowerPoint için profesyonel tarayıcı tabanlı düzenleyici. Microsoft Office olmadan DOCX, XLSX ve PPTX dosyalarını oluşturun, düzenleyin ve işbirliği yapın.",
+    "trust_security": "256-BİT ŞİFRELEME",
+    "trust_sync": "GERÇEK ZAMANLI SENKRONIZASYON",
+    "trust_compatibility": "MS OFFICE UYUMLU",
+    "feat_1_title": "El Yazısından Metne",
+    "feat_1_desc": "Fiziksel notlarınızı anında düzenlenebilir dijital formatlara dönüştürün. El yazısı taslakları ve karalamalarının tanınmasında sektör lideri doğruluk için NoteOCR tarafından desteklenmektedir.",
+    "feat_2_title": "Gerçek Zamanlı Senkronizasyon",
+    "feat_2_desc": "Ekibinizle gerçek zamanlı işbirliği yapın. Her tuş vuruşu anında buluta kaydedilir, böylece çalışmanızın hiçbir sürümünü kaybetmezsiniz.",
+    "use_cases_title": "Çevrimiçi Belge Düzenleyicimizi Kimler Kullanıyor?",
+    "use_cases_subtitle": "Uzaktan çalışanlardan öğrencilere kadar milyonlarca kişi Office belgelerini çevrimiçi düzenliyor",
+    "use_case_1_title": "Uzaktan Çalışanlar",
+    "use_case_1_desc": "VPN veya şirket yazılımı olmadan evden iş belgelerini düzenleyin. Profesyonel formatlamayı korurken kişisel bilgisayarlarda Office dosyalarına erişin.",
+    "use_case_2_title": "Öğrenciler ve Eğitimciler",
+    "use_case_2_desc": "Office lisansı olmadan okul bilgisayarlarında denemeler yazın, sunumlar oluşturun ve elektronik tablolar yönetin. Grup projelerinde gerçek zamanlı işbirliği yapın.",
+    "use_case_3_title": "Serbest Çalışanlar ve Danışmanlar",
+    "use_case_3_desc": "Herhangi bir cihazdan müşteri teklifleri, faturalar ve raporlar düzenleyin. Microsoft 365 aboneliği olmadan profesyonel Office uyumlu belgeler.",
+    "use_case_4_title": "Dijital Göçebeler",
+    "use_case_4_desc": "İnternet kafelerden, ortak çalışma alanlarından veya otel iş merkezlerinden belgeler üzerinde çalışın. Ödünç alınan bilgisayarlara yazılım yüklemenize gerek yok.",
+    "comparison_title": "Çevrimiçi Düzenleyici vs Masaüstü Yazılımı",
+    "comparison_subtitle": "Tarayıcı tabanlı düzenleme neden geleneksel yazılımı geçiyor",
+    "comparison_solution": "Çözüm",
+    "comparison_access": "Erişim",
+    "comparison_features": "Özellikler",
+    "comparison_cost": "Maliyet",
+    "comparison_ms_office": "MS Office Masaüstü",
+    "comparison_ms_access": "Kurulum gerekli",
+    "comparison_ms_features": "Tam, cihaza bağlı",
+    "comparison_ms_cost": "₺3.500/yıl",
+    "comparison_google": "Google Workspace",
+    "comparison_google_access": "Web tabanlı",
+    "comparison_google_features": "Sınırlı Office uyumluluğu",
+    "comparison_google_cost": "₺250/kullanıcı/ay",
+    "comparison_noteocr": "NoteOCR Düzenleyici",
+    "comparison_noteocr_access": "Anında, tarayıcı tabanlı",
+    "comparison_noteocr_features": "Tam Office desteği",
+    "comparison_noteocr_cost": "Ücretsiz-₺/tek seferlik",
+    "features_title": "Çevrimiçi Düzenleyicimiz Masaüstü Yazılımını Neden Geçiyor",
+    "features_subtitle": "Yazılım karmaşası olmadan profesyonel belge düzenleme",
+    "feature_main_1_title": "Microsoft Office Uyumlu",
+    "feature_main_1_desc": "DOCX, XLSX ve PPTX formatlarıyla tam uyumluluk. Office yüklemeden Microsoft Office dosyalarını düzenleyin. Formatlamayı, formülleri ve gelişmiş özellikleri korur.",
+    "feature_main_2_title": "Tarayıcı Tabanlı Düzenleme",
+    "feature_main_2_desc": "Chrome, Safari, Firefox ve Edge'de anında çalışır. İndirme yok, kurulum yok, eklenti yok. Herhangi bir bilgisayardan belge düzenleyin—ev, ofis, kütüphane veya kafe.",
+    "feature_main_3_title": "Bulut Otomatik Kaydetme",
+    "feature_main_3_desc": "Otomatik bulut senkronizasyonu her değişikliği kaydeder. Çökmeler veya kapalı sekmeler nedeniyle asla çalışma kaybetmeyin. Sorunsuz süreklilikle herhangi bir cihazdan belgelerinize erişin.",
+    "technical_title": "Tarayıcı Tabanlı Office Düzenleme Nasıl Çalışır",
+    "technical_desc": "Geleneksel belge düzenleme, masaüstü yazılım kurulumları gerektirir. Bulut tabanlı düzenleyicimiz, modern web standartlarını (WebAssembly, Canvas API) kullanarak tamamen web tarayıcınızda çalışır. Office dosya formatlarını (OOXML, OpenDocument) sunucuda ayrıştırır, tarayıcınızda görüntüler ve değişiklikleri buluta geri senkronize ederiz—size bulut kolaylığıyla masaüstü kalitesinde düzenleme sunuyoruz.",
+    "technical_formats_title": "Desteklenen Formatlar",
+    "technical_format_1": "Microsoft Word (DOCX, DOC)",
+    "technical_format_2": "Microsoft Excel (XLSX, XLS)",
+    "technical_format_3": "PowerPoint (PPTX, PPT)",
+    "technical_format_4": "OpenDocument (ODT, ODS, ODP)",
+    "technical_format_5": "PDF, RTF, CSV'ye dışa aktarma",
+    "technical_features_title": "Temel Özellikler",
+    "technical_feature_1": "Gerçek zamanlı işbirliği",
+    "technical_feature_2": "Sürüm geçmişi ve geri yükleme",
+    "technical_feature_3": "Mobil ve tablette çalışır",
+    "technical_feature_4": "Çevrimdışı düzenleme (PWA)",
+    "technical_feature_5": "Yorum ve öneri modu",
+    "related_tools_title": "İlgili OCR Araçları",
+    "related_tool_1_name": "El Yazısından Word'e",
+    "related_tool_1_desc": "Notları DOCX'e dönüştürün",
+    "related_tool_2_name": "El Yazısından Excel'e",
+    "related_tool_2_desc": "Taramalardan tabloları çıkarın",
+    "related_tool_3_name": "PDF'yi Çevrimiçi Düzenle",
+    "related_tool_3_desc": "Tarayıcı tabanlı PDF düzenleyici",
+    "related_tool_4_name": "Görüntüden Metne",
+    "related_tool_4_desc": "Görüntülerden metin çıkarın",
+    "faq_title": "Çevrimiçi Belge Düzenleme Hakkında Sıkça Sorulan Sorular",
+    "cta_title": "Belgeleri Çevrimiçi Düzenlemeye Hazır mısınız?",
+    "cta_subtitle": "Yazılım olmadan Office belgelerini düzenleyen 500.000+ kullanıcıya katılın",
+    "cta_btn": "Düzenleyiciyi Şimdi Aç",
+    "editor_card_title": "Profesyonel Belge Çalışma Alanı",
+    "editor_card_subtitle": "Word, Excel veya PowerPoint belgeleri oluşturun. Veya yazılım olmadan çevrimiçi düzenlemek için mevcut Office dosyalarını yükleyin.",
+    "editor_btn_new": "Yeni Belge Oluştur",
+    "editor_btn_upload": "Mevcut Dosyayı Yükle",
+    "editor_info_1": "DOCX, XLSX, PPTX",
+    "editor_info_2": "Maks. 25MB",
+    "editor_info_3": "Bulutta Kaydedildi",
+    "editor_feature_1_title": "Office Uyumlu",
+    "editor_feature_1_desc": "Microsoft Office formatları için tam destek",
+    "editor_feature_2_title": "Tarayıcı Tabanlı",
+    "editor_feature_2_desc": "Kurulum yok, her cihazda çalışır",
+    "editor_feature_3_title": "Otomatik Kaydetme",
+    "editor_feature_3_desc": "Gerçek zamanlı bulut senkronizasyonu",
+    "editor_tip_label": "Şunlar için mükemmel:",
+    "editor_tip_text": "Chromebook kullanıcıları, uzaktan çalışanlar, paylaşılan bilgisayarlar ve Office fiyatı olmadan Office uyumluluğuna ihtiyaç duyan herkes.",
+    "modal_new_title": "Yeni Belge Oluştur",
+    "modal_new_subtitle": "Tarayıcınızda hangi tür belge oluşturmak istediğinizi seçin.",
+    "modal_upload_title": "Office Dosyası Yükle",
+    "modal_upload_subtitle": "Çevrimiçi düzenlemek için mevcut Word, Excel veya PowerPoint dosyalarını içe aktarın.",
+    "modal_doc_word": "Word Belgesi",
+    "modal_doc_word_sub": "DOCX / ODT",
+    "modal_doc_excel": "Excel Elektronik Tablosu",
+    "modal_doc_excel_sub": "XLSX / CSV",
+    "modal_doc_powerpoint": "PowerPoint",
+    "modal_doc_powerpoint_sub": "PPTX / ODP",
+    "modal_upload_text": "Office dosyasını buraya tıklayın veya sürükleyin",
+    "modal_upload_formats": "DOCX, XLSX, PPTX, ODT, ODS, RTF, CSV desteklenir • Maks. 25MB",
+    "modal_security": "Bulutta Şifrelenmiş ve Otomatik Kaydedilmiş",
+    "loading_importing": "Belge İçe Aktarılıyor...",
+    "loading_creating": "Çalışma Alanı Oluşturuluyor...",
+    "loading_subtitle": "Bulut düzenleyici ortamınız kurulmaya devam ediyor",
+    "FAQ": {
+      "edit_office_online": {
+        "q": "Office olmadan Microsoft Office dosyalarını çevrimiçi düzenleyebilir miyim?",
+        "a": "Evet. NoteOCR'ın tarayıcı tabanlı düzenleyicisi, web tarayıcınızda doğrudan Word (DOCX), Excel (XLSX) ve PowerPoint (PPTX) dosyaları oluşturmanıza ve düzenlemenize olanak tanır. Microsoft Office kurulumuna gerek yoktur. Dosyanızı yükleyin veya yeni bir belge oluşturun ve hemen düzenlemeye başlayın."
+      },
+      "browser_compatibility": {
+        "q": "Çevrimiçi belge düzenleyici hangi tarayıcıları destekliyor?",
+        "a": "Düzenleyicimiz tüm modern tarayıcılarda çalışır: Chrome, Firefox, Safari ve Edge. Mobil tarayıcılarda da çalışır (iOS Safari, Android için Chrome). En iyi deneyim için masaüstünde Chrome veya Edge'in en son sürümünü kullanmanızı öneririz."
+      },
+      "word_online_free": {
+        "q": "Çevrimiçi Word düzenleyici gerçekten ücretsiz mi?",
+        "a": "Evet. Sınırsız sayıda Word belgesi ücretsiz olarak oluşturabilir ve düzenleyebilirsiniz. Ücretsiz kullanıcılar tam düzenleme özellikleri, bulut depolama ve DOCX/PDF'ye dışa aktarma imkanı alır. Premium planlar gerçek zamanlı işbirliği, sürüm geçmişi ve öncelikli işleme gibi gelişmiş özellikler sunar."
+      },
+      "excel_formulas": {
+        "q": "Çevrimiçi Excel düzenleyicide formüller ve fonksiyonlar kullanabilir miyim?",
+        "a": "Evet. Excel düzenleyicimiz tüm standart formülleri destekler (TOPLA, ORTALAMA, DÜŞEYARA, EĞER ifadeleri vb.). Grafikler, pivot tablolar ve koşullu biçimlendirme oluşturabilirsiniz. Karmaşık makrolar ve VBA betikleri tarayıcı sürümünde desteklenmez."
+      },
+      "powerpoint_presentations": {
+        "q": "Çevrimiçi profesyonel PowerPoint sunumları oluşturabilir miyim?",
+        "a": "Evet. PowerPoint düzenleyicimiz şablonlar, slayt düzenleri, animasyonlar ve geçişler içerir. Resimler, grafikler, videolar ve konuşmacı notları ekleyebilirsiniz. Sunumları PPTX veya PDF olarak dışa aktarın. Sunum destelerini, okul projelerini ve iş sunumlarını oluşturmak için mükemmeldir."
+      },
+      "file_storage": {
+        "q": "Çevrimiçi düzenleme yaptığımda belgelerim nerede saklanır?",
+        "a": "Belgeler düzenleme sırasında güvenli bulut depolamada saklanır. Düzenlenmiş dosyaları istediğiniz zaman cihazınıza indirebilirsiniz. Güvenlik için dosyalar 24 saat sonra sunucularımızdan otomatik olarak silinir. Kalıcı bulut depolama için ücretsiz bir hesap oluşturun."
+      },
+      "offline_editing": {
+        "q": "Belgeleri çevrimdışı düzenleyebilir miyim?",
+        "a": "Progressive Web App (PWA) aracılığıyla sınırlı çevrimdışı düzenleme mevcuttur. Düzenleyiciyi tarayıcı menünüzden yükleyin. Daha önce açılan belgeleri çevrimdışı düzenleyebilirsiniz, ancak yeni yüklemeler ve gelişmiş özellikler internet bağlantısı gerektirir."
+      },
+      "collaboration": {
+        "q": "Birden fazla kişi aynı belgeyi aynı anda düzenleyebilir mi?",
+        "a": "Evet (Premium özellik). İşbirlikçilerle bir belge bağlantısı paylaşın. Herkes yazarken gerçek zamanlı değişiklikleri görür. Yorumlar, öneriler ve sürüm geçmişi ekiplerin birlikte çalışmasına yardımcı olur. Ücretsiz kullanıcılar salt okunur bağlantılar paylaşabilir."
+      },
+      "microsoft_account": {
+        "q": "Office dosyalarını düzenlemek için Microsoft hesabına ihtiyacım var mı?",
+        "a": "Hayır. Microsoft hesabına, Office lisansına veya herhangi bir ücretli aboneliğe ihtiyacınız yoktur. Sadece NoteOCR'ı ziyaret edin, Office dosyanızı yükleyin ve düzenlemeye başlayın. Düzenleyicimiz Microsoft'un hizmetlerinden tamamen bağımsızdır."
+      },
+      "export_formats": {
+        "q": "Belgelerimi hangi formatlara aktarabilirim?",
+        "a": "Dışa aktarma seçenekleri belge türüne göre değişir. Word: DOCX, PDF, RTF, TXT. Excel: XLSX, CSV, PDF. PowerPoint: PPTX, PDF. Tüm dışa aktarmalar biçimlendirmeyi, resimleri ve düzeni korur. İçeriği diğer uygulamalara da kopyalayabilir/yapıştırabilirsiniz."
+      },
+      "templates": {
+        "q": "Düzenleyici belge şablonları içeriyor mu?",
+        "a": "Evet. Özgeçmişler, faturalar, raporlar, sunumlar ve elektronik tablolar için profesyonel şablonlar arasından seçim yapın. Şablonlar önceden biçimlendirilmiş ve özelleştirmeye hazırdır. Kullanıcı isteklerine göre düzenli olarak yeni şablonlar eklenir."
+      },
+      "mobile_editing": {
+        "q": "Telefonumda veya tabletimde belge düzenleyebilir miyim?",
+        "a": "Evet. Düzenleyici arayüzü mobil ekranlara (iOS ve Android) uyum sağlar. Hızlı düzenlemeler yapabilir, yorumlar ekleyebilir ve hareket halindeyken belgeleri inceleyebilirsiniz. Kapsamlı biçimlendirme veya karmaşık düzenler için tablet veya masaüstü kullanmanızı öneririz."
+      },
+      "compatibility_issues": {
+        "q": "Çevrimiçi düzenleme yaparken Office biçimlendirmem korunacak mı?",
+        "a": "Evet. Düzenleyicimiz yazı tipleri, renkler, stiller, sayfa düzenleri, üstbilgiler/altbilgiler, tablolar ve gömülü resimler dahil Microsoft Office biçimlendirmesini korur. Makrolar, gelişmiş grafikler veya özel yazı tipleri gibi karmaşık özellikler ayarlama gerektirebilir."
+      },
+      "file_size_limit": {
+        "q": "Çevrimiçi düzenleyebileceğim maksimum dosya boyutu nedir?",
+        "a": "Ücretsiz kullanıcılar 25 MB'a kadar dosya yükleyebilir. Premium kullanıcılar 100 MB'a kadar dosya yükleyebilir. Çok büyük belgeler için (50+ sayfa), işleme 15-30 saniye sürebilir. Daha hızlı düzenleme için son derece büyük dosyaları bölmenizi öneririz."
+      },
+      "security_privacy": {
+        "q": "Çevrimiçi düzenleme yaparken belge verilerim güvende mi?",
+        "a": "Evet. Tüm yüklemeler banka düzeyinde SSL şifrelemesi kullanır. Belgeler izole edilmiş güvenli kapsayıcılarda işlenir. İçeriğinize asla erişmez, okumaz veya paylaşmayız. Güvenlik için dosyalar 24 saat sonra sunucularımızdan otomatik olarak silinir. Maksimum gizlilik için çevrimdışı modunu kullanın."
+      },
+      "desktop_vs_online": {
+        "q": "Çevrimiçi ve masaüstü Office düzenleyicileri arasındaki fark nedir?",
+        "a": "Çevrimiçi düzenleyiciler kurulum olmadan herhangi bir tarayıcıda anında çalışır. Masaüstü yazılımı daha gelişmiş özellikler (makrolar, eklentiler) sunar ancak satın alma, güncellemeler ve cihaza özel kurulumlar gerektirir. Çevrimiçi düzenleme, temel-orta düzey belge çalışması ve cihazlar arası erişim için idealdir."
+      },
+      "libreoffice_compatibility": {
+        "q": "LibreOffice ve OpenOffice belgelerini düzenleyebilir miyim?",
+        "a": "Evet. OpenDocument formatlarını destekliyoruz: ODT (metin), ODS (elektronik tablo) ve ODP (sunum). LibreOffice dosyalarını yükleyin, tarayıcıda düzenleyin ve ODT olarak geri aktarın veya Microsoft Office formatlarına (DOCX, XLSX, PPTX) dönüştürün."
+      },
+      "macro_support": {
+        "q": "Çevrimiçi düzenleyici Excel makroları ve VBA'yı destekliyor mu?",
+        "a": "Hayır. Tarayıcı tabanlı düzenleyiciler güvenlik nedenleriyle VBA makrolarını yürütemez. Makrolu bir Excel dosyası yüklerseniz, verileri düzenleyebilirsiniz ancak makrolar çalışmaz. Makro ağırlıklı iş akışları için masaüstü Excel kullanın veya veri manipülasyonu için CSV'ye aktarın."
+      },
+      "chromebook_editing": {
+        "q": "Chromebook'ta Office belgelerini düzenleyebilir miyim?",
+        "a": "Evet. NoteOCR'ın çevrimiçi düzenleyicisi, masaüstü Office yazılımını desteklemeyen Chromebook'lar için mükemmeldir. Chrome tarayıcısında doğrudan Word, Excel ve PowerPoint dosyalarını düzenleyin. Android uygulamalarına veya Linux kapsayıcılarına gerek yoktur. ChromeOS'ta tam Office uyumluluğu."
+      },
+      "version_history": {
+        "q": "Belgemin önceki sürümlerini geri yükleyebilir miyim?",
+        "a": "Evet (Premium özellik). Sürüm geçmişi her düzenleme yaptığınızda otomatik olarak anlık görüntüler kaydeder. Tek tıklamayla önceki herhangi bir sürümü geri yükleyin. Değişiklikleri görmek için sürümleri yan yana karşılaştırın. Ücretsiz kullanıcılar mevcut sürümleri indirebilir ancak otomatik geçmiş takibi alamazlar."
+      }
+    }
   },
   "ExcelPage": {
     "meta_title": "El Yazısı Tabloları Excel'e (XLSX) Dönüştür | NoteOCR",
-    "meta_desc": "Veri girişini otomatikleştirin. El yazısı ızgaraları, finansal tabloları ve çizelgeleri AI ile anında düzenlenebilir Excel sayfalarına dönüştürün.",
-    "hero_pill": "Akıllı Izgara Tanıma",
-    "hero_title": "El Yazısından",
-    "hero_highlight": "Excel'e",
-    "hero_subtitle": "Manuel veri girişine son verin. AI, el yazısı notlarınızdaki satırları, sütunları ve başlıkları algılar ve bunları .xlsx dosyalarına dönüştürür.",
-    "trust_security": "Banka Düzeyinde Güvenlik",
-    "trust_grid": "Çoklu Sütun Algılama",
-    "trust_accuracy": "%99,8 Sayısal Doğruluk",
-    "feat_1_title": "Akıllı Izgaralar",
-    "feat_1_desc": "Sadece metni görmüyoruz; yapıyı görüyoruz. Motorumuz çizilen çizgileri ve birleştirilmiş hücreleri otomatik olarak tanımlar.",
-    "feat_2_title": "Finansal Doğruluk",
-    "feat_2_desc": "Sayılar için optimize edildi. El yazısı faturaları, envanter listelerini ve finansal defterleri dijitalleştirmek için mükemmeldir.",
-    "feat_3_title": "Evrensel Dışa Aktarım",
-    "feat_3_desc": "Verilerinizi standart Microsoft Excel (.xlsx) veya CSV formatında indirin, Google E-Tablolar'a kolayca aktarın.",
-    "how_title": "Kağıttan e-tabloya saniyeler içinde",
-    "step_1_title": "Çek",
-    "step_1_desc": "Defterinizin veya veri tablonuzun bir fotoğrafını çekin.",
-    "step_2_title": "Çözümle",
-    "step_2_desc": "AI, satırların ve sütunların geometrisini haritalandırır.",
-    "step_3_title": "Dışa Aktar",
-    "step_3_desc": "Temiz ve formüllü bir Excel dosyası indirin.",
-    "faq_title": "Sıkça Sorulan Sorular",
-    "cta_title": "Verilerinizi bugün dijitalleştirin",
-    "cta_btn": "Tabloyu Şimdi Dönüştür"
+    "meta_desc": "Veri girişini otomatikleştirin. El yazısı çizelgeleri, finansal tabloları ve programları AI kullanarak anında düzenlenebilir Excel tablolarına dönüştürün.",
+
+    "hero_pill": "Tablo Yapısı Tanıma Teknolojisi",
+    "hero_title": "El Yazısı Tabloları Excel E tablolarına Dönüştürün",
+    "hero_subtitle": "Verileri manuel olarak yeniden yazmayı bırakın. Yapay zekamız, el yazısı notlarınızdaki satırları, sütunları ve hücre sınırlarını —çizgi olmasa bile— algılar ve formatlanmış .xlsx dosyaları olarak dışa aktarır.",
+
+    "trust_ssl": "SSL ŞİFRELEMELİ",
+    "trust_processing": "2 DAKİKADA İŞLEME",
+    "trust_accuracy": "%98 SAYISAL DOĞRULUK",
+
+    "before_after_title": "Aradaki Farkı Görün",
+    "before_after_desc": "Korunan yapı ve sayısal doğruluğu gösteren gerçek dönüşüm örneği",
+    "before_label": "Önce: El Yazısı Defter Kaydı",
+    "before_placeholder": "[Sonuçları görmek için el yazısı tablonuzu buraya yükleyin]",
+    "after_label": "Sonra: Excel Çıktısı",
+    "after_placeholder": "[Formatlanmış tablo önizlemesi]",
+
+    "use_cases_title": "El Yazısını Excel'e Kimler Dönüştürüyor?",
+    "use_cases_subtitle": "Muhasebe firmalarından öğretmenlere kadar binlerce kişi her gün tablolarını dijitalleştiriyor",
+
+    "use_case_1_title": "Muhasebe ve Defter Tutma",
+    "use_case_1_desc": "El yazısı finansal defterleri, gider raporlarını ve makbuzları vergi hazırlığı ve denetimler için sıralanabilir Excel dosyalarına dönüştürün.",
+
+    "use_case_2_title": "Envanter Yönetimi",
+    "use_case_2_desc": "Stok sayımlarını, ürün listelerini ve depo kayıtlarını dijitalleştirin. Kağıt üzerinde envanter takibi yapan küçük işletmeler için mükemmeldir.",
+
+    "use_case_3_title": "Öğretmenler ve Not Çizelgeleri",
+    "use_case_3_desc": "El yazısı not defterlerini ve öğrenci listelerini karneler ve gelişim takibi için formatlanmış tablolara dönüştürün.",
+
+    "use_case_4_title": "Araştırma ve Veri Toplama",
+    "use_case_4_desc": "Saha notlarını, anket yanıtlarını ve laboratuvar veri tablolarını istatistiksel yazılımlar için analiz edilebilir veri setlerine dönüştürün.",
+
+    "comparison_title": "El Yazısı Tabloyu Excel'e Dönüştürme: Yöntem Kıyaslaması",
+    "comparison_subtitle": "NoteOCR neden manuel veri girişine göre saatlerce zaman kazandırır?",
+    "comparison_col_method": "Yöntem",
+    "comparison_col_time": "Süre",
+    "comparison_col_accuracy": "Doğruluk",
+    "comparison_col_cost": "Maliyet",
+
+    "comparison_row1_method": "Manuel Yazma",
+    "comparison_row1_time": "45 dakika",
+    "comparison_row1_accuracy": "%95 (insan hatası)",
+    "comparison_row1_cost": "$15/saat işçilik",
+
+    "comparison_row2_method": "Genel OCR",
+    "comparison_row2_time": "10 dakika",
+    "comparison_row2_accuracy": "%50 (yapı bozulur)",
+    "comparison_row2_cost": "Ücretsiz-$20",
+
+    "comparison_row3_method": "NoteOCR Tablolar",
+    "comparison_row3_time": "2 dakika",
+    "comparison_row3_accuracy": "%98 yapı korunur",
+    "comparison_row3_cost": "Uygun sayfa başı maliyet",
+
+    "features_title": "Tablo OCR'ımız Neden Farklı?",
+    "features_subtitle": "El yazısı veri tabloları için özel olarak tasarlandı",
+
+    "feature_1_title": "Akıllı Izgara Algılama",
+    "feature_1_desc": "Yapay zekamız, görünür çizgiler olmasa bile tablo yapısını tanımlar. El yazısı düzenlerindeki sütunları ve metin hizalamalarını tanır.",
+
+    "feature_2_title": "Sayılar İçin Optimize Edildi",
+    "feature_2_desc": "Finansal veriler için mükemmel doğruluk. Sayısal biçimlendirmeyi koruyarak muhasebe defterlerini ve envanter sayımlarını dönüştürün.",
+
+    "feature_3_title": "Excel veya CSV Olarak Dışa Aktar",
+    "feature_3_desc": "Verilerinizi hücre biçimlendirmesiyle birlikte .xlsx olarak indirin veya veritabanları için CSV olarak dışa aktarın.",
+
+    "tech_title": "Izgara Algılama Teknolojisi Nasıl Çalışır?",
+    "tech_intro": "Çoğu OCR aracı tabloları düz metin olarak görür ve hücre ilişkilerini bozar. NoteOCR'ın özel yapay zekası, tablonuzun tam yapısını yeniden oluşturmak için konumsal verileri analiz eder.",
+
+    "tech_detect_title": "Neleri Algılıyoruz?",
+    "tech_detect_1": "Çizgisiz hücre sınırları",
+    "tech_detect_2": "Sütun başlıkları ve hiyerarşiler",
+    "tech_detect_3": "Birleştirilmiş hücreler",
+    "tech_detect_4": "Para birimi sembolleri ve ondalıklar",
+    "tech_detect_5": "Kareli veya düz kağıt tabloları",
+
+    "tech_tips_title": "En İyi Sonuç İçin İpuçları",
+    "tech_tips_1": "Fotoğraf çekerken iyi ışık kullanın",
+    "tech_tips_2": "Kamerayı sayfaya paralel tutun",
+    "tech_tips_3": "Tarama için 300 DPI kullanın",
+    "tech_tips_4": "Tüm tabloyu tek bir kareye sığdırın",
+    "tech_tips_5": "Kritik işlemlerden önce çıktıyı kontrol edin",
+
+    "related_tools_title": "İlgili OCR Araçları",
+
+    "related_tool_1_name": "Görüntüden Word'e",
+    "related_tool_1_desc": "El yazısı metinleri formatlı belgelere dönüştürün",
+
+    "related_tool_2_name": "Çevrimiçi PDF Düzenle",
+    "related_tool_2_desc": "Kurulum yapmadan PDF dosyalarını düzenleyin",
+
+    "related_tool_3_name": "Çevrimiçi Belge Düzenleyici",
+    "related_tool_3_desc": "Word veya Excel belgelerini ücretsiz düzenleyin",
+
+    "related_tool_4_name": "Görüntüden Metne",
+    "related_tool_4_desc": "Resimdeki el yazısını düzenlenebilir metne dönüştürün",
+
+    "faq_title": "Tablodan Excel'e Dönüştürme Hakkında Sıkça Sorulan Sorular",
+
+    "cta_title": "Manuel Veri Girişini Durdurmaya Hazır mısınız?",
+    "cta_subtitle": "NoteOCR ile tablolarını dijitalleştiren 10.000'den fazla kullanıcıya katılın",
+    "cta_button": "Tablonu Şimdi Dönüştür",
+
+    "tool_upload_title": "El Yazısı Tablonuzu Yükleyin",
+    "tool_upload_desc": "Defterleri, envanter listelerini ve not çizelgelerini destekler. Çizgili veya çizgisiz çalışır.",
+    "tool_upload_button": "Görsel Seç",
+    "tool_upload_check_1": "JPG, PNG, JPEG",
+    "tool_upload_check_2": "Maks 25MB",
+    "tool_upload_check_3": "SSL Güvenli",
+
+    "tool_processing_title": "Tablo Yapısı Algılanıyor...",
+    "tool_processing_desc": "AI satırları, sütunları ve hücreleri analiz ediyor",
+
+    "tool_complete_title": "Tablo Başarıyla Çıkarıldı!",
+    "tool_complete_desc": "Tablonuz hazır. Excel (.xlsx) veya CSV formatında indirin.",
+    "tool_complete_file_type": "Excel Tablosu",
+    "tool_complete_status": "HAZIR",
+    "tool_download_button": "Excel İndir",
+    "tool_new_button": "Yeni Tablo",
+
+    "tool_info_1_title": "Akıllı Algılama",
+    "tool_info_1_desc": "Çizgisi olmayan tablolarla bile çalışır",
+
+    "tool_info_2_title": "%99 Doğruluk",
+    "tool_info_2_desc": "Sayılar ve finansal veriler için optimize edildi",
+
+    "tool_info_3_title": "Excel Formatı",
+    "tool_info_3_desc": "Excel, Sheets ve veritabanları ile uyumlu",
+
+    "tool_tip_label": "Profesyonel İpucu:",
+    "tool_tip_text": "En iyi sonuçlar için tablonuzu iyi ışıkta çekin ve kamerayı paralel tutun. 300 DPI taramalar düşük çözünürlüklü fotolardan daha iyidir.",
+
+    "toast_success": "Tablo başarıyla çıkarıldı!",
+    "toast_error_type": "Lütfen geçerli bir görsel (JPG, PNG, WEBP) veya PDF yükleyin",
+    "toast_error_size": "Dosya boyutu 25MB'dan küçük olmalıdır",
+    "toast_error_extraction": "Çıkarma işlemi başarısız.",
+    "toast_download_success": "Excel dosyası indirildi!",
+    "toast_download_error": "İndirme başarısız.",
+
+    "FAQ": {
+      "items": {
+        "table_to_excel": {
+          "q": "El yazısı tabloyu Excel'e nasıl dönüştürürüm?",
+          "a": "Tablonuzun fotoğrafını NoteOCR'a yükleyin. AI satırları ve sütunları otomatik algılar ve indirilebilir Excel (.xlsx) dosyasına dönüştürür."
+        },
+        "cursive": {
+          "q": "NoteOCR tablodaki bitişik el yazısını okuyabilir mi?",
+          "a": "Evet. Yapay zekamız milyonlarca el yazısı örneğiyle eğitilmiştir. Yazı çok karışık olsa bile tablo yapısı korunur."
+        },
+        "math": {
+          "q": "Matematiksel formülleri işler mi yoksa sadece değerleri mi?",
+          "a": "NoteOCR sayısal değerleri çıkarır. Dinamik Excel formülleri oluşturmaz, ancak verileri doğru aktarır, böylece formülleri sonra ekleyebilirsiniz."
+        },
+        "is_free": {
+          "q": "El yazısını Excel'e dönüştürücü ücretsiz mi?",
+          "a": "NoteOCR ücretli bir hizmettir ancak doğruluğu test etmeniz için ücretsiz deneme kredileri sunar. Abonelik gerektirmeyen tek seferlik paketlerimiz mevcuttur."
+        },
+        "no_borders": {
+          "q": "Tablomda çizgi veya kenarlık yoksa ne olur?",
+          "a": "AI, metin hizalamasını ve boşlukları analiz ederek tablo yapısını bulur. Düz kağıda çizgisiz yazılmış tabloları başarıyla dönüştürebilirsiniz."
+        },
+        "ledger_specific": {
+          "q": "Eski muhasebe defterlerini dönüştürebilir miyim?",
+          "a": "Kesinlikle. NoteOCR tarih, açıklama, borç, alacak gibi çok sütunlu finansal belgeler için optimize edilmiştir."
+        },
+        "accuracy_numbers": {
+          "q": "Sayılar konusundaki doğruluğu nedir?",
+          "a": "Sayısal doğruluk %99 civarındadır. Yapay zekamız rakamları ve para birimi sembollerini tanımada uzmanlaşmıştır."
+        },
+        "batch_process": {
+          "q": "Aynı anda birden fazla tabloyu dönüştürebilir miyim?",
+          "a": "Şu an için görseller tek tek yüklenmektedir. Toplu işlemler (örneğin 50 sayfalık defter) için API çözümlerimiz mevcuttur."
+        },
+        "excel_vs_csv": {
+          "q": "Excel ve CSV dışa aktarma arasındaki fark nedir?",
+          "a": "Excel (.xlsx) hücre biçimlendirmesini korur. CSV ise veritabanları için uygun sade metin formatıdır ancak görsel düzeni içermez."
+        },
+        "edit_after": {
+          "q": "Dönüşümden sonra tabloyu düzenleyebilir miyim?",
+          "a": "Evet. İndirilen Excel dosyası tamamen düzenlenebilir. Standart Excel özelliklerini kullanarak düzeltme yapabilir veya formül ekleyebilirsiniz."
+        },
+        "grid_paper": {
+          "q": "Kareli kağıtta mı yoksa düz kağıtta mı daha iyi çalışır?",
+          "a": "Her ikisi de iyi çalışır. Kareli kağıt AI'nın sütunları ayırmasına yardımcı olur, ancak algoritmamız düz kağıt için de oldukça gelişmiştir."
+        },
+        "merged_cells": {
+          "q": "Birleştirilmiş hücreleri algılayabilir mi?",
+          "a": "Evet, AI metnin birden fazla sütuna yayıldığını tanımaya çalışır. Çok karmaşık birleştirmelerde Excel'de küçük bir manuel düzeltme gerekebilir."
+        },
+        "quality_tips": {
+          "q": "En iyi dönüşüm sonuçlarını nasıl alırım?",
+          "a": "(1) İyi ışık kullanın, (2) Kamerayı dik tutun, (3) Yazının makul derecede okunaklı olduğundan emin olun ve (4) Tüm tabloyu tek karede çekin."
+        },
+        "privacy": {
+          "q": "Finansal verilerim güvende mi?",
+          "a": "Evet. Tüm yüklemeler SSL şifrelemelidir. Görüntüleri işledikten sonra 24 saat içinde siliyoruz. Verilerinizi asla saklamıyoruz veya paylaşmıyoruz."
+        },
+        "compare_manual": {
+          "q": "Neden manuel yazmak yerine NoteOCR'ı kullanmalıyım?",
+          "a": "Manuel yazım 30-60 dakika sürer ve hata riski taşır. NoteOCR aynı işi 2 dakikada %98 doğrulukla bitirerek size zaman kazandırır."
+        }
+      }
+    }
   },
   "nav": {
     "product": "Ürün",
@@ -361,21 +1127,29 @@
     "email_placeholder": "E-posta adresinizi girin",
     "systems_ok": "Tüm sistemler çalışıyor",
     "product": "Ürün",
-    "company": "Kurumsal",
+    "use_cases": "Kullanım Durumları",
+    "company": "Şirket",
     "resources": "Kaynaklar",
-    "hiring": "Alım Var",
-    "copyright": "© {year} NoteOCR Inc. | Küresel ekipler için tasarlandı.",
+    "hiring": "İş İlanları",
+    "copyright": "© {year} NoteOCR Inc. Tüm hakları saklıdır.",
     "links": {
-      "notes_to_word": "Notları Word'e",
-      "table_to_excel": "Tabloyu Excel'e",
-      "online_editor": "Çevrimiçi Belge Editörü",
+      "notes_to_word": "Notları Word'e Dönüştür",
+      "table_to_excel": "Tabloyu Excel'e Aktar",
+      "online_editor": "Çevrimiçi Belge Düzenleyici",
+      "edit_pdf": "PDF Düzenle",
       "pricing": "Fiyatlandırma",
       "about": "Hakkımızda",
       "careers": "Kariyer",
       "contact": "İletişim",
+      "blog": "Blog",
       "docs": "Dokümantasyon",
+      "api": "API Referansı",
       "privacy": "Gizlilik Politikası",
-      "terms": "Kullanım Şartları"
+      "terms": "Kullanım Koşulları",
+      "security": "Güvenlik",
+      "sitemap": "Site Haritası",
+      "status": "Durum",
+      "changelog": "Değişim Günlüğü"
     }
   },
   "Contact": {
@@ -402,128 +1176,186 @@
   },
   "PricingUI": {
     "hero": {
-      "title_start": "Kusursuz el yazısı dönüşümü için",
-      "title_highlight": "basit fiyatlandırma.",
-      "subtitle": "El yazısı notları düzenlenebilir metne dönüştürün. Bir kez ödeyin, dilediğiniz zaman kullanın — abonelik yok, baskı yok."
+      "badge": "ABONELİK YOK",
+      "title_start": "Bir Kez Öde,",
+      "title_highlight": "Daima Kullan.",
+      "subtitle": "Yazılım kiralamayı bırakın. Asla sona ermeyen krediler satın alın ve Excel, Word ve Metin için dünyanın en doğru el yazısı OCR motoruna erişin."
     },
     "labels": {
-      "capacity": "Sayfa Kredisi",
-      "features": "Neler Alacaksınız"
+      "capacity": "Dahil Olan Sayfa",
+      "features": "Plan Özellikleri",
+      "most_popular": "En Popüler"
     },
     "plans": {
       "free": {
-        "name": "Ücretsiz Deneme",
-        "description": "Bir kuruş harcamadan el yazısı dönüşümünü deneyin.",
-        "pages": "7 sayfa (tek seferlik)",
-        "buttonText": "Ücretsiz Dene",
+        "name": "Hobi",
+        "desc": "Tek sayfalarda doğruluğu test edin.",
+        "price": "0",
+        "credits": "7 Sayfa",
+        "btn": "Ücretsiz Deneyin",
         "features": [
-          "Toplam 7 sayfa (süre sınırı yok)",
-          "Yüksek doğruluklu el yazısı motoru",
-          "Standart işlem hızı",
-          "Aynı anda 1 el yazısı görseli çevirme",
-          "Dönüştürülen metni önizleme",
-          "TXT olarak dışa aktarma",
-          "Temel doküman düzenleyici",
-          "Bulutta 3 dokümana kadar saklama"
-        ],
-        "missing": [
-          "Toplu işlem",
-          "Sürekli dönüşüm",
-          "Gelişmiş biçimlendirme",
-          "Tablo tanıma",
-          "Word, Excel, PDF dışa aktarma",
-          "Çoklu görsel yükleme",
-          "Doküman geçmişi ve versiyonlama"
+          "Standart OCR Doğruluğu",
+          "El Yazısından Metne",
+          "Temel TXT Dışa Aktarma",
+          "1 Günlük Bulut Depolama"
         ]
       },
       "starter": {
-        "name": "Starter",
-        "description": "Öğrenciler ve hafif not dönüşümleri için ideal.",
-        "pages": "100 sayfa",
-        "buttonText": "Starter'ı Al",
+        "name": "Öğrenci",
+        "desc": "Makaleler, notlar ve ödevler için.",
+        "price": "8",
+        "credits": "100 Sayfa",
+        "btn": "Starter Paketi Al",
         "features": [
-          "100 sayfa kredisi (asla silinmez)",
-          "%98 el yazısı doğruluk oranı",
-          "Hızlı el yazısı transkripsiyonu",
-          "Toplu yükleme desteği",
-          "Aynı anda 5 görsel yükleme",
-          "Sürekli dönüşüm (görsel birleştirme)",
-          "Word, Excel, PDF, HTML, TXT dışa aktarma",
-          "500 dokümana kadar bulut depolama",
-          "Öncelikli e-posta desteği",
-          "El yazısı stili öğrenme"
-        ],
-        "missing": [
-          "Sınırsız toplu işlem",
-          "Gelişmiş tablo ayıklama",
-          "Yapay zeka doküman biçimlendirici",
-          "Ekip işbirliği"
+          "Hobi Paketindeki Her Şey",
+          "El Yazısından Word'e (DOCX)",
+          "Düzen Koruma Motoru",
+          "Filigran Temizleme",
+          "E-posta Desteği"
         ]
       },
       "plus": {
-        "badge": "En Popüler",
-        "name": "Plus",
-        "description": "Büyük dokümanlarla çalışan yoğun kullanıcılar için.",
-        "pages": "300 sayfa",
-        "buttonText": "Plus'a Yükselt",
+        "name": "Profesyonel",
+        "desc": "Muhasebeciler ve araştırmacılar için.",
+        "price": "15",
+        "credits": "300 Sayfa",
+        "btn": "Profesyonel Paketi Al",
+        "badge": "En İyi Değer",
         "features": [
-          "300 sayfa kredisi",
-          "Tüm Starter özellikleri",
-          "Daha hızlı işlem kuyruğu",
-          "Gelişmiş tablo tanıma",
-          "PDF dokümanlarını düzenleme",
-          "Aynı anda 10 görsel yükleme",
-          "Gelişmiş biçimlendirme kontrolleri",
-          "Öncelikli sohbet ve e-posta desteği"
-        ],
-        "missing": [
-          "Sınırsız toplu işlem",
-          "Yapay zeka doküman biçimlendirici",
-          "Ekip yönetimi"
+          "Öğrenci Paketindeki Her Şey",
+          "El Yazısından Excel'e (XLSX)",
+          "Akıllı Tablo Algılama",
+          "Zor El Yazısı Modu",
+          "Toplu İşleme (10 dosya)"
         ]
       },
       "pro": {
-        "name": "Pro",
-        "description": "Profesyoneller ve ekipler için yüksek hacimli dönüşüm.",
-        "pages": "1.000 sayfa",
-        "buttonText": "Pro'ya Yükselt",
+        "name": "Güçlü Kullanıcı",
+        "desc": "Arşivler ve toplu veri girişi için.",
+        "price": "25",
+        "credits": "1.000 Sayfa",
+        "btn": "Power Pack Al",
         "features": [
-          "1.000 sayfa kredisi",
-          "Tüm Plus özellikleri",
-          "Yapay zeka doküman biçimlendirici",
-          "Gerçek zamanlı işlem kuyruğu",
-          "Sınırsız toplu işlem",
-          "Sürekli dönüşüm (tüm kitabı çevir)",
-          "Gelişmiş tablo ayıklama",
-          "Word, Excel ve PDF arası dönüşüm",
-          "Özel fatura markalama",
-          "Öncelikli sohbet ve e-posta desteği"
-        ],
-        "missing": []
+          "Profesyonel Paketindeki Her Şey",
+          "Eşzamanlı İşleme",
+          "Matematiksel Formül OCR",
+          "Öncelikli Sıra",
+          "Sınırsız Toplu Yükleme"
+        ]
       }
     },
-    "enterprise": {
-      "title": "1.000 sayfadan fazlasına mı ihtiyacınız var?",
-      "desc": "Özel limitler, API erişimi ve SLA garantileri ile size özel Kurumsal paket alın.",
-      "cta": "Satışla İletişime Geçin"
+    "comparison": {
+      "title": "Teknik Özelliklerin Dağılımı",
+      "subtitle": "NoteOCR neden genel tarayıcılardan daha iyi performans gösterir?",
+      "headers": [
+        "Özellik",
+        "Hobi",
+        "Öğrenci",
+        "Profesyonel",
+        "Güçlü Kullanıcı"
+      ],
+      "groups": {
+        "core": "Tanıma Zekası",
+        "formats": "Dışa Aktarma ve Dosya Türleri",
+        "system": "Sistem Performansı"
+      },
+      "rows": [
+        {
+          "name": "Matbu El Yazısı OCR",
+          "values": [true, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "Bitişik El Yazısı Motoru",
+          "values": ["Standart", "Yüksek", "Ultra", "Ultra"],
+          "group": "core"
+        },
+        {
+          "name": "Tablo Algılama (Excel)",
+          "values": [false, false, true, true],
+          "group": "core"
+        },
+        {
+          "name": "Düzen Koruma (Word)",
+          "values": [false, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "Matematiksel Formüller",
+          "values": [false, false, "Temel", "Gelişmiş"],
+          "group": "core"
+        },
+        {
+          "name": "Mürekkep Düzeltme",
+          "values": [false, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "Dışa Aktarma Formatları",
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Tüm Formatlar"],
+          "group": "formats"
+        },
+        {
+          "name": "Toplu Yükleme Sınırı",
+          "values": ["1 Dosya", "5 Dosya", "10 Dosya", "Sınırsız"],
+          "group": "formats"
+        },
+        {
+          "name": "Bulut Depolama Süresi",
+          "values": ["24 Saat", "30 Gün", "Süresiz", "Süresiz"],
+          "group": "system"
+        },
+        {
+          "name": "Şifreleme Seviyesi",
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "group": "system"
+        },
+        {
+          "name": "İşleme Önceliği",
+          "values": ["Standart", "Standart", "Yüksek", "Gerçek Zamanlı"],
+          "group": "system"
+        }
+      ]
+    },
+    "deep_dive": {
+      "title": "Doğruluk Neden Maliyetlidir?",
+      "cards": [
+        {
+          "title": "GPU ve CPU İşleme Karşılaştırması",
+          "desc": "Sıradan ücretsiz araçlar, kelimeleri tahmin eden ucuz CPU'lar kullanır. Biz, bağlamı anlayan özel NVIDIA T4 GPU'lar kullanarak sayısal ve finansal verilerde %99 doğruluk sağlıyoruz."
+        },
+        {
+          "title": "Düzen Zekası",
+          "desc": "Sadece metni okumuyoruz; koordinat sistemlerini haritalıyoruz. Bu, Excel tablolarını ve Word girintilerini kağıtta göründüğü gibi yeniden oluşturmamızı sağlayarak size saatlerce zaman kazandırır."
+        },
+        {
+          "title": "Güvenlik Mimarisi",
+          "desc": "Verileriniz geçici konteynerlerde işlenir. Dönüştürme bittiğinde ve dosyanızı indirdiğinizde, ham görüntü verileri silinir. Modellerimizi özel verilerinizle eğitmiyoruz."
+        }
+      ]
     },
     "faq_title": "Sıkça Sorulan Sorular",
-    "faqs": [
-      {
-        "q": "Bir sayfa ne sayılır?",
-        "a": "Bir sayfa, yüklenen bir görsele veya bir PDF dokümanı içindeki bir sayfaya eşittir."
-      },
-      {
-        "q": "Sayfalarımın süresi dolar mı?",
-        "a": "Hayır. Satın alınan tüm sayfalar sonsuza dek sizindir. Aylık sıfırlama yoktur."
-      }
-    ],
-    "support": {
-      "title": "Hala sorularınız mı var?",
-      "email_label": "Bize E-posta Gönderin",
-      "chat_label": "Canlı Sohbet",
-      "chat_time": "Hafta içi 09:00 – 17:00 EST"
-    }
+    "faqs": {
+      "items": [
+        {
+          "q": "Kredilerimin süresi dolar mı?",
+          "a": "Hayır. Asla. Bugün 300 sayfa satın alıp 2 yıl sonra kullanabilirsiniz. 'Kullanmazsan yanar' şeklindeki abonelik modellerine karşıyız."
+        },
+        {
+          "q": "Tam olarak bir 'Kredi' neyi ifade eder?",
+          "a": "1 Kredi = İşlenen 1 sayfa. 10 sayfalık bir PDF yüklerseniz 10 kredi tutar. Tek bir makbuz görseli yüklerseniz 1 kredi tutar."
+        },
+        {
+          "q": "Çok eski belgeleri işleyebilir miyim?",
+          "a": "Evet. Profesyonel ve Güçlü Kullanıcı katmanlarımız, tarihi el yazmaları üzerinde eğitilmiş Ultra modelimizi kullanır. Standart OCR'dan önemli ölçüüde daha iyidir."
+        },
+        {
+          "q": "5.000'den fazla sayfam var.",
+          "a": "Toplu arşivler için lütfen hesap oluşturduktan sonra destekle iletişime geçin. Büyük projeler için özel indirimler sunuyoruz."
+        }
+      ]
+    },
+    "footer_secure": "Stripe ile Güvenli Ödeme"
   },
   "Signup": {
     "meta_title": "NoteOCR'ye Katıl | İş Akışını Dijitalleştir",

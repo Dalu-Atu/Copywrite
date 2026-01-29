@@ -231,107 +231,872 @@
       }
     }
   },
+
   "WordPage": {
-    "meta_title": "手写转Word (DOCX) | NoteOCR",
-    "meta_desc": "立即将手写笔记转为Word文档，完美保留原始布局和表格。",
-    "hero_title_1": "手写转",
-    "hero_title_2": "Word",
-    "hero_subtitle": "不再重复打字。AI识别图片并生成可编辑的.docx文件，同时保留表格和样式。",
-    "feat_1_title": "布局保留",
-    "feat_1_desc": "自动识别列表、页眉和边距，确保 Word 文档版面与纸质笔记保持一致。",
-    "feat_2_title": "中文手写识别",
-    "feat_2_desc": "经过海量中文笔迹训练，能够精准识别各种中文字形及简繁体。",
-    "feat_3_title": "隐私至上",
-    "feat_3_desc": "文件采用加密处理，处理完成后 60 分钟内将从服务器永久删除。",
-    "faq_title": "常见问题",
-    "faq_q1": "能识别连体草书吗？",
-    "faq_a1": "可以。NoteOCR 使用针对连体和草写字迹优化过的神经网络。 ",
-    "faq_q2": "我的文件安全吗？",
-    "faq_a2": "绝对安全。我们使用 TLS 传输加密并在处理后即刻删除文件。"
+    "meta_title": "手写笔记转Word (DOCX) | NoteOCR - 高精度AI手写识别",
+    "meta_desc": "告别手动录入。利用AI将手写笔记转换为可编辑的Word文档。自动保留列表、标题和排版结构，支持连笔字和草书识别。",
+
+    "hero_pill": "智能文档识别",
+    "hero_title": "手写笔记秒转Word文档",
+    "hero_subtitle": "不再重复打字。我们的AI能将手写页面转换为可编辑的 .docx 文件，同时完美保留列表、标题、页边距和原始布局结构。",
+
+    "trust_ssl": "SSL加密安全",
+    "trust_processing": "30秒快速处理",
+    "trust_accuracy": "95% 识别准确率",
+
+    "before_after_title": "见证转换效果",
+    "before_after_desc": "真实案例展示：精准保留文档结构与格式",
+    "before_label": "转换前：手写笔记原图",
+    "before_placeholder": "[上传您的手写笔记查看识别结果]",
+    "after_label": "转换后：Word文档预览",
+    "after_placeholder": "[格式化Word文档预览]",
+
+    "use_cases_title": "谁在使用手写转Word？",
+    "use_cases_subtitle": "从学生到职场专业人士，数万用户每天都在实现笔记数字化",
+
+    "use_case_1_title": "学生与研究人员",
+    "use_case_1_desc": "将课堂笔记、研究日志和学习材料转换为可搜索的Word文档，方便撰写论文和管理参考文献。",
+
+    "use_case_2_title": "商务职场人士",
+    "use_case_2_desc": "将会议纪要、白板演示和讲座笔记数字化，快速生成团队共享的格式化报告。",
+
+    "use_case_3_title": "作家与记者",
+    "use_case_3_desc": "将手写稿件、故事大纲和采访笔记转换为可编辑的电子档，直接进入编辑与出版流程。",
+
+    "use_case_4_title": "档案管理员与史学家",
+    "use_case_4_desc": "将历史文献、私人信件和日记条目转换为数字档案，便于长期保存和学术检索。",
+
+    "comparison_title": "方法对比：手写转Word",
+    "comparison_subtitle": "为什么 NoteOCR 比手动打字节省数倍时间",
+    "comparison_col_method": "方法",
+    "comparison_col_time": "耗时",
+    "comparison_col_accuracy": "准确度",
+    "comparison_col_cost": "成本",
+
+    "comparison_row1_method": "手动打字",
+    "comparison_row1_time": "60分钟/页",
+    "comparison_row1_accuracy": "98% (极其枯燥、效率低下)",
+    "comparison_row1_cost": "免费 (消耗大量精力)",
+
+    "comparison_row2_method": "普通OCR工具",
+    "comparison_row2_time": "10分钟/页",
+    "comparison_row2_accuracy": "70% (格式完全丢失)",
+    "comparison_row2_cost": "免费至 100元",
+
+    "comparison_row3_method": "NoteOCR转换器",
+    "comparison_row3_time": "30秒",
+    "comparison_row3_accuracy": "95% (保留原始布局)",
+    "comparison_row3_cost": "约 55元/100页",
+
+    "features_title": "为什么我们的手写识别与众不同？",
+    "features_subtitle": "专为手写笔记转换为Word而生",
+
+    "feature_1_title": "排版自动还原",
+    "feature_1_desc": "不同于仅提取纯文本的普通OCR，我们的AI可以检测列表、标题和段落。您的Word文档将完美还原笔记本的原始结构。",
+
+    "feature_2_title": "连笔字与草书识别",
+    "feature_2_desc": "采用基于数百万手写样本训练的深度神经网络。能精准处理连笔字、草体、混合书写风格甚至涂改内容。",
+
+    "feature_3_title": "隐私第一的处理流程",
+    "feature_3_desc": "您的笔记在上传过程中全程加密，转换完成后永久删除。我们绝不会存储或分享您的个人手写内容。",
+
+    "tech_title": "手写识别背后的技术原理",
+    "tech_intro": "标准OCR工具将手写体视为印刷字符，会导致格式错乱。NoteOCR的专项AI通过分析笔触、间距模式和文档结构，为您重建一个排版精美的Word文档——完全保留您书写时的缩进和分段。",
+
+    "tech_detect_title": "我们能识别什么",
+    "tech_detect_1": "段落、列表与层级标题",
+    "tech_detect_2": "连笔字、草书与印刷体",
+    "tech_detect_3": "划线删除内容与修改标记",
+    "tech_detect_4": "页边距与段落缩进",
+    "tech_detect_5": "各类横栏纸与空白纸",
+
+    "tech_tips_title": "识别优化建议",
+    "tech_tips_1": "拍照时请确保光线充足",
+    "tech_tips_2": "手机镜头尽量与纸面平行",
+    "tech_tips_3": "扫描件建议使用 300 DPI 分辨率",
+    "tech_tips_4": "确保墨水与纸张有较高对比度",
+    "tech_tips_5": "完成转换后请简单核对输出结果",
+
+    "related_tools_title": "相关OCR工具",
+
+    "related_tool_1_name": "图片转Word",
+    "related_tool_1_desc": "将手写文字一键转为格式化文档",
+
+    "related_tool_2_name": "在线PDF编辑",
+    "related_tool_2_desc": "无需安装，随时随地在线编辑PDF",
+
+    "related_tool_3_name": "在线文档编辑器",
+    "related_tool_3_desc": "免费在线编辑Word或Excel文档",
+
+    "related_tool_4_name": "图片转文字",
+    "related_tool_4_desc": "将图片中的手写内容提取为可编辑文本",
+
+    "faq_title": "关于手写转Word的常见问题",
+
+    "cta_title": "准备好数字化您的手写笔记了吗？",
+    "cta_subtitle": "加入超过50,000名信赖 NoteOCR 的学生与职场人士",
+    "cta_button": "立即开始转换",
+
+    "footer_text": "NoteOCR // 智能文档处理专家",
+
+    "tool_upload_title": "上传您的手写笔记",
+    "tool_upload_desc": "支持讲义、会议记录、日记和研究论文。兼容连笔字、印刷体及混合风格。",
+    "tool_upload_button": "选择图片",
+    "tool_upload_check_1": "JPG, PNG, PDF",
+    "tool_upload_check_2": "最大支持 25MB",
+    "tool_upload_check_3": "SSL安全加密",
+
+    "tool_processing_title": "正在分析手写内容...",
+    "tool_processing_desc": "AI 正在识别字符并还原排版结构",
+
+    "tool_complete_title": "转换成功！",
+    "tool_complete_desc": "您的Word文档已准备就绪。下载后可在Word或Google文档中编辑。",
+    "tool_complete_file_type": "Word 文档 (.docx)",
+    "tool_complete_status": "已就绪",
+    "tool_download_button": "下载Word文档",
+    "tool_new_button": "新建转换",
+
+    "tool_info_1_title": "保留排版",
+    "tool_info_1_desc": "列表、标题和段落结构完好如初",
+
+    "tool_info_2_title": "95% 准确率",
+    "tool_info_2_desc": "针对手写连笔字深度优化",
+
+    "tool_info_3_title": "DOCX 格式",
+    "tool_info_3_desc": "兼容 Word, Docs 和 Pages",
+
+    "tool_tip_label": "专业建议：",
+    "tool_tip_text": "为了获得最佳识别效果，拍照时请从正上方拍摄，避免光影遮挡。保持笔迹清晰可见，有助于提高AI识别的准确度度。",
+
+    "toast_success": "转录完成！",
+    "toast_error_type": "请上传有效的图片格式 (JPG, PNG, WEBP) 或 PDF 文件",
+    "toast_error_size": "文件大小必须在 25MB 以内",
+    "toast_error_conversion": "转换失败，请重试。",
+    "toast_download_success": "Word文档已成功下载！",
+    "toast_download_error": "下载失败。",
+
+    "FAQ": {
+      "items": {
+        "handwriting_to_word": {
+          "q": "如何将手写笔记转为Word？",
+          "a": "只需将手写笔记的照片或扫描件上传至 NoteOCR。我们的 AI 会识别文字，保留布局（列表、段落、标题），并生成可下载的 .docx 文件。"
+        },
+        "cursive_reading": {
+          "q": "NoteOCR 能识别草书或连笔字吗？",
+          "a": "可以。我们的 AI 经过数百万手写样本的训练，对连笔字、草体及混合书写风格有极强的适应能力，远优于市面上的普通 OCR。"
+        },
+        "layout_preserved": {
+          "q": "转换后会保留原始布局吗？",
+          "a": "是的。不同于输出纯文本的工具，NoteOCR 能够自动识别序号、缩进、分段和边距，生成的 Word 文档将尽可能还原您的笔记本格式。"
+        },
+        "is_free_word": {
+          "q": "手写转Word是免费的吗？",
+          "a": "NoteOCR 为新用户提供免费试用。对于大批量识别需求，我们提供极具性价比的一次性付费包，无需订阅，永久有效。"
+        },
+        "messy_handwriting": {
+          "q": "如果我的字迹比较潦草，识别效果如何？",
+          "a": "NoteOCR 针对潦草字迹进行了专门算法优化。虽然准确率可能从 95% 略降至 85-90%，但识别结果依然具有很高的参考价值和可编辑性。"
+        },
+        "notebook_vs_loose": {
+          "q": "它支持笔记本横线纸吗？",
+          "a": "支持。无论是带横线的笔记本、网格纸还是空白 A4 纸，AI 都能自动过滤底纹干扰，只提取核心文字内容。"
+        },
+        "math_formulas": {
+          "q": "能转换数学公式或方程吗？",
+          "a": "NoteOCR 可以识别基础数字和数学符号，但复杂的数学公式可能需要手动校对。专业的数学 OCR 模式即将上线。"
+        },
+        "multiple_pages": {
+          "q": "我可以一次转换多页吗？",
+          "a": "可以。根据您购买的套餐，您可以一次性上传多张图片，并合成一个统一的 Word 文档。"
+        },
+        "word_vs_google_docs": {
+          "q": "下载后的文件能在手机或网页上打开吗？",
+          "a": "当然可以。标准的 .docx 格式支持在 Microsoft Word、Google Docs、WPS 办公软件及 Apple Pages 中无缝运行。"
+        },
+        "edit_after_conversion": {
+          "q": "转换后我可以修改内容吗？",
+          "a": "是的，下载的文件就是标准的 Word 文档。您可以随意修改错别字、调整颜色或增加新内容。"
+        },
+        "crossed_out_text": {
+          "q": "它能识别被划掉的内容吗？",
+          "a": "我们的 AI 会识别划线标记，并尝试在最终文档中剔除这些被删除的部分，为您提供干净的定稿。"
+        },
+        "handwriting_styles": {
+          "q": "支持哪些书写工具识别？",
+          "a": "支持圆珠笔、签字笔、记号笔、铅笔等各种笔迹，无论在纸张上还是电子白板上，只要字迹可辨即可识别。"
+        },
+        "quality_tips_word": {
+          "q": "如何提升识别的准确度？",
+          "a": "关键在于照片质量：充足的阳光或室内灯光、俯拍视角、文字对焦清晰。300 DPI 的扫描件识别效果最佳。"
+        },
+        "privacy_notes": {
+          "q": "我的私人笔记安全吗？",
+          "a": "绝对安全。我们采用 SSL 高级加密传输。所有图片在转换成功后的 24 小时内会自动从服务器永久删除。"
+        },
+        "why_not_type": {
+          "q": "为什么不直接手动录入？",
+          "a": "手动打字一页平均需 10 分钟，而 NoteOCR 仅需 30 秒。您可以把节省下来的时间用于深度思考或文章编辑，而不是枯燥的搬砖工作。"
+        },
+        "student_benefits": {
+          "q": "手写转Word对学生有什么具体帮助？",
+          "a": "学生可以快速将课堂记录转为电子档进行关键字检索、整理复习大纲，或将手写草稿直接粘贴到电子作业和论文中。"
+        },
+        "meeting_notes": {
+          "q": "白板上的手写内容能转换吗？",
+          "a": "没问题。只需拍下清晰的白板照片并上传，AI 即可将其中的脑暴内容或会议点转换为整洁的 Word 文档。"
+        },
+        "languages_supported": {
+          "q": "支持哪些语言识别？",
+          "a": "支持中文（简/繁）、英语、法语、德语、日语、韩语等主流语言，并持续扩展中。"
+        },
+        "comparison_apps": {
+          "q": "NoteOCR 与手机扫描 App 有什么区别？",
+          "a": "手机扫描 App 通常只是把照片变成 PDF。NoteOCR 的核心在于“手写语义分析”，它能真正理解文字和排版，为您提供一个可以直接修改的文档，而非一张死板的图。"
+        },
+        "historical_documents": {
+          "q": "能识别老旧的历史信件吗？",
+          "a": "是的。NoteOCR 能够识别带有纸张发黄、笔迹变淡等特征的历史文献。对于极具挑战性的草书，建议先试用一张样张查看效果。"
+        }
+      }
+    }
   },
 
   "PdfPage": {
-    "meta_title": "免费在线 PDF 编辑器与 AI 聊天 | NoteOCR",
-    "meta_desc": "使用 AI 编辑、签名并与 PDF 对话。在浏览器中安全地总结文档、提取答案并填写表单。",
-    "hero_pill": "智能 PDF 套件",
-    "hero_title_1": "随时随地编辑 PDF",
-    "hero_title_2": "并与文档 AI 聊天。",
-    "hero_subtitle": "全能型 PDF 工作空间。在线编辑文本、签署合同，并利用 AI 瞬间总结报告或回答问题。",
-    "btn_upload": "上传 PDF 文件",
-    "trust_soc2": "符合 SOC2 安全标准",
-    "trust_ai": "AI 驱动对话",
-    "trust_esign": "具有法律效力的电子签名",
-    "feat_1_title": "与文档对话",
-    "feat_1_desc": "上传一份 100 页 conversion 的合同并询问：“解约条款是什么？”我们的 AI 会在几秒钟内扫描并回答。",
-    "feat_2_title": "填写与签名",
-    "feat_2_desc": "告别打印。在线添加签名、填写表单并勾选复选框。完全符合商业法律用途。",
-    "feat_3_title": "整理与合并",
-    "feat_3_desc": "将多个 PDF 合并为一个，旋转页面或删除不需要的部分。完全掌控您的文件。",
-    "workflow_title": "全新的 PDF 工作流",
-    "step_1_title": "上传",
-    "step_1_desc": "拖放任何大小不超过 50MB 的 PDF。",
-    "step_2_title": "分析",
-    "step_2_desc": "AI 索引文本以便进行搜索和对话。",
-    "step_3_title": "编辑",
-    "step_3_desc": "添加文本、图像或签名。",
-    "step_4_title": "下载",
-    "step_4_desc": "导出完成后的文档。",
-    "cta_title": "让文档管理更高效。",
-    "cta_desc": "加入 10,000 多名专业人士，使用 NoteOCR 管理合同和报告。",
-    "cta_btn": "立即免费开始",
-    "btn_new": "新建文档"
+    "meta_title": "在线编辑扫描版PDF - AI手写识别 | 免费PDF编辑器 | NoteOCR",
+    "meta_desc": "无需下载软件，直接在浏览器中编辑扫描版PDF。利用AI OCR提取手写文字、添加电子签名、修改内容并导出为可编辑格式。",
+
+    "hero_pill": "专业级PDF工作空间",
+    "hero_title": "基于AI OCR的在线扫描PDF编辑器",
+    "hero_subtitle": "专为扫描件打造的网页端PDF编辑器。上传手写PDF，通过AI提取文字，添加签名或从零创建文档，全程无需安装任何软件。",
+
+    "trust_ssl": "SSL加密保护",
+    "trust_processing": "秒级云端处理",
+    "trust_accuracy": "手写体精准识别",
+
+    "workspace_title": "全能型在线文档工作站",
+    "workspace_subtitle": "不仅仅是OCR。在安全的环境中上传您的文档，完全在云端实现文件的编辑、搜索和管理。",
+
+    "workspace_feature_1_title": "实时文本编辑",
+    "workspace_feature_1_desc": "直接在浏览器中修改识别出的文字。在导出前纠正错别字、重新编排段落或更新数据内容。",
+
+    "workspace_feature_2_title": "隐私保护优先",
+    "workspace_feature_2_desc": "您的文档经过加密处理并在隔离的沙箱环境中运行。未经许可，我们绝不会存储您的敏感数据。",
+
+    "workspace_feature_3_title": "即时导出文件",
+    "workspace_feature_3_desc": "编辑完成了？立即将处理好的文档下载为可搜索的PDF、Word或Excel表格。",
+
+    "use_cases_title": "谁在使用在线扫描件编辑器？",
+    "use_cases_subtitle": "从法律服务到医疗行业，数万名用户每天都在处理扫描文档",
+
+    "use_case_1_title": "法律专业人士",
+    "use_case_1_desc": "编辑扫描后的合同，进行电子签名，脱敏敏感信息。非常适合律师处理法院扫描卷宗。",
+
+    "use_case_2_title": "中小企业主",
+    "use_case_2_desc": "填写扫描版表单，在发票上添加公司印章或签名，合并PDF报告，无需支付昂贵的Adobe订阅费。",
+
+    "use_case_3_title": "学生与教育者",
+    "use_case_3_desc": "为扫描版教材添加注释，将课堂手写笔记整理成学习指南，并将其转换为可搜索的PDF。",
+
+    "use_case_4_title": "医疗卫生人员",
+    "use_case_4_desc": "编辑患者登记表，将手写医疗记录数字化，整理并归档扫描后的病例图表。",
+
+    "comparison_title": "PDF编辑：桌面端 vs 在线工具",
+    "comparison_subtitle": "为什么网页版编辑器比传统桌面软件更高效？",
+    "comparison_col_tool": "工具",
+    "comparison_col_access": "访问方式",
+    "comparison_col_features": "核心功能",
+    "comparison_col_cost": "成本",
+
+    "comparison_row1_tool": "Adobe Acrobat Pro",
+    "comparison_row1_access": "需安装与更新",
+    "comparison_row1_features": "功能全，手写OCR较弱",
+    "comparison_row1_cost": "约 150元+/月",
+
+    "comparison_row2_tool": "普通在线编辑器",
+    "comparison_row2_access": "网页版",
+    "comparison_row2_features": "普通OCR，不支持手写体",
+    "comparison_row2_cost": "免费 - 50元",
+
+    "comparison_row3_tool": "NoteOCR PDF编辑器",
+    "comparison_row3_access": "网页即开即用",
+    "comparison_row3_features": "OCR + 手写识别 + 全功能编辑",
+    "comparison_row3_cost": "免费 - 40元",
+
+    "features_title": "为什么我们的扫描件编辑器与众不同？",
+    "features_subtitle": "专为编辑扫描件及手写PDF而设计",
+
+    "feature_1_title": "针对扫描件的OCR",
+    "feature_1_desc": "将扫描文档和手写PDF转换为可搜索、可编辑的文本。AI在识别文字的同时，能完美保留原始页面的排版。 ",
+
+    "feature_2_title": "全功能编辑套件",
+    "feature_2_desc": "添加文本、绘制签名、插入图片、高亮标注以及重新组织页面。您需要的所有专业工具都在浏览器中。",
+
+    "feature_3_title": "银行级安全保障",
+    "feature_3_desc": "上传过程全程加密。您的PDF在隔离的容器中处理，并在24小时后自动从服务器中彻底删除。",
+
+    "tech_title": "网页版PDF OCR的技术原理",
+    "tech_intro": "传统PDF编辑器仅能处理电子文字。NoteOCR结合了先进的OCR与版面分析技术，在浏览器中即可处理扫描件和手写表单。我们能检测文字位置并重建文档层级，让原本死板的扫描图变得可编辑。",
+
+    "tech_support_title": "我们支持的内容",
+    "tech_support_1": "手写文档、日记及表单",
+    "tech_support_2": "扫描版合同与法律文件",
+    "tech_support_3": "无文字层的图片版PDF",
+    "tech_support_4": "电子签名、印章与批注",
+    "tech_support_5": "多页长篇PDF文档",
+
+    "tech_tips_title": "最佳识别效果建议",
+    "tech_tips_1": "建议使用 300 DPI 或更高的扫描分辨率",
+    "tech_tips_2": "确保拍摄光线均匀，对比度清晰",
+    "tech_tips_3": "保持纸面平整，避免褶皱和阴影",
+    "tech_tips_4": "手写内容建议使用彩色或灰阶模式拍摄",
+    "tech_tips_5": "尽可能直接从扫描仪上传文件",
+
+    "related_tools_title": "相关OCR工具",
+
+    "related_tool_1_name": "图片转Word",
+    "related_tool_1_desc": "将手写体快速转换为格式化的文档",
+
+    "related_tool_2_name": "在线PDF编辑器（无需安装）",
+    "related_tool_2_desc": "随时随地在线上传并编辑PDF文件",
+
+    "related_tool_3_name": "在线文档编辑器",
+    "related_tool_3_desc": "免费在线编辑Word或Excel文件",
+
+    "related_tool_4_name": "图片转文字",
+    "related_tool_4_desc": "将图片中的连笔手写体转换为电子文字",
+
+    "faq_title": "关于编辑扫描PDF的常见问题",
+
+    "cta_title": "准备好在线编辑您的扫描PDF了吗？",
+    "cta_subtitle": "加入超过10万名信任 NoteOCR 网页编辑器的用户行列",
+    "cta_button": "立即开始编辑",
+
+    "tool_main_title": "专业PDF工作空间",
+    "tool_main_desc": "上传带有手写内容的扫描PDF进行OCR，或开启一个空白文档开始创作。",
+    "tool_upload_button": "上传扫描版PDF",
+    "tool_new_button": "创建空白文档",
+
+    "tool_upload_check_1": "仅限PDF格式",
+    "tool_upload_check_2": "最大支持 25MB",
+    "tool_upload_check_3": "SSL安全加密",
+
+    "tool_info_1_title": "手写体识别",
+    "tool_info_1_desc": "精准提取扫描件中的手写文字",
+
+    "tool_info_2_title": "全能编辑器",
+    "tool_info_2_desc": "添加文字、签名、批注等丰富功能",
+
+    "tool_info_3_title": "无需下载软件",
+    "tool_info_3_desc": "打开浏览器即可使用，即时响应",
+
+    "tool_tip_label": "专业提示：",
+    "tool_tip_text": "为了获得最佳OCR效果，请确保文档扫描分辨率不低于300 DPI。手写表单如果在均匀光线下拍摄，识别率会大幅提升。",
+
+    "modal_new_title": "创建新PDF",
+    "modal_new_desc": "从空白页面开始，自由构建您的文档内容。",
+    "modal_new_button": "创建空白PDF",
+
+    "modal_upload_title": "上传扫描版PDF",
+    "modal_upload_desc": "导入扫描PDF以提取文字、添加签名或修改现有内容。",
+    "modal_upload_placeholder": "点击或将PDF拖拽至此处",
+    "modal_upload_info": "文件大小限制：25MB • 支持扫描及手写体PDF",
+
+    "modal_processing_new": "正在初始化工作区...",
+    "modal_processing_upload": "正在处理PDF文档...",
+    "modal_processing_desc": "正在为您配置安全的PDF编辑环境",
+
+    "modal_security_badge": "银行级数据加密",
+
+    "toast_success_create": "PDF工作区已就绪！",
+    "toast_success_upload": "PDF上传成功！",
+    "toast_error_type": "请选择有效的PDF文件",
+    "toast_error_size": "文件大小必须控制在25MB以内",
+    "toast_error_create": "创建PDF失败。",
+    "toast_error_upload": "上传PDF失败",
+    "toast_error_drop": "请拖拽有效的PDF文件",
+
+    "FAQ": {
+      "items": {
+        "edit_scanned_pdf": {
+          "q": "如何在线编辑扫描版的PDF？",
+          "a": "将您的扫描PDF上传到 NoteOCR 网页编辑器。点击“运行OCR”将扫描图像转换为可编辑文本。之后您就可以直接在浏览器中修改文字、添加签名和重新调整页面顺序，无需下载软件。"
+        },
+        "handwritten_pdf_edit": {
+          "q": "我可以编辑带手写内容的PDF吗？",
+          "a": "可以。NoteOCR 的 AI 专门针对手写体进行了识别训练。上传手写 PDF 并运行 OCR 后，系统会提取文字并尽量保留原始布局，让您可以像操作电子文档一样编辑手写内容。"
+        },
+        "browser_based_editor": {
+          "q": "“网页版”或“浏览器端”编辑器是什么意思？",
+          "a": "这意味着您可以直接在 Chrome、Edge 或 Safari 等浏览器中完成所有操作，无需安装 Adobe Acrobat 等任何桌面软件。只需访问 NoteOCR 即可随时随地处理文件。"
+        },
+        "is_pdf_editor_free": {
+          "q": "这个扫描件编辑器是免费的吗？",
+          "a": "是的。基础版用户可以免费使用 OCR、文字编辑和签名工具。我们为有大量处理需求的用户提供专业套餐，但普通用户可以免费体验核心功能。"
+        },
+        "add_signature_scanned": {
+          "q": "如何在扫描版PDF上添加签名？",
+          "a": "在编辑器中点击“签名”工具。您可以直接用鼠标或触控板手写签名，也可以上传现有的印章图片，或输入姓名生成艺术字体签名。"
+        },
+        "ocr_accuracy_handwriting": {
+          "q": "手写体识别的准确率有多高？",
+          "a": "手写 OCR 的准确率平均在 85-95% 之间。清晰的笔迹准确率可达 95% 以上，较潦草的字迹约为 85% 左右。建议在法律或医疗等重要文档导出前进行核对。"
+        },
+        "edit_protected_scanned": {
+          "q": "我可以编辑带有密码保护的扫描PDF吗？",
+          "a": "如果您知道文件密码，可以在上传后解锁并进行编辑。但通常情况下，纯扫描生成的图片 PDF 很少带有此类编辑权限限制。"
+        },
+        "multiple_scanned_pages": {
+          "q": "我可以编辑包含多个页面的扫描PDF吗？",
+          "a": "可以。您可以上传任意页数的 PDF。我们的编辑器会在侧边栏显示所有缩略图，方便您浏览。您可以一次性对全书或长篇文档运行 OCR。"
+        },
+        "mobile_pdf_editing": {
+          "q": "我可以在手机或平板上编辑扫描件吗？",
+          "a": "可以。NoteOCR 的网页编辑器完全适配 iOS 和 Android 设备。对于精细的文字编辑，我们更推荐使用平板电脑或桌面电脑，以获得更好的操作体验。"
+        },
+        "searchable_pdf": {
+          "q": "OCR处理后，PDF可以进行关键字搜索吗？",
+          "a": "是的。OCR 识别后，扫描图层下方会生成一层隐藏的文字层。这让原本无法搜索的图片 PDF 变得可以使用 Ctrl+F 搜索关键词，和电子版 PDF 一样方便。"
+        },
+        "combine_scanned_pdfs": {
+          "q": "我可以将多个扫描文件合并成一个PDF编辑吗？",
+          "a": "可以。上传第一个文件后，使用“添加页面”或“合并”工具导入其他 PDF。您可以重新排序页面，然后对合并后的整份文档运行 OCR。"
+        },
+        "form_filling_scanned": {
+          "q": "我可以填写原本不可填写的扫描版表单吗？",
+          "a": "可以。使用“添加文字”工具即可直接在扫描表单的空白处打字。您还可以添加打勾符号、日期和电子签名，轻松完成表单填写。"
+        },
+        "quality_tips_scanned_pdf": {
+          "q": "如何获得最佳的 OCR 识别效果？",
+          "a": "为了提高准确率，请：(1) 使用 300 DPI 或更高的分辨率扫描；(2) 手写件建议使用彩色或灰阶模式；(3) 确保光线均匀；(4) 尽量保持纸张平整无褶皱。"
+        },
+        "privacy_browser_editor": {
+          "q": "上传敏感文档到在线编辑器安全吗？",
+          "a": "非常安全。NoteOCR 使用银行级 SSL 加密所有传输。文档在安全的隔离环境中处理，并在 24 小时后自动从服务器中彻底删除，我们绝不会查看您的私密内容。"
+        },
+        "why_browser_vs_desktop": {
+          "q": "为什么选择网页编辑器而不是 Adobe Acrobat？",
+          "a": "网页版无需安装、跨设备使用且成本更低。更重要的是，NoteOCR 针对手写体的识别能力通常优于 Adobe Acrobat 的标准 OCR 功能。"
+        },
+        "redact_scanned_pdf": {
+          "q": "我可以涂黑或遮盖 PDF 中的敏感信息吗？",
+          "a": "可以。使用“脱敏（Redact）”工具可以永久遮盖机密文字或图片。这种操作是不可逆的，即使导出后也无法看到遮盖下的内容，安全性极高。"
+        },
+        "annotations_scanned": {
+          "q": "我可以添加批注或备注吗？",
+          "a": "可以。我们的编辑器支持添加便签、文本评论、荧光笔高亮、箭头和各种几何图形。所有标注都会随 PDF 一起导出保存。"
+        },
+        "convert_scanned_pdf_word": {
+          "q": "OCR处理后可以将扫描件转为 Word 吗？",
+          "a": "可以。在编辑器中完成 OCR 后，点击“导出”按钮并选择“Word (.docx)”。识别出的文字将转换至可编辑的 Word 文档中，并尽量保留原有的段落结构。"
+        },
+        "offline_editing": {
+          "q": "我可以在离线状态下编辑 PDF 吗？",
+          "a": "不完全可以。OCR 识别需要连接我们的云端 AI 服务器进行处理。识别完成后，一些基本的文字微调和标注在短时间内可以支持离线操作。"
+        },
+        "no_software_required": {
+          "q": "真的不需要安装任何软件就能编辑扫描件吗？",
+          "a": "是的，完全不需要。您只需要一个现代浏览器。无需安装包、无需插件，更不需要 Adobe Reader。登录 NoteOCR 即可开始办公。"
+        }
+      }
+    }
   },
+
   "EditorPage": {
-    "meta_title": "免费在线文档编辑器 | 编辑 Word 和 Excel | NoteOCR",
-    "meta_desc": "在浏览器中直接编辑 DOCX、XLSX 和文本文件。无需安装，是一个快速、安全且熟悉的云端办公替代方案。",
-    "hero_pill": "云端办公套件",
-    "hero_title_1": "随时随地",
-    "hero_title_2": "在线编辑您的文档。",
-    "hero_subtitle": "在浏览器中直接编辑 Microsoft Word 和 Excel 文件。无需安装，无需登录即可快速修改。",
-    "btn_new": "新建文档",
-    "btn_upload": "上传文件",
-    "trust_secure": "私密且安全",
-    "trust_os": "支持任何操作系统",
-    "trust_office": "100% 兼容微软 Office",
-    "feat_1_title": "随处办公",
-    "feat_1_desc": "从任何设备访问您的文档。无论您使用的是 Windows、Mac 还是 Linux，编辑器只需点击即可使用。",
-    "feat_2_title": "熟悉的界面",
-    "feat_2_desc": "无需重新学习。我们的工具栏和快捷键模拟了 Word 和 Excel，让您瞬间提高生产力。",
-    "feat_3_title": "轻量且快速",
-    "feat_3_desc": "无需等待笨重的软件加载。即使在低速网络下，NoteOCR 编辑器也能在 2 秒内启动。",
-    "formats_title": "支持的格式",
-    "formats_subtitle": "我们支持整个 Office 生态系统。上传现有文件或从头开始。",
-    "format_docx": "微软 Word",
-    "format_xlsx": "微软 Excel",
-    "format_txt": "纯文本",
-    "format_csv": "数据表"
+    "meta_title": "在线免费编辑Office文档 - 基于浏览器的Word、Excel和PowerPoint编辑器",
+    "meta_desc": "专业的在线文档编辑器。无需Microsoft Office，直接在浏览器中创建和编辑Word（DOCX）、Excel（XLSX）和PowerPoint（PPTX）文件。",
+    "hero_pill": "云文档工作空间",
+    "hero_title": "在线编辑Office文档",
+    "hero_highlight": "无需软件",
+    "hero_subtitle": "适用于Word、Excel和PowerPoint的专业浏览器编辑器。无需Microsoft Office即可创建、编辑和协作处理DOCX、XLSX和PPTX文件。",
+    "trust_security": "256位加密",
+    "trust_sync": "实时同步",
+    "trust_compatibility": "兼容MS Office",
+    "feat_1_title": "手写转文本",
+    "feat_1_desc": "即时将您的手写笔记转换为可编辑的数字格式。由NoteOCR提供支持，在识别手写草图和涂鸦方面具有行业领先的准确性。",
+    "feat_2_title": "实时同步",
+    "feat_2_desc": "与您的团队实时协作。每次按键都会立即保存到云端，确保您永远不会丢失任何版本的工作。",
+    "use_cases_title": "谁在使用我们的在线文档编辑器?",
+    "use_cases_subtitle": "从远程工作者到学生，数百万人在线编辑Office文档",
+    "use_case_1_title": "远程工作者",
+    "use_case_1_desc": "无需VPN或公司软件即可在家编辑工作文档。在个人计算机上访问Office文件，同时保持专业格式。",
+    "use_case_2_title": "学生和教育工作者",
+    "use_case_2_desc": "在学校计算机上编写论文、创建演示文稿和管理电子表格，无需Office许可证。实时协作完成小组项目。",
+    "use_case_3_title": "自由职业者和顾问",
+    "use_case_3_desc": "从任何设备编辑客户提案、发票和报告。无需Microsoft 365订阅即可创建专业的Office兼容文档。",
+    "use_case_4_title": "数字游民",
+    "use_case_4_desc": "从网吧、联合办公空间或酒店商务中心处理文档。无需在借用的计算机上安装软件。",
+    "comparison_title": "在线编辑器 vs 桌面软件",
+    "comparison_subtitle": "为什么基于浏览器的编辑优于传统软件",
+    "comparison_solution": "解决方案",
+    "comparison_access": "访问方式",
+    "comparison_features": "功能",
+    "comparison_cost": "成本",
+    "comparison_ms_office": "MS Office桌面版",
+    "comparison_ms_access": "需要安装",
+    "comparison_ms_features": "完整，绑定设备",
+    "comparison_ms_cost": "¥700/年",
+    "comparison_google": "Google Workspace",
+    "comparison_google_access": "基于网页",
+    "comparison_google_features": "Office兼容性有限",
+    "comparison_google_cost": "¥40/用户/月",
+    "comparison_noteocr": "NoteOCR编辑器",
+    "comparison_noteocr_access": "即时，基于浏览器",
+    "comparison_noteocr_features": "完全支持Office",
+    "comparison_noteocr_cost": "免费-¥/一次性付费",
+    "features_title": "为什么我们的在线编辑器优于桌面软件",
+    "features_subtitle": "无需软件麻烦的专业文档编辑",
+    "feature_main_1_title": "兼容Microsoft Office",
+    "feature_main_1_desc": "完全兼容DOCX、XLSX和PPTX格式。无需安装Office即可编辑Microsoft Office文件。保留格式、公式和高级功能。",
+    "feature_main_2_title": "基于浏览器的编辑",
+    "feature_main_2_desc": "在Chrome、Safari、Firefox和Edge中即时运行。无需下载、无需安装、无需插件。从任何计算机编辑文档——家里、办公室、图书馆或咖啡馆。",
+    "feature_main_3_title": "云端自动保存",
+    "feature_main_3_desc": "自动云同步保存每一次更改。永远不会因崩溃或关闭标签页而丢失工作。从任何设备无缝访问您的文档。",
+    "technical_title": "基于浏览器的Office编辑工作原理",
+    "technical_desc": "传统文档编辑需要安装桌面软件。我们的云端编辑器使用现代网页标准（WebAssembly、Canvas API）完全在您的网页浏览器中运行。我们在服务器上解析Office文件格式（OOXML、OpenDocument），在您的浏览器中渲染它们，并将更改同步回云端——为您提供桌面级的编辑质量和云端便利性。",
+    "technical_formats_title": "支持的格式",
+    "technical_format_1": "Microsoft Word（DOCX、DOC）",
+    "technical_format_2": "Microsoft Excel（XLSX、XLS）",
+    "technical_format_3": "PowerPoint（PPTX、PPT）",
+    "technical_format_4": "OpenDocument（ODT、ODS、ODP）",
+    "technical_format_5": "导出为PDF、RTF、CSV",
+    "technical_features_title": "主要功能",
+    "technical_feature_1": "实时协作",
+    "technical_feature_2": "版本历史和恢复",
+    "technical_feature_3": "支持手机和平板",
+    "technical_feature_4": "离线编辑（PWA）",
+    "technical_feature_5": "评论和建议模式",
+    "related_tools_title": "相关OCR工具",
+    "related_tool_1_name": "手写转Word",
+    "related_tool_1_desc": "将笔记转换为DOCX",
+    "related_tool_2_name": "手写转Excel",
+    "related_tool_2_desc": "从扫描件中提取表格",
+    "related_tool_3_name": "在线编辑PDF",
+    "related_tool_3_desc": "基于浏览器的PDF编辑器",
+    "related_tool_4_name": "图片转文本",
+    "related_tool_4_desc": "从图片中提取文本",
+    "faq_title": "关于在线文档编辑的常见问题",
+    "cta_title": "准备好在线编辑文档了吗？",
+    "cta_subtitle": "加入50万+用户，无需软件即可编辑Office文档",
+    "cta_btn": "立即打开编辑器",
+    "editor_card_title": "专业文档工作空间",
+    "editor_card_subtitle": "创建Word、Excel或PowerPoint文档。或上传现有的Office文件以在线编辑，无需软件。",
+    "editor_btn_new": "创建新文档",
+    "editor_btn_upload": "上传现有文件",
+    "editor_info_1": "DOCX、XLSX、PPTX",
+    "editor_info_2": "最大25MB",
+    "editor_info_3": "云端保存",
+    "editor_feature_1_title": "兼容Office",
+    "editor_feature_1_desc": "完全支持Microsoft Office格式",
+    "editor_feature_2_title": "基于浏览器",
+    "editor_feature_2_desc": "无需安装，适用于任何设备",
+    "editor_feature_3_title": "自动保存",
+    "editor_feature_3_desc": "实时云同步",
+    "editor_tip_label": "完美适用于：",
+    "editor_tip_text": "Chromebook用户、远程工作者、共享计算机，以及任何需要Office兼容性而不想支付Office价格的人。",
+    "modal_new_title": "创建新文档",
+    "modal_new_subtitle": "选择您想在浏览器中创建的文档类型。",
+    "modal_upload_title": "上传Office文件",
+    "modal_upload_subtitle": "导入现有的Word、Excel或PowerPoint文件以在线编辑。",
+    "modal_doc_word": "Word文档",
+    "modal_doc_word_sub": "DOCX / ODT",
+    "modal_doc_excel": "Excel电子表格",
+    "modal_doc_excel_sub": "XLSX / CSV",
+    "modal_doc_powerpoint": "PowerPoint",
+    "modal_doc_powerpoint_sub": "PPTX / ODP",
+    "modal_upload_text": "点击或拖拽Office文件到此处",
+    "modal_upload_formats": "支持DOCX、XLSX、PPTX、ODT、ODS、RTF、CSV • 最大25MB",
+    "modal_security": "云端加密并自动保存",
+    "loading_importing": "正在导入文档...",
+    "loading_creating": "正在创建工作空间...",
+    "loading_subtitle": "正在设置您的云端编辑器环境",
+    "FAQ": {
+      "edit_office_online": {
+        "q": "我可以在没有Office的情况下在线编辑Microsoft Office文件吗？",
+        "a": "可以。NoteOCR的基于浏览器的编辑器允许您直接在网页浏览器中创建和编辑Word（DOCX）、Excel（XLSX）和PowerPoint（PPTX）文件。无需安装Microsoft Office。只需上传您的文件或创建新文档，即可立即开始编辑。"
+      },
+      "browser_compatibility": {
+        "q": "在线文档编辑器支持哪些浏览器？",
+        "a": "我们的编辑器适用于所有现代浏览器：Chrome、Firefox、Safari和Edge。它也适用于移动浏览器（iOS Safari、Android版Chrome）。为获得最佳体验，我们建议在桌面上使用最新版本的Chrome或Edge。"
+      },
+      "word_online_free": {
+        "q": "在线Word编辑器真的免费吗？",
+        "a": "是的。您可以免费创建和编辑无限数量的Word文档。免费用户可获得完整的编辑功能、云存储以及导出为DOCX/PDF的功能。高级计划提供实时协作、版本历史和优先处理等高级功能。"
+      },
+      "excel_formulas": {
+        "q": "我可以在在线Excel编辑器中使用公式和函数吗？",
+        "a": "可以。我们的Excel编辑器支持所有标准公式（SUM、AVERAGE、VLOOKUP、IF语句等）。您可以创建图表、数据透视表和条件格式。浏览器版本不支持复杂的宏和VBA脚本。"
+      },
+      "powerpoint_presentations": {
+        "q": "我可以在线创建专业的PowerPoint演示文稿吗？",
+        "a": "可以。我们的PowerPoint编辑器包括模板、幻灯片布局、动画和过渡效果。您可以添加图片、图表、视频和演讲者备注。将演示文稿导出为PPTX或PDF。非常适合创建演示文稿、学校项目和商业演示。"
+      },
+      "file_storage": {
+        "q": "在线编辑时，我的文档存储在哪里？",
+        "a": "编辑期间，文档存储在安全的云存储中。您可以随时将编辑过的文件下载到设备。出于安全考虑，文件会在24小时后自动从我们的服务器中删除。如需永久云存储，请创建免费账户。"
+      },
+      "offline_editing": {
+        "q": "我可以离线编辑文档吗？",
+        "a": "通过我们的渐进式网页应用（PWA）可以进行有限的离线编辑。从浏览器菜单安装编辑器。您可以离线编辑之前打开的文档，但新上传和高级功能需要互联网连接。"
+      },
+      "collaboration": {
+        "q": "多人可以同时编辑同一份文档吗？",
+        "a": "可以（高级功能）。与协作者分享文档链接。每个人在输入时都能实时看到更改。评论、建议和版本历史帮助团队协同工作。免费用户可以分享只读链接。"
+      },
+      "microsoft_account": {
+        "q": "编辑Office文件需要Microsoft账户吗？",
+        "a": "不需要。您不需要Microsoft账户、Office许可证或任何付费订阅。只需访问NoteOCR，上传您的Office文件并开始编辑。我们的编辑器完全独立于Microsoft的服务。"
+      },
+      "export_formats": {
+        "q": "我可以将文档导出为哪些格式？",
+        "a": "导出选项因文档类型而异。Word：DOCX、PDF、RTF、TXT。Excel：XLSX、CSV、PDF。PowerPoint：PPTX、PDF。所有导出都保留格式、图片和布局。您还可以将内容复制/粘贴到其他应用程序中。"
+      },
+      "templates": {
+        "q": "编辑器包含文档模板吗？",
+        "a": "包含。从简历、发票、报告、演示文稿和电子表格的专业模板中选择。模板已预先格式化并准备好自定义。我们会根据用户请求定期添加新模板。"
+      },
+      "mobile_editing": {
+        "q": "我可以在手机或平板上编辑文档吗？",
+        "a": "可以。编辑器界面适配移动屏幕（iOS和Android）。您可以进行快速编辑、添加评论并随时查看文档。对于大量格式化或复杂布局，我们建议使用平板或桌面设备。"
+      },
+      "compatibility_issues": {
+        "q": "在线编辑时会保留我的Office格式吗？",
+        "a": "会的。我们的编辑器保留Microsoft Office格式，包括字体、颜色、样式、页面布局、页眉/页脚、表格和嵌入图片。宏、高级图表或自定义字体等复杂功能可能需要调整。"
+      },
+      "file_size_limit": {
+        "q": "我可以在线编辑的最大文件大小是多少？",
+        "a": "免费用户可以上传最大25MB的文件。高级用户可以上传最大100MB的文件。对于非常大的文档（50页以上），处理可能需要15-30秒。我们建议拆分超大文件以加快编辑速度。"
+      },
+      "security_privacy": {
+        "q": "在线编辑时我的文档数据安全吗？",
+        "a": "安全。所有上传都使用银行级SSL加密。文档在隔离的安全容器中处理。我们从不访问、读取或分享您的内容。出于安全考虑，文件会在24小时后自动从我们的服务器中删除。如需最大隐私保护，请使用我们的离线模式。"
+      },
+      "desktop_vs_online": {
+        "q": "在线编辑器和桌面Office编辑器有什么区别？",
+        "a": "在线编辑器无需安装即可在任何浏览器中立即运行。桌面软件提供更高级的功能（宏、插件），但需要购买、更新和设备特定的安装。在线编辑非常适合基础到中级的文档工作和跨设备访问。"
+      },
+      "libreoffice_compatibility": {
+        "q": "我可以编辑LibreOffice和OpenOffice文档吗？",
+        "a": "可以。我们支持OpenDocument格式：ODT（文本）、ODS（电子表格）和ODP（演示文稿）。上传LibreOffice文件，在浏览器中编辑，然后导出回ODT或转换为Microsoft Office格式（DOCX、XLSX、PPTX）。"
+      },
+      "macro_support": {
+        "q": "在线编辑器支持Excel宏和VBA吗？",
+        "a": "不支持。出于安全原因，基于浏览器的编辑器无法执行VBA宏。如果您上传包含宏的Excel文件，仍然可以编辑数据，但宏不会运行。对于宏密集型工作流程，请使用桌面Excel或导出为CSV进行数据处理。"
+      },
+      "chromebook_editing": {
+        "q": "我可以在Chromebook上编辑Office文档吗？",
+        "a": "可以。NoteOCR的在线编辑器非常适合不支持桌面Office软件的Chromebook。直接在Chrome浏览器中编辑Word、Excel和PowerPoint文件。无需Android应用或Linux容器。在ChromeOS上完全兼容Office。"
+      },
+      "version_history": {
+        "q": "我可以恢复文档的以前版本吗？",
+        "a": "可以（高级功能）。版本历史会在您每次编辑时自动保存快照。一键恢复任何以前的版本。并排比较版本以查看更改。免费用户可以下载当前版本，但无法获得自动历史记录跟踪。"
+      }
+    }
   },
   "ExcelPage": {
-    "meta_title": "手写表格转 Excel (XLSX) | NoteOCR",
-    "meta_desc": "自动化数据录入。使用 AI 将手写网格、财务报表和日程表立即转换为可编辑的 Excel 表格。",
-    "hero_pill": "智能网格识别",
-    "hero_title": "手写内容转",
-    "hero_highlight": "Excel",
-    "hero_subtitle": "停止手动录入数据。我们的 AI 自动识别手写笔记中的行、列和表头，并将其转换为 .xlsx 文件。",
-    "trust_security": "银行级安全防护",
-    "trust_grid": "多列自动检测",
-    "trust_accuracy": "99.8% 数字识别准确率",
-    "feat_1_title": "智能网格技术",
-    "feat_1_desc": "我们不只识别文字，还识别结构。引擎自动识别手绘线条、隐含列和合并单元格。",
-    "feat_2_title": "财务级精度",
-    "feat_2_desc": "针对数字进行了深度优化。非常适合将手写发票、库存清单、财务账簿和成绩单数字化。",
-    "feat_3_title": "通用导出",
-    "feat_3_desc": "以标准的微软 Excel (.xlsx) 或 CSV 格式下载，方便导入 Google 表格或数据库。",
-    "how_title": "秒速将纸质文档变为电子表格",
-    "step_1_title": "拍摄",
-    "step_1_desc": "拍摄您的账簿或数据表的照片。",
-    "step_2_title": "解析",
-    "step_2_desc": "AI 映射行与列的几何结构。",
-    "step_3_title": "导出",
-    "step_3_desc": "下载整洁、格式化的 Excel 文件。",
-    "faq_title": "常见问题",
-    "cta_title": "立即实现数据数字化",
-    "cta_btn": "立即转换表格"
+    "meta_title": "手写表格转 Excel (XLSX) | NoteOCR - AI 自动识别",
+    "meta_desc": "告别手动录入。利用 AI 技术将手写表格、财务账本和进度表即时转换为可编辑的 Excel 电子表格，结构还原精准。",
+
+    "hero_pill": "表格结构智能识别",
+    "hero_title": "将手写表格转换为 Excel 电子表格",
+    "hero_subtitle": "无需重新手动输入数据。即使没有画线，我们的 AI 也能自动识别手写笔记中的行、列和单元格边界，并导出格式化的 .xlsx 文件。",
+
+    "trust_ssl": "SSL 安全加密",
+    "trust_processing": "2 分钟快速处理",
+    "trust_accuracy": "98% 数字识别准确率",
+
+    "before_after_title": "查看转换效果",
+    "before_after_desc": "真实案例展示：完美还原表格结构与数据准确性",
+    "before_label": "转换前：手写账本图片",
+    "before_placeholder": "[在此上传您的手写表格以查看结果]",
+    "after_label": "转换后：Excel 输出",
+    "after_placeholder": "[格式化电子表格预览]",
+
+    "use_cases_title": "谁在使用手写表格转 Excel 功能？",
+    "use_cases_subtitle": "从会计师事务所到教育工作者，每天有数千名用户通过我们实现数字化",
+
+    "use_case_1_title": "会计与财务审计",
+    "use_case_1_desc": "将手写财务账本、报销单和收据转换为可筛选的 Excel 文件，方便税务申报和审计。",
+
+    "use_case_2_title": "库存管理",
+    "use_case_2_desc": "将盘点表、产品清单和仓库日志数字化。非常适合使用纸张追踪库存的小型企业。",
+
+    "use_case_3_title": "教师与成绩管理",
+    "use_case_3_desc": "将手写成绩单和学生名册转换为格式化的电子表格，用于制作成绩单和进度追踪。",
+
+    "use_case_4_title": "科研与数据收集",
+    "use_case_4_desc": "将野外笔记、问卷结果和实验室数据表转换为可供统计软件分析的数据集。",
+
+    "comparison_title": "手写表格转 Excel：方案对比",
+    "comparison_subtitle": "为什么 NoteOCR 比手动录入节省数小时时间",
+    "comparison_col_method": "方案",
+    "comparison_col_time": "耗时",
+    "comparison_col_accuracy": "准确率",
+    "comparison_col_cost": "成本",
+
+    "comparison_row1_method": "人工手动打字",
+    "comparison_row1_time": "45 分钟",
+    "comparison_row1_accuracy": "95% (易出人为错误)",
+    "comparison_row1_cost": "高额人力成本",
+
+    "comparison_row2_method": "通用 OCR",
+    "comparison_row2_time": "10 分钟",
+    "comparison_row2_accuracy": "50% (表格结构会乱开)",
+    "comparison_row2_cost": "免费 - 150 元",
+
+    "comparison_row3_method": "NoteOCR 表格专用",
+    "comparison_row3_time": "2 分钟",
+    "comparison_row3_accuracy": "98% 结构完美还原",
+    "comparison_row3_cost": "极具性价比的单页费用",
+
+    "features_title": "为什么我们的表格 OCR 与众不同",
+    "features_subtitle": "专为手写数据表格构建",
+
+    "feature_1_title": "智能网格检测",
+    "feature_1_desc": "即使没有明显的表格边框，我们的 AI 也能识别表格结构。它能理解手写布局中的列关系、文本对齐和层级。",
+
+    "feature_2_title": "针对数字优化",
+    "feature_2_desc": "财务数据转换精度极高。在保留数字格式的同时，转换会计账簿、发票、库存盘点和费用报告。",
+
+    "feature_3_title": "导出为 Excel 或 CSV",
+    "feature_3_desc": "下载带有正确单元格格式的 Microsoft Excel (.xlsx)，或导出为 CSV 以导入 Google 表格或数据库。",
+
+    "tech_title": "网格检测技术原理",
+    "tech_intro": "大多数 OCR 工具将表格视为纯文本，破坏了单元格关系。NoteOCR 的专用 AI 通过分析空间位置和文本对齐模式，重构表格的精确结构。",
+
+    "tech_detect_title": "我们可以识别",
+    "tech_detect_1": "无边框表格的单元格边界",
+    "tech_detect_2": "列标题与层级结构",
+    "tech_detect_3": "跨列的合并单元格",
+    "tech_detect_4": "货币符号与小数点",
+    "tech_detect_5": "网格纸或白纸上的手写表格",
+
+    "tech_tips_title": "获得最佳效果的建议",
+    "tech_tips_1": "拍摄时保持光线充足",
+    "tech_tips_2": "相机与纸张保持平行",
+    "tech_tips_3": "扫描件建议使用 300 DPI",
+    "tech_tips_4": "在一张照片中捕获整个表格",
+    "tech_tips_5": "重要数据请在导出后核对",
+
+    "related_tools_title": "相关 OCR 工具",
+
+    "related_tool_1_name": "图片转 Word",
+    "related_tool_1_desc": "将手写文本转换为格式化的文档",
+
+    "related_tool_2_name": "在线 PDF 编辑",
+    "related_tool_2_desc": "随时随地在线上传并编辑 PDF 文档",
+
+    "related_tool_3_name": "在线文档编辑器",
+    "related_tool_3_desc": "免费在线编辑 Word 或 Excel 文档",
+
+    "related_tool_4_name": "图片转文字",
+    "related_tool_4_desc": "将图片中的草书或手写体转换为可编辑文本",
+
+    "faq_title": "关于手写表格转 Excel 的常见问题",
+
+    "cta_title": "准备好停止手动录入数据了吗？",
+    "cta_subtitle": "加入 10,000+ 使用 NoteOCR 数字化手写表格的用户行列",
+    "cta_button": "立即转换您的表格",
+
+    "tool_upload_title": "上传您的手写表格",
+    "tool_upload_desc": "支持手写账本、库存表、成绩册。有无边框均可识别。",
+    "tool_upload_button": "选择图片",
+    "tool_upload_check_1": "JPG, PNG, JPEG",
+    "tool_upload_check_2": "最大 25MB",
+    "tool_upload_check_3": "SSL 安全保证",
+
+    "tool_processing_title": "正在检测表格结构...",
+    "tool_processing_desc": "AI 正在分析行、列和单元格边界",
+
+    "tool_complete_title": "表格提取成功！",
+    "tool_complete_desc": "您的电子表格已准备就绪。下载为 Excel (.xlsx) 或 CSV 格式。",
+    "tool_complete_file_type": "Excel 电子表格",
+    "tool_complete_status": "就绪",
+    "tool_download_button": "下载 Excel",
+    "tool_new_button": "转换新表格",
+
+    "tool_info_1_title": "智能检测",
+    "tool_info_1_desc": "支持无实线边框的表格识别",
+
+    "tool_info_2_title": "99% 数字准确率",
+    "tool_info_2_desc": "针对数字及财务数据深度优化",
+
+    "tool_info_3_title": "Excel 格式",
+    "tool_info_3_desc": "兼容 Excel、Google 表格及各类数据库",
+
+    "tool_tip_label": "专业技巧：",
+    "tool_tip_text": "为了获得最佳识别效果，请在光线充足的环境下拍照并保持手机平行。300 DPI 的扫描件效果优于模糊的照片。",
+
+    "toast_success": "表格提取成功！",
+    "toast_error_type": "请上传有效的图片 (JPG, PNG, WEBP) 或 PDF 文件",
+    "toast_error_size": "文件大小必须在 25MB 以内",
+    "toast_error_extraction": "提取失败。",
+    "toast_download_success": "Excel 文件已下载！",
+    "toast_download_error": "下载失败。",
+
+    "FAQ": {
+      "items": {
+        "table_to_excel": {
+          "q": "如何将手写表格转换为 Excel？",
+          "a": "只需将手写表格的照片或扫描件上传至 NoteOCR。我们的 AI 会自动检测行、列和单元格边界，并将其转换为可下载的 Excel (.xlsx) 文件。整个过程仅需 10-30 秒。"
+        },
+        "cursive": {
+          "q": "NoteOCR 能识别表格中的草书吗？",
+          "a": "是的。我们的 AI 经过数百万手写样本的训练，包括草书、印刷体和混合风格。即使字迹潦草，表格结构也能完整保留。"
+        },
+        "math": {
+          "q": "它能处理数学公式还是仅支持数值？",
+          "a": "NoteOCR 提取手写表格中的原始数值。它目前不自动解释公式（如 '=SUM'），但能高精度保留数字，方便您下载后在 Excel 中添加公式。"
+        },
+        "is_free": {
+          "q": "手写转 Excel 工具是免费的吗？",
+          "a": "NoteOCR 提供试用额度供用户测试识别精度。我们为个人用户提供免费层级，而针对高频大批量处理，我们提供极具竞争力的按页付费方案，无需订阅。"
+        },
+        "no_borders": {
+          "q": "如果我的表格没有画边框线怎么办？",
+          "a": "NoteOCR 的 AI 通过分析文本对齐、间距和列的一致性来检测隐式表格结构。许多用户在空白笔记本上书写的表格都能完美转换。"
+        },
+        "ledger_specific": {
+          "q": "我可以转换带有多列的旧会计账本吗？",
+          "a": "完全可以。NoteOCR 针对包含日期、描述、借方、贷方和余额的多列财务文档进行了优化，能完美保留列标题和数字对齐。"
+        },
+        "accuracy_numbers": {
+          "q": "数字和文字的识别准确率分别是多少？",
+          "a": "由于经过专门训练，数字、小数点和货币符号的准确率高达 99%。文本准确率取决于字迹清晰度，平均在 92-95% 之间。"
+        },
+        "batch_process": {
+          "q": "我可以一次转换多个表格吗？",
+          "a": "目前网页版支持逐个上传。如果您有批量处理需求（如数字化 50 页账本），请查看我们的 API 接口或联系客服获取定制化方案。"
+        },
+        "excel_vs_csv": {
+          "q": "导出 Excel 和 CSV 有什么区别？",
+          "a": "Excel (.xlsx) 保留单元格格式和字体；CSV 是纯文本格式，兼容性更广（如 Python、数据库），但会丢失视觉格式。根据您的后续用途选择即可。"
+        },
+        "edit_after": {
+          "q": "转换后我可以编辑表格吗？",
+          "a": "是的。下载的 Excel 文件是完全可编辑的。您可以修正任何识别偏差、添加公式或调整格式。"
+        },
+        "grid_paper": {
+          "q": "在方格纸还是白纸上写效果更好？",
+          "a": "两者效果都很棒。方格纸能辅助 AI 更快锁定列，但我们的算法即使在白纸上也能通过文本排版精准还原结构。"
+        },
+        "merged_cells": {
+          "q": "它能识别合并单元格吗？",
+          "a": "AI 会尝试识别跨列的文本（如标题居中）。特别复杂的合并结构可能需要在 Excel 中进行微调，但基础结构会保持完整。"
+        },
+        "quality_tips": {
+          "q": "如何获得最佳的转换结果？",
+          "a": "1. 充足的光线；2. 相机平行于纸张；3. 字迹尽量工整；4. 确保一张照片包含完整的表格。扫描件的效果通常优于手机拍照。"
+        },
+        "privacy": {
+          "q": "上传财务账本安全吗？",
+          "a": "非常安全。所有上传均经过 SSL 加密。图片在处理后 24 小时内会被自动删除，我们绝不会存储、查看或分享您的任何敏感数据。"
+        },
+        "compare_manual": {
+          "q": "为什么要使用 NoteOCR 而不是人工录入？",
+          "a": "人工录入一份账本通常需要 30-60 分钟且极易看错数字。NoteOCR 仅需 2 分钟，在节省时间的同时大幅降低转录错误率。"
+        }
+      }
+    }
   },
   "nav": {
     "product": "产品",
@@ -356,26 +1121,34 @@
     "get_started": "免费开始"
   },
   "Footer": {
-    "description": "立即将手写笔记转换为整洁、可编辑的文档。专为现代团队打造的安全、快速的工具。",
+    "description": "瞬间将手写笔记转换为整洁、可编辑的文档。安全、快捷，专为现代化团队打造。",
     "stay_updated": "获取最新动态",
-    "email_placeholder": "输入您的邮箱",
+    "email_placeholder": "输入您的电子邮件",
     "systems_ok": "系统运行正常",
     "product": "产品",
+    "use_cases": "应用场景",
     "company": "公司",
     "resources": "资源",
     "hiring": "人才招聘",
-    "copyright": "© {year} NoteOCR Inc. | 专为全球团队设计",
+    "copyright": "© {year} NoteOCR Inc. 保留所有权利。",
     "links": {
-      "notes_to_word": "手写转Word",
+      "notes_to_word": "笔记转Word",
       "table_to_excel": "表格转Excel",
-      "online_editor": "文档编辑器",
-      "pricing": "定价方案",
+      "online_editor": "在线文档编辑器",
+      "edit_pdf": "编辑 PDF",
+      "pricing": "价格方案",
       "about": "关于我们",
-      "careers": "加入我们",
+      "careers": "职业生涯",
       "contact": "联系我们",
+      "blog": "博客",
       "docs": "文档中心",
+      "api": "API 参考",
       "privacy": "隐私政策",
-      "terms": "服务条款"
+      "terms": "服务条款",
+      "security": "安全保障",
+      "sitemap": "站点地图",
+      "status": "运行状态",
+      "changelog": "更新日志"
     }
   },
   "Contact": {
@@ -402,124 +1175,180 @@
   },
   "PricingUI": {
     "hero": {
-      "title_start": "简单定价，打造完美的",
-      "title_highlight": "手写转换体验。",
-      "subtitle": "根据需要将手写笔记转换为可编辑文本。一次支付，随时使用 — 无订阅，无压力。"
+      "badge": "无订阅费",
+      "title_start": "一次付费，",
+      "title_highlight": "永久拥有。",
+      "subtitle": "拒绝软件“租赁”。购买永不过期的额度，体验全球最精准的 Excel、Word 和文本手写 OCR 识别引擎。"
     },
     "labels": {
-      "capacity": "页面额度",
-      "features": "包含功能"
+      "capacity": "包含页数",
+      "features": "版本功能",
+      "most_popular": "最受欢迎"
     },
     "plans": {
       "free": {
-        "name": "免费试用",
-        "description": "无需花费即可体验手写转换。",
-        "pages": "7 页 (一次性)",
-        "buttonText": "免费试用",
+        "name": "入门级",
+        "desc": "测试单页识别精准度。",
+        "price": "0",
+        "credits": "7 页",
+        "btn": "开始免费试用",
         "features": [
-          "总计 7 页 (永久有效)",
-          "高精度手写转文字",
-          "标准处理速度",
-          "一次上传并转录 1 张手写图像",
-          "预览转换后的文本",
-          "导出为 TXT",
-          "基础文档编辑器",
-          "云端保存最多 3 份文档"
-        ],
-        "missing": [
-          "批量处理",
-          "连续转换",
-          "高级格式设置",
-          "表格识别",
-          "导出为 Word, Excel, PDF, HTML",
-          "多图上传",
-          "文档历史记录与版本控制"
+          "标准 OCR 识别精度",
+          "手写转文本",
+          "基础 TXT 导出",
+          "1 天云端存储"
         ]
       },
       "starter": {
-        "name": "入门版",
-        "description": "学生和轻量笔记转换的理想选择。",
-        "pages": "100 页",
-        "buttonText": "获取入门版",
+        "name": "学生版",
+        "desc": "适用于论文、笔记和作业。",
+        "price": "8",
+        "credits": "100 页",
+        "btn": "获取学生版",
         "features": [
-          "100 页面额度 (永久有效)",
-          "98% 高精度手写识别引擎",
-          "快速手写转录",
-          "支持批量上传",
-          "一次上传并转录最多 5 张图像",
-          "连续转换 (合并多张图像)",
-          "导出为 Word, Excel, PDF, HTML, TXT",
-          "最多 500 份文档云存储",
-          "优先邮件支持",
-          "手写风格学习"
-        ],
-        "missing": [
-          "无限批量处理",
-          "高级表格提取",
-          "文档 AI 格式化程序",
-          "团队协作"
+          "包含入门级所有功能",
+          "手写转 Word (DOCX)",
+          "版式还原引擎",
+          "去除纸张水印",
+          "邮件支持"
         ]
       },
       "plus": {
-        "badge": "最受欢迎",
-        "name": "增强版",
-        "description": "适用于处理大型文档的高级用户。",
-        "pages": "300 页",
-        "buttonText": "升级到增强版",
+        "name": "专业版",
+        "desc": "适用于会计师和研究人员。",
+        "price": "15",
+        "credits": "300 页",
+        "btn": "获取专业版",
+        "badge": "性价比之选",
         "features": [
-          "300 页面额度",
-          "包含入门版所有功能",
-          "更快的处理队列",
-          "高级表格识别",
-          "编辑 PDF 文档",
-          "一次上传并转换最多 10 张图像",
-          "增强的格式控制",
-          "优先即时聊天与邮件支持"
-        ],
-        "missing": ["无限批量处理", "文档 AI 格式化程序", "团队管理"]
+          "包含学生版所有功能",
+          "手写转 Excel (XLSX)",
+          "智能表格/网格识别",
+          "潦草字迹识别模式",
+          "批量处理 (10 个文件)"
+        ]
       },
       "pro": {
-        "name": "专业版",
-        "description": "为专业人士和团队提供的大批量转换。",
-        "pages": "1,000 页",
-        "buttonText": "升级到专业版",
+        "name": "高级用户",
+        "desc": "适用于档案数字化和批量录入。",
+        "price": "25",
+        "credits": "1,000 页",
+        "btn": "获取高级版",
         "features": [
-          "1,000 页面额度",
-          "包含增强版所有功能",
-          "文档 AI 格式化程序",
-          "实时处理队列",
-          "无限批量处理",
-          "连续转换 (可转换整本书籍)",
-          "高级表格提取",
-          "Word, Excel 和 PDF 互相转换",
-          "自定义发票品牌",
-          "优先即时聊天与邮件支持"
-        ],
-        "missing": []
+          "包含专业版所有功能",
+          "并发处理",
+          "数学公式 OCR 识别",
+          "优先处理队列",
+          "无限批量上传"
+        ]
       }
     },
-    "enterprise": {
-      "title": "需要超过 1,000 页？",
-      "desc": "获取自定义企业版套餐，包含专属限额、API 访问、自定义模型和 SLA 保证。",
-      "cta": "联系销售"
+    "comparison": {
+      "title": "技术规格详解",
+      "subtitle": "为什么 NoteOCR 优于普通的扫描软件。",
+      "headers": ["功能", "入门级", "学生版", "专业版", "高级用户"],
+      "groups": {
+        "core": "识别智能",
+        "formats": "导出与文件格式",
+        "system": "系统性能"
+      },
+      "rows": [
+        {
+          "name": "印刷体手写 OCR",
+          "values": [true, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "连笔/草书识别引擎",
+          "values": ["标准", "高", "超清", "超清"],
+          "group": "core"
+        },
+        {
+          "name": "表格识别 (Excel)",
+          "values": [false, false, true, true],
+          "group": "core"
+        },
+        {
+          "name": "版式还原 (Word)",
+          "values": [false, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "数学公式识别",
+          "values": [false, false, "基础", "高级"],
+          "group": "core"
+        },
+        {
+          "name": "字迹瑕疵修正",
+          "values": [false, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "导出格式",
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "所有格式"],
+          "group": "formats"
+        },
+        {
+          "name": "批量上传限制",
+          "values": ["1 个文件", "5 个文件", "10 个文件", "无限制"],
+          "group": "formats"
+        },
+        {
+          "name": "云端存储时长",
+          "values": ["24 小时", "30 天", "永久", "永久"],
+          "group": "system"
+        },
+        {
+          "name": "加密级别",
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "group": "system"
+        },
+        {
+          "name": "处理优先级",
+          "values": ["标准", "标准", "高", "实时"],
+          "group": "system"
+        }
+      ]
+    },
+    "deep_dive": {
+      "title": "为什么精准识别需要成本",
+      "cards": [
+        {
+          "title": "GPU 与 CPU 处理",
+          "desc": "普通的免费工具使用廉价的 CPU 进行词语预测。我们通过 NVIDIA T4 专用 GPU 运行图像识别，深度理解上下文，从而使数字和财务数据的识别准确率达到 99%。"
+        },
+        {
+          "title": "版式智能还原",
+          "desc": "我们不仅读取文字，还映射坐标系统。这使我们能够完全按照纸上的原样重建 Excel 表格和 Word 缩进，为您节省数小时的重新排版时间。"
+        },
+        {
+          "title": "安全架构",
+          "desc": "您的数据在临时容器中处理。一旦转换完成且您下载了文件，原始图像数据将被清除。我们不会使用您的私人文档来训练我们的公共模型。"
+        }
+      ]
     },
     "faq_title": "常见问题",
-    "faqs": [
-      {
-        "q": "什么算作一页？",
-        "a": "一页等于一张上传的图像或 PDF 文档中的一页。"
-      },
-      {
-        "q": "我的页面会过期吗？",
-        "a": "不会。所有购买的页面额度将永久保留，没有每月清零。"
-      }
-    ],
-    "support": {
-      "title": "还有其他问题吗？",
-      "email_label": "发送邮件",
-      "chat_label": "在线聊天",
-      "chat_time": "服务时间：周一至周五 9am – 5pm EST"
-    }
+    "faqs": {
+      "items": [
+        {
+          "q": "额度会过期吗？",
+          "a": "不会，永久有效。您可以今天购买 300 页，两年后再使用。我们拒绝“不使用即作废”的订阅模式。"
+        },
+        {
+          "q": "“1 个额度”具体怎么计算？",
+          "a": "1 个额度 = 1 页处理量。如果您上传 10 页的 PDF，消耗 10 个额度。如果您上传一张收据图片，消耗 1 个额度。"
+        },
+        {
+          "q": "可以处理非常老旧的文档吗？",
+          "a": "可以。我们的专业版和高级用户版使用 Ultra 模型，该模型针对历史手稿和褪色墨迹进行了训练，识别效果远优于标准 OCR。"
+        },
+        {
+          "q": "我有超过 5,000 页需要处理。",
+          "a": "对于海量档案处理，请在创建账户后联系支持团队。我们为历史数字化项目提供大宗折扣。"
+        }
+      ]
+    },
+    "footer_secure": "通过 Stripe 进行安全支付"
   },
   "Signup": {
     "meta_title": "加入 NoteOCR | 开启数字化工作流",

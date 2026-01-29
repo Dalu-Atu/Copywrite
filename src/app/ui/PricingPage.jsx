@@ -1,319 +1,336 @@
 "use client";
+
 import React, { useState } from "react";
+import Script from "next/script";
 import { useTranslations } from "next-intl";
 import {
   Check,
   X,
+  Zap,
+  Shield,
+  Layout,
+  FileSpreadsheet,
+  ArrowRight,
   Minus,
   Plus,
-  Star,
-  Building,
-  ArrowRight,
-  MessageSquare,
-  Mail,
+  CheckCircle2,
+  Minus as MinusIcon,
+  Cpu,
+  Lock,
+  ScanLine,
+  CreditCard,
 } from "lucide-react";
 
-const PricingPage = () => {
+export default function PricingPage() {
   const t = useTranslations("PricingUI");
-  const [billingCycle, setBillingCycle] = useState("monthly");
-  const [openFaq, setOpenFaq] = useState(null);
-
-  const plans = [
-    {
-      name: t("plans.free.name"),
-      description: t("plans.free.description"),
-      price: { oneTime: 0 },
-      pages: t("plans.free.pages"), // "7 pages (one-time)"
-      highlight: false,
-      buttonText: t("plans.free.buttonText"),
-      buttonVariant: "outline",
-      features: t.raw("plans.free.features"),
-      missing: t.raw("plans.free.missing"),
-    },
-
-    {
-      name: t("plans.starter.name"),
-      description: t("plans.starter.description"),
-      price: { oneTime: 8 },
-      pages: t("plans.starter.pages"), // "200 pages"
-      highlight: false,
-      badge: t("plans.starter.badge"),
-      buttonText: t("plans.starter.buttonText"),
-      buttonVariant: "primary",
-      features: t.raw("plans.starter.features"),
-      missing: t.raw("plans.starter.missing"),
-    },
-
-    {
-      name: t("plans.plus.name"),
-      description: t("plans.plus.description"),
-      price: { oneTime: 15 },
-      pages: t("plans.plus.pages"), // "500 pages"
-      highlight: false,
-      badge: t("plans.plus.badge"),
-      buttonText: t("plans.plus.buttonText"),
-      buttonVariant: "secondary",
-      features: t.raw("plans.plus.features"),
-      missing: t.raw("plans.plus.missing"),
-      badge: t("plans.plus.badge"),
-      highlight: true,
-    },
-
-    {
-      name: t("plans.pro.name"),
-      description: t("plans.pro.description"),
-      price: { oneTime: 25 },
-      pages: t("plans.pro.pages"), // "1,000 pages"
-      buttonText: t("plans.pro.buttonText"),
-      buttonVariant: "dark",
-      features: t.raw("plans.pro.features"),
-      missing: [],
-    },
-  ];
-
-  const faqs = t.raw("faqs");
+  const plans = ["free", "starter", "plus", "pro"];
   const comparisonRows = t.raw("comparison.rows");
+  const deepDiveCards = t.raw("deep_dive.cards");
+  const faqs = t.raw("faqs.items");
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: "NoteOCR Credits",
+    description:
+      "Handwriting recognition credits for converting notes to Excel/Word.",
+    offers: {
+      "@type": "AggregateOffer",
+      lowPrice: "8.00",
+      highPrice: "25.00",
+      priceCurrency: "USD",
+      offerCount: "3",
+    },
+  };
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans text-slate-900 selection:bg-emerald-100 selection:text-emerald-900">
-      {/* --- Header / Hero --- */}
-      <section className="relative pt-24 pb-12 lg:pt-32 lg:pb-20 overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full bg-white">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
-          <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-emerald-400 opacity-20 blur-[100px]"></div>
-        </div>
+    <div className="min-h-screen bg-[#000] text-white selection:bg-emerald-500/30 font-sans">
+      <Script
+        id="pricing-ld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-5">
-          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900 mb-6">
-            {t("hero.title_start")}
-            <span className="text-emerald-600">
-              {" "}
-              {t("hero.title_highlight")}
-            </span>
+      {/* --- HERO SECTION --- */}
+      <section className="relative pt-32 pb-20 overflow-hidden border-b border-white/5">
+        <div className="absolute inset-0 z-0 opacity-[0.05] pointer-events-none [background-image:linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] [background-size:40px_40px]" />
+
+        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[11px] font-bold uppercase tracking-widest mb-8">
+            <CreditCard className="w-3 h-3" /> {t("hero.badge")}
+          </div>
+
+          <h1 className="text-2xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-b from-white to-gray-500 bg-clip-text text-transparent">
+            {t("hero.title_start")}{" "}
+            <span className="text-white">{t("hero.title_highlight")}</span>
           </h1>
-          <p className="max-w-2xl mx-auto md:text-xl text-slate-600 mb-10 leading-relaxed">
+
+          <p className=" md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
             {t("hero.subtitle")}
           </p>
         </div>
       </section>
 
-      {/* --- Pricing Cards --- */}
-      <section className="relative -mt-8 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-8 items-start">
-          {plans.map((plan) => (
-            <div
-              key={plan.name}
-              className={`relative flex flex-col p-8 bg-white rounded-3xl transition-all duration-300 ${
-                plan.highlight
-                  ? "shadow-2xl ring-2 ring-emerald-600 scale-100 md:scale-105 z-10"
-                  : "shadow-xl border border-slate-200"
-              }`}
-            >
-              {plan.highlight && (
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                  <span className="inline-flex items-center gap-1 rounded-full bg-emerald-600 px-4 py-1.5 text-sm font-semibold text-white shadow-sm">
-                    <Star className="w-3 h-3 fill-current" /> {plan.badge}
-                  </span>
-                </div>
-              )}
-              <div className="mb-6">
-                <h3 className="text-xl font-bold text-slate-900">
-                  {plan.name}
-                </h3>
-                <p className="text-sm text-slate-500 mt-2 min-h-[40px]">
-                  {plan.description}
-                </p>
-              </div>
-              <div className="mb-6 flex items-baseline text-slate-900">
-                <span className="text-5xl font-extrabold tracking-tight">
-                  ${plan.price.oneTime}
-                </span>{" "}
-                <span className="text-gray-400 text-xs font-normal">
-                  /one-time
-                </span>
-              </div>
+      {/* --- PRICING CARDS --- */}
+      <section className="max-w-7xl mx-auto px-6 -mt-10 relative z-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {plans.map((planKey) => {
+            const isPlus = planKey === "plus";
+            const isFree = planKey === "free";
 
-              <div className="mb-8 p-3 bg-slate-50 rounded-xl border border-slate-100 text-center">
-                <span className="block text-sm font-bold text-slate-700 uppercase tracking-wide">
-                  {t("labels.capacity")}
-                </span>
-                <span className="text-lg font-bold text-emerald-700">
-                  {plan.pages}
-                </span>
-              </div>
-              <a
-                href="https://app.noteocr.com/signup"
-                className={`text-center w-full py-3.5 px-4 rounded-xl text-sm font-semibold transition-all ${
-                  plan.buttonVariant === "primary"
-                    ? "bg-emerald-600 text-white"
-                    : plan.buttonVariant === "dark"
-                    ? "bg-slate-900 text-white"
-                    : "border-2 border-slate-200 text-slate-700"
+            return (
+              <div
+                key={planKey}
+                className={`relative flex flex-col p-6 rounded-xl transition-all duration-300 ${
+                  isPlus
+                    ? "bg-[#0A0A0A] border border-emerald-500/50 shadow-2xl shadow-emerald-500/10 scale-105 z-10"
+                    : "bg-[#050505] border border-white/10 hover:border-white/20"
                 }`}
               >
-                {plan.buttonText}
-              </a>
-              <div className="mt-8 space-y-4 flex-1">
-                <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
-                  {t("labels.features")}
-                </p>
-                {plan.features.map((feature, idx) => (
-                  <div key={idx} className="flex items-start">
-                    <Check className="h-5 w-5 text-emerald-600 flex-shrink-0" />
-                    <p className="ml-3 text-sm text-slate-600 leading-5">
-                      {feature}
-                    </p>
+                {isPlus && (
+                  <div className="absolute -top-3 left-0 right-0 flex justify-center">
+                    <span className="bg-emerald-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-lg shadow-emerald-900/50 border border-emerald-400/50">
+                      {t("plans.plus.badge")}
+                    </span>
                   </div>
-                ))}
-                {plan.missing.map((feature, idx) => (
-                  <div key={idx} className="flex items-start opacity-50">
-                    <X className="h-5 w-5 text-slate-400 flex-shrink-0" />
-                    <p className="ml-3 text-sm text-slate-500 leading-5">
-                      {feature}
-                    </p>
-                  </div>
-                ))}
+                )}
+
+                <div className="mb-6">
+                  <h3
+                    className={`text-lg font-bold ${
+                      isPlus ? "text-emerald-400" : "text-white"
+                    }`}
+                  >
+                    {t(`plans.${planKey}.name`)}
+                  </h3>
+                  <p className="text-sm text-gray-400 mt-2 h-10 leading-snug">
+                    {t(`plans.${planKey}.desc`)}
+                  </p>
+                </div>
+
+                <div className="mb-6 flex items-baseline">
+                  <span className="text-4xl font-extrabold text-white">
+                    ${t(`plans.${planKey}.price`)}
+                  </span>
+                  {!isFree && (
+                    <span className="text-gray-500 text-xs ml-2 uppercase font-medium">
+                      / one-time
+                    </span>
+                  )}
+                </div>
+
+                <div
+                  className={`rounded-lg p-3 text-center mb-6 border ${
+                    isPlus
+                      ? "bg-emerald-950/20 border-emerald-500/20"
+                      : "bg-white/5 border-white/5"
+                  }`}
+                >
+                  <span className="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">
+                    {t("labels.capacity")}
+                  </span>
+                  <span className="text-xl font-bold text-white">
+                    {t(`plans.${planKey}.credits`)}
+                  </span>
+                </div>
+
+                <a
+                  href="https:app.noteocr.com/signup"
+                  className={`w-full py-3 px-4 rounded-md font-bold text-sm text-center transition-all ${
+                    isPlus
+                      ? "bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/20"
+                      : isFree
+                      ? "bg-white/10 border border-white/10 text-white hover:bg-white/20"
+                      : "bg-white text-black hover:bg-gray-200"
+                  }`}
+                >
+                  {t(`plans.${planKey}.btn`)}
+                </a>
+
+                <div className="mt-8 space-y-4 flex-1">
+                  <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest border-b border-white/5 pb-2">
+                    {t("labels.features")}
+                  </p>
+                  {t.raw(`plans.${planKey}.features`).map((feat, i) => (
+                    <div key={i} className="flex items-start gap-3">
+                      <Check
+                        className={`w-4 h-4 mt-0.5 shrink-0 ${
+                          isPlus ? "text-emerald-500" : "text-gray-600"
+                        }`}
+                      />
+                      <span className="text-sm text-gray-400 leading-tight">
+                        {feat}
+                      </span>
+                    </div>
+                  ))}
+                </div>
               </div>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* --- DEEP DIVE (SEO CONTENT) --- */}
+      <section className="py-24 max-w-7xl mx-auto px-6 border-b border-white/5">
+        <div className="text-center mb-16">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+            {t("deep_dive.title")}
+          </h2>
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            OCR is not just "scanning." It is complex computer vision. Here is
+            why premium processing matters.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          {deepDiveCards.map((card, idx) => (
+            <div
+              key={idx}
+              className="p-8 border border-white/10 bg-white/[0.02] rounded-xl hover:border-emerald-500/30 transition-colors group"
+            >
+              <div className="w-12 h-12 bg-emerald-500/10 rounded-lg flex items-center justify-center mb-6 border border-emerald-500/20 group-hover:bg-emerald-500/20 transition-colors">
+                {idx === 0 && <Cpu className="w-6 h-6 text-emerald-500" />}
+                {idx === 1 && <ScanLine className="w-6 h-6 text-emerald-500" />}
+                {idx === 2 && <Lock className="w-6 h-6 text-emerald-500" />}
+              </div>
+              <h3 className="text-lg font-bold mb-3 text-white">
+                {card.title}
+              </h3>
+              <p className="text-sm text-gray-400 leading-relaxed">
+                {card.desc}
+              </p>
             </div>
           ))}
         </div>
-
-        {/* Enterprise Strip */}
-        <div className="mt-12 bg-slate-900 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden">
-          <div className="absolute right-0 top-0 opacity-10 transform translate-x-1/3 -translate-y-1/2">
-            <Building className="w-64 h-64 text-white" />
-          </div>
-          <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
-            <div>
-              <h3 className="text-2xl font-bold text-white mb-2">
-                {t("enterprise.title")}
-              </h3>
-              <p className="text-slate-300 max-w-xl">{t("enterprise.desc")}</p>
-            </div>
-            <a
-              href="/contact"
-              className="whitespace-nowrap bg-white text-slate-900 px-8 py-4 rounded-xl font-bold flex items-center"
-            >
-              {t("enterprise.cta")} <ArrowRight className="ml-2 w-4 h-4" />
-            </a>
-          </div>
-        </div>
       </section>
 
-      {/* Comparison Table */}
-      {/* <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-slate-900">
-              {t("comparison.title")}
-            </h2>
-            <p className="text-slate-500 mt-4">{t("comparison.subtitle")}</p>
-          </div>
-          <div className="overflow-x-auto border rounded-2xl shadow-sm">
-            <table className="w-full text-left">
-              <thead className="bg-slate-50 border-b border-slate-200 text-sm font-semibold text-slate-500">
-                <tr>
-                  <th className="p-6">{t("comparison.header_feature")}</th>
-                  <th className="p-6 text-center text-slate-900">
-                    {t("plans.free.name")}
-                  </th>
-                  <th className="p-6 text-center text-emerald-600">
-                    {t("plans.pro.name")}
-                  </th>
-                  <th className="p-6 text-center text-slate-900">
-                    {t("plans.business.name")}
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="text-sm text-slate-600 divide-y divide-slate-100">
-                {comparisonRows.map((row, i) => (
-                  <tr key={i} className="hover:bg-slate-50 transition-colors">
-                    <td className="p-4 px-6 font-medium text-slate-700">
-                      {row.name}
-                    </td>
-                    <td className="p-4 text-center">
-                      {row.free === "x" ? (
-                        <X className="w-4 h-4 mx-auto text-slate-300" />
-                      ) : (
-                        row.free
-                      )}
-                    </td>
-                    <td className="p-4 text-center bg-emerald-50/30 text-emerald-900 font-medium">
-                      {row.pro === "x" ? (
-                        <X className="w-4 h-4 mx-auto text-slate-300" />
-                      ) : (
-                        row.pro
-                      )}
-                    </td>
-                    <td className="p-4 text-center font-medium text-slate-900">
-                      {row.bus}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section> */}
-
-      {/* FAQ Section */}
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-slate-900 mb-12">
-            {t("faq_title")}
+      {/* --- TABLE OF TRUTH (FEATURE COMPARISON) --- */}
+      <section className="py-24 max-w-7xl mx-auto px-6 border-b border-white/5">
+        <div className="text-center mb-16">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+            {t("comparison.title")}
           </h2>
-          <div className="space-y-4">
-            {faqs.map((faq, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-xl border border-slate-200 overflow-hidden"
-              >
-                <button
-                  onClick={() => setOpenFaq(openFaq === index ? null : index)}
-                  className="w-full text-left px-6 py-5 flex justify-between items-center"
-                >
-                  <span className="font-semibold text-slate-800">{faq.q}</span>
-                  {openFaq === index ? (
-                    <Minus className="w-5 h-5 text-emerald-600" />
-                  ) : (
-                    <Plus className="w-5 h-5 text-slate-400" />
-                  )}
-                </button>
-                <div
-                  className={`px-6 overflow-hidden transition-all duration-300 ${
-                    openFaq === index ? "max-h-48 pb-6" : "max-h-0"
-                  }`}
-                >
-                  <p className="text-slate-600">{faq.a}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <p className="text-gray-400">{t("comparison.subtitle")}</p>
+        </div>
+
+        <div className="overflow-x-auto border border-white/10 rounded-xl bg-white/[0.01]">
+          <table className="w-full text-left border-collapse">
+            <thead>
+              <tr className="bg-white/[0.02] border-b border-white/10">
+                <th className="p-6 min-w-[200px] text-sm font-bold text-gray-300 uppercase tracking-wider">
+                  {t("comparison.headers.0")}
+                </th>
+                {plans.map((p, i) => (
+                  <th
+                    key={p}
+                    className={`p-6 text-center text-sm font-bold uppercase tracking-wider ${
+                      p === "plus" ? "text-emerald-400" : "text-gray-500"
+                    }`}
+                  >
+                    {t(`comparison.headers.${i + 1}`)}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-white/5">
+              {comparisonRows.map((row, idx) => {
+                const isNewGroup =
+                  idx === 0 || row.group !== comparisonRows[idx - 1].group;
+
+                return (
+                  <React.Fragment key={row.name}>
+                    {isNewGroup && (
+                      <tr className="bg-white/[0.05]">
+                        <td
+                          colSpan={5}
+                          className="py-3 px-6 text-[10px] font-bold text-emerald-500 uppercase tracking-[0.2em]"
+                        >
+                          {t(`comparison.groups.${row.group}`)}
+                        </td>
+                      </tr>
+                    )}
+                    <tr className="hover:bg-white/[0.02] transition-colors">
+                      <td className="p-4 px-6 text-sm font-medium text-gray-300 border-r border-white/5">
+                        {row.name}
+                      </td>
+                      {row.values.map((val, i) => (
+                        <td
+                          key={i}
+                          className={`p-4 text-center text-sm ${
+                            i === 2
+                              ? "bg-emerald-900/10 font-medium text-emerald-400"
+                              : "text-gray-500"
+                          }`}
+                        >
+                          {val === true ? (
+                            <CheckCircle2 className="w-4 h-4 text-emerald-500 mx-auto" />
+                          ) : val === false ? (
+                            <MinusIcon className="w-4 h-4 text-gray-700 mx-auto" />
+                          ) : (
+                            val
+                          )}
+                        </td>
+                      ))}
+                    </tr>
+                  </React.Fragment>
+                );
+              })}
+            </tbody>
+          </table>
         </div>
       </section>
 
-      {/* Footer Support */}
-      <section className="bg-white border-t py-16 text-center">
-        <h3 className="text-xl font-bold mb-8">{t("support.title")}</h3>
-        <div className="flex flex-col md:flex-row justify-center gap-12">
-          <div className="flex items-center gap-3">
-            <Mail className="w-6 h-6 text-slate-400" />
-            <div className="text-left">
-              <div className="font-bold">{t("support.email_label")}</div>
-              <div className="text-sm">support@noteocr.com</div>
-            </div>
-          </div>
-          <div className="flex items-center gap-3">
-            <MessageSquare className="w-6 h-6 text-slate-400" />
-            <div className="text-left">
-              <div className="font-bold">{t("support.chat_label")}</div>
-              <div className="text-sm">{t("support.chat_time")}</div>
-            </div>
-          </div>
+      {/* --- FAQ SECTION --- */}
+      <section className="max-w-3xl mx-auto px-6 py-24">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">
+          {t("faq_title")}
+        </h2>
+        <div className="space-y-4">
+          {faqs.map((item, i) => (
+            <FaqItem key={i} question={item.q} answer={item.a} />
+          ))}
         </div>
       </section>
+
+      {/* --- FOOTER TRUST --- */}
+      <footer className="border-t border-white/10 py-12 text-center bg-black">
+        <div className="flex items-center justify-center gap-2 text-gray-500 text-sm mb-4">
+          <Shield className="w-4 h-4" />
+          {t("footer_secure")}
+        </div>
+        <div className="flex justify-center gap-6 opacity-30">
+          <div className="font-bold text-lg text-white">VISA</div>
+          <div className="font-bold text-lg text-white">Mastercard</div>
+          <div className="font-bold text-lg text-white">Amex</div>
+        </div>
+      </footer>
     </div>
   );
-};
+}
 
-export default PricingPage;
+function FaqItem({ question, answer }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className="border border-white/10 rounded-lg bg-white/[0.02] overflow-hidden transition-all duration-200">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full flex items-center justify-between p-5 text-left font-medium text-gray-200 hover:bg-white/[0.05]"
+      >
+        {question}
+        {isOpen ? (
+          <Minus className="w-4 h-4 text-emerald-500" />
+        ) : (
+          <Plus className="w-4 h-4 text-gray-500" />
+        )}
+      </button>
+      <div
+        className={`px-5 text-gray-400 text-sm leading-relaxed transition-all duration-300 ease-in-out ${
+          isOpen ? "max-h-48 pb-5 opacity-100" : "max-h-0 opacity-0"
+        }`}
+      >
+        {answer}
+      </div>
+    </div>
+  );
+}

@@ -236,105 +236,870 @@
   },
 
   "WordPage": {
-    "meta_title": "Handschrift in Word umwandeln (DOCX) | NoteOCR",
-    "meta_desc": "Verwandeln Sie handschriftliche Notizen sofort in editierbare MS Word-Dokumente...",
-    "hero_title_1": "Handschrift zu",
-    "hero_title_2": "Word",
-    "hero_subtitle": "Tippen Sie Ihre Notizen nicht ab. Unsere KI wandelt Bilder in .docx-Dateien um und erhält Layout und Tabellen.",
-    "feat_1_title": "Layouterhaltung",
-    "feat_1_desc": "Wir erkennen Listen und Ränder, damit Ihr Word-Dokument exakt wie Ihre Notizbuchseite aussieht.",
-    "feat_2_title": "Schlechte Handschrift? Kein Problem.",
-    "feat_2_desc": "Unsere ICR-Engine wurde mit Millionen von Schriftproben trainiert.",
-    "feat_3_title": "Automatische Löschung",
-    "feat_3_desc": "Ihre Privatsphäre zählt. Dateien werden verschlüsselt verarbeitet und permanent gelöscht.",
-    "faq_title": "Häufig gestellte Fragen",
-    "faq_q1": "Kann es Schreibschrift lesen?",
-    "faq_a1": "Ja, NoteOCR nutzt neuronale Netze, die speziell auf verbundene Schreibschrift trainiert sind.",
-    "faq_q2": "Sind meine Daten sicher?",
-    "faq_a2": "Absolut. Wir nutzen TLS-Verschlüsselung und löschen Dateien nach 60 Minuten."
+    "meta_title": "Handschrift in Word (DOCX) umwandeln | NoteOCR",
+    "meta_desc": "Schluss mit dem Abtippen. Konvertieren Sie handschriftliche Notizen mit KI in editierbare Word-Dokumente. Listen, Überschriften und Layouts werden automatisch übernommen.",
+
+    "hero_pill": "Intelligente Dokumentenerkennung",
+    "hero_title": "Handschriftliche Notizen in Word-Dokumente umwandeln",
+    "hero_subtitle": "Sparen Sie sich das mühsame Abtippen. Unsere KI verwandelt handschriftliche Seiten in editierbare .docx-Dateien – inklusive Listen, Überschriften und Ihrer ursprünglichen Layoutstruktur.",
+
+    "trust_ssl": "SSL-VERSCHLÜSSELT",
+    "trust_processing": "30 SEKUNDEN VERARBEITUNG",
+    "trust_accuracy": "95% TEXTGENAUIGKEIT",
+
+    "before_after_title": "Überzeugen Sie sich selbst",
+    "before_after_desc": "Echte Konvertierung mit beibehaltenem Layout und Formatierung",
+    "before_label": "Vorher: Handschriftliche Notizen",
+    "before_placeholder": "[Laden Sie Ihre Notizen hoch, um das Ergebnis zu sehen]",
+    "after_label": "Nachher: Word-Dokument",
+    "after_placeholder": "[Vorschau des formatierten Word-Dokuments]",
+
+    "use_cases_title": "Wer nutzt die Umwandlung von Handschrift in Word?",
+    "use_cases_subtitle": "Vom Studenten bis zum Profi – Tausende digitalisieren täglich ihre Notizen",
+
+    "use_case_1_title": "Studenten & Forscher",
+    "use_case_1_desc": "Wandeln Sie Vorlesungsmitschriften und Forschungsjournale in durchsuchbare Word-Dokumente für Hausarbeiten und Zitationsmanagement um.",
+
+    "use_case_2_title": "Geschäftsleute",
+    "use_case_2_desc": "Digitalisieren Sie Besprechungsnotizen und Whiteboard-Sessions in formatierte Dokumente für Berichte und zum Teilen im Team.",
+
+    "use_case_3_title": "Autoren & Journalisten",
+    "use_case_3_desc": "Verwandeln Sie handschriftliche Entwürfe und Interviewnotizen in editierbare Manuskripte, bereit für die Veröffentlichung.",
+
+    "use_case_4_title": "Archivare & Historiker",
+    "use_case_4_desc": "Konvertieren Sie historische Dokumente, Briefe und Tagebucheinträge in digitale Archive für Forschung und Erhaltung.",
+
+    "comparison_title": "Handschrift zu Word: Methoden im Vergleich",
+    "comparison_subtitle": "Warum NoteOCR im Vergleich zum manuellen Tippen Stunden spart",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Zeitaufwand",
+    "comparison_col_accuracy": "Genauigkeit",
+    "comparison_col_cost": "Kosten",
+
+    "comparison_row1_method": "Manuelles Abtippen",
+    "comparison_row1_time": "60 Min./Seite",
+    "comparison_row1_accuracy": "98% (langsam & mühsam)",
+    "comparison_row1_cost": "Kostenlos (Ihre Zeit)",
+
+    "comparison_row2_method": "Standard OCR-Tools",
+    "comparison_row2_time": "10 Minuten",
+    "comparison_row2_accuracy": "70% (Layout geht verloren)",
+    "comparison_row2_cost": "Kostenlos bis 15 €",
+
+    "comparison_row3_method": "NoteOCR Word-Konverter",
+    "comparison_row3_time": "30 Sekunden",
+    "comparison_row3_accuracy": "95% (Layout bleibt erhalten)",
+    "comparison_row3_cost": "8 € / 100 Seiten",
+
+    "features_title": "Warum unsere Handschrift-OCR anders ist",
+    "features_subtitle": "Speziell für die Konvertierung von Handschrift in Word entwickelt",
+
+    "feature_1_title": "Layout-Erhaltung",
+    "feature_1_desc": "Im Gegensatz zu einfacher OCR, die nur Text ausgibt, erkennt unsere KI Listen, Header und Absätze. Ihr Word-Dokument entspricht der Struktur Ihres Notizbuchs.",
+
+    "feature_2_title": "Schreib- & Blockschrift",
+    "feature_2_desc": "Fortschrittliche neuronale Netze, trainiert mit Millionen Proben. Erkennt unordentliche Tinte, Schreibschrift und sogar Korrekturen mit hoher Präzision.",
+
+    "feature_3_title": "Datenschutz an erster Stelle",
+    "feature_3_desc": "Ihre Notizen werden verschlüsselt hochgeladen und nach der Konvertierung dauerhaft gelöscht. Wir speichern oder teilen Ihre persönlichen Inhalte niemals.",
+
+    "tech_title": "Wie die Handschrifterkennung funktioniert",
+    "tech_intro": "Standard-Tools behandeln Handschrift wie gedruckten Text, was die Formatierung zerstört. Die KI von NoteOCR analysiert Federstriche und Struktur, um Ihre Notizen als korrekt formatiertes Word-Dokument wiederherzustellen – exakt so, wie Sie sie geschrieben haben.",
+
+    "tech_detect_title": "Was wir erkennen",
+    "tech_detect_1": "Absätze, Listen und Überschriften",
+    "tech_detect_2": "Schreibschrift und Druckschrift",
+    "tech_detect_3": "Durchgestrichener Text und Korrekturen",
+    "tech_detect_4": "Seitenränder und Einrückungen",
+    "tech_detect_5": "Notizbuch- und loses Papier",
+
+    "tech_tips_title": "Tipps für beste Ergebnisse",
+    "tech_tips_1": "Gute Beleuchtung beim Fotografieren",
+    "tech_tips_2": "Kamera parallel zur Seite halten",
+    "tech_tips_3": "300 DPI für gescannte Dokumente",
+    "tech_tips_4": "Hoher Kontrast zwischen Tinte und Papier",
+    "tech_tips_5": "Ergebnis vor dem Speichern prüfen",
+
+    "related_tools_title": "Verwandte OCR-Tools",
+
+    "related_tool_1_name": "Bild zu Word",
+    "related_tool_1_desc": "Handschrift in formatierte Dokumente umwandeln",
+
+    "related_tool_2_name": "PDF online editieren",
+    "related_tool_2_desc": "PDF-Dokumente ohne Installation online bearbeiten",
+
+    "related_tool_3_name": "Online Dokument-Editor",
+    "related_tool_3_desc": "MS Word oder Excel online kostenlos bearbeiten",
+
+    "related_tool_4_name": "Bild zu Text",
+    "related_tool_4_desc": "Schreibschrift in Bildern in editierbaren Text umwandeln",
+
+    "faq_title": "Häufig gestellte Fragen zur Handschrift-zu-Word-Konvertierung",
+
+    "cta_title": "Bereit, Ihre Notizen zu digitalisieren?",
+    "cta_subtitle": "Schließen Sie sich über 50.000 Nutzern an, die NoteOCR vertrauen",
+    "cta_button": "Jetzt Notizen konvertieren",
+
+    "footer_text": "NoteOCR // Intelligente Dokumentenverarbeitung",
+
+    "tool_upload_title": "Laden Sie Ihre Notizen hoch",
+    "tool_upload_desc": "Unterstützt Vorlesungsskripte, Protokolle und Journale. Funktioniert mit Schreib- und Druckschrift.",
+    "tool_upload_button": "Bild auswählen",
+    "tool_upload_check_1": "JPG, PNG, PDF",
+    "tool_upload_check_2": "Max. 25MB",
+    "tool_upload_check_3": "SSL-gesichert",
+
+    "tool_processing_title": "Analysiere Handschrift...",
+    "tool_processing_desc": "KI erkennt Zeichen und bewahrt das Layout",
+
+    "tool_complete_title": "Konvertierung abgeschlossen!",
+    "tool_complete_desc": "Ihr Word-Dokument ist bereit. Downloaden und bearbeiten in Word oder Google Docs.",
+    "tool_complete_file_type": "Word-Dokument (.docx)",
+    "tool_complete_status": "BEREIT",
+    "tool_download_button": "Word herunterladen",
+    "tool_new_button": "Neues Dokument",
+
+    "tool_info_1_title": "Layout erhalten",
+    "tool_info_1_desc": "Listen und Absätze bleiben intakt",
+
+    "tool_info_2_title": "95% Genauigkeit",
+    "tool_info_2_desc": "Optimiert für alle Handschriftstile",
+
+    "tool_info_3_title": "DOCX-Format",
+    "tool_info_3_desc": "Kompatibel mit Word, Docs und Pages",
+
+    "tool_tip_label": "Profi-Tipp:",
+    "tool_tip_text": "Für beste Ergebnisse fotografieren Sie Ihre Notizen bei hellem Licht und halten Sie die Kamera parallel zur Seite.",
+
+    "toast_success": "Transkription erfolgreich!",
+    "toast_error_type": "Bitte laden Sie ein gültiges Bild (JPG, PNG, WEBP) oder PDF hoch",
+    "toast_error_size": "Dateigröße muss unter 25MB liegen",
+    "toast_error_conversion": "Konvertierung fehlgeschlagen.",
+    "toast_download_success": "Word-Dokument heruntergeladen!",
+    "toast_download_error": "Download fehlgeschlagen.",
+
+    "FAQ": {
+      "items": {
+        "handwriting_to_word": {
+          "q": "Wie konvertiere ich handschriftliche Notizen in Word?",
+          "a": "Laden Sie ein Foto oder einen Scan Ihrer Notizen bei NoteOCR hoch. Unsere KI erkennt die Handschrift, bewahrt die Layoutstruktur (Listen, Absätze) und erstellt eine .docx-Datei. Der Vorgang dauert etwa 20–40 Sekunden."
+        },
+        "cursive_reading": {
+          "q": "Kann NoteOCR Schreibschrift lesen?",
+          "a": "Ja. Unsere KI ist speziell auf Schreibschrift, Druckschrift und gemischte Stile trainiert. Selbst flüssige oder verbundene Handschriften werden deutlich besser erkannt als mit Standard-OCR-Tools."
+        },
+        "layout_preserved": {
+          "q": "Bleibt mein ursprüngliches Layout erhalten?",
+          "a": "Absolut. NoteOCR erkennt Aufzählungszeichen, nummerierte Listen, Einrückungen und Absätze. Ihr Word-Dokument spiegelt die Struktur Ihres Notizbuchs wider."
+        },
+        "is_free_word": {
+          "q": "Ist der Konverter kostenlos?",
+          "a": "NoteOCR bietet eine kostenlose Testversion an, damit Sie die Genauigkeit prüfen können. Für hohes Aufkommen bieten wir faire Einmalzahlungen ohne Abo-Zwang an."
+        },
+        "messy_handwriting": {
+          "q": "Was passiert bei unordentlicher Handschrift?",
+          "a": "Unsere KI erkennt auch unvollständige Buchstaben oder Korrekturen. Bei sehr unordentlicher Schrift sinkt die Genauigkeit eventuell leicht, das Ergebnis bleibt aber editierbar und spart trotzdem massiv Zeit."
+        },
+        "notebook_vs_loose": {
+          "q": "Funktioniert es mit Notizbüchern oder nur mit losen Blättern?",
+          "a": "Beides funktioniert perfekt. Ob Spiralblock oder loses Papier – die Linien oder Karos stören die Texterkennung unserer KI nicht."
+        },
+        "math_formulas": {
+          "q": "Werden mathematische Formeln erkannt?",
+          "a": "NoteOCR erkennt Zahlen und Basissymbole. Komplexe Formeln müssen aktuell noch manuell nachbearbeitet werden. Ein spezieller Mathe-Modus ist in Planung."
+        },
+        "multiple_pages": {
+          "q": "Kann ich mehrere Seiten gleichzeitig konvertieren?",
+          "a": "Ja, je nach gewähltem Paket können Sie mehrere Bilder gleichzeitig in ein einziges Word-Dokument umwandeln."
+        },
+        "word_vs_google_docs": {
+          "q": "Kann ich die Datei in Google Docs öffnen?",
+          "a": "Ja. Das .docx-Format ist universell kompatibel mit Microsoft Word, Google Docs, Apple Pages und LibreOffice."
+        },
+        "edit_after_conversion": {
+          "q": "Kann ich das Dokument nach der Umwandlung bearbeiten?",
+          "a": "Selbstverständlich. Die heruntergeladene Datei ist voll editierbar. Sie können Text korrigieren, Formatierungen ändern oder Inhalte hinzufügen."
+        },
+        "crossed_out_text": {
+          "q": "Wird durchgestrichener Text erkannt?",
+          "a": "Unsere KI versucht, Durchgestrichenes zu identifizieren und aus dem Zieldokument auszuschließen. Sehr stark Gekritzeltes muss eventuell manuell entfernt werden."
+        },
+        "handwriting_styles": {
+          "q": "Welche Handschriftstile werden unterstützt?",
+          "a": "NoteOCR unterstützt Druckschrift, Schreibschrift, gemischte Stile und Großbuchstaben sowie verschiedene Stifttypen (Kugelschreiber, Gelstift, Bleistift)."
+        },
+        "quality_tips_word": {
+          "q": "Wie erhalte ich die besten Ergebnisse?",
+          "a": "Sorgen Sie für: (1) Gutes Licht, (2) Eine parallele Kameraposition, (3) Hohen Kontrast zwischen Stift und Papier und (4) Eine hohe Auflösung (Scans mit 300 DPI sind ideal)."
+        },
+        "privacy_notes": {
+          "q": "Sind meine persönlichen Tagebücher sicher?",
+          "a": "Ja. Wir nutzen SSL-Verschlüsselung und verarbeiten Daten in isolierten Containern. Alle Dateien werden innerhalb von 24 Stunden unwiderruflich gelöscht. Datenschutz steht bei uns an erster Stelle."
+        },
+        "why_not_type": {
+          "q": "Warum nicht einfach selbst tippen?",
+          "a": "Manuelles Tippen dauert 5–10 Minuten pro Seite. NoteOCR erledigt das in 30 Sekunden mit 95% Genauigkeit. Nutzen Sie Ihre Zeit lieber für die Bearbeitung statt für das Abtippen."
+        },
+        "student_benefits": {
+          "q": "Wie profitieren Studenten davon?",
+          "a": "Studenten können Vorlesungsnotizen durchsuchbar machen, Lernzettel kombinieren und Zitate schneller in Hausarbeiten einfügen. Zudem sind digitale Notizen vor Verlust geschützt."
+        },
+        "meeting_notes": {
+          "q": "Kann ich Whiteboard-Fotos konvertieren?",
+          "a": "Ja. Laden Sie Fotos von Whiteboards oder Flipcharts hoch. Achten Sie auf eine klare Aufnahme ohne Spiegelungen für beste Ergebnisse."
+        },
+        "languages_supported": {
+          "q": "Welche Sprachen werden unterstützt?",
+          "a": "NoteOCR unterstützt Deutsch, Englisch, Spanisch, Französisch, Italienisch und viele weitere Sprachen mit lateinischem Alphabet. Weitere Schriften sind in Arbeit."
+        },
+        "comparison_apps": {
+          "q": "Wie unterscheidet sich das von Handy-Scanner-Apps?",
+          "a": "Apps wie Adobe Scan fokussieren sich auf das Scannen von gedrucktem Text. NoteOCR ist spezialisiert auf echte Handschrifterkennung und Layout-Erhaltung in Word."
+        },
+        "historical_documents": {
+          "q": "Kann ich historische Dokumente digitalisieren?",
+          "a": "Ja, NoteOCR funktioniert auch bei vergilbtem Papier. Bei extrem altertümlichen Schriften (z.B. Sütterlin) empfehlen wir einen Testlauf, um die Genauigkeit zu prüfen."
+        }
+      }
+    }
   },
+
   "PdfPage": {
-    "btn_new": "Neues Dokument starten",
-    "meta_title": "Kostenloser Online-PDF-Editor & KI-Chat | NoteOCR",
-    "meta_desc": "Bearbeiten, signieren und chatten Sie mit Ihren PDFs via KI. Dokumente zusammenfassen, Antworten extrahieren und Formulare sicher im Browser ausfüllen.",
-    "hero_pill": "Intelligente PDF-Suite",
-    "hero_title_1": "PDFs bearbeiten und chatten,",
-    "hero_title_2": "jederzeit und überall.",
-    "hero_subtitle": "Der All-in-One PDF-Arbeitsbereich. Texte bearbeiten, Verträge unterzeichnen und Berichte mit KI sofort zusammenfassen oder Fragen beantworten.",
-    "btn_upload": "PDF-Datei hochladen",
-    "trust_soc2": "SOC2-konforme Sicherheit",
-    "trust_ai": "KI-gestützter Chat",
-    "trust_esign": "Rechtsverbindliche eSignatur",
-    "feat_1_title": "Mit Dokumenten chatten",
-    "feat_1_desc": "Laden Sie einen 100-seitigen Vertrag hoch und fragen Sie: 'Was sind die Kündigungsklauseln?' Unsere KI antwortet in Sekunden.",
-    "feat_2_title": "Ausfüllen & Signieren",
-    "feat_2_desc": "Schluss mit dem Drucken. Fügen Sie Signaturen hinzu und füllen Sie Formulare digital aus. Vollständig geschäftskonform.",
-    "feat_3_title": "Organisieren & Zusammenfügen",
-    "feat_3_desc": "Verbinden Sie mehrere PDFs, drehen Sie Seiten oder löschen Sie Abschnitte. Volle Kontrolle über Ihre Dateien.",
-    "workflow_title": "Ihr neuer PDF-Workflow",
-    "step_1_title": "Hochladen",
-    "step_1_desc": "Drag & Drop für jede PDF bis zu 50MB.",
-    "step_2_title": "Analysieren",
-    "step_2_desc": "KI indiziert Text für Suche & Chat.",
-    "step_3_title": "Bearbeiten",
-    "step_3_desc": "Texte, Bilder oder Signaturen hinzufügen.",
-    "step_4_title": "Herunterladen",
-    "step_4_desc": "Das fertige Dokument exportieren.",
-    "cta_title": "Meistern Sie Ihre Dokumentation.",
-    "cta_desc": "Schließen Sie sich über 10.000 Profis an, die NoteOCR für Verträge und Berichte nutzen.",
-    "cta_btn": "Jetzt kostenlos starten"
+    "meta_title": "Gescannte PDFs online bearbeiten mit OCR | Kostenloser PDF-Editor | NoteOCR",
+    "meta_desc": "Browserbasierter PDF-Editor für gescannte Dokumente. Handschriftlichen Text mit KI-OCR extrahieren, Unterschriften hinzufügen, Inhalte bearbeiten – keine Software erforderlich.",
+
+    "hero_pill": "Professioneller PDF-Arbeitsbereich",
+    "hero_title": "Gescannte PDFs online mit KI-OCR bearbeiten",
+    "hero_subtitle": "Der einzige browserbasierte PDF-Editor, der speziell für gescannte Dokumente entwickelt wurde. Laden Sie handschriftliche PDFs hoch, extrahieren Sie Text mit OCR, fügen Sie Unterschriften hinzu oder erstellen Sie neue Dokumente – alles ohne Software-Installation.",
+
+    "trust_ssl": "SSL-VERSCHLÜSSELT",
+    "trust_processing": "SOFORTIGE VERARBEITUNG",
+    "trust_accuracy": "HANDSCHRIFT-OCR",
+
+    "workspace_title": "Ein kompletter Online-Arbeitsbereich für Dokumente",
+    "workspace_subtitle": "Mehr als nur OCR. Laden Sie Ihre Dokumente in eine sichere Umgebung hoch, in der Sie Ihre Dateien vollständig in der Cloud bearbeiten, durchsuchen und verwalten können.",
+
+    "workspace_feature_1_title": "Live-Textbearbeitung",
+    "workspace_feature_1_desc": "Ändern Sie extrahierten Text direkt in Ihrem Browser. Korrigieren Sie Tippfehler, formatieren Sie Absätze neu und aktualisieren Sie Daten vor dem Export.",
+
+    "workspace_feature_2_title": "Privatsphäre zuerst",
+    "workspace_feature_2_desc": "Ihre Dokumente werden verschlüsselt und in einer sicheren Sandbox verarbeitet. Wir speichern Ihre sensiblen Daten niemals ohne Erlaubnis.",
+
+    "workspace_feature_3_title": "Sofortiger Export",
+    "workspace_feature_3_desc": "Fertig mit der Bearbeitung? Laden Sie Ihr bereinigtes Dokument sofort als durchsuchbares PDF, Word-Dokument oder Excel-Tabelle herunter.",
+
+    "use_cases_title": "Wer bearbeitet gescannte PDFs online?",
+    "use_cases_subtitle": "Von Anwaltskanzleien bis zum Gesundheitswesen – Tausende bearbeiten täglich gescannte Dokumente",
+
+    "use_case_1_title": "Rechtsexperten",
+    "use_case_1_desc": "Bearbeiten Sie gescannte Verträge, unterzeichnen Sie juristische Dokumente digital, schwärzen Sie sensible Informationen und bereiten Sie Fallakten vor. Ideal für Anwälte, die mit gescannten Gerichtsdokumenten arbeiten.",
+
+    "use_case_2_title": "Kleine Unternehmen",
+    "use_case_2_desc": "Füllen Sie gescannte Formulare aus, versehen Sie Rechnungen mit Firmenunterschriften, führen Sie PDFs zu Berichten zusammen und kommentieren Sie Angebote – ohne teure Adobe-Abos.",
+
+    "use_case_3_title": "Studenten & Dozenten",
+    "use_case_3_desc": "Annotieren Sie gescannte Lehrbücher, fassen Sie Kursnotizen zu Lernhilfen zusammen, füllen Sie Stipendienformulare aus und konvertieren Sie handschriftliche Aufgaben in durchsuchbare PDFs.",
+
+    "use_case_4_title": "Gesundheitswesen",
+    "use_case_4_desc": "Bearbeiten Sie Patientenformulare, digitalisieren Sie handschriftliche Krankenakten, fügen Sie rechtssichere Unterschriften hinzu und organisieren Sie gescannte Patientenakten.",
+
+    "comparison_title": "PDF-Bearbeitung: Desktop- vs. Online-Tools",
+    "comparison_subtitle": "Warum browserbasierte Bearbeitung Desktop-Software schlägt",
+    "comparison_col_tool": "Tool",
+    "comparison_col_access": "Zugriff",
+    "comparison_col_features": "Funktionen",
+    "comparison_col_cost": "Kosten",
+
+    "comparison_row1_tool": "Adobe Acrobat Pro",
+    "comparison_row1_access": "Erfordert Installation & Updates",
+    "comparison_row1_features": "Vollständig, kein Handschrift-OCR",
+    "comparison_row1_cost": "19,99 € / Monat",
+
+    "comparison_row2_tool": "Einfache Online-Editoren",
+    "comparison_row2_access": "Webbasiert",
+    "comparison_row2_features": "Eingeschränktes OCR, keine Handschrift",
+    "comparison_row2_cost": "Kostenlos bis 10 €",
+
+    "comparison_row3_tool": "NoteOCR PDF-Editor",
+    "comparison_row3_access": "Sofort, browserbasiert",
+    "comparison_row3_features": "OCR + Handschrift + Vollständiger Editor",
+    "comparison_row3_cost": "Kostenlos bis 8 €",
+
+    "features_title": "Warum unser Editor für gescannte PDFs anders ist",
+    "features_subtitle": "Speziell entwickelt für die Bearbeitung von gescannten und handschriftlichen PDFs",
+
+    "feature_1_title": "OCR für gescannte PDFs",
+    "feature_1_desc": "Konvertieren Sie gescannte Dokumente und handschriftliche PDFs in durchsuchbaren, bearbeitbaren Text. Unsere KI erkennt Handschrift, Drucktext und Tabellenstrukturen unter Beibehaltung Ihres ursprünglichen Layouts.",
+
+    "feature_2_title": "Vollständige Bearbeitungssuite",
+    "feature_2_desc": "Fügen Sie Text hinzu, zeichnen Sie Unterschriften, fügen Sie Bilder ein, markieren Sie Abschnitte und organisieren Sie Seiten neu. Alle Standard-PDF-Tools in einem professionellen Web-Arbeitsbereich – keine Software erforderlich.",
+
+    "feature_3_title": "Browserbasierte Sicherheit",
+    "feature_3_desc": "Verschlüsselung auf Bankenniveau für alle Uploads. Ihre PDFs werden nach Möglichkeit lokal in Ihrem Browser verarbeitet. Automatische Löschung nach 24 Stunden.",
+
+    "tech_title": "Wie browserbasierte PDF-OCR funktioniert",
+    "tech_intro": "Herkömmliche PDF-Editoren funktionieren nur mit digitalem Text. NoteOCR kombiniert fortschrittliche OCR (optische Zeichenerkennung) mit Layout-Analyse, um gescannte Dokumente, handschriftliche Formulare und bildbasierte PDFs zu verarbeiten – alles in Ihrem Browser. Wir erkennen die Textpositionierung, bewahren die Formatierung und machen Ihr gesamtes Dokument durchsuchbar.",
+
+    "tech_support_title": "Was wir unterstützen",
+    "tech_support_1": "Handschriftliche Dokumente und Formulare",
+    "tech_support_2": "Gescannte Verträge und Rechtsakten",
+    "tech_support_3": "Bildbasierte PDFs ohne Textebene",
+    "tech_support_4": "Digitale Unterschriften und Annotationen",
+    "tech_support_5": "Mehrseitige PDF-Dokumente",
+
+    "tech_tips_title": "Tipps für beste Ergebnisse",
+    "tech_tips_1": "Scannen Sie mit 300 DPI oder höher",
+    "tech_tips_2": "Sorgen Sie für gute Beleuchtung und Kontrast",
+    "tech_tips_3": "Seiten flach halten, ohne Falten",
+    "tech_tips_4": "Farbe oder Graustufen für Handschriften nutzen",
+    "tech_tips_5": "Direkt vom Scanner hochladen, wenn möglich",
+
+    "related_tools_title": "Verwandte OCR-Tools",
+
+    "related_tool_1_name": "Bild zu Word",
+    "related_tool_1_desc": "Handschriftlichen Text in formatierte Dokumente umwandeln",
+
+    "related_tool_2_name": "PDF online bearbeiten (ohne Installation)",
+    "related_tool_2_desc": "PDF-Dokumente von überall online hochladen und bearbeiten",
+
+    "related_tool_3_name": "Online-Dokumenteneditor",
+    "related_tool_3_desc": "MS Word- oder Excel-Dokumente kostenlos online bearbeiten",
+
+    "related_tool_4_name": "Bild zu Text",
+    "related_tool_4_desc": "Schreibschrift in Bildern in formatierten, editierbaren Text umwandeln",
+
+    "faq_title": "Häufig gestellte Fragen zur Bearbeitung gescannter PDFs",
+
+    "cta_title": "Bereit, gescannte PDFs online zu bearbeiten?",
+    "cta_subtitle": "Schließen Sie sich über 100.000 Nutzern an, die ihre Dokumente mit dem NoteOCR PDF-Editor bearbeiten",
+    "cta_button": "Jetzt mit der Bearbeitung beginnen",
+
+    "tool_main_title": "Professioneller PDF-Arbeitsbereich",
+    "tool_main_desc": "Laden Sie gescannte PDFs mit Handschrift für OCR hoch oder starten Sie mit einem leeren Dokument.",
+    "tool_upload_button": "Gescannte PDF hochladen",
+    "tool_new_button": "Neu erstellen",
+
+    "tool_upload_check_1": "Nur PDF",
+    "tool_upload_check_2": "Max. 25MB",
+    "tool_upload_check_3": "SSL-gesichert",
+
+    "tool_info_1_title": "Handschrift-OCR",
+    "tool_info_1_desc": "Text aus gescannten handschriftlichen Dokumenten extrahieren",
+
+    "tool_info_2_title": "Vollständiger Editor",
+    "tool_info_2_desc": "Text, Unterschriften und Annotationen hinzufügen",
+
+    "tool_info_3_title": "Browserbasiert",
+    "tool_info_3_desc": "Kein Software-Download, funktioniert sofort",
+
+    "tool_tip_label": "Profi-Tipp:",
+    "tool_tip_text": "Für beste OCR-Ergebnisse scannen Sie Dokumente mit 300 DPI. Handschriftliche Formulare gelingen am besten bei gleichmäßiger Ausleuchtung ohne Schatten.",
+
+    "modal_new_title": "Neues PDF erstellen",
+    "modal_new_desc": "Beginnen Sie mit einer leeren Seite und erstellen Sie Ihr Dokument von Grund auf neu.",
+    "modal_new_button": "Leeres PDF erstellen",
+
+    "modal_upload_title": "Gescannte PDF hochladen",
+    "modal_upload_desc": "Importieren Sie Ihr PDF, um Text mit OCR zu extrahieren, Unterschriften hinzuzufügen oder Inhalte zu ändern.",
+    "modal_upload_placeholder": "Klicken oder PDF hierher ziehen",
+    "modal_upload_info": "Max. Dateigröße: 25MB • Gescannte & handschriftliche PDFs unterstützt",
+
+    "modal_processing_new": "Arbeitsbereich wird erstellt...",
+    "modal_processing_upload": "PDF wird verarbeitet...",
+    "modal_processing_desc": "Ihre sichere PDF-Umgebung wird eingerichtet",
+
+    "modal_security_badge": "Verschlüsselung auf Bankenniveau",
+
+    "toast_success_create": "PDF-Arbeitsbereich bereit!",
+    "toast_success_upload": "PDF erfolgreich hochgeladen!",
+    "toast_error_type": "Bitte wählen Sie eine gültige PDF-Datei aus",
+    "toast_error_size": "Die Dateigröße muss unter 25MB liegen",
+    "toast_error_create": "Fehler beim Erstellen der PDF.",
+    "toast_error_upload": "Fehler beim Hochladen der PDF",
+    "toast_error_drop": "Bitte legen Sie eine gültige PDF-Datei ab",
+
+    "FAQ": {
+      "items": {
+        "edit_scanned_pdf": {
+          "q": "Wie kann ich ein gescanntes PDF online bearbeiten?",
+          "a": "Laden Sie Ihr PDF bei NoteOCR hoch. Klicken Sie auf 'OCR ausführen', um die gescannten Bilder in bearbeitbaren Text umzuwandeln. Sie können dann Text ändern, Unterschriften hinzufügen und Seiten neu organisieren, ohne Software zu installieren."
+        },
+        "handwritten_pdf_edit": {
+          "q": "Kann ich handschriftliche PDFs mit OCR bearbeiten?",
+          "a": "Ja. Die KI von NoteOCR ist speziell auf Handschriften trainiert. Nach dem Hochladen extrahiert unsere Engine den Text unter Beibehaltung des Layouts, sodass Sie ihn wie ein normales Dokument bearbeiten können."
+        },
+        "browser_based_editor": {
+          "q": "Was bedeutet 'browserbasierter' PDF-Editor?",
+          "a": "Das bedeutet, dass Sie PDFs direkt in Ihrem Webbrowser (Chrome, Firefox, Safari) bearbeiten. Sie müssen kein Programm wie Adobe Acrobat installieren. Ihre Dateien werden sicher in der Cloud verarbeitet."
+        },
+        "is_pdf_editor_free": {
+          "q": "Ist der Editor für gescannte PDFs kostenlos?",
+          "a": "Ja. Sie können gescannte PDFs mit unserem Basis-Plan kostenlos bearbeiten. Für Power-User mit hohem Seitenvolumen bieten wir einen professionellen Plan an."
+        },
+        "add_signature_scanned": {
+          "q": "Wie füge ich eine Unterschrift zu einem gescannten PDF hinzu?",
+          "a": "Nutzen Sie das 'Unterschrift'-Tool im Editor. Sie können Ihre Unterschrift mit der Maus zeichnen, ein Bild Ihrer Unterschrift hochladen oder Ihren Namen tippen. Platzieren Sie sie an einer beliebigen Stelle."
+        },
+        "ocr_accuracy_handwriting": {
+          "q": "Wie genau ist die OCR bei handschriftlichen PDFs?",
+          "a": "Die Genauigkeit liegt bei 85-95 %. Klare Handschrift erreicht über 95 %. Bei sehr unleserlicher Schrift empfehlen wir eine kurze manuelle Überprüfung des Ergebnisses."
+        },
+        "edit_protected_scanned": {
+          "q": "Kann ich passwortgeschützte gescannte PDFs bearbeiten?",
+          "a": "Wenn Sie das Passwort kennen, können Sie das PDF im Editor entsperren und bearbeiten. Gescannte PDFs haben jedoch selten solche Einschränkungen, da sie technisch gesehen Bilder sind."
+        },
+        "multiple_scanned_pages": {
+          "q": "Kann ich mehrseitige gescannte PDFs bearbeiten?",
+          "a": "Ja. Unser Editor zeigt alle Seiten in einer Seitenleiste an. Sie können OCR für einzelne Seiten oder das gesamte Dokument ausführen und Seiten beliebig verschieben oder löschen."
+        },
+        "mobile_pdf_editing": {
+          "q": "Kann ich gescannte PDFs auf meinem Handy bearbeiten?",
+          "a": "Ja, NoteOCR funktioniert auf iOS und Android im Browser. Für komplexe Textänderungen empfehlen wir jedoch ein Tablet oder einen Desktop-Computer für höhere Präzision."
+        },
+        "searchable_pdf": {
+          "q": "Wird mein PDF nach der OCR durchsuchbar sein?",
+          "a": "Ja. Nach der OCR wird eine unsichtbare Textebene über das Bild gelegt. Sie können dann mit Strg+F nach Wörtern suchen, genau wie in einem digitalen Original-PDF."
+        },
+        "combine_scanned_pdfs": {
+          "q": "Kann ich mehrere gescannte PDFs zu einem Dokument zusammenfügen?",
+          "a": "Ja. Nutzen Sie das Tool 'Seiten hinzufügen' oder 'Merge', um weitere PDFs zu importieren. Sie können die Reihenfolge ändern und dann das gesamte neue Dokument verarbeiten."
+        },
+        "form_filling_scanned": {
+          "q": "Kann ich gescannte Formulare ausfüllen, die keine Formularfelder haben?",
+          "a": "Ja. Nutzen Sie das 'Text hinzufügen'-Tool, um einfach über die Felder des Scans zu schreiben. Sie können auch Häkchen, Daten und Unterschriften über das Bild legen."
+        },
+        "quality_tips_scanned_pdf": {
+          "q": "Wie erhalte ich die besten OCR-Ergebnisse?",
+          "a": "1. Scannen mit 300 DPI. 2. Graustufen oder Farbe statt reinem Schwarz-Weiß. 3. Gute Beleuchtung ohne Schatten. 4. Seiten flach auflegen."
+        },
+        "privacy_browser_editor": {
+          "q": "Ist es sicher, sensible PDFs in einen Online-Editor hochzuladen?",
+          "a": "Ja. NoteOCR nutzt SSL-Verschlüsselung auf Bankenniveau. Dateien werden in isolierten Containern verarbeitet und nach 24 Stunden automatisch gelöscht. Wir lesen oder teilen Ihre Daten niemals."
+        },
+        "why_browser_vs_desktop": {
+          "q": "Warum einen Browser-Editor statt Adobe Acrobat nutzen?",
+          "a": "Browser-Editoren bieten sofortigen Zugriff ohne Installation, kosten oft deutlich weniger und NoteOCR verarbeitet handschriftliche PDFs oft besser als Adobes Standard-OCR."
+        },
+        "redact_scanned_pdf": {
+          "q": "Kann ich sensible Informationen in gescannten PDFs schwärzen?",
+          "a": "Ja. Mit dem 'Schwärzen'-Tool können Sie Texte oder Bilder dauerhaft entfernen. Nach der OCR können Sie sogar gezielt nach Begriffen suchen und diese im gesamten Dokument schwärzen."
+        },
+        "annotations_scanned": {
+          "q": "Kann ich Kommentare zu gescannten PDFs hinzufügen?",
+          "a": "Ja. Unser Editor bietet Notizzettel, Highlights, Pfeile und Formen. Alle Anmerkungen werden beim Export fest in das PDF eingebettet."
+        },
+        "convert_scanned_pdf_word": {
+          "q": "Kann ich ein gescanntes PDF nach der OCR in Word umwandeln?",
+          "a": "Ja. Klicken Sie nach der OCR auf 'Exportieren' und wählen Sie 'Word (.docx)'. Der extrahierte Text wird in ein bearbeitbares Word-Dokument übertragen."
+        },
+        "offline_editing": {
+          "q": "Kann ich PDFs offline im Browser bearbeiten?",
+          "a": "Nicht vollständig. Für die OCR-Verarbeitung ist eine Internetverbindung erforderlich. Einfache Annotationen können jedoch kurzzeitig offline funktionieren."
+        },
+        "no_software_required": {
+          "q": "Benötige ich wirklich keinerlei Software?",
+          "a": "Richtig. Sie brauchen nur einen modernen Browser (Chrome, Firefox, Safari). Keine Plug-ins, kein Adobe Reader. Einfach NoteOCR besuchen und sofort loslegen."
+        }
+      }
+    }
   },
+
   "EditorPage": {
-    "meta_title": "Kostenloser Online-Dokumenteneditor | Word & Excel bearbeiten | NoteOCR",
-    "meta_desc": "Bearbeiten Sie DOCX, XLSX und Textdateien direkt im Browser. Keine Installation erforderlich. Eine schnelle und sichere Office-Alternative.",
-    "hero_pill": "Cloud Office Suite",
-    "hero_title_1": "Dokumente bearbeiten,",
-    "hero_title_2": "jederzeit und überall.",
-    "hero_subtitle": "Bearbeiten Sie Microsoft Word- und Excel-Dateien direkt im Browser. Keine Installation, kein Login für schnelle Änderungen nötig.",
-    "btn_new": "Neues Dokument erstellen",
-    "btn_upload": "Datei hochladen",
-    "trust_secure": "Privat & Sicher",
-    "trust_os": "Läuft auf jedem Betriebssystem",
-    "trust_office": "100% MS Office kompatibel",
-    "feat_1_title": "Von überall arbeiten",
-    "feat_1_desc": "Greifen Sie von jedem Gerät auf Ihre Dateien zu. Egal ob Windows, Mac oder Linux – Ihr Editor ist nur einen Klick entfernt.",
-    "feat_2_title": "Vertraute Benutzeroberfläche",
-    "feat_2_desc": "Keine Umstellung nötig. Unsere Werkzeugleiste ähnelt Microsoft Word und Excel für sofortige Produktivität.",
-    "feat_3_title": "Leichtgewichtig & Schnell",
-    "feat_3_desc": "Keine Wartezeiten für schwere Software. Der NoteOCR Editor lädt in unter 2 Sekunden, auch bei langsamer Verbindung.",
-    "formats_title": "Unterstützte Formate",
-    "formats_subtitle": "Wir unterstützen das gesamte Office-Ökosystem. Laden Sie Dateien hoch oder starten Sie neu.",
-    "format_docx": "Microsoft Word",
-    "format_xlsx": "Microsoft Excel",
-    "format_txt": "Reiner Text",
-    "format_csv": "Datenblätter"
+    "meta_title": "Office-Dokumente online kostenlos bearbeiten - Browserbasierter Word-, Excel- und PowerPoint-Editor",
+    "meta_desc": "Professioneller Online-Dokumenteneditor. Erstellen und bearbeiten Sie Word- (DOCX), Excel- (XLSX) und PowerPoint-Dateien (PPTX) direkt im Browser ohne Microsoft Office.",
+    "hero_pill": "Cloud-Dokumentenarbeitsbereich",
+    "hero_title": "Office-Dokumente online bearbeiten",
+    "hero_highlight": "Ohne Software",
+    "hero_subtitle": "Professioneller browserbasierter Editor für Word, Excel und PowerPoint. Erstellen, bearbeiten und arbeiten Sie gemeinsam an DOCX-, XLSX- und PPTX-Dateien ohne Microsoft Office.",
+    "trust_security": "256-BIT VERSCHLÜSSELT",
+    "trust_sync": "ECHTZEIT-SYNCHRONISATION",
+    "trust_compatibility": "MS OFFICE KOMPATIBEL",
+    "feat_1_title": "Handschrift zu Text",
+    "feat_1_desc": "Verwandeln Sie Ihre handschriftlichen Notizen sofort in bearbeitbare digitale Formate. Angetrieben von NoteOCR für branchenführende Genauigkeit bei der Erkennung handschriftlicher Skizzen und Kritzeleien.",
+    "feat_2_title": "Echtzeit-Synchronisation",
+    "feat_2_desc": "Arbeiten Sie in Echtzeit mit Ihrem Team zusammen. Jeder Tastendruck wird sofort in der Cloud gespeichert, sodass Sie nie eine Version Ihrer Arbeit verlieren.",
+    "use_cases_title": "Wer nutzt unseren Online-Dokumenteneditor?",
+    "use_cases_subtitle": "Von Remote-Arbeitern bis zu Studierenden – Millionen bearbeiten Office-Dokumente online",
+    "use_case_1_title": "Remote-Arbeiter",
+    "use_case_1_desc": "Bearbeiten Sie Arbeitsdokumente von zu Hause aus ohne VPN oder Unternehmenssoftware. Greifen Sie auf Office-Dateien auf privaten Computern zu und behalten Sie dabei die professionelle Formatierung bei.",
+    "use_case_2_title": "Studierende & Lehrkräfte",
+    "use_case_2_desc": "Schreiben Sie Aufsätze, erstellen Sie Präsentationen und verwalten Sie Tabellenkalkulationen auf Schulcomputern ohne Office-Lizenzen. Arbeiten Sie in Echtzeit an Gruppenprojekten zusammen.",
+    "use_case_3_title": "Freelancer & Berater",
+    "use_case_3_desc": "Bearbeiten Sie Kundenangebote, Rechnungen und Berichte von jedem Gerät aus. Professionelle Office-kompatible Dokumente ohne Microsoft 365-Abonnements.",
+    "use_case_4_title": "Digitale Nomaden",
+    "use_case_4_desc": "Arbeiten Sie an Dokumenten von Internetcafés, Co-Working-Spaces oder Hotelbusiness-Centern aus. Keine Software-Installation auf fremden Computern erforderlich.",
+    "comparison_title": "Online-Editor vs. Desktop-Software",
+    "comparison_subtitle": "Warum browserbasierte Bearbeitung traditionelle Software übertrifft",
+    "comparison_solution": "Lösung",
+    "comparison_access": "Zugriff",
+    "comparison_features": "Funktionen",
+    "comparison_cost": "Kosten",
+    "comparison_ms_office": "MS Office Desktop",
+    "comparison_ms_access": "Installation erforderlich",
+    "comparison_ms_features": "Vollständig, an Gerät gebunden",
+    "comparison_ms_cost": "99 €/Jahr",
+    "comparison_google": "Google Workspace",
+    "comparison_google_access": "Webbasiert",
+    "comparison_google_features": "Eingeschränkte Office-Kompatibilität",
+    "comparison_google_cost": "6 €/Nutzer/Monat",
+    "comparison_noteocr": "NoteOCR Editor",
+    "comparison_noteocr_access": "Sofort, browserbasiert",
+    "comparison_noteocr_features": "Volle Office-Unterstützung",
+    "comparison_noteocr_cost": "Kostenlos-€/einmalig",
+    "features_title": "Warum unser Online-Editor Desktop-Software übertrifft",
+    "features_subtitle": "Professionelle Dokumentenbearbeitung ohne Software-Aufwand",
+    "feature_main_1_title": "Microsoft Office-kompatibel",
+    "feature_main_1_desc": "Volle Kompatibilität mit DOCX-, XLSX- und PPTX-Formaten. Bearbeiten Sie Microsoft Office-Dateien ohne Office-Installation. Formatierung, Formeln und erweiterte Funktionen bleiben erhalten.",
+    "feature_main_2_title": "Browserbasierte Bearbeitung",
+    "feature_main_2_desc": "Funktioniert sofort in Chrome, Safari, Firefox und Edge. Keine Downloads, keine Installationen, keine Plugins. Bearbeiten Sie Dokumente von jedem Computer – zu Hause, im Büro, in der Bibliothek oder im Café.",
+    "feature_main_3_title": "Cloud-Autospeicherung",
+    "feature_main_3_desc": "Automatische Cloud-Synchronisation speichert jede Änderung. Verlieren Sie nie Arbeit durch Abstürze oder geschlossene Tabs. Greifen Sie von jedem Gerät nahtlos auf Ihre Dokumente zu.",
+    "technical_title": "Wie browserbasierte Office-Bearbeitung funktioniert",
+    "technical_desc": "Traditionelle Dokumentenbearbeitung erfordert Desktop-Software-Installationen. Unser cloudbasierter Editor läuft vollständig in Ihrem Webbrowser unter Verwendung moderner Webstandards (WebAssembly, Canvas API). Wir analysieren Office-Dateiformate (OOXML, OpenDocument) auf dem Server, rendern sie in Ihrem Browser und synchronisieren Änderungen zurück in die Cloud – so erhalten Sie Desktop-Qualität mit Cloud-Komfort.",
+    "technical_formats_title": "Unterstützte Formate",
+    "technical_format_1": "Microsoft Word (DOCX, DOC)",
+    "technical_format_2": "Microsoft Excel (XLSX, XLS)",
+    "technical_format_3": "PowerPoint (PPTX, PPT)",
+    "technical_format_4": "OpenDocument (ODT, ODS, ODP)",
+    "technical_format_5": "Export als PDF, RTF, CSV",
+    "technical_features_title": "Hauptfunktionen",
+    "technical_feature_1": "Echtzeit-Zusammenarbeit",
+    "technical_feature_2": "Versionsverlauf & Wiederherstellung",
+    "technical_feature_3": "Funktioniert auf Mobilgerät & Tablet",
+    "technical_feature_4": "Offline-Bearbeitung (PWA)",
+    "technical_feature_5": "Kommentar- & Vorschlagsmodus",
+    "related_tools_title": "Verwandte OCR-Tools",
+    "related_tool_1_name": "Handschrift zu Word",
+    "related_tool_1_desc": "Notizen in DOCX umwandeln",
+    "related_tool_2_name": "Handschrift zu Excel",
+    "related_tool_2_desc": "Tabellen aus Scans extrahieren",
+    "related_tool_3_name": "PDF online bearbeiten",
+    "related_tool_3_desc": "Browserbasierter PDF-Editor",
+    "related_tool_4_name": "Bild zu Text",
+    "related_tool_4_desc": "Text aus Bildern extrahieren",
+    "faq_title": "Häufig gestellte Fragen zur Online-Dokumentenbearbeitung",
+    "cta_title": "Bereit, Dokumente online zu bearbeiten?",
+    "cta_subtitle": "Schließen Sie sich 500.000+ Nutzern an, die Office-Dokumente ohne Software bearbeiten",
+    "cta_btn": "Editor jetzt öffnen",
+    "editor_card_title": "Professioneller Dokumentenarbeitsbereich",
+    "editor_card_subtitle": "Erstellen Sie Word-, Excel- oder PowerPoint-Dokumente. Oder laden Sie vorhandene Office-Dateien hoch, um sie online ohne Software zu bearbeiten.",
+    "editor_btn_new": "Neues Dokument erstellen",
+    "editor_btn_upload": "Vorhandene Datei hochladen",
+    "editor_info_1": "DOCX, XLSX, PPTX",
+    "editor_info_2": "Max. 25 MB",
+    "editor_info_3": "In Cloud gespeichert",
+    "editor_feature_1_title": "Office-kompatibel",
+    "editor_feature_1_desc": "Volle Unterstützung für Microsoft Office-Formate",
+    "editor_feature_2_title": "Browserbasiert",
+    "editor_feature_2_desc": "Keine Installation, funktioniert auf jedem Gerät",
+    "editor_feature_3_title": "Autospeicherung",
+    "editor_feature_3_desc": "Echtzeit-Cloud-Synchronisation",
+    "editor_tip_label": "Perfekt für:",
+    "editor_tip_text": "Chromebook-Nutzer, Remote-Arbeiter, gemeinsam genutzte Computer und alle, die Office-Kompatibilität ohne den Office-Preis benötigen.",
+    "modal_new_title": "Neues Dokument erstellen",
+    "modal_new_subtitle": "Wählen Sie, welche Art von Dokument Sie in Ihrem Browser erstellen möchten.",
+    "modal_upload_title": "Office-Datei hochladen",
+    "modal_upload_subtitle": "Importieren Sie vorhandene Word-, Excel- oder PowerPoint-Dateien zur Online-Bearbeitung.",
+    "modal_doc_word": "Word-Dokument",
+    "modal_doc_word_sub": "DOCX / ODT",
+    "modal_doc_excel": "Excel-Tabelle",
+    "modal_doc_excel_sub": "XLSX / CSV",
+    "modal_doc_powerpoint": "PowerPoint",
+    "modal_doc_powerpoint_sub": "PPTX / ODP",
+    "modal_upload_text": "Klicken oder Office-Datei hierher ziehen",
+    "modal_upload_formats": "Unterstützt DOCX, XLSX, PPTX, ODT, ODS, RTF, CSV • Max. 25 MB",
+    "modal_security": "Cloud-verschlüsselt & automatisch gespeichert",
+    "loading_importing": "Dokument wird importiert...",
+    "loading_creating": "Arbeitsbereich wird erstellt...",
+    "loading_subtitle": "Ihre Cloud-Editor-Umgebung wird eingerichtet",
+    "FAQ": {
+      "edit_office_online": {
+        "q": "Kann ich Microsoft Office-Dateien online ohne Office bearbeiten?",
+        "a": "Ja. Der browserbasierte Editor von NoteOCR ermöglicht es Ihnen, Word- (DOCX), Excel- (XLSX) und PowerPoint-Dateien (PPTX) direkt in Ihrem Webbrowser zu erstellen und zu bearbeiten. Keine Microsoft Office-Installation erforderlich. Laden Sie einfach Ihre Datei hoch oder erstellen Sie ein neues Dokument und beginnen Sie sofort mit der Bearbeitung."
+      },
+      "browser_compatibility": {
+        "q": "Welche Browser unterstützen den Online-Dokumenteneditor?",
+        "a": "Unser Editor funktioniert in allen modernen Browsern: Chrome, Firefox, Safari und Edge. Er funktioniert auch in mobilen Browsern (iOS Safari, Chrome für Android). Für die beste Erfahrung empfehlen wir die Verwendung der neuesten Version von Chrome oder Edge auf dem Desktop."
+      },
+      "word_online_free": {
+        "q": "Ist der Online-Word-Editor wirklich kostenlos?",
+        "a": "Ja. Sie können unbegrenzt Word-Dokumente kostenlos erstellen und bearbeiten. Kostenlose Nutzer erhalten volle Bearbeitungsfunktionen, Cloud-Speicher und Export als DOCX/PDF. Premium-Tarife bieten erweiterte Funktionen wie Echtzeit-Zusammenarbeit, Versionsverlauf und bevorzugte Verarbeitung."
+      },
+      "excel_formulas": {
+        "q": "Kann ich Formeln und Funktionen im Online-Excel-Editor verwenden?",
+        "a": "Ja. Unser Excel-Editor unterstützt alle Standardformeln (SUMME, MITTELWERT, SVERWEIS, WENN-Anweisungen usw.). Sie können Diagramme, Pivot-Tabellen und bedingte Formatierung erstellen. Komplexe Makros und VBA-Skripte werden in der Browserversion nicht unterstützt."
+      },
+      "powerpoint_presentations": {
+        "q": "Kann ich professionelle PowerPoint-Präsentationen online erstellen?",
+        "a": "Ja. Unser PowerPoint-Editor umfasst Vorlagen, Folienlayouts, Animationen und Übergänge. Sie können Bilder, Diagramme, Videos und Notizen hinzufügen. Exportieren Sie Präsentationen als PPTX oder PDF. Perfekt zum Erstellen von Pitch-Decks, Schulprojekten und Geschäftspräsentationen."
+      },
+      "file_storage": {
+        "q": "Wo werden meine Dokumente gespeichert, wenn ich online bearbeite?",
+        "a": "Dokumente werden während der Bearbeitung in sicherem Cloud-Speicher gespeichert. Sie können bearbeitete Dateien jederzeit auf Ihr Gerät herunterladen. Dateien werden aus Sicherheitsgründen nach 24 Stunden automatisch von unseren Servern gelöscht. Für permanenten Cloud-Speicher erstellen Sie ein kostenloses Konto."
+      },
+      "offline_editing": {
+        "q": "Kann ich Dokumente offline bearbeiten?",
+        "a": "Eingeschränkte Offline-Bearbeitung ist über unsere Progressive Web App (PWA) verfügbar. Installieren Sie den Editor aus Ihrem Browser-Menü. Sie können zuvor geöffnete Dokumente offline bearbeiten, aber neue Uploads und erweiterte Funktionen erfordern eine Internetverbindung."
+      },
+      "collaboration": {
+        "q": "Können mehrere Personen dasselbe Dokument gleichzeitig bearbeiten?",
+        "a": "Ja (Premium-Funktion). Teilen Sie einen Dokumentenlink mit Mitarbeitern. Alle sehen Änderungen in Echtzeit während der Eingabe. Kommentare, Vorschläge und Versionsverlauf helfen Teams bei der Zusammenarbeit. Kostenlose Nutzer können schreibgeschützte Links teilen."
+      },
+      "microsoft_account": {
+        "q": "Benötige ich ein Microsoft-Konto, um Office-Dateien zu bearbeiten?",
+        "a": "Nein. Sie benötigen kein Microsoft-Konto, keine Office-Lizenz oder ein kostenpflichtiges Abonnement. Besuchen Sie einfach NoteOCR, laden Sie Ihre Office-Datei hoch und beginnen Sie mit der Bearbeitung. Unser Editor ist völlig unabhängig von Microsofts Diensten."
+      },
+      "export_formats": {
+        "q": "In welche Formate kann ich meine Dokumente exportieren?",
+        "a": "Exportoptionen variieren je nach Dokumenttyp. Word: DOCX, PDF, RTF, TXT. Excel: XLSX, CSV, PDF. PowerPoint: PPTX, PDF. Alle Exporte bewahren Formatierung, Bilder und Layout. Sie können Inhalte auch in andere Anwendungen kopieren/einfügen."
+      },
+      "templates": {
+        "q": "Enthält der Editor Dokumentvorlagen?",
+        "a": "Ja. Wählen Sie aus professionellen Vorlagen für Lebensläufe, Rechnungen, Berichte, Präsentationen und Tabellenkalkulationen. Vorlagen sind vorformatiert und bereit zur Anpassung. Neue Vorlagen werden regelmäßig basierend auf Nutzeranfragen hinzugefügt."
+      },
+      "mobile_editing": {
+        "q": "Kann ich Dokumente auf meinem Smartphone oder Tablet bearbeiten?",
+        "a": "Ja. Die Editor-Oberfläche passt sich an mobile Bildschirme an (iOS und Android). Sie können schnelle Bearbeitungen vornehmen, Kommentare hinzufügen und Dokumente unterwegs überprüfen. Für umfangreiche Formatierungen oder komplexe Layouts empfehlen wir ein Tablet oder Desktop."
+      },
+      "compatibility_issues": {
+        "q": "Bleibt meine Office-Formatierung beim Online-Bearbeiten erhalten?",
+        "a": "Ja. Unser Editor behält die Microsoft Office-Formatierung bei, einschließlich Schriftarten, Farben, Stile, Seitenlayouts, Kopf-/Fußzeilen, Tabellen und eingebetteten Bildern. Komplexe Funktionen wie Makros, erweiterte Diagramme oder benutzerdefinierte Schriftarten können Anpassungen erfordern."
+      },
+      "file_size_limit": {
+        "q": "Was ist die maximale Dateigröße, die ich online bearbeiten kann?",
+        "a": "Kostenlose Nutzer können Dateien bis zu 25 MB hochladen. Premium-Nutzer können Dateien bis zu 100 MB hochladen. Bei sehr großen Dokumenten (50+ Seiten) kann die Verarbeitung 15-30 Sekunden dauern. Wir empfehlen, extrem große Dateien zur schnelleren Bearbeitung aufzuteilen."
+      },
+      "security_privacy": {
+        "q": "Sind meine Dokumentendaten beim Online-Bearbeiten sicher?",
+        "a": "Ja. Alle Uploads verwenden bankübliche SSL-Verschlüsselung. Dokumente werden in isolierten sicheren Containern verarbeitet. Wir greifen niemals auf Ihre Inhalte zu, lesen sie oder teilen sie. Dateien werden nach 24 Stunden automatisch von unseren Servern gelöscht. Für maximale Privatsphäre nutzen Sie unseren Offline-Modus."
+      },
+      "desktop_vs_online": {
+        "q": "Was ist der Unterschied zwischen Online- und Desktop-Office-Editoren?",
+        "a": "Online-Editoren funktionieren sofort in jedem Browser ohne Installation. Desktop-Software bietet erweiterte Funktionen (Makros, Plugins), erfordert aber Käufe, Updates und gerätespezifische Installationen. Online-Bearbeitung ist ideal für grundlegende bis mittlere Dokumentenarbeit und geräteübergreifenden Zugriff."
+      },
+      "libreoffice_compatibility": {
+        "q": "Kann ich LibreOffice- und OpenOffice-Dokumente bearbeiten?",
+        "a": "Ja. Wir unterstützen OpenDocument-Formate: ODT (Text), ODS (Tabellenkalkulation) und ODP (Präsentation). Laden Sie LibreOffice-Dateien hoch, bearbeiten Sie sie im Browser und exportieren Sie zurück als ODT oder konvertieren Sie in Microsoft Office-Formate (DOCX, XLSX, PPTX)."
+      },
+      "macro_support": {
+        "q": "Unterstützt der Online-Editor Excel-Makros und VBA?",
+        "a": "Nein. Browserbasierte Editoren können aus Sicherheitsgründen keine VBA-Makros ausführen. Wenn Sie eine Excel-Datei mit Makros hochladen, können Sie die Daten weiterhin bearbeiten, aber Makros werden nicht ausgeführt. Für makrolastige Workflows verwenden Sie Desktop-Excel oder exportieren Sie als CSV zur Datenbearbeitung."
+      },
+      "chromebook_editing": {
+        "q": "Kann ich Office-Dokumente auf einem Chromebook bearbeiten?",
+        "a": "Ja. Der Online-Editor von NoteOCR ist perfekt für Chromebooks, die keine Desktop-Office-Software unterstützen. Bearbeiten Sie Word-, Excel- und PowerPoint-Dateien direkt im Chrome-Browser. Keine Android-Apps oder Linux-Container erforderlich. Volle Office-Kompatibilität unter ChromeOS."
+      },
+      "version_history": {
+        "q": "Kann ich frühere Versionen meines Dokuments wiederherstellen?",
+        "a": "Ja (Premium-Funktion). Der Versionsverlauf speichert automatisch Snapshots bei jeder Bearbeitung. Stellen Sie jede frühere Version mit einem Klick wieder her. Vergleichen Sie Versionen nebeneinander, um Änderungen zu sehen. Kostenlose Nutzer können aktuelle Versionen herunterladen, erhalten aber keine automatische Verlaufsverfolgung."
+      }
+    }
   },
   "ExcelPage": {
-    "meta_title": "Handschriftliche Tabellen in Excel konvertieren | NoteOCR",
-    "meta_desc": "Automatisieren Sie die Datenerfassung. Verwandeln Sie handschriftliche Raster und Tabellen sofort in editierbare Excel-Tabellen mit KI.",
-    "hero_pill": "Intelligente Raster-Erkennung",
-    "hero_title": "Handschrift zu",
-    "hero_highlight": "Excel",
-    "hero_subtitle": "Stoppen Sie die manuelle Dateneingabe. Unsere KI erkennt Zeilen, Spalten und Kopfzeilen und konvertiert sie in .xlsx-Dateien.",
-    "trust_security": "Sicherheit auf Bankenniveau",
-    "trust_grid": "Mehrspaltige Erkennung",
-    "trust_accuracy": "99,8% numerische Genauigkeit",
-    "feat_1_title": "Intelligente Raster",
-    "feat_1_desc": "Wir erkennen Strukturen. Unsere Engine identifiziert gezeichnete Linien, Spalten und verbundene Zellen automatisch.",
-    "feat_2_title": "Finanzielle Präzision",
-    "feat_2_desc": "Optimiert für Zahlen. Perfekt für Rechnungen, Inventarlisten, Finanzbücher und Notenspiegel.",
-    "feat_3_title": "Universeller Export",
-    "feat_3_desc": "Daten als Microsoft Excel (.xlsx) oder CSV herunterladen für den Import in Google Sheets oder Datenbanken.",
-    "how_title": "Vom Papier zur Tabelle in Sekunden",
-    "step_1_title": "Aufnehmen",
-    "step_1_desc": "Fotografieren Sie Ihr Hauptbuch oder Ihre Datentabelle.",
-    "step_2_title": "Analysieren",
-    "step_2_desc": "Die KI erfasst die Geometrie von Zeilen und Spalten.",
-    "step_3_title": "Exportieren",
-    "step_3_desc": "Laden Sie eine saubere, formatierte Excel-Datei herunter.",
-    "faq_title": "Häufig gestellte Fragen",
-    "cta_title": "Digitalisieren Sie Ihre Daten heute",
-    "cta_btn": "Tabelle jetzt konvertieren"
+    "meta_title": "Handschriftliche Tabellen in Excel (XLSX) umwandeln | NoteOCR",
+    "meta_desc": "Automatisieren Sie die Dateneingabe. Konvertieren Sie handschriftliche Raster, Finanztabellen und Pläne sofort mit KI in editierbare Excel-Tabellen.",
+
+    "hero_pill": "Tabellenstrukturerkennung",
+    "hero_title": "Handschriftliche Tabellen in Excel-Tabellen umwandeln",
+    "hero_subtitle": "Sparen Sie sich das manuelle Abtippen. Unsere KI erkennt Zeilen, Spalten und Zellgrenzen in Ihren handschriftlichen Notizen – auch ohne Linien – und exportiert formatierte .xlsx-Dateien.",
+
+    "trust_ssl": "SSL-VERSCHLÜSSELT",
+    "trust_processing": "2 MINUTEN VERARBEITUNG",
+    "trust_accuracy": "98% NUMERISCHE GENAUIGKEIT",
+
+    "before_after_title": "Überzeugen Sie sich selbst",
+    "before_after_desc": "Echte Konvertierung mit erhaltener Struktur und hoher numerischer Präzision",
+    "before_label": "Vorher: Handschriftliches Kassenbuch",
+    "before_placeholder": "[Laden Sie Ihre Tabelle hoch, um Ergebnisse zu sehen]",
+    "after_label": "Nachher: Excel-Ausgabe",
+    "after_placeholder": "[Vorschau der formatierten Tabelle]",
+
+    "use_cases_title": "Wer nutzt die Handschrift-zu-Excel-Konvertierung?",
+    "use_cases_subtitle": "Von Steuerbüros bis hin zu Lehrkräften – täglich werden tausende Tabellen digitalisiert",
+
+    "use_case_1_title": "Buchhaltung & Buchführung",
+    "use_case_1_desc": "Wandeln Sie handschriftliche Kassenbücher, Spesenberichte und Belege in sortierbare Excel-Dateien für die Steuererklärung um.",
+
+    "use_case_2_title": "Lagerverwaltung",
+    "use_case_2_desc": "Digitalisieren Sie Bestandslisten, Produktlisten und Lagerprotokolle. Ideal für kleine Unternehmen mit Papierlisten.",
+
+    "use_case_3_title": "Lehrkräfte & Notenverwaltung",
+    "use_case_3_desc": "Verwandeln Sie handschriftliche Notenlisten und Klassenbücher in formatierte Tabellen für Zeugnisse und Fortschrittsberichte.",
+
+    "use_case_4_title": "Forschung & Datenerfassung",
+    "use_case_4_desc": "Konvertieren Sie Feldnotizen, Umfrageergebnisse und Labordaten in analysierbare Datensätze für Statistiksoftware.",
+
+    "comparison_title": "Handschriftliche Tabelle zu Excel: Methoden im Vergleich",
+    "comparison_subtitle": "Warum NoteOCR im Vergleich zur manuellen Eingabe Stunden spart",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Zeitaufwand",
+    "comparison_col_accuracy": "Genauigkeit",
+    "comparison_col_cost": "Kosten",
+
+    "comparison_row1_method": "Manuelles Abtippen",
+    "comparison_row1_time": "45 Minuten",
+    "comparison_row1_accuracy": "95% (menschliche Fehler)",
+    "comparison_row1_cost": "15 €/Std. Lohnkosten",
+
+    "comparison_row2_method": "Standard-OCR",
+    "comparison_row2_time": "10 Minuten",
+    "comparison_row2_accuracy": "50% (Strukturverlust)",
+    "comparison_row2_cost": "Kostenlos - 20 €",
+
+    "comparison_row3_method": "NoteOCR Tabellen",
+    "comparison_row3_time": "2 Minuten",
+    "comparison_row3_accuracy": "98% Struktur erhalten",
+    "comparison_row3_cost": "8 € / 100 Seiten",
+
+    "features_title": "Warum unsere Tabellen-OCR anders ist",
+    "features_subtitle": "Speziell für handschriftliche Datentabellen entwickelt",
+
+    "feature_1_title": "Intelligente Rastererkennung",
+    "feature_1_desc": "Unsere KI identifiziert Tabellenstrukturen auch ohne sichtbare Linien. Sie erkennt implizite Spalten, Textausrichtungen und Hierarchien.",
+
+    "feature_2_title": "Optimiert für Zahlen",
+    "feature_2_desc": "Höchste Genauigkeit für Finanzdaten. Konvertieren Sie Kassenbücher, Rechnungen und Inventuren unter Beibehaltung der Zahlenformate.",
+
+    "feature_3_title": "Export nach Excel oder CSV",
+    "feature_3_desc": "Laden Sie Ihre Daten als Microsoft Excel (.xlsx) mit Zellformatierung herunter oder exportieren Sie als CSV für Google Sheets und Datenbanken.",
+
+    "tech_title": "Wie die Rastererkennung funktioniert",
+    "tech_intro": "Die meisten OCR-Tools behandeln Tabellen als Fließtext, was Zellbeziehungen zerstört. Die KI von NoteOCR analysiert räumliche Positionen und Ausrichtungsmuster, um die exakte Struktur – einschließlich Header und verbundener Zellen – zu rekonstruieren.",
+
+    "tech_detect_title": "Was wir erkennen",
+    "tech_detect_1": "Zellgrenzen ohne gezeichnete Linien",
+    "tech_detect_2": "Spaltenüberschriften und Hierarchien",
+    "tech_detect_3": "Verbundene Zellen über mehrere Spalten",
+    "tech_detect_4": "Währungssymbole und Dezimalstellen",
+    "tech_detect_5": "Tabellen auf kariertem oder blanko Papier",
+
+    "tech_tips_title": "Tipps für beste Ergebnisse",
+    "tech_tips_1": "Gute Beleuchtung beim Fotografieren nutzen",
+    "tech_tips_2": "Kamera parallel zur Seite halten",
+    "tech_tips_3": "300 DPI bei Scans verwenden",
+    "tech_tips_4": "Ganze Tabelle in einem Bild erfassen",
+    "tech_tips_5": "Ergebnis vor kritischer Verwendung prüfen",
+
+    "related_tools_title": "Verwandte OCR-Tools",
+
+    "related_tool_1_name": "Bild zu Word",
+    "related_tool_1_desc": "Handschrift in formatierte Dokumente umwandeln",
+
+    "related_tool_2_name": "PDF online bearbeiten",
+    "related_tool_2_desc": "PDFs ohne Installation überall online bearbeiten",
+
+    "related_tool_3_name": "Online-Dokumenteneditor",
+    "related_tool_3_desc": "Word- oder Excel-Dokumente kostenlos online bearbeiten",
+
+    "related_tool_4_name": "Bild zu Text",
+    "related_tool_4_desc": "Schreibschrift in Bildern in editierbaren Text umwandeln",
+
+    "faq_title": "Häufig gestellte Fragen zur Tabelle-zu-Excel-Konvertierung",
+
+    "cta_title": "Bereit, das manuelle Abtippen zu beenden?",
+    "cta_subtitle": "Schließen Sie sich über 10.000 Nutzern an, die Tabellen mit NoteOCR digitalisieren",
+    "cta_button": "Tabelle jetzt konvertieren",
+
+    "tool_upload_title": "Laden Sie Ihre handschriftliche Tabelle hoch",
+    "tool_upload_desc": "Unterstützt Kassenbücher, Inventarlisten und Notenbücher. Funktioniert mit und ohne Linien.",
+    "tool_upload_button": "Bild auswählen",
+    "tool_upload_check_1": "JPG, PNG, JPEG",
+    "tool_upload_check_2": "Max. 25MB",
+    "tool_upload_check_3": "SSL-gesichert",
+
+    "tool_processing_title": "Erkenne Tabellenstruktur...",
+    "tool_processing_desc": "KI analysiert Zeilen, Spalten und Zellgrenzen",
+
+    "tool_complete_title": "Tabelle erfolgreich extrahiert!",
+    "tool_complete_desc": "Ihre Tabelle ist fertig. Download als Excel (.xlsx) oder CSV möglich.",
+    "tool_complete_file_type": "Excel-Tabelle",
+    "tool_complete_status": "BEREIT",
+    "tool_download_button": "Excel herunterladen",
+    "tool_new_button": "Neue Tabelle",
+
+    "tool_info_1_title": "Intelligente Erkennung",
+    "tool_info_1_desc": "Funktioniert auch bei Tabellen ohne gezeichnete Linien",
+
+    "tool_info_2_title": "99% Genauigkeit",
+    "tool_info_2_desc": "Optimiert für Zahlen und Finanzdaten",
+
+    "tool_info_3_title": "Excel-Format",
+    "tool_info_3_desc": "Kompatibel mit Excel, Google Sheets und Datenbanken",
+
+    "tool_tip_label": "Profi-Tipp:",
+    "tool_tip_text": "Für beste Ergebnisse fotografieren Sie die Tabelle bei gutem Licht parallel zur Seite. 300 DPI Scans sind besser als Fotos.",
+
+    "toast_success": "Tabelle erfolgreich extrahiert!",
+    "toast_error_type": "Bitte laden Sie ein gültiges Bild (JPG, PNG, WEBP) oder PDF hoch",
+    "toast_error_size": "Dateigröße muss unter 25MB liegen",
+    "toast_error_extraction": "Extraktion fehlgeschlagen.",
+    "toast_download_success": "Excel-Datei heruntergeladen!",
+    "toast_download_error": "Download fehlgeschlagen.",
+
+    "FAQ": {
+      "items": {
+        "table_to_excel": {
+          "q": "Wie konvertiere ich eine handschriftliche Tabelle in Excel?",
+          "a": "Laden Sie ein Foto oder einen Scan Ihrer Tabelle bei NoteOCR hoch. Unsere KI erkennt automatisch Struktur und Zellen und wandelt sie in eine .xlsx-Datei um. Der Vorgang dauert ca. 10-30 Sekunden."
+        },
+        "cursive": {
+          "q": "Kann NoteOCR Schreibschrift in Tabellen lesen?",
+          "a": "Ja. Unsere KI ist auf Millionen Proben von Schreibschrift und Druckschrift trainiert. Die Tabellenstruktur bleibt auch bei schwer leserlicher Schrift meist erhalten."
+        },
+        "math": {
+          "q": "Werden mathematische Formeln erkannt?",
+          "a": "NoteOCR extrahiert die geschriebenen Werte. Formeln (wie '=SUMME') werden nicht interpretiert, aber die Daten werden so präzise übernommen, dass Sie Formeln in Excel leicht ergänzen können."
+        },
+        "is_free": {
+          "q": "Ist der Konverter kostenlos?",
+          "a": "NoteOCR ist ein Premium-Dienst, aber wir bieten Testphasen an. Es gibt ein kostenloses Kontingent; für hohe Volumina bieten wir faire Einmalzahlungen ohne Abo an."
+        },
+        "no_borders": {
+          "q": "Was, wenn meine Tabelle keine Linien hat?",
+          "a": "NoteOCR erkennt Strukturen durch Textabstände und Ausrichtungen. Das funktioniert hervorragend auch auf blanko Notizpapier."
+        },
+        "ledger_specific": {
+          "q": "Kann ich alte Buchhaltungs-Kassenbücher konvertieren?",
+          "a": "Absolut. NoteOCR ist für Finanzdokumente mit Spalten wie Datum, Soll und Haben optimiert."
+        },
+        "accuracy_numbers": {
+          "q": "Wie genau sind Zahlen im Vergleich zu Text?",
+          "a": "Die Genauigkeit bei Zahlen liegt bei ca. 99%, da die KI speziell auf Ziffern und Währungssymbole trainiert ist. Text liegt im Schnitt bei 92-95%."
+        },
+        "batch_process": {
+          "q": "Kann ich mehrere Tabellen gleichzeitig konvertieren?",
+          "a": "Aktuell erfolgt der Upload einzeln. Für Stapelverarbeitung (z.B. 50-seitige Bücher) kontaktieren Sie uns bitte für unsere API-Lösungen."
+        },
+        "excel_vs_csv": {
+          "q": "Was ist der Unterschied zwischen Excel- und CSV-Export?",
+          "a": "Excel (.xlsx) behält Formatierungen bei. CSV ist reiner Text für Datenbanken oder Python, verliert aber die optische Formatierung."
+        },
+        "edit_after": {
+          "q": "Kann ich die Tabelle nach der Konvertierung bearbeiten?",
+          "a": "Ja. Die Datei ist eine Standard-Excel-Datei. Sie können alle Werte korrigieren, formatieren oder Formeln hinzufügen."
+        },
+        "grid_paper": {
+          "q": "Funktioniert es besser auf kariertem oder blanko Papier?",
+          "a": "Beides funktioniert gut. Karos können der KI helfen, Spalten noch präziser zu trennen, aber unser Algorithmus ist auch für blanko Papier optimiert."
+        },
+        "merged_cells": {
+          "q": "Werden verbundene Zellen erkannt?",
+          "a": "Die KI versucht, verbundene Zellen (z.B. zentrierte Überschriften) zu erkennen. Komplexe Verschachtelungen müssen eventuell in Excel kurz nachbearbeitet werden."
+        },
+        "quality_tips": {
+          "q": "Wie erhalte ich die besten Ergebnisse?",
+          "a": "Achten Sie auf: (1) Gute Beleuchtung, (2) Parallele Kameraführung, (3) Leserliche Schrift und (4) Erfassung der gesamten Tabelle in einem Bild."
+        },
+        "privacy": {
+          "q": "Sind meine Finanzdaten sicher?",
+          "a": "Ja. Alle Uploads sind SSL-verschlüsselt. Bilder werden nach der Verarbeitung innerhalb von 24 Stunden gelöscht. Datenschutz hat bei uns Priorität."
+        },
+        "compare_manual": {
+          "q": "Warum nicht einfach manuell abtippen?",
+          "a": "Manuelles Tippen dauert oft 30-60 Minuten und ist fehleranfällig. NoteOCR erledigt das in 2 Minuten mit 98% Genauigkeit."
+        }
+      }
+    }
   },
   "nav": {
     "product": "Produkt",
@@ -359,26 +1124,34 @@
     "get_started": "Kostenlos starten"
   },
   "Footer": {
-    "description": "Wandeln Sie handschriftliche Notizen sofort in saubere, editierbare Dokumente um. Sicher, schnell und für moderne Teams gebaut.",
-    "stay_updated": "Bleiben Sie auf dem Laufenden",
+    "description": "Verwandeln Sie handschriftliche Notizen sofort in saubere, bearbeitbare Dokumente. Sicher, schnell und für moderne Teams entwickelt.",
+    "stay_updated": "Auf dem Laufenden bleiben",
     "email_placeholder": "E-Mail eingeben",
     "systems_ok": "Alle Systeme betriebsbereit",
     "product": "Produkt",
+    "use_cases": "Anwendungsbereiche",
     "company": "Unternehmen",
     "resources": "Ressourcen",
-    "hiring": "Jobs",
-    "copyright": "© {year} NoteOCR Inc. | Entwickelt für globale Teams.",
+    "hiring": "Wir stellen ein",
+    "copyright": "© {year} NoteOCR Inc. Alle Rechte vorbehalten.",
     "links": {
-      "notes_to_word": "Notizen zu Word",
-      "table_to_excel": "Tabelle zu Excel",
-      "online_editor": "Online-Editor",
+      "notes_to_word": "Notizen in Word umwandeln",
+      "table_to_excel": "Tabelle nach Excel exportieren",
+      "online_editor": "Online-Dokumenteneditor",
+      "edit_pdf": "PDF bearbeiten",
       "pricing": "Preise",
       "about": "Über uns",
       "careers": "Karriere",
       "contact": "Kontakt",
+      "blog": "Blog",
       "docs": "Dokumentation",
+      "api": "API-Referenz",
       "privacy": "Datenschutz",
-      "terms": "AGB"
+      "terms": "AGB",
+      "security": "Sicherheit",
+      "sitemap": "Sitemap",
+      "status": "Systemstatus",
+      "changelog": "Changelog"
     }
   },
   "Contact": {
@@ -405,128 +1178,180 @@
   },
   "PricingUI": {
     "hero": {
-      "title_start": "Einfache Preise für perfekte",
-      "title_highlight": "Handschrift-Konvertierung.",
-      "subtitle": "Wandeln Sie handschriftliche Notizen bei Bedarf in editierbaren Text um. Einmal zahlen, jederzeit nutzen – kein Abo, kein Druck."
+      "badge": "KEINE ABONNEMENTS",
+      "title_start": "Einmal zahlen,",
+      "title_highlight": "für immer besitzen.",
+      "subtitle": "Hören Sie auf, Software zu mieten. Kaufen Sie Guthaben, das nie abläuft, und nutzen Sie die weltweit präziseste Handschrift-OCR-Engine für Excel, Word und Text."
     },
     "labels": {
-      "capacity": "Seiten-Guthaben",
-      "features": "Ihre Vorteile"
+      "capacity": "Inklusive Seiten",
+      "features": "Tarif-Features",
+      "most_popular": "Am beliebtesten"
     },
     "plans": {
       "free": {
-        "name": "Kostenlose Testversion",
-        "description": "Testen Sie die Konvertierung, bevor Sie einen Cent ausgeben.",
-        "pages": "7 Seiten (einmalig)",
-        "buttonText": "Kostenlos testen",
+        "name": "Hobby",
+        "desc": "Testen Sie die Genauigkeit einzelner Seiten.",
+        "price": "0",
+        "credits": "7 Seiten",
+        "btn": "Kostenlos testen",
         "features": [
-          "7 Seiten insgesamt (unbegrenzt gültig)",
-          "Hochpräzise Handschrift-zu-Text-KI",
-          "Standard-Verarbeitungsgeschwindigkeit",
-          "1 Bild gleichzeitig transkribieren",
-          "Vorschau des konvertierten Textes",
-          "Export als TXT",
-          "Basis-Dokumenteneditor",
-          "Bis zu 3 Dokumente in der Cloud speichern"
-        ],
-        "missing": [
-          "Stapelverarbeitung",
-          "Kontinuierliche Konvertierung",
-          "Erweiterte Formatierung",
-          "Tabellenerkennung",
-          "Export zu Word, Excel, PDF, HTML",
-          "Mehrfach-Upload",
-          "Dokumentenverlauf & Versionierung"
+          "Standard OCR-Genauigkeit",
+          "Handschrift zu Text",
+          "Basis TXT-Export",
+          "1 Tag Cloud-Speicher"
         ]
       },
       "starter": {
-        "name": "Starter",
-        "description": "Ideal für Studenten und gelegentliche Notizen.",
-        "pages": "100 Seiten",
-        "buttonText": "Starter wählen",
+        "name": "Student",
+        "desc": "Für Aufsätze, Notizen & Hausaufgaben.",
+        "price": "8",
+        "credits": "100 Seiten",
+        "btn": "Student-Paket wählen",
         "features": [
-          "100 Seiten-Guthaben (kein Ablauf)",
-          "98% Genauigkeits-Engine",
-          "Schnelle Transkription",
-          "Stapel-Upload Support",
-          "Bis zu 5 Bilder gleichzeitig",
-          "Mehrere Bilder zusammenfügen",
-          "Export zu Word, Excel, PDF, HTML, TXT",
-          "Cloud-Speicher für 500 Dokumente",
-          "Priorisierter E-Mail-Support",
-          "Lernfähiger Handschrift-Stil"
-        ],
-        "missing": [
-          "Unbegrenzte Stapelverarbeitung",
-          "Erweiterte Tabellenextraktion",
-          "KI-Dokument-Formatierer",
-          "Team-Zusammenarbeit"
+          "Alles aus Hobby",
+          "Handschrift zu Word (DOCX)",
+          "Layout-Erhaltungs-Engine",
+          "Papier-Wasserzeichen entfernen",
+          "E-Mail-Support"
         ]
       },
       "plus": {
-        "badge": "Beliebtest",
-        "name": "Plus",
-        "description": "Für Power-User mit umfangreichen Dokumenten.",
-        "pages": "300 Seiten",
-        "buttonText": "Upgrade auf Plus",
+        "name": "Professional",
+        "desc": "Für Buchhalter & Forscher.",
+        "price": "15",
+        "credits": "300 Seiten",
+        "btn": "Pro-Paket wählen",
+        "badge": "Bester Wert",
         "features": [
-          "300 Seiten-Guthaben",
-          "Alle Starter-Funktionen",
-          "Schnellere Verarbeitungswarteschlange",
-          "Erweiterte Tabellenerkennung",
-          "PDF-Dokumente bearbeiten",
-          "Bis zu 10 Bilder gleichzeitig",
-          "Verbesserte Formatierungskontrolle",
-          "Priorisierter Chat & E-Mail-Support"
-        ],
-        "missing": [
-          "Unbegrenzte Stapelverarbeitung",
-          "KI-Dokument-Formatierer",
-          "Team-Management"
+          "Alles aus Student",
+          "Handschrift zu Excel (XLSX)",
+          "Intelligente Tabellenerkennung",
+          "Modus für unleserliche Kursivschrift",
+          "Stapelverarbeitung (10 Dateien)"
         ]
       },
       "pro": {
-        "name": "Pro",
-        "description": "Hohes Volumen für Profis und Teams.",
-        "pages": "1.000 Seiten",
-        "buttonText": "Upgrade auf Pro",
+        "name": "Power User",
+        "desc": "Für Archive & Massendatenerfassung.",
+        "price": "25",
+        "credits": "1.000 Seiten",
+        "btn": "Power-Paket wählen",
         "features": [
-          "1.000 Seiten-Guthaben",
-          "Alle Plus-Funktionen",
-          "KI-Dokument-Formatierer",
-          "Echtzeit-Verarbeitung",
-          "Unbegrenzte Stapelverarbeitung",
-          "Ganze Bücher konvertieren",
-          "Erweiterte Tabellenextraktion",
-          "Zwischen Word, Excel und PDF konvertieren",
-          "Eigenes Rechnungs-Branding",
-          "Premium-Support per Chat & E-Mail"
-        ],
-        "missing": []
+          "Alles aus Professional",
+          "Gleichzeitige Verarbeitung",
+          "OCR für mathematische Formeln",
+          "Prioritäts-Warteschlange",
+          "Unbegrenzte Batch-Uploads"
+        ]
       }
     },
-    "enterprise": {
-      "title": "Benötigen Sie mehr als 1.000 Seiten?",
-      "desc": "Holen Sie sich ein individuelles Enterprise-Paket mit API-Zugriff und SLA-Garantien.",
-      "cta": "Vertrieb kontaktieren"
+    "comparison": {
+      "title": "Technische Spezifikationen im Detail",
+      "subtitle": "Warum NoteOCR besser abschneidet als herkömmliche Scanner.",
+      "headers": ["Feature", "Hobby", "Student", "Professional", "Power User"],
+      "groups": {
+        "core": "Erkennungs-Intelligenz",
+        "formats": "Export & Dateitypen",
+        "system": "Systemleistung"
+      },
+      "rows": [
+        {
+          "name": "Druckschrift OCR",
+          "values": [true, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "Kursivschrift-Engine",
+          "values": ["Standard", "Hoch", "Ultra", "Ultra"],
+          "group": "core"
+        },
+        {
+          "name": "Tabellen-Erkennung (Excel)",
+          "values": [false, false, true, true],
+          "group": "core"
+        },
+        {
+          "name": "Layouterhaltung (Word)",
+          "values": [false, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "Mathematische Formeln",
+          "values": [false, false, "Basis", "Erweitert"],
+          "group": "core"
+        },
+        {
+          "name": "Korrektur unsauberer Tinte",
+          "values": [false, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "Export-Formate",
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Alle Formate"],
+          "group": "formats"
+        },
+        {
+          "name": "Batch-Upload Limit",
+          "values": ["1 Datei", "5 Dateien", "10 Dateien", "Unbegrenzt"],
+          "group": "formats"
+        },
+        {
+          "name": "Cloud-Speicherdauer",
+          "values": ["24 Stunden", "30 Tage", "Unbegrenzt", "Unbegrenzt"],
+          "group": "system"
+        },
+        {
+          "name": "Verschlüsselung",
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "group": "system"
+        },
+        {
+          "name": "Priorität",
+          "values": ["Standard", "Standard", "Hoch", "Echtzeit"],
+          "group": "system"
+        }
+      ]
+    },
+    "deep_dive": {
+      "title": "Warum Präzision ihren Preis hat",
+      "cards": [
+        {
+          "title": "GPU vs CPU Verarbeitung",
+          "desc": "Einfache Gratis-Tools nutzen billige CPUs, die Wörter nur raten. Wir verarbeiten Ihre Bilder über dedizierte NVIDIA T4-GPUs, die den Kontext verstehen. Das Ergebnis: 99% Genauigkeit bei Zahlen und Finanzdaten."
+        },
+        {
+          "title": "Layout-Intelligenz",
+          "desc": "Wir lesen nicht nur Text, wir erfassen Koordinatensysteme. So können wir Excel-Tabellen und Word-Einrückungen exakt so rekonstruieren, wie sie auf dem Papier erscheinen – das spart Ihnen Stunden an Formatierung."
+        },
+        {
+          "title": "Sicherheitsarchitektur",
+          "desc": "Ihre Daten werden in kurzlebigen Containern verarbeitet. Sobald die Konvertierung abgeschlossen ist und Sie die Datei heruntergeladen haben, werden die Bilddaten gelöscht. Wir trainieren unsere KI nicht mit Ihren privaten Unterlagen."
+        }
+      ]
     },
     "faq_title": "Häufig gestellte Fragen",
-    "faqs": [
-      {
-        "q": "Was zählt als eine Seite?",
-        "a": "Eine Seite entspricht einem hochgeladenen Bild oder einer Seite in einem PDF."
-      },
-      {
-        "q": "Läuft mein Guthaben ab?",
-        "a": "Nein. Alle gekauften Seiten gehören Ihnen für immer. Kein monatlicher Reset."
-      }
-    ],
-    "support": {
-      "title": "Haben Sie noch Fragen?",
-      "email_label": "Schreiben Sie uns",
-      "chat_label": "Live-Chat",
-      "chat_time": "Verfügbar 9:00 – 17:00 EST"
-    }
+    "faqs": {
+      "items": [
+        {
+          "q": "Läuft mein Guthaben ab?",
+          "a": "Nein. Niemals. Sie können heute 300 Seiten kaufen und diese erst in 2 Jahren verbrauchen. Wir hassen das 'Nutzen oder Verlieren'-Modell von Abonnements."
+        },
+        {
+          "q": "Was genau zählt als 'Credit'?",
+          "a": "1 Credit = 1 verarbeitete Seite. Wenn Sie ein PDF mit 10 Seiten hochladen, kostet das 10 Credits. Ein einzelnes Bild einer Quittung kostet 1 Credit."
+        },
+        {
+          "q": "Kann ich sehr alte Dokumente verarbeiten?",
+          "a": "Ja. Unsere Tarife 'Professional' und 'Power User' nutzen unser Ultra-Modell, das speziell auf historischen Manuskripten und verblasster Tinte trainiert wurde. Es ist deutlich leistungsstärker als Standard-OCR."
+        },
+        {
+          "q": "Ich habe über 5.000 Seiten zu verarbeiten.",
+          "a": "Für große Archive kontaktieren Sie bitte unseren Support, nachdem Sie ein Konto erstellt haben. Wir bieten Mengenrabatte für historische Digitalisierungsprojekte an."
+        }
+      ]
+    },
+    "footer_secure": "Sichere Zahlung via Stripe"
   },
   "Signup": {
     "meta_title": "NoteOCR beitreten | Workflow digitalisieren",

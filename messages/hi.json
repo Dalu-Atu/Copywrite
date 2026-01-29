@@ -236,105 +236,870 @@
   },
 
   "WordPage": {
-    "meta_title": "हैंडराइटिंग को Word (DOCX) में बदलें | NoteOCR",
-    "meta_desc": "हाथ से लिखे नोट्स को तुरंत एडिटेबल MS Word डॉक्यूमेंट में बदलें...",
-    "hero_title_1": "हैंडराइटिंग को बदलें",
-    "hero_title_2": "Word में",
-    "hero_subtitle": "नोट्स को दोबारा टाइप न करें। हमारा AI आपके ओरिजिनल लेआउट और टेबल को सुरक्षित रखते हुए इमेज को .docx में बदल देता है।",
-    "feat_1_title": "लेआउट सुरक्षा",
-    "feat_1_desc": "हम लिस्ट, हेडर और मार्जिन को पहचानते हैं ताकि आपका Word डॉक्यूमेंट बिल्कुल आपके नोटबुक पेज जैसा दिखे।",
-    "feat_2_title": "खराब लिखावट? कोई समस्या नहीं।",
-    "feat_2_desc": "हमारा ICR इंजन लाखों हैंडराइटिंग नमूनों पर ट्रेन किया गया है।",
-    "feat_3_title": "ऑटो-डिलीशन",
-    "feat_3_desc": "आपकी प्राइवेसी मायने रखती है। फाइलें प्रोसेस होने के बाद स्थायी रूप से हटा दी जाती हैं।",
-    "faq_title": "अक्सर पूछे जाने वाले सवाल",
-    "faq_q1": "क्या यह कर्सिव लिखावट पढ़ सकता है?",
-    "faq_a1": "हाँ। NoteOCR एडवांस न्यूरल नेटवर्क का उपयोग करता है जो विशेष रूप से कर्सिव स्क्रिप्ट के लिए ट्रेन हैं।",
-    "faq_q2": "क्या मेरा डेटा सुरक्षित है?",
-    "faq_a2": "बिल्कुल। हम TLS एन्क्रिप्शन का उपयोग करते हैं और 60 मिनट के भीतर फाइलें डिलीट कर देते हैं।"
+    "meta_title": "हाथ से लिखे नोटों को वर्ड (DOCX) में बदलें | NoteOCR",
+    "meta_desc": "बार-बार टाइप करना बंद करें। AI के साथ हाथ से लिखे नोटों को एडिट करने योग्य वर्ड डॉक्यूमेंट में बदलें। लिस्ट, हेडर और लेआउट को स्वचालित रूप से सुरक्षित रखता है।",
+
+    "hero_pill": "स्मार्ट डॉक्यूमेंट पहचान",
+    "hero_title": "हाथ से लिखे नोटों को वर्ड डॉक्यूमेंट में बदलें",
+    "hero_subtitle": "अपने नोट्स को फिर से टाइप करना बंद करें। हमारा AI आपके हाथ से लिखे पन्नों को एडिट करने योग्य .docx फाइलों में बदल देता है, जबकि आपकी लिस्ट, हेडर और मूल लेआउट को वैसे ही रखता है।",
+
+    "trust_ssl": "SSL एन्क्रिप्टेड",
+    "trust_processing": "30-सेकंड प्रोसेसिंग",
+    "trust_accuracy": "95% टेक्स्ट सटीकता",
+
+    "before_after_title": "अंतर देखें",
+    "before_after_desc": "वास्तविक कन्वर्जन जो सुरक्षित स्ट्रक्चर और फॉर्मेटिंग दिखाता है",
+    "before_label": "पहले: हाथ से लिखे नोट्स",
+    "before_placeholder": "[परिणाम देखने के लिए अपने हस्तलिखित नोट्स अपलोड करें]",
+    "after_label": "बाद में: वर्ड डॉक्यूमेंट",
+    "after_placeholder": "[फॉर्मेटेड वर्ड डॉक्यूमेंट प्रिव्यू]",
+
+    "use_cases_title": "हाथ से लिखे नोटों को वर्ड में कौन बदलता है?",
+    "use_cases_subtitle": "छात्रों से लेकर पेशेवरों तक, हजारों लोग रोजाना अपने नोट्स को डिजिटाइज़ करते हैं",
+
+    "use_case_1_title": "छात्र और शोधकर्ता",
+    "use_case_1_desc": "निबंध लेखन और संदर्भ प्रबंधन के लिए लेक्चर नोट्स और शोध पत्रिकाओं को खोजने योग्य वर्ड डॉक्यूमेंट में बदलें।",
+
+    "use_case_2_title": "बिजनेस प्रोफेशनल",
+    "use_case_2_desc": "टीम शेयरिंग और रिपोर्ट के लिए मीटिंग नोट्स और व्हाइटबोर्ड सेशन को फॉर्मेटेड डॉक्यूमेंट में डिजिटाइज़ करें।",
+
+    "use_case_3_title": "लेखक और पत्रकार",
+    "use_case_3_desc": "हाथ से लिखे ड्राफ्ट और इंटरव्यू नोट्स को एडिट करने योग्य पांडुलिपियों में बदलें, जो प्रकाशन के लिए तैयार हों।",
+
+    "use_case_4_title": "संग्रहाध्यक्ष और इतिहासकार",
+    "use_case_4_desc": "संरक्षण और अनुसंधान के लिए ऐतिहासिक दस्तावेजों और व्यक्तिगत पत्रों को डिजिटल अभिलेखागार में बदलें।",
+
+    "comparison_title": "हस्तलिखित नोट्स से वर्ड: विधियों की तुलना",
+    "comparison_subtitle": "जानें क्यों NoteOCR मैन्युअल टाइपिंग की तुलना में घंटों बचाता है",
+    "comparison_col_method": "तरीका",
+    "comparison_col_time": "समय",
+    "comparison_col_accuracy": "सटीकता",
+    "comparison_col_cost": "लागत",
+
+    "comparison_row1_method": "मैन्युअल टाइपिंग",
+    "comparison_row1_time": "60 मिनट/पेज",
+    "comparison_row1_accuracy": "98% (धीमा और थकाऊ)",
+    "comparison_row1_cost": "फ्री (आपका समय)",
+
+    "comparison_row2_method": "बेसिक OCR टूल्स",
+    "comparison_row2_time": "10 मिनट",
+    "comparison_row2_accuracy": "70% (फॉर्मेटिंग खो देता है)",
+    "comparison_row2_cost": "फ्री - $15",
+
+    "comparison_row3_method": "NoteOCR वर्ड कन्वर्टर",
+    "comparison_row3_time": "30 सेकंड",
+    "comparison_row3_accuracy": "95% (लेआउट के साथ)",
+    "comparison_row3_cost": "$8/100 पेज",
+
+    "features_title": "हमारा हैंडराइटिंग OCR क्यों अलग है",
+    "features_subtitle": "विशेष रूप से हाथ से लिखे नोटों को वर्ड में बदलने के लिए बनाया गया है",
+
+    "feature_1_title": "लेआउट सुरक्षा",
+    "feature_1_desc": "बेसिक OCR के विपरीत जो केवल सादा टेक्स्ट देता है, हमारा AI लिस्ट, हेडर और पैराग्राफ की पहचान करता है। आपका वर्ड डॉक्यूमेंट आपके ओरिजिनल नोट्स जैसा ही दिखेगा।",
+
+    "feature_2_title": "कर्सिव और प्रिंट पहचान",
+    "feature_2_desc": "लाखों हैंडराइटिंग नमूनों पर प्रशिक्षित उन्नत न्यूरल नेटवर्क। यह खराब लिखावट, कर्सिव स्क्रिप्ट और कटिंग को भी सटीकता से संभालता है।",
+
+    "feature_3_title": "गोपनीयता-प्रथम प्रोसेसिंग",
+    "feature_3_desc": "अपलोड के दौरान आपके नोट्स एन्क्रिप्ट किए जाते हैं और कन्वर्जन के बाद स्थायी रूप से हटा दिए जाते हैं। हम आपकी सामग्री को कभी स्टोर नहीं करते।",
+
+    "tech_title": "हैंडराइटिंग रिकग्निशन तकनीक कैसे काम करती है",
+    "tech_intro": "साधारण OCR टूल्स लिखावट को टाइप किए गए अक्षरों की तरह मानते हैं, जिससे फॉर्मेटिंग खराब हो जाती है। NoteOCR का AI पेन स्ट्रोक और स्ट्रक्चर का विश्लेषण करता है ताकि आपके नोट्स को सही वर्ड फॉर्मेट में फिर से बनाया जा सके।",
+
+    "tech_detect_title": "हम क्या पहचानते हैं",
+    "tech_detect_1": "पैराग्राफ, लिस्ट और हेडर",
+    "tech_detect_2": "कर्सिव और प्रिंट लिखावट",
+    "tech_detect_3": "कटा हुआ टेक्स्ट और सुधार",
+    "tech_detect_4": "मार्जिन और इंडेंटेशन",
+    "tech_detect_5": "नोटबुक और लूज-लीफ पेपर",
+
+    "tech_tips_title": "बेहतर परिणाम के लिए टिप्स",
+    "tech_tips_1": "फोटो खींचते समय अच्छी रोशनी का उपयोग करें",
+    "tech_tips_2": "कैमरे को पेज के समानांतर रखें",
+    "tech_tips_3": "स्कैन किए गए दस्तावेजों के लिए 300 DPI रखें",
+    "tech_tips_4": "स्याही और कागज के बीच अच्छा कंट्रास्ट सुनिश्चित करें",
+    "tech_tips_5": "फाइनल करने से पहले आउटपुट की समीक्षा करें",
+
+    "related_tools_title": "संबंधित OCR टूल्स",
+
+    "related_tool_1_name": "इमेज से वर्ड",
+    "related_tool_1_desc": "हाथ से लिखे टेक्स्ट को फॉर्मेटेड डॉक्यूमेंट में बदलें",
+
+    "related_tool_2_name": "ऑनलाइन PDF एडिट करें",
+    "related_tool_2_desc": "बिना इंस्टॉल किए कहीं से भी PDF एडिट करें",
+
+    "related_tool_3_name": "ऑनलाइन डॉक्यूमेंट एडिटर",
+    "related_tool_3_desc": "MS वर्ड या एक्सेल को मुफ्त में ऑनलाइन एडिट करें",
+
+    "related_tool_4_name": "इमेज से टेक्स्ट",
+    "related_tool_4_desc": "इमेज के कर्सिव टेक्स्ट को एडिट करने योग्य टेक्स्ट में बदलें",
+
+    "faq_title": "हैंडराइटिंग-टू-वर्ड कन्वर्जन के बारे में अक्सर पूछे जाने वाले प्रश्न",
+
+    "cta_title": "अपने नोट्स को डिजिटाइज़ करने के लिए तैयार हैं?",
+    "cta_subtitle": "उन 50,000+ लोगों में शामिल हों जिन्होंने NoteOCR के साथ अपने नोट्स बदले हैं",
+    "cta_button": "अभी अपने नोट्स बदलें",
+
+    "footer_text": "NoteOCR // इंटेलिजेंट डॉक्यूमेंट प्रोसेसिंग",
+
+    "tool_upload_title": "अपने हस्तलिखित नोट्स अपलोड करें",
+    "tool_upload_desc": "लेक्चर नोट्स, मीटिंग मिनट्स और जर्नल को सपोर्ट करता है। कर्सिव और प्रिंट दोनों पर काम करता है।",
+    "tool_upload_button": "इमेज चुनें",
+    "tool_upload_check_1": "JPG, PNG, PDF",
+    "tool_upload_check_2": "अधिकतम 25MB",
+    "tool_upload_check_3": "SSL सुरक्षित",
+
+    "tool_processing_title": "लिखावट का विश्लेषण हो रहा है...",
+    "tool_processing_desc": "AI अक्षरों को पहचान रहा है और लेआउट सुरक्षित कर रहा है",
+
+    "tool_complete_title": "कन्वर्जन पूरा हुआ!",
+    "tool_complete_desc": "आपका वर्ड डॉक्यूमेंट तैयार है। इसे डाउनलोड करें और माइक्रोसॉफ्ट वर्ड या गूगल डॉक्स में एडिट करें।",
+    "tool_complete_file_type": "वर्ड डॉक्यूमेंट (.docx)",
+    "tool_complete_status": "तैयार",
+    "tool_download_button": "वर्ड डाउनलोड करें",
+    "tool_new_button": "नया डॉक्यूमेंट",
+
+    "tool_info_1_title": "लेआउट सुरक्षित",
+    "tool_info_1_desc": "लिस्ट, हेडर और पैराग्राफ बरकरार रहते हैं",
+
+    "tool_info_2_title": "95% सटीकता",
+    "tool_info_2_desc": "कर्सिव और प्रिंट लिखावट के लिए अनुकूलित",
+
+    "tool_info_3_title": "DOCX फॉर्मेट",
+    "tool_info_3_desc": "वर्ड, डॉक्स और पेजेस के साथ संगत",
+
+    "tool_tip_label": "प्रो टिप:",
+    "tool_tip_text": "बेहतर परिणामों के लिए, अच्छी रोशनी में फोटो लें और कैमरे को सीधा रखें।",
+
+    "toast_success": "ट्रांसक्रिप्शन पूरा हुआ!",
+    "toast_error_type": "कृपया वैध इमेज (JPG, PNG, WEBP) या PDF फाइल अपलोड करें",
+    "toast_error_size": "फाइल का आकार 25MB से कम होना चाहिए",
+    "toast_error_conversion": "कन्वर्जन विफल रहा।",
+    "toast_download_success": "वर्ड डॉक्यूमेंट डाउनलोड हो गया!",
+    "toast_download_error": "डाउनलोड विफल रहा।",
+
+    "FAQ": {
+      "items": {
+        "handwriting_to_word": {
+          "q": "मैं हाथ से लिखे नोटों को वर्ड में कैसे बदल सकता हूँ?",
+          "a": "NoteOCR पर अपने नोट्स की फोटो अपलोड करें। हमारा AI लिखावट को पहचानता है, लेआउट को सुरक्षित रखता है और इसे डाउनलोड करने योग्य वर्ड (.docx) फाइल में बदल देता है।"
+        },
+        "cursive_reading": {
+          "q": "क्या NoteOCR कर्सिव लिखावट पढ़ सकता है?",
+          "a": "हाँ। हमारा AI लाखों नमूनों पर प्रशिक्षित है और कर्सिव, प्रिंट और मिक्स स्टाइल को आसानी से पहचान लेता है।"
+        },
+        "layout_preserved": {
+          "q": "क्या यह मेरे ओरिजिनल नोट्स का लेआउट बनाए रखता है?",
+          "a": "बिल्कुल। NoteOCR बुलेट्स, नंबर वाली लिस्ट, मार्जिन और पैराग्राफ को पहचानता है ताकि आपका वर्ड डॉक्यूमेंट आपकी नोटबुक जैसा ही दिखे।"
+        },
+        "is_free_word": {
+          "q": "क्या यह कन्वर्टर मुफ्त है?",
+          "a": "NoteOCR एक पेड सर्विस है, लेकिन हम सटीकता जांचने के लिए फ्री ट्रायल देते हैं। अधिक मात्रा के लिए हम बिना किसी सब्सक्रिप्शन के वन-टाइम पेमेंट प्लान देते हैं।"
+        },
+        "messy_handwriting": {
+          "q": "अगर मेरी लिखावट खराब या अस्पष्ट है तो क्या होगा?",
+          "a": "NoteOCR खराब लिखावट को भी काफी हद तक समझ लेता है। सटीकता थोड़ी कम हो सकती है, लेकिन आउटपुट फिर भी उपयोगी और एडिट करने योग्य रहता है।"
+        },
+        "notebook_vs_loose": {
+          "q": "क्या यह नोटबुक के पन्नों पर काम करता है?",
+          "a": "हाँ, यह नोटबुक, रजिस्टर और सादे कागज, सभी पर समान रूप से काम करता है। लाइनें टेक्स्ट की पहचान में बाधा नहीं डालतीं।"
+        },
+        "math_formulas": {
+          "q": "क्या यह गणित के फार्मूले बदल सकता है?",
+          "a": "यह बुनियादी गणितीय प्रतीकों को पहचान सकता है, लेकिन जटिल समीकरणों के लिए मैन्युअल सुधार की आवश्यकता हो सकती है।"
+        },
+        "multiple_pages": {
+          "q": "क्या मैं एक साथ कई पेज बदल सकता हूँ?",
+          "a": "हाँ, आपके प्लान के आधार पर आप कई इमेज को एक साथ एक ही डॉक्यूमेंट में बदल सकते हैं।"
+        },
+        "word_vs_google_docs": {
+          "q": "क्या मैं इसे गूगल डॉक्स में खोल सकता हूँ?",
+          "a": "हाँ, .docx फॉर्मेट माइक्रोसॉफ्ट वर्ड, गूगल डॉक्स और अन्य सभी आधुनिक वर्ड प्रोसेसर में काम करता है।"
+        },
+        "edit_after_conversion": {
+          "q": "क्या मैं कन्वर्जन के बाद वर्ड डॉक्यूमेंट को एडिट कर सकता हूँ?",
+          "a": "हाँ, डाउनलोड की गई फाइल पूरी तरह से एडिट करने योग्य होती है। आप कोई भी सुधार या बदलाव कर सकते हैं।"
+        },
+        "crossed_out_text": {
+          "q": "क्या यह कटे हुए टेक्स्ट को पहचानता है?",
+          "a": "हमारा AI कटे हुए टेक्स्ट को पहचानने की कोशिश करता है और आमतौर पर उसे फाइनल फाइल से हटा देता है।"
+        },
+        "handwriting_styles": {
+          "q": "यह किन लिखावट शैलियों को सपोर्ट करता है?",
+          "a": "यह प्रिंट, कर्सिव, मिक्स स्टाइल और विभिन्न प्रकार के पेन (बॉलपॉइंट, जेल, मार्कर) को सपोर्ट करता है।"
+        },
+        "quality_tips_word": {
+          "q": "मैं सबसे अच्छा परिणाम कैसे पा सकता हूँ?",
+          "a": "अच्छी रोशनी का प्रयोग करें, कैमरे को पेज के सीधा ऊपर रखें और सुनिश्चित करें कि टेक्स्ट धुंधला न हो।"
+        },
+        "privacy_notes": {
+          "q": "क्या मेरा डेटा सुरक्षित है?",
+          "a": "हाँ। हम SSL एन्क्रिप्शन का उपयोग करते हैं और आपकी फाइलों को 24 घंटे के भीतर स्थायी रूप से हटा देते हैं।"
+        },
+        "why_not_type": {
+          "q": "मैं खुद टाइप क्यों न कर लूँ?",
+          "a": "टाइपिंग में बहुत समय लगता है। NoteOCR वही काम 30 सेकंड में कर देता है, जिससे आपका कीमती समय बचता है।"
+        },
+        "student_benefits": {
+          "q": "छात्रों को इससे क्या फायदा है?",
+          "a": "छात्र अपने नोट्स को कीवर्ड से खोज सकते हैं, उन्हें सहपाठियों के साथ शेयर कर सकते हैं और आसानी से असाइनमेंट बना सकते हैं।"
+        },
+        "meeting_notes": {
+          "q": "क्या मैं व्हाइटबोर्ड की फोटो को वर्ड में बदल सकता हूँ?",
+          "a": "हाँ, बस व्हाइटबोर्ड की साफ फोटो अपलोड करें और हमारा AI उसे टेक्स्ट में बदल देगा।"
+        },
+        "languages_supported": {
+          "q": "यह किन भाषाओं को सपोर्ट करता है?",
+          "a": "NoteOCR हिंदी, अंग्रेजी और कई अन्य लैटिन भाषाओं को सपोर्ट करता है। हम लगातार नई भाषाएं जोड़ रहे हैं।"
+        },
+        "comparison_apps": {
+          "q": "यह फोन के स्कैनिंग एप्स से कैसे अलग है?",
+          "a": "फोन एप्स केवल फोटो को PDF बनाते हैं, जबकि NoteOCR लिखावट को समझकर उसे एडिट करने योग्य वर्ड फाइल में बदलता है।"
+        },
+        "historical_documents": {
+          "q": "क्या मैं पुराने ऐतिहासिक दस्तावेज डिजिटल कर सकता हूँ?",
+          "a": "हाँ, यह पुराने कागजों और फीकी स्याही पर भी काम करता है, हालांकि बहुत पुरानी शैलियों के लिए समीक्षा की आवश्यकता हो सकती है।"
+        }
+      }
+    }
   },
+
   "PdfPage": {
-    "meta_title": "फ्री ऑनलाइन PDF एडिटर और AI चैट | NoteOCR",
-    "meta_desc": "AI का उपयोग करके अपने PDF को एडिट करें, साइन करें और चैट करें। अपने ब्राउज़र में सुरक्षित रूप से डॉक्यूमेंट्स को सारांशित करें और फॉर्म भरें।",
-    "hero_pill": "इंटेलिजेंट PDF सुइट",
-    "hero_title_1": "PDF एडिट करें और चैट करें,",
-    "hero_title_2": "कभी भी, कहीं भी।",
-    "hero_subtitle": "ऑल-इन-वन PDF वर्कस्पेस। टेक्स्ट एडिट करें, कॉन्ट्रैक्ट्स साइन करें और रिपोर्ट को सारांशित करने या तुरंत उत्तर पाने के लिए AI का उपयोग करें।",
-    "btn_upload": "PDF फ़ाइल अपलोड करें",
-    "trust_soc2": "SOC2 अनुपालन सुरक्षा",
-    "trust_ai": "AI आधारित चैट",
-    "trust_esign": "कानूनी रूप से मान्य ई-साइन",
-    "feat_1_title": "डॉक्यूमेंट के साथ चैट करें",
-    "feat_1_desc": "100 पन्नों का कॉन्ट्रैक्ट अपलोड करें और पूछें: 'समाप्ति की शर्तें क्या हैं?' हमारा AI सेकंडों में स्कैन करके उत्तर देता है।",
-    "feat_2_title": "भरें और साइन करें",
-    "feat_2_desc": "प्रिंट करना बंद करें। अपने हस्ताक्षर जोड़ें, फॉर्म भरें और डिजिटल रूप से बॉक्स चेक करें। व्यावसायिक उपयोग के लिए पूरी तरह से मान्य।",
-    "feat_3_title": "व्यवस्थित और मर्ज करें",
-    "feat_3_desc": "कई PDF को एक में मिलाएं, पेज घुमाएं, या अनावश्यक सेक्शन हटा दें। अपनी फ़ाइलों पर पूरा नियंत्रण रखें।",
-    "workflow_title": "आपका नया PDF वर्कफ़्लो",
-    "step_1_title": "अपलोड",
-    "step_1_desc": "50MB तक की किसी भी PDF को ड्रैग और ड्रॉप करें।",
-    "step_2_title": "विश्लेषण",
-    "step_2_desc": "AI सर्च और चैट के लिए टेक्स्ट को इंडेक्स करता है।",
-    "step_3_title": "एडिट",
-    "step_3_desc": "टेक्स्ट, इमेज या सिग्नेचर जोड़ें।",
-    "step_4_title": "डाउनलोड",
-    "step_4_desc": "तैयार डॉक्यूमेंट एक्सपोर्ट करें।",
-    "cta_title": "अपने डॉक्यूमेंटेशन को आसान बनाएं।",
-    "cta_desc": "कॉन्ट्रैक्ट और रिपोर्ट मैनेज करने के लिए NoteOCR का उपयोग करने वाले 10,000+ पेशेवरों में शामिल हों।",
-    "cta_btn": "अभी फ्री में शुरू करें",
-    "btn_new": "नया दस्तावेज़ शुरू करें"
+    "meta_title": "OCR के साथ स्कैन किए गए PDF को ऑनलाइन एडिट करें | मुफ्त PDF एडिटर | NoteOCR",
+    "meta_desc": "स्कैन किए गए दस्तावेजों के लिए ब्राउज़र-आधारित PDF एडिटर। AI OCR के साथ हस्तलिखित टेक्स्ट निकालें, हस्ताक्षर जोड़ें और कंटेंट एडिट करें - किसी सॉफ्टवेयर की आवश्यकता नहीं।",
+
+    "hero_pill": "प्रोफेशनल PDF वर्कस्पेस",
+    "hero_title": "AI OCR के साथ स्कैन किए गए PDF ऑनलाइन एडिट करें",
+    "hero_subtitle": "स्कैन किए गए दस्तावेजों के लिए बना एकमात्र ब्राउज़र-आधारित PDF एडिटर। हस्तलिखित PDF अपलोड करें, OCR के साथ टेक्स्ट निकालें, हस्ताक्षर जोड़ें, और नए दस्तावेज़ बनाएं—बिना किसी सॉफ्टवेयर के।",
+
+    "trust_ssl": "SSL एन्क्रिप्टेड",
+    "trust_processing": "तत्काल प्रोसेसिंग",
+    "trust_accuracy": "हस्तलेखन OCR",
+
+    "workspace_title": "एक संपूर्ण ऑनलाइन दस्तावेज़ वर्कस्पेस",
+    "workspace_subtitle": "सिर्फ OCR ही नहीं। अपने दस्तावेजों को एक सुरक्षित वातावरण में अपलोड करें जहाँ आप अपनी फ़ाइलों को पूरी तरह से क्लाउड में एडिट, सर्च और मैनेज कर सकते हैं।",
+
+    "workspace_feature_1_title": "लाइव टेक्स्ट एडिटिंग",
+    "workspace_feature_1_desc": "सीधे अपने ब्राउज़र में टेक्स्ट को संशोधित करें। एक्सपोर्ट करने से पहले टाइपिंग की गलतियों को सुधारें और पैराग्राफ को फिर से फॉर्मेट करें।",
+
+    "workspace_feature_2_title": "गोपनीयता सर्वोपरि",
+    "workspace_feature_2_desc": "आपके दस्तावेज़ एन्क्रिप्टेड हैं और एक सुरक्षित सैंडबॉक्स में प्रोसेस किए जाते हैं। हम अनुमति के बिना आपका डेटा स्टोर नहीं करते।",
+
+    "workspace_feature_3_title": "तत्काल एक्सपोर्ट",
+    "workspace_feature_3_desc": "संपादन हो गया? अपने दस्तावेज़ को तुरंत सर्च करने योग्य PDF, Word या Excel शीट के रूप में डाउनलोड करें।",
+
+    "use_cases_title": "स्कैन किए गए PDF को ऑनलाइन कौन एडिट करता है?",
+    "use_cases_subtitle": "कानूनी फर्मों से लेकर स्वास्थ्य सेवा तक, हजारों लोग प्रतिदिन स्कैन किए गए दस्तावेजों को एडिट करते हैं",
+
+    "use_case_1_title": "कानूनी पेशेवर",
+    "use_case_1_desc": "स्कैन किए गए अनुबंधों को एडिट करें, कानूनी दस्तावेजों पर डिजिटल हस्ताक्षर करें और संवेदनशील जानकारी को सुरक्षित रूप से हटाएं।",
+
+    "use_case_2_title": "छोटे व्यवसाय",
+    "use_case_2_desc": "स्कैन किए गए फॉर्म भरें, चालान (invoices) पर कंपनी के हस्ताक्षर जोड़ें और महंगे Adobe सब्सक्रिप्शन के बिना रिपोर्ट तैयार करें।",
+
+    "use_case_3_title": "छात्र और शिक्षक",
+    "use_case_3_desc": "स्कैन की गई पाठ्यपुस्तकों पर नोट्स लिखें, क्लास नोट्स को स्टडी गाइड में बदलें और हस्तलिखित असाइनमेंट को सर्च करने योग्य PDF में बदलें।",
+
+    "use_case_4_title": "स्वास्थ्य सेवा प्रदाता",
+    "use_case_4_desc": "मरीज के फॉर्म एडिट करें, हस्तलिखित मेडिकल रिकॉर्ड को डिजिटल करें और स्कैन किए गए मेडिकल चार्ट व्यवस्थित करें।",
+
+    "comparison_title": "PDF एडिटिंग: डेस्कटॉप बनाम ऑनलाइन टूल्स",
+    "comparison_subtitle": "ब्राउज़र-आधारित एडिटिंग डेस्कटॉप सॉफ्टवेयर से बेहतर क्यों है",
+    "comparison_col_tool": "टूल",
+    "comparison_col_access": "पहुँच",
+    "comparison_col_features": "विशेषताएं",
+    "comparison_col_cost": "लागत",
+
+    "comparison_row1_tool": "Adobe Acrobat Pro",
+    "comparison_row1_access": "इंस्टॉलेशन की आवश्यकता",
+    "comparison_row1_features": "पूर्ण, लेकिन हस्तलेखन OCR नहीं",
+    "comparison_row1_cost": "₹1,500+/महीना",
+
+    "comparison_row2_tool": "बेसिक ऑनलाइन एडिटर",
+    "comparison_row2_access": "वेब-आधारित",
+    "comparison_row2_features": "सीमित OCR, कोई हस्तलेखन नहीं",
+    "comparison_row2_cost": "मुफ्त - ₹800",
+
+    "comparison_row3_tool": "NoteOCR PDF एडिटर",
+    "comparison_row3_access": "तत्काल, ब्राउज़र-आधारित",
+    "comparison_row3_features": "OCR + हस्तलेखन + पूर्ण एडिटर",
+    "comparison_row3_cost": "मुफ्त - ₹600",
+
+    "features_title": "हमारा स्कैन किया गया PDF एडिटर अलग क्यों है?",
+    "features_subtitle": "विशेष रूप से स्कैन किए गए और हस्तलिखित PDF को एडिट करने के लिए निर्मित",
+
+    "feature_1_title": "स्कैन किए गए PDF के लिए OCR",
+    "feature_1_desc": "स्कैन किए गए दस्तावेजों और हस्तलिखित PDF को एडिट करने योग्य टेक्स्ट में बदलें। हमारा AI मूल लेआउट को बनाए रखते हुए लिखावट को पहचानता है।",
+
+    "feature_2_title": "पूर्ण एडिटिंग सुइट",
+    "feature_2_desc": "टेक्स्ट जोड़ें, हस्ताक्षर करें, चित्र डालें और अनुभागों को हाइलाइट करें। बिना किसी सॉफ्टवेयर के सभी प्रोफेशनल PDF टूल प्राप्त करें।",
+
+    "feature_3_title": "ब्राउज़र-आधारित सुरक्षा",
+    "feature_3_desc": "अपलोड के लिए बैंक-ग्रेड एन्क्रिप्शन। आपके PDF सुरक्षित कंटेनरों में प्रोसेस किए जाते हैं और 24 घंटे के बाद हटा दिए जाते हैं।",
+
+    "tech_title": "ब्राउज़र-आधारित PDF OCR कैसे काम करता है?",
+    "tech_intro": "पारंपरिक PDF एडिटर केवल डिजिटल टेक्स्ट के साथ काम करते हैं। NoteOCR ब्राउज़र में ही स्कैन किए गए दस्तावेजों और हस्तलिखित फॉर्मों को संभालने के लिए उन्नत OCR को लेआउट विश्लेषण के साथ जोड़ता है।",
+
+    "tech_support_title": "हम क्या सपोर्ट करते हैं",
+    "tech_support_1": "हस्तलिखित दस्तावेज़ और फॉर्म",
+    "tech_support_2": "स्कैन किए गए अनुबंध और कानूनी फाइलें",
+    "tech_support_3": "बिना टेक्स्ट लेयर वाले इमेज-आधारित PDF",
+    "tech_support_4": "डिजिटल हस्ताक्षर और एनोटेशन",
+    "tech_support_5": "बहु-पृष्ठ (Multi-page) PDF दस्तावेज़",
+
+    "tech_tips_title": "सर्वोत्तम परिणामों के लिए सुझाव",
+    "tech_tips_1": "300 DPI या उससे अधिक पर स्कैन करें",
+    "tech_tips_2": "अच्छी रोशनी और कंट्रास्ट सुनिश्चित करें",
+    "tech_tips_3": "कागज को सीधा रखें, उसमें सिलवटें न हों",
+    "tech_tips_4": "लिखावट के लिए रंगीन/ग्रेस्केल का उपयोग करें",
+    "tech_tips_5": "हो सके तो सीधे स्कैनर से अपलोड करें",
+
+    "related_tools_title": "संबंधित OCR टूल्स",
+
+    "related_tool_1_name": "इमेज से Word",
+    "related_tool_1_desc": "हस्तलिखित टेक्स्ट को फॉर्मेटेड दस्तावेजों में बदलें",
+
+    "related_tool_2_name": "PDF ऑनलाइन एडिट करें",
+    "related_tool_2_desc": "कहीं से भी ऑनलाइन PDF दस्तावेज़ अपलोड और एडिट करें",
+
+    "related_tool_3_name": "ऑनलाइन दस्तावेज़ एडिटर",
+    "related_tool_3_desc": "MS Word या Excel दस्तावेज़ मुफ्त में ऑनलाइन एडिट करें",
+
+    "related_tool_4_name": "इमेज से टेक्स्ट",
+    "related_tool_4_desc": "चित्र में मौजूद लिखावट को एडिट करने योग्य टेक्स्ट में बदलें",
+
+    "faq_title": "स्कैन किए गए PDF को एडिट करने के बारे में अक्सर पूछे जाने वाले प्रश्न",
+
+    "cta_title": "स्कैन किए गए PDF ऑनलाइन एडिट करने के लिए तैयार हैं?",
+    "cta_subtitle": "उन 100,000+ उपयोगकर्ताओं में शामिल हों जिन्होंने NoteOCR के साथ अपने दस्तावेज़ एडिट किए हैं",
+    "cta_button": "अभी एडिटिंग शुरू करें",
+
+    "tool_main_title": "प्रोफेशनल PDF वर्कस्पेस",
+    "tool_main_desc": "OCR के लिए लिखावट वाली स्कैन की गई PDF अपलोड करें, या शुरुआत से दस्तावेज़ बनाना शुरू करें।",
+    "tool_upload_button": "स्कैन की गई PDF अपलोड करें",
+    "tool_new_button": "शुरुआत से शुरू करें",
+
+    "tool_upload_check_1": "केवल PDF",
+    "tool_upload_check_2": "अधिकतम 25MB",
+    "tool_upload_check_3": "SSL सुरक्षित",
+
+    "tool_info_1_title": "लिखावट OCR",
+    "tool_info_1_desc": "स्कैन किए गए हस्तलिखित दस्तावेजों से टेक्स्ट निकालें",
+
+    "tool_info_2_title": "फुल एडिटर सुइट",
+    "tool_info_2_desc": "टेक्स्ट, हस्ताक्षर, एनोटेशन और बहुत कुछ जोड़ें",
+
+    "tool_info_3_title": "ब्राउज़र-आधारित",
+    "tool_info_3_desc": "सॉफ्टवेयर डाउनलोड की आवश्यकता नहीं, तुरंत काम करता है",
+
+    "tool_tip_label": "प्रो टिप:",
+    "tool_tip_text": "सर्वोत्तम परिणामों के लिए, सुनिश्चित करें कि दस्तावेज़ अच्छी रोशनी में स्कैन किए गए हों और टेक्स्ट स्पष्ट हो।",
+
+    "modal_new_title": "नया PDF बनाएं",
+    "modal_new_desc": "एक खाली कैनवास के साथ शुरुआत करें और अपना दस्तावेज़ बनाएं।",
+    "modal_new_button": "खाली PDF बनाएं",
+
+    "modal_upload_title": "स्कैन की गई PDF अपलोड करें",
+    "modal_upload_desc": "टेक्स्ट निकालने या कंटेंट एडिट करने के लिए अपनी PDF इम्पोर्ट करें।",
+    "modal_upload_placeholder": "PDF को यहाँ क्लिक करें या ड्रैग करें",
+    "modal_upload_info": "अधिकतम फ़ाइल साइज़: 25MB • स्कैन की गई और हस्तलिखित PDF समर्थित",
+
+    "modal_processing_new": "वर्कस्पेस बनाया जा रहा है...",
+    "modal_processing_upload": "PDF प्रोसेस की जा रही है...",
+    "modal_processing_desc": "आपका सुरक्षित PDF वातावरण तैयार किया जा रहा है",
+
+    "modal_security_badge": "बैंक-ग्रेड एन्क्रिप्शन",
+
+    "toast_success_create": "PDF वर्कस्पेस तैयार है!",
+    "toast_success_upload": "PDF सफलतापूर्वक अपलोड हो गई!",
+    "toast_error_type": "कृपया एक वैध PDF फ़ाइल चुनें",
+    "toast_error_size": "फ़ाइल का साइज़ 25MB से कम होना चाहिए",
+    "toast_error_create": "PDF बनाने में विफल।",
+    "toast_error_upload": "PDF अपलोड करने में विफल",
+    "toast_error_drop": "कृपया एक वैध PDF फ़ाइल ड्रॉप करें",
+
+    "FAQ": {
+      "items": {
+        "edit_scanned_pdf": {
+          "q": "मैं स्कैन किए गए PDF को ऑनलाइन कैसे एडिट करूँ?",
+          "a": "अपनी PDF को NoteOCR के ब्राउज़र-आधारित एडिटर पर अपलोड करें। स्कैन की गई इमेज को एडिट करने योग्य टेक्स्ट में बदलने के लिए 'Run OCR' पर क्लिक करें। इसके बाद आप सीधे अपने ब्राउज़र में टेक्स्ट बदल सकते हैं, हस्ताक्षर जोड़ सकते हैं और पन्नों को व्यवस्थित कर सकते हैं।"
+        },
+        "handwritten_pdf_edit": {
+          "q": "क्या मैं OCR के साथ हस्तलिखित PDF एडिट कर सकता हूँ?",
+          "a": "हाँ। NoteOCR का AI विशेष रूप से लिखावट पहचानने के लिए प्रशिक्षित है। अपनी हस्तलिखित PDF अपलोड करें, OCR चलाएं, और हमारा इंजन मूल लेआउट को बनाए रखते हुए टेक्स्ट निकाल लेगा। इसके बाद आप निकाले गए टेक्स्ट को एडिट कर सकते हैं।"
+        },
+        "browser_based_editor": {
+          "q": "'ब्राउज़र-आधारित' PDF एडिटर का क्या अर्थ है?",
+          "a": "ब्राउज़र-आधारित का अर्थ है कि आप Adobe Acrobat जैसे सॉफ़्टवेयर इंस्टॉल किए बिना सीधे अपने वेब ब्राउज़र (Chrome, Firefox, Safari) में PDF एडिट करते हैं। बस NoteOCR पर जाएँ, अपनी PDF अपलोड करें और तुरंत संपादन शुरू करें।"
+        },
+        "is_pdf_editor_free": {
+          "q": "क्या स्कैन किया गया PDF एडिटर मुफ्त है?",
+          "a": "हाँ। आप हमारे बेसिक प्लान के साथ स्कैन किए गए PDF को मुफ्त में एडिट कर सकते हैं। हम मुफ्त OCR, टेक्स्ट एडिटिंग और सिग्नेचर टूल प्रदान करते हैं। भारी उपयोग वाले यूजर हमारे प्रोफेशनल प्लान को चुन सकते हैं।"
+        },
+        "add_signature_scanned": {
+          "q": "स्कैन किए गए PDF में हस्ताक्षर कैसे जोड़ें?",
+          "a": "अपनी स्कैन की गई PDF अपलोड करें, फिर एडिटर में 'Signature' टूल पर क्लिक करें। आप माउस से हस्ताक्षर ड्रा कर सकते हैं, अपने हस्ताक्षर की फोटो अपलोड कर सकते हैं, या अपना नाम टाइप कर सकते हैं।"
+        },
+        "ocr_accuracy_handwriting": {
+          "q": "हस्तलिखित PDF के लिए OCR कितना सटीक है?",
+          "a": "लिखावट की गुणवत्ता के आधार पर सटीकता औसतन 85-95% होती है। स्पष्ट लिखावट में 95%+ सटीकता प्राप्त होती है। हम कानूनी या चिकित्सा दस्तावेजों के लिए अंतिम रूप देने से पहले समीक्षा करने की सलाह देते हैं।"
+        },
+        "edit_protected_scanned": {
+          "q": "क्या मैं पासवर्ड से सुरक्षित स्कैन की गई PDF को एडिट कर सकता हूँ?",
+          "a": "यदि आपको पासवर्ड पता है, तो आप उसे हमारे एडिटर में अनलॉक और एडिट कर सकते हैं। हालांकि, स्कैन की गई PDF में आमतौर पर ये प्रतिबंध नहीं होते क्योंकि वे इमेज आधारित होती हैं।"
+        },
+        "multiple_scanned_pages": {
+          "q": "क्या मैं कई पन्नों वाली स्कैन की गई PDF को एडिट कर सकता हूँ?",
+          "a": "हाँ। किसी भी संख्या में पन्नों वाली PDF अपलोड करें। हमारा एडिटर आसान नेविगेशन के लिए साइडबार में सभी पेज दिखाता है। आप पूरे दस्तावेज़ पर एक साथ OCR चला सकते हैं और पन्नों को व्यवस्थित या डिलीट कर सकते हैं।"
+        },
+        "mobile_pdf_editing": {
+          "q": "क्या मैं अपने फोन या टैबलेट पर स्कैन की गई PDF एडिट कर सकता हूँ?",
+          "a": "हाँ। NoteOCR का ब्राउज़र-आधारित एडिटर मोबाइल डिवाइस (iOS, Android) पर काम करता है। इंटरफ़ेस छोटी स्क्रीन के अनुसार ढल जाता है, लेकिन जटिल एडिटिंग के लिए हम टैबलेट या डेस्कटॉप की सलाह देते हैं।"
+        },
+        "searchable_pdf": {
+          "q": "क्या OCR के बाद मेरा PDF सर्च करने योग्य हो जाएगा?",
+          "a": "हाँ। OCR चलाने के बाद, आपका स्कैन किया गया PDF सर्च करने योग्य बन जाता है। निकाला गया टेक्स्ट मूल इमेज के नीचे एक छिपी हुई टेक्स्ट लेयर बनाता है, जिससे आप Ctrl+F का उपयोग करके शब्द खोज सकते हैं।"
+        },
+        "combine_scanned_pdfs": {
+          "q": "क्या मैं कई स्कैन की गई PDF को एक दस्तावेज़ में जोड़ सकता हूँ?",
+          "a": "हाँ। अपनी पहली PDF अपलोड करें, फिर अन्य PDF जोड़ने के लिए 'Add Pages' या 'Merge' टूल का उपयोग करें। आप पन्नों को पुनर्व्यवस्थित कर सकते हैं और संयुक्त दस्तावेज़ पर OCR चला सकते हैं।"
+        },
+        "form_filling_scanned": {
+          "q": "क्या मैं उन स्कैन किए गए फॉर्मों को भर सकता हूँ जो भरने योग्य (fillable) नहीं हैं?",
+          "a": "हाँ। स्कैन किया गया फॉर्म अपलोड करें, फिर फॉर्म फ़ील्ड पर सीधे टाइप करने के लिए 'Add Text' टूल का उपयोग करें। आप चेकमार्क, तारीख और हस्ताक्षर भी जोड़ सकते हैं।"
+        },
+        "quality_tips_scanned_pdf": {
+          "q": "स्कैन किए गए PDF पर सबसे अच्छा OCR परिणाम कैसे प्राप्त करें?",
+          "a": "सर्वोत्तम सटीकता के लिए: (1) 300 DPI या उससे अधिक पर स्कैन करें, (2) लिखावट के लिए रंगीन या ग्रेस्केल का उपयोग करें, (3) सुनिश्चित करें कि रोशनी अच्छी हो, (4) कागज को सीधा और सपाट रखें।"
+        },
+        "privacy_browser_editor": {
+          "q": "क्या ऑनलाइन एडिटर पर संवेदनशील PDF अपलोड करना सुरक्षित है?",
+          "a": "हाँ। NoteOCR सभी अपलोड के लिए बैंक-ग्रेड SSL एन्क्रिप्शन का उपयोग करता है। PDF सुरक्षित कंटेनरों में प्रोसेस किए जाते हैं और 24 घंटे के बाद हमारे सर्वर से स्वचालित रूप से हटा दिए जाते हैं। हम आपकी फाइलों को कभी एक्सेस नहीं करते।"
+        },
+        "why_browser_vs_desktop": {
+          "q": "Adobe Acrobat के बजाय ब्राउज़र एडिटर का उपयोग क्यों करें?",
+          "a": "ब्राउज़र एडिटर तत्काल पहुँच प्रदान करते हैं, किसी भी डिवाइस पर काम करते हैं, और अक्सर कम खर्च होते हैं। NoteOCR विशेष रूप से हस्तलिखित PDF को Adobe के मानक OCR की तुलना में बेहतर तरीके से संभालता है।"
+        },
+        "redact_scanned_pdf": {
+          "q": "क्या मैं स्कैन की गई PDF से संवेदनशील जानकारी हटा (redact) सकता हूँ?",
+          "a": "हाँ। संवेदनशील टेक्स्ट या इमेज को स्थायी रूप से हटाने के लिए 'Redact' टूल का उपयोग करें। यह स्थायी होता है और इसे वापस नहीं लाया जा सकता, जो सुरक्षा के लिए बेहतरीन है।"
+        },
+        "annotations_scanned": {
+          "q": "क्या मैं स्कैन की गई PDF में टिप्पणियाँ और एनोटेशन जोड़ सकता हूँ?",
+          "a": "हाँ। हमारे एडिटर में स्टिकी नोट्स, टेक्स्ट कमेंट्स, हाइलाइट्स और शेप्स जैसे एनोटेशन टूल शामिल हैं। सभी एनोटेशन PDF के साथ एक्सपोर्ट किए जाते हैं।"
+        },
+        "convert_scanned_pdf_word": {
+          "q": "क्या मैं OCR के बाद स्कैन की गई PDF को Word में बदल सकता हूँ?",
+          "a": "हाँ। OCR के बाद, 'Export' पर क्लिक करें और 'Word (.docx)' चुनें। निकाला गया टेक्स्ट एक एडिट करने योग्य Word फाइल में मिल जाएगा। मूल लेआउट को यथासंभव बनाए रखा जाता है।"
+        },
+        "offline_editing": {
+          "q": "क्या मैं ब्राउज़र में PDF को ऑफलाइन एडिट कर सकता हूँ?",
+          "a": "पूरी तरह से नहीं। OCR प्रोसेसिंग के लिए इंटरनेट कनेक्शन आवश्यक है। हालांकि, एक बार OCR पूरा हो जाने पर, टेक्स्ट में छोटे बदलाव या एनोटेशन थोड़े समय के लिए ऑफलाइन काम कर सकते हैं।"
+        },
+        "no_software_required": {
+          "q": "क्या मुझे PDF एडिटिंग के लिए वास्तव में किसी सॉफ़्टवेयर की आवश्यकता नहीं है?",
+          "a": "सही बात है। आपको केवल एक आधुनिक वेब ब्राउज़र की आवश्यकता है। कोई इंस्टॉलेशन नहीं, कोई प्लगइन्स नहीं। बस NoteOCR पर जाएँ और तुरंत काम शुरू करें।"
+        }
+      }
+    }
   },
+
   "EditorPage": {
-    "meta_title": "फ्री ऑनलाइन डॉक्यूमेंट एडिटर | Word और Excel एडिट करें | NoteOCR",
-    "meta_desc": "अपने ब्राउज़र में सीधे DOCX, XLSX और टेक्स्ट फ़ाइलें एडिट करें। किसी इंस्टॉलेशन की आवश्यकता नहीं। एक तेज़ और सुरक्षित ऑफिस सुइट विकल्प।",
-    "hero_pill": "क्लाउड ऑफिस सुइट",
-    "hero_title_1": "अपने डॉक्यूमेंट एडिट करें,",
-    "hero_title_2": "कहीं भी, कभी भी।",
-    "hero_subtitle": "सीधे अपने ब्राउज़र में Microsoft Word और Excel फ़ाइलें एडिट करें। त्वरित एडिट के लिए किसी इंस्टॉलेशन या लॉगिन की आवश्यकता नहीं है।",
-    "btn_new": "नया डॉक्यूमेंट शुरू करें",
-    "btn_upload": "फ़ाइल अपलोड करें",
-    "trust_secure": "निजी और सुरक्षित",
-    "trust_os": "किसी भी OS पर काम करता है",
-    "trust_office": "100% MS ऑफिस कॉम्पैटिबल",
-    "feat_1_title": "कहीं से भी काम करें",
-    "feat_1_desc": "किसी भी डिवाइस से अपने डॉक्यूमेंट्स एक्सेस करें। चाहे आप Windows, Mac या Linux पर हों, आपका एडिटर बस एक क्लिक दूर है।",
-    "feat_2_title": "परिचित इंटरफ़ेस",
-    "feat_2_desc": "टाइप करना दोबारा सीखने की ज़रूरत नहीं है। हमारा टूलबार Microsoft Word और Excel जैसा ही है, ताकि आप तुरंत काम शुरू कर सकें।",
-    "feat_3_title": "हल्का और तेज़",
-    "feat_3_desc": "भारी सॉफ़्टवेयर लोड होने का इंतज़ार न करें। NoteOCR एडिटर धीमे कनेक्शन पर भी 2 सेकंड से कम समय में शुरू हो जाता है।",
-    "formats_title": "समर्थित फॉर्मेट",
-    "formats_subtitle": "हम पूरे ऑफिस इकोसिस्टम का समर्थन करते हैं। अपनी मौजूदा फ़ाइलें अपलोड करें या नई शुरुआत करें।",
-    "format_docx": "Microsoft Word",
-    "format_xlsx": "Microsoft Excel",
-    "format_txt": "प्लेन टेक्स्ट",
-    "format_csv": "डेटा शीट्स"
+    "meta_title": "Editar Documentos de Office en Línea Gratis - Editor de Word, Excel y PowerPoint en Navegador",
+    "meta_desc": "Editor de documentos en línea profesional. Cree y edite archivos de Word (DOCX), Excel (XLSX) y PowerPoint (PPTX) directamente en su navegador sin Microsoft Office.",
+    "hero_pill": "Espacio de Trabajo de Documentos en la Nube",
+    "hero_title": "Editar Documentos de Office en Línea",
+    "hero_highlight": "Sin Software",
+    "hero_subtitle": "Editor profesional basado en navegador para Word, Excel y PowerPoint. Cree, edite y colabore en archivos DOCX, XLSX y PPTX sin Microsoft Office.",
+    "trust_security": "CIFRADO DE 256 BITS",
+    "trust_sync": "SINCRONIZACIÓN EN TIEMPO REAL",
+    "trust_compatibility": "COMPATIBLE CON MS OFFICE",
+    "feat_1_title": "Escritura a Mano a Texto",
+    "feat_1_desc": "Convierta sus notas físicas en formatos digitales editables al instante. Impulsado por NoteOCR para una precisión líder en la industria en el reconocimiento de bocetos y garabatos escritos a mano.",
+    "feat_2_title": "Sincronización en Tiempo Real",
+    "feat_2_desc": "Colabore con su equipo en tiempo real. Cada pulsación de tecla se guarda instantáneamente en la nube, asegurando que nunca pierda una versión de su trabajo.",
+    "use_cases_title": "¿Quién Usa Nuestro Editor de Documentos en Línea?",
+    "use_cases_subtitle": "Desde trabajadores remotos hasta estudiantes, millones editan documentos de Office en línea",
+    "use_case_1_title": "Trabajadores Remotos",
+    "use_case_1_desc": "Edite documentos de trabajo desde casa sin VPN o software corporativo. Acceda a archivos de Office en computadoras personales mientras mantiene el formato profesional.",
+    "use_case_2_title": "Estudiantes y Educadores",
+    "use_case_2_desc": "Escriba ensayos, cree presentaciones y administre hojas de cálculo en computadoras escolares sin licencias de Office. Colabore en proyectos grupales en tiempo real.",
+    "use_case_3_title": "Freelancers y Consultores",
+    "use_case_3_desc": "Edite propuestas para clientes, facturas e informes desde cualquier dispositivo. Documentos profesionales compatibles con Office sin suscripciones a Microsoft 365.",
+    "use_case_4_title": "Nómadas Digitales",
+    "use_case_4_desc": "Trabaje en documentos desde cibercafés, espacios de coworking o centros de negocios de hoteles. No necesita instalar software en computadoras prestadas.",
+    "comparison_title": "Editor en Línea vs Software de Escritorio",
+    "comparison_subtitle": "Por qué la edición basada en navegador supera al software tradicional",
+    "comparison_solution": "Solución",
+    "comparison_access": "Acceso",
+    "comparison_features": "Características",
+    "comparison_cost": "Costo",
+    "comparison_ms_office": "MS Office de Escritorio",
+    "comparison_ms_access": "Instalación requerida",
+    "comparison_ms_features": "Completo, vinculado al dispositivo",
+    "comparison_ms_cost": "$99/año",
+    "comparison_google": "Google Workspace",
+    "comparison_google_access": "Basado en web",
+    "comparison_google_features": "Compatibilidad limitada con Office",
+    "comparison_google_cost": "$6/usuario/mes",
+    "comparison_noteocr": "Editor NoteOCR",
+    "comparison_noteocr_access": "Instantáneo, basado en navegador",
+    "comparison_noteocr_features": "Soporte completo de Office",
+    "comparison_noteocr_cost": "Gratis-$/pago único",
+    "features_title": "Por Qué Nuestro Editor en Línea Supera al Software de Escritorio",
+    "features_subtitle": "Edición de documentos profesional sin las complicaciones del software",
+    "feature_main_1_title": "Compatible con Microsoft Office",
+    "feature_main_1_desc": "Compatibilidad total con formatos DOCX, XLSX y PPTX. Edite archivos de Microsoft Office sin instalar Office. Preserva el formato, fórmulas y características avanzadas.",
+    "feature_main_2_title": "Edición Basada en Navegador",
+    "feature_main_2_desc": "Funciona instantáneamente en Chrome, Safari, Firefox y Edge. Sin descargas, sin instalaciones, sin plugins. Edite documentos desde cualquier computadora: hogar, oficina, biblioteca o cafetería.",
+    "feature_main_3_title": "Guardado Automático en la Nube",
+    "feature_main_3_desc": "La sincronización automática en la nube guarda cada cambio. Nunca pierda trabajo debido a fallos o pestañas cerradas. Acceda a sus documentos desde cualquier dispositivo con continuidad perfecta.",
+    "technical_title": "Cómo Funciona la Edición de Office Basada en Navegador",
+    "technical_desc": "La edición de documentos tradicional requiere instalaciones de software de escritorio. Nuestro editor basado en la nube se ejecuta completamente en su navegador web utilizando estándares web modernos (WebAssembly, Canvas API). Analizamos formatos de archivo de Office (OOXML, OpenDocument) en el servidor, los renderizamos en su navegador y sincronizamos los cambios de vuelta a la nube, brindándole edición de calidad de escritorio con la comodidad de la nube.",
+    "technical_formats_title": "Formatos Compatibles",
+    "technical_format_1": "Microsoft Word (DOCX, DOC)",
+    "technical_format_2": "Microsoft Excel (XLSX, XLS)",
+    "technical_format_3": "PowerPoint (PPTX, PPT)",
+    "technical_format_4": "OpenDocument (ODT, ODS, ODP)",
+    "technical_format_5": "Exportar a PDF, RTF, CSV",
+    "technical_features_title": "Características Principales",
+    "technical_feature_1": "Colaboración en tiempo real",
+    "technical_feature_2": "Historial de versiones y restauración",
+    "technical_feature_3": "Funciona en móvil y tableta",
+    "technical_feature_4": "Edición sin conexión (PWA)",
+    "technical_feature_5": "Modo de comentarios y sugerencias",
+    "related_tools_title": "Herramientas OCR Relacionadas",
+    "related_tool_1_name": "Escritura a Mano a Word",
+    "related_tool_1_desc": "Convertir notas a DOCX",
+    "related_tool_2_name": "Escritura a Mano a Excel",
+    "related_tool_2_desc": "Extraer tablas de escaneos",
+    "related_tool_3_name": "Editar PDF en Línea",
+    "related_tool_3_desc": "Editor de PDF basado en navegador",
+    "related_tool_4_name": "Imagen a Texto",
+    "related_tool_4_desc": "Extraer texto de imágenes",
+    "faq_title": "Preguntas Frecuentes Sobre la Edición de Documentos en Línea",
+    "cta_title": "¿Listo para Editar Documentos en Línea?",
+    "cta_subtitle": "Únase a más de 500,000 usuarios que editan documentos de Office sin software",
+    "cta_btn": "Abrir Editor Ahora",
+    "editor_card_title": "Espacio de Trabajo de Documentos Profesional",
+    "editor_card_subtitle": "Cree documentos de Word, Excel o PowerPoint. O cargue archivos de Office existentes para editar en línea sin software.",
+    "editor_btn_new": "Crear Nuevo Documento",
+    "editor_btn_upload": "Cargar Archivo Existente",
+    "editor_info_1": "DOCX, XLSX, PPTX",
+    "editor_info_2": "Máx. 25 MB",
+    "editor_info_3": "Guardado en la Nube",
+    "editor_feature_1_title": "Compatible con Office",
+    "editor_feature_1_desc": "Soporte completo para formatos de Microsoft Office",
+    "editor_feature_2_title": "Basado en Navegador",
+    "editor_feature_2_desc": "Sin instalación, funciona en cualquier dispositivo",
+    "editor_feature_3_title": "Guardado Automático",
+    "editor_feature_3_desc": "Sincronización en tiempo real en la nube",
+    "editor_tip_label": "Perfecto para:",
+    "editor_tip_text": "Usuarios de Chromebook, trabajadores remotos, computadoras compartidas y cualquier persona que necesite compatibilidad con Office sin el precio de Office.",
+    "modal_new_title": "Crear Nuevo Documento",
+    "modal_new_subtitle": "Elija qué tipo de documento desea crear en su navegador.",
+    "modal_upload_title": "Cargar Archivo de Office",
+    "modal_upload_subtitle": "Importe archivos existentes de Word, Excel o PowerPoint para editar en línea.",
+    "modal_doc_word": "Documento de Word",
+    "modal_doc_word_sub": "DOCX / ODT",
+    "modal_doc_excel": "Hoja de Cálculo de Excel",
+    "modal_doc_excel_sub": "XLSX / CSV",
+    "modal_doc_powerpoint": "PowerPoint",
+    "modal_doc_powerpoint_sub": "PPTX / ODP",
+    "modal_upload_text": "Haga clic o arrastre el archivo de Office aquí",
+    "modal_upload_formats": "Admite DOCX, XLSX, PPTX, ODT, ODS, RTF, CSV • Máx. 25 MB",
+    "modal_security": "Cifrado en la Nube y Guardado Automático",
+    "loading_importing": "Importando Documento...",
+    "loading_creating": "Creando Espacio de Trabajo...",
+    "loading_subtitle": "Configurando su entorno de editor en la nube",
+    "FAQ": {
+      "edit_office_online": {
+        "q": "¿Puedo editar archivos de Microsoft Office en línea sin Office?",
+        "a": "Sí. El editor basado en navegador de NoteOCR le permite crear y editar archivos de Word (DOCX), Excel (XLSX) y PowerPoint (PPTX) directamente en su navegador web. No se necesita instalación de Microsoft Office. Simplemente cargue su archivo o cree un nuevo documento y comience a editar de inmediato."
+      },
+      "browser_compatibility": {
+        "q": "¿Qué navegadores son compatibles con el editor de documentos en línea?",
+        "a": "Nuestro editor funciona en todos los navegadores modernos: Chrome, Firefox, Safari y Edge. También funciona en navegadores móviles (iOS Safari, Chrome para Android). Para obtener la mejor experiencia, recomendamos usar la última versión de Chrome o Edge en escritorio."
+      },
+      "word_online_free": {
+        "q": "¿El editor de Word en línea es realmente gratis?",
+        "a": "Sí. Puede crear y editar documentos de Word ilimitados de forma gratuita. Los usuarios gratuitos obtienen funciones de edición completas, almacenamiento en la nube y exportación a DOCX/PDF. Los planes premium ofrecen características avanzadas como colaboración en tiempo real, historial de versiones y procesamiento prioritario."
+      },
+      "excel_formulas": {
+        "q": "¿Puedo usar fórmulas y funciones en el editor de Excel en línea?",
+        "a": "Sí. Nuestro editor de Excel admite todas las fórmulas estándar (SUMA, PROMEDIO, BUSCARV, declaraciones SI, etc.). Puede crear gráficos, tablas dinámicas y formato condicional. Los macros complejos y scripts VBA no son compatibles en la versión del navegador."
+      },
+      "powerpoint_presentations": {
+        "q": "¿Puedo crear presentaciones profesionales de PowerPoint en línea?",
+        "a": "Sí. Nuestro editor de PowerPoint incluye plantillas, diseños de diapositivas, animaciones y transiciones. Puede agregar imágenes, gráficos, videos y notas del orador. Exporte presentaciones como PPTX o PDF. Perfecto para crear pitch decks, proyectos escolares y presentaciones empresariales."
+      },
+      "file_storage": {
+        "q": "¿Dónde se almacenan mis documentos cuando edito en línea?",
+        "a": "Los documentos se almacenan en almacenamiento seguro en la nube durante la edición. Puede descargar archivos editados a su dispositivo en cualquier momento. Los archivos se eliminan automáticamente de nuestros servidores después de 24 horas por seguridad. Para almacenamiento permanente en la nube, cree una cuenta gratuita."
+      },
+      "offline_editing": {
+        "q": "¿Puedo editar documentos sin conexión?",
+        "a": "La edición sin conexión limitada está disponible a través de nuestra Aplicación Web Progresiva (PWA). Instale el editor desde el menú de su navegador. Puede editar documentos abiertos previamente sin conexión, pero las nuevas cargas y características avanzadas requieren conexión a Internet."
+      },
+      "collaboration": {
+        "q": "¿Pueden varias personas editar el mismo documento simultáneamente?",
+        "a": "Sí (función Premium). Comparta un enlace del documento con colaboradores. Todos ven los cambios en tiempo real mientras escriben. Los comentarios, sugerencias e historial de versiones ayudan a los equipos a trabajar juntos. Los usuarios gratuitos pueden compartir enlaces de solo lectura."
+      },
+      "microsoft_account": {
+        "q": "¿Necesito una cuenta de Microsoft para editar archivos de Office?",
+        "a": "No. No necesita una cuenta de Microsoft, licencia de Office ni ninguna suscripción de pago. Simplemente visite NoteOCR, cargue su archivo de Office y comience a editar. Nuestro editor es completamente independiente de los servicios de Microsoft."
+      },
+      "export_formats": {
+        "q": "¿A qué formatos puedo exportar mis documentos?",
+        "a": "Las opciones de exportación varían según el tipo de documento. Word: DOCX, PDF, RTF, TXT. Excel: XLSX, CSV, PDF. PowerPoint: PPTX, PDF. Todas las exportaciones preservan el formato, imágenes y diseño. También puede copiar/pegar contenido en otras aplicaciones."
+      },
+      "templates": {
+        "q": "¿El editor incluye plantillas de documentos?",
+        "a": "Sí. Elija entre plantillas profesionales para currículums, facturas, informes, presentaciones y hojas de cálculo. Las plantillas están preformateadas y listas para personalizar. Se agregan nuevas plantillas regularmente según las solicitudes de los usuarios."
+      },
+      "mobile_editing": {
+        "q": "¿Puedo editar documentos en mi teléfono o tableta?",
+        "a": "Sí. La interfaz del editor se adapta a pantallas móviles (iOS y Android). Puede hacer ediciones rápidas, agregar comentarios y revisar documentos sobre la marcha. Para formateo extenso o diseños complejos, recomendamos usar una tableta o escritorio."
+      },
+      "compatibility_issues": {
+        "q": "¿Se preservará mi formato de Office al editar en línea?",
+        "a": "Sí. Nuestro editor mantiene el formato de Microsoft Office, incluyendo fuentes, colores, estilos, diseños de página, encabezados/pies de página, tablas e imágenes incrustadas. Las características complejas como macros, gráficos avanzados o fuentes personalizadas pueden necesitar ajustes."
+      },
+      "file_size_limit": {
+        "q": "¿Cuál es el tamaño máximo de archivo que puedo editar en línea?",
+        "a": "Los usuarios gratuitos pueden cargar archivos de hasta 25 MB. Los usuarios premium pueden cargar archivos de hasta 100 MB. Para documentos muy grandes (más de 50 páginas), el procesamiento puede tomar de 15 a 30 segundos. Recomendamos dividir archivos extremadamente grandes para una edición más rápida."
+      },
+      "security_privacy": {
+        "q": "¿Están seguros los datos de mis documentos al editar en línea?",
+        "a": "Sí. Todas las cargas usan cifrado SSL de nivel bancario. Los documentos se procesan en contenedores seguros aislados. Nunca accedemos, leemos ni compartimos su contenido. Los archivos se eliminan automáticamente de nuestros servidores después de 24 horas. Para máxima privacidad, use nuestro modo sin conexión."
+      },
+      "desktop_vs_online": {
+        "q": "¿Cuál es la diferencia entre editores de Office en línea y de escritorio?",
+        "a": "Los editores en línea funcionan instantáneamente en cualquier navegador sin instalación. El software de escritorio ofrece características más avanzadas (macros, plugins) pero requiere compras, actualizaciones e instalaciones específicas del dispositivo. La edición en línea es ideal para trabajo de documentos básico a intermedio y acceso entre dispositivos."
+      },
+      "libreoffice_compatibility": {
+        "q": "¿Puedo editar documentos de LibreOffice y OpenOffice?",
+        "a": "Sí. Admitimos formatos OpenDocument: ODT (texto), ODS (hoja de cálculo) y ODP (presentación). Cargue archivos de LibreOffice, edite en el navegador y exporte de nuevo a ODT o convierta a formatos de Microsoft Office (DOCX, XLSX, PPTX)."
+      },
+      "macro_support": {
+        "q": "¿El editor en línea admite macros de Excel y VBA?",
+        "a": "No. Los editores basados en navegador no pueden ejecutar macros VBA por razones de seguridad. Si carga un archivo de Excel con macros, aún puede editar los datos, pero los macros no se ejecutarán. Para flujos de trabajo con muchos macros, use Excel de escritorio o exporte a CSV para manipulación de datos."
+      },
+      "chromebook_editing": {
+        "q": "¿Puedo editar documentos de Office en un Chromebook?",
+        "a": "Sí. El editor en línea de NoteOCR es perfecto para Chromebooks, que no admiten software de Office de escritorio. Edite archivos de Word, Excel y PowerPoint directamente en el navegador Chrome. No se necesitan aplicaciones de Android ni contenedores de Linux. Compatibilidad completa con Office en ChromeOS."
+      },
+      "version_history": {
+        "q": "¿Puedo restaurar versiones anteriores de mi documento?",
+        "a": "Sí (función Premium). El historial de versiones guarda automáticamente instantáneas cada vez que edita. Restaure cualquier versión anterior con un clic. Compare versiones lado a lado para ver los cambios. Los usuarios gratuitos pueden descargar versiones actuales pero no obtienen seguimiento automático del historial."
+      }
+    }
   },
   "ExcelPage": {
     "meta_title": "हाथ से लिखी टेबल को Excel (XLSX) में बदलें | NoteOCR",
-    "meta_desc": "डेटा एंट्री को ऑटोमेट करें। AI का उपयोग करके हाथ से बने ग्रिड और वित्तीय टेबल को तुरंत एडिट करने योग्य Excel स्प्रेडशीट में बदलें।",
-    "hero_pill": "स्मार्ट ग्रिड पहचान",
-    "hero_title": "लिखावट से",
-    "hero_highlight": "Excel",
-    "hero_subtitle": "मैनुअल डेटा एंट्री बंद करें। हमारा AI आपके नोट्स में रो, कॉलम और हेडर का पता लगाता है और उन्हें .xlsx फ़ाइलों में बदल देता है।",
-    "trust_security": "बैंक-ग्रेड सुरक्षा",
-    "trust_grid": "मल्टी-कॉलम डिटेक्शन",
-    "trust_accuracy": "99.8% संख्यात्मक सटीकता",
-    "feat_1_title": "इंटेलिजेंट ग्रिड",
-    "feat_1_desc": "हम सिर्फ टेक्स्ट नहीं देखते; हम स्ट्रक्चर देखते हैं। हमारा इंजन खींची गई लाइनों और मर्ज की गई सेल्स को ऑटोमैटिक पहचानता है।",
-    "feat_2_title": "वित्तीय सटीकता",
-    "feat_2_desc": "संख्याओं के लिए अनुकूलित। हाथ से लिखे इनवॉइस, इन्वेंट्री लिस्ट और वित्तीय लेज़र को डिजिटल बनाने के लिए सटीक।",
-    "feat_3_title": "यूनिवर्सल एक्सपोर्ट",
-    "feat_3_desc": "अपना डेटा मानक Microsoft Excel (.xlsx) या CSV फॉर्मेट में डाउनलोड करें ताकि Google Sheets में आसानी से इम्पोर्ट किया जा सके।",
-    "how_title": "कागज से स्प्रेडशीट तक सेकंडों में",
-    "step_1_title": "फोटो लें",
-    "step_1_desc": "अपने लेज़र या डेटा टेबल की एक फोटो लें।",
-    "step_2_title": "पार्स",
-    "step_2_desc": "AI रो और कॉलम की ज्यामिति (geometry) को मैप करता है।",
-    "step_3_title": "एक्सपोर्ट",
-    "step_3_desc": "एक साफ, फॉर्मेटेड Excel फ़ाइल डाउनलोड करें।",
-    "faq_title": "अक्सर पूछे जाने वाले प्रश्न",
-    "cta_title": "आज ही अपने डेटा को डिजिटल बनाएं",
-    "cta_btn": "टेबल को अभी बदलें"
+    "meta_desc": "Data entry को ऑटोमेट करें। AI का उपयोग करके हाथ से बने ग्रिड, वित्तीय टेबल और शेड्यूल को तुरंत एडिट करने योग्य Excel स्प्रेडशीट में बदलें।",
+
+    "hero_pill": "टेबल स्ट्रक्चर पहचान (Table Structure Recognition)",
+    "hero_title": "हाथ से लिखी टेबल को Excel स्प्रेडशीट में बदलें",
+    "hero_subtitle": "मैन्युअल रूप से डेटा टाइप करना बंद करें। हमारा AI आपके हाथ से लिखे नोट्स में रो (rows), कॉलम और सेल की सीमाओं का पता लगाता है, और उन्हें फॉर्मेटेड .xlsx फ़ाइलों में एक्सपोर्ट करता है।",
+
+    "trust_ssl": "SSL एन्क्रिप्टेड",
+    "trust_processing": "2-मिनट प्रोसेसिंग",
+    "trust_accuracy": "98% न्यूमेरिक सटीकता",
+
+    "before_after_title": "अंतर देखें",
+    "before_after_desc": "संरचना और सटीक डेटा के साथ वास्तविक कन्वर्जन",
+    "before_label": "पहले: हाथ से लिखा लेजर (Ledger)",
+    "before_placeholder": "[परिणाम देखने के लिए अपनी टेबल अपलोड करें]",
+    "after_label": "बाद में: Excel आउटपुट",
+    "after_placeholder": "[फॉर्मेटेड स्प्रेडशीट प्रीव्यू]",
+
+    "use_cases_title": "हाथ से लिखी टेबल को Excel में कौन बदलता है?",
+    "use_cases_subtitle": "अकाउंटिंग फर्मों से लेकर शिक्षकों तक, हज़ारों लोग रोज़ाना टेबल कन्वर्ट करते हैं",
+
+    "use_case_1_title": "अकाउंटिंग और बुककीपिंग",
+    "use_case_1_desc": "टैक्स की तैयारी और ऑडिट के लिए हाथ से लिखे वित्तीय लेजर, खर्चों की रिपोर्ट और रसीदों को Excel फ़ाइलों में बदलें।",
+
+    "use_case_2_title": "इन्वेंट्री मैनेजमेंट",
+    "use_case_2_desc": "स्टॉक काउंट, प्रोडक्ट लिस्ट और वेयरहाउस लॉग को डिजिटल करें। कागज़ पर इन्वेंट्री ट्रैक करने वाले छोटे व्यवसायों के लिए सटीक समाधान।",
+
+    "use_case_3_title": "शिक्षक और ग्रेडिंग",
+    "use_case_3_desc": "हाथ से लिखी ग्रेड बुक्स और छात्र सूचियों को प्रोग्रेस ट्रैकिंग के लिए फॉर्मेटेड स्प्रेडशीट में बदलें।",
+
+    "use_case_4_title": "अनुसंधान और डेटा संग्रह",
+    "use_case_4_desc": "फील्ड नोट्स, सर्वे रिस्पांस और लैब डेटा टेबल को सांख्यिकीय सॉफ्टवेयर के लिए विश्लेषण योग्य डेटासेट में बदलें।",
+
+    "comparison_title": "हाथ से लिखी टेबल vs Excel: तरीकों की तुलना",
+    "comparison_subtitle": "NoteOCR मैन्युअल एंट्री की तुलना में घंटों का समय कैसे बचाता है",
+    "comparison_col_method": "तरीका",
+    "comparison_col_time": "समय",
+    "comparison_col_accuracy": "सटीकता",
+    "comparison_col_cost": "लागत",
+
+    "comparison_row1_method": "मैन्युअल टाइपिंग",
+    "comparison_row1_time": "45 मिनट",
+    "comparison_row1_accuracy": "95% (मानवीय गलती)",
+    "comparison_row1_cost": "$15/घंटा श्रम",
+
+    "comparison_row2_method": "सामान्य OCR",
+    "comparison_row2_time": "10 मिनट",
+    "comparison_row2_accuracy": "50% (ढांचा बिगड़ जाता है)",
+    "comparison_row2_cost": "मुफ्त-$20",
+
+    "comparison_row3_method": "NoteOCR Tables",
+    "comparison_row3_time": "2 मिनट",
+    "comparison_row3_accuracy": "98% ढांचा सुरक्षित",
+    "comparison_row3_cost": "$8/100 पेज",
+
+    "features_title": "हमारा टेबल OCR अलग क्यों है",
+    "features_subtitle": "विशेष रूप से हाथ से लिखे डेटा टेबल के लिए निर्मित",
+
+    "feature_1_title": "स्मार्ट ग्रिड डिटेक्शन",
+    "feature_1_desc": "हमारा AI बिना लाइनों वाली टेबल को भी पहचान लेता है। यह कॉलम, टेक्स्ट अलाइनमेंट और सेल के बीच के संबंधों को समझता है।",
+
+    "feature_2_title": "नंबरों के लिए अनुकूलित",
+    "feature_2_desc": "फाइनेंशियल डेटा के लिए सटीक परिणाम। न्यूमेरिक फॉर्मेटिंग को बनाए रखते हुए अकाउंटिंग लेजर, इनवॉइस और रिपोर्ट को कन्वर्ट करें।",
+
+    "feature_3_title": "Excel या CSV में एक्सपोर्ट करें",
+    "feature_3_desc": "उचित सेल फॉर्मेटिंग के साथ डेटा को .xlsx में डाउनलोड करें या Google Sheets और डेटाबेस के लिए CSV में एक्सपोर्ट करें।",
+
+    "tech_title": "ग्रिड डिटेक्शन तकनीक कैसे काम करती है",
+    "tech_intro": "अधिकांश OCR टूल टेबल को प्लेन टेक्स्ट की तरह मानते हैं, जिससे सेल का डेटा बिखर जाता है। NoteOCR का विशेष AI आपकी टेबल के सटीक ढांचे को फिर से बनाने के लिए स्थानिक स्थिति का विश्लेषण करता है।",
+
+    "tech_detect_title": "हम क्या पहचानते हैं",
+    "tech_detect_1": "बिना खींची गई लाइनों के सेल की सीमाएं",
+    "tech_detect_2": "कॉलम हेडर और पदानुक्रम",
+    "tech_detect_3": "मर्ज किए गए सेल्स (Merged Cells)",
+    "tech_detect_4": "मुद्रा प्रतीक (Currency) और दशमलव",
+    "tech_detect_5": "ग्रिड पेपर और सादे कागज़ की टेबल",
+
+    "tech_tips_title": "बेहतरीन परिणामों के लिए टिप्स",
+    "tech_tips_1": "फोटो लेते समय अच्छी रोशनी का उपयोग करें",
+    "tech_tips_2": "कैमरे को पेज के समानांतर (Parallel) रखें",
+    "tech_tips_3": "स्कैन किए गए दस्तावेज़ों के लिए 300 DPI रखें",
+    "tech_tips_4": "एक ही इमेज में पूरी टेबल कैप्चर करें",
+    "tech_tips_5": "महत्वपूर्ण उपयोग से पहले आउटपुट की समीक्षा करें",
+
+    "related_tools_title": "संबंधित OCR टूल्स",
+
+    "related_tool_1_name": "इमेज से वर्ड",
+    "related_tool_1_desc": "हाथ से लिखे टेक्स्ट को फॉर्मेटेड डॉक्यूमेंट में बदलें",
+
+    "related_tool_2_name": "ऑनलाइन PDF एडिट करें",
+    "related_tool_2_desc": "बिना किसी इंस्टॉलेशन के कहीं भी PDF एडिट करें",
+
+    "related_tool_3_name": "ऑनलाइन डॉक्यूमेंट एडिटर",
+    "related_tool_3_desc": "MS Word या Excel डॉक्यूमेंट मुफ्त में ऑनलाइन एडिट करें",
+
+    "related_tool_4_name": "इमेज से टेक्स्ट",
+    "related_tool_4_desc": "इमेज में लिखी कर्सिव राइटिंग को एडिट करने योग्य टेक्स्ट में बदलें",
+
+    "faq_title": "टेबल-टू-Excel कन्वर्जन के बारे में अक्सर पूछे जाने वाले प्रश्न",
+
+    "cta_title": "मैन्युअल डेटा एंट्री बंद करने के लिए तैयार हैं?",
+    "cta_subtitle": "10,000+ उन उपयोगकर्ताओं में शामिल हों जो NoteOCR के साथ टेबल डिजिटल कर रहे हैं",
+    "cta_button": "अपनी टेबल अभी कन्वर्ट करें",
+
+    "tool_upload_title": "अपनी हाथ से लिखी टेबल अपलोड करें",
+    "tool_upload_desc": "लेजर, इन्वेंट्री शीट और ग्रेड बुक्स का समर्थन करता है। लाइनों के साथ या बिना लाइनों के काम करता है।",
+    "tool_upload_button": "इमेज चुनें",
+    "tool_upload_check_1": "JPG, PNG, JPEG",
+    "tool_upload_check_2": "अधिकतम 25MB",
+    "tool_upload_check_3": "SSL सुरक्षित",
+
+    "tool_processing_title": "टेबल स्ट्रक्चर की पहचान की जा रही है...",
+    "tool_processing_desc": "AI रो, कॉलम और सेल की सीमाओं का विश्लेषण कर रहा है",
+
+    "tool_complete_title": "टेबल सफलतापूर्वक निकाली गई!",
+    "tool_complete_desc": "आपकी स्प्रेडशीट तैयार है। Excel (.xlsx) या CSV फॉर्मेट में डाउनलोड करें।",
+    "tool_complete_file_type": "Excel स्प्रेडशीट",
+    "tool_complete_status": "तैयार",
+    "tool_download_button": "Excel डाउनलोड करें",
+    "tool_new_button": "नई टेबल",
+
+    "tool_info_1_title": "स्मार्ट डिटेक्शन",
+    "tool_info_1_desc": "उन टेबल के साथ भी काम करता है जिनमें लाइनें नहीं होतीं",
+
+    "tool_info_2_title": "99% सटीकता",
+    "tool_info_2_desc": "नंबरों और वित्तीय डेटा के लिए अनुकूलित",
+
+    "tool_info_3_title": "Excel फॉर्मेट",
+    "tool_info_3_desc": "Excel, Sheets और डेटाबेस के साथ संगत",
+
+    "tool_tip_label": "प्रो टिप:",
+    "tool_tip_text": "सर्वोत्तम परिणामों के लिए, अच्छी रोशनी में फोटो लें और कैमरे को सीधा रखें। 300 DPI स्कैन बेहतर काम करते हैं।",
+
+    "toast_success": "टेबल सफलतापूर्वक निकाली गई!",
+    "toast_error_type": "कृपया वैध इमेज (JPG, PNG, WEBP) या PDF फाइल अपलोड करें",
+    "toast_error_size": "फाइल का आकार 25MB से कम होना चाहिए",
+    "toast_error_extraction": "एक्सट्रैक्शन विफल रहा।",
+    "toast_download_success": "Excel फाइल डाउनलोड हो गई!",
+    "toast_download_error": "डाउनलोड विफल रहा।",
+
+    "FAQ": {
+      "items": {
+        "table_to_excel": {
+          "q": "मैं हाथ से लिखी टेबल को Excel में कैसे बदल सकता हूँ?",
+          "a": "अपनी टेबल की फोटो NoteOCR पर अपलोड करें। हमारा AI अपने आप रो और कॉलम को पहचान लेगा और उसे डाउनलोड करने योग्य Excel (.xlsx) फाइल में बदल देगा।"
+        },
+        "cursive": {
+          "q": "क्या NoteOCR टेबल में लिखी कर्सिव राइटिंग को पढ़ सकता है?",
+          "a": "हाँ। हमारा AI लाखों हैंडराइटिंग सैंपल पर प्रशिक्षित है। ढांचा सुरक्षित रहता है, भले ही कुछ शब्दों को बाद में सुधारने की ज़रूरत पड़े।"
+        },
+        "math": {
+          "q": "क्या यह गणितीय सूत्रों (Formulas) को संभालता है?",
+          "a": "NoteOCR लिखे हुए नंबरों को निकालता है। यह एक्सेल फॉर्मूले (जैसे '=SUM') को प्रोसेस नहीं करता, लेकिन डेटा को सटीक रूप से देता है ताकि आप बाद में फॉर्मूले जोड़ सकें।"
+        },
+        "is_free": {
+          "q": "क्या यह कनवर्टर मुफ्त है?",
+          "a": "NoteOCR एक पेड सर्विस है, लेकिन हम उपयोगकर्ताओं को सटीकता जांचने के लिए फ्री ट्रायल देते हैं। हम व्यक्तिगत उपयोग के लिए फ्री टियर भी देते हैं।"
+        },
+        "no_borders": {
+          "q": "अगर मेरी टेबल में लाइनें या बॉर्डर नहीं हैं तो क्या होगा?",
+          "a": "NoteOCR का AI स्पेसिंग और टेक्स्ट अलाइनमेंट का विश्लेषण करके टेबल स्ट्रक्चर को पहचान लेता है। यह सादे कागज़ पर बनी टेबल के साथ भी काम करता है।"
+        },
+        "ledger_specific": {
+          "q": "क्या मैं पुराने अकाउंटिंग लेजर को कन्वर्ट कर सकता हूँ?",
+          "a": "बिल्कुल। NoteOCR फाइनेंशियल डॉक्यूमेंट के लिए अनुकूलित है जिनमें कई कॉलम (दिनांक, विवरण, डेबिट, क्रेडिट) होते हैं।"
+        },
+        "accuracy_numbers": {
+          "q": "नंबरों के मामले में यह कितना सटीक है?",
+          "a": "नंबरों की सटीकता 99% तक है क्योंकि हमारा AI विशेष रूप से अंकों और मुद्रा प्रतीकों को पहचानने के लिए बनाया गया है।"
+        },
+        "batch_process": {
+          "q": "क्या मैं एक साथ कई टेबल कन्वर्ट कर सकता हूँ?",
+          "a": "अभी आप एक बार में एक इमेज अपलोड कर सकते हैं। बल्क कन्वर्जन के लिए हमारे API के बारे में हमसे संपर्क करें।"
+        },
+        "excel_vs_csv": {
+          "q": "Excel और CSV एक्सपोर्ट में क्या अंतर है?",
+          "a": "Excel (.xlsx) फॉर्मेटिंग और सेल स्टाइल को बनाए रखता है। CSV एक प्लेन टेक्स्ट फॉर्मेट है जो डेटाबेस के लिए अच्छा है लेकिन इसमें डिज़ाइन नहीं होता।"
+        },
+        "edit_after": {
+          "q": "क्या मैं कन्वर्जन के बाद टेबल को एडिट कर सकता हूँ?",
+          "a": "हाँ। डाउनलोड की गई फाइल पूरी तरह से एडिट करने योग्य है। आप Excel में कुछ भी बदल सकते हैं या फॉर्मूले जोड़ सकते हैं।"
+        },
+        "grid_paper": {
+          "q": "क्या यह ग्रिड पेपर पर बेहतर काम करता है?",
+          "a": "दोनों पर काम करता है। ग्रिड पेपर AI को कॉलम पहचानने में मदद करता है, लेकिन सादे कागज़ पर भी यह बहुत प्रभावी है।"
+        },
+        "merged_cells": {
+          "q": "क्या यह मर्ज किए गए सेल्स को पहचान सकता है?",
+          "a": "हाँ, हमारा AI मर्ज किए गए सेल्स को पहचानने की कोशिश करता है। बहुत जटिल स्ट्रक्चर के लिए डाउनलोड के बाद थोड़े सुधार की ज़रूरत हो सकती है।"
+        },
+        "quality_tips": {
+          "q": "बेहतरीन रिजल्ट कैसे पाएं?",
+          "a": "(1) अच्छी रोशनी, (2) सीधा कैमरा एंगल, (3) साफ़ हैंडराइटिंग और (4) पूरी टेबल की स्पष्ट फोटो।"
+        },
+        "privacy": {
+          "q": "क्या मेरा फाइनेंशियल डेटा सुरक्षित है?",
+          "a": "हाँ। हम SSL एन्क्रिप्शन का उपयोग करते हैं और आपकी इमेज को प्रोसेस करने के 24 घंटे के भीतर हटा देते हैं। हम डेटा स्टोर नहीं करते।"
+        },
+        "compare_manual": {
+          "q": "इसे हाथ से टाइप करने के बजाय क्यों चुनें?",
+          "a": "मैन्युअल टाइपिंग में 30-60 मिनट लगते हैं और गलतियों की संभावना होती है। NoteOCR इसे 2 मिनट में 98% सटीकता के साथ करता है।"
+        }
+      }
+    }
   },
   "nav": {
     "product": "प्रोडक्ट",
@@ -359,26 +1124,34 @@
     "get_started": "शुरू करें"
   },
   "Footer": {
-    "description": "हाथ से लिखे नोट्स को तुरंत क्लीन और एडिटेबल डॉक्यूमेंट में बदलें। सुरक्षित, तेज और आधुनिक टीमों के लिए निर्मित।",
+    "description": "हाथ से लिखे नोट्स को तुरंत साफ़ और संपादन योग्य दस्तावेज़ों में बदलें। सुरक्षित, तेज़ और आधुनिक टीमों के लिए निर्मित।",
     "stay_updated": "अपडेट रहें",
     "email_placeholder": "अपना ईमेल दर्ज करें",
-    "systems_ok": "सभी सिस्टम सक्रिय हैं",
+    "systems_ok": "सभी सिस्टम ठीक हैं",
     "product": "प्रोडक्ट",
+    "use_cases": "उपयोग के मामले",
     "company": "कंपनी",
     "resources": "संसाधन",
-    "hiring": "हायरिंग",
-    "copyright": "© {year} NoteOCR Inc. | ग्लोबल टीमों के लिए निर्मित।",
+    "hiring": "हायरिंग जारी है",
+    "copyright": "© {year} NoteOCR Inc. सर्वाधिकार सुरक्षित।",
     "links": {
-      "notes_to_word": "नोट्स टू Word",
-      "table_to_excel": "टेबल टू Excel",
-      "online_editor": "डॉक्यूमेंट एडिटर",
+      "notes_to_word": "नोट्स को Word में बदलें",
+      "table_to_excel": "टेबल को Excel में बदलें",
+      "online_editor": "ऑनलाइन डॉक्यूमेंट एडिटर",
+      "edit_pdf": "PDF एडिट करें",
       "pricing": "कीमतें",
       "about": "हमारे बारे में",
       "careers": "करियर",
       "contact": "संपर्क करें",
+      "blog": "ब्लॉग",
       "docs": "डॉक्यूमेंटेशन",
-      "privacy": "प्राइवेसी पॉलिसी",
-      "terms": "सेवा की शर्तें"
+      "api": "API संदर्भ",
+      "privacy": "गोपनीयता नीति",
+      "terms": "सेवा की शर्तें",
+      "security": "सुरक्षा",
+      "sitemap": "साइटमैप",
+      "status": "स्टेटस",
+      "changelog": "बदलावों की सूची"
     }
   },
   "Contact": {
@@ -405,128 +1178,180 @@
   },
   "PricingUI": {
     "hero": {
-      "title_start": "सटीक लिखावट रूपांतरण के लिए",
-      "title_highlight": "आसान कीमतें।",
-      "subtitle": "जब आपको ज़रूरत हो, हस्तलिखित नोट्स को एडिट करने योग्य टेक्स्ट में बदलें। एक बार भुगतान करें, कभी भी उपयोग करें — कोई सब्सक्रिप्शन नहीं, कोई दबाव नहीं।"
+      "badge": "कोई सब्सक्रिप्शन नहीं",
+      "title_start": "एक बार भुगतान करें,",
+      "title_highlight": "हमेशा के लिए रखें।",
+      "subtitle": "सॉफ्टवेयर किराए पर लेना बंद करें। ऐसे क्रेडिट खरीदें जो कभी खत्म नहीं होते और Excel, Word और Text के लिए दुनिया के सबसे सटीक हैंडराइटिंग OCR इंजन का उपयोग करें।"
     },
     "labels": {
-      "capacity": "पेज क्रेडिट",
-      "features": "आपको क्या मिलता है"
+      "capacity": "कुल पेज शामिल",
+      "features": "प्लान की विशेषताएं",
+      "most_popular": "सबसे लोकप्रिय"
     },
     "plans": {
       "free": {
-        "name": "फ्री ट्रायल",
-        "description": "एक पैसा खर्च करने से पहले हस्तलिपि रूपांतरण को आजमाएं।",
-        "pages": "7 पेज (एक बार)",
-        "buttonText": "फ्री में आजमाएं",
+        "name": "Hobby",
+        "desc": "एकल पेजों पर सटीकता का परीक्षण करें।",
+        "price": "0",
+        "credits": "7 पेज",
+        "btn": "फ्री ट्रायल शुरू करें",
         "features": [
-          "कुल 7 पेज (कोई समाप्ति नहीं)",
-          "उच्च सटीकता वाली हस्तलिपि से टेक्स्ट AI",
-          "सामान्य प्रोसेसिंग गति",
-          "एक बार में 1 हस्तलिखित इमेज ट्रांसक्राइब करें",
-          "रूपांतरित टेक्स्ट का प्रीव्यू देखें",
-          "TXT में एक्सपोर्ट करें",
-          "बेसिक डॉक्यूमेंट एडिटर",
-          "क्लाउड में 3 डॉक्यूमेंट तक सेव करें"
-        ],
-        "missing": [
-          "बैच प्रोसेसिंग",
-          "कंटीन्यूअस कन्वर्जन",
-          "एडवांस फॉर्मेटिंग",
-          "टेबल पहचान",
-          "Word, Excel, PDF, HTML में एक्सपोर्ट",
-          "मल्टीपल इमेज अपलोड",
-          "डॉक्यूमेंट हिस्ट्री और वर्जनिंग"
+          "स्टैंडर्ड OCR सटीकता",
+          "हैंडराइटिंग से टेक्स्ट",
+          "बेसिक TXT एक्सपोर्ट",
+          "1-दिन का क्लाउड स्टोरेज"
         ]
       },
       "starter": {
-        "name": "स्टार्टर",
-        "description": "छात्रों और हल्के नोट रूपांतरण के लिए आदर्श।",
-        "pages": "100 पेज",
-        "buttonText": "स्टार्टर लें",
+        "name": "Student",
+        "desc": "निबंध, नोट्स और होमवर्क के लिए।",
+        "price": "8",
+        "credits": "100 पेज",
+        "btn": "Starter प्लान लें",
         "features": [
-          "100 पेज क्रेडिट (कोई समाप्ति नहीं)",
-          "98% सटीकता वाला इंजन",
-          "तेज़ हस्तलिपि ट्रांसक्रिप्शन",
-          "बैच अपलोड सपोर्ट",
-          "एक साथ 5 इमेज तक ट्रांसक्राइब करें",
-          "कंटीन्यूअस कन्वर्जन (इमेज मर्ज करें)",
-          "Word, Excel, PDF, HTML, TXT में एक्सपोर्ट",
-          "500 डॉक्यूमेंट तक क्लाउड स्टोरेज",
-          "प्रायोरिटी ईमेल सपोर्ट",
-          "हस्तलिपि स्टाइल लर्निंग"
-        ],
-        "missing": [
-          "अनलिमिटेड बैच प्रोसेसिंग",
-          "एडवांस टेबल एक्सट्रैक्शन",
-          "डॉक्यूमेंट AI फॉर्मेटर",
-          "टीम सहयोग"
+          "Hobby की सभी सुविधाएं",
+          "हैंडराइटिंग से Word (DOCX)",
+          "लेआउट प्रिजर्वेशन इंजन",
+          "पेपर वॉटरमार्क हटाएं",
+          "ईमेल सपोर्ट"
         ]
       },
       "plus": {
-        "badge": "सबसे लोकप्रिय",
-        "name": "प्लस",
-        "description": "बड़े डॉक्यूमेंट्स पर काम करने वाले पावर यूजर्स के लिए।",
-        "pages": "300 पेज",
-        "buttonText": "प्लस पर अपग्रेड करें",
+        "name": "Professional",
+        "desc": "अकाउंटेंट और शोधकर्ताओं के लिए।",
+        "price": "15",
+        "credits": "300 पेज",
+        "btn": "Professional प्लान लें",
+        "badge": "सबसे किफायती",
         "features": [
-          "300 पेज क्रेडिट",
-          "सभी स्टार्टर फीचर्स",
-          "तेज़ प्रोसेसिंग कतार",
-          "एडवांस टेबल पहचान",
-          "PDF डॉक्यूमेंट एडिट करें",
-          "एक साथ 10 इमेज तक बदलें",
-          "बेहतर फॉर्मेटिंग कंट्रोल",
-          "प्रायोरिटी चैट और ईमेल सपोर्ट"
-        ],
-        "missing": [
-          "अनलिमिटेड बैच प्रोसेसिंग",
-          "डॉक्यूमेंट AI फॉर्मेटर",
-          "टीम मैनेजमेंट"
+          "Student की सभी सुविधाएं",
+          "हैंडराइटिंग से Excel (XLSX)",
+          "स्मार्ट ग्रिड/टेबल डिटेक्शन",
+          "कठिन कर्सिव मोड",
+          "बैच प्रोसेसिंग (10 फाइलें)"
         ]
       },
       "pro": {
-        "name": "प्रो",
-        "description": "प्रोफेशनल्स और टीमों के लिए हाई-वॉल्यूम कन्वर्जन।",
-        "pages": "1,000 पेज",
-        "buttonText": "प्रो पर अपग्रेड करें",
+        "name": "Power User",
+        "desc": "आर्काइव्स और बल्क डेटा एंट्री के लिए।",
+        "price": "25",
+        "credits": "1,000 पेज",
+        "btn": "Power Pack लें",
         "features": [
-          "1,000 पेज क्रेडिट",
-          "सभी प्लस फीचर्स",
-          "डॉक्यूमेंट AI फॉर्मेटर",
-          "रियल-टाइम प्रोसेसिंग कतार",
-          "अनलिमिटेड बैच प्रोसेसिंग",
-          "कंटीन्यूअस कन्वर्जन (पूरी किताबें बदलें)",
-          "एडवांस टेबल एक्सट्रैक्शन",
-          "Word, Excel और PDF के बीच कन्वर्जन",
-          "कस्टम इनवॉइस ब्रांडिंग",
-          "प्रायोरिटी चैट और ईमेल सपोर्ट"
-        ],
-        "missing": []
+          "Professional की सभी सुविधाएं",
+          "एक साथ मल्टी-प्रोसेसिंग",
+          "मैथमेटिकल फॉर्मूला OCR",
+          "प्रायोरिटी क्यू (लाइन में न लगें)",
+          "अनलिमिटेड बैच अपलोड"
+        ]
       }
     },
-    "enterprise": {
-      "title": "1,000 से अधिक पेजों की आवश्यकता है?",
-      "desc": "डेडिकेटेड लिमिट्स, API एक्सेस और कस्टम मॉडल के साथ एक कस्टम एंटरप्राइज पैकेज प्राप्त करें।",
-      "cta": "सेल्स से संपर्क करें"
+    "comparison": {
+      "title": "तकनीकी विशिष्टताओं का विवरण",
+      "subtitle": "NoteOCR जेनेरिक स्कैनर्स से बेहतर क्यों है।",
+      "headers": ["सुविधा", "Hobby", "Student", "Professional", "Power User"],
+      "groups": {
+        "core": "पहचान की बुद्धिमत्ता (AI)",
+        "formats": "एक्सपोर्ट और फाइल प्रकार",
+        "system": "सिस्टम परफॉरमेंस"
+      },
+      "rows": [
+        {
+          "name": "प्रिंट हैंडराइटिंग OCR",
+          "values": [true, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "कर्सिव स्क्रिप्ट इंजन",
+          "values": ["स्टैंडर्ड", "हाई", "अल्ट्रा", "अल्ट्रा"],
+          "group": "core"
+        },
+        {
+          "name": "टेबल ग्रिड डिटेक्शन (Excel)",
+          "values": [false, false, true, true],
+          "group": "core"
+        },
+        {
+          "name": "लेआउट प्रिजर्वेशन (Word)",
+          "values": [false, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "गणितीय सूत्र (Math Formulas)",
+          "values": [false, false, "बेसिक", "एडवांस"],
+          "group": "core"
+        },
+        {
+          "name": "खराब स्याही/लिखावट सुधार",
+          "values": [false, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "एक्सपोर्ट फॉर्मेट",
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "सभी फॉर्मेट"],
+          "group": "formats"
+        },
+        {
+          "name": "बैच अपलोड लिमिट",
+          "values": ["1 फाइल", "5 फाइलें", "10 फाइलें", "अनलिमिटेड"],
+          "group": "formats"
+        },
+        {
+          "name": "क्लाउड स्टोरेज की अवधि",
+          "values": ["24 घंटे", "30 दिन", "हमेशा", "हमेशा"],
+          "group": "system"
+        },
+        {
+          "name": "एन्क्रिप्शन लेवल",
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "group": "system"
+        },
+        {
+          "name": "प्रोसेसिंग प्राथमिकता",
+          "values": ["स्टैंडर्ड", "स्टैंडर्ड", "हाई", "रियल-टाइम"],
+          "group": "system"
+        }
+      ]
+    },
+    "deep_dive": {
+      "title": "सटीकता के लिए खर्च क्यों करना पड़ता है",
+      "cards": [
+        {
+          "title": "GPU बनाम CPU प्रोसेसिंग",
+          "desc": "जेनेरिक फ्री टूल्स सस्ते CPU का उपयोग करते हैं जो केवल शब्दों का अनुमान लगाते हैं। हम आपकी इमेज को समर्पित NVIDIA T4 GPU के माध्यम से प्रोसेस करते हैं जो संदर्भ (context) को समझते हैं, जिससे नंबरों और वित्तीय डेटा के लिए 99% सटीकता मिलती है।"
+        },
+        {
+          "title": "लेआउट इंटेलिजेंस",
+          "desc": "हम केवल टेक्स्ट नहीं पढ़ते; हम कोऑर्डिनेट सिस्टम को मैप करते हैं। यह हमें Excel टेबल और Word इंडेंटेशन को ठीक वैसे ही पुनर्गठित करने की अनुमति देता है जैसा वे कागज पर दिखते हैं, जिससे आपका घंटों का समय बचता है।"
+        },
+        {
+          "title": "सुरक्षा आर्किटेक्चर",
+          "desc": "आपका डेटा अल्पकालिक (ephemeral) कंटेनरों में प्रोसेस किया जाता है। एक बार कन्वर्शन हो जाने और फाइल डाउनलोड करने के बाद, रॉ इमेज डेटा मिटा दिया जाता है। हम आपके निजी डेटा पर अपने सार्वजनिक मॉडल को ट्रेन नहीं करते हैं।"
+        }
+      ]
     },
     "faq_title": "अक्सर पूछे जाने वाले प्रश्न",
-    "faqs": [
-      {
-        "q": "एक पेज किसे माना जाता है?",
-        "a": "एक पेज का मतलब एक अपलोड की गई इमेज या PDF डॉक्यूमेंट का एक पेज है।"
-      },
-      {
-        "q": "क्या मेरे पेज एक्सपायर हो जाएंगे?",
-        "a": "नहीं। खरीदे गए सभी पेज हमेशा के लिए आपके हैं। कोई मासिक रीसेट नहीं।"
-      }
-    ],
-    "support": {
-      "title": "अभी भी सवाल हैं?",
-      "email_label": "हमें ईमेल करें",
-      "chat_label": "लाइव चैट",
-      "chat_time": "उपलब्ध: सुबह 9 बजे – शाम 5 बजे EST"
-    }
+    "faqs": {
+      "items": [
+        {
+          "q": "क्या मेरे क्रेडिट की समय सीमा समाप्त हो जाएगी?",
+          "a": "नहीं। कभी नहीं। आप आज 300 पेज खरीद सकते हैं और उन्हें 2 साल बाद उपयोग कर सकते हैं। हमें 'उपयोग करें या खो दें' वाला सब्सक्रिप्शन मॉडल पसंद नहीं है।"
+        },
+        {
+          "q": "'क्रेडिट' के रूप में वास्तव में क्या गिना जाता है?",
+          "a": "1 क्रेडिट = 1 प्रोसेस्ड पेज। यदि आप 10 पेजों वाली एक PDF अपलोड करते हैं, तो इसमें 10 क्रेडिट लगेंगे। यदि आप रसीद की एक इमेज अपलोड करते हैं, तो इसमें 1 क्रेडिट लगेगा।"
+        },
+        {
+          "q": "क्या मैं बहुत पुराने दस्तावेज़ प्रोसेस कर सकता हूँ?",
+          "a": "हाँ। हमारे 'Professional' और 'Power User' टियर हमारे अल्ट्रा मॉडल का उपयोग करते हैं, जो ऐतिहासिक पांडुलिपियों और धुंधली स्याही पर प्रशिक्षित है। यह मानक OCR से काफी बेहतर है।"
+        },
+        {
+          "q": "मेरे पास प्रोसेस करने के लिए 5,000+ पेज हैं।",
+          "a": "बल्क आर्काइव्स के लिए, कृपया अकाउंट बनाने के बाद सपोर्ट से संपर्क करें। हम ऐतिहासिक डिजिटलीकरण परियोजनाओं के लिए भारी छूट प्रदान करते हैं।"
+        }
+      ]
+    },
+    "footer_secure": "Stripe के माध्यम से सुरक्षित भुगतान"
   },
   "Signup": {
     "meta_title": "NoteOCR से जुड़ें | अपना काम डिजिटाइज़ करें",

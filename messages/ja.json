@@ -231,106 +231,872 @@
       }
     }
   },
+
   "WordPage": {
-    "meta_title": "手書き文字をWord(DOCX)に変換 | NoteOCR",
-    "meta_desc": "手書きノートを瞬時に編集可能なWord文書へ。レイアウトや表もそのまま保持します。",
-    "hero_title_1": "手書きを",
-    "hero_title_2": "Wordへ",
-    "hero_subtitle": "もう打ち直す必要はありません。AIが画像からレイアウトを維持したまま.docxファイルを生成します。",
-    "feat_1_title": "レイアウト保持",
-    "feat_1_desc": "箇条書き、見出し、余白を検出し、ノートの見た目通りに再現します。",
-    "feat_2_title": "複雑な漢字も対応",
-    "feat_2_desc": "数百万のサンプルで学習したICRエンジンが、日本語特有の文字も正確に捉えます。",
-    "feat_3_title": "プライバシー保護",
-    "feat_3_desc": "処理されたファイルは60分以内にサーバーから完全に削除されます。",
-    "faq_title": "よくある質問",
-    "faq_q1": "筆記体も読めますか？",
-    "faq_a1": "はい。英語の筆記体や複雑な日本語の草書体も、高度なニューラルネットワークで解析します。",
-    "faq_q2": "データは安全ですか？",
-    "faq_a2": "はい。TLS暗号化を使用し、処理完了から1時間以内にファイルを削除します。"
+    "meta_title": "手書きノートをWord (DOCX) に変換 | NoteOCR",
+    "meta_desc": "手入力はもう不要。AIが手書きのノートを編集可能なWordドキュメントに変換します。リスト、見出し、レイアウト構造を自動で保持します。",
+
+    "hero_pill": "スマート文書認識",
+    "hero_title": "手書きノートをWordドキュメントへ変換",
+    "hero_subtitle": "ノートの打ち直しはやめましょう。当社のAIは、リスト、見出し、余白、元のレイアウト構造を保持したまま、手書きのページを編集可能な.docxファイルに変換します。",
+
+    "trust_ssl": "SSL暗号化",
+    "trust_processing": "30秒で処理完了",
+    "trust_accuracy": "テキスト精度95%",
+
+    "before_after_title": "精度の違いを実感",
+    "before_after_desc": "構造と書式を維持した実際の変換例",
+    "before_label": "変換前：手書きノート",
+    "before_placeholder": "[手書きノートをアップロードして結果を表示]",
+    "after_label": "変換後：Wordドキュメント",
+    "after_placeholder": "[フォーマット済みWordドキュメントのプレビュー]",
+
+    "use_cases_title": "手書きからWordへの変換はどんな時に便利？",
+    "use_cases_subtitle": "学生から専門職まで、毎日数千人がノートをデジタル化しています",
+
+    "use_case_1_title": "学生・研究者",
+    "use_case_1_desc": "講義ノートや研究日誌を検索可能なWord文書に変換。レポート作成や引用管理がスムーズになります。",
+
+    "use_case_2_title": "ビジネスパーソン",
+    "use_case_2_desc": "会議メモやホワイトボードの内容をデジタル化。チーム共有や報告書作成のためのフォーマット済み文書を作成します。",
+
+    "use_case_3_title": "作家・ジャーナリスト",
+    "use_case_3_desc": "手書きの下書きやストーリー構成、インタビューメモを、編集・出版可能な原稿データに変換します。",
+
+    "use_case_4_title": "アーキビスト・歴史家",
+    "use_case_4_desc": "歴史的文書や個人の手紙、日記などを保存や研究のためにデジタルアーカイブ化します。",
+
+    "comparison_title": "手書きノート変換：手法の比較",
+    "comparison_subtitle": "NoteOCRが手入力より何時間も節約できる理由",
+    "comparison_col_method": "手法",
+    "comparison_col_time": "時間",
+    "comparison_col_accuracy": "精度",
+    "comparison_col_cost": "コスト",
+
+    "comparison_row1_method": "手入力（タイピング）",
+    "comparison_row1_time": "1ページ/60分",
+    "comparison_row1_accuracy": "98% (遅くて退屈)",
+    "comparison_row1_cost": "無料（あなたの時間）",
+
+    "comparison_row2_method": "一般的なOCRツール",
+    "comparison_row2_time": "10分",
+    "comparison_row2_accuracy": "70% (書式が崩れる)",
+    "comparison_row2_cost": "無料〜2,000円程度",
+
+    "comparison_row3_method": "NoteOCR Word変換",
+    "comparison_row3_time": "30秒",
+    "comparison_row3_accuracy": "95% (レイアウト保持)",
+    "comparison_row3_cost": "100ページ/約1,200円",
+
+    "features_title": "NoteOCRの文字認識が選ばれる理由",
+    "features_subtitle": "手書きノートのWord変換に特化した設計",
+
+    "feature_1_title": "レイアウト保持",
+    "feature_1_desc": "単にテキストを抽出するだけの一般的なOCRとは異なり、リスト、見出し、段落、余白を検出。ノートの構造をそのままWordで再現します。",
+
+    "feature_2_title": "くせ字・楷書に対応",
+    "feature_2_desc": "数百万の手書きサンプルで学習した高度なニューラルネットワーク。乱雑な字、続け字、混合スタイル、さらには取り消し線も高精度で処理します。",
+
+    "feature_3_title": "プライバシー優先の処理",
+    "feature_3_desc": "アップロードされたノートはSSL暗号化され、変換後は完全に削除されます。お客様のコンテンツを保存したり共有したりすることはありません。",
+
+    "tech_title": "手書き認識テクノロジーの仕組み",
+    "tech_intro": "標準的なOCRは手書き文字を印字として扱うため、書式が破壊されます。NoteOCRの専門AIは、筆跡、間隔、文書構造を分析し、リストやインデントを正確に保持したWord文書として再現します。",
+
+    "tech_detect_title": "検出可能な要素",
+    "tech_detect_1": "段落、リスト、見出し",
+    "tech_detect_2": "続け字（草書・行書）と楷書",
+    "tech_detect_3": "取り消し線と修正箇所",
+    "tech_detect_4": "余白とインデント",
+    "tech_detect_5": "ノートやルーズリーフ",
+
+    "tech_tips_title": "最適な結果を得るためのヒント",
+    "tech_tips_1": "撮影時は十分な明るさを確保する",
+    "tech_tips_2": "カメラをページと平行に保つ",
+    "tech_tips_3": "スキャン時は300 DPI以上に設定",
+    "tech_tips_4": "インクと紙のコントラストをはっきりさせる",
+    "tech_tips_5": "保存前に出力を確認する",
+
+    "related_tools_title": "関連OCRツール",
+
+    "related_tool_1_name": "画像からWord",
+    "related_tool_1_desc": "手書きテキストをフォーマット済み文書に変換",
+
+    "related_tool_2_name": "オンラインPDF編集",
+    "related_tool_2_desc": "インストール不要でどこからでもPDFを編集",
+
+    "related_tool_3_name": "オンライン文書エディタ",
+    "related_tool_3_desc": "MS WordやExcelをブラウザ上で無料編集",
+
+    "related_tool_4_name": "画像からテキスト",
+    "related_tool_4_desc": "画像内の続け字を編集可能なテキストに変換",
+
+    "faq_title": "手書きからWordへの変換に関するよくある質問",
+
+    "cta_title": "手書きノートをデジタル化しませんか？",
+    "cta_subtitle": "5万人以上の学生やプロフェッショナルがNoteOCRを利用しています",
+    "cta_button": "今すぐノートを変換する",
+
+    "footer_text": "NoteOCR // インテリジェント文書処理",
+
+    "tool_upload_title": "手書きノートをアップロード",
+    "tool_upload_desc": "講義ノート、議事録、日記、研究論文に対応。続け字や楷書が混在していても認識可能です。",
+    "tool_upload_button": "画像を選択",
+    "tool_upload_check_1": "JPG, PNG, PDF",
+    "tool_upload_check_2": "最大 25MB",
+    "tool_upload_check_3": "SSLセキュア",
+
+    "tool_processing_title": "手書き文字を解析中...",
+    "tool_processing_desc": "AIが文字を認識し、レイアウトを保持しています",
+
+    "tool_complete_title": "変換完了！",
+    "tool_complete_desc": "Wordドキュメントの準備ができました。ダウンロードして編集可能です。",
+    "tool_complete_file_type": "Wordドキュメント (.docx)",
+    "tool_complete_status": "準備完了",
+    "tool_download_button": "Wordをダウンロード",
+    "tool_new_button": "新しい文書を作成",
+
+    "tool_info_1_title": "レイアウトを保持",
+    "tool_info_1_desc": "リスト、見出し、段落をそのまま再現",
+
+    "tool_info_2_title": "精度 95%",
+    "tool_info_2_desc": "日本語のくせ字や続け字に最適化",
+
+    "tool_info_3_title": "DOCX形式",
+    "tool_info_3_desc": "Word, Googleドキュメント, Pagesに対応",
+
+    "tool_tip_label": "ヒント:",
+    "tool_tip_text": "より正確に変換するには、明るい場所でページを真上から撮影してください。インクの色と紙の色の差がはっきりしていると認識率が向上します。",
+
+    "toast_success": "文字起こしが完了しました！",
+    "toast_error_type": "有効な画像（JPG, PNG, WEBP）またはPDFファイルをアップロードしてください",
+    "toast_error_size": "ファイルサイズは25MB以下にしてください",
+    "toast_error_conversion": "変換に失敗しました。",
+    "toast_download_success": "Wordファイルをダウンロードしました！",
+    "toast_download_error": "ダウンロードに失敗しました。",
+
+    "FAQ": {
+      "items": {
+        "handwriting_to_word": {
+          "q": "手書きノートをWordに変換する方法は？",
+          "a": "NoteOCRにノートの写真またはスキャンデータをアップロードしてください。AIが文字を認識し、レイアウト（リストや段落）を保持したままWord（.docx）形式に変換します。"
+        },
+        "cursive_reading": {
+          "q": "続け字やくせ字も読み取れますか？",
+          "a": "はい。当社のAIは日本語の草書、行書、独特なくせ字を含む数百万のサンプルで学習しており、一般的なOCRよりも高い精度で認識します。"
+        },
+        "layout_preserved": {
+          "q": "元のレイアウトは維持されますか？",
+          "a": "はい。箇条書き、番号付きリスト、インデント、余白を検出します。変換後のWordファイルは、ノートの構造を忠実に再現します。"
+        },
+        "is_free_word": {
+          "q": "無料で利用できますか？",
+          "a": "NoteOCRは有料サービスですが、精度を確認するための無料トライアルを提供しています。大量一括処理向けには、サブスクリプション不要の買い切りプランも用意しています。"
+        },
+        "messy_handwriting": {
+          "q": "字が汚くても認識されますか？",
+          "a": "NoteOCRは乱雑な字の認識に優れています。精度は若干下がる場合がありますが、多くの場合で編集可能なレベルのテキストとして出力されます。"
+        },
+        "notebook_vs_loose": {
+          "q": "ノートの罫線があっても大丈夫ですか？",
+          "a": "はい。罫線入りのノート、方眼紙、白紙のいずれも対応しています。罫線が文字認識を妨げることはありません。"
+        },
+        "math_formulas": {
+          "q": "数学の数式も変換できますか？",
+          "a": "基本的な数字や記号は認識しますが、複雑な数式は手動修正が必要な場合があります。数式専用モードも近日公開予定です。"
+        },
+        "multiple_pages": {
+          "q": "複数ページを一度に変換できますか？",
+          "a": "はい。プランに応じて、複数の画像を1つのWordドキュメントにまとめて変換することが可能です。"
+        },
+        "word_vs_google_docs": {
+          "q": "Googleドキュメントでも開けますか？",
+          "a": "はい。.docx形式で出力されるため、Microsoft WordだけでなくGoogleドキュメントやMacのPagesでもそのまま開けます。"
+        },
+        "edit_after_conversion": {
+          "q": "変換後にWordで編集は可能ですか？",
+          "a": "もちろんです。出力されたファイルは通常のWord文書として、文字の修正やフォントの変更が自由に行えます。"
+        },
+        "crossed_out_text": {
+          "q": "取り消し線で消した部分は無視されますか？",
+          "a": "AIは取り消し線を検出し、最終的なドキュメントから除外しようと試みます。激しい塗りつぶしなどは手動での削除が必要な場合があります。"
+        },
+        "handwriting_styles": {
+          "q": "対応しているペンの種類は？",
+          "a": "ボールペン、ゲルペン、マジック、鉛筆など、一般的な筆記具であれば問題なく認識します。"
+        },
+        "quality_tips_word": {
+          "q": "精度を上げるコツはありますか？",
+          "a": "(1)明るい場所で撮る (2)真上から撮る (3)ピントを合わせる (4)紙にシワがないようにする、の4点が重要です。"
+        },
+        "privacy_notes": {
+          "q": "日記などの個人的な内容でも安全ですか？",
+          "a": "安全です。SSL暗号化を使用し、変換後のファイルは24時間以内に完全に削除されます。当社が内容を閲覧・保存することはありません。"
+        },
+        "why_not_type": {
+          "q": "手で入力するより速いですか？",
+          "a": "手入力は1ページ1時間かかることがありますが、NoteOCRなら30秒で終わります。貴重な時間を打ち直しではなく、推敲や編集に使いましょう。"
+        },
+        "student_benefits": {
+          "q": "学生にとってのメリットは？",
+          "a": "ノートを検索可能にすることで、試験勉強の効率が上がります。また、手書きのメモをコピー＆ペーストでレポートに貼り付けられるようになります。"
+        },
+        "meeting_notes": {
+          "q": "ホワイトボードの写真も変換できますか？",
+          "a": "はい。ホワイトボードの文字や図表の配置を解析し、Word上で再現します。反射に注意して撮影してください。"
+        },
+        "languages_supported": {
+          "q": "対応言語は？",
+          "a": "日本語、英語、中国語、韓国語のほか、ヨーロッパ諸言語など多くの言語をサポートしています。"
+        },
+        "comparison_apps": {
+          "q": "スマホのスキャンアプリとの違いは？",
+          "a": "スキャンアプリは画像をPDFにするだけですが、NoteOCRは「手書き文字を解析して編集可能なWordにする」ことに特化しています。"
+        },
+        "historical_documents": {
+          "q": "古い史料や手紙もデジタル化できますか？",
+          "a": "はい。かすれたインクや古い筆跡にも対応していますが、くずし字などの特殊な書体は事前のテストをお勧めします。"
+        }
+      }
+    }
   },
+
   "PdfPage": {
-    "meta_title": "無料オンラインPDF編集・AIチャット | NoteOCR",
-    "meta_desc": "AIでPDFの編集、署名、チャットが可能。ブラウザ上で安全にドキュメントの要約、回答の抽出、フォームへの入力ができます。",
-    "hero_pill": "インテリジェントPDFスイート",
-    "hero_title_1": "PDFの編集もAIチャットも、",
-    "hero_title_2": "いつでも、どこでも。",
-    "hero_subtitle": "オールインワンのPDFワークスペース。テキスト編集、契約書への署名、AIによる報告書の要約や質問回答を瞬時に行えます。",
-    "btn_upload": "PDFファイルをアップロード",
-    "trust_soc2": "SOC2準拠のセキュリティ",
-    "trust_ai": "AI搭載チャット",
-    "trust_esign": "法的効力のある電子署名",
-    "feat_1_title": "ドキュメントとチャット",
-    "feat_1_desc": "100ページの契約書をアップロードして「解約条項は？」と質問するだけで、AIが数秒でスキャンして回答します。",
-    "feat_2_title": "入力と署名",
-    "feat_2_desc": "印刷はもう不要。署名の追加、フォームへの入力、チェックボックスの選択をデジタルで完結。ビジネス利用にも完全対応。",
-    "feat_3_title": "整理と結合",
-    "feat_3_desc": "複数のPDFを一つに結合、ページの回転、不要なセクションの削除など、ファイルを自由自在にコントロール。",
-    "workflow_title": "新しいPDFワークフロー",
-    "step_1_title": "アップロード",
-    "step_1_desc": "最大50MBまでのPDFをドラッグ＆ドロップ。",
-    "step_2_title": "解析",
-    "step_2_desc": "AIが検索やチャットのためにテキストをインデックス化。",
-    "step_3_title": "編集",
-    "step_3_desc": "テキスト、画像、または署名を追加。",
-    "step_4_title": "ダウンロード",
-    "step_4_desc": "完成したドキュメントを書き出し。",
-    "cta_title": "ドキュメント管理をスマートに。",
-    "cta_desc": "契約書や報告書の管理にNoteOCRを利用している10,000人以上のプロフェッショナルに参加しましょう。",
-    "cta_btn": "今すぐ無料で開始",
-    "btn_new": "新しいドキュメントを作成"
+    "meta_title": "スキャンしたPDFをオンラインで編集 - OCR対応 | 無料PDFエディタ | NoteOCR",
+    "meta_desc": "スキャンした文書のためのブラウザ型PDFエディタ。AI OCRで手書き文字を抽出、署名の追加、内容の編集がソフト不要で可能です。",
+
+    "hero_pill": "プロフェッショナルなPDFワークスペース",
+    "hero_title": "AI OCRでスキャンしたPDFをオンライン編集",
+    "hero_subtitle": "スキャン文書に特化した唯一のブラウザ型PDFエディタ。手書きPDFのアップロード、OCRによるテキスト抽出、署名の追加、新規作成まで、すべてソフトのインストールなしで完結します。",
+
+    "trust_ssl": "SSL暗号化保護",
+    "trust_processing": "即時処理",
+    "trust_accuracy": "手書きOCR対応",
+
+    "workspace_title": "包括的なオンライン・ドキュメント・ワークスペース",
+    "workspace_subtitle": "単なるOCRではありません。ファイルを安全なクラウド環境にアップロードし、編集、検索、管理をすべてブラウザ上で行うことができます。",
+
+    "workspace_feature_1_title": "ライブ・テキスト編集",
+    "workspace_feature_1_desc": "抽出されたテキストをブラウザ上で直接修正。エクスポート前に誤字の訂正や段落の整形、データの更新が可能です。",
+
+    "workspace_feature_2_title": "プライバシー第一",
+    "workspace_feature_2_desc": "ドキュメントは暗号化され、安全なサンドボックス内で処理されます。許可なく機密データを保存することはありません。",
+
+    "workspace_feature_3_title": "即時エクスポート",
+    "workspace_feature_3_desc": "編集が終わったら、検索可能なPDF、Word、Excelとしてすぐにダウンロードできます。",
+
+    "use_cases_title": "どのような方が利用していますか？",
+    "use_cases_subtitle": "法務から医療現場まで、毎日数千人がスキャン文書を編集しています",
+
+    "use_case_1_title": "法務・弁護士",
+    "use_case_1_desc": "スキャンした契約書の編集、デジタル署名の追加、機密情報の黒塗り（マスキング）。裁判所資料などのスキャンデータの処理に最適です。",
+
+    "use_case_2_title": "中小企業・個人事業主",
+    "use_case_2_desc": "スキャンしたフォームへの入力、請求書への角印・署名の追加、PDFの結合。高額なAdobeサブスクリプションなしで運用可能です。",
+
+    "use_case_3_title": "学生・教育関係者",
+    "use_case_3_desc": "教科書の自炊データの注釈付け、授業ノートの集約、奨学金申請書の記入、手書き課題のPDF化などを支援します。",
+
+    "use_case_4_title": "医療従事者",
+    "use_case_4_desc": "問診票の編集、手書きカルテのデジタル化、署名の追加、スキャンされた医療チャートの整理を安全に行えます。",
+
+    "comparison_title": "PDF編集の比較：デスクトップ vs オンライン",
+    "comparison_subtitle": "なぜブラウザ型がデスクトップソフトよりも選ばれるのか",
+    "comparison_col_tool": "ツール",
+    "comparison_col_access": "アクセス",
+    "comparison_col_features": "主な機能",
+    "comparison_col_cost": "コスト",
+
+    "comparison_row1_tool": "Adobe Acrobat Pro",
+    "comparison_row1_access": "要インストール・更新",
+    "comparison_row1_features": "フル機能、手書きOCRは弱め",
+    "comparison_row1_cost": "月額 2,000円〜",
+
+    "comparison_row2_tool": "一般的なオンラインエディタ",
+    "comparison_row2_access": "ウェブベース",
+    "comparison_row2_features": "OCR制限あり、手書き非対応",
+    "comparison_row2_cost": "無料〜1,500円",
+
+    "comparison_row3_tool": "NoteOCR PDFエディタ",
+    "comparison_row3_access": "即時、ブラウザ型",
+    "comparison_row3_features": "OCR + 手書き対応 + フルエディタ",
+    "comparison_row3_cost": "無料〜1,200円",
+
+    "features_title": "当社のエディタが選ばれる理由",
+    "features_subtitle": "スキャン・手書きPDFの編集に特化した設計",
+
+    "feature_1_title": "スキャンPDF専用OCR",
+    "feature_1_desc": "スキャン文書や手書きPDFを検索・編集可能なテキストに変換。当社のAIは、元のレイアウトを維持しながら、手書き文字や表構造を認識します。",
+
+    "feature_2_title": "充実の編集ツール",
+    "feature_2_desc": "テキスト追加、署名描画、画像挿入、ハイライト、ページの並べ替え。プロ仕様の機能をすべてウェブ上で提供します。",
+
+    "feature_3_title": "ブラウザベースのセキュリティ",
+    "feature_3_desc": "アップロードは銀行レベルの暗号化。PDFは分離されたコンテナで処理され、24時間後に自動削除されます。",
+
+    "tech_title": "ブラウザ型PDF OCRの仕組み",
+    "tech_intro": "従来のPDFエディタはデジタルテキストしか扱えませんでした。NoteOCRは、高度なOCRとレイアウト分析を組み合わせることで、スキャン文書や手書きフォームをブラウザ上で処理。ソフトなしで文書全体を編集・検索可能にします。",
+
+    "tech_support_title": "サポート内容",
+    "tech_support_1": "手書きの書類およびフォーム",
+    "tech_support_2": "スキャンした契約書や法的書類",
+    "tech_support_3": "テキスト層のない画像ベースのPDF",
+    "tech_support_4": "デジタル署名および注釈",
+    "tech_support_5": "複数ページのPDFドキュメント",
+
+    "tech_tips_title": "精度を上げるコツ",
+    "tech_tips_1": "300 DPI以上でのスキャンを推奨",
+    "tech_tips_2": "十分な明るさとコントラストを確保",
+    "tech_tips_3": "紙のしわを伸ばし、平らにして撮影",
+    "tech_tips_4": "手書きの場合はカラーまたはグレースケール推奨",
+    "tech_tips_5": "可能な限りスキャナーから直接アップロード",
+
+    "related_tools_title": "関連OCRツール",
+
+    "related_tool_1_name": "画像からWord",
+    "related_tool_1_desc": "手書き文字をフォーマット済み文書に変換",
+
+    "related_tool_2_name": "PDFオンライン編集（インストール不要）",
+    "related_tool_2_desc": "どこからでもPDFをアップロードして編集",
+
+    "related_tool_3_name": "オンライン・ドキュメント・エディタ",
+    "related_tool_3_desc": "WordやExcelをオンラインで無料編集",
+
+    "related_tool_4_name": "画像からテキスト",
+    "related_tool_4_desc": "画像内のくずし字や筆記体をテキスト化",
+
+    "faq_title": "スキャンPDF編集に関するよくある質問",
+
+    "cta_title": "今すぐPDFを編集してみませんか？",
+    "cta_subtitle": "10万人以上のユーザーがNoteOCRでスキャン文書をデジタル化しています",
+    "cta_button": "編集を開始する",
+
+    "tool_main_title": "プロフェッショナルPDFワークスペース",
+    "tool_main_desc": "OCR用に手書きPDFをアップロードするか、白紙から作成を開始してください。",
+    "tool_upload_button": "PDFをアップロード",
+    "tool_new_button": "白紙から作成",
+
+    "tool_upload_check_1": "PDF形式のみ",
+    "tool_upload_check_2": "最大 25MB",
+    "tool_upload_check_3": "SSL安全接続",
+
+    "tool_info_1_title": "手書きOCR",
+    "tool_info_1_desc": "手書きのスキャンデータから文字を抽出",
+
+    "tool_info_2_title": "フル編集機能",
+    "tool_info_2_desc": "テキスト、署名、注釈の追加など",
+
+    "tool_info_3_title": "ブラウザ完結",
+    "tool_info_3_desc": "インストール不要で、すぐに動作します",
+
+    "tool_tip_label": "Proのヒント:",
+    "tool_tip_text": "OCRの精度を最大限に高めるには、300 DPIでのスキャン、または明るい場所での垂直撮影を行ってください。",
+
+    "modal_new_title": "新規PDF作成",
+    "modal_new_desc": "白紙の状態から独自のドキュメントを作成します。",
+    "modal_new_button": "白紙PDFを作成",
+
+    "modal_upload_title": "スキャンPDFをアップロード",
+    "modal_upload_desc": "PDFをインポートして、OCRでのテキスト抽出や編集、署名追加を行います。",
+    "modal_upload_placeholder": "クリックまたはPDFをドラッグ＆ドロップ",
+    "modal_upload_info": "最大サイズ: 25MB • スキャンおよび手書きPDF対応",
+
+    "modal_processing_new": "ワークスペースを作成中...",
+    "modal_processing_upload": "PDFを処理中...",
+    "modal_processing_desc": "安全なPDF編集環境をセットアップしています",
+
+    "modal_security_badge": "銀行レベルの暗号化",
+
+    "toast_success_create": "ワークスペースの準備が整いました！",
+    "toast_success_upload": "アップロードが完了しました！",
+    "toast_error_type": "有効なPDFファイルを選択してください",
+    "toast_error_size": "ファイルサイズは25MB以下にしてください",
+    "toast_error_create": "PDFの作成に失敗しました。",
+    "toast_error_upload": "アップロードに失敗しました。",
+    "toast_error_drop": "有効なPDFファイルをドロップしてください。",
+
+    "FAQ": {
+      "items": {
+        "edit_scanned_pdf": {
+          "q": "スキャンしたPDFをオンラインで編集するには？",
+          "a": "NoteOCRにアップロードし、「OCR実行」をクリックすると画像が編集可能なテキストに変換されます。専用ソフトをインストールすることなく、ブラウザ上で直接テキストの修正、署名の追加、ページの整理が可能です。"
+        },
+        "handwritten_pdf_edit": {
+          "q": "手書きのPDFもOCRで編集できますか？",
+          "a": "はい。NoteOCRのAIは手書き文字の認識に特化してトレーニングされています。手書きのPDFをアップロードしてOCRを実行すれば、元のレイアウトを維持したままテキストを抽出し、編集可能な状態にします。"
+        },
+        "browser_based_editor": {
+          "q": "「ブラウザ型」PDFエディタとはどういう意味ですか？",
+          "a": "Adobe AcrobatなどのソフトウェアをPCにインストールすることなく、Chrome、Firefox、Safariなどのウェブブラウザ上で直接PDFを編集できる仕組みです。ブラウザさえあれば、どこからでもすぐに作業を開始できます。"
+        },
+        "is_pdf_editor_free": {
+          "q": "スキャンPDFエディタは無料で使えますか？",
+          "a": "はい。基本プランでは、スキャンしたPDFの編集、OCR、署名ツールを無料でご利用いただけます。大量のドキュメントを処理する必要があるユーザー様向けには、プロプランもご用意しています。"
+        },
+        "add_signature_scanned": {
+          "q": "スキャンしたPDFに署名を追加する方法は？",
+          "a": "エディタ内の「署名」ツールを使用します。マウスやタッチパネルで直接描くか、お手持ちの署名画像をアップロードするか、名前を入力してテキスト署名を作成し、文書内の好きな場所に配置できます。"
+        },
+        "ocr_accuracy_handwriting": {
+          "q": "手書きPDFのOCR精度はどのくらいですか？",
+          "a": "筆跡の品質によりますが、平均して85〜95%の精度です。丁寧な書体であれば95%以上を実現しますが、複雑なくずし字などは85%程度になる場合があります。最終的な確認を行うことをお勧めします。"
+        },
+        "edit_protected_scanned": {
+          "q": "パスワード保護されたスキャンPDFを編集できますか？",
+          "a": "パスワードをご存知であれば、エディタ内でロックを解除して編集可能です。ただし、スキャンしただけの画像ベースのPDFには通常こうした制限はかかっていないことが多いです。"
+        },
+        "multiple_scanned_pages": {
+          "q": "複数ページのスキャンPDFも編集できますか？",
+          "a": "はい。ページ数に関わらずアップロード可能です。サイドバーに全ページが表示され、ドキュメント全体に対して一括でOCRを実行したり、ページの並べ替えや削除を行ったりできます。"
+        },
+        "mobile_pdf_editing": {
+          "q": "スマホやタブレットでも編集可能ですか？",
+          "a": "はい。NoteOCRはiOSやAndroidのブラウザでも動作します。外出先での簡単な修正には便利ですが、複雑な編集作業には画面の大きいタブレットやPCでのご利用を推奨します。"
+        },
+        "searchable_pdf": {
+          "q": "OCR実行後、PDF内のキーワード検索は可能になりますか？",
+          "a": "はい。OCRを実行すると画像の下にテキストレイヤーが生成されるため、通常のデジタルPDFと同様にCtrl+Fなどで単語を検索できるようになります。"
+        },
+        "combine_scanned_pdfs": {
+          "q": "複数のスキャンPDFを1つの文書に結合できますか？",
+          "a": "はい。最初のPDFをアップロードした後、「ページ追加」または「結合」ツールを使用して他のPDFを取り込めます。結合後に一括でOCRをかけることも可能です。"
+        },
+        "form_filling_scanned": {
+          "q": "入力欄のないスキャン済みフォームに記入できますか？",
+          "a": "はい。「テキスト追加」ツールを使えば、スキャンされたフォームの空欄の上に直接文字を入力できます。チェックマークや日付、署名の追加も簡単です。"
+        },
+        "quality_tips_scanned_pdf": {
+          "q": "OCRの精度を上げるためのコツはありますか？",
+          "a": "最良の結果を得るには、(1)300 DPI以上でスキャンする、(2)手書きの場合はカラーまたはグレースケールで保存する、(3)照明を均一にする、(4)紙のしわを伸ばす、の4点に注意してください。"
+        },
+        "privacy_browser_editor": {
+          "q": "機密性の高いPDFをオンラインで編集しても安全ですか？",
+          "a": "はい。NoteOCRは銀行レベルのSSL暗号化を使用しています。ファイルは安全な環境で処理され、24時間後にサーバーから自動的に完全削除されます。運営側が中身を閲覧することはありません。"
+        },
+        "why_browser_vs_desktop": {
+          "q": "Adobe Acrobatではなくブラウザ版を使うメリットは？",
+          "a": "インストール不要ですぐに使える点と、デバイスを問わない点です。また、NoteOCRは手書き文字の認識において、Adobeの標準OCRよりも高い精度を発揮するよう設計されています。"
+        },
+        "redact_scanned_pdf": {
+          "q": "PDF内の機密情報を塗りつぶして隠せますか？",
+          "a": "はい。「墨消し（Redact）」ツールを使用して、個人情報などの機密テキストや画像を完全に削除できます。これは画像として上書きされるため、後から復元することはできず安全です。"
+        },
+        "annotations_scanned": {
+          "q": "注釈やコメントを追加できますか？",
+          "a": "はい。付箋、テキストコメント、ハイライト、図形などの注釈ツールが揃っています。追加した注釈はそのままPDFとして書き出せます。"
+        },
+        "convert_scanned_pdf_word": {
+          "q": "編集後にWord形式で保存できますか？",
+          "a": "はい。OCR処理後、「エクスポート」から「Word (.docx)」を選択してください。抽出されたテキストが編集可能なWordファイルとして出力されます。"
+        },
+        "offline_editing": {
+          "q": "オフラインでも編集できますか？",
+          "a": "いいえ。OCR処理にはサーバーとの通信が必要なため、インターネット接続が必要です。ただし、OCR済みのテキストに対する微調整などは短時間であればオフラインでも可能な場合があります。"
+        },
+        "no_software_required": {
+          "q": "本当に他のソフトは一切不要ですか？",
+          "a": "はい、不要です。最新のウェブブラウザさえあれば、追加のプラグインも必要ありません。NoteOCRにアクセスするだけで、すべての機能がご利用いただけます。"
+        }
+      }
+    }
   },
+
   "EditorPage": {
-    "meta_title": "無料オンラインドキュメントエディタ | Word・Excel編集 | NoteOCR",
-    "meta_desc": "DOCX、XLSX、テキストファイルをブラウザで直接編集。インストール不要で、高速かつ安全なオフィスソフトの代替ツールです。",
-    "hero_pill": "クラウドオフィススイート",
-    "hero_title_1": "ドキュメント編集を、",
-    "hero_title_2": "もっと自由に、どこからでも。",
-    "hero_subtitle": "Microsoft WordやExcelファイルをブラウザで直接編集。インストールやログインなしで、クイックな編集が可能です。",
-    "btn_new": "新規ドキュメント作成",
-    "btn_upload": "ファイルをアップロード",
-    "trust_secure": "プライバシー保護と安全性",
-    "trust_os": "あらゆるOSで動作",
-    "trust_office": "MS Officeと100%の互換性",
-    "feat_1_title": "場所を選ばず作業",
-    "feat_1_desc": "あらゆるデバイスからアクセス可能。Windows、Mac、Linuxを問わず、クリック一つでエディタが開きます。",
-    "feat_2_title": "慣れ親しんだ操作感",
-    "feat_2_desc": "新しい操作を覚える必要はありません。WordやExcelに近いツールバーとショートカットで、すぐに作業効率が上がります。",
-    "feat_3_title": "軽量かつ高速",
-    "feat_3_desc": "重いソフトの起動を待つ必要はありません。NoteOCRは、低速な環境でも2秒以内に起動します。",
-    "formats_title": "対応フォーマット",
-    "formats_subtitle": "Officeのエコシステム全体をサポート。既存のファイルをアップロードするか、新規作成を選択できます。",
-    "format_docx": "Microsoft Word",
-    "format_xlsx": "Microsoft Excel",
-    "format_txt": "プレーンテキスト",
-    "format_csv": "データシート"
+    "meta_title": "Officeドキュメントをオンラインで無料編集 - ブラウザベースのWord、Excel、PowerPointエディター",
+    "meta_desc": "プロフェッショナルなオンラインドキュメントエディター。Microsoft Officeなしで、ブラウザで直接Word（DOCX）、Excel（XLSX）、PowerPoint（PPTX）ファイルを作成・編集できます。",
+    "hero_pill": "クラウドドキュメントワークスペース",
+    "hero_title": "Officeドキュメントをオンラインで編集",
+    "hero_highlight": "ソフトウェア不要",
+    "hero_subtitle": "Word、Excel、PowerPoint用のプロフェッショナルなブラウザベースエディター。Microsoft Officeなしで、DOCX、XLSX、PPTXファイルを作成、編集、共同作業できます。",
+    "trust_security": "256ビット暗号化",
+    "trust_sync": "リアルタイム同期",
+    "trust_compatibility": "MS Office互換",
+    "feat_1_title": "手書きをテキストに変換",
+    "feat_1_desc": "物理的なメモを瞬時に編集可能なデジタル形式に変換します。手書きのスケッチや走り書きの認識において業界最高レベルの精度を誇るNoteOCRを搭載。",
+    "feat_2_title": "リアルタイム同期",
+    "feat_2_desc": "チームとリアルタイムで共同作業。すべてのキー入力が瞬時にクラウドに保存されるため、作業のバージョンを失うことはありません。",
+    "use_cases_title": "オンラインドキュメントエディターの利用者",
+    "use_cases_subtitle": "リモートワーカーから学生まで、数百万人がOfficeドキュメントをオンラインで編集しています",
+    "use_case_1_title": "リモートワーカー",
+    "use_case_1_desc": "VPNや会社のソフトウェアなしで、自宅から仕事のドキュメントを編集。個人用コンピュータでOfficeファイルにアクセスしながら、プロフェッショナルな書式を維持できます。",
+    "use_case_2_title": "学生・教育者",
+    "use_case_2_desc": "Officeライセンスなしで学校のコンピュータでエッセイを書き、プレゼンテーションを作成し、スプレッドシートを管理。グループプロジェクトでリアルタイムに共同作業できます。",
+    "use_case_3_title": "フリーランサー・コンサルタント",
+    "use_case_3_desc": "あらゆるデバイスからクライアント提案書、請求書、レポートを編集。Microsoft 365サブスクリプションなしで、プロフェッショナルなOffice互換ドキュメントを作成。",
+    "use_case_4_title": "デジタルノマド",
+    "use_case_4_desc": "ネットカフェ、コワーキングスペース、ホテルのビジネスセンターからドキュメントを編集。借りたコンピュータにソフトウェアをインストールする必要はありません。",
+    "comparison_title": "オンラインエディター vs デスクトップソフトウェア",
+    "comparison_subtitle": "ブラウザベース編集が従来のソフトウェアに勝る理由",
+    "comparison_solution": "ソリューション",
+    "comparison_access": "アクセス",
+    "comparison_features": "機能",
+    "comparison_cost": "コスト",
+    "comparison_ms_office": "MS Office デスクトップ",
+    "comparison_ms_access": "インストール必須",
+    "comparison_ms_features": "フル機能、デバイス固定",
+    "comparison_ms_cost": "¥15,000/年",
+    "comparison_google": "Google Workspace",
+    "comparison_google_access": "Webベース",
+    "comparison_google_features": "Office互換性限定",
+    "comparison_google_cost": "¥800/ユーザー/月",
+    "comparison_noteocr": "NoteOCRエディター",
+    "comparison_noteocr_access": "即座、ブラウザベース",
+    "comparison_noteocr_features": "完全Office対応",
+    "comparison_noteocr_cost": "無料-¥/買い切り",
+    "features_title": "当社のオンラインエディターがデスクトップソフトウェアに勝る理由",
+    "features_subtitle": "ソフトウェアの煩わしさなしでプロフェッショナルなドキュメント編集",
+    "feature_main_1_title": "Microsoft Office互換",
+    "feature_main_1_desc": "DOCX、XLSX、PPTX形式と完全互換。Officeをインストールせずに、Microsoft Officeファイルを編集できます。書式、数式、高度な機能を保持します。",
+    "feature_main_2_title": "ブラウザベース編集",
+    "feature_main_2_desc": "Chrome、Safari、Firefox、Edgeで即座に動作。ダウンロード不要、インストール不要、プラグイン不要。自宅、オフィス、図書館、カフェなど、どのコンピュータからでもドキュメントを編集できます。",
+    "feature_main_3_title": "クラウド自動保存",
+    "feature_main_3_desc": "自動クラウド同期がすべての変更を保存。クラッシュやタブを閉じても作業を失うことはありません。あらゆるデバイスからシームレスにドキュメントにアクセスできます。",
+    "technical_title": "ブラウザベースOffice編集の仕組み",
+    "technical_desc": "従来のドキュメント編集にはデスクトップソフトウェアのインストールが必要でした。当社のクラウドベースエディターは、最新のWeb標準（WebAssembly、Canvas API）を使用して、完全にWebブラウザ内で動作します。サーバー上でOfficeファイル形式（OOXML、OpenDocument）を解析し、ブラウザでレンダリングし、変更をクラウドに同期することで、デスクトップ品質の編集とクラウドの利便性を実現しています。",
+    "technical_formats_title": "対応フォーマット",
+    "technical_format_1": "Microsoft Word（DOCX、DOC）",
+    "technical_format_2": "Microsoft Excel（XLSX、XLS）",
+    "technical_format_3": "PowerPoint（PPTX、PPT）",
+    "technical_format_4": "OpenDocument（ODT、ODS、ODP）",
+    "technical_format_5": "PDF、RTF、CSVへのエクスポート",
+    "technical_features_title": "主要機能",
+    "technical_feature_1": "リアルタイム共同作業",
+    "technical_feature_2": "バージョン履歴と復元",
+    "technical_feature_3": "モバイル・タブレット対応",
+    "technical_feature_4": "オフライン編集（PWA）",
+    "technical_feature_5": "コメント・提案モード",
+    "related_tools_title": "関連OCRツール",
+    "related_tool_1_name": "手書きをWordに変換",
+    "related_tool_1_desc": "メモをDOCXに変換",
+    "related_tool_2_name": "手書きをExcelに変換",
+    "related_tool_2_desc": "スキャンから表を抽出",
+    "related_tool_3_name": "PDFをオンライン編集",
+    "related_tool_3_desc": "ブラウザベースPDFエディター",
+    "related_tool_4_name": "画像からテキスト抽出",
+    "related_tool_4_desc": "画像からテキストを抽出",
+    "faq_title": "オンラインドキュメント編集に関するよくある質問",
+    "cta_title": "ドキュメントをオンラインで編集する準備はできましたか?",
+    "cta_subtitle": "ソフトウェアなしでOfficeドキュメントを編集する50万人以上のユーザーに参加しましょう",
+    "cta_btn": "今すぐエディターを開く",
+    "editor_card_title": "プロフェッショナルドキュメントワークスペース",
+    "editor_card_subtitle": "Word、Excel、PowerPointドキュメントを作成。または既存のOfficeファイルをアップロードして、ソフトウェアなしでオンライン編集できます。",
+    "editor_btn_new": "新規ドキュメント作成",
+    "editor_btn_upload": "既存ファイルをアップロード",
+    "editor_info_1": "DOCX、XLSX、PPTX",
+    "editor_info_2": "最大25MB",
+    "editor_info_3": "クラウド保存",
+    "editor_feature_1_title": "Office互換",
+    "editor_feature_1_desc": "Microsoft Office形式を完全サポート",
+    "editor_feature_2_title": "ブラウザベース",
+    "editor_feature_2_desc": "インストール不要、あらゆるデバイスで動作",
+    "editor_feature_3_title": "自動保存",
+    "editor_feature_3_desc": "リアルタイムクラウド同期",
+    "editor_tip_label": "最適な用途:",
+    "editor_tip_text": "Chromebookユーザー、リモートワーカー、共有コンピュータ、そしてOfficeの価格なしでOffice互換性が必要な方に最適です。",
+    "modal_new_title": "新規ドキュメント作成",
+    "modal_new_subtitle": "ブラウザで作成するドキュメントのタイプを選択してください。",
+    "modal_upload_title": "Officeファイルをアップロード",
+    "modal_upload_subtitle": "既存のWord、Excel、PowerPointファイルをインポートしてオンライン編集します。",
+    "modal_doc_word": "Wordドキュメント",
+    "modal_doc_word_sub": "DOCX / ODT",
+    "modal_doc_excel": "Excelスプレッドシート",
+    "modal_doc_excel_sub": "XLSX / CSV",
+    "modal_doc_powerpoint": "PowerPoint",
+    "modal_doc_powerpoint_sub": "PPTX / ODP",
+    "modal_upload_text": "Officeファイルをクリックまたはドラッグ",
+    "modal_upload_formats": "DOCX、XLSX、PPTX、ODT、ODS、RTF、CSV対応 • 最大25MB",
+    "modal_security": "クラウド暗号化・自動保存",
+    "loading_importing": "ドキュメントをインポート中...",
+    "loading_creating": "ワークスペースを作成中...",
+    "loading_subtitle": "クラウドエディター環境を設定中",
+    "FAQ": {
+      "edit_office_online": {
+        "q": "Officeなしで、Microsoft Officeファイルをオンライン編集できますか?",
+        "a": "はい。NoteOCRのブラウザベースエディターを使用すると、Webブラウザで直接Word（DOCX）、Excel（XLSX）、PowerPoint（PPTX）ファイルを作成・編集できます。Microsoft Officeのインストールは不要です。ファイルをアップロードするか、新しいドキュメントを作成して、すぐに編集を開始できます。"
+      },
+      "browser_compatibility": {
+        "q": "オンラインドキュメントエディターはどのブラウザに対応していますか?",
+        "a": "当社のエディターは、Chrome、Firefox、Safari、Edgeなど、すべての最新ブラウザで動作します。モバイルブラウザ（iOS Safari、Android版Chrome）でも動作します。最高のエクスペリエンスを得るには、デスクトップで最新版のChromeまたはEdgeを使用することをお勧めします。"
+      },
+      "word_online_free": {
+        "q": "オンラインWordエディターは本当に無料ですか?",
+        "a": "はい。無制限にWordドキュメントを無料で作成・編集できます。無料ユーザーは、完全な編集機能、クラウドストレージ、DOCX/PDFへのエクスポートを利用できます。プレミアムプランでは、リアルタイム共同作業、バージョン履歴、優先処理などの高度な機能を提供します。"
+      },
+      "excel_formulas": {
+        "q": "オンラインExcelエディターで数式や関数を使用できますか?",
+        "a": "はい。当社のExcelエディターは、すべての標準的な数式（SUM、AVERAGE、VLOOKUP、IF文など）をサポートしています。グラフ、ピボットテーブル、条件付き書式を作成できます。複雑なマクロやVBAスクリプトは、ブラウザ版ではサポートされていません。"
+      },
+      "powerpoint_presentations": {
+        "q": "オンラインでプロフェッショナルなPowerPointプレゼンテーションを作成できますか?",
+        "a": "はい。当社のPowerPointエディターには、テンプレート、スライドレイアウト、アニメーション、トランジションが含まれています。画像、グラフ、動画、スピーカーノートを追加できます。プレゼンテーションをPPTXまたはPDFとしてエクスポートできます。ピッチデック、学校プロジェクト、ビジネスプレゼンテーションの作成に最適です。"
+      },
+      "file_storage": {
+        "q": "オンラインで編集するとき、ドキュメントはどこに保存されますか?",
+        "a": "ドキュメントは編集中、安全なクラウドストレージに保存されます。編集したファイルはいつでもデバイスにダウンロードできます。セキュリティのため、ファイルは24時間後に当社のサーバーから自動的に削除されます。永続的なクラウドストレージには、無料アカウントを作成してください。"
+      },
+      "offline_editing": {
+        "q": "ドキュメントをオフラインで編集できますか?",
+        "a": "Progressive Web App（PWA）を通じて、限定的なオフライン編集が可能です。ブラウザメニューからエディターをインストールしてください。以前に開いたドキュメントをオフラインで編集できますが、新しいアップロードや高度な機能にはインターネット接続が必要です。"
+      },
+      "collaboration": {
+        "q": "複数の人が同じドキュメントを同時に編集できますか?",
+        "a": "はい（プレミアム機能）。共同作業者とドキュメントリンクを共有してください。全員が入力中の変更をリアルタイムで確認できます。コメント、提案、バージョン履歴により、チームの共同作業が支援されます。無料ユーザーは閲覧専用リンクを共有できます。"
+      },
+      "microsoft_account": {
+        "q": "Officeファイルを編集するにはMicrosoftアカウントが必要ですか?",
+        "a": "いいえ。Microsoftアカウント、Officeライセンス、有料サブスクリプションは不要です。NoteOCRにアクセスし、Officeファイルをアップロードして、編集を開始するだけです。当社のエディターは、Microsoftのサービスから完全に独立しています。"
+      },
+      "export_formats": {
+        "q": "ドキュメントをどの形式にエクスポートできますか?",
+        "a": "エクスポートオプションはドキュメントタイプによって異なります。Word：DOCX、PDF、RTF、TXT。Excel：XLSX、CSV、PDF。PowerPoint：PPTX、PDF。すべてのエクスポートで、書式、画像、レイアウトが保持されます。他のアプリケーションにコンテンツをコピー/ペーストすることもできます。"
+      },
+      "templates": {
+        "q": "エディターにはドキュメントテンプレートが含まれていますか?",
+        "a": "はい。履歴書、請求書、レポート、プレゼンテーション、スプレッドシート用のプロフェッショナルなテンプレートから選択できます。テンプレートは事前にフォーマットされており、カスタマイズの準備ができています。ユーザーのリクエストに基づいて、定期的に新しいテンプレートが追加されます。"
+      },
+      "mobile_editing": {
+        "q": "スマートフォンやタブレットでドキュメントを編集できますか?",
+        "a": "はい。エディターのインターフェースはモバイル画面（iOSとAndroid）に適応します。外出先でクイック編集、コメントの追加、ドキュメントのレビューができます。広範な書式設定や複雑なレイアウトには、タブレットまたはデスクトップの使用をお勧めします。"
+      },
+      "compatibility_issues": {
+        "q": "オンラインで編集するときにOfficeの書式は保持されますか?",
+        "a": "はい。当社のエディターは、フォント、色、スタイル、ページレイアウト、ヘッダー/フッター、表、埋め込み画像を含むMicrosoft Officeの書式を維持します。マクロ、高度なグラフ、カスタムフォントなどの複雑な機能は調整が必要な場合があります。"
+      },
+      "file_size_limit": {
+        "q": "オンラインで編集できる最大ファイルサイズはどれくらいですか?",
+        "a": "無料ユーザーは最大25MBのファイルをアップロードできます。プレミアムユーザーは最大100MBのファイルをアップロードできます。非常に大きなドキュメント（50ページ以上）の場合、処理に15〜30秒かかることがあります。より高速な編集のために、非常に大きなファイルを分割することをお勧めします。"
+      },
+      "security_privacy": {
+        "q": "オンラインで編集するとき、ドキュメントデータは安全ですか?",
+        "a": "はい。すべてのアップロードは銀行グレードのSSL暗号化を使用しています。ドキュメントは隔離された安全なコンテナで処理されます。当社はお客様のコンテンツにアクセス、閲覧、共有することはありません。セキュリティのため、ファイルは24時間後に当社のサーバーから自動的に削除されます。最大限のプライバシーには、オフラインモードをご使用ください。"
+      },
+      "desktop_vs_online": {
+        "q": "オンラインエディターとデスクトップOfficeエディターの違いは何ですか?",
+        "a": "オンラインエディターは、インストールなしで任意のブラウザですぐに動作します。デスクトップソフトウェアは、より高度な機能（マクロ、プラグイン）を提供しますが、購入、アップデート、デバイス固有のインストールが必要です。オンライン編集は、基本から中級のドキュメント作業とクロスデバイスアクセスに最適です。"
+      },
+      "libreoffice_compatibility": {
+        "q": "LibreOfficeやOpenOfficeドキュメントを編集できますか?",
+        "a": "はい。OpenDocument形式をサポートしています：ODT（テキスト）、ODS（スプレッドシート）、ODP（プレゼンテーション）。LibreOfficeファイルをアップロードし、ブラウザで編集し、ODTとして再エクスポートするか、Microsoft Office形式（DOCX、XLSX、PPTX）に変換できます。"
+      },
+      "macro_support": {
+        "q": "オンラインエディターはExcelマクロやVBAをサポートしていますか?",
+        "a": "いいえ。セキュリティ上の理由から、ブラウザベースのエディターはVBAマクロを実行できません。マクロを含むExcelファイルをアップロードした場合でも、データを編集できますが、マクロは実行されません。マクロを多用するワークフローには、デスクトップExcelを使用するか、データ操作のためにCSVにエクスポートしてください。"
+      },
+      "chromebook_editing": {
+        "q": "ChromebookでOfficeドキュメントを編集できますか?",
+        "a": "はい。NoteOCRのオンラインエディターは、デスクトップOfficeソフトウェアをサポートしていないChromebookに最適です。ChromeブラウザでWord、Excel、PowerPointファイルを直接編集できます。AndroidアプリやLinuxコンテナは不要です。ChromeOSで完全なOffice互換性を実現します。"
+      },
+      "version_history": {
+        "q": "ドキュメントの以前のバージョンを復元できますか?",
+        "a": "はい（プレミアム機能）。バージョン履歴は、編集するたびに自動的にスナップショットを保存します。ワンクリックで以前のバージョンを復元できます。バージョンを並べて比較して、変更を確認できます。無料ユーザーは現在のバージョンをダウンロードできますが、自動履歴追跡は利用できません。"
+      }
+    }
   },
   "ExcelPage": {
     "meta_title": "手書きの表をExcel (XLSX) に変換 | NoteOCR",
-    "meta_desc": "データ入力を自動化。手書きの表、財務諸表、スケジュールをAIが瞬時に編集可能なExcelスプレッドシートに変換します。",
-    "hero_pill": "スマートな表認識",
-    "hero_title": "手書きを",
-    "hero_highlight": "Excelへ",
-    "hero_subtitle": "手動のデータ入力はもう終わりにしましょう。AIが手書きメモの行、列、見出しを検出し、.xlsx形式に変換します。",
-    "trust_security": "銀行レベルのセキュリティ",
-    "trust_grid": "マルチカラム検出",
-    "trust_accuracy": "99.8%の数値精度",
-    "feat_1_title": "インテリジェントな表認識",
-    "feat_1_desc": "単なるテキストではなく、構造として認識。手書きの線、暗黙の列、結合されたセルを自動的に特定します。",
-    "feat_2_title": "財務レベルの正確性",
-    "feat_2_desc": "数値に最適化。手書きの請求書、在庫リスト、財務元帳、成績表などのデジタル化に最適です。",
-    "feat_3_title": "汎用的な書き出し",
-    "feat_3_desc": "標準のExcel (.xlsx) またはCSV形式でダウンロード。Google スプレッドシートやデータベースへの移行も簡単です。",
-    "how_title": "紙からスプレッドシートへ、わずか数秒で",
-    "step_1_title": "撮影",
-    "step_1_desc": "帳簿やデータテーブルの写真を撮ります。",
-    "step_2_title": "解析",
-    "step_2_desc": "AIが行と列の配置をマッピングします。",
-    "step_3_title": "書き出し",
-    "step_3_desc": "整形されたExcelファイルをダウンロードします。",
-    "faq_title": "よくある質問",
-    "cta_title": "今日からデータをデジタル化しましょう",
-    "cta_btn": "表を今すぐ変換"
+    "meta_desc": "データ入力を自動化。手書きの表、財務諸表、スケジュールをAIで瞬時に編集可能なExcelスプレッドシートに変換します。",
+
+    "hero_pill": "表構造解析テクノロジー",
+    "hero_title": "手書きの表をExcelスプレッドシートに変換",
+    "hero_subtitle": "手動でのデータ入力はもう不要です。当社のAIが手書きノートの行、列、セルの境界線を検出し（罫線がなくても可能）、フォーマット済みの.xlsxファイルとして出力します。",
+
+    "trust_ssl": "SSL暗号化通信",
+    "trust_processing": "わずか2分で処理",
+    "trust_accuracy": "数値精度 98%",
+
+    "before_after_title": "変換精度を比較",
+    "before_after_desc": "構造を維持し、数値の正確性を保った実際の変換例",
+    "before_label": "変換前：手書きの帳簿",
+    "before_placeholder": "[手書きの表をアップロードして結果を表示]",
+    "after_label": "変換後：Excel出力",
+    "after_placeholder": "[フォーマット済みスプレッドシートのプレビュー]",
+
+    "use_cases_title": "どのようなシーンで活用されていますか？",
+    "use_cases_subtitle": "会計事務所から教育現場まで、毎日多くのユーザーが表をデジタル化しています",
+
+    "use_case_1_title": "会計・経理業務",
+    "use_case_1_desc": "手書きの会計帳簿、経費精算書、領収書をソート可能なExcelファイルに変換し、確定申告や監査の準備を効率化します。",
+
+    "use_case_2_title": "在庫管理",
+    "use_case_2_desc": "棚卸表、製品リスト、倉庫ログをデジタル化。紙で在庫を管理している中小企業の業務改善に最適です。",
+
+    "use_case_3_title": "教育・成績管理",
+    "use_case_3_desc": "手書きの成績簿や名簿をフォーマット済みのスプレッドシートに変換し、通知表の作成や進捗管理に活用できます。",
+
+    "use_case_4_title": "研究・データ収集",
+    "use_case_4_desc": "フィールドノート、アンケート回答、実験データ表を統計ソフトで分析可能なデータセットに変換します。",
+
+    "comparison_title": "手書き表のExcel化：手法の比較",
+    "comparison_subtitle": "NoteOCRが手入力に比べて数時間を短縮できる理由",
+    "comparison_col_method": "手法",
+    "comparison_col_time": "所要時間",
+    "comparison_col_accuracy": "精度",
+    "comparison_col_cost": "コスト",
+
+    "comparison_row1_method": "手入力",
+    "comparison_row1_time": "約45分",
+    "comparison_row1_accuracy": "95% (人的ミスあり)",
+    "comparison_row1_cost": "時給換算の労働コスト",
+
+    "comparison_row2_method": "一般的なOCR",
+    "comparison_row2_time": "約10分",
+    "comparison_row2_accuracy": "50% (構造が崩れる)",
+    "comparison_row2_cost": "無料〜2,000円程度",
+
+    "comparison_row3_method": "NoteOCR Tables",
+    "comparison_row3_time": "約2分",
+    "comparison_row3_accuracy": "98% (構造を維持)",
+    "comparison_row3_cost": "100ページあたり約1,200円",
+
+    "features_title": "NoteOCRの表解析が選ばれる理由",
+    "features_subtitle": "手書きデータ表に特化した設計",
+
+    "feature_1_title": "スマート・グリッド検出",
+    "feature_1_desc": "AIが、罫線が引かれていない表でも構造を特定。空白、テキストの配置、階層関係から正確な列を認識します。",
+
+    "feature_2_title": "数値データに最適化",
+    "feature_2_desc": "財務データに高い精度を発揮。会計帳簿や在庫数などの数値を、書式を維持したままExcelに変換します。",
+
+    "feature_3_title": "ExcelまたはCSVで書き出し",
+    "feature_3_desc": "セルの書式を保持したまま.xlsx形式でダウンロード。または、Googleスプレッドシートやデータベース用のCSV形式も選択可能です。",
+
+    "tech_title": "グリッド検出テクノロジーの仕組み",
+    "tech_intro": "一般的なOCRツールは表を単なるテキストとして処理し、セルの関係性を壊してしまいます。NoteOCRの専門AIは、空間配置とテキストの並びを分析し、ヘッダーや結合されたセルを含む正確な構造を再構築します。",
+
+    "tech_detect_title": "検出可能な要素",
+    "tech_detect_1": "罫線のないセルの境界線",
+    "tech_detect_2": "列ヘッダーと階層構造",
+    "tech_detect_3": "複数列にまたがる結合セル",
+    "tech_detect_4": "通貨記号と小数点",
+    "tech_detect_5": "方眼紙および白紙上の表",
+
+    "tech_tips_title": "高精度に変換するコツ",
+    "tech_tips_1": "明るい場所で撮影する",
+    "tech_tips_2": "カメラを紙面と平行に保つ",
+    "tech_tips_3": "スキャン時は300 DPI以上を推奨",
+    "tech_tips_4": "表全体を1枚の画像に収める",
+    "tech_tips_5": "重要な用途の前には出力結果を確認する",
+
+    "related_tools_title": "関連OCRツール",
+
+    "related_tool_1_name": "画像からWordへ",
+    "related_tool_1_desc": "手書きテキストをフォーマット済み文書に変換",
+
+    "related_tool_2_name": "オンラインPDF編集",
+    "related_tool_2_desc": "インストール不要でPDFをどこからでも編集",
+
+    "related_tool_3_name": "オンラインドキュメントエディタ",
+    "related_tool_3_desc": "WordやExcelをオンラインで無料編集",
+
+    "related_tool_4_name": "画像からテキストへ",
+    "related_tool_4_desc": "画像の崩れた文字や草書体をテキスト化",
+
+    "faq_title": "表からExcelへの変換に関するよくある質問",
+
+    "cta_title": "手動データ入力を終わらせませんか？",
+    "cta_subtitle": "1万人以上のユーザーがNoteOCRで手書き表をデジタル化しています",
+    "cta_button": "今すぐ表を変換する",
+
+    "tool_upload_title": "手書きの表をアップロード",
+    "tool_upload_desc": "帳簿、在庫表、成績簿、データ表に対応。罫線の有無は問いません。",
+    "tool_upload_button": "画像を選択",
+    "tool_upload_check_1": "JPG, PNG, JPEG",
+    "tool_upload_check_2": "最大 25MB",
+    "tool_upload_check_3": "SSL通信で保護",
+
+    "tool_processing_title": "表構造を解析中...",
+    "tool_processing_desc": "AIが行、列、セルの境界線を分析しています",
+
+    "tool_complete_title": "抽出が完了しました！",
+    "tool_complete_desc": "スプレッドシートの準備ができました。Excel (.xlsx) または CSV でダウンロードしてください。",
+    "tool_complete_file_type": "Excel スプレッドシート",
+    "tool_complete_status": "完了",
+    "tool_download_button": "Excelをダウンロード",
+    "tool_new_button": "新しい表を変換",
+
+    "tool_info_1_title": "スマート検出",
+    "tool_info_1_desc": "罫線のない自由なレイアウトにも対応",
+
+    "tool_info_2_title": "精度 99%",
+    "tool_info_2_desc": "数値や財務データの読み取りに特化",
+
+    "tool_info_3_title": "Excel形式",
+    "tool_info_3_desc": "Excel、スプレッドシート、各種DBに対応",
+
+    "tool_tip_label": "ヒント:",
+    "tool_tip_text": "より高い精度を得るには、明るい場所で紙面に対して真っ直ぐ撮影してください。低解像度の写真より300 DPIのスキャンが推奨されます。",
+
+    "toast_success": "抽出に成功しました！",
+    "toast_error_type": "有効な画像（JPG, PNG, WEBP）またはPDFをアップロードしてください",
+    "toast_error_size": "ファイルサイズは25MB以下にしてください",
+    "toast_error_extraction": "抽出に失敗しました。",
+    "toast_download_success": "Excelファイルをダウンロードしました！",
+    "toast_download_error": "ダウンロードに失敗しました。",
+
+    "FAQ": {
+      "items": {
+        "table_to_excel": {
+          "q": "手書きの表をExcelに変換する方法は？",
+          "a": "NoteOCRに手書き表の写真またはスキャンをアップロードしてください。AIが自動的に行と列を検出し、数秒でダウンロード可能なExcel (.xlsx) ファイルに変換します。"
+        },
+        "cursive": {
+          "q": "崩れた字や草書体も読み取れますか？",
+          "a": "はい。当社のAIは膨大な手書きサンプルで学習しています。非常に読み取りにくい文字でも、表の構造（行/列）自体は維持されます。"
+        },
+        "math": {
+          "q": "数式も認識しますか？数値だけですか？",
+          "a": "NoteOCRは書かれた「数値」を抽出します。Excelの関数（=SUMなど）自体は作成しませんが、数値が正確に入力されるため、後から簡単に関数を設定できます。"
+        },
+        "is_free": {
+          "q": "無料で利用できますか？",
+          "a": "NoteOCRは有料サービスですが、精度を確認するための無料トライアルを提供しています。個人向けの無料枠もあり、大量処理が必要な場合はサブスクなしの単発購入が可能です。"
+        },
+        "no_borders": {
+          "q": "罫線が引かれていない表でも大丈夫ですか？",
+          "a": "はい。AIが文字の間隔や配置から表構造を推測するため、白紙のノートに書かれた表でも変換可能です。"
+        },
+        "ledger_specific": {
+          "q": "古い会計帳簿などは変換できますか？",
+          "a": "もちろんです。日付、摘要、借方、貸方などの列がある財務書類に最適化されています。"
+        },
+        "accuracy_numbers": {
+          "q": "数値の精度はどのくらいですか？",
+          "a": "数値の精度は約99%です。AIは数字、小数、通貨記号の認識に特化しています。文字の精度は筆跡によりますが、平均92-95%です。"
+        },
+        "batch_process": {
+          "q": "複数の表を一括で変換できますか？",
+          "a": "現在は1枚ずつのアップロードになります。大量の帳簿（50ページ以上など）を処理する場合は、APIの利用についてお問い合わせください。"
+        },
+        "excel_vs_csv": {
+          "q": "ExcelとCSVの違いは何ですか？",
+          "a": "Excel (.xlsx) はセルの書式や配置を保持します。CSVは書式のないプレーンテキスト形式で、データベースやプログラミング等での利用に適しています。"
+        },
+        "edit_after": {
+          "q": "変換後に編集は可能ですか？",
+          "a": "はい。ダウンロードされるのは標準的なExcelファイルですので、通常のExcelと同じように文字の修正や計算式の追加が可能です。"
+        },
+        "grid_paper": {
+          "q": "方眼紙と白紙、どちらが適していますか？",
+          "a": "どちらも対応可能です。方眼紙はAIが列を区切る助けになりますが、当社のアルゴリズムは白紙上の配置だけでも正確に認識できるよう設計されています。"
+        },
+        "merged_cells": {
+          "q": "結合されたセルは検出されますか？",
+          "a": "はい、複数の列にまたがる見出しなどの結合セルも認識を試みます。非常に複雑な構造の場合は、出力後にExcel側で微調整が必要になる場合があります。"
+        },
+        "quality_tips": {
+          "q": "最高の精度を得るにはどうすればいいですか？",
+          "a": "(1)明るい場所で、(2)紙に対して真っ直ぐ、(3)なるべく丁寧に書き、(4)表全体を収めるように撮影してください。"
+        },
+        "privacy": {
+          "q": "財務データをアップロードしても安全ですか？",
+          "a": "はい。通信はSSLで暗号化され、画像は処理後24時間以内に完全に削除されます。データが保存・共有されることはありません。"
+        },
+        "compare_manual": {
+          "q": "手入力よりどれくらい効率的ですか？",
+          "a": "一般的な帳簿入力に45分かかる場合、NoteOCRなら2分で完了します。人的な転記ミスを減らしつつ、時間を大幅に節約できます。"
+        }
+      }
+    }
   },
   "nav": {
     "product": "製品",
@@ -355,26 +1121,34 @@
     "get_started": "無料で始める"
   },
   "Footer": {
-    "description": "手書きのノートを瞬時にクリーンで編集可能なドキュメントへ。現代のチームのために構築された高速で安全なツール。",
+    "description": "手書きのメモを瞬時にクリーンで編集可能なドキュメントに変換。安全性とスピードを兼ね備え、現代のチームに最適です。",
     "stay_updated": "最新情報を受け取る",
     "email_placeholder": "メールアドレスを入力",
-    "systems_ok": "システム稼働中",
+    "systems_ok": "全システム正常稼働中",
     "product": "製品",
-    "company": "会社情報",
+    "use_cases": "活用事例",
+    "company": "会社概要",
     "resources": "リソース",
     "hiring": "採用情報",
-    "copyright": "© {year} NoteOCR Inc. | グローバルチーム向けに設計",
+    "copyright": "© {year} NoteOCR Inc. All rights reserved.",
     "links": {
-      "notes_to_word": "手書きをWordへ",
-      "table_to_excel": "表をExcelへ",
-      "online_editor": "ドキュメントエディタ",
+      "notes_to_word": "手書きメモをWordへ",
+      "table_to_excel": "表をExcelに変換",
+      "online_editor": "オンライン文書エディタ",
+      "edit_pdf": "PDF編集",
       "pricing": "料金プラン",
-      "about": "会社概要",
+      "about": "NoteOCRについて",
       "careers": "採用",
       "contact": "お問い合わせ",
+      "blog": "ブログ",
       "docs": "ドキュメント",
+      "api": "APIリファレンス",
       "privacy": "プライバシーポリシー",
-      "terms": "利用規約"
+      "terms": "利用規約",
+      "security": "セキュリティ",
+      "sitemap": "サイトマップ",
+      "status": "稼働状況",
+      "changelog": "更新履歴"
     }
   },
   "Contact": {
@@ -401,124 +1175,180 @@
   },
   "PricingUI": {
     "hero": {
-      "title_start": "手書き文字変換を",
-      "title_highlight": "シンプルな料金で。",
-      "subtitle": "手書きノートを必要な時に編集可能なテキストに変換。支払いは一度だけ、いつでも利用可能 — サブスクリプションなし、プレッシャーなし。"
+      "badge": "サブスクリプションなし",
+      "title_start": "一度の支払いで、",
+      "title_highlight": "ずっと使える。",
+      "subtitle": "ソフトウェアをレンタルするのはもうやめましょう。有効期限のないクレジットを購入して、Excel、Word、テキストに対応した世界最高精度の手書きOCRエンジンを利用できます。"
     },
     "labels": {
-      "capacity": "ページクレジット",
-      "features": "主な機能"
+      "capacity": "含まれるページ数",
+      "features": "プランの機能",
+      "most_popular": "人気No.1"
     },
     "plans": {
       "free": {
-        "name": "無料トライアル",
-        "description": "費用をかけずに手書き変換を体験。",
-        "pages": "7ページ（1回限り）",
-        "buttonText": "無料で試す",
+        "name": "Hobby",
+        "desc": "単一ページで精度をテスト。",
+        "price": "0",
+        "credits": "7ページ",
+        "btn": "無料で開始",
         "features": [
-          "合計7ページ（有効期限なし）",
-          "高精度な手書き認識AI",
-          "標準処理スピード",
-          "一度に1枚の手書き画像を文字起こし",
-          "変換後のテキストプレビュー",
-          "TXT形式で出力",
-          "基本ドキュメントエディタ",
-          "クラウドに最大3つのドキュメントを保存"
-        ],
-        "missing": [
-          "一括処理",
-          "連続変換",
-          "高度なフォーマット",
-          "表認識",
-          "Word, Excel, PDF, HTMLへの出力",
-          "複数画像のアップロード",
-          "ドキュメント履歴とバージョニング"
+          "標準的なOCR精度",
+          "手書きからテキスト変換",
+          "基本的なTXT書き出し",
+          "1日間のクラウド保存"
         ]
       },
       "starter": {
-        "name": "スターター",
-        "description": "学生や軽いノート変換に最適。",
-        "pages": "100ページ",
-        "buttonText": "スターターを購入",
+        "name": "Student",
+        "desc": "論文、ノート、宿題に最適。",
+        "price": "8",
+        "credits": "100ページ",
+        "btn": "Starterプランを購入",
         "features": [
-          "100ページ分（無期限）",
-          "精度98%の認識エンジン",
-          "高速な文字起こし",
-          "一括アップロード対応",
-          "最大5枚同時アップロード",
-          "連続変換（複数画像の結合）",
-          "Word, Excel, PDF, HTML, TXT出力",
-          "500件のクラウドストレージ",
-          "優先メールサポート",
-          "手書きスタイルの学習機能"
-        ],
-        "missing": [
-          "無制限の一括処理",
-          "高度な表抽出",
-          "ドキュメントAI整形",
-          "チーム連携"
+          "Hobbyの全機能",
+          "手書きからWord (DOCX) 変換",
+          "レイアウト維持エンジン",
+          "紙の透かし除去",
+          "メールサポート"
         ]
       },
       "plus": {
-        "badge": "一番人気",
-        "name": "プラス",
-        "description": "大きなドキュメントを扱うパワーユーザー向け。",
-        "pages": "300ページ",
-        "buttonText": "プラスにアップグレード",
+        "name": "Professional",
+        "desc": "会計士や研究者向け。",
+        "price": "15",
+        "credits": "300ページ",
+        "btn": "Professionalプランを購入",
+        "badge": "最高コスパ",
         "features": [
-          "300ページ分",
-          "全スターター機能",
-          "高速処理キュー",
-          "高度な表認識",
-          "PDFドキュメント編集",
-          "最大10枚同時変換",
-          "高度なフォーマット制御",
-          "優先チャット＆メールサポート"
-        ],
-        "missing": ["無制限の一括処理", "ドキュメントAI整形", "チーム管理"]
+          "Studentの全機能",
+          "手書きからExcel (XLSX) 変換",
+          "高度な表・グリッド検出",
+          "くせ字/草書モード",
+          "一括処理 (10ファイル)"
+        ]
       },
       "pro": {
-        "name": "プロ",
-        "description": "プロフェッショナルやチーム向けの大容量変換。",
-        "pages": "1,000ページ",
-        "buttonText": "プロにアップグレード",
+        "name": "Power User",
+        "desc": "アーカイブや大量データ入力に。",
+        "price": "25",
+        "credits": "1,000ページ",
+        "btn": "Power Packを購入",
         "features": [
-          "1,000ページ分",
-          "全プラス機能",
-          "ドキュメントAI整形",
-          "リアルタイム処理キュー",
-          "無制限の一括処理",
-          "連続変換（書籍全体の変換）",
-          "高度な表抽出",
-          "Word, Excel, PDF間の変換",
-          "カスタム請求書ブランディング",
-          "優先チャット＆メールサポート"
-        ],
-        "missing": []
+          "Professionalの全機能",
+          "並列同時処理",
+          "数式OCR",
+          "優先キュー (待ち時間なし)",
+          "無制限の一括アップロード"
+        ]
       }
     },
-    "enterprise": {
-      "title": "1,000ページ以上必要ですか？",
-      "desc": "専用上限、APIアクセス、カスタムモデル、SLA保証を含むカスタムエンタープライズパッケージを提供します。",
-      "cta": "営業に問い合わせる"
+    "comparison": {
+      "title": "技術仕様の詳細",
+      "subtitle": "なぜNoteOCRが一般的なスキャナーを凌駕するのか。",
+      "headers": ["機能", "Hobby", "Student", "Professional", "Power User"],
+      "groups": {
+        "core": "認識インテリジェンス",
+        "formats": "エクスポートとファイル形式",
+        "system": "システムパフォーマンス"
+      },
+      "rows": [
+        {
+          "name": "活字・手書きOCR",
+          "values": [true, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "くせ字認識エンジン",
+          "values": ["標準", "高", "ウルトラ", "ウルトラ"],
+          "group": "core"
+        },
+        {
+          "name": "表検出 (Excel)",
+          "values": [false, false, true, true],
+          "group": "core"
+        },
+        {
+          "name": "レイアウト維持 (Word)",
+          "values": [false, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "数式・計算式",
+          "values": [false, false, "基本", "高度"],
+          "group": "core"
+        },
+        {
+          "name": "かすれ文字補正",
+          "values": [false, true, true, true],
+          "group": "core"
+        },
+        {
+          "name": "書き出し形式",
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "全形式対応"],
+          "group": "formats"
+        },
+        {
+          "name": "一括アップロード上限",
+          "values": ["1ファイル", "5ファイル", "10ファイル", "無制限"],
+          "group": "formats"
+        },
+        {
+          "name": "クラウド保存期間",
+          "values": ["24時間", "30日間", "無期限", "無期限"],
+          "group": "system"
+        },
+        {
+          "name": "暗号化レベル",
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "group": "system"
+        },
+        {
+          "name": "処理の優先順位",
+          "values": ["標準", "標準", "高", "リアルタイム"],
+          "group": "system"
+        }
+      ]
+    },
+    "deep_dive": {
+      "title": "精度にコストをかける理由",
+      "cards": [
+        {
+          "title": "GPU vs CPU 処理",
+          "desc": "一般的な無料ツールは低価格なCPUを使用し、単語を「推測」します。当サービスは専用のNVIDIA T4 GPUを使用し、文脈を理解して処理するため、数値や財務データにおいて99%の精度を実現しています。"
+        },
+        {
+          "title": "レイアウト・インテリジェンス",
+          "desc": "単に文字を読み取るだけでなく、座標系をマッピングします。これにより、紙の上のExcelの表やWordのインデントを正確に再構築し、書式設定にかかる時間を大幅に削減します。"
+        },
+        {
+          "title": "セキュリティ・アーキテクチャ",
+          "desc": "データは一時的なコンテナ内で処理されます。変換が完了し、ファイルをダウンロードした後は、元の画像データは消去されます。お客様の非公開データを当社の公開モデルの学習に使用することはありません。"
+        }
+      ]
     },
     "faq_title": "よくある質問",
-    "faqs": [
-      {
-        "q": "1ページはどうカウントされますか？",
-        "a": "アップロードされた画像1枚、またはPDFドキュメント内の1ページを1ページとします。"
-      },
-      {
-        "q": "有効期限はありますか？",
-        "a": "いいえ。購入したページは永久に有効です。月ごとのリセットもありません。"
-      }
-    ],
-    "support": {
-      "title": "ご不明な点はありますか？",
-      "email_label": "メールでお問い合わせ",
-      "chat_label": "ライブチャット",
-      "chat_time": "対応時間：平日 9:00 – 17:00 EST"
-    }
+    "faqs": {
+      "items": [
+        {
+          "q": "クレジットに有効期限はありますか？",
+          "a": "いいえ、ありません。今日300ページ分購入して、2年後に使用することも可能です。「使わなければ消滅する」サブスクリプションモデルとは無縁です。"
+        },
+        {
+          "q": "「1クレジット」は何を指しますか？",
+          "a": "1クレジット ＝ 処理される1ページです。10ページのPDFをアップロードした場合は10クレジット。領収書の画像を1枚アップロードした場合は1クレジット消費されます。"
+        },
+        {
+          "q": "かなり古い書類でも処理できますか？",
+          "a": "はい。Professional以上のプランでは、歴史的な写本や色あせたインクで学習された「ウルトラモデル」を使用します。標準的なOCRよりも大幅に高い精度を発揮します。"
+        },
+        {
+          "q": "5,000ページ以上の処理が必要な場合は？",
+          "a": "大量のアーカイブ処理については、アカウント作成後にサポートまでご連絡ください。歴史的なデジタル化プロジェクト向けのボリュームディスカウントをご案内いたします。"
+        }
+      ]
+    },
+    "footer_secure": "Stripeによる安全な決済"
   },
   "Signup": {
     "meta_title": "NoteOCR に登録 | ワークフローの効率化",

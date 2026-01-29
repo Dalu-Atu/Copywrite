@@ -5,17 +5,20 @@ import { getMessages } from "next-intl/server";
 import Providers from "./providers";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html
+      lang={locale}
+      className={`${GeistSans.variable} ${GeistMono.variable}`}
+    >
       <head>
-        {/* ===== Favicons ===== */}
-
-        {/* Light mode favicon */}
+    
         <link
           rel="icon"
           href="/logo.png"
@@ -75,7 +78,7 @@ export default async function RootLayout({ children, params }) {
         />
       </head>
 
-      <body className="bg-gray-100 font-sans antialiased">
+      <body className="bg-100 font-sans antialiased">
         <NextIntlClientProvider messages={messages} locale={locale}>
           <Providers>
             <ClientLayout>{children}</ClientLayout>

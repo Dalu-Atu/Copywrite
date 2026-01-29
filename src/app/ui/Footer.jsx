@@ -1,151 +1,186 @@
-"use client";
+"use client"; // Required for hooks
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "next-intl"; // Use the hook, not the async function
 import { Twitter, Linkedin, Github, ArrowRight } from "lucide-react";
 
-const Footer = () => {
+const Footer = ({ locale }) => {
+  // useTranslations is synchronous and works in Client Components
   const t = useTranslations("Footer");
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-[#0B1120] border-t border-white/5 pt-20 pb-10 overflow-hidden">
-      <div className="absolute inset-0 h-full w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none"></div>
-      <div className="absolute -top-[200px] left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-teal-500/10 rounded-full blur-[100px] pointer-events-none"></div>
+    <footer className="relative bg-[#000] border-t border-white/5 pt-20 pb-10 overflow-hidden">
+      {/* Subtle Grid Pattern */}
+      <div className="absolute inset-0 opacity-[0.03] pointer-events-none [background-image:linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] [background-size:32px_32px]" />
 
-      <div className="container mx-auto px-6 lg:px-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-16 mb-16">
-          {/* 1. Brand & Newsletter */}
-          <div className="md:col-span-5 flex flex-col gap-6">
-            <Link href="/" className="flex items-center gap-2">
-              <Image
-                src="/noteocr-full-logo-white.png"
-                alt="NoteOCR"
-                width={160}
-                height={40}
-                className="opacity-90 hover:opacity-100 transition-opacity"
-              />
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-20 mb-20">
+          {/* Brand Column */}
+          <div className="lg:col-span-4 flex flex-col items-start">
+            <Link href={`/${locale}`} className="group mb-8">
+              <div className="relative w-[160px] h-[40px]">
+                <Image
+                  src="/logo-white.png"
+                  alt="NoteOCR Logo"
+                  fill
+                  sizes="160px"
+                  style={{ objectFit: "contain", objectPosition: "left" }}
+                  className="opacity-95 group-hover:opacity-100 transition-opacity"
+                />
+              </div>
             </Link>
 
-            <p className="text-zinc-400 text-sm leading-relaxed max-w-sm">
+            <p className="text-gray-400 text-sm leading-relaxed mb-8 max-w-xs">
               {t("description")}
             </p>
 
-            <div className="flex flex-col gap-3">
-              <label className="text-xs font-semibold text-white uppercase tracking-wider">
-                {t("stay_updated")}
-              </label>
-              <div className="relative max-w-sm group">
-                <input
-                  type="email"
-                  placeholder={t("email_placeholder")}
-                  className="bg-white/5 border border-white/10 text-slate-200 text-sm rounded-full pl-4 pr-12 py-3 w-full focus:outline-none focus:border-teal-500/50 focus:ring-1 focus:ring-teal-500/50 transition-all placeholder:text-slate-600"
-                />
-                <button className="absolute right-1 top-1 bottom-1 bg-teal-600 hover:bg-teal-500 text-white w-8 h-8 rounded-full flex items-center justify-center transition-colors shadow-lg">
-                  <ArrowRight size={14} />
-                </button>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-2 mt-2">
+            {/* Status Badge */}
+            <div className="inline-flex items-center gap-2.5 px-3 py-1.5 bg-emerald-500/5 border border-emerald-500/10 rounded-full mb-8">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
-              <span className="text-xs text-emerald-400 font-medium">
+              <span className="text-[10px] text-emerald-500/90 font-mono font-medium uppercase tracking-wider">
                 {t("systems_ok")}
               </span>
             </div>
+
+            {/* Newsletter */}
+            <form
+              className="w-full max-w-sm space-y-3"
+              onSubmit={(e) => e.preventDefault()}
+            >
+              <label className="text-[10px] font-mono text-gray-500 uppercase tracking-[0.2em]">
+                {t("stay_updated")}
+              </label>
+              <div className="flex gap-2">
+                <input
+                  type="email"
+                  placeholder={t("email_placeholder")}
+                  className="bg-white/[0.03] border border-white/10 text-white text-sm rounded-md px-4 py-2.5 w-full focus:outline-none focus:border-white/20 transition-all"
+                />
+                <button
+                  type="submit"
+                  className="bg-white hover:bg-gray-200 text-black px-4 py-2.5 rounded-md flex items-center justify-center transition-all active:scale-95"
+                >
+                  <ArrowRight size={18} />
+                </button>
+              </div>
+            </form>
           </div>
 
-          {/* 2. Links Section */}
-          <div className="md:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-10">
-            {/* Column 1: Product */}
-            <div>
-              <h4 className="text-white font-semibold text-sm mb-6">
-                {t("product")}
-              </h4>
-              <ul className="space-y-4">
-                <li>
-                  <FooterLink href="/handwriting-to-docx">
-                    {t("links.notes_to_word")}
-                  </FooterLink>
-                </li>
-                <li>
-                  <FooterLink href="/handwriting-to-excel">
-                    {t("links.table_to_excel")}
-                  </FooterLink>
-                </li>
-                <li>
-                  <FooterLink href="/online-editor">
-                    {t("links.online_editor")}
-                  </FooterLink>
-                </li>
-                <li>
-                  <FooterLink href="/pricing">{t("links.pricing")}</FooterLink>
-                </li>
-              </ul>
-            </div>
+          {/* Links Grid */}
+          <div className="lg:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-8">
+            <FooterGroup title={t("product")}>
+              <FooterLink href={`/${locale}/handwriting-to-docx`}>
+                {t("links.notes_to_word")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/handwriting-to-excel`}>
+                {t("links.table_to_excel")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/online-editor`}>
+                {t("links.online_editor")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/edit-pdf`}>
+                {t("links.edit_pdf")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/pricing`}>
+                {t("links.pricing")}
+              </FooterLink>
+            </FooterGroup>
 
-            {/* Column 2: Company */}
-            <div>
-              <h4 className="text-white font-semibold text-sm mb-6">
-                {t("company")}
-              </h4>
-              <ul className="space-y-4">
-                <li>
-                  <FooterLink href="/about">{t("links.about")}</FooterLink>
-                </li>
-                <li>
-                  <Link
-                    href="/careers"
-                    className="group flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
-                  >
-                    {t("links.careers")}
-                    <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-white/10 text-slate-300 border border-white/20 group-hover:bg-white group-hover:text-black transition-colors">
-                      {t("hiring")}
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <FooterLink href="/contact">{t("links.contact")}</FooterLink>
-                </li>
-              </ul>
-            </div>
+            <FooterGroup title={t("use_cases")}>
+              <FooterLink href={`/${locale}/accounting`}>Accounting</FooterLink>
+              <FooterLink href={`/${locale}/education`}>Education</FooterLink>
+              <FooterLink href={`/${locale}/healthcare`}>Healthcare</FooterLink>
+              <FooterLink href={`/${locale}/legal`}>Legal</FooterLink>
+              <FooterLink href={`/${locale}/research`}>Research</FooterLink>
+            </FooterGroup>
 
-            {/* Column 3: Resources */}
-            <div>
-              <h4 className="text-white font-semibold text-sm mb-6">
-                {t("resources")}
-              </h4>
-              <ul className="space-y-4">
-                <li>
-                  <FooterLink href="/docs">{t("links.docs")}</FooterLink>
-                </li>
-                <li>
-                  <FooterLink href="/privacy">{t("links.privacy")}</FooterLink>
-                </li>
-                <li>
-                  <FooterLink href="/terms">{t("links.terms")}</FooterLink>
-                </li>
-              </ul>
-            </div>
+            <FooterGroup title={t("company")}>
+              <FooterLink href={`/${locale}/about`}>
+                {t("links.about")}
+              </FooterLink>
+              <Link
+                href={`/${locale}/careers`}
+                className="group flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
+              >
+                {t("links.careers")}
+                <span className="px-1 py-0.5 rounded-sm text-[8px] font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                  {t("hiring")}
+                </span>
+              </Link>
+              <FooterLink href={`/${locale}/blog`}>
+                {t("links.blog")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/contact`}>
+                {t("links.contact")}
+              </FooterLink>
+            </FooterGroup>
+
+            <FooterGroup title={t("resources")}>
+              <FooterLink href={`/${locale}/docs`}>
+                {t("links.docs")}
+              </FooterLink>
+            
+              <FooterLink href={`/${locale}/privacy`}>
+                {t("links.privacy")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/terms`}>
+                {t("links.terms")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/security`}>
+                {t("links.security")}
+              </FooterLink>
+            </FooterGroup>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
-          <p className="text-xs text-slate-500">
-            {/* Add a check or a default string if t fails */}
-            {t.rich("copyright", {
-              year: (chunks) => currentYear,
-            }) || `© ${currentYear} NoteOCR Inc.`}
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+            <p className="text-[12px] text-gray-500">
+              {t("copyright", { year: currentYear })}
+            </p>
+            <nav className="flex items-center gap-6 text-[12px] text-gray-500 font-mono uppercase tracking-widest">
+              <Link
+                href={`/${locale}/sitemap.xml`}
+                className="hover:text-white transition-colors"
+              >
+                {t("links.sitemap")}
+              </Link>
+              <Link
+                href={`/${locale}/status`}
+                className="hover:text-white transition-colors"
+              >
+                {t("links.status")}
+              </Link>
+              <Link
+                href={`/${locale}/changelog`}
+                className="hover:text-white transition-colors"
+              >
+                {t("links.changelog")}
+              </Link>
+            </nav>
+          </div>
 
-          <div className="flex gap-6 items-center">
-            <SocialIcon href="#" icon={<Twitter size={18} />} />
-            <SocialIcon href="#" icon={<Linkedin size={18} />} />
-            <SocialIcon href="#" icon={<Github size={18} />} />
+          <div className="flex gap-3">
+            <SocialIcon
+              href="https://twitter.com/noteocr"
+              icon={<Twitter size={16} />}
+              label="Twitter"
+            />
+            <SocialIcon
+              href="https://linkedin.com/company/noteocr"
+              icon={<Linkedin size={16} />}
+              label="LinkedIn"
+            />
+            <SocialIcon
+              href="https://github.com/noteocr"
+              icon={<Github size={16} />}
+              label="GitHub"
+            />
           </div>
         </div>
       </div>
@@ -153,19 +188,31 @@ const Footer = () => {
   );
 };
 
-const FooterLink = ({ href, children }) => (
-  <Link
-    href={href}
-    className="text-sm text-slate-400 hover:text-teal-400 transition-colors duration-200 block w-fit"
-  >
-    {children}
-  </Link>
+const FooterGroup = ({ title, children }) => (
+  <div className="flex flex-col space-y-4">
+    <h4 className="text-white font-semibold text-sm tracking-tight">{title}</h4>
+    <ul className="flex flex-col space-y-2.5">{children}</ul>
+  </div>
 );
 
-const SocialIcon = ({ href, icon }) => (
+const FooterLink = ({ href, children }) => (
+  <li>
+    <Link
+      href={href}
+      className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+    >
+      {children}
+    </Link>
+  </li>
+);
+
+const SocialIcon = ({ href, icon, label }) => (
   <a
     href={href}
-    className="text-slate-500 hover:text-white transition-colors duration-200 hover:scale-110 transform"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={label}
+    className="w-9 h-9 flex items-center justify-center bg-white/[0.03] border border-white/10 rounded-md text-gray-400 hover:text-white hover:border-white/20 hover:bg-white/[0.08] transition-all"
   >
     {icon}
   </a>

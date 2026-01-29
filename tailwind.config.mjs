@@ -8,7 +8,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        // Replace Inter with the Geist variable
+        // We keep 'sans-serif' as a fallback
+        sans: ["var(--font-geist-sans)", "sans-serif"],
+        // Adding Mono specifically for your code/labels
+        mono: ["var(--font-geist-mono)", "monospace"],
       },
       colors: {
         background: "var(--background)",
