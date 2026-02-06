@@ -1960,5 +1960,211 @@
       "alt_input": "Handschriftliche Eingabe",
       "alt_output": "Digitale Schnittstelle"
     }
+  },
+  "pic-to-excel": {
+    "meta_title": "Bild in Excel online umwandeln | KI-Konverter für Bilder in Excel",
+    "meta_desc": "Verwandeln Sie jedes Bild in eine Tabelle. Konvertieren Sie JPG, PNG oder Screenshots sofort in bearbeitbare Excel-Dateien (.xlsx). Beste KI für Datentabellen und Rechnungen.",
+
+    "hero_pill": "KI Bild-zu-Tabelle Technologie",
+    "hero_title": "Bild in Excel umwandeln mit KI-Tabellenerkennung",
+    "hero_subtitle": "Verwandeln Sie Fotos, Screenshots und handschriftliche Notizen in bearbeitbare Excel-Tabellen. Keine manuelle Eingabe. Unterstützung für JPG und PNG.",
+
+    "trust_ssl": "SSL-VERSCHLÜSSELT",
+    "trust_processing": "SOFORTIGE KONVERTIERUNG",
+    "trust_accuracy": "99% TABELLENGENAUIGKEIT",
+
+    "before_after_title": "Vom Bild zur Tabellenkalkulation",
+    "before_after_desc": "Erleben Sie, wie unsere KI Daten aus statischen Bildern in bearbeitbare Zellen extrahiert",
+    "before_label": "Vorher: Bild / Screenshot",
+    "before_placeholder": "[Laden Sie ein Bild mit einer Tabelle hoch]",
+    "after_label": "Nachher: Bearbeitbares Excel",
+    "after_placeholder": "[Formatierte .xlsx Vorschau]",
+
+    "use_cases_title": "Wer braucht einen Bild-zu-Excel-Konverter?",
+    "use_cases_subtitle": "Von der Datenerfassung bis zum Unternehmertum – wir automatisieren die mühsame Arbeit",
+
+    "use_case_1_title": "Rechnungen & Quittungen digitalisieren",
+    "use_case_1_desc": "Fotografieren Sie Papierrechnungen. Unsere KI extrahiert Einzelposten, Mengen und Preise direkt in Spalten für Ihre Buchhaltungssoftware.",
+
+    "use_case_2_title": "Screenshot zu Excel",
+    "use_case_2_desc": "Haben Sie eine PDF- oder Web-Tabelle, die Sie nicht kopieren können? Machen Sie einen Screenshot und laden Sie ihn hoch. Wir rekonstruieren das Raster sofort.",
+
+    "use_case_3_title": "Handschriftliche Protokolle",
+    "use_case_3_desc": "Das einzige Tool, das auch unordentliche Handschrift beherrscht. Wandeln Sie Lagerprotokolle oder Feldjournale in digitale Tabellen um.",
+
+    "use_case_4_title": "Finanzberichte",
+    "use_case_4_desc": "Konvertieren Sie Fotos von Kontoauszügen oder gedruckten Kassenbüchern. Wir bewahren Dezimalstellen und Währungsformate für 100% Datenintegrität.",
+
+    "comparison_title": "Bild zu Excel: Warum NoteOCR gewinnt",
+    "comparison_subtitle": "Mühen Sie sich nicht mit herkömmlichen PDF-Konvertern ab",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Zeitaufwand",
+    "comparison_col_accuracy": "Tabellenstruktur",
+    "comparison_col_cost": "Aufwand",
+
+    "comparison_row1_method": "Manuelle Dateneingabe",
+    "comparison_row1_time": "1 Stunde/Seite",
+    "comparison_row1_accuracy": "Hohes Tippfehler-Risiko",
+    "comparison_row1_cost": "Hoch (Ermüdend)",
+
+    "comparison_row2_method": "Standard-PDF-Tools",
+    "comparison_row2_time": "5 Minuten",
+    "comparison_row2_accuracy": "Scheitert an Bildern",
+    "comparison_row2_cost": "Frustrierend",
+
+    "comparison_row3_method": "NoteOCR KI",
+    "comparison_row3_time": "60 Sekunden",
+    "comparison_row3_accuracy": "Perfekter Rastererhalt",
+    "comparison_row3_cost": "Automatisiert",
+
+    "features_title": "Der beste Weg, Bilder in Tabellen umzuwandeln",
+    "features_subtitle": "Optimiert für JPGs, PNGs und Handyfotos",
+
+    "feature_1_title": "Formatunabhängig",
+    "feature_1_desc": "Kein PDF vorhanden? Kein Problem. Wir sind auf Rohbildformate (JPG, JPEG, PNG) spezialisiert, die andere Konverter ablehnen.",
+
+    "feature_2_title": "Intelligente Raster-Rekonstruktion",
+    "feature_2_desc": "Unsere KI liest nicht nur Text; sie „sieht“ das Raster. Sie richtet Daten in Zeilen und Spalten aus, selbst wenn das Foto schräg aufgenommen wurde.",
+
+    "feature_3_title": "Mobile-First Verarbeitung",
+    "feature_3_desc": "Entwickelt für den schnellen Workflow. Fotografieren Sie ein Dokument auf Ihrem Schreibtisch und erhalten Sie in Sekunden eine Excel-Datei auf Ihr Gerät.",
+
+    "tech_title": "Wie die Bild-zu-Excel-KI funktioniert",
+    "tech_intro": "Ein „flaches“ Bild in eine dynamische Tabelle umzuwandeln ist komplex. NoteOCR nutzt Computer Vision, um visuelle (oder implizierte) Linien einer Tabelle zu erkennen. Es unterteilt das Bild in ein Raster-Koordinatensystem, führt OCR für jede einzelne „Zelle“ aus und setzt die Daten in einer konformen .xlsx-Datei wieder zusammen.",
+
+    "tech_detect_title": "Was wir extrahieren",
+    "tech_detect_1": "Tabellenstrukturen aus Screenshots",
+    "tech_detect_2": "Daten aus verzerrten/schrägen Fotos",
+    "tech_detect_3": "Handschriftliche und gedruckte Zahlen",
+    "tech_detect_4": "Mehrspaltige Layouts",
+    "tech_detect_5": "Kopf- und Fußzeilen",
+
+    "tech_tips_title": "Tipps für perfekte Konvertierungen",
+    "tech_tips_1": "Stellen Sie sicher, dass das Bild scharf ist (kein Fokusverlust)",
+    "tech_tips_2": "Vermeiden Sie Schatten auf der Datentabelle",
+    "tech_tips_3": "Schneiden Sie das Bild auf den relevanten Tabellenbereich zu",
+    "tech_tips_4": "Verwenden Sie hohe Auflösungen (HD-Einstellungen)",
+    "tech_tips_5": "Nutzen Sie Standardformate wie JPG oder PNG",
+
+    "related_tools_title": "Weitere Konvertierungs-Tools",
+
+    "related_tool_1_name": "Bild zu Word",
+    "related_tool_1_desc": "Handschriftlichen Text in formatierte Dokumente umwandeln",
+
+    "related_tool_2_name": "PDF online bearbeiten",
+    "related_tool_2_desc": "PDF-Dokumente überall ohne Installation online bearbeiten",
+
+    "related_tool_3_name": "Online-Dokumenteneditor",
+    "related_tool_3_desc": "MS Word- oder Excel-Dokumente kostenlos online bearbeiten",
+
+    "related_tool_4_name": "Bild zu Text",
+    "related_tool_4_desc": "Schreibschrift in Bildern in formatierten, bearbeitbaren Text umwandeln",
+
+    "faq_title": "FAQ: Bilder in Excel konvertieren",
+
+    "cta_title": "Verwandeln Sie dieses Foto in eine Tabelle",
+    "cta_subtitle": "Hören Sie auf zu tippen. Fangen Sie an zu scannen. Schließen Sie sich über 10.000 Nutzern an.",
+    "cta_button": "Bild jetzt konvertieren",
+
+    "tool_upload_title": "Bild zum Konvertieren hochladen",
+    "tool_upload_desc": "Unterstützt JPG, PNG, WEBP. Funktioniert mit Screenshots, Fotos und Scans.",
+    "tool_upload_button": "Bild auswählen",
+    "tool_upload_check_1": "JPG / PNG Unterstützung",
+    "tool_upload_check_2": "Keine Registrierung erforderlich",
+    "tool_upload_check_3": "Sichere Verarbeitung",
+
+    "tool_processing_title": "Bild wird analysiert...",
+    "tool_processing_desc": "Tabellenstruktur wird erkannt und Daten extrahiert",
+
+    "tool_complete_title": "Excel-Datei bereit!",
+    "tool_complete_desc": "Ihr Bild wurde konvertiert. Laden Sie Ihre Tabelle unten herunter.",
+    "tool_complete_file_type": "Microsoft Excel (.xlsx)",
+    "tool_complete_status": "ERFOLGREICH",
+    "tool_download_button": "Excel herunterladen",
+    "tool_new_button": "Nächstes Bild konvertieren",
+
+    "tool_info_1_title": "Jedes Bild",
+    "tool_info_1_desc": "JPG, PNG, Screenshots unterstützt",
+
+    "tool_info_2_title": "Tabellen-KI",
+    "tool_info_2_desc": "Erhält Zeilen & Spalten automatisch",
+
+    "tool_info_3_title": "Bearbeitbar",
+    "tool_info_3_desc": "Vollständige Excel (.xlsx) Ausgabe",
+
+    "tool_tip_label": "Scan-Tipp:",
+    "tool_tip_text": "Machen Sie bei langen Dokumenten lieber mehrere Nahaufnahmen statt eines Fernschusses. Mehr Klarheit bedeutet bessere Genauigkeit.",
+
+    "toast_success": "Bild erfolgreich konvertiert!",
+    "toast_error_type": "Bitte laden Sie eine gültige Bilddatei hoch (JPG, PNG)",
+    "toast_error_size": "Dateigröße muss unter 25 MB liegen",
+    "toast_error_extraction": "Keine Tabelle erkannt.",
+    "toast_download_success": "Tabelle auf Gerät gespeichert!",
+    "toast_download_error": "Download fehlgeschlagen.",
+
+    "FAQ": {
+      "items": {
+        "pic_to_excel_how": {
+          "q": "Wie konvertiere ich ein Bild in Excel?",
+          "a": "Laden Sie einfach Ihr Bild (JPG, PNG oder Screenshot) hoch. NoteOCR erkennt automatisch das Tabellenraster im Bild, extrahiert Text sowie Zahlen und erstellt eine Excel-Datei, in der die Formatierung erhalten bleibt."
+        },
+        "jpg_vs_png": {
+          "q": "Funktioniert es mit JPG- und PNG-Dateien?",
+          "a": "Ja! Wir sind auf Bildformate spezialisiert. Sie können JPG, JPEG, PNG und WEBP konvertieren. Ideal für Handyfotos und Screenshots, die nicht als PDF vorliegen."
+        },
+        "screenshot_support": {
+          "q": "Kann ich einen Screenshot in Excel umwandeln?",
+          "a": "Absolut. Screenshots bieten oft die beste Qualität. Wenn Sie eine Tabelle auf einer Webseite oder in einem gesperrten PDF haben, machen Sie einen Screenshot und laden Sie ihn hier hoch."
+        },
+        "handwriting_in_pic": {
+          "q": "Was ist, wenn das Bild Handschrift enthält?",
+          "a": "NoteOCR ist einzigartig, da es sowohl gedruckten als auch handschriftlichen Text verarbeitet. Auch Fotos von handschriftlichen Logbüchern werden in strukturierte Excel-Tabellen umgewandelt."
+        },
+        "mobile_phone": {
+          "q": "Kann ich das Tool auf meinem Handy nutzen?",
+          "a": "Ja. Die Seite ist vollständig mobil-optimiert. Sie können Dokumente direkt mit der Kamera fotografieren und sofort auf Ihrem Smartphone umwandeln."
+        },
+        "blurry_photos": {
+          "q": "Können unscharfe Fotos gelesen werden?",
+          "a": "Unsere KI nutzt Bildverbesserung, um Text vor dem Lesen zu schärfen. Für 99% Genauigkeit sollte der Text jedoch lesbar und gut beleuchtet sein. Wenn ein Mensch es nicht lesen kann, wird auch die KI Probleme haben."
+        },
+        "excel_formatting": {
+          "q": "Sieht die Excel-Datei wie das Bild aus?",
+          "a": "Wir versuchen, die Struktur (Zeilen/Spalten) exakt zu erhalten. Schriftarten können standardisiert werden, um das Dokument sauber zu halten, aber die Daten landen in den richtigen Zellen."
+        },
+        "security_images": {
+          "q": "Ist das Hochladen von Finanzdokumenten sicher?",
+          "a": "Sicherheit hat Priorität. Ihre Bilder werden über verschlüsselte SSL-Verbindungen verarbeitet und nach der Konvertierung dauerhaft von unseren Servern gelöscht."
+        },
+        "free_limit": {
+          "q": "Ist dieser Bild-zu-Excel-Konverter kostenlos?",
+          "a": "Ja, Sie können das Tool kostenlos testen. Wir bieten ein großzügiges kostenloses Kontingent für tägliche Nutzer an. Für professionelle Stapelverarbeitung gibt es kostenpflichtige Pläne."
+        },
+        "scanned_docs": {
+          "q": "Funktioniert es mit gescannten Dokumenten?",
+          "a": "Ja. Gescannte Bilder (als JPG/PNG gespeichert) funktionieren perfekt. Für beste Ergebnisse scannen Sie mit 300 DPI oder höher."
+        },
+        "multiple_tables": {
+          "q": "Was passiert, wenn mein Bild zwei Tabellen enthält?",
+          "a": "NoteOCR versucht, alle unterschiedlichen Rasterstrukturen zu erkennen. Je nach Layout werden sie in der Excel-Ausgabe untereinander oder getrennt dargestellt."
+        },
+        "mac_windows": {
+          "q": "Funktioniert das auf Mac und Windows?",
+          "a": "Da NoteOCR webbasiert ist, läuft es auf jedem Betriebssystem (Windows, Mac, Linux, iOS, Android) mit einem modernen Browser wie Chrome, Safari oder Edge."
+        },
+        "no_lines": {
+          "q": "Können Tabellen ohne Gitternetzlinien gelesen werden?",
+          "a": "Ja. Das ist eine Kernfunktion. Unsere KI analysiert Abstände und Textausrichtung, um Spalten auch ohne sichtbare Linien zu erkennen."
+        },
+        "batch_images": {
+          "q": "Kann ich mehrere Bilder gleichzeitig konvertieren?",
+          "a": "Aktuell verarbeitet die Benutzeroberfläche ein Bild nach dem anderen, um maximale Genauigkeit zu garantieren. Für Massenverarbeitung kontaktieren Sie uns bezüglich API-Zugang."
+        },
+        "languages": {
+          "q": "Welche Sprachen werden unterstützt?",
+          "a": "NoteOCR unterstützt die meisten lateinischen Sprachen (Deutsch, Englisch, Spanisch, Französisch etc.) und wird kontinuierlich um asiatische und arabische Schriften erweitert."
+        }
+      }
+    }
   }
 }

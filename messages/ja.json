@@ -1929,5 +1929,212 @@
       "alt_input": "手書き入力",
       "alt_output": "デジタルドキュメントインターフェース"
     }
+  },
+
+  "pic-to-excel": {
+    "meta_title": "画像をExcelにオンラインで変換 | 画像・写真からエクセルAI変換ツール",
+    "meta_desc": "あらゆる画像をスプレッドシートに変換。JPG、PNG、スクリーンショットを即座に編集可能なExcel（.xlsx）に変換します。データ表、請求書、手書き文字に最適なAIを搭載。",
+
+    "hero_pill": "AI画像・表認識テクノロジー",
+    "hero_title": "AI表認識で画像をExcelに変換",
+    "hero_subtitle": "写真、スクリーンショット、手書きのメモを編集可能なExcelスプレッドシートに変換。手入力は不要です。JPGおよびPNGに対応。",
+
+    "trust_ssl": "SSL暗号化済み",
+    "trust_processing": "即座に変換",
+    "trust_accuracy": "表認識精度99%",
+
+    "before_after_title": "画像からスプレッドシートへ",
+    "before_after_desc": "当社のAIが静止画像からデータを抽出し、編集可能なセルに変換する様子をご覧ください",
+    "before_label": "変換前: 画像 / スクリーンショット",
+    "before_placeholder": "[表が含まれる画像をアップロード]",
+    "after_label": "変換後: 編集可能なExcel",
+    "after_placeholder": "[フォーマット済みの.xlsxプレビュー]",
+
+    "use_cases_title": "画像・エクセル変換が必要なケース",
+    "use_cases_subtitle": "データ入力担当者から経営者まで、単純作業を自動化します",
+
+    "use_case_1_title": "請求書や領収書のデジタル化",
+    "use_case_1_desc": "紙の請求書を写真に撮るだけ。AIが品目、数量、金額を抽出し、会計ソフトで使える列データとして直接作成します。",
+
+    "use_case_2_title": "スクリーンショットをExcelに",
+    "use_case_2_desc": "コピー＆ペーストできないPDFやウェブサイトの表でお困りですか？スクリーンショットを撮ってアップロードすれば、瞬時に表構造を再構築します。",
+
+    "use_case_3_title": "手書きのログ・帳簿",
+    "use_case_3_desc": "読み取りにくい手書き文字にも対応する唯一のツール。倉庫の在庫ログや現場日誌をデジタルスプレッドシートに変換します。",
+
+    "use_case_4_title": "財務諸表・決算書",
+    "use_case_4_desc": "銀行の取引明細や印刷された台帳の写真を変換。小数点や通貨形式を保持し、100%のデータ整合性を維持します。",
+
+    "comparison_title": "画像からExcelへ：NoteOCRが選ばれる理由",
+    "comparison_subtitle": "一般的なPDF変換ツールで苦労するのはもう終わりです",
+    "comparison_col_method": "手法",
+    "comparison_col_time": "時間",
+    "comparison_col_accuracy": "表構造の維持",
+    "comparison_col_cost": "手間・労力",
+
+    "comparison_row1_method": "手動入力",
+    "comparison_row1_time": "1ページあたり1時間",
+    "comparison_row1_accuracy": "入力ミスのリスク大",
+    "comparison_row1_cost": "高い（非常に退屈）",
+
+    "comparison_row2_method": "一般的なPDFツール",
+    "comparison_row2_time": "5分",
+    "comparison_row2_accuracy": "画像だと崩れる",
+    "comparison_row2_cost": "ストレスが溜まる",
+
+    "comparison_row3_method": "NoteOCR AI",
+    "comparison_row3_time": "60秒以内",
+    "comparison_row3_accuracy": "完璧なグリッド保持",
+    "comparison_row3_cost": "自動化",
+
+    "features_title": "写真をテーブルに変換する最適な方法",
+    "features_subtitle": "JPG、PNG、スマホ写真に特化した設計",
+
+    "feature_1_title": "あらゆる形式に対応",
+    "feature_1_desc": "PDFでなくても大丈夫。他のコンバーターでは拒否されるRAW画像形式（JPG、JPEG、PNG）を専門に扱います。",
+
+    "feature_2_title": "インテリジェントな表再構築",
+    "feature_2_desc": "AIは単に文字を読むだけでなく、表の「枠組み」を認識します。写真が斜めであっても、データを正確に行と列に整列させます。",
+
+    "feature_3_title": "モバイルファースト",
+    "feature_3_desc": "「撮ってすぐ変換」のワークフローを実現。デスクにある書類をスマホで撮れば、数秒でデバイスにExcelファイルが届きます。",
+
+    "tech_title": "画像からExcelへのAIの仕組み",
+    "tech_intro": "「平面的」な画像を動的なスプレッドシートに変換するのは複雑な工程です。NoteOCRはコンピュータービジョンを使用して、表の視認可能な線（または見えない境界線）を検出します。画像をグリッド座標系に分割し、各「セル」ごとにOCRを実行した後、データを規格に準拠した.xlsxファイルに再構築します。",
+
+    "tech_detect_title": "抽出可能なデータ",
+    "tech_detect_1": "スクリーンショットからの表構造",
+    "tech_detect_2": "歪んだり傾いたりした写真のデータ",
+    "tech_detect_3": "手書きおよび印刷された数字",
+    "tech_detect_4": "複数列の複雑なレイアウト",
+    "tech_detect_5": "ヘッダーとフッター",
+
+    "tech_tips_title": "高精度に変換するためのコツ",
+    "tech_tips_1": "画像がぼやけないようピントを合わせる",
+    "tech_tips_2": "データ表に影が入らないようにする",
+    "tech_tips_3": "関連する表の範囲のみをトリミングする",
+    "tech_tips_4": "高解像度（HD）設定で撮影する",
+    "tech_tips_5": "JPGまたはPNGの標準形式を使用する",
+
+    "related_tools_title": "その他の変換ツール",
+
+    "related_tool_1_name": "画像からWordへ",
+    "related_tool_1_desc": "手書き文字や文章をフォーマットされた文書に変換",
+
+    "related_tool_2_name": "オンラインPDF編集（インストール不要）",
+    "related_tool_2_desc": "どこからでもオンラインでPDFをアップロード・編集",
+
+    "related_tool_3_name": "オンライン・ドキュメントエディター",
+    "related_tool_3_desc": "WordやExcelドキュメントをブラウザ上で無料編集",
+
+    "related_tool_4_name": "画像からテキストへ",
+    "related_tool_4_desc": "画像内の筆記体やテキストを編集可能な文字に変換",
+
+    "faq_title": "よくある質問：画像をExcelに変換",
+
+    "cta_title": "その写真をスプレッドシートに変換しましょう",
+    "cta_subtitle": "入力はやめて、スキャンを。データ入力時間を大幅に節約している1万人以上のユーザーに加わりましょう。",
+    "cta_button": "今すぐ画像を変換する",
+
+    "tool_upload_title": "変換する画像をアップロード",
+    "tool_upload_desc": "JPG、PNG、WEBP対応。スクショ、写真、スキャン書類に使えます。",
+    "tool_upload_button": "写真を選択する",
+    "tool_upload_check_1": "JPG / PNG 対応",
+    "tool_upload_check_2": "会員登録不要",
+    "tool_upload_check_3": "安全なデータ処理",
+
+    "tool_processing_title": "画像を分析中...",
+    "tool_processing_desc": "表構造を特定し、データを抽出しています",
+
+    "tool_complete_title": "Excelファイルの準備完了！",
+    "tool_complete_desc": "画像の変換が完了しました。以下からスプレッドシートをダウンロードしてください。",
+    "tool_complete_file_type": "Microsoft Excel (.xlsx)",
+    "tool_complete_status": "成功",
+    "tool_download_button": "Excelをダウンロード",
+    "tool_new_button": "別の画像を変換",
+
+    "tool_info_1_title": "あらゆる画像",
+    "tool_info_1_desc": "JPG、PNG、スクリーンショットに対応",
+
+    "tool_info_2_title": "表認識AI",
+    "tool_info_2_desc": "行と列を自動的に維持",
+
+    "tool_info_3_title": "編集可能",
+    "tool_info_3_desc": "Excel (.xlsx) 形式で出力",
+
+    "tool_tip_label": "撮影のヒント：",
+    "tool_tip_text": "長い書類を変換する場合は、遠くから1枚撮るのではなく、近くから複数枚に分けて撮る方が精度が上がります。鮮明さが精度の決め手です。",
+
+    "toast_success": "画像の変換に成功しました！",
+    "toast_error_type": "有効な画像ファイル（JPG、PNG）をアップロードしてください",
+    "toast_error_size": "ファイルサイズは25MB未満である必要があります",
+    "toast_error_extraction": "表を検出できませんでした。",
+    "toast_download_success": "スプレッドシートを保存しました！",
+    "toast_download_error": "ダウンロードに失敗しました。",
+
+    "FAQ": {
+      "items": {
+        "pic_to_excel_how": {
+          "q": "写真をExcelに変換する方法は？",
+          "a": "画像をアップロードするだけです。NoteOCRが自動的に表のグリッドを検出し、テキストと数字を抽出して、フォーマットを維持したままExcelファイルを生成します。"
+        },
+        "jpg_vs_png": {
+          "q": "JPGやPNGファイルでも使えますか？",
+          "a": "はい！画像形式に特化しています。JPG、JPEG、PNG、WEBPに対応しており、スマホの写真やスクリーンショットの変換に最適です。"
+        },
+        "screenshot_support": {
+          "q": "スクリーンショットをExcelに変換できますか？",
+          "a": "もちろんです。コピーできないウェブ上の表や保護されたPDFなどは、スクリーンショットを撮ってアップロードしてください。"
+        },
+        "handwriting_in_pic": {
+          "q": "手書き文字が含まれていても大丈夫ですか？",
+          "a": "はい。NoteOCRは印刷された文字だけでなく、手書き文字の認識にも対応しています。手書きの台帳なども構造化されたExcelに変換可能です。"
+        },
+        "mobile_phone": {
+          "q": "スマホから利用できますか？",
+          "a": "はい。サイトはモバイルに完全対応しています。外出先で書類を撮影し、その場でExcelに変換することができます。"
+        },
+        "blurry_photos": {
+          "q": "ぼやけた写真でも読み取れますか？",
+          "a": "AIによる画像補正を行いますが、最高の精度（99%）を得るためには、文字がはっきりと読み取れる明るい場所での撮影を推奨します。"
+        },
+        "excel_formatting": {
+          "q": "Excelファイルの見た目は画像と同じになりますか？",
+          "a": "行と列の構造を正確に再現することに重点を置いています。フォントなどは標準化されますが、データは計算可能な状態で正しいセルに配置されます。"
+        },
+        "security_images": {
+          "q": "財務書類の写真をアップロードしても安全ですか？",
+          "a": "はい、セキュリティは最優先事項です。画像はSSL暗号化通信で処理され、変換後にはサーバーから永久に削除されます。"
+        },
+        "free_limit": {
+          "q": "このコンバーターは無料ですか？",
+          "a": "はい、無料でお試しいただけます。一般的な利用には十分な無料枠を提供しており、大量のバッチ処理が必要な方向けに有料プランも用意しています。"
+        },
+        "scanned_docs": {
+          "q": "スキャンした書類にも対応していますか？",
+          "a": "はい、JPG/PNGとして保存されたスキャン画像なら完璧に動作します。300 DPI以上でのスキャンを推奨します。"
+        },
+        "multiple_tables": {
+          "q": "画像の中に2つの表がある場合は？",
+          "a": "NoteOCRは画像内の複数の表構造を検出しようと試みます。レイアウトに応じて、Excel上で上下に並べるか、分割して出力します。"
+        },
+        "mac_windows": {
+          "q": "MacやWindowsでも動作しますか？",
+          "a": "ウェブブラウザ上で動作するツールですので、OSを問わず（Windows, Mac, Linux, iOS, Android）ChromeやSafariなどで利用可能です。"
+        },
+        "no_lines": {
+          "q": "枠線（罫線）がない表でも読み取れますか？",
+          "a": "はい、可能です。AIが空白や文字の整列を分析し、目に見える境界線がなくても列の開始と終了を判別します。"
+        },
+        "batch_images": {
+          "q": "複数の画像を一度に変換できますか？",
+          "a": "現在は精度を保証するため1枚ずつの処理となります。大量のAPIアクセスが必要な場合は、開発者向けプランをご確認ください。"
+        },
+        "languages": {
+          "q": "対応言語は何ですか？",
+          "a": "日本語、英語、スペイン語、フランス語、ドイツ語など主要な言語に対応しています。現在、さらに多くの言語へ拡大中です。"
+        }
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import {
   Upload,
   FileSpreadsheet,
@@ -12,19 +12,43 @@ import {
   Grid3X3,
   Table,
   AlertCircle,
+  FileWarning, // Icon for file type errors
+  AlertTriangle,
 } from "lucide-react";
 import { useMutation } from "@tanstack/react-query";
 import { uploadAndTranscribe, downloadDocument } from "../lib/api-service";
-import { toast } from "react-hot-toast";
+// import { toast } from "react-hot-toast"; <--- Removed this
 import { useTranslations } from "next-intl";
 
-export default function ExcelToolInterface({ locale }) {
-  const t = useTranslations("ExcelPage");
+export default function ExcelToolInterface({ locale, translation }) {
+  const t = useTranslations(translation);
   const [file, setFile] = useState(null);
   const [resultDoc, setResultDoc] = useState(null);
   const [dragActive, setDragActive] = useState(false);
-
   const fileInputRef = useRef(null);
+
+  // --- CUSTOM TOASTER STATE ---
+  const [toastState, setToastState] = useState({
+    visible: false,
+    title: "",
+    message: "",
+    type: "error", // 'success' or 'error'
+  });
+
+  // Helper to show the custom toast
+  const showToast = (title, message, type = "error") => {
+    setToastState({ visible: true, title, message, type });
+
+    // Auto hide after 4 seconds
+    setTimeout(() => {
+      setToastState((prev) => ({ ...prev, visible: false }));
+    }, 6000);
+  };
+
+  const closeToast = () => {
+    setToastState((prev) => ({ ...prev, visible: false }));
+  };
+  // ---------------------------
 
   // Mutation for uploading
   const { mutate: handleUpload, isPending: isProcessing } = useMutation({
@@ -32,12 +56,14 @@ export default function ExcelToolInterface({ locale }) {
     onSuccess: (data) => {
       if (data.success) {
         setResultDoc(data.document);
-        toast.success(t("toast_success"));
+        showToast("Success", t("toast_success"), "success");
       }
     },
     onError: (error) => {
-      toast.error(
-        error?.response?.data?.message || t("toast_error_extraction")
+      showToast(
+        "Extraction Failed",
+        error?.response?.data?.message || t("toast_error_extraction"),
+        "error"
       );
       setFile(null);
     },
@@ -52,15 +78,21 @@ export default function ExcelToolInterface({ locale }) {
   const processFile = async (selectedFile) => {
     // Validate file type
     const validTypes = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
+
     if (!validTypes.includes(selectedFile.type)) {
-      toast.error(t("toast_error_type"));
+      // TRIGGER CUSTOM TOASTER HERE
+      showToast(
+        "Invalid File Type",
+        "Only image files are allowed. Please upload a JPG, PNG, or WEBP.",
+        "error"
+      );
       return;
     }
 
     // Validate file size (25MB limit)
     const maxSize = 25 * 1024 * 1024;
     if (selectedFile.size > maxSize) {
-      toast.error(t("toast_error_size"));
+      showToast("File Too Large", t("toast_error_size"), "error");
       return;
     }
 
@@ -115,9 +147,9 @@ export default function ExcelToolInterface({ locale }) {
         folder: resultDoc.folder,
         fileName: resultDoc.name,
       });
-      toast.success(t("toast_download_success"));
+      showToast("Downloaded", t("toast_download_success"), "success");
     } catch (err) {
-      toast.error(t("toast_download_error"));
+      showToast("Error", t("toast_download_error"), "error");
     }
   };
 
@@ -128,7 +160,70 @@ export default function ExcelToolInterface({ locale }) {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto">
+    <div className="w-full max-w-3xl mx-auto relative">
+      {/* --- CUSTOM TOASTER COMPONENT UI --- */}
+      <div
+        className={`fixed top-16 left-1/2 -translate-x-1/2 z-[100] transition-all duration-500 ease-in-out ${
+          toastState.visible
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 -translate-y-4 pointer-events-none"
+        }`}
+      >
+        <div
+          className={`
+          flex items-start gap-4 p-4 rounded-xl shadow-2xl border backdrop-blur-md w-[350px] sm:w-[400px]
+          ${
+            toastState.type === "error"
+              ? "bg-red-500/10 border-red-500/20 shadow-[0_0_30px_-10px_rgba(239,68,68,0.3)]"
+              : "bg-emerald-500/10 border-emerald-500/20 shadow-[0_0_30px_-10px_rgba(16,185,129,0.3)]"
+          }
+        `}
+        >
+          {/* Icon Box */}
+          <div
+            className={`
+            w-10 h-10 rounded-full flex items-center justify-center shrink-0 border
+            ${
+              toastState.type === "error"
+                ? "bg-red-500/20 border-red-500/30"
+                : "bg-emerald-500/20 border-emerald-500/30"
+            }
+          `}
+          >
+            {toastState.type === "error" ? (
+              <FileWarning className="w-5 h-5 text-red-500" />
+            ) : (
+              <Check className="w-5 h-5 text-emerald-500" />
+            )}
+          </div>
+
+          {/* Text Content */}
+          <div className="flex-1 pt-0.5">
+            <h4
+              className={`text-sm font-bold mb-1 ${
+                toastState.type === "error"
+                  ? "text-red-400"
+                  : "text-emerald-400"
+              }`}
+            >
+              {toastState.title}
+            </h4>
+            <p className="text-xs text-gray-300 leading-relaxed">
+              {toastState.message}
+            </p>
+          </div>
+
+          {/* Close Button */}
+          <button
+            onClick={closeToast}
+            className="text-gray-500 hover:text-white transition-colors"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+      </div>
+      {/* ----------------------------------- */}
+
       {/* Main Card */}
       <div className="bg-[#0a0a0a] border-2 border-white/10 rounded-2xl p-3 shadow-2xl">
         <div

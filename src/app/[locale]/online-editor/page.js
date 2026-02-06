@@ -39,6 +39,7 @@ export async function generateMetadata({ params }) {
         hi: "https://noteocr.com/hi/online-editor",
         de: "https://noteocr.com/de/online-editor",
         ja: "https://noteocr.com/ja/online-editor",
+        fr: "https://noteocr.com/fr/online-editor",
         "pt-br": "https://noteocr.com/pt-br/online-editor",
       },
     },

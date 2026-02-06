@@ -19,6 +19,7 @@ export async function generateMetadata({ params }) {
         hi: "https://noteocr.com/hi/pricing",
         de: "https://noteocr.com/de/pricing",
         ja: "https://noteocr.com/ja/pricing",
+        fr: "https://noteocr.com/fr/pricing",
         "pt-br": "https://noteocr.com/pt-br/pricing",
       },
     },

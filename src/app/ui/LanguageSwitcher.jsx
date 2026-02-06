@@ -21,6 +21,7 @@ export default function LanguageSwitcher() {
     { code: "de", name: "Deutsch", flag: "🇩🇪" },
     { code: "ja", name: "日本語", flag: "🇯🇵" },
     { code: "pt-br", name: "Português", flag: "🇧🇷" },
+    { code: "fr", name: "French", flag: "🇫🇷" },
   ];
 
   const handleLanguageChange = (newLocale) => {

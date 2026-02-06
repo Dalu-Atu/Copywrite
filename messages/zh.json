@@ -1954,5 +1954,211 @@
       "alt_input": "手写输入",
       "alt_output": "数字文档界面"
     }
+  },
+  "pic-to-excel": {
+    "meta_title": "图片转 Excel 在线工具 | AI 图片表格识别转换器",
+    "meta_desc": "将任何图片转换为电子表格。立即将 JPG、PNG 或屏幕截图转换为可编辑的 Excel (.xlsx)。适用于数据表、发票识别及手写体的最佳 AI 工具。",
+
+    "hero_pill": "AI 图片转表格技术",
+    "hero_title": "利用 AI 表格识别技术将图片转换为 Excel",
+    "hero_subtitle": "将照片、屏幕截图和手写笔记转换为可编辑的 Excel 电子表格。无需手动录入。支持 JPG 和 PNG 格式。",
+
+    "trust_ssl": "SSL 加密传输",
+    "trust_processing": "即时转换",
+    "trust_accuracy": "99% 表格识别准确率",
+
+    "before_after_title": "从图片到电子表格的进化",
+    "before_after_desc": "见证我们的 AI 如何从静态图片中提取数据并填入可编辑的单元格",
+    "before_label": "转换前：图片 / 截图",
+    "before_placeholder": "[上传任何带有表格的图片]",
+    "after_label": "转换后：可编辑 Excel",
+    "after_placeholder": "[已排版的 .xlsx 预览]",
+
+    "use_cases_title": "谁需要图片转 Excel 转换器？",
+    "use_cases_subtitle": "从数据录入员到企业主，我们帮您自动化处理枯燥的任务",
+
+    "use_case_1_title": "发票与收据数字化",
+    "use_case_1_desc": "拍摄纸质发票的照片。我们的 AI 会直接提取明细、数量和价格到列中，方便对接您的财务软件。",
+
+    "use_case_2_title": "截图转 Excel",
+    "use_case_2_desc": "遇到无法复制粘贴的 PDF 或网页表格？直接截屏并上传。我们能瞬间重建表格框架。",
+
+    "use_case_3_title": "手写日志识别",
+    "use_case_3_desc": "唯一能处理潦草手写文字的工具。将仓库库存记录和外勤日志转换为数字电子表格。",
+
+    "use_case_4_title": "财务报表转换",
+    "use_case_4_desc": "转换银行对账单或打印账簿的照片。我们保留小数点和货币格式，确保 100% 的数据完整性。",
+
+    "comparison_title": "图片转 Excel：为什么选择 NoteOCR",
+    "comparison_subtitle": "别再把时间浪费在普通的 PDF 转换工具上",
+    "comparison_col_method": "方法",
+    "comparison_col_time": "耗时",
+    "comparison_col_accuracy": "表格结构",
+    "comparison_col_cost": "精力消耗",
+
+    "comparison_row1_method": "人工手动录入",
+    "comparison_row1_time": "1 小时/页",
+    "comparison_row1_accuracy": "极高录入错误风险",
+    "comparison_row1_cost": "高（极其枯燥）",
+
+    "comparison_row2_method": "普通 PDF 工具",
+    "comparison_row2_time": "5 分钟",
+    "comparison_row2_accuracy": "遇到图片即失效",
+    "comparison_row2_cost": "令人沮丧",
+
+    "comparison_row3_method": "NoteOCR AI",
+    "comparison_row3_time": "60 秒内",
+    "comparison_row3_accuracy": "完美保留网格结构",
+    "comparison_row3_cost": "全自动化",
+
+    "features_title": "将图片转换为表格的最佳方案",
+    "features_subtitle": "专为 JPG、PNG 和手机照片设计",
+
+    "feature_1_title": "格式无限制",
+    "feature_1_desc": "没有 PDF？没关系。我们专注于处理其他转换器无法识别的原始图片格式（JPG, JPEG, PNG）。",
+
+    "feature_2_title": "智能网格重建",
+    "feature_2_desc": "我们的 AI 不仅识字，它还能“看见”网格。即使照片拍摄角度倾斜，它也能将零散数据对齐到行列中。",
+
+    "feature_3_title": "移动端优先处理",
+    "feature_3_desc": "专为“随手拍，随手转”工作流打造。在办公桌上拍张照，几秒钟后即可在设备上获得 Excel 文件。",
+
+    "tech_title": "图片转 Excel AI 的工作原理",
+    "tech_intro": "将“扁平”的图片转换为动态电子表格非常复杂。NoteOCR 利用计算机视觉识别表格的实线（或隐含的虚线）。它将图片分割为坐标系，针对每个“单元格”运行 OCR，最后将数据重组为合规的 .xlsx 文件。",
+
+    "tech_detect_title": "我们提取的内容",
+    "tech_detect_1": "从截图中识别表格结构",
+    "tech_detect_2": "从偏斜/成角度的照片中提取数据",
+    "tech_detect_3": "手写体和印刷体数字",
+    "tech_detect_4": "多栏复杂布局",
+    "tech_detect_5": "页眉与页脚识别",
+
+    "tech_tips_title": "完美转换的小贴士",
+    "tech_tips_1": "确保图片清晰、对焦准确（无模糊）",
+    "tech_tips_2": "避免数据表上有阴影覆盖",
+    "tech_tips_3": "将图片裁剪至相关的表格区域",
+    "tech_tips_4": "使用高分辨率 (HD) 模式拍摄",
+    "tech_tips_5": "使用 JPG 或 PNG 等标准格式",
+
+    "related_tools_title": "更多转换工具",
+
+    "related_tool_1_name": "图片转 Word",
+    "related_tool_1_desc": "将手写文本转换为排版美观的文档",
+
+    "related_tool_2_name": "在线编辑 PDF（无需安装）",
+    "related_tool_2_desc": "随时随地在线上传并编辑 PDF 文档",
+
+    "related_tool_3_name": "在线文档编辑器",
+    "related_tool_3_desc": "免费在线编辑 MS Word 或 Excel 文档",
+
+    "related_tool_4_name": "图片转文本",
+    "related_tool_4_desc": "将图片中的手写体文字转换为可编辑文本",
+
+    "faq_title": "常见问题解答：图片转 Excel",
+
+    "cta_title": "立即将图片变为电子表格",
+    "cta_subtitle": "告别手动打字。开始智能扫描。加入 10,000+ 用户，节省大量数据录入时间。",
+    "cta_button": "立即转换图片",
+
+    "tool_upload_title": "上传待转换图片",
+    "tool_upload_desc": "支持 JPG, PNG, WEBP。适用于截图、照片和扫描件。",
+    "tool_upload_button": "选择图片",
+    "tool_upload_check_1": "支持 JPG / PNG",
+    "tool_upload_check_2": "无需注册",
+    "tool_upload_check_3": "安全处理",
+
+    "tool_processing_title": "正在分析图片...",
+    "tool_processing_desc": "正在识别表格结构并提取数据",
+
+    "tool_complete_title": "Excel 文件已就绪！",
+    "tool_complete_desc": "您的图片已完成转换。请在下方下载电子表格。",
+    "tool_complete_file_type": "Microsoft Excel (.xlsx)",
+    "tool_complete_status": "转换成功",
+    "tool_download_button": "下载 Excel",
+    "tool_new_button": "继续转换",
+
+    "tool_info_1_title": "全格式支持",
+    "tool_info_1_desc": "支持 JPG、PNG 及各种截图",
+
+    "tool_info_2_title": "表格 AI",
+    "tool_info_2_desc": "自动保留行与列的结构",
+
+    "tool_info_3_title": "可编辑性",
+    "tool_info_3_desc": "输出完整的 Excel (.xlsx) 格式",
+
+    "tool_tip_label": "扫描技巧：",
+    "tool_tip_text": "如果要转换长文档，请近距离拍摄多张照片，而不是远距离拍一张大图。图片越清晰，准确率越高。",
+
+    "toast_success": "图片转换成功！",
+    "toast_error_type": "请上传有效的图片文件 (JPG, PNG)",
+    "toast_error_size": "文件大小必须在 25MB 以内",
+    "toast_error_extraction": "未能检测到有效表格。",
+    "toast_download_success": "电子表格已保存至设备！",
+    "toast_download_error": "下载失败。",
+
+    "FAQ": {
+      "items": {
+        "pic_to_excel_how": {
+          "q": "如何将照片转换为 Excel？",
+          "a": "只需将您的图片（JPG、PNG 或截图）上传到上方工具。NoteOCR 会自动检测图片内的表格网格，提取文字和数字，并生成一份保留原始格式的 Excel 文件。"
+        },
+        "jpg_vs_png": {
+          "q": "支持 JPG 和 PNG 文件吗？",
+          "a": "是的！我们专门针对图片格式进行优化。您可以转换 JPG、JPEG、PNG 和 WEBP 格式。这非常适合非 PDF 格式的手机照片和屏幕截图。"
+        },
+        "screenshot_support": {
+          "q": "我可以将屏幕截图转为 Excel 吗？",
+          "a": "当然可以。截图通常是最高质量的数据源。如果您发现网页表格或“加密”PDF 无法复制，只需截图并上传到这里即可。"
+        },
+        "handwriting_in_pic": {
+          "q": "如果图片里是手写文字怎么办？",
+          "a": "NoteOCR 的独特之处在于它能同时处理印刷体和手写体。即使是拍摄手写的登记表或账簿，我们的 AI 也能将其转换为结构化的 Excel 表格。"
+        },
+        "mobile_phone": {
+          "q": "我能在手机上使用吗？",
+          "a": "可以。本站经过完全的移动端优化。您可以直接从相机胶卷中选择文档照片，在手机上完成 Excel 转换。"
+        },
+        "blurry_photos": {
+          "q": "能识别模糊的照片吗？",
+          "a": "我们的 AI 包含图像增强功能，在读取前会进行锐化。但为了达到 99% 的准确率，建议确保文字清晰且光线充足。"
+        },
+        "excel_formatting": {
+          "q": "生成的 Excel 文件和图片看起来一样吗？",
+          "a": "我们的目标是精确保留“结构”（行和列）。虽然字体和颜色可能会被标准化处理，但数据将位于正确的单元格中，方便进行公式计算和分析。"
+        },
+        "security_images": {
+          "q": "上传财务文件的照片安全吗？",
+          "a": "安全是我们首要考虑的。您的图片通过 SSL 加密连接传输，并在转换完成后立即从我们的服务器中永久删除。"
+        },
+        "free_limit": {
+          "q": "这个图片转 Excel 转换器免费吗？",
+          "a": "是的，您可以免费测试。我们为日常用户提供慷慨的免费配额。对于需要批量处理数百张图片的用户，我们也提供付费方案。"
+        },
+        "scanned_docs": {
+          "q": "支持扫描件吗？",
+          "a": "支持。以 JPG/PNG 格式保存的扫描件效果非常好。为获得最佳效果，建议使用 300 DPI 或更高的分辨率扫描。"
+        },
+        "multiple_tables": {
+          "q": "如果一张图里有两个表格怎么办？",
+          "a": "NoteOCR 会尝试检测图片中所有独立的网格结构。根据布局，它通常会将它们垂直排列或在生成的 Excel 中进行分隔。"
+        },
+        "mac_windows": {
+          "q": "在 Mac 和 Windows 上都能用吗？",
+          "a": "NoteOCR 是基于 Web 的工具，只要有 Chrome、Safari 或 Edge 等现代浏览器，在任何操作系统（Windows, Mac, iOS, Android）上都能运行。"
+        },
+        "no_lines": {
+          "q": "能识别没有边框线的表格吗？",
+          "a": "可以。这是我们的核心优势。我们的 AI 会分析文字的对齐方式和间距，从而推断出列的起始位置，即使没有可见的线条也能识别。"
+        },
+        "batch_images": {
+          "q": "能一次转换多张图片吗？",
+          "a": "目前网页版为了确保每张图的最高准确度，采用单张处理模式。如需批量 API 访问，请查看我们的开发者定价。"
+        },
+        "languages": {
+          "q": "支持哪些语言？",
+          "a": "NoteOCR 支持包括中文、英文、西班牙文、法文、德文在内的绝大多数语言，并正在迅速扩展对亚洲其他语种和阿拉伯语的支持。"
+        }
+      }
+    }
   }
 }

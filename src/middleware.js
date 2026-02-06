@@ -7,7 +7,7 @@ export const config = {
   // Update the middle group to include all your locale codes
   matcher: [
     "/",
-    "/(en|tr|es|pt-br|zh|hi|de|ja)/:path*",
+    "/(en|tr|es|pt-br|zh|hi|fr|de|ja)/:path*",
     "/((?!api|_next|_vercel|.*\\..*).*)",
   ],
 };

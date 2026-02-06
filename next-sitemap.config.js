@@ -8,7 +8,7 @@ const config = {
   outDir: "public",
 
   additionalPaths: async (config) => {
-    const locales = ["en", "tr", "es", "zh", "hi", "de", "ja", "pt-br"];
+    const locales = ["en", "tr", "es", "zh", "hi", "fr", "de", "ja", "pt-br"];
 
     // 1. ALL BASE ROUTES (Mapped from your VS Code Sidebar)
     const basePages = [
@@ -54,11 +54,11 @@ const config = {
   },
 
   transform: async (config, path) => {
-    const locales = ["en", "tr", "es", "zh", "hi", "de", "ja", "pt-br"];
+    const locales = ["en", "tr", "es", "zh", "hi", "de", "ja", "fr", "pt-br"];
 
     // Clean the path to find the "base" version for alternate refs
     const cleanPath = path.replace(
-      /^\/(en|tr|es|zh|hi|de|ja|pt-br)(\/|$)/,
+      /^\/(en|tr|es|zh|hi|de|fr|ja|pt-br)(\/|$)/,
       "/"
     );
     const normalizedPath = cleanPath === "/" ? "" : cleanPath;

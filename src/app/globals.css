@@ -26,3 +26,19 @@ body {
     font-family: "Noto Sans JP", "Microsoft YaHei", sans-serif;
   }
 }
+/* Add this to your globals.css or tailwind.css file */
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}

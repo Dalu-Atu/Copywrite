@@ -43,6 +43,7 @@ export async function generateMetadata({ params }) {
         hi: "https://noteocr.com/hi/handwriting-to-excel",
         de: "https://noteocr.com/de/handwriting-to-excel",
         ja: "https://noteocr.com/ja/handwriting-to-excel",
+        fr: "https://noteocr.com/fr/handwriting-to-excel",
         "pt-br": "https://noteocr.com/pt-br/handwriting-to-excel",
       },
     },
@@ -114,7 +115,6 @@ export default async function HandwritingToExcelPage({ params }) {
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
         featureList:
           "Handwriting OCR, Table Structure Detection, Excel Export, Grid Recognition, Multi-Column Processing",
-        
       },
       {
         "@type": "FAQPage",
@@ -177,7 +177,7 @@ export default async function HandwritingToExcelPage({ params }) {
           </p>
 
           {/* THE TOOL */}
-          <ExcelToolInterface locale={locale} />
+          <ExcelToolInterface locale={locale} translation={"ExcelPage"} />
 
           <div className="mt-20 flex flex-wrap justify-center gap-x-12 gap-y-6 opacity-30 grayscale pointer-events-none">
             <div className="flex items-center gap-2 text-[10px] font-mono tracking-tighter">
@@ -390,9 +390,7 @@ export default async function HandwritingToExcelPage({ params }) {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-8">{t("tech_title")}</h2>
           <div className="prose prose-invert max-w-none">
-            <p className="text-gray-400 md:text-lg mb-6">
-              {t("tech_intro")}
-            </p>
+            <p className="text-gray-400 md:text-lg mb-6">{t("tech_intro")}</p>
 
             <div className="grid md:grid-cols-2 gap-6 mt-8">
               <div className="p-6 border border-white/10 bg-white/[0.02] rounded-xl">

@@ -46,6 +46,7 @@ export async function generateMetadata({ params }) {
         hi: "https://noteocr.com/hi/handwriting-to-docx",
         de: "https://noteocr.com/de/handwriting-to-docx",
         ja: "https://noteocr.com/ja/handwriting-to-docx",
+        fr: "https://noteocr.com/fr/handwriting-to-docx",
         "pt-br": "https://noteocr.com/pt-br/handwriting-to-docx",
       },
     },

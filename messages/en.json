@@ -1969,5 +1969,211 @@
       "alt_input": "Handwritten Input",
       "alt_output": "Digital Document Interface"
     }
+  },
+  "pic-to-excel": {
+    "meta_title": "Convert Pic to Excel Online | Image to Excel AI Converter",
+    "meta_desc": "Turn any picture into a spreadsheet. Convert JPG, PNG, or screenshots to editable Excel (.xlsx) instantly. Best AI for data tables, invoices & handwriting.",
+
+    "hero_pill": "AI Image-to-Table Technology",
+    "hero_title": "Convert Pic to Excel with AI Table Recognition",
+    "hero_subtitle": "Turn photos, screenshots, and handwritten notes into editable Excel spreadsheets. No manual entry. Support for JPG and PNG.",
+
+    "trust_ssl": "SSL ENCRYPTED",
+    "trust_processing": "INSTANT CONVERSION",
+    "trust_accuracy": "99% TABLE ACCURACY",
+
+    "before_after_title": "From Image to Spreadsheet",
+    "before_after_desc": "See how our AI extracts data from static images into editable cells",
+    "before_label": "Before: Image / Screenshot",
+    "before_placeholder": "[Upload any image with a table]",
+    "after_label": "After: Editable Excel",
+    "after_placeholder": "[Formatted .xlsx preview]",
+
+    "use_cases_title": "Who Needs an Image-to-Excel Converter?",
+    "use_cases_subtitle": "From data entry clerks to business owners, we automate the boring work",
+
+    "use_case_1_title": "Digitize Invoices & Receipts",
+    "use_case_1_desc": "Snap a photo of paper invoices. Our AI extracts the line items, quantities, and prices directly into columns for your accounting software.",
+
+    "use_case_2_title": "Screenshot to Excel",
+    "use_case_2_desc": "Have a PDF or website table you can't copy-paste? Take a screenshot and upload it. We reconstruct the grid instantly.",
+
+    "use_case_3_title": "Handwritten Logs",
+    "use_case_3_desc": "The only tool that handles messy handwriting. Convert warehouse stock logs and field journals into digital spreadsheets.",
+
+    "use_case_4_title": "Financial Statements",
+    "use_case_4_desc": "Convert photos of bank statements or printed ledgers. We preserve the decimal points and currency formatting for 100% data integrity.",
+
+    "comparison_title": "Image to Excel: Why NoteOCR Wins",
+    "comparison_subtitle": "Don't struggle with generic PDF converters",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time",
+    "comparison_col_accuracy": "Table Structure",
+    "comparison_col_cost": "Effort",
+
+    "comparison_row1_method": "Manual Data Entry",
+    "comparison_row1_time": "1 hour/page",
+    "comparison_row1_accuracy": "High Risk of Typo",
+    "comparison_row1_cost": "High (Boring)",
+
+    "comparison_row2_method": "Generic PDF Tools",
+    "comparison_row2_time": "5 minutes",
+    "comparison_row2_accuracy": "Breaks with Images",
+    "comparison_row2_cost": "Frustrating",
+
+    "comparison_row3_method": "NoteOCR AI",
+    "comparison_row3_time": "60 Seconds",
+    "comparison_row3_accuracy": "Perfect Grid Retention",
+    "comparison_row3_cost": "Automated",
+
+    "features_title": "The Best Way to Convert Pictures to Tables",
+    "features_subtitle": "Designed for JPGs, PNGs, and mobile photos",
+
+    "feature_1_title": "Format Agnostic",
+    "feature_1_desc": "Don't have a PDF? No problem. We specialize in raw image formats (JPG, JPEG, PNG) that other converters reject.",
+
+    "feature_2_title": "Intelligent Grid Reconstruction",
+    "feature_2_desc": "Our AI doesn't just read text; it 'sees' the grid. It aligns floating data into rows and columns, even if the photo was taken at an angle.",
+
+    "feature_3_title": "Mobile-First Processing",
+    "feature_3_desc": "Built for the 'Snap and Go' workflow. Take a picture of a document on your desk and get an Excel file on your device in seconds.",
+
+    "tech_title": "How Image-to-Excel AI Works",
+    "tech_intro": "Converting a 'flat' picture into a dynamic spreadsheet is complex. NoteOCR uses Computer Vision to detect the visual lines (or implied lines) of a table. It separates the image into a grid coordinate system, runs OCR on each 'cell' individually, and then reassembles the data into a compliant .xlsx file.",
+
+    "tech_detect_title": "What We Extract",
+    "tech_detect_1": "Table structures from screenshots",
+    "tech_detect_2": "Data from skewed/angled photos",
+    "tech_detect_3": "Handwritten and printed numbers",
+    "tech_detect_4": "Multi-column layouts",
+    "tech_detect_5": "Headers and footers",
+
+    "tech_tips_title": "Tips for Perfect Conversions",
+    "tech_tips_1": "Ensure the image is in focus (no blur)",
+    "tech_tips_2": "Avoid shadows across the data table",
+    "tech_tips_3": "Crop the image to the relevant table area",
+    "tech_tips_4": "Use high resolution (HD) settings",
+    "tech_tips_5": "Check standard formats like JPG or PNG",
+
+    "related_tools_title": "More Conversion Tools",
+
+    "related_tool_1_name": "Image to Word",
+    "related_tool_1_desc": "Convert handwritten text to formatted documents",
+
+    "related_tool_2_name": "Edit Pdf online (no installation)",
+    "related_tool_2_desc": "Upload and Edit pdf documents online from anywhere",
+
+    "related_tool_3_name": "Online Document editor",
+    "related_tool_3_desc": "Edit MS word or Excel document online for free",
+
+    "related_tool_4_name": "Image to Text",
+    "related_tool_4_desc": "Convert Cursive text in image to formatted editable text",
+
+    "faq_title": "FAQ: Converting Images to Excel",
+
+    "cta_title": "Turn That Picture into a Spreadsheet",
+    "cta_subtitle": "Stop typing. Start scanning. Join 10,000+ users saving hours on data entry.",
+    "cta_button": "Convert Image Now",
+
+    "tool_upload_title": "Upload Image to Convert",
+    "tool_upload_desc": "Supports JPG, PNG, WEBP. Works on screenshots, photos, and scanned documents.",
+    "tool_upload_button": "Select Picture",
+    "tool_upload_check_1": "JPG / PNG Support",
+    "tool_upload_check_2": "No Sign-up Required",
+    "tool_upload_check_3": "Secure Processing",
+
+    "tool_processing_title": "Analyzing Image...",
+    "tool_processing_desc": "Identifying table structure and extracting data",
+
+    "tool_complete_title": "Excel File Ready!",
+    "tool_complete_desc": "Your image has been converted. Download your spreadsheet below.",
+    "tool_complete_file_type": "Microsoft Excel (.xlsx)",
+    "tool_complete_status": "SUCCESS",
+    "tool_download_button": "Download Excel",
+    "tool_new_button": "Convert Another",
+
+    "tool_info_1_title": "Any Image",
+    "tool_info_1_desc": "JPG, PNG, Screenshots supported",
+
+    "tool_info_2_title": "Table AI",
+    "tool_info_2_desc": "Preserves rows & columns automatically",
+
+    "tool_info_3_title": "Editable",
+    "tool_info_3_desc": "Full Excel (.xlsx) output",
+
+    "tool_tip_label": "Scanning Tip:",
+    "tool_tip_text": "If converting a long document, take multiple photos closer to the paper rather than one far-away shot. Higher clarity equals better accuracy.",
+
+    "toast_success": "Image converted successfully!",
+    "toast_error_type": "Please upload a valid image file (JPG, PNG)",
+    "toast_error_size": "File size must be under 25MB",
+    "toast_error_extraction": "Could not detect a table.",
+    "toast_download_success": "Spreadsheet saved to device!",
+    "toast_download_error": "Download failed.",
+
+    "FAQ": {
+      "items": {
+        "pic_to_excel_how": {
+          "q": "How do I convert a pic to Excel?",
+          "a": "Simply upload your image (JPG, PNG, or screenshot) to the tool above. NoteOCR will automatically detect the table grid within the picture, extract the text and numbers, and generate a downloadable Excel file with the formatting preserved."
+        },
+        "jpg_vs_png": {
+          "q": "Does it work with JPG and PNG files?",
+          "a": "Yes! We specialize in image formats. You can convert JPG, JPEG, PNG, and WEBP files. This makes it perfect for mobile phone photos and screenshots that aren't in PDF format."
+        },
+        "screenshot_support": {
+          "q": "Can I convert a screenshot to Excel?",
+          "a": "Absolutely. Screenshots are often the best quality source. If you have a table on a website or a 'locked' PDF that you can't copy, just take a screenshot and upload it here to get the data into Excel."
+        },
+        "handwriting_in_pic": {
+          "q": "What if the picture contains handwriting?",
+          "a": "NoteOCR is unique because it handles BOTH printed and handwritten text. If you snap a picture of a handwritten logbook or ledger, our AI will still convert it into a structured Excel sheet."
+        },
+        "mobile_phone": {
+          "q": "Can I use this on my phone?",
+          "a": "Yes. The site is fully mobile-optimized. You can take a photo of a document directly from your camera roll and convert it to Excel right on your smartphone."
+        },
+        "blurry_photos": {
+          "q": "Can it read blurry photos?",
+          "a": "Our AI includes image enhancement to sharpen text before reading. However, for the best 99% accuracy, we recommend ensuring the text is legible and well-lit. If a human can't read it, the AI might struggle."
+        },
+        "excel_formatting": {
+          "q": "Will the Excel file look like the image?",
+          "a": "We aim to preserve the *structure* (rows and columns) exactly. Fonts and colors may be standardized to clean up the document, but the data will be in the correct cells, ready for formulas and analysis."
+        },
+        "security_images": {
+          "q": "Is it safe to upload photos of financial documents?",
+          "a": "Security is our top priority. Your images are processed via encrypted SSL connections and are permanently deleted from our servers after conversion. We do not use your data for training."
+        },
+        "free_limit": {
+          "q": "Is this image-to-Excel converter free?",
+          "a": "Yes, you can test the tool for free. We offer a generous free tier for daily users. For heavy-duty batch processing of hundreds of images, we offer a paid plan."
+        },
+        "scanned_docs": {
+          "q": "Does it work on scanned documents?",
+          "a": "Yes. Scanned images (saved as JPG/PNG) work perfectly. For best results, scan at 300 DPI or higher to ensure the numbers are crisp and clear."
+        },
+        "multiple_tables": {
+          "q": "What if my image has two tables?",
+          "a": "NoteOCR attempts to detect all distinct grid structures in an image. It will typically attempt to stack them or separate them in the final Excel output depending on the layout."
+        },
+        "mac_windows": {
+          "q": "Does this work on Mac and Windows?",
+          "a": "Since NoteOCR is a web-based tool, it works on any operating system (Windows, Mac, Linux, iOS, Android) with a modern web browser like Chrome, Safari, or Edge."
+        },
+        "no_lines": {
+          "q": "Can it read tables without grid lines?",
+          "a": "Yes. This is a key feature. Our AI analyzes the whitespace and alignment of text to understand where columns begin and end, even if the table has no visible borders."
+        },
+        "batch_images": {
+          "q": "Can I convert multiple images at once?",
+          "a": "Currently, the interface handles one image at a time to ensure maximum accuracy per file. For bulk API access, please check our developer pricing."
+        },
+        "languages": {
+          "q": "What languages does it support?",
+          "a": "NoteOCR supports most Latin-script languages (English, Spanish, French, German, etc.) and is rapidly expanding to support Asian scripts and Arabic. Check our main page for the latest language list."
+        }
+      }
+    }
   }
 }

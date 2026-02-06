@@ -1965,5 +1965,212 @@
       "alt_input": "Entrada Manuscrita",
       "alt_output": "Interfaz de Documento"
     }
+  },
+
+  "pic-to-excel": {
+    "meta_title": "Convertir Imagen a Excel Online | Convertidor con IA de Foto a Excel",
+    "meta_desc": "Convierta cualquier imagen en una hoja de cálculo. Pase JPG, PNG o capturas de pantalla a Excel (.xlsx) editable al instante. La mejor IA para tablas y facturas.",
+
+    "hero_pill": "Tecnología de IA de Imagen a Tabla",
+    "hero_title": "Convertir Imagen a Excel con Reconocimiento de Tablas por IA",
+    "hero_subtitle": "Convierta fotos, capturas de pantalla y notas manuscritas en hojas de cálculo de Excel editables. Sin entrada manual. Soporte para JPG y PNG.",
+
+    "trust_ssl": "CIFRADO SSL",
+    "trust_processing": "CONVERSIÓN INSTANTÁNEA",
+    "trust_accuracy": "99% DE PRECISIÓN EN TABLAS",
+
+    "before_after_title": "De Imagen a Hoja de Cálculo",
+    "before_after_desc": "Vea cómo nuestra IA extrae datos de imágenes estáticas a celdas editables",
+    "before_label": "Antes: Imagen / Captura",
+    "before_placeholder": "[Suba cualquier imagen con una tabla]",
+    "after_label": "Después: Excel Editable",
+    "after_placeholder": "[Vista previa de .xlsx formateado]",
+
+    "use_cases_title": "¿Quién necesita un convertidor de Imagen a Excel?",
+    "use_cases_subtitle": "Desde capturistas de datos hasta dueños de negocios, automatizamos el trabajo aburrido",
+
+    "use_case_1_title": "Digitalizar Facturas y Recibos",
+    "use_case_1_desc": "Tome una foto de facturas en papel. Nuestra IA extrae los artículos, cantidades y precios directamente en columnas para su software contable.",
+
+    "use_case_2_title": "Captura de Pantalla a Excel",
+    "use_case_2_desc": "¿Tiene una tabla en un PDF o sitio web que no puede copiar? Tome una captura y súbala. Reconstruimos la cuadrícula al instante.",
+
+    "use_case_3_title": "Registros Manuscritos",
+    "use_case_3_desc": "La única herramienta que maneja letra manuscrita difícil. Convierta registros de stock de almacén y diarios de campo en hojas de cálculo digitales.",
+
+    "use_case_4_title": "Estados Financieros",
+    "use_case_4_desc": "Convierta fotos de extractos bancarios o libros contables impresos. Preservamos decimales y formatos de moneda para una integridad total de los datos.",
+
+    "comparison_title": "Imagen a Excel: Por qué NoteOCR es mejor",
+    "comparison_subtitle": "No sufra con convertidores de PDF genéricos",
+    "comparison_col_method": "Método",
+    "comparison_col_time": "Tiempo",
+    "comparison_col_accuracy": "Estructura de Tabla",
+    "comparison_col_cost": "Esfuerzo",
+
+    "comparison_row1_method": "Entrada de Datos Manual",
+    "comparison_row1_time": "1 hora / página",
+    "comparison_row1_accuracy": "Alto Riesgo de Error",
+    "comparison_row1_cost": "Alto (Aburrido)",
+
+    "comparison_row2_method": "Herramientas PDF Genéricas",
+    "comparison_row2_time": "5 minutos",
+    "comparison_row2_accuracy": "Falla con Imágenes",
+    "comparison_row2_cost": "Frustrante",
+
+    "comparison_row3_method": "NoteOCR IA",
+    "comparison_row3_time": "60 Segundos",
+    "comparison_row3_accuracy": "Retención Perfecta de Cuadrícula",
+    "comparison_row3_cost": "Automatizado",
+
+    "features_title": "La mejor forma de convertir fotos a tablas",
+    "features_subtitle": "Diseñado para JPG, PNG y fotos de móviles",
+
+    "feature_1_title": "Agnóstico al Formato",
+    "feature_1_desc": "¿No tiene un PDF? No hay problema. Nos especializamos en formatos de imagen (JPG, JPEG, PNG) que otros convertidores rechazan.",
+
+    "feature_2_title": "Reconstrucción Inteligente de Cuadrícula",
+    "feature_2_desc": "Nuestra IA no solo lee texto; 've' la cuadrícula. Alinea los datos flotantes en filas y columnas, incluso si la foto se tomó en ángulo.",
+
+    "feature_3_title": "Procesamiento Móvil Primero",
+    "feature_3_desc": "Creado para el flujo de trabajo 'Capturar y Listo'. Tome una foto de un documento en su escritorio y obtenga un archivo Excel en segundos.",
+
+    "tech_title": "Cómo funciona la IA de Imagen a Excel",
+    "tech_intro": "Convertir una imagen 'plana' en una hoja de cálculo dinámica es complejo. NoteOCR usa Visión Artificial para detectar las líneas visuales (o implícitas) de una tabla. Separa la imagen en un sistema de coordenadas, ejecuta OCR en cada celda y reensambla los datos en un archivo .xlsx.",
+
+    "tech_detect_title": "Lo que extraemos",
+    "tech_detect_1": "Estructuras de tablas de capturas de pantalla",
+    "tech_detect_2": "Datos de fotos sesgadas o en ángulo",
+    "tech_detect_3": "Números impresos y manuscritos",
+    "tech_detect_4": "Diseños de varias columnas",
+    "tech_detect_5": "Encabezados y pies de página",
+
+    "tech_tips_title": "Consejos para conversiones perfectas",
+    "tech_tips_1": "Asegúrese de que la imagen esté enfocada (sin desenfoque)",
+    "tech_tips_2": "Evite sombras sobre la tabla de datos",
+    "tech_tips_3": "Recorte la imagen al área de la tabla relevante",
+    "tech_tips_4": "Use configuraciones de alta resolución (HD)",
+    "tech_tips_5": "Use formatos estándar como JPG o PNG",
+
+    "related_tools_title": "Más herramientas de conversión",
+
+    "related_tool_1_name": "Imagen a Word",
+    "related_tool_1_desc": "Convierta texto manuscrito en documentos formateados",
+
+    "related_tool_2_name": "Editar PDF online (sin instalación)",
+    "related_tool_2_desc": "Suba y edite documentos PDF en línea desde cualquier lugar",
+
+    "related_tool_3_name": "Editor de documentos online",
+    "related_tool_3_desc": "Edite documentos MS Word o Excel online gratis",
+
+    "related_tool_4_name": "Imagen a Texto",
+    "related_tool_4_desc": "Convierta texto cursivo en imagen a texto editable",
+
+    "faq_title": "Preguntas Frecuentes: Convertir Imagen a Excel",
+
+    "cta_title": "Convierta esa foto en una hoja de cálculo",
+    "cta_subtitle": "Deje de escribir. Empiece a escanear. Únase a más de 10,000 usuarios que ahorran horas.",
+    "cta_button": "Convertir Imagen Ahora",
+
+    "tool_upload_title": "Subir Imagen para Convertir",
+    "tool_upload_desc": "Soporta JPG, PNG, WEBP. Funciona con capturas, fotos y documentos escaneados.",
+    "tool_upload_button": "Seleccionar Foto",
+    "tool_upload_check_1": "Soporte JPG / PNG",
+    "tool_upload_check_2": "Sin registro requerido",
+    "tool_upload_check_3": "Procesamiento Seguro",
+
+    "tool_processing_title": "Analizando imagen...",
+    "tool_processing_desc": "Identificando estructura de tabla y extrayendo datos",
+
+    "tool_complete_title": "¡Archivo Excel Listo!",
+    "tool_complete_desc": "Su imagen ha sido convertida. Descargue su hoja de cálculo abajo.",
+    "tool_complete_file_type": "Microsoft Excel (.xlsx)",
+    "tool_complete_status": "ÉXITO",
+    "tool_download_button": "Descargar Excel",
+    "tool_new_button": "Convertir Otra",
+
+    "tool_info_1_title": "Cualquier Imagen",
+    "tool_info_1_desc": "Soporta JPG, PNG, Capturas",
+
+    "tool_info_2_title": "IA de Tablas",
+    "tool_info_2_desc": "Preserva filas y columnas automáticamente",
+
+    "tool_info_3_title": "Editable",
+    "tool_info_3_desc": "Salida completa en Excel (.xlsx)",
+
+    "tool_tip_label": "Consejo de Escaneo:",
+    "tool_tip_text": "Si convierte un documento largo, tome varias fotos de cerca en lugar de una toma lejana. Mayor claridad equivale a mejor precisión.",
+
+    "toast_success": "¡Imagen convertida con éxito!",
+    "toast_error_type": "Por favor suba un archivo de imagen válido (JPG, PNG)",
+    "toast_error_size": "El archivo debe pesar menos de 25MB",
+    "toast_error_extraction": "No se pudo detectar una tabla.",
+    "toast_download_success": "¡Hoja de cálculo guardada!",
+    "toast_download_error": "Fallo en la descarga.",
+
+    "FAQ": {
+      "items": {
+        "pic_to_excel_how": {
+          "q": "¿Cómo convierto una foto a Excel?",
+          "a": "Simplemente suba su imagen (JPG, PNG o captura) a la herramienta. NoteOCR detectará automáticamente la cuadrícula dentro de la foto, extraerá el texto y números, y generará un archivo Excel descargable."
+        },
+        "jpg_vs_png": {
+          "q": "¿Funciona con archivos JPG y PNG?",
+          "a": "¡Sí! Nos especializamos en formatos de imagen. Puede convertir JPG, JPEG, PNG y WEBP. Es perfecto para fotos de celular y capturas de pantalla."
+        },
+        "screenshot_support": {
+          "q": "¿Puedo convertir una captura de pantalla a Excel?",
+          "a": "Absolutamente. Si tiene una tabla en una web o un PDF protegido, solo tome una captura y súbala aquí para obtener los datos en Excel."
+        },
+        "handwriting_in_pic": {
+          "q": "¿Qué pasa si la foto tiene letra manuscrita?",
+          "a": "NoteOCR es único porque maneja texto impreso y manuscrito. Si toma una foto de un libro de registro escrito a mano, nuestra IA lo convertirá en una hoja de Excel estructurada."
+        },
+        "mobile_phone": {
+          "q": "¿Puedo usarlo en mi teléfono?",
+          "a": "Sí. El sitio está totalmente optimizado para móviles. Puede tomar una foto desde su cámara y convertirla a Excel directamente en su smartphone."
+        },
+        "blurry_photos": {
+          "q": "¿Puede leer fotos borrosas?",
+          "a": "Nuestra IA mejora la imagen para enfocar el texto. Sin embargo, para una precisión del 99%, recomendamos que el texto esté bien iluminado. Si un humano no puede leerlo, la IA podría tener problemas."
+        },
+        "excel_formatting": {
+          "q": "¿El archivo Excel se verá como la imagen?",
+          "a": "Buscamos preservar la estructura exacta (filas y columnas). Los colores pueden estandarizarse para limpiar el documento, pero los datos estarán en las celdas correctas."
+        },
+        "security_images": {
+          "q": "¿Es seguro subir fotos de documentos financieros?",
+          "a": "La seguridad es prioridad. Sus imágenes se procesan vía conexiones SSL cifradas y se eliminan permanentemente de nuestros servidores tras la conversión."
+        },
+        "free_limit": {
+          "q": "¿Este convertidor de imagen a Excel es gratis?",
+          "a": "Sí, puede probarlo gratis. Ofrecemos un nivel gratuito generoso. Para procesamiento por lotes de cientos de imágenes, tenemos planes de pago."
+        },
+        "scanned_docs": {
+          "q": "¿Funciona en documentos escaneados?",
+          "a": "Sí. Los escaneos guardados como JPG/PNG funcionan perfecto. Para mejores resultados, escanee a 300 DPI o más."
+        },
+        "multiple_tables": {
+          "q": "¿Qué pasa si mi imagen tiene dos tablas?",
+          "a": "NoteOCR intenta detectar todas las estructuras de cuadrícula. Típicamente las apilará o separará en el Excel final dependiendo del diseño."
+        },
+        "mac_windows": {
+          "q": "¿Funciona en Mac y Windows?",
+          "a": "Al ser una herramienta web, funciona en cualquier sistema operativo (Windows, Mac, iOS, Android) con un navegador moderno como Chrome o Safari."
+        },
+        "no_lines": {
+          "q": "¿Puede leer tablas sin líneas de cuadrícula?",
+          "a": "Sí. Nuestra IA analiza el espacio en blanco y la alineación para entender dónde empiezan las columnas, incluso sin bordes visibles."
+        },
+        "batch_images": {
+          "q": "¿Puedo convertir varias imágenes a la vez?",
+          "a": "Actualmente, la interfaz procesa una por una para asegurar máxima precisión. Para acceso por API masivo, consulte nuestros precios de desarrollador."
+        },
+        "languages": {
+          "q": "¿Qué idiomas soporta?",
+          "a": "Soporta la mayoría de los idiomas con alfabeto latino (español, inglés, francés, alemán, etc.) y estamos expandiendo el soporte para alfabetos asiáticos y árabe."
+        }
+      }
+    }
   }
 }
