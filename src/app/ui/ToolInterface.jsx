@@ -103,7 +103,7 @@ export default function ToolInterface({ locale }) {
 
       handleUpload({
         images: [base64String],
-        userId: "67b746ab6256a6bdb691b18a",
+        userId: "6987764b9da4d6ff690600da",
         conversionType: "imageToWord",
         documentName: generateRandomDocName(),
         folder: "Personal",
