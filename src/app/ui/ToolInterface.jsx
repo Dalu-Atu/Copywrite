@@ -12,11 +12,11 @@ import {
   Layout,
   FileType,
   AlertCircle,
-  FileWarning, // Added for the toaster
+  FileWarning,
+  Hourglass,
 } from "lucide-react";
 import { useMutation } from "@tanstack/react-query";
 import { uploadAndTranscribe, downloadDocument } from "../lib/api-service";
-// import { toast } from "react-hot-toast"; <--- Removed
 import { useTranslations } from "next-intl";
 
 export default function ToolInterface({ locale }) {
@@ -34,11 +34,8 @@ export default function ToolInterface({ locale }) {
     type: "error", // 'success' or 'error'
   });
 
-  // Helper to show the custom toast
   const showToast = (title, message, type = "error") => {
     setToastState({ visible: true, title, message, type });
-
-    // Auto hide after 4 seconds
     setTimeout(() => {
       setToastState((prev) => ({ ...prev, visible: false }));
     }, 6000);
@@ -49,7 +46,6 @@ export default function ToolInterface({ locale }) {
   };
   // ---------------------------
 
-  // Mutation for uploading
   const { mutate: handleUpload, isPending: isProcessing } = useMutation({
     mutationFn: uploadAndTranscribe,
     onSuccess: (data) => {
@@ -75,20 +71,16 @@ export default function ToolInterface({ locale }) {
   };
 
   const processFile = async (selectedFile) => {
-    // Validate file type
     const validTypes = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
-
     if (!validTypes.includes(selectedFile.type)) {
-      // TRIGGER CUSTOM TOASTER
       showToast(
         "Invalid File Type",
-        "Unsupported format. Please upload a JPG, or  PNG file.",
+        "Please upload a JPG or PNG file.",
         "error"
       );
       return;
     }
 
-    // Validate file size (25MB limit)
     const maxSize = 25 * 1024 * 1024;
     if (selectedFile.size > maxSize) {
       showToast("File Too Large", t("toast_error_size"), "error");
@@ -100,7 +92,6 @@ export default function ToolInterface({ locale }) {
     reader.readAsDataURL(selectedFile);
     reader.onload = () => {
       const base64String = reader.result.split(",")[1];
-
       handleUpload({
         images: [base64String],
         userId: "6987764b9da4d6ff690600da",
@@ -118,28 +109,9 @@ export default function ToolInterface({ locale }) {
     }
   };
 
-  // Drag and drop handlers
-  const handleDrag = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    if (e.type === "dragenter" || e.type === "dragover") {
-      setDragActive(true);
-    } else if (e.type === "dragleave") {
-      setDragActive(false);
-    }
-  };
-
-  const handleDrop = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setDragActive(false);
-
-    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      processFile(e.dataTransfer.files[0]);
-    }
-  };
-
+  // --- RESTORED HANDLEDOWNLOAD ---
   const handleDownload = async () => {
+    if (!resultDoc) return;
     try {
       await downloadDocument({
         userId: resultDoc.userId,
@@ -159,58 +131,39 @@ export default function ToolInterface({ locale }) {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto relative">
-      {/* --- CUSTOM TOASTER COMPONENT UI --- */}
+    <div className="w-full max-w-3xl mx-auto relative px-2">
+      {/* TOASTER UI */}
       <div
-        className={`fixed top-16 left-1/2 -translate-x-1/2 z-[100] transition-all duration-500 ease-in-out ${
+        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[100] transition-all duration-300 ${
           toastState.visible
             ? "opacity-100 translate-y-0"
             : "opacity-0 -translate-y-4 pointer-events-none"
         }`}
       >
         <div
-          className={`
-          flex items-start gap-4 p-4 rounded-xl shadow-2xl border backdrop-blur-md w-[350px] sm:w-[400px]
-          ${
+          className={`flex items-start gap-3 p-4 rounded-xl shadow-2xl border backdrop-blur-md w-[90vw] max-w-[400px] ${
             toastState.type === "error"
-              ? "bg-red-500/10 border-red-500/20 shadow-[0_0_30px_-10px_rgba(239,68,68,0.3)]"
-              : "bg-blue-500/10 border-blue-500/20 shadow-[0_0_30px_-10px_rgba(59,130,246,0.3)]"
-          }
-        `}
+              ? "bg-red-500/10 border-red-500/20"
+              : "bg-blue-500/10 border-blue-500/20"
+          }`}
         >
-          {/* Icon Box */}
-          <div
-            className={`
-            w-10 h-10 rounded-full flex items-center justify-center shrink-0 border
-            ${
-              toastState.type === "error"
-                ? "bg-red-500/20 border-red-500/30"
-                : "bg-blue-500/20 border-blue-500/30"
-            }
-          `}
-          >
+          <div className="shrink-0 pt-0.5">
             {toastState.type === "error" ? (
               <FileWarning className="w-5 h-5 text-red-500" />
             ) : (
               <Check className="w-5 h-5 text-blue-500" />
             )}
           </div>
-
-          {/* Text Content */}
-          <div className="flex-1 pt-0.5">
+          <div className="flex-1 text-left">
             <h4
-              className={`text-sm font-bold mb-1 ${
+              className={`text-sm font-bold ${
                 toastState.type === "error" ? "text-red-400" : "text-blue-400"
               }`}
             >
               {toastState.title}
             </h4>
-            <p className="text-xs text-gray-300 leading-relaxed">
-              {toastState.message}
-            </p>
+            <p className="text-xs text-gray-300">{toastState.message}</p>
           </div>
-
-          {/* Close Button */}
           <button
             onClick={closeToast}
             className="text-gray-500 hover:text-white transition-colors"
@@ -219,26 +172,25 @@ export default function ToolInterface({ locale }) {
           </button>
         </div>
       </div>
-      {/* ----------------------------------- */}
 
-      {/* Main Card */}
-      <div className="bg-[#0a0a0a] border-2 border-white/10 rounded-2xl p-3 shadow-2xl">
+      {/* Main Container - min-h fixed to prevent mobile "zoom" jumps */}
+      <div className="bg-[#0a0a0a] border-2 border-white/10 rounded-2xl p-2 sm:p-3 shadow-2xl min-h-[550px] flex flex-col overflow-hidden">
         <div
-          className={`
-            border-2 border-dashed rounded-xl min-h-[400px] 
-            flex flex-col items-center justify-center 
-            relative overflow-hidden transition-all
-            ${
-              dragActive
-                ? "border-blue-500 bg-blue-500/5"
-                : "border-white/10 bg-white/[0.02]"
-            }
-            ${isProcessing ? "pointer-events-none" : ""}
-          `}
-          onDragEnter={handleDrag}
-          onDragLeave={handleDrag}
-          onDragOver={handleDrag}
-          onDrop={handleDrop}
+          className={`flex-1 border-2 border-dashed rounded-xl flex flex-col items-center justify-center relative transition-colors duration-300 ${
+            dragActive
+              ? "border-blue-500 bg-blue-500/5"
+              : "border-white/10 bg-white/[0.02]"
+          }`}
+          onDragOver={(e) => {
+            e.preventDefault();
+            setDragActive(true);
+          }}
+          onDragLeave={() => setDragActive(false)}
+          onDrop={(e) => {
+            e.preventDefault();
+            setDragActive(false);
+            if (e.dataTransfer.files?.[0]) processFile(e.dataTransfer.files[0]);
+          }}
         >
           <input
             type="file"
@@ -246,134 +198,101 @@ export default function ToolInterface({ locale }) {
             onChange={onFileChange}
             accept="image/*"
             className="hidden"
-            disabled={isProcessing}
           />
 
-          {/* STATE: IDLE (Upload) */}
+          {/* 1. IDLE STATE */}
           {!file && !isProcessing && (
-            <div className="text-center p-8 max-w-md">
-              <div className="relative mb-8">
-                <div
-                  onClick={() => fileInputRef.current.click()}
-                  className="w-24 h-24 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center mx-auto cursor-pointer hover:bg-white/10 hover:border-blue-500/50 hover:scale-105 transition-all group"
-                >
-                  <Upload className="w-12 h-12 text-blue-500 group-hover:text-blue-400 transition-colors" />
-                </div>
-                <div className="absolute top-0 right-1/2 translate-x-12 -translate-y-2">
-                  <div className="bg-blue-500/10 border border-blue-500/30 rounded-full p-2">
-                    <Layout className="w-4 h-4 text-blue-400" />
-                  </div>
-                </div>
+            <div className="text-center p-6 animate-in fade-in duration-500">
+              <div
+                onClick={() => fileInputRef.current.click()}
+                className="w-20 h-20 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center mx-auto mb-6 cursor-pointer hover:border-blue-500/50 transition-all group"
+              >
+                <Upload className="w-10 h-10 text-blue-500 group-hover:scale-110 transition-transform" />
               </div>
-
-              <h3 className="text-2xl font-bold mb-3">
+              <h3 className="text-xl sm:text-2xl font-bold mb-2">
                 {t("tool_upload_title")}
               </h3>
-              <p className="text-gray-500 mb-8 leading-relaxed">
+              <p className="text-gray-500 text-sm mb-8 px-4 leading-relaxed">
                 {t("tool_upload_desc")}
               </p>
-
               <button
                 onClick={() => fileInputRef.current.click()}
-                className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 px-10 rounded-lg transition-all hover:scale-105 shadow-lg shadow-blue-600/20 mb-6"
+                className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-10 rounded-lg shadow-lg active:scale-95 transition-all"
               >
                 {t("tool_upload_button")}
               </button>
-
-              <div className="flex items-center justify-center gap-6 text-[10px] text-gray-600 font-mono uppercase tracking-wider">
-                <div className="flex items-center gap-1">
-                  <Check className="w-3 h-3" /> {t("tool_upload_check_1")}
-                </div>
-                <div className="flex items-center gap-1">
-                  <Check className="w-3 h-3" /> {t("tool_upload_check_2")}
-                </div>
-                <div className="flex items-center gap-1">
-                  <Check className="w-3 h-3" /> {t("tool_upload_check_3")}
-                </div>
-              </div>
             </div>
           )}
 
-          {/* STATE: PROCESSING */}
+          {/* 2. PROCESSING STATE */}
           {isProcessing && (
-            <div className="text-center p-8">
-              <div className="relative mb-8">
-                <div className="w-24 h-24 bg-white/5 border border-blue-500/30 rounded-2xl mx-auto flex items-center justify-center">
-                  <Loader2 className="w-12 h-12 text-blue-500 animate-spin" />
-                </div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-32 h-32 border-2 border-blue-500/20 rounded-full animate-ping"></div>
+            <div className="text-center p-6 w-full max-w-sm animate-in fade-in duration-300">
+              <div className="relative w-20 h-20 mx-auto mb-8">
+                <Loader2 className="w-full h-full text-blue-500 animate-spin" />
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                  <div className="w-24 h-24 border-2 border-blue-500/20 rounded-full animate-ping opacity-50"></div>
                 </div>
               </div>
-
-              <h3 className="text-xl font-bold mb-2">
+              <h3 className="text-lg font-bold mb-6 text-white">
                 {t("tool_processing_title")}
               </h3>
-              <p className="text-gray-500 text-sm mb-6">
-                {t("tool_processing_desc")}
-              </p>
 
-              <div className="max-w-xs mx-auto">
-                <div className="flex items-center gap-3 p-3 bg-white/[0.02] border border-white/5 rounded-lg mb-2">
-                  <div className="w-8 h-8 bg-blue-500/10 rounded flex items-center justify-center shrink-0">
-                    <Sparkles className="w-4 h-4 text-blue-500" />
-                  </div>
-                  <div className="text-left text-xs">
-                    <div className="font-bold text-white">{file?.name}</div>
-                    <div className="text-gray-600">
-                      {(file?.size / 1024).toFixed(0)} KB
-                    </div>
+              <div className="bg-yellow-500/5 border border-yellow-500/20 rounded-xl p-4 text-left backdrop-blur-sm">
+                <div className="flex gap-3">
+                  <Hourglass className="w-5 h-5 text-yellow-500 shrink-0 animate-pulse mt-0.5" />
+                  <div>
+                    <p className="text-xs font-bold text-yellow-500 uppercase tracking-widest mb-1">
+                      Finalizing Transcription...
+                    </p>
+                    <p className="text-xs text-gray-400 leading-relaxed">
+                      Handwriting analysis is intensive. Please{" "}
+                      <span className="text-gray-200 font-semibold italic">
+                        don't leave yet
+                      </span>
+                      . It typically takes 30-60 seconds to format your document
+                      perfectly.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           )}
 
-          {/* STATE: COMPLETE */}
+          {/* 3. SUCCESS STATE */}
           {resultDoc && !isProcessing && (
-            <div className="text-center p-8 max-w-md">
-              <div className="relative mb-8">
-                <div className="w-24 h-24 bg-blue-500/10 border-2 border-blue-500/30 rounded-2xl flex items-center justify-center mx-auto">
-                  <FileType className="w-12 h-12 text-blue-500" />
-                </div>
-                <div className="absolute -top-2 -right-2 bg-blue-600 text-white text-[10px] font-bold px-3 py-1 rounded-full shadow-lg">
-                  {t("tool_complete_status")}
-                </div>
+            <div className="text-center p-6 w-full max-w-sm animate-in fade-in slide-in-from-bottom-4 duration-500">
+              <div className="w-20 h-20 bg-blue-500/10 border-2 border-blue-500/30 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <FileType className="w-10 h-10 text-blue-500" />
               </div>
-
-              <h3 className="text-2xl font-bold mb-2">
+              <h3 className="text-xl sm:text-2xl font-bold mb-2">
                 {t("tool_complete_title")}
               </h3>
-              <p className="text-gray-500 mb-8">{t("tool_complete_desc")}</p>
+              <p className="text-gray-500 text-sm mb-8">
+                {t("tool_complete_desc")}
+              </p>
 
-              {/* File Info Card */}
-              <div className="bg-white/[0.02] border border-white/5 rounded-lg p-4 mb-8">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-blue-500/10 rounded flex items-center justify-center">
-                      <FileText className="w-5 h-5 text-blue-500" />
-                    </div>
-                    <div className="text-left text-sm">
-                      <div className="font-bold">{resultDoc.name}</div>
-                      <div className="text-gray-600 text-xs">
-                        {t("tool_complete_file_type")}
-                      </div>
-                    </div>
+              <div className="bg-white/[0.03] border border-white/10 rounded-lg p-4 mb-8 flex items-center justify-between">
+                <div className="flex items-center gap-3 overflow-hidden">
+                  <div className="w-8 h-8 bg-blue-500/10 rounded flex items-center justify-center shrink-0">
+                    <FileText className="w-4 h-4 text-blue-500" />
                   </div>
-                  <Check className="w-6 h-6 text-blue-500" />
+                  <span className="text-xs text-gray-300 truncate font-mono">
+                    {resultDoc.name}
+                  </span>
                 </div>
+                <Check className="w-5 h-5 text-blue-500 shrink-0" />
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col gap-3">
                 <button
                   onClick={handleDownload}
-                  className="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 px-6 rounded-lg shadow-lg shadow-blue-600/20 transition-all hover:scale-105"
+                  className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-lg shadow-lg active:scale-95 transition-all"
                 >
                   <Download className="w-5 h-5" /> {t("tool_download_button")}
                 </button>
                 <button
                   onClick={resetTool}
-                  className="flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold py-4 px-6 rounded-lg transition-all"
+                  className="w-full flex items-center justify-center gap-2 bg-white/5 border border-white/10 text-white py-3 rounded-lg text-sm hover:bg-white/10 transition-colors"
                 >
                   <RefreshCw className="w-4 h-4" /> {t("tool_new_button")}
                 </button>
@@ -383,45 +302,42 @@ export default function ToolInterface({ locale }) {
         </div>
       </div>
 
-      {/* Info Cards Below */}
-      <div className="grid md:grid-cols-3 gap-4 mt-6">
-        <div className="bg-white/[0.02] border border-white/5 rounded-lg p-4">
-          <div className="flex items-center gap-3 mb-2">
-            <Layout className="w-5 h-5 text-blue-500" />
-            <span className="text-sm font-bold">{t("tool_info_1_title")}</span>
+      {/* FOOTER INFO CARDS */}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
+        {[
+          {
+            icon: Layout,
+            title: t("tool_info_1_title"),
+            desc: t("tool_info_1_desc"),
+          },
+          {
+            icon: Sparkles,
+            title: t("tool_info_2_title"),
+            desc: t("tool_info_2_desc"),
+          },
+          {
+            icon: FileType,
+            title: t("tool_info_3_title"),
+            desc: t("tool_info_3_desc"),
+          },
+        ].map((item, i) => (
+          <div
+            key={i}
+            className="bg-white/[0.03] border border-white/5 rounded-xl p-4"
+          >
+            <div className="flex items-center gap-2 mb-1.5">
+              <item.icon className="w-4 h-4 text-blue-500" />
+              <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400">
+                {item.title}
+              </span>
+            </div>
+            <p className="text-[11px] text-gray-500 leading-normal">
+              {item.desc}
+            </p>
           </div>
-          <p className="text-xs text-gray-600">{t("tool_info_1_desc")}</p>
-        </div>
-
-        <div className="bg-white/[0.02] border border-white/5 rounded-lg p-4">
-          <div className="flex items-center gap-3 mb-2">
-            <Sparkles className="w-5 h-5 text-blue-500" />
-            <span className="text-sm font-bold">{t("tool_info_2_title")}</span>
-          </div>
-          <p className="text-xs text-gray-600">{t("tool_info_2_desc")}</p>
-        </div>
-
-        <div className="bg-white/[0.02] border border-white/5 rounded-lg p-4">
-          <div className="flex items-center gap-3 mb-2">
-            <FileType className="w-5 h-5 text-blue-500" />
-            <span className="text-sm font-bold">{t("tool_info_3_title")}</span>
-          </div>
-          <p className="text-xs text-gray-600">{t("tool_info_3_desc")}</p>
-        </div>
-      </div>
-
-      {/* Quality Tips */}
-      <div className="mt-6 p-4 bg-blue-500/5 border border-blue-500/20 rounded-lg">
-        <div className="flex items-start gap-3">
-          <AlertCircle className="w-5 h-5 text-blue-400 shrink-0 mt-0.5" />
-          <div className="text-sm">
-            <span className="font-bold text-blue-400">
-              {t("tool_tip_label")}
-            </span>
-            <span className="text-gray-400 ml-2">{t("tool_tip_text")}</span>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
 }
+
