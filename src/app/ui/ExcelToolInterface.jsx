@@ -396,8 +396,8 @@ export default function ExcelToolInterface({ locale, translation }) {
     const fileName = encodeURIComponent(document.name);
 
     // Point to your main React app subdomain
-    // window.location.href = `https://app.noteocr.com/trial-preview?folder=${folder}&file=${fileName}`;
-    window.location.href = `http://localhost:5173/trial-preview?folder=${folder}&file=${fileName}`;
+    window.location.href = `https://app.noteocr.com/trial-preview?folder=${folder}&file=${fileName}`;
+    // window.location.href = `http://localhost:5173/trial-preview?folder=${folder}&file=${fileName}`;
   };
   // Mutation for uploading
   const { mutate: handleUpload, isPending: isProcessing } = useMutation({
