@@ -1,26 +1,27 @@
 "use client";
 import React, { useState, useRef } from "react";
+import { useRouter } from "next/navigation";
 import {
   Upload,
   FileText,
   Loader2,
-  Download,
   RefreshCw,
   Check,
   X,
   Sparkles,
   Layout,
   FileType,
-  AlertCircle,
   FileWarning,
   Hourglass,
+  ExternalLink,
 } from "lucide-react";
 import { useMutation } from "@tanstack/react-query";
-import { uploadAndTranscribe, downloadDocument } from "../lib/api-service";
+import { uploadAndTranscribe } from "../lib/api-service";
 import { useTranslations } from "next-intl";
 
-export default function ToolInterface({ locale }) {
-  const t = useTranslations("WordPage");
+export default function WordToolInterface({ locale, translation }) {
+  const t = useTranslations(translation);
+  const router = useRouter();
   const [file, setFile] = useState(null);
   const [resultDoc, setResultDoc] = useState(null);
   const [dragActive, setDragActive] = useState(false);
@@ -31,7 +32,7 @@ export default function ToolInterface({ locale }) {
     visible: false,
     title: "",
     message: "",
-    type: "error", // 'success' or 'error'
+    type: "error",
   });
 
   const showToast = (title, message, type = "error") => {
@@ -44,14 +45,33 @@ export default function ToolInterface({ locale }) {
   const closeToast = () => {
     setToastState((prev) => ({ ...prev, visible: false }));
   };
-  // ---------------------------
 
+  // --- SUCCESS REDIRECT LOGIC (Matching Excel) ---
+  const redirectToTrial = (document) => {
+    const folder = encodeURIComponent(document.folder || "Personal");
+    const fileName = encodeURIComponent(document.name);
+
+    // Redirecting to your main app (localhost for dev, app.noteocr.com for prod)
+    window.location.href = `http://localhost:5173/trial-preview?folder=${folder}&file=${fileName}`;
+    // window.location.href = `https://app.noteocr.com/trial-preview?folder=${folder}&file=${fileName}`;
+  };
+
+  // Mutation for uploading
   const { mutate: handleUpload, isPending: isProcessing } = useMutation({
     mutationFn: uploadAndTranscribe,
     onSuccess: (data) => {
       if (data.success) {
         setResultDoc(data.document);
-        showToast("Success", t("toast_success"), "success");
+        showToast(
+          "Success",
+          "Transcription complete. Opening preview...",
+          "success"
+        );
+
+        // Auto-redirect after a short delay
+        setTimeout(() => {
+          redirectToTrial(data.document);
+        }, 1200);
       }
     },
     onError: (error) => {
@@ -64,7 +84,7 @@ export default function ToolInterface({ locale }) {
     },
   });
 
-  const generateRandomDocName = (baseName = "noteocr_notes") => {
+  const generateRandomDocName = (baseName = "noteocr_word") => {
     const timestamp = Date.now();
     const random = Math.random().toString(36).substring(2, 8);
     return `${baseName}_${timestamp}_${random}`;
@@ -75,7 +95,7 @@ export default function ToolInterface({ locale }) {
     if (!validTypes.includes(selectedFile.type)) {
       showToast(
         "Invalid File Type",
-        "Please upload a JPG or PNG file.",
+        "Please upload a JPG, PNG, or WEBP.",
         "error"
       );
       return;
@@ -94,8 +114,8 @@ export default function ToolInterface({ locale }) {
       const base64String = reader.result.split(",")[1];
       handleUpload({
         images: [base64String],
-        userId: "6987764b9da4d6ff690600da",
-        conversionType: "imageToWord",
+        userId: "67b746ab6256a6bdb691b18a",
+        conversionType: "imageToWord", // Specific for Word page
         documentName: generateRandomDocName(),
         folder: "Personal",
         updating: false,
@@ -104,24 +124,7 @@ export default function ToolInterface({ locale }) {
   };
 
   const onFileChange = (e) => {
-    if (e.target.files?.[0]) {
-      processFile(e.target.files[0]);
-    }
-  };
-
-  // --- RESTORED HANDLEDOWNLOAD ---
-  const handleDownload = async () => {
-    if (!resultDoc) return;
-    try {
-      await downloadDocument({
-        userId: resultDoc.userId,
-        folder: resultDoc.folder,
-        fileName: resultDoc.name,
-      });
-      showToast("Downloaded", t("toast_download_success"), "success");
-    } catch (err) {
-      showToast("Error", t("toast_download_error"), "error");
-    }
+    if (e.target.files?.[0]) processFile(e.target.files[0]);
   };
 
   const resetTool = () => {
@@ -134,7 +137,7 @@ export default function ToolInterface({ locale }) {
     <div className="w-full max-w-3xl mx-auto relative px-2">
       {/* TOASTER UI */}
       <div
-        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[100] transition-all duration-300 ${
+        className={`fixed top-11 left-1/2 -translate-x-1/2 z-[100] transition-all duration-300 ${
           toastState.visible
             ? "opacity-100 translate-y-0"
             : "opacity-0 -translate-y-4 pointer-events-none"
@@ -144,7 +147,7 @@ export default function ToolInterface({ locale }) {
           className={`flex items-start gap-3 p-4 rounded-xl shadow-2xl border backdrop-blur-md w-[90vw] max-w-[400px] ${
             toastState.type === "error"
               ? "bg-red-500/10 border-red-500/20"
-              : "bg-blue-500/10 border-blue-500/20"
+              : "bg-blue-500/10 border-blue-500/20 shadow-blue-900/20"
           }`}
         >
           <div className="shrink-0 pt-0.5">
@@ -173,7 +176,6 @@ export default function ToolInterface({ locale }) {
         </div>
       </div>
 
-      {/* Main Container - min-h fixed to prevent mobile "zoom" jumps */}
       <div className="bg-[#0a0a0a] border-2 border-white/10 rounded-2xl p-2 sm:p-3 shadow-2xl min-h-[550px] flex flex-col overflow-hidden">
         <div
           className={`flex-1 border-2 border-dashed rounded-xl flex flex-col items-center justify-center relative transition-colors duration-300 ${
@@ -210,17 +212,18 @@ export default function ToolInterface({ locale }) {
                 <Upload className="w-10 h-10 text-blue-500 group-hover:scale-110 transition-transform" />
               </div>
               <h3 className="text-xl sm:text-2xl font-bold mb-2">
-                {t("tool_upload_title")}
-              </h3>
-              <p className="text-gray-500 text-sm mb-8 px-4 leading-relaxed">
-                {t("tool_upload_desc")}
-              </p>
-              <button
-                onClick={() => fileInputRef.current.click()}
-                className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-10 rounded-lg shadow-lg active:scale-95 transition-all"
-              >
-                {t("tool_upload_button")}
-              </button>
+                      Upload Handwriting
+                    </h3>
+                    <p className="text-gray-500 text-sm mb-8 px-4 leading-relaxed">
+                      Upload images of your handwritten notes to convert them
+                      into editable Word docs.
+                    </p>
+                    <button
+                      onClick={() => fileInputRef.current.click()}
+                      className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-10 rounded-lg shadow-lg active:scale-95 transition-all"
+                    >
+                      Select Image
+                    </button>
             </div>
           )}
 
@@ -229,28 +232,20 @@ export default function ToolInterface({ locale }) {
             <div className="text-center p-6 w-full max-w-sm animate-in fade-in duration-300">
               <div className="relative w-20 h-20 mx-auto mb-8">
                 <Loader2 className="w-full h-full text-blue-500 animate-spin" />
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="w-24 h-24 border-2 border-blue-500/20 rounded-full animate-ping opacity-50"></div>
-                </div>
               </div>
               <h3 className="text-lg font-bold mb-6 text-white">
-                {t("tool_processing_title")}
+               Analyzing image
               </h3>
-
-              <div className="bg-yellow-500/5 border border-yellow-500/20 rounded-xl p-4 text-left backdrop-blur-sm">
+              <div className="bg-blue-500/5 border border-blue-500/20 rounded-xl p-4 text-left backdrop-blur-sm">
                 <div className="flex gap-3">
-                  <Hourglass className="w-5 h-5 text-yellow-500 shrink-0 animate-pulse mt-0.5" />
+                  <Hourglass className="w-5 h-5 text-blue-500 shrink-0 animate-pulse mt-0.5" />
                   <div>
-                    <p className="text-xs font-bold text-yellow-500 uppercase tracking-widest mb-1">
-                      Finalizing Transcription...
+                    <p className="text-xs font-bold text-blue-500 uppercase tracking-widest mb-1">
+                      NoteOCR Engine
                     </p>
                     <p className="text-xs text-gray-400 leading-relaxed">
-                      Handwriting analysis is intensive. Please{" "}
-                      <span className="text-gray-200 font-semibold italic">
-                        don't leave yet
-                      </span>
-                      . It typically takes 30-60 seconds to format your document
-                      perfectly.
+                      Deep analysis is running. It typically takes 30-60 seconds
+                      to format your handwritten notes into Word.
                     </p>
                   </div>
                 </div>
@@ -258,43 +253,31 @@ export default function ToolInterface({ locale }) {
             </div>
           )}
 
-          {/* 3. SUCCESS STATE */}
+          {/* 3. REDIRECT STATE (Success) */}
           {resultDoc && !isProcessing && (
             <div className="text-center p-6 w-full max-w-sm animate-in fade-in slide-in-from-bottom-4 duration-500">
               <div className="w-20 h-20 bg-blue-500/10 border-2 border-blue-500/30 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <FileType className="w-10 h-10 text-blue-500" />
+                <Check className="w-10 h-10 text-blue-500" />
               </div>
               <h3 className="text-xl sm:text-2xl font-bold mb-2">
-                {t("tool_complete_title")}
+                Document Ready
               </h3>
               <p className="text-gray-500 text-sm mb-8">
-                {t("tool_complete_desc")}
+                Your file has been converted. Opening the secure preview...
               </p>
-
-              <div className="bg-white/[0.03] border border-white/10 rounded-lg p-4 mb-8 flex items-center justify-between">
-                <div className="flex items-center gap-3 overflow-hidden">
-                  <div className="w-8 h-8 bg-blue-500/10 rounded flex items-center justify-center shrink-0">
-                    <FileText className="w-4 h-4 text-blue-500" />
-                  </div>
-                  <span className="text-xs text-gray-300 truncate font-mono">
-                    {resultDoc.name}
-                  </span>
-                </div>
-                <Check className="w-5 h-5 text-blue-500 shrink-0" />
-              </div>
 
               <div className="flex flex-col gap-3">
                 <button
-                  onClick={handleDownload}
+                  onClick={() => redirectToTrial(resultDoc)}
                   className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-lg shadow-lg active:scale-95 transition-all"
                 >
-                  <Download className="w-5 h-5" /> {t("tool_download_button")}
+                  <ExternalLink className="w-5 h-5" /> Open Preview
                 </button>
                 <button
                   onClick={resetTool}
-                  className="w-full flex items-center justify-center gap-2 bg-white/5 border border-white/10 text-white py-3 rounded-lg text-sm hover:bg-white/10 transition-colors"
+                  className="text-xs text-gray-500 hover:text-white transition-colors"
                 >
-                  <RefreshCw className="w-4 h-4" /> {t("tool_new_button")}
+                  <RefreshCw className="w-3 h-3 inline mr-1" /> New Conversion
                 </button>
               </div>
             </div>
@@ -312,8 +295,8 @@ export default function ToolInterface({ locale }) {
           },
           {
             icon: Sparkles,
-            title: t("tool_info_2_title"),
-            desc: t("tool_info_2_desc"),
+            title: "NoteOCR Tech",
+            desc: "Highest precision handwriting-to-text extraction.",
           },
           {
             icon: FileType,
@@ -340,4 +323,3 @@ export default function ToolInterface({ locale }) {
     </div>
   );
 }
-
