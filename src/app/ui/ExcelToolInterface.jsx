@@ -639,8 +639,8 @@ export default function ExcelToolInterface({ locale, translation }) {
           },
           {
             icon: Sparkles,
-            title: "NoteOCR Tech",
-            desc: "Highest precision table extraction on the market.",
+            title: t("tool_info_2_title"),
+            desc: t("tool_info_2_desc"),
           },
           {
             icon: FileSpreadsheet,

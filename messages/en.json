@@ -2175,5 +2175,1133 @@
         }
       }
     }
+  },
+  "JpgToWord": {
+    "meta_title": "Convert JPG to Word Document | Extract Text from JPEG to DOCX",
+    "meta_desc": "Instantly convert JPG and JPEG images to editable Word documents. Our advanced OCR extracts text from photos, screenshots, and scans while preserving formatting.",
+
+    "hero_pill": "Fast Image-to-Text OCR",
+    "hero_title": "Convert JPG to Word Documents Instantly",
+    "hero_subtitle": "Stop retyping text from images. Upload any JPG, JPEG, or photo, and our advanced AI will accurately extract the text into a fully editable Microsoft Word (.docx) file.",
+
+    "trust_ssl": "256-BIT SECURE UPLOAD",
+    "trust_processing": "FAST JPEG PROCESSING",
+    "trust_accuracy": "HIGH FIDELITY OCR",
+
+    "before_after_title": "From Flat Image to Editable Text",
+    "before_after_desc": "See how we perfectly extract locked text from a JPG into an editable format.",
+    "before_label": "Before: Original JPG Image",
+    "before_placeholder": "",
+    "after_label": "After: Editable Word Document",
+    "after_placeholder": "",
+
+    "use_cases_title": "Why Convert JPG to Word?",
+    "use_cases_subtitle": "The easiest way to make text trapped in images fully editable.",
+
+    "use_case_1_title": "Scanned Documents",
+    "use_case_1_desc": "Turn scanned JPEGs of contracts, invoices, and official letters into editable text while preserving paragraphs and layout.",
+
+    "use_case_2_title": "Screenshots & Web Snippets",
+    "use_case_2_desc": "Convert JPG screenshots of websites, restricted PDFs, or apps into text you can instantly copy, edit, and format in Word.",
+
+    "use_case_3_title": "Photos of Printed Pages",
+    "use_case_3_desc": "Took a picture of a book, manual, or magazine? Extract the text accurately without having to type a single word.",
+
+    "use_case_4_title": "Images with Handwriting",
+    "use_case_4_desc": "Unlike basic converters, our engine can also read and convert JPG photos containing handwritten notes or whiteboard sessions.",
+
+    "comparison_title": "JPG to Word: Why File Converters Fail",
+    "comparison_subtitle": "Most tools just paste your image into a Word file. NoteOCR actually extracts the text.",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time",
+    "comparison_col_accuracy": "Text Extraction",
+    "comparison_col_cost": "Cost",
+
+    "comparison_row1_method": "Manual Typing",
+    "comparison_row1_time": "15-30 minutes",
+    "comparison_row1_accuracy": "High (but tedious)",
+    "comparison_row1_cost": "Your Time",
+
+    "comparison_row2_method": "Standard File Converters",
+    "comparison_row2_time": "1 minute",
+    "comparison_row2_accuracy": "0% (Just pastes image)",
+    "comparison_row2_cost": "Often Paid",
+
+    "comparison_row3_method": "NoteOCR (AI Extraction)",
+    "comparison_row3_time": "15 Seconds",
+    "comparison_row3_accuracy": "98%+ Editable Text",
+    "comparison_row3_cost": "Free to Try",
+
+    "features_title": "Advanced JPG Text Extraction",
+    "features_subtitle": "Built specifically for pulling accurate text from image files.",
+
+    "feature_1_title": "Accepts JPG & JPEG Formats",
+    "feature_1_desc": "Whether your file ends in .jpg or .jpeg, our system handles standard web images, phone photos, and high-resolution camera shots perfectly.",
+
+    "feature_2_title": "Layout & Paragraph Preservation",
+    "feature_2_desc": "We don't just dump plain text. Our OCR detects line breaks, paragraphs, and list structures so your downloaded Word document looks like the original image.",
+
+    "feature_3_title": "Multi-Language Support",
+    "feature_3_desc": "Extract text from JPEGs in English, Spanish, French, German, and dozens of other languages with specialized character recognition.",
+
+    "tech_title": "How Our Image-to-Word Engine Works",
+    "tech_intro": "Converting a JPG file to an editable Word document requires Optical Character Recognition (OCR). NoteOCR analyzes the pixels in your image, identifies individual letters and words, maps the document structure, and generates a native Microsoft Word file you can edit immediately.",
+
+    "tech_detect_title": "What the Engine Processes",
+    "tech_detect_1": "Standard printed text and typography",
+    "tech_detect_2": "Cursive and handwritten text within the image",
+    "tech_detect_3": "Paragraph spacing and line breaks",
+    "tech_detect_4": "Image contrast and background noise removal",
+    "tech_detect_5": "Automatic orientation correction",
+
+    "tech_tips_title": "Tips for the Best Conversion",
+    "tech_tips_1": "Ensure the image is not blurry",
+    "tech_tips_2": "Avoid heavy shadows over the text",
+    "tech_tips_3": "Keep text parallel to the camera",
+    "tech_tips_4": "Higher resolution JPEGs yield better results",
+    "tech_tips_5": "Crop out unnecessary backgrounds if possible",
+
+    "related_tools_title": "Other Conversion Tools",
+
+    "related_tool_1_name": "Image to Excel",
+    "related_tool_1_desc": "Extract data tables from images to spreadsheets",
+
+    "related_tool_2_name": "Photo to Word",
+    "related_tool_2_desc": "Convert camera photos directly to Word",
+
+    "related_tool_3_name": "Handwriting to Text",
+    "related_tool_3_desc": "Specialized cursive and notes transcription",
+
+    "related_tool_4_name": "Online Editor",
+    "related_tool_4_desc": "Edit your documents securely in the browser",
+
+    "faq_title": "Frequently Asked Questions about JPG to Word",
+
+    "cta_title": "Ready to Extract Text from Your JPG?",
+    "cta_subtitle": "Stop typing and start editing in seconds.",
+    "cta_button": "Upload JPG Now",
+
+    "footer_text": "NoteOCR // Intelligent Image Processing",
+
+    "tool_upload_title": "Upload Your JPG Image",
+    "tool_upload_desc": "Supports standard photos, screenshots, and scanned images. We extract the text and give you a formatted Word document.",
+    "tool_upload_button": "Select JPG / JPEG",
+    "tool_upload_check_1": "JPG, JPEG, PNG",
+    "tool_upload_check_2": "Max 25MB",
+    "tool_upload_check_3": "Auto-Deletes after 24h",
+
+    "tool_processing_title": "Extracting Text from Image...",
+    "tool_processing_desc": "Running OCR and formatting your Word document",
+
+    "tool_complete_title": "Extraction Complete!",
+    "tool_complete_desc": "Your text has been successfully extracted. Download your editable file below.",
+    "tool_complete_file_type": "Word Document (.docx)",
+    "tool_complete_status": "READY",
+    "tool_download_button": "Download Word",
+    "tool_new_button": "Convert Another JPG",
+
+    "tool_info_1_title": "Fully Editable",
+    "tool_info_1_desc": "Text is extracted, not just pasted as an image",
+
+    "tool_info_2_title": "Layout Kept",
+    "tool_info_2_desc": "Paragraphs and line breaks are preserved",
+
+    "tool_info_3_title": "Universal DOCX",
+    "tool_info_3_desc": "Opens in MS Word, Google Docs & Pages",
+
+    "tool_tip_label": "Pro Tip:",
+    "tool_tip_text": "If your JPG is very dark or has low contrast, try increasing the brightness slightly on your device before uploading for the absolute best OCR accuracy.",
+
+    "toast_success": "Image converted successfully!",
+    "toast_error_type": "Please upload a valid image file (JPG, JPEG, PNG)",
+    "toast_error_size": "File size must be under 25MB",
+    "toast_error_conversion": "Conversion failed. Please try a clearer image.",
+    "toast_download_success": "Word document downloaded!",
+    "toast_download_error": "Download failed.",
+
+    "FAQ": {
+      "items": {
+        "how_to_convert": {
+          "q": "How do I convert a JPG to Word?",
+          "a": "Simply click the upload button and select your JPG or JPEG image. Our AI will automatically scan the image, extract the text using Optical Character Recognition (OCR), and provide you with a downloadable Microsoft Word (.docx) document in seconds."
+        },
+        "jpg_vs_jpeg": {
+          "q": "Is there a difference between JPG and JPEG?",
+          "a": "No, they are the exact same image format, just with different file extensions. Our converter fully supports both .jpg and .jpeg files seamlessly."
+        },
+        "is_it_editable": {
+          "q": "Will the Word document actually be editable?",
+          "a": "Yes! Unlike basic file converters that just paste your picture into a blank Word page, NoteOCR extracts the actual characters. You can delete, edit, highlight, and change the font of the text just like any normal document."
+        },
+        "formatting_kept": {
+          "q": "Will it keep my original formatting?",
+          "a": "Our engine is designed to preserve standard layout structures like paragraphs, line breaks, and basic lists. However, highly complex graphic layouts from images might require minor formatting adjustments in Word after downloading."
+        },
+        "mac_and_windows": {
+          "q": "Does this tool work on Mac and mobile devices?",
+          "a": "Yes. Because NoteOCR is entirely browser-based, you can convert JPGs to Word on Windows, Mac, iOS (iPhone), and Android. No software installation is required."
+        },
+        "handwriting_in_jpg": {
+          "q": "What if the JPG contains handwriting instead of typed text?",
+          "a": "That is our specialty. If your JPG is a photo of handwritten notes or a whiteboard, our advanced AI will read the handwriting and convert it into standard, editable digital text in your Word document."
+        },
+        "is_it_free": {
+          "q": "Is this JPG to Word converter free to use?",
+          "a": "We offer free trials so you can test the accuracy of our image-to-text extraction. If you need to process large batches of images, we offer a simple one-time payment option with no recurring subscriptions."
+        },
+        "google_docs_support": {
+          "q": "Can I open the converted file in Google Docs?",
+          "a": "Yes. The tool outputs a standard .docx file. You can drag and drop this file directly into Google Drive and open it with Google Docs to edit it perfectly."
+        },
+        "privacy_security": {
+          "q": "Are my images safe when I upload them?",
+          "a": "Absolutely. All files are uploaded via a secure, encrypted SSL connection. We do not claim ownership of your files, and all uploaded JPGs and converted Word documents are permanently deleted from our servers shortly after processing."
+        },
+        "image_quality": {
+          "q": "What if my image is blurry or low quality?",
+          "a": "Our AI is built to handle noise and enhance contrast automatically. However, if the text is entirely unreadable to the human eye, the OCR will struggle. For the best results, use well-lit, clear images where the text is in focus."
+        }
+      }
+    }
+  },
+  "ScanToWord": {
+    "meta_title": "Scanner to Word | Convert Scanned Documents to Editable Text",
+    "meta_desc": "Convert scanned documents from your flatbed scanner or mobile app directly into editable Microsoft Word files with professional-grade OCR.",
+
+    "hero_pill": "Professional Document OCR",
+    "hero_title": "Convert Scans into Word Documents",
+    "hero_subtitle": "Digitize your paperwork instantly. Upload scanned images of contracts, books, or physical documents, and our AI will reconstruct them as fully editable Microsoft Word (.docx) files.",
+
+    "trust_ssl": "ENTERPRISE-GRADE SECURITY",
+    "trust_processing": "HIGH-VOLUME CAPABLE",
+    "trust_accuracy": "99% PRINT ACCURACY",
+
+    "before_after_title": "From Physical Paper to Digital Document",
+    "before_after_desc": "See how we convert a flat digital scan into a fully workable text document.",
+    "before_label": "Before: Scanned Paper Image",
+    "before_placeholder": "",
+    "after_label": "After: Editable Word Document",
+    "after_placeholder": "",
+
+    "use_cases_title": "Who uses our Scanner to Word tool?",
+    "use_cases_subtitle": "Built for professionals who deal with heavy paperwork.",
+
+    "use_case_1_title": "Legal & Real Estate",
+    "use_case_1_desc": "Scan signed physical contracts, lease agreements, and deeds, then convert them to Word to easily edit clauses or update terms.",
+
+    "use_case_2_title": "Office Administration",
+    "use_case_2_desc": "Stop manually retyping printed memos, vendor invoices, and physical mail. Scan and convert them to editable text in seconds.",
+
+    "use_case_3_title": "Authors & Publishers",
+    "use_case_3_desc": "Digitize old out-of-print books, printed manuscripts, or magazine articles using a flatbed scanner to create editable digital archives.",
+
+    "use_case_4_title": "Academic Research",
+    "use_case_4_desc": "Scan pages from reference books or library archives and convert them to Word documents for easy citation, highlighting, and searchability.",
+
+    "comparison_title": "Digitizing Scans: The Best Approach",
+    "comparison_subtitle": "Why manual transcription is a thing of the past for scanned documents.",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time",
+    "comparison_col_accuracy": "Layout Retention",
+    "comparison_col_cost": "Cost",
+
+    "comparison_row1_method": "Manual Data Entry",
+    "comparison_row1_time": "1 hour per 5 pages",
+    "comparison_row1_accuracy": "Loses original layout",
+    "comparison_row1_cost": "High labor cost",
+
+    "comparison_row2_method": "Free Online Converters",
+    "comparison_row2_time": "2 minutes",
+    "comparison_row2_accuracy": "Poor (Messes up margins)",
+    "comparison_row2_cost": "Free",
+
+    "comparison_row3_method": "NoteOCR Scan Engine",
+    "comparison_row3_time": "20 Seconds",
+    "comparison_row3_accuracy": "Maintains paragraphs & lists",
+    "comparison_row3_cost": "Free to Try",
+
+    "features_title": "Built for Scanned Media",
+    "features_subtitle": "Advanced features to handle the quirks of hardware scanners.",
+
+    "feature_1_title": "Deskew & Auto-Rotation",
+    "feature_1_desc": "Did you feed the paper into the scanner slightly crooked? Our engine automatically straightens skewed scans before extracting the text.",
+
+    "feature_2_title": "Speckle & Noise Removal",
+    "feature_2_desc": "Old scanners often leave black dots or lines on the image. Our AI cleans the scanned background to ensure perfect text recognition.",
+
+    "feature_3_title": "Preserves Document Structure",
+    "feature_3_desc": "Maintains your physical document's headings, bullet points, and paragraph indents when migrating the text to Microsoft Word.",
+
+    "tech_title": "How We Process Scanned Documents",
+    "tech_intro": "When you upload a scanned image, NoteOCR utilizes specialized Document Layout Analysis (DLA). Unlike basic tools that read left-to-right blindly, our engine understands the structural hierarchy of a physical page.",
+
+    "tech_detect_title": "What Our OCR Engine Detects",
+    "tech_detect_1": "Standard printed typography and fonts",
+    "tech_detect_2": "Multi-column layouts and sidebars",
+    "tech_detect_3": "Italics, bold text, and underline formatting",
+    "tech_detect_4": "Handwritten signatures on printed forms",
+    "tech_detect_5": "Numbered lists and bullet points",
+
+    "tech_tips_title": "Tips for Scanning Hardware",
+    "tech_tips_1": "Set your scanner to at least 300 DPI",
+    "tech_tips_2": "Save scans as high-quality PNG or JPG files",
+    "tech_tips_3": "Wipe your scanner glass to avoid smudges",
+    "tech_tips_4": "Press thick books flat against the glass",
+    "tech_tips_5": "Use 'Black & White' mode for crispest text",
+
+    "related_tools_title": "Explore More Document Tools",
+
+    "related_tool_1_name": "Image to Excel",
+    "related_tool_1_desc": "Extract data tables from images to spreadsheets",
+
+    "related_tool_2_name": "Photo to Word",
+    "related_tool_2_desc": "Convert camera photos directly to Word",
+
+    "related_tool_3_name": "Handwriting to Text",
+    "related_tool_3_desc": "Specialized cursive and notes transcription",
+
+    "related_tool_4_name": "Online Editor",
+    "related_tool_4_desc": "Edit your documents securely in the browser",
+
+    "faq_title": "Frequently Asked Questions about Scanned Documents",
+
+    "cta_title": "Ready to Digitize Your Paperwork?",
+    "cta_subtitle": "Turn those physical scans into workable Word files today.",
+    "cta_button": "Upload Scan Now",
+
+    "footer_text": "NoteOCR // Professional Scan Digitization",
+
+    "tool_upload_title": "Upload Your Scanned File",
+    "tool_upload_desc": "Upload image files (JPG, PNG) generated by your flatbed scanner or mobile scanning app.",
+    "tool_upload_button": "Select Scanned Image",
+    "tool_upload_check_1": "High-Res Supported",
+    "tool_upload_check_2": "Max 25MB",
+    "tool_upload_check_3": "Business Confidential",
+
+    "tool_processing_title": "Processing Scanned Document...",
+    "tool_processing_desc": "Enhancing contrast and running layout analysis",
+
+    "tool_complete_title": "Scan Converted!",
+    "tool_complete_desc": "Your physical scan is now a digital, editable document. Download it below.",
+    "tool_complete_file_type": "Word Document (.docx)",
+    "tool_complete_status": "READY",
+    "tool_download_button": "Download Word",
+    "tool_new_button": "Convert Next Scan",
+
+    "tool_info_1_title": "Fully Editable Text",
+    "tool_info_1_desc": "Update clauses, fix typos, and format freely",
+
+    "tool_info_2_title": "Layout Intact",
+    "tool_info_2_desc": "Headings and lists carry over to Word",
+
+    "tool_info_3_title": "Secure Processing",
+    "tool_info_3_desc": "Your scans are never stored or shared",
+
+    "tool_tip_label": "Scanning Tip:",
+    "tool_tip_text": "For the most accurate conversion, configure your physical scanner to 300 DPI (Dots Per Inch) or higher. Lower resolutions can cause letters like 'c' and 'e' to blur together.",
+
+    "toast_success": "Scan digitized successfully!",
+    "toast_error_type": "Please upload a valid scanned image file",
+    "toast_error_size": "Scan file size must be under 25MB",
+    "toast_error_conversion": "Conversion failed. Please try a scan with higher contrast.",
+    "toast_download_success": "Word document downloaded!",
+    "toast_download_error": "Download failed.",
+
+    "FAQ": {
+      "items": {
+        "how_to_convert_scan": {
+          "q": "How do I convert a scanned document to Word?",
+          "a": "Save your scanned document as an image file on your computer. Upload it to our secure tool, and our Optical Character Recognition (OCR) software will read the printed text and generate a fully editable Microsoft Word document."
+        },
+        "mobile_scanner_apps": {
+          "q": "Does this work with mobile scanner apps?",
+          "a": "Yes! If you use apps like Apple Notes Scanner, CamScanner, or Adobe Scan to take pictures of documents, simply save those scans as images to your device and upload them here."
+        },
+        "crooked_scans": {
+          "q": "What if my scanned document is crooked?",
+          "a": "Our system includes an automatic deskewing feature. If the paper was fed into the scanner at a slight angle, our AI will automatically straighten the image internally before extracting the text."
+        },
+        "faded_ink": {
+          "q": "Can it read old documents with faded ink?",
+          "a": "Yes, our tool applies contrast enhancement to scanned files before reading them. While very heavily degraded documents may have a few typos, it performs exceptionally well on older, faded typefaces."
+        },
+        "scanned_signatures": {
+          "q": "What happens to handwritten signatures on scanned forms?",
+          "a": "Our OCR is primarily designed to extract text. If there is a handwritten signature on a printed contract, the system may attempt to read it as text or ignore it. For the exact signature image, you will need to refer to the original scan."
+        },
+        "best_dpi": {
+          "q": "What DPI should I use for scanning?",
+          "a": "We highly recommend scanning your physical documents at 300 DPI (Dots Per Inch). This provides the perfect balance of crisp, clear text for the OCR engine without creating excessively large file sizes."
+        },
+        "mac_compatibility": {
+          "q": "Can I use this on a Mac?",
+          "a": "Yes, our Scan to Word converter is completely web-based. It works seamlessly on MacOS, Windows, Linux, and all mobile operating systems without requiring you to download any external software."
+        },
+        "privacy_confidentiality": {
+          "q": "Are my scanned business documents secure?",
+          "a": "Security is our priority. Your scans are uploaded via an encrypted connection, processed in isolated secure containers, and automatically deleted from our servers shortly after you download your Word document. We do not retain your files."
+        },
+        "edit_in_word": {
+          "q": "Will I be able to edit the text directly?",
+          "a": "Absolutely. The output is a native .docx file. Once you open it in Microsoft Word, you can delete text, change fonts, type new paragraphs, and edit it just as if you had typed the document yourself."
+        },
+        "multiple_languages": {
+          "q": "Does it recognize languages other than English?",
+          "a": "Yes, our scan engine recognizes dozens of languages, including Spanish, French, German, Italian, and Portuguese. It can also handle documents that feature a mix of these languages."
+        }
+      }
+    }
+  },
+  "PhotoToWord": {
+    "meta_title": "Convert Photo to Word Document | Extract Text from Pictures",
+    "meta_desc": "Snap a picture and convert it to text. Our AI extracts text from photos of whiteboards, books, and screens directly into editable Word documents.",
+
+    "hero_pill": "Camera to Text OCR",
+    "hero_title": "Convert Any Photo to a Word Document",
+    "hero_subtitle": "Turn your smartphone pictures into editable text. Upload a photo of a textbook, whiteboard, or presentation slide, and let our AI create a formatted Microsoft Word (.docx) file in seconds.",
+
+    "trust_ssl": "PRIVATE SECURE UPLOAD",
+    "trust_processing": "SMART CAMERA AI",
+    "trust_accuracy": "READS ANGLED PHOTOS",
+
+    "before_after_title": "From Camera Roll to Word File",
+    "before_after_desc": "See how we handle real-world photos with camera glare and background clutter.",
+    "before_label": "Before: Smartphone Picture",
+    "before_placeholder": "",
+    "after_label": "After: Editable Word Document",
+    "after_placeholder": "",
+
+    "use_cases_title": "What Pictures Can You Convert?",
+    "use_cases_subtitle": "Perfect for everyday photos taken on the go.",
+
+    "use_case_1_title": "Whiteboard Meetings",
+    "use_case_1_desc": "Took a picture of the whiteboard after a brainstorm? Convert the marker handwriting directly into meeting notes in Word.",
+
+    "use_case_2_title": "Textbook Pages",
+    "use_case_2_desc": "Stop typing out quotes for your essay. Snap a photo of your textbook and extract the exact paragraphs you need instantly.",
+
+    "use_case_3_title": "Presentation Slides",
+    "use_case_3_desc": "Sitting in the audience and photographed a PowerPoint slide? Pull the text from the screen photo into an editable document.",
+
+    "use_case_4_title": "Recipes & Magazines",
+    "use_case_4_desc": "Save a physical recipe or an interesting magazine article by taking a picture and turning it into a searchable text file.",
+
+    "comparison_title": "Photo Text Extraction Compared",
+    "comparison_subtitle": "Why NoteOCR beats manual typing on a tiny phone keyboard.",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time",
+    "comparison_col_accuracy": "Handles Bad Lighting?",
+    "comparison_col_cost": "Cost",
+
+    "comparison_row1_method": "Typing on Phone",
+    "comparison_row1_time": "10-20 minutes",
+    "comparison_row1_accuracy": "N/A",
+    "comparison_row1_cost": "Your Time",
+
+    "comparison_row2_method": "Basic Photo Converters",
+    "comparison_row2_time": "1 minute",
+    "comparison_row2_accuracy": "Fails with camera glare",
+    "comparison_row2_cost": "Often Paid",
+
+    "comparison_row3_method": "NoteOCR Picture Engine",
+    "comparison_row3_time": "15 Seconds",
+    "comparison_row3_accuracy": "Auto-enhances lighting",
+    "comparison_row3_cost": "Free to Try",
+
+    "features_title": "Built for Real-World Photos",
+    "features_subtitle": "Smartphone pictures aren't perfect. Our AI is built to handle that.",
+
+    "feature_1_title": "Perspective Correction",
+    "feature_1_desc": "If you took a photo of a book page at a weird angle, our engine automatically flattens and corrects the perspective before reading the text.",
+
+    "feature_2_title": "Glare & Shadow Removal",
+    "feature_2_desc": "Smartphone flashes and room shadows can hide text. Our AI balances the lighting in your picture to ensure high-accuracy character recognition.",
+
+    "feature_3_title": "Ignores Background Clutter",
+    "feature_3_desc": "Did you capture your desk or your hand in the photo? Our system smartly crops out non-text backgrounds to focus only on the document.",
+
+    "tech_title": "How We Read Your Pictures",
+    "tech_intro": "Extracting text from a smartphone photo is much harder than reading a flat digital scan. NoteOCR uses intelligent Vision AI to understand the geometry of your picture before converting the characters into a Word document.",
+
+    "tech_detect_title": "What Our Camera AI Handles",
+    "tech_detect_1": "Curved pages from thick books",
+    "tech_detect_2": "Photos taken of computer screens (anti-moire)",
+    "tech_detect_3": "Whiteboard marker handwriting",
+    "tech_detect_4": "Low-light or dimly lit room photos",
+    "tech_detect_5": "Different fonts and text sizes in one picture",
+
+    "tech_tips_title": "Tips for Taking Better Photos",
+    "tech_tips_1": "Tap your phone screen to focus the camera",
+    "tech_tips_2": "Hold your phone as steady as possible",
+    "tech_tips_3": "Try to avoid harsh overhead shadows",
+    "tech_tips_4": "Keep the text filling most of the picture frame",
+    "tech_tips_5": "Turn off the flash if photographing a glossy page",
+
+    "related_tools_title": "Other Document Tools",
+
+    "related_tool_1_name": "Image to Excel",
+    "related_tool_1_desc": "Extract data tables from images to spreadsheets",
+
+    "related_tool_2_name": "Photo to Word",
+    "related_tool_2_desc": "Convert camera photos directly to Word",
+
+    "related_tool_3_name": "Handwriting to Text",
+    "related_tool_3_desc": "Specialized cursive and notes transcription",
+
+    "related_tool_4_name": "Online Editor",
+    "related_tool_4_desc": "Edit your documents securely in the browser",
+
+    "faq_title": "Frequently Asked Questions about Photo Conversion",
+
+    "cta_title": "Ready to Extract Text from Your Picture?",
+    "cta_subtitle": "Upload your photo directly from your phone or computer.",
+    "cta_button": "Upload Photo Now",
+
+    "footer_text": "NoteOCR // Vision AI Processing",
+
+    "tool_upload_title": "Upload Your Picture",
+    "tool_upload_desc": "Select a photo from your camera roll or computer. We will extract the text and generate a formatted Word file.",
+    "tool_upload_button": "Select Picture",
+    "tool_upload_check_1": "Supports Phone Photos",
+    "tool_upload_check_2": "Max 25MB",
+    "tool_upload_check_3": "Auto-Deletes after 24h",
+
+    "tool_processing_title": "Analyzing Picture...",
+    "tool_processing_desc": "Correcting camera angles and extracting text",
+
+    "tool_complete_title": "Picture Converted!",
+    "tool_complete_desc": "The text from your photo has been successfully extracted. Download your editable file below.",
+    "tool_complete_file_type": "Word Document (.docx)",
+    "tool_complete_status": "READY",
+    "tool_download_button": "Download Word",
+    "tool_new_button": "Convert Another Photo",
+
+    "tool_info_1_title": "Fully Editable",
+    "tool_info_1_desc": "Text is extracted, not just pasted as an image",
+
+    "tool_info_2_title": "Smart Formatting",
+    "tool_info_2_desc": "Paragraphs and line breaks are recreated",
+
+    "tool_info_3_title": "Universal DOCX",
+    "tool_info_3_desc": "Opens in MS Word, Google Docs & Pages",
+
+    "tool_tip_label": "Camera Tip:",
+    "tool_tip_text": "If you are taking a picture of a glossy magazine or textbook, turn off your smartphone's flash. A massive white glare spot can hide the words and lower the OCR accuracy.",
+
+    "toast_success": "Picture converted successfully!",
+    "toast_error_type": "Please upload a valid photo file (JPG, PNG)",
+    "toast_error_size": "Photo file size must be under 25MB",
+    "toast_error_conversion": "Conversion failed. The picture might be too blurry.",
+    "toast_download_success": "Word document downloaded!",
+    "toast_download_error": "Download failed.",
+
+    "FAQ": {
+      "items": {
+        "how_to_convert_photo": {
+          "q": "How do I convert a photo to a Word document?",
+          "a": "Take a picture of the text you want to extract, upload the photo to our tool, and our AI will read the characters and provide you with a fully editable Microsoft Word (.docx) file."
+        },
+        "smartphone_photos": {
+          "q": "Can I upload photos straight from my iPhone or Android?",
+          "a": "Yes! NoteOCR is highly mobile-friendly. You can access this page from your smartphone browser, tap upload, and select an image directly from your camera roll."
+        },
+        "angled_pictures": {
+          "q": "What if I took the picture at an angle?",
+          "a": "Our Vision AI includes perspective correction. Even if your camera wasn't perfectly parallel to the page, our system will digitally flatten the image to extract the text accurately."
+        },
+        "handwritten_photos": {
+          "q": "Does this work for photos of handwriting?",
+          "a": "Yes. If you took a picture of a whiteboard, a sticky note, or a journal, our AI is specifically trained to recognize and transcribe handwritten text into digital Word formats."
+        },
+        "screen_photos": {
+          "q": "Can it read pictures taken of a computer screen?",
+          "a": "Yes. Photos of screens often have weird pixel lines (moiré patterns), but our engine is built to bypass that visual noise and extract the text from the slide, website, or document you photographed."
+        },
+        "curved_book_pages": {
+          "q": "What if the book page is curved in the photo?",
+          "a": "Our advanced layout analysis can follow the curve of a thick textbook page. It reads the sentences smoothly and reconstructs them into standard, straight paragraphs in your Word document."
+        },
+        "is_photo_tool_free": {
+          "q": "Is the photo to Word converter free?",
+          "a": "We offer free conversion trials so you can test how well we extract text from your pictures. For large batches of photos, we offer a professional one-time payment option."
+        },
+        "google_docs_compatibility": {
+          "q": "Can I open the picture text in Google Docs?",
+          "a": "Absolutely. The text is packaged into a standard .docx file, which is natively supported by Microsoft Word, Google Docs, Apple Pages, and LibreOffice."
+        },
+        "photo_privacy": {
+          "q": "Are the pictures I upload private?",
+          "a": "We value your privacy. Your photos are uploaded via secure SSL encryption, and the images are permanently deleted from our servers shortly after processing. We do not use your pictures to train our AI."
+        },
+        "blurry_photos": {
+          "q": "Will it work if my picture is blurry?",
+          "a": "Our tool does its best to sharpen and enhance photos, but if the text is completely out of focus or illegible to the human eye, the OCR will likely misread the words. For best results, ensure your camera is focused."
+        }
+      }
+    }
+  },
+  "HandwrittenInvoice": {
+    "meta_title": "Convert Handwritten Invoices to Excel | Receipt Data Extraction",
+    "meta_desc": "Automate your bookkeeping. Extract line items, prices, and dates from handwritten invoices and receipts directly into formatted Excel spreadsheets.",
+
+    "hero_pill": "Financial Data OCR",
+    "hero_title": "Convert Handwritten Invoices to Excel",
+    "hero_subtitle": "Stop manually typing out vendor receipts and purchase orders. Our AI accurately extracts line items, quantities, and prices from handwritten invoices into clean, editable .xlsx spreadsheets.",
+
+    "trust_ssl": "SECURE FINANCIAL UPLOAD",
+    "trust_processing": "AUTOMATED LINE ITEMS",
+    "trust_accuracy": "99% NUMERIC ACCURACY",
+
+    "before_after_title": "From Paper Receipt to Digital Spreadsheet",
+    "before_after_desc": "Watch our AI perfectly map messy handwritten line items into neat Excel rows.",
+    "before_label": "Before: Handwritten Invoice",
+    "before_placeholder": "",
+    "after_label": "After: Excel Line Items",
+    "after_placeholder": "",
+
+    "use_cases_title": "Who Automates Invoices with NoteOCR?",
+    "use_cases_subtitle": "Built for financial professionals who value their time.",
+
+    "use_case_1_title": "Bookkeepers & Accountants",
+    "use_case_1_desc": "Process client shoeboxes full of handwritten receipts and paper invoices in minutes instead of hours at the end of the month.",
+
+    "use_case_2_title": "Small Business Owners",
+    "use_case_2_desc": "Digitize scribbled vendor invoices, contractor bills, and handwritten purchase orders to track your expenses accurately.",
+
+    "use_case_3_title": "Expense Tracking",
+    "use_case_3_desc": "Convert handwritten restaurant receipts or field expenses into structured CSV files for easy upload to your company's expense software.",
+
+    "use_case_4_title": "Tax Preparation",
+    "use_case_4_desc": "Quickly tally up physical, handwritten donation receipts or business expenses into a clean Excel ledger for tax season.",
+
+    "comparison_title": "Invoice Data Entry Compared",
+    "comparison_subtitle": "Why manual bookkeeping is burning your profit margins.",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time per Invoice",
+    "comparison_col_accuracy": "Financial Accuracy",
+    "comparison_col_cost": "Labor Cost",
+
+    "comparison_row1_method": "Manual Data Entry",
+    "comparison_row1_time": "3-5 minutes",
+    "comparison_row1_accuracy": "Prone to typos",
+    "comparison_row1_cost": "$20+/hour",
+
+    "comparison_row2_method": "Standard OCR Apps",
+    "comparison_row2_time": "1 minute",
+    "comparison_row2_accuracy": "Mixes up columns",
+    "comparison_row2_cost": "Varies",
+
+    "comparison_row3_method": "NoteOCR Invoice Engine",
+    "comparison_row3_time": "15 seconds",
+    "comparison_row3_accuracy": "Perfect row alignment",
+    "comparison_row3_cost": "Free to Try",
+
+    "features_title": "Advanced Invoice Extraction",
+    "features_subtitle": "Trained specifically on financial documents and messy numbers.",
+
+    "feature_1_title": "Line Item Detection",
+    "feature_1_desc": "Our AI separates descriptions, quantities, unit prices, and totals into their own distinct Excel columns automatically.",
+
+    "feature_2_title": "High Numeric Accuracy",
+    "feature_2_desc": "Standard OCR struggles with handwritten numbers. We use specialized neural networks to ensure 4s, 9s, decimals, and currency symbols are read perfectly.",
+
+    "feature_3_title": "Messy Handwriting Support",
+    "feature_3_desc": "Contractors and vendors often have terrible handwriting. Our engine is built to decipher rushed cursive and sloppy print on physical receipts.",
+
+    "tech_title": "How We Process Financial Documents",
+    "tech_intro": "Invoices are complex because they contain floating data (like the date and invoice number at the top) and tabular data (the line items in the middle). NoteOCR maps this spatial relationship perfectly.",
+
+    "tech_detect_title": "What Our AI Extracts",
+    "tech_detect_1": "Item descriptions and SKUs",
+    "tech_detect_2": "Quantities and pricing columns",
+    "tech_detect_3": "Subtotals, tax lines, and grand totals",
+    "tech_detect_4": "Handwritten dates and invoice numbers",
+    "tech_detect_5": "Currency symbols ($, €, £)",
+
+    "tech_tips_title": "Tips for Bookkeepers",
+    "tech_tips_1": "Flatten crumpled receipts before taking a photo",
+    "tech_tips_2": "Ensure the lighting doesn't cast shadows on the total",
+    "tech_tips_3": "Keep the camera directly above the invoice",
+    "tech_tips_4": "Make sure decimal points are visible in the photo",
+    "tech_tips_5": "Review the final totals in Excel to ensure matching",
+
+    "related_tools_title": "More Financial OCR Tools",
+
+    "related_tool_1_name": "Invoice to Excel",
+    "related_tool_1_desc": "Extract line items from handwritten receipts",
+
+    "related_tool_2_name": "Inventory to Excel",
+    "related_tool_2_desc": "Convert handwritten stock counts to data",
+
+    "related_tool_3_name": "Scan to Word",
+    "related_tool_3_desc": "Digitize printed HR policies and manuals",
+
+    "related_tool_4_name": "Handwriting to Text",
+    "related_tool_4_desc": "Transcribe handwritten meeting notes",
+
+    "faq_title": "Frequently Asked Questions about Invoice Conversion",
+
+    "cta_title": "Stop Typing Out Invoices.",
+    "cta_subtitle": "Let AI do your data entry. Upload your first handwritten invoice now.",
+    "cta_button": "Convert Invoice to Excel",
+
+    "footer_text": "NoteOCR // Intelligent Financial Extraction",
+
+    "tool_upload_title": "Upload Handwritten Invoice",
+    "tool_upload_desc": "Supports photos and scans of handwritten invoices, receipts, and purchase orders. We'll extract the line items into Excel.",
+    "tool_upload_button": "Select Invoice Image",
+    "tool_upload_check_1": "JPG, PNG Supported",
+    "tool_upload_check_2": "Max 25MB",
+    "tool_upload_check_3": "Bank-Level Encryption",
+
+    "tool_processing_title": "Extracting Line Items...",
+    "tool_processing_desc": "Detecting prices, quantities, and descriptions",
+
+    "tool_complete_title": "Invoice Extracted!",
+    "tool_complete_desc": "Your line items have been converted into an Excel spreadsheet. Download it below.",
+    "tool_complete_file_type": "Excel Spreadsheet (.xlsx)",
+    "tool_complete_status": "READY",
+    "tool_download_button": "Download Excel",
+    "tool_new_button": "Process Next Invoice",
+
+    "tool_info_1_title": "Columns Aligned",
+    "tool_info_1_desc": "Prices and descriptions separated cleanly",
+
+    "tool_info_2_title": "Number Accuracy",
+    "tool_info_2_desc": "Highly accurate decimal and digit recognition",
+
+    "tool_info_3_title": "Ready for Import",
+    "tool_info_3_desc": "Easily upload to QuickBooks or Xero",
+
+    "tool_tip_label": "Accounting Tip:",
+    "tool_tip_text": "If you plan to import this data into accounting software like QuickBooks, open the downloaded Excel file and save it as a .CSV (Comma Separated Values) format for a seamless upload.",
+
+    "toast_success": "Invoice extracted successfully!",
+    "toast_error_type": "Please upload a valid image file",
+    "toast_error_size": "File size must be under 25MB",
+    "toast_error_extraction": "Extraction failed. The handwriting might be too faded.",
+    "toast_download_success": "Excel ledger downloaded!",
+    "toast_download_error": "Download failed.",
+
+    "FAQ": {
+      "items": {
+        "how_to_convert_invoice": {
+          "q": "How do I convert a handwritten invoice to Excel?",
+          "a": "Take a clear picture of the handwritten invoice or receipt. Upload the image file to NoteOCR. Our AI will identify the line items, quantities, and prices, and generate a formatted Excel spreadsheet that you can download instantly."
+        },
+        "messy_vendor_writing": {
+          "q": "Can it read messy handwriting from contractors or vendors?",
+          "a": "Yes. We specifically trained our neural networks on challenging, rushed, and messy handwriting. While no AI is 100% perfect on illegible scribbles, our engine handles difficult vendor receipts better than standard OCR tools."
+        },
+        "does_it_do_math": {
+          "q": "Will the Excel file calculate the totals automatically?",
+          "a": "NoteOCR extracts the exact numbers written on the page. It will place the written subtotal and total in the Excel sheet, but it does not add Excel formulas (like =SUM) automatically. You can easily add those formulas once you open the file."
+        },
+        "accounting_software": {
+          "q": "Can I import this data into QuickBooks or Xero?",
+          "a": "Absolutely. NoteOCR gives you a clean tabular output. You can open the downloaded Excel file, quickly copy the data columns, or save the file as a CSV to import it directly into your preferred bookkeeping software."
+        },
+        "currency_symbols": {
+          "q": "Does it recognize currency symbols and decimals?",
+          "a": "Yes, our financial OCR engine is highly trained to recognize dollar signs ($), euros (€), pounds (£), and precisely locate decimal points so your financial data remains perfectly accurate."
+        },
+        "multiple_pages": {
+          "q": "What if my handwritten invoice is multiple pages long?",
+          "a": "Currently, you need to upload and process each page of the invoice individually. You can then copy and paste the line items from the downloaded files into one master Excel spreadsheet."
+        },
+        "is_invoice_tool_free": {
+          "q": "Is this invoice to Excel converter free?",
+          "a": "You can try NoteOCR for free to see how well it reads your specific handwritten invoices. For businesses and bookkeepers processing many receipts a month, we offer affordable professional packages."
+        },
+        "data_security": {
+          "q": "Is my financial data secure?",
+          "a": "Security is our top priority. Your invoices are uploaded using 256-bit SSL encryption. We do not store your financial documents or train our AI on your personal data. All files are automatically deleted shortly after conversion."
+        },
+        "crumpled_receipts": {
+          "q": "What if the receipt is crumpled or stained?",
+          "a": "Our AI includes image preprocessing that attempts to flatten shadows and ignore background stains. However, for the best data extraction, try to flatten the receipt as much as possible before taking the photo."
+        },
+        "non_grid_invoices": {
+          "q": "What if the invoice doesn't have a drawn table or grid?",
+          "a": "That's not a problem. Our engine detects implicit tables based on spatial alignment. If the descriptions are on the left and the prices are on the right, NoteOCR will automatically format them into correct Excel columns."
+        }
+      }
+    }
+  },
+  "InventoryToExcel": {
+    "meta_title": "Convert Handwritten Inventory to Excel | Stock Count OCR",
+    "meta_desc": "Stop manually typing warehouse stock counts. Convert photos of handwritten inventory logs, clipboards, and tally sheets directly into editable Excel spreadsheets.",
+
+    "hero_pill": "Stock & Inventory OCR",
+    "hero_title": "Turn Clipboard Stock Counts into Excel Spreadsheets",
+    "hero_subtitle": "Convert your physical inventory audits in seconds. Take a photo of your handwritten stock sheets, and our AI will extract SKUs, item names, and quantities directly into a formatted .xlsx file.",
+
+    "trust_ssl": "PRIVATE DATA PROCESSING",
+    "trust_processing": "BULK SKU RECOGNITION",
+    "trust_accuracy": "99% QUANTITY ACCURACY",
+
+    "before_after_title": "From Physical Clipboard to Digital Tracker",
+    "before_after_desc": "See how we convert messy warehouse tallies into structured Excel rows.",
+    "before_label": "Before: Handwritten Stock Sheet",
+    "before_placeholder": "",
+    "after_label": "After: Excel Inventory List",
+    "after_placeholder": "",
+
+    "use_cases_title": "Who Automates Inventory with NoteOCR?",
+    "use_cases_subtitle": "Built for businesses that conduct physical stock audits.",
+
+    "use_case_1_title": "Warehouse Managers",
+    "use_case_1_desc": "Convert multi-page handwritten warehouse logs and cycle counts into Excel instantly, keeping your supply chain moving.",
+
+    "use_case_2_title": "Retail Store Owners",
+    "use_case_2_desc": "Snap photos of your end-of-month retail stock counts and upload them to update your POS system or Shopify store via CSV.",
+
+    "use_case_3_title": "Restaurant & Bar Staff",
+    "use_case_3_desc": "Stop retyping the weekly food and liquor inventory. Digitize your kitchen clipboards directly into your food cost spreadsheets.",
+
+    "use_case_4_title": "Equipment Tracking",
+    "use_case_4_desc": "Easily convert handwritten sign-out sheets, tool logs, and asset trackers from the field into searchable digital databases.",
+
+    "comparison_title": "Stock Taking: Manual vs. NoteOCR",
+    "comparison_subtitle": "Why manual inventory data entry is costing your business money.",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time per Page",
+    "comparison_col_accuracy": "SKU Accuracy",
+    "comparison_col_cost": "Cost",
+
+    "comparison_row1_method": "Manual Typing",
+    "comparison_row1_time": "15-30 minutes",
+    "comparison_row1_accuracy": "Prone to human error",
+    "comparison_row1_cost": "$20/hour labor",
+
+    "comparison_row2_method": "Standard Mobile Scanners",
+    "comparison_row2_time": "2 minutes",
+    "comparison_row2_accuracy": "Produces flat images",
+    "comparison_row2_cost": "Free",
+
+    "comparison_row3_method": "NoteOCR Inventory AI",
+    "comparison_row3_time": "20 seconds",
+    "comparison_row3_accuracy": "Formats data into rows",
+    "comparison_row3_cost": "Free to Try",
+
+    "features_title": "Built for Messy Warehouse Handwriting",
+    "features_subtitle": "We know physical inventory counts are rushed. Our AI adapts to that.",
+
+    "feature_1_title": "Alphanumeric SKU Recognition",
+    "feature_1_desc": "Item codes are complex mixes of letters and numbers. Our neural networks are trained to distinguish a '0' from an 'O' and a '1' from an 'l' in handwritten SKUs.",
+
+    "feature_2_title": "Column Formatting",
+    "feature_2_desc": "Whether you drew lines on your paper or just left spaces, NoteOCR separates your Item Names, SKUs, and Quantities into their own distinct Excel columns.",
+
+    "feature_3_title": "Export as CSV for POS Systems",
+    "feature_3_desc": "Download your data as an Excel file, or export it as a CSV to seamlessly upload your updated stock counts into Shopify, Square, or QuickBooks.",
+
+    "tech_title": "How We Process Physical Stock Sheets",
+    "tech_intro": "Inventory sheets are notorious for bad handwriting and smudged ink. NoteOCR uses specialized Table Structure Recognition (TSR) to reconstruct the grid of your clipboard.",
+
+    "tech_detect_title": "What Our AI Extracts",
+    "tech_detect_1": "Long serial numbers and SKUs",
+    "tech_detect_2": "Quantities, weights, and measurements",
+    "tech_detect_3": "Crossed-out items and corrections",
+    "tech_detect_4": "Multi-column clipboard layouts",
+    "tech_detect_5": "Dates, locations, and aisle numbers",
+
+    "tech_tips_title": "Tips for Faster Audits",
+    "tech_tips_1": "Ensure warehouse lighting is bright when photographing",
+    "tech_tips_2": "Write SKUs as clearly as possible",
+    "tech_tips_3": "Keep columns somewhat aligned on blank paper",
+    "tech_tips_4": "Snap photos of the clipboard from straight above",
+    "tech_tips_5": "Review the final Excel quantities against your shelves",
+
+    "related_tools_title": "Other Business Data Tools",
+
+    "related_tool_1_name": "Invoice to Excel",
+    "related_tool_1_desc": "Extract line items from handwritten receipts",
+
+    "related_tool_2_name": "Inventory to Excel",
+    "related_tool_2_desc": "Convert handwritten stock counts to data",
+
+    "related_tool_3_name": "Scan to Word",
+    "related_tool_3_desc": "Digitize printed HR policies and manuals",
+
+    "related_tool_4_name": "Handwriting to Text",
+    "related_tool_4_desc": "Transcribe handwritten meeting notes",
+
+    "faq_title": "Frequently Asked Questions about Inventory OCR",
+
+    "cta_title": "Stop Typing Your Stock Counts.",
+    "cta_subtitle": "Take a photo of your clipboard and let NoteOCR build your spreadsheet.",
+    "cta_button": "Convert Inventory Now",
+
+    "footer_text": "NoteOCR // Industrial Data Extraction",
+
+    "tool_upload_title": "Upload Handwritten Inventory List",
+    "tool_upload_desc": "Supports photos of clipboards, stock counts, and tally sheets. We will extract the data into an editable Excel grid.",
+    "tool_upload_button": "Select Inventory Photo",
+    "tool_upload_check_1": "JPG, PNG Supported",
+    "tool_upload_check_2": "Max 25MB",
+    "tool_upload_check_3": "Deletes After 24h",
+
+    "tool_processing_title": "Extracting Stock Counts...",
+    "tool_processing_desc": "Detecting SKUs, items, and quantities",
+
+    "tool_complete_title": "Inventory Extracted!",
+    "tool_complete_desc": "Your stock count is now an Excel spreadsheet. Download it below.",
+    "tool_complete_file_type": "Excel Spreadsheet (.xlsx)",
+    "tool_complete_status": "READY",
+    "tool_download_button": "Download Excel",
+    "tool_new_button": "Process Next Page",
+
+    "tool_info_1_title": "Grid Preserved",
+    "tool_info_1_desc": "SKUs and Quantities in separate columns",
+
+    "tool_info_2_title": "High Accuracy",
+    "tool_info_2_desc": "Trained on messy, rushed handwriting",
+
+    "tool_info_3_title": "CSV Compatible",
+    "tool_info_3_desc": "Ready for upload to your POS system",
+
+    "tool_tip_label": "Warehouse Tip:",
+    "tool_tip_text": "If you are using lined paper or printed grid sheets on your clipboard, our AI will use those lines to perfectly separate your columns in Excel with near 100% structural accuracy.",
+
+    "toast_success": "Inventory extracted successfully!",
+    "toast_error_type": "Please upload a valid image file",
+    "toast_error_size": "File size must be under 25MB",
+    "toast_error_extraction": "Extraction failed. The photo might be too blurry.",
+    "toast_download_success": "Excel spreadsheet downloaded!",
+    "toast_download_error": "Download failed.",
+
+    "FAQ": {
+      "items": {
+        "how_to_convert_inventory": {
+          "q": "How do I convert a handwritten inventory sheet to Excel?",
+          "a": "Take a photo of your clipboard or stock sheet, ensuring the handwriting is in focus. Upload the photo to NoteOCR, and our AI will detect the columns, read the SKUs and quantities, and provide a downloadable Excel file."
+        },
+        "messy_warehouse_writing": {
+          "q": "Can it read rushed handwriting from warehouse staff?",
+          "a": "Yes. Our AI is specifically trained to read messy, rushed handwriting. While extremely sloppy writing might require minor manual corrections in Excel, NoteOCR handles typical field handwriting better than any standard text scanner."
+        },
+        "sku_recognition": {
+          "q": "Does it accurately recognize complex SKUs and serial numbers?",
+          "a": "Yes, our engine is highly capable of reading alphanumeric strings. It uses contextual AI to differentiate between similar-looking characters like the number zero '0' and the letter 'O' within SKUs."
+        },
+        "pos_integration": {
+          "q": "Can I import this into Shopify, Square, or my POS?",
+          "a": "Absolutely. NoteOCR allows you to download your stock count as a .xlsx file. You can simply open this file and save it as a .CSV, which is the universal format accepted by almost all inventory management and POS systems."
+        },
+        "blank_paper_lists": {
+          "q": "What if we just wrote the inventory on blank paper without grid lines?",
+          "a": "Our system detects 'implicit' tables. Even if you didn't draw lines on the paper, as long as you left space between the item name and the quantity, the AI will automatically put them into separate columns in Excel."
+        },
+        "tallies_and_tick_marks": {
+          "q": "Can it count tally marks?",
+          "a": "Currently, NoteOCR reads written numbers (e.g., '14' or 'Fourteen'). If your staff uses tick marks or tallies (||||), we recommend having them write the final numeric total next to the tallies before photographing the page for the best results."
+        },
+        "multiple_clipboard_pages": {
+          "q": "How do I process a 20-page inventory audit?",
+          "a": "For individual users, you can process each page one by one and paste the results into a master Excel file. If your business regularly processes massive audits, please contact us for API access or bulk processing solutions."
+        },
+        "is_inventory_tool_free": {
+          "q": "Is the inventory to Excel converter free?",
+          "a": "You can try the tool for free to verify its accuracy on your specific inventory sheets. For continuous use across your business, we offer professional packages designed for high-volume processing."
+        },
+        "data_security_inventory": {
+          "q": "Is my company's inventory data kept private?",
+          "a": "Yes. We operate with strict privacy protocols. Your stock sheets are uploaded via SSL encryption, processed by the AI, and permanently deleted from our servers shortly after. We do not retain your proprietary data."
+        },
+        "crossouts_corrections": {
+          "q": "What happens if an item quantity is crossed out and corrected?",
+          "a": "Our OCR is trained to recognize scribbles and cross-outs. In most cases, it will ignore the crossed-out number and only extract the newly written quantity next to it. We always recommend doing a quick visual review of the Excel file."
+        }
+      }
+    }
+  },
+  "HandwrittenTimesheet": {
+    "meta_title": "Convert Handwritten Timesheets to Excel | Payroll OCR Tool",
+    "meta_desc": "Stop manually typing employee hours. Convert photos of handwritten timesheets, crew logs, and paper timecards directly into Excel spreadsheets for payroll.",
+
+    "hero_pill": "Payroll Data Automation",
+    "hero_title": "Automate Handwritten Timesheets to Excel",
+    "hero_subtitle": "Run payroll faster. Take a photo of your crew's handwritten timecards or shift logs, and our AI will extract employee names, dates, and hours directly into a formatted .xlsx spreadsheet.",
+
+    "trust_ssl": "SECURE HR DATA",
+    "trust_processing": "FAST TIMESHEET OCR",
+    "trust_accuracy": "99% NUMBER ACCURACY",
+
+    "before_after_title": "From Paper Timecard to Digital Payroll",
+    "before_after_desc": "Watch our AI perfectly map messy handwritten hours into neat Excel rows.",
+    "before_label": "Before: Handwritten Crew Log",
+    "before_placeholder": "",
+    "after_label": "After: Excel Payroll Data",
+    "after_placeholder": "",
+
+    "use_cases_title": "Who Automates Timesheets with NoteOCR?",
+    "use_cases_subtitle": "Built for industries that rely on physical paper for clocking in.",
+
+    "use_case_1_title": "Construction & Trades",
+    "use_case_1_desc": "Digitize dirty, handwritten crew sheets from the job site. Extract employee names and daily hours into Excel before sending to accounting.",
+
+    "use_case_2_title": "Restaurants & Hospitality",
+    "use_case_2_desc": "Convert weekly paper schedules, shift-swaps, and handwritten server clock-ins into a clean digital format for the general manager.",
+
+    "use_case_3_title": "Landscaping & Field Services",
+    "use_case_3_desc": "Stop trying to decipher messy handwriting from your field workers. Snap a photo of their weekly log and instantly format it for payroll.",
+
+    "use_case_4_title": "Healthcare & Nursing",
+    "use_case_4_desc": "Easily convert handwritten sign-in sheets and physical overtime logs from different hospital wards into searchable digital databases.",
+
+    "comparison_title": "Payroll Data Entry Compared",
+    "comparison_subtitle": "Why manual timesheet entry is risky for your business.",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time Spent",
+    "comparison_col_accuracy": "Payroll Errors",
+    "comparison_col_cost": "Cost",
+
+    "comparison_row1_method": "Manual Typing",
+    "comparison_row1_time": "2+ hours on Friday",
+    "comparison_row1_accuracy": "High risk of typos",
+    "comparison_row1_cost": "$25/hour admin labor",
+
+    "comparison_row2_method": "Standard OCR Scanners",
+    "comparison_row2_time": "5 minutes",
+    "comparison_row2_accuracy": "Messes up columns",
+    "comparison_row2_cost": "Free",
+
+    "comparison_row3_method": "NoteOCR Timesheet AI",
+    "comparison_row3_time": "30 seconds",
+    "comparison_row3_accuracy": "Perfect row alignment",
+    "comparison_row3_cost": "Free to Try",
+
+    "features_title": "Advanced Payroll Extraction",
+    "features_subtitle": "Trained specifically to read names, dates, and hours accurately.",
+
+    "feature_1_title": "Time Format Recognition",
+    "feature_1_desc": "Our AI is trained to understand various time formats, whether your employees write 8:00 AM, 0800 military time, or simply 8.5 hours.",
+
+    "feature_2_title": "Column Alignment",
+    "feature_2_desc": "Even if your employees write outside the lines, NoteOCR separates the Employee Name, Date, Clock-In, Clock-Out, and Total Hours into distinct Excel columns.",
+
+    "feature_3_title": "CSV Export for Gusto & ADP",
+    "feature_3_desc": "Download your timesheet data as an Excel file, or export it as a CSV to seamlessly upload the hours into your preferred payroll software like QuickBooks, Gusto, or ADP.",
+
+    "tech_title": "How We Process Paper Timecards",
+    "tech_intro": "Reading handwritten names and numbers on a smudged piece of paper requires advanced Optical Character Recognition. NoteOCR uses intelligent layout analysis to ensure the right hours are assigned to the right employee.",
+
+    "tech_detect_title": "What Our AI Extracts",
+    "tech_detect_1": "Cursive and printed employee names",
+    "tech_detect_2": "Clock-in and clock-out times",
+    "tech_detect_3": "Decimals (e.g., 7.5 hours) and fractions",
+    "tech_detect_4": "Handwritten dates and days of the week",
+    "tech_detect_5": "Signatures and supervisor approvals",
+
+    "tech_tips_title": "Tips for HR Managers",
+    "tech_tips_1": "Flatten folded timesheets before taking a photo",
+    "tech_tips_2": "Ensure good lighting so decimal points are visible",
+    "tech_tips_3": "Keep the camera directly above the sign-in sheet",
+    "tech_tips_4": "Tell employees to write their numbers clearly",
+    "tech_tips_5": "Always do a quick visual review before running payroll",
+
+    "related_tools_title": "More Business Automation Tools",
+
+    "related_tool_1_name": "Invoice to Excel",
+    "related_tool_1_desc": "Extract line items from handwritten receipts",
+
+    "related_tool_2_name": "Inventory to Excel",
+    "related_tool_2_desc": "Convert handwritten stock counts to data",
+
+    "related_tool_3_name": "Scan to Word",
+    "related_tool_3_desc": "Digitize printed HR policies and manuals",
+
+    "related_tool_4_name": "Handwriting to Text",
+    "related_tool_4_desc": "Transcribe handwritten meeting notes",
+
+    "faq_title": "Frequently Asked Questions about Timesheet OCR",
+
+    "cta_title": "Stop Typing Out Employee Hours.",
+    "cta_subtitle": "Let AI do your Friday data entry. Upload your first timesheet now.",
+    "cta_button": "Convert Timesheet to Excel",
+
+    "footer_text": "NoteOCR // Intelligent Payroll Extraction",
+
+    "tool_upload_title": "Upload Handwritten Timesheet",
+    "tool_upload_desc": "Supports photos of crew logs, sign-in sheets, and paper timecards. We'll extract all the data accurately into a clean Excel sheet.",
+    "tool_upload_button": "Select Timesheet Image",
+    "tool_upload_check_1": "JPG, PNG Supported",
+    "tool_upload_check_2": "Max 25MB",
+    "tool_upload_check_3": "Bank-Level Encryption",
+
+    "tool_processing_title": "Extracting Employee Hours...",
+    "tool_processing_desc": "Detecting names, dates, and clock-in times",
+
+    "tool_complete_title": "Timesheet Extracted!",
+    "tool_complete_desc": "Your payroll data is now an Excel spreadsheet. Download it below.",
+    "tool_complete_file_type": "Excel Spreadsheet (.xlsx)",
+    "tool_complete_status": "READY",
+    "tool_download_button": "Download Excel",
+    "tool_new_button": "Process Next Timesheet",
+
+    "tool_info_1_title": "Grid Preserved",
+    "tool_info_1_desc": "Nicely arranged in rows and columns",
+
+    "tool_info_2_title": "High Accuracy",
+    "tool_info_2_desc": "Trained on messy, rushed handwriting",
+
+    "tool_info_3_title": "CSV Compatible",
+    "tool_info_3_desc": "Ready for upload to your payroll system",
+
+    "tool_tip_label": "Payroll Tip:",
+    "tool_tip_text": "If you plan to import this data into payroll software like QuickBooks or Gusto, open the downloaded Excel file and save it as a .CSV (Comma Separated Values) format for a seamless upload.",
+
+    "toast_success": "Timesheet extracted successfully!",
+    "toast_error_type": "Please upload a valid image file",
+    "toast_error_size": "File size must be under 25MB",
+    "toast_error_extraction": "Extraction failed. The photo might be too blurry.",
+    "toast_download_success": "Excel spreadsheet downloaded!",
+    "toast_download_error": "Download failed.",
+
+    "FAQ": {
+      "items": {
+        "how_to_convert_timesheet": {
+          "q": "How do I convert a handwritten timesheet to Excel?",
+          "a": "Take a clear picture of the handwritten crew log or timecard. Upload the image file to NoteOCR. Our AI will identify the columns, read the names and hours, and generate a formatted Excel spreadsheet that you can download instantly."
+        },
+        "messy_employee_writing": {
+          "q": "Can it read messy handwriting from my field workers?",
+          "a": "Yes. We specifically trained our neural networks on challenging, rushed handwriting from construction sites and field workers. While extremely sloppy writing might need a quick manual review in Excel, our engine handles it much better than standard OCR tools."
+        },
+        "calculating_hours": {
+          "q": "Will the Excel file calculate total overtime automatically?",
+          "a": "NoteOCR extracts exactly what is written on the page. If the employee wrote '8 hours', it extracts '8'. It does not automatically calculate time differences (like subtracting 8:00 AM from 5:00 PM). However, once the data is in Excel, you can easily apply a simple formula to calculate those totals."
+        },
+        "payroll_software": {
+          "q": "Can I import this data into Gusto, ADP, or QuickBooks?",
+          "a": "Absolutely. NoteOCR gives you a clean tabular output. You can open the downloaded Excel file, quickly format the columns to match your payroll provider's template, and save the file as a CSV to import it directly."
+        },
+        "time_formats": {
+          "q": "Does it recognize different time formats (military vs AM/PM)?",
+          "a": "Yes, our OCR engine is highly trained to recognize colons (8:30), AM/PM designations, military time (1400), and decimals (8.5 hrs) so your payroll data remains perfectly accurate."
+        },
+        "multiple_employees": {
+          "q": "Can it handle sign-in sheets with multiple employee names?",
+          "a": "Yes! This is what the tool is built for. If you have a single sheet of paper with 20 different employee names and their hours listed below each other, NoteOCR will extract them all into 20 separate rows in Excel."
+        },
+        "is_timesheet_tool_free": {
+          "q": "Is this timesheet to Excel converter free?",
+          "a": "You can try NoteOCR for free to see how well it reads your team's specific handwriting. For businesses and HR managers processing payroll every week, we offer affordable professional packages."
+        },
+        "data_security_payroll": {
+          "q": "Is my employees' data secure?",
+          "a": "Security is our top priority. Your timesheets are uploaded using 256-bit SSL encryption. We do not store your employee documents or train our AI on your personal data. All files are automatically deleted shortly after conversion."
+        },
+        "smudged_timecards": {
+          "q": "What if the timecard is dirty, smudged, or folded?",
+          "a": "Our AI includes image preprocessing that attempts to flatten shadows and ignore background dirt or coffee stains. However, for the best data extraction, try to wipe the camera lens and flatten the sheet before taking the photo."
+        },
+        "blank_paper_timesheets": {
+          "q": "What if my crew just wrote their hours on blank notebook paper?",
+          "a": "That's not a problem. Our engine detects implicit tables based on spatial alignment. If the names are on the left and the hours are on the right, NoteOCR will automatically format them into correct Excel columns."
+        }
+      }
+    }
   }
 }

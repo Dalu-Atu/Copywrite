@@ -295,8 +295,8 @@ export default function WordToolInterface({ locale, translation }) {
           },
           {
             icon: Sparkles,
-            title: "NoteOCR Tech",
-            desc: "Highest precision handwriting-to-text extraction.",
+            title: t("tool_info_2_title"),
+            desc: t("tool_info_2_desc"),
           },
           {
             icon: FileType,
