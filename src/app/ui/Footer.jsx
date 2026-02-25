@@ -119,9 +119,6 @@ const Footer = ({ locale }) => {
               <FooterLink href="/docs">{t("links.docs")}</FooterLink>
               <FooterLink href="/privacy">{t("links.privacy")}</FooterLink>
               <FooterLink href="/terms">{t("links.terms")}</FooterLink>
-              <FooterLink href="/security">{t("links.security")}</FooterLink>
-              <FooterLink href="/sitemap.xml">{t("links.sitemap")}</FooterLink>
-              <FooterLink href="/changelog">{t("links.changelog")}</FooterLink>
             </FooterGroup>
           </div>
         </div>

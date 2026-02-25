@@ -74,7 +74,8 @@ const HomePage = () => {
               <CheckCircle className="w-4 h-4 text-[#1b9e99]" /> {t("check_1")}
             </div> */}
             <div className="flex items-center gap-1.5">
-              <CheckCircle className="w-4 h-4 text-[#1b9e99]" /> {t("check_2")}
+              <CheckCircle className="w-4 h-4 text-[#1b9e99]" />{" "}
+              <span className="text-lg font-bold text-[#00415a]">{t("check_2")}</span>
             </div>
             {/* <div className="flex items-center gap-1">
               <div className="flex text-amber-400">
