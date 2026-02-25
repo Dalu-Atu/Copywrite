@@ -1,17 +1,15 @@
-"use client"; // Required for hooks
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl"; // Use the hook, not the async function
+import { useTranslations } from "next-intl";
 import { Twitter, Linkedin, Github, ArrowRight } from "lucide-react";
 
 const Footer = ({ locale }) => {
-  // useTranslations is synchronous and works in Client Components
   const t = useTranslations("Footer");
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="relative bg-[#000] border-t border-white/5 pt-20 pb-10 overflow-hidden">
-      {/* Subtle Grid Pattern */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none [background-image:linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] [background-size:32px_32px]" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
@@ -72,38 +70,38 @@ const Footer = ({ locale }) => {
 
           {/* Links Grid */}
           <div className="lg:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-8">
-            <FooterGroup title={t("product")}>
-              <FooterLink href={`/${locale}/handwriting-to-docx`}>
-                {t("links.notes_to_word")}
+            {/* Handwriting Tools */}
+            <FooterGroup title="Handwriting">
+              <FooterLink href="/handwriting-to-docx">Notes to Word</FooterLink>
+              <FooterLink href="/handwriting-to-excel">
+                Notes to Excel
               </FooterLink>
-              <FooterLink href={`/${locale}/handwriting-to-excel`}>
-                {t("links.table_to_excel")}
+              <FooterLink href="/handwritten-invoice-to-excel">
+                Invoice to Excel
               </FooterLink>
-              <FooterLink href={`/${locale}/online-editor`}>
-                {t("links.online_editor")}
+              <FooterLink href="/handwritten-inventory-to-excel">
+                Inventory to Excel
               </FooterLink>
-              <FooterLink href={`/${locale}/edit-pdf`}>
-                {t("links.edit_pdf")}
-              </FooterLink>
-              <FooterLink href={`/${locale}/pricing`}>
-                {t("links.pricing")}
+              <FooterLink href="/handwritten-timesheet-to-excel">
+                Timesheet to Excel
               </FooterLink>
             </FooterGroup>
 
-            <FooterGroup title={t("use_cases")}>
-              <FooterLink href={`/${locale}/accounting`}>Accounting</FooterLink>
-              <FooterLink href={`/${locale}/education`}>Education</FooterLink>
-              <FooterLink href={`/${locale}/healthcare`}>Healthcare</FooterLink>
-              <FooterLink href={`/${locale}/legal`}>Legal</FooterLink>
-              <FooterLink href={`/${locale}/research`}>Research</FooterLink>
+            {/* Image / Scan Tools */}
+            <FooterGroup title="Convert">
+              <FooterLink href="/jpg-to-word">JPG to Word</FooterLink>
+              <FooterLink href="/photo-to-word">Photo to Word</FooterLink>
+              <FooterLink href="/pic-to-excel">Picture to Excel</FooterLink>
+              <FooterLink href="/scan-to-word">Scan to Word</FooterLink>
+              <FooterLink href="/edit-pdf">Edit PDF</FooterLink>
+              <FooterLink href="/online-editor">Online Editor</FooterLink>
             </FooterGroup>
 
+            {/* Company */}
             <FooterGroup title={t("company")}>
-              <FooterLink href={`/${locale}/about`}>
-                {t("links.about")}
-              </FooterLink>
+              <FooterLink href="/about">{t("links.about")}</FooterLink>
               <Link
-                href={`/${locale}/careers`}
+                href="/careers"
                 className="group flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
               >
                 {t("links.careers")}
@@ -111,59 +109,28 @@ const Footer = ({ locale }) => {
                   {t("hiring")}
                 </span>
               </Link>
-              <FooterLink href={`/${locale}/blog`}>
-                {t("links.blog")}
-              </FooterLink>
-              <FooterLink href={`/${locale}/contact`}>
-                {t("links.contact")}
-              </FooterLink>
+              <FooterLink href="/blog">{t("links.blog")}</FooterLink>
+              <FooterLink href="/contact">{t("links.contact")}</FooterLink>
+              <FooterLink href="/pricing">{t("links.pricing")}</FooterLink>
             </FooterGroup>
 
+            {/* Resources */}
             <FooterGroup title={t("resources")}>
-              <FooterLink href={`/${locale}/docs`}>
-                {t("links.docs")}
-              </FooterLink>
-            
-              <FooterLink href={`/${locale}/privacy`}>
-                {t("links.privacy")}
-              </FooterLink>
-              <FooterLink href={`/${locale}/terms`}>
-                {t("links.terms")}
-              </FooterLink>
-              <FooterLink href={`/${locale}/security`}>
-                {t("links.security")}
-              </FooterLink>
+              <FooterLink href="/docs">{t("links.docs")}</FooterLink>
+              <FooterLink href="/privacy">{t("links.privacy")}</FooterLink>
+              <FooterLink href="/terms">{t("links.terms")}</FooterLink>
+              <FooterLink href="/security">{t("links.security")}</FooterLink>
+              <FooterLink href="/sitemap.xml">{t("links.sitemap")}</FooterLink>
+              <FooterLink href="/changelog">{t("links.changelog")}</FooterLink>
             </FooterGroup>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
-            <p className="text-[12px] text-gray-500">
-              {t("copyright", { year: currentYear })}
-            </p>
-            <nav className="flex items-center gap-6 text-[12px] text-gray-500 font-mono uppercase tracking-widest">
-              <Link
-                href={`/${locale}/sitemap.xml`}
-                className="hover:text-white transition-colors"
-              >
-                {t("links.sitemap")}
-              </Link>
-              <Link
-                href={`/${locale}/status`}
-                className="hover:text-white transition-colors"
-              >
-                {t("links.status")}
-              </Link>
-              <Link
-                href={`/${locale}/changelog`}
-                className="hover:text-white transition-colors"
-              >
-                {t("links.changelog")}
-              </Link>
-            </nav>
-          </div>
+          <p className="text-[12px] text-gray-500">
+            {t("copyright", { year: currentYear })}
+          </p>
 
           <div className="flex gap-3">
             <SocialIcon
@@ -217,5 +184,4 @@ const SocialIcon = ({ href, icon, label }) => (
     {icon}
   </a>
 );
-
 export default Footer;
