@@ -20,6 +20,7 @@ import {
   ScanLine,
   CreditCard,
 } from "lucide-react";
+import { ConciergeSection } from "./ConciergeSection";
 
 export default function PricingPage() {
   const t = useTranslations("PricingUI");
@@ -169,7 +170,7 @@ export default function PricingPage() {
           })}
         </div>
       </section>
-
+      <ConciergeSection />
       {/* --- DEEP DIVE (SEO CONTENT) --- */}
       <section className="py-24 max-w-7xl mx-auto px-6 border-b border-white/5">
         <div className="text-center mb-16">
