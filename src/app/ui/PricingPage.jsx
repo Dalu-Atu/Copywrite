@@ -136,7 +136,7 @@ export default function PricingPage() {
                 </div>
 
                 <a
-                  href="https:app.noteocr.com/signup"
+                  href="https://app.noteocr.com/signup"
                   className={`w-full py-3 px-4 rounded-md font-bold text-sm text-center transition-all ${
                     isPlus
                       ? "bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/20"
