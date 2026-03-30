@@ -5,11 +5,11 @@ import { ArrowRight, Upload, CheckCircle, Loader2, Star } from "lucide-react";
 
 // Import your existing sections
 import FeaturesSection from "./FeatureSection";
-import TrustSection from "./TrustSection";
 import HowItWorksSection from "./HowItWorks";
 import WhySection from "./WhySection";
 import TestimonialSection from "./TestimonialSection";
 import FAQSection from "./Faq";
+import BlogSection from "./BlogSection";
 
 const HomePage = () => {
   const t = useTranslations("HomePage");
@@ -75,18 +75,10 @@ const HomePage = () => {
             </div> */}
             <div className="flex items-center gap-1.5">
               <CheckCircle className="w-4 h-4 text-[#1b9e99]" />{" "}
-              <span className="text-lg font-bold text-[#00415a]">{t("check_2")}</span>
+              <span className="text-lg font-bold text-[#00415a]">
+                {t("check_2")}
+              </span>
             </div>
-            {/* <div className="flex items-center gap-1">
-              <div className="flex text-amber-400">
-                <Star className="w-3 h-3 fill-current" />
-                <Star className="w-3 h-3 fill-current" />
-                <Star className="w-3 h-3 fill-current" />
-                <Star className="w-3 h-3 fill-current" />
-                <Star className="w-3 h-3 fill-current" />
-              </div>
-              <span className="ml-1">{t("rating_text")}</span>
-            </div> */}
           </div>
 
           {/* 4. CTAs */}
@@ -179,6 +171,7 @@ const HomePage = () => {
       <HowItWorksSection />
       <WhySection />
       <TestimonialSection />
+      <BlogSection />
       <FAQSection />
     </main>
   );

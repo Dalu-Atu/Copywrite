@@ -33,13 +33,13 @@ export default function BlogSection() {
   const gridArticles = filteredArticles.filter((a) => a.id !== featuredPost.id);
 
   return (
-    <section className="bg-white py-24 border-t border-slate-100">
+    <section className="bg-white py-24 border-t border-slate-100 md:mt-7 mt-0">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* 1. HEADER: Minimal & Editorial */}
-        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8 pb-8">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-16 gap-8 pb-8">
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 tracking-tight mb-4">
-              The Blog
+            <h1 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight mb-4">
+              NoteOCR Blog
             </h1>
             <p className="text-lg text-slate-500 max-w-xl leading-relaxed">
               Thoughts on AI, document intelligence, and the future of work.
@@ -60,7 +60,7 @@ export default function BlogSection() {
         </div>
 
         {/* 2. CATEGORY TABS (Text based, no buttons) */}
-        <div className="flex overflow-x-auto gap-8 mb-12 pb-2 scrollbar-hide">
+        <div className="flex overflow-x-auto gap-8 mb-1 pb-2 scrollbar-hide">
           {categories.map((category) => (
             <button
               key={category}
@@ -103,7 +103,7 @@ export default function BlogSection() {
                   <span className="w-1 h-1 rounded-full bg-slate-300"></span>
                   <span>{featuredPost.readTime} read</span>
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight group-hover:text-teal-700 transition-colors">
+                <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4 leading-tight group-hover:text-teal-700 transition-colors">
                   {featuredPost.title}
                 </h2>
                 <p className="text-slate-500 text-lg leading-relaxed mb-6 line-clamp-3">

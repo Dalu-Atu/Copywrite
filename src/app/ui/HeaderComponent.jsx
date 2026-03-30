@@ -124,31 +124,6 @@ const HeaderComponent = () => {
   return (
     <>
       <div className="fixed top-0 left-0 right-0 z-[100] flex flex-col w-full">
-        {/* --- MIGRATION BANNER --- */}
-        <AnimatePresence>
-          {showBanner && (
-            <motion.div
-              initial={{ height: 0 }}
-              animate={{ height: "auto" }}
-              exit={{ height: 0 }}
-              className="bg-[#015979] text-white overflow-hidden w-full"
-            >
-              <div className="max-w-7xl mx-auto px-6 py-2.5 flex items-center justify-center gap-4 text-[11px] sm:text-sm font-medium">
-                <span className="opacity-90">
-                  Copywritee is now <strong>NoteOCR</strong>. Smarter features,
-                  new home!
-                </span>
-                <button
-                  onClick={() => setShowBanner(false)}
-                  className="p-1 hover:bg-white/10 rounded-full transition-colors flex-shrink-0"
-                >
-                  <X className="w-4 h-4" />
-                </button>
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
         {/* --- HEADER --- */}
         <header className="w-full bg-white border-b border-zinc-200 py-3 shadow-sm transition-all duration-300">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
