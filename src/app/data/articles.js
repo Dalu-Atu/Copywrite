@@ -430,4 +430,20 @@ export const articles = [
 </div>
   `,
   },
+  {
+    id: 2,
+    slug: "-notes-table-to-excel",
+    featured: true,
+    category: "Productivity",
+    title:
+      "Convert Handwritten Notes & Tables to Excel: The Complete Industry Guide (2026)",
+    excerpt:
+      "Stop wasting hours re-entering handwritten data. Learn how  NoteOCR converts notes, tables and forms into clean Excel data in seconds.",
+    author: "Daniel Atu",
+    date: "2026-04-01",
+    readTime: "11 min",
+    tags: ["OCR", "Excel", "Productivity", "AI", "Data Entry", "Handwriting"],
+    image: "/articles-images/handwriting-notes-table-to-excel.png", // Replace with actual OG-ready CDN image path
+    content:`<p>hi there</p>`
+  }
 ];

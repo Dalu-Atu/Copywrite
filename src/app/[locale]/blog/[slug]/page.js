@@ -18,6 +18,7 @@ import {
 // (We can safely inline small client components for interactivity)
 import { ReadingProgress } from "./ReadingProgress";
 import { CopyLinkButton } from "./CopyLinkButton";
+export const dynamic = "force-static";
 
 // ─── generateStaticParams ────────────────────────────────────────────────────
 export async function generateStaticParams() {
@@ -85,7 +86,7 @@ function RelatedPosts({ currentId, currentCategory, currentTags }) {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
         {related.map((a) => (
-          <Link key={a.id} href={`/blog/${a.slug}`} className="group block">
+          <Link key={a.id} href={`/blog/en/${a.slug}`} className="group block">
             <div className="relative aspect-[16/10] overflow-hidden rounded-2xl mb-5 bg-gray-100 ring-1 ring-gray-900/5">
               <Image
                 src={a.image}
@@ -124,7 +125,16 @@ export default async function BlogPost({ params }) {
   const decodedSlug = decodeURIComponent(resolvedParams.slug);
 
   const post = articles.find((a) => a.slug === decodedSlug);
-  if (!post) return notFound();
+  // if (!post) return notFound();
+
+  // Do this:
+  if (!post) {
+    return (
+      <div>
+        <h1>Post not found</h1>
+      </div>
+    );
+  }
 
   const ogImage = post.image.startsWith("http")
     ? post.image
@@ -421,7 +431,7 @@ export default async function BlogPost({ params }) {
               href="/docs"
               className="px-8 py-4 bg-gray-800 text-white rounded-xl font-bold border border-gray-700 hover:bg-gray-700 transition-colors"
             >
-              Read  Docs
+              Read Docs
             </Link>
           </div>
         </div>
