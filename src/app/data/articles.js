@@ -26,7 +26,7 @@ export const articles = [
     <div class="not-prose bg-blue-50 border-l-4 border-[#015979] p-5 md:p-6 rounded-r-2xl my-8 md:my-10 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
       <div>
         <h4 class="font-bold text-[#015979] text-lg mb-1">Skip the reading — convert your handwriting right now.</h4>
-        <p class="text-sm text-slate-600">Upload a photo of any handwritten note or table. Get a clean Excel file in under 30 seconds.</p>
+        <p class="text-sm text-slate-600">Upload a photo of any handwritten note or table. Get a clean Word or Excel file in under 30 seconds.</p>
       </div>
       <a href="https://app.noteocr.com/upload-image" class="w-full md:w-auto text-center px-6 py-3 bg-[#015979] text-white rounded-full font-bold text-sm hover:scale-105 transition-transform shadow-md">
         Try  Free
