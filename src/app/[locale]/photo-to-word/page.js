@@ -89,18 +89,18 @@ export default async function PhotoToWord({ params }) {
     },
   ];
 
-const faqItems = [
-  "how_to_convert_photo",
-  "smartphone_photos",
-  "angled_pictures",
-  "handwritten_photos",
-  "screen_photos",
-  "curved_book_pages",
-  "is_photo_tool_free",
-  "google_docs_compatibility",
-  "photo_privacy",
-  "blurry_photos",
-];
+  const faqItems = [
+    "how_to_convert_photo",
+    "smartphone_photos",
+    "angled_pictures",
+    "handwritten_photos",
+    "screen_photos",
+    "curved_book_pages",
+    "is_photo_tool_free",
+    "google_docs_compatibility",
+    "photo_privacy",
+    "blurry_photos",
+  ];
 
   const jsonLd = {
     "@context": "https://schema.org",

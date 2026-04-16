@@ -1,11 +1,14 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Twitter, Linkedin, Github, ArrowRight } from "lucide-react";
 
-const Footer = ({ locale }) => {
+const Footer = () => {
   const t = useTranslations("Footer");
+  const locale = useLocale();
+  console.log(locale);
+
   const currentYear = new Date().getFullYear();
 
   return (
@@ -72,36 +75,50 @@ const Footer = ({ locale }) => {
           <div className="lg:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-8">
             {/* Handwriting Tools */}
             <FooterGroup title="Handwriting">
-              <FooterLink href="/handwriting-to-docx">Notes to Word</FooterLink>
-              <FooterLink href="/handwriting-to-excel">
+              <FooterLink href={`/${locale}/handwriting-to-docx`}>
+                Notes to Word
+              </FooterLink>
+              <FooterLink href={`/${locale}/handwriting-to-excel`}>
                 Notes to Excel
               </FooterLink>
-              <FooterLink href="/handwritten-invoice-to-excel">
+              <FooterLink href={`/${locale}/handwritten-invoice-to-excel`}>
                 Invoice to Excel
               </FooterLink>
-              <FooterLink href="/handwritten-inventory-to-excel">
+              <FooterLink href={`/${locale}/handwritten-inventory-to-excel`}>
                 Inventory to Excel
               </FooterLink>
-              <FooterLink href="/handwritten-timesheet-to-excel">
+              <FooterLink href={`/${locale}/handwritten-timesheet-to-excel`}>
                 Timesheet to Excel
               </FooterLink>
             </FooterGroup>
 
             {/* Image / Scan Tools */}
             <FooterGroup title="Convert">
-              <FooterLink href="/jpg-to-word">JPG to Word</FooterLink>
-              <FooterLink href="/photo-to-word">Photo to Word</FooterLink>
-              <FooterLink href="/pic-to-excel">Picture to Excel</FooterLink>
-              <FooterLink href="/scan-to-word">Scan to Word</FooterLink>
-              <FooterLink href="/edit-pdf">Edit PDF</FooterLink>
-              <FooterLink href="/online-editor">Online Editor</FooterLink>
+              <FooterLink href={`/${locale}/jpg-to-word`}>
+                JPG to Word
+              </FooterLink>
+              <FooterLink href={`/${locale}/photo-to-word`}>
+                Photo to Word
+              </FooterLink>
+              <FooterLink href={`/${locale}/pic-to-excel`}>
+                Picture to Excel
+              </FooterLink>
+              <FooterLink href={`/${locale}/scan-to-word`}>
+                Scan to Word
+              </FooterLink>
+              <FooterLink href={`/${locale}/edit-pdf`}>Edit PDF</FooterLink>
+              <FooterLink href={`/${locale}/online-editor`}>
+                Online Editor
+              </FooterLink>
             </FooterGroup>
 
             {/* Company */}
             <FooterGroup title={t("company")}>
-              <FooterLink href="/about">{t("links.about")}</FooterLink>
+              <FooterLink href={`/${locale}/about`}>
+                {t("links.about")}
+              </FooterLink>
               <Link
-                href="/careers"
+                href={`/${locale}/careers`}
                 className="group flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
               >
                 {t("links.careers")}
@@ -109,16 +126,28 @@ const Footer = ({ locale }) => {
                   {t("hiring")}
                 </span>
               </Link>
-              <FooterLink href="/blog">{t("links.blog")}</FooterLink>
-              <FooterLink href="/contact">{t("links.contact")}</FooterLink>
-              <FooterLink href="/pricing">{t("links.pricing")}</FooterLink>
+              <FooterLink href={`/${locale}/blog`}>
+                {t("links.blog")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/contact`}>
+                {t("links.contact")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/pricing`}>
+                {t("links.pricing")}
+              </FooterLink>
             </FooterGroup>
 
             {/* Resources */}
             <FooterGroup title={t("resources")}>
-              <FooterLink href="/docs">{t("links.docs")}</FooterLink>
-              <FooterLink href="/privacy">{t("links.privacy")}</FooterLink>
-              <FooterLink href="/terms">{t("links.terms")}</FooterLink>
+              <FooterLink href={`/${locale}/docs`}>
+                {t("links.docs")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/privacy`}>
+                {t("links.privacy")}
+              </FooterLink>
+              <FooterLink href={`/${locale}/terms`}>
+                {t("links.terms")}
+              </FooterLink>
             </FooterGroup>
           </div>
         </div>

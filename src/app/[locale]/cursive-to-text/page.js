@@ -3,7 +3,6 @@ import ToolInterface from "../../ui/ToolInterface";
 import Script from "next/script";
 import Link from "next/link";
 import {
-  FileText,
   CheckCircle2,
   Zap,
   ShieldCheck,
@@ -16,38 +15,36 @@ import {
   Shield,
   Target,
   Layout,
-  Edit3,
-  FileType,
-  DollarSign,
-  Clock,
-  FileSpreadsheet,
-  Notebook,
-  Text,
   FileTextIcon,
   FileSpreadsheetIcon,
+  ScanText,
+  PenLine,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "WordPage" });
+  const t = await getTranslations({
+    locale,
+    namespace: "CursiveToTextPage",
+  });
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/handwriting-to-docx`,
+      canonical: `https://noteocr.com/${locale}/cursive-to-text`,
       languages: {
-        en: "https://noteocr.com/en/handwriting-to-docx",
-        es: "https://noteocr.com/es/handwriting-to-docx",
-        tr: "https://noteocr.com/tr/handwriting-to-docx",
-        zh: "https://noteocr.com/zh/handwriting-to-docx",
-        hi: "https://noteocr.com/hi/handwriting-to-docx",
-        de: "https://noteocr.com/de/handwriting-to-docx",
-        ja: "https://noteocr.com/ja/handwriting-to-docx",
-        fr: "https://noteocr.com/fr/handwriting-to-docx",
-        "pt-br": "https://noteocr.com/pt-br/handwriting-to-docx",
+        en: "https://noteocr.com/en/cursive-to-text",
+        es: "https://noteocr.com/es/cursive-to-text",
+        tr: "https://noteocr.com/tr/cursive-to-text",
+        zh: "https://noteocr.com/zh/cursive-to-text",
+        hi: "https://noteocr.com/hi/cursive-to-text",
+        de: "https://noteocr.com/de/cursive-to-text",
+        ja: "https://noteocr.com/ja/cursive-to-text",
+        fr: "https://noteocr.com/fr/cursive-to-text",
+        "pt-br": "https://noteocr.com/pt-br/cursive-to-text",
       },
     },
     openGraph: {
@@ -58,58 +55,60 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function HandwritingToWordPage({ params }) {
+export default async function CursiveToTextPage({ params }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "WordPage" });
+  const t = await getTranslations({
+    locale,
+    namespace: "CursiveToTextPage",
+  });
 
   const relatedTools = [
     {
       name: t("related_tool_1_name"),
       desc: t("related_tool_1_desc"),
-      icon: <FileTextIcon className="w-5 h-5" />,
+      icon: <FileTextIcon className="w-5 h-5" />, // Word doc output
       link: `/${locale}/handwriting-to-docx`,
     },
     {
       name: t("related_tool_2_name"),
       desc: t("related_tool_2_desc"),
-      icon: <Notebook className="w-5 h-5" />,
-      link: `/${locale}/edit-pdf`,
+      icon: <FileSpreadsheetIcon className="w-5 h-5" />, // Excel output
+      link: `/${locale}/handwriting-to-excel`,
     },
     {
       name: t("related_tool_3_name"),
       desc: t("related_tool_3_desc"),
-      icon: <FileSpreadsheetIcon className="w-5 h-5" />,
-      link: `/${locale}/online-editor`,
+      icon: <PenLine className="w-5 h-5" />, // Handwriting Recognition
+      link: `/${locale}/handwriting-recognition`,
     },
     {
       name: t("related_tool_4_name"),
       desc: t("related_tool_4_desc"),
-      icon: <Text className="w-5 h-5" />,
-      link: `/${locale}/`,
+      icon: <ScanText className="w-5 h-5" />, // Scanning handwriting
+      link: `/${locale}/scan-handwriting-to-text`,
     },
   ];
 
   const faqItems = [
-    "handwriting_to_word",
-    "cursive_reading",
-    "layout_preserved",
-    "is_free_word",
-    "messy_handwriting",
-    "notebook_vs_loose",
-    "math_formulas",
-    "multiple_pages",
-    "word_vs_google_docs",
-    "edit_after_conversion",
-    "crossed_out_text",
-    "handwriting_styles",
-    "quality_tips_word",
-    "privacy_notes",
-    "why_not_type",
-    "student_benefits",
-    "meeting_notes",
-    "languages_supported",
-    "comparison_apps",
+    "what_is",
+    "how_accurate",
+    "joined_up_writing",
+    "old_cursive",
+    "personal_cursive",
+    "no_app",
+    "phone_photo",
+    "free",
+    "export_word",
+    "cursive_vs_print",
+    "letters_journals",
+    "languages",
     "historical_documents",
+    "how_it_works",
+    "privacy",
+    "vs_google",
+    "batch",
+    "copperplate",
+    "accuracy_tips",
   ];
 
   const jsonLd = {
@@ -122,7 +121,7 @@ export default async function HandwritingToWordPage({ params }) {
         operatingSystem: "Web",
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
         featureList:
-          "Handwriting OCR, Layout Preservation, Word Export, Cursive Recognition, Multi-Language Support",
+          "Handwriting Recognition, Cursive OCR, Messy Writing Support, Multi-Language, Word Export, Excel Export",
       },
       {
         "@type": "FAQPage",
@@ -137,22 +136,19 @@ export default async function HandwritingToWordPage({ params }) {
       },
       {
         "@type": "HowTo",
-        name: "How to Convert Handwritten Notes to Word",
+        name: "How to Convert Handwritten Notes to Text",
         step: [
           {
-            "@type": "HowToStep",
-            name: "Upload handwritten notes image",
-            text: "Photograph or scan your handwritten notes and upload the image file",
+            name: "Upload handwritten image",
+            text: "Take a photo or upload a scan of your handwritten notes, forms, or documents",
           },
           {
-            "@type": "HowToStep",
-            name: "AI converts handwriting to text",
-            text: "Our OCR engine recognizes handwriting and preserves layout structure",
+            name: "AI recognises the handwriting",
+            text: "Our neural network reads the handwriting including cursive and messy styles, preserving your document structure",
           },
           {
-            "@type": "HowToStep",
-            name: "Download Word document",
-            text: "Get your formatted .docx file ready for editing in Microsoft Word or Google Docs",
+            name: "Download or copy your text",
+            text: "Export recognised text to Word, Excel, or plain text — ready to edit immediately",
           },
         ],
       },
@@ -185,7 +181,7 @@ export default async function HandwritingToWordPage({ params }) {
           </p>
 
           {/* THE TOOL */}
-          <ToolInterface locale={locale} translation={"WordPage"} />
+          <ToolInterface locale={locale} translation={"CursiveToTextPage"} />
 
           <div className="mt-20 flex flex-wrap justify-center gap-x-12 gap-y-6 opacity-30 grayscale pointer-events-none">
             <div className="flex items-center gap-2 text-[10px] font-mono tracking-tighter">

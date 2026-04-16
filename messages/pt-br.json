@@ -2171,5 +2171,576 @@
         }
       }
     }
+  },
+
+  "HandwritingRecognitionPage": {
+    "meta_title": "Reconhecimento de Escrita à Mão Online | NoteOCR",
+    "meta_desc": "Faça o upload de qualquer imagem manuscrita e nossa IA a reconhece e converte em texto formatado instantaneamente. Reconhecimento de escrita à mão grátis online.",
+
+    "hero_pill": "Reconhecimento de Caligrafia por IA",
+    "hero_title": "Reconhecimento de Escrita à Mão que Realmente Funciona.",
+    "hero_subtitle": "Envie uma foto de anotações, formulários ou documentos manuscritos. Nossa IA lê a caligrafia, incluindo letras cursivas difíceis, e as converte em texto formatado e editável em segundos.",
+
+    "trust_ssl": "Criptografia SSL",
+    "trust_processing": "Processamento em 30 Segundos",
+    "trust_accuracy": "99% de Precisão no Reconhecimento",
+
+    "before_after_title": "Veja o Reconhecimento em Ação",
+    "before_after_desc": "Amostra real de escrita à mão mostrando o que nossa IA lê versus o resultado gerado.",
+    "before_label": "Antes: Imagem Manuscrita",
+    "after_label": "Depois: Texto Digital Reconhecido",
+
+    "use_cases_title": "Quem Usa o Reconhecimento de Escrita à Mão?",
+    "use_cases_subtitle": "De estudantes digitalizando anotações a empresas processando formulários, o reconhecimento de caligrafia economiza horas todos os dias.",
+
+    "use_case_1_title": "Estudantes e Anotações de Aulas",
+    "use_case_1_desc": "Fotografe seu caderno após a aula e obtenha um texto totalmente pesquisável e editável em segundos. Chega de redigitar páginas de anotações antes das provas.",
+
+    "use_case_2_title": "Letra Cursiva e \"Letra Feia\"",
+    "use_case_2_desc": "Nossa IA é treinada especificamente para caligrafias difíceis. Rabiscos apressados, letras cursivas conectadas e estilos mistos de forma/cursiva são todos reconhecidos com alta precisão.",
+
+    "use_case_3_title": "Formulários e Documentos Manuscritos",
+    "use_case_3_desc": "Digitalize fichas de pacientes, relatórios de campo, faturas e registros de RH a partir da foto de um celular. Não é necessário scanner, sua câmera é suficiente.",
+
+    "use_case_4_title": "Cartas Antigas e Diários",
+    "use_case_4_desc": "Preserve cartas de família escritas à mão, diários pessoais e documentos históricos convertendo-os em texto digital pesquisável que você pode compartilhar e arquivar.",
+
+    "comparison_title": "Reconhecimento de Caligrafia: Métodos Comparados",
+    "comparison_subtitle": "Por que uma IA desenvolvida para esse fim supera as ferramentas genéricas todas as vezes.",
+    "comparison_col_method": "Método",
+    "comparison_col_time": "Velocidade",
+    "comparison_col_accuracy": "Precisão em Manuscritos",
+    "comparison_col_cost": "Custo",
+    "comparison_row1_method": "Digitação manual",
+    "comparison_row1_time": "+60 min/pág.",
+    "comparison_row1_accuracy": "100% (mas sujeito a erros)",
+    "comparison_row1_cost": "Seu tempo",
+    "comparison_row2_method": "OCR Genérico (Google Lens, Adobe)",
+    "comparison_row2_time": "Instantâneo",
+    "comparison_row2_accuracy": "40–70% em escrita à mão",
+    "comparison_row2_cost": "Grátis e Pago",
+    "comparison_row3_method": "Reconhecimento de Manuscritos NoteOCR",
+    "comparison_row3_time": "Menos de 30 segundos",
+    "comparison_row3_accuracy": "95–99% incluindo letra cursiva",
+    "comparison_row3_cost": "Teste grátis",
+
+    "features_title": "Por Que Nosso Reconhecimento de Escrita à Mão é Diferente",
+    "features_subtitle": "Construído especificamente para escrita à mão, não adaptado de uma ferramenta de texto impresso.",
+
+    "feature_1_title": "Treinada com Caligrafia, Não com Fontes",
+    "feature_1_desc": "O OCR genérico aprende com fontes impressas. Nossa IA foi treinada exclusivamente com milhões de amostras reais de escrita à mão: letra de forma, cursiva, estilos mistos, anotações apressadas e tudo mais.",
+
+    "feature_2_title": "Lê Letra Cursiva e Letra Feia",
+    "feature_2_desc": "Letras conectadas, inclinação variável, tamanhos inconsistentes: exatamente as coisas que quebram o OCR padrão. Nossa rede neural lida com elas da mesma maneira que um leitor humano: usando o contexto para preencher as lacunas.",
+
+    "feature_3_title": "Resultados Que Você Realmente Pode Usar",
+    "feature_3_desc": "O texto reconhecido não é simplesmente jogado como um parágrafo sem formatação. Nós reconstruímos o layout, preservamos listas e cabeçalhos, e exportamos para Word, Excel ou texto simples, dependendo do que você precisa.",
+
+    "tech_title": "Como Funciona o Reconhecimento de Escrita à Mão",
+    "tech_intro": "A tecnologia OCR padrão foi criada para texto impresso: fontes uniformes com formas de letras previsíveis. A escrita à mão quebra todas as regras que fazem o OCR padrão funcionar. Cada pessoa escreve de forma diferente. As letras se conectam, se sobrepõem, variam em tamanho e inclinação. Nossa IA usa uma abordagem completamente diferente: redes neurais treinadas em milhões de amostras de escrita à mão que aprendem a ler como um humano: reconhecendo padrões em palavras e linhas inteiras, não em caracteres individuais.",
+
+    "tech_detect_title": "O Que Nossa IA Detecta",
+    "tech_detect_1": "Escrita de forma e cursiva, incluindo letras conectadas e sobrepostas",
+    "tech_detect_2": "Estilos de escrita desordenados, apressados e inconsistentes",
+    "tech_detect_3": "Mistura de letra de forma e cursiva na mesma página",
+    "tech_detect_4": "Palavras riscadas, rasuras e correções",
+    "tech_detect_5": "Estrutura do documento: cabeçalhos, listas, parágrafos e linhas de tabelas",
+
+    "tech_tips_title": "Dicas para Melhores Resultados",
+    "tech_tips_1": "Fotografe com boa luz natural, evite flash diretamente na página",
+    "tech_tips_2": "Segure o celular paralelo ao papel, não inclinado",
+    "tech_tips_3": "Certifique-se de que a tinta contraste claramente com o fundo do papel",
+    "tech_tips_4": "300 DPI ou mais para documentos escaneados",
+    "tech_tips_5": "Revise o resultado: mesmo 95% de precisão significa que pequenas correções podem ser necessárias",
+
+    "related_tools_title": "Ferramentas Relacionadas",
+    "related_tool_1_name": "Manuscrito para Word",
+    "related_tool_1_desc": "Converta anotações em .docx formatado",
+    "related_tool_2_name": "Manuscrito para Excel",
+    "related_tool_2_desc": "Extraia tabelas para planilhas",
+    "related_tool_3_name": "Cursiva para Texto",
+    "related_tool_3_desc": "Ferramenta OCR especializada em letra cursiva",
+    "related_tool_4_name": "Escanear Manuscrito para Texto",
+    "related_tool_4_desc": "A partir de foto do celular ou PDF escaneado",
+
+    "faq_title": "Perguntas Frequentes Sobre o Reconhecimento de Escrita à Mão",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "O que é reconhecimento de escrita à mão?",
+          "a": "O reconhecimento de escrita à mão, também chamado de HTR (Reconhecimento de Texto Manuscrito), é uma tecnologia de IA que lê texto manuscrito em imagens e o converte em texto digital editável. Diferente do OCR padrão, que funciona em fontes impressas, o reconhecimento de escrita à mão usa redes neurais treinadas em amostras reais de caligrafia para interpretar a infinita variação em como as pessoas escrevem."
+        },
+        "how_accurate": {
+          "q": "Qual é a precisão do reconhecimento de caligrafia por IA?",
+          "a": "O NoteOCR atinge 95–99% de precisão em escrita à mão clara e bem iluminada. Letras muito rabiscadas ou altamente cursivas geralmente ficam entre 85–92%. Para comparação, ferramentas genéricas como o Google Lens têm em média 60–70% de precisão em manuscritos. Sempre revise o resultado antes de usá-lo para documentos críticos."
+        },
+        "messy_handwriting": {
+          "q": "Funciona com letra feia ou garranchos?",
+          "a": "Sim, a \"letra feia\" (garrancho) é exatamente para o que nossa IA é treinada. Ferramentas padrão de OCR foram projetadas para textos impressos limpos e falham em qualquer coisa que fuja de fontes uniformes. Nossa rede neural lida com escrita apressada, tamanhos inconsistentes, palavras rasuradas e inclinação variável porque aprendeu com milhões de amostras reais de caligrafia, e não com fontes de computador."
+        },
+        "cursive": {
+          "q": "Consegue reconhecer letra cursiva?",
+          "a": "Sim. A letra cursiva é um dos casos mais difíceis para o OCR padrão porque as letras se conectam e se sobrepõem, tornando impossível segmentar caracteres individuais. Nossa IA lê letras cursivas da mesma forma que um ser humano: analisando padrões em palavras e linhas inteiras. Ela lida bem com escrita conectada, laços fluidos e estilos mistos (cursiva/forma)."
+        },
+        "no_app": {
+          "q": "Posso usar o reconhecimento de manuscritos sem baixar um aplicativo?",
+          "a": "Sim, o NoteOCR funciona inteiramente no seu navegador. Sem download de aplicativo, sem instalação de software e sem necessidade de plugins. Basta abrir a página, enviar sua imagem e obter os resultados. Funciona no Chrome, Safari, Firefox e Edge em qualquer dispositivo, incluindo celulares."
+        },
+        "no_signup": {
+          "q": "Existe reconhecimento de escrita à mão gratuito sem precisar de cadastro?",
+          "a": "Sim. Você pode testar o NoteOCR grátis sem criar uma conta. Faça o upload da sua imagem manuscrita e receba o texto reconhecido instantaneamente. Para processamento em maior volume, exportação para Word ou Excel e envios em lote, um plano pago está disponível — mas o reconhecimento principal é grátis para testar."
+        },
+        "from_phone": {
+          "q": "Posso fazer a conversão a partir de uma foto tirada pelo celular?",
+          "a": "Com certeza. Tire uma foto das suas anotações com a câmera do celular e envie diretamente. Nossa IA lida com a correção de perspectiva, melhoria de iluminação e remoção de ruído automaticamente. Para obter os melhores resultados, segure o telefone paralelo ao papel e fotografe com a luz do dia em vez de usar o flash."
+        },
+        "students": {
+          "q": "Como o reconhecimento de escrita à mão ajuda os estudantes?",
+          "a": "Estudantes usam para digitalizar anotações de aula, tornando-as pesquisáveis e fáceis de compartilhar. Em vez de redigitar páginas inteiras de cadernos antes de uma prova, você envia uma foto e obtém um texto editável em menos de um minuto. Assim você pode buscar termos específicos, copiar trechos para trabalhos e compartilhar resumos com os colegas — tudo sem redigitar uma única palavra."
+        },
+        "vs_google_lens": {
+          "q": "Qual a diferença disso para o reconhecimento do Google Lens?",
+          "a": "O Google Lens é uma ferramenta genérica otimizada principalmente para texto impresso, placas e rótulos de produtos. Sua precisão em caligrafia gira em torno de 60–70% porque manuscritos não eram o seu foco principal. O NoteOCR foi construído especificamente para manuscritos e treinado exclusivamente em amostras escritas à mão — é por isso que a precisão chega a 95–99% nos mesmos documentos que o Google Lens não consegue ler direito. O NoteOCR também reconstrói a estrutura do documento e exporta para Word e Excel, o que o Google Lens não faz."
+        },
+        "vs_adobe": {
+          "q": "O NoteOCR é melhor que o Adobe para manuscritos?",
+          "a": "Para escrita à mão especificamente, sim. O OCR do Adobe Acrobat é excelente para textos impressos e documentos escaneados, mas não foi projetado para caligrafia. Ele costuma ler errado letras cursivas e conectadas. O NoteOCR é desenvolvido especialmente para o reconhecimento de manuscritos e supera significativamente o Adobe em conteúdos feitos à mão. Além disso, o Adobe exige uma assinatura cara; o NoteOCR é grátis para testar."
+        },
+        "formats": {
+          "q": "Quais formatos de arquivo o reconhecimento aceita?",
+          "a": "Você pode enviar imagens JPG, JPEG, PNG e WEBP. Envios em PDF são suportados nos planos pagos. Para documentos com várias páginas no plano gratuito, envie cada página separadamente. O tamanho máximo do arquivo é de 25MB por imagem."
+        },
+        "output_formats": {
+          "q": "Em quais formatos posso exportar o texto reconhecido?",
+          "a": "O texto pode ser exportado como texto simples (TXT), documento Microsoft Word (DOCX), planilha Microsoft Excel (XLSX) se o manuscrito contiver tabelas, e PDF. O formato disponível depende do seu plano: o TXT está disponível no plano gratuito, enquanto DOCX e XLSX exigem um plano Student ou superior."
+        },
+        "how_works": {
+          "q": "Como o reconhecimento por IA realmente funciona?",
+          "a": "Nossa IA usa redes neurais convolucionais para analisar sua imagem. Primeiro ela faz o pré-processamento (corrige a inclinação, melhora o contraste, remove ruídos). Em seguida, a análise de layout identifica a estrutura do documento: linhas, parágrafos, tabelas. Finalmente, a rede neural lê cada linha de texto, usando as palavras ao redor como contexto para interpretar caracteres ambíguos. O resultado é reconstruído em um documento formatado que preserva sua estrutura original."
+        },
+        "languages": {
+          "q": "Quais idiomas o reconhecimento de caligrafia suporta?",
+          "a": "O NoteOCR suporta mais de 30 idiomas, incluindo Português, Inglês, Espanhol, Francês, Alemão, Italiano e Holandês. Para escritas não latinas (como Árabe, Chinês, Japonês e Hindi) o reconhecimento está disponível, mas a precisão varia conforme a complexidade da escrita e a qualidade da imagem."
+        },
+        "privacy": {
+          "q": "Meu conteúdo manuscrito é privado quando faço o upload?",
+          "a": "Sim. Todos os envios são criptografados via SSL durante a transferência. Suas imagens são processadas em contêineres seguros e isolados, e excluídas permanentemente em 24 horas. Nunca usamos seu conteúdo manuscrito para treinar nossos modelos ou os compartilhamos com terceiros. O NoteOCR foi construído com foco na privacidade (privacy-first)."
+        },
+        "historical": {
+          "q": "Consegue reconhecer caligrafia de documentos antigos ou históricos?",
+          "a": "Sim, com algumas ressalvas. O NoteOCR lida razoavelmente bem com papel envelhecido, tinta desbotada e estilos de escrita mais antigos. No entanto, escritas muito antigas — caligrafia do século 18 ou escritas pré-modernas — podem ter uma precisão menor. Para escrita à mão moderna (pós-1900), o desempenho é consistentemente alto. Recomendamos testar uma página de amostra em documentos mais antigos antes de processar um arquivo inteiro."
+        },
+        "doctor": {
+          "q": "Ele consegue ler letra de médico?",
+          "a": "Esse é um dos casos de uso mais comuns — e sim, nossa IA consegue. Letra de médico é notoriamente difícil: rápida, espremida, muitas vezes cursiva e cheia de abreviações. Nosso motor de reconhecimento foi treinado em amostras desafiadoras do mundo real, incluindo receituários médicos. A precisão na letra de médico é tipicamente de 80–90% — menor que a caligrafia padrão, mas significativamente melhor que qualquer ferramenta de OCR genérica."
+        },
+        "whiteboard": {
+          "q": "Funciona em fotos de quadro branco (lousa)?",
+          "a": "Sim. O conteúdo de um quadro branco (geralmente marcador em fundo branco) é na verdade mais fácil para nossa IA do que a caligrafia no papel, pois o contraste é alto e não há interferência da textura da folha. Envie a foto de uma reunião no quadro branco e o texto será reconhecido com clareza. Para melhores resultados, evite os reflexos das luzes do teto."
+        },
+        "batch": {
+          "q": "Posso processar várias páginas de uma só vez?",
+          "a": "O processamento em lote (batch) está disponível nos planos Professional e Power User. Usuários dos planos Free e Student processam uma página por vez. Para grandes arquivos, cadernos, formulários longos ou digitalização em massa, o plano Power User inclui uploads em lote ilimitados com processamento simultâneo."
+        },
+        "accuracy_improve": {
+          "q": "Como posso melhorar a precisão do reconhecimento de escrita à mão?",
+          "a": "O fator mais importante é a qualidade da imagem. Fotografe em luz clara e uniforme — a luz natural do dia é a melhor opção. Segure sua câmera paralela à página, não inclinada. Certifique-se de que a página inteira preencha o enquadramento. Evite sombras sobre o texto. Para escaneamento, use 300 DPI ou mais. Se a precisão continuar baixa, tente aumentar o contraste da imagem antes de enviá-la usando qualquer editor de fotos gratuito."
+        }
+      }
+    },
+
+    "cta_title": "Pronto para Reconhecer sua Escrita à Mão?",
+    "cta_subtitle": "Junte-se a mais de 10.000 estudantes, pesquisadores e empresas que pararam de redigitar conteúdos manuscritos.",
+    "cta_button": "Testar Reconhecimento de Escrita à Mão Grátis",
+
+    "tool_info_1_title": "Não Precisa de App",
+    "tool_info_1_desc": "Funciona no seu navegador. Sem download e sem necessidade de cadastro para testar.",
+    "tool_info_2_title": "Letra Cursiva e Garranchos",
+    "tool_info_2_desc": "Treinada com escrita à mão real, não adaptada de um motor OCR de fontes.",
+    "tool_info_3_title": "Exportação para Word, Excel e Texto",
+    "tool_info_3_desc": "Obtenha seu texto reconhecido no formato que você realmente precisa."
+  },
+
+  "CursiveToTextPage": {
+    "meta_title": "Conversor de Letra Cursiva para Texto Online | NoteOCR",
+    "meta_desc": "Converta letra cursiva e de mão em texto digital instantaneamente. Nossa IA lê escrita à mão e letras emendadas com +95% de precisão. OCR cursivo grátis online.",
+
+    "hero_pill": "OCR para Letra Cursiva e Manuscritos",
+    "hero_title": "Converta Letra Cursiva em Texto em Segundos.",
+    "hero_subtitle": "Envie uma foto de anotações, cartas, diários ou formulários escritos em letra cursiva (letra de mão). Nossa IA decifra letras emendadas e traços que ferramentas OCR genéricas não conseguem ler. Sem aplicativo. Sem cadastro. Resultados em menos de 30 segundos.",
+
+    "trust_ssl": "Criptografia SSL (Seguro)",
+    "trust_processing": "Em Menos de 30 Segundos",
+    "trust_accuracy": "Precisão de +95% em Cursiva",
+
+    "before_after_title": "Letra Cursiva Entra. Texto Digital Limpo Sai.",
+    "before_after_desc": "Exemplo real de letra cursiva: veja exatamente como nossa IA lida com a escrita contínua e emendada.",
+    "before_label": "Antes: Letra Cursiva (Escrita à mão)",
+    "after_label": "Depois: Texto Digital Convertido",
+
+    "use_cases_title": "Quem converte Letra Cursiva para Texto?",
+    "use_cases_subtitle": "Desde historiadores da família que digitalizam cartas antigas até estudantes transcrevendo anotações de aula, a conversão da letra cursiva economiza horas de digitação manual toda semana.",
+
+    "use_case_1_title": "Cartas Antigas e Documentos Familiares",
+    "use_case_1_desc": "Converta cartas escritas à mão pelos seus avós, diários antigos e anotações pessoais em texto digital pesquisável. Preserve a história da família sem precisar pagar um transcritor profissional.",
+
+    "use_case_2_title": "Anotações de Estudantes em Letra Cursiva",
+    "use_case_2_desc": "Muitos estudantes ainda fazem anotações de aulas e resumos com letra de mão. Fotografe seu caderno e obtenha um texto totalmente editável e pesquisável em segundos, pronto para seus trabalhos e resumos.",
+
+    "use_case_3_title": "Documentos Históricos e de Arquivo",
+    "use_case_3_desc": "Digitalize registros escritos em cursiva, documentos de herança, registros paroquiais e papéis legais. Nossa IA processa estilos de cursiva mais antigos, incluindo caligrafia do século XIX e do início do século XX.",
+
+    "use_case_4_title": "Formulários Profissionais",
+    "use_case_4_desc": "Relatórios de campo, formulários de admissão assinados, faturas preenchidas à mão e anotações de pacientes escritas em letra cursiva: converta tudo para Word ou Excel editável em apenas um passo.",
+
+    "comparison_title": "OCR para Cursiva: Comparativo de Métodos",
+    "comparison_subtitle": "É na letra cursiva que as ferramentas genéricas falham. Veja por que uma IA especializada é a única opção confiável.",
+    "comparison_col_method": "Método",
+    "comparison_col_time": "Velocidade",
+    "comparison_col_accuracy": "Precisão na Cursiva",
+    "comparison_col_cost": "Custo",
+    "comparison_row1_method": "Digitação manual",
+    "comparison_row1_time": "+60 min/página",
+    "comparison_row1_accuracy": "100% (sujeito a erros)",
+    "comparison_row1_cost": "O seu tempo",
+    "comparison_row2_method": "Google Lens / Adobe OCR",
+    "comparison_row2_time": "Instantâneo",
+    "comparison_row2_accuracy": "30–55% em cursiva",
+    "comparison_row2_cost": "Grátis e Pago",
+    "comparison_row3_method": "Conversor NoteOCR",
+    "comparison_row3_time": "Menos de 30 segundos",
+    "comparison_row3_accuracy": "90–98% em cursiva",
+    "comparison_row3_cost": "Teste grátis",
+
+    "features_title": "Por Que Nosso Conversor de Cursiva é Diferente",
+    "features_subtitle": "Uma IA criada com foco na letra cursiva, e não uma ferramenta OCR de texto impresso com um remendo para tentar ler caligrafia.",
+
+    "feature_1_title": "Lê Letras Conectadas Nativamente",
+    "feature_1_desc": "O OCR padrão separa os caracteres individuais antes de lê-los. A letra cursiva quebra isso totalmente, pois as letras se conectam e se sobrepõem. Nossa IA lê palavras e linhas inteiras de uma vez, da mesma forma que o olho humano, tornando a escrita emendada legível onde outras ferramentas desistem.",
+
+    "feature_2_title": "Lida com Laços, Inclinação e Variações",
+    "feature_2_desc": "A letra cursiva de cada pessoa é única: diferentes tamanhos de laços, ângulos de inclinação e espaçamento entre letras. Nossa rede neural foi treinada com milhões de amostras reais de cursiva em dezenas de estilos de escrita, por isso ela se adapta a caligrafias que nunca viu antes.",
+
+    "feature_3_title": "Exporta para Word, Excel e Texto",
+    "feature_3_desc": "O texto cursivo convertido não é despejado como um parágrafo sem formatação. Nós reconstruímos o layout do documento, parágrafos, listas e tabelas, e exportamos diretamente para .docx, .xlsx ou texto simples (.txt), dependendo da sua necessidade.",
+
+    "tech_title": "Por Que a Letra Cursiva é tão Difícil para o OCR, e Como Resolvemos Isso",
+    "tech_intro": "O OCR padrão foi projetado para textos impressos. Todas as suas premissas (formas de caracteres uniformes, espaços claros entre as letras, espaçamento constante) desmoronam com a escrita cursiva. As letras na cursiva se fundem. A mesma letra parece completamente diferente dependendo do que vem antes e depois dela. A inclinação varia linha por linha. Laços e traços cruzam outras letras. Nossa IA adota uma abordagem fundamentalmente diferente: em vez de tentar isolar caracteres individuais, ela lê palavras e linhas inteiras como padrões visuais, a mesma estratégia que um leitor humano fluente usa ao encontrar uma letra de mão que nunca viu antes.",
+
+    "tech_detect_title": "O Que a Nossa IA Consegue Processar",
+    "tech_detect_1": "Letra cursiva totalmente conectada onde nenhuma letra é separada",
+    "tech_detect_2": "Mistura de letra cursiva e letra de forma na mesma página",
+    "tech_detect_3": "Inclinação variável: para a direita, para a esquerda e reta",
+    "tech_detect_4": "Formas de letras decorativas e altamente personalizadas",
+    "tech_detect_5": "Estilos antigos de cursiva do século XIX e início do século XX",
+
+    "tech_tips_title": "Dicas para a Melhor Conversão de Letra Cursiva",
+    "tech_tips_1": "Use luz natural do dia e evite o flash, que achata o contraste da tinta",
+    "tech_tips_2": "Segure a câmera ou celular paralelamente (reto) sobre a página, não em um ângulo inclinado",
+    "tech_tips_3": "Garanta tinta escura sobre papel claro e evite sombras sobre o texto",
+    "tech_tips_4": "Para documentos muito antigos, aumente o contraste em qualquer editor de fotos antes",
+    "tech_tips_5": "Sempre revise o resultado: mesmo com 95% de precisão, páginas longas podem precisar de pequenas correções",
+
+    "related_tools_title": "Ferramentas Relacionadas",
+    "related_tool_1_name": "Manuscrito para Word",
+    "related_tool_1_desc": "Converta anotações para .docx formatado",
+    "related_tool_2_name": "Manuscrito para Excel",
+    "related_tool_2_desc": "Extraia tabelas desenhadas à mão para planilhas",
+    "related_tool_3_name": "Reconhecimento de Escrita à Mão",
+    "related_tool_3_desc": "Todos os estilos: letra de forma, cursiva, mista",
+    "related_tool_4_name": "Escanear Escrita para Texto",
+    "related_tool_4_desc": "A partir de uma foto de celular ou scan em PDF",
+
+    "faq_title": "Perguntas Frequentes Sobre a Conversão de Letra Cursiva para Texto",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "O que é um conversor de letra cursiva para texto?",
+          "a": "Um conversor de cursiva para texto é uma ferramenta de IA que lê fotografias ou scans de caligrafia cursiva e converte o conteúdo em texto digital digitado e editável. Diferente dos softwares de OCR padrão, criados para fontes de computador, um conversor de cursiva usa redes neurais treinadas especificamente em letras de mão e emendadas para interpretar o formato contínuo da escrita."
+        },
+        "how_accurate": {
+          "q": "Qual é a precisão do reconhecimento de IA para letra cursiva?",
+          "a": "O NoteOCR atinge de 90% a 98% de precisão em letras cursivas claras e bem iluminadas. Cursivas muito estilizadas (pessoais) ou papéis muito degradados podem ficar entre 80% e 85%. Para comparação, ferramentas OCR de uso geral como o Google Lens têm uma média de apenas 30% a 55% em letra cursiva porque não foram feitas para escrita conectada. Sempre revise a saída antes de usá-la em documentos importantes."
+        },
+        "how_different_from_ocr": {
+          "q": "Por que softwares normais de OCR não conseguem ler letra cursiva?",
+          "a": "O OCR padrão funciona isolando cada caractere individualmente, comparando-os com formas conhecidas e montando as palavras. A letra cursiva quebra esse processo porque as letras se conectam e se sobrepõem – não existem limites claros entre os caracteres. Um conversor de cursiva usa uma arquitetura totalmente diferente: ele lê palavras e linhas inteiras como padrões visuais ao invés de letras individuais."
+        },
+        "joined_up_writing": {
+          "q": "Funciona com letra de mão (letras emendadas)?",
+          "a": "Sim. Letra de mão, letras emendadas e letra cursiva são exatamente a mesma coisa: letras que se conectam sem tirar a caneta do papel. É exatamente para isso que nossa IA foi treinada. Não importa se você chama de letra de mão, caligrafia, cursiva ou escrita contínua, nosso conversor dá conta do recado. Funciona muito bem tanto em cursivas totalmente conectadas quanto naquelas onde algumas letras são separadas."
+        },
+        "old_cursive": {
+          "q": "Pode converter caligrafia antiga ou letra cursiva do século passado?",
+          "a": "Sim, com algumas ressalvas. Nossa IA lida com estilos antigos de cursiva, incluindo caligrafia inglesa (Copperplate), escrita longa do início do século XX e caligrafia formal de cartas históricas. Estilos muito arcaicos (como escritas dos séculos XVII ou XVIII) podem ter precisão menor. Para cursivas pós-1850, o desempenho é consistentemente alto. Recomendamos testar com uma página de amostra primeiro."
+        },
+        "personal_cursive": {
+          "q": "E se a minha letra cursiva for muito pessoal ou um garrancho?",
+          "a": "A cursiva pessoal, onde as letras são muito estilizadas e específicas de um único escritor, é o caso mais difícil para qualquer IA. Nosso modelo se sai bem porque foi treinado com milhões de estilos diferentes de caligrafia, e não apenas a cursiva escolar padrão. A precisão em escritas altamente personalizadas costuma ficar entre 80% e 90%. Quanto mais consistente for o estilo ao longo da página, melhor será o resultado."
+        },
+        "no_app": {
+          "q": "Posso converter letra cursiva em texto sem baixar um aplicativo?",
+          "a": "Sim. O NoteOCR funciona inteiramente no seu navegador de internet. Sem app, sem instalação de software, sem extensões. Faça o upload da sua imagem em cursiva e obtenha o texto convertido na hora. Funciona no Chrome, Safari, Firefox e Edge, seja no computador ou no celular."
+        },
+        "free": {
+          "q": "Existe um conversor online grátis de cursiva para texto?",
+          "a": "Sim. Você pode testar o NoteOCR gratuitamente. Faça o upload da sua escrita cursiva e pegue o texto convertido sem precisar criar uma conta. Para conversões em maior volume, exportação para Word e Excel, e processamento em lote, temos planos pagos. Mas o reconhecimento base da cursiva é grátis para testar em qualquer imagem."
+        },
+        "phone_photo": {
+          "q": "Posso converter a cursiva a partir de uma foto do celular?",
+          "a": "Com certeza. Tire uma foto das suas anotações ou carta cursiva com a câmera do celular e envie diretamente. Nossa IA faz a correção de perspectiva, melhora o contraste e remove ruídos automaticamente. Para obter os melhores resultados, fotografe durante o dia (luz natural) com o telefone paralelo à página, evitando tirar a foto torta."
+        },
+        "export_word": {
+          "q": "Posso exportar o texto cursivo convertido para o Word?",
+          "a": "Sim. O texto cursivo convertido pode ser exportado como um arquivo do Microsoft Word (.docx), preservando a estrutura dos parágrafos e a formatação. Isso está disponível a partir do plano Estudante. A exportação em texto simples (.txt) está disponível na versão gratuita. A exportação para Excel fica disponível quando seu conteúdo manuscrito contém tabelas."
+        },
+        "cursive_vs_print": {
+          "q": "A letra cursiva é mais difícil de converter do que a letra de forma?",
+          "a": "Sim. A cursiva é consideravelmente mais difícil para a IA do que a letra de forma (imprensa). A escrita em letra de forma tem letras discretas e separadas que são mais fáceis de segmentar. As letras cursivas se conectam, se sobrepõem e mudam de formato dependendo das letras vizinhas. Nosso conversor foi feito especificamente para esse desafio."
+        },
+        "languages": {
+          "q": "Quais idiomas o conversor de letra cursiva suporta?",
+          "a": "O NoteOCR suporta reconhecimento de cursiva em mais de 30 idiomas, incluindo Português, Inglês, Espanhol, Francês, Alemão, Italiano e Holandês. Idiomas latinos — que têm tradições cursivas particularmente ricas — funcionam de forma excelente. Escrita caligráfica em Árabe, Urdu e Persa também são suportadas. Para alfabetos não-latinos, a precisão varia conforme a qualidade da imagem."
+        },
+        "letters_journals": {
+          "q": "Posso usá-lo para transcrever cartas antigas e diários para texto?",
+          "a": "Sim. Esse é um dos usos mais populares. Envie a foto de uma carta manuscrita, uma página de diário ou anotações pessoais e receba o texto completo e editável em segundos. Muitos usuários digitalizam décadas de correspondências familiares para guardar e compartilhar. O conversor mantém as quebras de parágrafo para que a leitura digital flua naturalmente."
+        },
+        "historical_documents": {
+          "q": "Funciona em documentos históricos e registros antigos?",
+          "a": "Sim, para documentos históricos modernos (de 1850 em diante) a precisão é muito alta. Nossa IA processa bem tintas desbotadas, papéis envelhecidos e caligrafias antigas. Para documentos anteriores a isso ou estilos históricos muito específicos, recomendamos testar uma amostra primeiro. A ferramenta é muito usada por pesquisadores em genealogia e registros de cartórios."
+        },
+        "accuracy_tips": {
+          "q": "Como melhoro a precisão da conversão da minha letra cursiva?",
+          "a": "A qualidade da imagem é o fator mais importante. Fotografe com luz natural clara e uniforme (luz do dia é muito melhor que flash). Segure a câmera plana (paralela) sobre o papel para evitar distorções de perspectiva. Certifique-se de que a tinta contrasta bem com o papel. Para papéis antigos, você pode aumentar o contraste em um editor de fotos gratuito antes de fazer o upload. Escanear a 300 DPI ou mais também melhora absurdamente os resultados em comparação às fotos de celular."
+        },
+        "privacy": {
+          "q": "O meu conteúdo em cursiva é mantido em modo privado?",
+          "a": "Sim. Todos os uploads são criptografados via SSL durante a transferência. Suas imagens são processadas em ambientes seguros e isolados, e são deletadas permanentemente em 24 horas. Nós nunca usamos o conteúdo enviado para treinar nossos modelos de IA e jamais compartilhamos com terceiros. Cartas, diários e documentos privados são tratados com total sigilo e confidencialidade."
+        },
+        "how_it_works": {
+          "q": "Como o conversor de letra cursiva para texto realmente funciona?",
+          "a": "Quando você envia a foto da letra cursiva, nossa IA realiza três etapas. Primeiro, o pré-processamento da imagem: corrige inclinações, aumenta contraste e remove ruídos. Segundo, a análise de layout: identifica linhas, parágrafos e a estrutura da página. Terceiro, o reconhecimento da cursiva: uma rede neural lê cada linha de texto como uma sequência visual, usando o contexto das palavras ao redor para interpretar letras emendadas difíceis de ler. Depois, remontamos o texto em um documento estruturado."
+        },
+        "batch": {
+          "q": "Posso converter várias páginas de cursiva de uma vez só?",
+          "a": "O processamento em lote (Batch) está disponível nos planos Profissional e Power User. Usuários dos planos Gratuito e Estudante processam uma página por vez. Para projetos grandes – diários inteiros, arquivos cheios de cartas ou digitalização em massa – o plano Power User inclui uploads ilimitados em lote com processamento simultâneo, para que você possa transcrever um caderno inteiro de uma só vez."
+        },
+        "vs_google": {
+          "q": "O NoteOCR é melhor que o Google Docs ou Google Lens para cursiva?",
+          "a": "Significativamente melhor, especificamente no caso da letra cursiva. O Google Lens e a digitação por voz do Google Docs foram feitos para textos impressos. Em letra cursiva e de mão, as ferramentas do Google geralmente atingem só de 30% a 55% de precisão — o que significa que quase metade das palavras saem erradas. O NoteOCR foi construído de propósito para manuscritos e atinge de 90% a 98% de precisão nos mesmos documentos. Além disso, exporta para Word e Excel, o que o Google Lens não faz."
+        },
+        "copperplate": {
+          "q": "Lê caligrafia inglesa (Copperplate) e estilos decorativos?",
+          "a": "Sim. A caligrafia inglesa (Copperplate) — a cursiva formal e altamente decorada usada em correspondências antigas — é suportada. O formato consistente dessas letras na verdade funciona muito bem na nossa IA, até melhor do que uma cursiva pessoal bagunçada. Estilos com excesso de enfeites e traços rebuscados podem confundir o leitor ocasionalmente, mas o Copperplate padrão dos séculos XIX e XX é lido com precisão."
+        }
+      }
+    },
+
+    "cta_title": "Pronto para Converter a Sua Letra Cursiva?",
+    "cta_subtitle": "Envie qualquer foto com letra cursiva, cartas, diários, anotações ou formulários, e obtenha o texto limpo e editável em menos de 30 segundos.",
+    "cta_button": "Testar Cursiva para Texto Grátis",
+
+    "tool_info_1_title": "Sem Precisar de App",
+    "tool_info_1_desc": "Roda no seu navegador. Sem downloads e não precisa de cadastro para testar.",
+    "tool_info_2_title": "IA para Letras Emendadas",
+    "tool_info_2_desc": "Construída para letra cursiva, não é apenas um OCR de letras impressas adaptado.",
+    "tool_info_3_title": "Exportação para Word, Excel e Texto",
+    "tool_info_3_desc": "Receba seu texto convertido no formato que você realmente precisa."
+  },
+
+  "ScanHandwritingToText": {
+    "meta_title": "Converter Caligrafia em Texto Online | NoteOCR",
+    "meta_desc": "Transforme notas manuscritas em texto instantaneamente no seu navegador. Sem baixar aplicativos. Carregue uma foto do celular e obtenha texto digital editável em menos de 30 segundos.",
+
+    "hero_pill": "Scanner de Caligrafia Online",
+    "hero_title": "Converta Caligrafia em Texto. Sem Apps.",
+    "hero_subtitle": "Tire uma foto de qualquer página manuscrita com seu celular, ou faça o upload de um arquivo, e nossa IA a converte em texto limpo e editável em menos de 30 segundos. Funciona em qualquer navegador e em qualquer dispositivo.",
+
+    "trust_ssl": "Criptografia SSL",
+    "trust_processing": "Em menos de 30 segundos",
+    "trust_accuracy": "95%+ de Precisão no Escaneamento",
+
+    "before_after_title": "Caligrafia Escaneada vira Texto Digital Editável.",
+    "before_after_desc": "Resultado real mostrando exatamente como nossa IA processa uma foto de celular de notas manuscritas.",
+    "before_label": "Antes: Página Manuscrita Escaneada",
+    "after_label": "Depois: Texto Limpo e Editável",
+
+    "use_cases_title": "Quem usa um Scanner de Caligrafia Online?",
+    "use_cases_subtitle": "Qualquer pessoa com páginas físicas manuscritas que precise digitalizar rapidamente. Não é necessário um scanner físico, a câmera do seu celular é suficiente.",
+
+    "use_case_1_title": "Estudantes Escaneando Notas de Aula",
+    "use_case_1_desc": "Fotografe páginas inteiras de cadernos após a aula e obtenha textos totalmente pesquisáveis e editáveis em segundos. Pare de digitar tudo antes das provas e comece a estudar de verdade.",
+
+    "use_case_2_title": "Notas de Campo e Relatórios de Visita",
+    "use_case_2_desc": "Engenheiros, agrimensores, inspetores e trabalhadores de campo escaneiam notas manuscritas diretamente do celular e as têm em formato digital compartilhável antes mesmo de saírem do local de trabalho.",
+
+    "use_case_3_title": "Digitalização de Registros e Formulários",
+    "use_case_3_desc": "Fichas de pacientes, recibos de entrega, registros de ponto, checklists de inspeção feitos à mão — escaneie e obtenha texto estruturado pronto para copiar e colar em um único passo.",
+
+    "use_case_4_title": "Diários e Cadernos Pessoais",
+    "use_case_4_desc": "Digitalize diários pessoais, livros de receitas, brainstorms e planners com uma única foto. Preserve anos de cadernos físicos como texto digital pesquisável que você pode acessar em qualquer lugar.",
+
+    "comparison_title": "Scanner de Caligrafia Online: Comparação de Opções",
+    "comparison_subtitle": "A maioria das ferramentas obriga você a instalar um app ou assinar um plano antes de entregar algo útil. O NoteOCR não.",
+    "comparison_col_method": "Método",
+    "comparison_col_time": "Velocidade",
+    "comparison_col_accuracy": "Precisão em Caligrafia",
+    "comparison_col_cost": "Custo",
+    "comparison_row1_method": "PenToPrint (app móvel)",
+    "comparison_row1_time": "Rápido (apenas app)",
+    "comparison_row1_accuracy": "Bom em letras legíveis",
+    "comparison_row1_cost": "App obrigatório, exportação paga",
+    "comparison_row2_method": "Adobe Scan + Acrobat OCR",
+    "comparison_row2_time": "Moderado",
+    "comparison_row2_accuracy": "40-60% em manuscritos",
+    "comparison_row2_cost": "Assinatura de $20/mês",
+    "comparison_row3_method": "Scanner de Caligrafia NoteOCR",
+    "comparison_row3_time": "Menos de 30 segundos",
+    "comparison_row3_accuracy": "95%+ em caligrafia escaneada",
+    "comparison_row3_cost": "Grátis para testar, sem app, pagamento único",
+
+    "features_title": "Por que o NoteOCR é o melhor Scanner de Caligrafia Online",
+    "features_subtitle": "Criado especificamente para escanear páginas manuscritas, não um scanner de documentos comum que tenta ler caligrafia como um recurso secundário.",
+
+    "feature_1_title": "Seu Celular é o Scanner",
+    "feature_1_desc": "Você não precisa de um scanner de mesa ou hardware. Tire uma foto de qualquer página manuscrita com seu celular e envie. Nossa IA corrige a perspectiva, ajusta a iluminação e remove sombras automaticamente para garantir resultados limpos mesmo de fotos imperfeitas.",
+
+    "feature_2_title": "Lê o que Scanners Comuns Não Conseguem",
+    "feature_2_desc": "Scanners de documentos e ferramentas de OCR comuns geram códigos confusos com caligrafia porque foram feitos para fontes impressas. Nossa rede neural foi treinada especificamente em amostras de caligrafia de diversos estilos, lendo o que outros não conseguem.",
+
+    "feature_3_title": "Sem App. Sem Conta. Sem Espera.",
+    "feature_3_desc": "Abra a página em qualquer navegador, envie sua imagem e receba o texto editável. Sem loja de apps, sem instalação, sem criação de conta e sem e-mails de confirmação. Funciona perfeitamente em iPhone, Android, Mac, Windows e Chromebook.",
+
+    "tech_title": "Como Funciona a Conversão de Caligrafia em Texto",
+    "tech_intro": "Ao enviar uma imagem de caligrafia, seja foto de celular ou scanner, nossa IA executa três estágios automáticos. Primeiro, pré-processa a imagem: corrige inclinação, melhora o contraste e remove ruídos. Segundo, analisa o layout para identificar linhas e parágrafos. Terceiro, o motor de reconhecimento lê cada linha como uma sequência visual — não caractere por caractere, mas palavra por palavra, usando o contexto para interpretar letras ambíguas. O resultado é um texto estruturado que preserva seus parágrafos originais.",
+
+    "tech_detect_title": "O que nosso Scanner suporta",
+    "tech_detect_1": "Fotos de celular tiradas em ângulos leves — perspectiva corrigida automaticamente",
+    "tech_detect_2": "Imagens com pouca luz ou excesso de flash com ajuste de contraste",
+    "tech_detect_3": "Arquivos de scanners de mesa com 150 DPI ou superior",
+    "tech_detect_4": "Estilos de caligrafia mistos na mesma página escaneada",
+    "tech_detect_5": "Palavras riscadas, setas, anotações e notas de rodapé",
+
+    "tech_tips_title": "Dicas para Melhores Resultados",
+    "tech_tips_1": "Segure o celular diretamente acima da página, paralelo ao papel",
+    "tech_tips_2": "Use luz natural sempre que possível — evite o flash que remove o contraste da tinta",
+    "tech_tips_3": "Certifique-se de que a página inteira está dentro do quadro antes de capturar",
+    "tech_tips_4": "Para scans profissionais, 300 DPI produz resultados significativamente melhores",
+    "tech_tips_5": "Se a tinta estiver fraca, aumente o contraste em um editor de fotos antes do upload",
+
+    "related_tools_title": "Ferramentas Relacionadas",
+    "related_tool_1_name": "Reconhecimento de Caligrafia",
+    "related_tool_1_desc": "Reconhecimento por IA para todos os estilos de letra",
+    "related_tool_2_name": "Caligrafia para Word",
+    "related_tool_2_desc": "Exporte notas escaneadas diretamente para .docx",
+    "related_tool_3_name": "Letra Cursiva para Texto",
+    "related_tool_3_desc": "Scanner especializado para letra cursiva emendada",
+    "related_tool_4_name": "Caligrafia para Excel",
+    "related_tool_4_desc": "Escaneie tabelas feitas à mão para planilhas",
+
+    "faq_title": "Perguntas Frequentes sobre Escanear Caligrafia para Texto",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "O que significa escanear caligrafia para texto?",
+          "a": "Significa pegar uma página física escrita à mão, fotografá-la e usar IA para converter os traços da escrita em texto digital que você pode editar, pesquisar e compartilhar."
+        },
+        "no_app": {
+          "q": "Posso converter caligrafia em texto online sem um aplicativo?",
+          "a": "Sim. O NoteOCR funciona inteiramente no seu navegador. Não há necessidade de baixar software, o que é uma vantagem direta sobre apps que cobram pela exportação de texto."
+        },
+        "free_no_signup": {
+          "q": "Existe um scanner de caligrafia gratuito que não exige cadastro?",
+          "a": "Sim. Você pode escanear e converter imagens no NoteOCR sem criar uma conta. Basta fazer o upload e o texto é processado imediatamente."
+        },
+        "phone_camera": {
+          "q": "Posso escanear letra de mão usando a câmera do celular?",
+          "a": "Sim — fotos de celular são os arquivos mais comuns no NoteOCR. Nossa IA ajusta automaticamente a perspectiva e a iluminação da foto para garantir a leitura."
+        },
+        "vs_pentoprint": {
+          "q": "Qual a diferença entre o NoteOCR e o PenToPrint?",
+          "a": "O NoteOCR funciona no navegador sem instalação e permite exportar texto sem assinaturas obrigatórias, enquanto o PenToPrint é focado em app móvel com funções bloqueadas por paywall."
+        },
+        "vs_adobe": {
+          "q": "O NoteOCR é melhor que o Adobe Scan para caligrafia?",
+          "a": "Sim. O Adobe Scan é excelente para documentos impressos, mas falha muito em letra cursiva e manuscritos, atingindo cerca de 50% de precisão. O NoteOCR chega a 95% ou mais."
+        },
+        "flatbed_scanner": {
+          "q": "Posso enviar arquivos de um scanner de mesa?",
+          "a": "Sim. Arquivos JPG ou PNG de scanners profissionais produzem resultados excelentes, especialmente em resoluções de 300 DPI ou superiores."
+        },
+        "scan_pdf": {
+          "q": "Posso escanear um PDF manuscrito para texto?",
+          "a": "O suporte para PDF está disponível em planos pagos. No nível gratuito, você pode enviar páginas individuais como imagens JPG ou PNG."
+        },
+        "scan_lecture_notes": {
+          "q": "Como faço para escanear notas de aula?",
+          "a": "Tire fotos das páginas do seu caderno e envie para o NoteOCR. Em segundos, você terá o texto pronto para colar no Word ou Notion, economizando horas de digitação."
+        },
+        "scan_field_notes": {
+          "q": "Posso escanear notas de campo e relatórios de obra?",
+          "a": "Sim. É um dos casos de uso mais comuns. Engenheiros e inspetores transformam notas de papel em relatórios digitais antes mesmo de voltarem para o escritório."
+        },
+        "messy_handwriting": {
+          "q": "O scanner funciona com letra feia ou garranchos?",
+          "a": "Sim. Nossa IA foi treinada especificamente para lidar com letras difíceis, rápidas e inconsistentes. A precisão geralmente fica entre 85-92% mesmo em letras complicadas."
+        },
+        "accuracy": {
+          "q": "Quão preciso é o escaneamento de caligrafia?",
+          "a": "Em letras claras, a precisão chega a 99%. Em letras mais difíceis, fica em torno de 90%. É significativamente superior ao Google Keep ou ferramentas genéricas de OCR."
+        },
+        "formats_accepted": {
+          "q": "Quais formatos de arquivo posso enviar?",
+          "a": "Aceitamos JPG, JPEG, PNG e WEBP em todos os planos. O upload de PDF é liberado para usuários premium."
+        },
+        "export_options": {
+          "q": "Para quais formatos posso exportar o texto escaneado?",
+          "a": "Você pode exportar como texto simples (TXT) no plano grátis. Exportação para Word (.docx) e Excel (.xlsx) está disponível nos planos pagos."
+        },
+        "scan_old_documents": {
+          "q": "Posso digitalizar documentos manuscritos antigos?",
+          "a": "Sim. O NoteOCR lida bem com papel amarelado e tinta desbotada. Funciona de forma confiável para documentos a partir de meados do século XIX."
+        },
+        "scan_notebook": {
+          "q": "Posso escanear um caderno inteiro?",
+          "a": "Sim. Nos planos pagos, o upload em lote permite processar um caderno inteiro de uma só vez, enviando várias imagens simultaneamente."
+        },
+        "batch": {
+          "q": "Consigo escanear várias páginas simultaneamente?",
+          "a": "Sim, a digitalização em lote está disponível nos planos Professional e Power User, permitindo converter várias páginas em uma única sessão."
+        },
+        "privacy": {
+          "q": "Minha caligrafia escaneada é mantida em sigilo?",
+          "a": "Sim. Todos os uploads são criptografados e os arquivos são deletados permanentemente de nossos servidores em até 24 horas."
+        },
+        "scan_forms": {
+          "q": "É possível escanear formulários e extrair os dados?",
+          "a": "Sim. Para formulários estruturados, a nossa exportação para Excel mapeia os dados extraídos automaticamente em colunas."
+        },
+        "how_different_from_photo": {
+          "q": "Qual a diferença entre isso e uma ferramenta comum de 'foto para texto'?",
+          "a": "Ferramentas comuns usam OCR padrão para letras de forma. Um scanner de caligrafia como o NoteOCR usa redes neurais otimizadas para os traços únicos da escrita manual."
+        },
+        "improve_accuracy": {
+          "q": "Como posso melhorar a precisão dos meus escaneamentos?",
+          "a": "O fator principal é a qualidade da imagem. Fotografe em luz natural, mantenha o celular firme e certifique-se de que o texto esteja focado."
+        }
+      }
+    },
+
+    "cta_title": "Pronto para converter sua caligrafia em texto?",
+    "cta_subtitle": "Envie qualquer foto de celular ou scan de notas manuscritas e receba o texto editável em segundos. Sem apps. Sem necessidade de conta.",
+    "cta_button": "Escanear Caligrafia Grátis",
+
+    "tool_info_1_title": "Sem App Necessário",
+    "tool_info_1_desc": "Funciona no navegador de qualquer dispositivo. Sem download, sem complicação.",
+    "tool_info_2_title": "Pronto para Celular",
+    "tool_info_2_desc": "Tire uma foto e envie. Não precisa de scanner físico ou cabos.",
+    "tool_info_3_title": "Exportação para Word, Excel e Texto",
+    "tool_info_3_desc": "Obtenha seu texto no formato que você realmente precisa para trabalhar."
   }
 }

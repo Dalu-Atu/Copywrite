@@ -2166,5 +2166,573 @@
         }
       }
     }
+  },
+  "HandwritingRecognitionPage": {
+    "meta_title": "Handschrifterkennung Online | NoteOCR",
+    "meta_desc": "Laden Sie ein handschriftliches Bild hoch und unsere KI erkennt es und wandelt es sofort in formatierten Text um. Kostenlose Handschrifterkennung online.",
+
+    "hero_pill": "KI-Handschrifterkennung",
+    "hero_title": "Handschrifterkennung, die wirklich funktioniert.",
+    "hero_subtitle": "Laden Sie ein Foto von handschriftlichen Notizen, Formularen oder Dokumenten hoch. Unsere KI liest die Handschrift, einschließlich unleserlicher Schreibschrift, und wandelt sie in Sekunden in bearbeitbaren, formatierten Text um.",
+
+    "trust_ssl": "SSL-verschlüsselt",
+    "trust_processing": "30-Sekunden-Verarbeitung",
+    "trust_accuracy": "99 % Erkennungsgenauigkeit",
+
+    "before_after_title": "Sehen Sie die Erkennung in Aktion",
+    "before_after_desc": "Echtes Handschriftbeispiel, das zeigt, was unsere KI liest und welches Ergebnis sie liefert.",
+    "before_label": "Vorher: Handschriftliches Bild",
+    "after_label": "Nachher: Erkannter digitaler Text",
+
+    "use_cases_title": "Wer nutzt Handschrifterkennung?",
+    "use_cases_subtitle": "Von Studierenden, die Notizen digitalisieren, bis hin zu Unternehmen, die Formulare verarbeiten – Handschrifterkennung spart jeden Tag Stunden.",
+
+    "use_case_1_title": "Studierende & Vorlesungsnotizen",
+    "use_case_1_desc": "Fotografieren Sie Ihr Notizbuch nach dem Unterricht und erhalten Sie in Sekunden vollständig durchsuchbaren, bearbeitbaren Text. Kein Abtippen seitenlanger Vorlesungsnotizen vor Prüfungen mehr.",
+
+    "use_case_2_title": "Unleserliche Schrift & Schreibschrift",
+    "use_case_2_desc": "Unsere KI wurde speziell für schwierige Handschriften trainiert. Hastige Kritzeleien, verbundene Schreibschrift und gemischte Druck-/Schreibschriften werden mit hoher Genauigkeit erkannt.",
+
+    "use_case_3_title": "Handschriftliche Formulare & Dokumente",
+    "use_case_3_desc": "Digitalisieren Sie Patientenformulare, Feldberichte, Rechnungen und Personalakten über ein Handyfoto. Kein Scanner erforderlich – Ihre Kamera reicht völlig aus.",
+
+    "use_case_4_title": "Alte Briefe & Tagebücher",
+    "use_case_4_desc": "Bewahren Sie handgeschriebene Familienbriefe, persönliche Tagebücher und historische Dokumente, indem Sie sie in durchsuchbaren digitalen Text umwandeln, den Sie teilen und archivieren können.",
+
+    "comparison_title": "Handschrifterkennung: Methoden im Vergleich",
+    "comparison_subtitle": "Warum eine speziell entwickelte KI allgemeinen Tools stets überlegen ist.",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Geschwindigkeit",
+    "comparison_col_accuracy": "Genauigkeit bei Handschrift",
+    "comparison_col_cost": "Kosten",
+    "comparison_row1_method": "Manuelles Abtippen",
+    "comparison_row1_time": "60+ Min./Seite",
+    "comparison_row1_accuracy": "100 % (aber fehleranfällig)",
+    "comparison_row1_cost": "Ihre Zeit",
+    "comparison_row2_method": "Standard-OCR (Google Lens, Adobe)",
+    "comparison_row2_time": "Sofort",
+    "comparison_row2_accuracy": "40–70 % bei Handschrift",
+    "comparison_row2_cost": "Kostenlos & Kostenpflichtig",
+    "comparison_row3_method": "NoteOCR Handschrifterkennung",
+    "comparison_row3_time": "Unter 30 Sekunden",
+    "comparison_row3_accuracy": "95–99 % inkl. Schreibschrift",
+    "comparison_row3_cost": "Kostenlos testen",
+
+    "features_title": "Warum unsere Handschrifterkennung anders ist",
+    "features_subtitle": "Speziell für Handschrift entwickelt, nicht nur ein angepasstes Tool für gedruckten Text.",
+
+    "feature_1_title": "Auf Handschrift trainiert, nicht auf Schriftarten",
+    "feature_1_desc": "Standard-OCR lernt aus gedruckten Schriftarten. Unsere KI wurde exklusiv mit Millionen echter Handschriftbeispiele trainiert – Druckschrift, Schreibschrift, gemischte Stile, hastige Notizen und alles dazwischen.",
+
+    "feature_2_title": "Liest unleserliche Schrift & Schreibschrift",
+    "feature_2_desc": "Verbundene Buchstaben, wechselnde Neigung, unregelmäßige Größen – genau die Dinge, an denen Standard-OCR scheitert. Unser neuronales Netzwerk geht damit um wie ein menschlicher Leser: Es nutzt den Kontext, um Lücken zu füllen.",
+
+    "feature_3_title": "Ergebnisse, die Sie wirklich nutzen können",
+    "feature_3_desc": "Der erkannte Text wird nicht einfach als unformatierter Absatz ausgegeben. Wir rekonstruieren das Layout, behalten Listen und Überschriften bei und exportieren nach Word, Excel oder als einfachen Text, je nachdem, was Sie benötigen.",
+
+    "tech_title": "Wie die Handschrifterkennung funktioniert",
+    "tech_intro": "Die Standard-OCR-Technologie wurde für gedruckten Text entwickelt – einheitliche Schriftarten mit vorhersehbaren Buchstabenformen. Handschrift bricht mit allen Voraussetzungen, die Standard-OCR funktionieren lassen. Jeder Mensch schreibt anders. Buchstaben sind verbunden, überlappen sich, variieren in Größe und Neigung. Unsere KI nutzt einen völlig anderen Ansatz: Neuronale Netzwerke, die auf Millionen von Handschriftbeispielen trainiert wurden und lernen zu lesen wie ein Mensch – durch das Erkennen von Mustern über ganze Wörter und Zeilen hinweg, nicht nur bei einzelnen Zeichen.",
+
+    "tech_detect_title": "Was unsere KI erkennt",
+    "tech_detect_1": "Druck- und Schreibschrift, einschließlich verbundener und überlappender Buchstaben",
+    "tech_detect_2": "Unleserliche, hastige und inkonsistente Schreibstile",
+    "tech_detect_3": "Gemischte Druck- und Schreibschrift auf derselben Seite",
+    "tech_detect_4": "Durchgestrichene Wörter und Korrekturen",
+    "tech_detect_5": "Dokumentenstruktur – Überschriften, Listen, Absätze und Tabellenzeilen",
+
+    "tech_tips_title": "Tipps für beste Ergebnisse",
+    "tech_tips_1": "Bei gutem natürlichem Licht fotografieren, Blitzlicht direkt auf die Seite vermeiden",
+    "tech_tips_2": "Halten Sie Ihr Handy parallel zum Papier, nicht schräg",
+    "tech_tips_3": "Stellen Sie sicher, dass sich die Tinte deutlich vom Papierhintergrund abhebt",
+    "tech_tips_4": "300 DPI oder höher für gescannte Dokumente",
+    "tech_tips_5": "Überprüfen Sie das Ergebnis – selbst bei 95 % Genauigkeit sind gelegentliche Korrekturen nötig",
+
+    "related_tools_title": "Ähnliche Tools",
+    "related_tool_1_name": "Handschrift zu Word",
+    "related_tool_1_desc": "Notizen in formatierte .docx umwandeln",
+    "related_tool_2_name": "Handschrift zu Excel",
+    "related_tool_2_desc": "Tabellen in Tabellenkalkulationen extrahieren",
+    "related_tool_3_name": "Schreibschrift zu Text",
+    "related_tool_3_desc": "Spezielles OCR-Tool für Schreibschrift",
+    "related_tool_4_name": "Handschrift scannen in Text",
+    "related_tool_4_desc": "Vom Handyfoto oder PDF-Scan",
+
+    "faq_title": "Häufig gestellte Fragen zur Handschrifterkennung",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "Was ist Handschrifterkennung?",
+          "a": "Handschrifterkennung – auch HTR (Handwritten Text Recognition) genannt – ist eine KI-Technologie, die handgeschriebenen Text in Bildern liest und in digitalen, bearbeitbaren Text umwandelt. Im Gegensatz zur Standard-OCR, die bei gedruckten Schriftarten funktioniert, nutzt die Handschrifterkennung neuronale Netzwerke, die auf echte Handschriftbeispiele trainiert sind, um die unendlichen Variationen der menschlichen Schrift zu interpretieren."
+        },
+        "how_accurate": {
+          "q": "Wie genau ist die KI-Handschrifterkennung?",
+          "a": "NoteOCR erreicht eine Genauigkeit von 95–99 % bei klarer, gut beleuchteter Handschrift. Bei unleserlicher oder stark kursiver Handschrift liegt sie typischerweise zwischen 85–92 %. Zum Vergleich: Standard-Tools wie Google Lens erreichen bei Handschrift durchschnittlich 60–70 % Genauigkeit. Überprüfen Sie das Ergebnis immer, bevor Sie es für wichtige Dokumente verwenden."
+        },
+        "messy_handwriting": {
+          "q": "Funktioniert es bei unleserlicher Handschrift?",
+          "a": "Ja, unleserliche Handschrift ist genau das, worauf unsere KI trainiert ist. Standard-OCR-Tools wurden für sauberen, gedruckten Text entwickelt und scheitern an allem, was von einheitlichen Schriftarten abweicht. Unser neuronales Netzwerk kommt mit hastigem Schreiben, unregelmäßigen Größen, durchgestrichenen Wörtern und wechselnder Neigung zurecht, da es von Millionen echter Handschriftbeispiele gelernt hat und nicht von Schriftarten."
+        },
+        "cursive": {
+          "q": "Kann es Schreibschrift erkennen?",
+          "a": "Ja. Schreibschrift ist einer der schwierigsten Fälle für Standard-OCR, da die Buchstaben verbunden sind und sich überlappen, was eine Segmentierung einzelner Zeichen unmöglich macht. Unsere KI liest Schreibschrift so, wie ein Mensch es tut – durch die Analyse von Mustern über ganze Wörter und Zeilen hinweg. Sie bewältigt verbundene Schrift, fließende Schleifen und gemischte Schreib-/Druckschriftstile."
+        },
+        "no_app": {
+          "q": "Kann ich die Handschrifterkennung nutzen, ohne eine App herunterzuladen?",
+          "a": "Ja, NoteOCR läuft vollständig in Ihrem Browser. Kein App-Download, keine Softwareinstallation und kein Plugin erforderlich. Öffnen Sie einfach die Seite, laden Sie Ihr Bild hoch und erhalten Sie die Ergebnisse. Funktioniert in Chrome, Safari, Firefox und Edge auf jedem Gerät, einschließlich Mobilgeräten."
+        },
+        "no_signup": {
+          "q": "Gibt es eine kostenlose Handschrifterkennung ohne Anmeldung?",
+          "a": "Ja. Sie können NoteOCR kostenlos testen, ohne ein Konto zu erstellen. Laden Sie Ihr handschriftliches Bild hoch und Sie erhalten sofort den erkannten Text. Für die Verarbeitung größerer Mengen, den Export nach Word oder Excel sowie den Stapel-Upload ist ein kostenpflichtiges Abonnement verfügbar – die grundlegende Erkennung kann jedoch kostenlos getestet werden."
+        },
+        "from_phone": {
+          "q": "Kann ich die Handschrifterkennung mit einem Handyfoto durchführen?",
+          "a": "Absolut. Machen Sie mit Ihrer Handykamera ein Foto von Ihren handschriftlichen Notizen und laden Sie es direkt hoch. Unsere KI übernimmt automatisch die Perspektivenkorrektur, die Beleuchtungsverbesserung und die Rauschentfernung. Für beste Ergebnisse halten Sie Ihr Handy parallel zum Papier und fotografieren Sie bei Tageslicht, anstatt den Blitz zu verwenden."
+        },
+        "students": {
+          "q": "Wie hilft Handschrifterkennung Studierenden?",
+          "a": "Studierende nutzen sie, um Vorlesungsnotizen nach dem Unterricht zu digitalisieren, wodurch sie durchsuchbar und teilbar werden. Anstatt seitenlange handgeschriebene Notizen vor einer Prüfung neu abzutippen, laden Sie ein Foto hoch und erhalten in weniger als einer Minute bearbeitbaren Text. Sie können dann nach bestimmten Begriffen suchen, Abschnitte in Aufsätze kopieren und Notizen mit Kommilitonen teilen – alles, ohne ein einziges Wort neu abzutippen."
+        },
+        "vs_google_lens": {
+          "q": "Wie unterscheidet sich dies von der Handschrifterkennung von Google Lens?",
+          "a": "Google Lens ist ein Allzweck-Tool, das primär für gedruckten Text, Schilder und Produktetiketten optimiert ist. Seine Genauigkeit bei Handschriften liegt durchschnittlich bei 60–70 %, da die Handschrifterkennung nicht das eigentliche Entwicklungsziel war. NoteOCR wurde speziell für Handschrift entwickelt und exklusiv mit handgeschriebenen Beispielen trainiert. Deshalb erreicht die Genauigkeit 95–99 % bei denselben Dokumenten, mit denen Google Lens Schwierigkeiten hat. NoteOCR rekonstruiert zudem die Dokumentenstruktur und exportiert nach Word und Excel, was Google Lens nicht kann."
+        },
+        "vs_adobe": {
+          "q": "Ist NoteOCR bei der Handschrifterkennung besser als Adobe?",
+          "a": "Speziell bei Handschriften: Ja. Die OCR von Adobe Acrobat ist hervorragend für gedruckten Text und gescannte Dokumente geeignet, wurde aber nicht für Handschriften entwickelt. Schreibschrift und verbundene Schrift liest sie regelmäßig falsch. NoteOCR wurde speziell für die Handschrifterkennung entwickelt und übertrifft Adobe bei handgeschriebenen Inhalten deutlich. Adobe erfordert zudem ein kostenpflichtiges Abonnement, während NoteOCR kostenlos getestet werden kann."
+        },
+        "formats": {
+          "q": "Welche Dateiformate akzeptiert die Handschrifterkennung?",
+          "a": "Sie können Bilddateien in den Formaten JPG, JPEG, PNG und WEBP hochladen. PDF-Uploads werden in kostenpflichtigen Tarifen unterstützt. Bei mehrseitigen Dokumenten laden Sie im kostenlosen Tarif jede Seite einzeln hoch. Die maximale Dateigröße beträgt 25 MB pro Bild."
+        },
+        "output_formats": {
+          "q": "In welche Formate kann ich den erkannten Text exportieren?",
+          "a": "Der erkannte Text kann als einfacher Text (TXT), Microsoft Word-Dokument (DOCX), Microsoft Excel-Tabelle (XLSX) – falls die Handschrift Tabellen enthält – und als PDF exportiert werden. Das verfügbare Exportformat hängt von Ihrem Tarif ab: TXT ist in der kostenlosen Version verfügbar, DOCX und XLSX erfordern den Student-Tarif oder höher."
+        },
+        "how_works": {
+          "q": "Wie funktioniert KI-Handschrifterkennung eigentlich?",
+          "a": "Unsere KI nutzt faltende neuronale Netzwerke (Convolutional Neural Networks), um Ihr hochgeladenes Bild zu analysieren. Zuerst wird das Bild vorverarbeitet – Schieflagen werden korrigiert, der Kontrast verstärkt und Rauschen entfernt. Dann identifiziert die Layoutanalyse die Dokumentenstruktur: Zeilen, Absätze, Tabellen. Schließlich liest das neuronale Netzwerk jede Textzeile und nutzt umliegende Wörter als Kontext, um mehrdeutige Zeichen zu interpretieren. Das Ergebnis wird zu einem sauber formatierten Dokument rekonstruiert, das Ihre ursprüngliche Struktur beibehält."
+        },
+        "languages": {
+          "q": "Welche Sprachen unterstützt die Handschrifterkennung?",
+          "a": "NoteOCR unterstützt über 30 Sprachen, darunter Englisch, Spanisch, Französisch, Deutsch, Portugiesisch, Italienisch, Niederländisch und mehr. Für nicht-lateinische Schriften wie Arabisch, Chinesisch, Japanisch, Hindi und andere ist die Erkennung ebenfalls verfügbar, jedoch variiert die Genauigkeit je nach Komplexität der Schrift und Bildqualität."
+        },
+        "privacy": {
+          "q": "Ist mein handschriftlicher Inhalt privat, wenn ich ihn hochlade?",
+          "a": "Ja. Alle Uploads werden während der Übertragung per SSL verschlüsselt. Ihre Bilder werden in isolierten, sicheren Containern verarbeitet und innerhalb von 24 Stunden dauerhaft gelöscht. Wir verwenden Ihre handschriftlichen Inhalte niemals, um unsere Modelle zu trainieren, und geben sie nicht an Dritte weiter. NoteOCR ist von Grund auf datenschutzorientiert (Privacy-first)."
+        },
+        "historical": {
+          "q": "Kann es Handschrift aus alten oder historischen Dokumenten erkennen?",
+          "a": "Ja, mit Einschränkungen. NoteOCR kommt mit gealtertem Papier, verblasster Tinte und älteren Handschriftstilen recht gut zurecht. Bei sehr alten Schriften – wie Kalligraphie aus dem 18. Jahrhundert, historischer deutscher Kurrentschrift oder vormodernen Schriften – kann die Genauigkeit jedoch geringer sein. Bei moderner Handschrift (nach 1900) ist die Leistung konstant hoch. Wir empfehlen, eine Probeseite bei älteren Dokumenten zu testen, bevor Sie ein komplettes Archiv verarbeiten."
+        },
+        "doctor": {
+          "q": "Kann es die Handschrift von Ärzten lesen?",
+          "a": "Dies ist einer der häufigsten Anwendungsfälle – und ja, unsere KI kann damit umgehen. Ärztehandschriften sind bekanntermaßen schwierig: schnell, gestaucht, oft in Schreibschrift und voller Abkürzungen. Unsere Erkennungs-Engine wurde mit anspruchsvollen, realen Beispielen trainiert, darunter auch medizinische Notizen. Die Genauigkeit bei Ärztehandschriften liegt typischerweise bei 80–90 % – niedriger als bei Standardhandschriften, aber deutlich besser als jedes herkömmliche OCR-Tool."
+        },
+        "whiteboard": {
+          "q": "Funktioniert es bei Whiteboard-Fotos?",
+          "a": "Ja. Whiteboard-Inhalte – typischerweise Textmarker auf weißem Hintergrund – sind für unsere KI oft sogar einfacher zu lesen als Handschrift auf Papier, da der Kontrast hoch ist und keine störenden Papierstrukturen vorhanden sind. Laden Sie ein Foto einer Whiteboard-Sitzung hoch, und der Text wird klar erkannt. Vermeiden Sie für beste Ergebnisse Reflexionen durch Deckenbeleuchtung."
+        },
+        "batch": {
+          "q": "Kann ich mehrere handgeschriebene Seiten auf einmal verarbeiten?",
+          "a": "Die Stapelverarbeitung ist in den Tarifen Professional und Power User verfügbar. Nutzer der Tarife Free und Student verarbeiten jeweils eine Seite nach der anderen. Für große Archive, Notizbücher, mehrseitige Formulare oder Massendigitalisierung von Dokumenten bietet der Power User-Tarif unbegrenzte Stapel-Uploads mit gleichzeitiger Verarbeitung."
+        },
+        "accuracy_improve": {
+          "q": "Wie kann ich die Genauigkeit der Handschrifterkennung verbessern?",
+          "a": "Der wichtigste Faktor ist die Bildqualität. Fotografieren Sie bei hellem, gleichmäßigem Licht – natürliches Tageslicht ist am besten. Halten Sie Ihre Kamera parallel zur Seite, nicht schräg. Achten Sie darauf, dass die gesamte Seite das Bild ausfüllt. Vermeiden Sie Schatten auf dem Text. Verwenden Sie beim Scannen 300 DPI oder höher. Wenn die Genauigkeit immer noch niedrig ist, versuchen Sie, den Kontrast des Bildes in einem kostenlosen Bildbearbeitungsprogramm zu erhöhen, bevor Sie es hochladen."
+        }
+      }
+    },
+
+    "cta_title": "Bereit, Ihre Handschrift erkennen zu lassen?",
+    "cta_subtitle": "Schließen Sie sich über 10.000 Studierenden, Forschern und Unternehmen an, die aufgehört haben, handschriftliche Inhalte abzutippen.",
+    "cta_button": "Handschrifterkennung kostenlos testen",
+
+    "tool_info_1_title": "Keine App erforderlich",
+    "tool_info_1_desc": "Funktioniert in Ihrem Browser. Kein Download, keine Anmeldung zum Testen erforderlich.",
+    "tool_info_2_title": "Schreibschrift & unleserliche Schrift",
+    "tool_info_2_desc": "Trainiert mit echter Handschrift – kein angepasstes OCR-Tool für Schriftarten.",
+    "tool_info_3_title": "Word-, Excel- & Text-Export",
+    "tool_info_3_desc": "Erhalten Sie Ihren erkannten Text in genau dem Format, das Sie benötigen."
+  },
+  "CursiveToTextPage": {
+    "meta_title": "Schreibschrift in Text umwandeln Online | NoteOCR",
+    "meta_desc": "Schreibschrift sofort in getippten Text umwandeln. Unsere KI liest verbundene Handschrift und Schnörkel mit 95%+ Genauigkeit. Kostenloses Schreibschrift-OCR online.",
+
+    "hero_pill": "Schreibschrift OCR & Texterkennung",
+    "hero_title": "Schreibschrift in Sekunden in Text umwandeln.",
+    "hero_subtitle": "Laden Sie ein Foto von handschriftlichen Notizen, Briefen, Tagebüchern oder Formularen hoch. Unsere KI entschlüsselt verbundene Schriften und Schleifen, an denen normale OCR-Tools scheitern. Keine App. Keine Anmeldung. Ergebnisse in unter 30 Sekunden.",
+
+    "trust_ssl": "SSL-verschlüsselt",
+    "trust_processing": "Unter 30 Sekunden",
+    "trust_accuracy": "95%+ Genauigkeit bei Schreibschrift",
+
+    "before_after_title": "Schreibschrift rein. Sauberer digitaler Text raus.",
+    "before_after_desc": "Echtes Schreibschrift-Beispiel: Sehen Sie genau, wie unsere KI mit fließender, verbundener Handschrift umgeht.",
+    "before_label": "Vorher: Schreibschrift",
+    "after_label": "Nachher: Konvertierter digitaler Text",
+
+    "use_cases_title": "Wer wandelt Schreibschrift in Text um?",
+    "use_cases_subtitle": "Von Ahnenforschern, die alte Briefe digitalisieren, bis hin zu Studenten, die Notizen transkribieren: Die Umwandlung von Schreibschrift spart jede Woche Stunden an manuellem Abtippen.",
+
+    "use_case_1_title": "Alte Briefe & Familiendokumente",
+    "use_case_1_desc": "Wandeln Sie die handgeschriebenen Briefe der Großeltern, alte Tagebücher und persönliche Aufzeichnungen in durchsuchbaren digitalen Text um. Bewahren Sie die Familiengeschichte, ohne professionelle Transkriptionisten bezahlen zu müssen.",
+
+    "use_case_2_title": "Studentennotizen in Schreibschrift",
+    "use_case_2_desc": "Viele Schüler und Studenten schreiben Vorlesungsnotizen immer noch in Schreibschrift. Fotografieren Sie Ihr Notizbuch und erhalten Sie in Sekundenschnelle vollständig bearbeitbaren, durchsuchbaren Text, bereit für Zusammenfassungen und Hausarbeiten.",
+
+    "use_case_3_title": "Historische & Archivdokumente",
+    "use_case_3_desc": "Digitalisieren Sie in Schreibschrift verfasste Aufzeichnungen, Nachlassdokumente, Kirchenbücher und juristische Papiere. Unsere KI beherrscht auch ältere Schriftstile wie Kurrentschrift, Sütterlin und Handschriften des frühen 20. Jahrhunderts.",
+
+    "use_case_4_title": "Professionelle Formulare",
+    "use_case_4_desc": "Feldberichte, unterschriebene Aufnahmeformulare, handgeschriebene Rechnungen und Patientennotizen in Schreibschrift – in einem Schritt in bearbeitbare Word- oder Excel-Dateien umwandeln.",
+
+    "comparison_title": "Schreibschrift-OCR im Vergleich",
+    "comparison_subtitle": "Bei Schreibschrift versagen herkömmliche Tools. Hier erfahren Sie, warum eine speziell entwickelte KI die einzige zuverlässige Option ist.",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Geschwindigkeit",
+    "comparison_col_accuracy": "Genauigkeit bei Schreibschrift",
+    "comparison_col_cost": "Kosten",
+    "comparison_row1_method": "Manuelles Abtippen",
+    "comparison_row1_time": "60+ Min./Seite",
+    "comparison_row1_accuracy": "100% (fehleranfällig)",
+    "comparison_row1_cost": "Ihre Zeit",
+    "comparison_row2_method": "Google Lens / Adobe OCR",
+    "comparison_row2_time": "Sofort",
+    "comparison_row2_accuracy": "30–55% bei Schreibschrift",
+    "comparison_row2_cost": "Kostenlos & Kostenpflichtig",
+    "comparison_row3_method": "NoteOCR Schreibschrift-Konverter",
+    "comparison_row3_time": "Unter 30 Sekunden",
+    "comparison_row3_accuracy": "90–98% bei Schreibschrift",
+    "comparison_row3_cost": "Kostenlos testen",
+
+    "features_title": "Warum unser Schreibschrift-Konverter anders ist",
+    "features_subtitle": "Eine KI, die speziell für Schreibschrift entwickelt wurde, kein OCR-Tool für gedruckten Text mit einem notdürftigen Schreibschrift-Update.",
+
+    "feature_1_title": "Liest verbundene Buchstaben nativ",
+    "feature_1_desc": "Standard-OCR trennt einzelne Zeichen, bevor sie gelesen werden. Schreibschrift macht dies unmöglich, da Buchstaben verbunden sind und sich überlappen. Unsere KI liest ganze Wörter und Zeilen auf einmal – genau wie das menschliche Auge. So wird zusammenhängende Schrift lesbar, wo andere Tools aufgeben.",
+
+    "feature_2_title": "Verarbeitet Schleifen, Neigungen & Variationen",
+    "feature_2_desc": "Die Schreibschrift jedes Menschen ist einzigartig – unterschiedliche Schleifengrößen, Neigungswinkel und Buchstabenabstände. Unser neuronales Netz wurde mit Millionen echter Schreibschrift-Beispiele aus Dutzenden von Schreibstilen trainiert, sodass es auch Handschriften erkennt, die es noch nie zuvor gesehen hat.",
+
+    "feature_3_title": "Exportiert in Word, Excel & Text",
+    "feature_3_desc": "Konvertierte Schreibschrift wird nicht als unformatierter Absatz ausgegeben. Wir rekonstruieren das Layout des Dokuments, Absätze, Listen und Tabellen und exportieren direkt nach .docx, .xlsx oder als reinen .txt-Text – je nachdem, was Sie benötigen.",
+
+    "tech_title": "Warum Schreibschrift für OCR so schwer ist und wie wir das Problem lösen",
+    "tech_intro": "Standard-OCR wurde für gedruckten Text entwickelt. Jede Annahme, die es trifft – einheitliche Zeichenformen, klare Lücken zwischen den Buchstaben, konstante Abstände –, bricht bei der Schreibschrift völlig zusammen. Schreibschrift-Buchstaben verschmelzen miteinander. Derselbe Buchstabe sieht völlig anders aus, je nachdem, was davor und danach kommt. Die Neigung variiert von Zeile zu Zeile. Schleifen und Bögen kreuzen andere Buchstaben. Unsere KI wählt einen grundlegend anderen Ansatz: Anstatt zu versuchen, einzelne Zeichen zu isolieren, liest sie ganze Wörter und Zeilen als visuelle Muster – dieselbe Strategie, die ein fließend lesender Mensch anwendet, wenn er auf eine unbekannte verbundene Handschrift trifft.",
+
+    "tech_detect_title": "Was unsere KI verarbeiten kann",
+    "tech_detect_1": "Vollständig verbundene Schreibschrift, bei der keine Buchstaben getrennt sind",
+    "tech_detect_2": "Gemischte Schreibschrift und Druckschrift auf derselben Seite",
+    "tech_detect_3": "Variierende Neigungen: nach rechts, nach links und aufrecht",
+    "tech_detect_4": "Dekorative und stark personalisierte Buchstabenformen",
+    "tech_detect_5": "Ältere Schreibschriften wie Kurrent, Sütterlin und Stile des frühen 20. Jahrhunderts",
+
+    "tech_tips_title": "Tipps für die beste Schreibschrift-Umwandlung",
+    "tech_tips_1": "Nutzen Sie natürliches Tageslicht, vermeiden Sie Blitzlicht, das den Tintenkontrast abflacht",
+    "tech_tips_2": "Halten Sie die Kamera flach über die Seite, nicht schräg",
+    "tech_tips_3": "Achten Sie auf dunkle Tinte auf hellem Papier und vermeiden Sie Schatten über dem Text",
+    "tech_tips_4": "Erhöhen Sie bei sehr alten Dokumenten zuerst den Kontrast in einem Bildbearbeitungsprogramm",
+    "tech_tips_5": "Überprüfen Sie immer das Ergebnis – selbst bei 95% Genauigkeit sind bei längeren Texten gelegentliche Korrekturen nötig",
+
+    "related_tools_title": "Ähnliche Tools",
+    "related_tool_1_name": "Handschrift in Word",
+    "related_tool_1_desc": "Notizen in formatierte .docx umwandeln",
+    "related_tool_2_name": "Handschrift in Excel",
+    "related_tool_2_desc": "Handgeschriebene Tabellen in Tabellenkalkulationen extrahieren",
+    "related_tool_3_name": "Handschrifterkennung",
+    "related_tool_3_desc": "Alle Handschriftstile: Druckschrift, Schreibschrift, gemischt",
+    "related_tool_4_name": "Handschrift scannen zu Text",
+    "related_tool_4_desc": "Vom Handyfoto oder PDF-Scan",
+
+    "faq_title": "Häufig gestellte Fragen zur Umwandlung von Schreibschrift in Text",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "Was ist ein Schreibschrift-zu-Text-Konverter?",
+          "a": "Ein Schreibschrift-zu-Text-Konverter ist ein KI-Tool, das Fotos oder Scans von Schreibschriften liest und den Inhalt in getippten, bearbeitbaren digitalen Text umwandelt. Im Gegensatz zu Standard-OCR-Software, die für gedruckte Schriftarten entwickelt wurde, verwendet ein Schreibschrift-Konverter neuronale Netze, die speziell auf verbundene und fließende Schriften trainiert wurden, um die für Schreibschrift typischen verbundenen Buchstabenformen zu interpretieren."
+        },
+        "how_accurate": {
+          "q": "Wie genau ist die KI-Schreibschrifterkennung?",
+          "a": "NoteOCR erreicht bei klarer, gut beleuchteter Schreibschrift eine Genauigkeit von 90–98 %. Bei stark stilisierter persönlicher Handschrift oder stark beschädigtem Papier kann der Wert eher bei 80–85 % liegen. Zum Vergleich: Allzweck-OCR-Tools wie Google Lens erreichen bei Schreibschrift durchschnittlich nur 30–55 %, da sie nicht für verbundene Schriften entwickelt wurden. Überprüfen Sie die Ausgabe immer, bevor Sie sie für wichtige Dokumente verwenden."
+        },
+        "how_different_from_ocr": {
+          "q": "Warum kann normale OCR-Software keine Schreibschrift lesen?",
+          "a": "Standard-OCR funktioniert so, dass einzelne Zeichen isoliert, mit bekannten Formen abgeglichen und zu Wörtern zusammengesetzt werden. Schreibschrift macht diesen Prozess unmöglich, da Buchstaben verbunden sind und sich überlappen – es gibt keine klaren Grenzen zwischen den Zeichen. Ein Schreibschrift-Konverter nutzt eine völlig andere Architektur: Er liest ganze Wörter und Zeilen als visuelle Muster anstatt als einzelne Buchstaben, wodurch verbundene Schrift erst lesbar wird."
+        },
+        "joined_up_writing": {
+          "q": "Funktioniert es auch bei verbundener Handschrift (Kursivschrift)?",
+          "a": "Ja. Verbundene Handschrift und Schreibschrift sind dasselbe – Buchstaben, die ohne Absetzen des Stiftes verbunden werden. Genau darauf wurde unsere KI trainiert. Egal, ob Sie es Schreibschrift, Kursivschrift oder verbundene Schrift nennen, unser Konverter verarbeitet es. Er funktioniert bei vollständig verbundener Schreibschrift genauso gut wie bei Halbschreibschrift, bei der einige Buchstaben getrennt sind."
+        },
+        "old_cursive": {
+          "q": "Kann das Tool altmodische oder historische Schreibschriften umwandeln?",
+          "a": "Ja, mit einigen Einschränkungen. Unsere KI verarbeitet ältere Schreibschriftstile, einschließlich historischer Handschriften aus dem 19. und frühen 20. Jahrhundert (wie Sütterlin oder Kurrent) sowie formelle Schriften aus historischen Briefen. Sehr archaische Stile – wie Kanzleischriften aus dem 17. oder 18. Jahrhundert – können eine geringere Genauigkeit aufweisen. Für Schreibschriften ab ca. 1850 ist die Leistung konstant hoch. Wir empfehlen, eine Beispielseite hochzuladen, um dies zu testen, bevor Sie ein komplettes Archiv verarbeiten."
+        },
+        "personal_cursive": {
+          "q": "Was ist, wenn meine Schreibschrift sehr persönlich oder einzigartig ist?",
+          "a": "Persönliche Schreibschrift, bei der Buchstaben stark stilisiert und spezifisch für eine Person sind, ist der schwierigste Fall für jede KI. Unser Modell generalisiert gut, weil es mit Millionen verschiedener Handschriftstile trainiert wurde, nicht nur mit standardisierter Schulschrift. Die Genauigkeit bei stark personalisierter Schrift liegt typischerweise bei 80–90 %. Je konsistenter der Schreibstil auf einer Seite ist, desto besser das Ergebnis."
+        },
+        "no_app": {
+          "q": "Kann ich Schreibschrift ohne App in Text umwandeln?",
+          "a": "Ja. NoteOCR läuft vollständig in Ihrem Browser. Keine App, keine Softwareinstallation, kein Plugin. Laden Sie Ihr Schreibschrift-Bild hoch und erhalten Sie sofort den konvertierten Text. Funktioniert in Chrome, Safari, Firefox und Edge auf Desktop- und Mobilgeräten."
+        },
+        "free": {
+          "q": "Gibt es einen kostenlosen Schreibschrift-Konverter online?",
+          "a": "Ja. NoteOCR kann kostenlos getestet werden. Laden Sie Ihre Schreibschrift hoch und erhalten Sie den konvertierten Text, ohne ein Konto erstellen zu müssen. Für Konvertierungen in größeren Mengen, Word- und Excel-Exporte sowie Stapelverarbeitung (Batch-Processing) stehen kostenpflichtige Tarife zur Verfügung. Die grundlegende Schreibschrifterkennung kann jedoch für jedes Bild kostenlos getestet werden."
+        },
+        "phone_photo": {
+          "q": "Kann ich Schreibschrift von einem Handyfoto umwandeln?",
+          "a": "Absolut. Machen Sie mit Ihrer Handykamera ein Foto von Ihren Notizen oder Briefen in Schreibschrift und laden Sie es direkt hoch. Unsere KI übernimmt automatisch die Perspektivenkorrektur, Kontrastverbesserung und Rauschunterdrückung. Die besten Ergebnisse erzielen Sie, wenn Sie bei Tageslicht fotografieren und das Telefon flach über die Seite halten und nicht schräg."
+        },
+        "export_word": {
+          "q": "Kann ich den konvertierten Schreibschrift-Text in Word exportieren?",
+          "a": "Ja. Der konvertierte Schreibschrift-Text kann als Microsoft Word (.docx)-Datei exportiert werden, wobei die Absatzstruktur und Formatierung erhalten bleiben. Dies ist ab dem Student-Tarif verfügbar. Der reine Text-Export ist in der kostenlosen Version verfügbar. Der Excel-Export steht zur Verfügung, wenn Ihr handgeschriebener Inhalt Tabellen oder strukturierte Daten enthält."
+        },
+        "cursive_vs_print": {
+          "q": "Ist Schreibschrift schwerer zu konvertieren als gedruckte Handschrift?",
+          "a": "Ja. Schreibschrift ist für KI deutlich schwieriger als Druckschrift. Gedruckte Handschrift besteht aus einzelnen, getrennten Buchstaben, die sich leichter segmentieren und abgleichen lassen. Schreibschrift-Buchstaben verbinden sich, überlappen sich und ändern ihre Form je nach benachbarten Buchstaben. Unser Schreibschrift-Konverter wurde speziell für diese Herausforderung entwickelt und übertrifft daher allgemeine Handschrift-Tools bei verbundener Schrift bei weitem."
+        },
+        "languages": {
+          "q": "Welche Sprachen unterstützt der Schreibschrift-Konverter?",
+          "a": "NoteOCR unterstützt die Schreibschrifterkennung in mehr als 30 Sprachen, darunter Deutsch, Englisch, Spanisch, Französisch, Portugiesisch, Italienisch und Niederländisch. Romanische Sprachen – die besonders reiche Schreibschrifttraditionen haben – funktionieren besonders gut. Arabische, Urdu- und persische Kalligrafieschriften werden ebenfalls unterstützt. Bei Sprachen mit nicht-lateinischen Schriften variiert die Genauigkeit je nach Bildqualität und Komplexität der Schrift."
+        },
+        "letters_journals": {
+          "q": "Kann ich damit handgeschriebene Briefe und Tagebücher in Text umwandeln?",
+          "a": "Ja, das ist einer der beliebtesten Anwendungsfälle. Laden Sie ein Foto eines handgeschriebenen Briefes, eines Tagebucheintrags oder persönlicher Aufzeichnungen hoch und erhalten Sie den vollständigen Text innerhalb von Sekunden in bearbeitbarer Form. Viele Nutzer digitalisieren jahrzehntelange Familienkorrespondenz zum Archivieren und Teilen. Der Konverter behält Absatzumbrüche und Seitenstruktur bei, sodass sich die digitale Version natürlich liest."
+        },
+        "historical_documents": {
+          "q": "Funktioniert es bei historischen Schreibschrift-Dokumenten und Aufzeichnungen?",
+          "a": "Ja, bei modernen historischen Dokumenten – etwa ab 1850 – ist die Genauigkeit konstant hoch. Unsere KI geht gut mit verblasster Tinte, gealtertem Papier und älteren Buchstabenformen in Schreibschrift um. Für frühere Dokumente und spezielle historische Schriften empfehlen wir, zunächst eine Stichprobe zu testen. Der Konverter wird regelmäßig für die Familienforschung, Nachlassakten und Kirchenbücher verwendet."
+        },
+        "accuracy_tips": {
+          "q": "Wie verbessere ich die Genauigkeit der Schreibschrift-Umwandlung?",
+          "a": "Die Bildqualität ist der wichtigste Faktor. Fotografieren Sie bei hellem, gleichmäßigem Tageslicht – natürliches Licht ist besser als Blitzlicht. Halten Sie Ihre Kamera oder Ihr Handy flach über die Seite, um Verzerrungen zu vermeiden. Stellen Sie sicher, dass sich die Tinte deutlich vom Papier abhebt. Erhöhen Sie bei alten oder verblassten Dokumenten vor dem Hochladen den Kontrast mit einem kostenlosen Bildbearbeitungsprogramm. Das Scannen mit 300 DPI oder mehr verbessert die Ergebnisse im Vergleich zu Handyfotos ebenfalls erheblich."
+        },
+        "privacy": {
+          "q": "Bleiben meine Schreibschrift-Inhalte privat?",
+          "a": "Ja. Alle Uploads werden während der Übertragung per SSL verschlüsselt. Ihre Bilder werden in isolierten, sicheren Containern verarbeitet und innerhalb von 24 Stunden dauerhaft gelöscht. Wir verwenden hochgeladene Inhalte niemals zum Trainieren unserer Modelle und geben sie niemals an Dritte weiter. Persönliche Briefe, Tagebücher und private Dokumente werden streng vertraulich behandelt."
+        },
+        "how_it_works": {
+          "q": "Wie funktioniert der Schreibschrift-zu-Text-Konverter eigentlich?",
+          "a": "Wenn Sie ein Schreibschrift-Bild hochladen, durchläuft unsere KI drei Phasen. Erstens, die Bildvorverarbeitung – Korrektur von Schräglagen, Verbesserung des Kontrasts, Rauschunterdrückung. Zweitens, die Layout-Analyse – Identifizierung von Zeilen, Absätzen und Dokumentenstruktur. Drittens, die Schreibschrifterkennung – ein neuronales Netz liest jede Textzeile als visuelle Sequenz und nutzt den Kontext der umgebenden Wörter, um mehrdeutige verbundene Buchstaben zu interpretieren. Das Ergebnis wird wieder zu einem strukturierten Dokument zusammengefügt, das Ihr ursprüngliches Layout beibehält."
+        },
+        "batch": {
+          "q": "Kann ich mehrere Seiten Schreibschrift auf einmal konvertieren?",
+          "a": "Die Stapelverarbeitung (Batch-Processing) ist in den Professional- und Power-User-Tarifen verfügbar. Nutzer des kostenlosen Tarifs und des Student-Tarifs verarbeiten eine Seite nach der anderen. Für große Projekte – komplette Tagebücher, mehrteilige Briefarchive oder Massendigitalisierungen von Dokumenten – bietet der Power-User-Tarif unbegrenzte Batch-Uploads mit gleichzeitiger Verarbeitung, sodass Sie ein ganzes Notizbuch in einer Sitzung konvertieren können."
+        },
+        "vs_google": {
+          "q": "Ist NoteOCR für Schreibschrift besser als Google Docs oder Google Lens?",
+          "a": "Speziell bei Schreibschrift: Deutlich besser. Google Lens und die Spracheingabe von Google Docs wurden für gedruckte Texte und strukturierte Dokumente entwickelt. Bei Schreibschriften erreichen die Tools von Google in der Regel nur eine Genauigkeit von 30–55 % – das heißt, fast die Hälfte der Wörter wird falsch erkannt. NoteOCR wurde speziell für Handschrift und Schreibschrift entwickelt und erreicht bei denselben Dokumenten 90–98 %. Außerdem exportiert es in Word und Excel, was Google Lens nicht kann."
+        },
+        "copperplate": {
+          "q": "Liest es auch englische Schreibschrift (Copperplate) und kalligrafieähnliche Schreibschrift?",
+          "a": "Ja. Copperplate – die formale, stark verzierte Schreibschrift, die in historischen Briefwechseln und offiziellen Dokumenten verwendet wurde – wird unterstützt. Die einheitlichen Buchstabenformen von Copperplate funktionieren in unserer KI sogar sehr gut im Vergleich zu unordentlicher persönlicher Schreibschrift. Sehr kunstvolle kalligrafische Stile mit vielen Schnörkeln können die Erkennung gelegentlich verwirren, aber Standard-Schreibschriften aus dem 19. und frühen 20. Jahrhundert werden zuverlässig gelesen."
+        }
+      }
+    },
+
+    "cta_title": "Bereit, Ihre Schreibschrift in Text umzuwandeln?",
+    "cta_subtitle": "Laden Sie ein beliebiges Schreibschrift-Bild, Briefe, Tagebücher, Notizen oder Formulare hoch und erhalten Sie in weniger als 30 Sekunden sauberen, bearbeitbaren Text.",
+    "cta_button": "Schreibschrift in Text kostenlos testen",
+
+    "tool_info_1_title": "Keine App erforderlich",
+    "tool_info_1_desc": "Läuft in Ihrem Browser. Kein Download, keine Anmeldung erforderlich, um es zu testen.",
+    "tool_info_2_title": "KI für verbundene Schrift",
+    "tool_info_2_desc": "Speziell für Schreibschrift entwickelt – keine bloße Anpassung einer Print-OCR-Engine.",
+    "tool_info_3_title": "Word, Excel & Text Export",
+    "tool_info_3_desc": "Erhalten Sie Ihren konvertierten Text in genau dem Format, das Sie benötigen."
+  },
+  "ScanHandwritingToText": {
+    "meta_title": "Handschrift scannen & in Text umwandeln Online | NoteOCR",
+    "meta_desc": "Scannen Sie handgeschriebene Notizen sofort in Ihrem Browser in Text. Kein App-Download. Laden Sie ein Handyfoto oder Scanner-Bild hoch und erhalten Sie in unter 30 Sekunden bearbeitbaren Text.",
+
+    "hero_pill": "Online Handschriften-Scanner",
+    "hero_title": "Handschrift scannen und in Text umwandeln. Keine App erforderlich.",
+    "hero_subtitle": "Fotografieren Sie eine handgeschriebene Seite mit dem Handy oder laden Sie einen Scan hoch. Unsere KI wandelt es in unter 30 Sekunden in sauberen, bearbeitbaren Text um. Kein App-Download. Funktioniert in jedem Browser auf jedem Gerät.",
+
+    "trust_ssl": "SSL-verschlüsselt",
+    "trust_processing": "Unter 30 Sekunden",
+    "trust_accuracy": "95%+ Scan-Genauigkeit",
+
+    "before_after_title": "Gescannte Handschrift rein. Bearbeitbarer Text raus.",
+    "before_after_desc": "Echtes Scan-Ergebnis: Sehen Sie genau, wie unsere KI ein Handyfoto von handgeschriebenen Notizen verarbeitet.",
+    "before_label": "Vorher: Gescannte handgeschriebene Seite",
+    "after_label": "Nachher: Sauberer bearbeitbarer Text",
+
+    "use_cases_title": "Wer nutzt einen Online-Scanner für Handschriften?",
+    "use_cases_subtitle": "Jeder, der physische handgeschriebene Seiten schnell digitalisieren muss. Keine Scanner-Hardware erforderlich, Ihre Handykamera reicht aus.",
+
+    "use_case_1_title": "Studenten scannen Vorlesungsnotizen",
+    "use_case_1_desc": "Fotografieren Sie nach dem Unterricht ganze Notizbuchseiten und erhalten Sie in Sekundenschnelle vollständig durchsuchbaren, bearbeitbaren Text. Hören Sie auf, Seiten vor Prüfungen abzutippen, und fangen Sie stattdessen an, wirklich zu lernen.",
+
+    "use_case_2_title": "Feldnotizen und Baustellenberichte",
+    "use_case_2_desc": "Ingenieure, Gutachter, Inspektoren und Außendienstmitarbeiter scannen handgeschriebene Notizen vor Ort direkt mit dem Handy und haben sie in einem teilbaren digitalen Format, bevor sie die Baustelle verlassen.",
+
+    "use_case_3_title": "Papierakten und Formulare digitalisieren",
+    "use_case_3_desc": "Handgeschriebene Patientenaufnahmeformulare, Lieferbelege, Stundenzettel oder Inspektionschecklisten – scannen Sie diese und erhalten Sie in einem Schritt strukturierten, bearbeitbaren Text für Copy-Paste oder den direkten Export.",
+
+    "use_case_4_title": "Persönliche Tagebücher und Notizbücher",
+    "use_case_4_desc": "Digitalisieren Sie persönliche Tagebücher, Rezeptbücher, Brainstorming-Seiten und handgeschriebene Planer mit einem einzigen Handyfoto. Bewahren Sie jahrelange physische Notizbücher als durchsuchbaren digitalen Text auf, auf den Sie überall zugreifen können.",
+
+    "comparison_title": "Online Handschriften-Scanner: Optionen im Vergleich",
+    "comparison_subtitle": "Die meisten Scan-Tools zwingen Sie dazu, eine App zu installieren oder ein Abo abzuschließen, bevor Sie ein brauchbares Ergebnis erhalten. NoteOCR tut das nicht.",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Geschwindigkeit",
+    "comparison_col_accuracy": "Genauigkeit bei Handschrift",
+    "comparison_col_cost": "Kosten",
+    "comparison_row1_method": "PenToPrint (Mobile App)",
+    "comparison_row1_time": "Schnell (nur App)",
+    "comparison_row1_accuracy": "Gut bei klarer Schrift",
+    "comparison_row1_cost": "App nötig, Export kostenpflichtig",
+    "comparison_row2_method": "Adobe Scan + Acrobat OCR",
+    "comparison_row2_time": "Mittel",
+    "comparison_row2_accuracy": "40-60% bei Handschrift",
+    "comparison_row2_cost": "Ca. 20€/Monat Abo",
+    "comparison_row3_method": "NoteOCR Handschriften-Scanner",
+    "comparison_row3_time": "Unter 30 Sekunden",
+    "comparison_row3_accuracy": "95%+ bei gescannter Handschrift",
+    "comparison_row3_cost": "Kostenlos testen, keine App, Einmalzahlung möglich",
+
+    "features_title": "Warum NoteOCR der bessere Online-Handschriften-Scanner ist",
+    "features_subtitle": "Speziell für das Scannen handgeschriebener Seiten entwickelt – kein Dokumentenscanner, der Handschrift nur als nachträgliches Extra behandelt.",
+
+    "feature_1_title": "Ihr Smartphone ist der Scanner",
+    "feature_1_desc": "Sie benötigen keinen Flachbettscanner oder zusätzliche Hardware. Machen Sie mit Ihrer Handykamera ein Foto von jeder beliebigen handgeschriebenen Seite und laden Sie es hoch. Unsere KI korrigiert automatisch die Perspektive, passt die Beleuchtung an und entfernt Schatten, damit Sie selbst aus unperfekten Fotos saubere Ergebnisse erhalten.",
+
+    "feature_2_title": "Liest, was Flachbettscanner nicht können",
+    "feature_2_desc": "Standard-Dokumentenscanner und allgemeine OCR-Tools produzieren bei Handschrift oft nur Kauderwelsch, da sie für gedruckte Schriften entwickelt wurden. Unser neuronales Netz wurde speziell mit gescannten Handschriftenmustern in allen möglichen Schreibstilen trainiert, sodass es liest, was andere nicht können.",
+
+    "feature_3_title": "Keine App. Kein Konto. Keine Wartezeit.",
+    "feature_3_desc": "Öffnen Sie die Seite in einem beliebigen Browser, laden Sie Ihr gescanntes Bild hoch und erhalten Sie bearbeitbaren Text zurück. Kein App Store, keine Installation, keine Kontoerstellung, kein Warten auf Bestätigungs-E-Mails. Funktioniert identisch auf iPhone, Android, Mac, Windows und Chromebook.",
+
+    "tech_title": "Wie das Scannen von Handschrift zu Text wirklich funktioniert",
+    "tech_intro": "Wenn Sie ein gescanntes Bild mit Handschrift hochladen – egal ob Handyfoto oder Flachbett-Scan – führt unsere KI automatisch drei Schritte aus. Erstens die Bildvorverarbeitung: Sie korrigiert Schieflagen und Drehungen, verbessert den Kontrast, entfernt Rauschen und Schatten und schärft die Tinte auf dem Papier. Zweitens führt sie eine Layout-Analyse durch, um zu erkennen, wo sich Textzeilen, Absätze und Strukturelemente auf der Seite befinden. Drittens liest die Handschrifterkennung jede Zeile als visuelle Sequenz – nicht Zeichen für Zeichen wie Standard-OCR, sondern Wort für Wort unter Einbeziehung des Kontexts, um mehrdeutige Buchstaben zu interpretieren. Das Ergebnis ist strukturierter Text, der Ihre ursprünglichen Absatz- und Zeilenumbrüche beibehält.",
+
+    "tech_detect_title": "Was unser Scanner verarbeiten kann",
+    "tech_detect_1": "Handyfotos aus leichtem Winkel – Perspektive wird automatisch korrigiert",
+    "tech_detect_2": "Aufnahmen bei schlechtem Licht oder mit Blitz – automatische Kontrastverbesserung",
+    "tech_detect_3": "Flachbett- und Dokumentenscanner-Ausgaben (ab 150 DPI)",
+    "tech_detect_4": "Gemischte Handschriftstile auf derselben gescannten Seite",
+    "tech_detect_5": "Durchgestrichene Wörter, Pfeile, Markierungen und Randnotizen",
+
+    "tech_tips_title": "Tipps zum Scannen für beste Ergebnisse",
+    "tech_tips_1": "Halten Sie das Handy direkt über die Seite, parallel zum Papier, nicht schräg",
+    "tech_tips_2": "Nutzen Sie nach Möglichkeit natürliches Tageslicht – vermeiden Sie Blitzlicht, das den Tintenkontrast verringert",
+    "tech_tips_3": "Stellen Sie sicher, dass die gesamte Seite im Bild ist, bevor Sie abdrücken",
+    "tech_tips_4": "Bei Flachbettscannern liefert 300 DPI deutlich bessere Ergebnisse als 150 DPI",
+    "tech_tips_5": "Bei verblasster Tinte oder altem Papier: Erhöhen Sie vor dem Upload den Kontrast im Foto-Editor",
+
+    "related_tools_title": "Ähnliche Tools",
+    "related_tool_1_name": "Handschrifterkennung",
+    "related_tool_1_desc": "Umfassende KI-Erkennung für alle Handschriftstile",
+    "related_tool_2_name": "Handschrift in Word",
+    "related_tool_2_desc": "Gescannte Notizen direkt nach .docx exportieren",
+    "related_tool_3_name": "Schreibschrift zu Text",
+    "related_tool_3_desc": "Spezialscanner für verbundene Schreibschrift",
+    "related_tool_4_name": "Handschrift in Excel",
+    "related_tool_4_desc": "Handgeschriebene Tabellen in Tabellenkalkulationen scannen",
+
+    "faq_title": "Häufig gestellte Fragen zum Scannen von Handschrift zu Text",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "Was bedeutet es, Handschrift in Text zu scannen?",
+          "a": "Handschrift in Text zu scannen bedeutet, eine physische handgeschriebene Seite zu nehmen, sie zu fotografieren oder einzuscannen und dann KI zu nutzen, um die Handschrift zu lesen und in getippten digitalen Text umzuwandeln, den Sie bearbeiten, durchsuchen, kopieren und teilen können. Der Scan kann von einer Handykamera, einem Flachbettscanner oder jedem anderen Gerät stammen, das ein JPG-, PNG- oder WEBP-Bild erzeugt. Das Ergebnis ist bearbeitbarer Text in derselben Struktur wie die ursprüngliche handgeschriebene Seite."
+        },
+        "no_app": {
+          "q": "Kann ich Handschrift online ohne App in Text scannen?",
+          "a": "Ja. NoteOCR läuft vollständig in Ihrem Webbrowser. Es gibt keine App zum Herunterladen, keine Software zum Installieren und kein Plugin. Dies ist ein direkter Vorteil gegenüber Tools wie PenToPrint, die primär als mobile Apps funktionieren und wichtige Funktionen wie den Text-Export hinter einem kostenpflichtigen Abo verstecken. Öffnen Sie NoteOCR einfach in jedem Browser auf jedem Gerät, laden Sie Ihr Handschriftenfoto hoch und erhalten Sie den Text, ohne etwas zu installieren."
+        },
+        "free_no_signup": {
+          "q": "Gibt es einen kostenlosen Online-Handschriften-Scanner ohne Anmeldung?",
+          "a": "Ja. Sie können handgeschriebene Bilder scannen und den konvertierten Text auf NoteOCR erhalten, ohne ein Konto zu erstellen. Laden Sie Ihr Bild hoch und der Text wird sofort ausgegeben. Kostenlose Konten sind auch für Benutzer verfügbar, die ihre gescannten Dokumente speichern und verwalten möchten. Kostenpflichtige Pläne schalten höhere Scan-Volumina, Word- und Excel-Exporte sowie Stapelverarbeitung (Batch-Processing) frei, aber die grundlegende Scan-zu-Text-Funktion kann bei jedem Bild kostenlos getestet werden."
+        },
+        "phone_camera": {
+          "q": "Kann ich Handschrift von einem Handyfoto scannen und umwandeln?",
+          "a": "Ja – Handyfotos sind die häufigste Upload-Art bei NoteOCR. Sie benötigen keinen Flachbettscanner. Machen Sie einfach ein Foto von einer beliebigen handgeschriebenen Seite und laden Sie es direkt hoch. Unsere KI korrigiert automatisch die Perspektive, gleicht ungleichmäßige Beleuchtung aus, entfernt Schatten und schärft das Bild, bevor die Handschrifterkennung durchgeführt wird. Für die besten Ergebnisse halten Sie das Telefon flach über die Seite und fotografieren Sie bei Tageslicht anstatt mit Blitz."
+        },
+        "vs_pentoprint": {
+          "q": "Wie unterscheidet sich NoteOCR von PenToPrint beim Scannen von Handschriften?",
+          "a": "Der Hauptunterschied besteht darin, dass NoteOCR vollständig in Ihrem Browser funktioniert, ohne dass eine App erforderlich ist, und Sie Text ohne kostenpflichtiges Abonnement exportieren können. PenToPrint ist in erster Linie eine mobile App, die eine Installation erfordert und den Textexport hinter einer Paywall sperrt – Benutzer im App Store und bei Google Play berichten oft, dass die kostenlose Version ohne Bezahlung kaum nützlich ist. NoteOCR verarbeitet in den kostenpflichtigen Plänen auch webbasierte Batch-Uploads, während PenToPrint für große Mengen ihre Desktop-App erfordert."
+        },
+        "vs_adobe": {
+          "q": "Ist NoteOCR für Handschrift besser als Adobe Scan?",
+          "a": "Speziell für die Handschrifterkennung: ja. Adobe Scan und das OCR von Adobe Acrobat sind hervorragend für gedruckten Text und getippte Dokumente, wurden jedoch nicht für Handschrift entwickelt. Die Tools von Adobe scheitern regelmäßig an Schreibschrift, unordentlicher Schrift und uneinheitlichen Stilen und erreichen bei Handschrift typischerweise nur 40-60% Genauigkeit. NoteOCR wurde speziell mit Handschriftenmustern trainiert und erreicht auf denselben gescannten Seiten 95% oder mehr. Zudem erfordert Adobe ein Acrobat-Abonnement für ca. 20€ pro Monat; NoteOCR kann kostenlos getestet werden."
+        },
+        "flatbed_scanner": {
+          "q": "Kann ich Bilder von einem Flachbettscanner hochladen?",
+          "a": "Ja. Wenn Sie bereits einen Flachbett- oder Dokumentenscanner haben, scannen Sie Ihre handgeschriebenen Seiten als JPG- oder PNG-Dateien und laden Sie diese direkt hoch. Flachbettscans mit 300 DPI oder höher liefern die besten Ergebnisse, da die Auflösung höher ist und das Bild perfekt flach ohne perspektivische Verzerrungen vorliegt. Wenn Sie keinen Scanner haben, liefert eine Handykamera bei guter Beleuchtung vergleichbare Ergebnisse."
+        },
+        "scan_pdf": {
+          "q": "Kann ich ein handgeschriebenes PDF scannen und in Text umwandeln?",
+          "a": "PDF-Uploads werden in den kostenpflichtigen Tarifen unterstützt. Wenn Ihre handgeschriebenen Seiten bereits in einem gescannten PDF von einem Dokumentenscanner oder einer Scan-App zusammengefasst sind, können Sie das PDF direkt hochladen und alle Seiten in einer einzigen Sitzung in Text umwandeln lassen. Im kostenlosen Tarif können Sie einzelne Seiten aus Ihrem PDF als PNG- oder JPG-Bilder extrahieren und diese einzeln hochladen."
+        },
+        "scan_lecture_notes": {
+          "q": "Wie scanne ich Vorlesungsnotizen zu Text?",
+          "a": "Machen Sie nach der Vorlesung ein Foto von jeder Notizbuchseite und laden Sie sie auf NoteOCR hoch. Die KI liest die Handschrift und liefert Ihnen innerhalb von 30 Sekunden pro Seite bearbeitbaren Text. Sie können den Text dann in Ihr Lerndokument kopieren, nach bestimmten Begriffen suchen oder ihn in Ihre Notizen-App einfügen. Dies ersetzt das erneute Abtippen ganzer Seiten und macht aus einer stundenlangen Transkriptionsarbeit eine Sache von zwei Minuten. Für mehrseitige Notizen steht in kostenpflichtigen Plänen ein Batch-Upload zur Verfügung."
+        },
+        "scan_field_notes": {
+          "q": "Kann ich handgeschriebene Feldnotizen und Berichte in Text scannen?",
+          "a": "Ja. Feldnotizen sind einer der praktischsten Anwendungsfälle für einen Handschriften-Scanner. Ingenieure, Bauleiter, Umweltgutachter und Bauinspektoren scannen ihre Papiernotizen direkt vor Ort mit dem Smartphone und erhalten digitalen Text, den sie in Berichte einfügen können, noch bevor sie ins Büro zurückfahren. NoteOCR meistert Handschriften aus echten Arbeitsbedingungen – hastige Notizen, Abkürzungen sowie gemischte Druck- und Schreibschrift auf derselben Seite."
+        },
+        "messy_handwriting": {
+          "q": "Funktioniert der Scanner auch bei unordentlicher oder hastiger Handschrift?",
+          "a": "Ja. Unordentliche Handschrift ist die Hauptherausforderung, für die unsere KI entwickelt wurde. Standard-OCR und Dokumentenscanner scheitern an allem, was von sauberen gedruckten Schriften abweicht. Unser neuronales Netz wurde mit echten Handschriften trainiert, einschließlich flüchtiger Notizen, uneinheitlicher Größe, durchgestrichener Wörter und enger Schrift – genau jene Schriftbilder, die entstehen, wenn Menschen schnell schreiben. Die Genauigkeit bei unordentlicher Handschrift liegt je nach Ausprägung meist bei 85-92%."
+        },
+        "accuracy": {
+          "q": "Wie genau ist das Scannen von Handschrift zu Text?",
+          "a": "NoteOCR erreicht eine Genauigkeit von 95-99% bei klarer, gut beleuchteter gescannter Handschrift. Unordentliche oder hastige Handschrift kommt typischerweise auf 85-92%. Diese Werte sind deutlich höher als bei allgemeinen Scan-Tools wie Google Docs, Adobe Acrobat und Google Keep, die bei Handschrift durchschnittlich nur 40-65% erreichen, da sie nicht dafür konzipiert wurden. Überprüfen Sie dennoch immer die Ausgabe, bevor Sie sie in finalen Dokumenten verwenden."
+        },
+        "formats_accepted": {
+          "q": "Welche Dateiformate kann ich zum Handschriften-Scannen hochladen?",
+          "a": "Sie können JPG-, JPEG-, PNG- und WEBP-Bilddateien in allen Plänen hochladen. PDF-Uploads werden in kostenpflichtigen Plänen unterstützt. Die maximale Dateigröße beträgt 25 MB pro Bild. Für beste Ergebnisse verwenden Sie die höchste Auflösung, die Ihre Handykamera oder Ihr Scanner erzeugt. Die meisten modernen Smartphone-Kameras liefern mehr als genug Auflösung für eine exakte Handschrifterkennung."
+        },
+        "export_options": {
+          "q": "In welche Formate kann ich gescannte Handschrift exportieren?",
+          "a": "Gescannter Text kann im kostenlosen Tarif als reiner Text (TXT) exportiert werden. Exporte als Word-Dokument (.docx) und Excel-Tabelle (.xlsx) sind ab dem Student-Tarif verfügbar. Wenn Ihre gescannte Seite Tabellen oder strukturierte Daten enthält, bleibt diese Struktur beim Excel-Export erhalten. Der PDF-Export ist in höheren Plänen ebenfalls für Benutzer verfügbar, die eine durchsuchbare PDF-Version ihres gescannten Dokuments wünschen."
+        },
+        "scan_old_documents": {
+          "q": "Kann ich alte handgeschriebene Dokumente scannen und digitalisieren?",
+          "a": "Ja. NoteOCR verarbeitet gealtertes Papier, verblasste Tinte und ältere Handschriftstile sehr gut. Nutzer scannen regelmäßig alte Briefe, Tagebücher, Nachlassdokumente und jahrzehntealte Familienkorrespondenz. Bei sehr alten Dokumenten mit extrem verblasster Tinte oder beschädigtem Papier erhöht die vorherige Anpassung des Kontrasts in einem kostenlosen Foto-Editor die Genauigkeit deutlich. Dokumente ab ca. 1850 funktionieren zuverlässig. Vormoderne Schriften (wie Kurrent oder Sütterlin) können eine geringere Genauigkeit aufweisen."
+        },
+        "scan_notebook": {
+          "q": "Kann ich ein ganzes Notizbuch scannen?",
+          "a": "Ja. In kostenpflichtigen Tarifen ermöglicht Ihnen der Batch-Upload das Scannen und Hochladen eines kompletten Notizbuchs in einer einzigen Sitzung mit gleichzeitiger Verarbeitung. Im kostenlosen Tarif wird jede Seite einzeln verarbeitet. Für das Digitalisieren eines kompletten Notizbuchs ist der Power-User-Tarif die effizienteste Option – er umfasst eine unbegrenzte Stapelverarbeitung (Batch-Processing), sodass Sie jede Seite scannen und den gesamten Text in einem einzigen Workflow zurückerhalten können."
+        },
+        "batch": {
+          "q": "Kann ich mehrere handgeschriebene Seiten auf einmal scannen?",
+          "a": "Stapelverarbeitung (Batch-Scannen) ist in den Professional- und Power-User-Plänen verfügbar. Sie können mehrere gescannte Bilder oder ein mehrseitiges PDF in einer Sitzung hochladen und erhalten den Text für alle Seiten zusammen. Benutzer des kostenlosen und des Student-Tarifs verarbeiten die Seiten einzeln. Für große Archiv-Digitalisierungsprojekte bietet der Power-User-Tarif gleichzeitiges Batch-Processing für maximale Geschwindigkeit."
+        },
+        "privacy": {
+          "q": "Bleibt meine gescannte Handschrift privat?",
+          "a": "Ja. Alle Uploads werden während der Übertragung per SSL verschlüsselt. Gescannte Bilder werden in isolierten, sicheren Umgebungen verarbeitet und innerhalb von 24 Stunden dauerhaft gelöscht. Wir verwenden Ihre gescannten Inhalte niemals zum Trainieren unserer Modelle und geben sie niemals an Dritte weiter. Persönliche Briefe, private Notizbücher, medizinische Formulare und vertrauliche Außendienstberichte werden mit absolutem Datenschutz behandelt."
+        },
+        "scan_forms": {
+          "q": "Kann das Tool handgeschriebene Formulare scannen und die Daten extrahieren?",
+          "a": "Ja. Handgeschriebene Formulare – Patientenaufnahmebögen, Lieferbelege, Umfrageantworten, HR-Checklisten – sind ein primärer Anwendungsfall. Laden Sie ein Foto des ausgefüllten Formulars hoch, und die KI extrahiert alle handgeschriebenen Einträge als bearbeitbaren Text. Bei strukturierten Formularen, bei denen Daten direkt in eine Tabelle übertragen werden müssen, ordnet die Excel-Exportfunktion die extrahierten Daten automatisch den Spalten zu."
+        },
+        "how_different_from_photo": {
+          "q": "Was ist der Unterschied zwischen diesem Tool und einem allgemeinen Foto-zu-Text-Tool?",
+          "a": "Ein allgemeines Foto-zu-Text-Tool wandelt jedes Bild, das Text enthält – einschließlich gedruckter Dokumente, Screenshots und Schilder – mittels Standard-OCR in Text um. Ein Handschriften-Scanner ist hingegen speziell auf die einzigartigen Herausforderungen handgeschriebener Inhalte optimiert: verbundene Buchstaben, variable Größen, uneinheitliche Abstände und persönliche Schreibstile, die Standard-OCR nicht lesen kann. NoteOCR ist speziell auf Handschrift trainiert, weshalb die Genauigkeit bei gescannter Handschrift bei 95% oder mehr liegt – verglichen mit 40-65% bei allgemeinen Foto-zu-Text-Tools."
+        },
+        "improve_accuracy": {
+          "q": "Wie kann ich die Genauigkeit meiner Handschriften-Scans verbessern?",
+          "a": "Der wichtigste Faktor ist die Bildqualität. Fotografieren Sie bei hellem, gleichmäßigem Tageslicht statt bei künstlichem Licht. Halten Sie Ihr Handy direkt über die Seite, parallel zum Papier, um perspektivische Verzerrungen zu vermeiden. Achten Sie darauf, dass die gesamte Seite den Rahmen ausfüllt. Vermeiden Sie Schatten, die auf den Text fallen. Bei Flachbettscannern verwenden Sie 300 DPI oder mehr. Wenn das Papier alt oder die Tinte schwach ist, erhöhen Sie vor dem Upload den Kontrast des Bildes in einem kostenlosen Foto-Editor."
+        }
+      }
+    },
+
+    "cta_title": "Bereit, Ihre Handschrift zu Text zu scannen?",
+    "cta_subtitle": "Laden Sie ein Handyfoto oder Scanner-Bild handgeschriebener Notizen hoch und erhalten Sie in unter 30 Sekunden bearbeitbaren Text zurück. Keine App. Kein Konto erforderlich.",
+    "cta_button": "Handschrift kostenlos in Text scannen",
+
+    "tool_info_1_title": "Keine App erforderlich",
+    "tool_info_1_desc": "Funktioniert in Ihrem Browser auf jedem Gerät. Kein Download, keine Anmeldung zum Ausprobieren.",
+    "tool_info_2_title": "Bereit für die Handykamera",
+    "tool_info_2_desc": "Fotografieren Sie eine beliebige Seite und laden Sie sie direkt hoch. Keine Scanner-Hardware nötig.",
+    "tool_info_3_title": "Word, Excel & Text Export",
+    "tool_info_3_desc": "Erhalten Sie Ihren gescannten Text genau in dem Format, das Sie benötigen."
   }
 }

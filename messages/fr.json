@@ -1,4 +1,3 @@
-
 {
   "HomePage": {
     "trust_pill": "V2.0 OCR Manuscrit : 99,2% de Précision",
@@ -1252,7 +1251,13 @@
     "comparison": {
       "title": "Spécifications Techniques",
       "subtitle": "Pourquoi NoteOCR surpasse les scanners génériques.",
-      "headers": ["Fonctionnalité", "Gratuit", "Étudiant", "Professionnel", "Power User"],
+      "headers": [
+        "Fonctionnalité",
+        "Gratuit",
+        "Étudiant",
+        "Professionnel",
+        "Power User"
+      ],
       "groups": {
         "core": "Intelligence de Reconnaissance",
         "formats": "Export & Types de Fichiers",
@@ -2171,5 +2176,575 @@
         }
       }
     }
+  },
+  "HandwritingRecognitionPage": {
+    "meta_title": "Reconnaissance d'Écriture Manuscrite en Ligne | NoteOCR",
+    "meta_desc": "Téléchargez une image contenant du texte manuscrit, notre IA la reconnaît et la convertit instantanément en texte formaté. Reconnaissance d'écriture manuscrite gratuite en ligne.",
+
+    "hero_pill": "Reconnaissance Manuscrite par IA",
+    "hero_title": "La reconnaissance d'écriture manuscrite qui fonctionne vraiment.",
+    "hero_subtitle": "Téléchargez une photo de notes, de formulaires ou de documents manuscrits. Notre IA lit l'écriture manuscrite, y compris l'écriture cursive difficile à déchiffrer, et la convertit en texte formaté modifiable en quelques secondes.",
+
+    "trust_ssl": "Chiffrement SSL",
+    "trust_processing": "Traitement en 30 secondes",
+    "trust_accuracy": "99 % de précision de reconnaissance",
+
+    "before_after_title": "Voir la reconnaissance en action",
+    "before_after_desc": "Véritable exemple d'écriture manuscrite montrant ce que notre IA lit par rapport au résultat obtenu.",
+    "before_label": "Avant : Image manuscrite",
+    "after_label": "Après : Texte numérique reconnu",
+
+    "use_cases_title": "Qui utilise la reconnaissance d'écriture manuscrite ?",
+    "use_cases_subtitle": "Des étudiants qui numérisent leurs notes de cours aux entreprises qui traitent des formulaires, la reconnaissance de textes manuscrits fait gagner des heures chaque jour.",
+
+    "use_case_1_title": "Étudiants et notes de cours",
+    "use_case_1_desc": "Photographiez votre cahier après le cours et obtenez un texte entièrement consultable et modifiable en quelques secondes. Fini la saisie fastidieuse de pages de notes avant les examens.",
+
+    "use_case_2_title": "Écriture brouillonne et cursive",
+    "use_case_2_desc": "Notre IA est spécifiquement entraînée sur les écritures difficiles. Les gribouillages hâtifs, les lettres attachées (cursives) et les styles mixtes sont tous reconnus avec une grande précision.",
+
+    "use_case_3_title": "Formulaires et documents manuscrits",
+    "use_case_3_desc": "Numérisez des formulaires d'admission de patients, des rapports de terrain, des factures et des dossiers RH à partir d'une simple photo de téléphone. Pas besoin de scanner, votre caméra suffit.",
+
+    "use_case_4_title": "Lettres anciennes et journaux intimes",
+    "use_case_4_desc": "Préservez vos lettres familiales manuscrites, journaux personnels et documents historiques en les convertissant en texte numérique consultable que vous pouvez partager et archiver.",
+
+    "comparison_title": "Reconnaissance d'écriture manuscrite : Comparaison des méthodes",
+    "comparison_subtitle": "Pourquoi une IA spécialisée surpasse toujours les outils génériques.",
+    "comparison_col_method": "Méthode",
+    "comparison_col_time": "Vitesse",
+    "comparison_col_accuracy": "Précision sur manuscrit",
+    "comparison_col_cost": "Coût",
+    "comparison_row1_method": "Saisie manuelle",
+    "comparison_row1_time": "+60 min/page",
+    "comparison_row1_accuracy": "100 % (mais sujet aux erreurs)",
+    "comparison_row1_cost": "Votre temps",
+    "comparison_row2_method": "OCR générique (Google Lens, Adobe)",
+    "comparison_row2_time": "Instantané",
+    "comparison_row2_accuracy": "40–70 % sur manuscrit",
+    "comparison_row2_cost": "Gratuit et payant",
+    "comparison_row3_method": "Reconnaissance manuscrite NoteOCR",
+    "comparison_row3_time": "Moins de 30 secondes",
+    "comparison_row3_accuracy": "95–99 % y compris cursive",
+    "comparison_row3_cost": "Essai gratuit",
+
+    "features_title": "Pourquoi notre reconnaissance d'écriture manuscrite est différente",
+    "features_subtitle": "Conçue spécifiquement pour l'écriture manuscrite, et non adaptée à partir d'un outil pour texte imprimé.",
+
+    "feature_1_title": "Entraînée sur l'écriture manuscrite, pas sur des polices",
+    "feature_1_desc": "L'OCR générique apprend à partir de polices d'imprimerie. Notre IA a été formée exclusivement sur des millions de véritables échantillons d'écriture manuscrite : imprimerie, cursive, styles mixtes, notes hâtives et tout ce qui se trouve entre les deux.",
+
+    "feature_2_title": "Lit l'écriture brouillonne et cursive",
+    "feature_2_desc": "Lettres attachées, inclinaison variable, tailles irrégulières : exactement ce qui bloque l'OCR standard. Notre réseau neuronal les traite de la même manière qu'un lecteur humain : en utilisant le contexte pour combler les lacunes.",
+
+    "feature_3_title": "Des résultats que vous pouvez vraiment utiliser",
+    "feature_3_desc": "Le texte reconnu n'est pas simplement restitué sous forme de paragraphe brut. Nous reconstruisons la mise en page, préservons les listes et les en-têtes, et exportons vers Word, Excel ou en texte brut selon vos besoins.",
+
+    "tech_title": "Comment fonctionne la reconnaissance d'écriture manuscrite",
+    "tech_intro": "La technologie OCR standard a été conçue pour le texte imprimé : des polices uniformes avec des formes de lettres prévisibles. L'écriture manuscrite brise toutes les règles qui font fonctionner l'OCR standard. Chaque personne écrit différemment. Les lettres se connectent, se chevauchent, varient en taille et en inclinaison. Notre IA utilise une approche complètement différente : des réseaux de neurones entraînés sur des millions d'échantillons manuscrits qui apprennent à lire comme le ferait un humain, en reconnaissant des modèles sur des mots et des lignes entières, et non sur des caractères individuels.",
+
+    "tech_detect_title": "Ce que notre IA détecte",
+    "tech_detect_1": "Écriture d'imprimerie et cursive, y compris les lettres attachées et superposées",
+    "tech_detect_2": "Styles d'écriture brouillons, hâtifs et irréguliers",
+    "tech_detect_3": "Mélange d'imprimerie et de cursive sur la même page",
+    "tech_detect_4": "Mots raturés et corrections",
+    "tech_detect_5": "Structure du document : en-têtes, listes, paragraphes et lignes de tableaux",
+
+    "tech_tips_title": "Astuces pour de meilleurs résultats",
+    "tech_tips_1": "Photographiez sous une bonne lumière naturelle, évitez le flash direct sur la page",
+    "tech_tips_2": "Tenez votre téléphone parallèlement au papier, pas en biais",
+    "tech_tips_3": "Assurez-vous que l'encre contraste clairement avec le fond du papier",
+    "tech_tips_4": "300 DPI ou plus pour les documents numérisés (scannés)",
+    "tech_tips_5": "Vérifiez le résultat : même une précision de 95 % implique des corrections occasionnelles",
+
+    "related_tools_title": "Outils associés",
+    "related_tool_1_name": "Manuscrit vers Word",
+    "related_tool_1_desc": "Convertir des notes en .docx formaté",
+    "related_tool_2_name": "Manuscrit vers Excel",
+    "related_tool_2_desc": "Extraire des tableaux vers des feuilles de calcul",
+    "related_tool_3_name": "Cursive vers Texte",
+    "related_tool_3_desc": "Outil OCR spécialisé pour l'écriture cursive",
+    "related_tool_4_name": "Scanner Manuscrit vers Texte",
+    "related_tool_4_desc": "À partir d'une photo de téléphone ou d'un scan PDF",
+
+    "faq_title": "Foire aux questions sur la reconnaissance d'écriture manuscrite",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "Qu'est-ce que la reconnaissance d'écriture manuscrite ?",
+          "a": "La reconnaissance d'écriture manuscrite, également appelée HTR (Handwritten Text Recognition), est une technologie d'IA qui lit le texte manuscrit dans des images et le convertit en texte numérique modifiable. Contrairement à l'OCR standard qui fonctionne sur des polices imprimées, la reconnaissance manuscrite utilise des réseaux de neurones entraînés sur de vrais échantillons pour interpréter la variation infinie de la façon dont les gens écrivent."
+        },
+        "how_accurate": {
+          "q": "Quelle est la précision de la reconnaissance d'écriture manuscrite par IA ?",
+          "a": "NoteOCR atteint une précision de 95 à 99 % sur une écriture manuscrite claire et bien éclairée. Une écriture brouillonne ou très cursive se situe généralement entre 85 et 92 %. À titre de comparaison, des outils génériques comme Google Lens atteignent en moyenne 60 à 70 % de précision sur les textes manuscrits. Vérifiez toujours le résultat avant de l'utiliser pour des documents critiques."
+        },
+        "messy_handwriting": {
+          "q": "Est-ce que cela fonctionne avec une écriture brouillonne ou illisible ?",
+          "a": "Oui, l'écriture brouillonne est exactement ce pour quoi notre IA est entraînée. Les outils OCR standards ont été conçus pour des textes imprimés propres et échouent sur tout ce qui s'écarte des polices uniformes. Notre réseau neuronal gère l'écriture rapide, les tailles irrégulières, les mots raturés et l'inclinaison variable car il a appris à partir de millions de véritables échantillons d'écriture manuscrite, et non de polices système."
+        },
+        "cursive": {
+          "q": "Peut-il reconnaître l'écriture cursive (lettres attachées) ?",
+          "a": "Oui. L'écriture cursive est l'un des cas les plus difficiles pour l'OCR standard car les lettres se connectent et se chevauchent, ce qui rend impossible la segmentation des caractères individuels. Notre IA lit la cursive de la même manière qu'un humain : en analysant les modèles sur des mots et des lignes entières. Elle gère l'écriture liée, les boucles fluides et les styles mixtes cursive/imprimerie."
+        },
+        "no_app": {
+          "q": "Puis-je utiliser la reconnaissance d'écriture manuscrite sans télécharger d'application ?",
+          "a": "Oui, NoteOCR s'exécute entièrement dans votre navigateur. Aucun téléchargement d'application, aucune installation de logiciel, aucun plugin n'est requis. Ouvrez simplement la page, téléchargez votre image et obtenez des résultats. Fonctionne sur Chrome, Safari, Firefox et Edge sur n'importe quel appareil, y compris mobile."
+        },
+        "no_signup": {
+          "q": "Existe-t-il une reconnaissance d'écriture manuscrite gratuite sans inscription ?",
+          "a": "Oui. Vous pouvez essayer NoteOCR gratuitement sans créer de compte. Téléchargez votre image manuscrite et obtenez instantanément le texte reconnu. Pour un traitement en plus grand volume, l'exportation vers Word ou Excel et les téléchargements par lots, un forfait payant est disponible, mais la reconnaissance de base est gratuite à tester."
+        },
+        "from_phone": {
+          "q": "Puis-je faire de la reconnaissance d'écriture manuscrite à partir d'une photo de téléphone ?",
+          "a": "Absolument. Prenez une photo de vos notes manuscrites avec l'appareil photo de votre téléphone et téléchargez-la directement. Notre IA gère automatiquement la correction de perspective, l'amélioration de l'éclairage et la suppression du bruit. Pour de meilleurs résultats, tenez votre téléphone parallèlement au papier et photographiez à la lumière du jour plutôt que d'utiliser le flash."
+        },
+        "students": {
+          "q": "Comment la reconnaissance d'écriture manuscrite aide-t-elle les étudiants ?",
+          "a": "Les étudiants l'utilisent pour numériser leurs notes de cours, les rendant ainsi consultables et partageables. Au lieu de retaper des pages de notes manuscrites avant un examen, vous téléchargez une photo et obtenez un texte modifiable en moins d'une minute. Vous pouvez ensuite rechercher des termes spécifiques, copier des sections dans des dissertations et partager des notes avec des camarades de classe, le tout sans retaper un seul mot."
+        },
+        "vs_google_lens": {
+          "q": "En quoi est-ce différent de la reconnaissance manuscrite de Google Lens ?",
+          "a": "Google Lens est un outil à usage général principalement optimisé pour le texte imprimé, les panneaux et les étiquettes de produits. Sa précision manuscrite est en moyenne de 60 à 70 % car la reconnaissance d'écriture manuscrite n'était pas son objectif de conception principal. NoteOCR a été conçu spécifiquement pour l'écriture manuscrite, formé exclusivement sur des échantillons manuscrits, c'est pourquoi la précision atteint 95 à 99 % sur les mêmes documents avec lesquels Google Lens a du mal. NoteOCR reconstruit également la structure du document et exporte vers Word et Excel, ce que Google Lens ne peut pas faire."
+        },
+        "vs_adobe": {
+          "q": "NoteOCR est-il meilleur qu'Adobe pour la reconnaissance d'écriture manuscrite ?",
+          "a": "Spécifiquement pour l'écriture manuscrite, oui. L'OCR d'Adobe Acrobat est excellent pour les textes imprimés et les documents numérisés, mais n'a pas été conçu pour l'écriture manuscrite. Il lit souvent mal la cursive et l'écriture liée. NoteOCR est spécialement conçu pour la reconnaissance d'écriture manuscrite et surpasse considérablement Adobe sur le contenu manuscrit. Adobe nécessite également un abonnement mensuel de 20 $ ; NoteOCR est gratuit à tester."
+        },
+        "formats": {
+          "q": "Quels formats de fichiers la reconnaissance d'écriture manuscrite accepte-t-elle ?",
+          "a": "Vous pouvez télécharger des fichiers image JPG, JPEG, PNG et WEBP. Les téléchargements de PDF sont pris en charge sur les forfaits payants. Pour les documents de plusieurs pages, téléchargez chaque page séparément avec le forfait gratuit. La taille maximale du fichier est de 25 Mo par image."
+        },
+        "output_formats": {
+          "q": "Dans quels formats puis-je exporter le texte reconnu ?",
+          "a": "Le texte reconnu peut être exporté sous forme de texte brut (TXT), de document Microsoft Word (DOCX), de feuille de calcul Microsoft Excel (XLSX) si l'écriture manuscrite contient des tableaux, et en PDF. Le format d'exportation disponible dépend de votre forfait : le TXT est disponible dans la version gratuite, le DOCX et le XLSX nécessitent un forfait Étudiant ou supérieur."
+        },
+        "how_works": {
+          "q": "Comment fonctionne concrètement la reconnaissance manuscrite par IA ?",
+          "a": "Notre IA utilise des réseaux de neurones convolutifs pour analyser votre image téléchargée. D'abord, elle prétraite l'image : correction de l'inclinaison, amélioration du contraste, suppression du bruit. Ensuite, l'analyse de la mise en page identifie la structure du document : lignes, paragraphes, tableaux. Enfin, le réseau neuronal lit chaque ligne de texte, en utilisant les mots environnants comme contexte pour interpréter les caractères ambigus. Le résultat est reconstruit en un document correctement formaté préservant votre structure d'origine."
+        },
+        "languages": {
+          "q": "Quelles langues la reconnaissance d'écriture manuscrite prend-elle en charge ?",
+          "a": "NoteOCR prend en charge plus de 30 langues, dont le français, l'anglais, l'espagnol, l'allemand, le portugais, l'italien, le néerlandais, etc. Pour les écritures non latines, y compris l'arabe, le chinois, le japonais, le hindi et d'autres, la reconnaissance est disponible mais la précision varie selon la complexité de l'écriture et la qualité de l'image."
+        },
+        "privacy": {
+          "q": "Mon contenu manuscrit est-il privé lorsque je le télécharge ?",
+          "a": "Oui. Tous les téléchargements sont cryptés via SSL pendant le transfert. Vos images sont traitées dans des conteneurs sécurisés isolés et supprimées définitivement dans les 24 heures. Nous n'utilisons jamais votre contenu manuscrit pour entraîner nos modèles et ne le partageons pas avec des tiers. NoteOCR est conçu pour respecter la confidentialité en priorité (privacy-first)."
+        },
+        "historical": {
+          "q": "Peut-il reconnaître l'écriture manuscrite de documents anciens ou historiques ?",
+          "a": "Oui, avec quelques nuances. NoteOCR gère assez bien le papier vieilli, l'encre décolorée et les styles d'écriture anciens. Cependant, les écritures très anciennes (calligraphie du 18ème siècle, kurrentschrift allemand historique ou écritures pré-modernes) peuvent avoir une précision moindre. Pour l'écriture manuscrite moderne (après 1900), les performances sont toujours élevées. Nous recommandons de tester une page d'échantillon sur des documents anciens avant de traiter des archives complètes."
+        },
+        "doctor": {
+          "q": "Peut-il lire l'écriture des médecins ?",
+          "a": "C'est l'un des cas d'utilisation les plus courants, et oui, notre IA gère cela. L'écriture de médecin est notoirement difficile : rapide, compressée, souvent cursive et pleine d'abréviations. Notre moteur de reconnaissance a été formé sur des échantillons difficiles du monde réel, y compris des notes médicales. La précision sur l'écriture des médecins est généralement de 80 à 90 %, inférieure à l'écriture standard mais nettement supérieure à tout outil OCR générique."
+        },
+        "whiteboard": {
+          "q": "Est-ce que cela fonctionne sur des photos de tableau blanc ?",
+          "a": "Oui. Le contenu du tableau blanc, généralement un marqueur sur fond blanc, est en fait plus facile pour notre IA que l'écriture sur papier, car le contraste est élevé et il n'y a pas d'interférence avec la texture du papier. Téléchargez une photo d'une session de tableau blanc et le texte sera clairement reconnu. Pour de meilleurs résultats, évitez les reflets des plafonniers."
+        },
+        "batch": {
+          "q": "Puis-je traiter plusieurs pages manuscrites en même temps ?",
+          "a": "Le traitement par lots est disponible sur les forfaits Professionnel et Power User. Les utilisateurs des forfaits Gratuit et Étudiant traitent une page à la fois. Pour les grandes archives, les cahiers, les formulaires de plusieurs pages ou la numérisation de documents en masse, le forfait Power User inclut des téléchargements par lots illimités avec traitement simultané."
+        },
+        "accuracy_improve": {
+          "q": "Comment puis-je améliorer la précision de la reconnaissance de l'écriture manuscrite ?",
+          "a": "Le facteur le plus important est la qualité de l'image. Photographiez sous une lumière vive et uniforme, la lumière naturelle du jour est la meilleure. Tenez votre appareil photo parallèlement à la page, pas en biais. Assurez-vous que la page entière remplit le cadre. Évitez les ombres sur le texte. Pour la numérisation au scanner, utilisez 300 DPI ou plus. Si la précision est toujours faible, essayez d'augmenter le contraste de l'image avant de la télécharger à l'aide de n'importe quel éditeur de photos gratuit."
+        }
+      }
+    },
+
+    "cta_title": "Prêt à reconnaître votre écriture manuscrite ?",
+    "cta_subtitle": "Rejoignez plus de 10 000 étudiants, chercheurs et entreprises qui ont arrêté de retaper du contenu manuscrit.",
+    "cta_button": "Essayer la reconnaissance d'écriture manuscrite gratuitement",
+
+    "tool_info_1_title": "Aucune application nécessaire",
+    "tool_info_1_desc": "Fonctionne dans votre navigateur. Aucun téléchargement ni inscription n'est requis pour essayer.",
+    "tool_info_2_title": "Écriture cursive et brouillonne",
+    "tool_info_2_desc": "Entraînée sur une véritable écriture manuscrite, pas adaptée d'un moteur OCR de polices.",
+    "tool_info_3_title": "Exportation Word, Excel et texte",
+    "tool_info_3_desc": "Obtenez votre texte reconnu dans le format dont vous avez réellement besoin."
+  },
+
+  "CursiveToTextPage": {
+    "meta_title": "Convertisseur d'Écriture Cursive en Texte en Ligne | NoteOCR",
+    "meta_desc": "Convertissez instantanément l'écriture cursive en texte numérique. Notre IA lit l'écriture attachée et les boucles avec +95% de précision. OCR manuscrit gratuit en ligne.",
+
+    "hero_pill": "OCR pour Écriture Cursive",
+    "hero_title": "Convertissez l'Écriture Cursive en Texte en Quelques Secondes.",
+    "hero_subtitle": "Téléchargez une photo de vos notes manuscrites, lettres, journaux ou formulaires en cursive. Notre IA déchiffre l'écriture attachée et fluide là où les outils OCR génériques échouent. Sans application. Sans inscription. Résultats en moins de 30 secondes.",
+
+    "trust_ssl": "Cryptage SSL",
+    "trust_processing": "Moins de 30 Secondes",
+    "trust_accuracy": "+95% de Précision sur la Cursive",
+
+    "before_after_title": "Écriture Manuscrite en Entrée. Texte Numérique Propre en Sortie.",
+    "before_after_desc": "Exemple réel d'écriture cursive : voyez exactement comment notre IA gère l'écriture attachée et fluide.",
+    "before_label": "Avant : Écriture Cursive",
+    "after_label": "Après : Texte Numérique Converti",
+
+    "use_cases_title": "Qui Convertit l'Écriture Cursive en Texte ?",
+    "use_cases_subtitle": "Des généalogistes qui numérisent de vieilles lettres aux étudiants qui transcrivent leurs cours, la conversion de la cursive fait gagner des heures de saisie manuelle chaque semaine.",
+
+    "use_case_1_title": "Vieilles Lettres & Documents Familiaux",
+    "use_case_1_desc": "Convertissez les lettres manuscrites de vos grands-parents, d'anciens journaux intimes et des documents personnels en texte numérique consultable. Préservez l'histoire familiale sans payer les services d'un transcripteur professionnel.",
+
+    "use_case_2_title": "Notes de Cours d'Étudiants",
+    "use_case_2_desc": "De nombreux étudiants prennent encore leurs notes de cours en écriture attachée. Photographiez votre carnet et obtenez un texte entièrement modifiable en quelques secondes, prêt pour vos fiches de révision et mémoires.",
+
+    "use_case_3_title": "Documents Historiques & Archives",
+    "use_case_3_desc": "Numérisez des archives manuscrites, des documents de succession, des registres paroissiaux et des actes notariés. Notre IA gère les styles cursifs anciens, y compris l'écriture de l'époque victorienne et du début du 20ème siècle.",
+
+    "use_case_4_title": "Formulaires Professionnels",
+    "use_case_4_desc": "Rapports de terrain, formulaires d'admission signés, factures manuscrites et dossiers médicaux de patients écrits en cursive : convertissez-les en Word ou Excel modifiable en une seule étape.",
+
+    "comparison_title": "OCR Cursif : Comparatif des Méthodes",
+    "comparison_subtitle": "C'est sur la cursive que les outils génériques s'effondrent. Voici pourquoi une IA spécialisée est la seule option fiable.",
+    "comparison_col_method": "Méthode",
+    "comparison_col_time": "Vitesse",
+    "comparison_col_accuracy": "Précision sur la Cursive",
+    "comparison_col_cost": "Coût",
+    "comparison_row1_method": "Saisie manuelle",
+    "comparison_row1_time": "+60 min/page",
+    "comparison_row1_accuracy": "100% (sujet aux erreurs)",
+    "comparison_row1_cost": "Votre temps",
+    "comparison_row2_method": "Google Lens / Adobe OCR",
+    "comparison_row2_time": "Immédiat",
+    "comparison_row2_accuracy": "30–55% sur la cursive",
+    "comparison_row2_cost": "Gratuit & Payant",
+    "comparison_row3_method": "Convertisseur NoteOCR",
+    "comparison_row3_time": "Moins de 30 secondes",
+    "comparison_row3_accuracy": "90–98% sur la cursive",
+    "comparison_row3_cost": "Essai gratuit",
+
+    "features_title": "Pourquoi Notre Convertisseur de Cursive est Différent",
+    "features_subtitle": "Une IA conçue spécifiquement pour la cursive, pas un simple outil OCR de texte imprimé sur lequel on a ajouté un patch de fortune.",
+
+    "feature_1_title": "Lit Nativement les Lettres Attachées",
+    "feature_1_desc": "L'OCR standard isole chaque caractère individuellement avant de le lire. La cursive rend cela impossible car les lettres se connectent et se chevauchent. Notre IA lit des mots et des lignes entières d'un coup, de la même manière que l'œil humain, rendant l'écriture liée lisible là où d'autres outils abandonnent.",
+
+    "feature_2_title": "Gère les Boucles, l'Inclinaison & les Variations",
+    "feature_2_desc": "La cursive de chacun est unique : tailles de boucles différentes, angles d'inclinaison et espacements variés. Notre réseau de neurones a été entraîné sur des millions d'exemples réels couvrant des dizaines de styles d'écriture, il s'adapte donc à des écritures qu'il n'a jamais vues auparavant.",
+
+    "feature_3_title": "Exportation vers Word, Excel & Texte",
+    "feature_3_desc": "Le texte cursif converti n'est pas recraché comme un simple paragraphe non formaté. Nous reconstruisons la mise en page du document, les paragraphes, les listes et les tableaux, avec une exportation directe en .docx, .xlsx ou .txt brut selon vos besoins.",
+
+    "tech_title": "Pourquoi la Cursive est si Difficile pour l'OCR, et Comment Nous Résolvons Cela",
+    "tech_intro": "L'OCR classique a été conçu pour les caractères d'imprimerie. Toutes ses hypothèses de base (formes de caractères uniformes, espaces clairs entre les lettres, espacement constant) volent en éclats avec l'écriture cursive. Les lettres fusionnent entre elles. Une même lettre semble complètement différente selon ce qui la précède et ce qui la suit. L'inclinaison varie de ligne en ligne. Les boucles et les traits croisent d'autres lettres. Notre IA adopte une approche fondamentalement différente : au lieu d'essayer d'isoler les caractères, elle lit les mots et les lignes entières comme des motifs visuels globaux. C'est exactement la stratégie qu'utilise un lecteur humain fluide face à une écriture attachée inconnue.",
+
+    "tech_detect_title": "Ce Que Notre IA Peut Traiter",
+    "tech_detect_1": "Cursive entièrement connectée sans lettres séparées",
+    "tech_detect_2": "Mélange de cursive et d'imprimerie (script) sur la même page",
+    "tech_detect_3": "Inclinaisons variables : vers la droite, vers la gauche ou droite",
+    "tech_detect_4": "Formes de lettres décoratives et très personnalisées",
+    "tech_detect_5": "Styles cursifs anciens du 19ème siècle et début du 20ème",
+
+    "tech_tips_title": "Conseils pour une Meilleure Conversion de la Cursive",
+    "tech_tips_1": "Utilisez la lumière naturelle, évitez le flash qui aplatit le contraste de l'encre",
+    "tech_tips_2": "Tenez l'appareil photo bien à plat au-dessus de la page, pas en biais",
+    "tech_tips_3": "Assurez-vous que l'encre foncée contraste bien sur le papier clair, évitez les ombres",
+    "tech_tips_4": "Pour les documents très anciens, augmentez d'abord le contraste dans un éditeur photo",
+    "tech_tips_5": "Relisez toujours le résultat : même avec 95 % de précision, de longues pages nécessitent parfois de petites corrections",
+
+    "related_tools_title": "Outils Connexes",
+    "related_tool_1_name": "Écriture Manuscrite vers Word",
+    "related_tool_1_desc": "Convertir des notes en .docx formaté",
+    "related_tool_2_name": "Écriture Manuscrite vers Excel",
+    "related_tool_2_desc": "Extraire des tableaux manuscrits vers des tableurs",
+    "related_tool_3_name": "Reconnaissance d'Écriture",
+    "related_tool_3_desc": "Tous les styles : script, cursive, mixte",
+    "related_tool_4_name": "Scanner une Écriture en Texte",
+    "related_tool_4_desc": "À partir d'une photo de smartphone ou d'un PDF",
+
+    "faq_title": "Foire Aux Questions Sur la Conversion de la Cursive en Texte",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "Qu'est-ce qu'un convertisseur d'écriture cursive en texte ?",
+          "a": "Un convertisseur de cursive en texte est un outil d'IA qui lit des photographies ou des scans d'écriture cursive et les convertit en texte numérique modifiable. Contrairement aux logiciels OCR standards conçus pour les polices imprimées, un convertisseur de cursive utilise des réseaux de neurones entraînés spécifiquement sur l'écriture attachée pour interpréter les lettres connectées."
+        },
+        "how_accurate": {
+          "q": "Quelle est la précision de la reconnaissance IA pour la cursive ?",
+          "a": "NoteOCR atteint 90 à 98 % de précision sur une écriture cursive claire et bien éclairée. Les écritures très stylisées ou le papier fortement dégradé peuvent tomber autour de 80 à 85 %. À titre de comparaison, les outils OCR grand public comme Google Lens n'atteignent que 30 à 55 % sur la cursive car ils ne sont pas conçus pour l'écriture liée. Vérifiez toujours le résultat avant de l'utiliser dans des documents critiques."
+        },
+        "how_different_from_ocr": {
+          "q": "Pourquoi les logiciels OCR classiques ne peuvent-ils pas lire la cursive ?",
+          "a": "L'OCR standard fonctionne en isolant des caractères individuels, en les comparant à des formes connues, puis en assemblant les mots. La cursive brise ce processus car les lettres se connectent et se chevauchent ; il n'y a pas de frontières nettes entre les caractères. Un convertisseur de cursive utilise une architecture totalement différente : il lit des mots et des lignes entières comme des motifs visuels, ce qui rend l'écriture attachée lisible."
+        },
+        "joined_up_writing": {
+          "q": "Cela fonctionne-t-il sur l'écriture attachée ?",
+          "a": "Oui. L'écriture attachée et la cursive désignent la même chose : des lettres qui se connectent sans lever le stylo. C'est précisément ce pour quoi notre IA a été entraînée. Qu'il s'agisse d'écriture attachée, liée ou cursive, notre convertisseur la prend en charge. Il fonctionne aussi bien sur des styles entièrement connectés que semi-connectés (où certaines lettres sont séparées)."
+        },
+        "old_cursive": {
+          "q": "Peut-il convertir les écritures anciennes, victoriennes ou à la plume ?",
+          "a": "Oui, avec quelques réserves. Notre IA gère les styles cursifs anciens, y compris l'écriture anglaise (Copperplate), les manuscrits du début du 20ème siècle et l'écriture formelle des archives historiques. Les styles très archaïques (17ème ou 18ème siècle) peuvent avoir une précision moindre. Pour la cursive post-1850, les performances sont excellentes. Nous recommandons de tester un échantillon avant de traiter des archives entières."
+        },
+        "personal_cursive": {
+          "q": "Et si mon écriture cursive est très personnelle ou unique ?",
+          "a": "La cursive personnelle, où les lettres sont très stylisées et spécifiques à un seul auteur, est le cas le plus difficile pour toute IA. Notre modèle se généralise bien car il a été entraîné sur des millions de styles d'écriture différents, et pas seulement sur la cursive scolaire standard. La précision sur des écritures très personnalisées se situe généralement entre 80 et 90 %. Plus le style est cohérent sur la page, meilleur sera le résultat."
+        },
+        "no_app": {
+          "q": "Puis-je convertir la cursive en texte sans télécharger d'application ?",
+          "a": "Oui. NoteOCR fonctionne entièrement dans votre navigateur web. Pas d'application, pas d'installation de logiciel, pas de plugin. Téléchargez votre image et obtenez le texte converti immédiatement. Fonctionne sur Chrome, Safari, Firefox et Edge, sur ordinateur comme sur mobile."
+        },
+        "free": {
+          "q": "Existe-t-il un convertisseur de cursive en texte gratuit en ligne ?",
+          "a": "Oui. NoteOCR est gratuit à essayer. Téléchargez votre écriture cursive et obtenez le texte converti sans avoir besoin de créer un compte. Pour des volumes plus importants, l'exportation vers Word et Excel et le traitement par lots, des forfaits payants sont disponibles. Mais la reconnaissance de base de la cursive est gratuite pour tester n'importe quelle image."
+        },
+        "phone_photo": {
+          "q": "Puis-je convertir de la cursive à partir d'une photo de téléphone ?",
+          "a": "Absolument. Prenez une photo de vos notes ou lettres avec l'appareil photo de votre téléphone et téléchargez-la directement. Notre IA gère automatiquement la correction de perspective, l'amélioration du contraste et la suppression du bruit. Pour de meilleurs résultats, photographiez à la lumière du jour en tenant le téléphone bien à plat au-dessus de la page."
+        },
+        "export_word": {
+          "q": "Puis-je exporter le texte cursif converti vers Word ?",
+          "a": "Oui. Le texte converti peut être exporté sous forme de fichier Microsoft Word (.docx) tout en préservant la structure des paragraphes et le formatage. Ceci est disponible à partir de l'abonnement Étudiant. L'exportation en texte brut (.txt) est disponible dans la version gratuite. L'exportation vers Excel est possible si votre contenu manuscrit contient des tableaux."
+        },
+        "cursive_vs_print": {
+          "q": "La cursive est-elle plus difficile à convertir que l'écriture en script (imprimerie) ?",
+          "a": "Oui. La cursive est nettement plus difficile pour l'IA que le script. L'écriture en script comporte des lettres discrètes et séparées, plus faciles à segmenter. Les lettres cursives se connectent, se chevauchent et changent de forme en fonction des lettres voisines. Notre convertisseur a été spécialement conçu pour relever ce défi, c'est pourquoi il surpasse les outils généraux."
+        },
+        "languages": {
+          "q": "Quelles langues le convertisseur de cursive prend-il en charge ?",
+          "a": "NoteOCR prend en charge la reconnaissance de la cursive dans plus de 30 langues, dont le français, l'anglais, l'espagnol, l'allemand, le portugais, l'italien et le néerlandais. Les langues romanes, qui ont une riche tradition d'écriture cursive, fonctionnent particulièrement bien. La calligraphie arabe, ourdou et persane est également prise en charge. Pour les alphabets non latins, la précision varie selon la qualité de l'image."
+        },
+        "letters_journals": {
+          "q": "Puis-je l'utiliser pour transcrire des lettres et des journaux manuscrits ?",
+          "a": "Oui, c'est l'un de nos cas d'usage les plus populaires. Téléchargez une photo d'une lettre, d'une page de journal intime ou de mémoires, et obtenez le texte complet au format modifiable en quelques secondes. De nombreux utilisateurs numérisent ainsi des décennies de correspondance familiale pour l'archivage. Le convertisseur préserve les sauts de paragraphe pour une lecture naturelle."
+        },
+        "historical_documents": {
+          "q": "Cela fonctionne-t-il sur les documents historiques et archives ?",
+          "a": "Oui, pour les documents historiques modernes (à partir d'environ 1850), la précision est constamment élevée. Notre IA gère bien l'encre passée, le papier vieilli et les anciennes formes de lettres. Pour les documents plus anciens, nous recommandons de tester un échantillon d'abord. L'outil est régulièrement utilisé pour la généalogie, les registres de succession et les archives paroissiales."
+        },
+        "accuracy_tips": {
+          "q": "Comment améliorer la précision de la conversion de la cursive ?",
+          "a": "La qualité de l'image est le facteur n°1. Photographiez en plein jour avec une lumière uniforme (la lumière naturelle vaut mieux que le flash). Tenez votre appareil à plat pour éviter les distorsions de perspective. Assurez-vous que l'encre contraste clairement avec le papier. Pour les documents anciens, augmentez le contraste avec un éditeur photo gratuit avant le téléchargement. Un scan à 300 DPI donnera toujours de meilleurs résultats qu'une photo de smartphone."
+        },
+        "privacy": {
+          "q": "Mon contenu manuscrit reste-t-il privé ?",
+          "a": "Oui. Tous les téléchargements sont cryptés via SSL. Vos images sont traitées dans des conteneurs sécurisés et isolés, puis supprimées définitivement dans les 24 heures. Nous n'utilisons jamais le contenu téléchargé pour entraîner nos modèles d'IA et ne le partageons jamais avec des tiers. Vos lettres personnelles et documents privés sont traités en toute confidentialité."
+        },
+        "how_it_works": {
+          "q": "Comment fonctionne réellement le convertisseur de cursive en texte ?",
+          "a": "Lorsque vous téléchargez une image, notre IA exécute trois étapes. 1) Prétraitement de l'image : correction de l'inclinaison, amélioration du contraste, suppression du bruit. 2) Analyse de la mise en page : identification des lignes, paragraphes et structure. 3) Reconnaissance de la cursive : un réseau de neurones lit chaque ligne comme une séquence visuelle, utilisant le contexte des mots environnants pour interpréter les lettres attachées ambiguës. Le tout est réassemblé dans un document final propre."
+        },
+        "batch": {
+          "q": "Puis-je convertir plusieurs pages de cursive à la fois ?",
+          "a": "Le traitement par lots (Batch) est disponible avec les forfaits Professionnel et Power User. Les utilisateurs des forfaits Gratuit et Étudiant traitent une page à la fois. Pour les grands projets (journaux entiers, archives, numérisation en masse), le forfait Power User inclut des téléchargements par lots illimités avec traitement simultané pour convertir un carnet entier en une seule session."
+        },
+        "vs_google": {
+          "q": "NoteOCR est-il meilleur que Google Docs ou Google Lens pour l'écriture attachée ?",
+          "a": "Nettement meilleur, spécifiquement pour la cursive. Google Lens et Google Docs ont été conçus pour le texte imprimé. Sur de l'écriture manuscrite attachée, les outils de Google atteignent généralement 30 à 55 % de précision (près de la moitié des mots sont faux). NoteOCR a été conçu spécifiquement pour l'écriture manuscrite et atteint 90 à 98 % sur ces mêmes documents. De plus, il exporte vers Word et Excel, ce que Google Lens ne fait pas."
+        },
+        "copperplate": {
+          "q": "Lit-il l'écriture anglaise (Copperplate) et la calligraphie ?",
+          "a": "Oui. L'écriture anglaise (Copperplate) — cette cursive formelle et très décorée utilisée dans la correspondance historique — est prise en charge. Ces formes de lettres très cohérentes fonctionnent d'ailleurs très bien avec notre IA, souvent mieux qu'une cursive personnelle désordonnée. Les styles très ornés avec de lourdes fioritures peuvent parfois induire le lecteur en erreur, mais la calligraphie classique du 19ème siècle est lue de manière fiable."
+        }
+      }
+    },
+
+    "cta_title": "Prêt à Convertir Votre Écriture Cursive ?",
+    "cta_subtitle": "Téléchargez n'importe quelle image de cursive, lettres, journaux, notes ou formulaires et obtenez un texte propre et modifiable en moins de 30 secondes.",
+    "cta_button": "Essayer la Conversion Cursive vers Texte Gratuitement",
+
+    "tool_info_1_title": "Aucune Application Requise",
+    "tool_info_1_desc": "Fonctionne directement dans votre navigateur. Aucun téléchargement ni inscription nécessaires pour essayer.",
+    "tool_info_2_title": "IA pour Écriture Attachée",
+    "tool_info_2_desc": "Conçu pour la cursive, pas un simple moteur OCR d'imprimerie adapté.",
+    "tool_info_3_title": "Exportation Word, Excel & Texte",
+    "tool_info_3_desc": "Obtenez votre texte converti dans le format dont vous avez réellement besoin."
+  },
+
+  "ScanHandwritingToText": {
+    "meta_title": "Scanner une Écriture Manuscrite en Texte en Ligne | NoteOCR",
+    "meta_desc": "Numérisez et convertissez instantanément vos notes manuscrites en texte depuis votre navigateur. Sans application. Téléchargez une photo ou un scan et obtenez un texte numérique modifiable en moins de 30 secondes.",
+
+    "hero_pill": "Scanner de Manuscrits en Ligne",
+    "hero_title": "Scannez votre Écriture Manuscrite en Texte. Sans Application.",
+    "hero_subtitle": "Prenez en photo n'importe quelle page manuscrite avec votre téléphone, ou téléchargez un scan, et notre IA le convertit en texte propre et modifiable en moins de 30 secondes. Aucune application à télécharger. Fonctionne sur tous les navigateurs et tous les appareils.",
+
+    "trust_ssl": "Cryptage SSL (Sécurisé)",
+    "trust_processing": "Moins de 30 Secondes",
+    "trust_accuracy": "+95% de Précision de Scan",
+
+    "before_after_title": "Manuscrit Scanné en Entrée. Texte Numérique Modifiable en Sortie.",
+    "before_after_desc": "Résultat de scan réel montrant exactement comment notre IA traite une photo de notes manuscrites prise au smartphone.",
+    "before_label": "Avant : Page Manuscrite Scannée",
+    "after_label": "Après : Texte Modifiable Propre",
+
+    "use_cases_title": "Qui Utilise un Scanner de Texte Manuscrit en Ligne ?",
+    "use_cases_subtitle": "Toute personne ayant besoin de numériser rapidement des pages manuscrites physiques. Aucun scanner matériel requis, l'appareil photo de votre téléphone suffit.",
+
+    "use_case_1_title": "Étudiants Scannant leurs Notes de Cours",
+    "use_case_1_desc": "Photographiez des pages entières de cahier après les cours et obtenez en quelques secondes un texte modifiable et consultable. Arrêtez de retaper vos fiches avant les examens et passez ce temps à réviser.",
+
+    "use_case_2_title": "Notes de Terrain et Rapports de Chantier",
+    "use_case_2_desc": "Les ingénieurs, géomètres, inspecteurs et agents de terrain scannent leurs notes manuscrites directement depuis leur téléphone pour obtenir un format numérique partageable avant même de quitter le chantier.",
+
+    "use_case_3_title": "Numérisation de Registres et Formulaires Papier",
+    "use_case_3_desc": "Formulaires d'admission de patients, bons de livraison, feuilles de temps, listes d'inspection manuscrites : scannez-les et obtenez un texte structuré prêt à être copié-collé ou exporté en une seule étape.",
+
+    "use_case_4_title": "Journaux Intimes et Carnets Personnels",
+    "use_case_4_desc": "Numérisez des journaux intimes, livres de recettes, brouillons et agendas manuscrits avec une simple photo de téléphone. Conservez des années de carnets physiques sous forme de texte numérique consultable de n'importe où.",
+
+    "comparison_title": "Scanner de Manuscrits en Ligne : Comparatif des Options",
+    "comparison_subtitle": "La plupart des outils de numérisation vous obligent à installer une application ou à souscrire un abonnement avant de vous donner le moindre résultat utile. Pas NoteOCR.",
+    "comparison_col_method": "Méthode",
+    "comparison_col_time": "Vitesse",
+    "comparison_col_accuracy": "Précision sur Manuscrit",
+    "comparison_col_cost": "Coût",
+    "comparison_row1_method": "PenToPrint (Application mobile)",
+    "comparison_row1_time": "Rapide (App uniquement)",
+    "comparison_row1_accuracy": "Bon sur écriture claire",
+    "comparison_row1_cost": "App requise, export payant",
+    "comparison_row2_method": "Adobe Scan + Acrobat OCR",
+    "comparison_row2_time": "Moyen",
+    "comparison_row2_accuracy": "40-60% sur l'écriture",
+    "comparison_row2_cost": "Abonnement ~20€/mois",
+    "comparison_row3_method": "Scanner Manuscrit NoteOCR",
+    "comparison_row3_time": "Moins de 30 secondes",
+    "comparison_row3_accuracy": "+95% sur manuscrit scanné",
+    "comparison_row3_cost": "Essai gratuit, sans app",
+
+    "features_title": "Pourquoi NoteOCR est le Meilleur Scanner de Manuscrits en Ligne",
+    "features_subtitle": "Conçu spécifiquement pour numériser des pages manuscrites, ce n'est pas un scanner de documents classique qui tente de traiter l'écriture manuscrite par défaut.",
+
+    "feature_1_title": "Votre Téléphone est le Scanner",
+    "feature_1_desc": "Vous n'avez pas besoin d'un scanner à plat ou de matériel spécifique. Prenez une photo de n'importe quelle page manuscrite avec votre smartphone et téléchargez-la. Notre IA corrige automatiquement la perspective, ajuste l'éclairage et supprime les ombres pour vous offrir des résultats impeccables à partir d'une photo imparfaite.",
+
+    "feature_2_title": "Lit ce que les Scanners à Plat ne Peuvent Pas",
+    "feature_2_desc": "Les scanners de documents standards et les outils OCR classiques produisent du charabia sur l'écriture manuscrite car ils ont été conçus pour les polices imprimées. Notre réseau de neurones a été entraîné spécifiquement sur des échantillons de manuscrits scannés dans tous les styles d'écriture, il lit donc ce que les autres ne peuvent pas.",
+
+    "feature_3_title": "Sans App. Sans Compte. Sans Attente.",
+    "feature_3_desc": "Ouvrez la page dans n'importe quel navigateur, téléchargez votre image scannée et obtenez un texte modifiable. Pas d'App Store, pas d'installation, pas de création de compte, pas d'attente d'e-mails de confirmation. Fonctionne de manière identique sur iPhone, Android, Mac, Windows et Chromebook.",
+
+    "tech_title": "Comment Fonctionne Réellement la Numérisation de l'Écriture Manuscrite en Texte",
+    "tech_intro": "Lorsque vous téléchargez une image manuscrite scannée, qu'il s'agisse d'une photo de téléphone ou d'un scan à plat, notre IA exécute automatiquement trois étapes. Premièrement, le prétraitement de l'image : correction de l'inclinaison et de la rotation, amélioration du contraste, suppression du bruit et des ombres, et accentuation de l'encre sur le papier. Deuxièmement, l'analyse de la mise en page pour identifier l'emplacement des lignes de texte, des paragraphes et des éléments structurels. Troisièmement, le moteur de reconnaissance de l'écriture manuscrite lit chaque ligne comme une séquence visuelle (non pas caractère par caractère comme l'OCR standard, mais mot et phrase à la fois) en utilisant le contexte environnant pour interpréter les lettres ambiguës. Le résultat est un texte structuré qui préserve vos paragraphes et sauts de ligne d'origine.",
+
+    "tech_detect_title": "Ce Que Notre Scanner Peut Traiter",
+    "tech_detect_1": "Photos de smartphone prises avec un léger angle (correction automatique de la perspective)",
+    "tech_detect_2": "Images sous-exposées ou surexposées par le flash (amélioration automatique du contraste)",
+    "tech_detect_3": "Images issues de scanners à plat ou de documents à 150 DPI ou plus",
+    "tech_detect_4": "Styles d'écriture manuscrite mixtes sur la même page scannée",
+    "tech_detect_5": "Mots raturés, flèches, annotations et notes dans la marge",
+
+    "tech_tips_title": "Conseils de Numérisation pour de Meilleurs Résultats",
+    "tech_tips_1": "Tenez votre téléphone directement au-dessus de la page, bien parallèle au papier, et non en biais",
+    "tech_tips_2": "Privilégiez la lumière naturelle si possible – évitez le flash qui aplatit le contraste de l'encre",
+    "tech_tips_3": "Assurez-vous que la page entière est dans le cadre avant de prendre la photo",
+    "tech_tips_4": "Pour les scanners à plat, une résolution de 300 DPI donne de bien meilleurs résultats que 150 DPI",
+    "tech_tips_5": "Si l'encre est effacée ou le papier vieilli, augmentez le contraste dans un éditeur photo avant de télécharger",
+
+    "related_tools_title": "Outils Connexes",
+    "related_tool_1_name": "Reconnaissance d'Écriture Manuscrite",
+    "related_tool_1_desc": "Reconnaissance IA globale pour tous les styles de manuscrits",
+    "related_tool_2_name": "Écriture Manuscrite vers Word",
+    "related_tool_2_desc": "Exportez des notes scannées directement en .docx",
+    "related_tool_3_name": "Cursive vers Texte",
+    "related_tool_3_desc": "Scanner spécialisé pour l'écriture attachée (cursive)",
+    "related_tool_4_name": "Écriture Manuscrite vers Excel",
+    "related_tool_4_desc": "Numérisez des tableaux manuscrits vers des tableurs",
+
+    "faq_title": "Foire Aux Questions sur la Numérisation d'Écriture Manuscrite en Texte",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "Que signifie scanner une écriture manuscrite en texte ?",
+          "a": "Scanner une écriture manuscrite en texte signifie prendre une page manuscrite physique, la photographier ou la numériser sous forme d'image, puis utiliser l'IA pour lire l'écriture et la convertir en texte numérique tapé que vous pouvez éditer, rechercher, copier et partager. Le scan peut provenir d'un appareil photo de téléphone, d'un scanner à plat ou de tout appareil produisant une image JPG, PNG ou WEBP. Le résultat est un texte modifiable respectant la même structure que la page manuscrite d'origine."
+        },
+        "no_app": {
+          "q": "Puis-je scanner un manuscrit en texte en ligne sans application ?",
+          "a": "Oui. NoteOCR fonctionne entièrement dans votre navigateur web. Il n'y a aucune application à télécharger, aucun logiciel à installer et aucun plugin requis. C'est un avantage direct par rapport aux outils comme PenToPrint qui sont principalement des applications mobiles et bloquent les fonctionnalités clés (comme l'exportation) derrière un abonnement payant. Ouvrez NoteOCR dans n'importe quel navigateur sur n'importe quel appareil, téléchargez la photo de votre manuscrit et obtenez le texte sans rien installer."
+        },
+        "free_no_signup": {
+          "q": "Existe-t-il un scanner d'écriture manuscrite gratuit en ligne qui ne nécessite pas d'inscription ?",
+          "a": "Oui. Vous pouvez scanner des images manuscrites et obtenir le texte converti sur NoteOCR sans créer de compte. Téléchargez votre image et le texte vous est retourné immédiatement. Des comptes gratuits existent également pour les utilisateurs qui souhaitent enregistrer et gérer leurs documents numérisés. Les forfaits payants débloquent la numérisation à haut volume, l'exportation vers Word et Excel, ainsi que le traitement par lots, mais la fonction de base (scan vers texte) est gratuite à tester sur n'importe quelle image."
+        },
+        "phone_camera": {
+          "q": "Puis-je scanner une écriture manuscrite à partir d'une photo de téléphone ?",
+          "a": "Oui - les photos prises avec un smartphone sont les téléchargements les plus fréquents sur NoteOCR. Vous n'avez pas besoin d'un scanner à plat. Prenez une photo de n'importe quelle page manuscrite et téléchargez-la directement. Notre IA corrige automatiquement la perspective, ajuste l'éclairage inégal, supprime les ombres et accentue l'image avant d'exécuter la reconnaissance d'écriture. Pour de meilleurs résultats, tenez le téléphone à plat au-dessus de la page et photographiez à la lumière du jour plutôt qu'avec le flash."
+        },
+        "vs_pentoprint": {
+          "q": "En quoi NoteOCR est-il différent de PenToPrint pour numériser l'écriture manuscrite ?",
+          "a": "La principale différence est que NoteOCR fonctionne entièrement dans votre navigateur sans aucune application requise, et vous permet d'exporter du texte sans abonnement payant. PenToPrint est principalement une application mobile qui nécessite une installation et bloque l'exportation de texte derrière un paywall - de nombreux utilisateurs sur l'App Store et Google Play signalent que la version gratuite ne sert presque à rien sans payer. NoteOCR gère également les téléchargements par lots sur le web pour les plans payants, tandis que PenToPrint nécessite son application de bureau pour les gros volumes."
+        },
+        "vs_adobe": {
+          "q": "NoteOCR est-il meilleur qu'Adobe Scan pour l'écriture manuscrite ?",
+          "a": "Pour la reconnaissance de l'écriture manuscrite spécifiquement, oui. Adobe Scan et l'OCR d'Adobe Acrobat sont excellents pour le texte imprimé, mais n'ont pas été conçus pour les manuscrits. Les outils d'Adobe échouent régulièrement sur l'écriture cursive, brouillonne et non uniforme, atteignant généralement 40 à 60 % de précision sur les manuscrits. NoteOCR a été entraîné spécifiquement sur des échantillons de manuscrits et atteint 95 % ou plus sur les mêmes pages scannées. De plus, Adobe nécessite un abonnement Acrobat à environ 20 € par mois ; NoteOCR est gratuit à essayer."
+        },
+        "flatbed_scanner": {
+          "q": "Puis-je télécharger un document issu d'un scanner à plat ou d'une imprimante ?",
+          "a": "Oui. Si vous possédez déjà un scanner à plat ou un scanner de documents, numérisez vos pages manuscrites sous forme de fichiers JPG ou PNG et téléchargez-les directement. Les scans à plat à 300 DPI ou plus produisent les meilleurs résultats car la résolution est plus élevée et l'image est parfaitement plane sans distorsion de perspective. Si vous n'avez pas de scanner, l'appareil photo d'un téléphone sous un bon éclairage produit des résultats comparables."
+        },
+        "scan_pdf": {
+          "q": "Puis-je scanner un PDF manuscrit en texte ?",
+          "a": "Les téléchargements de PDF sont pris en charge avec les forfaits payants. Si vos pages manuscrites sont déjà compilées dans un PDF numérisé provenant d'un scanner de documents ou d'une application de scan, vous pouvez télécharger le PDF directement et faire convertir toutes les pages en texte en une seule session. Avec la version gratuite, vous devez extraire les pages individuelles de votre PDF en tant qu'images PNG ou JPG et les télécharger une par une."
+        },
+        "scan_lecture_notes": {
+          "q": "Comment scanner des notes de cours en texte ?",
+          "a": "Prenez une photo de chaque page de votre cahier après votre cours et téléchargez-la sur NoteOCR. L'IA lit l'écriture manuscrite et renvoie un texte modifiable dans les 30 secondes par page. Vous pouvez ensuite copier le texte dans votre document d'étude, rechercher des termes spécifiques ou le coller dans votre application de prise de notes. Cela remplace la saisie manuelle de pages entières et transforme un travail de transcription d'une heure en une session de scan de deux minutes. Pour les notes de cours de plusieurs pages, le téléchargement par lots est disponible sur les forfaits payants."
+        },
+        "scan_field_notes": {
+          "q": "Puis-je scanner des notes de terrain et des rapports de chantier manuscrits en texte ?",
+          "a": "Oui. Les notes de terrain sont l'un des cas d'utilisation les plus pratiques pour un scanner d'écriture manuscrite. Les ingénieurs, les conducteurs de travaux, les géomètres environnementaux et les inspecteurs scannent leurs notes de terrain papier depuis leur téléphone sur le site et obtiennent un texte numérique modifiable prêt à être collé dans des rapports avant même de retourner au bureau. NoteOCR gère le type d'écriture qui apparaît dans des conditions de travail réelles : notes hâtives, termes abrégés, mélange de script et de cursive sur la même page."
+        },
+        "messy_handwriting": {
+          "q": "Le scanner fonctionne-t-il sur une écriture brouillonne (pattes de mouche) ou hâtive ?",
+          "a": "Oui. L'écriture brouillonne est le principal défi pour lequel notre IA a été conçue. Les OCR standards et les scanners de documents échouent sur tout ce qui s'écarte des polices imprimées nettes. Notre réseau de neurones a été entraîné sur de vrais échantillons d'écriture manuscrite incluant des notes prises à la hâte, des tailles incohérentes, des mots raturés et des espacements très serrés - les types d'écriture qui apparaissent lorsque les gens écrivent vite. La précision sur l'écriture brouillonne est généralement de 85 à 92 % selon la difficulté du style."
+        },
+        "accuracy": {
+          "q": "Quelle est la précision de la numérisation de l'écriture manuscrite en texte ?",
+          "a": "NoteOCR atteint 95 à 99 % de précision sur une écriture scannée claire et bien éclairée. L'écriture brouillonne ou hâtive se situe généralement entre 85 et 92 %. Ces chiffres sont nettement supérieurs à ceux des outils de numérisation généralistes comme Google Docs, Adobe Acrobat et Google Keep, qui atteignent en moyenne 40 à 65 % sur l'écriture manuscrite car ils n'ont pas été conçus pour cela. Vérifiez toujours le résultat avant de l'utiliser dans vos documents finaux."
+        },
+        "formats_accepted": {
+          "q": "Quels formats de fichiers puis-je télécharger pour le scan manuscrit ?",
+          "a": "Vous pouvez télécharger des fichiers image JPG, JPEG, PNG et WEBP sur tous les plans. Les téléchargements de PDF sont pris en charge sur les forfaits payants. La taille maximale du fichier est de 25 Mo par image. Pour de meilleurs résultats, utilisez la résolution la plus élevée produite par votre appareil photo ou votre scanner. La plupart des appareils photo de smartphones modernes produisent une résolution plus que suffisante pour une reconnaissance précise de l'écriture."
+        },
+        "export_options": {
+          "q": "Vers quels formats puis-je exporter l'écriture scannée ?",
+          "a": "Le texte scanné peut être exporté sous forme de texte brut (TXT) dans la version gratuite. L'exportation vers un document Word (.docx) et une feuille de calcul Excel (.xlsx) est disponible à partir du forfait Étudiant. Si votre page scannée contient des tableaux ou des données structurées, l'exportation Excel conservera cette structure. L'exportation PDF est également disponible dans les forfaits supérieurs pour les utilisateurs qui souhaitent une version PDF consultable de leur document numérisé."
+        },
+        "scan_old_documents": {
+          "q": "Puis-je scanner et numériser d'anciens documents manuscrits ?",
+          "a": "Oui. NoteOCR gère bien le papier vieilli, l'encre effacée et les anciens styles d'écriture. Nos utilisateurs scannent régulièrement de vieilles lettres, des journaux intimes, des archives notariales et des correspondances familiales datant de plusieurs décennies. Pour les documents très anciens avec une encre extrêmement effacée ou un papier endommagé, l'amélioration du contraste dans un éditeur photo gratuit avant le téléchargement augmente considérablement la précision. Les documents à partir d'environ 1850 fonctionnent de manière fiable."
+        },
+        "scan_notebook": {
+          "q": "Puis-je scanner un carnet de notes entier en texte ?",
+          "a": "Oui. Sur les forfaits payants, le téléchargement par lots vous permet de scanner et de télécharger un cahier entier en une seule session avec traitement simultané. Sur le forfait gratuit, chaque page est traitée individuellement. Pour un projet complet de numérisation de carnets, le forfait Power User est l'option la plus efficace : il inclut un traitement par lots illimité afin que vous puissiez scanner chaque page et récupérer tout le texte en un seul flux de travail plutôt que de télécharger une page à la fois."
+        },
+        "batch": {
+          "q": "Puis-je scanner plusieurs pages manuscrites en même temps ?",
+          "a": "La numérisation par lots (Batch) est disponible sur les forfaits Professionnel et Power User. Vous pouvez télécharger plusieurs images scannées ou un PDF multipage en une seule session et recevoir le texte de toutes les pages ensemble. Les utilisateurs des forfaits Gratuit et Étudiant traitent une page à la fois. Pour les grands projets de numérisation d'archives, le forfait Power User inclut un traitement par lots simultané pour une vitesse maximale."
+        },
+        "privacy": {
+          "q": "Mon écriture scannée reste-t-il privée ?",
+          "a": "Oui. Tous les téléchargements sont cryptés via SSL pendant le transfert. Les images scannées sont traitées dans des environnements sécurisés et isolés, et sont définitivement supprimées dans les 24 heures. Nous n'utilisons jamais votre contenu scanné pour entraîner nos modèles et ne le partageons jamais avec des tiers. Les lettres personnelles, les carnets privés, les formulaires médicaux et les rapports de terrain confidentiels sont tous traités avec une protection totale de la vie privée."
+        },
+        "scan_forms": {
+          "q": "L'outil peut-il scanner des formulaires manuscrits et en extraire les données ?",
+          "a": "Oui. Les formulaires manuscrits - dossiers d'admission de patients, bons de livraison, réponses à des enquêtes, listes de contrôle RH - sont un cas d'utilisation principal. Téléchargez une photo du formulaire rempli et l'IA extrait toutes les entrées manuscrites sous forme de texte modifiable. Pour les formulaires structurés où les données doivent aller directement dans une feuille de calcul, la fonction d'exportation Excel associe automatiquement les données extraites dans des colonnes."
+        },
+        "how_different_from_photo": {
+          "q": "Quelle est la différence entre cet outil et un outil de photo vers texte classique ?",
+          "a": "Un outil de photo vers texte (Photo-to-text) convertit n'importe quelle image contenant du texte - y compris des documents imprimés, des captures d'écran et des panneaux - en texte à l'aide d'un OCR standard. Un scanner de manuscrits est spécifiquement optimisé pour les défis uniques du contenu manuscrit : lettres connectées, dimensionnement variable, espacement incohérent et styles d'écriture personnels que l'OCR standard ne peut pas lire. NoteOCR est entraîné spécifiquement sur l'écriture manuscrite, c'est pourquoi la précision sur ce type de scan est de 95 % ou plus, comparé aux 40 à 65 % des outils généraux."
+        },
+        "improve_accuracy": {
+          "q": "Comment puis-je améliorer la précision de mes scans de manuscrits ?",
+          "a": "Le facteur le plus important est la qualité de l'image. Photographiez à la lumière du jour brillante et uniforme plutôt qu'à la lumière artificielle. Tenez votre téléphone directement au-dessus de la page, parallèle au papier, pour éviter toute distorsion de perspective. Assurez-vous que la page entière remplit le cadre. Évitez les ombres tombant sur le texte. Pour les scanners à plat, utilisez 300 DPI ou plus. Si le papier est vieux ou l'encre peu visible, augmentez le contraste de l'image dans n'importe quel éditeur de photo gratuit avant le téléchargement."
+        }
+      }
+    },
+
+    "cta_title": "Prêt à Scanner Votre Écriture Manuscrite en Texte ?",
+    "cta_subtitle": "Téléchargez n'importe quelle photo de smartphone ou image de scanner de vos notes manuscrites et obtenez un texte modifiable en moins de 30 secondes. Sans application. Sans compte.",
+    "cta_button": "Scanner un Manuscrit en Texte Gratuitement",
+
+    "tool_info_1_title": "Aucune Application Requise",
+    "tool_info_1_desc": "Fonctionne dans votre navigateur sur n'importe quel appareil. Pas de téléchargement, pas d'inscription pour essayer.",
+    "tool_info_2_title": "Prêt pour l'Appareil Photo",
+    "tool_info_2_desc": "Prenez une photo de n'importe quelle page et téléchargez-la directement. Aucun scanner matériel nécessaire.",
+    "tool_info_3_title": "Exportation Word, Excel & Texte",
+    "tool_info_3_desc": "Obtenez votre texte scanné dans le format dont vous avez réellement besoin."
   }
 }

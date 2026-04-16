@@ -2170,5 +2170,576 @@
         }
       }
     }
+  },
+
+  "HandwritingRecognitionPage": {
+    "meta_title": "Online El Yazısı Tanıma ve Metne Çevirme | NoteOCR",
+    "meta_desc": "El yazısı içeren herhangi bir resmi yükleyin, yapay zekamız onu anında tanıyıp biçimlendirilmiş metne dönüştürsün. Ücretsiz online el yazısı tanıma aracı.",
+
+    "hero_pill": "Yapay Zeka El Yazısı Tanıma",
+    "hero_title": "Gerçekten İşe Yarayan El Yazısı Tanıma.",
+    "hero_subtitle": "El yazısı notlarınızın, formlarınızın veya belgelerinizin fotoğrafını yükleyin. Yapay zekamız, okuması zor bitişik eğik yazılar da dahil olmak üzere el yazısını okur ve saniyeler içinde düzenlenebilir biçimlendirilmiş metne dönüştürür.",
+
+    "trust_ssl": "SSL ile Şifrelenmiş",
+    "trust_processing": "30 Saniyede İşlem",
+    "trust_accuracy": "%99 Tanıma Doğruluğu",
+
+    "before_after_title": "Metne Dönüştürmeyi Çalışırken Görün",
+    "before_after_desc": "Yapay zekamızın okuduğu metin ile ortaya çıkan sonucu gösteren gerçek bir el yazısı örneği.",
+    "before_label": "Öncesi: El Yazısı Görseli",
+    "after_label": "Sonrası: Tanınan Dijital Metin",
+
+    "use_cases_title": "El Yazısı Tanıma Aracını Kimler Kullanıyor?",
+    "use_cases_subtitle": "Notlarını dijitalleştiren öğrencilerden, formları işleyen işletmelere kadar el yazısı tanıma özelliği her gün saatlerce zaman kazandırır.",
+
+    "use_case_1_title": "Öğrenciler ve Ders Notları",
+    "use_case_1_desc": "Dersten sonra defterinizin fotoğrafını çekin ve saniyeler içinde tamamen aranabilir, düzenlenebilir metin elde edin. Sınavlardan önce sayfalarca ders notunu baştan yazmaya son.",
+
+    "use_case_2_title": "Kötü ve Bitişik El Yazısı",
+    "use_case_2_desc": "Yapay zekamız özellikle zor el yazıları üzerinde eğitilmiştir. Aceleyle yazılmış karalamalar, bitişik el yazısı ve karışık (matbaa/bitişik) stillerin tümü yüksek doğrulukla tanınır.",
+
+    "use_case_3_title": "El Yazısı Formlar ve Belgeler",
+    "use_case_3_desc": "Hasta kayıt formlarını, saha raporlarını, faturaları ve İK kayıtlarını telefonla çekilmiş bir fotoğraftan dijitalleştirin. Tarayıcıya ihtiyacınız yok, kameranız yeterli.",
+
+    "use_case_4_title": "Eski Mektuplar ve Günlükler",
+    "use_case_4_desc": "El yazısı aile mektuplarını, kişisel günlükleri ve tarihi belgeleri paylaşabileceğiniz ve arşivleyebileceğiniz aranabilir dijital metinlere dönüştürerek koruyun.",
+
+    "comparison_title": "El Yazısı Tanıma: Yöntemlerin Karşılaştırması",
+    "comparison_subtitle": "Amaca yönelik olarak geliştirilmiş yapay zeka, genel araçlardan neden her zaman daha iyi performans gösterir?",
+    "comparison_col_method": "Yöntem",
+    "comparison_col_time": "Hız",
+    "comparison_col_accuracy": "El Yazısında Doğruluk",
+    "comparison_col_cost": "Maliyet",
+    "comparison_row1_method": "Manuel olarak klavyede yazma",
+    "comparison_row1_time": "60+ dk/sayfa",
+    "comparison_row1_accuracy": "%100 (Ancak hataya açık)",
+    "comparison_row1_cost": "Zamanınız",
+    "comparison_row2_method": "Standart OCR (Google Lens, Adobe)",
+    "comparison_row2_time": "Anında",
+    "comparison_row2_accuracy": "El yazısında %40–70",
+    "comparison_row2_cost": "Ücretsiz ve Ücretli",
+    "comparison_row3_method": "NoteOCR El Yazısı Tanıma",
+    "comparison_row3_time": "30 saniyenin altında",
+    "comparison_row3_accuracy": "Bitişik yazı dahil %95–99",
+    "comparison_row3_cost": "Denemesi Ücretsiz",
+
+    "features_title": "El Yazısı Tanıma Aracımız Neden Farklı?",
+    "features_subtitle": "Sadece matbaa metinleri için üretilmiş bir araçtan uyarlanmamıştır, özel olarak el yazısı için geliştirilmiştir.",
+
+    "feature_1_title": "Fontlarla Değil, El Yazısıyla Eğitildi",
+    "feature_1_desc": "Standart OCR, bilgisayar fontlarından öğrenir. Yapay zekamız yalnızca milyonlarca gerçek el yazısı örneği (matbaa, bitişik, karışık stiller, aceleci notlar ve aradaki her şey) üzerinde özel olarak eğitilmiştir.",
+
+    "feature_2_title": "Kötü ve Bitişik El Yazısını Okur",
+    "feature_2_desc": "Birbirine bağlı harfler, değişen eğim, tutarsız boyutlandırma; tam olarak standart OCR'yi bozan şeyler. Sinir ağımız, bunları tıpkı bir insanın okurken yaptığı gibi, boşlukları doldurmak için bağlamı kullanarak işler.",
+
+    "feature_3_title": "Gerçekten Kullanabileceğiniz Çıktılar Verir",
+    "feature_3_desc": "Tanınan metin yalnızca düz bir paragraf olarak karşınıza çıkmaz. Belge düzenini (layout) yeniden oluştururuz, listeleri ve başlıkları koruruz ve ihtiyacınıza göre Word, Excel veya düz metin olarak dışa aktarırız.",
+
+    "tech_title": "El Yazısı Tanıma Nasıl Çalışır?",
+    "tech_intro": "Standart OCR teknolojisi, öngörülebilir harf şekillerine sahip tek tip yazı tipleri olan matbaa metinleri için üretilmiştir. El yazısı, standart OCR'nin çalışmasını sağlayan her kuralı yıkar. Her insan farklı yazar. Harfler birleşir, üst üste biner, boyutu ve eğimi değişir. Yapay zekamız tamamen farklı bir yaklaşım kullanıyor: Milyonlarca el yazısı örneğiyle eğitilmiş, tıpkı bir insan gibi okumayı öğrenen sinir ağları; tek tek karakterleri değil, tüm kelimeler ve satırlar arasındaki kalıpları tanır.",
+
+    "tech_detect_title": "Yapay Zekamız Neleri Tespit Eder?",
+    "tech_detect_1": "Bitişik ve birbirine bağlanan harfler dahil matbaa ve eğik el yazısı",
+    "tech_detect_2": "Kötü, aceleyle yazılmış ve tutarsız yazı stilleri",
+    "tech_detect_3": "Aynı sayfada matbaa ve bitişik el yazısı karışımı",
+    "tech_detect_4": "Üstü çizili kelimeler ve düzeltmeler",
+    "tech_detect_5": "Belge yapısı: başlıklar, listeler, paragraflar ve tablo satırları",
+
+    "tech_tips_title": "En İyi Sonuçlar İçin İpuçları",
+    "tech_tips_1": "İyi bir doğal ışıkta fotoğraf çekin, doğrudan sayfa üzerinde flaş kullanmaktan kaçının",
+    "tech_tips_2": "Telefonunuzu açılı bir şekilde değil, kağıda paralel tutun",
+    "tech_tips_3": "Mürekkebin kağıt arka planıyla net bir şekilde kontrast oluşturduğundan emin olun",
+    "tech_tips_4": "Taranmış belgeler için 300 DPI veya üstünü tercih edin",
+    "tech_tips_5": "Çıktıyı gözden geçirin; %95 doğruluk bile ara sıra küçük düzeltmeler gerektirebileceği anlamına gelir",
+
+    "related_tools_title": "İlgili Araçlar",
+    "related_tool_1_name": "El Yazısını Word'e Çevirme",
+    "related_tool_1_desc": "Notları biçimlendirilmiş .docx formatına çevirin",
+    "related_tool_2_name": "El Yazısını Excel'e Çevirme",
+    "related_tool_2_desc": "Tabloları elektronik tablolara ayıklayın",
+    "related_tool_3_name": "Bitişik Yazıyı Metne Çevirme",
+    "related_tool_3_desc": "Bitişik el yazısı (cursive) için özel OCR aracı",
+    "related_tool_4_name": "El Yazısı Tarama ve Metne Çevirme",
+    "related_tool_4_desc": "Telefon fotoğrafı veya PDF taramasından",
+
+    "faq_title": "El Yazısı Tanıma Hakkında Sıkça Sorulan Sorular",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "El yazısı tanıma (HTR) nedir?",
+          "a": "El yazısı tanıma, aynı zamanda HTR (El Yazısı Metin Tanıma) olarak da adlandırılır, resimlerdeki el yazısı metinleri okuyan ve dijital, düzenlenebilir metne dönüştüren bir yapay zeka teknolojisidir. Basılı fontlar üzerinde çalışan standart OCR'den farklı olarak, el yazısı tanıma, insanların sonsuz yazı varyasyonlarını yorumlamak için gerçek el yazısı örnekleri üzerinde eğitilmiş sinir ağlarını kullanır."
+        },
+        "how_accurate": {
+          "q": "Yapay zeka ile el yazısı tanıma ne kadar doğru?",
+          "a": "NoteOCR net, iyi aydınlatılmış el yazısında %95–99 doğruluk elde eder. Kötü veya fazlasıyla bitişik olan el yazıları tipik olarak %85–92 arasına düşer. Karşılaştırma yapmak gerekirse, Google Lens gibi genel araçların el yazısında ortalama doğruluk payı %60–70'tir. Kritik belgeler için kullanmadan önce çıktıyı her zaman gözden geçirin."
+        },
+        "messy_handwriting": {
+          "q": "Kötü ve karmaşık el yazısında çalışır mı?",
+          "a": "Evet, yapay zekamızın eğitildiği şey tam olarak kötü ve karmaşık el yazılarıdır. Standart OCR araçları temiz basılı metinler için tasarlanmıştır ve tek tip fontlardan sapan her şeyde başarısız olurlar. Sinir ağımız aceleyle yazmayı, tutarsız boyutlandırmayı, üstü çizili kelimeleri ve değişen eğimleri halleder çünkü fontlardan değil milyonlarca gerçek el yazısı örneğinden öğrenmiştir."
+        },
+        "cursive": {
+          "q": "Bitişik (eğik) el yazısını tanıyabilir mi?",
+          "a": "Evet. Bitişik el yazısı, harflerin birleşip örtüşmesi ve tek tek karakterleri ayırmanın imkansız hale gelmesi nedeniyle standart OCR için en zor durumlardan biridir. Yapay zekamız, tüm kelimeler ve satırlar arasındaki kalıpları analiz ederek tıpkı bir insanın okuduğu gibi bitişik yazıyı okur. Bağlantılı harfleri, akıcı döngüleri ve karışık bitişik/matbaa stillerini başarıyla işler."
+        },
+        "no_app": {
+          "q": "El yazısı tanıma özelliğini uygulama indirmeden kullanabilir miyim?",
+          "a": "Evet, NoteOCR tamamen tarayıcınızda çalışır. Uygulama indirme yok, yazılım kurulumu yok, eklenti gerekmez. Sadece sayfayı açın, görselinizi yükleyin ve sonuçları alın. Chrome, Safari, Firefox ve Edge'de, mobil dahil herhangi bir cihazda sorunsuz çalışır."
+        },
+        "no_signup": {
+          "q": "Üye olmadan ücretsiz el yazısı tanıma mümkün mü?",
+          "a": "Evet. Bir hesap oluşturmadan NoteOCR'yi ücretsiz deneyebilirsiniz. El yazısı görselinizi yükleyin ve tanınan metni anında alın. Daha yüksek hacimli işlemler, Word veya Excel'e dışa aktarım ve toplu yüklemeler için ücretli bir plan mevcuttur ancak temel metin tanıma özelliğini test etmek ücretsizdir."
+        },
+        "from_phone": {
+          "q": "Telefonda çektiğim bir fotoğrafla el yazısını metne çevirebilir miyim?",
+          "a": "Kesinlikle. El yazısı notlarınızın fotoğrafını telefonunuzun kamerasıyla çekin ve doğrudan yükleyin. Yapay zekamız perspektif düzeltmeyi, aydınlatma iyileştirmesini ve gürültü gidermeyi otomatik olarak halleder. En iyi sonuçlar için telefonunuzu kağıda paralel tutun ve flaş kullanmak yerine gün ışığında fotoğraf çekin."
+        },
+        "students": {
+          "q": "El yazısı tanıma öğrencilere nasıl yardımcı olur?",
+          "a": "Öğrenciler dersten sonra notlarını dijitalleştirmek, aranabilir ve paylaşılabilir hale getirmek için kullanırlar. Bir sınavdan önce sayfalarca el yazısı notu yeniden yazmak yerine, bir fotoğraf yüklersiniz ve bir dakikadan kısa sürede düzenlenebilir metin elde edersiniz. Daha sonra belirli terimleri arayabilir, bölümleri makalelere kopyalayabilir ve tek bir kelimeyi yeniden yazmadan notları sınıf arkadaşlarınızla paylaşabilirsiniz."
+        },
+        "vs_google_lens": {
+          "q": "Bunun Google Lens el yazısı tanıma özelliğinden farkı nedir?",
+          "a": "Google Lens, öncelikle basılı metinler, işaretler ve ürün etiketleri için optimize edilmiş genel amaçlı bir araçtır. El yazısı tanıma temel tasarım hedefi olmadığı için el yazısındaki doğruluğu ortalama %60–70'tir. NoteOCR ise özel olarak el yazısı için üretilmiş ve yalnızca el yazısı örnekleri üzerinde eğitilmiştir. Bu nedenle Google Lens'in zorlandığı aynı belgelerde doğruluğu %95–99'a ulaşır. NoteOCR ayrıca belge yapısını yeniden oluşturur ve Google Lens'in yapamadığı Word ve Excel formatlarında dışa aktarır."
+        },
+        "vs_adobe": {
+          "q": "El yazısı tanımada NoteOCR, Adobe'dan daha mı iyi?",
+          "a": "Özellikle el yazısı için evet. Adobe Acrobat'ın OCR'si basılı metinler ve taranmış belgeler için mükemmeldir ancak el yazısı için tasarlanmamıştır. Bitişik eğik yazıyı ve bağlanan harfleri düzenli olarak yanlış okur. NoteOCR, el yazısı tanıma için özel olarak tasarlanmıştır ve el yazısı içeriğinde Adobe'dan önemli ölçüde daha iyi performans gösterir. Ayrıca Adobe aylık yüksek bir abonelik ücreti gerektirirken NoteOCR'yi denemek ücretsizdir."
+        },
+        "formats": {
+          "q": "El yazısı okuyucu hangi dosya formatlarını kabul ediyor?",
+          "a": "JPG, JPEG, PNG ve WEBP resim dosyalarını yükleyebilirsiniz. Ücretli planlarda PDF yüklemeleri desteklenir. Çok sayfalı belgeler için ücretsiz planda her sayfayı ayrı ayrı yükleyin. Maksimum dosya boyutu resim başına 25MB'dir."
+        },
+        "output_formats": {
+          "q": "Tanınan metni hangi formatlarda dışa aktarabilirim?",
+          "a": "Tanınan metin, düz metin (TXT), Microsoft Word belgesi (DOCX), el yazısı tablolar içeriyorsa Microsoft Excel çalışma kitabı (XLSX) ve PDF olarak dışa aktarılabilir. Kullanılabilir dışa aktarma formatı planınıza bağlıdır; TXT ücretsiz katmanda mevcuttur, DOCX ve XLSX için Öğrenci planı veya üzeri gerekir."
+        },
+        "how_works": {
+          "q": "Yapay zeka ile el yazısı tanıma arka planda tam olarak nasıl çalışır?",
+          "a": "Yapay zekamız, yüklediğiniz görüntüyü analiz etmek için evrişimli sinir ağlarını (CNN) kullanır. Önce görüntüyü ön işleme tabi tutar; eğriliği düzeltir, kontrastı artırır, gürültüyü giderir. Ardından sayfa düzeni analizi ile belge yapısı (satırlar, paragraflar, tablolar) belirlenir. Son olarak sinir ağı, her bir metin satırını okur ve belirsiz karakterleri yorumlamak için çevresindeki kelimeleri bağlam olarak kullanır. Sonuç, orijinal yapınızı koruyan ve düzgün biçimlendirilmiş bir belge olarak yeniden oluşturulur."
+        },
+        "languages": {
+          "q": "El yazısı tanıma hangi dilleri destekliyor?",
+          "a": "NoteOCR, Türkçe, İngilizce, İspanyolca, Fransızca, Almanca, Portekizce, İtalyanca ve Felemenkçe dahil 30'dan fazla dili destekler. Arapça, Çince, Japonca, Hintçe ve diğerleri de dahil olmak üzere Latin alfabesi dışındaki yazılar için tanıma mevcuttur ancak doğruluk, alfabenin karmaşıklığına ve görüntü kalitesine göre değişir."
+        },
+        "privacy": {
+          "q": "Yüklediğimde el yazısı içeriklerim gizli mi kalıyor?",
+          "a": "Evet. Tüm yüklemeler aktarım sırasında SSL ile şifrelenir. Görselleriniz izole edilmiş güvenli kapsayıcılarda işlenir ve 24 saat içinde kalıcı olarak silinir. El yazısı içeriğinizi asla kendi modellerimizi eğitmek için kullanmayız veya üçüncü taraflarla paylaşmayız. NoteOCR, tasarımı gereği gizliliğe öncelik veren (privacy-first) bir araçtır."
+        },
+        "historical": {
+          "q": "Eski veya tarihi belgelerdeki el yazılarını tanıyabilir mi?",
+          "a": "Evet, ancak bazı şartlarla. NoteOCR, eskimiş kağıt, solmuş mürekkep ve eski el yazısı stillerini oldukça iyi işler. Ancak, 18. yüzyıl kaligrafisi, tarihi Alman Kurrent yazısı veya modern öncesi komut dosyaları gibi çok eski yazılarda doğruluk oranı daha düşük olabilir. Modern el yazısı (1900 sonrası) için performans sürekli olarak yüksektir. Tam bir arşivi işlemeden önce eski belgelerde örnek bir sayfayı test etmenizi öneririz."
+        },
+        "doctor": {
+          "q": "Doktor yazısını okuyabilir mi?",
+          "a": "Bu, en yaygın kullanım alanlarından biridir ve evet, yapay zekamız bunu halledebilir. Doktor yazısı bilindiği üzere oldukça zordur: hızlı, sıkıştırılmış, genellikle bitişik ve kısaltmalarla doludur. Tanıma motorumuz tıbbi notlar dahil olmak üzere zorlu gerçek dünya örnekleri üzerinde eğitilmiştir. Doktor yazısındaki doğruluk tipik olarak %80-90'dır; bu oran standart el yazısından düşüktür ancak herhangi bir genel OCR aracından önemli ölçüde daha iyidir."
+        },
+        "whiteboard": {
+          "q": "Beyaz tahta fotoğraflarında çalışır mı?",
+          "a": "Evet. Beyaz tahta içeriği (genellikle beyaz arka plan üzerine marker kalem) yapay zekamız için kağıt üzerindeki el yazısından daha kolaydır, çünkü kontrast yüksektir ve kağıt dokusunun yarattığı pürüzler yoktur. Bir beyaz tahta toplantısının fotoğrafını yüklediğinizde metin net bir şekilde tanınacaktır. En iyi sonuçlar için tepeden vuran ışık parlamalarından kaçının."
+        },
+        "batch": {
+          "q": "Aynı anda birden fazla el yazısı sayfasını işleyebilir miyim?",
+          "a": "Toplu işlem (Batch) özelliği Profesyonel ve Power User planlarında mevcuttur. Ücretsiz ve Öğrenci planı kullanıcıları her seferinde bir sayfa işler. Büyük arşivler, defterler, çok sayfalı formlar veya toplu belge dijitalleştirme işlemleri için Power User planı, eş zamanlı işleme ile sınırsız toplu yükleme (batch upload) içerir."
+        },
+        "accuracy_improve": {
+          "q": "El yazısını metne çevirirken doğruluğu nasıl artırabilirim?",
+          "a": "En büyük faktör görüntü kalitesidir. Parlak, eşit ışıkta fotoğraf çekin; doğal gün ışığı en iyisidir. Kameranızı sayfaya açılı olarak değil, paralel tutun. Tüm sayfanın çerçeveyi doldurduğundan emin olun. Metnin üzerine düşen gölgelerden kaçının. Tarama (scanner) için 300 DPI veya üstünü kullanın. Doğruluk hala düşükse, herhangi bir ücretsiz fotoğraf düzenleyici kullanarak görüntüyü yüklemeden önce kontrastını artırmayı deneyin."
+        }
+      }
+    },
+
+    "cta_title": "El Yazınızı Metne Çevirmeye Hazır Mısınız?",
+    "cta_subtitle": "El yazısı içerikleri klavyeyle yeniden yazmayı bırakan 10.000'den fazla öğrenci, araştırmacı ve işletmeye katılın.",
+    "cta_button": "El Yazısı Tanıma Aracını Ücretsiz Deneyin",
+
+    "tool_info_1_title": "Uygulama İndirmeye Gerek Yok",
+    "tool_info_1_desc": "Tarayıcınızda çalışır. Denemek için indirme veya kayıt olmaya gerek yoktur.",
+    "tool_info_2_title": "Bitişik ve Kötü El Yazısı",
+    "tool_info_2_desc": "Sıradan bir OCR motorundan uyarlanmadı; gerçek el yazısıyla eğitildi.",
+    "tool_info_3_title": "Word, Excel ve Metin Çıktısı",
+    "tool_info_3_desc": "Tanınan metninizi tam olarak ihtiyacınız olan formatta alın."
+  },
+
+  "CursiveToTextPage": {
+    "meta_title": "El Yazısını Metne Çevirme Online | NoteOCR",
+    "meta_desc": "Bitişik el yazısını (eğik yazı) anında dijital metne dönüştürün. Yapay zekamız %95+ doğrulukla el yazısını okur. Ücretsiz online el yazısı OCR aracı.",
+
+    "hero_pill": "El Yazısı OCR Teknolojisi",
+    "hero_title": "El Yazısını Saniyeler İçinde Metne Dönüştürün.",
+    "hero_subtitle": "Bitişik eğik yazı ile yazılmış notların, mektupların, günlüklerin veya formların fotoğrafını yükleyin. Yapay zekamız, sıradan OCR araçlarının okuyamadığı bitişik ve kıvrımlı el yazılarını çözer. Uygulama yok. Üyelik yok. 30 saniyenin altında sonuç.",
+
+    "trust_ssl": "SSL Şifrelemeli (Güvenli)",
+    "trust_processing": "30 Saniyenin Altında",
+    "trust_accuracy": "%95+ El Yazısı Doğruluğu",
+
+    "before_after_title": "Girdi: Bitişik El Yazısı. Çıktı: Temiz Dijital Metin.",
+    "before_after_desc": "Gerçek el yazısı örneği: Yapay zekamızın bitişik ve akıcı el yazısını nasıl kusursuz okuduğunu görün.",
+    "before_label": "Öncesi: Bitişik Eğik Yazı",
+    "after_label": "Sonrası: Dijital Metin Çıktısı",
+
+    "use_cases_title": "El Yazısını Metne Kimler Çeviriyor?",
+    "use_cases_subtitle": "Eski mektupları dijitalleştiren aile tarihçilerinden, ders notlarını temize çeken öğrencilere kadar, el yazısı dönüştürme işlemi her hafta saatlerce süren manuel yazma zahmetini ortadan kaldırır.",
+
+    "use_case_1_title": "Eski Mektuplar ve Aile Belgeleri",
+    "use_case_1_desc": "Büyükanne ve büyükbabalarınızın el yazısı mektuplarını, eski günlüklerini ve kişisel notlarını aranabilir dijital metne dönüştürün. Profesyonel bir çevirmene para ödemeden aile geçmişinizi koruyun ve dijitalleştirin.",
+
+    "use_case_2_title": "Öğrenci Ders Notları",
+    "use_case_2_desc": "Birçok öğrenci hala ders notlarını el yazısıyla tutuyor. Defterinizin fotoğrafını çekin ve saniyeler içinde ödevler ile sınavlara hazırlık için düzenlenebilir, aranabilir dijital metne sahip olun.",
+
+    "use_case_3_title": "Tarihi ve Arşiv Belgeleri",
+    "use_case_3_desc": "El yazısıyla yazılmış kayıtları, miras belgelerini, nüfus defterlerini ve yasal evrakları dijitalleştirin. Yapay zekamız, 19. ve 20. yüzyılın başlarındaki eski el yazısı stillerini de başarıyla işler.",
+
+    "use_case_4_title": "Profesyonel El Yazısı Formlar",
+    "use_case_4_desc": "Saha raporları, imzalı başvuru formları, el yazısı faturalar ve el yazısıyla tutulmuş hasta notları; hepsini tek adımda düzenlenebilir Word veya Excel formatına dönüştürün.",
+
+    "comparison_title": "El Yazısı OCR: Yöntemlerin Karşılaştırması",
+    "comparison_subtitle": "Bitişik el yazısı, standart araçların çöktüğü yerdir. İşte amaca özel üretilmiş bir yapay zekanın neden tek güvenilir seçenek olduğunun kanıtı.",
+    "comparison_col_method": "Yöntem",
+    "comparison_col_time": "Hız",
+    "comparison_col_accuracy": "El Yazısı Doğruluğu",
+    "comparison_col_cost": "Maliyet",
+    "comparison_row1_method": "Manuel (Elle) yazma",
+    "comparison_row1_time": "60+ dk/sayfa",
+    "comparison_row1_accuracy": "%100 (Hataya açık)",
+    "comparison_row1_cost": "Zamanınız",
+    "comparison_row2_method": "Google Lens / Adobe OCR",
+    "comparison_row2_time": "Anında",
+    "comparison_row2_accuracy": "El yazısında %30–55",
+    "comparison_row2_cost": "Ücretsiz ve Ücretli",
+    "comparison_row3_method": "NoteOCR El Yazısı Dönüştürücü",
+    "comparison_row3_time": "30 saniyenin altında",
+    "comparison_row3_accuracy": "El yazısında %90–98",
+    "comparison_row3_cost": "Ücretsiz Dene",
+
+    "features_title": "El Yazısı Dönüştürücümüz Neden Farklı?",
+    "features_subtitle": "Sıradan bir matbaa metni OCR aracına eklenmiş bir yama değil, sadece el yazısı (eğik yazı) için geliştirilmiş bir yapay zeka.",
+
+    "feature_1_title": "Bitişik Harfleri Doğal Olarak Okur",
+    "feature_1_desc": "Standart OCR, harfleri okumadan önce birbirinden ayırmaya çalışır. Bitişik el yazısında harfler birbirine bağlandığı ve üst üste bindiği için bu yöntem tamamen çöker. Yapay zekamız, insan gözünün yaptığı gibi tüm kelimeleri ve satırları tek seferde okur.",
+
+    "feature_2_title": "Kıvrımları, Eğimi ve Karakteristik Farklılıkları İşler",
+    "feature_2_desc": "Herkesin el yazısı kendine özgüdür; kıvrım boyutları, eğim açıları ve harf aralıkları değişir. Sinir ağımız, düzinelerce farklı yazı stilindeki milyonlarca gerçek el yazısı örneği ile eğitilmiştir, bu nedenle daha önce hiç görmediği bir el yazısını bile kolayca tanır.",
+
+    "feature_3_title": "Word, Excel ve Metin Olarak Dışa Aktarır",
+    "feature_3_desc": "Dönüştürülen el yazısı metin, biçimlendirilmemiş yığın bir paragraf olarak verilmez. Belgenin orijinal düzenini, paragrafları, listeleri ve tabloları yeniden oluştururuz ve ihtiyacınıza göre doğrudan .docx, .xlsx veya düz .txt olarak dışa aktarırız.",
+
+    "tech_title": "El Yazısını Okumak OCR İçin Neden Bu Kadar Zor ve Biz Bunu Nasıl Çözüyoruz?",
+    "tech_intro": "Standart OCR, basılı metinler (bilgisayar/matbaa fontları) için tasarlandı. Standart OCR'nin varsaydığı her şey – tek tip karakter şekilleri, harfler arasındaki net boşluklar, tutarlı aralıklar – bitişik el yazısında tamamen işlevsiz kalır. El yazısında harfler birbirine karışır. Aynı harf, kendinden önce ve sonra gelen harfe göre tamamen farklı görünebilir. Eğim satırdan satıra değişir. Kıvrımlar ve kuyruklar diğer harflerle kesişir. Yapay zekamız temelde farklı bir yaklaşım benimser: Bireysel karakterleri izole etmeye çalışmak yerine, tıpkı akıcı okuyan bir insanın daha önce hiç görmediği bir bitişik el yazısıyla karşılaştığında yaptığı gibi, tüm kelimeleri ve satırları görsel desenler (örüntüler) olarak okur.",
+
+    "tech_detect_title": "Yapay Zekamız Neleri Başarabilir?",
+    "tech_detect_1": "Hiçbir harfin ayrı olmadığı, tamamen bitişik eğik el yazıları",
+    "tech_detect_2": "Aynı sayfada karışık olarak bulunan bitişik ve düz (matbaa stili) el yazıları",
+    "tech_detect_3": "Sağa eğik, sola eğik ve dik gibi değişen yazım açıları",
+    "tech_detect_4": "Süslü ve oldukça kişiselleştirilmiş harf biçimleri (Doktor yazısı vb.)",
+    "tech_detect_5": "19. yüzyıl ve 20. yüzyılın başlarındaki eski el yazısı stilleri",
+
+    "tech_tips_title": "En İyi El Yazısı Dönüştürme İçin İpuçları",
+    "tech_tips_1": "Mürekkep kontrastını azaltan flaştan kaçının, doğal gün ışığı kullanın",
+    "tech_tips_2": "Kamerayı veya telefonu açılı değil, sayfanın tam üzerinde düz (paralel) tutun",
+    "tech_tips_3": "Açık renk kağıt üzerinde koyu renk mürekkep olduğundan emin olun, metin üzerindeki gölgelerden kaçının",
+    "tech_tips_4": "Çok eski belgeler için yüklemeden önce herhangi bir fotoğraf düzenleyicide kontrastı artırın",
+    "tech_tips_5": "Çıktıyı her zaman gözden geçirin, %95 doğruluk bile uzun sayfalarda ara sıra manuel düzeltmeler gerektirebileceği anlamına gelir",
+
+    "related_tools_title": "İlgili Araçlar",
+    "related_tool_1_name": "El Yazısından Word'e",
+    "related_tool_1_desc": "Notları biçimlendirilmiş .docx dosyasına çevirin",
+    "related_tool_2_name": "El Yazısından Excel'e",
+    "related_tool_2_desc": "El çizimi tabloları e-tablolara (spreadsheet) aktarın",
+    "related_tool_3_name": "El Yazısı Tanıma (OCR)",
+    "related_tool_3_desc": "Tüm yazı stilleri: düz, bitişik, karışık okuma",
+    "related_tool_4_name": "Tarayıcı ile El Yazısını Metne Çevirme",
+    "related_tool_4_desc": "Telefon fotoğrafı veya PDF taramasından dönüştürün",
+
+    "faq_title": "El Yazısını Metne Dönüştürme Hakkında Sıkça Sorulan Sorular",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "El yazısından metne dönüştürücü (Cursive to text converter) nedir?",
+          "a": "El yazısından metne dönüştürücü, bitişik eğik el yazısının fotoğraflarını veya taramalarını okuyan ve içeriği bilgisayarda yazılmış, düzenlenebilir dijital metne dönüştüren yapay zeka destekli bir araçtır. Basılı fontlar için tasarlanmış standart OCR yazılımlarının aksine, bu dönüştürücü bitişik el yazısını tanımlayan bağlantılı harf şekillerini yorumlamak için özel olarak eğitilmiş sinir ağları kullanır."
+        },
+        "how_accurate": {
+          "q": "Yapay zeka ile el yazısı tanıma ne kadar doğru?",
+          "a": "NoteOCR, net ve iyi aydınlatılmış bitişik el yazılarında %90–98 arasında bir doğruluk oranına ulaşır. Çok fazla kişiselleştirilmiş karakteristik yazılar veya aşırı yıpranmış kağıtlar %80–85 aralığına düşebilir. Karşılaştırma yapmak gerekirse, Google Lens gibi genel amaçlı OCR araçları bitişik yazılarda ortalama sadece %30–55 başarı sağlar çünkü bağlantılı harfler için tasarlanmamışlardır. Kritik belgelerde kullanmadan önce her zaman çıktıyı kontrol edin."
+        },
+        "how_different_from_ocr": {
+          "q": "Sıradan OCR yazılımları neden bitişik el yazısını okuyamaz?",
+          "a": "Standart OCR, bireysel karakterleri izole ederek, bunları bilinen şekillerle eşleştirerek ve kelimeleri birleştirerek çalışır. Bitişik yazı bu süreci tamamen bozar çünkü harfler birbirine bağlanır ve örtüşür; karakterler arasında net sınırlar yoktur. El yazısı dönüştürücü tamamen farklı bir mimari kullanır: Karakteristik bağlı yazıları okunabilir kılan şey, teker teker harfler yerine bütün kelimeleri ve satırları görsel bir model olarak okumasıdır."
+        },
+        "joined_up_writing": {
+          "q": "Bitişik yazıda (Joined-up writing) işe yarıyor mu?",
+          "a": "Evet. Bitişik yazı ve eğik el yazısı (cursive) aslında aynı şeydir; kalemi kaldırmadan birbirine bağlanan harflerden oluşur. Yapay zekamız tam olarak bunun üzerinde eğitildi. Adına bitişik yazı, eğik yazı, el yazısı veya el yazısı fontu deseniz de, dönüştürücümüz bunun üstesinden gelir. Tamamen birbirine bağlı bitişik yazılarda ve bazı harflerin ayrıldığı yarı bitişik stillerde aynı derecede iyi çalışır."
+        },
+        "old_cursive": {
+          "q": "Eski usul veya tarihi el yazılarını çevirebilir mi?",
+          "a": "Evet, bazı istisnalarla birlikte. Yapay zekamız; tarihi mektuplar ve resmi belgelerdeki 19. ve 20. yüzyıl stilleri de dahil olmak üzere eski el yazısı stillerini işleyebilir. Çok arkaik stiller (17. veya 18. yüzyıl sekreterlik yazısı veya modern öncesi komut dosyaları) daha düşük doğruluğa sahip olabilir. 1850 sonrası el yazıları için performans tutarlı bir şekilde yüksektir. Tüm bir arşivi işlemeden önce test etmek için bir örnek sayfa yüklemenizi öneririz."
+        },
+        "personal_cursive": {
+          "q": "El yazım çok kişisel veya kolaysa (doktor yazısı gibiyse) ne olur?",
+          "a": "Harflerin yüksek oranda stilize edildiği ve yalnızca bir yazara özgü olduğu kişisel el yazısı, herhangi bir yapay zeka için en zor senaryodur. Modelimiz sadece standart okul el yazısı üzerinde değil, milyonlarca farklı el yazısı stili üzerinde eğitildiği için oldukça başarılı bir genelleme yapar. Kişiselleştirilmiş zor yazılardaki doğruluk genellikle %80–90 aralığında seyreder. Sayfa boyunca yazı stili ne kadar tutarlıysa, sonuç o kadar iyi olur."
+        },
+        "no_app": {
+          "q": "Uygulama indirmeden el yazısını metne dönüştürebilir miyim?",
+          "a": "Evet. NoteOCR tamamen tarayıcınızda çalışır. Uygulama yok, yazılım kurulumu yok, eklenti yok. El yazısı görselinizi yükleyin ve dönüştürülmüş metni hemen alın. Masaüstü ve mobil cihazlarda Chrome, Safari, Firefox ve Edge'de sorunsuz çalışır."
+        },
+        "free": {
+          "q": "İnternette ücretsiz el yazısını metne çevirme aracı var mı?",
+          "a": "Evet. NoteOCR'ı denemek ücretsizdir. Hesap oluşturmadan el yazınızı yükleyebilir ve dönüştürülmüş metni alabilirsiniz. Daha yüksek hacimli dönüştürmeler, Word ve Excel'e dışa aktarma ve toplu işleme için ücretli planlar mevcuttur. Ancak temel el yazısı tanıma özelliğini herhangi bir görüntüde test etmek tamamen ücretsizdir."
+        },
+        "phone_photo": {
+          "q": "Telefonla çektiğim bir fotoğraftan el yazısını çevirebilir miyim?",
+          "a": "Kesinlikle. Telefonunuzun kamerasıyla el yazısı notlarınızın veya mektubunuzun fotoğrafını çekin ve doğrudan yükleyin. Yapay zekamız perspektif düzeltme, kontrast artırma ve pürüz (noise) giderme işlemlerini otomatik olarak halleder. En iyi sonuçlar için, gün ışığında fotoğraf çekin ve telefonu açılı tutmak yerine sayfanın tam üzerinde düz tutmaya özen gösterin."
+        },
+        "export_word": {
+          "q": "Dönüştürülen el yazısını Word'e aktarabilir miyim?",
+          "a": "Evet. Dönüştürülen el yazısı metin, paragraf yapısı ve biçimlendirmesi korunarak Microsoft Word (.docx) dosyası olarak dışa aktarılabilir. Bu özellik Öğrenci planı ve üzerinde mevcuttur. Düz metin (TXT) dışa aktarımı ücretsiz sürümde de mevcuttur. El yazısı içeriğiniz tablolar veya yapılandırılmış veriler içeriyorsa Excel'e dışa aktarma seçeneği de bulunmaktadır."
+        },
+        "cursive_vs_print": {
+          "q": "Bitişik el yazısını (cursive) dönüştürmek, düz el yazısından daha mı zor?",
+          "a": "Evet. Bitişik el yazısı yapay zeka için düz/matbaa tarzı el yazısından önemli ölçüde daha zordur. Düz el yazısında, parçalara ayırması ve eşleştirmesi daha kolay olan bağımsız, ayrık harfler bulunur. Bitişik el yazısı harfleri birbirine bağlanır, örtüşür ve komşu harflere bağlı olarak şekil değiştirir. El yazısı dönüştürücümüz bu zorluğa özel olarak tasarlandı, bu yüzden bağlantılı yazılarda genel el yazısı araçlarından çok daha iyi performans gösterir."
+        },
+        "languages": {
+          "q": "El yazısı dönüştürücü hangi dilleri destekliyor?",
+          "a": "NoteOCR; Türkçe, İngilizce, İspanyolca, Fransızca, Almanca, İtalyanca ve Felemenkçe de dahil olmak üzere 30'dan fazla dilde el yazısı tanımasını destekler. Özellikle zengin el yazısı geleneklerine sahip Latin dilleri mükemmel sonuç verir. Arapça, Urduca ve Farsça kaligrafi komut dosyaları da (Osmanlıca harfler) desteklenmektedir. Latin alfabesi kullanmayan diller için doğruluk, görüntü kalitesine ve alfabenin karmaşıklığına göre değişir."
+        },
+        "letters_journals": {
+          "q": "Bunu el yazısı mektupları ve günlükleri metne dönüştürmek için kullanabilir miyim?",
+          "a": "Evet, bu en popüler kullanım senaryolarından biridir. El yazısı bir mektubun, günlük girişinin veya kişisel bir anı defterinin fotoğrafını yükleyin ve saniyeler içinde düzenlenebilir formatta tam metni elde edin. Birçok kullanıcı, arşivleme ve paylaşım için on yıllarca süren aile yazışmalarını bu şekilde dijitalleştiriyor. Dönüştürücü paragraf sonlarını ve sayfa yapısını korur, böylece dijital versiyon da doğal bir şekilde okunabilir."
+        },
+        "historical_documents": {
+          "q": "Tarihi el yazısı belgeler ve kayıtlarda işe yarıyor mu?",
+          "a": "Evet, modern tarihi belgeler (kabaca 1850 ve sonrası) için doğruluk oranı sürekli olarak yüksektir. Yapay zekamız solmuş mürekkep, yaşlanmış sararmış kağıt ve daha eski el yazısı harf formlarıyla iyi başa çıkar. Çok eski belgeler ve özel tarihi metinler için önce bir örnek test etmenizi öneririz. Dönüştürücümüz; aile tarihi araştırmaları, tapu/miras kayıtları ve eski nüfus defterleri için düzenli olarak kullanılmaktadır."
+        },
+        "accuracy_tips": {
+          "q": "El yazısı dönüştürme doğruluğunu nasıl artırabilirim?",
+          "a": "Görüntü kalitesi en büyük faktördür. Aydınlık, eşit dağılmış gün ışığında fotoğraf çekin – doğal ışık flaştan her zaman daha iyidir. Perspektif bozulmasını (keystoning) önlemek için kameranızı veya telefonunuzu sayfanın üzerinde düz tutun. Mürekkebin kağıtla net bir kontrast oluşturduğundan emin olun. Eski veya soluk belgeler için, yüklemeden önce herhangi bir ücretsiz fotoğraf düzenleme uygulamasını kullanarak kontrastı artırın. 300 DPI veya daha yüksek çözünürlükte tarama yapmak da telefon fotoğraflarına kıyasla sonuçları önemli ölçüde iyileştirir."
+        },
+        "privacy": {
+          "q": "El yazısı belgelerim gizli tutuluyor mu?",
+          "a": "Evet. Tüm yüklemeler aktarım sırasında SSL aracılığıyla şifrelenir. Görüntüleriniz izole edilmiş güvenli kapsayıcılarda işlenir ve 24 saat içinde sunucularımızdan kalıcı olarak silinir. Yüklenen içeriği asla yapay zeka modellerimizi eğitmek için kullanmayız ve üçüncü taraflarla paylaşmayız. Kişisel mektuplar, günlükler ve özel belgeler tam bir gizlilik ve güvenlik içinde işlenir."
+        },
+        "how_it_works": {
+          "q": "El yazısından metne dönüştürücü tam olarak nasıl çalışır?",
+          "a": "Bir el yazısı görüntüsü yüklediğinizde, yapay zekamız üç aşamalı bir süreç yürütür. Birincisi, görüntü ön işleme – eğriliği düzeltme, kontrastı artırma, pürüzleri giderme. İkincisi, düzen (layout) analizi – satırları, paragrafları ve belge yapısını tanımlama. Üçüncüsü, el yazısı tanıma – sinir ağımız, karmaşık bitişik harfleri yorumlamak için çevredeki kelimelerden gelen bağlamı kullanarak her metin satırını görsel bir dizi olarak okur. Sonuç, orijinal düzeninizi koruyan yapılandırılmış bir metin belgesi olarak birleştirilir."
+        },
+        "batch": {
+          "q": "Aynı anda birden fazla el yazısı sayfasını dönüştürebilir miyim?",
+          "a": "Toplu işleme (Batch processing) Profesyonel ve Power User planlarında mevcuttur. Ücretsiz ve Öğrenci planı kullanıcıları belgeleri her seferinde bir sayfa olacak şekilde işler. Büyük projeler için – tam günlükler, çok mektuplu arşivler veya toplu belge dijitalleştirme – Power User planı, eşzamanlı işleme ile sınırsız toplu yükleme (batch upload) içerir, böylece koca bir defteri tek bir oturumda dönüştürebilirsiniz."
+        },
+        "vs_google": {
+          "q": "NoteOCR, el yazısı okumada Google Dokümanlar veya Google Lens'ten daha mı iyi?",
+          "a": "Bitişik el yazısı söz konusu olduğunda NoteOCR önemli ölçüde daha iyidir. Google Lens ve Google Dokümanlar sesle yazma araçları basılı/matbaa metinler için tasarlanmıştır. Bitişik el yazısında Google'ın araçları genellikle yalnızca %30–55 arasında bir doğruluk elde eder – bu da kelimelerin neredeyse yarısının yanlış çıktığı anlamına gelir. NoteOCR ise el yazısı için özel olarak üretilmiştir ve aynı belgelerde %90–98 başarı sağlar. Ayrıca Google Lens'in yapamadığı bir şey olan Word ve Excel'e dışa aktarma işlemini kusursuz yapar."
+        },
+        "copperplate": {
+          "q": "Copperplate (Bakır levha) ve kaligrafi tarzı el yazılarını okuyabiliyor mu?",
+          "a": "Evet. Tarihi yazışmalarda ve resmi belgelerde kullanılan resmi, son derece süslü el yazısı olan Copperplate desteklenmektedir. Hatta Copperplate'in o tutarlı, standart harf şekilleri, dağınık kişisel el yazılarına kıyasla yapay zekamızda çok daha iyi sonuç verir. Çok yoğun süslemelere ve kıvrımlara sahip ağır kaligrafi stilleri bazen okuyucunun kafasını karıştırabilir, ancak 19. ve 20. yüzyılın başlarındaki standart Copperplate el yazıları güvenilir bir şekilde okunur."
+        }
+      }
+    },
+
+    "cta_title": "El Yazılarınızı Metne Dönüştürmeye Hazır mısınız?",
+    "cta_subtitle": "Herhangi bir el yazısı görselini, mektubu, günlüğü, notu veya formu yükleyin; 30 saniyenin altında temiz, düzenlenebilir dijital metne sahip olun.",
+    "cta_button": "El Yazısını Metne Çevirmeyi Ücretsiz Dene",
+
+    "tool_info_1_title": "Uygulamaya Gerek Yok",
+    "tool_info_1_desc": "Doğrudan tarayıcınızda çalışır. Denemek için indirme veya kayıt olmanıza gerek yok.",
+    "tool_info_2_title": "Bitişik Yazı Yapay Zekası",
+    "tool_info_2_desc": "Basılı matbaa metni motorundan uyarlanmamış, tamamen el yazısı için geliştirilmiştir.",
+    "tool_info_3_title": "Word, Excel ve Metin İndirme",
+    "tool_info_3_desc": "Dönüştürülmüş metninizi tam olarak ihtiyacınız olan formatta indirin."
+  },
+
+  "ScanHandwritingToText": {
+    "meta_title": "El Yazısını Metne Çevirme Online | NoteOCR",
+    "meta_desc": "El yazısı notları tarayıcınızda anında metne dönüştürün. Uygulama indirmeye gerek yok. Telefon fotoğrafını veya taranmış görüntüyü yükleyin, 30 saniyeden kısa sürede düzenlenebilir dijital metne ulaşın.",
+
+    "hero_pill": "Online El Yazısı Tarayıcı",
+    "hero_title": "El Yazısını Metne Çevirin. Uygulama Gerektirmez.",
+    "hero_subtitle": "El yazısı herhangi bir sayfanın fotoğrafını çekin veya yükleyin; yapay zekamız bunu 30 saniyeden kısa sürede temiz ve düzenlenebilir metne dönüştürsün. Kurulum gerektirmez, her cihazda çalışır.",
+
+    "trust_ssl": "SSL Şifreli Güvenlik",
+    "trust_processing": "30 Saniye Altında İşlem",
+    "trust_accuracy": "%95+ Tarama Hassasiyeti",
+
+    "before_after_title": "El Yazısı Girer, Düzenlenebilir Dijital Metin Çıkar.",
+    "before_after_desc": "Yapay zekamızın bir telefon fotoğrafını nasıl işlediğini gösteren gerçek tarama sonucu.",
+    "before_label": "Önce: Taranmış El Yazısı Sayfası",
+    "after_label": "Sonra: Temiz Düzenlenebilir Metin",
+
+    "use_cases_title": "Online El Yazısı Tarayıcıyı Kimler Kullanır?",
+    "use_cases_subtitle": "Fiziksel el yazısı sayfalarını hızla dijitalleştirmek isteyen herkes. Tarayıcı donanımına gerek yok, telefon kameranız yeterli.",
+
+    "use_case_1_title": "Ders Notlarını Tarayan Öğrenciler",
+    "use_case_1_desc": "Dersten sonra defter sayfalarınızın fotoğrafını çekin ve saniyeler içinde aranabilir, düzenlenebilir metinler elde edin. Sınavdan önce sayfaları yeniden yazmakla vakit kaybetmeyin.",
+
+    "use_case_2_title": "Saha Notları ve Site Raporları",
+    "use_case_2_desc": "Mühendisler, denetçiler ve saha çalışanları, el yazısı notlarını doğrudan telefondan tarayarak sahadan ayrılmadan dijital rapor formatına getirebilirler.",
+
+    "use_case_3_title": "Kağıt Kayıtları ve Formları Dijitalleştirme",
+    "use_case_3_desc": "Hasta kayıt formları, teslimat fişleri, puantaj kayıtları - bunları tarayın ve tek adımda kopyalayıp yapıştırmaya hazır yapılandırılmış metinler alın.",
+
+    "use_case_4_title": "Kişisel Günlükler ve Defterler",
+    "use_case_4_desc": "Kişisel günlükleri, yemek tariflerini ve beyin fırtınası sayfalarını tek bir fotoğrafla dijitalleştirin. Yılların birikimi defterlerinizi her yerden erişilebilir dijital metinler olarak saklayın.",
+
+    "comparison_title": "Online El Yazısı Tarayıcı: Seçeneklerin Karşılaştırması",
+    "comparison_subtitle": "Çoğu araç sizi uygulama yüklemeye veya aboneliğe zorlar. NoteOCR ise özgürlük sunar.",
+    "comparison_col_method": "Yöntem",
+    "comparison_col_time": "Hız",
+    "comparison_col_accuracy": "El Yazısı Hassasiyeti",
+    "comparison_col_cost": "Maliyet",
+    "comparison_row1_method": "PenToPrint (mobil uygulama)",
+    "comparison_row1_time": "Hızlı (sadece uygulama)",
+    "comparison_row1_accuracy": "Net yazılarda iyi",
+    "comparison_row1_cost": "Uygulama zorunlu, dışa aktarım ücretli",
+    "comparison_row2_method": "Adobe Scan + Acrobat OCR",
+    "comparison_row2_time": "Orta",
+    "comparison_row2_accuracy": "El yazısında %40-60",
+    "comparison_row2_cost": "Aylık $20 abonelik",
+    "comparison_row3_method": "NoteOCR El Yazısı Tarayıcı",
+    "comparison_row3_time": "30 saniye altı",
+    "comparison_row3_accuracy": "El yazısında %95+",
+    "comparison_row3_cost": "Ücretsiz deneme, uygulama yok, tek seferlik ödeme",
+
+    "features_title": "Neden NoteOCR En İyi Online El Yazısı Tarayıcıdır?",
+    "features_subtitle": "El yazısı sayfalarını taramak için özel olarak tasarlanmıştır, standart bir belge tarayıcının ek özelliği değildir.",
+
+    "feature_1_title": "Telefonunuz Tarayıcınızdır",
+    "feature_1_desc": "Masaüstü tarayıcıya ihtiyacınız yok. Sayfanın fotoğrafını çekip yükleyin. Yapay zekamız perspektifi düzeltir, ışığı ayarlar ve gölgeleri otomatik olarak kaldırarak kusursuz sonuç verir.",
+
+    "feature_2_title": "Diğerlerinin Okuyamadığını Okur",
+    "feature_2_desc": "Standart OCR araçları el yazısında başarısız olur çünkü baskı fontları için yapılmışlardır. Sinir ağımız, her türlü yazı stilinde binlerce el yazısı örneğiyle eğitilmiştir.",
+
+    "feature_3_title": "Uygulama Yok. Hesap Yok. Beklemek Yok.",
+    "feature_3_desc": "Sayfayı herhangi bir tarayıcıda açın, görüntüyü yükleyin ve metni alın. Kurulum veya hesap oluşturma zahmeti yok. iPhone, Android, Mac ve Windows'ta aynı hızda çalışır.",
+
+    "tech_title": "El Yazısını Metne Çevirme Teknolojisi Nasıl Çalışır?",
+    "tech_intro": "Bir görüntü yüklediğinizde yapay zekamız otomatik olarak üç aşama yürütür: İlk olarak görüntüyü ön işlemeden geçirir; eğriliği düzeltir, kontrastı artırır ve gölgeleri temizler. İkinci olarak, metin satırlarının ve paragrafların yerini belirlemek için düzen analizi yapar. Üçüncü olarak, el yazısı tanıma motoru her satırı görsel bir dizi olarak okur; standart OCR gibi karakter karakter değil, kelime ve kelime öbeği olarak bağlamdan yararlanarak anlamlandırır. Çıktı, orijinal paragraf yapınızı koruyan yapılandırılmış bir metindir.",
+
+    "tech_detect_title": "Tarayıcımızın Destekledikleri",
+    "tech_detect_1": "Hafif açıyla çekilmiş telefon fotoğrafları - perspektif otomatik düzelir",
+    "tech_detect_2": "Düşük ışıklı veya flaş patlamış görüntülerde otomatik kontrast iyileştirme",
+    "tech_detect_3": "150 DPI ve üzeri masaüstü tarayıcı çıktıları",
+    "tech_detect_4": "Aynı sayfada karışık el yazısı stilleri",
+    "tech_detect_5": "Üzeri çizilmiş kelimeler, oklar ve kenar notları",
+
+    "tech_tips_title": "En İyi Sonuç İçin Tarama İpuçları",
+    "tech_tips_1": "Telefonunuzu kağıda paralel, tam tepeden tutun",
+    "tech_tips_2": "Mümkünse doğal gün ışığı kullanın - flaş kullanımından kaçının",
+    "tech_tips_3": "Tüm sayfanın çerçeve içinde olduğundan emin olun",
+    "tech_tips_4": "Masaüstü taramalarda 300 DPI, 150 DPI'dan çok daha iyi sonuç verir",
+    "tech_tips_5": "Mürekkep soluksa, yüklemeden önce bir fotoğraf düzenleyicide kontrastı artırın",
+
+    "related_tools_title": "İlgili Araçlar",
+    "related_tool_1_name": "El Yazısı Tanıma",
+    "related_tool_1_desc": "Tüm yazı stilleri için geniş kapsamlı yapay zeka tanıma",
+    "related_tool_2_name": "El Yazısını Word'e Çevirme",
+    "related_tool_2_desc": "Taranmış notları doğrudan .docx olarak dışa aktarın",
+    "related_tool_3_name": "Bitişik Eğik Yazı Tarayıcı",
+    "related_tool_3_desc": "Bitişik el yazıları için özel tarama modu",
+    "related_tool_4_name": "El Yazısını Excel'e Çevirme",
+    "related_tool_4_desc": "El yazısı tabloları e-tablolara dönüştürün",
+
+    "faq_title": "El Yazısını Metne Çevirme Hakkında Sıkça Sorulan Sorular",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "El yazısını metne çevirmek ne anlama gelir?",
+          "a": "El yazısını metne çevirmek; fiziksel bir sayfadaki yazıları fotoğraflayıp yapay zeka yardımıyla düzenlenebilir, aranabilir ve paylaşılabilir dijital metin formatına dönüştürmektir."
+        },
+        "no_app": {
+          "q": "Uygulama olmadan online el yazısı taratabilir miyim?",
+          "a": "Evet. NoteOCR tamamen tarayıcınızda çalışır. İndirme veya eklenti gerektirmez; bu, dışa aktarımı ücretli yapan uygulamalara karşı büyük bir avantajdır."
+        },
+        "free_no_signup": {
+          "q": "Kayıt gerektirmeyen ücretsiz bir el yazısı tarayıcı var mı?",
+          "a": "Evet. NoteOCR'da hesap oluşturmadan görüntüleri taratabilirsiniz. Temel özellikler herkes için ücretsizdir; gelişmiş özellikler için ücretli planlar mevcuttur."
+        },
+        "phone_camera": {
+          "q": "Telefon kamerasıyla el yazısı taratabilir miyim?",
+          "a": "Evet. NoteOCR kullanıcılarının çoğu telefon fotoğrafı kullanır. Yapay zekamız eğrilikleri ve ışık hatalarını otomatik olarak düzeltir."
+        },
+        "vs_pentoprint": {
+          "q": "NoteOCR'ın PenToPrint'ten farkı nedir?",
+          "a": "En büyük fark, NoteOCR'ın uygulama gerektirmemesi ve metin dışa aktarımını ücretli duvarların arkasına gizlememesidir."
+        },
+        "vs_adobe": {
+          "q": "NoteOCR el yazısında Adobe Scan'den daha mı iyi?",
+          "a": "Evet. Adobe baskı metinlerde harikadır ancak el yazısında %40-60 doğrulukta kalır. NoteOCR el yazısı için özel eğitilmiştir ve %95+ doğruluk sağlar."
+        },
+        "flatbed_scanner": {
+          "q": "Masaüstü tarayıcı çıktılarını yükleyebilir miyim?",
+          "a": "Evet. JPG veya PNG formatındaki tarayıcı çıktıları, yüksek çözünürlükleri sayesinde en iyi sonuçları verir."
+        },
+        "scan_pdf": {
+          "q": "El yazısı içeren bir PDF'i metne çevirebilir miyim?",
+          "a": "PDF desteği ücretli planlarda mevcuttur. Ücretsiz sürümde PDF sayfalarını resim olarak kaydedip tek tek yükleyebilirsiniz."
+        },
+        "scan_lecture_notes": {
+          "q": "Ders notlarımı nasıl metne çeviririm?",
+          "a": "Defter sayfalarınızın fotoğrafını çekip NoteOCR'a yükleyin. Saniyeler içinde metni alıp Word veya Notion gibi uygulamalara yapıştırabilirsiniz."
+        },
+        "scan_field_notes": {
+          "q": "Saha notlarını dijitalleştirebilir miyim?",
+          "a": "Evet. Saha çalışanları kağıt üzerindeki notlarını anında dijital rapora dönüştürerek büyük zaman kazanırlar."
+        },
+        "messy_handwriting": {
+          "q": "Kötü veya karmaşık el yazılarında çalışır mı?",
+          "a": "Evet. Yapay zekamız hızlı yazılmış veya düzensiz el yazılarını bile %85-92 doğrulukla okuyabilir."
+        },
+        "accuracy": {
+          "q": "Tarama ne kadar doğrudur?",
+          "a": "Net yazılarda %95-99, karmaşık yazılarda %85-92 arasındadır. Bu, genel OCR araçlarından çok daha yüksektir."
+        },
+        "formats_accepted": {
+          "q": "Hangi dosya formatlarını yükleyebilirim?",
+          "a": "JPG, JPEG, PNG ve WEBP formatlarını destekliyoruz. Ücretli planlarda PDF yükleme de mevcuttur."
+        },
+        "export_options": {
+          "q": "Hangi formatlarda dışa aktarabilirim?",
+          "a": "Ücretsiz sürümde düz metin (TXT), üst planlarda ise Word (.docx) ve Excel (.xlsx) olarak dışa aktarabilirsiniz."
+        },
+        "scan_old_documents": {
+          "q": "Eski el yazısı belgeleri dijitalleştirebilir miyim?",
+          "a": "Evet. NoteOCR solmuş mürekkep ve eski kağıt dokularıyla başa çıkabilir. 1850 sonrası belgelerde güvenle çalışır."
+        },
+        "scan_notebook": {
+          "q": "Tüm bir defteri metne çevirebilir miyim?",
+          "a": "Evet. Ücretli planlardaki toplu yükleme özelliği ile tüm bir defteri tek seferde dijitalleştirebilirsiniz."
+        },
+        "batch": {
+          "q": "Aynı anda birden fazla sayfa taratabilir miyim?",
+          "a": "Toplu tarama özelliği Professional ve Power User planlarında mevcuttur."
+        },
+        "privacy": {
+          "q": "Taramalarım gizli tutuluyor mu?",
+          "a": "Evet. Yüklemeleriniz SSL ile şifrelenir ve görüntüler 24 saat içinde sunucularımızdan tamamen silinir."
+        },
+        "scan_forms": {
+          "q": "El yazısı formlardaki verileri çekebilir miyim?",
+          "a": "Evet. Formlardaki el yazısı girişleri Excel dışa aktarım özelliği sayesinde sütunlara ayrıştırılabilir."
+        },
+        "how_different_from_photo": {
+          "q": "Bunun standart bir 'fotoğrafı metne çevirme' aracından farkı nedir?",
+          "a": "Standart araçlar kitap ve tabela yazıları içindir. NoteOCR ise el yazısının benzersiz kıvrımlarını ve stillerini tanımak üzere optimize edilmiştir."
+        },
+        "improve_accuracy": {
+          "q": "Tarama doğruluğunu nasıl artırabilirim?",
+          "a": "En önemli faktör görüntü kalitesidir. İyi ışıkta, dik bir açıyla ve odaklanmış fotoğraflar çekin."
+        }
+      }
+    },
+
+    "cta_title": "El Yazınızı Metne Çevirmeye Hazır mısınız?",
+    "cta_subtitle": "Fotoğrafı yükleyin, 30 saniyede düzenlenebilir metni alın. Uygulama veya hesap gerekmez.",
+    "cta_button": "El Yazısını Ücretsiz Tarat",
+
+    "tool_info_1_title": "Uygulama Gerekmez",
+    "tool_info_1_desc": "Herhangi bir cihazın tarayıcısında çalışır. Kurulum zahmeti yoktur.",
+    "tool_info_2_title": "Telefon Kamerasıyla Uyumlu",
+    "tool_info_2_desc": "Sayfayı çekin ve yükleyin. Ekstra donanıma gerek yok.",
+    "tool_info_3_title": "Word, Excel ve Metin Çıktısı",
+    "tool_info_3_desc": "Taranmış metni ihtiyacınız olan formatta indirin."
   }
 }

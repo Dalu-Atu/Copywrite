@@ -65,7 +65,7 @@ export default function WordToolInterface({ locale, translation }) {
         showToast(
           "Success",
           "Transcription complete. Opening preview...",
-          "success"
+          "success",
         );
 
         // Auto-redirect after a short delay
@@ -78,7 +78,7 @@ export default function WordToolInterface({ locale, translation }) {
       showToast(
         "Conversion Failed",
         error?.response?.data?.message || t("toast_error_conversion"),
-        "error"
+        "error",
       );
       setFile(null);
     },
@@ -96,7 +96,7 @@ export default function WordToolInterface({ locale, translation }) {
       showToast(
         "Invalid File Type",
         "Please upload a JPG, PNG, or WEBP.",
-        "error"
+        "error",
       );
       return;
     }

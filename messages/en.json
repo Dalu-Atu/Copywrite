@@ -304,7 +304,7 @@
     "feature_3_desc": "Your notes are encrypted during upload, processed in isolated containers, and permanently deleted after conversion. We never store or share your handwritten content.",
 
     "tech_title": "How Handwriting Recognition Technology Works",
-    "tech_intro": "Standard OCR tools treat handwritten text as typed characters, destroying your original formatting. NoteOCR's specialized AI analyzes pen strokes, spacing patterns, and document structure to recreate your notes as a properly formatted Word document—preserving lists, indentation, and paragraph breaks exactly as you wrote them.",
+    "tech_intro": "Standard OCR tools treat handwritten text as typed characters, destroying your original formatting. NoteOCR's specialized AI analyzes pen strokes, spacing patterns, and document structure to recreate your notes as a properly formatted Word document, preserving lists, indentation, and paragraph breaks exactly as you wrote them.",
 
     "tech_detect_title": "What We Detect",
     "tech_detect_1": "Paragraphs, lists, and headers",
@@ -466,7 +466,7 @@
 
   "PdfPage": {
     "meta_title": "Edit Scanned PDFs Online with OCR | Free PDF Editor | NoteOCR",
-    "meta_desc": "Browser-based PDF editor for scanned documents. Extract handwritten text with AI OCR, add signatures, edit content—no software required.",
+    "meta_desc": "Browser-based PDF editor for scanned documents. Extract handwritten text with AI OCR, add signatures, edit content, no software required.",
 
     "hero_pill": "Professional PDF Workspace",
     "hero_title": "Edit Scanned PDFs Online with AI OCR",
@@ -532,13 +532,13 @@
     "feature_1_desc": "Convert scanned documents and handwritten PDFs into searchable, editable text. Our AI recognizes handwriting, typed text, and table structures while preserving your original layout.",
 
     "feature_2_title": "Full Editing Suite",
-    "feature_2_desc": "Add text, draw signatures, insert images, highlight sections, and reorganize pages. All standard PDF editing tools in a professional web workspace—no desktop software required.",
+    "feature_2_desc": "Add text, draw signatures, insert images, highlight sections, and reorganize pages. All standard PDF editing tools in a professional web workspace, no desktop software required.",
 
     "feature_3_title": "Browser-Based Security",
     "feature_3_desc": "Bank-grade encryption for uploads. Your PDFs are processed locally in your browser when possible, with server processing in isolated containers. Auto-deleted after 24 hours.",
 
     "tech_title": "How Browser-Based PDF OCR Works",
-    "tech_intro": "Traditional PDF editors only work with digital text. NoteOCR combines advanced OCR (Optical Character Recognition) with layout analysis to handle scanned documents, handwritten forms, and image-based PDFs—all in your browser. We detect text positioning, preserve formatting, and make your entire document searchable and editable without software installation.",
+    "tech_intro": "Traditional PDF editors only work with digital text. NoteOCR combines advanced OCR (Optical Character Recognition) with layout analysis to handle scanned documents, handwritten forms, and image-based PDFs, all in your browser. We detect text positioning, preserve formatting, and make your entire document searchable and editable without software installation.",
 
     "tech_support_title": "What We Support",
     "tech_support_1": "Handwritten documents and forms",
@@ -698,7 +698,7 @@
         },
         "no_software_required": {
           "q": "Do I really need zero software for PDF editing?",
-          "a": "Correct. You only need a modern web browser (Chrome, Firefox, Safari, Edge). No installations, no plugins, no Adobe Reader. Just visit NoteOCR, upload your PDF, and start editing immediately. Updates happen automatically on our end—you always have the latest version."
+          "a": "Correct. You only need a modern web browser (Chrome, Firefox, Safari, Edge). No installations, no plugins, no Adobe Reader. Just visit NoteOCR, upload your PDF, and start editing immediately. Updates happen automatically on our end, you always have the latest version."
         }
       }
     }
@@ -751,11 +751,11 @@
     "feature_main_1_title": "Microsoft Office Compatible",
     "feature_main_1_desc": "Full compatibility with DOCX, XLSX, and PPTX formats. Edit Microsoft Office files without installing Office. Preserves formatting, formulas, and advanced features.",
     "feature_main_2_title": "Browser-Based Editing",
-    "feature_main_2_desc": "Works instantly in Chrome, Safari, Firefox, and Edge. No downloads, no installations, no plugins. Edit documents from any computer—home, office, library, or café.",
+    "feature_main_2_desc": "Works instantly in Chrome, Safari, Firefox, and Edge. No downloads, no installations, no plugins. Edit documents from any computer, home, office, library, or café.",
     "feature_main_3_title": "Cloud Auto-Save",
     "feature_main_3_desc": "Automatic cloud synchronization saves every change. Never lose work due to crashes or closed tabs. Access your documents from any device with seamless continuity.",
     "technical_title": "How Browser-Based Office Editing Works",
-    "technical_desc": "Traditional document editing requires desktop software installations. Our cloud-based editor runs entirely in your web browser using modern web standards (WebAssembly, Canvas API). We parse Office file formats (OOXML, OpenDocument) on the server, render them in your browser, and sync changes back to the cloud—giving you desktop-quality editing with cloud convenience.",
+    "technical_desc": "Traditional document editing requires desktop software installations. Our cloud-based editor runs entirely in your web browser using modern web standards (WebAssembly, Canvas API). We parse Office file formats (OOXML, OpenDocument) on the server, render them in your browser, and sync changes back to the cloud, giving you desktop-quality editing with cloud convenience.",
     "technical_formats_title": "Supported Formats",
     "technical_format_1": "Microsoft Word (DOCX, DOC)",
     "technical_format_2": "Microsoft Excel (XLSX, XLS)",
@@ -3392,5 +3392,575 @@
         }
       }
     }
+  },
+  "HandwritingRecognitionPage": {
+    "meta_title": "Handwriting Recognition Online | NoteOCR",
+    "meta_desc": "Upload any handwritten image and our AI recognizes it and convert it to formatted text instantly. Free handwriting recognition online.",
+
+    "hero_pill": "AI Handwriting Recognition",
+    "hero_title": "Handwriting Recognition That Actually Works.",
+    "hero_subtitle": "Upload a photo of any handwritten notes, forms, or documents. Our AI reads the handwriting, including messy cursive writtings and converts it into editable formatted text in seconds.",
+
+    "trust_ssl": "SSL Encrypted",
+    "trust_processing": "30-Second Processing",
+    "trust_accuracy": "99% Recognition Accuracy",
+
+    "before_after_title": "See the Recognition in Action",
+    "before_after_desc": "Real handwriting sample showing what our AI reads versus what comes out.",
+    "before_label": "Before: Handwritten Image",
+    "after_label": "After: Recognized Digital Text",
+
+    "use_cases_title": "Who Uses Handwriting Recognition?",
+    "use_cases_subtitle": "From students digitalising notes to businesses processing forms ,  handwriting recognition saves hours every day.",
+
+    "use_case_1_title": "Students & Lecture Notes",
+    "use_case_1_desc": "Photograph your notebook after class and get fully searchable, editable text in seconds. No more retyping pages of lecture notes before exams.",
+
+    "use_case_2_title": "Messy & Cursive Handwriting",
+    "use_case_2_desc": "Our AI is trained specifically on difficult handwriting ,  rushed scribbles, connected cursive, and mixed print/cursive styles all recognised with high accuracy.",
+
+    "use_case_3_title": "Handwritten Forms & Documents",
+    "use_case_3_desc": "Digitise patient intake forms, field reports, invoices, and HR records from a phone photo. No scanner needed ,  your camera is enough.",
+
+    "use_case_4_title": "Old Letters & Journals",
+    "use_case_4_desc": "Preserve handwritten family letters, personal diaries, and historical documents by converting them into searchable digital text you can share and archive.",
+
+    "comparison_title": "Handwriting Recognition: Methods Compared",
+    "comparison_subtitle": "Why purpose-built AI outperforms general tools every time.",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Speed",
+    "comparison_col_accuracy": "Accuracy on Handwriting",
+    "comparison_col_cost": "Cost",
+    "comparison_row1_method": "Manual retyping",
+    "comparison_row1_time": "60+ min/page",
+    "comparison_row1_accuracy": "100% (but error-prone)",
+    "comparison_row1_cost": "Your time",
+    "comparison_row2_method": "Generic OCR (Google Lens, Adobe)",
+    "comparison_row2_time": "Instant",
+    "comparison_row2_accuracy": "40–70% on handwriting",
+    "comparison_row2_cost": "Free & Paid",
+    "comparison_row3_method": "NoteOCR Handwriting Recognition",
+    "comparison_row3_time": "Under 30 seconds",
+    "comparison_row3_accuracy": "95–99% including cursive",
+    "comparison_row3_cost": "Free to try",
+
+    "features_title": "Why Our Handwriting Recognition Is Different",
+    "features_subtitle": "Built specifically for handwriting ,  not adapted from a printed text tool.",
+
+    "feature_1_title": "Trained on Handwriting, Not Fonts",
+    "feature_1_desc": "Generic OCR learns from printed fonts. Our AI was trained exclusively on millions of real handwriting samples ,  print, cursive, mixed styles, rushed notes, and everything in between.",
+
+    "feature_2_title": "Reads Messy & Cursive Writing",
+    "feature_2_desc": "Connected letters, varying slant, inconsistent sizing ,  the exact things that break standard OCR. Our neural network handles them the same way a human reader does: using context to fill gaps.",
+
+    "feature_3_title": "Outputs You Can Actually Use",
+    "feature_3_desc": "Recognised text is not just dumped as a plain paragraph. We reconstruct layout, preserve lists and headers, and export to Word, Excel, or plain text depending on what you need.",
+
+    "tech_title": "How Handwriting Recognition Works",
+    "tech_intro": "Standard OCR technology was built for printed text ,  uniform fonts with predictable letter shapes. Handwriting breaks every assumption that makes standard OCR work. Every person writes differently. Letters connect, overlap, vary in size and slant. Our AI uses a completely different approach: neural networks trained on millions of handwriting samples that learn to read the way a human does ,  recognising patterns across whole words and lines, not individual characters.",
+
+    "tech_detect_title": "What Our AI Detects",
+    "tech_detect_1": "Print and cursive handwriting ,  including connected and overlapping letters",
+    "tech_detect_2": "Messy, rushed, and inconsistent writing styles",
+    "tech_detect_3": "Mixed print and cursive on the same page",
+    "tech_detect_4": "Crossed-out words and corrections",
+    "tech_detect_5": "Document structure ,  headers, lists, paragraphs, and table rows",
+
+    "tech_tips_title": "Best Results Tips",
+    "tech_tips_1": "Photograph in good natural light ,  avoid flash directly on the page",
+    "tech_tips_2": "Hold your phone parallel to the paper, not at an angle",
+    "tech_tips_3": "Ensure ink contrasts clearly against the paper background",
+    "tech_tips_4": "300 DPI or higher for scanned documents",
+    "tech_tips_5": "Review the output ,  even 95% accuracy means occasional corrections needed",
+
+    "related_tools_title": "Related Tools",
+    "related_tool_1_name": "Handwriting to Word",
+    "related_tool_1_desc": "Convert notes to formatted .docx",
+    "related_tool_2_name": "Handwriting to Excel",
+    "related_tool_2_desc": "Extract tables into spreadsheets",
+    "related_tool_3_name": "Cursive to Text",
+    "related_tool_3_desc": "Specialised cursive OCR tool",
+    "related_tool_4_name": "Scan Handwriting to Text",
+    "related_tool_4_desc": "From phone photo or PDF scan",
+
+    "faq_title": "Frequently Asked Questions About Handwriting Recognition",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "What is handwriting recognition?",
+          "a": "Handwriting recognition ,  also called HTR (Handwritten Text Recognition) ,  is AI technology that reads handwritten text in images and converts it into digital, editable text. Unlike standard OCR which works on printed fonts, handwriting recognition uses neural networks trained on real handwriting samples to interpret the infinite variation in how people write."
+        },
+        "how_accurate": {
+          "q": "How accurate is AI handwriting recognition?",
+          "a": "NoteOCR achieves 95–99% accuracy on clear, well-lit handwriting. Messy or heavily cursive handwriting typically falls between 85–92%. For comparison, generic tools like Google Lens average 60–70% accuracy on handwriting. Always review the output before using it for critical documents."
+        },
+        "messy_handwriting": {
+          "q": "Does it work on messy handwriting?",
+          "a": "Yes ,  messy handwriting is specifically what our AI is trained for. Standard OCR tools were designed for clean printed text and fail on anything that deviates from uniform fonts. Our neural network handles rushing, inconsistent sizing, crossed-out words, and varying slant because it learned from millions of real handwriting samples, not fonts."
+        },
+        "cursive": {
+          "q": "Can it recognise cursive handwriting?",
+          "a": "Yes. Cursive is one of the hardest cases for standard OCR because letters connect and overlap, making it impossible to segment individual characters. Our AI reads cursive the same way a human does ,  by analysing patterns across whole words and lines. It handles connected script, flowing loops, and mixed cursive/print styles."
+        },
+        "no_app": {
+          "q": "Can I use handwriting recognition without downloading an app?",
+          "a": "Yes ,  NoteOCR runs entirely in your browser. No app download, no software installation, no plugin required. Just open the page, upload your image, and get results. Works on Chrome, Safari, Firefox, and Edge on any device including mobile."
+        },
+        "no_signup": {
+          "q": "Is there free handwriting recognition without signing up?",
+          "a": "Yes. You can try NoteOCR free without creating an account. Upload your handwritten image and get the recognised text instantly. For higher volume processing, exporting to Word or Excel, and batch uploads, a paid plan is available ,  but the core recognition is free to test."
+        },
+        "from_phone": {
+          "q": "Can I do handwriting recognition from a phone photo?",
+          "a": "Absolutely. Take a photo of your handwritten notes with your phone camera and upload it directly. Our AI handles the perspective correction, lighting enhancement, and noise removal automatically. For best results, hold your phone parallel to the paper and photograph in daylight rather than using flash."
+        },
+        "students": {
+          "q": "How does handwriting recognition help students?",
+          "a": "Students use it to digitise lecture notes after class, making them searchable and shareable. Instead of retyping pages of handwritten notes before an exam, you upload a photo and get editable text in under a minute. You can then search for specific terms, copy sections into essays, and share notes with classmates ,  all without retyping a single word."
+        },
+        "vs_google_lens": {
+          "q": "How is this different from Google Lens handwriting recognition?",
+          "a": "Google Lens is a general-purpose tool primarily optimised for printed text, signs, and product labels. Its handwriting accuracy averages 60–70% because handwriting recognition was not its core design goal. NoteOCR was built specifically for handwriting ,  trained exclusively on handwritten samples ,  which is why accuracy reaches 95–99% on the same documents Google Lens struggles with. NoteOCR also reconstructs document structure and exports to Word and Excel, which Google Lens cannot do."
+        },
+        "vs_adobe": {
+          "q": "Is NoteOCR better than Adobe for handwriting recognition?",
+          "a": "For handwriting specifically, yes. Adobe Acrobat's OCR is excellent for printed text and scanned documents but was not designed for handwriting. It regularly misreads cursive and connected script. NoteOCR is purpose-built for handwriting recognition and significantly outperforms Adobe on handwritten content. Adobe also requires a $20/month subscription; NoteOCR is free to try."
+        },
+        "formats": {
+          "q": "What file formats does the handwriting recognition accept?",
+          "a": "You can upload JPG, JPEG, PNG, and WEBP image files. PDF uploads are supported on paid plans. For multi-page documents, upload each page separately on the free plan. Maximum file size is 25MB per image."
+        },
+        "output_formats": {
+          "q": "What formats can I export the recognised text to?",
+          "a": "Recognised text can be exported as plain text (TXT), Microsoft Word document (DOCX), Microsoft Excel spreadsheet (XLSX) if the handwriting contains tables, and PDF. The export format available depends on your plan ,  TXT is available on the free tier, DOCX and XLSX require a Student plan or above."
+        },
+        "how_works": {
+          "q": "How does AI handwriting recognition actually work?",
+          "a": "Our AI uses convolutional neural networks to analyse your uploaded image. First it preprocesses the image ,  correcting skew, enhancing contrast, removing noise. Then layout analysis identifies document structure: lines, paragraphs, tables. Finally the neural network reads each line of text, using surrounding words as context to interpret ambiguous characters. The result is reconstructed into a properly formatted document preserving your original structure."
+        },
+        "languages": {
+          "q": "Which languages does the handwriting recognition support?",
+          "a": "NoteOCR supports 30+ languages including English, Spanish, French, German, Portuguese, Italian, Dutch, and more. For non-Latin scripts including Arabic, Chinese, Japanese, Hindi, and others, recognition is available but accuracy varies by script complexity and image quality."
+        },
+        "privacy": {
+          "q": "Is my handwritten content private when I upload it?",
+          "a": "Yes. All uploads are encrypted via SSL during transfer. Your images are processed in isolated secure containers and permanently deleted within 24 hours. We never use your handwritten content to train our models or share it with third parties. NoteOCR is privacy-first by design."
+        },
+        "historical": {
+          "q": "Can it recognise handwriting from old or historical documents?",
+          "a": "Yes, with caveats. NoteOCR handles aged paper, faded ink, and older handwriting styles reasonably well. However, very old scripts ,  18th century calligraphy, historical German Kurrent, or pre-modern scripts ,  may have lower accuracy. For modern handwriting (post-1900), performance is consistently high. We recommend testing a sample page on older documents before processing a full archive."
+        },
+        "doctor": {
+          "q": "Can it read doctors' handwriting?",
+          "a": "This is one of the most common use cases ,  and yes, our AI handles it. Doctor handwriting is notoriously difficult: fast, compressed, often cursive, and full of abbreviations. Our recognition engine was trained on challenging real-world samples including medical notes. Accuracy on doctor handwriting is typically 80–90% ,  lower than standard handwriting but significantly better than any generic OCR tool."
+        },
+        "whiteboard": {
+          "q": "Does it work on whiteboard photos?",
+          "a": "Yes. Whiteboard content ,  typically marker on white background ,  is actually easier for our AI than paper handwriting because the contrast is high and there is no paper texture interference. Upload a photo of a whiteboard session and the text will be recognised clearly. For best results avoid glare from overhead lights."
+        },
+        "batch": {
+          "q": "Can I process multiple handwritten pages at once?",
+          "a": "Batch processing is available on Professional and Power User plans. Free and Student plan users process one page at a time. For large archives ,  notebooks, multi-page forms, or bulk document digitisation ,  the Power User plan includes unlimited batch uploads with concurrent processing."
+        },
+        "accuracy_improve": {
+          "q": "How can I improve handwriting recognition accuracy?",
+          "a": "The single biggest factor is image quality. Photograph in bright, even light ,  natural daylight is best. Hold your camera parallel to the page, not at an angle. Make sure the entire page fills the frame. Avoid shadows across the text. For scanning, use 300 DPI or higher. If accuracy is still low, try increasing the contrast of the image before uploading using any free photo editor."
+        }
+      }
+    },
+
+    "cta_title": "Ready to Recognise Your Handwriting?",
+    "cta_subtitle": "Join 10,000+ students, researchers, and businesses who've stopped retyping handwritten content.",
+    "cta_button": "Try Handwriting Recognition Free",
+
+    "tool_info_1_title": "No App Needed",
+    "tool_info_1_desc": "Works in your browser. No download, no signup required to try.",
+    "tool_info_2_title": "Cursive & Messy Writing",
+    "tool_info_2_desc": "Trained on real handwriting ,  not adapted from a font OCR engine.",
+    "tool_info_3_title": "Word, Excel & Text Export",
+    "tool_info_3_desc": "Get your recognised text in the format you actually need."
+  },
+
+  "CursiveToTextPage": {
+    "meta_title": "Cursive to Text Converter Online | NoteOCR",
+    "meta_desc": "Convert cursive handwriting to typed text instantly. Our AI reads connected script, flowing loops, and joined-up writing with 95%+ accuracy. Free cursive OCR online.",
+
+    "hero_pill": "Cursive Handwriting OCR",
+    "hero_title": "Convert Cursive Writing to Text in Seconds.",
+    "hero_subtitle": "Upload a photo of any cursive handwriting notes, letters, journals, forms. Our AI decodes connected script and flowing loops that generic OCR tools can't touch. No app. No signup. Results in under 30 seconds.",
+
+    "trust_ssl": "SSL Encrypted",
+    "trust_processing": "Under 30 Seconds",
+    "trust_accuracy": "95%+ Cursive Accuracy",
+
+    "before_after_title": "Cursive Handwriting In. Clean Digital Text Out.",
+    "before_after_desc": "Real cursive sample, see exactly how our AI handles connected, flowing script.",
+    "before_label": "Before: Cursive Handwriting",
+    "after_label": "After: Converted Digital Text",
+
+    "use_cases_title": "Who Converts Cursive to Text?",
+    "use_cases_subtitle": "From family historians digitising old letters to students transcribing notes, cursive conversion saves hours of manual retyping every week.",
+
+    "use_case_1_title": "Old Letters & Family Documents",
+    "use_case_1_desc": "Convert grandparents' handwritten letters, old diaries, and personal journals into searchable digital text. Preserve family history without paying a professional transcriptionist.",
+
+    "use_case_2_title": "Student Cursive Notes",
+    "use_case_2_desc": "Many students still write lecture and revision notes in cursive. Photograph your notebook and get fully editable, searchable text within seconds, ready for revision documents and essays.",
+
+    "use_case_3_title": "Historical & Archival Documents",
+    "use_case_3_desc": "Digitise cursive-written records, estate documents, parish registers, and legal papers. Our AI handles older cursive styles including Victorian longhand and early 20th century script.",
+
+    "use_case_4_title": "Professional Cursive Forms",
+    "use_case_4_desc": "Field reports, signed intake forms, handwritten invoices, and patient notes written in cursive script, convert them to editable Word or Excel in one step.",
+
+    "comparison_title": "Cursive OCR: How Methods Stack Up",
+    "comparison_subtitle": "Cursive is where generic tools collapse. Here's why purpose-built AI is the only reliable option.",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Speed",
+    "comparison_col_accuracy": "Accuracy on Cursive",
+    "comparison_col_cost": "Cost",
+    "comparison_row1_method": "Manual retyping",
+    "comparison_row1_time": "60+ min/page",
+    "comparison_row1_accuracy": "100% (error-prone)",
+    "comparison_row1_cost": "Your time",
+    "comparison_row2_method": "Google Lens / Adobe OCR",
+    "comparison_row2_time": "Instant",
+    "comparison_row2_accuracy": "30–55% on cursive",
+    "comparison_row2_cost": "Free & Paid",
+    "comparison_row3_method": "NoteOCR Cursive Converter",
+    "comparison_row3_time": "Under 30 seconds",
+    "comparison_row3_accuracy": "90–98% on cursive",
+    "comparison_row3_cost": "Free to try",
+
+    "features_title": "Why Our Cursive Converter Is Different",
+    "features_subtitle": "Cursive-first AI, not a printed-text OCR tool with a cursive patch bolted on.",
+
+    "feature_1_title": "Reads Connected Letters Natively",
+    "feature_1_desc": "Standard OCR segments individual characters before reading them. Cursive breaks that entirely, letters connect and overlap. Our AI reads whole words and lines at once, the same way a human eye does, making connected script readable where other tools give up.",
+
+    "feature_2_title": "Handles Loops, Slant & Variation",
+    "feature_2_desc": "Every person's cursive is unique, different loop sizes, slant angles, and letter spacing. Our neural network was trained on millions of real cursive samples across dozens of writing styles, so it generalises to handwriting it has never seen before.",
+
+    "feature_3_title": "Exports to Word, Excel & Text",
+    "feature_3_desc": "Converted cursive text isn't dumped as an unformatted paragraph. We reconstruct document layout, paragraphs, lists, tables, and export directly to .docx, .xlsx, or plain .txt depending on what you need.",
+
+    "tech_title": "Why Cursive Is So Hard for OCR, And How We Solve It",
+    "tech_intro": "Standard OCR was engineered for printed text. Every assumption it makes, uniform character shapes, clear gaps between letters, consistent spacing, breaks completely with cursive writing. Cursive letters blend together. The same letter looks completely different depending on what comes before and after it. Slant varies line by line. Loops and tails cross other letters. Our AI takes a fundamentally different approach: instead of trying to isolate individual characters, it reads entire words and lines as visual patterns, the same strategy a fluent human reader uses when encountering joined-up script they've never seen before.",
+
+    "tech_detect_title": "What Our AI Handles",
+    "tech_detect_1": "Fully connected cursive where no letters are separated",
+    "tech_detect_2": "Mixed cursive and print on the same page",
+    "tech_detect_3": "Varying slant, right-leaning, left-leaning, and upright",
+    "tech_detect_4": "Decorative and personalised letterforms",
+    "tech_detect_5": "Older Victorian and early 20th century cursive styles",
+
+    "tech_tips_title": "Tips for Best Cursive Conversion",
+    "tech_tips_1": "Use natural daylight, avoid flash which flattens ink contrast",
+    "tech_tips_2": "Hold the camera flat above the page, not at an angle",
+    "tech_tips_3": "Ensure dark ink on light paper, avoid shadows across the text",
+    "tech_tips_4": "For very old documents, increase contrast in any photo editor first",
+    "tech_tips_5": "Always review output, even 95% accuracy means occasional corrections on longer pages",
+
+    "related_tools_title": "Related Tools",
+    "related_tool_1_name": "Handwriting to Word",
+    "related_tool_1_desc": "Convert notes to formatted .docx",
+    "related_tool_2_name": "Handwriting to Excel",
+    "related_tool_2_desc": "Extract handwritten tables to spreadsheets",
+    "related_tool_3_name": "Handwriting Recognition",
+    "related_tool_3_desc": "All handwriting styles, print, cursive, mixed",
+    "related_tool_4_name": "Scan Handwriting to Text",
+    "related_tool_4_desc": "From phone photo or PDF scan",
+
+    "faq_title": "Frequently Asked Questions About Cursive to Text Conversion",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "What is a cursive to text converter?",
+          "a": "A cursive to text converter is an AI tool that reads photographs or scans of cursive handwriting and converts the content into typed, editable digital text. Unlike standard OCR software which was built for printed fonts, a cursive converter uses neural networks trained specifically on joined-up and flowing script to interpret the connected letter shapes that define cursive writing."
+        },
+        "how_accurate": {
+          "q": "How accurate is AI cursive handwriting recognition?",
+          "a": "NoteOCR achieves 90–98% accuracy on clear, well-lit cursive handwriting. Very stylised personal cursive or heavily degraded paper may fall closer to 80–85%. For comparison, general-purpose OCR tools like Google Lens average only 30–55% on cursive because they were not designed for connected script. Always review the output before using it in critical documents."
+        },
+        "how_different_from_ocr": {
+          "q": "Why can't regular OCR software read cursive?",
+          "a": "Standard OCR works by isolating individual characters, matching them to known shapes, and assembling words. Cursive breaks this process entirely because letters connect and overlap, there are no clean boundaries between characters. A cursive converter uses a completely different architecture: it reads whole words and lines as visual patterns rather than individual letters, which is what makes connected script readable."
+        },
+        "joined_up_writing": {
+          "q": "Does it work on joined-up writing?",
+          "a": "Yes. Joined-up writing and cursive are the same thing ,  letters that connect without lifting the pen. This is precisely what our AI was trained on. Whether you call it joined-up writing, running writing, script, or longhand, our converter handles it. It works equally well on fully connected cursive and semi-cursive styles where some letters separate."
+        },
+        "old_cursive": {
+          "q": "Can it convert old-fashioned or Victorian cursive handwriting?",
+          "a": "Yes, with some caveats. Our AI handles older cursive styles including Victorian copperplate, early 20th century longhand, and formal script from historical letters and documents. Very archaic styles ,  17th or 18th century secretary hand or pre-modern scripts ,  may have lower accuracy. For post-1850 cursive, performance is consistently high. We recommend uploading a sample page to test before processing a full archive."
+        },
+        "personal_cursive": {
+          "q": "What if my cursive is very personal or unique?",
+          "a": "Personal cursive, where letters are highly stylised and specific to one writer  is the hardest case for any AI. Our model generalises well because it was trained on millions of different handwriting styles, not just standard school cursive. Accuracy on highly personalised writing typically sits at 80–90%. The more consistent the writing style across a page, the better the result."
+        },
+        "no_app": {
+          "q": "Can I convert cursive to text without downloading an app?",
+          "a": "Yes. NoteOCR runs entirely in your browser. No app, no software installation, no plugin. Upload your cursive image and get converted text immediately. Works on Chrome, Safari, Firefox, and Edge on desktop and mobile devices."
+        },
+        "free": {
+          "q": "Is there a free cursive to text converter online?",
+          "a": "Yes. NoteOCR is free to try. upload your cursive handwriting and get the converted text without creating an account. For higher volume conversions, Word and Excel export, and batch processing, paid plans are available. But the core cursive recognition is free to test on any image."
+        },
+        "phone_photo": {
+          "q": "Can I convert cursive from a phone photo?",
+          "a": "Absolutely. Take a photo of your cursive notes or letter with your phone camera and upload it directly. Our AI handles perspective correction, contrast enhancement, and noise removal automatically. For best results, photograph in daylight with the phone held flat above the page rather than at an angle."
+        },
+        "export_word": {
+          "q": "Can I export converted cursive text to Word?",
+          "a": "Yes. Converted cursive text can be exported as a Microsoft Word .docx file with paragraph structure and formatting preserved. This is available on Student plan and above. Plain text export is available on the free tier. Excel export is available when your cursive content contains tables or structured data."
+        },
+        "cursive_vs_print": {
+          "q": "Is cursive harder to convert than printed handwriting?",
+          "a": "Yes. cursive is significantly harder for AI than print. Printed handwriting has discrete, separated letters that are easier to segment and match. Cursive letters connect, overlap, and change shape depending on neighbouring letters. Our cursive converter was built specifically for this challenge, which is why it outperforms general handwriting tools on connected script."
+        },
+        "languages": {
+          "q": "Which languages does the cursive converter support?",
+          "a": "NoteOCR supports cursive recognition in 30+ languages including English, Spanish, French, German, Portuguese, Italian, and Dutch. Romance languages  which have particularly rich cursive traditions perform especially well. Arabic, Urdu, and Persian calligraphic script are also supported. For languages with non-Latin scripts, accuracy varies by image quality and script complexity."
+        },
+        "letters_journals": {
+          "q": "Can I use it to convert handwritten letters and journals to text?",
+          "a": "Yes. this is one of the most popular use cases. Upload a photograph of a handwritten letter, diary entry, or personal journal and get the full text in editable form within seconds. Many users digitise decades of family correspondence for archiving and sharing. The converter preserves paragraph breaks and page structure so the digital version reads naturally."
+        },
+        "historical_documents": {
+          "q": "Does it work on historical cursive documents and records?",
+          "a": "Yes, for modern historical documents  roughly 1850 onwards  accuracy is consistently high. Our AI handles faded ink, aged paper, and older cursive letterforms well. For earlier documents and specialised historical scripts, we recommend testing a sample first. The converter is used regularly for family history research, estate records, and parish registers."
+        },
+        "accuracy_tips": {
+          "q": "How do I improve cursive conversion accuracy?",
+          "a": "Image quality is the single biggest factor. Photograph in bright, even daylight ,  natural light is better than flash. Hold your camera or phone flat above the page to avoid keystoning. Make sure the ink contrasts clearly against the paper. For old or faded documents, increase the contrast using any free photo editor before uploading. Scanning at 300 DPI or higher also significantly improves results over phone photos."
+        },
+        "privacy": {
+          "q": "Is my cursive content kept private?",
+          "a": "Yes. All uploads are encrypted via SSL during transfer. Your images are processed in isolated secure containers and permanently deleted within 24 hours. We never use uploaded content to train our models and never share it with third parties. Personal letters, journals, and private documents are handled with full confidentiality."
+        },
+        "how_it_works": {
+          "q": "How does the cursive to text converter actually work?",
+          "a": "When you upload a cursive image, our AI runs three stages. First, image preprocessing ,  correcting skew, enhancing contrast, removing noise. Second, layout analysis ,  identifying lines, paragraphs, and document structure. Third, cursive recognition, a neural network reads each line of text as a visual sequence, using context from surrounding words to interpret ambiguous joined letters. The result is assembled back into a structured document preserving your original layout."
+        },
+        "batch": {
+          "q": "Can I convert multiple pages of cursive at once?",
+          "a": "Batch processing is available on Professional and Power User plans. Free and Student plan users process one page at a time. For large projects  full diaries, multi-letter archives, or bulk document digitisation  the Power User plan includes unlimited batch uploads with concurrent processing so you can convert an entire notebook in one session."
+        },
+        "vs_google": {
+          "q": "Is NoteOCR better than Google Docs or Google Lens for cursive?",
+          "a": "Significantly better for cursive specifically. Google Lens and Google Docs voice typing were designed for printed text and structured documents. On cursive handwriting, Google's tools typically achieve 30–55% accuracy  meaning nearly half the words come out wrong. NoteOCR was purpose-built for handwriting including cursive and achieves 90–98% on the same documents. It also exports to Word and Excel, which Google Lens cannot do."
+        },
+        "copperplate": {
+          "q": "Does it read copperplate and calligraphy-style cursive?",
+          "a": "Yes. Copperplate. the formal, highly decorated cursive used in historic correspondence and official documents are supported. The consistent letter shapes of copperplate actually perform well in our AI compared to messy personal cursive. Ornate calligraphic styles with heavy flourishes may occasionally confuse the recogniser, but standard copperplate from the 19th and early 20th centuries reads reliably."
+        }
+      }
+    },
+
+    "cta_title": "Ready to Convert Your Cursive Writing?",
+    "cta_subtitle": "Upload any cursive image, letters, journals, notes, forms and get clean, editable text in under 30 seconds.",
+    "cta_button": "Try Cursive to Text Free",
+
+    "tool_info_1_title": "No App Needed",
+    "tool_info_1_desc": "Runs in your browser. No download, no signup required to try.",
+    "tool_info_2_title": "Connected Script AI",
+    "tool_info_2_desc": "Built for cursive , not adapted from a print OCR engine.",
+    "tool_info_3_title": "Word, Excel & Text Export",
+    "tool_info_3_desc": "Get your converted text in the format you actually need."
+  },
+
+  "ScanHandwritingToText": {
+    "meta_title": "Scan Handwriting to Text Online | NoteOCR",
+    "meta_desc": "Scan handwritten notes to text instantly in your browser. No app download. Upload a phone photo or scanner image and get editable digital text in under 30 seconds.",
+
+    "hero_pill": "Online Handwriting Scanner",
+    "hero_title": "Scan Handwriting to Text. No App Required.",
+    "hero_subtitle": "Take a picture of any handwritten page with your phone, or upload a scan, and our AI converts it to clean editable text in under 30 seconds. No app to download. Works in any browser on any device.",
+
+    "trust_ssl": "SSL Encrypted",
+    "trust_processing": "Under 30 Seconds",
+    "trust_accuracy": "95%+ Scan Accuracy",
+
+    "before_after_title": "Scanned Handwriting In. Editable Digital Text Out.",
+    "before_after_desc": "Real scan result showing exactly how our AI processes a phone photo of handwritten notes.",
+    "before_label": "Before: Scanned Handwritten Page",
+    "after_label": "After: Clean Editable Text",
+
+    "use_cases_title": "Who Uses a Handwriting Scanner Online?",
+    "use_cases_subtitle": "Anyone with physical handwritten pages they need digitized fast uses this. No scanner hardware required, your phone camera is enough.",
+
+    "use_case_1_title": "Students Scanning Lecture Notes",
+    "use_case_1_desc": "Photograph entire notebook pages after class and get fully searchable, editable text within seconds. Stop retyping pages before exams and start actually revising instead.",
+
+    "use_case_2_title": "Field Notes and Site Reports",
+    "use_case_2_desc": "Engineers, surveyors, inspectors, and field workers scan handwritten site notes directly from their phone and have them in a shareable digital format before leaving the job site.",
+
+    "use_case_3_title": "Digitizing Paper Records and Forms",
+    "use_case_3_desc": "Patient intake forms, delivery receipts, timesheet records, inspection checklists written by hand - scan them and get structured editable text ready for copy-paste or export in one step.",
+
+    "use_case_4_title": "Personal Journals and Notebooks",
+    "use_case_4_desc": "Digitize personal diaries, recipe books, brainstorm pages, and handwritten planners with a single phone photo. Preserve years of physical notebooks as searchable digital text you can access anywhere.",
+
+    "comparison_title": "Online Handwriting Scanner: Options Compared",
+    "comparison_subtitle": "Most scanning tools make you install an app or tie you to a suscription before you get anything useful. NoteOCR does not.",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Speed",
+    "comparison_col_accuracy": "Accuracy on Handwriting",
+    "comparison_col_cost": "Cost",
+    "comparison_row1_method": "PenToPrint (mobile app)",
+    "comparison_row1_time": "Fast (app only)",
+    "comparison_row1_accuracy": "Good on clear writing",
+    "comparison_row1_cost": "App required, export locked behind paywall",
+    "comparison_row2_method": "Adobe Scan + Acrobat OCR",
+    "comparison_row2_time": "Moderate",
+    "comparison_row2_accuracy": "40-60% on handwriting",
+    "comparison_row2_cost": "$20/month subscription",
+    "comparison_row3_method": "NoteOCR Handwriting Scanner",
+    "comparison_row3_time": "Under 30 seconds",
+    "comparison_row3_accuracy": "95%+ on scanned handwriting",
+    "comparison_row3_cost": "Free to try, no app, one-time payment",
+
+    "features_title": "Why NoteOCR Is the Better Online Handwriting Scanner",
+    "features_subtitle": "Purpose-built for scanning handwritten pages, not a document scanner that tries to handle handwriting as an afterthought.",
+
+    "feature_1_title": "Your Phone Is the Scanner",
+    "feature_1_desc": "You do not need a flatbed scanner or any hardware. Take a photo of any handwritten page with your phone camera and upload it. Our AI corrects perspective, adjusts lighting, and removes shadows automatically so you get clean results from an imperfect photo.",
+
+    "feature_2_title": "Reads What Flatbed Scanners Cannot",
+    "feature_2_desc": "Standard document scanners and general OCR tools produce gibberish on handwriting because they were built for printed fonts. Our neural network was trained specifically on scanned handwriting samples across every writing style, so it reads what others cannot.",
+
+    "feature_3_title": "No App. No Account. No Waiting.",
+    "feature_3_desc": "Open the page in any browser, upload your scanned image, and get editable text back. No app store, no installation, no account creation, no waiting for confirmation emails. Works on iPhone, Android, Mac, Windows, and Chromebook identically.",
+
+    "tech_title": "How Scanning Handwriting to Text Actually Works",
+    "tech_intro": "When you upload a scanned handwriting image, whether it is a phone photo or a flatbed scan, our AI runs three stages automatically. First it preprocesses the image: corrects skew and rotation, enhances contrast, removes noise and shadows, and sharpens the ink against the paper. Second it runs layout analysis to identify where text lines, paragraphs, and structural elements sit on the page. Third the handwriting recognition engine reads each line as a visual sequence - not character by character like standard OCR, but word and phrase at a time using surrounding context to interpret ambiguous letters. The output is structured text that preserves your original paragraph and line breaks.",
+
+    "tech_detect_title": "What Our Scanner Handles",
+    "tech_detect_1": "Phone camera photos taken at slight angles - perspective corrected automatically",
+    "tech_detect_2": "Low-light and flash-washed images with automatic contrast enhancement",
+    "tech_detect_3": "Flatbed and document scanner output at 150 DPI and above",
+    "tech_detect_4": "Mixed handwriting styles on the same scanned page",
+    "tech_detect_5": "Crossed-out words, arrows, annotations, and marginal notes",
+
+    "tech_tips_title": "Scanning Tips for Best Results",
+    "tech_tips_1": "Hold your phone directly above the page, parallel to the paper, not at an angle",
+    "tech_tips_2": "Use natural daylight where possible - avoid flash which flattens ink contrast",
+    "tech_tips_3": "Make sure the full page is within the frame before capturing",
+    "tech_tips_4": "For flatbed scans, 300 DPI produces significantly better results than 150 DPI",
+    "tech_tips_5": "If ink is faded or paper is old, increase contrast in any photo editor before uploading",
+
+    "related_tools_title": "Related Tools",
+    "related_tool_1_name": "Handwriting Recognition",
+    "related_tool_1_desc": "Broad AI recognition for all handwriting styles",
+    "related_tool_2_name": "Handwriting to Word",
+    "related_tool_2_desc": "Export scanned notes directly to .docx",
+    "related_tool_3_name": "Cursive to Text",
+    "related_tool_3_desc": "Specialist scanner for joined-up cursive writing",
+    "related_tool_4_name": "Handwriting to Excel",
+    "related_tool_4_desc": "Scan handwritten tables into spreadsheets",
+
+    "faq_title": "Frequently Asked Questions About Scanning Handwriting to Text",
+
+    "FAQ": {
+      "items": {
+        "what_is": {
+          "q": "What does scan handwriting to text mean?",
+          "a": "Scanning handwriting to text means taking a physical handwritten page, photographing or scanning it into an image, and then using AI to read the handwriting and convert it to typed digital text you can edit, search, copy, and share. The scan can come from a phone camera, a flatbed scanner, or any device that produces a JPG, PNG, or WEBP image. The result is editable text in the same structure as the original handwritten page."
+        },
+        "no_app": {
+          "q": "Can I scan handwriting to text online without an app?",
+          "a": "Yes. NoteOCR runs entirely in your web browser. There is no app to download, no software to install, and no plugin required. This is a direct advantage over tools like PenToPrint which are primarily mobile apps and lock key features like text export behind a paid subscription. Open NoteOCR in any browser on any device, upload your handwriting photo, and get text back without installing anything."
+        },
+        "free_no_signup": {
+          "q": "Is there a free online handwriting scanner that does not require signup?",
+          "a": "Yes. You can scan handwritten images and get the converted text on NoteOCR without creating an account. Upload your image and the text comes back immediately. Free accounts also exist for users who want to save and manage their scanned documents. Paid plans unlock higher volume scanning, Word and Excel export, and batch processing but the core scan-to-text feature is free to try on any image."
+        },
+        "phone_camera": {
+          "q": "Can I scan handwriting to text from a phone camera photo?",
+          "a": "Yes - phone camera photos are the most common upload on NoteOCR. You do not need a flatbed scanner. Take a photo of any handwritten page and upload it directly. Our AI automatically corrects perspective, adjusts for uneven lighting, removes shadows, and sharpens the image before running handwriting recognition. For best results hold the phone flat above the page and shoot in daylight rather than using flash."
+        },
+        "vs_pentoprint": {
+          "q": "How is NoteOCR different from PenToPrint for scanning handwriting?",
+          "a": "The main difference is that NoteOCR works entirely in your browser with no app required, and lets you export text without a paid subscription. PenToPrint is primarily a mobile app that requires installation and locks text export behind a paywall - users on the App Store and Google Play widely report that the free tier does almost nothing useful without paying. NoteOCR also handles web-based batch uploads on paid plans while PenToPrint requires their desktop app for high-volume work."
+        },
+        "vs_adobe": {
+          "q": "Is NoteOCR better than Adobe Scan for handwriting?",
+          "a": "For handwriting recognition specifically, yes. Adobe Scan and Adobe Acrobat's OCR are excellent for printed text and typed documents but were not built for handwriting. Adobe's tools regularly fail on cursive, messy writing, and non-uniform scripts, typically achieving 40-60% accuracy on handwriting. NoteOCR was trained specifically on handwriting samples and achieves 95% or above on the same scanned pages. Adobe also requires an Acrobat subscription at $20 per month; NoteOCR is free to try."
+        },
+        "flatbed_scanner": {
+          "q": "Can I upload output from a flatbed scanner?",
+          "a": "Yes. If you already have a flatbed or document scanner, scan your handwritten pages as JPG or PNG files and upload them directly. Flatbed scans at 300 DPI or higher produce the best results because the resolution is higher and the image is perfectly flat without perspective distortion. If you do not have a scanner, a phone camera in good lighting produces comparable results."
+        },
+        "scan_pdf": {
+          "q": "Can I scan a handwritten PDF to text?",
+          "a": "PDF uploads are supported on paid plans. If your handwritten pages are already compiled into a scanned PDF from a document scanner or a scanning app, you can upload the PDF directly and have all pages converted to text in one session. On the free tier, extract individual pages from your PDF as PNG or JPG images and upload them one at a time."
+        },
+        "scan_lecture_notes": {
+          "q": "How do I scan lecture notes to text?",
+          "a": "Take a photo of each notebook page after your lecture and upload it to NoteOCR. The AI reads the handwriting and returns editable text within 30 seconds per page. You can then copy the text into your study document, search for specific terms, or paste it into your notes app. This replaces retyping entire pages and turns a one-hour transcription job into a two-minute scan session. For multi-page lecture notes, batch upload is available on paid plans."
+        },
+        "scan_field_notes": {
+          "q": "Can I scan handwritten field notes and site reports to text?",
+          "a": "Yes. Field notes are one of the most practical use cases for a handwriting scanner. Engineers, construction supervisors, environmental surveyors, and site inspectors scan paper field notes from their phone on-site and have editable digital text ready to paste into reports before they even drive back to the office. NoteOCR handles the kind of handwriting that appears in real working conditions - rushed notes, abbreviated terms, mixed print and cursive on the same page."
+        },
+        "messy_handwriting": {
+          "q": "Does the scanner work on messy or rushed handwriting?",
+          "a": "Yes. Messy handwriting is the primary challenge our AI was built to handle. Standard OCR and document scanners fail on anything that deviates from clean printed fonts. Our neural network was trained on real handwriting samples including rushed notes, inconsistent sizing, crossed-out words, and heavy compression - the kinds of writing that appear when people write quickly. Accuracy on messy handwriting is typically 85-92% depending on how extreme the style is."
+        },
+        "accuracy": {
+          "q": "How accurate is scanning handwriting to text?",
+          "a": "NoteOCR achieves 95-99% accuracy on clear, well-lit scanned handwriting. Messy or rushed handwriting typically comes in at 85-92%. These figures are significantly higher than general-purpose scanning tools like Google Docs, Adobe Acrobat, and Google Keep, which average 40-65% on handwriting because they were not designed for it. Always review the output before using it in final documents."
+        },
+        "formats_accepted": {
+          "q": "What file formats can I upload for handwriting scanning?",
+          "a": "You can upload JPG, JPEG, PNG, and WEBP image files on all plans. PDF uploads are supported on paid plans. Maximum file size is 25MB per image. For best results, use the highest resolution your phone camera or scanner produces. Most modern smartphone cameras produce more than enough resolution for accurate handwriting recognition."
+        },
+        "export_options": {
+          "q": "What formats can I export scanned handwriting to?",
+          "a": "Scanned text can be exported as plain text (TXT) on the free tier. Word document (.docx) and Excel spreadsheet (.xlsx) export are available on Student plan and above. If your scanned page contains tables or structured data, the Excel export will preserve that structure. PDF export is also available on higher plans for users who want a searchable PDF version of their scanned document."
+        },
+        "scan_old_documents": {
+          "q": "Can I scan and digitize old handwritten documents?",
+          "a": "Yes. NoteOCR handles aged paper, faded ink, and older handwriting styles well. Users regularly scan old letters, journals, estate records, and family correspondence dating back decades. For very old documents with extremely faded ink or damaged paper, improving the contrast in a free photo editor before uploading increases accuracy significantly. Documents from roughly 1850 onwards work reliably. Pre-modern scripts with archaic letterforms may have lower accuracy."
+        },
+        "scan_notebook": {
+          "q": "Can I scan an entire notebook to text?",
+          "a": "Yes. On paid plans, batch upload lets you scan and upload an entire notebook in one session with concurrent processing. On the free plan, each page is processed individually. For a full notebook digitization project, the Power User plan is the most efficient option - it includes unlimited batch processing so you can scan every page and get all text back in a single workflow rather than uploading one page at a time."
+        },
+        "batch": {
+          "q": "Can I scan multiple handwritten pages at once?",
+          "a": "Batch scanning is available on Professional and Power User plans. You can upload multiple scanned images or a multi-page PDF in one session and receive text for all pages together. Free and Student plan users process one page at a time. For large archive digitization projects, the Power User plan includes concurrent batch processing for maximum speed."
+        },
+        "privacy": {
+          "q": "Is my scanned handwriting kept private?",
+          "a": "Yes. All uploads are encrypted via SSL during transfer. Scanned images are processed in isolated secure environments and permanently deleted within 24 hours. We never use your scanned content to train our models and never share it with third parties. Personal letters, private notebooks, medical forms, and confidential field reports are all handled with full privacy protection."
+        },
+        "scan_forms": {
+          "q": "Can it scan handwritten forms and extract the data?",
+          "a": "Yes. Handwritten forms - patient intake records, delivery receipts, survey responses, HR checklists - are a primary use case. Upload a photo of the completed form and the AI extracts all handwritten entries as editable text. For structured forms where data needs to go directly into a spreadsheet, the Excel export feature maps extracted data into columns automatically."
+        },
+        "how_different_from_photo": {
+          "q": "What is the difference between this and a photo-to-text tool?",
+          "a": "A photo-to-text tool converts any image containing text - including printed documents, screenshots, and signs - into text using standard OCR. A handwriting scanner is specifically optimised for the unique challenges of hand-written content: connected letters, variable sizing, inconsistent spacing, and personal writing styles that standard OCR cannot read. NoteOCR is trained specifically on handwriting, which is why accuracy on scanned handwriting is 95% or above compared to 40-65% from general photo-to-text tools."
+        },
+        "improve_accuracy": {
+          "q": "How can I improve the accuracy of my handwriting scans?",
+          "a": "The biggest factor is image quality. Photograph in bright, even daylight rather than artificial light. Hold your phone directly above the page, parallel to the paper, to avoid perspective distortion. Make sure the entire page fills the frame. Avoid shadows falling across the text. For flatbed scans, use 300 DPI or higher. If the paper is old or the ink is faint, increase the contrast of the image in any free photo editor before uploading."
+        }
+      }
+    },
+
+    "cta_title": "Ready to Scan Your Handwriting to Text?",
+    "cta_subtitle": "Upload any phone photo or scanner image of handwritten notes and get editable text back in under 30 seconds. No app. No account required.",
+    "cta_button": "Scan Handwriting to Text Free",
+
+    "tool_info_1_title": "No App Needed",
+    "tool_info_1_desc": "Works in your browser on any device. No download, no signup to try.",
+    "tool_info_2_title": "Phone Camera Ready",
+    "tool_info_2_desc": "Take a picture of any page and upload it directly. No scanner hardware required.",
+    "tool_info_3_title": "Word, Excel and Text Export",
+    "tool_info_3_desc": "Get your scanned text in the format you actually need."
   }
 }
