@@ -21,6 +21,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/pricing",
         fr: "https://noteocr.com/fr/pricing",
         "pt-br": "https://noteocr.com/pt-br/pricing",
+        da: "https://noteocr.com/da/pricing",
+        fi: "https://noteocr.com/fi/pricing",
+        it: "https://noteocr.com/it/pricing",
+        nl: "https://noteocr.com/nl/pricing",
+        no: "https://noteocr.com/no/pricing",
+        sv: "https://noteocr.com/sv/pricing",
       },
     },
     openGraph: {

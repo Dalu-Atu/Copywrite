@@ -12,17 +12,23 @@ export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
 
   // Your 8 languages and their display names
-  const languages = [
-    { code: "en", name: "English", flag: "🇺🇸" },
-    { code: "es", name: "Español", flag: "🇪🇸" },
-    { code: "tr", name: "Türkçe", flag: "🇹🇷" },
-    { code: "zh", name: "中文", flag: "🇨🇳" },
-    { code: "hi", name: "हिन्दी", flag: "🇮🇳" },
-    { code: "de", name: "Deutsch", flag: "🇩🇪" },
-    { code: "ja", name: "日本語", flag: "🇯🇵" },
-    { code: "pt-br", name: "Português", flag: "🇧🇷" },
-    { code: "fr", name: "French", flag: "🇫🇷" },
-  ];
+const languages = [
+  { code: "en", name: "English", flag: "🇺🇸" },
+  { code: "es", name: "Español", flag: "🇪🇸" },
+  { code: "tr", name: "Türkçe", flag: "🇹🇷" },
+  { code: "zh", name: "中文", flag: "🇨🇳" },
+  { code: "hi", name: "हिन्दी", flag: "🇮🇳" },
+  { code: "de", name: "Deutsch", flag: "🇩🇪" },
+  { code: "ja", name: "日本語", flag: "🇯🇵" },
+  { code: "pt-br", name: "Português", flag: "🇧🇷" },
+  { code: "fr", name: "Français", flag: "🇫🇷" },
+  { code: "da", name: "Dansk", flag: "🇩🇰" },
+  { code: "fi", name: "Suomi", flag: "🇫🇮" },
+  { code: "it", name: "Italiano", flag: "🇮🇹" },
+  { code: "nl", name: "Nederlands", flag: "🇳🇱" },
+  { code: "no", name: "Norsk", flag: "🇳🇴" },
+  { code: "sv", name: "Svenska", flag: "🇸🇪" },
+];
 
   const handleLanguageChange = (newLocale) => {
     // Remove the current locale from the start of the pathname

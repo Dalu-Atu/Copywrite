@@ -48,6 +48,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/photo-to-word",
         fr: "https://noteocr.com/fr/photo-to-word",
         "pt-br": "https://noteocr.com/pt-br/photo-to-word",
+        da: "https://noteocr.com/da/photo-to-word",
+        fi: "https://noteocr.com/fi/photo-to-word",
+        it: "https://noteocr.com/it/photo-to-word",
+        nl: "https://noteocr.com/nl/photo-to-word",
+        no: "https://noteocr.com/no/photo-to-word",
+        sv: "https://noteocr.com/sv/photo-to-word",
       },
     },
     openGraph: {

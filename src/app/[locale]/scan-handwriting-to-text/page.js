@@ -45,6 +45,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/scan-handwriting-to-text",
         fr: "https://noteocr.com/fr/scan-handwriting-to-text",
         "pt-br": "https://noteocr.com/pt-br/scan-handwriting-to-text",
+        da: "https://noteocr.com/da/scan-handwriting-to-text",
+        fi: "https://noteocr.com/fi/scan-handwriting-to-text",
+        it: "https://noteocr.com/it/scan-handwriting-to-text",
+        nl: "https://noteocr.com/nl/scan-handwriting-to-text",
+        no: "https://noteocr.com/no/scan-handwriting-to-text",
+        sv: "https://noteocr.com/sv/scan-handwriting-to-text",
       },
     },
     openGraph: {

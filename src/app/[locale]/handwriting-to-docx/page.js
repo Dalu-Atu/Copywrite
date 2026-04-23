@@ -48,6 +48,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/handwriting-to-docx",
         fr: "https://noteocr.com/fr/handwriting-to-docx",
         "pt-br": "https://noteocr.com/pt-br/handwriting-to-docx",
+        da: "https://noteocr.com/da/handwriting-to-docx",
+        fi: "https://noteocr.com/fi/handwriting-to-docx",
+        it: "https://noteocr.com/it/handwriting-to-docx",
+        nl: "https://noteocr.com/nl/handwriting-to-docx",
+        no: "https://noteocr.com/no/handwriting-to-docx",
+        sv: "https://noteocr.com/sv/handwriting-to-docx",
       },
     },
     openGraph: {

@@ -43,6 +43,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/edit-pdf",
         fr: "https://noteocr.com/fr/edit-pdf",
         "pt-br": "https://noteocr.com/pt-br/edit-pdf",
+        da: "https://noteocr.com/da/edit-pdf",
+        fi: "https://noteocr.com/fi/edit-pdf",
+        it: "https://noteocr.com/it/edit-pdf",
+        nl: "https://noteocr.com/nl/edit-pdf",
+        no: "https://noteocr.com/no/edit-pdf",
+        sv: "https://noteocr.com/sv/edit-pdf",
       },
     },
     openGraph: {

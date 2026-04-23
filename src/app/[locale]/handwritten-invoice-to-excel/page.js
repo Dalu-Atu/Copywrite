@@ -45,6 +45,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/handwritten-invoice-to-excel",
         fr: "https://noteocr.com/fr/handwritten-invoice-to-excel",
         "pt-br": "https://noteocr.com/pt-br/handwritten-invoice-to-excel",
+        da: "https://noteocr.com/da/handwritten-invoice-to-excel",
+        fi: "https://noteocr.com/fi/handwritten-invoice-to-excel",
+        it: "https://noteocr.com/it/handwritten-invoice-to-excel",
+        nl: "https://noteocr.com/nl/handwritten-invoice-to-excel",
+        no: "https://noteocr.com/no/handwritten-invoice-to-excel",
+        sv: "https://noteocr.com/sv/handwritten-invoice-to-excel",
       },
     },
     openGraph: {

@@ -8,7 +8,23 @@ const config = {
   outDir: "public",
 
   additionalPaths: async (config) => {
-    const locales = ["en", "tr", "es", "zh", "hi", "fr", "de", "ja", "pt-br"];
+    const locales = [
+      "en",
+      "tr",
+      "es",
+      "zh",
+      "hi",
+      "fr",
+      "de",
+      "ja",
+      "pt-br",
+      "da",
+      "fi",
+      "it",
+      "nl",
+      "no",
+      "sv",
+    ];
 
     // 1. ALL BASE ROUTES (Mapped from your VS Code Sidebar)
     const basePages = [
@@ -17,13 +33,23 @@ const config = {
       "/blog",
       "/careers",
       "/contact",
+      "/cursive-to-text",
       "/docs",
       "/edit-pdf",
+      "/handwriting-recognition",
       "/handwriting-to-docx",
       "/handwriting-to-excel",
+      "/handwritten-inventory-to-excel",
+      "/handwritten-invoice-to-excel",
+      "/handwritten-timesheet-to-excel",
+      "/jpg-to-word",
       "/online-editor",
+      "/photo-to-word",
+      "/pic-to-excel",
       "/pricing",
       "/privacy",
+      "/scan-handwriting-to-text",
+      "/scan-to-word",
       "/solutions",
       "/solutions/business",
       "/solutions/education",
@@ -54,12 +80,28 @@ const config = {
   },
 
   transform: async (config, path) => {
-    const locales = ["en", "tr", "es", "zh", "hi", "de", "ja", "fr", "pt-br"];
+    const locales = [
+      "en",
+      "tr",
+      "es",
+      "zh",
+      "hi",
+      "de",
+      "ja",
+      "fr",
+      "pt-br",
+      "da",
+      "fi",
+      "it",
+      "nl",
+      "no",
+      "sv",
+    ];
 
     // Clean the path to find the "base" version for alternate refs
     const cleanPath = path.replace(
-      /^\/(en|tr|es|zh|hi|de|fr|ja|pt-br)(\/|$)/,
-      "/"
+      /^\/(en|tr|es|zh|hi|de|fr|fi|it|nl|no|sv|da|ja|pt-br)(\/|$)/,
+      "/",
     );
     const normalizedPath = cleanPath === "/" ? "" : cleanPath;
 

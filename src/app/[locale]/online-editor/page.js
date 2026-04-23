@@ -41,6 +41,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/online-editor",
         fr: "https://noteocr.com/fr/online-editor",
         "pt-br": "https://noteocr.com/pt-br/online-editor",
+        da: "https://noteocr.com/da/online-editor",
+        fi: "https://noteocr.com/fi/online-editor",
+        it: "https://noteocr.com/it/online-editor",
+        nl: "https://noteocr.com/nl/online-editor",
+        no: "https://noteocr.com/no/online-editor",
+        sv: "https://noteocr.com/sv/online-editor",
       },
     },
     openGraph: {

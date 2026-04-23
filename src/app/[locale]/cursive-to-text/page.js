@@ -45,6 +45,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/cursive-to-text",
         fr: "https://noteocr.com/fr/cursive-to-text",
         "pt-br": "https://noteocr.com/pt-br/cursive-to-text",
+        da: "https://noteocr.com/da/cursive-to-text",
+        fi: "https://noteocr.com/fi/cursive-to-text",
+        it: "https://noteocr.com/it/cursive-to-text",
+        nl: "https://noteocr.com/nl/cursive-to-text",
+        no: "https://noteocr.com/no/cursive-to-text",
+        sv: "https://noteocr.com/sv/cursive-to-text",
       },
     },
     openGraph: {

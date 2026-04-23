@@ -48,6 +48,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/scan-to-word",
         fr: "https://noteocr.com/fr/scan-to-word",
         "pt-br": "https://noteocr.com/pt-br/scan-to-word",
+        da: "https://noteocr.com/da/scan-to-word",
+        fi: "https://noteocr.com/fi/scan-to-word",
+        it: "https://noteocr.com/it/scan-to-word",
+        nl: "https://noteocr.com/nl/scan-to-word",
+        no: "https://noteocr.com/no/scan-to-word",
+        sv: "https://noteocr.com/sv/scan-to-word",
       },
     },
     openGraph: {
@@ -89,18 +95,18 @@ export default async function ScanToWord({ params }) {
     },
   ];
 
- const faqItems = [
-   "how_to_convert_scan",
-   "mobile_scanner_apps",
-   "crooked_scans",
-   "faded_ink",
-   "scanned_signatures",
-   "best_dpi",
-   "mac_compatibility",
-   "privacy_confidentiality",
-   "edit_in_word",
-   "multiple_languages",
- ];
+  const faqItems = [
+    "how_to_convert_scan",
+    "mobile_scanner_apps",
+    "crooked_scans",
+    "faded_ink",
+    "scanned_signatures",
+    "best_dpi",
+    "mac_compatibility",
+    "privacy_confidentiality",
+    "edit_in_word",
+    "multiple_languages",
+  ];
 
   const jsonLd = {
     "@context": "https://schema.org",

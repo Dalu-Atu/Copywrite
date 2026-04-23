@@ -45,6 +45,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/handwritten-inventory-to-excel",
         fr: "https://noteocr.com/fr/handwritten-inventory-to-excel",
         "pt-br": "https://noteocr.com/pt-br/handwritten-inventory-to-excel",
+        da: "https://noteocr.com/da/handwritten-inventory-to-excel",
+        fi: "https://noteocr.com/fi/handwritten-inventory-to-excel",
+        it: "https://noteocr.com/it/handwritten-inventory-to-excel",
+        nl: "https://noteocr.com/nl/handwritten-inventory-to-excel",
+        no: "https://noteocr.com/no/handwritten-inventory-to-excel",
+        sv: "https://noteocr.com/sv/handwritten-inventory-to-excel",
       },
     },
     openGraph: {
@@ -59,46 +65,45 @@ export default async function InventoryToExcel({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "InventoryToExcel" });
 
-   const relatedTools = [
-     {
-       name: t("related_tool_1_name"),
-       desc: t("related_tool_1_desc"),
-       icon: <FileText className="w-5 h-5" />,
-       link: `/${locale}/handwritten-invoice-to-excel`,
-     },
-     {
-       name: t("related_tool_2_name"),
-       desc: t("related_tool_2_desc"),
-       icon: <Notebook className="w-5 h-5" />,
-       link: `/${locale}/handwritten-inventory-to-excel`,
-     },
-     {
-       name: t("related_tool_3_name"),
-       desc: t("related_tool_3_desc"),
-       icon: <FileSpreadsheet className="w-5 h-5" />,
-       link: `/${locale}/scan-to-word`,
-     },
-     {
-       name: t("related_tool_4_name"),
-       desc: t("related_tool_4_desc"),
-       icon: <Text className="w-5 h-5" />,
-       link: `/${locale}/`,
-     },
-   ];
- 
+  const relatedTools = [
+    {
+      name: t("related_tool_1_name"),
+      desc: t("related_tool_1_desc"),
+      icon: <FileText className="w-5 h-5" />,
+      link: `/${locale}/handwritten-invoice-to-excel`,
+    },
+    {
+      name: t("related_tool_2_name"),
+      desc: t("related_tool_2_desc"),
+      icon: <Notebook className="w-5 h-5" />,
+      link: `/${locale}/handwritten-inventory-to-excel`,
+    },
+    {
+      name: t("related_tool_3_name"),
+      desc: t("related_tool_3_desc"),
+      icon: <FileSpreadsheet className="w-5 h-5" />,
+      link: `/${locale}/scan-to-word`,
+    },
+    {
+      name: t("related_tool_4_name"),
+      desc: t("related_tool_4_desc"),
+      icon: <Text className="w-5 h-5" />,
+      link: `/${locale}/`,
+    },
+  ];
 
-const faqItems = [
-  "how_to_convert_inventory",
-  "messy_warehouse_writing",
-  "sku_recognition",
-  "pos_integration",
-  "blank_paper_lists",
-  "tallies_and_tick_marks",
-  "multiple_clipboard_pages",
-  "is_inventory_tool_free",
-  "data_security_inventory",
-  "crossouts_corrections",
-];
+  const faqItems = [
+    "how_to_convert_inventory",
+    "messy_warehouse_writing",
+    "sku_recognition",
+    "pos_integration",
+    "blank_paper_lists",
+    "tallies_and_tick_marks",
+    "multiple_clipboard_pages",
+    "is_inventory_tool_free",
+    "data_security_inventory",
+    "crossouts_corrections",
+  ];
 
   const jsonLd = {
     "@context": "https://schema.org",

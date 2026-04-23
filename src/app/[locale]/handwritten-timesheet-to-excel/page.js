@@ -26,9 +26,12 @@ import {
 
 import { getTranslations } from "next-intl/server";
 
-export async function generateMetadata({ params }) { 
+export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "HandwrittenTimesheet" });
+  const t = await getTranslations({
+    locale,
+    namespace: "HandwrittenTimesheet",
+  });
 
   return {
     title: t("meta_title"),
@@ -45,6 +48,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/handwritten-timesheet-to-excel",
         fr: "https://noteocr.com/fr/handwritten-timesheet-to-excel",
         "pt-br": "https://noteocr.com/pt-br/handwritten-timesheet-to-excel",
+        da: "https://noteocr.com/da/handwritten-timesheet-to-excel",
+        fi: "https://noteocr.com/fi/handwritten-timesheet-to-excel",
+        it: "https://noteocr.com/it/handwritten-timesheet-to-excel",
+        nl: "https://noteocr.com/nl/handwritten-timesheet-to-excel",
+        no: "https://noteocr.com/no/handwritten-timesheet-to-excel",
+        sv: "https://noteocr.com/sv/handwritten-timesheet-to-excel",
       },
     },
     openGraph: {
@@ -55,9 +64,12 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function HandwritingInvoiceToExcel({ params }) { 
+export default async function HandwritingInvoiceToExcel({ params }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "HandwrittenTimesheet" });
+  const t = await getTranslations({
+    locale,
+    namespace: "HandwrittenTimesheet",
+  });
 
   const relatedTools = [
     {
@@ -86,18 +98,18 @@ export default async function HandwritingInvoiceToExcel({ params }) {
     },
   ];
 
- const faqItems = [
-   "how_to_convert_timesheet",
-   "messy_employee_writing",
-   "calculating_hours",
-   "payroll_software",
-   "time_formats",
-   "multiple_employees",
-   "is_timesheet_tool_free",
-   "data_security_payroll",
-   "smudged_timecards",
-   "blank_paper_timesheets",
- ];
+  const faqItems = [
+    "how_to_convert_timesheet",
+    "messy_employee_writing",
+    "calculating_hours",
+    "payroll_software",
+    "time_formats",
+    "multiple_employees",
+    "is_timesheet_tool_free",
+    "data_security_payroll",
+    "smudged_timecards",
+    "blank_paper_timesheets",
+  ];
 
   const jsonLd = {
     "@context": "https://schema.org",

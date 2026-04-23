@@ -45,6 +45,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/handwriting-recognition",
         fr: "https://noteocr.com/fr/handwriting-recognition",
         "pt-br": "https://noteocr.com/pt-br/handwriting-recognition",
+        da: "https://noteocr.com/da/handwriting-recognition",
+        fi: "https://noteocr.com/fi/handwriting-recognition",
+        it: "https://noteocr.com/it/handwriting-recognition",
+        nl: "https://noteocr.com/nl/handwriting-recognition",
+        no: "https://noteocr.com/no/handwriting-recognition",
+        sv: "https://noteocr.com/sv/handwriting-recognition",
       },
     },
     openGraph: {

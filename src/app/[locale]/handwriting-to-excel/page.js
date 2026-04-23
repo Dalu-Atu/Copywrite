@@ -45,6 +45,12 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/handwriting-to-excel",
         fr: "https://noteocr.com/fr/handwriting-to-excel",
         "pt-br": "https://noteocr.com/pt-br/handwriting-to-excel",
+        da: "https://noteocr.com/da",
+        fi: "https://noteocr.com/fi/handwriting-to-excel",
+        it: "https://noteocr.com/it/handwriting-to-excel",
+        nl: "https://noteocr.com/nl/handwriting-to-excel",
+        no: "https://noteocr.com/no/handwriting-to-excel",
+        sv: "https://noteocr.com/sv/handwriting-to-excel",
       },
     },
     openGraph: {
