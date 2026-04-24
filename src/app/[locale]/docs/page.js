@@ -1,45 +1,60 @@
 import DocsPage from "../../ui/DocsPage";
+import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 
-// Dynamic metadata generation for SEO
-export async function generateMetadata({ params: { locale } }) {
-  const t = await getTranslations({ locale, namespace: "DocsPage.meta" });
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "DocsPage" });
 
   return {
-    title: t("title"),
-    description: t("description"),
+    title: t("meta_title"),
+    description: t("meta_desc"),
     alternates: {
-      // Helps Google understand localized versions of the same content
       canonical: `https://noteocr.com/${locale}/docs`,
       languages: {
-        "en-US": "https://noteocr.com/en/docs",
-        "fr-FR": "https://noteocr.com/fr/docs",
-        "ja-JP": "https://noteocr.com/ja/docs",
+        en: "https://noteocr.com/en/docs",
+        es: "https://noteocr.com/es/docs",
+        tr: "https://noteocr.com/tr/docs",
+        zh: "https://noteocr.com/zh/docs",
+        hi: "https://noteocr.com/hi/docs",
+        de: "https://noteocr.com/de/docs",
+        ja: "https://noteocr.com/ja/docs",
+        fr: "https://noteocr.com/fr/docs",
+        "pt-br": "https://noteocr.com/pt-br/docs",
+        da: "https://noteocr.com/da/docs",
+        fi: "https://noteocr.com/fi/docs",
+        it: "https://noteocr.com/it/docs",
+        nl: "https://noteocr.com/nl/docs",
+        no: "https://noteocr.com/no/docs",
+        sv: "https://noteocr.com/sv/docs",
       },
     },
     openGraph: {
-      title: t("title"),
-      description: t("description"),
+      title: t("og_title"),
+      description: t("og_desc"),
       url: `https://noteocr.com/${locale}/docs`,
-      siteName: "NoteOCR",
-      images: [
-        {
-          url: "https://noteocr.com/og-docs.png", // Create a dedicated OG image for docs
-          width: 1200,
-          height: 630,
-        },
-      ],
-      locale: locale,
       type: "article",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: t("title"),
-      description: t("description"),
     },
   };
 }
 
 export default function Docs() {
-  return <DocsPage />;
+  const t = useTranslations("DocsPage");
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            headline: t("meta_title"),
+            description: t("meta_desc"),
+            url: `https://noteocr.com/${t("locale")}/docs`,
+          }),
+        }}
+      />
+      <DocsPage />
+    </>
+  );
 }
