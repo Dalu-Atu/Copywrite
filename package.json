@@ -16,7 +16,7 @@
     "@emotion/react": "^11.14.0",
     "@formatjs/intl-localematcher": "^0.7.3",
     "@mdx-js/loader": "^3.1.0",
-    "@next/bundle-analyzer": "^15.2.2",
+    "@next/bundle-analyzer": "^15.5.15",
     "@next/mdx": "^15.1.7",
     "@tanstack/react-query": "^5.90.16",
     "@vercel/analytics": "^1.5.0",

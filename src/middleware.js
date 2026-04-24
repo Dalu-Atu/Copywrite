@@ -1,10 +1,9 @@
 import createMiddleware from "next-intl/middleware";
-import { routing } from "./i18n/routing";
+import { routing } from "./i18n/config"; // Point to the NEW light file
 
 export default createMiddleware(routing);
 
 export const config = {
-  // Update the middle group to include all your locale codes
   matcher: [
     "/",
     "/(en|tr|es|pt-br|zh|hi|fi|it|nl|no|sv|da|fr|de|ja)/:path*",
