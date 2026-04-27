@@ -701,7 +701,23 @@
           "a": "Esatto. Hai solo bisogno di un moderno browser web (Chrome, Firefox, Safari, Edge). Nessuna installazione e nessun plugin richiesto."
         }
       }
-    }
+    },
+    "router_pre_title": "Prima di caricare",
+    "router_title": "Che tipo di documento hai?",
+    "router_subtitle": "Ti indirizzeremo allo strumento giusto per ottenere il miglior risultato.",
+    "router_back_button": "Torna al tipo di documento",
+
+    "router_type_standard_label": "PDF Standard / Digitale",
+    "router_type_standard_desc": "Contratti digitati, moduli o qualsiasi PDF con testo selezionabile. Devo modificarlo, annotarlo o firmarlo.",
+    "router_type_standard_cta": "Continua nell'Editor PDF",
+
+    "router_type_handwritten_label": "Appunti o documenti scritti a mano",
+    "router_type_handwritten_desc": "Carica una foto o una scansione di appunti, lettere o documenti scritti a mano. Li convertiremo in un file Word perfettamente formattato e modificabile, preservando la struttura, la spaziatura e il layout.",
+    "router_type_handwritten_cta": "Converti scrittura a mano in Word →",
+
+    "router_type_table_label": "Registri, tabelle o dati scritti a mano",
+    "router_type_table_desc": "Carica una foto o una scansione di griglie, libri contabili, inventari o qualsiasi registrazione strutturata scritta a mano. Li convertiremo in un foglio di calcolo Excel pulito e formattato professionalmente.",
+    "router_type_table_cta": "Converti scrittura a mano in Excel →"
   },
 
   "EditorPage": {

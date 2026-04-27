@@ -618,6 +618,23 @@
     "toast_error_upload": "Fehler beim Hochladen der PDF",
     "toast_error_drop": "Bitte legen Sie eine gültige PDF-Datei ab",
 
+    "router_pre_title": "Bevor Sie hochladen",
+    "router_title": "Welche Art von Dokument haben Sie?",
+    "router_subtitle": "Wir leiten Sie zum richtigen Tool weiter, damit Sie das beste Ergebnis erzielen.",
+    "router_back_button": "Zurück zum Dokumenttyp",
+
+    "router_type_standard_label": "Standard / Digitales PDF",
+    "router_type_standard_desc": "Getippte Verträge, Formulare oder jedes PDF mit markierbarem Text. Ich muss es bearbeiten, kommentieren oder unterschreiben.",
+    "router_type_standard_cta": "Weiter zum PDF-Editor",
+
+    "router_type_handwritten_label": "Handschriftliche Notizen oder Dokumente",
+    "router_type_handwritten_desc": "Laden Sie ein Foto oder einen Scan von handschriftlichen Notizen, Briefen oder Dokumenten hoch. Wir konvertieren sie in eine perfekt formatierte, bearbeitbare Word-Datei – unter Beibehaltung von Struktur, Abständen und Layout.",
+    "router_type_handwritten_cta": "Handschrift in Word umwandeln →",
+
+    "router_type_table_label": "Handschriftliche Protokolle, Tabellen oder Daten",
+    "router_type_table_desc": "Laden Sie ein Foto oder einen Scan von handschriftlichen Rastern, Kassenbüchern, Inventarlisten oder anderen strukturierten Aufzeichnungen hoch. Wir konvertieren sie in eine saubere, professionell formatierte Excel-Tabelle.",
+    "router_type_table_cta": "Handschrift in Excel umwandeln →",
+
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {

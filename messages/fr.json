@@ -701,7 +701,23 @@
           "a": "Exact. Juste un navigateur moderne. Pas de plugins, pas d'Adobe Reader. Visitez NoteOCR et commencez."
         }
       }
-    }
+    },
+    "router_pre_title": "Avant de télécharger",
+    "router_title": "Quel type de document avez-vous ?",
+    "router_subtitle": "Nous allons vous diriger vers le bon outil pour obtenir le meilleur résultat.",
+    "router_back_button": "Retour au type de document",
+
+    "router_type_standard_label": "PDF Standard / Numérique",
+    "router_type_standard_desc": "Contrats dactylographiés, formulaires ou tout PDF contenant du texte sélectionnable. J'ai besoin de le modifier, de l'annoter ou de le signer.",
+    "router_type_standard_cta": "Continuer vers l'éditeur PDF",
+
+    "router_type_handwritten_label": "Notes ou documents manuscrits",
+    "router_type_handwritten_desc": "Téléchargez une photo ou une numérisation de notes, de lettres ou de documents manuscrits. Nous les convertirons en un fichier Word parfaitement formaté et modifiable, en préservant la structure, l'espacement et la mise en page.",
+    "router_type_handwritten_cta": "Convertir l'écriture manuscrite en Word →",
+
+    "router_type_table_label": "Journaux, tableaux ou données manuscrits",
+    "router_type_table_desc": "Téléchargez une photo ou une numérisation de grilles, de registres, de listes d'inventaire ou de tout autre enregistrement structuré manuscrit. Nous les convertirons en une feuille de calcul Excel propre et formatée professionnellement.",
+    "router_type_table_cta": "Convertir l'écriture manuscrite en Excel →"
   },
 
   "EditorPage": {

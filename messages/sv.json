@@ -701,7 +701,23 @@
           "a": "Korrekt. Du behöver bara en modern webbläsare (Chrome, Firefox, Safari, Edge). Inga installationer, inga plugins, ingen Adobe Reader. Besök bara NoteOCR, ladda upp din PDF och börja redigera direkt. Uppdateringar sker automatiskt på vår sida, du har alltid den senaste versionen."
         }
       }
-    }
+    },
+    "router_pre_title": "Innan du laddar upp",
+    "router_title": "Vilken typ av dokument har du?",
+    "router_subtitle": "Vi leder dig till rätt verktyg så att du får det bästa resultatet.",
+    "router_back_button": "Tillbaka till dokumenttyp",
+
+    "router_type_standard_label": "Standard / Digital PDF",
+    "router_type_standard_desc": "Datorskrivna kontrakt, formulär eller någon PDF med markerbar text. Jag behöver redigera, kommentera eller signera den.",
+    "router_type_standard_cta": "Fortsätt till PDF-redigeraren",
+
+    "router_type_handwritten_label": "Handskrivna anteckningar eller dokument",
+    "router_type_handwritten_desc": "Ladda upp ett foto eller en skanning av handskrivna anteckningar, brev eller dokument. Vi konverterar dem till en perfekt formaterad, redigerbar Word-fil — och bevarer struktur, avstånd och layout.",
+    "router_type_handwritten_cta": "Konvertera handstil till Word →",
+
+    "router_type_table_label": "Handskrivna loggar, tabeller eller data",
+    "router_type_table_desc": "Ladda upp ett foto eller en skanning av handskrivna rutnät, kassaböcker, inventeringslistor eller andra strukturerade register. Vi konverterar dem till ett rent, professionellt formaterat Excel-kalkylblad.",
+    "router_type_table_cta": "Konvertera handstil till Excel →"
   },
 
   "EditorPage": {

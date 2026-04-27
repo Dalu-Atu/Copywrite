@@ -698,7 +698,23 @@
           "a": "是的，完全不需要。您只需要一个现代浏览器。无需安装包、无需插件，更不需要 Adobe Reader。登录 NoteOCR 即可开始办公。"
         }
       }
-    }
+    },
+    "router_pre_title": "上传之前",
+    "router_title": "您拥有什么类型的文档？",
+    "router_subtitle": "我们将引导您使用正确的工具，以获得最佳结果。",
+    "router_back_button": "返回文档类型",
+
+    "router_type_standard_label": "标准 / 数字 PDF",
+    "router_type_standard_desc": "键入的合同、表单或任何带有可选文本的 PDF。我需要编辑、批注或签署它。",
+    "router_type_standard_cta": "继续使用 PDF 编辑器",
+
+    "router_type_handwritten_label": "手写笔记或文档",
+    "router_type_handwritten_desc": "上传手写笔记、信件或文档的照片或扫描件。我们会将它们转换为格式完美、可编辑的 Word 文件——同时保留结构、间距和排版。",
+    "router_type_handwritten_cta": "将手写内容转换为 Word →",
+
+    "router_type_table_label": "手写日志、表格或数据",
+    "router_type_table_desc": "上传手写网格、分类账、库存清单或任何结构化记录的照片或扫描件。我们会将其转换为干净、专业格式化的 Excel 电子表格。",
+    "router_type_table_cta": "将手写内容转换为 Excel →"
   },
 
   "EditorPage": {

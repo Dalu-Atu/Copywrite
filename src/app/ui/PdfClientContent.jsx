@@ -390,37 +390,6 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { toast } from "react-hot-toast";
 
-// ─── Smart routing options shown before upload ───
-const DOCUMENT_TYPES = [
-  {
-    id: "standard",
-    icon: FileEdit,
-    label: "Standard / Digital PDF",
-    desc: "Typed contracts, forms, or any PDF with selectable text. I need to edit, annotate, or sign it.",
-    color: "rose",
-    cta: "Continue to PDF Editor",
-    route: null, // stays on this page
-  },
-  {
-    id: "handwritten",
-    icon: PenLine,
-    label: "Handwritten Notes or Documents",
-    desc: "Upload a photo or scan of handwritten notes, letters, or documents. We'll convert them into a perfectly formatted, editable Word file — preserving structure, spacing, and layout.",
-    color: "emerald",
-    cta: "Convert Handwriting to Word →",
-    route: "https://app.noteocr.com/upload-image",
-  },
-  {
-    id: "table",
-    icon: Table2,
-    label: "Handwritten Logs, Tables or Data",
-    desc: "Upload a photo or scan of handwritten grids, ledgers, inventory lists, or any structured records. We'll convert them into a clean, professionally formatted Excel spreadsheet.",
-    color: "blue",
-    cta: "Convert Handwriting to Excel →",
-    route: "https://app.noteocr.com/upload-image",
-  },
-];
-
 export default function PdfClientContent({ locale }) {
   const t = useTranslations("PdfPage");
   const queryClient = useQueryClient();
@@ -434,11 +403,42 @@ export default function PdfClientContent({ locale }) {
   const [dragActive, setDragActive] = useState(false);
   const userId = "67b746ab6256a6bdb691b18a";
 
+  // ─── Smart routing options moved INSIDE the component to use t() ───
+  const DOCUMENT_TYPES = [
+    {
+      id: "standard",
+      icon: FileEdit,
+      label: t("router_type_standard_label"),
+      desc: t("router_type_standard_desc"),
+      color: "rose",
+      cta: t("router_type_standard_cta"),
+      route: null, // stays on this page
+    },
+    {
+      id: "handwritten",
+      icon: PenLine,
+      label: t("router_type_handwritten_label"),
+      desc: t("router_type_handwritten_desc"),
+      color: "emerald",
+      cta: t("router_type_handwritten_cta"),
+      route: "https://app.noteocr.com/upload-image",
+    },
+    {
+      id: "table",
+      icon: Table2,
+      label: t("router_type_table_label"),
+      desc: t("router_type_table_desc"),
+      color: "blue",
+      cta: t("router_type_table_cta"),
+      route: "https://app.noteocr.com/upload-image",
+    },
+  ];
+
   const { mutate: createBlankPdf, isPending: isCreating } = useMutation({
     mutationFn: async (data) => {
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_API_URL}/users/create-document`,
-        data
+        data,
       );
       return response.data;
     },
@@ -458,7 +458,7 @@ export default function PdfClientContent({ locale }) {
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_API_URL}/users/upload`,
         formData,
-        { headers: { "Content-Type": "multipart/form-data" } }
+        { headers: { "Content-Type": "multipart/form-data" } },
       );
       return response.data;
     },
@@ -723,14 +723,13 @@ export default function PdfClientContent({ locale }) {
                 <div>
                   <div className="mb-6">
                     <p className="text-[10px] font-black uppercase tracking-[0.2em] text-rose-400 mb-1">
-                      Before you upload
+                      {t("router_pre_title")}
                     </p>
                     <h3 className="text-xl sm:text-2xl font-bold text-white leading-snug">
-                      What type of document do you have?
+                      {t("router_title")}
                     </h3>
                     <p className="text-gray-500 text-sm mt-1.5 leading-relaxed">
-                      We'll point you to the right tool so you get the best
-                      result.
+                      {t("router_subtitle")}
                     </p>
                   </div>
 
@@ -791,8 +790,8 @@ export default function PdfClientContent({ locale }) {
                       selectedType === "standard"
                         ? "bg-white text-black hover:bg-zinc-100"
                         : selectedType === "handwritten"
-                        ? "bg-emerald-600 text-white hover:bg-emerald-500"
-                        : "bg-blue-600 text-white hover:bg-blue-500"
+                          ? "bg-emerald-600 text-white hover:bg-emerald-500"
+                          : "bg-blue-600 text-white hover:bg-blue-500"
                     }`}
                   >
                     <span>
@@ -800,16 +799,6 @@ export default function PdfClientContent({ locale }) {
                     </span>
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </button>
-
-                  {/* <p className="text-center text-[11px] text-zinc-600 mt-4">
-                    Not sure?{" "}
-                    <button
-                      onClick={() => setModalStep("upload")}
-                      className="text-zinc-400 hover:text-white underline underline-offset-2 transition-colors"
-                    >
-                      Upload anyway and we'll detect it
-                    </button>
-                  </p> */}
                 </div>
               )}
 
@@ -861,7 +850,7 @@ export default function PdfClientContent({ locale }) {
                     onClick={() => setModalStep("router")}
                     className="mt-4 text-[11px] text-zinc-600 hover:text-zinc-400 transition-colors flex items-center gap-1 mx-auto"
                   >
-                    ← Back to document type
+                    ← {t("router_back_button")}
                   </button>
 
                   <p className="text-[10px] text-gray-600 font-bold uppercase tracking-widest mt-6 flex items-center justify-center gap-2">

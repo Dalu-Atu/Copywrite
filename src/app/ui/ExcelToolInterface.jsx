@@ -344,7 +344,7 @@
 
 "use client";
 import React, { useState, useRef } from "react";
-import { useRouter } from "next/navigation"; // Next.js router
+import { useRouter } from "next/navigation";
 import {
   Upload,
   FileSpreadsheet,
@@ -364,8 +364,8 @@ import { uploadAndTranscribe } from "../lib/api-service";
 import { useTranslations } from "next-intl";
 
 export default function ExcelToolInterface({ locale, translation }) {
-  const t = useTranslations(translation);
-  const router = useRouter(); // Initialize router
+  const t = useTranslations(translation); // translation should be "ExcelPage"
+  const router = useRouter();
   const [file, setFile] = useState(null);
   const [resultDoc, setResultDoc] = useState(null);
   const [dragActive, setDragActive] = useState(false);
@@ -397,8 +397,8 @@ export default function ExcelToolInterface({ locale, translation }) {
 
     // Point to your main React app subdomain
     window.location.href = `https://app.noteocr.com/trial-preview?folder=${folder}&file=${fileName}`;
-    // window.location.href = `http://localhost:5173/trial-preview?folder=${folder}&file=${fileName}`;
   };
+
   // Mutation for uploading
   const { mutate: handleUpload, isPending: isProcessing } = useMutation({
     mutationFn: uploadAndTranscribe,
@@ -406,9 +406,9 @@ export default function ExcelToolInterface({ locale, translation }) {
       if (data.success) {
         setResultDoc(data.document);
         showToast(
-          "Success",
-          "Transcription complete. Opening preview...",
-          "success"
+          t("tool_complete_status"), // "READY"
+          t("toast_success"), // "Table extracted successfully!"
+          "success",
         );
 
         // Auto-redirect after a short delay so they see the success state
@@ -419,9 +419,9 @@ export default function ExcelToolInterface({ locale, translation }) {
     },
     onError: (error) => {
       showToast(
-        "Extraction Failed",
+        "Error",
         error?.response?.data?.message || t("toast_error_extraction"),
-        "error"
+        "error",
       );
       setFile(null);
     },
@@ -436,11 +436,7 @@ export default function ExcelToolInterface({ locale, translation }) {
   const processFile = async (selectedFile) => {
     const validTypes = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
     if (!validTypes.includes(selectedFile.type)) {
-      showToast(
-        "Invalid File Type",
-        "Please upload a JPG, PNG, or WEBP.",
-        "error"
-      );
+      showToast("Invalid File", t("toast_error_type"), "error");
       return;
     }
 
@@ -588,8 +584,7 @@ export default function ExcelToolInterface({ locale, translation }) {
                       NoteOCR Engine
                     </p>
                     <p className="text-xs text-gray-400 leading-relaxed">
-                      Formatting cell data is complex. It typically takes 30-60
-                      seconds to structure your Excel file.
+                      {t("tool_processing_desc")}
                     </p>
                   </div>
                 </div>
@@ -604,10 +599,10 @@ export default function ExcelToolInterface({ locale, translation }) {
                 <Check className="w-10 h-10 text-emerald-500" />
               </div>
               <h3 className="text-xl sm:text-2xl font-bold mb-2">
-                Structure Ready
+                {t("tool_complete_title")}
               </h3>
               <p className="text-gray-500 text-sm mb-8">
-                Your table has been converted. Opening the secure preview...
+                {t("tool_complete_desc")}
               </p>
 
               <div className="flex flex-col gap-3">
@@ -615,13 +610,15 @@ export default function ExcelToolInterface({ locale, translation }) {
                   onClick={() => redirectToTrial(resultDoc)}
                   className="w-full flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-lg shadow-lg active:scale-95 transition-all"
                 >
-                  <ExternalLink className="w-5 h-5" /> Open Preview
+                  <ExternalLink className="w-5 h-5" />{" "}
+                  {t("tool_download_button")}
                 </button>
                 <button
                   onClick={resetTool}
                   className="text-xs text-gray-500 hover:text-white transition-colors"
                 >
-                  <RefreshCw className="w-3 h-3 inline mr-1" /> New Conversion
+                  <RefreshCw className="w-3 h-3 inline mr-1" />{" "}
+                  {t("tool_new_button")}
                 </button>
               </div>
             </div>

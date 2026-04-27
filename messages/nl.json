@@ -701,7 +701,23 @@
           "a": "Correct. U heeft alleen een moderne webbrowser nodig (Chrome, Firefox, Safari, Edge). Geen installaties, geen plug-ins, geen Adobe Reader. Bezoek simpelweg NoteOCR, upload uw PDF en begin direct met bewerken. Updates gebeuren automatisch aan onze kant, u heeft altijd de nieuwste versie."
         }
       }
-    }
+    },
+    "router_pre_title": "Voordat u uploadt",
+    "router_title": "Welk type document heeft u?",
+    "router_subtitle": "We verwijzen u naar de juiste tool zodat u het beste resultaat krijgt.",
+    "router_back_button": "Terug naar documenttype",
+
+    "router_type_standard_label": "Standaard / Digitaal PDF",
+    "router_type_standard_desc": "Getypte contracten, formulieren of elke PDF met selecteerbare tekst. Ik moet het bewerken, annoteren of ondertekenen.",
+    "router_type_standard_cta": "Doorgaan naar PDF-editor",
+
+    "router_type_handwritten_label": "Handgeschreven notities of documenten",
+    "router_type_handwritten_desc": "Upload een foto of scan van handgeschreven notities, brieven of documenten. We zetten ze om in een perfect opgemaakt, bewerkbaar Word-bestand — met behoud van structuur, spatiëring en lay-out.",
+    "router_type_handwritten_cta": "Zet handschrift om naar Word →",
+
+    "router_type_table_label": "Handgeschreven logboeken, tabellen of gegevens",
+    "router_type_table_desc": "Upload een foto of scan van handgeschreven rasters, grootboeken, inventarislijsten of andere gestructureerde documenten. We zetten ze om in een overzichtelijke, professioneel opgemaakte Excel-spreadsheet.",
+    "router_type_table_cta": "Zet handschrift om naar Excel →"
   },
 
   "EditorPage": {

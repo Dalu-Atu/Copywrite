@@ -701,7 +701,23 @@
           "a": "Riktig. Du trenger bare en moderne nettleser (Chrome, Firefox, Safari, Edge). Ingen installasjoner, ingen plugins, ingen Adobe Reader. Bare besøk NoteOCR, last opp PDF-en din, og begynn å redigere umiddelbart. Oppdateringer skjer automatisk på vår side, så du har alltid den nyeste versjonen."
         }
       }
-    }
+    },
+    "router_pre_title": "Før du laster opp",
+    "router_title": "Hvilken type dokument har du?",
+    "router_subtitle": "Vi sender deg til riktig verktøy slik at du får det beste resultatet.",
+    "router_back_button": "Tilbake til dokumenttype",
+
+    "router_type_standard_label": "Standard / Digital PDF",
+    "router_type_standard_desc": "Innskrevne kontrakter, skjemaer eller en hvilken som helst PDF med valgbar tekst. Jeg må redigere, kommentere eller signere den.",
+    "router_type_standard_cta": "Fortsett til PDF-redigerer",
+
+    "router_type_handwritten_label": "Håndskrevne notater eller dokumenter",
+    "router_type_handwritten_desc": "Last opp et bilde eller en skanning av håndskrevne notater, brev eller dokumenter. Vi konverterer dem til en perfekt formatert, redigerbar Word-fil — og bevarer struktur, avstand og layout.",
+    "router_type_handwritten_cta": "Konverter håndskrift til Word →",
+
+    "router_type_table_label": "Håndskrevne logger, tabeller eller data",
+    "router_type_table_desc": "Last opp et bilde eller en skanning av håndskrevne rutenett, regnskapsbøker, inventarlister eller strukturerte opptegnelser. Vi konverterer dem til et rent, profesjonelt formatert Excel-regneark.",
+    "router_type_table_cta": "Konverter håndskrift til Excel →"
   },
 
   "EditorPage": {

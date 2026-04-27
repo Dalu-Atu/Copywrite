@@ -615,6 +615,23 @@
     "toast_error_upload": "Error al subir el PDF",
     "toast_error_drop": "Por favor, suelta un archivo PDF válido",
 
+    "router_pre_title": "Antes de subir",
+    "router_title": "¿Qué tipo de documento tienes?",
+    "router_subtitle": "Te indicaremos la herramienta adecuada para obtener el mejor resultado.",
+    "router_back_button": "Volver al tipo de documento",
+
+    "router_type_standard_label": "PDF Estándar / Digital",
+    "router_type_standard_desc": "Contratos mecanografiados, formularios o cualquier PDF con texto seleccionable. Necesito editarlo, anotarlo o firmarlo.",
+    "router_type_standard_cta": "Continuar al Editor de PDF",
+
+    "router_type_handwritten_label": "Notas o Documentos Manuscritos",
+    "router_type_handwritten_desc": "Sube una foto o escaneo de notas, cartas o documentos manuscritos. Los convertiremos en un archivo Word editable y perfectamente formateado — conservando la estructura, el espaciado y el diseño.",
+    "router_type_handwritten_cta": "Convertir Manuscrito a Word →",
+
+    "router_type_table_label": "Registros, Tablas o Datos Manuscritos",
+    "router_type_table_desc": "Sube una foto o escaneo de cuadrículas, libros contables, listas de inventario o registros estructurados hechos a mano. Los convertiremos en una hoja de Excel limpia y con formato profesional.",
+    "router_type_table_cta": "Convertir Manuscrito a Excel →",
+
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {

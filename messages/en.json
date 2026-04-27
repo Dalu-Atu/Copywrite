@@ -618,6 +618,23 @@
     "toast_error_upload": "Failed to upload PDF",
     "toast_error_drop": "Please drop a valid PDF file",
 
+    "router_pre_title": "Before you upload",
+    "router_title": "What type of document do you have?",
+    "router_subtitle": "We'll point you to the right tool so you get the best result.",
+    "router_back_button": "Back to document type",
+
+    "router_type_standard_label": "Standard / Digital PDF",
+    "router_type_standard_desc": "Typed contracts, forms, or any PDF with selectable text. I need to edit, annotate, or sign it.",
+    "router_type_standard_cta": "Continue to PDF Editor",
+
+    "router_type_handwritten_label": "Handwritten Notes or Documents",
+    "router_type_handwritten_desc": "Upload a photo or scan of handwritten notes, letters, or documents. We'll convert them into a perfectly formatted, editable Word file — preserving structure, spacing, and layout.",
+    "router_type_handwritten_cta": "Convert Handwriting to Word →",
+
+    "router_type_table_label": "Handwritten Logs, Tables or Data",
+    "router_type_table_desc": "Upload a photo or scan of handwritten grids, ledgers, inventory lists, or any structured records. We'll convert them into a clean, professionally formatted Excel spreadsheet.",
+    "router_type_table_cta": "Convert Handwriting to Excel →",
+
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {

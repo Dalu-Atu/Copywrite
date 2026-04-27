@@ -618,6 +618,23 @@
     "toast_error_upload": "Kunne ikke uploade PDF",
     "toast_error_drop": "Smid venligst en gyldig PDF-fil",
 
+    "router_pre_title": "Før du uploader",
+    "router_title": "Hvilken type dokument har du?",
+    "router_subtitle": "Vi guider dig til det rigtige værktøj, så du får det bedste resultat.",
+    "router_back_button": "Tilbage til dokumenttype",
+
+    "router_type_standard_label": "Standard / Digital PDF",
+    "router_type_standard_desc": "Indtastede kontrakter, formularer eller enhver PDF med valgbar tekst. Jeg skal redigere, anmærke eller underskrive den.",
+    "router_type_standard_cta": "Fortsæt til PDF-editor",
+
+    "router_type_handwritten_label": "Håndskrevne noter eller dokumenter",
+    "router_type_handwritten_desc": "Upload et foto eller en scanning af håndskrevne noter, breve eller dokumenter. Vi konverterer dem til en perfekt formateret, redigerbar Word-fil — med bevarelse af struktur, afstand og layout.",
+    "router_type_handwritten_cta": "Konverter håndskrift til Word →",
+
+    "router_type_table_label": "Håndskrevne logbøger, tabeller eller data",
+    "router_type_table_desc": "Upload et foto eller en scanning af håndskrevne gitter, hovedbøger, inventarlister eller strukturerede optegnelser. Vi konverterer dem til et rent, professionelt formateret Excel-regneark.",
+    "router_type_table_cta": "Konverter håndskrift til Excel →",
+
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {

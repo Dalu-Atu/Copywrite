@@ -698,7 +698,23 @@
           "a": "Kesinlikle. Sadece modern bir tarayıcıya ihtiyacınız var. Kurulum yok, eklenti yok. Sadece NoteOCR'a gidin ve çalışmaya başlayın."
         }
       }
-    }
+    },
+    "router_pre_title": "Yüklemeden önce",
+    "router_title": "Ne tür bir belgeniz var?",
+    "router_subtitle": "En iyi sonucu almanız için sizi doğru araca yönlendireceğiz.",
+    "router_back_button": "Belge türüne dön",
+
+    "router_type_standard_label": "Standart / Dijital PDF",
+    "router_type_standard_desc": "Yazılmış sözleşmeler, formlar veya seçilebilir metin içeren herhangi bir PDF. Düzenlemem, not eklemem veya imzalamam gerekiyor.",
+    "router_type_standard_cta": "PDF Düzenleyiciye Devam Et",
+
+    "router_type_handwritten_label": "El Yazısı Notlar veya Belgeler",
+    "router_type_handwritten_desc": "El yazısı notların, mektupların veya belgelerin bir fotoğrafını veya taramasını yükleyin. Yapıyı, boşlukları ve düzeni koruyarak bunları mükemmel biçimlendirilmiş, düzenlenebilir bir Word dosyasına dönüştüreceğiz.",
+    "router_type_handwritten_cta": "El Yazısını Word'e Dönüştür →",
+
+    "router_type_table_label": "El Yazısı Günlükler, Tablolar veya Veriler",
+    "router_type_table_desc": "El yazısı ızgaraların, defterlerin, envanter listelerinin veya yapılandırılmış kayıtların bir fotoğrafını veya taramasını yükleyin. Bunları temiz, profesyonelce biçimlendirilmiş bir Excel elektronik tablosuna dönüştüreceğiz.",
+    "router_type_table_cta": "El Yazısını Excel'e Dönüştür →"
   },
 
   "EditorPage": {

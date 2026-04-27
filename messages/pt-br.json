@@ -701,7 +701,23 @@
           "a": "Exatamente. Você só precisa de um navegador moderno. Sem instalações, sem plugins e sem Adobe Reader. Basta acessar o NoteOCR e começar."
         }
       }
-    }
+    },
+    "router_pre_title": "Antes de enviar",
+    "router_title": "Que tipo de documento você tem?",
+    "router_subtitle": "Nós o direcionaremos para a ferramenta certa para que você obtenha o melhor resultado.",
+    "router_back_button": "Voltar ao tipo de documento",
+
+    "router_type_standard_label": "PDF Padrão / Digital",
+    "router_type_standard_desc": "Contratos digitados, formulários ou qualquer PDF com texto selecionável. Preciso editá-lo, anotá-lo ou assiná-lo.",
+    "router_type_standard_cta": "Continuar para o Editor de PDF",
+
+    "router_type_handwritten_label": "Notas ou Documentos Manuscritos",
+    "router_type_handwritten_desc": "Envie uma foto ou digitalização de anotações, cartas ou documentos manuscritos. Nós os converteremos em um arquivo Word perfeitamente formatado e editável — preservando a estrutura, o espaçamento e o layout.",
+    "router_type_handwritten_cta": "Converter Manuscrito em Word →",
+
+    "router_type_table_label": "Registros, Tabelas ou Dados Manuscritos",
+    "router_type_table_desc": "Envie uma foto ou digitalização de grades, livros-caixa, listas de inventário ou quaisquer registros estruturados manuscritos. Nós os converteremos em uma planilha Excel limpa e com formato profissional.",
+    "router_type_table_cta": "Converter Manuscrito em Excel →"
   },
 
   "EditorPage": {

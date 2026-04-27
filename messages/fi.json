@@ -701,7 +701,23 @@
           "a": "Kyllä. Tarvitset vain modernin verkkoselaimen (Chrome, Firefox, Safari, Edge). Ei asennuksia, ei laajennuksia, ei Adobe Readeria. Vieraile vain NoteOCR:ssä, lataa PDF-tiedostosi ja aloita muokkaaminen heti. Päivitykset tapahtuvat automaattisesti meidän päässämme, joten sinulla on aina uusin versio."
         }
       }
-    }
+    },
+    "router_pre_title": "Ennen kuin lataat",
+    "router_title": "Millainen asiakirja sinulla on?",
+    "router_subtitle": "Ohjaamme sinut oikeaan työkaluun, jotta saat parhaan tuloksen.",
+    "router_back_button": "Takaisin asiakirjatyyppiin",
+
+    "router_type_standard_label": "Tavallinen / Digitaalinen PDF",
+    "router_type_standard_desc": "Kirjoitetut sopimukset, lomakkeet tai mikä tahansa PDF, jossa on valittavaa tekstiä. Minun täytyy muokata, kommentoida tai allekirjoittaa se.",
+    "router_type_standard_cta": "Jatka PDF-editoriin",
+
+    "router_type_handwritten_label": "Käsin kirjoitetut muistiinpanot tai asiakirjat",
+    "router_type_handwritten_desc": "Lataa valokuva tai skannaus käsin kirjoitetuista muistiinpanoista, kirjeistä tai asiakirjoista. Muunnamme ne täydellisesti muotoilluksi, muokattavaksi Word-tiedostoksi — säilyttäen rakenteen, välit ja asettelun.",
+    "router_type_handwritten_cta": "Muunna käsiala Wordiksi →",
+
+    "router_type_table_label": "Käsin kirjoitetut lokit, taulukot tai data",
+    "router_type_table_desc": "Lataa valokuva tai skannaus käsin kirjoitetuista ruudukoista, tilikirjoista, varastoluetteloista tai muista rakenteellisista tiedoista. Muunnamme ne siistiksi, ammattimaisesti muotoilluksi Excel-taulukoksi.",
+    "router_type_table_cta": "Muunna käsiala Exceliksi →"
   },
   "EditorPage": {
     "meta_title": "Muokkaa Office-asiakirjoja verkossa ilmaiseksi - Selainpohjainen Word-, Excel- & PowerPoint-editori",

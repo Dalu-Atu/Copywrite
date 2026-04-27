@@ -698,7 +698,23 @@
           "a": "はい、不要です。最新のウェブブラウザさえあれば、追加のプラグインも必要ありません。NoteOCRにアクセスするだけで、すべての機能がご利用いただけます。"
         }
       }
-    }
+    },
+    "router_pre_title": "アップロードする前に",
+    "router_title": "どの種類のドキュメントですか？",
+    "router_subtitle": "最高の結果を得るために、適切なツールにご案内します。",
+    "router_back_button": "ドキュメントタイプに戻る",
+
+    "router_type_standard_label": "標準 / デジタルPDF",
+    "router_type_standard_desc": "入力された契約書、フォーム、または選択可能なテキストを含む任意のPDF。編集、注釈の追加、または署名が必要です。",
+    "router_type_standard_cta": "PDFエディターへ進む",
+
+    "router_type_handwritten_label": "手書きのメモやドキュメント",
+    "router_type_handwritten_desc": "手書きのメモ、手紙、またはドキュメントの写真やスキャンをアップロードしてください。構造、間隔、レイアウトを保持したまま、完璧にフォーマットされた編集可能なWordファイルに変換します。",
+    "router_type_handwritten_cta": "手書きをWordに変換 →",
+
+    "router_type_table_label": "手書きのログ、表、データ",
+    "router_type_table_desc": "手書きのグリッド、台帳、在庫リスト、または構造化された記録の写真やスキャンをアップロードしてください。クリーンでプロフェッショナルな形式のExcelスプレッドシートに変換します。",
+    "router_type_table_cta": "手書きをExcelに変換 →"
   },
 
   "EditorPage": {
