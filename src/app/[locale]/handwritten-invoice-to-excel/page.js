@@ -29,15 +29,16 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "HandwrittenInvoice" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/handwritten-invoice-to-excel`,
+      canonical: `https://noteocr.com${localePath}/handwritten-invoice-to-excel`,
       languages: {
-        en: "https://noteocr.com/en/handwritten-invoice-to-excel",
-        es: "https://noteocr.com/es/handwritten-invoice-to-excel",
+        "x-default": "https://noteocr.com/handwritten-invoice-to-excel",
+        en: "https://noteocr.com/handwritten-invoice-to-excel",
         tr: "https://noteocr.com/tr/handwritten-invoice-to-excel",
         zh: "https://noteocr.com/zh/handwritten-invoice-to-excel",
         hi: "https://noteocr.com/hi/handwritten-invoice-to-excel",
@@ -64,31 +65,32 @@ export async function generateMetadata({ params }) {
 export default async function HandwritingInvoiceToExcel({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "HandwrittenInvoice" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   const relatedTools = [
     {
       name: t("related_tool_1_name"),
       desc: t("related_tool_1_desc"),
       icon: <FileText className="w-5 h-5" />,
-      link: `/${locale}/handwritten-invoice-to-excel`,
+      link: `${localePath}/handwritten-invoice-to-excel`,
     },
     {
       name: t("related_tool_2_name"),
       desc: t("related_tool_2_desc"),
       icon: <Notebook className="w-5 h-5" />,
-      link: `/${locale}/handwritten-inventory-to-excel`,
+      link: `${localePath}/handwritten-inventory-to-excel`,
     },
     {
       name: t("related_tool_3_name"),
       desc: t("related_tool_3_desc"),
       icon: <FileSpreadsheet className="w-5 h-5" />,
-      link: `/${locale}/scan-to-word`,
+      link: `${localePath}/scan-to-word`,
     },
     {
       name: t("related_tool_4_name"),
       desc: t("related_tool_4_desc"),
       icon: <Text className="w-5 h-5" />,
-      link: `/${locale}/`,
+      link: `${localePath}/handwriting-to-excel`,
     },
   ];
 

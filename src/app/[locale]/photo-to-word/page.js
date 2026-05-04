@@ -32,14 +32,16 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PhotoToWord" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/photo-to-word`,
+      canonical: `https://noteocr.com${localePath}/photo-to-word`,
       languages: {
-        en: "https://noteocr.com/en/photo-to-word",
+        "x-default": "https://noteocr.com/photo-to-word",
+        en: "https://noteocr.com/photo-to-word",
         es: "https://noteocr.com/es/photo-to-word",
         tr: "https://noteocr.com/tr/photo-to-word",
         zh: "https://noteocr.com/zh/photo-to-word",
@@ -67,31 +69,32 @@ export async function generateMetadata({ params }) {
 export default async function PhotoToWord({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PhotoToWord" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   const relatedTools = [
     {
       name: t("related_tool_1_name"),
       desc: t("related_tool_1_desc"),
       icon: <FileTextIcon className="w-5 h-5" />,
-      link: `/${locale}/handwriting-to-excel`,
+      link: `${localePath}/handwriting-to-excel`,
     },
     {
       name: t("related_tool_2_name"),
       desc: t("related_tool_2_desc"),
       icon: <Notebook className="w-5 h-5" />,
-      link: `/${locale}/handwriting-to-docx`,
+      link: `${localePath}/handwriting-to-docx`,
     },
     {
       name: t("related_tool_3_name"),
       desc: t("related_tool_3_desc"),
       icon: <FileSpreadsheetIcon className="w-5 h-5" />,
-      link: `/${locale}/`,
+      link: `${localePath}/`,
     },
     {
       name: t("related_tool_4_name"),
       desc: t("related_tool_4_desc"),
       icon: <Text className="w-5 h-5" />,
-      link: `/${locale}/online-editor`,
+      link: `${localePath}/online-editor`,
     },
   ];
 

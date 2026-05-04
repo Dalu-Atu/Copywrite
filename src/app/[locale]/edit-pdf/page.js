@@ -28,13 +28,17 @@ export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PdfPage" });
 
+  // English has no prefix, all others do
+  const localePath = locale === "en" ? "" : `/${locale}`;
+
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/edit-pdf`,
+      canonical: `https://noteocr.com${localePath}/edit-pdf`,
       languages: {
-        en: "https://noteocr.com/en/edit-pdf",
+        "x-default": "https://noteocr.com/edit-pdf", // 👈 add this
+        en: "https://noteocr.com/edit-pdf", // 👈 no /en/
         es: "https://noteocr.com/es/edit-pdf",
         tr: "https://noteocr.com/tr/edit-pdf",
         zh: "https://noteocr.com/zh/edit-pdf",
@@ -62,31 +66,33 @@ export async function generateMetadata({ params }) {
 export default async function PdfToolsPage({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PdfPage" });
+  const localePath = locale === "en" ? "" : `/${locale}`;
 
+  
   const relatedTools = [
     {
       name: t("related_tool_1_name"),
       desc: t("related_tool_1_desc"),
       icon: <FileText className="w-5 h-5" />,
-      link: `/${locale}/handwriting-to-docx`,
+      link: `${localePath}/handwriting-to-docx`,
     },
     {
       name: t("related_tool_2_name"),
       desc: t("related_tool_2_desc"),
       icon: <Notebook className="w-5 h-5" />,
-      link: `/${locale}/edit-pdf`,
+      link: `${localePath}/handwriting-to-excel`,
     },
     {
       name: t("related_tool_3_name"),
       desc: t("related_tool_3_desc"),
       icon: <FileSpreadsheet className="w-5 h-5" />,
-      link: `/${locale}/online-editor`,
+      link: `${localePath}/online-editor`,
     },
     {
       name: t("related_tool_4_name"),
       desc: t("related_tool_4_desc"),
       icon: <Text className="w-5 h-5" />,
-      link: `/${locale}/`,
+      link: `${localePath}/cursive-to-text`,
     },
   ];
 

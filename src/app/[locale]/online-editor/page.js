@@ -25,14 +25,16 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "EditorPage" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/online-editor`,
+      canonical: `https://noteocr.com${localePath}/online-editor`,
       languages: {
-        en: "https://noteocr.com/en/online-editor",
+        "x-default": "https://noteocr.com/online-editor",
+        en: "https://noteocr.com/online-editor",
         es: "https://noteocr.com/es/online-editor",
         tr: "https://noteocr.com/tr/online-editor",
         zh: "https://noteocr.com/zh/online-editor",
@@ -60,31 +62,32 @@ export async function generateMetadata({ params }) {
 export default async function OnlineEditorPage({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "EditorPage" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   const relatedTools = [
     {
       name: t("related_tool_1_name"),
       desc: t("related_tool_1_desc"),
       icon: <FileText className="w-5 h-5" />,
-      link: `/${locale}/handwriting-to-docx`,
+      link: `${localePath}/handwriting-to-docx`,
     },
     {
       name: t("related_tool_2_name"),
       desc: t("related_tool_2_desc"),
       icon: <FileSpreadsheet className="w-5 h-5" />,
-      link: `/${locale}/handwriting-to-excel`,
+      link: `${localePath}/handwriting-to-excel`,
     },
     {
       name: t("related_tool_3_name"),
       desc: t("related_tool_3_desc"),
       icon: <Sparkles className="w-5 h-5" />,
-      link: `/${locale}/edit-pdf`,
+      link: `${localePath}/edit-pdf`,
     },
     {
       name: t("related_tool_4_name"),
       desc: t("related_tool_4_desc"),
       icon: <Target className="w-5 h-5" />,
-      link: `/${locale}/image-to-text`,
+      link: `${localePath}/image-to-text`,
     },
   ];
 

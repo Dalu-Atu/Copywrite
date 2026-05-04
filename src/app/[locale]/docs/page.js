@@ -6,13 +6,16 @@ export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "DocsPage" });
 
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
+
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/docs`,
+      canonical: `https://noteocr.com${localePath}/docs`,
       languages: {
-        en: "https://noteocr.com/en/docs",
+        "x-default": "https://noteocr.com/docs",
+        en: "https://noteocr.com/docs",
         es: "https://noteocr.com/es/docs",
         tr: "https://noteocr.com/tr/docs",
         zh: "https://noteocr.com/zh/docs",
@@ -32,7 +35,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: t("og_title"),
       description: t("og_desc"),
-      url: `https://noteocr.com/${locale}/docs`,
+      url: `https://noteocr.com${localePath}/docs`,
       type: "article",
     },
   };

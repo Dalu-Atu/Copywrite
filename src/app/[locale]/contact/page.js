@@ -6,15 +6,17 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Contact" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     keywords: t("meta_keywords"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/contact`,
+      canonical: `https://noteocr.com${localePath}/contact`,
       languages: {
-        en: "https://noteocr.com/en/contact",
+        "x-default": "https://noteocr.com/contact", 
+        en: "https://noteocr.com/contact", 
         es: "https://noteocr.com/es/contact",
         tr: "https://noteocr.com/tr/contact",
         zh: "https://noteocr.com/zh/contact",
@@ -44,7 +46,7 @@ export async function generateMetadata({ params }) {
       ],
       locale: locale,
       type: "website",
-      url: `https://noteocr.com/${locale}/contact`,
+      url: `https://noteocr.com/${localePath}/contact`,
     },
     // Schema Org Contact Page
     other: {
@@ -52,7 +54,7 @@ export async function generateMetadata({ params }) {
         "@context": "https://schema.org",
         "@type": "ContactPage",
         name: t("meta_title"),
-        url: `https://noteocr.com/${locale}/contact`,
+        url: `https://noteocr.com/${localePath}/contact`,
         mainEntity: {
           "@type": "Organization",
           name: t("org_name"),

@@ -29,14 +29,16 @@ export async function generateMetadata({ params }) {
     locale,
     namespace: "ScanHandwritingToText",
   });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/scan-handwriting-to-text`,
+      canonical: `https://noteocr.com${localePath}/scan-handwriting-to-text`,
       languages: {
-        en: "https://noteocr.com/en/scan-handwriting-to-text",
+        "x-default": "https://noteocr.com/scan-handwriting-to-text",
+        en: "https://noteocr.com/scan-handwriting-to-text",
         es: "https://noteocr.com/es/scan-handwriting-to-text",
         tr: "https://noteocr.com/tr/scan-handwriting-to-text",
         zh: "https://noteocr.com/zh/scan-handwriting-to-text",
@@ -67,31 +69,32 @@ export default async function ScanHandwritingToText({ params }) {
     locale,
     namespace: "ScanHandwritingToText",
   });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   const relatedTools = [
     {
       name: t("related_tool_1_name"),
       desc: t("related_tool_1_desc"),
       icon: <FileTextIcon className="w-5 h-5" />, // Word doc output
-      link: `/${locale}/handwriting-to-docx`,
+      link: `${localePath}/handwriting-to-docx`,
     },
     {
       name: t("related_tool_2_name"),
       desc: t("related_tool_2_desc"),
       icon: <FileSpreadsheetIcon className="w-5 h-5" />, // Excel output
-      link: `/${locale}/handwriting-to-excel`,
+      link: `${localePath}/handwriting-to-excel`,
     },
     {
       name: t("related_tool_3_name"),
       desc: t("related_tool_3_desc"),
       icon: <PenLine className="w-5 h-5" />, // Cursive to text
-      link: `/${locale}/cursive-to-text`,
+      link: `${localePath}/cursive-to-text`,
     },
     {
       name: t("related_tool_4_name"),
       desc: t("related_tool_4_desc"),
       icon: <ScanText className="w-5 h-5" />, // Scanning handwriting
-      link: `/${locale}/scan-handwriting-to-text`,
+      link: `${localePath}/scan-handwriting-to-text`,
     },
   ];
 

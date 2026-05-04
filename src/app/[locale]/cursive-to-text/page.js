@@ -30,13 +30,16 @@ export async function generateMetadata({ params }) {
     namespace: "CursiveToTextPage",
   });
 
+   const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
+
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/cursive-to-text`,
+      canonical: `https://noteocr.com${localePath}/cursive-to-text`,
       languages: {
-        en: "https://noteocr.com/en/cursive-to-text",
+        "x-default": "https://noteocr.com/cursive-to-text", // 👈 root, not /en
+        en: "https://noteocr.com/cursive-to-text", // 👈 root, not /en
         es: "https://noteocr.com/es/cursive-to-text",
         tr: "https://noteocr.com/tr/cursive-to-text",
         zh: "https://noteocr.com/zh/cursive-to-text",
@@ -63,6 +66,8 @@ export async function generateMetadata({ params }) {
 
 export default async function CursiveToTextPage({ params }) {
   const { locale } = await params;
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
+
   const t = await getTranslations({
     locale,
     namespace: "CursiveToTextPage",
@@ -73,25 +78,25 @@ export default async function CursiveToTextPage({ params }) {
       name: t("related_tool_1_name"),
       desc: t("related_tool_1_desc"),
       icon: <FileTextIcon className="w-5 h-5" />, // Word doc output
-      link: `/${locale}/handwriting-to-docx`,
+      link: `${localePath}/handwriting-to-docx`,
     },
     {
       name: t("related_tool_2_name"),
       desc: t("related_tool_2_desc"),
       icon: <FileSpreadsheetIcon className="w-5 h-5" />, // Excel output
-      link: `/${locale}/handwriting-to-excel`,
+      link: `{localePath}/handwriting-to-excel`,
     },
     {
       name: t("related_tool_3_name"),
       desc: t("related_tool_3_desc"),
       icon: <PenLine className="w-5 h-5" />, // Handwriting Recognition
-      link: `/${locale}/handwriting-recognition`,
+      link: `${localePath}/handwriting-recognition`,
     },
     {
       name: t("related_tool_4_name"),
       desc: t("related_tool_4_desc"),
       icon: <ScanText className="w-5 h-5" />, // Scanning handwriting
-      link: `/${locale}/scan-handwriting-to-text`,
+      link: `${localePath}/scan-handwriting-to-text`,
     },
   ];
 

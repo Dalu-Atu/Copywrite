@@ -5,14 +5,16 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "CareersPage" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/careers`,
+      canonical: `https://noteocr.com${localePath}/careers`,
       languages: {
-        en: "https://noteocr.com/en/careers",
+        "x-default": "https://noteocr.com/careers", // 👈 root, not /en
+        en: "https://noteocr.com/careers", // 👈 root, not /en
         es: "https://noteocr.com/es/careers",
         tr: "https://noteocr.com/tr/careers",
         zh: "https://noteocr.com/zh/careers",
@@ -32,7 +34,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: t("og_title"),
       description: t("og_desc"),
-      url: `https://noteocr.com/${locale}/careers`,
+      url: `https://noteocr.com${localePath}/careers`,
       type: "website",
     },
   };

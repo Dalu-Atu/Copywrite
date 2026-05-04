@@ -4,12 +4,13 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "TermsPage" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/terms`,
+      canonical: `https://noteocr.com${localePath}/terms`,
       languages: {
         en: "https://noteocr.com/en/terms",
         es: "https://noteocr.com/es/terms",
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: t("og_title"),
       description: t("og_desc"),
-      url: `https://noteocr.com/${locale}/terms`,
+      url: `https://noteocr.com${localePath}/terms`,
       type: "website",
     },
   };

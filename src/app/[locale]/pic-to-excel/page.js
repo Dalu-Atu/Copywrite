@@ -29,14 +29,16 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pic-to-excel" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/pic-to-excel`,
+      canonical: `https://noteocr.com${localePath}/pic-to-excel`,
       languages: {
-        en: "https://noteocr.com/en/pic-to-excel",
+        "x-default": "https://noteocr.com/pic-to-excel",
+        en: "https://noteocr.com/pic-to-excel",
         es: "https://noteocr.com/es/pic-to-excel",
         tr: "https://noteocr.com/tr/pic-to-excel",
         zh: "https://noteocr.com/zh/pic-to-excel",
@@ -64,31 +66,32 @@ export async function generateMetadata({ params }) {
 export default async function HandwritingToExcelPage({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pic-to-excel" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   const relatedTools = [
     {
       name: t("related_tool_1_name"),
       desc: t("related_tool_1_desc"),
       icon: <FileText className="w-5 h-5" />,
-      link: `/${locale}/handwriting-to-docx`,
+      link: `${localePath}/handwriting-to-docx`,
     },
     {
       name: t("related_tool_2_name"),
       desc: t("related_tool_2_desc"),
       icon: <Notebook className="w-5 h-5" />,
-      link: `/${locale}/edit-pdf`,
+      link: `${localePath}/edit-pdf`,
     },
     {
       name: t("related_tool_3_name"),
       desc: t("related_tool_3_desc"),
       icon: <FileSpreadsheet className="w-5 h-5" />,
-      link: `/${locale}/online-editor`,
+      link: `${localePath}/online-editor`,
     },
     {
       name: t("related_tool_4_name"),
       desc: t("related_tool_4_desc"),
       icon: <Text className="w-5 h-5" />,
-      link: `/${locale}/`,
+      link: `${localePath}/`,
     },
   ];
 

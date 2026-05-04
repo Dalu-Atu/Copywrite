@@ -32,14 +32,17 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "WordPage" });
+   const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
+
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/handwriting-to-docx`,
+      canonical: `https://noteocr.com${localePath}/handwriting-to-docx`,
       languages: {
-        en: "https://noteocr.com/en/handwriting-to-docx",
+        "x-default": "https://noteocr.com/handwriting-to-docx",
+        en: "https://noteocr.com/handwriting-to-docx",
         es: "https://noteocr.com/es/handwriting-to-docx",
         tr: "https://noteocr.com/tr/handwriting-to-docx",
         zh: "https://noteocr.com/zh/handwriting-to-docx",
@@ -67,31 +70,32 @@ export async function generateMetadata({ params }) {
 export default async function HandwritingToWordPage({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "WordPage" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   const relatedTools = [
     {
       name: t("related_tool_1_name"),
       desc: t("related_tool_1_desc"),
       icon: <FileTextIcon className="w-5 h-5" />,
-      link: `/${locale}/handwriting-to-docx`,
+      link: `${localePath}/handwriting-to-docx`,
     },
     {
       name: t("related_tool_2_name"),
       desc: t("related_tool_2_desc"),
       icon: <Notebook className="w-5 h-5" />,
-      link: `/${locale}/edit-pdf`,
+      link: `${localePath}/edit-pdf`,
     },
     {
       name: t("related_tool_3_name"),
       desc: t("related_tool_3_desc"),
       icon: <FileSpreadsheetIcon className="w-5 h-5" />,
-      link: `/${locale}/online-editor`,
+      link: `${localePath}/online-editor`,
     },
     {
       name: t("related_tool_4_name"),
       desc: t("related_tool_4_desc"),
       icon: <Text className="w-5 h-5" />,
-      link: `/${locale}/`,
+      link: `${localePath}/handwriting-recognition`,
     },
   ];
 

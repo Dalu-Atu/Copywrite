@@ -5,17 +5,17 @@ export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "HomePage" });
 
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
+
   return {
-    // 1. Core Metadata
     title: t("meta_title"),
     description: t("meta_desc"),
 
-    // 3. Hreflang Tags (CRITICAL for SEO)
-    // Tells Google about all versions of this page
     alternates: {
-      canonical: `https://noteocr.com/${locale}`,
+      canonical: `https://noteocr.com${localePath}`, // 👈 English = noteocr.com, others = noteocr.com/es etc
       languages: {
-        en: "https://noteocr.com/en",
+        "x-default": "https://noteocr.com", 
+        en: "https://noteocr.com", 
         tr: "https://noteocr.com/tr",
         es: "https://noteocr.com/es",
         zh: "https://noteocr.com/zh",
@@ -30,15 +30,13 @@ export async function generateMetadata({ params }) {
         nl: "https://noteocr.com/nl",
         no: "https://noteocr.com/no",
         sv: "https://noteocr.com/sv",
-        "x-default": "https://noteocr.com/en",
       },
     },
 
-    // 4. Social SEO
     openGraph: {
       title: t("meta_title"),
       description: t("meta_desc"),
-      url: `https://noteocr.com/${locale}`,
+      url: `https://noteocr.com${localePath}`, // 👈 fixed here too
       siteName: "NoteOCR",
       images: [
         {

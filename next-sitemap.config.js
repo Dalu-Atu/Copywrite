@@ -2,14 +2,20 @@
 const config = {
   siteUrl: "https://noteocr.com",
   generateRobotsTxt: true,
-  exclude: ["/icon.ico", "/apple-icon.png"],
+  exclude: [
+    "/icon.ico",
+    "/icon.png", // 👈 add this
+    "/favicon.png", // 👈 add this
+    "/apple-icon.png",
+    "/logo.png", // 👈 add this
+    "/logo-white.png", // 👈 add this
+  ],
   changefreq: "daily",
   priority: 0.7,
   outDir: "public",
 
   additionalPaths: async (config) => {
     const locales = [
-      "en",
       "tr",
       "es",
       "zh",
@@ -24,9 +30,8 @@ const config = {
       "nl",
       "no",
       "sv",
-    ];
+    ]; // 👈 English removed — it lives at root
 
-    // 1. ALL BASE ROUTES (Mapped from your VS Code Sidebar)
     const basePages = [
       "",
       "/about",
@@ -51,22 +56,25 @@ const config = {
       "/scan-handwriting-to-text",
       "/scan-to-word",
       "/solutions",
-      "/solutions/business",
-      "/solutions/education",
+      ,
       "/terms",
     ];
 
-    // 2. DYNAMIC SLUGS (Optional)
-    // If you have specific blog slugs or solution slugs, add them here
-    const dynamicSlugs = [];
-
-    const allBasePaths = [...basePages, ...dynamicSlugs];
     const result = [];
 
-    // 3. THE MULTIPLIER LOGIC
-    // This creates the path for every language automatically
+    // English pages at root (no locale prefix)
+    basePages.forEach((path) => {
+      result.push({
+        loc: `${path === "" ? "/" : path}`,
+        changefreq: "daily",
+        priority: path === "" ? 1.0 : 0.7,
+        lastmod: new Date().toISOString(),
+      });
+    });
+
+    // All other languages with prefix
     locales.forEach((locale) => {
-      allBasePaths.forEach((path) => {
+      basePages.forEach((path) => {
         result.push({
           loc: `/${locale}${path}`,
           changefreq: "daily",
@@ -81,14 +89,13 @@ const config = {
 
   transform: async (config, path) => {
     const locales = [
-      "en",
       "tr",
       "es",
       "zh",
       "hi",
       "de",
-      "ja",
       "fr",
+      "ja",
       "pt-br",
       "da",
       "fi",
@@ -96,11 +103,11 @@ const config = {
       "nl",
       "no",
       "sv",
-    ];
+    ]; // 👈 English removed here too
 
-    // Clean the path to find the "base" version for alternate refs
+    // Strip any locale prefix to get the base path
     const cleanPath = path.replace(
-      /^\/(en|tr|es|zh|hi|de|fr|fi|it|nl|no|sv|da|ja|pt-br)(\/|$)/,
+      /^\/(tr|es|zh|hi|de|fr|fi|it|nl|no|sv|da|ja|pt-br)(\/|$)/,
       "/",
     );
     const normalizedPath = cleanPath === "/" ? "" : cleanPath;
@@ -111,11 +118,14 @@ const config = {
       priority: config.priority,
       lastmod: new Date().toISOString(),
 
-      // This tells Search Engines how the languages link together
       alternateRefs: [
         {
-          href: `${config.siteUrl}/en${normalizedPath}`,
-          hreflang: "x-default",
+          href: `${config.siteUrl}${normalizedPath || "/"}`,
+          hreflang: "x-default", // 👈 points to root, not /en/
+        },
+        {
+          href: `${config.siteUrl}${normalizedPath || "/"}`,
+          hreflang: "en", // 👈 English also points to root
         },
         ...locales.map((locale) => ({
           href: `${config.siteUrl}/${locale}${normalizedPath}`,

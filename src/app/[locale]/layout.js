@@ -8,6 +8,10 @@ import Script from "next/script";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 
+export const metadata = {
+  applicationName: "NoteOCR", // 👈 add this
+};
+
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;
   const messages = await getMessages();
@@ -18,36 +22,12 @@ export default async function RootLayout({ children, params }) {
       className={`${GeistSans.variable} ${GeistMono.variable}`}
     >
       <head>
-    
-        <link
-          rel="icon"
-          href="/logo.png"
-          media="(prefers-color-scheme: light)"
-        />
+        {/* All favicon references point to icon.png */}
+        <link rel="icon" type="image/png" href="/icon.png" />
+        <link rel="shortcut icon" href="/icon.png" />
+        <link rel="apple-touch-icon" href="/icon.png" />
 
-        {/* Dark mode favicon */}
-        <link
-          rel="icon"
-          href="/logo-white.png"
-          media="(prefers-color-scheme: dark)"
-        />
-
-        {/* Fallback favicon (important for Safari) */}
-        <link rel="icon" href="/logo.png" />
-
-        {/* Apple Touch Icons */}
-        <link
-          rel="apple-touch-icon"
-          href="/logo.png"
-          media="(prefers-color-scheme: light)"
-        />
-        <link
-          rel="apple-touch-icon"
-          href="/logo-white.png"
-          media="(prefers-color-scheme: dark)"
-        />
-
-        {/* Theme colors (browser UI) */}
+        {/* Theme colors */}
         <meta
           name="theme-color"
           content="#ffffff"
@@ -59,7 +39,23 @@ export default async function RootLayout({ children, params }) {
           media="(prefers-color-scheme: dark)"
         />
 
-        {/* ===== Google Analytics ===== */}
+        {/* WebSite Schema */}
+        <Script
+          id="website-schema"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "NoteOCR",
+              alternateName: "Note OCR",
+              url: "https://noteocr.com",
+            }),
+          }}
+        />
+
+        {/* Google Analytics */}
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-YKS9QT9KWS"
@@ -69,11 +65,11 @@ export default async function RootLayout({ children, params }) {
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-YKS9QT9KWS');
-            `,
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YKS9QT9KWS');
+      `,
           }}
         />
       </head>

@@ -95,17 +95,12 @@ const HeaderComponent = () => {
       title: t("solutions"),
       items: [
         {
-          name: t("academic"),
-          href: lLink("/solutions/education"),
+          name: 'Docs',
+          href: lLink("/docs"),
           icon: <BookOpen className="w-4 h-4" />,
-          desc: t("desc_academic"),
+          desc: 'Docs',
         },
-        {
-          name: t("enterprise"),
-          href: lLink("/solutions/business"),
-          icon: <Users className="w-4 h-4" />,
-          desc: t("desc_enterprise"),
-        },
+      
       ],
     },
     resources: {

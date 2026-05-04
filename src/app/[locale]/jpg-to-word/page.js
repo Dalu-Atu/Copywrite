@@ -32,14 +32,16 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "JpgToWord" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     alternates: {
-      canonical: `https://noteocr.com/${locale}/jpg-to-word`,
+      canonical: `https://noteocr.com${localePath}/jpg-to-word`,
       languages: {
-        en: "https://noteocr.com/en/jpg-to-word",
+        "x-default": "https://noteocr.com/jpg-to-word",
+        en: "https://noteocr.com/jpg-to-word",
         es: "https://noteocr.com/es/jpg-to-word",
         tr: "https://noteocr.com/tr/jpg-to-word",
         zh: "https://noteocr.com/zh/jpg-to-word",
@@ -67,31 +69,32 @@ export async function generateMetadata({ params }) {
 export default async function JpgToWord({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "JpgToWord" });
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   const relatedTools = [
     {
       name: t("related_tool_1_name"),
       desc: t("related_tool_1_desc"),
       icon: <FileTextIcon className="w-5 h-5" />,
-      link: `/${locale}/handwriting-to-excel`,
+      link: `${localePath}/handwriting-to-excel`,
     },
     {
       name: t("related_tool_2_name"),
       desc: t("related_tool_2_desc"),
       icon: <Notebook className="w-5 h-5" />,
-      link: `/${locale}/handwriting-to-docx`,
+      link: `${localePath}/handwriting-to-docx`,
     },
     {
       name: t("related_tool_3_name"),
       desc: t("related_tool_3_desc"),
       icon: <FileSpreadsheetIcon className="w-5 h-5" />,
-      link: `/${locale}/`,
+      link: `${localePath}/pic-to-excel`,
     },
     {
       name: t("related_tool_4_name"),
       desc: t("related_tool_4_desc"),
       icon: <Text className="w-5 h-5" />,
-      link: `/${locale}/online-editor`,
+      link: `${localePath}/online-editor`,
     },
   ];
 
@@ -525,59 +528,3 @@ export default async function JpgToWord({ params }) {
     </div>
   );
 }
-
-// The Word Pages
-// Namespace: PhotoToWord (Slug: /photo-to-word)
-
-// Meta: Convert Photo to Word Document | Extract Text from Pictures
-
-// H1: Convert Any Photo to a Word Document
-
-// Namespace: ImageToWord (Slug: /image-to-word)
-
-// Meta: Image to Word Converter | Best Picture to Text Tool
-
-// H1: Fast & Accurate Image to Word Converter
-
-// Namespace: HandwritingToWord (Slug: /convert-handwriting-to-word)
-
-// Meta: Convert Handwriting to Text in Word | Cursive OCR
-
-// H1: Convert Handwriting Directly to Word Text
-
-// Namespace: ScanToWord (Slug: /scan-to-word)
-
-// Meta: Scanner to Word | Convert Scanned Documents to Editable Text
-
-// H1: Convert Scans into Word Documents
-
-// The Excel Pages
-// Namespace: ImageToExcel (Slug: /image-to-excel)
-
-// Meta: Image to Excel Converter | Extract Tables from Pictures
-
-// H1: Convert Image to Excel Spreadsheet
-
-// Namespace: JpgToExcel (Slug: /jpg-to-excel)
-
-// Meta: Convert JPG to Excel | JPEG Table Extraction Tool
-
-// H1: Extract Tables from JPG to Excel
-
-// Namespace: TableImageToExcel (Slug: /table-image-to-excel)
-
-// Meta: Copy Table From Image to Excel | Photo Table to Spreadsheet
-
-// H1: Convert Table Images to Excel Instantly
-
-// Namespace: HandwrittenInvoice (Slug: /handwritten-invoice-to-excel)
-
-// Meta: Convert Handwritten Invoice to Excel | Receipt OCR Tool
-
-// H1: Digitize Handwritten Invoices to Excel
-
-// Namespace: HandwrittenTimesheet (Slug: /handwritten-timesheet-to-excel)
-
-// Meta: Convert Handwritten Timesheets to Excel | HR OCR Tool
-
-// H1: Automate Handwritten Timesheets to Excel
