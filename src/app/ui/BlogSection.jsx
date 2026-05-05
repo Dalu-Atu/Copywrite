@@ -38,9 +38,9 @@ export default function BlogSection() {
         {/* 1. HEADER: Minimal & Editorial */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-16 gap-8 pb-8">
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight mb-4">
               NoteOCR Blog
-            </h1>
+            </h2>
             <p className="text-lg text-slate-500 max-w-xl leading-relaxed">
               Thoughts on AI, document intelligence, and the future of work.
             </p>
