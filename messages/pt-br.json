@@ -1221,7 +1221,7 @@
       "starter": {
         "name": "Student",
         "desc": "Para redações, notas e lições de casa.",
-        "price": "8",
+        "price": "12",
         "credits": "100 Páginas",
         "btn": "Obter Starter",
         "features": [
@@ -1235,7 +1235,7 @@
       "plus": {
         "name": "Professional",
         "desc": "Para contadores e pesquisadores.",
-        "price": "15",
+        "price": "25",
         "credits": "300 Páginas",
         "btn": "Obter Professional",
         "badge": "Melhor Custo-Benefício",
@@ -1250,7 +1250,7 @@
       "pro": {
         "name": "Power User",
         "desc": "Para arquivos e entrada massiva de dados.",
-        "price": "25",
+        "price": "50",
         "credits": "1.000 Páginas",
         "btn": "Obter Power Pack",
         "features": [

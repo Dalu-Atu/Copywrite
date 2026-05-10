@@ -1218,7 +1218,7 @@
       "starter": {
         "name": "Student",
         "desc": "論文、ノート、宿題に最適。",
-        "price": "8",
+        "price": "12",
         "credits": "100ページ",
         "btn": "Starterプランを購入",
         "features": [
@@ -1232,7 +1232,7 @@
       "plus": {
         "name": "Professional",
         "desc": "会計士や研究者向け。",
-        "price": "15",
+        "price": "25",
         "credits": "300ページ",
         "btn": "Professionalプランを購入",
         "badge": "最高コスパ",
@@ -1247,7 +1247,7 @@
       "pro": {
         "name": "Power User",
         "desc": "アーカイブや大量データ入力に。",
-        "price": "25",
+        "price": "50",
         "credits": "1,000ページ",
         "btn": "Power Packを購入",
         "features": [

@@ -1224,7 +1224,7 @@
       "starter": {
         "name": "Student",
         "desc": "For essays, notes & homework.",
-        "price": "8",
+        "price": "12",
         "credits": "100 Pages",
         "btn": "Get Starter",
         "features": [
@@ -1238,7 +1238,7 @@
       "plus": {
         "name": "Professional",
         "desc": "For accountants & researchers.",
-        "price": "15",
+        "price": "25",
         "credits": "300 Pages",
         "btn": "Get Professional",
         "badge": "Best Value",
@@ -1253,7 +1253,7 @@
       "pro": {
         "name": "Power User",
         "desc": "For archives & bulk data entry.",
-        "price": "25",
+        "price": "50",
         "credits": "1,000 Pages",
         "btn": "Get Power Pack",
         "features": [

@@ -1223,7 +1223,7 @@
       "starter": {
         "name": "Student",
         "desc": "För uppsatser, anteckningar & läxor.",
-        "price": "8",
+        "price": "12",
         "credits": "100 Sidor",
         "btn": "Skaffa Starter",
         "features": [
@@ -1237,7 +1237,7 @@
       "plus": {
         "name": "Professionell",
         "desc": "För revisorer & forskare.",
-        "price": "15",
+        "price": "25",
         "credits": "300 Sidor",
         "btn": "Skaffa Professionell",
         "badge": "Bästa värde",
@@ -1252,7 +1252,7 @@
       "pro": {
         "name": "Power User",
         "desc": "För arkiv & bulkdatainmatning.",
-        "price": "25",
+        "price": "50",
         "credits": "1 000 Sidor",
         "btn": "Skaffa Power Pack",
         "features": [

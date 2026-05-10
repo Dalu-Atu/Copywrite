@@ -1222,7 +1222,7 @@
       "starter": {
         "name": "Student",
         "desc": "Für Aufsätze, Notizen & Hausaufgaben.",
-        "price": "8",
+        "price": "12",
         "credits": "100 Seiten",
         "btn": "Student-Paket wählen",
         "features": [
@@ -1236,7 +1236,7 @@
       "plus": {
         "name": "Professional",
         "desc": "Für Buchhalter & Forscher.",
-        "price": "15",
+        "price": "25",
         "credits": "300 Seiten",
         "btn": "Pro-Paket wählen",
         "badge": "Bester Wert",
@@ -1251,7 +1251,7 @@
       "pro": {
         "name": "Power User",
         "desc": "Für Archive & Massendatenerfassung.",
-        "price": "25",
+        "price": "50",
         "credits": "1.000 Seiten",
         "btn": "Power-Paket wählen",
         "features": [

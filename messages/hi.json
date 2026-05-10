@@ -1221,7 +1221,7 @@
       "starter": {
         "name": "Student",
         "desc": "निबंध, नोट्स और होमवर्क के लिए।",
-        "price": "8",
+        "price": "12",
         "credits": "100 पेज",
         "btn": "Starter प्लान लें",
         "features": [
@@ -1235,7 +1235,7 @@
       "plus": {
         "name": "Professional",
         "desc": "अकाउंटेंट और शोधकर्ताओं के लिए।",
-        "price": "15",
+        "price": "25",
         "credits": "300 पेज",
         "btn": "Professional प्लान लें",
         "badge": "सबसे किफायती",
@@ -1250,7 +1250,7 @@
       "pro": {
         "name": "Power User",
         "desc": "आर्काइव्स और बल्क डेटा एंट्री के लिए।",
-        "price": "25",
+        "price": "50",
         "credits": "1,000 पेज",
         "btn": "Power Pack लें",
         "features": [

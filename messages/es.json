@@ -1219,7 +1219,7 @@
       "starter": {
         "name": "Estudiante",
         "desc": "Para ensayos, notas y tareas.",
-        "price": "8",
+        "price": "12",
         "credits": "100 Páginas",
         "btn": "Obtener Starter",
         "features": [
@@ -1233,7 +1233,7 @@
       "plus": {
         "name": "Profesional",
         "desc": "Para contadores e investigadores.",
-        "price": "15",
+        "price": "25",
         "credits": "300 Páginas",
         "btn": "Obtener Profesional",
         "badge": "Mejor valor",
@@ -1248,7 +1248,7 @@
       "pro": {
         "name": "Power User",
         "desc": "Para archivos y entrada masiva de datos.",
-        "price": "25",
+        "price": "50",
         "credits": "1.000 Páginas",
         "btn": "Obtener Power Pack",
         "features": [

@@ -1219,7 +1219,7 @@
       "starter": {
         "name": "Öğrenci",
         "desc": "Makaleler, notlar ve ödevler için.",
-        "price": "8",
+        "price": "12",
         "credits": "100 Sayfa",
         "btn": "Starter Paketi Al",
         "features": [
@@ -1233,7 +1233,7 @@
       "plus": {
         "name": "Profesyonel",
         "desc": "Muhasebeciler ve araştırmacılar için.",
-        "price": "15",
+        "price": "25",
         "credits": "300 Sayfa",
         "btn": "Profesyonel Paketi Al",
         "badge": "En İyi Değer",
@@ -1248,7 +1248,7 @@
       "pro": {
         "name": "Güçlü Kullanıcı",
         "desc": "Arşivler ve toplu veri girişi için.",
-        "price": "25",
+        "price": "50",
         "credits": "1.000 Sayfa",
         "btn": "Power Pack Al",
         "features": [

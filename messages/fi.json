@@ -1222,7 +1222,7 @@
       "starter": {
         "name": "Opiskelija",
         "desc": "Esseille, muistiinpanoille ja kotitehtäville.",
-        "price": "8",
+        "price": "12",
         "credits": "100 sivua",
         "btn": "Hanki Starter",
         "features": [
@@ -1236,7 +1236,7 @@
       "plus": {
         "name": "Ammattilainen",
         "desc": "Kirjanpitäjille ja tutkijoille.",
-        "price": "15",
+        "price": "25",
         "credits": "300 sivua",
         "btn": "Hanki Ammattilainen",
         "badge": "Paras arvo",
@@ -1251,7 +1251,7 @@
       "pro": {
         "name": "Tehokäyttäjä",
         "desc": "Arkistoille ja massatiedonsyöttöön.",
-        "price": "25",
+        "price": "50",
         "credits": "1 000 sivua",
         "btn": "Hanki Power Pack",
         "features": [

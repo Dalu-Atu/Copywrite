@@ -1223,7 +1223,7 @@
       "starter": {
         "name": "Studente",
         "desc": "Per saggi, appunti e compiti.",
-        "price": "8",
+        "price": "12",
         "credits": "100 Pagine",
         "btn": "Scegli Starter",
         "features": [
@@ -1237,7 +1237,7 @@
       "plus": {
         "name": "Professionista",
         "desc": "Per contabili e ricercatori.",
-        "price": "15",
+        "price": "25",
         "credits": "300 Pagine",
         "btn": "Scegli Professionista",
         "badge": "Miglior Valore",
@@ -1252,7 +1252,7 @@
       "pro": {
         "name": "Utente Avanzato",
         "desc": "Per archivi e inserimento dati massivo.",
-        "price": "25",
+        "price": "50",
         "credits": "1.000 Pagine",
         "btn": "Scegli Utente Avanzato",
         "features": [

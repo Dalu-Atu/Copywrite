@@ -1223,7 +1223,7 @@
       "starter": {
         "name": "Student",
         "desc": "For essays, notater og lekser.",
-        "price": "8",
+        "price": "12",
         "credits": "100 sider",
         "btn": "Kjøp Starter",
         "features": [
@@ -1237,7 +1237,7 @@
       "plus": {
         "name": "Profesjonell",
         "desc": "For regnskapsførere og forskere.",
-        "price": "15",
+        "price": "25",
         "credits": "300 sider",
         "btn": "Kjøp Profesjonell",
         "badge": "Mest for pengene",
@@ -1252,7 +1252,7 @@
       "pro": {
         "name": "Superbruker",
         "desc": "For arkiver og masseregistrering av data.",
-        "price": "25",
+        "price": "50",
         "credits": "1 000 sider",
         "btn": "Kjøp Power Pack",
         "features": [

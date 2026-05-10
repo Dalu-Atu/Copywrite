@@ -1223,7 +1223,7 @@
       "starter": {
         "name": "Student",
         "desc": "Voor essays, notities & huiswerk.",
-        "price": "8",
+        "price": "12",
         "credits": "100 Pagina's",
         "btn": "Kies Starter",
         "features": [
@@ -1237,7 +1237,7 @@
       "plus": {
         "name": "Professional",
         "desc": "Voor accountants & onderzoekers.",
-        "price": "15",
+        "price": "25",
         "credits": "300 Pagina's",
         "btn": "Kies Professional",
         "badge": "Beste Waarde",
@@ -1252,7 +1252,7 @@
       "pro": {
         "name": "Power User",
         "desc": "Voor archieven & bulk data-invoer.",
-        "price": "25",
+        "price": "50",
         "credits": "1.000 Pagina's",
         "btn": "Kies Power Pack",
         "features": [
