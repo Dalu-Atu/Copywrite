@@ -7,9 +7,10 @@ import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
+import { Toaster } from "react-hot-toast"; // 👈 added
 
 export const metadata = {
-  applicationName: "NoteOCR", // 👈 add this
+  applicationName: "NoteOCR",
 };
 
 export default async function RootLayout({ children, params }) {
@@ -22,12 +23,10 @@ export default async function RootLayout({ children, params }) {
       className={`${GeistSans.variable} ${GeistMono.variable}`}
     >
       <head>
-        {/* All favicon references point to icon.png */}
         <link rel="icon" type="image/png" href="/icon.png" />
         <link rel="shortcut icon" href="/icon.png" />
         <link rel="apple-touch-icon" href="/icon.png" />
 
-        {/* Theme colors */}
         <meta
           name="theme-color"
           content="#ffffff"
@@ -39,7 +38,6 @@ export default async function RootLayout({ children, params }) {
           media="(prefers-color-scheme: dark)"
         />
 
-        {/* WebSite Schema */}
         <Script
           id="website-schema"
           type="application/ld+json"
@@ -55,7 +53,6 @@ export default async function RootLayout({ children, params }) {
           }}
         />
 
-        {/* Google Analytics */}
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-YKS9QT9KWS"
@@ -80,6 +77,7 @@ export default async function RootLayout({ children, params }) {
             <ClientLayout>{children}</ClientLayout>
           </Providers>
         </NextIntlClientProvider>
+        <Toaster position="top center" /> {/* 👈 added */}
         <Analytics />
       </body>
     </html>

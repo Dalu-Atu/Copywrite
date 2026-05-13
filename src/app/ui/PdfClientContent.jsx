@@ -450,6 +450,7 @@ export default function PdfClientContent({ locale }) {
     },
     onError: (error) => {
       toast.error(error?.response?.data?.message || t("toast_error_create"));
+      
     },
   });
 

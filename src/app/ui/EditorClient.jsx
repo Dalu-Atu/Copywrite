@@ -54,7 +54,7 @@ export default function EditorClientContent({ locale }) {
     mutationFn: async (data) => {
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_API_URL}/users/create-document`,
-        data
+        data,
       );
       return response.data;
     },
@@ -72,7 +72,7 @@ export default function EditorClientContent({ locale }) {
     mutationFn: async (formData) => {
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_API_URL}/users/upload`,
-        formData
+        formData,
       );
       return response.data;
     },

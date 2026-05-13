@@ -132,7 +132,7 @@ export default function WordToolInterface({ locale, translation }) {
     <div className="w-full max-w-3xl mx-auto relative px-2">
       {/* TOASTER UI */}
       <div
-        className={`fixed top-11 left-1/2 -translate-x-1/2 z-[100] transition-all duration-300 ${
+        className={`fixed top-15 left-1/2 -translate-x-1/2 z-[100] transition-all duration-300 ${
           toastState.visible
             ? "opacity-100 translate-y-0"
             : "opacity-0 -translate-y-4 pointer-events-none"
@@ -282,6 +282,7 @@ export default function WordToolInterface({ locale, translation }) {
 
       {/* FOOTER INFO CARDS */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
+        Please
         {[
           {
             icon: Layout,
