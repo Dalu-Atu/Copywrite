@@ -548,15 +548,20 @@ export default function PdfClientContent({ locale }) {
     setModalOpen(true);
   };
 
-  const handleRouterContinue = () => {
-    const chosen = DOCUMENT_TYPES.find((d) => d.id === selectedType);
-    if (chosen.route) {
-      window.location.href = chosen.route;
-    } else {
-      // It's a standard PDF — proceed to the actual file upload step
-      setModalStep("upload");
-    }
-  };
+const handleRouterContinue = () => {
+  const chosen = DOCUMENT_TYPES.find((d) => d.id === selectedType);
+
+  window.gtag("event", "edit_pdf_route_selected", {
+    document_type: chosen.id, // "standard" | "handwritten" | etc.
+    label: chosen.label, // human-readable name
+  });
+
+  if (chosen.route) {
+    window.location.href = chosen.route;
+  } else {
+    setModalStep("upload");
+  }
+};
 
   const isGlobalLoading = isCreating || isImporting;
 
