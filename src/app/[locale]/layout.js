@@ -47,7 +47,7 @@ export default async function RootLayout({ children, params }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "NoteOCR",
-              alternateName: "Note OCR",
+              alternateName: "NoteOCR",
               url: "https://noteocr.com",
             }),
           }}
