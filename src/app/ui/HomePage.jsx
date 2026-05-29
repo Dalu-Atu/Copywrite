@@ -10,9 +10,16 @@ import WhySection from "./WhySection";
 import TestimonialSection from "./TestimonialSection";
 import FAQSection from "./Faq";
 import BlogSection from "./BlogSection";
+import { useLocale } from "next-intl";
 
 const HomePage = () => {
   const t = useTranslations("HomePage");
+  const locale = useLocale(); // e.g. "en", "es", "fr"
+
+  const getAppUrl = (path) => {
+    const base = `https://app.noteocr.com${path}`;
+    return locale && locale !== "en" ? `${base}?lng=${locale}` : base;
+  };
 
   return (
     <main className="bg-white selection:bg-[#1b9e99] selection:text-white">
@@ -84,7 +91,7 @@ const HomePage = () => {
           {/* 4. CTAs */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
             <a
-              href="https://app.noteocr.com/signup"
+              href={getAppUrl("/signup")}
               className="group relative overflow-hidden bg-[#1b9e99] text-white rounded-xl px-8 py-4 font-bold text-lg transition-all duration-300 hover:bg-[#158782] hover:shadow-[0_10px_40px_rgba(27,158,153,0.3)] hover:-translate-y-1"
             >
               <span className="relative flex items-center justify-center gap-2">
@@ -94,7 +101,7 @@ const HomePage = () => {
             </a>
 
             <a
-              href="https://app.noteocr.com/upload-image"
+              href={getAppUrl("/upload-image")}
               className="group relative overflow-hidden bg-white text-[#00415a] border border-slate-200 rounded-xl px-8 py-4 font-bold text-lg transition-all duration-300 hover:border-[#1b9e99]/50 hover:text-[#1b9e99] hover:shadow-lg hover:-translate-y-1"
             >
               <span className="relative flex items-center justify-center gap-2">

@@ -21,6 +21,8 @@ import {
   CreditCard,
 } from "lucide-react";
 import { ConciergeSection } from "./ConciergeSection";
+const locale = useLocale();
+
 
 export default function PricingPage() {
   const t = useTranslations("PricingUI");
@@ -28,6 +30,11 @@ export default function PricingPage() {
   const comparisonRows = t.raw("comparison.rows");
   const deepDiveCards = t.raw("deep_dive.cards");
   const faqs = t.raw("faqs.items");
+  const getAppUrl = (path) => {
+    const base = `https://app.noteocr.com${path}`;
+    return locale && locale !== "en" ? `${base}&lng=${locale}` : base;
+  };
+
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -136,13 +143,13 @@ export default function PricingPage() {
                 </div>
 
                 <a
-                  href="https://app.noteocr.com/signup"
+                  href={getAppUrl("/signup")}
                   className={`w-full py-3 px-4 rounded-md font-bold text-sm text-center transition-all ${
                     isPlus
                       ? "bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/20"
                       : isFree
-                      ? "bg-white/10 border border-white/10 text-white hover:bg-white/20"
-                      : "bg-white text-black hover:bg-gray-200"
+                        ? "bg-white/10 border border-white/10 text-white hover:bg-white/20"
+                        : "bg-white text-black hover:bg-gray-200"
                   }`}
                 >
                   {t(`plans.${planKey}.btn`)}

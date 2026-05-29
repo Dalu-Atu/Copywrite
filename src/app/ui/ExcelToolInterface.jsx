@@ -371,6 +371,11 @@ export default function ExcelToolInterface({ locale, translation }) {
   const [dragActive, setDragActive] = useState(false);
   const fileInputRef = useRef(null);
 
+  const getAppUrl = (path) => {
+    const base = `https://app.noteocr.com${path}`;
+    return locale && locale !== "en" ? `${base}&lng=${locale}` : base;
+  };
+
   // --- CUSTOM TOASTER STATE ---
   const [toastState, setToastState] = useState({
     visible: false,
@@ -396,7 +401,9 @@ export default function ExcelToolInterface({ locale, translation }) {
     const fileName = encodeURIComponent(document.name);
 
     // Point to your main React app subdomain
-    window.location.href = `https://app.noteocr.com/trial-preview?folder=${folder}&file=${fileName}`;
+    window.location.href = getAppUrl(
+      `/trial-preview?folder=${folder}&file=${fileName}`,
+    );
   };
 
   // Mutation for uploading

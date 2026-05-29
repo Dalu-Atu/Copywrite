@@ -14,9 +14,15 @@ import {
   Layers,
   Code2,
 } from "lucide-react";
+import { useLocale } from "next-intl";
 
 export default function About() {
   const t = useTranslations("AboutPage");
+  const locale = useLocale(); // e.g. "en", "es", "fr"
+  const getAppUrl = (path) => {
+    const base = `https://app.noteocr.com${path}`;
+    return locale && locale !== "en" ? `${base}?lng=${locale}` : base;
+  };
 
   // Localized Features Array
   const features = ["engine", "spreadsheets", "hub", "collab", "export"].map(
@@ -35,11 +41,11 @@ export default function About() {
         key === "hub"
           ? "bg-violet-100 text-violet-700"
           : key === "collab"
-          ? "bg-pink-100 text-pink-700"
-          : key === "export"
-          ? "bg-amber-100 text-amber-700"
-          : "bg-emerald-100 text-emerald-700",
-    })
+            ? "bg-pink-100 text-pink-700"
+            : key === "export"
+              ? "bg-amber-100 text-amber-700"
+              : "bg-emerald-100 text-emerald-700",
+    }),
   );
 
   return (
@@ -168,7 +174,7 @@ export default function About() {
                     {feature.description}
                   </p>
                   <a
-                    href="https://app.noteocr.com/signup"
+                    href={getAppUrl("/signup")}
                     className="inline-flex items-center text-sm font-semibold text-emerald-600 hover:text-emerald-800 group"
                   >
                     {t("ecosystem.explore")}{" "}

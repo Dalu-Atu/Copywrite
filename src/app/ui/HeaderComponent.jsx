@@ -28,6 +28,11 @@ const HeaderComponent = () => {
   const [showBanner, setShowBanner] = useState(true);
   const dropdownRefs = useRef({});
 
+  const getAppUrl = (path) => {
+    const base = `https://app.noteocr.com${path}`;
+    return locale && locale !== "en" ? `${base}?lng=${locale}` : base;
+  };
+
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 10);
     const handleClickOutside = (event) => {
@@ -95,12 +100,11 @@ const HeaderComponent = () => {
       title: t("solutions"),
       items: [
         {
-          name: 'Docs',
+          name: "Docs",
           href: lLink("/docs"),
           icon: <BookOpen className="w-4 h-4" />,
-          desc: 'Docs',
+          desc: "Docs",
         },
-      
       ],
     },
     resources: {
@@ -196,13 +200,13 @@ const HeaderComponent = () => {
                 <LanguageSwitcher />
                 <div className="w-px h-4 bg-zinc-200 mx-1" />
                 <a
-                  href="https://app.noteocr.com/"
+                  href={getAppUrl("/")}
                   className="px-4 py-2 text-[13px] font-semibold text-zinc-600 hover:text-zinc-900 transition-colors"
                 >
                   {t("login")}
                 </a>
                 <a
-                  href="https://app.noteocr.com/signup"
+                  href={getAppUrl("/signup")}
                   className="px-5 py-2.5 text-[13px] font-bold text-white bg-[#015979] rounded-full hover:bg-[#014a66] transition-all shadow-sm"
                 >
                   {t("get_started")}
@@ -303,14 +307,14 @@ const HeaderComponent = () => {
             <div className="absolute bottom-0 left-0 right-0 p-6 bg-white border-t border-zinc-100 pb-8 shadow-[0_-10px_40px_rgba(0,0,0,0.05)]">
               <div className="grid grid-cols-2 gap-4">
                 <a
-                  href="https://app.noteocr.com/"
+                  href={getAppUrl("/")}
                   onClick={closeAll}
                   className="flex items-center justify-center py-3.5 text-base font-bold text-zinc-700 bg-zinc-100 rounded-xl"
                 >
                   {t("login")}
                 </a>
                 <a
-                  href="https://app.noteocr.com/signup"
+                  href={getAppUrl("/signup")}
                   onClick={closeAll}
                   className="flex items-center justify-center py-3.5 text-base font-bold text-white bg-[#015979] rounded-xl"
                 >
