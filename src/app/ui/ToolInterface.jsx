@@ -57,9 +57,9 @@ export default function WordToolInterface({ locale, translation }) {
     const fileName = encodeURIComponent(document.name);
 
     // Redirecting to your main app (localhost for dev, app.noteocr.com for prod)
-  window.location.href = getAppUrl(
-    `/trial-preview?folder=${folder}&file=${fileName}`,
-  );
+    window.location.href = getAppUrl(
+      `/trial-preview?folder=${folder}&file=${fileName}`,
+    );
   };
 
   // Mutation for uploading
@@ -81,12 +81,18 @@ export default function WordToolInterface({ locale, translation }) {
       }
     },
     onError: (error) => {
-      showToast(
-        "Error",
-        error?.response?.data?.message || t("toast_error_conversion"),
-        "error",
-      );
+      const backendMessage =
+        error.response?.data?.error ||
+        error.message ||
+        t("toast_error_conversion");
+
+      console.log("onError fired", error.response?.data);
+
+      showToast("Error", backendMessage, "error");
+
+      // Clear both state AND file input so re-upload works
       setFile(null);
+      if (fileInputRef.current) fileInputRef.current.value = "";
     },
   });
 
@@ -98,15 +104,19 @@ export default function WordToolInterface({ locale, translation }) {
 
   const processFile = async (selectedFile) => {
     const validTypes = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
+
+    // Clear input immediately so re-uploading same file works
+    if (fileInputRef.current) fileInputRef.current.value = "";
+
     if (!validTypes.includes(selectedFile.type)) {
       showToast("Invalid File", t("toast_error_type"), "error");
-      return;
+      return; // ← never reaches backend
     }
 
     const maxSize = 25 * 1024 * 1024;
     if (selectedFile.size > maxSize) {
       showToast("File Too Large", t("toast_error_size"), "error");
-      return;
+      return; // ← never reaches backend
     }
 
     setFile(selectedFile);
@@ -117,7 +127,7 @@ export default function WordToolInterface({ locale, translation }) {
       handleUpload({
         images: [base64String],
         userId: "67b746ab6256a6bdb691b18a",
-        conversionType: "imageToWord", // Specific for Word page
+        conversionType: "imageToWord",
         documentName: generateRandomDocName(),
         folder: "Personal",
         updating: false,
@@ -139,7 +149,7 @@ export default function WordToolInterface({ locale, translation }) {
     <div className="w-full max-w-3xl mx-auto relative px-2">
       {/* TOASTER UI */}
       <div
-        className={`fixed top-15 left-1/2 -translate-x-1/2 z-[100] transition-all duration-300 ${
+        className={`fixed top-13 left-1/2 -translate-x-1/2 z-[100] transition-all duration-300 ${
           toastState.visible
             ? "opacity-100 translate-y-0"
             : "opacity-0 -translate-y-4 pointer-events-none"
@@ -289,7 +299,6 @@ export default function WordToolInterface({ locale, translation }) {
 
       {/* FOOTER INFO CARDS */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
-        Please
         {[
           {
             icon: Layout,
