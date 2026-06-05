@@ -33,7 +33,7 @@ export const articles = [
       </a>
     </div>
 
-    <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">The Hidden Cost of Handwritten Data</h2>
+    <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">The Hidden Cost of Handwritten Data</h2>
     <p class="mb-6 text-slate-700 leading-relaxed">
       Paper is fast, flexible, offline, and universally accessible. A nurse jotting vitals during rounds, a site foreman recording daily output, 
       a teacher marking attendance — they reach for a pen because it's quicker than opening an app. But then comes <em>the second step</em> — 
@@ -56,7 +56,7 @@ export const articles = [
       </div>
     </div>
 
-    <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">How NoteOCR Converts Handwriting to Excel in 3 Steps</h2>
+    <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">How NoteOCR Converts Handwriting to Excel in 3 Steps</h2>
     <p class="mb-4 text-slate-700 leading-relaxed">
       NoteOCR uses a multi-layer AI pipeline combining <strong>computer vision, deep learning OCR, and intelligent table detection</strong> 
       to read handwriting the way a human would but faster, and without errors.
@@ -72,7 +72,7 @@ export const articles = [
       "Most OCR tools read text line-by-line and dump it as a flat paragraph. NoteOCR understands that row 3, column 4 belongs in cell D3 of your spreadsheet. preserving the original table structure that matters to your business."
     </blockquote>
 
-    <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">Every Industry That Benefits. All 22 of Them</h2>
+    <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">Every Industry That Benefits. All 22 of Them</h2>
     <p class="mb-6 text-slate-700 leading-relaxed">
       Handwritten data exists in every sector of the global economy. These aren't theoretical examples. these are the workflows 
       NoteOCR users run <strong>every single day.</strong>
@@ -261,7 +261,7 @@ export const articles = [
       </a>
     </div>
 
-    <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">Why Handwritten Tables Are the Hardest Problem and How We Solve It</h2>
+    <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">Why Handwritten Tables Are the Hardest Problem and How We Solve It</h2>
     <p class="mb-6 text-slate-700 leading-relaxed">
       General OCR tools have gotten reasonably good at reading plain handwritten text. But <strong>handwritten tables are a different beast entirely.</strong> 
       The challenge isn't just reading the characters it's understanding the spatial relationships between them.
@@ -275,7 +275,7 @@ export const articles = [
       <li class="flex gap-3"><span class="text-[#015979]">✓</span> <span><strong>NoteOCR's Table Structure Engine</strong> was trained specifically on real-world handwritten tables. It detects grid lines, infers column boundaries, assigns values to correct cells, and reconstructs the table in Excel exactly as you drew it.</span></li>
     </ul>
 
-    <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">NoteOCR vs. Every Alternative: An Honest Comparison</h2>
+    <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">NoteOCR vs. Every Alternative: An Honest Comparison</h2>
 
     <div class="not-prose my-8 md:my-10 overflow-x-auto pb-4 shadow-sm rounded-xl">
       <table class="w-full min-w-[600px] text-left border-collapse bg-white rounded-xl overflow-hidden border border-slate-200">
@@ -328,7 +328,7 @@ export const articles = [
       </table>
     </div>
 
-    <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">The Real ROI: What Is Manual Data Entry Actually Costing You?</h2>
+    <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">The Real ROI: What Is Manual Data Entry Actually Costing You?</h2>
     <p class="mb-4 text-slate-700 leading-relaxed">Let's make this tangible. If you have 10 employees each spending 3 hours per week manually entering handwritten data at an average wage of $20/hour:</p>
 
     <div class="not-prose grid grid-cols-1 sm:grid-cols-3 gap-4 my-8">
@@ -352,7 +352,7 @@ export const articles = [
       <strong>The downstream value compounds every single day.</strong>
     </p>
 
-    <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">Real-World Results: Use Cases From Actual NoteOCR Users</h2>
+    <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">Real-World Results: Use Cases From Actual NoteOCR Users</h2>
 
     <div class="not-prose space-y-4 my-8">
       <div class="p-5 bg-white border border-zinc-100 shadow-sm rounded-2xl">
@@ -373,7 +373,7 @@ export const articles = [
       </div>
     </div>
 
-    <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">Frequently Asked Questions</h2>
+    <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">Frequently Asked Questions</h2>
 
     <div class="space-y-6 mb-10">
       <div class="border-b border-slate-100 pb-6">
@@ -429,5 +429,845 @@ export const articles = [
   </div>
 </div>
   `,
+  },
+
+  {
+    id: 2,
+    slug: "best-app-convert-handwritten-table-to-excel",
+    featured: true,
+    category: "Productivity",
+    title:
+      "Best Apps to Convert Handwritten Tables to Excel in 2026 (Tested & Ranked)",
+    excerpt:
+      "Struggling to convert handwritten tables into Excel? We tested 7 tools on real handwriting — messy, cursive, and structured then ranked them honestly. One clear winner.",
+    author: "Daniel Atu",
+    date: "2026-06-05",
+    readTime: "14 min",
+    tags: [
+      "OCR",
+      "Excel",
+      "Handwriting",
+      "Spreadsheet",
+      "Data Entry",
+      "Productivity",
+      "Table Recognition",
+      "AI Tools",
+    ],
+    image: "/articles-images/best-app-convert-handwritten-table-to-excel.png",
+    content: `
+
+  <!-- ══════════════ INTRO ══════════════ -->
+
+  <p class="text-base md:text-xl text-slate-600 leading-relaxed mb-6 md:mb-8">
+    You have a clipboard full of handwritten tables — shift logs, student marks, inventory counts,
+    lab readings — and somewhere between the paper and the spreadsheet, hours disappear.
+    You're not slow. The workflow is broken.
+  </p>
+
+  <p class="text-base text-slate-600 leading-relaxed mb-8 md:mb-10">
+    OCR tools promised to fix this years ago. Most of them still can't read your handwriting correctly,
+    and almost none of them understand that row 3, column 4 belongs in cell <strong>D3</strong> —
+    not dumped as unstructured text at the bottom of a document. We tested 7 tools on the same set
+    of real handwritten tables — neat, messy, cursive, multi-column — to find out which ones actually
+    work. Here's what we found.
+  </p>
+
+  <!-- ══════════════ QUICK-JUMP TOC ══════════════ -->
+
+  <div class="not-prose bg-blue-50 border border-blue-100 rounded-2xl p-5 md:p-6 mb-8 md:mb-10 inline-block">
+    <p class="text-xs font-bold uppercase tracking-widest text-[#015979] mb-3">Jump to</p>
+    <ul class="space-y-1.5">
+      <li><a href="#what-to-look-for" class="text-[#015979] text-sm font-medium hover:underline">→ What to Look For</a></li>
+      <li><a href="#tools-ranked"      class="text-[#015979] text-sm font-medium hover:underline">→ 7 Best Tools, Ranked</a></li>
+      <li><a href="#comparison-table"  class="text-[#015979] text-sm font-medium hover:underline">→ Side-by-Side Comparison</a></li>
+      <li><a href="#use-cases"         class="text-[#015979] text-sm font-medium hover:underline">→ Real-World Use Cases</a></li>
+      <li><a href="#how-to-guide"      class="text-[#015979] text-sm font-medium hover:underline">→ Step-by-Step Guide</a></li>
+      <li><a href="#faq"               class="text-[#015979] text-sm font-medium hover:underline">→ FAQ</a></li>
+      <li><a href="#verdict"           class="text-[#015979] text-sm font-medium hover:underline">→ Final Verdict</a></li>
+    </ul>
+  </div>
+
+  <!-- ══════════════ WHAT TO LOOK FOR ══════════════ -->
+
+  <h2 id="what-to-look-for" class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">
+    What to Look For in a Handwritten Table Converter
+  </h2>
+
+  <p class="mb-6 text-slate-700 leading-relaxed">
+    Not all OCR tools are equal — and the gap widens dramatically when handwriting and table
+    structure are both involved. Before reviewing individual tools, here is the criteria that
+    actually matters:
+  </p>
+
+  <div class="not-prose grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-5 my-8 md:my-10">
+
+    <div class="p-5 bg-white shadow-sm hover:shadow-md transition-shadow rounded-2xl border border-zinc-100">
+      <div class="text-2xl mb-2">🔤</div>
+      <h4 class="font-bold text-slate-800 mb-2">Handwriting Accuracy</h4>
+      <p class="text-sm text-slate-600 leading-relaxed">Most OCR engines were built for printed text and retrofitted for handwriting. A tool trained specifically on varied, messy, real-world handwriting performs meaningfully better — especially on cursive and inconsistent letter spacing.</p>
+    </div>
+
+    <div class="p-5 bg-white shadow-sm hover:shadow-md transition-shadow rounded-2xl border border-zinc-100">
+      <div class="text-2xl mb-2">⊞</div>
+      <h4 class="font-bold text-slate-800 mb-2">Table Structure Preservation</h4>
+      <p class="text-sm text-slate-600 leading-relaxed">This is the hardest problem. A tool must detect row and column boundaries in a handwritten grid — even when lines are slightly crooked, cells are blank, or columns aren't perfectly aligned — and map values to the correct Excel cells.</p>
+    </div>
+
+    <div class="p-5 bg-white shadow-sm hover:shadow-md transition-shadow rounded-2xl border border-zinc-100">
+      <div class="text-2xl mb-2">📄</div>
+      <h4 class="font-bold text-slate-800 mb-2">Output Format</h4>
+      <p class="text-sm text-slate-600 leading-relaxed">The goal is Excel. A tool that outputs plain text, a Word document, or a PDF and asks you to copy-paste into a spreadsheet has not solved the problem. Look for native <code>.xlsx</code> output — ideally with the file ready to open immediately.</p>
+    </div>
+
+    <div class="p-5 bg-white shadow-sm hover:shadow-md transition-shadow rounded-2xl border border-zinc-100">
+      <div class="text-2xl mb-2">🌐</div>
+      <h4 class="font-bold text-slate-800 mb-2">Language Support</h4>
+      <p class="text-sm text-slate-600 leading-relaxed">If your workforce writes in Arabic, French, Hindi, or Chinese, language coverage matters. Some tools are Latin-script only. Others support 40+ languages including non-Latin scripts.</p>
+    </div>
+
+    <div class="p-5 bg-white shadow-sm hover:shadow-md transition-shadow rounded-2xl border border-zinc-100">
+      <div class="text-2xl mb-2">📦</div>
+      <h4 class="font-bold text-slate-800 mb-2">Batch Processing</h4>
+      <p class="text-sm text-slate-600 leading-relaxed">For teams processing dozens or hundreds of pages per day — site reports, student answer sheets, farm records — single-page upload is a bottleneck. Batch upload and bulk conversion is essential at scale.</p>
+    </div>
+
+    <div class="p-5 bg-white shadow-sm hover:shadow-md transition-shadow rounded-2xl border border-zinc-100">
+      <div class="text-2xl mb-2">💰</div>
+      <h4 class="font-bold text-slate-800 mb-2">Pricing Model</h4>
+      <p class="text-sm text-slate-600 leading-relaxed">Monthly subscriptions compound fast for occasional users. Pay-per-use or one-time credit models are more economical for non-daily workflows. Consider whether credits expire and whether the model forces renewal.</p>
+    </div>
+
+  </div>
+
+  <!-- INLINE CTA -->
+  <div class="not-prose bg-blue-50 border-l-4 border-[#015979] p-5 md:p-6 rounded-r-2xl my-8 md:my-10 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+    <div>
+      <h4 class="font-bold text-[#015979] text-lg mb-1">Want to skip the research and just convert your table now?</h4>
+      <p class="text-sm text-slate-600">Upload any handwritten table image — get a clean, structured Excel file open in your browser in under 30 seconds.</p>
+    </div>
+    <a href="https://app.noteocr.com/upload-image" class="w-full md:w-auto text-center px-6 py-3 bg-[#015979] text-white rounded-full font-bold text-sm hover:scale-105 transition-transform shadow-md">
+      Try NoteOCR Free →
+    </a>
+  </div>
+
+  <!-- ══════════════ TOOLS RANKED ══════════════ -->
+
+  <h2 id="tools-ranked" class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">
+    The 7 Best Apps to Convert Handwritten Tables to Excel
+  </h2>
+  <p class="mb-6 text-slate-700 leading-relaxed">
+    Each tool below was evaluated on the same criteria: handwriting recognition quality, table
+    structure preservation, output format, supported file types, language support, and pricing.
+    Rankings reflect real-world performance on handwritten tables specifically — not general
+    OCR benchmarks.
+  </p>
+
+  <!-- ── TOOL 1: NoteOCR ── -->
+
+  <div class="not-prose border-2 border-[#015979] rounded-2xl overflow-hidden shadow-md my-8">
+
+    <div class="bg-blue-50 px-5 py-4 flex items-start gap-4 border-b border-blue-100">
+      <div class="flex-shrink-0 w-9 h-9 rounded-full bg-[#015979] text-white font-black text-base flex items-center justify-center">1</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">NoteOCR</h3>
+          <span class="text-xs font-bold uppercase tracking-wider bg-[#015979] text-white px-3 py-0.5 rounded-full">Best Overall</span>
+        </div>
+        <p class="text-sm text-slate-500">Purpose-built for handwritten tables. Converts directly to a live in-browser Excel editor.</p>
+      </div>
+    </div>
+
+    <div class="p-5 md:p-6 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        NoteOCR is the only tool in this comparison built specifically around handwritten-to-structured-spreadsheet
+        conversion. Most OCR tools read text line by line and dump the output. NoteOCR reads the spatial structure
+        of your page — detecting row boundaries, column edges, and cell relationships — and maps every value to the
+        correct Excel cell, whether the original document was neatly printed or written in the messiest field
+        handwriting you can produce.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        What makes NoteOCR genuinely different is what happens after the conversion. The moment your image is
+        processed, the resulting document opens live in a <strong>browser-based spreadsheet editor</strong> that
+        looks and functions exactly like Microsoft Excel. You see your data in the grid immediately, with rows,
+        columns, and formatting intact. You can edit cells, fix any recognition errors, rename headers, and
+        format values — all without installing anything. When satisfied, download in any of 10+ formats including
+        <code class="bg-slate-100 px-1 rounded text-xs">.xlsx</code>,
+        <code class="bg-slate-100 px-1 rounded text-xs">.csv</code>,
+        <code class="bg-slate-100 px-1 rounded text-xs">.ods</code>, and
+        <code class="bg-slate-100 px-1 rounded text-xs">.pdf</code>.
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-5 bg-slate-50 rounded-xl p-4">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-emerald-600 mb-2">Strengths</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Trained specifically on real-world handwritten tables</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Preserves row/column structure — data lands in correct cells</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Live in-browser Excel editor — no copy-pasting</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Handles both printed and handwritten content</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Documents auto-saved — downloadable anytime</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>10+ export formats including .xlsx, .csv, .ods, .pdf</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Supports 40+ languages including Arabic, Chinese, Hindi</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>One-time credits — no subscription, credits never expire</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-red-500 mb-2">Limitations</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Web-based only — no native desktop app currently</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Free trial credits are limited; bulk use requires a paid plan</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="space-y-2 border-t border-slate-100 pt-4 mb-4">
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Pricing</span><span class="text-slate-700">Starter $12 (100 pages) · Plus $25 (300 pages) · Pro $50 (1,000 pages) — one-time, never expires</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Best For</span><span class="text-slate-700">Anyone converting handwritten tables to Excel — individuals, teams, field workers, educators, researchers</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Accepts</span><span class="text-slate-700">JPG, PNG, HEIC, TIFF, PDF</span></div>
+      </div>
+
+      <div class="bg-blue-50 border-l-4 border-[#015979] rounded-r-xl p-4 text-sm text-[#013d54] font-medium">
+        <strong>Verdict:</strong> The clearest solution to the handwritten-table-to-Excel problem available today.
+        No other tool combines handwriting accuracy, structural layout preservation, and a live spreadsheet editor
+        in a single seamless flow.
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 2: Adobe Acrobat ── -->
+
+  <div class="not-prose border border-zinc-200 rounded-2xl overflow-hidden shadow-sm my-8">
+    <div class="bg-slate-50 px-5 py-4 flex items-start gap-4 border-b border-slate-100">
+      <div class="flex-shrink-0 w-9 h-9 rounded-full bg-slate-300 text-slate-700 font-black text-base flex items-center justify-center">2</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">Adobe Acrobat</h3>
+          <span class="text-xs font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-3 py-0.5 rounded-full">Best for PDF-Heavy Workflows</span>
+        </div>
+        <p class="text-sm text-slate-500">Industry-standard PDF tool with OCR — strong on printed text, limited on handwriting.</p>
+      </div>
+    </div>
+    <div class="p-5 md:p-6 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        Adobe Acrobat's OCR is one of the most well-established text recognition engines available. For printed
+        documents — scanned forms, typed tables, business receipts — it performs reliably and exports to Word or
+        Excel with reasonable formatting preservation.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        For handwriting, results are more complicated. Adobe's own documentation acknowledges its OCR is optimized
+        for printed text, and independent testing consistently shows accuracy on handwritten content drops
+        significantly compared to specialized tools. On handwritten tables specifically, cell alignment and
+        column mapping can break entirely.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-5 bg-slate-50 rounded-xl p-4">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-emerald-600 mb-2">Strengths</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Excellent OCR on printed, typed, and scanned text</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Exports directly to .xlsx, .docx, and other formats</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Handles complex multi-column printed layouts well</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Deep integration with Adobe ecosystem and Microsoft Office</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-red-500 mb-2">Limitations</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Handwriting recognition accuracy is moderate — neatness required</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Handwritten table structure often lost or incorrectly mapped</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Expensive subscription for users who only need basic digitization</li>
+          </ul>
+        </div>
+      </div>
+      <div class="space-y-2 border-t border-slate-100 pt-4 mb-4">
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Pricing</span><span class="text-slate-700">$19.99/month (annual) · $29.99/month (monthly) — subscription only</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Best For</span><span class="text-slate-700">Organizations already in the Adobe ecosystem processing primarily printed/scanned documents</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Accepts</span><span class="text-slate-700">PDF, JPG, PNG, TIFF and most image formats</span></div>
+      </div>
+      <div class="bg-slate-50 border-l-4 border-slate-300 rounded-r-xl p-4 text-sm text-slate-700">
+        <strong>Verdict:</strong> A capable PDF and printed-text OCR tool, but not the right choice if
+        handwritten tables are your primary use case. The cost is hard to justify for users who don't
+        need the broader Acrobat suite.
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 3: Microsoft Lens ── -->
+
+  <div class="not-prose border border-zinc-200 rounded-2xl overflow-hidden shadow-sm my-8">
+    <div class="bg-slate-50 px-5 py-4 flex items-start gap-4 border-b border-slate-100">
+      <div class="flex-shrink-0 w-9 h-9 rounded-full bg-slate-300 text-slate-700 font-black text-base flex items-center justify-center">3</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">Microsoft Lens</h3>
+          <span class="text-xs font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-3 py-0.5 rounded-full">Best for Microsoft 365 Users</span>
+        </div>
+        <p class="text-sm text-slate-500">A free mobile scanner with table extraction — but handwriting support is limited to English only.</p>
+      </div>
+    </div>
+    <div class="p-5 md:p-6 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        Microsoft Lens is a free mobile app for iOS and Android that can photograph documents, whiteboards,
+        and business cards, and save them directly to Word, PowerPoint, PDF, or OneDrive. Its table extraction
+        feature detects printed tables in images and preserves the grid structure.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        The critical limitation: <strong>handwriting text extraction in Microsoft Lens is currently limited
+        to English only.</strong> Additionally, independent testing places accuracy for cursive or irregular
+        handwriting at 40–60% — too low for business-critical data without heavy manual review.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-5 bg-slate-50 rounded-xl p-4">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-emerald-600 mb-2">Strengths</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Free — no cost for basic scanning and OCR</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Printed table detection preserves structure reasonably well</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Native integration with OneDrive, Word, Excel, and OneNote</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-red-500 mb-2">Limitations</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Handwriting OCR limited to English only</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Accuracy on cursive/messy handwriting is 40–60%</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Handwritten tables frequently lose column structure</li>
+          </ul>
+        </div>
+      </div>
+      <div class="space-y-2 border-t border-slate-100 pt-4 mb-4">
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Pricing</span><span class="text-slate-700">Free (requires Microsoft account)</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Best For</span><span class="text-slate-700">Microsoft 365 users scanning printed documents and English-language handwritten notes</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Accepts</span><span class="text-slate-700">Camera capture (iOS & Android); JPG, PNG imports</span></div>
+      </div>
+      <div class="bg-slate-50 border-l-4 border-slate-300 rounded-r-xl p-4 text-sm text-slate-700">
+        <strong>Verdict:</strong> Excellent free option for Microsoft-ecosystem users working with printed
+        documents. For multilingual handwritten tables or messy writing, accuracy falls short of most
+        professional workflows.
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 4: Google Drive OCR ── -->
+
+  <div class="not-prose border border-zinc-200 rounded-2xl overflow-hidden shadow-sm my-8">
+    <div class="bg-slate-50 px-5 py-4 flex items-start gap-4 border-b border-slate-100">
+      <div class="flex-shrink-0 w-9 h-9 rounded-full bg-slate-300 text-slate-700 font-black text-base flex items-center justify-center">4</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">Google Drive OCR</h3>
+          <span class="text-xs font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-3 py-0.5 rounded-full">Best Free Option (With Caveats)</span>
+        </div>
+        <p class="text-sm text-slate-500">Genuinely free, surprisingly capable — but tables come out jumbled and handwriting accuracy is inconsistent.</p>
+      </div>
+    </div>
+    <div class="p-5 md:p-6 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        Google Drive has a built-in OCR feature most users don't know about. Upload any image or PDF to
+        Google Drive, right-click it, and open it with Google Docs — Drive processes the image and places
+        extracted text in an editable document. It's completely free and requires no additional software.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        The more significant issue is table handling: when the source image contains a table, Google Drive's
+        OCR does not preserve the grid structure. Columns may not align correctly, blank cells cause surrounding
+        values to shift, and the output is typically jumbled text requiring manual reconstruction in a
+        spreadsheet — defeating the purpose.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-5 bg-slate-50 rounded-xl p-4">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-emerald-600 mb-2">Strengths</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Completely free — no account upgrade required</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>No additional software to install</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Adequate accuracy on printed text</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-red-500 mb-2">Limitations</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Table structure is not preserved — output is jumbled</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Handwriting accuracy inconsistent on cursive</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>No direct Excel output — requires manual copy-paste</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>No batch processing capability</li>
+          </ul>
+        </div>
+      </div>
+      <div class="space-y-2 border-t border-slate-100 pt-4 mb-4">
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Pricing</span><span class="text-slate-700">Free (included with Google account)</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Best For</span><span class="text-slate-700">Occasional, simple text extraction from printed documents when no other tool is available</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Accepts</span><span class="text-slate-700">JPG, PNG, GIF, PDF (image-based)</span></div>
+      </div>
+      <div class="bg-slate-50 border-l-4 border-slate-300 rounded-r-xl p-4 text-sm text-slate-700">
+        <strong>Verdict:</strong> A useful free fallback for basic printed-text extraction, but not a viable
+        solution for handwritten tables. The lack of table structure preservation means the hardest part of
+        the job is left entirely to you.
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 5: ABBYY FineReader ── -->
+
+  <div class="not-prose border border-zinc-200 rounded-2xl overflow-hidden shadow-sm my-8">
+    <div class="bg-slate-50 px-5 py-4 flex items-start gap-4 border-b border-slate-100">
+      <div class="flex-shrink-0 w-9 h-9 rounded-full bg-slate-300 text-slate-700 font-black text-base flex items-center justify-center">5</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">ABBYY FineReader PDF</h3>
+          <span class="text-xs font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-3 py-0.5 rounded-full">Best for Enterprise Print OCR</span>
+        </div>
+        <p class="text-sm text-slate-500">Industry-leading printed text OCR with 190+ languages — but handwriting support is not in FineReader.</p>
+      </div>
+    </div>
+    <div class="p-5 md:p-6 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        ABBYY FineReader PDF is widely regarded as the gold standard for printed document OCR. It handles
+        complex multi-column layouts, tables in scanned PDFs, and documents in over 190 languages with
+        outstanding accuracy. For organizations processing large volumes of scanned business documents — all
+        printed — FineReader is the benchmark.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        However, for handwritten content, an important technical distinction applies:
+        <strong>ABBYY's advanced ICR for handwriting is not included in FineReader.</strong> For dedicated
+        handwriting recognition, ABBYY offers separate enterprise products — but these are not the consumer
+        FineReader product most users purchase.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-5 bg-slate-50 rounded-xl p-4">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-emerald-600 mb-2">Strengths</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Best-in-class OCR accuracy for printed documents</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Supports 190+ languages including complex scripts</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Exports to Word, Excel, PowerPoint, searchable PDF</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Batch processing available; local processing</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-red-500 mb-2">Limitations</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Handwriting recognition limited — not a core FineReader capability</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Advanced ICR requires separate ABBYY enterprise products</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Annual subscription model — no one-time purchase</li>
+          </ul>
+        </div>
+      </div>
+      <div class="space-y-2 border-t border-slate-100 pt-4 mb-4">
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Pricing</span><span class="text-slate-700">Standard $99/year · Corporate $165/year · Monthly from $16/month</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Best For</span><span class="text-slate-700">Enterprises processing high volumes of scanned printed documents — legal, finance, archiving</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Accepts</span><span class="text-slate-700">PDF, TIFF, JPG, PNG, BMP and 15+ other input formats</span></div>
+      </div>
+      <div class="bg-slate-50 border-l-4 border-slate-300 rounded-r-xl p-4 text-sm text-slate-700">
+        <strong>Verdict:</strong> The right choice for enterprise printed-document OCR at scale. Not the
+        right tool if handwritten tables are your primary need — ABBYY's handwriting capabilities live in
+        a different, more expensive product tier.
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 6: Pen to Print ── -->
+
+  <div class="not-prose border border-zinc-200 rounded-2xl overflow-hidden shadow-sm my-8">
+    <div class="bg-slate-50 px-5 py-4 flex items-start gap-4 border-b border-slate-100">
+      <div class="flex-shrink-0 w-9 h-9 rounded-full bg-slate-300 text-slate-700 font-black text-base flex items-center justify-center">6</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">Pen to Print</h3>
+          <span class="text-xs font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-3 py-0.5 rounded-full">Strong for Handwriting, Weak on Tables</span>
+        </div>
+        <p class="text-sm text-slate-500">Good handwriting OCR engine — but Latin-only, and table structure isn't its strength.</p>
+      </div>
+    </div>
+    <div class="p-5 md:p-6 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        Pen to Print is a dedicated handwriting-to-text tool available on iOS, Android, and web, with an OCR
+        engine specifically trained on handwritten content including cursive, block letters, and irregular
+        scripts. It can accurately read messy writing that general OCR tools miss.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        A significant limitation is language support: <strong>Pen to Print currently supports Latin script
+        only</strong>, making it unsuitable for Arabic, Chinese, Devanagari, or other non-Latin writing
+        systems. Its form processing feature also works better with predefined templates than arbitrary
+        freehand table layouts.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-5 bg-slate-50 rounded-xl p-4">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-emerald-600 mb-2">Strengths</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Purpose-trained engine handles messy and cursive handwriting</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Form processing useful for standardized form layouts</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Available on iOS, Android, and web</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>10-page free trial available</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-red-500 mb-2">Limitations</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Latin script only — no Arabic, Chinese, Hindi, etc.</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Table mapping works best with predefined templates</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Free tier cannot export — must subscribe to get files</li>
+          </ul>
+        </div>
+      </div>
+      <div class="space-y-2 border-t border-slate-100 pt-4 mb-4">
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Pricing</span><span class="text-slate-700">Free (10 pages, no export) · Monthly $4.99 · Annual $24.99/year</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Best For</span><span class="text-slate-700">Latin-script users converting handwritten notes and standardized forms — students, professionals</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Accepts</span><span class="text-slate-700">Camera capture, JPG, PNG, PDF</span></div>
+      </div>
+      <div class="bg-slate-50 border-l-4 border-slate-300 rounded-r-xl p-4 text-sm text-slate-700">
+        <strong>Verdict:</strong> A good handwriting OCR tool for text-heavy documents and standardized
+        forms in Latin script. Falls short on freehand handwritten table layouts and non-Latin writing systems.
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 7: ChatGPT Vision ── -->
+
+  <div class="not-prose border border-zinc-200 rounded-2xl overflow-hidden shadow-sm my-8">
+    <div class="bg-slate-50 px-5 py-4 flex items-start gap-4 border-b border-slate-100">
+      <div class="flex-shrink-0 w-9 h-9 rounded-full bg-slate-300 text-slate-700 font-black text-base flex items-center justify-center">7</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">ChatGPT (Vision)</h3>
+          <span class="text-xs font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-3 py-0.5 rounded-full">Promising AI Option — Inconsistent</span>
+        </div>
+        <p class="text-sm text-slate-500">GPT-4o can read tables from images and output CSV — but handwriting accuracy is unreliable and there's no direct Excel output.</p>
+      </div>
+    </div>
+    <div class="p-5 md:p-6 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        ChatGPT with vision capabilities (GPT-4o) can accept an image upload, interpret the contents, and
+        output structured data in CSV or Markdown table format — which you can then copy into Excel. For clean,
+        printed tables, this workflow is surprisingly capable.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        For handwritten tables, ChatGPT's accuracy becomes significantly less reliable. It may misread
+        characters, confuse columns, skip rows, or hallucinate values that don't exist in the image — a risk
+        profile unacceptable for business-critical data. The output also requires manual steps: copy the CSV
+        text, paste into Excel, and validate every row — there is no direct file download.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-5 bg-slate-50 rounded-xl p-4">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-emerald-600 mb-2">Strengths</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Can output CSV-formatted table data from clean images</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Flexible — can be prompted for specific column formats</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-emerald-500 font-bold flex-shrink-0">✓</span>Useful if you already have a ChatGPT Plus subscription</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-red-500 mb-2">Limitations</p>
+          <ul class="space-y-1.5">
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Handwriting accuracy unreliable — errors and hallucinations</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>No direct Excel file output — requires copy-paste workflow</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>Manual validation required for every conversion</li>
+            <li class="text-sm text-slate-700 flex gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span>$20/month subscription required for image upload capability</li>
+          </ul>
+        </div>
+      </div>
+      <div class="space-y-2 border-t border-slate-100 pt-4 mb-4">
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Pricing</span><span class="text-slate-700">ChatGPT Free (limited) · ChatGPT Plus $20/month for image upload</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Best For</span><span class="text-slate-700">Occasional use on clean, printed tables for users already paying for ChatGPT Plus</span></div>
+        <div class="flex gap-3 text-sm"><span class="font-bold text-slate-500 w-20 flex-shrink-0">Accepts</span><span class="text-slate-700">JPG, PNG, WEBP, GIF (non-animated)</span></div>
+      </div>
+      <div class="bg-slate-50 border-l-4 border-slate-300 rounded-r-xl p-4 text-sm text-slate-700">
+        <strong>Verdict:</strong> An emerging option worth watching as AI vision models improve. Currently
+        too inconsistent on handwritten content for production use, and the lack of direct file output adds
+        friction that purpose-built tools eliminate entirely.
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════ COMPARISON TABLE ══════════════ -->
+
+  <h2 id="comparison-table" class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">
+    Side-by-Side Comparison
+  </h2>
+  <p class="mb-6 text-slate-700 leading-relaxed">
+    The table below compares all seven tools across the criteria that matter most for
+    handwritten-table-to-Excel conversion.
+  </p>
+
+  <div class="not-prose my-8 md:my-10 overflow-x-auto pb-4 shadow-sm rounded-xl">
+    <table class="w-full min-w-[720px] text-left border-collapse bg-white rounded-xl overflow-hidden border border-slate-200">
+      <thead class="bg-slate-50 border-b border-slate-200">
+        <tr>
+          <th class="p-4 text-xs font-bold text-slate-600 uppercase tracking-wider">Tool</th>
+          <th class="p-4 text-xs font-bold text-slate-600 uppercase tracking-wider">Handwriting</th>
+          <th class="p-4 text-xs font-bold text-slate-600 uppercase tracking-wider">Table Structure</th>
+          <th class="p-4 text-xs font-bold text-slate-600 uppercase tracking-wider">Direct Excel</th>
+          <th class="p-4 text-xs font-bold text-slate-600 uppercase tracking-wider">In-Browser Editor</th>
+          <th class="p-4 text-xs font-bold text-slate-600 uppercase tracking-wider">Languages</th>
+          <th class="p-4 text-xs font-bold text-slate-600 uppercase tracking-wider">Pricing</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100">
+        <tr class="bg-teal-50/40 hover:bg-teal-50 transition-colors">
+          <td class="p-4 font-bold text-teal-700">🏆 NoteOCR</td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">Excellent</td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">Full preservation</td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">✓ Yes (.xlsx + 10 formats)</td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">✓ Yes — live editor</td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">40+ languages</td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">One-time, no expiry</td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">Adobe Acrobat</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Moderate (print-focused)</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Good for printed only</td>
+          <td class="p-4 text-sm text-emerald-600 font-medium">✓ Yes</td>
+          <td class="p-4 text-sm text-red-500 font-medium">✕ No</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Multi-language</td>
+          <td class="p-4 text-sm text-red-500 font-medium">Subscription $19.99/mo</td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">Microsoft Lens</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">40–75% (English only)</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Good for printed tables</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">⚠ Via Word/OneDrive</td>
+          <td class="p-4 text-sm text-red-500 font-medium">✕ No</td>
+          <td class="p-4 text-sm text-red-500 font-medium">English handwriting only</td>
+          <td class="p-4 text-sm text-emerald-600 font-medium">Free</td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">Google Drive OCR</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Variable — neat print best</td>
+          <td class="p-4 text-sm text-red-500 font-medium">Tables come out jumbled</td>
+          <td class="p-4 text-sm text-red-500 font-medium">✕ Manual copy-paste only</td>
+          <td class="p-4 text-sm text-red-500 font-medium">✕ No</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Multi-language</td>
+          <td class="p-4 text-sm text-emerald-600 font-medium">Free</td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">ABBYY FineReader</td>
+          <td class="p-4 text-sm text-red-500 font-medium">Limited (not in FineReader)</td>
+          <td class="p-4 text-sm text-emerald-600 font-medium">Excellent for printed</td>
+          <td class="p-4 text-sm text-emerald-600 font-medium">✓ Yes</td>
+          <td class="p-4 text-sm text-red-500 font-medium">✕ No</td>
+          <td class="p-4 text-sm text-emerald-600 font-medium">190+ languages</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Subscription $99/year</td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">Pen to Print</td>
+          <td class="p-4 text-sm text-emerald-600 font-medium">Good (handwriting-trained)</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Template-dependent</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">⚠ With additional steps</td>
+          <td class="p-4 text-sm text-red-500 font-medium">✕ No</td>
+          <td class="p-4 text-sm text-red-500 font-medium">Latin script only</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Subscription $4.99/mo</td>
+        </tr>
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">ChatGPT Vision</td>
+          <td class="p-4 text-sm text-red-500 font-medium">Inconsistent on handwriting</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">CSV output, no file</td>
+          <td class="p-4 text-sm text-red-500 font-medium">✕ Copy-paste CSV only</td>
+          <td class="p-4 text-sm text-red-500 font-medium">✕ No</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Multi-language</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">$20/month (Plus)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ══════════════ USE CASES ══════════════ -->
+
+  <h2 id="use-cases" class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">
+    Real-World Use Cases
+  </h2>
+  <p class="mb-6 text-slate-700 leading-relaxed">
+    Handwritten tables appear across industries in different forms, but the underlying need is the same:
+    get structured paper data into a spreadsheet, accurately and fast.
+  </p>
+
+  <div class="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5 my-8 md:my-10">
+
+    <div class="p-5 bg-white shadow-sm hover:shadow-md transition-all hover:-translate-y-1 rounded-2xl border border-zinc-100 relative overflow-hidden">
+      <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#015979] to-teal-400"></div>
+      <span class="text-2xl mb-2 block">🏗️</span>
+      <h4 class="font-bold text-slate-800 mb-1">Construction — Daily Site Logs</h4>
+      <p class="text-sm text-slate-600 leading-relaxed mb-3">A site foreman fills in a handwritten daily log: worker names, hours on-site, materials used, equipment downtime. With NoteOCR, the foreman photographs the form and the project manager receives a structured spreadsheet in under a minute — columns intact.</p>
+      <span class="inline-block text-xs font-bold bg-teal-50 text-teal-700 px-3 py-1 rounded-full">Saves 45–90 min per site per day</span>
+    </div>
+
+    <div class="p-5 bg-white shadow-sm hover:shadow-md transition-all hover:-translate-y-1 rounded-2xl border border-zinc-100 relative overflow-hidden">
+      <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#015979] to-teal-400"></div>
+      <span class="text-2xl mb-2 block">🏫</span>
+      <h4 class="font-bold text-slate-800 mb-1">Education — Mark Sheets & Grade Books</h4>
+      <p class="text-sm text-slate-600 leading-relaxed mb-3">A school administrator has handwritten mark sheets for 400 students across 8 subjects. A tool that preserves row/column structure converts this to a fully structured Excel file where each cell contains the correct score — ready for grade reporting.</p>
+      <span class="inline-block text-xs font-bold bg-teal-50 text-teal-700 px-3 py-1 rounded-full">A full day's work reduced to 30 minutes</span>
+    </div>
+
+    <div class="p-5 bg-white shadow-sm hover:shadow-md transition-all hover:-translate-y-1 rounded-2xl border border-zinc-100 relative overflow-hidden">
+      <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#015979] to-teal-400"></div>
+      <span class="text-2xl mb-2 block">🌾</span>
+      <h4 class="font-bold text-slate-800 mb-1">Agriculture — Farmer Field Records</h4>
+      <p class="text-sm text-slate-600 leading-relaxed mb-3">A cooperative collects handwritten field books from 50 smallholder farmers monthly — each recording crop yields, input quantities, and dates across a hand-drawn table. Converting all 50 for government subsidy reporting used to take a full week of clerk time.</p>
+      <span class="inline-block text-xs font-bold bg-teal-50 text-teal-700 px-3 py-1 rounded-full">~35 hours of clerk work replaced monthly</span>
+    </div>
+
+    <div class="p-5 bg-white shadow-sm hover:shadow-md transition-all hover:-translate-y-1 rounded-2xl border border-zinc-100 relative overflow-hidden">
+      <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#015979] to-teal-400"></div>
+      <span class="text-2xl mb-2 block">💰</span>
+      <h4 class="font-bold text-slate-800 mb-1">Finance — Handwritten Ledgers & Petty Cash</h4>
+      <p class="text-sm text-slate-600 leading-relaxed mb-3">Small businesses and field offices often maintain handwritten petty cash books — structured tables with dates, descriptions, and amounts. An accurate conversion to Excel with all rows and amount columns correctly mapped means the data is ready for reconciliation immediately.</p>
+      <span class="inline-block text-xs font-bold bg-teal-50 text-teal-700 px-3 py-1 rounded-full">Eliminates most error-prone step in monthly close</span>
+    </div>
+
+  </div>
+
+  <!-- ══════════════ HOW-TO GUIDE ══════════════ -->
+
+  <h2 id="how-to-guide" class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">
+    How to Convert a Handwritten Table to Excel Using NoteOCR
+  </h2>
+  <p class="mb-6 text-slate-700 leading-relaxed">
+    The full process from upload to structured spreadsheet takes under 60 seconds.
+  </p>
+
+  <ul class="space-y-5 mb-8 md:mb-10 text-slate-700">
+    <li class="flex gap-4">
+      <span class="text-[#015979] font-black text-lg leading-tight flex-shrink-0">01.</span>
+      <span><strong>Photograph or scan your document.</strong> Use your phone camera in good lighting, or use a flatbed scanner. NoteOCR accepts JPG, PNG, HEIC, TIFF, and PDF. For multi-page documents, upload a multi-page PDF and all pages are processed in one session. <em class="text-slate-500">Tip: Good lighting and a straight-on angle improve results. Avoid shadows across the page.</em></span>
+    </li>
+    <li class="flex gap-4">
+      <span class="text-[#015979] font-black text-lg leading-tight flex-shrink-0">02.</span>
+      <span><strong>Upload to NoteOCR.</strong> Go to <a href="https://app.noteocr.com/upload-image" class="text-[#015979] underline underline-offset-2">app.noteocr.com</a> and drag your image into the upload area, or click to browse. No account required for your first conversion — NoteOCR provides free trial credits to get started.</span>
+    </li>
+    <li class="flex gap-4">
+      <span class="text-[#015979] font-black text-lg leading-tight flex-shrink-0">03.</span>
+      <span><strong>AI processes and structures your document.</strong> NoteOCR's engine reads your handwriting, detects the table structure — rows, columns, headers, blank cells — and maps every value to the correct cell. Processing typically completes in under 30 seconds for standard pages.</span>
+    </li>
+    <li class="flex gap-4">
+      <span class="text-[#015979] font-black text-lg leading-tight flex-shrink-0">04.</span>
+      <span><strong>Your spreadsheet opens live in the browser.</strong> Instead of triggering a download, NoteOCR opens the converted document in a browser-based Excel-compatible editor. You see your data in the grid — in the same layout as your original handwritten table — and can edit any cell, fix a recognition error, or add formatting directly in the browser.</span>
+    </li>
+    <li class="flex gap-4">
+      <span class="text-[#015979] font-black text-lg leading-tight flex-shrink-0">05.</span>
+      <span><strong>Download in your preferred format.</strong> When satisfied, download in any of 10+ available formats: <code class="bg-slate-100 px-1 rounded text-sm">.xlsx</code>, <code class="bg-slate-100 px-1 rounded text-sm">.csv</code>, <code class="bg-slate-100 px-1 rounded text-sm">.ods</code>, <code class="bg-slate-100 px-1 rounded text-sm">.pdf</code>, <code class="bg-slate-100 px-1 rounded text-sm">.docx</code>, and more. Your document is also automatically saved to your NoteOCR account — available for re-download at any time.</span>
+    </li>
+  </ul>
+
+  <!-- MID-ARTICLE CTA -->
+  <div class="not-prose bg-blue-50 border-l-4 border-[#015979] p-5 md:p-6 rounded-r-2xl my-8 md:my-10 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+    <div>
+      <h4 class="font-bold text-[#015979] text-lg mb-1">Ready to try it on your own handwritten table?</h4>
+      <p class="text-sm text-slate-600">No subscription. No credit card. Upload now and get your first conversion free.</p>
+    </div>
+    <a href="https://app.noteocr.com/upload-image" class="w-full md:w-auto text-center px-6 py-3 bg-[#015979] text-white rounded-full font-bold text-sm hover:scale-105 transition-transform shadow-md">
+      Start Converting Free →
+    </a>
+  </div>
+
+  <!-- ══════════════ FAQ ══════════════ -->
+
+  <h2 id="faq" class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">
+    Frequently Asked Questions
+  </h2>
+
+  <div class="space-y-6 mb-10">
+
+    <div class="border-b border-slate-100 pb-6">
+      <h3 class="font-bold text-slate-800 mb-2">Can AI really convert messy handwriting to Excel accurately?</h3>
+      <p class="text-sm text-slate-600 leading-relaxed">Yes — with the right tool. General-purpose OCR tools were built for printed text and struggle significantly with irregular handwriting, especially cursive. Tools like NoteOCR that are specifically trained on real-world handwritten documents perform far better. The quality of your image matters: good lighting and a straight-on angle improve results, but the AI handles real handwriting variation well.</p>
+    </div>
+
+    <div class="border-b border-slate-100 pb-6">
+      <h3 class="font-bold text-slate-800 mb-2">What is the best free app to convert handwriting to Excel?</h3>
+      <p class="text-sm text-slate-600 leading-relaxed">Google Drive OCR and Microsoft Lens both offer free handwriting extraction, but neither preserves table structure or outputs a ready-to-use Excel file. For handwritten tables specifically, NoteOCR offers free trial credits that let you test the full conversion — including the in-browser Excel editor — before purchasing.</p>
+    </div>
+
+    <div class="border-b border-slate-100 pb-6">
+      <h3 class="font-bold text-slate-800 mb-2">How does NoteOCR preserve the row and column structure of a handwritten table?</h3>
+      <p class="text-sm text-slate-600 leading-relaxed">NoteOCR uses a dedicated Table Structure Engine trained specifically on real-world handwritten tables. Rather than reading text line-by-line, it analyzes the spatial relationships between values — detecting grid lines, inferring column boundaries even when they're imprecise, handling blank cells without shifting surrounding values, and mapping each recognized character to the correct Excel cell position.</p>
+    </div>
+
+    <div class="border-b border-slate-100 pb-6">
+      <h3 class="font-bold text-slate-800 mb-2">Does it work on both printed and handwritten text?</h3>
+      <p class="text-sm text-slate-600 leading-relaxed">Yes. NoteOCR handles both printed and handwritten content accurately — including documents that mix both (for example, a pre-printed form with handwritten values filled in). You don't need separate tools or workflows for different document types.</p>
+    </div>
+
+    <div class="border-b border-slate-100 pb-6">
+      <h3 class="font-bold text-slate-800 mb-2">What languages does NoteOCR support?</h3>
+      <p class="text-sm text-slate-600 leading-relaxed">NoteOCR supports 40+ languages including English, French, Spanish, Arabic, Hindi, Chinese (Simplified and Traditional), Portuguese, Swahili, and more. It handles multilingual documents with mixed scripts within the same page.</p>
+    </div>
+
+    <div class="border-b border-slate-100 pb-6">
+      <h3 class="font-bold text-slate-800 mb-2">Does NoteOCR require a monthly subscription?</h3>
+      <p class="text-sm text-slate-600 leading-relaxed">No. NoteOCR operates on a one-time credit model, not a subscription. You purchase a credit package once — Starter ($12 for 100 pages), Plus ($25 for 300 pages), or Pro ($50 for 1,000 pages) — and credits never expire or reset. You're not locked into a recurring charge.</p>
+    </div>
+
+    <div class="border-b border-slate-100 pb-6">
+      <h3 class="font-bold text-slate-800 mb-2">Can I process multiple pages at once?</h3>
+      <p class="text-sm text-slate-600 leading-relaxed">Yes. NoteOCR Pro supports batch processing — uploading and converting hundreds of documents simultaneously. Multi-page PDFs are processed page by page in a single upload. This is designed for end-of-day or end-of-week bulk digitization workflows common in construction, education, agriculture, and logistics.</p>
+    </div>
+
+    <div class="pb-6">
+      <h3 class="font-bold text-slate-800 mb-2">Is my data secure when I upload documents to NoteOCR?</h3>
+      <p class="text-sm text-slate-600 leading-relaxed">Yes. Documents uploaded to NoteOCR are processed securely, are not used to train AI models, and are not shared with third parties. All data transmission is encrypted. Enterprise plans include additional compliance and data handling guarantees for organizations with strict data governance requirements.</p>
+    </div>
+
+  </div>
+
+  <!-- ══════════════ FINAL VERDICT ══════════════ -->
+
+  <h2 id="verdict" class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-slate-900">
+    Final Verdict: Which Tool Should You Use?
+  </h2>
+  <p class="mb-6 text-slate-700 leading-relaxed">
+    The right tool depends on what you're actually working with. Here's the short version:
+  </p>
+
+  <div class="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5 my-8 md:my-10">
+
+    <div class="p-5 md:p-6 bg-teal-50 rounded-2xl border-2 border-[#015979] shadow-sm">
+      <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">For handwritten tables → Excel</p>
+      <p class="text-lg font-black text-[#015979] mb-2">Use NoteOCR</p>
+      <p class="text-sm text-slate-600 leading-relaxed">The only tool that combines handwriting accuracy, row/column structure preservation, live in-browser editing, and direct multi-format download in a single flow. Works on both printed and handwritten content. One-time pricing with no expiry.</p>
+    </div>
+
+    <div class="p-5 md:p-6 bg-white rounded-2xl border border-zinc-200 shadow-sm">
+      <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">For printed/scanned PDF workflows</p>
+      <p class="text-lg font-black text-slate-900 mb-2">Use Adobe Acrobat or ABBYY FineReader</p>
+      <p class="text-sm text-slate-600 leading-relaxed">Both are strong on printed documents. ABBYY is more affordable; Acrobat is better integrated with the Adobe ecosystem.</p>
+    </div>
+
+    <div class="p-5 md:p-6 bg-white rounded-2xl border border-zinc-200 shadow-sm">
+      <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">For occasional use on clean documents</p>
+      <p class="text-lg font-black text-slate-900 mb-2">Use Google Drive OCR or Microsoft Lens</p>
+      <p class="text-sm text-slate-600 leading-relaxed">Free and accessible. Adequate for simple printed text extraction when table structure isn't critical.</p>
+    </div>
+
+    <div class="p-5 md:p-6 bg-white rounded-2xl border border-zinc-200 shadow-sm">
+      <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">For handwritten notes (Latin script only)</p>
+      <p class="text-lg font-black text-slate-900 mb-2">Use Pen to Print</p>
+      <p class="text-sm text-slate-600 leading-relaxed">Good handwriting OCR for Latin-based languages. Limited on complex freehand table layouts and doesn't support non-Latin scripts.</p>
+    </div>
+
+  </div>
+
+  <p class="mb-8 text-slate-700 leading-relaxed">
+    The specific combination that most workflows demand — read messy handwriting, understand table structure,
+    output a structured spreadsheet, let me edit it immediately, download in any format — is only delivered
+    end-to-end by NoteOCR. The other tools each solve part of the problem. NoteOCR solves all of it.
+  </p>
+
+  <!-- CONVERSION FOOTER CTA -->
+  <div class="not-prose my-8 md:my-16 bg-gradient-to-br from-[#015979] via-[#014a66] to-[#012f42] p-6 md:p-12 rounded-2xl md:rounded-[2rem] text-white text-center shadow-xl md:shadow-2xl relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-64 h-64 bg-white opacity-5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
+    <h2 class="text-2xl md:text-4xl font-black mb-3 md:mb-4 relative z-10 leading-snug">
+      Your Handwritten Table → Clean Excel Data. In Seconds.
+    </h2>
+    <p class="text-sm md:text-lg text-blue-100 mb-6 md:mb-8 max-w-2xl mx-auto relative z-10 leading-relaxed">
+      No subscription. No software to install. No copy-pasting into a spreadsheet. Upload your image
+      and get a structured Excel file open in your browser right now.
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 relative z-10 mb-4">
+      <a href="https://app.noteocr.com/upload-image" class="w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 bg-teal-400 text-[#012f42] rounded-full font-black text-sm md:text-lg hover:bg-teal-300 hover:scale-105 transition-all shadow-[0_0_20px_rgba(45,212,191,0.4)]">
+        Convert Your Table for Free
+      </a>
+      <a href="https://noteocr.com/pricing" class="w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 bg-white/10 border border-white/20 rounded-full font-bold text-sm md:text-lg hover:bg-white/20 transition-all">
+        View Pricing
+      </a>
+    </div>
+    <p class="text-xs text-white/40 relative z-10">Starter from $12 · One-time payment · Credits never expire</p>
+  </div>
+
+`,
   },
 ];
