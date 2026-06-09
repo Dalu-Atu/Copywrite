@@ -1270,4 +1270,795 @@ export const articles = [
 
 `,
   },
+  {
+    id: 3,
+    slug: "how-to-convert-handwritten-notes-to-word-document-online",
+    featured: true,
+    category: "Productivity",
+    title:
+      "How to Convert Handwritten Notes to a Word Document Online (Without Retyping a Single Word)",
+    excerpt:
+      "Stop retyping handwritten notes manually. We tested 6 tools that convert handwritten pages to editable Word documents online — and ranked them honestly. One handles messy writing, tables, and multi-language text better than all the rest.",
+    author: "Brittany Akiri",
+    date: "2026-06-09",
+    readTime: "12 min",
+    tags: [
+      "OCR",
+      "Handwriting",
+      "Word Document",
+      "Handwritten Notes",
+      "Document Conversion",
+      "Productivity",
+      "AI Tools",
+      "Online Tools",
+      "No Software",
+      "DOCX",
+    ],
+    image:
+      "/articles-images/how-to-convert-handwritten-notes-to-word-document-online.png",
+    content: `
+
+  <!-- ══════════════ INTRO ══════════════ -->
+
+  <p class="text-base md:text-xl text-slate-600 leading-relaxed mb-6 md:mb-8">
+    You have pages of handwritten notes. You need them in a Word document — searchable, editable, shareable.
+    The old answer was simple and painful: sit down and retype everything. The new answer is faster, but only
+    if you pick the right tool. Most OCR apps claim to handle handwriting. Very few actually do it well.
+    And almost none of them output a clean, properly structured <strong>.docx file</strong> you can open
+    directly in Microsoft Word without reformatting.
+  </p>
+
+  <p class="text-base text-slate-600 leading-relaxed mb-8 md:mb-10">
+    This guide covers exactly what makes handwriting-to-Word conversion hard, tests six tools against real
+    handwritten pages — neat, messy, cursive, mixed with printed text — and tells you which one is actually
+    worth your time.
+  </p>
+
+  <!-- ══════════════ TOC ══════════════ -->
+
+  <div class="not-prose border border-slate-200 rounded-xl p-5 md:p-6 mb-10 bg-slate-50">
+    <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-3">In This Guide</p>
+    <ul class="space-y-1.5">
+      <li><a href="#why-its-hard"     class="text-[#015979] text-sm font-medium hover:underline underline-offset-2">Why Converting Handwriting Is Actually Hard</a></li>
+      <li><a href="#what-to-look-for" class="text-[#015979] text-sm font-medium hover:underline underline-offset-2">What to Look For in a Conversion Tool</a></li>
+      <li><a href="#tools-ranked"     class="text-[#015979] text-sm font-medium hover:underline underline-offset-2">6 Best Tools, Ranked</a></li>
+      <li><a href="#comparison-table" class="text-[#015979] text-sm font-medium hover:underline underline-offset-2">Side-by-Side Comparison</a></li>
+      <li><a href="#how-to-guide"     class="text-[#015979] text-sm font-medium hover:underline underline-offset-2">Step-by-Step: Convert With NoteOCR</a></li>
+      <li><a href="#use-cases"        class="text-[#015979] text-sm font-medium hover:underline underline-offset-2">Who Actually Needs This</a></li>
+      <li><a href="#faq"              class="text-[#015979] text-sm font-medium hover:underline underline-offset-2">FAQ</a></li>
+      <li><a href="#verdict"          class="text-[#015979] text-sm font-medium hover:underline underline-offset-2">Final Verdict</a></li>
+    </ul>
+  </div>
+
+  <!-- ══════════════ WHY IT'S HARD ══════════════ -->
+
+  <h2 id="why-its-hard" class="text-xl md:text-3xl font-black mb-4 text-slate-900">
+    Why Converting Handwriting to a Word Document Is Actually Hard
+  </h2>
+
+  <p class="mb-5 text-slate-700 leading-relaxed">
+    Most people assume OCR is a solved problem. For printed text, it largely is. For handwriting, it remains
+    one of the genuinely hard problems in computer vision — and here's why tools keep failing at it.
+  </p>
+
+  <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-2">Problem 01</p>
+      <h4 class="font-bold text-slate-800 mb-2 text-sm">No Two People Write the Same</h4>
+      <p class="text-xs text-slate-500 leading-relaxed">Standard OCR engines were trained on digital fonts where every character looks identical. Handwriting doesn't work that way. Your letter "a" looks nothing like someone else's, and even your own writing varies line to line.</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-2">Problem 02</p>
+      <h4 class="font-bold text-slate-800 mb-2 text-sm">Lines Don't Stay Straight</h4>
+      <p class="text-xs text-slate-500 leading-relaxed">Handwritten lines drift, tilt, and curve. Characters overlap in cursive. Most OCR engines parse text in horizontal sweeps — when lines aren't perfectly straight, the sweep breaks and characters get mis-assigned or dropped entirely.</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-2">Problem 03</p>
+      <h4 class="font-bold text-slate-800 mb-2 text-sm">Text to .docx Is a Second Problem</h4>
+      <p class="text-xs text-slate-500 leading-relaxed">Even tools that read handwriting accurately often output a plain text dump. Getting that into a properly structured Word document — with paragraphs, line breaks, and formatting — requires a second layer of processing most tools skip.</p>
+    </div>
+
+  </div>
+
+  <p class="mb-8 md:mb-10 text-slate-700 leading-relaxed">
+    The tools that actually solve this use handwriting-specific AI models — not retrofitted print OCR — and
+    treat the Word output as a first-class deliverable, not an afterthought.
+  </p>
+
+  <!-- ══════════════ WHAT TO LOOK FOR ══════════════ -->
+
+  <h2 id="what-to-look-for" class="text-xl md:text-3xl font-black mb-4 text-slate-900">
+    What to Look For in a Handwriting-to-Word Converter
+  </h2>
+
+  <p class="mb-6 text-slate-700 leading-relaxed">
+    Before testing the tools, these are the criteria that actually determine whether a converter is useful
+    for real work — not just demo-quality scans.
+  </p>
+
+  <div class="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-8">
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <h4 class="font-bold text-slate-800 mb-1.5 text-sm">Handwriting-Specific Accuracy</h4>
+      <p class="text-xs text-slate-500 leading-relaxed">Is the model actually trained on handwritten text, or is it a general OCR engine with handwriting bolted on? The accuracy gap between these two approaches is significant on messy, real-world writing.</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <h4 class="font-bold text-slate-800 mb-1.5 text-sm">True .docx Output</h4>
+      <p class="text-xs text-slate-500 leading-relaxed">Does it produce a real Word document with paragraphs and structure intact — or a text block you have to reformat manually inside Word before it's usable?</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <h4 class="font-bold text-slate-800 mb-1.5 text-sm">In-Browser Editing Before Download</h4>
+      <p class="text-xs text-slate-500 leading-relaxed">No converter is 100% perfect. The ability to quickly fix a misread word in a browser editor before exporting saves significant time and avoids opening half-corrected files in Word.</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <h4 class="font-bold text-slate-800 mb-1.5 text-sm">Language Support</h4>
+      <p class="text-xs text-slate-500 leading-relaxed">Many tools only support English or Latin-based scripts. If your notes are in Arabic, Hindi, Chinese, or French, language support is non-negotiable — and most tools fail here silently.</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <h4 class="font-bold text-slate-800 mb-1.5 text-sm">No Software Required</h4>
+      <p class="text-xs text-slate-500 leading-relaxed">A tool you have to download, install, and configure defeats the purpose. The best converters are fully browser-based and return results in under 30 seconds from any device.</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <h4 class="font-bold text-slate-800 mb-1.5 text-sm">Honest Pricing Model</h4>
+      <p class="text-xs text-slate-500 leading-relaxed">Recurring monthly subscriptions are expensive for occasional use. Pay-per-use or one-time credit models let you pay only for what you actually convert — no forced renewal or expiring monthly allotments.</p>
+    </div>
+
+  </div>
+
+  <!-- INLINE CTA 1 -->
+  <div class="not-prose border border-[#015979] rounded-xl p-5 md:p-6 my-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+    <div>
+      <p class="text-xs font-bold uppercase tracking-widest text-[#015979] mb-1">Skip the research</p>
+      <h4 class="font-bold text-slate-900 text-base mb-1">Upload your handwritten notes right now</h4>
+      <p class="text-sm text-slate-500">Get a clean, editable Word document back in under 30 seconds — no software needed.</p>
+    </div>
+    <a href="https://app.noteocr.com/upload-image" class="flex-shrink-0 w-full md:w-auto text-center px-6 py-3 bg-[#015979] text-white rounded-lg font-bold text-sm hover:bg-[#014a66] transition-colors shadow-sm">
+      Try NoteOCR Free
+    </a>
+  </div>
+
+  <!-- ══════════════ TOOLS RANKED ══════════════ -->
+
+  <h2 id="tools-ranked" class="text-xl md:text-3xl font-black mb-2 text-slate-900">
+    The 6 Best Tools to Convert Handwritten Notes to Word Documents Online
+  </h2>
+  <p class="mb-8 text-slate-500 text-sm">
+    Tested on the same set of pages: neat block letters, cursive, messy field notes, and mixed printed/handwritten content.
+    Each tool rated on handwriting accuracy, .docx output quality, editing experience, language support, and pricing.
+  </p>
+
+  <!-- ── TOOL 1: NoteOCR ── -->
+
+  <div class="not-prose border-2 border-[#015979] rounded-2xl overflow-hidden my-10">
+
+    <div class="bg-[#015979] px-6 py-5 flex items-start justify-between gap-4">
+      <div class="flex items-start gap-4">
+        <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-white/10 text-white font-black text-base flex items-center justify-center border border-white/20">1</div>
+        <div>
+          <div class="flex flex-wrap items-center gap-2 mb-1">
+            <h3 class="text-lg font-black text-white">NoteOCR</h3>
+            <span class="text-[11px] font-bold uppercase tracking-wider bg-teal-400 text-[#012f42] px-2.5 py-0.5 rounded-md">Best Overall</span>
+          </div>
+          <p class="text-sm text-blue-100 leading-relaxed max-w-xl">Purpose-built for handwriting-to-document conversion. Upload, review in a live editor, download as .docx — no software, no retyping.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-6 md:p-8 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        NoteOCR is the only tool in this comparison built specifically around converting handwritten documents into clean, structured files. While every other tool treats handwriting as a secondary use case, NoteOCR's entire pipeline was designed around the problem of reading real human handwriting accurately and outputting a properly formatted document — not a text blob.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-6 text-sm md:text-base">
+        What makes it different is what happens after conversion. The moment your image is processed, your document opens live in a <strong>browser-based editor that works exactly like Microsoft Word</strong>. You see your text in paragraphs, can fix any recognition errors, adjust spacing, and add headings — all before downloading. When satisfied, export to <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">.docx</code>, <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">.pdf</code>, <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">.xlsx</code>, or 10+ other formats. Every file is auto-saved to your account.
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-6 p-5 bg-slate-50 rounded-xl border border-slate-100">
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-emerald-600 mb-3">Strengths</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>AI trained specifically on real-world handwritten documents</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Live in-browser Word-style editor — review before you download</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>True .docx output — opens directly in Microsoft Word and Google Docs</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Handles cursive, block, and mixed printed/handwritten on the same page</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>40+ languages including Arabic, Hindi, Chinese, French, Swahili</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>One-time credits — no subscription, credits never expire</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>10+ export formats: .docx, .xlsx, .csv, .pdf, .ods and more</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-red-500 mb-3">Limitations</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Web-based only — no native desktop or mobile app currently</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Free trial is limited — bulk use requires purchasing credits</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100">
+          <p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Pricing</p>
+          <p class="text-xs text-slate-700 font-semibold leading-relaxed">Starter $12 · Plus $25 · Pro $50<br/><span class="font-normal text-slate-400">One-time · Credits never expire</span></p>
+        </div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100">
+          <p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Best For</p>
+          <p class="text-xs text-slate-700 font-semibold leading-relaxed">Students, researchers, field workers, admins — anyone with handwritten pages to digitize</p>
+        </div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100">
+          <p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Accepts</p>
+          <p class="text-xs text-slate-700 font-semibold">JPG, PNG, HEIC, TIFF, PDF</p>
+        </div>
+      </div>
+
+      <div class="border-l-4 border-[#015979] pl-4 py-1">
+        <p class="text-sm text-slate-700 leading-relaxed"><strong>Verdict:</strong> The most complete handwriting-to-Word solution available. No other tool in this comparison delivers handwriting accuracy, live editing, and true .docx output in a single seamless browser flow.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 2: Microsoft OneNote ── -->
+
+  <div class="not-prose border border-slate-200 rounded-2xl overflow-hidden my-8 hover:shadow-md transition-shadow">
+    <div class="bg-slate-50 px-6 py-5 border-b border-slate-100 flex items-start gap-4">
+      <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-200 text-slate-600 font-black text-base flex items-center justify-center">2</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">Microsoft OneNote</h3>
+          <span class="text-[11px] font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-2.5 py-0.5 rounded-md">Best for Microsoft 365 Users</span>
+        </div>
+        <p class="text-sm text-slate-500">Built-in handwriting conversion for Microsoft users — but only works on digital stylus ink, not photos of paper.</p>
+      </div>
+    </div>
+    <div class="p-6 md:p-8 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        Microsoft OneNote has an "Ink to Text" feature that converts handwriting to typed text — but there is a critical distinction most users miss: <strong>this only works on digital stylus input written directly inside the app</strong>. If you write with an Apple Pencil or Surface Pen inside OneNote, it converts those ink strokes cleanly. If you upload a photo of paper notes, it falls back to Microsoft's general OCR — significantly less accurate on real handwriting.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-5 text-sm md:text-base">
+        For users already in the Microsoft 365 ecosystem who take digital notes on a tablet, OneNote is a natural, convenient choice. For digitizing physical paper notes, it is not the right tool.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 p-5 bg-slate-50 rounded-xl border border-slate-100">
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-emerald-600 mb-3">Strengths</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Excellent Ink to Text for digital stylus notes</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Deep Microsoft 365 integration — syncs to Word, Teams, Outlook</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Included with Microsoft 365 — no additional cost</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-red-500 mb-3">Limitations</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Ink to Text only works on digital stylus — not paper photos</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Paper photo OCR accuracy on handwriting is inconsistent</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Requires Microsoft account and app installation</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Pricing</p><p class="text-xs text-slate-700 font-semibold">Free with Microsoft 365 ($6.99/mo)</p></div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Best For</p><p class="text-xs text-slate-700 font-semibold">Tablet users writing digital ink in Microsoft 365 environments</p></div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Accepts</p><p class="text-xs text-slate-700 font-semibold">Digital stylus ink; JPG/PNG via camera</p></div>
+      </div>
+      <div class="border-l-4 border-slate-300 pl-4 py-1">
+        <p class="text-sm text-slate-600 leading-relaxed"><strong>Verdict:</strong> The right choice for Microsoft-ecosystem tablet users writing digitally. Not useful for digitizing physical handwritten paper.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 3: Google Drive OCR ── -->
+
+  <div class="not-prose border border-slate-200 rounded-2xl overflow-hidden my-8 hover:shadow-md transition-shadow">
+    <div class="bg-slate-50 px-6 py-5 border-b border-slate-100 flex items-start gap-4">
+      <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-200 text-slate-600 font-black text-base flex items-center justify-center">3</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">Google Drive OCR</h3>
+          <span class="text-[11px] font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-2.5 py-0.5 rounded-md">Best Free Option</span>
+        </div>
+        <p class="text-sm text-slate-500">Completely free, zero installation — but output is unformatted text, not a proper Word document.</p>
+      </div>
+    </div>
+    <div class="p-6 md:p-8 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        Google Drive has a built-in OCR feature most users never discover: upload any image or PDF to Drive, right-click it, and open with Google Docs. Drive processes the image and extracts text into an editable document. It is completely free and works from any browser with no extra software.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-5 text-sm md:text-base">
+        The trade-off is quality. On printed documents it performs adequately. On handwriting — especially cursive or irregular scripts — accuracy drops and the output is typically a plain text dump with broken paragraph structure. Exporting to .docx gives you a Word file, but the content usually needs significant cleanup before it is usable.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 p-5 bg-slate-50 rounded-xl border border-slate-100">
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-emerald-600 mb-3">Strengths</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Completely free — no account upgrade required</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>No software to install — works in any browser</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Can export result to .docx via Google Docs</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-red-500 mb-3">Limitations</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Handwriting accuracy inconsistent on cursive and messy writing</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Output is plain text — paragraph structure often lost</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>No batch processing; one file at a time</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Pricing</p><p class="text-xs text-slate-700 font-semibold">Free (Google account required)</p></div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Best For</p><p class="text-xs text-slate-700 font-semibold">Occasional, low-stakes extraction from printed or near-printed handwriting</p></div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Accepts</p><p class="text-xs text-slate-700 font-semibold">JPG, PNG, GIF, PDF</p></div>
+      </div>
+      <div class="border-l-4 border-slate-300 pl-4 py-1">
+        <p class="text-sm text-slate-600 leading-relaxed"><strong>Verdict:</strong> A useful free fallback for simple use cases. If accuracy or document structure matters, you will outgrow it immediately.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 4: Adobe Acrobat ── -->
+
+  <div class="not-prose border border-slate-200 rounded-2xl overflow-hidden my-8 hover:shadow-md transition-shadow">
+    <div class="bg-slate-50 px-6 py-5 border-b border-slate-100 flex items-start gap-4">
+      <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-200 text-slate-600 font-black text-base flex items-center justify-center">4</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">Adobe Acrobat</h3>
+          <span class="text-[11px] font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-2.5 py-0.5 rounded-md">Best for PDF-Heavy Workflows</span>
+        </div>
+        <p class="text-sm text-slate-500">Industry-standard OCR — strong on printed text, limited on real handwriting, expensive for casual use.</p>
+      </div>
+    </div>
+    <div class="p-6 md:p-8 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        Adobe Acrobat's OCR engine is one of the most mature in the industry. For scanned printed documents and typed forms it performs reliably and exports to .docx with good formatting preservation. If your workflow is primarily scanned business documents, it is a strong choice.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-5 text-sm md:text-base">
+        For handwriting, it falls short. The engine is optimized for printed text and accuracy on real-world messy handwriting is inconsistent. The cost is also difficult to justify for users whose primary need is handwriting digitization — a $19.99/month subscription for occasional note conversion is poor value.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 p-5 bg-slate-50 rounded-xl border border-slate-100">
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-emerald-600 mb-3">Strengths</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Excellent OCR on printed and scanned text</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Exports directly to .docx with formatting preserved</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Deep PDF editing capabilities beyond just OCR</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-red-500 mb-3">Limitations</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Handwriting accuracy noticeably lower than its print OCR</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Expensive subscription model — no one-time purchase option</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>No in-browser live editing before download</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Pricing</p><p class="text-xs text-slate-700 font-semibold">$19.99/month (annual) · $29.99/month (monthly)</p></div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Best For</p><p class="text-xs text-slate-700 font-semibold">Organizations processing high volumes of scanned printed PDFs</p></div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Accepts</p><p class="text-xs text-slate-700 font-semibold">PDF, JPG, PNG, TIFF and most image formats</p></div>
+      </div>
+      <div class="border-l-4 border-slate-300 pl-4 py-1">
+        <p class="text-sm text-slate-600 leading-relaxed"><strong>Verdict:</strong> Justified if you are already in the Adobe ecosystem for PDF work. Overkill and underperforming for users whose primary need is handwriting digitization.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 5: Pen to Print ── -->
+
+  <div class="not-prose border border-slate-200 rounded-2xl overflow-hidden my-8 hover:shadow-md transition-shadow">
+    <div class="bg-slate-50 px-6 py-5 border-b border-slate-100 flex items-start gap-4">
+      <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-200 text-slate-600 font-black text-base flex items-center justify-center">5</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">Pen to Print</h3>
+          <span class="text-[11px] font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-2.5 py-0.5 rounded-md">Good Handwriting OCR — Latin Script Only</span>
+        </div>
+        <p class="text-sm text-slate-500">Dedicated handwriting recognition with solid accuracy — but export requires a subscription and language support is limited.</p>
+      </div>
+    </div>
+    <div class="p-6 md:p-8 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        Pen to Print is a dedicated handwriting-to-text tool with an OCR model trained specifically on handwritten content — cursive, block letters, and irregular spacing. For Latin-script languages, recognition accuracy is meaningfully better than general-purpose OCR tools. It is available on iOS, Android, and web.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-5 text-sm md:text-base">
+        The main constraints: language support is Latin script only — no Arabic, Chinese, Hindi, or other non-Latin writing systems. The free tier also cannot export files, meaning you can preview accuracy but cannot download anything without a paid subscription.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 p-5 bg-slate-50 rounded-xl border border-slate-100">
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-emerald-600 mb-3">Strengths</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Handwriting-specific model handles messy and cursive writing well</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Available on iOS, Android, and web</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>10-page free trial to test accuracy before committing</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-red-500 mb-3">Limitations</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Latin script only — no Arabic, Chinese, Hindi, etc.</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Free tier cannot export — subscription required to download files</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>No in-browser editing experience before download</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Pricing</p><p class="text-xs text-slate-700 font-semibold">Free (no export) · $4.99/mo · $24.99/year</p></div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Best For</p><p class="text-xs text-slate-700 font-semibold">Latin-script users converting handwritten notes to text documents</p></div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Accepts</p><p class="text-xs text-slate-700 font-semibold">Camera capture, JPG, PNG, PDF</p></div>
+      </div>
+      <div class="border-l-4 border-slate-300 pl-4 py-1">
+        <p class="text-sm text-slate-600 leading-relaxed"><strong>Verdict:</strong> A solid Latin-script option for text-heavy documents. Language limitations make it unsuitable for non-Latin writing systems.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOOL 6: ChatGPT Vision ── -->
+
+  <div class="not-prose border border-slate-200 rounded-2xl overflow-hidden my-8 hover:shadow-md transition-shadow">
+    <div class="bg-slate-50 px-6 py-5 border-b border-slate-100 flex items-start gap-4">
+      <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-200 text-slate-600 font-black text-base flex items-center justify-center">6</div>
+      <div>
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="text-lg font-black text-slate-900">ChatGPT Vision</h3>
+          <span class="text-[11px] font-bold uppercase tracking-wider bg-slate-200 text-slate-600 px-2.5 py-0.5 rounded-md">Flexible AI — Not a Document Tool</span>
+        </div>
+        <p class="text-sm text-slate-500">GPT-4o can read handwriting from photos and output text — but accuracy on messy writing is unreliable and there is no .docx output.</p>
+      </div>
+    </div>
+    <div class="p-6 md:p-8 bg-white">
+      <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base">
+        ChatGPT's vision capabilities allow you to upload a photo of handwritten notes and ask it to transcribe the text. For clean, clearly written notes it performs reasonably well. You can prompt it to organize the output into paragraphs, then copy the result manually into Word.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-5 text-sm md:text-base">
+        The problems surface quickly on real handwriting: accuracy on messy or cursive writing is inconsistent, and the model can hallucinate words that are not in the original. There is also no direct .docx output — you get text in a chat window and have to copy it into Word yourself. For anything beyond casual one-off use, this workflow is fragile.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 p-5 bg-slate-50 rounded-xl border border-slate-100">
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-emerald-600 mb-3">Strengths</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Flexible prompting — can request structured paragraphs, headings, summaries</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>Useful for clean notes if you already have a ChatGPT Plus subscription</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-[11px] font-black uppercase tracking-widest text-red-500 mb-3">Limitations</p>
+          <ul class="space-y-2">
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>Unreliable on messy or cursive handwriting — hallucinations occur</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>No .docx file output — manual copy-paste into Word required</li>
+            <li class="text-sm text-slate-700 flex gap-2.5 items-start"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>$20/month subscription required to upload images</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Pricing</p><p class="text-xs text-slate-700 font-semibold">Free (limited) · Plus $20/month for image upload</p></div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Best For</p><p class="text-xs text-slate-700 font-semibold">Occasional transcription of clean notes for existing ChatGPT Plus users</p></div>
+        <div class="bg-slate-50 rounded-lg p-4 border border-slate-100"><p class="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1">Accepts</p><p class="text-xs text-slate-700 font-semibold">JPG, PNG, WEBP, GIF (non-animated)</p></div>
+      </div>
+      <div class="border-l-4 border-slate-300 pl-4 py-1">
+        <p class="text-sm text-slate-600 leading-relaxed"><strong>Verdict:</strong> A capable general-purpose AI that can transcribe clean handwriting in a pinch. Not a reliable document conversion tool for production workflows.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════ COMPARISON TABLE ══════════════ -->
+
+  <h2 id="comparison-table" class="text-xl md:text-3xl font-black mb-4 text-slate-900">
+    Side-by-Side Comparison
+  </h2>
+  <p class="mb-6 text-slate-700 leading-relaxed">All six tools compared across the criteria that matter for real handwriting-to-Word workflows.</p>
+
+  <div class="not-prose my-8 overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+    <table class="w-full min-w-[760px] text-left border-collapse bg-white">
+      <thead>
+        <tr class="bg-slate-900 text-white">
+          <th class="p-4 text-xs font-black uppercase tracking-wider">Tool</th>
+          <th class="p-4 text-xs font-black uppercase tracking-wider">Handwriting Accuracy</th>
+          <th class="p-4 text-xs font-black uppercase tracking-wider">.docx Output</th>
+          <th class="p-4 text-xs font-black uppercase tracking-wider">In-Browser Editor</th>
+          <th class="p-4 text-xs font-black uppercase tracking-wider">Languages</th>
+          <th class="p-4 text-xs font-black uppercase tracking-wider">Pricing</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100">
+        <tr class="bg-slate-50 hover:bg-teal-50/40 transition-colors">
+          <td class="p-4 font-black text-[#015979]">NoteOCR <span class="text-[10px] font-bold uppercase tracking-wider bg-[#015979] text-white px-1.5 py-0.5 rounded ml-1">Top Pick</span></td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">Excellent — purpose-trained</td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">Yes + 10 other formats</td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">Yes — live Word-style editor</td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">40+ languages</td>
+          <td class="p-4 text-sm font-semibold text-emerald-600">One-time from $12</td>
+        </tr>
+        <tr class="hover:bg-slate-50/60 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">Microsoft OneNote</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Good on digital ink only</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Via Word export</td>
+          <td class="p-4 text-sm text-red-500 font-medium">No</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Multi-language</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Included in M365 ($6.99/mo)</td>
+        </tr>
+        <tr class="hover:bg-slate-50/60 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">Google Drive OCR</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Variable — printed text best</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Via Google Docs export</td>
+          <td class="p-4 text-sm text-red-500 font-medium">No</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Multi-language</td>
+          <td class="p-4 text-sm text-emerald-600 font-medium">Free</td>
+        </tr>
+        <tr class="hover:bg-slate-50/60 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">Adobe Acrobat</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Moderate — print-focused</td>
+          <td class="p-4 text-sm text-emerald-600 font-medium">Yes</td>
+          <td class="p-4 text-sm text-red-500 font-medium">No</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Multi-language</td>
+          <td class="p-4 text-sm text-red-500 font-medium">Subscription $19.99/mo</td>
+        </tr>
+        <tr class="hover:bg-slate-50/60 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">Pen to Print</td>
+          <td class="p-4 text-sm text-emerald-600 font-medium">Good — handwriting-trained</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">With paid subscription</td>
+          <td class="p-4 text-sm text-red-500 font-medium">No</td>
+          <td class="p-4 text-sm text-red-500 font-medium">Latin script only</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Subscription $4.99/mo</td>
+        </tr>
+        <tr class="hover:bg-slate-50/60 transition-colors">
+          <td class="p-4 font-semibold text-slate-700">ChatGPT Vision</td>
+          <td class="p-4 text-sm text-red-500 font-medium">Inconsistent on cursive</td>
+          <td class="p-4 text-sm text-red-500 font-medium">Manual copy-paste only</td>
+          <td class="p-4 text-sm text-red-500 font-medium">No</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">Multi-language</td>
+          <td class="p-4 text-sm text-amber-600 font-medium">$20/month (Plus)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ══════════════ HOW-TO GUIDE ══════════════ -->
+
+  <h2 id="how-to-guide" class="text-xl md:text-3xl font-black mb-4 text-slate-900">
+    How to Convert Handwritten Notes to a Word Document Using NoteOCR
+  </h2>
+  <p class="mb-6 text-slate-700 leading-relaxed">
+    The full process from photo to downloadable .docx takes under 60 seconds. Here is exactly how it works.
+  </p>
+
+  <div class="not-prose space-y-3 my-8">
+
+    <div class="flex gap-5 p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-900 text-white font-black text-sm flex items-center justify-center">01</div>
+      <div>
+        <h4 class="font-bold text-slate-800 mb-1.5 text-sm">Photograph or scan your handwritten page</h4>
+        <p class="text-sm text-slate-500 leading-relaxed">Use your phone camera in good, even lighting with no shadows across the page. Shoot straight on, not at an angle. NoteOCR accepts JPG, PNG, HEIC, TIFF, and PDF. For multiple pages, combine them into a single PDF and upload once.</p>
+      </div>
+    </div>
+
+    <div class="flex gap-5 p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-900 text-white font-black text-sm flex items-center justify-center">02</div>
+      <div>
+        <h4 class="font-bold text-slate-800 mb-1.5 text-sm">Upload to NoteOCR — no account required to start</h4>
+        <p class="text-sm text-slate-500 leading-relaxed">Go to <a href="https://app.noteocr.com/upload-image" class="text-[#015979] font-semibold underline underline-offset-2">app.noteocr.com</a> and drag your image into the upload area or click to browse. Free trial credits let you test the conversion on your actual document before purchasing.</p>
+      </div>
+    </div>
+
+    <div class="flex gap-5 p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-900 text-white font-black text-sm flex items-center justify-center">03</div>
+      <div>
+        <h4 class="font-bold text-slate-800 mb-1.5 text-sm">AI reads your handwriting and structures the document</h4>
+        <p class="text-sm text-slate-500 leading-relaxed">NoteOCR's handwriting-specific model processes your image — recognizing characters, identifying paragraph breaks, and structuring content into a proper document layout. Most standard pages complete in under 30 seconds.</p>
+      </div>
+    </div>
+
+    <div class="flex gap-5 p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-900 text-white font-black text-sm flex items-center justify-center">04</div>
+      <div>
+        <h4 class="font-bold text-slate-800 mb-1.5 text-sm">Review and edit in the live browser editor</h4>
+        <p class="text-sm text-slate-500 leading-relaxed">Your converted document opens immediately in a Word-style browser editor. Read through it, fix any recognition errors, adjust formatting, or add headings — all directly in the browser without downloading anything yet.</p>
+      </div>
+    </div>
+
+    <div class="flex gap-5 p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+      <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-900 text-white font-black text-sm flex items-center justify-center">05</div>
+      <div>
+        <h4 class="font-bold text-slate-800 mb-1.5 text-sm">Download as .docx — or any other format you need</h4>
+        <p class="text-sm text-slate-500 leading-relaxed">Choose <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">.docx</code> for Microsoft Word, <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">.pdf</code> for sharing, or any of 10+ other formats. The document is also saved to your NoteOCR account for re-download anytime.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- INLINE CTA 2 -->
+  <div class="not-prose border border-[#015979] rounded-xl p-5 md:p-6 my-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+    <div>
+      <p class="text-xs font-bold uppercase tracking-widest text-[#015979] mb-1">Ready to try it?</p>
+      <h4 class="font-bold text-slate-900 text-base mb-1">Convert your first handwritten page for free</h4>
+      <p class="text-sm text-slate-500">No subscription. No credit card. See the accuracy on your own handwriting before committing.</p>
+    </div>
+    <a href="https://app.noteocr.com/upload-image" class="flex-shrink-0 w-full md:w-auto text-center px-6 py-3 bg-[#015979] text-white rounded-lg font-bold text-sm hover:bg-[#014a66] transition-colors shadow-sm">
+      Start Free Trial
+    </a>
+  </div>
+
+  <!-- ══════════════ USE CASES ══════════════ -->
+
+  <h2 id="use-cases" class="text-xl md:text-3xl font-black mb-4 text-slate-900">
+    Who Actually Needs This — Real-World Use Cases
+  </h2>
+  <p class="mb-6 text-slate-700 leading-relaxed">Handwritten-to-Word conversion is not a niche need. It appears across industries, roles, and daily workflows.</p>
+
+  <div class="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-8">
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-2">Students & Academics</p>
+      <p class="text-sm text-slate-600 leading-relaxed mb-3">Lecture notes, research observations, lab reports — converting handwritten pages to Word means searchable, shareable, citable documents without spending an evening retyping.</p>
+      <p class="text-xs font-semibold text-[#015979] border-t border-slate-100 pt-3">20-page notebook converted to editable doc in under 5 minutes</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-2">Healthcare & Clinical Notes</p>
+      <p class="text-sm text-slate-600 leading-relaxed mb-3">Clinicians and field health workers often document on paper. Converting handwritten patient notes or assessment forms into Word enables faster filing, sharing, and EMR integration.</p>
+      <p class="text-xs font-semibold text-[#015979] border-t border-slate-100 pt-3">Reduces admin time per patient record significantly</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-2">Legal & Compliance</p>
+      <p class="text-sm text-slate-600 leading-relaxed mb-3">Handwritten witness statements, interview notes, and case documentation need to become Word documents for filing, review, and archiving. Accuracy is non-negotiable — a misread word in a legal document has real consequences.</p>
+      <p class="text-xs font-semibold text-[#015979] border-t border-slate-100 pt-3">Reliable accuracy on critical documents</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-2">Business & Operations</p>
+      <p class="text-sm text-slate-600 leading-relaxed mb-3">Meeting notes, whiteboard brainstorms, sign-in sheets, handwritten memos — getting these into Word means they are searchable, shareable via email, and preserved beyond the notebook they were written in.</p>
+      <p class="text-xs font-semibold text-[#015979] border-t border-slate-100 pt-3">Digitize meeting notes before the next meeting starts</p>
+    </div>
+
+  </div>
+
+  <!-- ══════════════ FAQ ══════════════ -->
+
+  <h2 id="faq" class="text-xl md:text-3xl font-black mb-6 text-slate-900">
+    Frequently Asked Questions
+  </h2>
+
+  <div class="not-prose space-y-3 mb-10">
+
+    <details class="group bg-white border border-slate-200 rounded-xl overflow-hidden">
+      <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none select-none">
+        <span class="font-bold text-slate-800 text-sm md:text-base">Can I convert handwriting to a Word document for free?</span>
+        <span class="flex-shrink-0 w-6 h-6 rounded-md bg-slate-100 group-open:bg-slate-900 group-open:text-white flex items-center justify-center text-slate-500 font-black text-sm transition-colors">+</span>
+      </summary>
+      <div class="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+        Yes — partially. Google Drive OCR and Microsoft Lens both offer free extraction with a path to .docx output, but accuracy on real handwriting is limited and output often needs manual cleanup. NoteOCR offers free trial credits that let you test the full pipeline — including the live editor and .docx download — on your actual document before purchasing.
+      </div>
+    </details>
+
+    <details class="group bg-white border border-slate-200 rounded-xl overflow-hidden">
+      <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none select-none">
+        <span class="font-bold text-slate-800 text-sm md:text-base">How accurate is handwriting-to-Word conversion?</span>
+        <span class="flex-shrink-0 w-6 h-6 rounded-md bg-slate-100 group-open:bg-slate-900 group-open:text-white flex items-center justify-center text-slate-500 font-black text-sm transition-colors">+</span>
+      </summary>
+      <div class="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+        It depends on the tool and image quality. General OCR tools retrofitted for handwriting typically reach 60–75% character accuracy on messy writing. Purpose-built tools like NoteOCR perform meaningfully better, especially on cursive, irregular spacing, and non-Latin scripts. Image quality matters too — good lighting and a straight-on camera angle improve results noticeably.
+      </div>
+    </details>
+
+    <details class="group bg-white border border-slate-200 rounded-xl overflow-hidden">
+      <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none select-none">
+        <span class="font-bold text-slate-800 text-sm md:text-base">Does NoteOCR work with non-English handwriting?</span>
+        <span class="flex-shrink-0 w-6 h-6 rounded-md bg-slate-100 group-open:bg-slate-900 group-open:text-white flex items-center justify-center text-slate-500 font-black text-sm transition-colors">+</span>
+      </summary>
+      <div class="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+        Yes. NoteOCR supports 40+ languages including Arabic, French, Spanish, Hindi, Chinese (Simplified and Traditional), Portuguese, Swahili, and more. It handles documents with multiple languages or mixed scripts on the same page — making it one of the few tools suitable for multilingual workforces.
+      </div>
+    </details>
+
+    <details class="group bg-white border border-slate-200 rounded-xl overflow-hidden">
+      <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none select-none">
+        <span class="font-bold text-slate-800 text-sm md:text-base">Do I need to install software to use NoteOCR?</span>
+        <span class="flex-shrink-0 w-6 h-6 rounded-md bg-slate-100 group-open:bg-slate-900 group-open:text-white flex items-center justify-center text-slate-500 font-black text-sm transition-colors">+</span>
+      </summary>
+      <div class="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+        No. NoteOCR is entirely browser-based. Upload your image, review in the live editor, and download your file — all from any modern web browser. No installation required. Works on Windows, Mac, Linux, and mobile devices.
+      </div>
+    </details>
+
+    <details class="group bg-white border border-slate-200 rounded-xl overflow-hidden">
+      <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none select-none">
+        <span class="font-bold text-slate-800 text-sm md:text-base">What file formats does NoteOCR support for download?</span>
+        <span class="flex-shrink-0 w-6 h-6 rounded-md bg-slate-100 group-open:bg-slate-900 group-open:text-white flex items-center justify-center text-slate-500 font-black text-sm transition-colors">+</span>
+      </summary>
+      <div class="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+        NoteOCR supports 10+ formats including <code class="bg-slate-100 px-1 rounded text-xs font-mono">.docx</code>, <code class="bg-slate-100 px-1 rounded text-xs font-mono">.pdf</code>, <code class="bg-slate-100 px-1 rounded text-xs font-mono">.xlsx</code>, <code class="bg-slate-100 px-1 rounded text-xs font-mono">.csv</code>, <code class="bg-slate-100 px-1 rounded text-xs font-mono">.ods</code>, and plain text. The same converted document can serve multiple purposes without any extra steps.
+      </div>
+    </details>
+
+    <details class="group bg-white border border-slate-200 rounded-xl overflow-hidden">
+      <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none select-none">
+        <span class="font-bold text-slate-800 text-sm md:text-base">Is there a monthly subscription or is it pay-per-use?</span>
+        <span class="flex-shrink-0 w-6 h-6 rounded-md bg-slate-100 group-open:bg-slate-900 group-open:text-white flex items-center justify-center text-slate-500 font-black text-sm transition-colors">+</span>
+      </summary>
+      <div class="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+        NoteOCR uses a one-time credit model — no subscription. Starter is $12 for 100 pages, Plus is $25 for 300 pages, Pro is $50 for 1,000 pages. Credits never expire and there is no recurring charge or forced renewal.
+      </div>
+    </details>
+
+    <details class="group bg-white border border-slate-200 rounded-xl overflow-hidden">
+      <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none select-none">
+        <span class="font-bold text-slate-800 text-sm md:text-base">Is it safe to upload sensitive or confidential documents?</span>
+        <span class="flex-shrink-0 w-6 h-6 rounded-md bg-slate-100 group-open:bg-slate-900 group-open:text-white flex items-center justify-center text-slate-500 font-black text-sm transition-colors">+</span>
+      </summary>
+      <div class="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+        Yes. Documents uploaded to NoteOCR are processed securely, are not used to train AI models, and are not shared with third parties. All data transmission is encrypted. Converted files are saved to your personal account only and are not accessible to other users.
+      </div>
+    </details>
+
+  </div>
+
+  <!-- ══════════════ FINAL VERDICT ══════════════ -->
+
+  <h2 id="verdict" class="text-xl md:text-3xl font-black mb-4 text-slate-900">
+    Final Verdict: The Right Tool for the Job
+  </h2>
+  <p class="mb-6 text-slate-700 leading-relaxed">Every tool on this list solves a version of the problem. Here is the short version of which one to use.</p>
+
+  <div class="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-8">
+
+    <div class="p-5 bg-slate-900 rounded-xl text-white">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-1">For handwritten paper → Word document</p>
+      <p class="text-lg font-black text-white mb-2">Use NoteOCR</p>
+      <p class="text-sm text-slate-300 leading-relaxed">Purpose-built handwriting AI, live browser editor, true .docx output, 40+ languages, one-time pricing. The only tool that handles the full workflow end-to-end without installing anything.</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-1">For digital stylus notes in Microsoft 365</p>
+      <p class="text-lg font-black text-slate-900 mb-2">Use Microsoft OneNote</p>
+      <p class="text-sm text-slate-500 leading-relaxed">Ink to Text is excellent for tablet users writing digitally inside the Microsoft ecosystem. Not useful for paper-based handwriting.</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-1">For occasional, low-stakes free extraction</p>
+      <p class="text-lg font-black text-slate-900 mb-2">Use Google Drive OCR</p>
+      <p class="text-sm text-slate-500 leading-relaxed">Free and accessible. Adequate for simple printed or near-printed text when accuracy is not critical and structure does not matter.</p>
+    </div>
+
+    <div class="p-5 bg-white rounded-xl border border-slate-200">
+      <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-1">For Latin-script handwritten notes</p>
+      <p class="text-lg font-black text-slate-900 mb-2">Use Pen to Print</p>
+      <p class="text-sm text-slate-500 leading-relaxed">Good handwriting accuracy for Latin-based languages. Language limitations and subscription pricing are drawbacks for broader use.</p>
+    </div>
+
+  </div>
+
+  <p class="mb-10 text-slate-700 leading-relaxed">
+    The combination most real workflows demand — read real handwriting accurately, structure it into a proper document, let you review before downloading, output a true .docx, support multiple languages, and avoid a monthly subscription — is delivered cleanly by one tool on this list.
+  </p>
+
+  <!-- ══════════════ FOOTER CTA ══════════════ -->
+
+  <div class="not-prose my-8 md:my-14 bg-slate-900 p-7 md:p-12 rounded-2xl text-white text-center">
+    <p class="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-4">No Software &nbsp;·&nbsp; No Subscription &nbsp;·&nbsp; No Retyping</p>
+    <h2 class="text-2xl md:text-4xl font-black mb-4 leading-tight">
+      Your Handwritten Notes → Clean Word Document.<br class="hidden md:block"/> In Under 60 Seconds.
+    </h2>
+    <p class="text-sm md:text-base text-slate-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+      Upload your image, review it in the live browser editor, and download a .docx file you can open straight in Microsoft Word. Free trial credits — no credit card required to start.
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center gap-3 mb-5">
+      <a href="https://app.noteocr.com/upload-image" class="px-8 py-4 bg-white text-slate-900 rounded-lg font-black text-sm md:text-base hover:bg-slate-100 transition-colors shadow-sm">
+        Convert Your Notes for Free
+      </a>
+      <a href="https://noteocr.com/pricing" class="px-8 py-4 bg-transparent border border-slate-600 rounded-lg font-bold text-sm md:text-base hover:border-slate-400 hover:text-white transition-colors">
+        View Pricing
+      </a>
+    </div>
+    <p class="text-xs text-slate-500">Starter from $12 &nbsp;·&nbsp; One-time payment &nbsp;·&nbsp; Credits never expire</p>
+  </div>
+
+`,
+  },
 ];
