@@ -22,7 +22,7 @@ import { useTranslations } from "next-intl";
 export default function WordToolInterface({ locale, translation }) {
   const t = useTranslations(translation); // translation should be "WordPage"
   const router = useRouter();
-  const [file, setFile] = useState(null);
+  const [files, setFiles] = useState([]); // Changed from single file to array
   const [resultDoc, setResultDoc] = useState(null);
   const [dragActive, setDragActive] = useState(false);
   const fileInputRef = useRef(null);
@@ -91,7 +91,7 @@ export default function WordToolInterface({ locale, translation }) {
       showToast("Error", backendMessage, "error");
 
       // Clear both state AND file input so re-upload works
-      setFile(null);
+      setFiles([]);
       if (fileInputRef.current) fileInputRef.current.value = "";
     },
   });
@@ -102,45 +102,83 @@ export default function WordToolInterface({ locale, translation }) {
     return `${baseName}_${timestamp}_${random}`;
   };
 
-  const processFile = async (selectedFile) => {
-    const validTypes = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
+  const processFiles = async (selectedFiles) => {
+    if (!selectedFiles || selectedFiles.length === 0) return;
 
-    // Clear input immediately so re-uploading same file works
+    // Clear input immediately so re-uploading same files works
     if (fileInputRef.current) fileInputRef.current.value = "";
 
-    if (!validTypes.includes(selectedFile.type)) {
-      showToast("Invalid File", t("toast_error_type"), "error");
+    // --- 10 IMAGE MAX LIMIT CHECK ---
+    if (selectedFiles.length > 10) {
+      showToast(
+        "Limit Exceeded",
+        "You cannot transcribe more than 10 images at once.",
+        "error",
+      );
       return; // ← never reaches backend
     }
 
+    const validTypes = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
     const maxSize = 25 * 1024 * 1024;
-    if (selectedFile.size > maxSize) {
-      showToast("File Too Large", t("toast_error_size"), "error");
-      return; // ← never reaches backend
+    const validatedFiles = [];
+
+    // Validate all items in batch
+    for (let i = 0; i < selectedFiles.length; i++) {
+      const currentFile = selectedFiles[i];
+
+      if (!validTypes.includes(currentFile.type)) {
+        showToast("Invalid File", t("toast_error_type"), "error");
+        return;
+      }
+
+      if (currentFile.size > maxSize) {
+        showToast("File Too Large", t("toast_error_size"), "error");
+        return;
+      }
+
+      validatedFiles.push(currentFile);
     }
 
-    setFile(selectedFile);
-    const reader = new FileReader();
-    reader.readAsDataURL(selectedFile);
-    reader.onload = () => {
-      const base64String = reader.result.split(",")[1];
+    setFiles(validatedFiles);
+
+    // Convert all validated images to base64 strings asynchronously
+    try {
+      const base64Promises = validatedFiles.map((file) => {
+        return new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.readAsDataURL(file);
+          reader.onload = () => resolve(reader.result.split(",")[1]);
+          reader.onerror = (error) => reject(error);
+        });
+      });
+
+      const base64Strings = await Promise.all(base64Promises);
+
+      // Fire off single backend API execution with array payload
       handleUpload({
-        images: [base64String],
+        images: base64Strings,
         userId: "67b746ab6256a6bdb691b18a",
         conversionType: "imageToWord",
         documentName: generateRandomDocName(),
         folder: "Personal",
         updating: false,
       });
-    };
+    } catch (err) {
+      showToast(
+        "Processing Error",
+        "Failed to compile your files for upload.",
+        "error",
+      );
+      setFiles([]);
+    }
   };
 
   const onFileChange = (e) => {
-    if (e.target.files?.[0]) processFile(e.target.files[0]);
+    if (e.target.files) processFiles(Array.from(e.target.files));
   };
 
   const resetTool = () => {
-    setFile(null);
+    setFiles([]);
     setResultDoc(null);
     if (fileInputRef.current) fileInputRef.current.value = "";
   };
@@ -203,7 +241,8 @@ export default function WordToolInterface({ locale, translation }) {
           onDrop={(e) => {
             e.preventDefault();
             setDragActive(false);
-            if (e.dataTransfer.files?.[0]) processFile(e.dataTransfer.files[0]);
+            if (e.dataTransfer.files)
+              processFiles(Array.from(e.dataTransfer.files));
           }}
         >
           <input
@@ -211,11 +250,12 @@ export default function WordToolInterface({ locale, translation }) {
             ref={fileInputRef}
             onChange={onFileChange}
             accept="image/*"
+            multiple // Added native multiple file upload support attribute
             className="hidden"
           />
 
           {/* 1. IDLE STATE */}
-          {!file && !isProcessing && (
+          {files.length === 0 && !isProcessing && (
             <div className="text-center p-6 animate-in fade-in duration-500">
               <div
                 onClick={() => fileInputRef.current.click()}

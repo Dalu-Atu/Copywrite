@@ -1,347 +1,3 @@
-// "use client";
-// import React, { useState, useRef } from "react";
-// import {
-//   Upload,
-//   FileSpreadsheet,
-//   Loader2,
-//   Download,
-//   RefreshCw,
-//   Check,
-//   X,
-//   Sparkles,
-//   Grid3X3,
-//   Table,
-//   AlertCircle,
-//   FileWarning,
-//   Hourglass,
-// } from "lucide-react";
-// import { useMutation } from "@tanstack/react-query";
-// import { uploadAndTranscribe, downloadDocument } from "../lib/api-service";
-// import { useTranslations } from "next-intl";
-
-// export default function ExcelToolInterface({ locale, translation }) {
-//   const t = useTranslations(translation);
-//   const [file, setFile] = useState(null);
-//   const [resultDoc, setResultDoc] = useState(null);
-//   const [dragActive, setDragActive] = useState(false);
-//   const fileInputRef = useRef(null);
-
-//   // --- CUSTOM TOASTER STATE ---
-//   const [toastState, setToastState] = useState({
-//     visible: false,
-//     title: "",
-//     message: "",
-//     type: "error",
-//   });
-
-//   const showToast = (title, message, type = "error") => {
-//     setToastState({ visible: true, title, message, type });
-//     setTimeout(() => {
-//       setToastState((prev) => ({ ...prev, visible: false }));
-//     }, 6000);
-//   };
-
-//   const closeToast = () => {
-//     setToastState((prev) => ({ ...prev, visible: false }));
-//   };
-
-//   // Mutation for uploading
-//   const { mutate: handleUpload, isPending: isProcessing } = useMutation({
-//     mutationFn: uploadAndTranscribe,
-//     onSuccess: (data) => {
-//       if (data.success) {
-//         setResultDoc(data.document);
-//         showToast("Success", t("toast_success"), "success");
-//       }
-//     },
-//     onError: (error) => {
-//       showToast(
-//         "Extraction Failed",
-//         error?.response?.data?.message || t("toast_error_extraction"),
-//         "error"
-//       );
-//       setFile(null);
-//     },
-//   });
-
-//   const generateRandomDocName = (baseName = "noteocr_table") => {
-//     const timestamp = Date.now();
-//     const random = Math.random().toString(36).substring(2, 8);
-//     return `${baseName}_${timestamp}_${random}`;
-//   };
-
-//   const processFile = async (selectedFile) => {
-//     const validTypes = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
-//     if (!validTypes.includes(selectedFile.type)) {
-//       showToast(
-//         "Invalid File Type",
-//         "Please upload a JPG, PNG, or WEBP.",
-//         "error"
-//       );
-//       return;
-//     }
-
-//     const maxSize = 25 * 1024 * 1024;
-//     if (selectedFile.size > maxSize) {
-//       showToast("File Too Large", t("toast_error_size"), "error");
-//       return;
-//     }
-
-//     setFile(selectedFile);
-//     const reader = new FileReader();
-//     reader.readAsDataURL(selectedFile);
-//     reader.onload = () => {
-//       const base64String = reader.result.split(",")[1];
-//       handleUpload({
-//         images: [base64String],
-//         userId: "6987766c9da4d6ff690600e6",
-//         conversionType: "imageToExcel",
-//         documentName: generateRandomDocName(),
-//         folder: "Personal",
-//         updating: false,
-//       });
-//     };
-//   };
-
-//   const onFileChange = (e) => {
-//     if (e.target.files?.[0]) {
-//       processFile(e.target.files[0]);
-//     }
-//   };
-
-//   const handleDownload = async () => {
-//     if (!resultDoc) return;
-//     try {
-//       await downloadDocument({
-//         userId: resultDoc.userId,
-//         folder: resultDoc.folder,
-//         fileName: resultDoc.name,
-//       });
-//       showToast("Downloaded", t("toast_download_success"), "success");
-//     } catch (err) {
-//       showToast("Error", t("toast_download_error"), "error");
-//     }
-//   };
-
-//   const resetTool = () => {
-//     setFile(null);
-//     setResultDoc(null);
-//     if (fileInputRef.current) fileInputRef.current.value = "";
-//   };
-
-//   return (
-//     <div className="w-full max-w-3xl mx-auto relative px-2">
-//       {/* TOASTER UI */}
-//       <div
-//         className={`fixed top-4 left-1/2 -translate-x-1/2 z-[100] transition-all duration-300 ${
-//           toastState.visible
-//             ? "opacity-100 translate-y-0"
-//             : "opacity-0 -translate-y-4 pointer-events-none"
-//         }`}
-//       >
-//         <div
-//           className={`flex items-start gap-3 p-4 rounded-xl shadow-2xl border backdrop-blur-md w-[90vw] max-w-[400px] ${
-//             toastState.type === "error"
-//               ? "bg-red-500/10 border-red-500/20"
-//               : "bg-emerald-500/10 border-emerald-500/20 shadow-emerald-900/20"
-//           }`}
-//         >
-//           <div className="shrink-0 pt-0.5">
-//             {toastState.type === "error" ? (
-//               <FileWarning className="w-5 h-5 text-red-500" />
-//             ) : (
-//               <Check className="w-5 h-5 text-emerald-500" />
-//             )}
-//           </div>
-//           <div className="flex-1 text-left">
-//             <h4
-//               className={`text-sm font-bold ${
-//                 toastState.type === "error"
-//                   ? "text-red-400"
-//                   : "text-emerald-400"
-//               }`}
-//             >
-//               {toastState.title}
-//             </h4>
-//             <p className="text-xs text-gray-300">{toastState.message}</p>
-//           </div>
-//           <button
-//             onClick={closeToast}
-//             className="text-gray-500 hover:text-white transition-colors"
-//           >
-//             <X className="w-4 h-4" />
-//           </button>
-//         </div>
-//       </div>
-
-//       {/* Main Card: min-h prevents mobile "zoom" jumps */}
-//       <div className="bg-[#0a0a0a] border-2 border-white/10 rounded-2xl p-2 sm:p-3 shadow-2xl min-h-[550px] flex flex-col overflow-hidden">
-//         <div
-//           className={`flex-1 border-2 border-dashed rounded-xl flex flex-col items-center justify-center relative transition-colors duration-300 ${
-//             dragActive
-//               ? "border-emerald-500 bg-emerald-500/5"
-//               : "border-white/10 bg-white/[0.02]"
-//           }`}
-//           onDragOver={(e) => {
-//             e.preventDefault();
-//             setDragActive(true);
-//           }}
-//           onDragLeave={() => setDragActive(false)}
-//           onDrop={(e) => {
-//             e.preventDefault();
-//             setDragActive(false);
-//             if (e.dataTransfer.files?.[0]) processFile(e.dataTransfer.files[0]);
-//           }}
-//         >
-//           <input
-//             type="file"
-//             ref={fileInputRef}
-//             onChange={onFileChange}
-//             accept="image/*"
-//             className="hidden"
-//           />
-
-//           {/* 1. IDLE STATE */}
-//           {!file && !isProcessing && (
-//             <div className="text-center p-6 animate-in fade-in duration-500">
-//               <div
-//                 onClick={() => fileInputRef.current.click()}
-//                 className="w-20 h-20 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center mx-auto mb-6 cursor-pointer hover:border-emerald-500/50 transition-all group"
-//               >
-//                 <Upload className="w-10 h-10 text-emerald-500 group-hover:scale-110 transition-transform" />
-//               </div>
-//               <h3 className="text-xl sm:text-2xl font-bold mb-2">
-//                 {t("tool_upload_title")}
-//               </h3>
-//               <p className="text-gray-500 text-sm mb-8 px-4 leading-relaxed">
-//                 {t("tool_upload_desc")}
-//               </p>
-//               <button
-//                 onClick={() => fileInputRef.current.click()}
-//                 className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 px-10 rounded-lg shadow-lg active:scale-95 transition-all"
-//               >
-//                 {t("tool_upload_button")}
-//               </button>
-//             </div>
-//           )}
-
-//           {/* 2. PROCESSING STATE */}
-//           {isProcessing && (
-//             <div className="text-center p-6 w-full max-w-sm animate-in fade-in duration-300">
-//               <div className="relative w-20 h-20 mx-auto mb-8">
-//                 <Loader2 className="w-full h-full text-emerald-500 animate-spin" />
-//                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-//                   <div className="w-24 h-24 border-2 border-emerald-500/20 rounded-full animate-ping opacity-50"></div>
-//                 </div>
-//               </div>
-//               <h3 className="text-lg font-bold mb-6 text-white">
-//                 {t("tool_processing_title")}
-//               </h3>
-
-//               <div className="bg-yellow-500/5 border border-yellow-500/20 rounded-xl p-4 text-left backdrop-blur-sm">
-//                 <div className="flex gap-3">
-//                   <Hourglass className="w-5 h-5 text-yellow-500 shrink-0 animate-pulse mt-0.5" />
-//                   <div>
-//                     <p className="text-xs font-bold text-yellow-500 uppercase tracking-widest mb-1">
-//                       Table Extraction
-//                     </p>
-//                     <p className="text-xs text-gray-400 leading-relaxed">
-//                       Formatting cell data is complex. Please{" "}
-//                       <span className="text-gray-200 font-semibold italic">
-//                         stay on this page
-//                       </span>
-//                       . It typically takes 30-60 seconds to structure your Excel
-//                       file.
-//                     </p>
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           )}
-
-//           {/* 3. SUCCESS STATE */}
-//           {resultDoc && !isProcessing && (
-//             <div className="text-center p-6 w-full max-w-sm animate-in fade-in slide-in-from-bottom-4 duration-500">
-//               <div className="w-20 h-20 bg-emerald-500/10 border-2 border-emerald-500/30 rounded-2xl flex items-center justify-center mx-auto mb-6">
-//                 <FileSpreadsheet className="w-10 h-10 text-emerald-500" />
-//               </div>
-//               <h3 className="text-xl sm:text-2xl font-bold mb-2">
-//                 {t("tool_complete_title")}
-//               </h3>
-//               <p className="text-gray-500 text-sm mb-8">
-//                 {t("tool_complete_desc")}
-//               </p>
-
-//               <div className="bg-white/[0.03] border border-white/10 rounded-lg p-4 mb-8 flex items-center justify-between">
-//                 <div className="flex items-center gap-3 overflow-hidden">
-//                   <div className="w-8 h-8 bg-emerald-500/10 rounded flex items-center justify-center shrink-0">
-//                     <Table className="w-4 h-4 text-emerald-500" />
-//                   </div>
-//                   <span className="text-xs text-gray-300 truncate font-mono">
-//                     {resultDoc.name}
-//                   </span>
-//                 </div>
-//                 <Check className="w-5 h-5 text-emerald-500 shrink-0" />
-//               </div>
-
-//               <div className="flex flex-col gap-3">
-//                 <button
-//                   onClick={handleDownload}
-//                   className="w-full flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-lg shadow-lg active:scale-95 transition-all"
-//                 >
-//                   <Download className="w-5 h-5" /> {t("tool_download_button")}
-//                 </button>
-//                 <button
-//                   onClick={resetTool}
-//                   className="w-full flex items-center justify-center gap-2 bg-white/5 border border-white/10 text-white py-3 rounded-lg text-sm hover:bg-white/10 transition-colors"
-//                 >
-//                   <RefreshCw className="w-4 h-4" /> {t("tool_new_button")}
-//                 </button>
-//               </div>
-//             </div>
-//           )}
-//         </div>
-//       </div>
-
-//       {/* FOOTER INFO CARDS */}
-//       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
-//         {[
-//           {
-//             icon: Grid3X3,
-//             title: t("tool_info_1_title"),
-//             desc: t("tool_info_1_desc"),
-//           },
-//           {
-//             icon: Sparkles,
-//             title: t("tool_info_2_title"),
-//             desc: t("tool_info_2_desc"),
-//           },
-//           {
-//             icon: FileSpreadsheet,
-//             title: t("tool_info_3_title"),
-//             desc: t("tool_info_3_desc"),
-//           },
-//         ].map((item, i) => (
-//           <div
-//             key={i}
-//             className="bg-white/[0.03] border border-white/5 rounded-xl p-4"
-//           >
-//             <div className="flex items-center gap-2 mb-1.5">
-//               <item.icon className="w-4 h-4 text-emerald-500" />
-//               <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400">
-//                 {item.title}
-//               </span>
-//             </div>
-//             <p className="text-[11px] text-gray-500 leading-normal">
-//               {item.desc}
-//             </p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
 "use client";
 import React, { useState, useRef } from "react";
 import { useRouter } from "next/navigation";
@@ -366,7 +22,7 @@ import { useTranslations } from "next-intl";
 export default function ExcelToolInterface({ locale, translation }) {
   const t = useTranslations(translation); // translation should be "ExcelPage"
   const router = useRouter();
-  const [file, setFile] = useState(null);
+  const [files, setFiles] = useState([]); // Changed from single file to array
   const [resultDoc, setResultDoc] = useState(null);
   const [dragActive, setDragActive] = useState(false);
   const fileInputRef = useRef(null);
@@ -430,7 +86,8 @@ export default function ExcelToolInterface({ locale, translation }) {
         error?.response?.data?.message || t("toast_error_extraction"),
         "error",
       );
-      setFile(null);
+      setFiles([]);
+      if (fileInputRef.current) fileInputRef.current.value = "";
     },
   });
 
@@ -440,41 +97,83 @@ export default function ExcelToolInterface({ locale, translation }) {
     return `${baseName}_${timestamp}_${random}`;
   };
 
-  const processFile = async (selectedFile) => {
+  const processFiles = async (selectedFiles) => {
+    if (!selectedFiles || selectedFiles.length === 0) return;
+
+    // Clear input immediately so re-uploading same files works
+    if (fileInputRef.current) fileInputRef.current.value = "";
+
+    // --- 10 IMAGE MAX LIMIT CHECK ---
+    if (selectedFiles.length > 10) {
+      showToast(
+        "Limit Exceeded",
+        "You cannot transcribe more than 10 images at once.",
+        "error",
+      );
+      return; // ← never reaches backend
+    }
+
     const validTypes = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
-    if (!validTypes.includes(selectedFile.type)) {
-      showToast("Invalid File", t("toast_error_type"), "error");
-      return;
-    }
-
     const maxSize = 25 * 1024 * 1024;
-    if (selectedFile.size > maxSize) {
-      showToast("File Too Large", t("toast_error_size"), "error");
-      return;
+    const validatedFiles = [];
+
+    // Validate all items in batch
+    for (let i = 0; i < selectedFiles.length; i++) {
+      const currentFile = selectedFiles[i];
+
+      if (!validTypes.includes(currentFile.type)) {
+        showToast("Invalid File", t("toast_error_type"), "error");
+        return;
+      }
+
+      if (currentFile.size > maxSize) {
+        showToast("File Too Large", t("toast_error_size"), "error");
+        return;
+      }
+
+      validatedFiles.push(currentFile);
     }
 
-    setFile(selectedFile);
-    const reader = new FileReader();
-    reader.readAsDataURL(selectedFile);
-    reader.onload = () => {
-      const base64String = reader.result.split(",")[1];
+    setFiles(validatedFiles);
+
+    // Convert all validated images to base64 strings asynchronously
+    try {
+      const base64Promises = validatedFiles.map((file) => {
+        return new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.readAsDataURL(file);
+          reader.onload = () => resolve(reader.result.split(",")[1]);
+          reader.onerror = (error) => reject(error);
+        });
+      });
+
+      const base64Strings = await Promise.all(base64Promises);
+
+      // Fire off backend upload sequence
       handleUpload({
-        images: [base64String],
+        images: base64Strings,
         userId: "67b746ab6256a6bdb691b18a",
         conversionType: "imageToExcel",
         documentName: generateRandomDocName(),
         folder: "Personal",
         updating: false,
       });
-    };
+    } catch (err) {
+      showToast(
+        "Processing Error",
+        "Failed to compile your files for upload.",
+        "error",
+      );
+      setFiles([]);
+    }
   };
 
   const onFileChange = (e) => {
-    if (e.target.files?.[0]) processFile(e.target.files[0]);
+    if (e.target.files) processFiles(Array.from(e.target.files));
   };
 
   const resetTool = () => {
-    setFile(null);
+    setFiles([]);
     setResultDoc(null);
     if (fileInputRef.current) fileInputRef.current.value = "";
   };
@@ -539,7 +238,8 @@ export default function ExcelToolInterface({ locale, translation }) {
           onDrop={(e) => {
             e.preventDefault();
             setDragActive(false);
-            if (e.dataTransfer.files?.[0]) processFile(e.dataTransfer.files[0]);
+            if (e.dataTransfer.files)
+              processFiles(Array.from(e.dataTransfer.files));
           }}
         >
           <input
@@ -547,11 +247,12 @@ export default function ExcelToolInterface({ locale, translation }) {
             ref={fileInputRef}
             onChange={onFileChange}
             accept="image/*"
+            multiple // Native browser multi-select hook flag
             className="hidden"
           />
 
           {/* 1. IDLE STATE */}
-          {!file && !isProcessing && (
+          {files.length === 0 && !isProcessing && (
             <div className="text-center p-6 animate-in fade-in duration-500">
               <div
                 onClick={() => fileInputRef.current.click()}
