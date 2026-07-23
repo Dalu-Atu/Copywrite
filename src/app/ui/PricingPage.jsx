@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import Script from "next/script";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+
 import {
   Check,
   X,
@@ -21,8 +22,6 @@ import {
   CreditCard,
 } from "lucide-react";
 import { ConciergeSection } from "./ConciergeSection";
-const locale = useLocale();
-
 
 export default function PricingPage() {
   const t = useTranslations("PricingUI");
@@ -30,11 +29,11 @@ export default function PricingPage() {
   const comparisonRows = t.raw("comparison.rows");
   const deepDiveCards = t.raw("deep_dive.cards");
   const faqs = t.raw("faqs.items");
+  const locale = useLocale();
   const getAppUrl = (path) => {
     const base = `https://app.noteocr.com${path}`;
     return locale && locale !== "en" ? `${base}&lng=${locale}` : base;
   };
-
 
   const jsonLd = {
     "@context": "https://schema.org",
