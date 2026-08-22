@@ -231,150 +231,113 @@
       }
     }
   },
-
   "WordPage": {
     "meta_title": "El Yazısını Word'e (DOCX) Dönüştür | NoteOCR",
     "meta_desc": "Yazıları elle temize çekmeyi bırakın. AI ile el yazısı notlarınızı düzenlenebilir Word belgelerine dönüştürün. Listeleri, başlıkları ve mizanpajı korur.",
-
     "hero_pill": "Akıllı Belge Tanıma",
     "hero_title": "El Yazısı Notları Word Belgelerine Dönüştürün",
     "hero_subtitle": "Notlarınızı yeniden yazarak vakit kaybetmeyin. Yapay zekamız, el yazısı sayfalarınızı listeleri, başlıkları ve orijinal düzeni koruyarak düzenlenebilir .docx dosyalarına dönüştürür.",
-
     "trust_ssl": "SSL ŞİFRELEME",
     "trust_processing": "30 SANİYEDE İŞLEME",
     "trust_accuracy": "%95 METİN DOĞRULUĞU",
-
     "before_after_title": "Farkı Görün",
     "before_after_desc": "Korunan yapı ve formatı gösteren gerçek bir dönüşüm örneği",
     "before_label": "Önce: El Yazısı Notlar",
     "before_placeholder": "[Sonuçları görmek için el yazısı notlarınızı yükleyin]",
     "after_label": "Sonra: Word Belgesi",
     "after_placeholder": "[Formatlanmış Word belgesi önizlemesi]",
-
     "use_cases_title": "Kimler El Yazısını Word'e Dönüştürüyor?",
     "use_cases_subtitle": "Öğrencilerden profesyonellere kadar binlerce kişi notlarını günlük olarak dijitalleştiriyor",
-
     "use_case_1_title": "Öğrenciler ve Araştırmacılar",
     "use_case_1_desc": "Ders notlarını, araştırma günlüklerini ve çalışma materyallerini makale yazımı ve kaynak yönetimi için aranabilir Word belgelerine dönüştürün.",
-
     "use_case_2_title": "İş Profesyonelleri",
     "use_case_2_desc": "Toplantı notlarını ve beyaz tahta seanslarını ekip paylaşımı ve raporlar için formatlanmış dijital belgelere dönüştürün.",
-
     "use_case_3_title": "Yazarlar ve Gazeteciler",
     "use_case_3_desc": "El yazısı taslakları, hikaye ana hatlarını ve röportaj notlarını düzenlemeye ve yayınlamaya hazır metinlere dönüştürün.",
-
     "use_case_4_title": "Arşivciler ve Tarihçiler",
     "use_case_4_desc": "Tarihi belgeleri, kişisel mektupları ve günlük girişlerini koruma ve araştırma için dijital arşivlere dönüştürün.",
-
     "comparison_title": "Yöntem Karşılaştırması: El Yazısından Word'e",
     "comparison_subtitle": "NoteOCR neden manuel yazmaya göre saatler kazandırır?",
     "comparison_col_method": "Yöntem",
     "comparison_col_time": "Süre",
     "comparison_col_accuracy": "Doğruluk",
     "comparison_col_cost": "Maliyet",
-
     "comparison_row1_method": "Manuel Yazma",
     "comparison_row1_time": "60 dakika/sayfa",
     "comparison_row1_accuracy": "%98 (yavaş ve yorucu)",
     "comparison_row1_cost": "Ücretsiz (vaktiniz gider)",
-
     "comparison_row2_method": "Temel OCR Araçları",
     "comparison_row2_time": "10 dakika",
     "comparison_row2_accuracy": "%70 (format kaybolur)",
     "comparison_row2_cost": "Ücretsiz - 15$",
-
     "comparison_row3_method": "NoteOCR Word Dönüştürücü",
     "comparison_row3_time": "30 saniye",
     "comparison_row3_accuracy": "%95 (düzen korunur)",
     "comparison_row3_cost": "100 sayfa / 8$",
-
     "features_title": "El Yazısı OCR Teknolojimizin Farkı Nedir?",
     "features_subtitle": "El yazısı notları Word'e dönüştürmek için özel olarak tasarlandı",
-
     "feature_1_title": "Düzen Koruma",
     "feature_1_desc": "Sadece düz metin çıkaran temel OCR'ların aksine, yapay zekamız listeleri, başlıkları ve paragrafları algılar. Word belgeniz orijinal notlarınızın yapısıyla eşleşir.",
-
     "feature_2_title": "Bitişik ve Blok Yazı Tanıma",
     "feature_2_desc": "Milyonlarca el yazısı örneğiyle eğitilmiş gelişmiş sinir ağları. Karışık mürekkep, bitişik yazı ve hatta karalamaları yüksek doğrulukla işler.",
-
     "feature_3_title": "Önce Gizlilik",
     "feature_3_desc": "Notlarınız yükleme sırasında şifrelenir ve dönüşümden sonra kalıcı olarak silinir. İçeriğinizi asla saklamıyor veya paylaşmıyoruz.",
-
     "tech_title": "El Yazısı Tanıma Teknolojisi Nasıl Çalışır?",
     "tech_intro": "Standart OCR araçları el yazısını daktilo metni gibi görerek formatı bozar. NoteOCR'ın özel yapay zekası, notlarınızı tam yazdığınız gibi —listeler ve girintiler korunmuş olarak— yeniden oluşturur.",
-
     "tech_detect_title": "Neleri Algılıyoruz?",
     "tech_detect_1": "Paragraflar, listeler ve başlıklar",
     "tech_detect_2": "Bitişik (el yazısı) ve dik temel harfler",
     "tech_detect_3": "Üstü çizili metinler ve düzeltmeler",
     "tech_detect_4": "Kenar boşlukları ve girintiler",
     "tech_detect_5": "Çizgili, kareli veya düz kağıtlar",
-
     "tech_tips_title": "En İyi Sonuç İçin İpuçları",
     "tech_tips_1": "Fotoğraf çekerken iyi ışık kullanın",
     "tech_tips_2": "Kamerayı sayfaya paralel tutun",
     "tech_tips_3": "Taramalar için 300 DPI tercih edin",
     "tech_tips_4": "Mürekkep ve kağıt kontrastına dikkat edin",
     "tech_tips_5": "Kaydetmeden önce sonucu kontrol edin",
-
     "related_tools_title": "İlgili OCR Araçları",
-
     "related_tool_1_name": "Görüntüden Word'e",
     "related_tool_1_desc": "El yazısı metinleri formatlı belgelere dönüştürün",
-
     "related_tool_2_name": "Online PDF Düzenle",
     "related_tool_2_desc": "Kurulum yapmadan PDF belgelerini düzenleyin",
-
     "related_tool_3_name": "Online Belge Düzenleyici",
     "related_tool_3_desc": "MS Word veya Excel belgelerini ücretsiz düzenleyin",
-
     "related_tool_4_name": "Görüntüden Metne",
     "related_tool_4_desc": "Resimdeki el yazısını düzenlenebilir metne çevirin",
-
     "faq_title": "El Yazısından Word'e Dönüştürme Hakkında Sık Sorulan Sorular",
-
     "cta_title": "Notlarınızı Dijitalleştirmeye Hazır mısınız?",
     "cta_subtitle": "NoteOCR ile notlarını dönüştüren 50.000'den fazla kullanıcıya katılın",
     "cta_button": "Notlarımı Şimdi Dönüştür",
-
     "footer_text": "NoteOCR // Akıllı Belge İşleme",
-
     "tool_upload_title": "El Yazısı Notlarınızı Yükleyin",
     "tool_upload_desc": "Ders notlarını, toplantı tutanaklarını ve günlükleri destekler. Bitişik ve dik yazı tiplerinde çalışır.",
     "tool_upload_button": "Görsel Seç",
     "tool_upload_check_1": "JPG, PNG, PDF",
     "tool_upload_check_2": "Maks 25MB",
     "tool_upload_check_3": "Güvenli SSL",
-
     "tool_processing_title": "El Yazısı Analiz Ediliyor...",
     "tool_processing_desc": "AI karakterleri tanıyor ve düzeni koruyor",
-
     "tool_complete_title": "Dönüşüm Tamamlandı!",
     "tool_complete_desc": "Word belgeniz hazır. İndirin ve düzenlemeye başlayın.",
     "tool_complete_file_type": "Word Belgesi (.docx)",
     "tool_complete_status": "HAZIR",
     "tool_download_button": "Word İndir",
     "tool_new_button": "Yeni Belge",
-
     "tool_info_1_title": "Düzen Korundu",
     "tool_info_1_desc": "Listeler ve paragraflar bozulmadan kalır",
-
     "tool_info_2_title": "%95 Doğruluk",
     "tool_info_2_desc": "Türkçe el yazısı karakterlerine optimize edildi",
-
     "tool_info_3_title": "DOCX Formatı",
     "tool_info_3_desc": "Word, Docs ve Pages ile uyumlu",
-
     "tool_tip_label": "Profesyonel İpucu:",
     "tool_tip_text": "En iyi sonuç için notlarınızı doğrudan tepeden ve gölge oluşmayacak şekilde fotoğraflayın.",
-
     "toast_success": "Dönüştürme tamamlandı!",
     "toast_error_type": "Lütfen geçerli bir görsel (JPG, PNG, WEBP) veya PDF yükleyin",
     "toast_error_size": "Dosya boyutu 25MB'ın altında olmalıdır",
     "toast_error_conversion": "Dönüştürme başarısız oldu.",
     "toast_download_success": "Word belgesi indirildi!",
     "toast_download_error": "İndirme başarısız.",
-
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -460,153 +423,112 @@
       }
     }
   },
-
   "PdfPage": {
     "meta_title": "Taranmış PDF'leri OCR ile Online Düzenle | Ücretsiz PDF Editörü | NoteOCR",
     "meta_desc": "Taranmış belgeler için tarayıcı tabanlı PDF düzenleyici. AI OCR ile el yazısı metinleri ayıklayın, imza ekleyin ve içeriği düzenleyin — yazılım gerekmez.",
-
     "hero_pill": "Profesyonel PDF Çalışma Alanı",
     "hero_title": "Taranmış PDF'leri AI OCR ile Online Düzenleyin",
     "hero_subtitle": "Taranmış belgeler için özel olarak tasarlanmış tek tarayıcı tabanlı PDF editörü. El yazısı PDF'leri yükleyin, OCR ile metni ayıklayın, imza ekleyin veya sıfırdan yeni belgeler oluşturun.",
-
     "trust_ssl": "SSL ŞİFRELİ",
     "trust_processing": "ANINDA İŞLEME",
     "trust_accuracy": "EL YAZISI OCR",
-
     "workspace_title": "Eksiksiz Bir Online Belge Çalışma Alanı",
     "workspace_subtitle": "Sadece OCR'ın ötesinde. Belgelerinizi dosyalarınızı tamamen bulutta düzenleyebileceğiniz, arayabileceğiniz ve yönetebileceğiniz güvenli bir ortama yükleyin.",
-
     "workspace_feature_1_title": "Canlı Metin Düzenleme",
     "workspace_feature_1_desc": "Ayıklanan metni doğrudan tarayıcınızda değiştirin. Yazım hatalarını düzeltin, paragrafları yeniden formatlayın ve dışa aktarmadan önce verileri güncelleyin.",
-
     "workspace_feature_2_title": "Önce Gizlilik",
     "workspace_feature_2_desc": "Belgeleriniz şifrelenir ve güvenli bir korumalı alanda işlenir. Hassas verilerinizi izniniz olmadan asla saklamayız.",
-
     "workspace_feature_3_title": "Anında Dışa Aktarma",
     "workspace_feature_3_desc": "Düzenleme bitti mi? Düzenlenmiş belgenizi anında aranabilir PDF, Word veya Excel sayfası olarak indirin.",
-
     "use_cases_title": "Taranmış PDF'leri Online Kimler Düzenliyor?",
     "use_cases_subtitle": "Hukuk bürolarından sağlık sektörüne kadar binlerce kişi her gün taranmış belgeleri düzenliyor",
-
     "use_case_1_title": "Hukuk Profesyonelleri",
     "use_case_1_desc": "Taranmış sözleşmeleri düzenleyin, yasal belgeleri dijital olarak imzalayın ve hassas bilgileri sansürleyin. Taranmış mahkeme belgeleriyle uğraşan avukatlar için mükemmeldir.",
-
     "use_case_2_title": "Küçük İşletmeler",
     "use_case_2_desc": "Taranmış formları doldurun, faturalara şirket imzası ekleyin ve pahalı Adobe abonelikleri olmadan teklifleri notlandırın.",
-
     "use_case_3_title": "Öğrenciler ve Eğitimciler",
     "use_case_3_desc": "Taranmış ders kitaplarına notlar ekleyin, el yazısı ödevleri aranabilir PDF'lere dönüştürün ve sınıf notlarını çalışma kılavuzlarında birleştirin.",
-
     "use_case_4_title": "Sağlık Hizmeti Sağlayıcıları",
     "use_case_4_desc": "Hasta giriş formlarını düzenleyin, el yazısı tıbbi kayıtları dijitalleştirin ve taranmış tıbbi grafikleri düzenli hale getirin.",
-
     "comparison_title": "PDF Düzenleme: Masaüstü vs Online Araçlar",
     "comparison_subtitle": "Neden tarayıcı tabanlı düzenleme masaüstü yazılımlardan daha iyidir?",
     "comparison_col_tool": "Araç",
     "comparison_col_access": "Erişim",
     "comparison_col_features": "Özellikler",
     "comparison_col_cost": "Maliyet",
-
     "comparison_row1_tool": "Adobe Acrobat Pro",
     "comparison_row1_access": "Yükleme ve güncelleme gerektirir",
     "comparison_row1_features": "Tam özellikli, el yazısı OCR'ı yok",
     "comparison_row1_cost": "Aylık ₺600+",
-
     "comparison_row2_tool": "Temel Online Editörler",
     "comparison_row2_access": "Web tabanlı",
     "comparison_row2_features": "Sınırlı OCR, el yazısı desteği yok",
     "comparison_row2_cost": "Ücretsiz - ₺250",
-
     "comparison_row3_tool": "NoteOCR PDF Editörü",
     "comparison_row3_access": "Anında, tarayıcı tabanlı",
     "comparison_row3_features": "OCR + El Yazısı + Tam Belge Editörü",
     "comparison_row3_cost": "Ücretsiz - ₺200",
-
     "features_title": "Taranmış PDF Editörümüz Neden Farklı?",
     "features_subtitle": "Taranmış ve el yazısı PDF'leri düzenlemek için özel olarak üretildi",
-
     "feature_1_title": "Taranmış PDF'ler için OCR",
     "feature_1_desc": "Taranmış belgeleri ve el yazısı PDF'leri aranabilir, düzenlenebilir metne dönüştürün. Yapay zekamız orijinal düzeni korurken el yazısını ve tabloları tanır.",
-
     "feature_2_title": "Tam Düzenleme Paketi",
     "feature_2_desc": "Metin ekleyin, imza çizin, resim yerleştirin ve sayfaları yeniden düzenleyin. Profesyonel bir çalışma alanındaki tüm PDF araçları tarayıcınızda.",
-
     "feature_3_title": "Tarayıcı Tabanlı Güvenlik",
     "feature_3_desc": "Yüklemeler için banka düzeyinde şifreleme. PDF'leriniz izole konteynerlerde işlenir ve 24 saat sonra otomatik olarak silinir.",
-
     "tech_title": "Tarayıcı Tabanlı PDF OCR Nasıl Çalışır?",
     "tech_intro": "Geleneksel PDF düzenleyicileri yalnızca dijital metinlerle çalışır. NoteOCR, taranmış belgeleri ve el yazısı formları tarayıcınızda işlemek için gelişmiş OCR'ı düzen analiziyle birleştirir.",
-
     "tech_support_title": "Neleri Destekliyoruz?",
     "tech_support_1": "El yazısı belgeler ve formlar",
     "tech_support_2": "Taranmış sözleşmeler ve yasal dosyalar",
     "tech_support_3": "Metin katmanı olmayan resim tabanlı PDF'ler",
     "tech_support_4": "Dijital imzalar ve açıklamalar",
     "tech_support_5": "Çok sayfalı PDF belgeleri",
-
     "tech_tips_title": "En İyi Sonuçlar İçin İpuçları",
     "tech_tips_1": "300 DPI veya daha yüksek çözünürlükte tarayın",
     "tech_tips_2": "İyi aydınlatma ve kontrast sağlayın",
     "tech_tips_3": "Sayfaları kırışıklık olmadan düz tutun",
     "tech_tips_4": "El yazısı için renkli/gri tonlamayı kullanın",
     "tech_tips_5": "Mümkünse doğrudan tarayıcıdan yükleyin",
-
     "related_tools_title": "İlgili OCR Araçları",
-
     "related_tool_1_name": "Görüntüden Word'e",
     "related_tool_1_desc": "El yazısı metinleri formatlı belgelere dönüştürün",
-
     "related_tool_2_name": "PDF Online Düzenle (Kurulumsuz)",
     "related_tool_2_desc": "Her yerden online PDF belgeleri yükleyin ve düzenleyin",
-
     "related_tool_3_name": "Online Belge Düzenleyici",
     "related_tool_3_desc": "MS Word veya Excel belgelerini ücretsiz düzenleyin",
-
     "related_tool_4_name": "Görüntüden Metne",
     "related_tool_4_desc": "Resimdeki el yazısı metni düzenlenebilir metne çevirin",
-
     "faq_title": "Taranmış PDF Düzenleme Hakkında Sık Sorulan Sorular",
-
     "cta_title": "Taranmış PDF'leri Online Düzenlemeye Hazır mısınız?",
     "cta_subtitle": "NoteOCR ile taranmış belgelerini düzenleyen 100.000'den fazla kullanıcıya katılın",
     "cta_button": "Düzenlemeye Şimdi Başla",
-
     "tool_main_title": "Profesyonel PDF Çalışma Alanı",
     "tool_main_desc": "OCR için el yazısı içeren taranmış PDF yükleyin veya sıfırdan bir belge başlatın.",
     "tool_upload_button": "Taranmış PDF Yükle",
     "tool_new_button": "Sıfırdan Başla",
-
     "tool_upload_check_1": "Sadece PDF",
     "tool_upload_check_2": "Maks 25MB",
     "tool_upload_check_3": "Güvenli SSL",
-
     "tool_info_1_title": "El Yazısı OCR",
     "tool_info_1_desc": "Taranmış el yazısı belgelerden metin ayıklayın",
-
     "tool_info_2_title": "Tam Editör Paketi",
     "tool_info_2_desc": "Metin, imza, açıklama ve daha fazlasını ekleyin",
-
     "tool_info_3_title": "Tarayıcı Tabanlı",
     "tool_info_3_desc": "Yazılım indirmeye gerek yok, anında çalışır",
-
     "tool_tip_label": "Pro İpucu:",
     "tool_tip_text": "Taranmış PDF'lerde en iyi OCR sonuçları için belgelerin 300 DPI'da taranmasını sağlayın.",
-
     "modal_new_title": "Yeni PDF Oluştur",
     "modal_new_desc": "Boş bir sayfa ile başlayın ve belgenizi sıfırdan oluşturun.",
     "modal_new_button": "Boş PDF Oluştur",
-
     "modal_upload_title": "Taranmış PDF Yükle",
     "modal_upload_desc": "Metin ayıklamak, imza eklemek veya içeriği düzenlemek için PDF'nizi içe aktarın.",
     "modal_upload_placeholder": "PDF'yi buraya tıklayın veya sürükleyin",
     "modal_upload_info": "Maks dosya boyutu: 25MB • Taranmış ve el yazısı PDF'ler desteklenir",
-
     "modal_processing_new": "Çalışma Alanı Oluşturuluyor...",
     "modal_processing_upload": "PDF İşleniyor...",
     "modal_processing_desc": "Güvenli PDF ortamınız ayarlanıyor",
-
     "modal_security_badge": "Banka Düzeyinde Şifreleme",
-
     "toast_success_create": "PDF Çalışma Alanı Hazır!",
     "toast_success_upload": "PDF başarıyla yüklendi!",
     "toast_error_type": "Lütfen geçerli bir PDF dosyası seçin",
@@ -614,7 +536,6 @@
     "toast_error_create": "PDF oluşturulamadı.",
     "toast_error_upload": "PDF yüklenemedi",
     "toast_error_drop": "Lütfen geçerli bir PDF dosyası sürükleyin",
-
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {
@@ -703,20 +624,16 @@
     "router_title": "Ne tür bir belgeniz var?",
     "router_subtitle": "En iyi sonucu almanız için sizi doğru araca yönlendireceğiz.",
     "router_back_button": "Belge türüne dön",
-
     "router_type_standard_label": "Standart / Dijital PDF",
     "router_type_standard_desc": "Yazılmış sözleşmeler, formlar veya seçilebilir metin içeren herhangi bir PDF. Düzenlemem, not eklemem veya imzalamam gerekiyor.",
     "router_type_standard_cta": "PDF Düzenleyiciye Devam Et",
-
     "router_type_handwritten_label": "El Yazısı Notlar veya Belgeler",
     "router_type_handwritten_desc": "El yazısı notların, mektupların veya belgelerin bir fotoğrafını veya taramasını yükleyin. Yapıyı, boşlukları ve düzeni koruyarak bunları mükemmel biçimlendirilmiş, düzenlenebilir bir Word dosyasına dönüştüreceğiz.",
     "router_type_handwritten_cta": "El Yazısını Word'e Dönüştür →",
-
     "router_type_table_label": "El Yazısı Günlükler, Tablolar veya Veriler",
     "router_type_table_desc": "El yazısı ızgaraların, defterlerin, envanter listelerinin veya yapılandırılmış kayıtların bir fotoğrafını veya taramasını yükleyin. Bunları temiz, profesyonelce biçimlendirilmiş bir Excel elektronik tablosuna dönüştüreceğiz.",
     "router_type_table_cta": "El Yazısını Excel'e Dönüştür →"
   },
-
   "EditorPage": {
     "meta_title": "Office Belgelerini Çevrimiçi Ücretsiz Düzenleyin - Tarayıcı Tabanlı Word, Excel ve PowerPoint Editörü",
     "meta_desc": "Profesyonel çevrimiçi belge düzenleyici. Microsoft Office olmadan tarayıcınızda doğrudan Word (DOCX), Excel (XLSX) ve PowerPoint (PPTX) dosyaları oluşturun ve düzenleyin.",
@@ -911,144 +828,109 @@
   "ExcelPage": {
     "meta_title": "El Yazısı Tabloları Excel'e (XLSX) Dönüştür | NoteOCR",
     "meta_desc": "Veri girişini otomatikleştirin. El yazısı çizelgeleri, finansal tabloları ve programları AI kullanarak anında düzenlenebilir Excel tablolarına dönüştürün.",
-
     "hero_pill": "Tablo Yapısı Tanıma Teknolojisi",
     "hero_title": "El Yazısı Tabloları Excel E tablolarına Dönüştürün",
     "hero_subtitle": "Verileri manuel olarak yeniden yazmayı bırakın. Yapay zekamız, el yazısı notlarınızdaki satırları, sütunları ve hücre sınırlarını —çizgi olmasa bile— algılar ve formatlanmış .xlsx dosyaları olarak dışa aktarır.",
-
     "trust_ssl": "SSL ŞİFRELEMELİ",
     "trust_processing": "2 DAKİKADA İŞLEME",
     "trust_accuracy": "%98 SAYISAL DOĞRULUK",
-
     "before_after_title": "Aradaki Farkı Görün",
     "before_after_desc": "Korunan yapı ve sayısal doğruluğu gösteren gerçek dönüşüm örneği",
     "before_label": "Önce: El Yazısı Defter Kaydı",
     "before_placeholder": "[Sonuçları görmek için el yazısı tablonuzu buraya yükleyin]",
     "after_label": "Sonra: Excel Çıktısı",
     "after_placeholder": "[Formatlanmış tablo önizlemesi]",
-
     "use_cases_title": "El Yazısını Excel'e Kimler Dönüştürüyor?",
     "use_cases_subtitle": "Muhasebe firmalarından öğretmenlere kadar binlerce kişi her gün tablolarını dijitalleştiriyor",
-
     "use_case_1_title": "Muhasebe ve Defter Tutma",
     "use_case_1_desc": "El yazısı finansal defterleri, gider raporlarını ve makbuzları vergi hazırlığı ve denetimler için sıralanabilir Excel dosyalarına dönüştürün.",
-
     "use_case_2_title": "Envanter Yönetimi",
     "use_case_2_desc": "Stok sayımlarını, ürün listelerini ve depo kayıtlarını dijitalleştirin. Kağıt üzerinde envanter takibi yapan küçük işletmeler için mükemmeldir.",
-
     "use_case_3_title": "Öğretmenler ve Not Çizelgeleri",
     "use_case_3_desc": "El yazısı not defterlerini ve öğrenci listelerini karneler ve gelişim takibi için formatlanmış tablolara dönüştürün.",
-
     "use_case_4_title": "Araştırma ve Veri Toplama",
     "use_case_4_desc": "Saha notlarını, anket yanıtlarını ve laboratuvar veri tablolarını istatistiksel yazılımlar için analiz edilebilir veri setlerine dönüştürün.",
-
     "comparison_title": "El Yazısı Tabloyu Excel'e Dönüştürme: Yöntem Kıyaslaması",
     "comparison_subtitle": "NoteOCR neden manuel veri girişine göre saatlerce zaman kazandırır?",
     "comparison_col_method": "Yöntem",
     "comparison_col_time": "Süre",
     "comparison_col_accuracy": "Doğruluk",
     "comparison_col_cost": "Maliyet",
-
     "comparison_row1_method": "Manuel Yazma",
     "comparison_row1_time": "45 dakika",
     "comparison_row1_accuracy": "%95 (insan hatası)",
     "comparison_row1_cost": "$15/saat işçilik",
-
     "comparison_row2_method": "Genel OCR",
     "comparison_row2_time": "10 dakika",
     "comparison_row2_accuracy": "%50 (yapı bozulur)",
     "comparison_row2_cost": "Ücretsiz-$20",
-
     "comparison_row3_method": "NoteOCR Tablolar",
     "comparison_row3_time": "2 dakika",
     "comparison_row3_accuracy": "%98 yapı korunur",
     "comparison_row3_cost": "Uygun sayfa başı maliyet",
-
     "features_title": "Tablo OCR'ımız Neden Farklı?",
     "features_subtitle": "El yazısı veri tabloları için özel olarak tasarlandı",
-
     "feature_1_title": "Akıllı Izgara Algılama",
     "feature_1_desc": "Yapay zekamız, görünür çizgiler olmasa bile tablo yapısını tanımlar. El yazısı düzenlerindeki sütunları ve metin hizalamalarını tanır.",
-
     "feature_2_title": "Sayılar İçin Optimize Edildi",
     "feature_2_desc": "Finansal veriler için mükemmel doğruluk. Sayısal biçimlendirmeyi koruyarak muhasebe defterlerini ve envanter sayımlarını dönüştürün.",
-
     "feature_3_title": "Excel veya CSV Olarak Dışa Aktar",
     "feature_3_desc": "Verilerinizi hücre biçimlendirmesiyle birlikte .xlsx olarak indirin veya veritabanları için CSV olarak dışa aktarın.",
-
     "tech_title": "Izgara Algılama Teknolojisi Nasıl Çalışır?",
     "tech_intro": "Çoğu OCR aracı tabloları düz metin olarak görür ve hücre ilişkilerini bozar. NoteOCR'ın özel yapay zekası, tablonuzun tam yapısını yeniden oluşturmak için konumsal verileri analiz eder.",
-
     "tech_detect_title": "Neleri Algılıyoruz?",
     "tech_detect_1": "Çizgisiz hücre sınırları",
     "tech_detect_2": "Sütun başlıkları ve hiyerarşiler",
     "tech_detect_3": "Birleştirilmiş hücreler",
     "tech_detect_4": "Para birimi sembolleri ve ondalıklar",
     "tech_detect_5": "Kareli veya düz kağıt tabloları",
-
     "tech_tips_title": "En İyi Sonuç İçin İpuçları",
     "tech_tips_1": "Fotoğraf çekerken iyi ışık kullanın",
     "tech_tips_2": "Kamerayı sayfaya paralel tutun",
     "tech_tips_3": "Tarama için 300 DPI kullanın",
     "tech_tips_4": "Tüm tabloyu tek bir kareye sığdırın",
     "tech_tips_5": "Kritik işlemlerden önce çıktıyı kontrol edin",
-
     "related_tools_title": "İlgili OCR Araçları",
-
     "related_tool_1_name": "Görüntüden Word'e",
     "related_tool_1_desc": "El yazısı metinleri formatlı belgelere dönüştürün",
-
     "related_tool_2_name": "Çevrimiçi PDF Düzenle",
     "related_tool_2_desc": "Kurulum yapmadan PDF dosyalarını düzenleyin",
-
     "related_tool_3_name": "Çevrimiçi Belge Düzenleyici",
     "related_tool_3_desc": "Word veya Excel belgelerini ücretsiz düzenleyin",
-
     "related_tool_4_name": "Görüntüden Metne",
     "related_tool_4_desc": "Resimdeki el yazısını düzenlenebilir metne dönüştürün",
-
     "faq_title": "Tablodan Excel'e Dönüştürme Hakkında Sıkça Sorulan Sorular",
-
     "cta_title": "Manuel Veri Girişini Durdurmaya Hazır mısınız?",
     "cta_subtitle": "NoteOCR ile tablolarını dijitalleştiren 10.000'den fazla kullanıcıya katılın",
     "cta_button": "Tablonu Şimdi Dönüştür",
-
     "tool_upload_title": "El Yazısı Tablonuzu Yükleyin",
     "tool_upload_desc": "Defterleri, envanter listelerini ve not çizelgelerini destekler. Çizgili veya çizgisiz çalışır.",
     "tool_upload_button": "Görsel Seç",
     "tool_upload_check_1": "JPG, PNG, JPEG",
     "tool_upload_check_2": "Maks 25MB",
     "tool_upload_check_3": "SSL Güvenli",
-
     "tool_processing_title": "Tablo Yapısı Algılanıyor...",
     "tool_processing_desc": "AI satırları, sütunları ve hücreleri analiz ediyor",
-
     "tool_complete_title": "Tablo Başarıyla Çıkarıldı!",
     "tool_complete_desc": "Tablonuz hazır. Excel (.xlsx) veya CSV formatında indirin.",
     "tool_complete_file_type": "Excel Tablosu",
     "tool_complete_status": "HAZIR",
     "tool_download_button": "Excel İndir",
     "tool_new_button": "Yeni Tablo",
-
     "tool_info_1_title": "Akıllı Algılama",
     "tool_info_1_desc": "Çizgisi olmayan tablolarla bile çalışır",
-
     "tool_info_2_title": "%99 Doğruluk",
     "tool_info_2_desc": "Sayılar ve finansal veriler için optimize edildi",
-
     "tool_info_3_title": "Excel Formatı",
     "tool_info_3_desc": "Excel, Sheets ve veritabanları ile uyumlu",
-
     "tool_tip_label": "Profesyonel İpucu:",
     "tool_tip_text": "En iyi sonuçlar için tablonuzu iyi ışıkta çekin ve kamerayı paralel tutun. 300 DPI taramalar düşük çözünürlüklü fotolardan daha iyidir.",
-
     "toast_success": "Tablo başarıyla çıkarıldı!",
     "toast_error_type": "Lütfen geçerli bir görsel (JPG, PNG, WEBP) veya PDF yükleyin",
     "toast_error_size": "Dosya boyutu 25MB'dan küçük olmalıdır",
     "toast_error_extraction": "Çıkarma işlemi başarısız.",
     "toast_download_success": "Excel dosyası indirildi!",
     "toast_download_error": "İndirme başarısız.",
-
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1136,7 +1018,6 @@
     "login": "Giriş Yap",
     "get_started": "Ücretsiz Başla"
   },
-
   "Footer": {
     "description": "El yazısı notları anında temiz, düzenlenebilir belgelere dönüştürün. Güvenli, hızlı ve modern ekipler için tasarlandı.",
     "stay_updated": "Güncel Kalın",
@@ -1278,57 +1159,112 @@
       "rows": [
         {
           "name": "Matbu El Yazısı OCR",
-          "values": [true, true, true, true],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Bitişik El Yazısı Motoru",
-          "values": ["Standart", "Yüksek", "Ultra", "Ultra"],
+          "values": [
+            "Standart",
+            "Yüksek",
+            "Ultra",
+            "Ultra"
+          ],
           "group": "core"
         },
         {
           "name": "Tablo Algılama (Excel)",
-          "values": [false, false, true, true],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Düzen Koruma (Word)",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Matematiksel Formüller",
-          "values": [false, false, "Temel", "Gelişmiş"],
+          "values": [
+            false,
+            false,
+            "Temel",
+            "Gelişmiş"
+          ],
           "group": "core"
         },
         {
           "name": "Mürekkep Düzeltme",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Dışa Aktarma Formatları",
-          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Tüm Formatlar"],
+          "values": [
+            "TXT",
+            "DOCX, TXT",
+            "XLSX, DOCX, PDF",
+            "Tüm Formatlar"
+          ],
           "group": "formats"
         },
         {
           "name": "Toplu Yükleme Sınırı",
-          "values": ["1 Dosya", "5 Dosya", "10 Dosya", "Sınırsız"],
+          "values": [
+            "1 Dosya",
+            "5 Dosya",
+            "10 Dosya",
+            "Sınırsız"
+          ],
           "group": "formats"
         },
         {
           "name": "Bulut Depolama Süresi",
-          "values": ["24 Saat", "30 Gün", "Süresiz", "Süresiz"],
+          "values": [
+            "24 Saat",
+            "30 Gün",
+            "Süresiz",
+            "Süresiz"
+          ],
           "group": "system"
         },
         {
           "name": "Şifreleme Seviyesi",
-          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "values": [
+            "AES-256",
+            "AES-256",
+            "AES-256",
+            "AES-256"
+          ],
           "group": "system"
         },
         {
           "name": "İşleme Önceliği",
-          "values": ["Standart", "Standart", "Yüksek", "Gerçek Zamanlı"],
+          "values": [
+            "Standart",
+            "Standart",
+            "Yüksek",
+            "Gerçek Zamanlı"
+          ],
           "group": "system"
         }
       ]
@@ -1447,8 +1383,8 @@
       "loading": "İşleniyor..."
     },
     "sidebar": {
-      "hq_title": "Zürih Genel Merkezi",
-      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zürih\nİsviçre",
+      "hq_title": "Genel Merkez",
+      "hq_address": "NoteOCR\n11 Boyo Road, Sapele, Delta State\nNigeria",
       "timezone": "Orta Avrupa Saati (GMT+1)",
       "support": "Genel Destek",
       "sales": "Kurumsal Satış",
@@ -1908,144 +1844,109 @@
   "pic-to-excel": {
     "meta_title": "Resmi Excel'e Dönüştür Online | Görüntüden Excel'e AI Dönüştürücü",
     "meta_desc": "Herhangi bir resmi tabloya dönüştürün. JPG, PNG veya ekran görüntülerini anında düzenlenebilir Excel (.xlsx) dosyasına dönüştürün. Veri tabloları ve faturalar için en iyi yapay zeka.",
-
     "hero_pill": "AI Görüntüden Tabloya Dönüştürme Teknolojisi",
     "hero_title": "AI Tablo Tanıma ile Resmi Excel'e Dönüştürün",
     "hero_subtitle": "Fotoğrafları, ekran görüntülerini ve el yazısı notları düzenlenebilir Excel tablolarına dönüştürün. Manuel veri girişine son. JPG ve PNG desteği.",
-
     "trust_ssl": "SSL ŞİFRELİ",
     "trust_processing": "ANINDA DÖNÜŞÜM",
     "trust_accuracy": "99% TABLO DOĞRULUĞU",
-
     "before_after_title": "Görüntüden Tabloya",
     "before_after_desc": "Yapay zekamızın statik görüntülerdeki verileri nasıl düzenlenebilir hücrelere çıkardığını görün",
     "before_label": "Önce: Resim / Ekran Görüntüsü",
     "before_placeholder": "[Tablo içeren herhangi bir resim yükleyin]",
     "after_label": "Sonra: Düzenlenebilir Excel",
     "after_placeholder": "[Formatlanmış .xlsx önizlemesi]",
-
     "use_cases_title": "Resimden Excel'e Dönüştürücüye Kimler İhtiyaç Duyar?",
     "use_cases_subtitle": "Veri giriş görevlilerinden işletme sahiplerine kadar herkes için sıkıcı işleri otomatikleştiriyoruz",
-
     "use_case_1_title": "Fatura ve Makbuzları Dijitalleştirin",
     "use_case_1_desc": "Kağıt faturaların fotoğrafını çekin. Yapay zekamız kalemleri, miktarları ve fiyatları doğrudan muhasebe yazılımınız için sütunlara aktarır.",
-
     "use_case_2_title": "Ekran Görüntüsünden Excel'e",
     "use_case_2_desc": "Kopyalayıp yapıştıramadığınız bir PDF veya web sitesi tablonuz mu var? Ekran görüntüsü alın ve yükleyin. Tabloyu anında yeniden oluşturalım.",
-
     "use_case_3_title": "El Yazısı Kayıtlar",
     "use_case_3_desc": "Karışık el yazılarını bile işleyebilen tek araç. Depo stok kayıtlarını ve saha günlüklerini dijital tablolara dönüştürün.",
-
     "use_case_4_title": "Finansal Tablolar",
     "use_case_4_desc": "Banka dökümlerinin veya basılı defterlerin fotoğraflarını dönüştürün. %100 veri bütünlüğü için ondalık noktaları ve para birimi formatlarını koruyoruz.",
-
     "comparison_title": "Resimden Excel'e: Neden NoteOCR?",
     "comparison_subtitle": "Sıradan PDF dönüştürücülerle vakit kaybetmeyin",
     "comparison_col_method": "Yöntem",
     "comparison_col_time": "Süre",
     "comparison_col_accuracy": "Tablo Yapısı",
     "comparison_col_cost": "Zorluk",
-
     "comparison_row1_method": "Manuel Veri Girişi",
     "comparison_row1_time": "1 saat/sayfa",
     "comparison_row1_accuracy": "Yüksek Hata Riski",
     "comparison_row1_cost": "Yüksek (Sıkıcı)",
-
     "comparison_row2_method": "Genel PDF Araçları",
     "comparison_row2_time": "5 dakika",
     "comparison_row2_accuracy": "Görsellerde Hata Verir",
     "comparison_row2_cost": "Sinir Bozucu",
-
     "comparison_row3_method": "NoteOCR AI",
     "comparison_row3_time": "60 Saniye",
     "comparison_row3_accuracy": "Mükemmel Tablo Koruması",
     "comparison_row3_cost": "Otomatik",
-
     "features_title": "Resimleri Tabloya Dönüştürmenin En İyi Yolu",
     "features_subtitle": "JPG, PNG ve mobil fotoğraflar için tasarlandı",
-
     "feature_1_title": "Format Bağımsız",
     "feature_1_desc": "PDF'niz yok mu? Sorun değil. Diğer dönüştürücülerin reddettiği ham görüntü formatlarında (JPG, JPEG, PNG) uzmanız.",
-
     "feature_2_title": "Akıllı Izgara Yeniden Yapılandırma",
     "feature_2_desc": "Yapay zekamız sadece metni okumaz; tablo ızgarasını 'görür'. Fotoğraf açılı çekilmiş olsa bile verileri satır ve sütunlara hizalar.",
-
     "feature_3_title": "Önce Mobil İşleme",
     "feature_3_desc": "Hızlı iş akışı için tasarlandı. Masanızdaki bir belgenin fotoğrafını çekin ve saniyeler içinde cihazınıza bir Excel dosyası gelsin.",
-
     "tech_title": "Resimden Excel'e AI Nasıl Çalışır?",
     "tech_intro": "Statik bir resmi dinamik bir tabloya dönüştürmek karmaşıktır. NoteOCR, bir tablonun görsel çizgilerini (veya ima edilen çizgilerini) tespit etmek için Bilgisayarlı Görü (Computer Vision) kullanır. Görüntüyü bir koordinat sistemine ayırır, her bir 'hücre' üzerinde ayrı ayrı OCR çalıştırır ve verileri standart bir .xlsx dosyasında birleştirir.",
-
     "tech_detect_title": "Neleri Ayıklıyoruz?",
     "tech_detect_1": "Ekran görüntülerinden tablo yapıları",
     "tech_detect_2": "Eğik veya açılı fotoğraflardan veriler",
     "tech_detect_3": "El yazısı ve basılı sayılar",
     "tech_detect_4": "Çok sütunlu düzenler",
     "tech_detect_5": "Üstbilgi ve altbilgiler",
-
     "tech_tips_title": "Mükemmel Dönüşüm İçin İpuçları",
     "tech_tips_1": "Görüntünün odakta olduğundan emin olun (bulanıklık olmasın)",
     "tech_tips_2": "Veri tablosu üzerinde gölge oluşmasından kaçının",
     "tech_tips_3": "Görüntüyü ilgili tablo alanına göre kırpın",
     "tech_tips_4": "Yüksek çözünürlüklü (HD) ayarları kullanın",
     "tech_tips_5": "JPG veya PNG gibi standart formatları tercih edin",
-
     "related_tools_title": "Daha Fazla Dönüştürme Aracı",
-
     "related_tool_1_name": "Resimden Word'e",
     "related_tool_1_desc": "El yazısı metinleri formatlı belgelere dönüştürün",
-
     "related_tool_2_name": "Online PDF Düzenle",
     "related_tool_2_desc": "Her yerden online olarak PDF yükleyin ve düzenleyin",
-
     "related_tool_3_name": "Online Doküman Düzenleyici",
     "related_tool_3_desc": "MS Word veya Excel belgelerini ücretsiz online düzenleyin",
-
     "related_tool_4_name": "Resimden Metne",
     "related_tool_4_desc": "Resimdeki el yazısını düzenlenebilir metne dönüştürün",
-
     "faq_title": "SSS: Resimleri Excel'e Dönüştürme",
-
     "cta_title": "Bu Resmi Bir Tabloya Dönüştürün",
     "cta_subtitle": "Yazmayı bırakın. Taramaya başlayın. Veri girişinden tasarruf eden 10.000'den fazla kullanıcıya katılın.",
     "cta_button": "Resmi Şimdi Dönüştür",
-
     "tool_upload_title": "Dönüştürmek İçin Resim Yükleyin",
     "tool_upload_desc": "JPG, PNG, WEBP destekler. Ekran görüntüleri, fotoğraflar ve taranmış belgeler üzerinde çalışır.",
     "tool_upload_button": "Resim Seç",
     "tool_upload_check_1": "JPG / PNG Desteği",
     "tool_upload_check_2": "Üyelik Gerekmez",
     "tool_upload_check_3": "Güvenli İşleme",
-
     "tool_processing_title": "Görüntü Analiz Ediliyor...",
     "tool_processing_desc": "Tablo yapısı tanımlanıyor ve veriler ayıklanıyor",
-
     "tool_complete_title": "Excel Dosyası Hazır!",
     "tool_complete_desc": "Resminiz dönüştürüldü. Tablonuzu aşağıdan indirebilirsiniz.",
     "tool_complete_file_type": "Microsoft Excel (.xlsx)",
     "tool_complete_status": "BAŞARILI",
     "tool_download_button": "Excel İndir",
     "tool_new_button": "Başka Bir Dönüştür",
-
     "tool_info_1_title": "Tüm Resimler",
     "tool_info_1_desc": "JPG, PNG, Ekran Görüntüsü desteklenir",
-
     "tool_info_2_title": "Tablo AI",
     "tool_info_2_desc": "Satır ve sütunları otomatik korur",
-
     "tool_info_3_title": "Düzenlenebilir",
     "tool_info_3_desc": "Tam Excel (.xlsx) çıktısı",
-
     "tool_tip_label": "Tarama İpucu:",
     "tool_tip_text": "Uzun bir belgeyi dönüştürürken, tek bir uzak çekim yerine kağıda daha yakın birden fazla fotoğraf çekin. Yüksek netlik, daha iyi doğruluk demektir.",
-
     "toast_success": "Resim başarıyla dönüştürüldü!",
     "toast_error_type": "Lütfen geçerli bir resim dosyası yükleyin (JPG, PNG)",
     "toast_error_size": "Dosya boyutu 25MB'ın altında olmalıdır",
     "toast_error_extraction": "Tablo tespit edilemedi.",
     "toast_download_success": "Tablo cihaza kaydedildi!",
     "toast_download_error": "İndirme başarısız.",
-
     "FAQ": {
       "items": {
         "pic_to_excel_how": {
@@ -2111,39 +2012,29 @@
       }
     }
   },
-
   "HandwritingRecognitionPage": {
     "meta_title": "Online El Yazısı Tanıma ve Metne Çevirme | NoteOCR",
     "meta_desc": "El yazısı içeren herhangi bir resmi yükleyin, yapay zekamız onu anında tanıyıp biçimlendirilmiş metne dönüştürsün. Ücretsiz online el yazısı tanıma aracı.",
-
     "hero_pill": "Yapay Zeka El Yazısı Tanıma",
     "hero_title": "Gerçekten İşe Yarayan El Yazısı Tanıma.",
     "hero_subtitle": "El yazısı notlarınızın, formlarınızın veya belgelerinizin fotoğrafını yükleyin. Yapay zekamız, okuması zor bitişik eğik yazılar da dahil olmak üzere el yazısını okur ve saniyeler içinde düzenlenebilir biçimlendirilmiş metne dönüştürür.",
-
     "trust_ssl": "SSL ile Şifrelenmiş",
     "trust_processing": "30 Saniyede İşlem",
     "trust_accuracy": "%99 Tanıma Doğruluğu",
-
     "before_after_title": "Metne Dönüştürmeyi Çalışırken Görün",
     "before_after_desc": "Yapay zekamızın okuduğu metin ile ortaya çıkan sonucu gösteren gerçek bir el yazısı örneği.",
     "before_label": "Öncesi: El Yazısı Görseli",
     "after_label": "Sonrası: Tanınan Dijital Metin",
-
     "use_cases_title": "El Yazısı Tanıma Aracını Kimler Kullanıyor?",
     "use_cases_subtitle": "Notlarını dijitalleştiren öğrencilerden, formları işleyen işletmelere kadar el yazısı tanıma özelliği her gün saatlerce zaman kazandırır.",
-
     "use_case_1_title": "Öğrenciler ve Ders Notları",
     "use_case_1_desc": "Dersten sonra defterinizin fotoğrafını çekin ve saniyeler içinde tamamen aranabilir, düzenlenebilir metin elde edin. Sınavlardan önce sayfalarca ders notunu baştan yazmaya son.",
-
     "use_case_2_title": "Kötü ve Bitişik El Yazısı",
     "use_case_2_desc": "Yapay zekamız özellikle zor el yazıları üzerinde eğitilmiştir. Aceleyle yazılmış karalamalar, bitişik el yazısı ve karışık (matbaa/bitişik) stillerin tümü yüksek doğrulukla tanınır.",
-
     "use_case_3_title": "El Yazısı Formlar ve Belgeler",
     "use_case_3_desc": "Hasta kayıt formlarını, saha raporlarını, faturaları ve İK kayıtlarını telefonla çekilmiş bir fotoğraftan dijitalleştirin. Tarayıcıya ihtiyacınız yok, kameranız yeterli.",
-
     "use_case_4_title": "Eski Mektuplar ve Günlükler",
     "use_case_4_desc": "El yazısı aile mektuplarını, kişisel günlükleri ve tarihi belgeleri paylaşabileceğiniz ve arşivleyebileceğiniz aranabilir dijital metinlere dönüştürerek koruyun.",
-
     "comparison_title": "El Yazısı Tanıma: Yöntemlerin Karşılaştırması",
     "comparison_subtitle": "Amaca yönelik olarak geliştirilmiş yapay zeka, genel araçlardan neden her zaman daha iyi performans gösterir?",
     "comparison_col_method": "Yöntem",
@@ -2162,36 +2053,28 @@
     "comparison_row3_time": "30 saniyenin altında",
     "comparison_row3_accuracy": "Bitişik yazı dahil %95–99",
     "comparison_row3_cost": "Denemesi Ücretsiz",
-
     "features_title": "El Yazısı Tanıma Aracımız Neden Farklı?",
     "features_subtitle": "Sadece matbaa metinleri için üretilmiş bir araçtan uyarlanmamıştır, özel olarak el yazısı için geliştirilmiştir.",
-
     "feature_1_title": "Fontlarla Değil, El Yazısıyla Eğitildi",
     "feature_1_desc": "Standart OCR, bilgisayar fontlarından öğrenir. Yapay zekamız yalnızca milyonlarca gerçek el yazısı örneği (matbaa, bitişik, karışık stiller, aceleci notlar ve aradaki her şey) üzerinde özel olarak eğitilmiştir.",
-
     "feature_2_title": "Kötü ve Bitişik El Yazısını Okur",
     "feature_2_desc": "Birbirine bağlı harfler, değişen eğim, tutarsız boyutlandırma; tam olarak standart OCR'yi bozan şeyler. Sinir ağımız, bunları tıpkı bir insanın okurken yaptığı gibi, boşlukları doldurmak için bağlamı kullanarak işler.",
-
     "feature_3_title": "Gerçekten Kullanabileceğiniz Çıktılar Verir",
     "feature_3_desc": "Tanınan metin yalnızca düz bir paragraf olarak karşınıza çıkmaz. Belge düzenini (layout) yeniden oluştururuz, listeleri ve başlıkları koruruz ve ihtiyacınıza göre Word, Excel veya düz metin olarak dışa aktarırız.",
-
     "tech_title": "El Yazısı Tanıma Nasıl Çalışır?",
     "tech_intro": "Standart OCR teknolojisi, öngörülebilir harf şekillerine sahip tek tip yazı tipleri olan matbaa metinleri için üretilmiştir. El yazısı, standart OCR'nin çalışmasını sağlayan her kuralı yıkar. Her insan farklı yazar. Harfler birleşir, üst üste biner, boyutu ve eğimi değişir. Yapay zekamız tamamen farklı bir yaklaşım kullanıyor: Milyonlarca el yazısı örneğiyle eğitilmiş, tıpkı bir insan gibi okumayı öğrenen sinir ağları; tek tek karakterleri değil, tüm kelimeler ve satırlar arasındaki kalıpları tanır.",
-
     "tech_detect_title": "Yapay Zekamız Neleri Tespit Eder?",
     "tech_detect_1": "Bitişik ve birbirine bağlanan harfler dahil matbaa ve eğik el yazısı",
     "tech_detect_2": "Kötü, aceleyle yazılmış ve tutarsız yazı stilleri",
     "tech_detect_3": "Aynı sayfada matbaa ve bitişik el yazısı karışımı",
     "tech_detect_4": "Üstü çizili kelimeler ve düzeltmeler",
     "tech_detect_5": "Belge yapısı: başlıklar, listeler, paragraflar ve tablo satırları",
-
     "tech_tips_title": "En İyi Sonuçlar İçin İpuçları",
     "tech_tips_1": "İyi bir doğal ışıkta fotoğraf çekin, doğrudan sayfa üzerinde flaş kullanmaktan kaçının",
     "tech_tips_2": "Telefonunuzu açılı bir şekilde değil, kağıda paralel tutun",
     "tech_tips_3": "Mürekkebin kağıt arka planıyla net bir şekilde kontrast oluşturduğundan emin olun",
     "tech_tips_4": "Taranmış belgeler için 300 DPI veya üstünü tercih edin",
     "tech_tips_5": "Çıktıyı gözden geçirin; %95 doğruluk bile ara sıra küçük düzeltmeler gerektirebileceği anlamına gelir",
-
     "related_tools_title": "İlgili Araçlar",
     "related_tool_1_name": "El Yazısını Word'e Çevirme",
     "related_tool_1_desc": "Notları biçimlendirilmiş .docx formatına çevirin",
@@ -2201,9 +2084,7 @@
     "related_tool_3_desc": "Bitişik el yazısı (cursive) için özel OCR aracı",
     "related_tool_4_name": "El Yazısı Tarama ve Metne Çevirme",
     "related_tool_4_desc": "Telefon fotoğrafı veya PDF taramasından",
-
     "faq_title": "El Yazısı Tanıma Hakkında Sıkça Sorulan Sorular",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2288,11 +2169,9 @@
         }
       }
     },
-
     "cta_title": "El Yazınızı Metne Çevirmeye Hazır Mısınız?",
     "cta_subtitle": "El yazısı içerikleri klavyeyle yeniden yazmayı bırakan 10.000'den fazla öğrenci, araştırmacı ve işletmeye katılın.",
     "cta_button": "El Yazısı Tanıma Aracını Ücretsiz Deneyin",
-
     "tool_info_1_title": "Uygulama İndirmeye Gerek Yok",
     "tool_info_1_desc": "Tarayıcınızda çalışır. Denemek için indirme veya kayıt olmaya gerek yoktur.",
     "tool_info_2_title": "Bitişik ve Kötü El Yazısı",
@@ -2300,39 +2179,29 @@
     "tool_info_3_title": "Word, Excel ve Metin Çıktısı",
     "tool_info_3_desc": "Tanınan metninizi tam olarak ihtiyacınız olan formatta alın."
   },
-
   "CursiveToTextPage": {
     "meta_title": "El Yazısını Metne Çevirme Online | NoteOCR",
     "meta_desc": "Bitişik el yazısını (eğik yazı) anında dijital metne dönüştürün. Yapay zekamız %95+ doğrulukla el yazısını okur. Ücretsiz online el yazısı OCR aracı.",
-
     "hero_pill": "El Yazısı OCR Teknolojisi",
     "hero_title": "El Yazısını Saniyeler İçinde Metne Dönüştürün.",
     "hero_subtitle": "Bitişik eğik yazı ile yazılmış notların, mektupların, günlüklerin veya formların fotoğrafını yükleyin. Yapay zekamız, sıradan OCR araçlarının okuyamadığı bitişik ve kıvrımlı el yazılarını çözer. Uygulama yok. Üyelik yok. 30 saniyenin altında sonuç.",
-
     "trust_ssl": "SSL Şifrelemeli (Güvenli)",
     "trust_processing": "30 Saniyenin Altında",
     "trust_accuracy": "%95+ El Yazısı Doğruluğu",
-
     "before_after_title": "Girdi: Bitişik El Yazısı. Çıktı: Temiz Dijital Metin.",
     "before_after_desc": "Gerçek el yazısı örneği: Yapay zekamızın bitişik ve akıcı el yazısını nasıl kusursuz okuduğunu görün.",
     "before_label": "Öncesi: Bitişik Eğik Yazı",
     "after_label": "Sonrası: Dijital Metin Çıktısı",
-
     "use_cases_title": "El Yazısını Metne Kimler Çeviriyor?",
     "use_cases_subtitle": "Eski mektupları dijitalleştiren aile tarihçilerinden, ders notlarını temize çeken öğrencilere kadar, el yazısı dönüştürme işlemi her hafta saatlerce süren manuel yazma zahmetini ortadan kaldırır.",
-
     "use_case_1_title": "Eski Mektuplar ve Aile Belgeleri",
     "use_case_1_desc": "Büyükanne ve büyükbabalarınızın el yazısı mektuplarını, eski günlüklerini ve kişisel notlarını aranabilir dijital metne dönüştürün. Profesyonel bir çevirmene para ödemeden aile geçmişinizi koruyun ve dijitalleştirin.",
-
     "use_case_2_title": "Öğrenci Ders Notları",
     "use_case_2_desc": "Birçok öğrenci hala ders notlarını el yazısıyla tutuyor. Defterinizin fotoğrafını çekin ve saniyeler içinde ödevler ile sınavlara hazırlık için düzenlenebilir, aranabilir dijital metne sahip olun.",
-
     "use_case_3_title": "Tarihi ve Arşiv Belgeleri",
     "use_case_3_desc": "El yazısıyla yazılmış kayıtları, miras belgelerini, nüfus defterlerini ve yasal evrakları dijitalleştirin. Yapay zekamız, 19. ve 20. yüzyılın başlarındaki eski el yazısı stillerini de başarıyla işler.",
-
     "use_case_4_title": "Profesyonel El Yazısı Formlar",
     "use_case_4_desc": "Saha raporları, imzalı başvuru formları, el yazısı faturalar ve el yazısıyla tutulmuş hasta notları; hepsini tek adımda düzenlenebilir Word veya Excel formatına dönüştürün.",
-
     "comparison_title": "El Yazısı OCR: Yöntemlerin Karşılaştırması",
     "comparison_subtitle": "Bitişik el yazısı, standart araçların çöktüğü yerdir. İşte amaca özel üretilmiş bir yapay zekanın neden tek güvenilir seçenek olduğunun kanıtı.",
     "comparison_col_method": "Yöntem",
@@ -2351,36 +2220,28 @@
     "comparison_row3_time": "30 saniyenin altında",
     "comparison_row3_accuracy": "El yazısında %90–98",
     "comparison_row3_cost": "Ücretsiz Dene",
-
     "features_title": "El Yazısı Dönüştürücümüz Neden Farklı?",
     "features_subtitle": "Sıradan bir matbaa metni OCR aracına eklenmiş bir yama değil, sadece el yazısı (eğik yazı) için geliştirilmiş bir yapay zeka.",
-
     "feature_1_title": "Bitişik Harfleri Doğal Olarak Okur",
     "feature_1_desc": "Standart OCR, harfleri okumadan önce birbirinden ayırmaya çalışır. Bitişik el yazısında harfler birbirine bağlandığı ve üst üste bindiği için bu yöntem tamamen çöker. Yapay zekamız, insan gözünün yaptığı gibi tüm kelimeleri ve satırları tek seferde okur.",
-
     "feature_2_title": "Kıvrımları, Eğimi ve Karakteristik Farklılıkları İşler",
     "feature_2_desc": "Herkesin el yazısı kendine özgüdür; kıvrım boyutları, eğim açıları ve harf aralıkları değişir. Sinir ağımız, düzinelerce farklı yazı stilindeki milyonlarca gerçek el yazısı örneği ile eğitilmiştir, bu nedenle daha önce hiç görmediği bir el yazısını bile kolayca tanır.",
-
     "feature_3_title": "Word, Excel ve Metin Olarak Dışa Aktarır",
     "feature_3_desc": "Dönüştürülen el yazısı metin, biçimlendirilmemiş yığın bir paragraf olarak verilmez. Belgenin orijinal düzenini, paragrafları, listeleri ve tabloları yeniden oluştururuz ve ihtiyacınıza göre doğrudan .docx, .xlsx veya düz .txt olarak dışa aktarırız.",
-
     "tech_title": "El Yazısını Okumak OCR İçin Neden Bu Kadar Zor ve Biz Bunu Nasıl Çözüyoruz?",
     "tech_intro": "Standart OCR, basılı metinler (bilgisayar/matbaa fontları) için tasarlandı. Standart OCR'nin varsaydığı her şey – tek tip karakter şekilleri, harfler arasındaki net boşluklar, tutarlı aralıklar – bitişik el yazısında tamamen işlevsiz kalır. El yazısında harfler birbirine karışır. Aynı harf, kendinden önce ve sonra gelen harfe göre tamamen farklı görünebilir. Eğim satırdan satıra değişir. Kıvrımlar ve kuyruklar diğer harflerle kesişir. Yapay zekamız temelde farklı bir yaklaşım benimser: Bireysel karakterleri izole etmeye çalışmak yerine, tıpkı akıcı okuyan bir insanın daha önce hiç görmediği bir bitişik el yazısıyla karşılaştığında yaptığı gibi, tüm kelimeleri ve satırları görsel desenler (örüntüler) olarak okur.",
-
     "tech_detect_title": "Yapay Zekamız Neleri Başarabilir?",
     "tech_detect_1": "Hiçbir harfin ayrı olmadığı, tamamen bitişik eğik el yazıları",
     "tech_detect_2": "Aynı sayfada karışık olarak bulunan bitişik ve düz (matbaa stili) el yazıları",
     "tech_detect_3": "Sağa eğik, sola eğik ve dik gibi değişen yazım açıları",
     "tech_detect_4": "Süslü ve oldukça kişiselleştirilmiş harf biçimleri (Doktor yazısı vb.)",
     "tech_detect_5": "19. yüzyıl ve 20. yüzyılın başlarındaki eski el yazısı stilleri",
-
     "tech_tips_title": "En İyi El Yazısı Dönüştürme İçin İpuçları",
     "tech_tips_1": "Mürekkep kontrastını azaltan flaştan kaçının, doğal gün ışığı kullanın",
     "tech_tips_2": "Kamerayı veya telefonu açılı değil, sayfanın tam üzerinde düz (paralel) tutun",
     "tech_tips_3": "Açık renk kağıt üzerinde koyu renk mürekkep olduğundan emin olun, metin üzerindeki gölgelerden kaçının",
     "tech_tips_4": "Çok eski belgeler için yüklemeden önce herhangi bir fotoğraf düzenleyicide kontrastı artırın",
     "tech_tips_5": "Çıktıyı her zaman gözden geçirin, %95 doğruluk bile uzun sayfalarda ara sıra manuel düzeltmeler gerektirebileceği anlamına gelir",
-
     "related_tools_title": "İlgili Araçlar",
     "related_tool_1_name": "El Yazısından Word'e",
     "related_tool_1_desc": "Notları biçimlendirilmiş .docx dosyasına çevirin",
@@ -2390,9 +2251,7 @@
     "related_tool_3_desc": "Tüm yazı stilleri: düz, bitişik, karışık okuma",
     "related_tool_4_name": "Tarayıcı ile El Yazısını Metne Çevirme",
     "related_tool_4_desc": "Telefon fotoğrafı veya PDF taramasından dönüştürün",
-
     "faq_title": "El Yazısını Metne Dönüştürme Hakkında Sıkça Sorulan Sorular",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2477,11 +2336,9 @@
         }
       }
     },
-
     "cta_title": "El Yazılarınızı Metne Dönüştürmeye Hazır mısınız?",
     "cta_subtitle": "Herhangi bir el yazısı görselini, mektubu, günlüğü, notu veya formu yükleyin; 30 saniyenin altında temiz, düzenlenebilir dijital metne sahip olun.",
     "cta_button": "El Yazısını Metne Çevirmeyi Ücretsiz Dene",
-
     "tool_info_1_title": "Uygulamaya Gerek Yok",
     "tool_info_1_desc": "Doğrudan tarayıcınızda çalışır. Denemek için indirme veya kayıt olmanıza gerek yok.",
     "tool_info_2_title": "Bitişik Yazı Yapay Zekası",
@@ -2489,39 +2346,29 @@
     "tool_info_3_title": "Word, Excel ve Metin İndirme",
     "tool_info_3_desc": "Dönüştürülmüş metninizi tam olarak ihtiyacınız olan formatta indirin."
   },
-
   "ScanHandwritingToText": {
     "meta_title": "El Yazısını Metne Çevirme Online | NoteOCR",
     "meta_desc": "El yazısı notları tarayıcınızda anında metne dönüştürün. Uygulama indirmeye gerek yok. Telefon fotoğrafını veya taranmış görüntüyü yükleyin, 30 saniyeden kısa sürede düzenlenebilir dijital metne ulaşın.",
-
     "hero_pill": "Online El Yazısı Tarayıcı",
     "hero_title": "El Yazısını Metne Çevirin. Uygulama Gerektirmez.",
     "hero_subtitle": "El yazısı herhangi bir sayfanın fotoğrafını çekin veya yükleyin; yapay zekamız bunu 30 saniyeden kısa sürede temiz ve düzenlenebilir metne dönüştürsün. Kurulum gerektirmez, her cihazda çalışır.",
-
     "trust_ssl": "SSL Şifreli Güvenlik",
     "trust_processing": "30 Saniye Altında İşlem",
     "trust_accuracy": "%95+ Tarama Hassasiyeti",
-
     "before_after_title": "El Yazısı Girer, Düzenlenebilir Dijital Metin Çıkar.",
     "before_after_desc": "Yapay zekamızın bir telefon fotoğrafını nasıl işlediğini gösteren gerçek tarama sonucu.",
     "before_label": "Önce: Taranmış El Yazısı Sayfası",
     "after_label": "Sonra: Temiz Düzenlenebilir Metin",
-
     "use_cases_title": "Online El Yazısı Tarayıcıyı Kimler Kullanır?",
     "use_cases_subtitle": "Fiziksel el yazısı sayfalarını hızla dijitalleştirmek isteyen herkes. Tarayıcı donanımına gerek yok, telefon kameranız yeterli.",
-
     "use_case_1_title": "Ders Notlarını Tarayan Öğrenciler",
     "use_case_1_desc": "Dersten sonra defter sayfalarınızın fotoğrafını çekin ve saniyeler içinde aranabilir, düzenlenebilir metinler elde edin. Sınavdan önce sayfaları yeniden yazmakla vakit kaybetmeyin.",
-
     "use_case_2_title": "Saha Notları ve Site Raporları",
     "use_case_2_desc": "Mühendisler, denetçiler ve saha çalışanları, el yazısı notlarını doğrudan telefondan tarayarak sahadan ayrılmadan dijital rapor formatına getirebilirler.",
-
     "use_case_3_title": "Kağıt Kayıtları ve Formları Dijitalleştirme",
     "use_case_3_desc": "Hasta kayıt formları, teslimat fişleri, puantaj kayıtları - bunları tarayın ve tek adımda kopyalayıp yapıştırmaya hazır yapılandırılmış metinler alın.",
-
     "use_case_4_title": "Kişisel Günlükler ve Defterler",
     "use_case_4_desc": "Kişisel günlükleri, yemek tariflerini ve beyin fırtınası sayfalarını tek bir fotoğrafla dijitalleştirin. Yılların birikimi defterlerinizi her yerden erişilebilir dijital metinler olarak saklayın.",
-
     "comparison_title": "Online El Yazısı Tarayıcı: Seçeneklerin Karşılaştırması",
     "comparison_subtitle": "Çoğu araç sizi uygulama yüklemeye veya aboneliğe zorlar. NoteOCR ise özgürlük sunar.",
     "comparison_col_method": "Yöntem",
@@ -2540,36 +2387,28 @@
     "comparison_row3_time": "30 saniye altı",
     "comparison_row3_accuracy": "El yazısında %95+",
     "comparison_row3_cost": "Ücretsiz deneme, uygulama yok, tek seferlik ödeme",
-
     "features_title": "Neden NoteOCR En İyi Online El Yazısı Tarayıcıdır?",
     "features_subtitle": "El yazısı sayfalarını taramak için özel olarak tasarlanmıştır, standart bir belge tarayıcının ek özelliği değildir.",
-
     "feature_1_title": "Telefonunuz Tarayıcınızdır",
     "feature_1_desc": "Masaüstü tarayıcıya ihtiyacınız yok. Sayfanın fotoğrafını çekip yükleyin. Yapay zekamız perspektifi düzeltir, ışığı ayarlar ve gölgeleri otomatik olarak kaldırarak kusursuz sonuç verir.",
-
     "feature_2_title": "Diğerlerinin Okuyamadığını Okur",
     "feature_2_desc": "Standart OCR araçları el yazısında başarısız olur çünkü baskı fontları için yapılmışlardır. Sinir ağımız, her türlü yazı stilinde binlerce el yazısı örneğiyle eğitilmiştir.",
-
     "feature_3_title": "Uygulama Yok. Hesap Yok. Beklemek Yok.",
     "feature_3_desc": "Sayfayı herhangi bir tarayıcıda açın, görüntüyü yükleyin ve metni alın. Kurulum veya hesap oluşturma zahmeti yok. iPhone, Android, Mac ve Windows'ta aynı hızda çalışır.",
-
     "tech_title": "El Yazısını Metne Çevirme Teknolojisi Nasıl Çalışır?",
     "tech_intro": "Bir görüntü yüklediğinizde yapay zekamız otomatik olarak üç aşama yürütür: İlk olarak görüntüyü ön işlemeden geçirir; eğriliği düzeltir, kontrastı artırır ve gölgeleri temizler. İkinci olarak, metin satırlarının ve paragrafların yerini belirlemek için düzen analizi yapar. Üçüncü olarak, el yazısı tanıma motoru her satırı görsel bir dizi olarak okur; standart OCR gibi karakter karakter değil, kelime ve kelime öbeği olarak bağlamdan yararlanarak anlamlandırır. Çıktı, orijinal paragraf yapınızı koruyan yapılandırılmış bir metindir.",
-
     "tech_detect_title": "Tarayıcımızın Destekledikleri",
     "tech_detect_1": "Hafif açıyla çekilmiş telefon fotoğrafları - perspektif otomatik düzelir",
     "tech_detect_2": "Düşük ışıklı veya flaş patlamış görüntülerde otomatik kontrast iyileştirme",
     "tech_detect_3": "150 DPI ve üzeri masaüstü tarayıcı çıktıları",
     "tech_detect_4": "Aynı sayfada karışık el yazısı stilleri",
     "tech_detect_5": "Üzeri çizilmiş kelimeler, oklar ve kenar notları",
-
     "tech_tips_title": "En İyi Sonuç İçin Tarama İpuçları",
     "tech_tips_1": "Telefonunuzu kağıda paralel, tam tepeden tutun",
     "tech_tips_2": "Mümkünse doğal gün ışığı kullanın - flaş kullanımından kaçının",
     "tech_tips_3": "Tüm sayfanın çerçeve içinde olduğundan emin olun",
     "tech_tips_4": "Masaüstü taramalarda 300 DPI, 150 DPI'dan çok daha iyi sonuç verir",
     "tech_tips_5": "Mürekkep soluksa, yüklemeden önce bir fotoğraf düzenleyicide kontrastı artırın",
-
     "related_tools_title": "İlgili Araçlar",
     "related_tool_1_name": "El Yazısı Tanıma",
     "related_tool_1_desc": "Tüm yazı stilleri için geniş kapsamlı yapay zeka tanıma",
@@ -2579,9 +2418,7 @@
     "related_tool_3_desc": "Bitişik el yazıları için özel tarama modu",
     "related_tool_4_name": "El Yazısını Excel'e Çevirme",
     "related_tool_4_desc": "El yazısı tabloları e-tablolara dönüştürün",
-
     "faq_title": "El Yazısını Metne Çevirme Hakkında Sıkça Sorulan Sorular",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2670,11 +2507,9 @@
         }
       }
     },
-
     "cta_title": "El Yazınızı Metne Çevirmeye Hazır mısınız?",
     "cta_subtitle": "Fotoğrafı yükleyin, 30 saniyede düzenlenebilir metni alın. Uygulama veya hesap gerekmez.",
     "cta_button": "El Yazısını Ücretsiz Tarat",
-
     "tool_info_1_title": "Uygulama Gerekmez",
     "tool_info_1_desc": "Herhangi bir cihazın tarayıcısında çalışır. Kurulum zahmeti yoktur.",
     "tool_info_2_title": "Telefon Kamerasıyla Uyumlu",
@@ -2682,7 +2517,6 @@
     "tool_info_3_title": "Word, Excel ve Metin Çıktısı",
     "tool_info_3_desc": "Taranmış metni ihtiyacınız olan formatta indirin."
   },
-
   "TermsPage": {
     "meta_title": "Kullanım Koşulları – NoteOCR | Kullanıcı Sözleşmesi",
     "meta_desc": "Ödeme, veri, fikri mülkiyet ve sorumluluk şartları dahil olmak üzere NoteOCR'nin yapay zeka el yazısı OCR platformunu kullanımınızı düzenleyen tüm hüküm ve koşulları okuyun.",
@@ -2691,25 +2525,18 @@
     "last_updated": "Son Güncelleme",
     "date": "Ocak 2026",
     "welcome_text": "NoteOCR'ye (eski adıyla Copywritee) hoş geldiniz. Bu Kullanım Koşulları, web sitemize, web uygulamamıza, API'mize ve ilgili tüm hizmetlere (topluca 'Hizmetler') erişiminizi ve kullanımınızı düzenleyen, sizinle (Kullanıcı, siz, sizin) ve NoteOCR Inc. (NoteOCR, biz, bizi, bizim) arasında yasal olarak bağlayıcı bir sözleşmedir. Bir hesap oluşturarak, sayfa kredisi satın alarak veya Hizmetlere başka bir şekilde erişerek, bu Koşulları ve Gizlilik Politikamızı okuduğunuzu, anladığınızı ve bunlara bağlı kalmayı kabul ettiğinizi onaylamış olursunuz.",
-
     "s1_t": "Kabul ve Uygunluk",
     "s1_c": "NoteOCR'yi kullanmak için en az 13 yaşında olmalısınız. Hizmetleri bir şirket, okul veya başka bir tüzel kişi adına kullanıyorsanız, söz konusu kurumu bu Koşullara bağlama yetkisine sahip olduğunuzu beyan edersiniz; bu durumda 'siz' ifadesi söz konusu kurumu ifade eder. 18 yaşın altındaki kullanıcıların ebeveyn veya vasi izni olmalıdır. Tamamen kendi takdirimize bağlı olarak herhangi bir kişiye veya kuruma erişimi reddetme hakkımızı saklı tutarız. Bu Koşullarda yapılacak herhangi bir güncellemeden sonra Hizmetlerimizi kullanmaya devam ederek, revize edilmiş Koşulları eksiksiz olarak kabul etmiş olursunuz.",
-
     "s2_t": "Hizmetlerin Tanımı",
     "s2_c": "NoteOCR, el yazısı notları, taranmış PDF formlarını, beyaz tahta fotoğraflarını ve diğer analog materyalleri Microsoft Word (.docx), Excel (.xlsx) ve PDF dahil olmak üzere düzenlenebilir dijital formatlara dönüştüren yapay zeka destekli bir belge dijitalleştirme platformu sağlar. Hizmetler aşağıdakileri içerir, ancak bunlarla sınırlı değildir: Yapay zeka el yazısı tanıma (%99,2 doğruluk), akıllı düzen ve format yeniden yapılandırma, tarayıcı tabanlı belge düzenleyici, bulut belge depolama, 30'dan fazla alfabe/dil desteği, tablodan e-tabloya veri çıkarma ve bir geliştirici API'si. Özellikler herhangi bir zamanda değiştirilebilir, eklenebilir veya kaldırılabilir. Belgelerimizde açıkça belirtilenler dışında herhangi bir belirli çıktı formatını, doğruluk seviyesini veya geri dönüş süresini garanti etmiyoruz.",
-
     "s3_t": "Hesap Kaydı",
     "s3_c": "Çoğu özelliğe erişmek için geçerli bir e-posta adresi ve güvenli bir şifre sağlayarak veya desteklenen bir OAuth sağlayıcısı (örn. Google) aracılığıyla kimlik doğrulaması yaparak bir hesap kaydetmeniz gerekir. Doğru, güncel ve eksiksiz kayıt bilgileri sağlamayı ve bunları güncel tutmayı kabul edersiniz. Hesap kimlik bilgilerinizin gizliliğini korumaktan yalnızca siz sorumlusunuz. Hesabınıza yetkisiz bir erişim olduğundan şüphelenirseniz, derhal support@noteocr.com adresinden bizi bilgilendirmelisiniz. NoteOCR, kimlik bilgilerinizi korumamanızdan kaynaklanan yetkisiz hesap erişiminden doğan hiçbir kayıptan sorumlu olmayacaktır. Her hesap tek bir kullanıcı içindir; bir kurumsal planda olmadığınız sürece hesapların birden fazla kişi arasında paylaşılmasına izin verilmez.",
-
     "s4_t": "Kullanıcı İçeriği ve Lisans",
     "s4_c": "NoteOCR'ye yüklediğiniz tüm belgeler, resimler, dosyalar ve diğer materyallerin (Kullanıcı İçeriği) tam mülkiyetini elinizde tutarsınız. Kullanıcı İçeriğini yükleyerek, NoteOCR'ye yalnızca Hizmetleri sunmak, iyileştirmek ve sürdürmek amacıyla Kullanıcı İçeriğinize erişmek, bunları işlemek, depolamak ve çoğaltmak için sınırlı, münhasır olmayan, telifsiz, dünya çapında bir lisans vermiş olursunuz. Bu lisans, içeriğinizi sildiğinizde veya hesabınızı kapattığınızda sona erer. Yüklediğiniz Kullanıcı İçeriği için gerekli tüm haklara sahip olduğunuzu veya bu hakları elinizde bulundurduğunuzu ve bunu yapmanın herhangi bir üçüncü tarafın fikri mülkiyet veya gizlilik haklarını ihlal etmediğini beyan ve taahhüt edersiniz. NoteOCR, belgeleriniz üzerinde mülkiyet iddia etmez ve Kullanıcı İçeriğinizi yapay zeka veya makine öğrenimi modellerini eğitmek için asla kullanmayacaktır.",
-
     "s5_t": "Fikri Mülkiyet",
     "s5_c": "NoteOCR Engine V2 ve gelecekteki tüm sürümleri dahil olmak üzere NoteOCR platformunun temelini oluşturan tüm teknoloji, yazılım, kaynak kodu, algoritmalar, arayüzler, tasarımlar, ticari markalar, logolar, ticari isimler ve tescilli metodolojiler NoteOCR Inc.'in özel fikri mülkiyetidir ve geçerli telif hakkı, ticari marka ve ticari sır yasalarıyla korunmaktadır. Bu Koşullardaki hiçbir şey NoteOCR'nin fikri mülkiyetinin mülkiyetini size devretmez. Size, hesabınızın süresi boyunca kendi yasal amaçlarınız için Hizmetlere erişmeniz ve bunları kullanmanız için sınırlı, devredilemez, alt lisanslanamaz, geri alınabilir bir lisans verilir. Önceden yazılı iznimiz olmadan Hizmetlerin herhangi bir bölümünü kopyalayamaz, değiştiremez, kaynak koda dönüştüremez, tersine mühendislik yapamaz, parçalarına ayıramaz veya bunlardan türetilmiş çalışmalar oluşturamazsınız.",
-
     "s6_t": "Ödemeler ve Sayfa Kredileri",
     "s6_c": "NoteOCR tek seferlik ödeme modeliyle çalışır. Tekrarlayan abonelikler yoktur. 8$ ile 25$ arasında değişen paketler halinde sayfa kredisi satın alırsınız ve işlenen sayfa başına kredi düşülür. Kredilerin süresi dolmaz ve süresiz olarak devredilir. Tüm ödemeler, üçüncü taraf ödeme sağlayıcıları aracılığıyla güvenli bir şekilde işlenir ve onların koşullarına tabidir. Aksi belirtilmedikçe tüm fiyatlar USD cinsinden listelenir ve geçerli vergileri içerir. Sayfa işleme başladıktan sonra satın alımlar iade edilemez. Bir ücretlendirmede hata olduğuna inanıyorsanız, işlemden itibaren 14 gün içinde support@noteocr.com ile iletişime geçin. NoteOCR, makul bir bildirimle fiyatlandırmayı değiştirme hakkını saklı tutar. Fiyat değişikliğinden sonra Hizmetlerin kullanılmaya devam edilmesi, yeni fiyatlandırmanın kabul edildiği anlamına gelir.",
-
     "s7_t": "Yasaklanmış Faaliyetler",
     "prohibited_intro": "NoteOCR'yi doğrudan veya dolaylı olarak aşağıdaki faaliyetlerin hiçbiri için kullanmamayı kabul edersiniz. Bu bölümün ihlali, para iadesi yapılmaksızın hesabın derhal feshedilmesiyle sonuçlanabilir.",
     "prohibited_item_1": "NoteOCR platformunun kaynak kodunu, algoritmalarını veya temel modellerini tersine mühendislik yapmak, kaynak koda dönüştürmek, parçalarına ayırmak veya bunları elde etmeye çalışmak.",
@@ -2718,31 +2545,22 @@
     "prohibited_item_4": "NoteOCR'nin sunucularına, ağlarına veya güvenlik sistemlerine müdahale etmek, bozmak veya yetkisiz erişim sağlamaya çalışmak.",
     "prohibited_item_5": "Hizmetlere makul kullanımı aşan bir şekilde erişmek için önceden yazılı iznimiz olmadan otomatik komut dosyaları, botlar veya tarayıcılar kullanmak.",
     "prohibited_item_6": "NoteOCR Inc. ile ayrı bir bayi sözleşmesi yapmadan Hizmetleri veya çıktıları yeniden satmak, alt lisansını vermek veya ticari olarak yeniden dağıtmak.",
-
     "s8_t": "Veri Gizliliği ve Güvenlik",
     "s8_c": "NoteOCR veri güvenliğini ciddiye alır. Yüklenen tüm belgeler TLS 1.3 kullanılarak aktarım sırasında ve AES-256 şifrelemesi kullanılarak beklerken şifrelenir. Dosyalarınız izole edilmiş bilgi işlem ortamlarında işlenir ve dönüşüm tamamlandıktan sonra otomatik olarak işleme sunucularımızdan silinir. Kişisel kitaplığınızda saklanan belgeler, siz onları silene veya hesabınızı kapatana kadar tutulur. NoteOCR, GDPR uyumludur ve Kullanıcı İçeriğinizi Hizmetleri sunmak dışında herhangi bir amaçla üçüncü taraflara satmaz, paylaşmaz veya ifşa etmez. Belgelerinizi herhangi bir yapay zeka veya makine öğrenimi modelini eğitmek veya ince ayar yapmak için kullanmıyoruz. Kişisel verilerinizi nasıl topladığımız, işlediğimiz ve koruduğumuzla ilgili tüm ayrıntılar için lütfen noteocr.com/privacy adresindeki Gizlilik Politikamızı inceleyin.",
-
     "s9_t": "Sorumluluk Reddi ve Garantiler",
     "s9_c": "Hizmetler, ticari elverişlilik, belirli bir amaca uygunluk ve ihlal etmeme zımni garantileri dahil ancak bunlarla sınırlı olmamak üzere açık veya zımni hiçbir garanti olmaksızın (olduğu gibi ve mevcut olduğu gibi) sağlanır. NoteOCR aşağıdakileri garanti etmez: (a) Hizmetlerin kesintisiz, hatasız veya virüslerden ya da zararlı bileşenlerden arınmış olacağını; (b) OCR çıktısının doğruluğunun herhangi bir belirli belge için belirli bir eşiği karşılayacağını; veya (c) Hizmetlerdeki kusurların düzeltileceğini. OCR doğruluğu el yazısı kalitesine, görüntü çözünürlüğüne ve belge karmaşıklığına göre değişebilir. Dönüştürülen belgeleri profesyonel, hukuki, tıbbi veya finansal amaçlarla kullanmadan önce doğruluğunu doğrulamak konusunda tüm sorumluluğu üstlenirsiniz.",
-
     "s10_t": "Sorumluluğun Sınırlandırılması",
     "s10_c": "Geçerli yasaların izin verdiği en geniş ölçüde, NoteOCR Inc., yetkilileri, yöneticileri, çalışanları ve acenteleri, NoteOCR bu tür hasarların olasılığı konusunda bilgilendirilmiş olsa dahi, gelir kaybı, veri kaybı, iş kesintisi veya itibar zedelenmesi dahil ancak bunlarla sınırlı olmamak üzere Hizmetleri kullanımınızdan veya kullanamamanızdan kaynaklanan veya bunlarla ilgili dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai hasarlardan sorumlu olmayacaktır. Hiçbir durumda NoteOCR'nin bu Koşullar kapsamında ortaya çıkan tüm talepler için size karşı toplam sorumluluğu, talebe yol açan olaydan önceki on iki (12) ay içinde NoteOCR'ye ödediğiniz toplam tutarı aşmayacaktır. Bu Koşullardaki hiçbir şey, geçerli İsviçre yasaları uyarınca hariç tutulamayacak sorumlulukları sınırlamaz.",
-
     "s11_t": "Tazminat",
     "s11_c": "NoteOCR Inc.'i ve onun yetkililerini, yöneticilerini, çalışanlarını, yüklenicilerini ve ortaklarını, aşağıdakilerden kaynaklanan veya bunlarla ilgili olan her türlü talep, sorumluluk, zarar, hüküm, karar, kayıp, maliyet ve masraftan (makul yasal ücretler dahil) tazmin etmeyi, savunmayı ve zarar görmemesini sağlamayı kabul edersiniz: (a) bu Koşulları ihlaliniz; (b) Kullanıcı İçeriğiniz; (c) Hizmetleri bu Koşullarda yetki verilmeyen bir şekilde kullanımınız; veya (d) herhangi bir üçüncü tarafın fikri mülkiyet, gizlilik veya diğer haklarını ihlaliniz.",
-
     "s12_t": "Fesih",
     "s12_c": "Taraflardan herhangi biri bu sözleşmeyi istediği zaman feshedebilir. Hesabınızı istediğiniz zaman hesap ayarlarınızdan silebilirsiniz, bu da saklanan belgelerinizi kalıcı olarak kaldıracaktır. NoteOCR, tamamen kendi takdirimize bağlı olarak bu Koşulları ihlal ettiğinizi, hileli bir faaliyette bulunduğunuzu veya platformumuzun güvenliğine veya bütünlüğüne risk oluşturduğunuzu tespit edersek, hesabınızı derhal ve önceden bildirimde bulunmaksızın askıya alabilir veya sonlandırabilir. Fesih üzerine, Hizmetleri kullanma lisansınız derhal sona erer. Gönüllü hesap kapatmalarında kullanılmayan sayfa kredileri iade edilmez. Fikri mülkiyet, tazminat, sorumluluğun sınırlandırılması ve geçerli yasa ile ilgili bölümler fesihten sonra da geçerliliğini koruyacaktır.",
-
     "s13_t": "Bu Koşullardaki Değişiklikler",
     "s13_c": "NoteOCR, tamamen kendi takdirine bağlı olarak bu Koşulları istediği zaman güncelleme veya değiştirme hakkını saklı tutar. Önemli değişiklikler yaptığımızda, kayıtlı kullanıcıları e-posta yoluyla bilgilendirecek ve bu sayfanın üst kısmındaki (Son Güncelleme) tarihini güncelleyeceğiz. Ayrıca platform içinde bir bildirim de görüntüleyebiliriz. Revize edilmiş Koşulların yürürlük tarihinden sonra Hizmetleri kullanmaya devam etmeniz, bu değişiklikleri kabul ettiğiniz anlamına gelir. Güncellenmiş Koşulları kabul etmiyorsanız, Hizmetleri kullanmayı bırakmalı ve hesabınızı kapatmalısınız.",
-
     "s14_t": "Geçerli Yasa ve Uyuşmazlıklar",
     "s14_c": "Bu Koşullar ve bunlardan veya Hizmetlerden kaynaklanan veya bunlarla ilgili her türlü uyuşmazlık, kanunlar ihtilafı kurallarına bakılmaksızın münhasıran İsviçre yasalarına tabi olacaktır. Resmi olarak çözülemeyen her türlü uyuşmazlık, Zug, İsviçre'de bulunan mahkemelerin münhasır yargı yetkisine sunulacaktır. Resmi işlemlere başlamadan önce, her iki taraf da support@noteocr.com ile iletişime geçerek herhangi bir anlaşmazlığı 30 gün içinde iyi niyetle çözmeye çalışmayı kabul eder. Bu bölümdeki hiçbir şey, NoteOCR'nin fikri mülkiyet haklarını korumak için yetkili herhangi bir mahkemede ihtiyati tedbir veya başka bir hakkaniyete uygun çözüm aramasını engellemez.",
-
     "s15_t": "Çeşitli Hükümler",
     "s15_c": "Bu Koşullar, Gizlilik Politikamızla birlikte, sizinle NoteOCR arasındaki anlaşmanın tamamını oluşturur ve önceki tüm anlaşmaların, beyanların ve anlayışların yerine geçer. Bu Koşulların herhangi bir hükmünün uygulanamaz olduğu tespit edilirse, kalan hükümler tam olarak yürürlükte kalmaya devam edecektir. NoteOCR'nin bu Koşulların herhangi bir hakkını veya hükmünü uygulamaması, söz konusu haktan feragat edildiği anlamına gelmez. NoteOCR'nin önceden yazılı izni olmadan bu Koşullar kapsamındaki haklarınızı veya yükümlülüklerinizi devredemez veya transfer edemezsiniz. NoteOCR, bir birleşme, satın alma veya varlık satışının bir parçası olarak haklarını serbestçe devredebilir. Bu Koşullar sizinle NoteOCR arasında herhangi bir ortaklık, ortak girişim veya işveren-çalışan ilişkisi yaratmaz.",
-
     "contact_t": "Bu Koşullar hakkında sorularınız mı var?",
     "contact_d": "Hukuk ve destek ekibimiz, Hizmet Koşullarımızın veya platform politikalarımızın herhangi bir yönünü netleştirmek için hazırdır. Genellikle bir iş günü içinde yanıt veriyoruz.",
     "contact_email_label": "Hukuk ekibimize e-posta gönderin",
@@ -2756,46 +2574,32 @@
     "last_updated": "Son Güncelleme",
     "date": "Ocak 2026",
     "welcome_text": "NoteOCR Inc. ('NoteOCR', 'biz', 'bizi', 'bizim') kişisel verilerinizi korumayı taahhüt eder. Bu Gizlilik Politikası, noteocr.com adresindeki web sitemizi ziyaret ettiğinizde veya platformumuzu, API'mizi ve ilgili hizmetlerimizi (topluca 'Hizmetler') kullandığınızda bilgileri nasıl topladığımızı, kullandığımızı, ifşa ettiğimizi ve koruduğumuzu açıklar. Bu politika Genel Veri Koruma Yönetmeliği (GDPR), İsviçre Federal Veri Koruma Yasası (nFADP) ve geçerli diğer gizlilik yasalarıyla uyumludur. NoteOCR'yi kullanarak, bu Gizlilik Politikasında açıklanan uygulamaları kabul etmiş olursunuz.",
-
     "s1_t": "Biz Kimiz ve Veri Sorumlusu",
     "s1_c": "NoteOCR Inc., kişisel verilerinizden sorumlu Veri Sorumlusudur. İsviçre yasalarına göre kurulmuş ve merkezi Zug, İsviçre'de bulunan bir teknoloji şirketiyiz. Hizmetlerimiz, yapay zeka destekli bir el yazısı OCR platformu, bulut tabanlı bir belge düzenleyici ve bir geliştirici API'si içerir. Kişisel verilerinizi nasıl işlediğimizle ilgili sorularınız varsa, support@noteocr.com adresinden veri koruma iletişim noktamızla iletişime geçebilirsiniz. Verilerinizi şeffaf, yasal ve hak ettiği özenle işlemeye kararlıyız.",
-
     "s2_t": "Hangi Verileri Topluyoruz",
     "s2_c": "Hizmetlerimizi sunmak ve iyileştirmek için gerekli olan minimum veriyi topluyoruz. Topladığımız veri kategorileri şunları içerir: (a) Hesap Bilgileri, kaydolduğunuzda adınız, e-posta adresiniz ve şifrelenmiş parolanız veya Google gibi OAuth sağlayıcıları tarafından sağlanan temel profil bilgileri; (b) Kullanım Verileri, hesabınızı desteklemek ve doğruluğu artırmak için işlenen sayfalar, kredi bakiyesi, dönüştürme geçmişi, oturum etkinliği ve özellik etkileşimleri; (c) Cihaz ve Teknik Veriler, IP adresi, tarayıcı türü ve sürümü, işletim sistemi, yönlendiren URL ve sunucu günlükleri ile çerezler aracılığıyla otomatik olarak toplanan genel coğrafi bölge (ülke veya şehir düzeyinde); (d) Ödeme Verileri, fatura ayrıntıları ve işlem kayıtları, yalnızca üçüncü taraf ödeme işlemcilerimiz (Stripe) tarafından işlenir. NoteOCR tam kart numaralarını veya CVV kodlarını asla saklamaz; (e) İletişim, sorularınızı çözmek için saklanan, bize e-posta veya destek formları aracılığıyla gönderdiğiniz mesajlar; (f) Yüklenen İçerik, OCR işlemi için yüklediğiniz belgeler, resimler ve dosyalar, Bölüm 4'te açıklanan katı işleme kurallarına tabidir.",
-
     "s3_t": "Verilerinizi Nasıl Kullanıyoruz",
     "s3_c": "Kişisel verilerinizi yalnızca aşağıdaki yasal dayanaklarla, toplanma amaçları doğrultusunda kullanırız: (a) Sözleşmenin İfası, hesabınızı oluşturmak ve yönetmek, sayfa kredilerinizi işlemek, belge dönüşümlerini gerçekleştirmek ve satın aldığınız Hizmetleri sunmak için; (b) Meşru Menfaatler, dolandırıcılığı önlemek, platform güvenliğini sağlamak, teknik sorunları çözmek ve ürünü iyileştirmemize yardımcı olan toplu analitikler oluşturmak için; (c) Yasal Yükümlülük, İsviçre ve AB'deki geçerli vergi, muhasebe ve düzenleyici gerekliliklere uymak için; (d) Rıza, istediğiniz zaman geri çekebileceğiniz isteğe bağlı ürün güncellemelerini ve özellik duyurularını e-posta ile göndermek için. Kişisel verilerinizi asla satmayız veya reklam amacıyla kullanmayız. Verilerinizi veri komisyoncuları, reklam ağları veya ticari profilleme için herhangi bir üçüncü tarafla paylaşmayız.",
-
     "s4_t": "Yüklediğiniz Belgeler",
     "s4_c": "Yüklediğiniz belgeler en üst düzeyde gizlilikle ele alınır ve katı teknik kontrollere tabidir. Yüklenen tüm dosyalar aktarım sırasında TLS 1.3 ve bekleme sırasında AES-256 kullanılarak şifrelenir. Dosyalar izole edilmiş bilgi işlem ortamlarında işlenir; işleme sırasında hiçbir belge başka bir kullanıcının verileriyle karıştırılmaz. Bir dönüştürme işi tamamlandığında, kaynak dosya işleme sunucularımızdan otomatik olarak silinir. Dönüştürülmüş belgeleri NoteOCR kitaplığınızda saklarsanız, bunları manuel olarak silene veya hesabınızı kapatana kadar saklanırlar. İstediğiniz dönüşümü gerçekleştirmek dışında herhangi bir amaçla belgelerinizin içeriğine erişmiyor, bunları okumuyor, açıklamalar eklemiyor veya analiz etmiyoruz. Kritik bir nokta olarak, NoteOCR yüklediğiniz belgelerin içeriğini herhangi bir yapay zeka veya makine öğrenimi modelini eğitmek, ince ayar yapmak, değerlendirmek veya iyileştirmek için asla kullanmaz.",
-
     "s5_t": "Çerezler ve İzleme",
     "s5_c": "Hizmetlerimizi çalıştırmak ve iyileştirmek için minimum düzeyde çerez ve benzeri teknolojiler kullanıyoruz. Kesinlikle Gerekli Çerezler, oturumunuzun kimliğini doğrulamak ve oturumunuzun açık kalmasını sağlamak için gereklidir, bunlar devre dışı bırakılamaz. İşlevsel Çerezler, dil ve tema gibi tercihlerinizi hatırlar. Analitik Çerezleri (isteğe bağlı), ürünü iyileştirebilmemiz için sayfaların genel düzeyde nasıl kullanıldığını anlamamıza yardımcı olur. Gizliliğe saygılı analitikler kullanıyoruz ve hiçbir şekilde üçüncü taraf reklam çerezleri veya siteler arası izleme pikselleri yerleştirmiyoruz. Çerez tercihlerinizi tarayıcı ayarlarınızdan veya platform içi çerez banner'ımızdan istediğiniz zaman yönetebilirsiniz. İsteğe bağlı çerezleri devre dışı bırakmak, temel Hizmetleri kullanma yeteneğinizi etkilemeyecektir.",
-
     "s6_t": "Veri Paylaşımı ve Üçüncü Taraflar",
     "s6_c": "Kişisel verileri, platformumuzu işletmemizde bize yardımcı olan sınırlı sayıda güvenilir servis sağlayıcıyla ve yalnızca gerekli olduğu ölçüde paylaşıyoruz. Bunlar şunları içerir: (a) Stripe, ödeme işleme, PCI-DSS uyumluluğuna tabidir; (b) Google OAuth, isteğe bağlı oturum açma kimlik doğrulaması; (c) Bulut Altyapı Sağlayıcıları, şifrelenmiş sunucu depolama ve hesaplama, ABD-Doğu (N. Virginia), AB (Frankfurt) ve APAC (Singapur) bölgelerinde mevcuttur; (d) E-posta Teslimatı, işlemsel ve bildirim e-posta hizmetleri. Tüm üçüncü taraf işlemciler, verilerinizi bize sundukları hizmet dışında herhangi bir amaçla kullanmalarını yasaklayan veri işleme sözleşmelerine (DPA'lar) bağlıdır. Kişisel verileri pazarlama, profilleme veya Hizmetlerin işletilmesi dışındaki herhangi bir ticari amaçla üçüncü taraflara aktarmıyoruz.",
-
     "s7_t": "Uluslararası Veri Aktarımları",
     "s7_c": "NoteOCR, Avrupa Komisyonu'nun yeterli düzeyde veri koruması sağladığını kabul ettiği İsviçre merkezlidir. Kişisel verileri AEA veya İsviçre dışında (örneğin, ABD veya APAC'taki bulut altyapısı) faaliyet gösteren servis sağlayıcılara aktardığımızda, verilerinizin AEA içinde olduğu gibi aynı düzeyde koruma almasını sağlamak için Avrupa Komisyonu'nun Standart Sözleşme Maddelerine (SCC'ler) veya eşdeğer aktarım mekanizmalarına güveniriz. Hesap ayarlarınızdan tercih ettiğiniz veri işleme bölgesini (AB, ABD veya APAC) seçebilirsiniz. Varsayılan olarak, yeni hesaplar AB (Frankfurt) bölgesine atanır.",
-
     "s8_t": "Veri Saklama",
     "s8_c": "Kişisel verilerinizi yalnızca bu politikada açıklanan amaçları yerine getirmek için gerekli olduğu sürece saklarız. Hesap Bilgileri, hesabınızın süresi boyunca ve kurtarma veya anlaşmazlık çözümüne izin vermek için hesap kapatıldıktan sonra 90 güne kadar saklanır, ardından kalıcı olarak silinir. İşlenmiş kaynak dosyalar, dönüştürme tamamlandığında otomatik olarak silinir. NoteOCR kitaplığınızda saklanan belgeler, siz onları silene veya hesabınızı kapatana kadar saklanır. Ödeme ve işlem kayıtları, İsviçre ve AB vergi düzenlemelerine uygun olarak 7 yıl süreyle saklanır. Destek iletişimleri 3 yıla kadar saklanır. Anonimleştirilmiş ve toplu analitik veriler, herhangi bir bireyi tanımlamadığı için süresiz olarak saklanabilir.",
-
     "s9_t": "Gizlilik Haklarınız",
     "s9_c": "Bulunduğunuz yere bağlı olarak, kişisel verilerinizle ilgili olarak şu haklara sahip olabilirsiniz: Erişim Hakkı, hakkınızda tuttuğumuz tüm kişisel verilerin bir kopyasını talep etme; Düzeltme Hakkı, yanlış veya eksik verilerin düzeltilmesini talep etme; Silme Hakkı, saklanması için geçersiz kılınan yasal bir dayanak olmadığında kişisel verilerinizin silinmesini talep etme; Kısıtlama Hakkı, bir anlaşmazlık çözülürken verilerinizi nasıl işlediğimizi sınırlamamızı talep etme; Taşınabilirlik Hakkı, verilerinizi yapılandırılmış, makine tarafından okunabilir bir formatta alma; İtiraz Hakkı, profilleme dahil meşru menfaatlere dayalı işlemeye itiraz etme; Rızayı Geri Çekme Hakkı, önceki işlemleri etkilemeden e-posta iletişimleri için rızayı istediğiniz zaman geri çekme. Bu haklardan herhangi birini kullanmak için, konu satırına 'Gizlilik Talebi' yazarak support@noteocr.com adresine e-posta gönderin. 30 gün içinde yanıt vereceğiz. Ayrıca yerel veri koruma makamınıza şikayette bulunma hakkınız da vardır.",
-
     "s10_t": "Güvenlik Önlemleri",
     "s10_c": "Kişisel verilerinizi yetkisiz erişim, değiştirme, ifşa veya imhaya karşı korumak için tasarlanmış teknik ve organizasyonel güvenlik önlemleri uyguluyoruz. Bu önlemler şunları içerir: saklanan tüm dosyalar ve hesap verileri için beklerken AES-256 şifrelemesi; aktarım halindeki tüm veriler için TLS 1.3 şifrelemesi; her belge işleme işi için izole edilmiş bilgi işlem ortamları; kişisel verilere şirket içi erişimi kesin bir 'bilmesi gerekenler' temeline göre sınırlayan rol tabanlı erişim kontrolleri; düzenli güvenlik denetimleri ve sızma testleri; ve işlem tamamlandıktan sonra kaynak dosyaların otomatik olarak silinmesi. Bu önlemlere rağmen, internet üzerinden iletim veya elektronik depolama yöntemlerinin hiçbiri %100 güvenli değildir. Haklarınız ve özgürlükleriniz için risk oluşturan bir kişisel veri ihlalinden haberdar olursak, GDPR'nin gerektirdiği şekilde 72 saat içinde sizi ve ilgili denetleyici makamı bilgilendireceğiz.",
-
     "s11_t": "Çocukların Gizliliği",
     "s11_c": "NoteOCR, 13 yaşın altındaki çocuklara yönelik değildir ve 13 yaşın altındaki çocuklardan bilerek kişisel veri toplamıyoruz. 13 ila 18 yaş arasındaki kullanıcıların, Kullanım Koşullarımızda belirtildiği gibi Hizmetlerimizi kullanmadan önce ebeveyn veya vasi izni alması gerekir. Eğer bir ebeveyn veya vasi iseniz ve çocuğunuzun sizin izniniz olmadan NoteOCR'ye kişisel veri sağladığına inanıyorsanız, lütfen support@noteocr.com adresinden bizimle iletişime geçin. Bu tür verileri derhal araştıracak ve sileceğiz. Reşit olmayanlara bilerek kişiselleştirilmiş içerik veya reklam sunmuyoruz.",
-
     "s12_t": "Bu Politikadaki Değişiklikler",
     "s12_c": "Uygulamalarımızdaki, teknolojimizdeki, yasal gerekliliklerimizdeki veya diğer operasyonel nedenlerdeki değişiklikleri yansıtmak için bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler yaptığımızda, kayıtlı kullanıcıları e-posta ile bilgilendirecek ve bu sayfanın üst kısmındaki 'Son Güncelleme' tarihini güncelleyeceğiz. Ayrıca, önemli değişikliklere dikkat çekmek için platform içinde bir başlık da görüntüleyebiliriz. Herhangi bir revize edilmiş Gizlilik Politikasının yürürlük tarihinden sonra Hizmetleri kullanmaya devam etmeniz, bu değişiklikleri kabul ettiğiniz anlamına gelir. Bu politikayı periyodik olarak incelemenizi öneririz. Bu politikanın önceki sürümleri istek üzerine mevcuttur.",
-
     "s13_t": "İletişim ve DPO (Veri Koruma Görevlisi)",
     "s13_c": "Bu Gizlilik Politikası veya kişisel verilerinizi nasıl işlediğimizle ilgili sorularınız, endişeleriniz veya istekleriniz varsa lütfen bizimle iletişime geçin. Gizlilikle ilgili tüm soruları derhal ve iyi niyetle çözmeye kararlıyız. Ayrıca çözülmemiş endişeleri bir denetleyici makama iletme hakkına da sahipsiniz. İsviçre'de bu, Federal Veri Koruma ve Bilgi Komiseri'dir (FDPIC). AB'de iseniz üye devletinizdeki veri koruma kurumuyla iletişime geçebilirsiniz.",
-
     "rights_title": "Bir Bakışta Haklarınız",
     "right_access": "Verilerinize erişim",
     "right_rectify": "Yanlışlıkları düzeltme",
@@ -2804,7 +2608,6 @@
     "right_portability": "Verilerinizi dışa aktarma",
     "right_object": "Profillemeye itiraz",
     "right_consent": "İzni geri çekme",
-
     "data_table_title": "Topladığımız Veriler",
     "data_col_type": "Veri Türü",
     "data_col_purpose": "Amaç",
@@ -2830,7 +2633,6 @@
     "data_row5_purpose": "Destek ve çözüm",
     "data_row5_basis": "Meşru menfaat",
     "data_row5_retention": "3 yıl",
-
     "security_title": "Güvenlik Taahhütleri",
     "security_badge1": "Beklemede AES-256",
     "security_badge2": "Aktarımda TLS 1.3",
@@ -2840,158 +2642,119 @@
     "security_badge6": "Düzenli Sızma Testi",
     "security_badge7": "Sıfır Model Eğitimi",
     "security_badge8": "GDPR Uyumlu",
-
     "welcome_text_short": "Lütfen bu politikayı dikkatlice okuyun. NoteOCR'nin kişisel verilerinizi nasıl işlediğini açık bir dille açıklar.",
-
     "contact_t": "Gizlilik soruları veya veri talepleri?",
     "contact_d": "Ekibimiz gizlilikle ilgili tüm soruları kişisel olarak ele alır. Verilerinize erişmek, bunları düzeltmek veya silmek isteyin veya sadece bir sorunuz olsun — GDPR'nin gerektirdiği gibi 30 gün içinde yanıt veriyoruz.",
     "contact_email_label": "Gizlilik ekibimize e-posta gönderin",
     "contact_response": "30 gün içinde yanıt (GDPR gereksinimi)"
   },
-
   "JpgToWord": {
     "meta_title": "JPG'yi Word Belgesine Çevirme | JPEG'den DOCX'e Metin Çıkarma",
     "meta_desc": "JPG ve JPEG görüntüleri anında düzenlenebilir Word belgelerine dönüştürün. Gelişmiş OCR teknolojimiz, biçimlendirmeyi koruyarak fotoğraflardan, ekran görüntülerinden ve taramalardan metin çıkarır.",
-
     "hero_pill": "Hızlı Görüntüden Metne OCR",
     "hero_title": "JPG'yi Anında Word Belgelerine Çevirin",
     "hero_subtitle": "Resimlerdeki metinleri yeniden yazmaya son verin. Herhangi bir JPG, JPEG veya fotoğrafı yükleyin; gelişmiş yapay zekamız, metni doğru bir şekilde çıkararak tamamen düzenlenebilir bir Microsoft Word (.docx) dosyası oluştursun.",
-
     "trust_ssl": "256-BİT GÜVENLİ YÜKLEME",
     "trust_processing": "HIZLI JPEG İŞLEME",
     "trust_accuracy": "YÜKSEK DOĞRULUKLU OCR",
-
     "before_after_title": "Düz Bir Görüntüden Düzenlenebilir Metne",
     "before_after_desc": "Bir JPG'de kilitli kalmış metni nasıl mükemmel bir şekilde düzenlenebilir bir formata çıkardığımızı görün.",
     "before_label": "Öncesi: Orijinal JPG Görüntüsü",
     "before_placeholder": "",
     "after_label": "Sonrası: Düzenlenebilir Word Belgesi",
     "after_placeholder": "",
-
     "use_cases_title": "JPG'yi Neden Word'e Çevirmelisiniz?",
     "use_cases_subtitle": "Resimlere hapsolmuş metni tamamen düzenlenebilir hale getirmenin en kolay yolu.",
-
     "use_case_1_title": "Taranmış Belgeler",
     "use_case_1_desc": "Sözleşmelerin, faturaların ve resmi mektupların taranmış JPEG'lerini paragraf ve düzenlerini koruyarak düzenlenebilir metne dönüştürün.",
-
     "use_case_2_title": "Ekran Görüntüleri ve Web Parçaları",
     "use_case_2_desc": "Web sitelerinin, kısıtlanmış PDF'lerin veya uygulamaların JPG ekran görüntülerini anında Word'de kopyalayabileceğiniz, düzenleyebileceğiniz ve biçimlendirebileceğiniz bir metne dönüştürün.",
-
     "use_case_3_title": "Basılı Sayfa Fotoğrafları",
     "use_case_3_desc": "Bir kitabın, kullanım kılavuzunun veya derginin fotoğrafını mı çektiniz? Tek bir kelime yazmak zorunda kalmadan metni doğru bir şekilde çıkarın.",
-
     "use_case_4_title": "El Yazısı İçeren Resimler",
     "use_case_4_desc": "Temel dönüştürücülerin aksine, motorumuz el yazısı notlar veya beyaz tahta oturumları içeren JPG fotoğraflarını da okuyabilir ve dönüştürebilir.",
-
     "comparison_title": "JPG'den Word'e: Diğer Araçlar Neden Başarısız Olur?",
     "comparison_subtitle": "Çoğu araç resminizi yalnızca bir Word dosyasına yapıştırır. NoteOCR metni gerçekten çıkarır.",
     "comparison_col_method": "Yöntem",
     "comparison_col_time": "Süre",
     "comparison_col_accuracy": "Metin Çıkarma",
     "comparison_col_cost": "Maliyet",
-
     "comparison_row1_method": "Manuel Yazma",
     "comparison_row1_time": "15-30 dakika",
     "comparison_row1_accuracy": "Yüksek (ancak yorucu)",
     "comparison_row1_cost": "Zamanınız",
-
     "comparison_row2_method": "Standart Dosya Çeviriciler",
     "comparison_row2_time": "1 dakika",
     "comparison_row2_accuracy": "%0 (Sadece resmi yapıştırır)",
     "comparison_row2_cost": "Genellikle Ücretli",
-
     "comparison_row3_method": "NoteOCR (Yapay Zeka)",
     "comparison_row3_time": "15 Saniye",
     "comparison_row3_accuracy": "%98+ Düzenlenebilir Metin",
     "comparison_row3_cost": "Ücretsiz Dene",
-
     "features_title": "Gelişmiş JPG Metin Çıkarma",
     "features_subtitle": "Resim dosyalarından doğru metni çıkarmak için özel olarak oluşturulmuştur.",
-
     "feature_1_title": "JPG ve JPEG Formatlarını Kabul Eder",
     "feature_1_desc": "Dosyanızın uzantısı .jpg veya .jpeg olsun, sistemimiz standart web görüntülerini, telefon fotoğraflarını ve yüksek çözünürlüklü kamera çekimlerini mükemmel bir şekilde işler.",
-
     "feature_2_title": "Düzen ve Paragraf Koruma",
     "feature_2_desc": "Sadece düz metin yığınları vermiyoruz. OCR'ımız satır sonlarını, paragrafları ve liste yapılarını algılar, böylece indirdiğiniz Word belgesi orijinal resme benzer.",
-
     "feature_3_title": "Çoklu Dil Desteği",
     "feature_3_desc": "Özel karakter tanıma özelliği ile Türkçe, İngilizce, İspanyolca, Fransızca, Almanca ve diğer onlarca dildeki JPEG'lerden metin çıkarın.",
-
     "tech_title": "Resimden Word'e Motorumuz Nasıl Çalışır?",
     "tech_intro": "Bir JPG dosyasını düzenlenebilir bir Word belgesine dönüştürmek, Optik Karakter Tanıma (OCR) gerektirir. NoteOCR resminizdeki pikselleri analiz eder, tek tek harfleri ve kelimeleri tanımlar, belge yapısını haritalandırır ve hemen düzenleyebileceğiniz yerel bir Microsoft Word dosyası oluşturur.",
-
     "tech_detect_title": "Motorumuzun İşledikleri",
     "tech_detect_1": "Standart basılı metin ve tipografi",
     "tech_detect_2": "Resim içindeki el yazısı veya el yazısı fontları",
     "tech_detect_3": "Paragraf boşlukları ve satır sonları",
     "tech_detect_4": "Görüntü kontrastı ve arka plan gürültüsü giderme",
     "tech_detect_5": "Otomatik yönlendirme düzeltmesi",
-
     "tech_tips_title": "En İyi Çeviri İçin İpuçları",
     "tech_tips_1": "Resmin bulanık olmadığından emin olun",
     "tech_tips_2": "Metin üzerinde yoğun gölgeler olmasından kaçının",
     "tech_tips_3": "Metni kameraya paralel tutun",
     "tech_tips_4": "Daha yüksek çözünürlüklü JPEG'ler daha iyi sonuç verir",
     "tech_tips_5": "Mümkünse gereksiz arka planları kırpın",
-
     "related_tools_title": "Diğer Dönüştürme Araçları",
-
     "related_tool_1_name": "Resimden Excel'e",
     "related_tool_1_desc": "Resimlerdeki veri tablolarını e-tablolara çıkarın",
-
     "related_tool_2_name": "Fotoğraftan Word'e",
     "related_tool_2_desc": "Kamera fotoğraflarını doğrudan Word'e çevirin",
-
     "related_tool_3_name": "El Yazısından Metne",
     "related_tool_3_desc": "El yazısı ve notların özel transkripsiyonu",
-
     "related_tool_4_name": "Çevrimiçi Düzenleyici",
     "related_tool_4_desc": "Belgelerinizi tarayıcıda güvenle düzenleyin",
-
     "faq_title": "JPG'den Word'e Hakkında Sıkça Sorulan Sorular",
-
     "cta_title": "JPG'nizden Metin Çıkarmaya Hazır Mısınız?",
     "cta_subtitle": "Yazmayı bırakın ve saniyeler içinde düzenlemeye başlayın.",
     "cta_button": "Şimdi JPG Yükle",
-
     "footer_text": "NoteOCR // Akıllı Görüntü İşleme",
-
     "tool_upload_title": "JPG Resminizi Yükleyin",
     "tool_upload_desc": "Standart fotoğrafları, ekran görüntülerini ve taranmış resimleri destekler. Metni çıkarır ve size formatlanmış bir Word belgesi veririz.",
     "tool_upload_button": "JPG / JPEG Seçin",
     "tool_upload_check_1": "JPG, JPEG, PNG",
     "tool_upload_check_2": "Maksimum 25MB",
     "tool_upload_check_3": "24 saat sonra otomatik silinir",
-
     "tool_processing_title": "Resimden Metin Çıkarılıyor...",
     "tool_processing_desc": "OCR çalıştırılıyor ve Word belgeniz formatlanıyor",
-
     "tool_complete_title": "Çıkarma İşlemi Tamamlandı!",
     "tool_complete_desc": "Metniniz başarıyla çıkarıldı. Düzenlenebilir dosyanızı aşağıdan indirin.",
     "tool_complete_file_type": "Word Belgesi (.docx)",
     "tool_complete_status": "HAZIR",
     "tool_download_button": "Word İndir",
     "tool_new_button": "Başka Bir JPG Çevir",
-
     "tool_info_1_title": "Tamamen Düzenlenebilir",
     "tool_info_1_desc": "Metin sadece resim olarak yapıştırılmaz, çıkarılır",
-
     "tool_info_2_title": "Düzen Korunur",
     "tool_info_2_desc": "Paragraflar ve satır sonları korunur",
-
     "tool_info_3_title": "Evrensel DOCX",
     "tool_info_3_desc": "MS Word, Google Docs ve Pages'da açılır",
-
     "tool_tip_label": "Profesyonel İpucu:",
     "tool_tip_text": "JPG'niz çok karanlıksa veya düşük kontrasta sahipse, mutlak en iyi OCR doğruluğu için yüklemeden önce cihazınızda parlaklığı hafifçe artırmayı deneyin.",
-
     "toast_success": "Görüntü başarıyla dönüştürüldü!",
     "toast_error_type": "Lütfen geçerli bir görüntü dosyası (JPG, JPEG, PNG) yükleyin",
     "toast_error_size": "Dosya boyutu 25MB'ın altında olmalıdır",
     "toast_error_conversion": "Çevirme başarısız oldu. Lütfen daha net bir resim deneyin.",
     "toast_download_success": "Word belgesi indirildi!",
     "toast_download_error": "İndirme başarısız oldu.",
-
     "FAQ": {
       "items": {
         "how_to_convert": {
@@ -3040,146 +2803,110 @@
   "ScanToWord": {
     "meta_title": "Tarayıcıdan Word'e | Taranan Belgeleri Düzenlenebilir Metne Çevirme",
     "meta_desc": "Masaüstü tarayıcınızdan veya mobil uygulamanızdan gelen taranmış belgeleri, profesyonel düzeyde OCR ile doğrudan düzenlenebilir Microsoft Word dosyalarına dönüştürün.",
-
     "hero_pill": "Profesyonel Belge OCR'si",
     "hero_title": "Taramaları Word Belgelerine Çevirin",
     "hero_subtitle": "Evrak işlerinizi anında dijitalleştirin. Sözleşmelerin, kitapların veya fiziksel belgelerin taranmış resimlerini yükleyin, yapay zekamız bunları tamamen düzenlenebilir Microsoft Word (.docx) dosyaları olarak yeniden oluştursun.",
-
     "trust_ssl": "KURUMSAL DÜZEYDE GÜVENLİK",
     "trust_processing": "YÜKSEK HACİMLİ İŞLEME",
     "trust_accuracy": "%99 BASKI DOĞRULUĞU",
-
     "before_after_title": "Fiziksel Kağıttan Dijital Belgeye",
     "before_after_desc": "Düz bir dijital taramanın, üzerinde çalışılabilir tam bir metin belgesine nasıl dönüştüğünü görün.",
     "before_label": "Öncesi: Taranan Kağıt Resmi",
     "before_placeholder": "",
     "after_label": "Sonrası: Düzenlenebilir Word Belgesi",
     "after_placeholder": "",
-
     "use_cases_title": "Tarayıcıdan Word'e aracımızı kimler kullanıyor?",
     "use_cases_subtitle": "Yoğun evrak işleriyle uğraşan profesyoneller için tasarlandı.",
-
     "use_case_1_title": "Hukuk ve Emlak",
     "use_case_1_desc": "İmzalanmış fiziksel sözleşmeleri, kira sözleşmelerini ve tapuları tarayın, ardından maddeleri kolayca düzenlemek veya şartları güncellemek için bunları Word'e çevirin.",
-
     "use_case_2_title": "Ofis ve Yönetim",
     "use_case_2_desc": "Basılı notları, satıcı faturalarını ve fiziksel postaları manuel olarak yeniden yazmayı bırakın. Bunları tarayın ve saniyeler içinde düzenlenebilir metne dönüştürün.",
-
     "use_case_3_title": "Yazarlar ve Yayıncılar",
     "use_case_3_desc": "Düzenlenebilir dijital arşivler oluşturmak için masaüstü tarayıcı kullanarak baskısı tükenmiş eski kitapları, basılı el yazmalarını veya dergi makalelerini dijitalleştirin.",
-
     "use_case_4_title": "Akademik Araştırma",
     "use_case_4_desc": "Referans kitaplarından veya kütüphane arşivlerinden sayfalar tarayın ve alıntı yapmayı, vurgulamayı ve aranabilirliği kolaylaştırmak için bunları Word belgelerine dönüştürün.",
-
     "comparison_title": "Taramaları Dijitalleştirme: En İyi Yaklaşım",
     "comparison_subtitle": "Taranan belgeler için manuel deşifre/yeniden yazma neden geçmişte kaldı.",
     "comparison_col_method": "Yöntem",
     "comparison_col_time": "Süre",
     "comparison_col_accuracy": "Düzenin Korunması",
     "comparison_col_cost": "Maliyet",
-
     "comparison_row1_method": "Manuel Veri Girişi",
     "comparison_row1_time": "5 sayfa için 1 saat",
     "comparison_row1_accuracy": "Orijinal düzeni kaybeder",
     "comparison_row1_cost": "Yüksek işçilik maliyeti",
-
     "comparison_row2_method": "Ücretsiz Çeviriciler",
     "comparison_row2_time": "2 dakika",
     "comparison_row2_accuracy": "Kötü (Kenar boşluklarını bozar)",
     "comparison_row2_cost": "Ücretsiz",
-
     "comparison_row3_method": "NoteOCR Tarama Motoru",
     "comparison_row3_time": "20 Saniye",
     "comparison_row3_accuracy": "Paragrafları ve listeleri korur",
     "comparison_row3_cost": "Ücretsiz Dene",
-
     "features_title": "Taranmış Medyalar İçin Geliştirildi",
     "features_subtitle": "Donanım tarayıcılarının garipliklerini gidermek için gelişmiş özellikler.",
-
     "feature_1_title": "Eğrilik Giderme ve Otomatik Döndürme",
     "feature_1_desc": "Kağıdı tarayıcıya biraz eğri mi beslediniz? Motorumuz metni çıkarmadan önce çarpık taramaları otomatik olarak düzeltir.",
-
     "feature_2_title": "Leke ve Gürültü Giderme",
     "feature_2_desc": "Eski tarayıcılar genellikle görüntü üzerinde siyah noktalar veya çizgiler bırakır. Yapay zekamız, mükemmel metin tanımasını sağlamak için taranan arka planı temizler.",
-
     "feature_3_title": "Belge Yapısını Korur",
     "feature_3_desc": "Metni Microsoft Word'e taşırken fiziksel belgenizin başlıklarını, madde işaretlerini ve paragraf girintilerini korur.",
-
     "tech_title": "Taranmış Belgeleri Nasıl İşliyoruz?",
     "tech_intro": "Taranmış bir resim yüklediğinizde NoteOCR, özel bir Belge Düzeni Analizi (DLA) kullanır. Körlemesine soldan sağa okuyan temel araçların aksine, motorumuz fiziksel bir sayfanın yapısal hiyerarşisini anlar.",
-
     "tech_detect_title": "OCR Motorumuzun Algıladıkları",
     "tech_detect_1": "Standart basılı tipografi ve yazı tipleri",
     "tech_detect_2": "Çok sütunlu düzenler ve kenar çubukları",
     "tech_detect_3": "İtalik, kalın ve altı çizili biçimlendirmeler",
     "tech_detect_4": "Basılı formlardaki el yazısı imzalar",
     "tech_detect_5": "Numaralandırılmış listeler ve madde işaretleri",
-
     "tech_tips_title": "Tarayıcı Donanımları İçin İpuçları",
     "tech_tips_1": "Tarayıcınızı en az 300 DPI olarak ayarlayın",
     "tech_tips_2": "Taramaları yüksek kaliteli PNG veya JPG dosyaları olarak kaydedin",
     "tech_tips_3": "Lekeleri önlemek için tarayıcınızın camını silin",
     "tech_tips_4": "Kalın kitapları cama düz bir şekilde bastırın",
     "tech_tips_5": "En net metin için 'Siyah Beyaz' modunu kullanın",
-
     "related_tools_title": "Daha Fazla Belge Aracını Keşfedin",
-
     "related_tool_1_name": "Resimden Excel'e",
     "related_tool_1_desc": "Resimlerdeki veri tablolarını e-tablolara çıkarın",
-
     "related_tool_2_name": "Fotoğraftan Word'e",
     "related_tool_2_desc": "Kamera fotoğraflarını doğrudan Word'e çevirin",
-
     "related_tool_3_name": "El Yazısından Metne",
     "related_tool_3_desc": "El yazısı ve notların özel transkripsiyonu",
-
     "related_tool_4_name": "Çevrimiçi Düzenleyici",
     "related_tool_4_desc": "Belgelerinizi tarayıcıda güvenle düzenleyin",
-
     "faq_title": "Taranmış Belgeler Hakkında Sıkça Sorulan Sorular",
-
     "cta_title": "Evraklarınızı Dijitalleştirmeye Hazır Mısınız?",
     "cta_subtitle": "Bu fiziksel taramaları bugün üzerinde çalışılabilir Word dosyalarına dönüştürün.",
     "cta_button": "Şimdi Tarama Yükle",
-
     "footer_text": "NoteOCR // Profesyonel Tarama Dijitalleştirme",
-
     "tool_upload_title": "Taranan Dosyanızı Yükleyin",
     "tool_upload_desc": "Masaüstü tarayıcınız veya mobil tarama uygulamanız tarafından oluşturulan görüntü dosyalarını (JPG, PNG) yükleyin.",
     "tool_upload_button": "Taranan Resmi Seçin",
     "tool_upload_check_1": "Yüksek Çözünürlük Desteklenir",
     "tool_upload_check_2": "Maksimum 25MB",
     "tool_upload_check_3": "Ticari Gizlilik",
-
     "tool_processing_title": "Taranan Belge İşleniyor...",
     "tool_processing_desc": "Kontrast artırılıyor ve düzen analizi çalıştırılıyor",
-
     "tool_complete_title": "Tarama Çevrildi!",
     "tool_complete_desc": "Fiziksel taramanız artık dijital, düzenlenebilir bir belgedir. Aşağıdan indirebilirsiniz.",
     "tool_complete_file_type": "Word Belgesi (.docx)",
     "tool_complete_status": "HAZIR",
     "tool_download_button": "Word İndir",
     "tool_new_button": "Sıradaki Taramayı Çevir",
-
     "tool_info_1_title": "Tamamen Düzenlenebilir Metin",
     "tool_info_1_desc": "Maddeleri güncelleyin, yazım hatalarını düzeltin ve özgürce formatlayın",
-
     "tool_info_2_title": "Düzen Bozulmaz",
     "tool_info_2_desc": "Başlıklar ve listeler Word'e taşınır",
-
     "tool_info_3_title": "Güvenli İşleme",
     "tool_info_3_desc": "Taramalarınız asla saklanmaz veya paylaşılmaz",
-
     "tool_tip_label": "Tarama İpucu:",
     "tool_tip_text": "En doğru çeviri için fiziksel tarayıcınızı 300 DPI (İnç Başına Nokta) veya daha yükseğe yapılandırın. Daha düşük çözünürlükler 'c' ve 'e' gibi harflerin birbirine karışmasına ve bulanıklaşmasına neden olabilir.",
-
     "toast_success": "Tarama başarıyla dijitalleştirildi!",
     "toast_error_type": "Lütfen geçerli bir taranmış resim dosyası yükleyin",
     "toast_error_size": "Tarama dosya boyutu 25MB'ın altında olmalıdır",
     "toast_error_conversion": "Çevirme başarısız oldu. Lütfen daha yüksek kontrastlı bir tarama deneyin.",
     "toast_download_success": "Word belgesi indirildi!",
     "toast_download_error": "İndirme başarısız oldu.",
-
     "FAQ": {
       "items": {
         "how_to_convert_scan": {
@@ -3228,146 +2955,110 @@
   "PhotoToWord": {
     "meta_title": "Fotoğrafı Word Belgesine Çevirme | Resimlerden Metin Çıkarma",
     "meta_desc": "Bir fotoğraf çekin ve metne dönüştürün. Yapay zekamız beyaz tahtaların, kitapların ve ekranların fotoğraflarından doğrudan düzenlenebilir Word belgelerine metin çıkarır.",
-
     "hero_pill": "Kameradan Metne OCR",
     "hero_title": "Herhangi Bir Fotoğrafı Word Belgesine Çevirin",
     "hero_subtitle": "Akıllı telefon fotoğraflarınızı düzenlenebilir metne dönüştürün. Bir ders kitabının, beyaz tahtanın veya sunum slaytının fotoğrafını yükleyin ve yapay zekamızın saniyeler içinde formatlı bir Microsoft Word (.docx) dosyası oluşturmasına izin verin.",
-
     "trust_ssl": "ÖZEL GÜVENLİ YÜKLEME",
     "trust_processing": "AKILLI KAMERA YAPAY ZEKASI",
     "trust_accuracy": "AÇILI FOTOĞRAFLARI OKUR",
-
     "before_after_title": "Kamera Rulosundan Word Dosyasına",
     "before_after_desc": "Kamera parlaması ve arka plan karmaşası olan gerçek dünya fotoğraflarını nasıl işlediğimizi görün.",
     "before_label": "Öncesi: Akıllı Telefon Resmi",
     "before_placeholder": "",
     "after_label": "Sonrası: Düzenlenebilir Word Belgesi",
     "after_placeholder": "",
-
     "use_cases_title": "Hangi Fotoğrafları Çevirebilirsiniz?",
     "use_cases_subtitle": "Hareket halindeyken çekilen günlük fotoğraflar için mükemmeldir.",
-
     "use_case_1_title": "Beyaz Tahta Toplantıları",
     "use_case_1_desc": "Beyin fırtınasından sonra beyaz tahtanın fotoğrafını mı çektiniz? Marker el yazısını doğrudan Word'de toplantı notlarına çevirin.",
-
     "use_case_2_title": "Ders Kitabı Sayfaları",
     "use_case_2_desc": "Makaleniz için alıntıları tek tek yazmayı bırakın. Ders kitabınızın bir fotoğrafını çekin ve tam olarak ihtiyacınız olan paragrafları anında çıkarın.",
-
     "use_case_3_title": "Sunum Slaytları",
     "use_case_3_desc": "Dinleyici olarak otururken bir PowerPoint slaytının fotoğrafını mı çektiniz? Ekran fotoğrafındaki metni düzenlenebilir bir belgeye çekin.",
-
     "use_case_4_title": "Tarifler ve Dergiler",
     "use_case_4_desc": "Fiziksel bir tarifi veya ilginç bir dergi makalesini, fotoğrafını çekip aranabilir bir metin dosyasına dönüştürerek kaydedin.",
-
     "comparison_title": "Fotoğraf Metin Çıkarma Karşılaştırması",
     "comparison_subtitle": "NoteOCR, küçük bir telefon klavyesinde manuel yazmayı neden yener.",
     "comparison_col_method": "Yöntem",
     "comparison_col_time": "Süre",
     "comparison_col_accuracy": "Kötü Işıkla Başa Çıkar Mı?",
     "comparison_col_cost": "Maliyet",
-
     "comparison_row1_method": "Telefonda Yazma",
     "comparison_row1_time": "10-20 dakika",
     "comparison_row1_accuracy": "N/A",
     "comparison_row1_cost": "Zamanınız",
-
     "comparison_row2_method": "Temel Fotoğraf Çeviriciler",
     "comparison_row2_time": "1 dakika",
     "comparison_row2_accuracy": "Kamera parlamasında başarısız",
     "comparison_row2_cost": "Genellikle Ücretli",
-
     "comparison_row3_method": "NoteOCR Görüntü Motoru",
     "comparison_row3_time": "15 Saniye",
     "comparison_row3_accuracy": "Aydınlatmayı otomatik geliştirir",
     "comparison_row3_cost": "Ücretsiz Dene",
-
     "features_title": "Gerçek Dünya Fotoğrafları İçin Üretildi",
     "features_subtitle": "Akıllı telefon fotoğrafları mükemmel değildir. Yapay zekamız bununla başa çıkmak için tasarlandı.",
-
     "feature_1_title": "Perspektif Düzeltme",
     "feature_1_desc": "Bir kitabın sayfasının fotoğrafını garip bir açıyla çektiyseniz, motorumuz metni okumadan önce perspektifi otomatik olarak düzleştirir ve düzeltir.",
-
     "feature_2_title": "Parlama ve Gölge Giderme",
     "feature_2_desc": "Akıllı telefon flaşları ve oda gölgeleri metni gizleyebilir. Yapay zekamız, yüksek doğrulukta karakter tanımayı sağlamak için fotoğrafınızdaki aydınlatmayı dengeler.",
-
     "feature_3_title": "Arka Plan Karmaşasını Göz Ardı Eder",
     "feature_3_desc": "Fotoğrafta masanızı veya elinizi de mi çektiniz? Sistemimiz, yalnızca belgeye odaklanmak için metin dışı arka planları akıllıca kırpar.",
-
     "tech_title": "Resimlerinizi Nasıl Okuyoruz?",
     "tech_intro": "Bir akıllı telefon fotoğrafından metin çıkarmak, düz bir dijital taramayı okumaktan çok daha zordur. NoteOCR, karakterleri Word belgesine çevirmeden önce fotoğrafınızın geometrisini anlamak için akıllı Görüş (Vision) Yapay Zekası kullanır.",
-
     "tech_detect_title": "Kamera Yapay Zekamız Nelerle Başa Çıkar?",
     "tech_detect_1": "Kalın kitapların kavisli sayfaları",
     "tech_detect_2": "Bilgisayar ekranlarından çekilen fotoğraflar (anti-hare/moire)",
     "tech_detect_3": "Beyaz tahta kalemiyle yazılmış el yazısı",
     "tech_detect_4": "Düşük ışıklı veya loş oda fotoğrafları",
     "tech_detect_5": "Tek bir resimde farklı yazı tipleri ve metin boyutları",
-
     "tech_tips_title": "Daha İyi Fotoğraflar Çekmek İçin İpuçları",
     "tech_tips_1": "Kamerayı odaklamak için telefonunuzun ekranına dokunun",
     "tech_tips_2": "Telefonunuzu olabildiğince sabit tutun",
     "tech_tips_3": "Tepeden gelen sert gölgelerden kaçınmaya çalışın",
     "tech_tips_4": "Metnin fotoğraf karesinin çoğunu doldurmasını sağlayın",
     "tech_tips_5": "Parlak bir sayfayı fotoğraflıyorsanız flaşı kapatın",
-
     "related_tools_title": "Diğer Belge Araçları",
-
     "related_tool_1_name": "Resimden Excel'e",
     "related_tool_1_desc": "Resimlerdeki veri tablolarını e-tablolara çıkarın",
-
     "related_tool_2_name": "Fotoğraftan Word'e",
     "related_tool_2_desc": "Kamera fotoğraflarını doğrudan Word'e çevirin",
-
     "related_tool_3_name": "El Yazısından Metne",
     "related_tool_3_desc": "El yazısı ve notların özel transkripsiyonu",
-
     "related_tool_4_name": "Çevrimiçi Düzenleyici",
     "related_tool_4_desc": "Belgelerinizi tarayıcıda güvenle düzenleyin",
-
     "faq_title": "Fotoğraf Çevirme Hakkında Sıkça Sorulan Sorular",
-
     "cta_title": "Fotoğrafınızdan Metin Çıkarmaya Hazır Mısınız?",
     "cta_subtitle": "Fotoğrafınızı doğrudan telefonunuzdan veya bilgisayarınızdan yükleyin.",
     "cta_button": "Şimdi Fotoğraf Yükle",
-
     "footer_text": "NoteOCR // Vision AI İşleme",
-
     "tool_upload_title": "Resminizi Yükleyin",
     "tool_upload_desc": "Kamera rulonuzdan veya bilgisayarınızdan bir fotoğraf seçin. Metni çıkaracak ve formatlı bir Word dosyası oluşturacağız.",
     "tool_upload_button": "Resim Seç",
     "tool_upload_check_1": "Telefon Fotoğraflarını Destekler",
     "tool_upload_check_2": "Maksimum 25MB",
     "tool_upload_check_3": "24 saat sonra otomatik silinir",
-
     "tool_processing_title": "Resim Analiz Ediliyor...",
     "tool_processing_desc": "Kamera açıları düzeltiliyor ve metin çıkarılıyor",
-
     "tool_complete_title": "Resim Çevrildi!",
     "tool_complete_desc": "Fotoğrafınızdaki metin başarıyla çıkarıldı. Düzenlenebilir dosyanızı aşağıdan indirebilirsiniz.",
     "tool_complete_file_type": "Word Belgesi (.docx)",
     "tool_complete_status": "HAZIR",
     "tool_download_button": "Word İndir",
     "tool_new_button": "Başka Fotoğraf Çevir",
-
     "tool_info_1_title": "Tamamen Düzenlenebilir",
     "tool_info_1_desc": "Metin sadece resim olarak yapıştırılmaz, çıkarılır",
-
     "tool_info_2_title": "Akıllı Biçimlendirme",
     "tool_info_2_desc": "Paragraflar ve satır sonları yeniden oluşturulur",
-
     "tool_info_3_title": "Evrensel DOCX",
     "tool_info_3_desc": "MS Word, Google Docs ve Pages'da açılır",
-
     "tool_tip_label": "Kamera İpucu:",
     "tool_tip_text": "Parlak bir dergi veya ders kitabının fotoğrafını çekiyorsanız akıllı telefonunuzun flaşını kapatın. Devasa beyaz bir parlama noktası kelimeleri gizleyebilir ve OCR doğruluğunu düşürebilir.",
-
     "toast_success": "Resim başarıyla dönüştürüldü!",
     "toast_error_type": "Lütfen geçerli bir fotoğraf dosyası (JPG, PNG) yükleyin",
     "toast_error_size": "Fotoğraf dosya boyutu 25MB'ın altında olmalıdır",
     "toast_error_conversion": "Çevirme başarısız oldu. Resim çok bulanık olabilir.",
     "toast_download_success": "Word belgesi indirildi!",
     "toast_download_error": "İndirme başarısız oldu.",
-
     "FAQ": {
       "items": {
         "how_to_convert_photo": {
@@ -3416,146 +3107,110 @@
   "HandwrittenInvoice": {
     "meta_title": "El Yazısı Faturaları Excel'e Çevirme | Fiş Veri Çıkarma",
     "meta_desc": "Muhasebenizi otomatikleştirin. El yazısı fatura ve fişlerden kalemleri, fiyatları ve tarihleri doğrudan formatlanmış Excel e-tablolarına çıkarın.",
-
     "hero_pill": "Finansal Veri OCR'ı",
     "hero_title": "El Yazısı Faturaları Excel'e Çevirin",
     "hero_subtitle": "Satıcı fişlerini ve satınalma siparişlerini manuel olarak yazmayı bırakın. Yapay zekamız el yazısı faturalardan fatura kalemlerini, miktarları ve fiyatları temiz, düzenlenebilir .xlsx e-tablolarına doğru bir şekilde çıkarır.",
-
     "trust_ssl": "GÜVENLİ FİNANSAL YÜKLEME",
     "trust_processing": "OTOMATİK FATURA KALEMLERİ",
     "trust_accuracy": "%99 SAYISAL DOĞRULUK",
-
     "before_after_title": "Kağıt Fişten Dijital E-tabloya",
     "before_after_desc": "Yapay zekamızın dağınık el yazısı kalemleri düzgün Excel satırlarına nasıl mükemmel bir şekilde eşlediğini izleyin.",
     "before_label": "Öncesi: El Yazısı Fatura",
     "before_placeholder": "",
     "after_label": "Sonrası: Excel Fatura Kalemleri",
     "after_placeholder": "",
-
     "use_cases_title": "NoteOCR ile Faturaları Kimler Otomatikleştiriyor?",
     "use_cases_subtitle": "Zamanına değer veren finans profesyonelleri için oluşturuldu.",
-
     "use_case_1_title": "Muhasebeciler ve Mali Müşavirler",
     "use_case_1_desc": "Müşterilerin el yazısı fişler ve kağıt faturalarla dolu ayakkabı kutularını ay sonunda saatler yerine dakikalar içinde işleyin.",
-
     "use_case_2_title": "Küçük İşletme Sahipleri",
     "use_case_2_desc": "Giderlerinizi doğru bir şekilde takip etmek için karalanmış satıcı faturalarını, taşeron faturalarını ve el yazısı satınalma siparişlerini dijitalleştirin.",
-
     "use_case_3_title": "Gider Takibi",
     "use_case_3_desc": "Şirketinizin gider yazılımına kolayca yüklemek için el yazısı restoran fişlerini veya saha masraflarını yapılandırılmış CSV dosyalarına dönüştürün.",
-
     "use_case_4_title": "Vergi Hazırlığı",
     "use_case_4_desc": "Fiziksel, el yazısı bağış makbuzlarını veya işletme giderlerini vergi dönemi için temiz bir Excel defterine hızla toplayın.",
-
     "comparison_title": "Fatura Veri Girişi Karşılaştırması",
     "comparison_subtitle": "Manuel muhasebenin kar marjlarınızı neden yaktığının kanıtı.",
     "comparison_col_method": "Yöntem",
     "comparison_col_time": "Fatura Başına Süre",
     "comparison_col_accuracy": "Finansal Doğruluk",
     "comparison_col_cost": "İşçilik Maliyeti",
-
     "comparison_row1_method": "Manuel Veri Girişi",
     "comparison_row1_time": "3-5 dakika",
     "comparison_row1_accuracy": "Yazım hatalarına yatkın",
     "comparison_row1_cost": "20$+/saat",
-
     "comparison_row2_method": "Standart OCR Uygulamaları",
     "comparison_row2_time": "1 dakika",
     "comparison_row2_accuracy": "Sütunları karıştırır",
     "comparison_row2_cost": "Değişken",
-
     "comparison_row3_method": "NoteOCR Fatura Motoru",
     "comparison_row3_time": "15 saniye",
     "comparison_row3_accuracy": "Mükemmel satır hizalaması",
     "comparison_row3_cost": "Ücretsiz Dene",
-
     "features_title": "Gelişmiş Fatura Veri Çıkarma",
     "features_subtitle": "Özellikle finansal belgeler ve dağınık sayılar üzerinde eğitildi.",
-
     "feature_1_title": "Satır Öğesi Algılama",
     "feature_1_desc": "Yapay zekamız açıklamaları, miktarları, birim fiyatları ve toplamları otomatik olarak kendi farklı Excel sütunlarına ayırır.",
-
     "feature_2_title": "Yüksek Sayısal Doğruluk",
     "feature_2_desc": "Standart OCR el yazısı sayıları okumakta zorlanır. 4'lerin, 9'ların, ondalık sayıların ve para birimi sembollerinin mükemmel bir şekilde okunmasını sağlamak için özel sinir ağları kullanıyoruz.",
-
     "feature_3_title": "Dağınık El Yazısı Desteği",
     "feature_3_desc": "Taşeronların ve satıcıların genellikle korkunç bir el yazısı vardır. Motorumuz, fiziksel fişlerdeki aceleci el yazılarını ve özensiz baskıları çözmek için oluşturulmuştur.",
-
     "tech_title": "Finansal Belgeleri Nasıl İşliyoruz?",
     "tech_intro": "Faturalar, (üstteki tarih ve fatura numarası gibi) değişken veriler ile (ortadaki fatura kalemleri gibi) tablo verileri içerdiği için karmaşıktır. NoteOCR bu mekansal ilişkiyi mükemmel bir şekilde haritalandırır.",
-
     "tech_detect_title": "Yapay Zekamızın Çıkardıkları",
     "tech_detect_1": "Ürün açıklamaları ve stok kodları (SKU)",
     "tech_detect_2": "Miktar ve fiyatlandırma sütunları",
     "tech_detect_3": "Ara toplamlar, vergi satırları ve genel toplamlar",
     "tech_detect_4": "El yazısı tarihler ve fatura numaraları",
     "tech_detect_5": "Para birimi sembolleri (₺, $, €)",
-
     "tech_tips_title": "Muhasebeciler İçin İpuçları",
     "tech_tips_1": "Fotoğraf çekmeden önce buruşuk fişleri düzleştirin",
     "tech_tips_2": "Işığın toplam tutar üzerine gölge düşürmediğinden emin olun",
     "tech_tips_3": "Kamerayı faturanın tam üstünde tutun",
     "tech_tips_4": "Ondalık noktaların veya virgüllerin fotoğrafta görünür olduğundan emin olun",
     "tech_tips_5": "Eşleştiğinden emin olmak için nihai toplamları Excel'de gözden geçirin",
-
     "related_tools_title": "Daha Fazla Finansal OCR Aracı",
-
     "related_tool_1_name": "Faturadan Excel'e",
     "related_tool_1_desc": "El yazısı fişlerden kalemleri çıkarın",
-
     "related_tool_2_name": "Envanterden Excel'e",
     "related_tool_2_desc": "El yazısı stok sayımlarını veriye dönüştürün",
-
     "related_tool_3_name": "Tarayıcıdan Word'e",
     "related_tool_3_desc": "Basılı İK politikalarını ve kılavulları dijitalleştirin",
-
     "related_tool_4_name": "El Yazısından Metne",
     "related_tool_4_desc": "El yazısı toplantı notlarını deşifre edin",
-
     "faq_title": "Fatura Çevirme Hakkında Sıkça Sorulan Sorular",
-
     "cta_title": "Faturaları Manuel Girmeye Son Verin.",
     "cta_subtitle": "Veri girişinizi yapay zeka yapsın. İlk el yazısı faturanızı şimdi yükleyin.",
     "cta_button": "Faturayı Excel'e Çevir",
-
     "footer_text": "NoteOCR // Akıllı Finansal Veri Çıkarma",
-
     "tool_upload_title": "El Yazısı Fatura Yükle",
     "tool_upload_desc": "El yazısı faturaların, fişlerin ve satınalma siparişlerinin fotoğraflarını ve taramalarını destekler. Fatura kalemlerini Excel'e çıkaracağız.",
     "tool_upload_button": "Fatura Resmi Seç",
     "tool_upload_check_1": "JPG, PNG Desteklenir",
     "tool_upload_check_2": "Maksimum 25MB",
     "tool_upload_check_3": "Banka Düzeyinde Şifreleme",
-
     "tool_processing_title": "Fatura Kalemleri Çıkarılıyor...",
     "tool_processing_desc": "Fiyatlar, miktarlar ve açıklamalar algılanıyor",
-
     "tool_complete_title": "Fatura Çıkarıldı!",
     "tool_complete_desc": "Fatura kalemleriniz bir Excel e-tablosuna dönüştürüldü. Aşağıdan indirebilirsiniz.",
     "tool_complete_file_type": "Excel E-tablosu (.xlsx)",
     "tool_complete_status": "HAZIR",
     "tool_download_button": "Excel İndir",
     "tool_new_button": "Sonraki Faturayı İşle",
-
     "tool_info_1_title": "Sütunlar Hizalanır",
     "tool_info_1_desc": "Fiyatlar ve açıklamalar temiz bir şekilde ayrılır",
-
     "tool_info_2_title": "Sayı Doğruluğu",
     "tool_info_2_desc": "Son derece hassas ondalık ve rakam tanıma",
-
     "tool_info_3_title": "İçe Aktarmaya Hazır",
     "tool_info_3_desc": "Paraşüt, Logo veya Mikro'ya kolayca yükleyin",
-
     "tool_tip_label": "Muhasebe İpucu:",
     "tool_tip_text": "Bu verileri Paraşüt veya Logo gibi bir muhasebe yazılımına aktarmayı planlıyorsanız, indirilen Excel dosyasını açın ve sorunsuz bir yükleme için .CSV (Virgülle Ayrılmış Değerler) biçiminde kaydedin.",
-
     "toast_success": "Fatura başarıyla çıkarıldı!",
     "toast_error_type": "Lütfen geçerli bir görüntü dosyası yükleyin",
     "toast_error_size": "Dosya boyutu 25MB'ın altında olmalıdır",
     "toast_error_extraction": "Çıkarma başarısız oldu. El yazısı çok soluk olabilir.",
     "toast_download_success": "Excel defteri indirildi!",
     "toast_download_error": "İndirme başarısız oldu.",
-
     "FAQ": {
       "items": {
         "how_to_convert_invoice": {
@@ -3604,146 +3259,110 @@
   "InventoryToExcel": {
     "meta_title": "El Yazısı Envanteri Excel'e Çevirme | Stok Sayımı OCR",
     "meta_desc": "Depo stok sayımlarını manuel olarak yazmaya son verin. El yazısı envanter günlüklerinin, not panolarının ve çetelelerin fotoğraflarını doğrudan düzenlenebilir Excel e-tablolarına dönüştürün.",
-
     "hero_pill": "Stok ve Envanter OCR",
     "hero_title": "Not Panosundaki Stok Sayımlarını Excel E-tablolarına Dönüştürün",
     "hero_subtitle": "Fiziksel envanter denetimlerinizi saniyeler içinde dönüştürün. El yazısı stok sayfalarınızın bir fotoğrafını çekin; yapay zekamız stok kodlarını (SKU), ürün adlarını ve miktarları doğrudan formatlı bir .xlsx dosyasına çıkarsın.",
-
     "trust_ssl": "GİZLİ VERİ İŞLEME",
     "trust_processing": "TOPLU SKU TANIMA",
     "trust_accuracy": "%99 MİKTAR DOĞRULUĞU",
-
     "before_after_title": "Fiziksel Not Panosundan Dijital Takipçiye",
     "before_after_desc": "Dağınık depo çetelelerini nasıl yapılandırılmış Excel satırlarına dönüştürdüğümüzü görün.",
     "before_label": "Öncesi: El Yazısı Stok Sayfası",
     "before_placeholder": "",
     "after_label": "Sonrası: Excel Envanter Listesi",
     "after_placeholder": "",
-
     "use_cases_title": "NoteOCR ile Envanteri Kimler Otomatikleştiriyor?",
     "use_cases_subtitle": "Fiziksel stok denetimleri yapan işletmeler için tasarlandı.",
-
     "use_case_1_title": "Depo Yöneticileri",
     "use_case_1_desc": "Çok sayfalı el yazısı depo günlüklerini ve döngü sayımlarını anında Excel'e dönüştürerek tedarik zincirinizin hareket etmesini sağlayın.",
-
     "use_case_2_title": "Perakende Mağaza Sahipleri",
     "use_case_2_desc": "Ay sonu perakende stok sayımlarınızın fotoğraflarını çekin ve POS sisteminizi veya Shopify mağazanızı CSV aracılığıyla güncellemek için yükleyin.",
-
     "use_case_3_title": "Restoran ve Bar Personeli",
     "use_case_3_desc": "Haftalık yiyecek ve içki envanterini yeniden yazmayı bırakın. Mutfaktaki not panolarınızı doğrudan yiyecek maliyeti e-tablolarınıza dijitalleştirin.",
-
     "use_case_4_title": "Ekipman Takibi",
     "use_case_4_desc": "Sahadan gelen el yazısı çıkış formlarını, takım günlüklerini ve varlık takipçilerini aranabilir dijital veritabanlarına kolayca dönüştürün.",
-
     "comparison_title": "Stok Sayımı: Manuel vs. NoteOCR",
     "comparison_subtitle": "Manuel envanter veri girişi işletmenize neden para kaybettiriyor.",
     "comparison_col_method": "Yöntem",
     "comparison_col_time": "Sayfa Başına Süre",
     "comparison_col_accuracy": "SKU Doğruluğu",
     "comparison_col_cost": "Maliyet",
-
     "comparison_row1_method": "Manuel Yazma",
     "comparison_row1_time": "15-30 dakika",
     "comparison_row1_accuracy": "İnsan hatasına yatkın",
     "comparison_row1_cost": "20$/saat işçilik",
-
     "comparison_row2_method": "Standart Mobil Tarayıcılar",
     "comparison_row2_time": "2 dakika",
     "comparison_row2_accuracy": "Düz resimler üretir",
     "comparison_row2_cost": "Ücretsiz",
-
     "comparison_row3_method": "NoteOCR Envanter Yapay Zekası",
     "comparison_row3_time": "20 saniye",
     "comparison_row3_accuracy": "Verileri satırlara formatlar",
     "comparison_row3_cost": "Ücretsiz Dene",
-
     "features_title": "Dağınık Depo El Yazıları İçin Üretildi",
     "features_subtitle": "Fiziksel envanter sayımlarının aceleyle yapıldığını biliyoruz. Yapay zekamız buna uyum sağlar.",
-
     "feature_1_title": "Alfasayısal SKU Tanıma",
     "feature_1_desc": "Ürün kodları harflerin ve sayıların karmaşık karışımlarıdır. Sinir ağlarımız, el yazısı SKU'larda '0' ile 'O' harfini ve '1' ile 'l' harfini ayırt etmek üzere eğitilmiştir.",
-
     "feature_2_title": "Sütun Biçimlendirme",
     "feature_2_desc": "Kağıda ister çizgiler çizin ister sadece boşluk bırakın, NoteOCR Ürün Adlarınızı, SKU'larınızı ve Miktarlarınızı otomatik olarak kendi ayrı Excel sütunlarına ayırır.",
-
     "feature_3_title": "POS Sistemleri için CSV Olarak Dışa Aktarma",
     "feature_3_desc": "Güncellenmiş stok sayımlarınızı Shopify, Ticimax veya Akınsoft'a sorunsuz bir şekilde yüklemek için verilerinizi bir Excel dosyası olarak indirin veya bir CSV olarak dışa aktarın.",
-
     "tech_title": "Fiziksel Stok Sayfalarını Nasıl İşliyoruz?",
     "tech_intro": "Envanter sayfaları kötü el yazısı ve bulaşmış mürekkebi ile ünlüdür. NoteOCR, not panonuzun ızgarasını yeniden oluşturmak için özel Tablo Yapısı Tanıma (TSR) kullanır.",
-
     "tech_detect_title": "Yapay Zekamızın Çıkardıkları",
     "tech_detect_1": "Uzun seri numaraları ve stok kodları (SKU)",
     "tech_detect_2": "Miktarlar, ağırlıklar ve ölçüler",
     "tech_detect_3": "Üzeri çizilmiş ürünler ve düzeltmeler",
     "tech_detect_4": "Çok sütunlu not panosu düzenleri",
     "tech_detect_5": "Tarihler, konumlar ve koridor numaraları",
-
     "tech_tips_title": "Daha Hızlı Denetimler İçin İpuçları",
     "tech_tips_1": "Fotoğraf çekerken depo aydınlatmasının parlak olduğundan emin olun",
     "tech_tips_2": "SKU'ları olabildiğince net yazın",
     "tech_tips_3": "Boş kağıtta sütunları bir şekilde hizalı tutun",
     "tech_tips_4": "Not panosunun fotoğraflarını doğrudan yukarıdan çekin",
     "tech_tips_5": "Nihai Excel miktarlarını raflarınıza göre gözden geçirin",
-
     "related_tools_title": "Diğer İş Verisi Araçları",
-
     "related_tool_1_name": "Faturadan Excel'e",
     "related_tool_1_desc": "El yazısı fişlerden kalemleri çıkarın",
-
     "related_tool_2_name": "Envanterden Excel'e",
     "related_tool_2_desc": "El yazısı stok sayımlarını veriye dönüştürün",
-
     "related_tool_3_name": "Tarayıcıdan Word'e",
     "related_tool_3_desc": "Basılı İK politikalarını ve kılavulları dijitalleştirin",
-
     "related_tool_4_name": "El Yazısından Metne",
     "related_tool_4_desc": "El yazısı toplantı notlarını deşifre edin",
-
     "faq_title": "Envanter OCR'ı Hakkında Sıkça Sorulan Sorular",
-
     "cta_title": "Stok Sayımlarınızı Klavyeyle Yazmaya Son Verin.",
     "cta_subtitle": "Not panonuzun bir fotoğrafını çekin ve NoteOCR'nin e-tablonuzu oluşturmasına izin verin.",
     "cta_button": "Envanteri Şimdi Çevir",
-
     "footer_text": "NoteOCR // Endüstriyel Veri Çıkarma",
-
     "tool_upload_title": "El Yazısı Envanter Listesi Yükle",
     "tool_upload_desc": "Not panolarının, stok sayımlarının ve çetele sayfalarının fotoğraflarını destekler. Verileri düzenlenebilir bir Excel ızgarasına çıkaracağız.",
     "tool_upload_button": "Envanter Fotoğrafı Seç",
     "tool_upload_check_1": "JPG, PNG Desteklenir",
     "tool_upload_check_2": "Maksimum 25MB",
     "tool_upload_check_3": "24 Saat Sonra Silinir",
-
     "tool_processing_title": "Stok Sayımları Çıkarılıyor...",
     "tool_processing_desc": "SKU'lar, ürünler ve miktarlar algılanıyor",
-
     "tool_complete_title": "Envanter Çıkarıldı!",
     "tool_complete_desc": "Stok sayımınız artık bir Excel e-tablosu. Aşağıdan indirebilirsiniz.",
     "tool_complete_file_type": "Excel E-tablosu (.xlsx)",
     "tool_complete_status": "HAZIR",
     "tool_download_button": "Excel İndir",
     "tool_new_button": "Sonraki Sayfayı İşle",
-
     "tool_info_1_title": "Izgara Korunur",
     "tool_info_1_desc": "SKU'lar ve Miktarlar ayrı sütunlarda",
-
     "tool_info_2_title": "Yüksek Doğruluk",
     "tool_info_2_desc": "Dağınık, aceleci el yazısı üzerinde eğitildi",
-
     "tool_info_3_title": "CSV Uyumlu",
     "tool_info_3_desc": "POS sisteminize yüklemeye hazır",
-
     "tool_tip_label": "Depo İpucu:",
     "tool_tip_text": "Not panonuzda çizgili kağıt veya basılı ızgara sayfaları kullanıyorsanız, yapay zekamız bu çizgileri Excel'deki sütunlarınızı neredeyse %100 yapısal doğrulukla mükemmel bir şekilde ayırmak için kullanacaktır.",
-
     "toast_success": "Envanter başarıyla çıkarıldı!",
     "toast_error_type": "Lütfen geçerli bir resim dosyası yükleyin",
     "toast_error_size": "Dosya boyutu 25MB'ın altında olmalıdır",
     "toast_error_extraction": "Çıkarma başarısız oldu. Fotoğraf çok bulanık olabilir.",
     "toast_download_success": "Excel e-tablosu indirildi!",
     "toast_download_error": "İndirme başarısız oldu.",
-
     "FAQ": {
       "items": {
         "how_to_convert_inventory": {
@@ -3792,146 +3411,110 @@
   "HandwrittenTimesheet": {
     "meta_title": "El Yazısı Puantaj Cetvellerini Excel'e Çevirme | Bordro OCR Aracı",
     "meta_desc": "Çalışan saatlerini manuel olarak girmeyi bırakın. El yazısı puantaj cetvellerinin, vardiya günlüklerinin ve kağıt mesai kartlarının fotoğraflarını bordro için doğrudan Excel e-tablolarına dönüştürün.",
-
     "hero_pill": "Bordro Veri Otomasyonu",
     "hero_title": "El Yazısı Puantajları Excel'e Otomatikleştirin",
     "hero_subtitle": "Bordroyu daha hızlı hazırlayın. Ekibinizin el yazısı mesai kartlarının veya vardiya günlüklerinin bir fotoğrafını çekin; yapay zekamız çalışan adlarını, tarihleri ve saatleri doğrudan formatlı bir .xlsx e-tablosuna çıkarsın.",
-
     "trust_ssl": "GÜVENLİ İK VERİLERİ",
     "trust_processing": "HIZLI PUANTAJ OCR'I",
     "trust_accuracy": "%99 SAYI DOĞRULUĞU",
-
     "before_after_title": "Kağıt Mesai Kartından Dijital Bordroya",
     "before_after_desc": "Yapay zekamızın dağınık el yazısı çalışma saatlerini düzgün Excel satırlarına nasıl mükemmel bir şekilde eşlediğini izleyin.",
     "before_label": "Öncesi: El Yazısı Ekip Günlüğü",
     "before_placeholder": "",
     "after_label": "Sonrası: Excel Bordro Verisi",
     "after_placeholder": "",
-
     "use_cases_title": "NoteOCR ile Puantajları Kimler Otomatikleştiriyor?",
     "use_cases_subtitle": "Giriş-çıkış yapmak için fiziksel kağıda güvenen endüstriler için tasarlandı.",
-
     "use_case_1_title": "İnşaat ve Esnaf",
     "use_case_1_desc": "Şantiyedeki kirli, el yazısı ekip listelerini dijitalleştirin. Çalışan adlarını ve günlük saatleri muhasebeye göndermeden önce Excel'e çıkarın.",
-
     "use_case_2_title": "Restoran ve Konaklama",
     "use_case_2_desc": "Genel müdür için haftalık kağıt programları, vardiya değişikliklerini ve garsonların el yazısı giriş-çıkış saatlerini temiz bir dijital formata dönüştürün.",
-
     "use_case_3_title": "Peyzaj ve Saha Hizmetleri",
     "use_case_3_desc": "Saha çalışanlarınızın dağınık el yazılarını çözmeye çalışmayı bırakın. Haftalık günlüklerinin bir fotoğrafını çekin ve bordro için anında formatlayın.",
-
     "use_case_4_title": "Sağlık ve Hemşirelik",
     "use_case_4_desc": "Farklı hastane koğuşlarından gelen el yazısı imza sayfalarını ve fiziksel fazla mesai günlüklerini aranabilir dijital veritabanlarına kolayca dönüştürün.",
-
     "comparison_title": "Bordro Veri Girişi Karşılaştırması",
     "comparison_subtitle": "Manuel puantaj girişinin işletmeniz için neden riskli olduğu.",
     "comparison_col_method": "Yöntem",
     "comparison_col_time": "Harcanan Zaman",
     "comparison_col_accuracy": "Bordro Hataları",
     "comparison_col_cost": "Maliyet",
-
     "comparison_row1_method": "Manuel Yazma",
     "comparison_row1_time": "Cuma günü 2+ saat",
     "comparison_row1_accuracy": "Yüksek yazım hatası riski",
     "comparison_row1_cost": "25$/saat yönetici işçiliği",
-
     "comparison_row2_method": "Standart OCR Tarayıcıları",
     "comparison_row2_time": "5 dakika",
     "comparison_row2_accuracy": "Sütunları karıştırır",
     "comparison_row2_cost": "Ücretsiz",
-
     "comparison_row3_method": "NoteOCR Puantaj Yapay Zekası",
     "comparison_row3_time": "30 saniye",
     "comparison_row3_accuracy": "Mükemmel satır hizalaması",
     "comparison_row3_cost": "Ücretsiz Dene",
-
     "features_title": "Gelişmiş Bordro Veri Çıkarma",
     "features_subtitle": "İsimleri, tarihleri ve saatleri doğru bir şekilde okumak için özel olarak eğitildi.",
-
     "feature_1_title": "Zaman Formatı Tanıma",
     "feature_1_desc": "Çalışanlarınız ister 08:00, ister sabah 8, isterse basitçe 8,5 saat yazsın, yapay zekamız çeşitli zaman formatlarını anlayacak şekilde eğitilmiştir.",
-
     "feature_2_title": "Sütun Hizalama",
     "feature_2_desc": "Çalışanlarınız çizgilerin dışına yazsa bile NoteOCR Çalışan Adı, Tarih, Giriş, Çıkış ve Toplam Saatleri farklı Excel sütunlarına ayırır.",
-
     "feature_3_title": "Luca ve Mikro İçin CSV Dışa Aktarma",
     "feature_3_desc": "Çalışma saatlerini Logo, Mikro veya Luca gibi tercih ettiğiniz bordro yazılımına sorunsuz bir şekilde yüklemek için puantaj verilerinizi bir Excel dosyası olarak indirin veya bir CSV olarak dışa aktarın.",
-
     "tech_title": "Kağıt Mesai Kartlarını Nasıl İşliyoruz?",
     "tech_intro": "Lekeli bir kağıt parçası üzerindeki el yazısı isimleri ve sayıları okumak, gelişmiş Optik Karakter Tanıma gerektirir. NoteOCR, doğru çalışma saatlerinin doğru çalışana atanmasını sağlamak için akıllı düzen analizi kullanır.",
-
     "tech_detect_title": "Yapay Zekamızın Çıkardıkları",
     "tech_detect_1": "Bitişik eğik veya düz yazılmış çalışan adları",
     "tech_detect_2": "Giriş ve çıkış saatleri",
     "tech_detect_3": "Ondalık sayılar (örn. 7,5 saat) ve kesirler",
     "tech_detect_4": "El yazısı tarihler ve haftanın günleri",
     "tech_detect_5": "İmzalar ve amir onayları",
-
     "tech_tips_title": "İK Yöneticileri İçin İpuçları",
     "tech_tips_1": "Fotoğraf çekmeden önce katlanmış puantaj cetvellerini düzleştirin",
     "tech_tips_2": "Ondalık noktaların veya virgüllerin görünmesi için iyi bir aydınlatma sağlayın",
     "tech_tips_3": "Kamerayı imza sayfasının tam üstünde tutun",
     "tech_tips_4": "Çalışanlara sayılarını net bir şekilde yazmalarını söyleyin",
     "tech_tips_5": "Bordroyu hazırlamadan önce her zaman hızlı bir görsel inceleme yapın",
-
     "related_tools_title": "Daha Fazla İş Otomasyonu Aracı",
-
     "related_tool_1_name": "Faturadan Excel'e",
     "related_tool_1_desc": "El yazısı fişlerden kalemleri çıkarın",
-
     "related_tool_2_name": "Envanterden Excel'e",
     "related_tool_2_desc": "El yazısı stok sayımlarını veriye dönüştürün",
-
     "related_tool_3_name": "Tarayıcıdan Word'e",
     "related_tool_3_desc": "Basılı İK politikalarını ve kılavulları dijitalleştirin",
-
     "related_tool_4_name": "El Yazısından Metne",
     "related_tool_4_desc": "El yazısı toplantı notlarını deşifre edin",
-
     "faq_title": "Puantaj OCR'ı Hakkında Sıkça Sorulan Sorular",
-
     "cta_title": "Çalışan Saatlerini Manuel Girmeye Son Verin.",
     "cta_subtitle": "Cuma günkü veri girişinizi yapay zeka yapsın. İlk puantaj cetvelinizi şimdi yükleyin.",
     "cta_button": "Puantajı Excel'e Çevir",
-
     "footer_text": "NoteOCR // Akıllı Bordro Veri Çıkarma",
-
     "tool_upload_title": "El Yazısı Puantaj Cetveli Yükle",
     "tool_upload_desc": "Ekip günlüklerinin, imza sayfalarının ve kağıt mesai kartlarının fotoğraflarını destekler. Tüm verileri temiz bir Excel sayfasına doğru bir şekilde çıkaracağız.",
     "tool_upload_button": "Puantaj Resmi Seç",
     "tool_upload_check_1": "JPG, PNG Desteklenir",
     "tool_upload_check_2": "Maksimum 25MB",
     "tool_upload_check_3": "Banka Düzeyinde Şifreleme",
-
     "tool_processing_title": "Çalışan Saatleri Çıkarılıyor...",
     "tool_processing_desc": "İsimler, tarihler ve giriş saatleri algılanıyor",
-
     "tool_complete_title": "Puantaj Çıkarıldı!",
     "tool_complete_desc": "Bordro verileriniz artık bir Excel e-tablosu. Aşağıdan indirebilirsiniz.",
     "tool_complete_file_type": "Excel E-tablosu (.xlsx)",
     "tool_complete_status": "HAZIR",
     "tool_download_button": "Excel İndir",
     "tool_new_button": "Sonraki Puantajı İşle",
-
     "tool_info_1_title": "Izgara Korunur",
     "tool_info_1_desc": "Satırlar ve sütunlar halinde güzelce düzenlenir",
-
     "tool_info_2_title": "Yüksek Doğruluk",
     "tool_info_2_desc": "Dağınık, aceleci el yazısı üzerinde eğitildi",
-
     "tool_info_3_title": "CSV Uyumlu",
     "tool_info_3_desc": "Bordro sisteminize yüklemeye hazır",
-
     "tool_tip_label": "Bordro İpucu:",
     "tool_tip_text": "Bu verileri Luca, Logo veya Mikro gibi bir bordro yazılımına aktarmayı planlıyorsanız, indirilen Excel dosyasını açın ve sorunsuz bir yükleme için .CSV (Virgülle Ayrılmış Değerler) biçiminde kaydedin.",
-
     "toast_success": "Puantaj başarıyla çıkarıldı!",
     "toast_error_type": "Lütfen geçerli bir resim dosyası yükleyin",
     "toast_error_size": "Dosya boyutu 25MB'ın altında olmalıdır",
     "toast_error_extraction": "Çıkarma başarısız oldu. Fotoğraf çok bulanık olabilir.",
     "toast_download_success": "Excel e-tablosu indirildi!",
     "toast_download_error": "İndirme başarısız oldu.",
-
     "FAQ": {
       "items": {
         "how_to_convert_timesheet": {

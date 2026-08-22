@@ -14,7 +14,6 @@
     "meta_title": "Handschrift naar Tekst Converter | AI Cursief OCR | NoteOCR",
     "meta_desc": "Zet aan elkaar geschreven (cursieve) notities direct om in bewerkbare digitale tekst. 's Werelds meest nauwkeurige AI-handschrift OCR."
   },
-
   "Features": {
     "section_label": "Het Ecosysteem",
     "main_title_1": "Alles wat u nodig heeft om",
@@ -61,7 +60,6 @@
     "step_3_desc": "Het document wordt gereconstrueerd in Word, Excel of Notion, klaar voor bewerking.",
     "processing": "Verwerken..."
   },
-
   "Why": {
     "label": "WAAROM ONS KIEZEN",
     "title_main": "Stop met het repareren van",
@@ -111,7 +109,6 @@
       }
     }
   },
-
   "FAQ": {
     "title_main": "Veelgestelde",
     "title_highlight": "Vragen",
@@ -234,150 +231,113 @@
       }
     }
   },
-
   "WordPage": {
     "meta_title": "Handgeschreven Notities naar Word (DOCX) Converteren | NoteOCR",
     "meta_desc": "Stop met overtikken. Zet handgeschreven notities om in bewerkbare Word-documenten met AI. Behoudt automatisch lijsten, koppen en lay-outstructuur.",
-
     "hero_pill": "Slimme Documentherkenning",
     "hero_title": "Converteer Handgeschreven Notities naar Word Documenten",
     "hero_subtitle": "Stop met het overtikken van uw notities. Onze AI zet handgeschreven pagina's om in bewerkbare .docx bestanden, met behoud van lijsten, koppen, marges en uw originele lay-outstructuur.",
-
     "trust_ssl": "SSL VERSLEUTELD",
     "trust_processing": "30-SECONDEN VERWERKING",
     "trust_accuracy": "95% TEKSTNAUWKEURIGHEID",
-
     "before_after_title": "Zie het Verschil",
     "before_after_desc": "Echte conversie die laat zien hoe structuur en opmaak behouden blijven",
     "before_label": "Voor: Handgeschreven Notities",
     "before_placeholder": "[Upload uw handgeschreven notities om de resultaten hier te zien]",
     "after_label": "Na: Word Document",
     "after_placeholder": "[Voorbeeld geformatteerd Word-document]",
-
     "use_cases_title": "Wie Converteert Handgeschreven Notities naar Word?",
     "use_cases_subtitle": "Van studenten tot professionals, duizenden digitaliseren dagelijks handgeschreven notities",
-
     "use_case_1_title": "Studenten & Onderzoekers",
     "use_case_1_desc": "Zet college-aantekeningen, onderzoeksjournaals en studiemateriaal om in doorzoekbare Word-documenten voor het schrijven van essays en bronvermelding.",
-
     "use_case_2_title": "Zakelijke Professionals",
     "use_case_2_desc": "Digitaliseer vergadernotities, whiteboard-sessies en conferentienotities naar geformatteerde documenten om te delen met het team en voor rapporten.",
-
     "use_case_3_title": "Auteurs & Journalisten",
     "use_case_3_desc": "Transformeer handgeschreven concepten, verhaallijnen en interviewnotities naar bewerkbare manuscripten, klaar voor redactie en publicatie.",
-
     "use_case_4_title": "Archivarissen & Historici",
     "use_case_4_desc": "Zet historische documenten, persoonlijke brieven en dagboekaantekeningen om in digitale archieven voor behoud en onderzoek.",
-
     "comparison_title": "Handgeschreven Notities naar Word: Methoden Vergeleken",
     "comparison_subtitle": "Waarom NoteOCR uren bespaart vergeleken met handmatig typen",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Tijd",
     "comparison_col_accuracy": "Nauwkeurigheid",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Handmatig Typen",
     "comparison_row1_time": "60 minuten/pagina",
     "comparison_row1_accuracy": "98% (traag, vervelend)",
     "comparison_row1_cost": "Gratis (uw tijd)",
-
     "comparison_row2_method": "Basis OCR Tools",
     "comparison_row2_time": "10 minuten",
     "comparison_row2_accuracy": "70% (verliest opmaak)",
     "comparison_row2_cost": "Gratis-$15",
-
     "comparison_row3_method": "NoteOCR Word Converter",
     "comparison_row3_time": "30 seconden",
     "comparison_row3_accuracy": "95% met behoud van lay-out",
     "comparison_row3_cost": "$8/100 pagina's",
-
     "features_title": "Waarom Onze Handschrift OCR Anders is",
     "features_subtitle": "Specifiek gebouwd voor het omzetten van handgeschreven notities naar Word",
-
     "feature_1_title": "Lay-out Behoud",
     "feature_1_desc": "In tegenstelling tot standaard OCR die alleen platte tekst dumpt, detecteert onze AI lijsten, koppen, paragrafen en marges. Uw Word-document komt overeen met de originele structuur en opmaak van uw notitieboek.",
-
     "feature_2_title": "Cursief & Blokletters Herkenning",
     "feature_2_desc": "Geavanceerde neurale netwerken getraind op miljoenen handschriftmonsters. Verwerkt rommelige inkt, cursief schrift, gemengde stijlen en zelfs doorstrepingen met hoge nauwkeurigheid.",
-
     "feature_3_title": "Privacy-First Verwerking",
     "feature_3_desc": "Uw notities worden versleuteld tijdens de upload, verwerkt in geïsoleerde containers en permanent verwijderd na conversie. Wij slaan uw handgeschreven inhoud nooit op en delen deze niet.",
-
     "tech_title": "Hoe Handschriftherkenningstechnologie Werkt",
     "tech_intro": "Standaard OCR-tools behandelen handgeschreven tekst als getypte karakters, wat uw originele opmaak vernietigt. De gespecialiseerde AI van NoteOCR analyseert pennenstreken, spatiëringspatronen en documentstructuur om uw notities te recreëren als een correct opgemaakt Word-document, waarbij lijsten, inspringingen en alinea-einden precies behouden blijven zoals u ze schreef.",
-
     "tech_detect_title": "Wat We Detecteren",
     "tech_detect_1": "Paragrafen, lijsten en koppen",
     "tech_detect_2": "Cursief en blokletter handschrift",
     "tech_detect_3": "Doorgestreepte tekst en correcties",
     "tech_detect_4": "Marges en inspringingen",
     "tech_detect_5": "Notitieboeken en losbladige papieren",
-
     "tech_tips_title": "Tips voor de Beste Resultaten",
     "tech_tips_1": "Gebruik goede verlichting bij het fotograferen",
     "tech_tips_2": "Houd de camera parallel aan de pagina",
     "tech_tips_3": "300 DPI voor gescande documenten",
     "tech_tips_4": "Zorg voor voldoende contrast tussen inkt en papier",
     "tech_tips_5": "Controleer de output voor definitief gebruik",
-
     "related_tools_title": "Aanverwante OCR Tools",
-
     "related_tool_1_name": "Afbeelding naar Word",
     "related_tool_1_desc": "Converteer handgeschreven tekst naar opgemaakte documenten",
-
     "related_tool_2_name": "PDF online bewerken (geen installatie)",
     "related_tool_2_desc": "Upload en bewerk PDF-documenten overal online",
-
     "related_tool_3_name": "Online Document Editor",
     "related_tool_3_desc": "Bewerk MS Word of Excel documenten gratis online",
-
     "related_tool_4_name": "Afbeelding naar Tekst",
     "related_tool_4_desc": "Zet cursieve tekst in afbeeldingen om in geformatteerde bewerkbare tekst",
-
     "faq_title": "Veelgestelde Vragen Over Handschrift-naar-Word Conversie",
-
     "cta_title": "Klaar om Uw Handgeschreven Notities te Digitaliseren?",
     "cta_subtitle": "Sluit u aan bij 50.000+ studenten en professionals die notities hebben geconverteerd met NoteOCR",
     "cta_button": "Converteer Uw Notities Nu",
-
     "footer_text": "NoteOCR // Intelligente Documentverwerking",
-
     "tool_upload_title": "Upload Uw Handgeschreven Notities",
     "tool_upload_desc": "Ondersteunt college-aantekeningen, notulen, dagboeken en onderzoekspapers. Werkt met cursief, blokletters en gemengd handschrift.",
     "tool_upload_button": "Selecteer Afbeelding",
     "tool_upload_check_1": "JPG, PNG, PDF",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "SSL Beveiligd",
-
     "tool_processing_title": "Handschrift Analyseren...",
     "tool_processing_desc": "AI herkent karakters en behoudt de lay-out",
-
     "tool_complete_title": "Conversie Voltooid!",
     "tool_complete_desc": "Uw Word-document is klaar. Download en bewerk het in Microsoft Word of Google Docs.",
     "tool_complete_file_type": "Word Document (.docx)",
     "tool_complete_status": "KLAAR",
     "tool_download_button": "Download Word",
     "tool_new_button": "Nieuw Document",
-
     "tool_info_1_title": "Lay-out Behouden",
     "tool_info_1_desc": "Lijsten, koppen en paragrafen blijven intact",
-
     "tool_info_2_title": "95% Nauwkeurig",
     "tool_info_2_desc": "Geoptimaliseerd voor cursief en blokletter handschrift",
-
     "tool_info_3_title": "DOCX Formaat",
     "tool_info_3_desc": "Compatibel met Word, Docs en Pages",
-
     "tool_tip_label": "Pro Tip:",
     "tool_tip_text": "Voor de beste resultaten fotografeert u uw notities met goede verlichting en houdt u de camera parallel aan de pagina. Zorg voor voldoende contrast tussen inkt en papier voor optimale tekenherkenning.",
-
     "toast_success": "Transcriptie voltooid!",
     "toast_error_type": "Upload a.u.b. een geldige afbeelding (JPG, PNG, WEBP) of PDF-bestand",
     "toast_error_size": "Bestandsgrootte moet kleiner zijn dan 25MB",
     "toast_error_conversion": "Conversie mislukt.",
     "toast_download_success": "Word-document gedownload!",
     "toast_download_error": "Download mislukt.",
-
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -463,153 +423,112 @@
       }
     }
   },
-
   "PdfPage": {
     "meta_title": "Gescande PDF's Online Bewerken met OCR | Gratis PDF Editor | NoteOCR",
     "meta_desc": "Browsergebaseerde PDF-editor voor gescande documenten. Haal handgeschreven tekst eruit met AI OCR, voeg handtekeningen toe, bewerk inhoud, geen software vereist.",
-
     "hero_pill": "Professionele PDF Werkplek",
     "hero_title": "Bewerk Gescande PDF's Online met AI OCR",
     "hero_subtitle": "De enige browsergebaseerde PDF-editor gebouwd voor gescande documenten. Upload handgeschreven PDF's, extraheer tekst met OCR, voeg handtekeningen toe of maak nieuwe documenten, allemaal zonder software.",
-
     "trust_ssl": "SSL VERSLEUTELD",
     "trust_processing": "DIRECTE VERWERKING",
     "trust_accuracy": "HANDSCHRIFT OCR",
-
     "workspace_title": "Een Complete Online Documentwerkplek",
     "workspace_subtitle": "Meer dan alleen OCR. Upload uw documenten naar een veilige omgeving waar u uw bestanden volledig in de cloud kunt bewerken, doorzoeken en beheren.",
-
     "workspace_feature_1_title": "Live Tekst Bewerken",
     "workspace_feature_1_desc": "Wijzig geëxtraheerde tekst direct in uw browser. Corrigeer typfouten, herformatteer paragrafen en werk data bij voordat u exporteert.",
-
     "workspace_feature_2_title": "Privacy Eerst",
     "workspace_feature_2_desc": "Uw documenten worden versleuteld en verwerkt in een veilige zandbak. We slaan uw gevoelige gegevens nooit op zonder toestemming.",
-
     "workspace_feature_3_title": "Direct Exporteren",
     "workspace_feature_3_desc": "Klaar met bewerken? Download uw opgeschoonde document direct als een doorzoekbare PDF, Word-document of Excel-sheet.",
-
     "use_cases_title": "Wie Bewerkt Gescande PDF's Online?",
     "use_cases_subtitle": "Van advocatenkantoren tot de gezondheidszorg, duizenden bewerken dagelijks gescande documenten",
-
     "use_case_1_title": "Juridische Professionals",
     "use_case_1_desc": "Bewerk gescande contracten, onderteken juridische documenten digitaal, lak gevoelige informatie zwart en bereid dossiers voor. Perfect voor advocaten die gescande rechtbankdocumenten behandelen.",
-
     "use_case_2_title": "Kleine Bedrijven",
     "use_case_2_desc": "Vul gescande formulieren in, voeg bedrijfshandtekeningen toe aan facturen, combineer PDF's in rapporten en annoteer voorstellen zonder dure Adobe-abonnementen.",
-
     "use_case_3_title": "Studenten & Docenten",
     "use_case_3_desc": "Annoteer gescande studieboeken, combineer lesaantekeningen in studiegidsen, vul beursformulieren in en converteer handgeschreven opdrachten naar doorzoekbare PDF's.",
-
     "use_case_4_title": "Zorgaanbieders",
     "use_case_4_desc": "Bewerk intakeformulieren voor patiënten, digitaliseer handgeschreven medische dossiers, voeg AVG/HIPAA-conforme handtekeningen toe en organiseer gescande medische grafieken.",
-
     "comparison_title": "PDF Bewerking: Desktop vs Online Tools",
     "comparison_subtitle": "Waarom browsergebaseerde bewerking beter is dan desktopsoftware",
     "comparison_col_tool": "Tool",
     "comparison_col_access": "Toegang",
     "comparison_col_features": "Functies",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_tool": "Adobe Acrobat Pro",
     "comparison_row1_access": "Vereist installatie & updates",
     "comparison_row1_features": "Volledig, geen handschrift OCR",
     "comparison_row1_cost": "€19,99/maand",
-
     "comparison_row2_tool": "Basis Online Editors",
     "comparison_row2_access": "Web-gebaseerd",
     "comparison_row2_features": "Beperkte OCR, geen handschrift",
     "comparison_row2_cost": "Gratis-€10",
-
     "comparison_row3_tool": "NoteOCR PDF Editor",
     "comparison_row3_access": "Direct, browser-gebaseerd",
     "comparison_row3_features": "OCR + handschrift + volledige document Editor",
     "comparison_row3_cost": "Gratis-€8",
-
     "features_title": "Waarom Onze Gescande PDF Editor Anders is",
     "features_subtitle": "Specifiek gebouwd voor het bewerken van gescande en handgeschreven PDF's",
-
     "feature_1_title": "OCR voor Gescande PDF's",
     "feature_1_desc": "Converteer gescande documenten en handgeschreven PDF's naar doorzoekbare, bewerkbare tekst. Onze AI herkent handschrift, getypte tekst en tabelstructuren met behoud van uw originele lay-out.",
-
     "feature_2_title": "Volledige Bewerkingssuite",
     "feature_2_desc": "Voeg tekst toe, teken handtekeningen, voeg afbeeldingen in, markeer secties en herorganiseer pagina's. Alle standaard PDF bewerkingstools in een professionele webwerkplek, geen desktopsoftware vereist.",
-
     "feature_3_title": "Browser-Gebaseerde Beveiliging",
     "feature_3_desc": "Versleuteling op bankniveau voor uploads. Uw PDF's worden waar mogelijk lokaal in uw browser verwerkt, met serververwerking in geïsoleerde containers. Automatisch verwijderd na 24 uur.",
-
     "tech_title": "Hoe Browser-Gebaseerde PDF OCR Werkt",
     "tech_intro": "Traditionele PDF-editors werken alleen met digitale tekst. NoteOCR combineert geavanceerde OCR (Optical Character Recognition) met lay-outanalyse om gescande documenten, handgeschreven formulieren en op afbeeldingen gebaseerde PDF's te verwerken, allemaal in uw browser. We detecteren tekstpositionering, behouden opmaak en maken uw hele document doorzoekbaar en bewerkbaar zonder software-installatie.",
-
     "tech_support_title": "Wat We Ondersteunen",
     "tech_support_1": "Handgeschreven documenten en formulieren",
     "tech_support_2": "Gescande contracten en juridische dossiers",
     "tech_support_3": "Afbeeldingsgebaseerde PDF's zonder tekstlaag",
     "tech_support_4": "Digitale handtekeningen en annotaties",
     "tech_support_5": "PDF-documenten met meerdere pagina's",
-
     "tech_tips_title": "Tips voor Beste Resultaten",
     "tech_tips_1": "Scan op 300 DPI of hoger",
     "tech_tips_2": "Zorg voor goede belichting en contrast",
     "tech_tips_3": "Houd pagina's plat zonder kreukels",
     "tech_tips_4": "Gebruik kleur/grijswaarden voor handschrift",
     "tech_tips_5": "Upload waar mogelijk direct vanaf de scanner",
-
     "related_tools_title": "Aanverwante OCR Tools",
-
     "related_tool_1_name": "Afbeelding naar Word",
     "related_tool_1_desc": "Converteer handgeschreven tekst naar opgemaakte documenten",
-
     "related_tool_2_name": "PDF online bewerken (geen installatie)",
     "related_tool_2_desc": "Upload en bewerk PDF-documenten overal online",
-
     "related_tool_3_name": "Online Document Editor",
     "related_tool_3_desc": "Bewerk MS Word of Excel documenten gratis online",
-
     "related_tool_4_name": "Afbeelding naar Tekst",
     "related_tool_4_desc": "Zet cursieve tekst in afbeeldingen om in geformatteerde bewerkbare tekst",
-
     "faq_title": "Veelgestelde Vragen Over Het Bewerken Van Gescande PDF's",
-
     "cta_title": "Klaar om Gescande PDF's Online te Bewerken?",
     "cta_subtitle": "Sluit u aan bij 100.000+ gebruikers die gescande documenten hebben bewerkt met de browsergebaseerde PDF-editor van NoteOCR",
     "cta_button": "Begin Nu Met Bewerken",
-
     "tool_main_title": "Professionele PDF Werkplek",
     "tool_main_desc": "Upload gescande PDF's met handschrift voor OCR, of start een leeg document om vanaf nul te creëren.",
     "tool_upload_button": "Upload Gescande PDF",
     "tool_new_button": "Begin met Blanco",
-
     "tool_upload_check_1": "Alleen PDF",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "SSL Beveiligd",
-
     "tool_info_1_title": "Handschrift OCR",
     "tool_info_1_desc": "Extraheer tekst uit gescande handgeschreven documenten",
-
     "tool_info_2_title": "Volledige Editor Suite",
     "tool_info_2_desc": "Voeg tekst, handtekeningen, annotaties en meer toe",
-
     "tool_info_3_title": "Browser-Gebaseerd",
     "tool_info_3_desc": "Geen softwaredownload vereist, werkt direct",
-
     "tool_tip_label": "Pro Tip:",
     "tool_tip_text": "Voor de beste OCR-resultaten op gescande PDF's, zorg ervoor dat documenten gescand zijn op 300 DPI met goed contrast. Handgeschreven formulieren werken het best wanneer ze gefotografeerd zijn met gelijkmatige belichting.",
-
     "modal_new_title": "Nieuwe PDF Maken",
     "modal_new_desc": "Begin met een leeg canvas en bouw uw document vanaf nul op.",
     "modal_new_button": "Maak Blanco PDF",
-
     "modal_upload_title": "Upload Gescande PDF",
     "modal_upload_desc": "Importeer uw gescande PDF om tekst te extraheren met OCR, handtekeningen toe te voegen of inhoud te bewerken.",
     "modal_upload_placeholder": "Klik of sleep PDF hierheen",
     "modal_upload_info": "Max bestandsgrootte: 25MB • Gescande & handgeschreven PDF's ondersteund",
-
     "modal_processing_new": "Werkplek Creëren...",
     "modal_processing_upload": "PDF Verwerken...",
     "modal_processing_desc": "Uw veilige PDF-omgeving wordt ingesteld",
-
     "modal_security_badge": "Versleuteling op Bankniveau",
-
     "toast_success_create": "PDF Werkplek Klaar!",
     "toast_success_upload": "PDF Succesvol Geüpload!",
     "toast_error_type": "Selecteer a.u.b. een geldig PDF-bestand",
@@ -617,7 +536,6 @@
     "toast_error_create": "Kon PDF niet aanmaken.",
     "toast_error_upload": "Kon PDF niet uploaden",
     "toast_error_drop": "Sleep a.u.b. een geldig PDF-bestand",
-
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {
@@ -706,20 +624,16 @@
     "router_title": "Welk type document heeft u?",
     "router_subtitle": "We verwijzen u naar de juiste tool zodat u het beste resultaat krijgt.",
     "router_back_button": "Terug naar documenttype",
-
     "router_type_standard_label": "Standaard / Digitaal PDF",
     "router_type_standard_desc": "Getypte contracten, formulieren of elke PDF met selecteerbare tekst. Ik moet het bewerken, annoteren of ondertekenen.",
     "router_type_standard_cta": "Doorgaan naar PDF-editor",
-
     "router_type_handwritten_label": "Handgeschreven notities of documenten",
     "router_type_handwritten_desc": "Upload een foto of scan van handgeschreven notities, brieven of documenten. We zetten ze om in een perfect opgemaakt, bewerkbaar Word-bestand — met behoud van structuur, spatiëring en lay-out.",
     "router_type_handwritten_cta": "Zet handschrift om naar Word →",
-
     "router_type_table_label": "Handgeschreven logboeken, tabellen of gegevens",
     "router_type_table_desc": "Upload een foto of scan van handgeschreven rasters, grootboeken, inventarislijsten of andere gestructureerde documenten. We zetten ze om in een overzichtelijke, professioneel opgemaakte Excel-spreadsheet.",
     "router_type_table_cta": "Zet handschrift om naar Excel →"
   },
-
   "EditorPage": {
     "meta_title": "Office Documenten Online Bewerken Gratis - Browsergebaseerde Word, Excel & PowerPoint Editor",
     "meta_desc": "Professionele online document editor. Maak en bewerk Word (DOCX), Excel (XLSX) en PowerPoint (PPTX) bestanden direct in uw browser zonder Microsoft Office.",
@@ -914,144 +828,109 @@
   "ExcelPage": {
     "meta_title": "Converteer Handgeschreven Tabellen naar Excel (XLSX) | NoteOCR",
     "meta_desc": "Automatiseer data-invoer. Zet handgeschreven rasters, financiële tabellen en schema's direct om in bewerkbare Excel spreadsheets met behulp van AI.",
-
     "hero_pill": "Tabelstructuur Herkenning",
     "hero_title": "Zet Handgeschreven Tabellen Om Naar Excel Spreadsheets",
     "hero_subtitle": "Stop met het handmatig typen van data. Onze AI detecteert rijen, kolommen en celgrenzen in uw handgeschreven notities, zelfs zonder getekende lijnen, en exporteert geformatteerde .xlsx spreadsheets.",
-
     "trust_ssl": "SSL VERSLEUTELD",
     "trust_processing": "2-MINUTEN VERWERKING",
     "trust_accuracy": "98% NUMERIEKE NAUWKEURIGHEID",
-
     "before_after_title": "Zie het Verschil",
     "before_after_desc": "Echte conversie die laat zien hoe structuur en numerieke nauwkeurigheid behouden blijven",
     "before_label": "Voor: Handgeschreven Kasboek",
     "before_placeholder": "[Upload uw handgeschreven tabel om de resultaten hier te zien]",
     "after_label": "Na: Excel Output",
     "after_placeholder": "[Voorbeeld geformatteerde spreadsheet]",
-
     "use_cases_title": "Wie Gebruikt Handschrift-naar-Excel Conversie?",
     "use_cases_subtitle": "Van accountantskantoren tot docenten, duizenden converteren dagelijks handgeschreven tabellen",
-
     "use_case_1_title": "Boekhouding & Administratie",
     "use_case_1_desc": "Zet handgeschreven financiële kasboeken, onkostendeclaraties en bonnetjes om in sorteerbare Excel-bestanden voor belastingvoorbereiding en audits.",
-
     "use_case_2_title": "Voorraadbeheer",
     "use_case_2_desc": "Digitaliseer voorraadtellingen, productlijsten en magazijnlogboeken. Perfect voor kleine bedrijven die voorraad op papier bijhouden.",
-
     "use_case_3_title": "Docenten & Beoordeling",
     "use_case_3_desc": "Zet handgeschreven cijferlijsten en studentenroosters om in geformatteerde spreadsheets voor rapporten en voortgangsregistratie.",
-
     "use_case_4_title": "Onderzoek & Dataverzameling",
     "use_case_4_desc": "Converteer veldnotities, enquêteresultaten en laboratoriumdatatabellen in analyseerbare datasets voor statistische software.",
-
     "comparison_title": "Handgeschreven Tabel naar Excel: Methoden Vergeleken",
     "comparison_subtitle": "Waarom NoteOCR uren bespaart vergeleken met handmatige invoer",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Tijd",
     "comparison_col_accuracy": "Nauwkeurigheid",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Handmatig Typen",
     "comparison_row1_time": "45 minuten",
     "comparison_row1_accuracy": "95% (menselijke fout)",
     "comparison_row1_cost": "€15/uur arbeid",
-
     "comparison_row2_method": "Generieke OCR",
     "comparison_row2_time": "10 minuten",
     "comparison_row2_accuracy": "50% (verliest structuur)",
     "comparison_row2_cost": "Gratis-€20",
-
     "comparison_row3_method": "NoteOCR Tabellen",
     "comparison_row3_time": "2 minuten",
     "comparison_row3_accuracy": "98% structuur behouden",
     "comparison_row3_cost": "€8/100 pagina's",
-
     "features_title": "Waarom Onze Tabel OCR Anders Is",
     "features_subtitle": "Specifiek gebouwd voor handgeschreven datatabellen",
-
     "feature_1_title": "Slimme Rasterdetectie",
     "feature_1_desc": "Onze AI identificeert de tabelstructuur, zelfs zonder zichtbare randen. Het herkent impliciete kolommen, uitgelijnde tekst en hiërarchische relaties in handgeschreven lay-outs.",
-
     "feature_2_title": "Geoptimaliseerd voor Getallen",
     "feature_2_desc": "Perfecte nauwkeurigheid voor financiële data. Converteer handgeschreven grootboekrekeningen, facturen, voorraadtellingen, cijferlijsten en onkostendeclaraties met behoud van numerieke opmaak.",
-
     "feature_3_title": "Exporteer naar Excel of CSV",
     "feature_3_desc": "Download uw data als Microsoft Excel (.xlsx) met de juiste celopmaak, of exporteer als CSV voor import in Google Sheets, databases of boekhoudsoftware.",
-
     "tech_title": "Hoe Rasterdetectie Technologie Werkt",
     "tech_intro": "De meeste OCR-tools behandelen tabellen als platte tekst en vernietigen celrelaties. De gespecialiseerde AI van NoteOCR analyseert ruimtelijke positionering, tekstuitlijningspatronen en visuele scheidingstekens om de exacte structuur van uw tabel te reconstrueren—met behoud van koppen, formules en samengevoegde cellen.",
-
     "tech_detect_title": "Wat We Detecteren",
     "tech_detect_1": "Celgrenzen zonder getekende lijnen",
     "tech_detect_2": "Kolomkoppen en hiërarchieën",
     "tech_detect_3": "Samengevoegde cellen over meerdere kolommen",
     "tech_detect_4": "Valutasymbolen en decimalen",
     "tech_detect_5": "Tabellen op ruitjespapier en blanco papier",
-
     "tech_tips_title": "Tips voor de Beste Resultaten",
     "tech_tips_1": "Gebruik goede verlichting bij het fotograferen",
     "tech_tips_2": "Houd de camera parallel aan de pagina",
     "tech_tips_3": "300 DPI voor gescande documenten",
     "tech_tips_4": "Leg de hele tabel vast in één afbeelding",
     "tech_tips_5": "Beoordeel de output vóór kritisch gebruik",
-
     "related_tools_title": "Aanverwante OCR Tools",
-
     "related_tool_1_name": "Afbeelding naar Word",
     "related_tool_1_desc": "Converteer handgeschreven tekst naar opgemaakte documenten",
-
     "related_tool_2_name": "PDF online bewerken (geen installatie)",
     "related_tool_2_desc": "Upload en bewerk PDF-documenten overal online",
-
     "related_tool_3_name": "Online Document Editor",
     "related_tool_3_desc": "Bewerk MS Word of Excel documenten gratis online",
-
     "related_tool_4_name": "Afbeelding naar Tekst",
     "related_tool_4_desc": "Zet cursieve tekst in afbeeldingen om in geformatteerde bewerkbare tekst",
-
     "faq_title": "Veelgestelde Vragen Over Tabel-naar-Excel Conversie",
-
     "cta_title": "Klaar om te Stoppen met Handmatige Data-invoer?",
     "cta_subtitle": "Sluit u aan bij 10.000+ gebruikers die handgeschreven tabellen hebben gedigitaliseerd met NoteOCR",
     "cta_button": "Converteer Uw Tabel Nu",
-
     "tool_upload_title": "Upload Uw Handgeschreven Tabel",
     "tool_upload_desc": "Ondersteunt handgeschreven kasboeken, voorraadlijsten, cijferlijsten en datatabellen. Werkt met of zonder getekende randen.",
     "tool_upload_button": "Selecteer Afbeelding",
     "tool_upload_check_1": "JPG, PNG, JPEG",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "SSL Beveiligd",
-
     "tool_processing_title": "Tabelstructuur Detecteren...",
     "tool_processing_desc": "AI analyseert rijen, kolommen en celgrenzen",
-
     "tool_complete_title": "Tabel Succesvol Geëxtraheerd!",
     "tool_complete_desc": "Uw spreadsheet is klaar. Download als Excel (.xlsx) of CSV formaat.",
     "tool_complete_file_type": "Excel Spreadsheet",
     "tool_complete_status": "KLAAR",
     "tool_download_button": "Download Excel",
     "tool_new_button": "Nieuwe Tabel",
-
     "tool_info_1_title": "Slimme Detectie",
     "tool_info_1_desc": "Werkt met tabellen zonder getekende lijnen",
-
     "tool_info_2_title": "99% Nauwkeurigheid",
     "tool_info_2_desc": "Geoptimaliseerd voor getallen en financiële data",
-
     "tool_info_3_title": "Excel Formaat",
     "tool_info_3_desc": "Compatibel met Excel, Sheets en databases",
-
     "tool_tip_label": "Pro Tip:",
     "tool_tip_text": "Voor de beste resultaten fotografeert u uw tabel met goede verlichting en houdt u de camera parallel aan de pagina. 300 DPI scans werken beter dan foto's met een lage resolutie.",
-
     "toast_success": "Tabel succesvol geëxtraheerd!",
     "toast_error_type": "Upload a.u.b. een geldige afbeelding (JPG, PNG, WEBP) of PDF-bestand",
     "toast_error_size": "Bestandsgrootte moet kleiner zijn dan 25MB",
     "toast_error_extraction": "Extractie mislukt.",
     "toast_download_success": "Excel bestand gedownload!",
     "toast_download_error": "Download mislukt.",
-
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1117,7 +996,6 @@
       }
     }
   },
-
   "nav": {
     "product": "Product",
     "solutions": "Oplossingen",
@@ -1140,7 +1018,6 @@
     "login": "Inloggen",
     "get_started": "Aan de Slag"
   },
-
   "Footer": {
     "description": "Zet handgeschreven notities direct om in schone, bewerkbare documenten. Veilig, snel en gebouwd voor moderne teams.",
     "stay_updated": "Blijf op de Hoogte",
@@ -1267,7 +1144,13 @@
     "comparison": {
       "title": "Specificaties en Technische Details",
       "subtitle": "Waarom NoteOCR beter presteert dan generieke scanners.",
-      "headers": ["Functie", "Gratis", "Student", "Professional", "Power User"],
+      "headers": [
+        "Functie",
+        "Gratis",
+        "Student",
+        "Professional",
+        "Power User"
+      ],
       "groups": {
         "core": "Herkenningsintelligentie",
         "formats": "Export & Bestandstypen",
@@ -1276,57 +1159,112 @@
       "rows": [
         {
           "name": "Blokletter Handschrift OCR",
-          "values": [true, true, true, true],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Cursief Schrift Engine",
-          "values": ["Standaard", "Hoog", "Ultra", "Ultra"],
+          "values": [
+            "Standaard",
+            "Hoog",
+            "Ultra",
+            "Ultra"
+          ],
           "group": "core"
         },
         {
           "name": "Tabel Raster Detectie (Excel)",
-          "values": [false, false, true, true],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Lay-out Behoud (Word)",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Wiskundige Formules",
-          "values": [false, false, "Basis", "Geavanceerd"],
+          "values": [
+            false,
+            false,
+            "Basis",
+            "Geavanceerd"
+          ],
           "group": "core"
         },
         {
           "name": "Rommelige Inkt Correctie",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Export Formaten",
-          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Alle Formaten"],
+          "values": [
+            "TXT",
+            "DOCX, TXT",
+            "XLSX, DOCX, PDF",
+            "Alle Formaten"
+          ],
           "group": "formats"
         },
         {
           "name": "Batch Upload Limiet",
-          "values": ["1 Bestand", "5 Bestanden", "10 Bestanden", "Onbeperkt"],
+          "values": [
+            "1 Bestand",
+            "5 Bestanden",
+            "10 Bestanden",
+            "Onbeperkt"
+          ],
           "group": "formats"
         },
         {
           "name": "Cloudopslag Duur",
-          "values": ["24 Uur", "30 Dagen", "Voor Altijd", "Voor Altijd"],
+          "values": [
+            "24 Uur",
+            "30 Dagen",
+            "Voor Altijd",
+            "Voor Altijd"
+          ],
           "group": "system"
         },
         {
           "name": "Versleutelingsniveau",
-          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "values": [
+            "AES-256",
+            "AES-256",
+            "AES-256",
+            "AES-256"
+          ],
           "group": "system"
         },
         {
           "name": "Verwerkingsprioriteit",
-          "values": ["Standaard", "Standaard", "Hoog", "Real-Time"],
+          "values": [
+            "Standaard",
+            "Standaard",
+            "Hoog",
+            "Real-Time"
+          ],
           "group": "system"
         }
       ]
@@ -1449,8 +1387,8 @@
       "loading": "Verwerken..."
     },
     "sidebar": {
-      "hq_title": "Hoofdkantoor Zürich",
-      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zürich\nZwitserland",
+      "hq_title": "Hoofdkantoor",
+      "hq_address": "NoteOCR\n11 Boyo Road, Sapele, Delta State\nNigeria",
       "timezone": "Centraal-Europese Tijd (CET)",
       "support": "Algemene Ondersteuning",
       "sales": "Zakelijke Verkoop",
@@ -1515,7 +1453,6 @@
   "EducationPage": {
     "meta_title": "Handschrift naar Tekst voor Studenten | Notities naar Notion, Obsidian & Anki",
     "meta_desc": "Converteer handgeschreven college-aantekeningen, whiteboards en onderzoeksjournaals naar doorzoekbare, bewerkbare tekst. Gebouwd voor studenten, snel, accuraat en gratis om te starten.",
-
     "hero": {
       "badge": "Academische Editie",
       "title_start": "Uw handschrift,",
@@ -1758,25 +1695,18 @@
     "last_updated": "Laatst Bijgewerkt",
     "date": "Januari 2026",
     "welcome_text": "Welkom bij NoteOCR. Deze Algemene Voorwaarden vormen een juridisch bindende overeenkomst tussen u (Gebruiker, u, uw) en NoteOCR Inc. (NoteOCR, wij, ons, onze) met betrekking tot uw toegang tot en gebruik van onze website, webapplicatie, API en alle gerelateerde diensten (gezamenlijk de Diensten). Door een account aan te maken, paginacredits te kopen of anderszins toegang te krijgen tot de Diensten, erkent u dat u deze Voorwaarden en ons Privacybeleid heeft gelezen, begrepen en ermee akkoord gaat hieraan gebonden te zijn.",
-
     "s1_t": "Acceptatie & Geschiktheid",
     "s1_c": "U moet ten minste 13 jaar oud zijn om NoteOCR te gebruiken. Als u de Diensten gebruikt namens een bedrijf, school of andere juridische entiteit, verklaart u dat u de bevoegdheid heeft om die entiteit aan deze Voorwaarden te binden, in welk geval u verwijst naar die entiteit. Gebruikers jonger dan 18 jaar moeten toestemming hebben van een ouder of voogd. Wij behouden ons het recht voor om naar eigen goeddunken de toegang te weigeren aan elke persoon of entiteit. Door onze Diensten te blijven gebruiken na eventuele updates van deze Voorwaarden, accepteert u de herziene Voorwaarden volledig.",
-
     "s2_t": "Beschrijving van de Diensten",
     "s2_c": "NoteOCR biedt een AI-gestuurd platform voor het digitaliseren van documenten dat handgeschreven notities, gescande PDF-formulieren, whiteboardfoto's en andere analoge materialen omzet in bewerkbare digitale formaten, waaronder Microsoft Word (.docx), Excel (.xlsx) en PDF. De Diensten omvatten, maar zijn niet beperkt tot: AI-handschriftherkenning (99,2% nauwkeurigheid), intelligente lay-out- en formaatreconstructie, een browsergebaseerde documenteditor, clouddocumentopslag, meertalige ondersteuning voor meer dan 30 schriften, tabel-naar-spreadsheet-extractie en een ontwikkelaars-API. Functies kunnen op elk moment worden gewijzigd, toegevoegd of verwijderd. Wij garanderen geen specifiek outputformaat, nauwkeurigheidsniveau of doorlooptijd buiten wat uitdrukkelijk is vermeld in onze documentatie.",
-
     "s3_t": "Accountregistratie",
     "s3_c": "Om toegang te krijgen tot de meeste functies, moet u zich registreren voor een account door een geldig e-mailadres en een veilig wachtwoord op te geven, of door u te authenticeren via een ondersteunde OAuth-provider (bijv. Google). U stemt ermee in om nauwkeurige, actuele en volledige registratie-informatie te verstrekken en deze up-to-date te houden. U bent als enige verantwoordelijk voor het handhaven van de vertrouwelijkheid van uw inloggegevens. U moet ons onmiddellijk op de hoogte stellen via support@noteocr.com als u ongeautoriseerde toegang tot uw account vermoedt. NoteOCR is niet aansprakelijk voor verliezen die voortvloeien uit ongeautoriseerde toegang tot uw account, veroorzaakt door het niet beveiligen van uw inloggegevens. Elk account is voor een enkele gebruiker; het delen van accounts met meerdere personen is niet toegestaan, tenzij u een organisatieplan heeft.",
-
     "s4_t": "Gebruikersinhoud & Licentie",
     "s4_c": "U behoudt het volledige eigendom van alle documenten, afbeeldingen, bestanden en andere materialen die u uploadt naar NoteOCR (Gebruikersinhoud). Door Gebruikersinhoud te uploaden, verleent u NoteOCR een beperkte, niet-exclusieve, royaltyvrije, wereldwijde licentie om toegang te krijgen tot uw Gebruikersinhoud, deze te verwerken, op te slaan en te reproduceren, uitsluitend voor het leveren, verbeteren en onderhouden van de Diensten. Deze licentie eindigt wanneer u uw inhoud verwijdert of uw account sluit. U verklaart en garandeert dat u de eigenaar bent of beschikt over alle benodigde rechten voor de Gebruikersinhoud die u uploadt, en dat u hierbij geen inbreuk maakt op de intellectuele eigendoms- of privacyrechten van derden. NoteOCR claimt geen eigendom over uw documenten en zal uw Gebruikersinhoud nooit gebruiken om AI- of machine learning-modellen te trainen.",
-
     "s5_t": "Intellectueel Eigendom",
     "s5_c": "Alle technologie, software, broncode, algoritmen, interfaces, ontwerpen, handelsmerken, logo's, handelsnamen en eigen methodologieën die ten grondslag liggen aan het NoteOCR-platform — inclusief de NoteOCR Engine V2 en alle toekomstige versies — zijn exclusief intellectueel eigendom van NoteOCR Inc. en worden beschermd door toepasselijke auteurs-, merken- en handelsgeheimwetten. Niets in deze Voorwaarden draagt enige eigendom van NoteOCR's intellectuele eigendom aan u over. U krijgt een beperkte, niet-overdraagbare, niet-sublicentieerbare, herroepbare licentie voor toegang tot en gebruik van de Diensten voor uw eigen wettige doeleinden gedurende de looptijd van uw account. U mag geen enkel deel van de Diensten kopiëren, wijzigen, decompileren, reverse-engineeren, demonteren of er afgeleide werken van maken zonder onze voorafgaande schriftelijke toestemming.",
-
     "s6_t": "Betalingen & Paginacredits",
     "s6_c": "NoteOCR werkt met een eenmalig betalingsmodel. Er zijn geen doorlopende abonnementen. U koopt paginacredits in bundels variërend van €8 tot €25, en credits worden per verwerkte pagina afgeschreven. Credits verlopen niet en worden voor onbepaalde tijd meegenomen. Alle betalingen worden veilig verwerkt via externe betalingsproviders (zoals Stripe/iDEAL) en zijn onderworpen aan hun voorwaarden. Alle prijzen worden vermeld in USD/EUR en zijn inclusief toepasselijke belastingen, tenzij anders vermeld. Aankopen worden niet gerestitueerd zodra de paginaverwerking is begonnen. Als u denkt dat er een fout is gemaakt bij een afschrijving, neem dan binnen 14 dagen na de transactie contact op met support@noteocr.com. NoteOCR behoudt zich het recht voor om prijzen te wijzigen met redelijke kennisgeving. Voortgezet gebruik van de Diensten na een prijswijziging vormt de acceptatie van de nieuwe prijzen.",
-
     "s7_t": "Verboden Activiteiten",
     "prohibited_intro": "U gaat ermee akkoord NoteOCR niet direct of indirect te gebruiken voor de volgende activiteiten. Overtreding van deze sectie kan leiden tot onmiddellijke beëindiging van uw account zonder restitutie.",
     "prohibited_item_1": "Het reverse-engineeren, decompileren, demonteren of proberen af te leiden van de broncode, algoritmen of onderliggende modellen van het NoteOCR-platform.",
@@ -1785,37 +1715,27 @@
     "prohibited_item_4": "Het verstoren, onderbreken of proberen ongeautoriseerde toegang te krijgen tot de servers, netwerken of beveiligingssystemen van NoteOCR.",
     "prohibited_item_5": "Het gebruik van geautomatiseerde scripts, bots of crawlers om toegang te krijgen tot de Diensten op een manier die redelijk gebruik overschrijdt, zonder onze uitdrukkelijke schriftelijke toestemming.",
     "prohibited_item_6": "Het doorverkopen, in sublicentie geven of commercieel herdistribueren van de Diensten of output zonder het aangaan van een afzonderlijke reseller-overeenkomst met NoteOCR Inc.",
-
     "s8_t": "Gegevensprivacy & Beveiliging",
     "s8_c": "NoteOCR neemt gegevensbeveiliging serieus. Alle geüploade documenten worden versleuteld tijdens het transport met TLS 1.3 en in rust met AES-256 encryptie. Uw bestanden worden verwerkt in geïsoleerde rekenomgevingen en worden na voltooiing van de conversie automatisch van onze verwerkingsservers verwijderd. Opgeslagen documenten in uw persoonlijke bibliotheek blijven bewaard totdat u deze verwijdert of uw account sluit. NoteOCR is AVG/GDPR-conform en verkoopt, deelt of onthult uw Gebruikersinhoud niet aan derden voor enig ander doel dan het leveren van de Diensten. Wij gebruiken uw documenten niet om AI- of machine learning-modellen te trainen of te fine-tunen. Voor volledige details over hoe wij uw persoonsgegevens verzamelen, verwerken en beschermen, kunt u ons Privacybeleid raadplegen via noteocr.com/privacy.",
-
     "s9_t": "Disclaimers & Garanties",
     "s9_c": "De Diensten worden geleverd ('as is' en 'as available') zonder enige vorm van garantie, expliciet of impliciet, inclusief maar niet beperkt tot impliciete garanties van verkoopbaarheid, geschiktheid voor een bepaald doel en niet-inbreuk. NoteOCR garandeert niet dat: (a) de Diensten ononderbroken, foutloos of vrij van virussen of schadelijke componenten zullen zijn; (b) de nauwkeurigheid van de OCR-output een specifieke drempel zal halen voor enig specifiek document; of (c) defecten in de Diensten zullen worden gecorrigeerd. De OCR-nauwkeurigheid kan variëren op basis van handschriftkwaliteit, beeldresolutie en documentcomplexiteit. U neemt de volledige verantwoordelijkheid voor het verifiëren van de nauwkeurigheid van geconverteerde documenten voordat u deze gebruikt voor professionele, juridische, medische of financiële doeleinden.",
-
     "s10_t": "Beperking van Aansprakelijkheid",
     "s10_c": "Voor zover maximaal toegestaan door het toepasselijk recht, zullen NoteOCR Inc., haar functionarissen, directeuren, werknemers en agenten niet aansprakelijk zijn voor enige indirecte, incidentele, speciale, gevolg- of punitieve schade, inclusief maar niet beperkt tot verlies van inkomsten, verlies van gegevens, bedrijfsonderbreking of reputatieschade, voortvloeiend uit of verband houdend met uw gebruik van — of onvermogen om gebruik te maken van — de Diensten, zelfs als NoteOCR is geïnformeerd over de mogelijkheid van dergelijke schade. In geen geval zal de totale aansprakelijkheid van NoteOCR jegens u voor alle claims die voortvloeien uit deze Voorwaarden het totale bedrag overschrijden dat u aan NoteOCR heeft betaald in de twaalf (12) maanden voorafgaand aan de gebeurtenis die aanleiding geeft tot de claim. Niets in deze Voorwaarden beperkt aansprakelijkheid die onder het toepasselijk Zwitsers of EU recht niet kan worden uitgesloten.",
-
     "s11_t": "Vrijwaring",
     "s11_c": "U stemt ermee in om NoteOCR Inc. en haar functionarissen, directeuren, werknemers, contractanten en partners te vrijwaren, verdedigen en schadeloos te stellen van en tegen eventuele claims, aansprakelijkheden, schade, vonnissen, toewijzingen, verliezen, kosten en uitgaven (inclusief redelijke juridische kosten) die voortvloeien uit of verband houden met: (a) uw schending van deze Voorwaarden; (b) uw Gebruikersinhoud; (c) uw gebruik van de Diensten op een manier die niet is geautoriseerd door deze Voorwaarden; of (d) uw inbreuk op eventuele intellectuele eigendoms-, privacy- of andere rechten van derden.",
-
     "s12_t": "Beëindiging",
     "s12_c": "Elke partij kan deze overeenkomst op elk moment beëindigen. U kunt uw account op elk moment verwijderen vanuit uw accountinstellingen, waardoor uw opgeslagen documenten permanent worden verwijderd. NoteOCR kan uw account onmiddellijk en zonder voorafgaande kennisgeving opschorten of beëindigen als wij naar eigen goeddunken bepalen dat u deze Voorwaarden hebt geschonden, u zich bezighoudt met frauduleuze activiteiten of een risico vormt voor de beveiliging of integriteit van ons platform. Bij beëindiging vervalt uw licentie voor het gebruik van de Diensten onmiddellijk. Ongebruikte paginacredits worden niet gerestitueerd bij vrijwillige accountsluiting. Secties met betrekking tot intellectueel eigendom, vrijwaring, beperking van aansprakelijkheid en toepasselijk recht blijven na beëindiging van kracht.",
-
     "s13_t": "Wijzigingen in Deze Voorwaarden",
     "s13_c": "NoteOCR behoudt zich het recht voor om deze Voorwaarden op elk moment naar eigen goeddunken bij te werken of te wijzigen. Wanneer we materiële wijzigingen aanbrengen, zullen we geregistreerde gebruikers per e-mail op de hoogte stellen en de ('Laatst Bijgewerkt') datum bovenaan deze pagina bijwerken. We kunnen ook een kennisgeving in het platform weergeven. Uw voortgezet gebruik van de Diensten na de effectieve datum van eventuele herziene Voorwaarden vormt uw acceptatie van die wijzigingen. Als u niet akkoord gaat met de bijgewerkte Voorwaarden, moet u stoppen met het gebruik van de Diensten en mag u uw account sluiten.",
-
     "s14_t": "Toepasselijk Recht & Geschillen",
     "s14_c": "Deze Voorwaarden en eventuele geschillen die daaruit voortvloeien of daarmee verband houden, of met betrekking tot de Diensten, vallen uitsluitend onder de wetten van Zwitserland, ongeacht conflicterende wettelijke bepalingen. Elk geschil dat niet informeel kan worden opgelost, zal worden voorgelegd aan de exclusieve jurisdictie van de rechtbanken gevestigd in Zug, Zwitserland. Alvorens formele procedures te starten, stemmen beide partijen ermee in om te goeder trouw te proberen een geschil binnen 30 dagen op te lossen door contact op te nemen met support@noteocr.com. Niets in deze sectie weerhoudt NoteOCR ervan om voorlopige voorzieningen of andere billijke rechtsmiddelen aan te vragen bij elke bevoegde rechtbank om haar intellectuele eigendomsrechten te beschermen.",
-
     "s15_t": "Overige Bepalingen",
     "s15_c": "Deze Voorwaarden, samen met ons Privacybeleid, vormen de volledige overeenkomst tussen u en NoteOCR en vervangen alle eerdere overeenkomsten, verklaringen en afspraken. Indien enige bepaling van deze Voorwaarden onafdwingbaar wordt bevonden, blijven de overige bepalingen volledig van kracht. Het nalaten van NoteOCR om enig recht of bepaling van deze Voorwaarden af te dwingen, mag niet worden beschouwd als een verklaring van afstand van dat recht. U mag uw rechten of verplichtingen onder deze Voorwaarden niet toewijzen of overdragen zonder voorafgaande schriftelijke toestemming van NoteOCR. NoteOCR mag haar rechten vrijelijk overdragen als onderdeel van een fusie, overname of verkoop van activa. Deze Voorwaarden creëren geen partnerschap, joint venture of arbeidsrelatie tussen u en NoteOCR.",
-
     "contact_t": "Heeft u vragen over deze Voorwaarden?",
     "contact_d": "Ons juridische en ondersteunende team is beschikbaar om elk aspect van deze Servicevoorwaarden of ons platformbeleid te verduidelijken. We reageren meestal binnen één werkdag.",
     "contact_email_label": "E-mail ons juridische team",
     "contact_response": "Typische responstijd: 1 werkdag"
   },
-
   "PrivacyPage": {
     "meta_title": "Privacybeleid – NoteOCR | Hoe Wij Met Uw Gegevens Omgaan",
     "meta_desc": "Lees hoe NoteOCR uw persoonsgegevens verzamelt, gebruikt, opslaat en beschermt. Wij zijn volledig AVG/GDPR-conform en gebruiken uw documenten nooit om AI-modellen te trainen.",
@@ -1824,46 +1744,32 @@
     "last_updated": "Laatst Bijgewerkt",
     "date": "Januari 2026",
     "welcome_text": "NoteOCR Inc. ('NoteOCR', 'wij', 'ons', 'onze') doet er alles aan om uw persoonsgegevens te beschermen. Dit Privacybeleid legt uit hoe wij informatie verzamelen, gebruiken, vrijgeven en beveiligen wanneer u onze website bezoekt op noteocr.com of ons platform, API en gerelateerde diensten (gezamenlijk de 'Diensten') gebruikt. Dit beleid is in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG/GDPR), de Zwitserse Federale Wet inzake Gegevensbescherming (nFADP) en andere toepasselijke privacywetgeving. Door NoteOCR te gebruiken, gaat u akkoord met de praktijken die in dit Privacybeleid worden beschreven.",
-
     "s1_t": "Wie Wij Zijn & Verwerkingsverantwoordelijke",
     "s1_c": "NoteOCR Inc. is de verwerkingsverantwoordelijke die verantwoordelijk is voor uw persoonsgegevens. Wij zijn een technologiebedrijf opgericht naar Zwitsers recht met hoofdkantoor in Zug, Zwitserland. Onze Diensten omvatten een AI-gestuurd handschrift OCR-platform, een cloudgebaseerde documenteditor en een ontwikkelaars-API. Als u vragen heeft over hoe wij omgaan met uw persoonsgegevens, kunt u contact opnemen met ons contactpunt voor gegevensbescherming via support@noteocr.com. Wij zetten ons in om uw gegevens transparant, wettig en met de zorg die ze verdienen te behandelen.",
-
     "s2_t": "Welke Gegevens We Verzamelen",
     "s2_c": "We verzamelen de minimale gegevens die nodig zijn om onze Diensten te leveren en te verbeteren. De categorieën gegevens die we verzamelen omvatten: (a) Accountinformatie, uw naam, e-mailadres en gehasht wachtwoord bij registratie, of basisprofielinformatie verstrekt door OAuth-providers zoals Google; (b) Gebruiksgegevens, verwerkte pagina's, creditsaldo, conversiegeschiedenis, sessie-activiteit en functie-interacties om uw account te ondersteunen en nauwkeurigheid te verbeteren; (c) Apparaat- & Technische Gegevens, IP-adres, browsertype en -versie, besturingssysteem, verwijzende URL en algemene geografische regio (op land- of stadsniveau) die automatisch worden verzameld via serverlogs en cookies; (d) Betaalgegevens, factuurgegevens en transactiegegevens, uitsluitend verwerkt door onze externe betalingsverwerkers (Stripe). NoteOCR slaat nooit volledige kaartnummers of CVV-codes op; (e) Communicatie, berichten die u ons stuurt via e-mail of ondersteuningsformulieren, bewaard om uw vragen op te lossen; (f) Geüploade Inhoud, documenten, afbeeldingen en bestanden die u uploadt voor OCR-verwerking, onderworpen aan de strikte behandelingsregels beschreven in Sectie 4.",
-
     "s3_t": "Hoe We Uw Gegevens Gebruiken",
     "s3_c": "We gebruiken uw persoonsgegevens alleen voor de doeleinden waarvoor ze zijn verzameld, op basis van de volgende wettelijke grondslagen: (a) Uitvoering van de Overeenkomst, om uw account aan te maken en te beheren, uw paginacredits te verwerken, documentconversies uit te voeren en de Diensten te leveren die u heeft gekocht; (b) Gerechtvaardigde Belangen, om fraude te voorkomen, platformbeveiliging te handhaven, technische problemen op te lossen en geaggregeerde analyses te genereren die ons helpen het product te verbeteren; (c) Wettelijke Verplichting, om te voldoen aan de toepasselijke fiscale, boekhoudkundige en regelgevende vereisten in Zwitserland en de EU; (d) Toestemming, om optionele productupdates en aankondigingen van nieuwe functies per e-mail te sturen, welke u op elk moment kunt intrekken. Wij verkopen uw persoonsgegevens nooit en gebruiken deze niet voor reclamedoeleinden. We delen uw gegevens niet met datamakelaars, advertentienetwerken of enige derde partij voor commerciële profilering.",
-
     "s4_t": "Uw Geüploade Documenten",
     "s4_c": "Documenten die u uploadt worden met het hoogste niveau van vertrouwelijkheid behandeld en zijn onderworpen aan strikte technische controles. Alle geüploade bestanden worden versleuteld tijdens het transport met TLS 1.3 en in rust met AES-256. Bestanden worden verwerkt in geïsoleerde rekenomgevingen, geen enkel document wordt vermengd met de gegevens van een andere gebruiker tijdens de verwerking. Zodra een conversietaak is voltooid, wordt het bronbestand automatisch verwijderd van onze verwerkingsservers. Als u geconverteerde documenten opslaat in uw NoteOCR-bibliotheek, blijven deze bewaard totdat u ze handmatig verwijdert of uw account sluit. Wij openen, lezen, annoteren of analyseren de inhoud van uw documenten niet voor enig ander doel dan het uitvoeren van de door u gevraagde conversie. Bovenal gebruikt NoteOCR de inhoud van uw geüploade documenten NOOIT om enig AI- of machine learning-model te trainen, te fine-tunen, te evalueren of te verbeteren.",
-
     "s5_t": "Cookies & Tracking",
     "s5_c": "We gebruiken een minimale set cookies en vergelijkbare technologieën om onze Diensten te laten werken en te verbeteren. Strikt Noodzakelijke Cookies zijn essentieel om uw sessie te verifiëren en u ingelogd te houden, deze kunnen niet worden uitgeschakeld. Functionele Cookies onthouden uw voorkeuren zoals taal en thema. Analytische Cookies (optioneel) helpen ons te begrijpen hoe pagina's op geaggregeerd niveau worden gebruikt, zodat we het product kunnen verbeteren. We gebruiken privacyvriendelijke analyses en implementeren geen advertentiecookies van derden of cross-site tracking pixels van welke aard dan ook. U kunt uw cookievoorkeuren op elk moment beheren via uw browserinstellingen of onze cookie-banner in het platform. Het uitschakelen van optionele cookies heeft geen invloed op uw vermogen om de kerndiensten te gebruiken.",
-
     "s6_t": "Gegevens Delen & Derde Partijen",
     "s6_c": "We delen persoonsgegevens met een beperkte set vertrouwde dienstverleners die ons helpen bij het exploiteren van ons platform, en alleen voor zover dat nodig is. Deze omvatten: (a) Stripe, betalingsverwerking, onderworpen aan PCI-DSS naleving; (b) Google OAuth, optionele inlogauthenticatie; (c) Cloud Infrastructuur Providers, versleutelde serveropslag en rekenkracht, beschikbaar in regio's VS-Oost (N. Virginia), EU (Frankfurt) en APAC (Singapore); (d) E-mailbezorging, transactionele en notificatie e-maildiensten. Alle externe verwerkers zijn gebonden aan verwerkersovereenkomsten (DPA's) die hen verbieden uw gegevens te gebruiken voor enig ander doel dan de dienst die zij aan ons leveren. Wij dragen geen persoonsgegevens over aan derden voor marketing, profilering of enig commercieel doel buiten de exploitatie van de Diensten.",
-
     "s7_t": "Internationale Gegevensoverdrachten",
     "s7_c": "NoteOCR heeft zijn hoofdkantoor in Zwitserland, wat door de Europese Commissie wordt erkend als een land dat een passend niveau van gegevensbescherming biedt. Waar wij persoonsgegevens overdragen aan dienstverleners die opereren buiten de EER of Zwitserland (bijvoorbeeld cloudinfrastructuur in de VS of APAC), vertrouwen wij op de Standard Contractual Clauses (SCC's) van de Europese Commissie of gelijkwaardige overdrachtsmechanismen om ervoor te zorgen dat uw gegevens hetzelfde beschermingsniveau krijgen als binnen de EER. U kunt uw voorkeursregio voor gegevensverwerking (EU, VS of APAC) selecteren in uw accountinstellingen. Standaard worden nieuwe accounts toegewezen aan de EU-regio (Frankfurt).",
-
     "s8_t": "Gegevensbewaring",
     "s8_c": "We bewaren uw persoonsgegevens alleen zolang als nodig is om de in dit beleid beschreven doeleinden te vervullen. Accountinformatie wordt bewaard voor de duur van uw account en tot 90 dagen na sluiting van het account om herstel of geschillenbeslechting mogelijk te maken, waarna het permanent wordt verwijderd. Verwerkte bronbestanden worden automatisch verwijderd zodra de conversie is voltooid. Documenten die in uw NoteOCR-bibliotheek zijn opgeslagen, worden bewaard totdat u deze verwijdert of uw account sluit. Betalings- en transactiegegevens worden 7 jaar bewaard in overeenstemming met de Zwitserse en EU-belastingvoorschriften. Ondersteuningscommunicatie wordt tot 3 jaar bewaard. Geanonimiseerde en geaggregeerde analysegegevens kunnen voor onbepaalde tijd worden bewaard omdat hieruit geen individuen kunnen worden geïdentificeerd.",
-
     "s9_t": "Uw Privacyrechten",
     "s9_c": "Afhankelijk van uw locatie kunt u de volgende rechten hebben met betrekking tot uw persoonsgegevens: Recht op Inzage, vraag een kopie op van alle persoonsgegevens die we over u bewaren; Recht op Rectificatie, verzoek om correctie van onjuiste of onvolledige gegevens; Recht op Vergetelheid (Wissing), verzoek om verwijdering van uw persoonsgegevens wanneer er geen dwingende wettelijke basis is voor bewaring ervan; Recht op Beperking, verzoek dat we de manier waarop we uw gegevens verwerken beperken terwijl een geschil wordt opgelost; Recht op Dataportabiliteit, ontvang uw gegevens in een gestructureerd, machineleesbaar formaat; Recht van Bezwaar, maak bezwaar tegen verwerking op basis van gerechtvaardigde belangen, inclusief profilering; Recht om Toestemming In Te Trekken, trek toestemming voor e-mailcommunicatie op elk moment in zonder dat dit van invloed is op eerdere verwerking. Om een van deze rechten uit te oefenen, e-mail support@noteocr.com met de onderwerpregel 'Privacy Request'. Wij zullen binnen 30 dagen reageren. U heeft ook het recht om een klacht in te dienen bij uw lokale gegevensbeschermingsautoriteit (zoals de Autoriteit Persoonsgegevens in NL).",
-
     "s10_t": "Beveiligingsmaatregelen",
     "s10_c": "Wij implementeren technische en organisatorische beveiligingsmaatregelen ontworpen om uw persoonsgegevens te beschermen tegen ongeautoriseerde toegang, wijziging, openbaarmaking of vernietiging. Deze maatregelen omvatten: AES-256 encryptie in rust voor alle opgeslagen bestanden en accountgegevens; TLS 1.3 encryptie voor alle gegevens tijdens het transport; geïsoleerde rekenomgevingen voor elke documentverwerkingstaak; op rollen gebaseerde toegangscontroles die interne toegang tot persoonsgegevens beperken op basis van 'need-to-know'; regelmatige beveiligingsaudits en penetratietesten; en automatische verwijdering van bronbestanden na voltooiing van de verwerking. Ondanks deze maatregelen is geen enkele methode van overdracht via het internet of elektronische opslag 100% veilig. Als we ons bewust worden van een inbreuk op persoonsgegevens die een risico vormt voor uw rechten en vrijheden, zullen wij u en de relevante toezichthoudende autoriteit binnen 72 uur op de hoogte stellen zoals vereist door de AVG/GDPR.",
-
     "s11_t": "Privacy van Kinderen",
     "s11_c": "NoteOCR richt zich niet op kinderen onder de 13 jaar, en wij verzamelen niet bewust persoonsgegevens van kinderen onder de 13 jaar. Gebruikers tussen 13 en 18 jaar moeten toestemming hebben van een ouder of voogd voordat ze onze Diensten gebruiken, zoals vermeld in onze Algemene Voorwaarden. Als u een ouder of voogd bent en van mening bent dat uw kind zonder uw toestemming persoonsgegevens aan NoteOCR heeft verstrekt, neem dan contact met ons op via support@noteocr.com. Wij zullen de zaak onmiddellijk onderzoeken en dergelijke gegevens verwijderen. We leveren niet bewust gepersonaliseerde inhoud of advertenties aan minderjarigen.",
-
     "s12_t": "Wijzigingen in Dit Beleid",
     "s12_c": "We kunnen dit Privacybeleid van tijd tot tijd bijwerken om wijzigingen in onze praktijken, technologie, wettelijke vereisten of voor andere operationele redenen weer te geven. Wanneer we materiële wijzigingen aanbrengen, zullen we geregistreerde gebruikers per e-mail op de hoogte stellen en de 'Laatst Bijgewerkt' datum bovenaan deze pagina bijwerken. We kunnen ook een banner in het platform weergeven om de aandacht te vestigen op belangrijke wijzigingen. Uw voortgezet gebruik van de Diensten na de effectieve datum van enig herzien Privacybeleid vormt uw acceptatie van die wijzigingen. We moedigen u aan dit beleid regelmatig te herzien. Eerdere versies van dit beleid zijn op verzoek beschikbaar.",
-
     "s13_t": "Contact & DPO",
     "s13_c": "Als u vragen, zorgen of verzoeken heeft met betrekking tot dit Privacybeleid of de manier waarop wij met uw persoonsgegevens omgaan, neem dan contact met ons op. We zetten ons in om alle privacy-gerelateerde vragen snel en te goeder trouw op te lossen. U heeft ook het recht om onopgeloste zorgen te escaleren naar een toezichthoudende autoriteit. In Nederland is dit de Autoriteit Persoonsgegevens (AP) en in België de Gegevensbeschermingsautoriteit (GBA).",
-
     "rights_title": "Uw Rechten in Eén Oogopslag",
     "right_access": "Krijg toegang tot uw data",
     "right_rectify": "Corrigeer onjuistheden",
@@ -1872,7 +1778,6 @@
     "right_portability": "Exporteer uw data",
     "right_object": "Maak bezwaar tegen profilering",
     "right_consent": "Trek toestemming in",
-
     "data_table_title": "Gegevens Die We Verzamelen",
     "data_col_type": "Gegevenstype",
     "data_col_purpose": "Doel",
@@ -1898,7 +1803,6 @@
     "data_row5_purpose": "Oplossen van vragen/support",
     "data_row5_basis": "Gerechtvaardigd belang",
     "data_row5_retention": "3 jaar",
-
     "security_title": "Onze Beveiligingsverplichtingen",
     "security_badge1": "AES-256 in Rust",
     "security_badge2": "TLS 1.3 tijdens Transport",
@@ -1908,9 +1812,7 @@
     "security_badge6": "Regelmatige Pentests",
     "security_badge7": "Geen Modeltraining op Data",
     "security_badge8": "AVG / GDPR Conform",
-
     "welcome_text_short": "Lees dit beleid zorgvuldig door. Het beschrijft in duidelijke taal hoe NoteOCR met uw persoonsgegevens omgaat.",
-
     "contact_t": "Privacyvragen of dataverzoeken?",
     "contact_d": "Ons team behandelt alle privacyvragen persoonlijk. Of u nu toegang wilt tot uw data, deze wilt corrigeren of verwijderen, of gewoon een vraag heeft — wij reageren binnen 30 dagen zoals vereist door de AVG.",
     "contact_email_label": "E-mail ons privacyteam",
@@ -1921,7 +1823,6 @@
       "title": "Documentatie | NoteOCR - Handschrift OCR & Document Intelligence",
       "description": "Leer hoe u handschrift naar tekst converteert, tabellen naar Excel extraheert en uw documentworkflows automatiseert met de uitgebreide gidsen van NoteOCR."
     },
-
     "sidebar": {
       "external_links": "Externe Links",
       "api_reference": "API Referentie",
@@ -2077,144 +1978,109 @@
   "pic-to-excel": {
     "meta_title": "Foto naar Excel Converteren Online | Afbeelding naar Excel AI",
     "meta_desc": "Maak van elke foto een spreadsheet. Converteer JPG, PNG of screenshots direct naar bewerkbare Excel (.xlsx). Beste AI voor datatabellen, facturen & handschrift.",
-
     "hero_pill": "AI Afbeelding-naar-Tabel Technologie",
     "hero_title": "Converteer Foto's naar Excel met AI Tabelherkenning",
     "hero_subtitle": "Zet foto's, screenshots en handgeschreven notities om in bewerkbare Excel spreadsheets. Geen handmatige invoer. Ondersteuning voor JPG en PNG.",
-
     "trust_ssl": "SSL VERSLEUTELD",
     "trust_processing": "DIRECTE CONVERSIE",
     "trust_accuracy": "99% TABEL NAUWKEURIGHEID",
-
     "before_after_title": "Van Afbeelding naar Spreadsheet",
     "before_after_desc": "Zie hoe onze AI data uit statische afbeeldingen extraheert naar bewerkbare cellen",
     "before_label": "Voor: Afbeelding / Screenshot",
     "before_placeholder": "[Upload elke afbeelding met een tabel]",
     "after_label": "Na: Bewerkbare Excel",
     "after_placeholder": "[Voorbeeld geformatteerde .xlsx]",
-
     "use_cases_title": "Wie Heeft een Afbeelding-naar-Excel Converter Nodig?",
     "use_cases_subtitle": "Van data-invoermedewerkers tot ondernemers, wij automatiseren het saaie werk",
-
     "use_case_1_title": "Digitaliseer Facturen & Bonnetjes",
     "use_case_1_desc": "Maak een foto van papieren facturen. Onze AI extraheert de regelitems, hoeveelheden en prijzen direct in kolommen voor uw boekhoudsoftware.",
-
     "use_case_2_title": "Screenshot naar Excel",
     "use_case_2_desc": "Heeft u een tabel in een PDF of op een website die u niet kunt kopiëren/plakken? Maak een screenshot en upload het. Wij reconstrueren het raster onmiddellijk.",
-
     "use_case_3_title": "Handgeschreven Logboeken",
     "use_case_3_desc": "De enige tool die rommelig handschrift verwerkt. Converteer logboeken voor magazijnvoorraad en veldjournaals naar digitale spreadsheets.",
-
     "use_case_4_title": "Financiële Overzichten",
     "use_case_4_desc": "Converteer foto's van bankafschriften of geprinte grootboeken. Wij behouden de decimale punten en valuta-opmaak voor 100% data-integriteit.",
-
     "comparison_title": "Afbeelding naar Excel: Waarom NoteOCR Wint",
     "comparison_subtitle": "Worstel niet met generieke PDF-converters",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Tijd",
     "comparison_col_accuracy": "Tabelstructuur",
     "comparison_col_cost": "Moeite",
-
     "comparison_row1_method": "Handmatige Data Invoer",
     "comparison_row1_time": "1 uur/pagina",
     "comparison_row1_accuracy": "Hoog Risico op Typfouten",
     "comparison_row1_cost": "Hoog (Saai)",
-
     "comparison_row2_method": "Generieke PDF Tools",
     "comparison_row2_time": "5 minuten",
     "comparison_row2_accuracy": "Gaat stuk bij Afbeeldingen",
     "comparison_row2_cost": "Frustrerend",
-
     "comparison_row3_method": "NoteOCR AI",
     "comparison_row3_time": "60 Seconden",
     "comparison_row3_accuracy": "Perfect Rasterbehoud",
     "comparison_row3_cost": "Geautomatiseerd",
-
     "features_title": "De Beste Manier om Foto's naar Tabellen te Converteren",
     "features_subtitle": "Ontworpen voor JPG's, PNG's en mobiele foto's",
-
     "feature_1_title": "Onafhankelijk van Formaat",
     "feature_1_desc": "Heeft u geen PDF? Geen probleem. Wij zijn gespecialiseerd in ruwe afbeeldingsformaten (JPG, JPEG, PNG) die andere converters afwijzen.",
-
     "feature_2_title": "Intelligente Rasterreconstructie",
     "feature_2_desc": "Onze AI leest niet alleen tekst; het 'ziet' het raster. Het lijnt zwevende data uit in rijen en kolommen, zelfs als de foto schuin is genomen.",
-
     "feature_3_title": "Mobile-First Verwerking",
     "feature_3_desc": "Gebouwd voor de 'Snap and Go' workflow. Maak een foto van een document op uw bureau en ontvang in enkele seconden een Excel-bestand op uw apparaat.",
-
     "tech_title": "Hoe Afbeelding-naar-Excel AI Werkt",
     "tech_intro": "Een 'platte' foto omzetten in een dynamische spreadsheet is complex. NoteOCR gebruikt Computer Vision om de visuele lijnen (of geïmpliceerde lijnen) van een tabel te detecteren. Het scheidt de afbeelding in een rastercoördinatensysteem, voert OCR uit op elke 'cel' afzonderlijk, en assembleert de data vervolgens opnieuw in een conform .xlsx bestand.",
-
     "tech_detect_title": "Wat We Extraheren",
     "tech_detect_1": "Tabelstructuren uit screenshots",
     "tech_detect_2": "Data uit scheve/schuine foto's",
     "tech_detect_3": "Handgeschreven en gedrukte getallen",
     "tech_detect_4": "Lay-outs met meerdere kolommen",
     "tech_detect_5": "Kop- en voetteksten",
-
     "tech_tips_title": "Tips voor Perfecte Conversies",
     "tech_tips_1": "Zorg dat de afbeelding scherp is (niet wazig)",
     "tech_tips_2": "Vermijd schaduwen over de datatabel",
     "tech_tips_3": "Snijd de afbeelding bij tot het relevante tabelgebied",
     "tech_tips_4": "Gebruik instellingen voor hoge resolutie (HD)",
     "tech_tips_5": "Controleer op standaard formaten zoals JPG of PNG",
-
     "related_tools_title": "Meer Conversie Tools",
-
     "related_tool_1_name": "Afbeelding naar Word",
     "related_tool_1_desc": "Converteer handgeschreven tekst naar opgemaakte documenten",
-
     "related_tool_2_name": "PDF online bewerken (geen installatie)",
     "related_tool_2_desc": "Upload en bewerk PDF-documenten overal online",
-
     "related_tool_3_name": "Online Document Editor",
     "related_tool_3_desc": "Bewerk MS Word of Excel documenten gratis online",
-
     "related_tool_4_name": "Afbeelding naar Tekst",
     "related_tool_4_desc": "Zet cursieve tekst in afbeeldingen om in geformatteerde bewerkbare tekst",
-
     "faq_title": "FAQ: Afbeeldingen naar Excel Converteren",
-
     "cta_title": "Maak van Die Foto een Spreadsheet",
     "cta_subtitle": "Stop met typen. Begin met scannen. Sluit u aan bij 10.000+ gebruikers die uren besparen op data-invoer.",
     "cta_button": "Afbeelding Nu Converteren",
-
     "tool_upload_title": "Upload Afbeelding om te Converteren",
     "tool_upload_desc": "Ondersteunt JPG, PNG, WEBP. Werkt op screenshots, foto's en gescande documenten.",
     "tool_upload_button": "Selecteer Foto",
     "tool_upload_check_1": "JPG / PNG Ondersteuning",
     "tool_upload_check_2": "Geen Aanmelding Vereist",
     "tool_upload_check_3": "Veilige Verwerking",
-
     "tool_processing_title": "Afbeelding Analyseren...",
     "tool_processing_desc": "Tabelstructuur identificeren en data extraheren",
-
     "tool_complete_title": "Excel Bestand Klaar!",
     "tool_complete_desc": "Uw afbeelding is geconverteerd. Download uw spreadsheet hieronder.",
     "tool_complete_file_type": "Microsoft Excel (.xlsx)",
     "tool_complete_status": "SUCCES",
     "tool_download_button": "Download Excel",
     "tool_new_button": "Nog Een Converteren",
-
     "tool_info_1_title": "Elke Afbeelding",
     "tool_info_1_desc": "JPG, PNG, Screenshots ondersteund",
-
     "tool_info_2_title": "Tabel AI",
     "tool_info_2_desc": "Behoudt rijen & kolommen automatisch",
-
     "tool_info_3_title": "Bewerkbaar",
     "tool_info_3_desc": "Volledige Excel (.xlsx) output",
-
     "tool_tip_label": "Scan Tip:",
     "tool_tip_text": "Bij het converteren van een lang document kunt u beter meerdere foto's dichter bij het papier nemen dan één foto van ver af. Hogere helderheid staat gelijk aan betere nauwkeurigheid.",
-
     "toast_success": "Afbeelding succesvol geconverteerd!",
     "toast_error_type": "Upload a.u.b. een geldig afbeeldingsbestand (JPG, PNG)",
     "toast_error_size": "Bestandsgrootte moet kleiner zijn dan 25MB",
     "toast_error_extraction": "Kon geen tabel detecteren.",
     "toast_download_success": "Spreadsheet opgeslagen op apparaat!",
     "toast_download_error": "Download mislukt.",
-
     "FAQ": {
       "items": {
         "pic_to_excel_how": {
@@ -2283,146 +2149,110 @@
   "JpgToWord": {
     "meta_title": "Converteer JPG naar Word Document | Tekst Extraheren van JPEG naar DOCX",
     "meta_desc": "Converteer JPG en JPEG afbeeldingen direct naar bewerkbare Word-documenten. Onze geavanceerde OCR extraheert tekst uit foto's, screenshots en scans met behoud van opmaak.",
-
     "hero_pill": "Snelle Afbeelding-naar-Tekst OCR",
     "hero_title": "Converteer JPG Direct naar Word Documenten",
     "hero_subtitle": "Stop met het overtypen van tekst uit afbeeldingen. Upload een JPG, JPEG of foto, en onze geavanceerde AI zal de tekst nauwkeurig extraheren naar een volledig bewerkbaar Microsoft Word (.docx) bestand.",
-
     "trust_ssl": "256-BIT VEILIGE UPLOAD",
     "trust_processing": "SNELLE JPEG VERWERKING",
     "trust_accuracy": "HOGE GETROUWHEID OCR",
-
     "before_after_title": "Van Platte Afbeelding naar Bewerkbare Tekst",
     "before_after_desc": "Zie hoe we tekst perfect extraheren uit een JPG naar een bewerkbaar formaat.",
     "before_label": "Voor: Originele JPG Afbeelding",
     "before_placeholder": "",
     "after_label": "Na: Bewerkbaar Word Document",
     "after_placeholder": "",
-
     "use_cases_title": "Waarom JPG naar Word Converteren?",
     "use_cases_subtitle": "De eenvoudigste manier om tekst die vastzit in afbeeldingen volledig bewerkbaar te maken.",
-
     "use_case_1_title": "Gescande Documenten",
     "use_case_1_desc": "Verander gescande JPEG's van contracten, facturen en officiële brieven in bewerkbare tekst met behoud van paragrafen en lay-out.",
-
     "use_case_2_title": "Screenshots & Web Fragmenten",
     "use_case_2_desc": "Converteer JPG screenshots van websites, beperkte PDF's of apps naar tekst die u direct kunt kopiëren, bewerken en formatteren in Word.",
-
     "use_case_3_title": "Foto's van Geprinte Pagina's",
     "use_case_3_desc": "Een foto gemaakt van een boek, handleiding of tijdschrift? Extraheer de tekst nauwkeurig zonder een enkel woord te hoeven typen.",
-
     "use_case_4_title": "Afbeeldingen met Handschrift",
     "use_case_4_desc": "In tegenstelling tot basisconverters kan onze engine ook JPG-foto's met handgeschreven notities of whiteboardsessies lezen en converteren.",
-
     "comparison_title": "JPG naar Word: Waarom Bestandsconverters Falen",
     "comparison_subtitle": "De meeste tools plakken uw afbeelding gewoon in een Word-bestand. NoteOCR extraheert de tekst daadwerkelijk.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Tijd",
     "comparison_col_accuracy": "Tekst Extractie",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Handmatig Typen",
     "comparison_row1_time": "15-30 minuten",
     "comparison_row1_accuracy": "Hoog (maar vervelend)",
     "comparison_row1_cost": "Uw Tijd",
-
     "comparison_row2_method": "Standaard Bestandsconverters",
     "comparison_row2_time": "1 minuut",
     "comparison_row2_accuracy": "0% (Plakt alleen afbeelding)",
     "comparison_row2_cost": "Vaak Betaald",
-
     "comparison_row3_method": "NoteOCR (AI Extractie)",
     "comparison_row3_time": "15 Seconden",
     "comparison_row3_accuracy": "98%+ Bewerkbare Tekst",
     "comparison_row3_cost": "Gratis te Testen",
-
     "features_title": "Geavanceerde JPG Tekst Extractie",
     "features_subtitle": "Specifiek gebouwd voor het halen van nauwkeurige tekst uit afbeeldingsbestanden.",
-
     "feature_1_title": "Accepteert JPG & JPEG Formaten",
     "feature_1_desc": "Of uw bestand nu eindigt op .jpg of .jpeg, ons systeem verwerkt standaard webafbeeldingen, telefoonfoto's en hoge resolutie camera-opnames perfect.",
-
     "feature_2_title": "Lay-out & Paragraaf Behoud",
     "feature_2_desc": "We dumpen niet alleen platte tekst. Onze OCR detecteert regeleinden, paragrafen en lijststructuren, zodat uw gedownloade Word-document eruitziet als de originele afbeelding.",
-
     "feature_3_title": "Meertalige Ondersteuning",
     "feature_3_desc": "Extraheer tekst uit JPEG's in het Engels, Spaans, Frans, Duits, Nederlands en tientallen andere talen met gespecialiseerde tekenherkenning.",
-
     "tech_title": "Hoe Onze Afbeelding-naar-Word Engine Werkt",
     "tech_intro": "Het converteren van een JPG-bestand naar een bewerkbaar Word-document vereist Optical Character Recognition (OCR). NoteOCR analyseert de pixels in uw afbeelding, identificeert individuele letters en woorden, brengt de documentstructuur in kaart en genereert een native Microsoft Word-bestand dat u onmiddellijk kunt bewerken.",
-
     "tech_detect_title": "Wat de Engine Verwerkt",
     "tech_detect_1": "Standaard gedrukte tekst en typografie",
     "tech_detect_2": "Cursief en handgeschreven tekst binnen de afbeelding",
     "tech_detect_3": "Paragraaf spatiëring en regeleinden",
     "tech_detect_4": "Beeldcontrast en verwijdering van achtergrondruis",
     "tech_detect_5": "Automatische oriëntatiecorrectie",
-
     "tech_tips_title": "Tips voor de Beste Conversie",
     "tech_tips_1": "Zorg ervoor dat de afbeelding niet wazig is",
     "tech_tips_2": "Vermijd zware schaduwen over de tekst",
     "tech_tips_3": "Houd de tekst parallel aan de camera",
     "tech_tips_4": "JPEG's met hogere resolutie leveren betere resultaten op",
     "tech_tips_5": "Snijd onnodige achtergronden bij indien mogelijk",
-
     "related_tools_title": "Andere Conversie Tools",
-
     "related_tool_1_name": "Afbeelding naar Excel",
     "related_tool_1_desc": "Extraheer datatabellen uit afbeeldingen naar spreadsheets",
-
     "related_tool_2_name": "Foto naar Word",
     "related_tool_2_desc": "Converteer camera foto's direct naar Word",
-
     "related_tool_3_name": "Handschrift naar Tekst",
     "related_tool_3_desc": "Gespecialiseerde transcriptie van cursief en notities",
-
     "related_tool_4_name": "Online Editor",
     "related_tool_4_desc": "Bewerk uw documenten veilig in de browser",
-
     "faq_title": "Veelgestelde Vragen over JPG naar Word",
-
     "cta_title": "Klaar om Tekst uit uw JPG te Extraheren?",
     "cta_subtitle": "Stop met typen en begin in seconden met bewerken.",
     "cta_button": "Upload JPG Nu",
-
     "footer_text": "NoteOCR // Intelligente Afbeeldingsverwerking",
-
     "tool_upload_title": "Upload Uw JPG Afbeelding",
     "tool_upload_desc": "Ondersteunt standaard foto's, screenshots en gescande afbeeldingen. Wij extraheren de tekst en geven u een geformatteerd Word document.",
     "tool_upload_button": "Selecteer JPG / JPEG",
     "tool_upload_check_1": "JPG, JPEG, PNG",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Verwijderd auto na 24u",
-
     "tool_processing_title": "Tekst Extraheren uit Afbeelding...",
     "tool_processing_desc": "OCR uitvoeren en uw Word-document opmaken",
-
     "tool_complete_title": "Extractie Voltooid!",
     "tool_complete_desc": "Uw tekst is succesvol geëxtraheerd. Download uw bewerkbare bestand hieronder.",
     "tool_complete_file_type": "Word Document (.docx)",
     "tool_complete_status": "KLAAR",
     "tool_download_button": "Download Word",
     "tool_new_button": "Nog Een JPG Converteren",
-
     "tool_info_1_title": "Volledig Bewerkbaar",
     "tool_info_1_desc": "Tekst wordt geëxtraheerd, niet alleen geplakt als afbeelding",
-
     "tool_info_2_title": "Lay-out Behouden",
     "tool_info_2_desc": "Paragrafen en regeleinden blijven intact",
-
     "tool_info_3_title": "Universele DOCX",
     "tool_info_3_desc": "Opent in MS Word, Google Docs & Pages",
-
     "tool_tip_label": "Pro Tip:",
     "tool_tip_text": "Als uw JPG erg donker is of weinig contrast heeft, probeer dan de helderheid iets te verhogen op uw apparaat voordat u uploadt, voor de absoluut beste OCR nauwkeurigheid.",
-
     "toast_success": "Afbeelding succesvol geconverteerd!",
     "toast_error_type": "Upload a.u.b. een geldig afbeeldingsbestand (JPG, JPEG, PNG)",
     "toast_error_size": "Bestandsgrootte moet kleiner zijn dan 25MB",
     "toast_error_conversion": "Conversie mislukt. Probeer a.u.b. een duidelijkere afbeelding.",
     "toast_download_success": "Word-document gedownload!",
     "toast_download_error": "Download mislukt.",
-
     "FAQ": {
       "items": {
         "how_to_convert": {
@@ -2471,146 +2301,110 @@
   "ScanToWord": {
     "meta_title": "Scanner naar Word | Converteer Gescande Documenten naar Bewerkbare Tekst",
     "meta_desc": "Converteer gescande documenten vanaf uw flatbed scanner of mobiele app direct naar bewerkbare Microsoft Word bestanden met professionele OCR.",
-
     "hero_pill": "Professionele Document OCR",
     "hero_title": "Converteer Scans naar Word Documenten",
     "hero_subtitle": "Digitaliseer uw papierwerk direct. Upload gescande afbeeldingen van contracten, boeken of fysieke documenten, en onze AI zal deze reconstrueren als volledig bewerkbare Microsoft Word (.docx) bestanden.",
-
     "trust_ssl": "ENTERPRISE-NIVEAU BEVEILIGING",
     "trust_processing": "HOGE VOLUMES MOGELIJK",
     "trust_accuracy": "99% PRINT NAUWKEURIGHEID",
-
     "before_after_title": "Van Fysiek Papier naar Digitaal Document",
     "before_after_desc": "Zie hoe wij een platte digitale scan omzetten naar een volledig werkbaar tekstdocument.",
     "before_label": "Voor: Gescande Papieren Afbeelding",
     "before_placeholder": "",
     "after_label": "Na: Bewerkbaar Word Document",
     "after_placeholder": "",
-
     "use_cases_title": "Wie gebruikt onze Scanner naar Word tool?",
     "use_cases_subtitle": "Gebouwd voor professionals die te maken hebben met veel papierwerk.",
-
     "use_case_1_title": "Juridisch & Vastgoed",
     "use_case_1_desc": "Scan getekende fysieke contracten, huurovereenkomsten en aktes, en converteer ze naar Word om eenvoudig clausules te bewerken of voorwaarden bij te werken.",
-
     "use_case_2_title": "Kantooradministratie",
     "use_case_2_desc": "Stop met het handmatig overtypen van geprinte memo's, leveranciersfacturen en fysieke post. Scan en converteer ze in seconden naar bewerkbare tekst.",
-
     "use_case_3_title": "Auteurs & Uitgevers",
     "use_case_3_desc": "Digitaliseer oude niet meer gedrukte boeken, geprinte manuscripten of tijdschriftartikelen met een flatbed scanner om bewerkbare digitale archieven te creëren.",
-
     "use_case_4_title": "Academisch Onderzoek",
     "use_case_4_desc": "Scan pagina's uit naslagwerken of bibliotheekarchieven en converteer ze naar Word-documenten voor eenvoudige bronvermelding, markering en doorzoekbaarheid.",
-
     "comparison_title": "Scans Digitaliseren: De Beste Aanpak",
     "comparison_subtitle": "Waarom handmatige transcriptie verleden tijd is voor gescande documenten.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Tijd",
     "comparison_col_accuracy": "Lay-out Behoud",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Handmatige Data Invoer",
     "comparison_row1_time": "1 uur per 5 pagina's",
     "comparison_row1_accuracy": "Verliest originele lay-out",
     "comparison_row1_cost": "Hoge arbeidskosten",
-
     "comparison_row2_method": "Gratis Online Converters",
     "comparison_row2_time": "2 minuten",
     "comparison_row2_accuracy": "Slecht (Verknoeit marges)",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR Scan Engine",
     "comparison_row3_time": "20 Seconden",
     "comparison_row3_accuracy": "Behoudt paragrafen & lijsten",
     "comparison_row3_cost": "Gratis te Testen",
-
     "features_title": "Gebouwd voor Gescande Media",
     "features_subtitle": "Geavanceerde functies om om te gaan met de eigenaardigheden van hardware scanners.",
-
     "feature_1_title": "Deskew & Auto-Rotatie",
     "feature_1_desc": "Heeft u het papier iets scheef in de scanner ingevoerd? Onze engine trekt scheve scans automatisch recht voordat de tekst wordt geëxtraheerd.",
-
     "feature_2_title": "Spikkel & Ruis Verwijdering",
     "feature_2_desc": "Oude scanners laten vaak zwarte stippen of lijnen achter op de afbeelding. Onze AI schoont de gescande achtergrond op om perfecte tekstherkenning te garanderen.",
-
     "feature_3_title": "Behoudt Documentstructuur",
     "feature_3_desc": "Behoudt de koppen, opsommingstekens en inspringingen van uw fysieke document bij het migreren van de tekst naar Microsoft Word.",
-
     "tech_title": "Hoe We Gescande Documenten Verwerken",
     "tech_intro": "Wanneer u een gescande afbeelding uploadt, maakt NoteOCR gebruik van gespecialiseerde Document Layout Analysis (DLA). In tegenstelling tot basistools die blind van links naar rechts lezen, begrijpt onze engine de structurele hiërarchie van een fysieke pagina.",
-
     "tech_detect_title": "Wat Onze OCR Engine Detecteert",
     "tech_detect_1": "Standaard gedrukte typografie en lettertypen",
     "tech_detect_2": "Lay-outs met meerdere kolommen en zijbalken",
     "tech_detect_3": "Cursief, vetgedrukt en onderstreept tekstformaat",
     "tech_detect_4": "Handgeschreven handtekeningen op geprinte formulieren",
     "tech_detect_5": "Genummerde lijsten en opsommingstekens",
-
     "tech_tips_title": "Tips voor Scanapparatuur",
     "tech_tips_1": "Stel uw scanner in op minimaal 300 DPI",
     "tech_tips_2": "Sla scans op als hoogwaardige PNG of JPG bestanden",
     "tech_tips_3": "Veeg de glasplaat van uw scanner af om vlekken te voorkomen",
     "tech_tips_4": "Druk dikke boeken plat tegen het glas",
     "tech_tips_5": "Gebruik de 'Zwart & Wit' modus voor de scherpste tekst",
-
     "related_tools_title": "Ontdek Meer Document Tools",
-
     "related_tool_1_name": "Afbeelding naar Excel",
     "related_tool_1_desc": "Extraheer datatabellen uit afbeeldingen naar spreadsheets",
-
     "related_tool_2_name": "Foto naar Word",
     "related_tool_2_desc": "Converteer camera foto's direct naar Word",
-
     "related_tool_3_name": "Handschrift naar Tekst",
     "related_tool_3_desc": "Gespecialiseerde transcriptie van cursief en notities",
-
     "related_tool_4_name": "Online Editor",
     "related_tool_4_desc": "Bewerk uw documenten veilig in de browser",
-
     "faq_title": "Veelgestelde Vragen over Gescande Documenten",
-
     "cta_title": "Klaar om Uw Papierwerk te Digitaliseren?",
     "cta_subtitle": "Verander die fysieke scans vandaag nog in werkbare Word bestanden.",
     "cta_button": "Upload Scan Nu",
-
     "footer_text": "NoteOCR // Professionele Scan Digitalisering",
-
     "tool_upload_title": "Upload Uw Gescande Bestand",
     "tool_upload_desc": "Upload afbeeldingsbestanden (JPG, PNG) gegenereerd door uw flatbed scanner of mobiele scan-app.",
     "tool_upload_button": "Selecteer Gescande Afbeelding",
     "tool_upload_check_1": "Hoge Resolutie Ondersteund",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Zakelijk Vertrouwelijk",
-
     "tool_processing_title": "Gescand Document Verwerken...",
     "tool_processing_desc": "Contrast verbeteren en lay-outanalyse uitvoeren",
-
     "tool_complete_title": "Scan Geconverteerd!",
     "tool_complete_desc": "Uw fysieke scan is nu een digitaal, bewerkbaar document. Download het hieronder.",
     "tool_complete_file_type": "Word Document (.docx)",
     "tool_complete_status": "KLAAR",
     "tool_download_button": "Download Word",
     "tool_new_button": "Volgende Scan Converteren",
-
     "tool_info_1_title": "Volledig Bewerkbare Tekst",
     "tool_info_1_desc": "Update clausules, herstel typfouten en formatteer vrij",
-
     "tool_info_2_title": "Lay-out Intact",
     "tool_info_2_desc": "Koppen en lijsten worden meegenomen naar Word",
-
     "tool_info_3_title": "Veilige Verwerking",
     "tool_info_3_desc": "Uw scans worden nooit opgeslagen of gedeeld",
-
     "tool_tip_label": "Scan Tip:",
     "tool_tip_text": "Voor de meest nauwkeurige conversie configureert u uw fysieke scanner op 300 DPI (Dots Per Inch) of hoger. Lagere resoluties kunnen ervoor zorgen dat letters zoals 'c' en 'e' in elkaar overlopen.",
-
     "toast_success": "Scan succesvol gedigitaliseerd!",
     "toast_error_type": "Upload a.u.b. een geldig gescand afbeeldingsbestand",
     "toast_error_size": "Scan bestandsgrootte moet kleiner zijn dan 25MB",
     "toast_error_conversion": "Conversie mislukt. Probeer een scan met een hoger contrast.",
     "toast_download_success": "Word-document gedownload!",
     "toast_download_error": "Download mislukt.",
-
     "FAQ": {
       "items": {
         "how_to_convert_scan": {
@@ -2659,146 +2453,110 @@
   "PhotoToWord": {
     "meta_title": "Converteer Foto naar Word Document | Tekst Extraheren uit Foto's",
     "meta_desc": "Maak een foto en converteer deze naar tekst. Onze AI extraheert tekst uit foto's van whiteboards, boeken en schermen rechtstreeks naar bewerkbare Word-documenten.",
-
     "hero_pill": "Camera naar Tekst OCR",
     "hero_title": "Converteer Elke Foto naar een Word Document",
     "hero_subtitle": "Maak van uw smartphone foto's bewerkbare tekst. Upload een foto van een studieboek, whiteboard of presentatiedia, en laat onze AI in seconden een geformatteerd Microsoft Word (.docx) bestand maken.",
-
     "trust_ssl": "PRIVÉ EN VEILIGE UPLOAD",
     "trust_processing": "SLIMME CAMERA AI",
     "trust_accuracy": "LEEST SCHUINE FOTO'S",
-
     "before_after_title": "Van Camerarol naar Word Bestand",
     "before_after_desc": "Zie hoe we omgaan met real-world foto's met cameraschittering en rommelige achtergronden.",
     "before_label": "Voor: Smartphone Foto",
     "before_placeholder": "",
     "after_label": "Na: Bewerkbaar Word Document",
     "after_placeholder": "",
-
     "use_cases_title": "Welke Foto's Kunt U Converteren?",
     "use_cases_subtitle": "Perfect voor alledaagse foto's die onderweg zijn genomen.",
-
     "use_case_1_title": "Whiteboard Vergaderingen",
     "use_case_1_desc": "Heeft u na een brainstorm een foto van het whiteboard gemaakt? Converteer de markerhandschrift direct in vergadernotities in Word.",
-
     "use_case_2_title": "Pagina's uit Studieboeken",
     "use_case_2_desc": "Stop met het overtypen van citaten voor uw essay. Maak een foto van uw studieboek en extraheer direct de exacte paragrafen die u nodig heeft.",
-
     "use_case_3_title": "Presentatiedia's",
     "use_case_3_desc": "Zit u in het publiek en heeft u een foto gemaakt van een PowerPoint slide? Haal de tekst van de schermfoto naar een bewerkbaar document.",
-
     "use_case_4_title": "Recepten & Tijdschriften",
     "use_case_4_desc": "Bewaar een fysiek recept of een interessant tijdschriftartikel door er een foto van te maken en het om te zetten in een doorzoekbaar tekstbestand.",
-
     "comparison_title": "Foto Tekst Extractie Vergeleken",
     "comparison_subtitle": "Waarom NoteOCR wint van handmatig typen op een klein telefoontoetsenbord.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Tijd",
     "comparison_col_accuracy": "Kan omgaan met Slecht Licht?",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Typen op Telefoon",
     "comparison_row1_time": "10-20 minuten",
     "comparison_row1_accuracy": "N.v.t.",
     "comparison_row1_cost": "Uw Tijd",
-
     "comparison_row2_method": "Basis Foto Converters",
     "comparison_row2_time": "1 minuut",
     "comparison_row2_accuracy": "Faalt bij cameraschittering",
     "comparison_row2_cost": "Vaak Betaald",
-
     "comparison_row3_method": "NoteOCR Foto Engine",
     "comparison_row3_time": "15 Seconden",
     "comparison_row3_accuracy": "Verbetert belichting auto",
     "comparison_row3_cost": "Gratis te Testen",
-
     "features_title": "Gebouwd voor Echte Foto's",
     "features_subtitle": "Smartphone foto's zijn niet perfect. Onze AI is gebouwd om daarmee om te gaan.",
-
     "feature_1_title": "Perspectiefcorrectie",
     "feature_1_desc": "Als u een foto van een boekpagina onder een rare hoek heeft genomen, zal onze engine het perspectief automatisch afvlakken en corrigeren voordat de tekst wordt gelezen.",
-
     "feature_2_title": "Verwijdering van Schittering & Schaduw",
     "feature_2_desc": "Smartphoneflitsers en kamerschaduwen kunnen tekst verbergen. Onze AI brengt de belichting in uw foto in balans om een hoge tekenherkenningsnauwkeurigheid te garanderen.",
-
     "feature_3_title": "Negeert Achtergrondruis",
     "feature_3_desc": "Heeft u uw bureau of uw hand op de foto vastgelegd? Ons systeem snijdt niet-tekst achtergronden slim weg om zich alleen op het document te concentreren.",
-
     "tech_title": "Hoe We Uw Foto's Lezen",
     "tech_intro": "Tekst extraheren uit een smartphonefoto is veel moeilijker dan het lezen van een vlakke digitale scan. NoteOCR gebruikt intelligente Vision AI om de geometrie van uw foto te begrijpen voordat de karakters worden omgezet in een Word-document.",
-
     "tech_detect_title": "Wat Onze Camera AI Behandelt",
     "tech_detect_1": "Gebogen pagina's uit dikke boeken",
     "tech_detect_2": "Foto's gemaakt van computerschermen (anti-moiré)",
     "tech_detect_3": "Handschrift van whiteboard markers",
     "tech_detect_4": "Foto's bij weinig licht of in een slecht verlichte kamer",
     "tech_detect_5": "Verschillende lettertypen en tekstgroottes in één foto",
-
     "tech_tips_title": "Tips voor het Nemen van Betere Foto's",
     "tech_tips_1": "Tik op uw telefoonscherm om de camera scherp te stellen",
     "tech_tips_2": "Houd uw telefoon zo stil mogelijk",
     "tech_tips_3": "Probeer harde schaduwen van bovenaf te vermijden",
     "tech_tips_4": "Zorg dat de tekst het grootste deel van de foto vult",
     "tech_tips_5": "Schakel de flitser uit als u een glanzende pagina fotografeert",
-
     "related_tools_title": "Andere Document Tools",
-
     "related_tool_1_name": "Afbeelding naar Excel",
     "related_tool_1_desc": "Extraheer datatabellen uit afbeeldingen naar spreadsheets",
-
     "related_tool_2_name": "Foto naar Word",
     "related_tool_2_desc": "Converteer camera foto's direct naar Word",
-
     "related_tool_3_name": "Handschrift naar Tekst",
     "related_tool_3_desc": "Gespecialiseerde transcriptie van cursief en notities",
-
     "related_tool_4_name": "Online Editor",
     "related_tool_4_desc": "Bewerk uw documenten veilig in de browser",
-
     "faq_title": "Veelgestelde Vragen over Foto Conversie",
-
     "cta_title": "Klaar om Tekst uit Uw Foto te Extraheren?",
     "cta_subtitle": "Upload uw foto direct vanaf uw telefoon of computer.",
     "cta_button": "Upload Foto Nu",
-
     "footer_text": "NoteOCR // Vision AI Verwerking",
-
     "tool_upload_title": "Upload Uw Foto",
     "tool_upload_desc": "Selecteer een foto uit uw camerarol of computer. We zullen de tekst extraheren en een geformatteerd Word bestand genereren.",
     "tool_upload_button": "Selecteer Foto",
     "tool_upload_check_1": "Ondersteunt Telefoon Foto's",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Verwijderd auto na 24u",
-
     "tool_processing_title": "Foto Analyseren...",
     "tool_processing_desc": "Camerahoeken corrigeren en tekst extraheren",
-
     "tool_complete_title": "Foto Geconverteerd!",
     "tool_complete_desc": "De tekst uit uw foto is succesvol geëxtraheerd. Download uw bewerkbare bestand hieronder.",
     "tool_complete_file_type": "Word Document (.docx)",
     "tool_complete_status": "KLAAR",
     "tool_download_button": "Download Word",
     "tool_new_button": "Nog Een Foto Converteren",
-
     "tool_info_1_title": "Volledig Bewerkbaar",
     "tool_info_1_desc": "Tekst is geëxtraheerd, niet zomaar geplakt als afbeelding",
-
     "tool_info_2_title": "Slimme Opmaak",
     "tool_info_2_desc": "Paragrafen en regeleinden worden gerecreëerd",
-
     "tool_info_3_title": "Universele DOCX",
     "tool_info_3_desc": "Opent in MS Word, Google Docs & Pages",
-
     "tool_tip_label": "Camera Tip:",
     "tool_tip_text": "Als u een foto maakt van een glanzend tijdschrift of studieboek, zet dan de flitser van uw smartphone uit. Een enorme witte schittering kan de woorden verbergen en de OCR nauwkeurigheid verlagen.",
-
     "toast_success": "Foto succesvol geconverteerd!",
     "toast_error_type": "Upload a.u.b. een geldig fotobestand (JPG, PNG)",
     "toast_error_size": "Fotobestandsgrootte moet kleiner zijn dan 25MB",
     "toast_error_conversion": "Conversie mislukt. De foto is mogelijk te wazig.",
     "toast_download_success": "Word-document gedownload!",
     "toast_download_error": "Download mislukt.",
-
     "FAQ": {
       "items": {
         "how_to_convert_photo": {
@@ -2847,146 +2605,110 @@
   "HandwrittenInvoice": {
     "meta_title": "Converteer Handgeschreven Facturen naar Excel | Bonnetjes Data Extractie",
     "meta_desc": "Automatiseer uw boekhouding. Extraheer regelitems, prijzen en datums uit handgeschreven facturen en bonnetjes direct naar geformatteerde Excel spreadsheets.",
-
     "hero_pill": "Financiële Data OCR",
     "hero_title": "Converteer Handgeschreven Facturen naar Excel",
     "hero_subtitle": "Stop met het handmatig uittypen van bonnetjes en inkooporders. Onze AI extraheert nauwkeurig regelitems, hoeveelheden en prijzen van handgeschreven facturen naar schone, bewerkbare .xlsx spreadsheets.",
-
     "trust_ssl": "VEILIGE FINANCIËLE UPLOAD",
     "trust_processing": "GEAUTOMATISEERDE REGELITEMS",
     "trust_accuracy": "99% NUMERIEKE NAUWKEURIGHEID",
-
     "before_after_title": "Van Papieren Bon naar Digitale Spreadsheet",
     "before_after_desc": "Kijk hoe onze AI rommelige handgeschreven regelitems perfect in kaart brengt naar nette Excel rijen.",
     "before_label": "Voor: Handgeschreven Factuur",
     "before_placeholder": "",
     "after_label": "Na: Excel Regelitems",
     "after_placeholder": "",
-
     "use_cases_title": "Wie Automatiseert Facturen met NoteOCR?",
     "use_cases_subtitle": "Gebouwd voor financiële professionals die hun tijd waarderen.",
-
     "use_case_1_title": "Boekhouders & Accountants",
     "use_case_1_desc": "Verwerk schoenendozen vol met handgeschreven bonnetjes en papieren facturen van klanten in minuten in plaats van uren aan het eind van de maand.",
-
     "use_case_2_title": "Kleine Ondernemers",
     "use_case_2_desc": "Digitaliseer gekrabbelde leveranciersfacturen, rekeningen van aannemers en handgeschreven inkooporders om uw uitgaven nauwkeurig bij te houden.",
-
     "use_case_3_title": "Onkosten Tracking",
     "use_case_3_desc": "Converteer handgeschreven restaurantbonnen of velduitgaven naar gestructureerde CSV-bestanden voor eenvoudige upload naar de onkostensoftware van uw bedrijf.",
-
     "use_case_4_title": "Belastingaangifte Voorbereiden",
     "use_case_4_desc": "Tel snel fysieke, handgeschreven donatiebewijzen of zakelijke uitgaven op in een schoon Excel-grootboek voor het belastingseizoen.",
-
     "comparison_title": "Factuur Data Invoer Vergeleken",
     "comparison_subtitle": "Waarom handmatig boekhouden uw winstmarges verbrandt.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Tijd per Factuur",
     "comparison_col_accuracy": "Financiële Nauwkeurigheid",
     "comparison_col_cost": "Arbeidskosten",
-
     "comparison_row1_method": "Handmatige Data Invoer",
     "comparison_row1_time": "3-5 minuten",
     "comparison_row1_accuracy": "Gevoelig voor typfouten",
     "comparison_row1_cost": "€20+/uur",
-
     "comparison_row2_method": "Standaard OCR Apps",
     "comparison_row2_time": "1 minuut",
     "comparison_row2_accuracy": "Haalt kolommen door elkaar",
     "comparison_row2_cost": "Varieert",
-
     "comparison_row3_method": "NoteOCR Factuur Engine",
     "comparison_row3_time": "15 seconden",
     "comparison_row3_accuracy": "Perfecte rij-uitlijning",
     "comparison_row3_cost": "Gratis te Testen",
-
     "features_title": "Geavanceerde Factuur Extractie",
     "features_subtitle": "Specifiek getraind op financiële documenten en rommelige getallen.",
-
     "feature_1_title": "Detectie van Regelitems",
     "feature_1_desc": "Onze AI scheidt omschrijvingen, hoeveelheden, stuksprijzen en totalen automatisch in hun eigen afzonderlijke Excel kolommen.",
-
     "feature_2_title": "Hoge Numerieke Nauwkeurigheid",
     "feature_2_desc": "Standaard OCR heeft moeite met handgeschreven getallen. Wij gebruiken gespecialiseerde neurale netwerken om te garanderen dat 4'en, 9'ens, decimalen en valutasymbolen perfect worden gelezen.",
-
     "feature_3_title": "Ondersteuning voor Rommelig Handschrift",
     "feature_3_desc": "Aannemers en leveranciers hebben vaak vreselijk handschrift. Onze engine is gebouwd om haastig cursief en slordige blokletters op fysieke bonnetjes te ontcijferen.",
-
     "tech_title": "Hoe We Financiële Documenten Verwerken",
     "tech_intro": "Facturen zijn complex omdat ze zwevende data bevatten (zoals de datum en het factuurnummer bovenaan) en tabeldata (de regelitems in het midden). NoteOCR brengt deze ruimtelijke relatie perfect in kaart.",
-
     "tech_detect_title": "Wat Onze AI Extraheert",
     "tech_detect_1": "Item omschrijvingen en SKU's",
     "tech_detect_2": "Hoeveelheden en prijscolumnen",
     "tech_detect_3": "Subtotalen, belastingregels en eindtotalen",
     "tech_detect_4": "Handgeschreven datums en factuurnummers",
     "tech_detect_5": "Valutasymbolen (€, $, £)",
-
     "tech_tips_title": "Tips voor Boekhouders",
     "tech_tips_1": "Maak verfrommelde bonnetjes plat voordat u een foto neemt",
     "tech_tips_2": "Zorg ervoor dat de belichting geen schaduwen werpt op het totaalbedrag",
     "tech_tips_3": "Houd de camera direct boven de factuur",
     "tech_tips_4": "Zorg ervoor dat decimalen/komma's zichtbaar zijn op de foto",
     "tech_tips_5": "Controleer de eindtotalen in Excel om te verzekeren dat het klopt",
-
     "related_tools_title": "Meer Financiële OCR Tools",
-
     "related_tool_1_name": "Factuur naar Excel",
     "related_tool_1_desc": "Extraheer regelitems uit handgeschreven bonnetjes",
-
     "related_tool_2_name": "Voorraadlijst naar Excel",
     "related_tool_2_desc": "Converteer handgeschreven voorraadtellingen naar data",
-
     "related_tool_3_name": "Scan naar Word",
     "related_tool_3_desc": "Digitaliseer geprinte HR-beleidsregels en handleidingen",
-
     "related_tool_4_name": "Handschrift naar Tekst",
     "related_tool_4_desc": "Transcribeer handgeschreven vergadernotities",
-
     "faq_title": "Veelgestelde Vragen over Factuur Conversie",
-
     "cta_title": "Stop met het Overtikken van Facturen.",
     "cta_subtitle": "Laat AI uw data-invoer doen. Upload nu uw eerste handgeschreven factuur.",
     "cta_button": "Converteer Factuur naar Excel",
-
     "footer_text": "NoteOCR // Intelligente Financiële Extractie",
-
     "tool_upload_title": "Upload Handgeschreven Factuur",
     "tool_upload_desc": "Ondersteunt foto's en scans van handgeschreven facturen, bonnetjes en inkooporders. Wij extraheren de regelitems naar Excel.",
     "tool_upload_button": "Selecteer Factuur Afbeelding",
     "tool_upload_check_1": "JPG, PNG Ondersteund",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Versleuteling op Bankniveau",
-
     "tool_processing_title": "Regelitems Extraheren...",
     "tool_processing_desc": "Prijzen, hoeveelheden en omschrijvingen detecteren",
-
     "tool_complete_title": "Factuur Geëxtraheerd!",
     "tool_complete_desc": "Uw regelitems zijn geconverteerd naar een Excel spreadsheet. Download het hieronder.",
     "tool_complete_file_type": "Excel Spreadsheet (.xlsx)",
     "tool_complete_status": "KLAAR",
     "tool_download_button": "Download Excel",
     "tool_new_button": "Volgende Factuur Verwerken",
-
     "tool_info_1_title": "Kolommen Uitgelijnd",
     "tool_info_1_desc": "Prijzen en omschrijvingen netjes gescheiden",
-
     "tool_info_2_title": "Getal Nauwkeurigheid",
     "tool_info_2_desc": "Zeer accurate decimaal en cijfer herkenning",
-
     "tool_info_3_title": "Klaar voor Import",
     "tool_info_3_desc": "Eenvoudig te uploaden naar Exact, Yuki of Twinfield",
-
     "tool_tip_label": "Boekhoudtip:",
     "tool_tip_text": "Als u van plan bent deze data te importeren in boekhoudsoftware zoals Exact of e-Boekhouden, open dan het gedownloade Excel bestand en sla het op als een .CSV (Comma Separated Values) formaat voor een naadloze upload.",
-
     "toast_success": "Factuur succesvol geëxtraheerd!",
     "toast_error_type": "Upload a.u.b. een geldig afbeeldingsbestand",
     "toast_error_size": "Bestandsgrootte moet kleiner zijn dan 25MB",
     "toast_error_extraction": "Extractie mislukt. Het handschrift is mogelijk te vaag.",
     "toast_download_success": "Excel grootboek gedownload!",
     "toast_download_error": "Download mislukt.",
-
     "FAQ": {
       "items": {
         "how_to_convert_invoice": {
@@ -3035,146 +2757,110 @@
   "InventoryToExcel": {
     "meta_title": "Converteer Handgeschreven Voorraadlijst naar Excel | Voorraadtelling OCR",
     "meta_desc": "Stop met het handmatig intypen van voorraadtellingen in uw magazijn. Converteer foto's van handgeschreven voorraadlijsten, klemborden en turflijsten direct naar bewerkbare Excel spreadsheets.",
-
     "hero_pill": "Voorraad & Inventaris OCR",
     "hero_title": "Verander Klembord Voorraadtellingen in Excel Spreadsheets",
     "hero_subtitle": "Converteer uw fysieke voorraadaudits in seconden. Maak een foto van uw handgeschreven voorraadlijsten, en onze AI extraheert SKU's, itemnamen en hoeveelheden direct naar een geformatteerd .xlsx bestand.",
-
     "trust_ssl": "PRIVÉ DATA VERWERKING",
     "trust_processing": "BULK SKU HERKENNING",
     "trust_accuracy": "99% HOEVEELHEID NAUWKEURIGHEID",
-
     "before_after_title": "Van Fysiek Klembord naar Digitale Tracker",
     "before_after_desc": "Zie hoe we rommelige magazijntellingen omzetten naar gestructureerde Excel rijen.",
     "before_label": "Voor: Handgeschreven Voorraadlijst",
     "before_placeholder": "",
     "after_label": "Na: Excel Voorraadlijst",
     "after_placeholder": "",
-
     "use_cases_title": "Wie Automatiseert Voorraad met NoteOCR?",
     "use_cases_subtitle": "Gebouwd voor bedrijven die fysieke voorraadaudits uitvoeren.",
-
     "use_case_1_title": "Magazijnbeheerders",
     "use_case_1_desc": "Converteer handgeschreven magazijnlogboeken en cyclustellingen van meerdere pagina's direct naar Excel, zodat uw supply chain in beweging blijft.",
-
     "use_case_2_title": "Winkeleigenaren",
     "use_case_2_desc": "Maak foto's van uw handgeschreven winkelvoorraad aan het einde van de maand en upload ze om uw kassa-systeem of Shopify-winkel via CSV bij te werken.",
-
     "use_case_3_title": "Horecapersoneel",
     "use_case_3_desc": "Stop met het overtypen van de wekelijkse voedsel- en drankvoorraad. Digitaliseer uw keukenklemborden rechtstreeks in uw foodcost-spreadsheets.",
-
     "use_case_4_title": "Apparatuur Tracking",
     "use_case_4_desc": "Converteer eenvoudig handgeschreven uitleenlijsten, gereedschapslogboeken en asset trackers uit het veld naar doorzoekbare digitale databases.",
-
     "comparison_title": "Voorraad Tellen: Handmatig vs. NoteOCR",
     "comparison_subtitle": "Waarom handmatige invoer van voorraaddata uw bedrijf geld kost.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Tijd per Pagina",
     "comparison_col_accuracy": "SKU Nauwkeurigheid",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Handmatig Typen",
     "comparison_row1_time": "15-30 minuten",
     "comparison_row1_accuracy": "Gevoelig voor menselijke fouten",
     "comparison_row1_cost": "€20/uur arbeid",
-
     "comparison_row2_method": "Standaard Mobiele Scanners",
     "comparison_row2_time": "2 minuten",
     "comparison_row2_accuracy": "Produceert platte afbeeldingen",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR Voorraad AI",
     "comparison_row3_time": "20 seconden",
     "comparison_row3_accuracy": "Formatteert data in rijen",
     "comparison_row3_cost": "Gratis te Testen",
-
     "features_title": "Gebouwd voor Rommelig Magazijnhandschrift",
     "features_subtitle": "We weten dat fysieke voorraadtellingen vaak gehaast gebeuren. Onze AI past zich daaraan aan.",
-
     "feature_1_title": "Alfanumerieke SKU Herkenning",
     "feature_1_desc": "Artikelcodes zijn complexe mixen van letters en cijfers. Onze neurale netwerken zijn getraind om in handgeschreven SKU's een '0' van een 'O' en een '1' van een 'l' te onderscheiden.",
-
     "feature_2_title": "Kolom Formattering",
     "feature_2_desc": "Of u nu lijnen op uw papier heeft getekend of gewoon spaties heeft gelaten, NoteOCR scheidt uw Item Namen, SKU's en Hoeveelheden in hun eigen afzonderlijke Excel kolommen.",
-
     "feature_3_title": "Exporteer als CSV voor POS Systemen",
     "feature_3_desc": "Download uw data als een Excel bestand, of exporteer het als een CSV om uw bijgewerkte voorraadtellingen naadloos te uploaden in Shopify, Square of Exact.",
-
     "tech_title": "Hoe We Fysieke Voorraadlijsten Verwerken",
     "tech_intro": "Voorraadlijsten staan bekend om slecht handschrift en vlekkerige inkt. NoteOCR gebruikt gespecialiseerde Table Structure Recognition (TSR) om het raster van uw klembord te reconstrueren.",
-
     "tech_detect_title": "Wat Onze AI Extraheert",
     "tech_detect_1": "Lange serienummers en SKU's",
     "tech_detect_2": "Hoeveelheden, gewichten en afmetingen",
     "tech_detect_3": "Doorgestreepte items en correcties",
     "tech_detect_4": "Klembord lay-outs met meerdere kolommen",
     "tech_detect_5": "Datums, locaties en gangpadnummers",
-
     "tech_tips_title": "Tips voor Snellere Audits",
     "tech_tips_1": "Zorg voor heldere magazijnverlichting bij het fotograferen",
     "tech_tips_2": "Schrijf SKU's zo duidelijk mogelijk",
     "tech_tips_3": "Houd kolommen enigszins uitgelijnd op blanco papier",
     "tech_tips_4": "Maak foto's van het klembord recht van boven",
     "tech_tips_5": "Controleer de uiteindelijke Excel hoeveelheden met uw schappen",
-
     "related_tools_title": "Andere Zakelijke Data Tools",
-
     "related_tool_1_name": "Factuur naar Excel",
     "related_tool_1_desc": "Extraheer regelitems uit handgeschreven bonnetjes",
-
     "related_tool_2_name": "Voorraadlijst naar Excel",
     "related_tool_2_desc": "Converteer handgeschreven voorraadtellingen naar data",
-
     "related_tool_3_name": "Scan naar Word",
     "related_tool_3_desc": "Digitaliseer geprinte HR-beleidsregels en handleidingen",
-
     "related_tool_4_name": "Handschrift naar Tekst",
     "related_tool_4_desc": "Transcribeer handgeschreven vergadernotities",
-
     "faq_title": "Veelgestelde Vragen over Voorraad OCR",
-
     "cta_title": "Stop met het Typen van uw Voorraadtellingen.",
     "cta_subtitle": "Maak een foto van uw klembord en laat NoteOCR uw spreadsheet bouwen.",
     "cta_button": "Converteer Voorraad Nu",
-
     "footer_text": "NoteOCR // Industriële Data Extractie",
-
     "tool_upload_title": "Upload Handgeschreven Voorraadlijst",
     "tool_upload_desc": "Ondersteunt foto's van klemborden, voorraadtellingen en turflijsten. We zullen de data extraheren naar een bewerkbaar Excel raster.",
     "tool_upload_button": "Selecteer Voorraad Foto",
     "tool_upload_check_1": "JPG, PNG Ondersteund",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Verwijderd Na 24u",
-
     "tool_processing_title": "Voorraadtellingen Extraheren...",
     "tool_processing_desc": "SKU's, items en hoeveelheden detecteren",
-
     "tool_complete_title": "Voorraad Geëxtraheerd!",
     "tool_complete_desc": "Uw voorraadtelling is nu een Excel spreadsheet. Download het hieronder.",
     "tool_complete_file_type": "Excel Spreadsheet (.xlsx)",
     "tool_complete_status": "KLAAR",
     "tool_download_button": "Download Excel",
     "tool_new_button": "Volgende Pagina Verwerken",
-
     "tool_info_1_title": "Raster Behouden",
     "tool_info_1_desc": "SKU's en Hoeveelheden in aparte kolommen",
-
     "tool_info_2_title": "Hoge Nauwkeurigheid",
     "tool_info_2_desc": "Getraind op rommelig, gehaast handschrift",
-
     "tool_info_3_title": "CSV Compatibel",
     "tool_info_3_desc": "Klaar voor upload naar uw kassa-systeem",
-
     "tool_tip_label": "Magazijntip:",
     "tool_tip_text": "Als u gelinieerd papier of geprinte rasterbladen op uw klembord gebruikt, zal onze AI die lijnen gebruiken om uw kolommen in Excel perfect te scheiden met bijna 100% structurele nauwkeurigheid.",
-
     "toast_success": "Voorraad succesvol geëxtraheerd!",
     "toast_error_type": "Upload a.u.b. een geldig afbeeldingsbestand",
     "toast_error_size": "Bestandsgrootte moet kleiner zijn dan 25MB",
     "toast_error_extraction": "Extractie mislukt. De foto is mogelijk te wazig.",
     "toast_download_success": "Excel spreadsheet gedownload!",
     "toast_download_error": "Download mislukt.",
-
     "FAQ": {
       "items": {
         "how_to_convert_inventory": {
@@ -3223,144 +2909,109 @@
   "HandwrittenTimesheet": {
     "meta_title": "Converteer Handgeschreven Urenstaten naar Excel | Payroll OCR Tool",
     "meta_desc": "Stop met het handmatig overtypen van gewerkte uren. Converteer foto's van handgeschreven urenregistraties, ploegenlogboeken en papieren urenstaten direct naar Excel spreadsheets voor de salarisadministratie.",
-
     "hero_pill": "Salarisadministratie Automatisering",
     "hero_title": "Automatiseer Handgeschreven Urenstaten naar Excel",
     "hero_subtitle": "Draai de salarisadministratie sneller. Maak een foto van de handgeschreven urenstaten of ploegenlogboeken van uw team, en onze AI extraheert de namen, datums en uren van medewerkers direct naar een geformatteerd .xlsx spreadsheet.",
-
     "trust_ssl": "VEILIGE HR DATA",
     "trust_processing": "SNELLE URENSTAAT OCR",
     "trust_accuracy": "99% GETAL NAUWKEURIGHEID",
-
     "before_after_title": "Van Papieren Urenstaat naar Digitale Salarisadministratie",
     "before_after_desc": "Kijk hoe onze AI perfect rommelige handgeschreven uren in kaart brengt in nette Excel rijen.",
     "before_label": "Voor: Handgeschreven Logboek",
     "before_placeholder": "",
     "after_label": "Na: Excel Payroll Data",
     "after_placeholder": "",
-
     "use_cases_title": "Wie Automatiseert Urenstaten met NoteOCR?",
     "use_cases_subtitle": "Gebouwd voor sectoren die vertrouwen op fysiek papier voor het in- en uitklokken.",
-
     "use_case_1_title": "Bouw & Ambachten",
     "use_case_1_desc": "Digitaliseer vuile, handgeschreven urenbriefjes vanaf de bouwplaats. Extraheer werknemersnamen en dagelijkse uren naar Excel voordat u deze naar de boekhouding stuurt.",
-
     "use_case_2_title": "Horeca & Restaurants",
     "use_case_2_desc": "Converteer wekelijkse papieren roosters, dienst-wissels en handgeschreven inkloklijsten van de bediening naar een schoon digitaal formaat voor de bedrijfsleider.",
-
     "use_case_3_title": "Hoveniers & Buitendienst",
     "use_case_3_desc": "Stop met het proberen te ontcijferen van het rommelige handschrift van uw buitendienstmedewerkers. Maak een foto van hun wekelijkse logboek en formatteer het direct voor de salarisadministratie.",
-
     "use_case_4_title": "Gezondheidszorg & Verpleging",
     "use_case_4_desc": "Converteer eenvoudig handgeschreven inloglijsten en fysieke overwerklogboeken van verschillende ziekenhuisafdelingen naar doorzoekbare digitale databases.",
-
     "comparison_title": "Payroll Data Invoer Vergeleken",
     "comparison_subtitle": "Waarom handmatige ureninvoer riskant is voor uw bedrijf.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Bestede Tijd",
     "comparison_col_accuracy": "Payroll Fouten",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Handmatig Typen",
     "comparison_row1_time": "2+ uur op vrijdag",
     "comparison_row1_accuracy": "Hoog risico op typfouten",
     "comparison_row1_cost": "€25/uur admin arbeid",
-
     "comparison_row2_method": "Standaard OCR Scanners",
     "comparison_row2_time": "5 minuten",
     "comparison_row2_accuracy": "Verknoeit kolommen",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR Urenstaat AI",
     "comparison_row3_time": "30 seconden",
     "comparison_row3_accuracy": "Perfecte rij-uitlijning",
     "comparison_row3_cost": "Gratis te Testen",
-
     "features_title": "Geavanceerde Payroll Extractie",
     "features_subtitle": "Specifiek getraind om namen, datums en uren accuraat te lezen.",
-
     "feature_1_title": "Tijd Form",
     "feature_2_title": "Kolom Uitlijning",
     "feature_2_desc": "Zelfs als uw werknemers buiten de lijntjes schrijven, scheidt NoteOCR de Werknemersnaam, Datum, Inkloktijd, Uitkloktijd en Totale Uren in afzonderlijke Excel-kolommen.",
-
     "feature_3_title": "CSV Export voor Salarissoftware",
     "feature_3_desc": "Download uw urenstaatdata als een Excel-bestand, of exporteer het als een CSV om de uren naadloos te uploaden in uw favoriete salarissoftware zoals Exact, Nmbrs, Loket.nl of ADP.",
-
     "tech_title": "Hoe We Papieren Urenkaarten Verwerken",
     "tech_intro": "Het lezen van handgeschreven namen en getallen op een vlekkerig stuk papier vereist geavanceerde Optical Character Recognition (OCR). NoteOCR gebruikt intelligente lay-outanalyse om ervoor te zorgen dat de juiste uren aan de juiste werknemer worden toegewezen.",
-
     "tech_detect_title": "Wat Onze AI Extraheert",
     "tech_detect_1": "Cursieve en geprinte namen van werknemers",
     "tech_detect_2": "Inklok- en uitkloktijden",
     "tech_detect_3": "Decimalen (bijv. 7,5 uur) en breuken",
     "tech_detect_4": "Handgeschreven datums en dagen van de week",
     "tech_detect_5": "Handtekeningen en goedkeuringen van leidinggevenden",
-
     "tech_tips_title": "Tips voor HR Managers",
     "tech_tips_1": "Strijk gevouwen urenstaten plat voordat u een foto maakt",
     "tech_tips_2": "Zorg voor goede belichting zodat komma's en decimalen zichtbaar zijn",
     "tech_tips_3": "Houd de camera recht boven de aftekenlijst",
     "tech_tips_4": "Vraag medewerkers om hun getallen zo duidelijk mogelijk te schrijven",
     "tech_tips_5": "Doe altijd een snelle visuele controle voordat u de salarisverwerking draait",
-
     "related_tools_title": "Meer Zakelijke Automatiseringstools",
-
     "related_tool_1_name": "Factuur naar Excel",
     "related_tool_1_desc": "Extraheer regelitems uit handgeschreven bonnetjes",
-
     "related_tool_2_name": "Voorraadlijst naar Excel",
     "related_tool_2_desc": "Converteer handgeschreven voorraadtellingen naar data",
-
     "related_tool_3_name": "Scan naar Word",
     "related_tool_3_desc": "Digitaliseer geprinte HR-beleidsregels en handleidingen",
-
     "related_tool_4_name": "Handschrift naar Tekst",
     "related_tool_4_desc": "Transcribeer handgeschreven vergadernotities",
-
     "faq_title": "Veelgestelde Vragen over Urenstaat OCR",
-
     "cta_title": "Stop met het Overtikken van Gewerkte Uren.",
     "cta_subtitle": "Laat AI op vrijdag uw data-invoer doen. Upload nu uw eerste urenstaat.",
     "cta_button": "Converteer Urenstaat naar Excel",
-
     "footer_text": "NoteOCR // Intelligente Salaris Extractie",
-
     "tool_upload_title": "Upload Handgeschreven Urenstaat",
     "tool_upload_desc": "Ondersteunt foto's van ploegenlogboeken, aftekenlijsten en papieren urenkaarten. Wij extraheren alle data accuraat naar een schone Excel sheet.",
     "tool_upload_button": "Selecteer Urenstaat Afbeelding",
     "tool_upload_check_1": "JPG, PNG Ondersteund",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Versleuteling op Bankniveau",
-
     "tool_processing_title": "Uren van Medewerkers Extraheren...",
     "tool_processing_desc": "Namen, datums en inkloktijden detecteren",
-
     "tool_complete_title": "Urenstaat Geëxtraheerd!",
     "tool_complete_desc": "Uw salarisdata is nu een Excel spreadsheet. Download het hieronder.",
     "tool_complete_file_type": "Excel Spreadsheet (.xlsx)",
     "tool_complete_status": "KLAAR",
     "tool_download_button": "Download Excel",
     "tool_new_button": "Volgende Urenstaat Verwerken",
-
     "tool_info_1_title": "Raster Behouden",
     "tool_info_1_desc": "Netjes gerangschikt in rijen en kolommen",
-
     "tool_info_2_title": "Hoge Nauwkeurigheid",
     "tool_info_2_desc": "Getraind op rommelig, gehaast handschrift",
-
     "tool_info_3_title": "CSV Compatibel",
     "tool_info_3_desc": "Klaar voor upload naar uw payroll systeem",
-
     "tool_tip_label": "Salarisadministratie Tip:",
     "tool_tip_text": "Als u van plan bent deze data te importeren in salarissoftware zoals Nmbrs of Exact, open dan het gedownloade Excel-bestand en sla het op in .CSV (Comma Separated Values) formaat voor een naadloze upload.",
-
     "toast_success": "Urenstaat succesvol geëxtraheerd!",
     "toast_error_type": "Upload a.u.b. een geldig afbeeldingsbestand",
     "toast_error_size": "Bestandsgrootte moet kleiner zijn dan 25MB",
     "toast_error_extraction": "Extractie mislukt. De foto is mogelijk te wazig.",
     "toast_download_success": "Excel spreadsheet gedownload!",
     "toast_download_error": "Download mislukt.",
-
     "FAQ": {
       "items": {
         "how_to_convert_timesheet": {
@@ -3406,39 +3057,29 @@
       }
     }
   },
-
   "HandwritingRecognitionPage": {
     "meta_title": "Handschriftherkenning Online | NoteOCR",
     "meta_desc": "Upload een handgeschreven afbeelding en onze AI herkent deze en zet deze direct om in geformatteerde tekst. Gratis online handschriftherkenning.",
-
     "hero_pill": "AI Handschriftherkenning",
     "hero_title": "Handschriftherkenning Die Echt Werkt.",
     "hero_subtitle": "Upload een foto van handgeschreven notities, formulieren of documenten. Onze AI leest het handschrift, inclusief rommelig cursief schrift, en zet het in seconden om in bewerkbare geformatteerde tekst.",
-
     "trust_ssl": "SSL Versleuteld",
     "trust_processing": "30-Seconden Verwerking",
     "trust_accuracy": "99% Herkenningsnauwkeurigheid",
-
     "before_after_title": "Zie de Herkenning in Actie",
     "before_after_desc": "Echt handschriftvoorbeeld dat laat zien wat onze AI leest vergeleken met wat de output is.",
     "before_label": "Voor: Handgeschreven Afbeelding",
     "after_label": "Na: Herkende Digitale Tekst",
-
     "use_cases_title": "Wie Gebruikt Handschriftherkenning?",
     "use_cases_subtitle": "Van studenten die notities digitaliseren tot bedrijven die formulieren verwerken, handschriftherkenning bespaart elke dag uren tijd.",
-
     "use_case_1_title": "Studenten & College-aantekeningen",
     "use_case_1_desc": "Fotografeer uw notitieboek na de les en krijg in enkele seconden volledig doorzoekbare, bewerkbare tekst. Nooit meer pagina's met college-aantekeningen overtikken voor examens.",
-
     "use_case_2_title": "Rommelig & Cursief Handschrift",
     "use_case_2_desc": "Onze AI is specifiek getraind op moeilijk handschrift. Gehaaste krabbels, verbonden cursief en gemengde blokletter/cursief stijlen worden allemaal met hoge nauwkeurigheid herkend.",
-
     "use_case_3_title": "Handgeschreven Formulieren & Documenten",
     "use_case_3_desc": "Digitaliseer patiëntintakeformulieren, veldrapporten, facturen en HR-dossiers vanaf een telefoonfoto. Geen scanner nodig, uw camera is voldoende.",
-
     "use_case_4_title": "Oude Brieven & Dagboeken",
     "use_case_4_desc": "Bewaar handgeschreven familiebrieven, persoonlijke dagboeken en historische documenten door ze om te zetten in doorzoekbare digitale tekst die u kunt delen en archiveren.",
-
     "comparison_title": "Handschriftherkenning: Methoden Vergeleken",
     "comparison_subtitle": "Waarom een speciaal gebouwde AI altijd beter presteert dan generieke tools.",
     "comparison_col_method": "Methode",
@@ -3457,36 +3098,28 @@
     "comparison_row3_time": "Minder dan 30 seconden",
     "comparison_row3_accuracy": "95–99% inclusief cursief",
     "comparison_row3_cost": "Gratis te proberen",
-
     "features_title": "Waarom Onze Handschriftherkenning Anders Is",
     "features_subtitle": "Specifiek gebouwd voor handschrift, niet aangepast van een tool voor geprinte tekst.",
-
     "feature_1_title": "Getraind op Handschrift, Niet op Lettertypen",
     "feature_1_desc": "Generieke OCR leert van gedrukte lettertypen. Onze AI werd exclusief getraind op miljoenen echte handschriftvoorbeelden: blokletters, cursief, gemengde stijlen, gehaaste notities en alles daartussenin.",
-
     "feature_2_title": "Leest Rommelig & Cursief Schrift",
     "feature_2_desc": "Verbonden letters, variërende helling, inconsistente grootte — de exacte dingen die standaard OCR breken. Ons neurale netwerk behandelt ze op dezelfde manier als een menselijke lezer dat doet: door context te gebruiken om gaten op te vullen.",
-
     "feature_3_title": "Outputs Die U Daadwerkelijk Kunt Gebruiken",
     "feature_3_desc": "Herkende tekst wordt niet zomaar als een platte paragraaf gedumpt. Wij reconstrueren de lay-out, behouden lijsten en koppen, en exporteren naar Word, Excel of platte tekst, afhankelijk van wat u nodig heeft.",
-
     "tech_title": "Hoe Handschriftherkenning Werkt",
     "tech_intro": "Standaard OCR-technologie is gebouwd voor gedrukte tekst: uniforme lettertypen met voorspelbare lettervormen. Handschrift breekt elke aanname die standaard OCR laat werken. Ieder mens schrijft anders. Letters verbinden, overlappen, variëren in grootte en helling. Onze AI gebruikt een compleet andere benadering: neurale netwerken, getraind op miljoenen handschriftmonsters, die leren lezen zoals een mens dat doet — door patronen over hele woorden en regels te herkennen, niet individuele karakters.",
-
     "tech_detect_title": "Wat Onze AI Detecteert",
     "tech_detect_1": "Blokletters en cursief handschrift, inclusief verbonden en overlappende letters",
     "tech_detect_2": "Rommelige, gehaaste en inconsistente schrijfstijlen",
     "tech_detect_3": "Gemengde blokletters en cursief op dezelfde pagina",
     "tech_detect_4": "Doorgestreepte woorden en correcties",
     "tech_detect_5": "Documentstructuur — koppen, lijsten, paragrafen en tabelrijen",
-
     "tech_tips_title": "Tips voor de Beste Resultaten",
     "tech_tips_1": "Fotografeer in goed natuurlijk licht, vermijd flits direct op de pagina",
     "tech_tips_2": "Houd uw telefoon parallel aan het papier, niet in een hoek",
     "tech_tips_3": "Zorg ervoor dat inkt duidelijk contrasteert met de achtergrond van het papier",
     "tech_tips_4": "300 DPI of hoger voor gescande documenten",
     "tech_tips_5": "Bekijk de output — zelfs 95% nauwkeurigheid betekent dat incidentele correcties nodig zijn",
-
     "related_tools_title": "Aanverwante Tools",
     "related_tool_1_name": "Handschrift naar Word",
     "related_tool_1_desc": "Converteer notities naar geformatteerde .docx",
@@ -3496,9 +3129,7 @@
     "related_tool_3_desc": "Gespecialiseerde cursief OCR-tool",
     "related_tool_4_name": "Scan Handschrift naar Tekst",
     "related_tool_4_desc": "Vanaf telefoonfoto of PDF scan",
-
     "faq_title": "Veelgestelde Vragen Over Handschriftherkenning",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3583,11 +3214,9 @@
         }
       }
     },
-
     "cta_title": "Klaar om Uw Handschrift te Laten Herkennen?",
     "cta_subtitle": "Sluit u aan bij 10.000+ studenten, onderzoekers en bedrijven die gestopt zijn met het overtikken van handgeschreven inhoud.",
     "cta_button": "Probeer Handschriftherkenning Gratis",
-
     "tool_info_1_title": "Geen App Nodig",
     "tool_info_1_desc": "Werkt in uw browser. Geen download, geen aanmelding vereist om te proberen.",
     "tool_info_2_title": "Cursief & Rommelig Schrift",
@@ -3601,31 +3230,23 @@
     "hero_pill": "Cursief Handschrift OCR",
     "hero_title": "Converteer Cursief Schrift naar Tekst in Seconden.",
     "hero_subtitle": "Upload een foto van cursieve handgeschreven notities, brieven, dagboeken, formulieren. Onze AI decodeert verbonden schrift en vloeiende lussen die generieke OCR-tools niet aankunnen. Geen app. Geen aanmelding. Resultaten in minder dan 30 seconden.",
-
     "trust_ssl": "SSL Versleuteld",
     "trust_processing": "Minder dan 30 Seconden",
     "trust_accuracy": "95%+ Cursief Nauwkeurigheid",
-
     "before_after_title": "Cursief Handschrift Erin. Schone Digitale Tekst Eruit.",
     "before_after_desc": "Echt cursief voorbeeld, zie precies hoe onze AI omgaat met verbonden, vloeiend schrift.",
     "before_label": "Voor: Cursief Handschrift",
     "after_label": "Na: Geconverteerde Digitale Tekst",
-
     "use_cases_title": "Wie Converteert Cursief naar Tekst?",
     "use_cases_subtitle": "Van familiehistorici die oude brieven digitaliseren tot studenten die notities transcriberen, cursieve conversie bespaart elke week uren handmatig overtikken.",
-
     "use_case_1_title": "Oude Brieven & Familiedocumenten",
     "use_case_1_desc": "Converteer handgeschreven brieven van grootouders, oude dagboeken en persoonlijke journaals naar doorzoekbare digitale tekst. Behoud de familiegeschiedenis zonder een professionele transcribent te betalen.",
-
     "use_case_2_title": "Cursieve Studentennotities",
     "use_case_2_desc": "Veel studenten schrijven nog steeds college- en revisienotities in cursief (aan elkaar). Fotografeer uw notitieboek en krijg binnen enkele seconden volledig bewerkbare, doorzoekbare tekst, klaar voor revisiedocumenten en essays.",
-
     "use_case_3_title": "Historische & Archiefdocumenten",
     "use_case_3_desc": "Digitaliseer cursief geschreven documenten, landgoedpapieren, parochieregisters en juridische stukken. Onze AI verwerkt oudere cursieve stijlen, waaronder Victoriaans handschrift en vroeg 20e-eeuws schrift.",
-
     "use_case_4_title": "Professionele Cursieve Formulieren",
     "use_case_4_desc": "Veldrapporten, getekende intakeformulieren, handgeschreven facturen en patiëntennotities geschreven in cursief schrift: converteer ze in één stap naar bewerkbare Word of Excel.",
-
     "comparison_title": "Cursieve OCR: Hoe Methoden Zich Verhouden",
     "comparison_subtitle": "Cursief is waar generieke tools instorten. Hier is waarom een doelgericht gebouwde AI de enige betrouwbare optie is.",
     "comparison_col_method": "Methode",
@@ -3644,36 +3265,28 @@
     "comparison_row3_time": "Minder dan 30 seconden",
     "comparison_row3_accuracy": "90–98% op cursief",
     "comparison_row3_cost": "Gratis te proberen",
-
     "features_title": "Waarom Onze Cursief Converter Anders Is",
     "features_subtitle": "Cursief-eerst AI, geen geprinte-tekst OCR tool met een cursief-pleister erop.",
-
     "feature_1_title": "Leest Verbonden Letters Native",
     "feature_1_desc": "Standaard OCR segmenteert individuele karakters voordat ze worden gelezen. Cursief verbreekt dat volledig: letters verbinden en overlappen. Onze AI leest hele woorden en regels tegelijk, op dezelfde manier als een menselijk oog, waardoor verbonden schrift leesbaar wordt waar andere tools het opgeven.",
-
     "feature_2_title": "Verwerkt Lussen, Helling & Variatie",
     "feature_2_desc": "Ieders cursief is uniek: verschillende lusgroottes, hellingshoeken en letterafstand. Ons neurale netwerk werd getraind op miljoenen echte cursieve monsters over tientallen schrijfstijlen heen, dus het generaliseert naar handschrift dat het nog nooit eerder heeft gezien.",
-
     "feature_3_title": "Exporteert naar Word, Excel & Tekst",
     "feature_3_desc": "Geconverteerde cursieve tekst wordt niet zomaar gedumpt als een ongeformatteerde paragraaf. We reconstrueren document lay-out, paragrafen, lijsten, tabellen en exporteren direct naar .docx, .xlsx of platte .txt, afhankelijk van wat u nodig heeft.",
-
     "tech_title": "Waarom Cursief Zo Moeilijk Is voor OCR, en Hoe Wij Het Oplossen",
     "tech_intro": "Standaard OCR werd ontworpen voor gedrukte tekst. Elke aanname die het maakt — uniforme lettervormen, duidelijke openingen tussen letters, consistente spatiëring — breekt volledig bij cursief (aan elkaar) schrijven. Cursieve letters vloeien in elkaar over. Dezelfde letter ziet er compleet anders uit afhankelijk van wat er voor en na komt. De helling varieert per regel. Lussen en staarten kruisen andere letters. Onze AI hanteert een fundamenteel andere aanpak: in plaats van individuele karakters te proberen isoleren, leest het hele woorden en regels als visuele patronen, dezelfde strategie die een vloeiende menselijke lezer gebruikt bij het tegenkomen van verbonden schrift dat ze nog nooit eerder hebben gezien.",
-
     "tech_detect_title": "Wat Onze AI Aankan",
     "tech_detect_1": "Volledig verbonden cursief waarbij geen letters gescheiden zijn",
     "tech_detect_2": "Gemengd cursief en blokletters op dezelfde pagina",
     "tech_detect_3": "Variërende helling, naar rechts leunend, naar links leunend en rechtop",
     "tech_detect_4": "Decoratieve en gepersonaliseerde lettervormen",
     "tech_detect_5": "Oudere Victoriaanse en vroeg 20e-eeuwse cursieve stijlen",
-
     "tech_tips_title": "Tips voor de Beste Cursieve Conversie",
     "tech_tips_1": "Gebruik natuurlijk daglicht, vermijd flits die het inktcontrast afvlakt",
     "tech_tips_2": "Houd de camera plat boven de pagina, niet onder een hoek",
     "tech_tips_3": "Zorg voor donkere inkt op licht papier, vermijd schaduwen over de tekst",
     "tech_tips_4": "Verhoog voor zeer oude documenten eerst het contrast in een foto-editor",
     "tech_tips_5": "Beoordeel altijd de output, zelfs 95% nauwkeurigheid betekent af en toe een correctie op langere pagina's",
-
     "related_tools_title": "Aanverwante Tools",
     "related_tool_1_name": "Handschrift naar Word",
     "related_tool_1_desc": "Converteer notities naar geformatteerde .docx",
@@ -3683,9 +3296,7 @@
     "related_tool_3_desc": "Alle handschriftstijlen, blokletters, cursief, gemengd",
     "related_tool_4_name": "Scan Handschrift naar Tekst",
     "related_tool_4_desc": "Vanaf telefoonfoto of PDF scan",
-
     "faq_title": "Veelgestelde Vragen Over Cursief naar Tekst Conversie",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3770,11 +3381,9 @@
         }
       }
     },
-
     "cta_title": "Klaar om Uw Cursieve Schrift te Converteren?",
     "cta_subtitle": "Upload elke cursieve afbeelding, brieven, dagboeken, notities, formulieren en krijg schone, bewerkbare tekst in minder dan 30 seconden.",
     "cta_button": "Probeer Cursief naar Tekst Gratis",
-
     "tool_info_1_title": "Geen App Nodig",
     "tool_info_1_desc": "Draait in uw browser. Geen download, geen aanmelding vereist om te proberen.",
     "tool_info_2_title": "Verbonden Schrift AI",
@@ -3788,31 +3397,23 @@
     "hero_pill": "Online Handschrift Scanner",
     "hero_title": "Scan Handschrift naar Tekst. Geen App Vereist.",
     "hero_subtitle": "Maak een foto van elke handgeschreven pagina met uw telefoon, of upload een scan, en onze AI converteert deze naar schone bewerkbare tekst in minder dan 30 seconden. Geen app om te downloaden. Werkt in elke browser op elk apparaat.",
-
     "trust_ssl": "SSL Versleuteld",
     "trust_processing": "Minder dan 30 Seconden",
     "trust_accuracy": "95%+ Scan Nauwkeurigheid",
-
     "before_after_title": "Gescand Handschrift Erin. Bewerkbare Digitale Tekst Eruit.",
     "before_after_desc": "Echt scanresultaat dat precies laat zien hoe onze AI een telefoonfoto van handgeschreven notities verwerkt.",
     "before_label": "Voor: Gescande Handgeschreven Pagina",
     "after_label": "Na: Schone Bewerkbare Tekst",
-
     "use_cases_title": "Wie Gebruikt een Handschrift Scanner Online?",
     "use_cases_subtitle": "Iedereen met fysieke handgeschreven pagina's die snel gedigitaliseerd moeten worden, gebruikt dit. Geen scanner hardware vereist, uw telefooncamera is genoeg.",
-
     "use_case_1_title": "Studenten Die College-aantekeningen Scannen",
     "use_case_1_desc": "Fotografeer hele notitieboekpagina's na de les en krijg binnen enkele seconden volledig doorzoekbare, bewerkbare tekst. Stop met het overtikken van pagina's voor examens en begin daadwerkelijk met leren in plaats daarvan.",
-
     "use_case_2_title": "Veldnotities en Locatierapporten",
     "use_case_2_desc": "Ingenieurs, landmeters, inspecteurs en veldwerkers scannen handgeschreven locatienotities rechtstreeks vanaf hun telefoon en hebben ze in een deelbaar digitaal formaat voordat ze de bouwplaats verlaten.",
-
     "use_case_3_title": "Papieren Dossiers en Formulieren Digitaliseren",
     "use_case_3_desc": "Patiëntintakeformulieren, leveringsbonnen, urenstaten, handgeschreven inspectiechecklists - scan ze en ontvang gestructureerde bewerkbare tekst, klaar om te kopiëren-plakken of te exporteren in één stap.",
-
     "use_case_4_title": "Persoonlijke Dagboeken en Notitieboeken",
     "use_case_4_desc": "Digitaliseer persoonlijke dagboeken, receptenboeken, brainstormpagina's en handgeschreven planners met één enkele telefoonfoto. Behoud jaren aan fysieke notitieboeken als doorzoekbare digitale tekst die u overal kunt openen.",
-
     "comparison_title": "Online Handschrift Scanner: Opties Vergeleken",
     "comparison_subtitle": "De meeste scantools dwingen u een app te installeren of binden u aan een abonnement voordat u iets nuttigs krijgt. NoteOCR doet dat niet.",
     "comparison_col_method": "Methode",
@@ -3831,36 +3432,28 @@
     "comparison_row3_time": "Minder dan 30 seconden",
     "comparison_row3_accuracy": "95%+ op gescand handschrift",
     "comparison_row3_cost": "Gratis proberen, geen app, eenmalige betaling",
-
     "features_title": "Waarom NoteOCR de Betere Online Handschrift Scanner is",
     "features_subtitle": "Speciaal gebouwd voor het scannen van handgeschreven pagina's, niet een documentscanner die handschrift als bijzaak probeert te verwerken.",
-
     "feature_1_title": "Uw Telefoon is de Scanner",
     "feature_1_desc": "U heeft geen flatbedscanner of hardware nodig. Maak met uw telefooncamera een foto van elke handgeschreven pagina en upload deze. Onze AI corrigeert perspectief, past de belichting aan en verwijdert schaduwen automatisch, zodat u schone resultaten krijgt van een onvolmaakte foto.",
-
     "feature_2_title": "Leest Wat Flatbedscanners Niet Kunnen",
     "feature_2_desc": "Standaard documentscanners en algemene OCR-tools produceren brabbeltaal op handschrift omdat ze zijn gebouwd voor gedrukte lettertypen. Ons neurale netwerk is specifiek getraind op gescande handschriftvoorbeelden over elke schrijfstijl heen, dus het leest wat anderen niet kunnen.",
-
     "feature_3_title": "Geen App. Geen Account. Geen Wachttijden.",
     "feature_3_desc": "Open de pagina in een willekeurige browser, upload uw gescande afbeelding en krijg bewerkbare tekst terug. Geen app store, geen installatie, geen account aanmaken, niet wachten op bevestigingsmails. Werkt identiek op iPhone, Android, Mac, Windows en Chromebook.",
-
     "tech_title": "Hoe het Scannen van Handschrift naar Tekst Eigenlijk Werkt",
     "tech_intro": "Wanneer u een gescande handschriftafbeelding uploadt, of het nu een telefoonfoto of een flatbedscan is, doorloopt onze AI automatisch drie fasen. Ten eerste wordt de afbeelding voorbewerkt: corrigeert scheefheid en rotatie, verbetert contrast, verwijdert ruis en schaduwen en verscherpt de inkt tegen het papier. Ten tweede voert het lay-outanalyse uit om te identificeren waar tekstregels, paragrafen en structurele elementen zich op de pagina bevinden. Ten derde leest de handschriftherkenningsengine elke regel als een visuele reeks - niet teken voor teken zoals standaard OCR, maar woord en frase tegelijk, gebruikmakend van de omliggende context om dubbelzinnige letters te interpreteren. De uitvoer is gestructureerde tekst die uw originele paragraaf- en regeleinden behoudt.",
-
     "tech_detect_title": "Wat Onze Scanner Aankan",
     "tech_detect_1": "Telefooncamerafoto's genomen onder lichte hoeken - perspectief automatisch gecorrigeerd",
     "tech_detect_2": "Afbeeldingen bij weinig licht en weggewassen door flits met automatische contrastverbetering",
     "tech_detect_3": "Flatbed- en documentscanner output op 150 DPI en hoger",
     "tech_detect_4": "Gemengde handschriftstijlen op dezelfde gescande pagina",
     "tech_detect_5": "Doorgestreepte woorden, pijlen, annotaties en kanttekeningen",
-
     "tech_tips_title": "Scan Tips voor de Beste Resultaten",
     "tech_tips_1": "Houd uw telefoon direct boven de pagina, parallel aan het papier, niet onder een hoek",
     "tech_tips_2": "Gebruik waar mogelijk natuurlijk daglicht - vermijd flits die inktcontrast afvlakt",
     "tech_tips_3": "Zorg ervoor dat de volledige pagina binnen het frame valt voordat u de foto neemt",
     "tech_tips_4": "Voor flatbedscans leveren 300 DPI aanzienlijk betere resultaten op dan 150 DPI",
     "tech_tips_5": "Als inkt vervaagd is of papier oud, verhoog dan het contrast in een foto-editor voordat u uploadt",
-
     "related_tools_title": "Aanverwante Tools",
     "related_tool_1_name": "Handschriftherkenning",
     "related_tool_1_desc": "Brede AI-herkenning voor alle handschriftstijlen",
@@ -3870,9 +3463,7 @@
     "related_tool_3_desc": "Specialistische scanner voor aan elkaar geschreven cursief",
     "related_tool_4_name": "Handschrift naar Excel",
     "related_tool_4_desc": "Scan handgeschreven tabellen in spreadsheets",
-
     "faq_title": "Veelgestelde Vragen Over Het Scannen Van Handschrift Naar Tekst",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3961,11 +3552,9 @@
         }
       }
     },
-
     "cta_title": "Klaar om Uw Handschrift naar Tekst te Scannen?",
     "cta_subtitle": "Upload een telefoonfoto of scannerafbeelding van handgeschreven notities en krijg in minder dan 30 seconden bewerkbare tekst terug. Geen app. Geen account vereist.",
     "cta_button": "Scan Handschrift naar Tekst Gratis",
-
     "tool_info_1_title": "Geen App Nodig",
     "tool_info_1_desc": "Werkt in uw browser op elk apparaat. Geen download, geen aanmelding om te proberen.",
     "tool_info_2_title": "Klaar voor Telefooncamera",

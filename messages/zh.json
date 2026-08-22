@@ -231,150 +231,113 @@
       }
     }
   },
-
   "WordPage": {
     "meta_title": "手写笔记转Word (DOCX) | NoteOCR - 高精度AI手写识别",
     "meta_desc": "告别手动录入。利用AI将手写笔记转换为可编辑的Word文档。自动保留列表、标题和排版结构，支持连笔字和草书识别。",
-
     "hero_pill": "智能文档识别",
     "hero_title": "手写笔记秒转Word文档",
     "hero_subtitle": "不再重复打字。我们的AI能将手写页面转换为可编辑的 .docx 文件，同时完美保留列表、标题、页边距和原始布局结构。",
-
     "trust_ssl": "SSL加密安全",
     "trust_processing": "30秒快速处理",
     "trust_accuracy": "95% 识别准确率",
-
     "before_after_title": "见证转换效果",
     "before_after_desc": "真实案例展示：精准保留文档结构与格式",
     "before_label": "转换前：手写笔记原图",
     "before_placeholder": "[上传您的手写笔记查看识别结果]",
     "after_label": "转换后：Word文档预览",
     "after_placeholder": "[格式化Word文档预览]",
-
     "use_cases_title": "谁在使用手写转Word？",
     "use_cases_subtitle": "从学生到职场专业人士，数万用户每天都在实现笔记数字化",
-
     "use_case_1_title": "学生与研究人员",
     "use_case_1_desc": "将课堂笔记、研究日志和学习材料转换为可搜索的Word文档，方便撰写论文和管理参考文献。",
-
     "use_case_2_title": "商务职场人士",
     "use_case_2_desc": "将会议纪要、白板演示和讲座笔记数字化，快速生成团队共享的格式化报告。",
-
     "use_case_3_title": "作家与记者",
     "use_case_3_desc": "将手写稿件、故事大纲和采访笔记转换为可编辑的电子档，直接进入编辑与出版流程。",
-
     "use_case_4_title": "档案管理员与史学家",
     "use_case_4_desc": "将历史文献、私人信件和日记条目转换为数字档案，便于长期保存和学术检索。",
-
     "comparison_title": "方法对比：手写转Word",
     "comparison_subtitle": "为什么 NoteOCR 比手动打字节省数倍时间",
     "comparison_col_method": "方法",
     "comparison_col_time": "耗时",
     "comparison_col_accuracy": "准确度",
     "comparison_col_cost": "成本",
-
     "comparison_row1_method": "手动打字",
     "comparison_row1_time": "60分钟/页",
     "comparison_row1_accuracy": "98% (极其枯燥、效率低下)",
     "comparison_row1_cost": "免费 (消耗大量精力)",
-
     "comparison_row2_method": "普通OCR工具",
     "comparison_row2_time": "10分钟/页",
     "comparison_row2_accuracy": "70% (格式完全丢失)",
     "comparison_row2_cost": "免费至 100元",
-
     "comparison_row3_method": "NoteOCR转换器",
     "comparison_row3_time": "30秒",
     "comparison_row3_accuracy": "95% (保留原始布局)",
     "comparison_row3_cost": "约 55元/100页",
-
     "features_title": "为什么我们的手写识别与众不同？",
     "features_subtitle": "专为手写笔记转换为Word而生",
-
     "feature_1_title": "排版自动还原",
     "feature_1_desc": "不同于仅提取纯文本的普通OCR，我们的AI可以检测列表、标题和段落。您的Word文档将完美还原笔记本的原始结构。",
-
     "feature_2_title": "连笔字与草书识别",
     "feature_2_desc": "采用基于数百万手写样本训练的深度神经网络。能精准处理连笔字、草体、混合书写风格甚至涂改内容。",
-
     "feature_3_title": "隐私第一的处理流程",
     "feature_3_desc": "您的笔记在上传过程中全程加密，转换完成后永久删除。我们绝不会存储或分享您的个人手写内容。",
-
     "tech_title": "手写识别背后的技术原理",
     "tech_intro": "标准OCR工具将手写体视为印刷字符，会导致格式错乱。NoteOCR的专项AI通过分析笔触、间距模式和文档结构，为您重建一个排版精美的Word文档——完全保留您书写时的缩进和分段。",
-
     "tech_detect_title": "我们能识别什么",
     "tech_detect_1": "段落、列表与层级标题",
     "tech_detect_2": "连笔字、草书与印刷体",
     "tech_detect_3": "划线删除内容与修改标记",
     "tech_detect_4": "页边距与段落缩进",
     "tech_detect_5": "各类横栏纸与空白纸",
-
     "tech_tips_title": "识别优化建议",
     "tech_tips_1": "拍照时请确保光线充足",
     "tech_tips_2": "手机镜头尽量与纸面平行",
     "tech_tips_3": "扫描件建议使用 300 DPI 分辨率",
     "tech_tips_4": "确保墨水与纸张有较高对比度",
     "tech_tips_5": "完成转换后请简单核对输出结果",
-
     "related_tools_title": "相关OCR工具",
-
     "related_tool_1_name": "图片转Word",
     "related_tool_1_desc": "将手写文字一键转为格式化文档",
-
     "related_tool_2_name": "在线PDF编辑",
     "related_tool_2_desc": "无需安装，随时随地在线编辑PDF",
-
     "related_tool_3_name": "在线文档编辑器",
     "related_tool_3_desc": "免费在线编辑Word或Excel文档",
-
     "related_tool_4_name": "图片转文字",
     "related_tool_4_desc": "将图片中的手写内容提取为可编辑文本",
-
     "faq_title": "关于手写转Word的常见问题",
-
     "cta_title": "准备好数字化您的手写笔记了吗？",
     "cta_subtitle": "加入超过50,000名信赖 NoteOCR 的学生与职场人士",
     "cta_button": "立即开始转换",
-
     "footer_text": "NoteOCR // 智能文档处理专家",
-
     "tool_upload_title": "上传您的手写笔记",
     "tool_upload_desc": "支持讲义、会议记录、日记和研究论文。兼容连笔字、印刷体及混合风格。",
     "tool_upload_button": "选择图片",
     "tool_upload_check_1": "JPG, PNG, PDF",
     "tool_upload_check_2": "最大支持 25MB",
     "tool_upload_check_3": "SSL安全加密",
-
     "tool_processing_title": "正在分析手写内容...",
     "tool_processing_desc": "AI 正在识别字符并还原排版结构",
-
     "tool_complete_title": "转换成功！",
     "tool_complete_desc": "您的Word文档已准备就绪。下载后可在Word或Google文档中编辑。",
     "tool_complete_file_type": "Word 文档 (.docx)",
     "tool_complete_status": "已就绪",
     "tool_download_button": "下载Word文档",
     "tool_new_button": "新建转换",
-
     "tool_info_1_title": "保留排版",
     "tool_info_1_desc": "列表、标题和段落结构完好如初",
-
     "tool_info_2_title": "95% 准确率",
     "tool_info_2_desc": "针对手写连笔字深度优化",
-
     "tool_info_3_title": "DOCX 格式",
     "tool_info_3_desc": "兼容 Word, Docs 和 Pages",
-
     "tool_tip_label": "专业建议：",
     "tool_tip_text": "为了获得最佳识别效果，拍照时请从正上方拍摄，避免光影遮挡。保持笔迹清晰可见，有助于提高AI识别的准确度度。",
-
     "toast_success": "转录完成！",
     "toast_error_type": "请上传有效的图片格式 (JPG, PNG, WEBP) 或 PDF 文件",
     "toast_error_size": "文件大小必须在 25MB 以内",
     "toast_error_conversion": "转换失败，请重试。",
     "toast_download_success": "Word文档已成功下载！",
     "toast_download_error": "下载失败。",
-
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -460,153 +423,112 @@
       }
     }
   },
-
   "PdfPage": {
     "meta_title": "在线编辑扫描版PDF - AI手写识别 | 免费PDF编辑器 | NoteOCR",
     "meta_desc": "无需下载软件，直接在浏览器中编辑扫描版PDF。利用AI OCR提取手写文字、添加电子签名、修改内容并导出为可编辑格式。",
-
     "hero_pill": "专业级PDF工作空间",
     "hero_title": "基于AI OCR的在线扫描PDF编辑器",
     "hero_subtitle": "专为扫描件打造的网页端PDF编辑器。上传手写PDF，通过AI提取文字，添加签名或从零创建文档，全程无需安装任何软件。",
-
     "trust_ssl": "SSL加密保护",
     "trust_processing": "秒级云端处理",
     "trust_accuracy": "手写体精准识别",
-
     "workspace_title": "全能型在线文档工作站",
     "workspace_subtitle": "不仅仅是OCR。在安全的环境中上传您的文档，完全在云端实现文件的编辑、搜索和管理。",
-
     "workspace_feature_1_title": "实时文本编辑",
     "workspace_feature_1_desc": "直接在浏览器中修改识别出的文字。在导出前纠正错别字、重新编排段落或更新数据内容。",
-
     "workspace_feature_2_title": "隐私保护优先",
     "workspace_feature_2_desc": "您的文档经过加密处理并在隔离的沙箱环境中运行。未经许可，我们绝不会存储您的敏感数据。",
-
     "workspace_feature_3_title": "即时导出文件",
     "workspace_feature_3_desc": "编辑完成了？立即将处理好的文档下载为可搜索的PDF、Word或Excel表格。",
-
     "use_cases_title": "谁在使用在线扫描件编辑器？",
     "use_cases_subtitle": "从法律服务到医疗行业，数万名用户每天都在处理扫描文档",
-
     "use_case_1_title": "法律专业人士",
     "use_case_1_desc": "编辑扫描后的合同，进行电子签名，脱敏敏感信息。非常适合律师处理法院扫描卷宗。",
-
     "use_case_2_title": "中小企业主",
     "use_case_2_desc": "填写扫描版表单，在发票上添加公司印章或签名，合并PDF报告，无需支付昂贵的Adobe订阅费。",
-
     "use_case_3_title": "学生与教育者",
     "use_case_3_desc": "为扫描版教材添加注释，将课堂手写笔记整理成学习指南，并将其转换为可搜索的PDF。",
-
     "use_case_4_title": "医疗卫生人员",
     "use_case_4_desc": "编辑患者登记表，将手写医疗记录数字化，整理并归档扫描后的病例图表。",
-
     "comparison_title": "PDF编辑：桌面端 vs 在线工具",
     "comparison_subtitle": "为什么网页版编辑器比传统桌面软件更高效？",
     "comparison_col_tool": "工具",
     "comparison_col_access": "访问方式",
     "comparison_col_features": "核心功能",
     "comparison_col_cost": "成本",
-
     "comparison_row1_tool": "Adobe Acrobat Pro",
     "comparison_row1_access": "需安装与更新",
     "comparison_row1_features": "功能全，手写OCR较弱",
     "comparison_row1_cost": "约 150元+/月",
-
     "comparison_row2_tool": "普通在线编辑器",
     "comparison_row2_access": "网页版",
     "comparison_row2_features": "普通OCR，不支持手写体",
     "comparison_row2_cost": "免费 - 50元",
-
     "comparison_row3_tool": "NoteOCR PDF编辑器",
     "comparison_row3_access": "网页即开即用",
     "comparison_row3_features": "OCR + 手写识别 + 全功能编辑",
     "comparison_row3_cost": "免费 - 40元",
-
     "features_title": "为什么我们的扫描件编辑器与众不同？",
     "features_subtitle": "专为编辑扫描件及手写PDF而设计",
-
     "feature_1_title": "针对扫描件的OCR",
     "feature_1_desc": "将扫描文档和手写PDF转换为可搜索、可编辑的文本。AI在识别文字的同时，能完美保留原始页面的排版。 ",
-
     "feature_2_title": "全功能编辑套件",
     "feature_2_desc": "添加文本、绘制签名、插入图片、高亮标注以及重新组织页面。您需要的所有专业工具都在浏览器中。",
-
     "feature_3_title": "银行级安全保障",
     "feature_3_desc": "上传过程全程加密。您的PDF在隔离的容器中处理，并在24小时后自动从服务器中彻底删除。",
-
     "tech_title": "网页版PDF OCR的技术原理",
     "tech_intro": "传统PDF编辑器仅能处理电子文字。NoteOCR结合了先进的OCR与版面分析技术，在浏览器中即可处理扫描件和手写表单。我们能检测文字位置并重建文档层级，让原本死板的扫描图变得可编辑。",
-
     "tech_support_title": "我们支持的内容",
     "tech_support_1": "手写文档、日记及表单",
     "tech_support_2": "扫描版合同与法律文件",
     "tech_support_3": "无文字层的图片版PDF",
     "tech_support_4": "电子签名、印章与批注",
     "tech_support_5": "多页长篇PDF文档",
-
     "tech_tips_title": "最佳识别效果建议",
     "tech_tips_1": "建议使用 300 DPI 或更高的扫描分辨率",
     "tech_tips_2": "确保拍摄光线均匀，对比度清晰",
     "tech_tips_3": "保持纸面平整，避免褶皱和阴影",
     "tech_tips_4": "手写内容建议使用彩色或灰阶模式拍摄",
     "tech_tips_5": "尽可能直接从扫描仪上传文件",
-
     "related_tools_title": "相关OCR工具",
-
     "related_tool_1_name": "图片转Word",
     "related_tool_1_desc": "将手写体快速转换为格式化的文档",
-
     "related_tool_2_name": "在线PDF编辑器（无需安装）",
     "related_tool_2_desc": "随时随地在线上传并编辑PDF文件",
-
     "related_tool_3_name": "在线文档编辑器",
     "related_tool_3_desc": "免费在线编辑Word或Excel文件",
-
     "related_tool_4_name": "图片转文字",
     "related_tool_4_desc": "将图片中的连笔手写体转换为电子文字",
-
     "faq_title": "关于编辑扫描PDF的常见问题",
-
     "cta_title": "准备好在线编辑您的扫描PDF了吗？",
     "cta_subtitle": "加入超过10万名信任 NoteOCR 网页编辑器的用户行列",
     "cta_button": "立即开始编辑",
-
     "tool_main_title": "专业PDF工作空间",
     "tool_main_desc": "上传带有手写内容的扫描PDF进行OCR，或开启一个空白文档开始创作。",
     "tool_upload_button": "上传扫描版PDF",
     "tool_new_button": "创建空白文档",
-
     "tool_upload_check_1": "仅限PDF格式",
     "tool_upload_check_2": "最大支持 25MB",
     "tool_upload_check_3": "SSL安全加密",
-
     "tool_info_1_title": "手写体识别",
     "tool_info_1_desc": "精准提取扫描件中的手写文字",
-
     "tool_info_2_title": "全能编辑器",
     "tool_info_2_desc": "添加文字、签名、批注等丰富功能",
-
     "tool_info_3_title": "无需下载软件",
     "tool_info_3_desc": "打开浏览器即可使用，即时响应",
-
     "tool_tip_label": "专业提示：",
     "tool_tip_text": "为了获得最佳OCR效果，请确保文档扫描分辨率不低于300 DPI。手写表单如果在均匀光线下拍摄，识别率会大幅提升。",
-
     "modal_new_title": "创建新PDF",
     "modal_new_desc": "从空白页面开始，自由构建您的文档内容。",
     "modal_new_button": "创建空白PDF",
-
     "modal_upload_title": "上传扫描版PDF",
     "modal_upload_desc": "导入扫描PDF以提取文字、添加签名或修改现有内容。",
     "modal_upload_placeholder": "点击或将PDF拖拽至此处",
     "modal_upload_info": "文件大小限制：25MB • 支持扫描及手写体PDF",
-
     "modal_processing_new": "正在初始化工作区...",
     "modal_processing_upload": "正在处理PDF文档...",
     "modal_processing_desc": "正在为您配置安全的PDF编辑环境",
-
     "modal_security_badge": "银行级数据加密",
-
     "toast_success_create": "PDF工作区已就绪！",
     "toast_success_upload": "PDF上传成功！",
     "toast_error_type": "请选择有效的PDF文件",
@@ -614,7 +536,6 @@
     "toast_error_create": "创建PDF失败。",
     "toast_error_upload": "上传PDF失败",
     "toast_error_drop": "请拖拽有效的PDF文件",
-
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {
@@ -703,20 +624,16 @@
     "router_title": "您拥有什么类型的文档？",
     "router_subtitle": "我们将引导您使用正确的工具，以获得最佳结果。",
     "router_back_button": "返回文档类型",
-
     "router_type_standard_label": "标准 / 数字 PDF",
     "router_type_standard_desc": "键入的合同、表单或任何带有可选文本的 PDF。我需要编辑、批注或签署它。",
     "router_type_standard_cta": "继续使用 PDF 编辑器",
-
     "router_type_handwritten_label": "手写笔记或文档",
     "router_type_handwritten_desc": "上传手写笔记、信件或文档的照片或扫描件。我们会将它们转换为格式完美、可编辑的 Word 文件——同时保留结构、间距和排版。",
     "router_type_handwritten_cta": "将手写内容转换为 Word →",
-
     "router_type_table_label": "手写日志、表格或数据",
     "router_type_table_desc": "上传手写网格、分类账、库存清单或任何结构化记录的照片或扫描件。我们会将其转换为干净、专业格式化的 Excel 电子表格。",
     "router_type_table_cta": "将手写内容转换为 Excel →"
   },
-
   "EditorPage": {
     "meta_title": "在线免费编辑Office文档 - 基于浏览器的Word、Excel和PowerPoint编辑器",
     "meta_desc": "专业的在线文档编辑器。无需Microsoft Office，直接在浏览器中创建和编辑Word（DOCX）、Excel（XLSX）和PowerPoint（PPTX）文件。",
@@ -911,144 +828,109 @@
   "ExcelPage": {
     "meta_title": "手写表格转 Excel (XLSX) | NoteOCR - AI 自动识别",
     "meta_desc": "告别手动录入。利用 AI 技术将手写表格、财务账本和进度表即时转换为可编辑的 Excel 电子表格，结构还原精准。",
-
     "hero_pill": "表格结构智能识别",
     "hero_title": "将手写表格转换为 Excel 电子表格",
     "hero_subtitle": "无需重新手动输入数据。即使没有画线，我们的 AI 也能自动识别手写笔记中的行、列和单元格边界，并导出格式化的 .xlsx 文件。",
-
     "trust_ssl": "SSL 安全加密",
     "trust_processing": "2 分钟快速处理",
     "trust_accuracy": "98% 数字识别准确率",
-
     "before_after_title": "查看转换效果",
     "before_after_desc": "真实案例展示：完美还原表格结构与数据准确性",
     "before_label": "转换前：手写账本图片",
     "before_placeholder": "[在此上传您的手写表格以查看结果]",
     "after_label": "转换后：Excel 输出",
     "after_placeholder": "[格式化电子表格预览]",
-
     "use_cases_title": "谁在使用手写表格转 Excel 功能？",
     "use_cases_subtitle": "从会计师事务所到教育工作者，每天有数千名用户通过我们实现数字化",
-
     "use_case_1_title": "会计与财务审计",
     "use_case_1_desc": "将手写财务账本、报销单和收据转换为可筛选的 Excel 文件，方便税务申报和审计。",
-
     "use_case_2_title": "库存管理",
     "use_case_2_desc": "将盘点表、产品清单和仓库日志数字化。非常适合使用纸张追踪库存的小型企业。",
-
     "use_case_3_title": "教师与成绩管理",
     "use_case_3_desc": "将手写成绩单和学生名册转换为格式化的电子表格，用于制作成绩单和进度追踪。",
-
     "use_case_4_title": "科研与数据收集",
     "use_case_4_desc": "将野外笔记、问卷结果和实验室数据表转换为可供统计软件分析的数据集。",
-
     "comparison_title": "手写表格转 Excel：方案对比",
     "comparison_subtitle": "为什么 NoteOCR 比手动录入节省数小时时间",
     "comparison_col_method": "方案",
     "comparison_col_time": "耗时",
     "comparison_col_accuracy": "准确率",
     "comparison_col_cost": "成本",
-
     "comparison_row1_method": "人工手动打字",
     "comparison_row1_time": "45 分钟",
     "comparison_row1_accuracy": "95% (易出人为错误)",
     "comparison_row1_cost": "高额人力成本",
-
     "comparison_row2_method": "通用 OCR",
     "comparison_row2_time": "10 分钟",
     "comparison_row2_accuracy": "50% (表格结构会乱开)",
     "comparison_row2_cost": "免费 - 150 元",
-
     "comparison_row3_method": "NoteOCR 表格专用",
     "comparison_row3_time": "2 分钟",
     "comparison_row3_accuracy": "98% 结构完美还原",
     "comparison_row3_cost": "极具性价比的单页费用",
-
     "features_title": "为什么我们的表格 OCR 与众不同",
     "features_subtitle": "专为手写数据表格构建",
-
     "feature_1_title": "智能网格检测",
     "feature_1_desc": "即使没有明显的表格边框，我们的 AI 也能识别表格结构。它能理解手写布局中的列关系、文本对齐和层级。",
-
     "feature_2_title": "针对数字优化",
     "feature_2_desc": "财务数据转换精度极高。在保留数字格式的同时，转换会计账簿、发票、库存盘点和费用报告。",
-
     "feature_3_title": "导出为 Excel 或 CSV",
     "feature_3_desc": "下载带有正确单元格格式的 Microsoft Excel (.xlsx)，或导出为 CSV 以导入 Google 表格或数据库。",
-
     "tech_title": "网格检测技术原理",
     "tech_intro": "大多数 OCR 工具将表格视为纯文本，破坏了单元格关系。NoteOCR 的专用 AI 通过分析空间位置和文本对齐模式，重构表格的精确结构。",
-
     "tech_detect_title": "我们可以识别",
     "tech_detect_1": "无边框表格的单元格边界",
     "tech_detect_2": "列标题与层级结构",
     "tech_detect_3": "跨列的合并单元格",
     "tech_detect_4": "货币符号与小数点",
     "tech_detect_5": "网格纸或白纸上的手写表格",
-
     "tech_tips_title": "获得最佳效果的建议",
     "tech_tips_1": "拍摄时保持光线充足",
     "tech_tips_2": "相机与纸张保持平行",
     "tech_tips_3": "扫描件建议使用 300 DPI",
     "tech_tips_4": "在一张照片中捕获整个表格",
     "tech_tips_5": "重要数据请在导出后核对",
-
     "related_tools_title": "相关 OCR 工具",
-
     "related_tool_1_name": "图片转 Word",
     "related_tool_1_desc": "将手写文本转换为格式化的文档",
-
     "related_tool_2_name": "在线 PDF 编辑",
     "related_tool_2_desc": "随时随地在线上传并编辑 PDF 文档",
-
     "related_tool_3_name": "在线文档编辑器",
     "related_tool_3_desc": "免费在线编辑 Word 或 Excel 文档",
-
     "related_tool_4_name": "图片转文字",
     "related_tool_4_desc": "将图片中的草书或手写体转换为可编辑文本",
-
     "faq_title": "关于手写表格转 Excel 的常见问题",
-
     "cta_title": "准备好停止手动录入数据了吗？",
     "cta_subtitle": "加入 10,000+ 使用 NoteOCR 数字化手写表格的用户行列",
     "cta_button": "立即转换您的表格",
-
     "tool_upload_title": "上传您的手写表格",
     "tool_upload_desc": "支持手写账本、库存表、成绩册。有无边框均可识别。",
     "tool_upload_button": "选择图片",
     "tool_upload_check_1": "JPG, PNG, JPEG",
     "tool_upload_check_2": "最大 25MB",
     "tool_upload_check_3": "SSL 安全保证",
-
     "tool_processing_title": "正在检测表格结构...",
     "tool_processing_desc": "AI 正在分析行、列和单元格边界",
-
     "tool_complete_title": "表格提取成功！",
     "tool_complete_desc": "您的电子表格已准备就绪。下载为 Excel (.xlsx) 或 CSV 格式。",
     "tool_complete_file_type": "Excel 电子表格",
     "tool_complete_status": "就绪",
     "tool_download_button": "下载 Excel",
     "tool_new_button": "转换新表格",
-
     "tool_info_1_title": "智能检测",
     "tool_info_1_desc": "支持无实线边框的表格识别",
-
     "tool_info_2_title": "99% 数字准确率",
     "tool_info_2_desc": "针对数字及财务数据深度优化",
-
     "tool_info_3_title": "Excel 格式",
     "tool_info_3_desc": "兼容 Excel、Google 表格及各类数据库",
-
     "tool_tip_label": "专业技巧：",
     "tool_tip_text": "为了获得最佳识别效果，请在光线充足的环境下拍照并保持手机平行。300 DPI 的扫描件效果优于模糊的照片。",
-
     "toast_success": "表格提取成功！",
     "toast_error_type": "请上传有效的图片 (JPG, PNG, WEBP) 或 PDF 文件",
     "toast_error_size": "文件大小必须在 25MB 以内",
     "toast_error_extraction": "提取失败。",
     "toast_download_success": "Excel 文件已下载！",
     "toast_download_error": "下载失败。",
-
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1262,7 +1144,13 @@
     "comparison": {
       "title": "技术规格详解",
       "subtitle": "为什么 NoteOCR 优于普通的扫描软件。",
-      "headers": ["功能", "入门级", "学生版", "专业版", "高级用户"],
+      "headers": [
+        "功能",
+        "入门级",
+        "学生版",
+        "专业版",
+        "高级用户"
+      ],
       "groups": {
         "core": "识别智能",
         "formats": "导出与文件格式",
@@ -1271,57 +1159,112 @@
       "rows": [
         {
           "name": "印刷体手写 OCR",
-          "values": [true, true, true, true],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "连笔/草书识别引擎",
-          "values": ["标准", "高", "超清", "超清"],
+          "values": [
+            "标准",
+            "高",
+            "超清",
+            "超清"
+          ],
           "group": "core"
         },
         {
           "name": "表格识别 (Excel)",
-          "values": [false, false, true, true],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "版式还原 (Word)",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "数学公式识别",
-          "values": [false, false, "基础", "高级"],
+          "values": [
+            false,
+            false,
+            "基础",
+            "高级"
+          ],
           "group": "core"
         },
         {
           "name": "字迹瑕疵修正",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "导出格式",
-          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "所有格式"],
+          "values": [
+            "TXT",
+            "DOCX, TXT",
+            "XLSX, DOCX, PDF",
+            "所有格式"
+          ],
           "group": "formats"
         },
         {
           "name": "批量上传限制",
-          "values": ["1 个文件", "5 个文件", "10 个文件", "无限制"],
+          "values": [
+            "1 个文件",
+            "5 个文件",
+            "10 个文件",
+            "无限制"
+          ],
           "group": "formats"
         },
         {
           "name": "云端存储时长",
-          "values": ["24 小时", "30 天", "永久", "永久"],
+          "values": [
+            "24 小时",
+            "30 天",
+            "永久",
+            "永久"
+          ],
           "group": "system"
         },
         {
           "name": "加密级别",
-          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "values": [
+            "AES-256",
+            "AES-256",
+            "AES-256",
+            "AES-256"
+          ],
           "group": "system"
         },
         {
           "name": "处理优先级",
-          "values": ["标准", "标准", "高", "实时"],
+          "values": [
+            "标准",
+            "标准",
+            "高",
+            "实时"
+          ],
           "group": "system"
         }
       ]
@@ -1440,8 +1383,8 @@
       "loading": "正在处理..."
     },
     "sidebar": {
-      "hq_title": "苏黎世总部",
-      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zurich\nSwitzerland",
+      "hq_title": "总部",
+      "hq_address": "NoteOCR\n11 Boyo Road, Sapele, Delta State\nNigeria",
       "timezone": "中欧时间 (GMT+1)",
       "support": "一般支持",
       "sales": "企业销售",
@@ -1782,7 +1725,10 @@
           "title": "表格提取",
           "desc": "将手绘表格直接转换为 Excel/CSV。"
         },
-        "teams": { "title": "团队工作区", "desc": "实时编辑与版本控制。" }
+        "teams": {
+          "title": "团队工作区",
+          "desc": "实时编辑与版本控制。"
+        }
       }
     },
     "getting_started": {
@@ -1898,144 +1844,109 @@
   "pic-to-excel": {
     "meta_title": "图片转 Excel 在线工具 | AI 图片表格识别转换器",
     "meta_desc": "将任何图片转换为电子表格。立即将 JPG、PNG 或屏幕截图转换为可编辑的 Excel (.xlsx)。适用于数据表、发票识别及手写体的最佳 AI 工具。",
-
     "hero_pill": "AI 图片转表格技术",
     "hero_title": "利用 AI 表格识别技术将图片转换为 Excel",
     "hero_subtitle": "将照片、屏幕截图和手写笔记转换为可编辑的 Excel 电子表格。无需手动录入。支持 JPG 和 PNG 格式。",
-
     "trust_ssl": "SSL 加密传输",
     "trust_processing": "即时转换",
     "trust_accuracy": "99% 表格识别准确率",
-
     "before_after_title": "从图片到电子表格的进化",
     "before_after_desc": "见证我们的 AI 如何从静态图片中提取数据并填入可编辑的单元格",
     "before_label": "转换前：图片 / 截图",
     "before_placeholder": "[上传任何带有表格的图片]",
     "after_label": "转换后：可编辑 Excel",
     "after_placeholder": "[已排版的 .xlsx 预览]",
-
     "use_cases_title": "谁需要图片转 Excel 转换器？",
     "use_cases_subtitle": "从数据录入员到企业主，我们帮您自动化处理枯燥的任务",
-
     "use_case_1_title": "发票与收据数字化",
     "use_case_1_desc": "拍摄纸质发票的照片。我们的 AI 会直接提取明细、数量和价格到列中，方便对接您的财务软件。",
-
     "use_case_2_title": "截图转 Excel",
     "use_case_2_desc": "遇到无法复制粘贴的 PDF 或网页表格？直接截屏并上传。我们能瞬间重建表格框架。",
-
     "use_case_3_title": "手写日志识别",
     "use_case_3_desc": "唯一能处理潦草手写文字的工具。将仓库库存记录和外勤日志转换为数字电子表格。",
-
     "use_case_4_title": "财务报表转换",
     "use_case_4_desc": "转换银行对账单或打印账簿的照片。我们保留小数点和货币格式，确保 100% 的数据完整性。",
-
     "comparison_title": "图片转 Excel：为什么选择 NoteOCR",
     "comparison_subtitle": "别再把时间浪费在普通的 PDF 转换工具上",
     "comparison_col_method": "方法",
     "comparison_col_time": "耗时",
     "comparison_col_accuracy": "表格结构",
     "comparison_col_cost": "精力消耗",
-
     "comparison_row1_method": "人工手动录入",
     "comparison_row1_time": "1 小时/页",
     "comparison_row1_accuracy": "极高录入错误风险",
     "comparison_row1_cost": "高（极其枯燥）",
-
     "comparison_row2_method": "普通 PDF 工具",
     "comparison_row2_time": "5 分钟",
     "comparison_row2_accuracy": "遇到图片即失效",
     "comparison_row2_cost": "令人沮丧",
-
     "comparison_row3_method": "NoteOCR AI",
     "comparison_row3_time": "60 秒内",
     "comparison_row3_accuracy": "完美保留网格结构",
     "comparison_row3_cost": "全自动化",
-
     "features_title": "将图片转换为表格的最佳方案",
     "features_subtitle": "专为 JPG、PNG 和手机照片设计",
-
     "feature_1_title": "格式无限制",
     "feature_1_desc": "没有 PDF？没关系。我们专注于处理其他转换器无法识别的原始图片格式（JPG, JPEG, PNG）。",
-
     "feature_2_title": "智能网格重建",
     "feature_2_desc": "我们的 AI 不仅识字，它还能“看见”网格。即使照片拍摄角度倾斜，它也能将零散数据对齐到行列中。",
-
     "feature_3_title": "移动端优先处理",
     "feature_3_desc": "专为“随手拍，随手转”工作流打造。在办公桌上拍张照，几秒钟后即可在设备上获得 Excel 文件。",
-
     "tech_title": "图片转 Excel AI 的工作原理",
     "tech_intro": "将“扁平”的图片转换为动态电子表格非常复杂。NoteOCR 利用计算机视觉识别表格的实线（或隐含的虚线）。它将图片分割为坐标系，针对每个“单元格”运行 OCR，最后将数据重组为合规的 .xlsx 文件。",
-
     "tech_detect_title": "我们提取的内容",
     "tech_detect_1": "从截图中识别表格结构",
     "tech_detect_2": "从偏斜/成角度的照片中提取数据",
     "tech_detect_3": "手写体和印刷体数字",
     "tech_detect_4": "多栏复杂布局",
     "tech_detect_5": "页眉与页脚识别",
-
     "tech_tips_title": "完美转换的小贴士",
     "tech_tips_1": "确保图片清晰、对焦准确（无模糊）",
     "tech_tips_2": "避免数据表上有阴影覆盖",
     "tech_tips_3": "将图片裁剪至相关的表格区域",
     "tech_tips_4": "使用高分辨率 (HD) 模式拍摄",
     "tech_tips_5": "使用 JPG 或 PNG 等标准格式",
-
     "related_tools_title": "更多转换工具",
-
     "related_tool_1_name": "图片转 Word",
     "related_tool_1_desc": "将手写文本转换为排版美观的文档",
-
     "related_tool_2_name": "在线编辑 PDF（无需安装）",
     "related_tool_2_desc": "随时随地在线上传并编辑 PDF 文档",
-
     "related_tool_3_name": "在线文档编辑器",
     "related_tool_3_desc": "免费在线编辑 MS Word 或 Excel 文档",
-
     "related_tool_4_name": "图片转文本",
     "related_tool_4_desc": "将图片中的手写体文字转换为可编辑文本",
-
     "faq_title": "常见问题解答：图片转 Excel",
-
     "cta_title": "立即将图片变为电子表格",
     "cta_subtitle": "告别手动打字。开始智能扫描。加入 10,000+ 用户，节省大量数据录入时间。",
     "cta_button": "立即转换图片",
-
     "tool_upload_title": "上传待转换图片",
     "tool_upload_desc": "支持 JPG, PNG, WEBP。适用于截图、照片和扫描件。",
     "tool_upload_button": "选择图片",
     "tool_upload_check_1": "支持 JPG / PNG",
     "tool_upload_check_2": "无需注册",
     "tool_upload_check_3": "安全处理",
-
     "tool_processing_title": "正在分析图片...",
     "tool_processing_desc": "正在识别表格结构并提取数据",
-
     "tool_complete_title": "Excel 文件已就绪！",
     "tool_complete_desc": "您的图片已完成转换。请在下方下载电子表格。",
     "tool_complete_file_type": "Microsoft Excel (.xlsx)",
     "tool_complete_status": "转换成功",
     "tool_download_button": "下载 Excel",
     "tool_new_button": "继续转换",
-
     "tool_info_1_title": "全格式支持",
     "tool_info_1_desc": "支持 JPG、PNG 及各种截图",
-
     "tool_info_2_title": "表格 AI",
     "tool_info_2_desc": "自动保留行与列的结构",
-
     "tool_info_3_title": "可编辑性",
     "tool_info_3_desc": "输出完整的 Excel (.xlsx) 格式",
-
     "tool_tip_label": "扫描技巧：",
     "tool_tip_text": "如果要转换长文档，请近距离拍摄多张照片，而不是远距离拍一张大图。图片越清晰，准确率越高。",
-
     "toast_success": "图片转换成功！",
     "toast_error_type": "请上传有效的图片文件 (JPG, PNG)",
     "toast_error_size": "文件大小必须在 25MB 以内",
     "toast_error_extraction": "未能检测到有效表格。",
     "toast_download_success": "电子表格已保存至设备！",
     "toast_download_error": "下载失败。",
-
     "FAQ": {
       "items": {
         "pic_to_excel_how": {
@@ -2101,39 +2012,29 @@
       }
     }
   },
-
   "HandwritingRecognitionPage": {
     "meta_title": "在线手写文字识别与提取 | NoteOCR",
     "meta_desc": "上传任意手写图片，我们的AI将立即识别并将其转换为带排版的文本。免费在线手写文字识别与手写转文字工具。",
-
     "hero_pill": "AI 手写文字识别",
     "hero_title": "真正好用的手写文字识别工具。",
     "hero_subtitle": "上传任何手写笔记、表单或文档的照片。我们的AI能够读取手写内容（包括潦草的连笔字），并在几秒钟内将其转换为可编辑、带排版的电子文本。",
-
     "trust_ssl": "SSL 加密传输",
     "trust_processing": "30秒快速处理",
     "trust_accuracy": "99% 识别准确率",
-
     "before_after_title": "查看文字识别效果",
     "before_after_desc": "真实手写样本：展示我们的AI识别效果与输出文本的对比。",
     "before_label": "转换前：手写图片",
     "after_label": "转换后：识别出的电子文本",
-
     "use_cases_title": "谁在使用手写文字识别？",
     "use_cases_subtitle": "从学生将手写笔记电子化，到企业处理表单，手写转文字功能每天都能为您节省数小时时间。",
-
     "use_case_1_title": "学生与课堂笔记",
     "use_case_1_desc": "课后拍下笔记本，几秒钟即可获取完全可搜索、可编辑的文本。考试前再也不用一页页地重新打字录入课堂笔记了。",
-
     "use_case_2_title": "潦草字体与连笔字",
     "use_case_2_desc": "我们的AI经过针对困难手写体的专门训练。无论是匆忙的涂鸦、连笔字，还是混合书写风格，都能被高精度识别。",
-
     "use_case_3_title": "手写表单与文档",
     "use_case_3_desc": "通过手机照片将患者病历表、现场报告、发票和人力资源记录电子化。无需扫描仪，有手机摄像头就足够了。",
-
     "use_case_4_title": "旧信件与日记",
     "use_case_4_desc": "将手写的家书、个人日记和历史文件转换为可搜索的电子文本，以便于分享和存档，永久保存。",
-
     "comparison_title": "手写文字识别：不同方法对比",
     "comparison_subtitle": "为什么专为手写识别打造的AI总是胜过通用工具。",
     "comparison_col_method": "方法",
@@ -2152,36 +2053,28 @@
     "comparison_row3_time": "30秒以内",
     "comparison_row3_accuracy": "95–99%（包含连笔字）",
     "comparison_row3_cost": "免费试用",
-
     "features_title": "为什么我们的手写文字识别与众不同",
     "features_subtitle": "专为手写文字识别而构建，而非由印刷体OCR工具改造而来。",
-
     "feature_1_title": "基于手写体训练，而非电脑字体",
     "feature_1_desc": "通用OCR从印刷字体中学习。而我们的AI则是利用数百万份真实的手写样本进行独家训练，涵盖工整字体、连笔字、混合风格、潦草笔记等所有类型。",
-
     "feature_2_title": "精准读取潦草与连笔字",
     "feature_2_desc": "连笔、倾斜度变化、字体大小不一——这些正是导致标准OCR失败的原因。我们的神经网络像人类阅读一样处理它们：利用上下文语境来填补认知空白。",
-
     "feature_3_title": "输出您真正能用的排版",
     "feature_3_desc": "识别出的文字不会只作为无排版的纯段落输出。我们会重构排版布局，保留列表和标题，并根据您的需要导出为 Word、Excel 或纯文本格式。",
-
     "tech_title": "手写文字识别的工作原理",
     "tech_intro": "标准OCR技术是为印刷体（具有可预测字母形状的统一字体）设计的。手写体打破了让标准OCR正常工作的所有假设。每个人的书写方式都不同，文字会连接、重叠、大小和倾斜度各异。我们的AI采用了完全不同的方法：在数百万个手写样本上训练的神经网络学会了像人类一样阅读——通过识别整个单词和整行的模式，而不是单个字符。",
-
     "tech_detect_title": "我们的AI能检测到什么",
     "tech_detect_1": "工整与连笔手写体，包括相连和重叠的文字",
     "tech_detect_2": "潦草、匆忙和不规则的书写风格",
     "tech_detect_3": "同一页上混合的工整字与连笔字",
     "tech_detect_4": "划掉的词和修改痕迹",
     "tech_detect_5": "文档结构——标题、列表、段落和表格行",
-
     "tech_tips_title": "获取最佳识别效果的提示",
     "tech_tips_1": "在良好的自然光下拍摄，避免直接在纸面上使用闪光灯",
     "tech_tips_2": "将手机与纸张保持平行，不要倾斜拍摄",
     "tech_tips_3": "确保墨水与纸张背景形成鲜明对比",
     "tech_tips_4": "扫描文档请使用 300 DPI 或更高分辨率",
     "tech_tips_5": "校对输出结果：即使有95%的准确率，偶尔也需要人工修正",
-
     "related_tools_title": "相关工具",
     "related_tool_1_name": "手写转 Word",
     "related_tool_1_desc": "将手写笔记转换为带排版的 .docx",
@@ -2191,9 +2084,7 @@
     "related_tool_3_desc": "专门的连笔草书OCR识别工具",
     "related_tool_4_name": "扫描手写提取文字",
     "related_tool_4_desc": "从手机照片或 PDF 扫描件提取",
-
     "faq_title": "关于手写文字识别的常见问题 (FAQ)",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2278,11 +2169,9 @@
         }
       }
     },
-
     "cta_title": "准备好识别您的手写文字了吗？",
     "cta_subtitle": "加入10,000多名学生、研究人员和企业用户的行列，告别手动打字录入。",
     "cta_button": "免费尝试手写文字识别",
-
     "tool_info_1_title": "无需下载 APP",
     "tool_info_1_desc": "直接在您的浏览器中运行。无需下载，免注册即可试用。",
     "tool_info_2_title": "连笔字与潦草字体",
@@ -2290,39 +2179,29 @@
     "tool_info_3_title": "导出 Word、Excel 与纯文本",
     "tool_info_3_desc": "以您真正需要的格式提取并保存识别后的文本。"
   },
-
   "CursiveToTextPage": {
     "meta_title": "在线连笔字转文本转换器 | NoteOCR",
     "meta_desc": "立即将连笔手写字转换为电子文本。我们的AI能以95%以上的准确率读取连笔字、草书和连写笔迹。免费在线连笔字OCR识别工具。",
-
     "hero_pill": "连笔字手写OCR识别",
     "hero_title": "几秒钟内将连笔字转换为电子文本。",
     "hero_subtitle": "上传任何连笔手写笔记、信件、日记或表单的照片。我们的AI能解码普通OCR工具无法处理的连笔字和复杂笔画。无需下载App，无需注册。30秒内即可获取结果。",
-
     "trust_ssl": "SSL加密安全",
     "trust_processing": "不到30秒极速处理",
     "trust_accuracy": "95%+ 连笔字识别准确率",
-
     "before_after_title": "输入连笔手写字，输出清晰电子文本。",
     "before_after_desc": "真实连笔字示例：亲自看看我们的AI如何处理行云流水的连笔字迹。",
     "before_label": "转换前：手写连笔字",
     "after_label": "转换后：数字化文本",
-
     "use_cases_title": "谁需要将连笔字转换为文本？",
     "use_cases_subtitle": "从数字化旧信件的家族历史学家，到整理课堂笔记的学生，连笔字转换功能每周能为您节省数小时的手动打字时间。",
-
     "use_case_1_title": "旧信件与家族文献",
     "use_case_1_desc": "将祖父母的手写信件、旧日记和个人日志转换为可搜索的电子文本。无需花钱聘请专业转录员，即可妥善保存家族历史。",
-
     "use_case_2_title": "学生手写笔记",
     "use_case_2_desc": "许多学生仍在使用连笔字做课堂和复习笔记。拍下您的笔记本，几秒钟内即可获得完全可编辑、可搜索的文本，随时可用于复习资料和论文写作。",
-
     "use_case_3_title": "历史与档案文献",
     "use_case_3_desc": "数字化连笔书写的记录、遗产文件、教区登记册和法律文书。我们的AI能够处理较古老的连笔风格，包括19世纪的维多利亚时期长手书和20世纪初的手写体。",
-
     "use_case_4_title": "专业手写表单",
     "use_case_4_desc": "将连笔手写的现场报告、已签名的接收表单、手写发票和病历记录，一步转换为可编辑的Word或Excel文件。",
-
     "comparison_title": "连笔字OCR：各种方法对比",
     "comparison_subtitle": "连笔字是普通工具的短板。这就是为什么专用的AI是唯一可靠的选择。",
     "comparison_col_method": "方法",
@@ -2341,36 +2220,28 @@
     "comparison_row3_time": "不到30秒",
     "comparison_row3_accuracy": "连笔字高达90–98%",
     "comparison_row3_cost": "免费试用",
-
     "features_title": "为什么我们的连笔字转换器与众不同",
     "features_subtitle": "这是一款专为连笔字设计的AI，而不是在印刷体OCR工具上勉强拼凑的连笔字补丁。",
-
     "feature_1_title": "原生读取相连的字母",
     "feature_1_desc": "标准OCR在读取字符前会先将其逐个分割。而连笔字的字母是相连重叠的，这会让传统方法完全失效。我们的AI与人眼一样，一次性读取整个单词和句子，让其他工具束手无策的连笔字变得清晰可读。",
-
     "feature_2_title": "应对各种连笔笔圈、倾斜度和字体变化",
     "feature_2_desc": "每个人的连笔字都是独一无二的——不同的笔圈大小、倾斜角度和字母间距。我们的神经网络使用数百万份涵盖数十种书写风格的真实连笔字样本进行了训练，因此能够精准识别它从未见过的手写体。",
-
     "feature_3_title": "支持导出为Word、Excel和文本",
     "feature_3_desc": "转换后的连笔文本不会变成一团乱码的段落。我们会重建文档排版、段落、列表和表格，并根据您的需求直接导出为.docx、.xlsx或纯.txt文件。",
-
     "tech_title": "为什么连笔字对OCR来说这么难，我们又是如何解决的？",
     "tech_intro": "标准OCR专为印刷文本设计。它的所有前提假设——统一的字符形状、字母间的清晰间隙、一致的间距——在遇到连笔字时都会彻底失效。连笔字母会融合在一起。同一个字母，根据前后的字母不同，外观也会完全不同。每行的倾斜度也会变化。笔画的连圈和拖尾会与其他字母交叉。我们的AI采用了完全不同的方法：它不再尝试分离单个字符，而是将整个单词和句子作为视觉模式进行读取。这正是一个流利的人类读者在遇到从未见过的连写字体时所使用的策略。",
-
     "tech_detect_title": "我们的AI能处理什么",
     "tech_detect_1": "字母毫不分离的完全连笔字（草书/行书）",
     "tech_detect_2": "同一页面上混杂的连笔字与印刷体手写字",
     "tech_detect_3": "多变的倾斜度，包括向右倾、向左倾和直立书写",
     "tech_detect_4": "具有装饰性和高度个人风格的字体（如花体字）",
     "tech_detect_5": "古老的维多利亚时期和20世纪初的连笔字风格",
-
     "tech_tips_title": "获得最佳连笔字转换效果的提示",
     "tech_tips_1": "在自然光下拍摄，避免使用会降低墨水对比度的闪光灯",
     "tech_tips_2": "将相机平放于页面正上方，不要倾斜角度拍摄",
     "tech_tips_3": "确保纸张颜色浅、墨水颜色深，避免文本上出现阴影",
     "tech_tips_4": "对于非常古老的文档，建议先在图片编辑器中提高对比度",
     "tech_tips_5": "务必校对输出结果。即便是95%的准确率，在长页面中偶尔也需要手动修正",
-
     "related_tools_title": "相关工具",
     "related_tool_1_name": "手写转Word",
     "related_tool_1_desc": "将手写笔记转换为带排版的.docx文件",
@@ -2380,9 +2251,7 @@
     "related_tool_3_desc": "支持所有手写风格：正楷、连笔字、混合体",
     "related_tool_4_name": "扫描手写字转文本",
     "related_tool_4_desc": "支持手机照片或PDF扫描件",
-
     "faq_title": "关于连笔字转文本的常见问题 (FAQ)",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2467,11 +2336,9 @@
         }
       }
     },
-
     "cta_title": "准备好转换您的连笔手写字了吗？",
     "cta_subtitle": "上传任何连笔字图片、信件、日记、笔记、表单，在不到30秒的时间内获取清晰、可编辑的文本。",
     "cta_button": "免费体验连笔字转文本",
-
     "tool_info_1_title": "无需下载App",
     "tool_info_1_desc": "直接在您的浏览器中运行。无需下载，无需注册即可试用。",
     "tool_info_2_title": "连写字体专属AI",
@@ -2479,39 +2346,29 @@
     "tool_info_3_title": "支持导出Word、Excel和文本",
     "tool_info_3_desc": "以您实际需要的格式获取转换后的文本。"
   },
-
   "ScanHandwritingToText": {
     "meta_title": "在线手写转文字 - 免费手写识别工具 | NoteOCR",
     "meta_desc": "在浏览器中即时将手写笔记扫描为文字。无需下载应用。只需上传手机照片或扫描图片，即可在 30 秒内获取可编辑的数字文本。",
-
     "hero_pill": "在线手写扫描仪",
     "hero_title": "手写转文字，无需下载应用。",
     "hero_subtitle": "用手机拍下手写页面或上传扫描图片，我们的 AI 就会在 30 秒内将其转换为清晰的可编辑文本。无需下载 App，支持任何设备上的任何浏览器。",
-
     "trust_ssl": "SSL 加密安全保障",
     "trust_processing": "30 秒内完成",
     "trust_accuracy": "95%+ 扫描准确率",
-
     "before_after_title": "输入手写扫描件，输出数字编辑文本。",
     "before_after_desc": "真实扫描结果展示：我们的 AI 如何处理手机拍摄的手写笔记照片。",
     "before_label": "处理前：手写页面扫描件",
     "after_label": "处理后：清晰的可编辑文本",
-
     "use_cases_title": "谁在使用在线手写扫描仪？",
     "use_cases_subtitle": "任何需要快速将纸质手写页面数字化的人。无需扫描仪硬件，手机摄像头就足够了。",
-
     "use_case_1_title": "学生扫描课堂笔记",
     "use_case_1_desc": "课后拍摄整个笔记本页面，几秒钟内即可获得可搜索、可编辑的文本。告别考前手动抄写，把时间花在真正的复习上。",
-
     "use_case_2_title": "外勤笔记与现场报告",
     "use_case_2_desc": "工程师、测量员、检查员和外勤人员可以直接用手机扫描手写现场记录，在离开现场前就将其转化为可共享的数字格式。",
-
     "use_case_3_title": "纸质记录与表格数字化",
     "use_case_3_desc": "手写的患者登记表、送货收据、考勤记录、检查清单——扫描它们，一步即可获得结构化的可编辑文本，方便复制粘贴或导出。",
-
     "use_case_4_title": "私人日记与笔记本",
     "use_case_4_desc": "通过一张手机照片，将个人日记、食谱、灵感草稿和手写计划数字化。将多年的纸质笔记保存为可随时随地访问的搜索数字文本。",
-
     "comparison_title": "在线手写扫描仪：方案对比",
     "comparison_subtitle": "大多数扫描工具强迫你安装 App 或订阅付费后才提供功能，NoteOCR 则完全不同。",
     "comparison_col_method": "方法",
@@ -2530,36 +2387,28 @@
     "comparison_row3_time": "30 秒以内",
     "comparison_row3_accuracy": "手写扫描件准确率 95%+",
     "comparison_row3_cost": "免费试用，无需 App，一次性付费",
-
     "features_title": "为什么 NoteOCR 是更好的在线手写扫描仪",
     "features_subtitle": "专为扫描手写页面而设计，而非将手写识别作为附属功能的文档扫描仪。",
-
     "feature_1_title": "手机就是你的扫描仪",
     "feature_1_desc": "你不需要平板扫描仪或任何额外硬件。只需用手机拍下任何手写页面并上传，我们的 AI 会自动矫正透视、调整光线并去除阴影，即使照片不完美也能获得清晰结果。",
-
     "feature_2_title": "识别传统扫描仪无法读取的内容",
     "feature_2_desc": "标准的文档扫描仪和普通 OCR 工具识别手写体会产生乱码，因为它们是为打印字体设计的。我们的神经网络专门针对各种书写风格的手写样本进行了训练，能够读取其他工具无法读取的内容。",
-
     "feature_3_title": "无 App。无账号。无等待。",
     "feature_3_desc": "在任何浏览器中打开页面，上传扫描图片即可获取文本。无需访问应用商店，无需安装，无需创建账号，也无需等待确认邮件。在 iPhone、Android、Mac、Windows 和 Chromebook 上体验完全一致。",
-
     "tech_title": "手写转文字技术背后的原理",
     "tech_intro": "当你上传手写图片（无论是手机照片还是平板扫描件）时，我们的 AI 会自动运行三个阶段。首先是图像预处理：矫正倾斜和旋转，增强对比度，去除噪点和阴影，并使墨迹在纸张背景下更清晰。其次是布局分析，识别页面上的文本行、段落和结构元素。第三，手写识别引擎将每一行作为视觉序列读取——不是像标准 OCR 那样逐个字符识别，而是利用上下文一次识别单词和短语。输出结果是保留了原始段落和换行的结构化文本。",
-
     "tech_detect_title": "我们的扫描仪能处理什么",
     "tech_detect_1": "手机拍摄的轻微倾斜照片——自动完成透视矫正",
     "tech_detect_2": "低光照和闪光灯过度曝光的图像——自动增强对比度",
     "tech_detect_3": "150 DPI 及以上的平板和文档扫描仪输出",
     "tech_detect_4": "同一扫描页面上的多种手写风格混杂",
     "tech_detect_5": "划掉的词语、箭头、标注和边缘注释",
-
     "tech_tips_title": "获得最佳扫描结果的建议",
     "tech_tips_1": "将手机直接置于页面上方，与纸张平行，不要倾斜拍摄",
     "tech_tips_2": "尽可能使用自然日光——避免使用闪光灯，以免冲淡墨迹对比度",
     "tech_tips_3": "拍摄前确保整个页面都在取景框内",
     "tech_tips_4": "对于平板扫描，300 DPI 的结果明显优于 150 DPI",
     "tech_tips_5": "如果墨迹较淡或纸张陈旧，上传前可在照片编辑器中增加对比度",
-
     "related_tools_title": "相关工具",
     "related_tool_1_name": "手写体识别",
     "related_tool_1_desc": "适用于所有书写风格的通用 AI 识别",
@@ -2569,9 +2418,7 @@
     "related_tool_3_desc": "针对草书和连体字的专业扫描仪",
     "related_tool_4_name": "手写转 Excel",
     "related_tool_4_desc": "将手写表格扫描至电子表格中",
-
     "faq_title": "关于手写转文字扫描的常见问题",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2660,11 +2507,9 @@
         }
       }
     },
-
     "cta_title": "准备好将手写体转换为文字了吗？",
     "cta_subtitle": "上传手机照片或手写笔记扫描件，30 秒内即可获取可编辑文本。无需 App，无需注册账号。",
     "cta_button": "免费手写转文字扫描",
-
     "tool_info_1_title": "无需安装应用",
     "tool_info_1_desc": "在任何设备的浏览器中即可使用。无需下载，无需强制注册。",
     "tool_info_2_title": "适配手机摄影",
@@ -2672,7 +2517,6 @@
     "tool_info_3_title": "支持 Word、Excel 和文本导出",
     "tool_info_3_desc": "以您实际需要的格式获取扫描后的文本。"
   },
-
   "TermsPage": {
     "meta_title": "服务条款 – NoteOCR | 用户协议",
     "meta_desc": "阅读约束您使用 NoteOCR AI 手写 OCR 平台的完整条款和条件，包括支付、数据、知识产权及责任条款。",
@@ -2681,25 +2525,18 @@
     "last_updated": "最后更新",
     "date": "2026年1月",
     "welcome_text": "欢迎使用 NoteOCR（原 Copywritee）。本服务条款构成您（“用户”、“您”、“您的”）与 NoteOCR Inc.（“NoteOCR”、“我们”、“我们的”）之间具有法律约束力的协议，规定了您访问和使用我们网站、Web 应用程序、API 及所有相关服务（统称为“服务”）的条件。创建账户、购买页面积分或以其他方式访问服务，即表示您承认已阅读、理解并同意受本条款及我们的隐私政策的约束。",
-
     "s1_t": "接受与资格",
     "s1_c": "您必须年满 13 岁才能使用 NoteOCR。如果您代表公司、学校或其他法律实体使用本服务，您声明您有权使该实体受本条款约束，在这种情况下，“您”即指代该实体。未满 18 岁的用户必须获得父母或监护人的同意。我们保留全权酌情拒绝任何个人或实体访问的权利。在对本条款进行任何更新后继续使用我们的服务，即表示您完全接受修订后的条款。",
-
     "s2_t": "服务说明",
     "s2_c": "NoteOCR 提供由人工智能驱动的文档数字化平台，可将手写笔记、扫描的 PDF 表单、白板照片和其他模拟材料转换为可编辑的数字格式，包括 Microsoft Word (.docx)、Excel (.xlsx) 和 PDF。服务包括但不限于：AI 手写识别（99.2% 准确率）、智能布局和格式重建、基于浏览器的文档编辑器、云文档存储、30 多种文字的多语言支持、表格到电子表格的提取，以及开发者 API。功能随时可能更改、添加或删除。除了我们在文档中明确声明的内容外，我们不保证任何特定的输出格式、准确率水平或周转时间。",
-
     "s3_t": "账户注册",
     "s3_c": "要访问大部分功能，您必须通过提供有效的电子邮件地址和安全密码进行注册，或通过受支持的 OAuth 提供商（例如 Google）进行身份验证。您同意提供准确、最新且完整的注册信息，并保持其更新。您对维护账户凭据的机密性负有唯一责任。如果您怀疑账户遭到未经授权的访问，必须立即通过 support@noteocr.com 通知我们。因您未能妥善保管凭据而导致的任何未经授权的账户访问所造成的损失，NoteOCR 概不负责。每个账户仅供单人使用；除非您使用的是组织计划，否则不允许在多人之间共享账户。",
-
     "s4_t": "用户内容与许可",
     "s4_c": "您保留上传到 NoteOCR 的所有文档、图像、文件及其他材料（“用户内容”）的完全所有权。通过上传用户内容，您授予 NoteOCR 一项有限的、非排他性的、免版税的全球许可，允许我们访问、处理、存储和复制您的用户内容，但仅限于提供、改进和维护服务之目的。此许可在您删除内容或关闭账户时终止。您声明并保证，您拥有或具备所上传用户内容的所有必要权利，并且这样做不会侵犯任何第三方的知识产权或隐私权。NoteOCR 不会对您的文档主张所有权，并且绝不会使用您的用户内容来训练 AI 或机器学习模型。",
-
     "s5_t": "知识产权",
     "s5_c": "NoteOCR 平台（包括 NoteOCR Engine V2 及所有未来版本）底层的所有技术、软件、源代码、算法、界面、设计、商标、徽标、商品名称和专有方法，均为 NoteOCR Inc. 的专有知识产权，并受适用的版权、商标和商业机密法保护。本条款中的任何内容均不会将 NoteOCR 的任何知识产权所有权转让给您。在您的账户有效期内，我们授予您有限的、不可转让的、不可分发子许可的、可撤销的许可，允许您出于自身的合法目的访问和使用本服务。未经我们事先书面同意，您不得对服务的任何部分进行复制、修改、反编译、逆向工程、反汇编或创建衍生作品。",
-
     "s6_t": "支付与页面积分",
     "s6_c": "NoteOCR 采用一次性付费模式。没有经常性订阅。您可购买 8 至 25 美元不等的页面积分套餐，每处理一页扣除相应积分。积分永不过期，并且无限期结转。所有付款均通过第三方支付提供商安全处理，并受其条款约束。除非另有说明，所有价格均以美元（USD）列出，并包含适用税费。一旦页面处理开始，购买即不可退款。如果您认为收费有误，请在交易后 14 天内联系 support@noteocr.com。NoteOCR 保留在提供合理通知的情况下修改定价的权利。价格变更后继续使用服务即构成对新定价的接受。",
-
     "s7_t": "禁止活动",
     "prohibited_intro": "您同意不直接或间接将 NoteOCR 用于以下任何活动。违反本节规定可能导致账户立即被终止且不予退款。",
     "prohibited_item_1": "对 NoteOCR 平台的源代码、算法或底层模型进行逆向工程、反编译、反汇编或试图衍生其代码。",
@@ -2708,31 +2545,22 @@
     "prohibited_item_4": "干扰、破坏或试图未经授权访问 NoteOCR 的服务器、网络或安全系统。",
     "prohibited_item_5": "未经我们明确书面同意，使用自动化脚本、机器人或爬虫以超出合理使用范围的方式访问服务。",
     "prohibited_item_6": "未与 NoteOCR Inc. 签订单独的经销商协议，转售、分发子许可或商业化重新分发本服务或输出结果。",
-
     "s8_t": "数据隐私与安全",
     "s8_c": "NoteOCR 非常重视数据安全。所有上传的文档在传输过程中均使用 TLS 1.3 加密，在静止状态下使用 AES-256 加密。您的文件在隔离的计算环境中处理，转换完成后将自动从我们的处理服务器中删除。个人库中存储的文档将一直保留，直到您将其删除或关闭账户。NoteOCR 符合 GDPR 规定，除提供服务外，不会向第三方出售、共享或披露您的用户内容。我们不会使用您的文档来训练或微调任何 AI 或机器学习模型。有关我们如何收集、处理和保护您的个人数据的完整详细信息，请查看我们的隐私政策（noteocr.com/privacy）。",
-
     "s9_t": "免责声明与保证",
     "s9_c": "服务按“原样”及“可用”状态提供，不提供任何明示或暗示的保证，包括但不限于针对适销性、特定用途的适用性及不侵权的暗示保证。NoteOCR 不保证：(a) 服务不会中断、无错误，或不存在病毒或有害组件；(b) OCR 输出的准确性能够达到特定文档的任何特定阈值；或 (c) 服务中的缺陷将得到纠正。OCR 准确率可能会根据手写质量、图像分辨率和文档复杂性而有所不同。在将转换后的文档用于专业、法律、医疗或财务目的之前，您对验证其准确性承担全部责任。",
-
     "s10_t": "责任限制",
     "s10_c": "在适用法律允许的最大范围内，NoteOCR Inc. 及其高级职员、董事、员工和代理人，对因您使用或无法使用本服务而引起的或与之相关的任何间接、附带、特殊、后果性或惩罚性损害（包括但不限于收入损失、数据丢失、业务中断或声誉损害）概不负责，即使 NoteOCR 已被告知发生此类损害的可能性。在任何情况下，NoteOCR 对您在这些条款下产生的所有索赔的累计责任，绝不超过您在引起索赔的事件发生前十二（12）个月内向 NoteOCR 支付的总金额。本条款中的任何内容均不限制适用瑞士法律下无法排除的责任。",
-
     "s11_t": "赔偿",
     "s11_c": "您同意就以下原因引起或与之相关的任何索赔、责任、损害、判决、裁决、损失、成本和费用（包括合理的律师费），赔偿 NoteOCR Inc. 及其高级职员、董事、员工、承包商和合作伙伴，为其辩护并使其免受损害：(a) 您违反本条款；(b) 您的用户内容；(c) 您以本条款未授权的方式使用本服务；或 (d) 您侵犯任何第三方的知识产权、隐私或其他权利。",
-
     "s12_t": "终止",
     "s12_c": "任何一方均可随时终止本协议。您可以随时从账户设置中删除您的账户，这将永久移除您存储的文档。如果我们全权决定您违反了本条款、参与了欺诈活动，或对我们平台的安全或完整性构成风险，NoteOCR 可能会在不事先通知的情况下立即暂停或终止您的账户。终止后，您使用本服务的许可立即失效。对于自愿关闭账户，未使用的页面积分不可退款。与知识产权、赔偿、责任限制及适用法律相关的条款在终止后将继续有效。",
-
     "s13_t": "本条款的修改",
     "s13_c": "NoteOCR 保留全权酌情随时更新或修改本条款的权利。当我们进行重大更改时，我们将通过电子邮件通知注册用户，并更新本页顶部的“最后更新”日期。我们也可能在平台内显示通知。在任何修订条款生效后，您继续使用本服务即构成您对这些更改的接受。如果您不同意更新后的条款，您必须停止使用本服务并可以关闭您的账户。",
-
     "s14_t": "适用法律与争议解决",
     "s14_c": "本条款及因本条款或服务引起的或与之相关的任何争议，均受瑞士法律专属管辖，不适用其冲突法规则。任何无法非正式解决的争议应提交至瑞士楚格（Zug）的法院享有属人管辖权。在启动正式程序之前，双方同意在 30 天内通过联系 support@noteocr.com 真诚地尝试解决任何争议。本节中的任何内容均不阻止 NoteOCR 在任何有管辖权的法院寻求禁令或其他衡平法救济，以保护其知识产权。",
-
     "s15_t": "其他条款",
     "s15_c": "本条款连同我们的隐私政策，构成您与 NoteOCR 之间的完整协议，并取代之前所有的协议、声明和谅解。如果本条款的任何规定被认定为不可执行，其余规定将继续具有完全效力。NoteOCR 未能执行本条款的任何权利或规定，不应被视为对该权利的放弃。未经 NoteOCR 事先书面同意，您不得转让或移交您在本条款下的权利或义务。作为合并、收购或资产出售的一部分，NoteOCR 可以自由转让其权利。本条款并未在您和 NoteOCR 之间建立任何合伙、合资或雇佣关系。",
-
     "contact_t": "对这些条款有疑问？",
     "contact_d": "我们的法律和支持团队可为您澄清这些服务条款或平台政策的任何方面。我们通常在一个工作日内回复。",
     "contact_email_label": "发送邮件给我们的法律团队",
@@ -2746,46 +2574,32 @@
     "last_updated": "最后更新",
     "date": "2026年1月",
     "welcome_text": "NoteOCR Inc.（“NoteOCR”、“我们”、“我们的”）致力于保护您的个人数据。本隐私政策解释了当您访问我们的网站 noteocr.com 或使用我们的平台、API 及相关服务（统称为“服务”）时，我们如何收集、使用、披露和保护信息。本政策符合《通用数据保护条例》（GDPR）、《瑞士联邦数据保护法》（nFADP）及其他适用的隐私法律。使用 NoteOCR，即表示您同意本隐私政策中描述的做法。",
-
     "s1_t": "我们是谁与数据控制者",
     "s1_c": "NoteOCR Inc. 是负责您个人数据的数据控制者。我们是一家根据瑞士法律成立的科技公司，总部位于瑞士楚格（Zug）。我们的服务包括基于 AI 的手写 OCR 平台、基于云的文档编辑器和开发者 API。如果您对我们处理您的个人数据的方式有任何疑问，可以通过 support@noteocr.com 联系我们的数据保护联络点。我们致力于以透明、合法且应有的审慎态度处理您的数据。",
-
     "s2_t": "我们收集哪些数据",
     "s2_c": "我们收集提供和改进服务所需的最低限度的数据。我们收集的数据类别包括：(a) 账户信息，即您注册时的姓名、电子邮件地址和哈希密码，或由 Google 等 OAuth 提供商提供的基本个人资料信息；(b) 使用数据，即处理的页面、积分余额、转换历史、会话活动和功能交互，以支持您的账户并提高准确性；(c) 设备和技术数据，即通过服务器日志和 cookie 自动收集的 IP 地址、浏览器类型和版本、操作系统、来源 URL 以及一般地理区域（国家或城市级别）；(d) 支付数据，即账单详细信息和交易记录，仅由我们的第三方支付处理器（Stripe）处理。NoteOCR 绝不存储完整的卡号或 CVV 代码；(e) 通信，即您通过电子邮件或支持表单发送给我们的消息，保留这些消息是为了解决您的查询；(f) 上传内容，即您上传用于 OCR 处理的文档、图像和文件，受第 4 节中描述的严格处理规则约束。",
-
     "s3_t": "我们如何使用您的数据",
     "s3_c": "我们仅将您的个人数据用于收集数据的目的，法律依据如下：(a) 履行合同，用于创建和管理您的账户、处理您的页面积分、执行文档转换并交付您购买的服务；(b) 合法利益，用于防止欺诈、维护平台安全、解决技术问题并生成有助于我们改进产品的汇总分析；(c) 法律义务，以遵守瑞士和欧盟适用的税务、会计和监管要求；(d) 同意，通过电子邮件发送可选的产品更新和功能公告，您可以随时撤回同意。我们绝不向第三方出售您的个人数据，也绝不将其用于广告目的。我们不会为了商业分析将您的数据与数据经纪人、广告网络或任何第三方共享。",
-
     "s4_t": "您上传的文档",
     "s4_c": "您上传的文档将得到最高级别的保密处理，并受到严格的技术控制。所有上传的文件在传输过程中均使用 TLS 1.3 加密，在静止状态下使用 AES-256 加密。文件在隔离的计算环境中处理，在处理过程中，任何文档都不会与其他用户的数据混合。转换任务完成后，源文件将自动从我们的处理服务器中删除。如果您将转换后的文档存储在 NoteOCR 库中，则这些文档会一直保留，直到您手动将其删除或关闭账户。除了执行您请求的转换外，我们不会出于任何其他目的访问、读取、注释或分析您的文档内容。最重要的是，NoteOCR 绝不会使用您上传的文档内容来训练、微调、评估或改进任何 AI 或机器学习模型。",
-
     "s5_t": "Cookie 与跟踪",
     "s5_c": "我们使用极少量的 cookie 和类似技术来运营和改进我们的服务。绝对必要的 Cookie 是验证您的会话并保持登录状态所必需的，这些无法被禁用。功能性 Cookie 记住您的偏好，如语言和主题。分析性 Cookie（可选）帮助我们在汇总层面上了解页面的使用情况，以便我们改进产品。我们使用尊重隐私的分析，不部署任何类型的第三方广告 cookie 或跨站跟踪像素。您可以随时通过浏览器设置或我们平台内的 cookie 横幅管理您的 cookie 偏好。禁用可选 cookie 不会影响您使用核心服务的能力。",
-
     "s6_t": "数据共享与第三方",
     "s6_c": "我们仅在必要的情况下，与少数帮助我们运营平台的受信任服务提供商共享个人数据。这些包括：(a) Stripe，用于支付处理，受 PCI-DSS 合规约束；(b) Google OAuth，用于可选的登录身份验证；(c) 云基础设施提供商，用于加密的服务器存储和计算，在美东（北弗吉尼亚）、欧盟（法兰克福）和亚太（新加坡）区域可用；(d) 电子邮件递送，用于交易和通知电子邮件服务。所有第三方处理器均受数据处理协议（DPA）约束，该协议禁止他们将您的数据用于提供给我们服务之外的任何其他目的。我们不会出于营销、分析或任何商业目的（超出运营服务的范围）将个人数据传输给第三方。",
-
     "s7_t": "国际数据传输",
     "s7_c": "NoteOCR 总部位于瑞士，欧盟委员会认可其提供充分的数据保护水平。当我们将个人数据传输给在欧洲经济区（EEA）或瑞士境外运营的服务提供商时（例如，美国或亚太地区的云基础设施），我们依赖欧盟委员会的标准合同条款（SCC）或等效的传输机制，以确保您的数据获得与 EEA 内相同级别的保护。您可以在账户设置中选择首选的数据处理区域（欧盟、美国或亚太）。默认情况下，新账户将分配给欧盟（法兰克福）区域。",
-
     "s8_t": "数据保留",
     "s8_c": "我们保留您的个人数据的时间仅限于实现本政策中描述的目的所需的时间。账户信息将在您的账户有效期内保留，并在账户关闭后保留最多 90 天，以便进行恢复或解决争议，之后将被永久删除。处理后的源文件将在转换完成时自动删除。存储在您的 NoteOCR 库中的文档将被保留，直到您删除它们或关闭您的账户。支付和交易记录的保留期限为 7 年，以遵守瑞士和欧盟的税务法规。支持沟通记录最多保留 3 年。匿名化和汇总的分析数据可以无限期保留，因为它不能识别任何个人。",
-
     "s9_t": "您的隐私权",
     "s9_c": "根据您所在的位置，您对个人数据可能拥有以下权利：访问权，索取我们持有的关于您的所有个人数据的副本；更正权，请求更正不准确或不完整的数据；擦除权，在没有压倒性的法律基础需要保留您的个人数据的情况下，请求将其删除；限制权，在解决争议期间请求我们限制处理您数据的方式；数据可携权，以结构化、机器可读的格式接收您的数据；反对权，反对基于合法利益的处理，包括特征分析；撤回同意的权利，随时撤回对电子邮件通信的同意，这不会影响撤回前的处理合法性。要行使这些权利，请发送电子邮件至 support@noteocr.com，主题为“隐私请求”。我们将在 30 天内回复。您也有权向您当地的数据保护机构提出投诉。",
-
     "s10_t": "安全措施",
     "s10_c": "我们实施技术和组织安全措施，旨在保护您的个人数据免遭未经授权的访问、更改、披露或销毁。这些措施包括：对所有存储的文件和账户数据进行静态的 AES-256 加密；对传输中的所有数据进行 TLS 1.3 加密；为每个文档处理任务提供隔离的计算环境；基于角色的访问控制，严格基于“需要知道”的原则限制内部对个人数据的访问；定期的安全审计和渗透测试；以及处理完成后自动删除源文件。尽管有这些措施，但没有任何互联网传输或电子存储方法是 100% 安全的。如果我们意识到有对您的权利和自由构成风险的个人数据泄露，我们将按照 GDPR 的要求在 72 小时内通知您和相关监管机构。",
-
     "s11_t": "儿童隐私",
     "s11_c": "NoteOCR 不是为 13 岁以下的儿童设计的，我们不会有意收集 13 岁以下儿童的个人数据。如服务条款所述，13 至 18 岁的用户在使用我们的服务前必须获得父母或监护人的同意。如果您是父母或监护人，并认为您的孩子未经您同意向 NoteOCR 提供了个人数据，请通过 support@noteocr.com 联系我们。我们将立即调查并删除任何此类数据。我们不会有意向未成年人提供个性化内容或广告。",
-
     "s12_t": "本政策的变更",
     "s12_c": "我们可能会不时更新本隐私政策，以反映我们做法、技术、法律要求的变更，或出于其他运营原因。当我们进行重大更改时，我们将通过电子邮件通知注册用户，并更新本页顶部的“最后更新”日期。我们还可能在平台内显示横幅，以引起对重大更改的注意。在任何修订的隐私政策生效后，您继续使用本服务即构成您对这些更改的接受。我们鼓励您定期查看本政策。本政策的先前版本可应要求提供。",
-
     "s13_t": "联系与 DPO",
     "s13_c": "如果您对本隐私政策或我们处理您的个人数据的方式有任何问题、疑虑或请求，请与我们联系。我们致力于及时、真诚地解决所有与隐私相关的问题。您也有权将未解决的疑虑升级至监管机构。在瑞士，这是联邦数据保护和信息专员（FDPIC）。在欧盟，您可以联系您所在成员国的数据保护机构。",
-
     "rights_title": "您的权利一览",
     "right_access": "访问您的数据",
     "right_rectify": "更正不准确之处",
@@ -2794,7 +2608,6 @@
     "right_portability": "导出您的数据",
     "right_object": "反对特征分析",
     "right_consent": "撤回同意",
-
     "data_table_title": "我们收集的数据",
     "data_col_type": "数据类型",
     "data_col_purpose": "目的",
@@ -2820,7 +2633,6 @@
     "data_row5_purpose": "解决支持请求",
     "data_row5_basis": "合法利益",
     "data_row5_retention": "3 年",
-
     "security_title": "安全承诺",
     "security_badge1": "AES-256 静态加密",
     "security_badge2": "TLS 1.3 传输加密",
@@ -2830,158 +2642,119 @@
     "security_badge6": "定期渗透测试",
     "security_badge7": "零模型训练",
     "security_badge8": "符合 GDPR",
-
     "welcome_text_short": "请仔细阅读本政策。它用通俗的语言描述了 NoteOCR 如何处理您的个人数据。",
-
     "contact_t": "有隐私问题或数据请求？",
     "contact_d": "我们的团队亲自处理所有隐私查询。无论您是要访问、更正、删除您的数据，还是只是有问题 — 我们都会根据 GDPR 的要求在 30 天内回复。",
     "contact_email_label": "向我们的隐私团队发送电子邮件",
     "contact_response": "在 30 天内回复（GDPR 要求）"
   },
-
   "JpgToWord": {
     "meta_title": "将 JPG 转换为 Word 文档 | 从 JPEG 提取文本为 DOCX",
     "meta_desc": "即时将 JPG 和 JPEG 图像转换为可编辑的 Word 文档。我们先进的 OCR 技术可从照片、屏幕截图和扫描件中提取文本，同时保留格式。",
-
     "hero_pill": "快速的图像到文本 OCR",
     "hero_title": "即时将 JPG 转换为 Word 文档",
     "hero_subtitle": "别再对着图片重新打字了。上传任何 JPG、JPEG 或照片，我们先进的 AI 将准确提取文本到完全可编辑的 Microsoft Word (.docx) 文件中。",
-
     "trust_ssl": "256位安全上传",
     "trust_processing": "快速 JPEG 处理",
     "trust_accuracy": "高保真 OCR",
-
     "before_after_title": "从平面图像到可编辑文本",
     "before_after_desc": "看看我们如何将锁定在 JPG 中的文本完美提取为可编辑格式。",
     "before_label": "之前：原始 JPG 图像",
     "before_placeholder": "",
     "after_label": "之后：可编辑 Word 文档",
     "after_placeholder": "",
-
     "use_cases_title": "为什么要将 JPG 转换为 Word？",
     "use_cases_subtitle": "将图像中的文本变为完全可编辑状态的最简单方法。",
-
     "use_case_1_title": "扫描文档",
     "use_case_1_desc": "将合同、发票和正式信件的扫描 JPEG 转换为可编辑文本，同时保留段落和布局。",
-
     "use_case_2_title": "屏幕截图和网页片段",
     "use_case_2_desc": "将网站、受限 PDF 或应用程序的 JPG 屏幕截图转换为可以在 Word 中即时复制、编辑和格式化的文本。",
-
     "use_case_3_title": "打印页面的照片",
     "use_case_3_desc": "拍了书、手册或杂志的照片？无需键入一个字即可准确提取文本。",
-
     "use_case_4_title": "带有手写字的图像",
     "use_case_4_desc": "与基本转换器不同，我们的引擎还能读取和转换包含手写笔记或白板会议内容的 JPG 照片。",
-
     "comparison_title": "JPG 转 Word：为什么其他文件转换器会失败",
     "comparison_subtitle": "大多数工具只是将图像粘贴到 Word 文件中。NoteOCR 则真正提取了文本。",
     "comparison_col_method": "方法",
     "comparison_col_time": "时间",
     "comparison_col_accuracy": "文本提取",
     "comparison_col_cost": "成本",
-
     "comparison_row1_method": "手动打字",
     "comparison_row1_time": "15-30 分钟",
     "comparison_row1_accuracy": "高（但繁琐）",
     "comparison_row1_cost": "您的时间",
-
     "comparison_row2_method": "标准文件转换器",
     "comparison_row2_time": "1 分钟",
     "comparison_row2_accuracy": "0%（只是粘贴图像）",
     "comparison_row2_cost": "通常需付费",
-
     "comparison_row3_method": "NoteOCR (AI 提取)",
     "comparison_row3_time": "15 秒",
     "comparison_row3_accuracy": "98%+ 可编辑文本",
     "comparison_row3_cost": "免费试用",
-
     "features_title": "高级 JPG 文本提取",
     "features_subtitle": "专为从图像文件中提取精确文本而构建。",
-
     "feature_1_title": "支持 JPG 和 JPEG 格式",
     "feature_1_desc": "无论您的文件后缀是 .jpg 还是 .jpeg，我们的系统都能完美处理标准网络图像、手机照片和高分辨率相机拍摄的照片。",
-
     "feature_2_title": "保留布局和段落",
     "feature_2_desc": "我们不仅输出纯文本。我们的 OCR 能检测换行符、段落和列表结构，因此您下载的 Word 文档看起来就像原始图像。",
-
     "feature_3_title": "多语言支持",
     "feature_3_desc": "通过专业的字符识别，从包含英语、西班牙语、法语、德语及其他几十种语言的 JPEG 中提取文本。",
-
     "tech_title": "我们的图片转 Word 引擎是如何工作的",
     "tech_intro": "将 JPG 文件转换为可编辑的 Word 文档需要光学字符识别（OCR）。NoteOCR 分析图像中的像素，识别单个字母和单词，映射文档结构，并生成可立即编辑的本地 Microsoft Word 文件。",
-
     "tech_detect_title": "引擎处理的内容",
     "tech_detect_1": "标准的印刷文本和排版",
     "tech_detect_2": "图像中的草书和手写文本",
     "tech_detect_3": "段落间距和换行符",
     "tech_detect_4": "图像对比度增强和背景噪点去除",
     "tech_detect_5": "自动方向校正",
-
     "tech_tips_title": "获得最佳转换效果的提示",
     "tech_tips_1": "确保图像不模糊",
     "tech_tips_2": "避免在文本上投下浓重的阴影",
     "tech_tips_3": "保持文本与摄像头平行",
     "tech_tips_4": "更高分辨率的 JPEG 会产生更好的结果",
     "tech_tips_5": "如果可能，请裁剪掉不必要的背景",
-
     "related_tools_title": "其他转换工具",
-
     "related_tool_1_name": "图像转 Excel",
     "related_tool_1_desc": "将数据表格从图像提取到电子表格",
-
     "related_tool_2_name": "照片转 Word",
     "related_tool_2_desc": "将相机照片直接转换为 Word",
-
     "related_tool_3_name": "手写转文本",
     "related_tool_3_desc": "连笔字和笔记的专业转录",
-
     "related_tool_4_name": "在线编辑器",
     "related_tool_4_desc": "在浏览器中安全地编辑您的文档",
-
     "faq_title": "关于 JPG 转 Word 的常见问题",
-
     "cta_title": "准备好从您的 JPG 中提取文本了吗？",
     "cta_subtitle": "停止打字，只需几秒钟即可开始编辑。",
     "cta_button": "立即上传 JPG",
-
     "footer_text": "NoteOCR // 智能图像处理",
-
     "tool_upload_title": "上传您的 JPG 图像",
     "tool_upload_desc": "支持标准照片、屏幕截图和扫描图像。我们将提取文本并为您生成格式化的 Word 文档。",
     "tool_upload_button": "选择 JPG / JPEG",
     "tool_upload_check_1": "JPG, JPEG, PNG",
     "tool_upload_check_2": "最大 25MB",
     "tool_upload_check_3": "24小时后自动删除",
-
     "tool_processing_title": "正在从图像中提取文本...",
     "tool_processing_desc": "正在运行 OCR 并格式化您的 Word 文档",
-
     "tool_complete_title": "提取完成！",
     "tool_complete_desc": "您的文本已成功提取。请在下方下载可编辑的文件。",
     "tool_complete_file_type": "Word 文档 (.docx)",
     "tool_complete_status": "已就绪",
     "tool_download_button": "下载 Word",
     "tool_new_button": "转换另一个 JPG",
-
     "tool_info_1_title": "完全可编辑",
     "tool_info_1_desc": "文本是被提取出来，而不仅仅是作为图片粘贴",
-
     "tool_info_2_title": "保留布局",
     "tool_info_2_desc": "段落和换行符得以保留",
-
     "tool_info_3_title": "通用 DOCX",
     "tool_info_3_desc": "可在 MS Word, Google Docs 和 Pages 中打开",
-
     "tool_tip_label": "专业提示：",
     "tool_tip_text": "如果您的 JPG 非常暗或对比度低，请在上传前尝试在设备上稍微提高亮度，以获得绝对最佳的 OCR 准确度。",
-
     "toast_success": "图像转换成功！",
     "toast_error_type": "请上传有效的图像文件（JPG, JPEG, PNG）",
     "toast_error_size": "文件大小必须在 25MB 以下",
     "toast_error_conversion": "转换失败。请尝试使用更清晰的图像。",
     "toast_download_success": "Word 文档已下载！",
     "toast_download_error": "下载失败。",
-
     "FAQ": {
       "items": {
         "how_to_convert": {
@@ -3030,146 +2803,110 @@
   "ScanToWord": {
     "meta_title": "扫描件转 Word | 将扫描文档转换为可编辑文本",
     "meta_desc": "使用专业级 OCR 将平板扫描仪或移动应用程序中的扫描文档直接转换为可编辑的 Microsoft Word 文件。",
-
     "hero_pill": "专业级文档 OCR",
     "hero_title": "将扫描件转换为 Word 文档",
     "hero_subtitle": "即时数字化您的文书工作。上传合同、书籍或纸质文档的扫描图像，我们的 AI 会将它们重建为完全可编辑的 Microsoft Word (.docx) 文件。",
-
     "trust_ssl": "企业级安全",
     "trust_processing": "支持大批量处理",
     "trust_accuracy": "99% 打印文字准确率",
-
     "before_after_title": "从纸质到数字文档",
     "before_after_desc": "了解我们如何将平面的数字扫描件转换为完全可操作的文本文档。",
     "before_label": "之前：扫描的纸质图像",
     "before_placeholder": "",
     "after_label": "之后：可编辑 Word 文档",
     "after_placeholder": "",
-
     "use_cases_title": "谁在使用我们的扫描件转 Word 工具？",
     "use_cases_subtitle": "专为处理大量文书工作的专业人士而构建。",
-
     "use_case_1_title": "法律与房地产",
     "use_case_1_desc": "扫描已签署的纸质合同、租赁协议和契约，然后将其转换为 Word，以轻松编辑条款或更新条件。",
-
     "use_case_2_title": "办公室行政",
     "use_case_2_desc": "停止手动重新输入打印的备忘录、供应商发票和物理邮件。在几秒钟内扫描并转换为可编辑文本。",
-
     "use_case_3_title": "作者与出版商",
     "use_case_3_desc": "使用平板扫描仪将绝版旧书、打印的手稿或杂志文章数字化，创建可编辑的数字档案。",
-
     "use_case_4_title": "学术研究",
     "use_case_4_desc": "扫描参考书或图书馆档案的页面并将其转换为 Word 文档，以方便引用、突出显示和搜索。",
-
     "comparison_title": "数字化扫描件：最佳方法",
     "comparison_subtitle": "为什么对扫描文档进行手动转录已成为过去。",
     "comparison_col_method": "方法",
     "comparison_col_time": "时间",
     "comparison_col_accuracy": "保留布局",
     "comparison_col_cost": "成本",
-
     "comparison_row1_method": "手动数据录入",
     "comparison_row1_time": "每5页1小时",
     "comparison_row1_accuracy": "丢失原始布局",
     "comparison_row1_cost": "高昂的劳动力成本",
-
     "comparison_row2_method": "免费的在线转换器",
     "comparison_row2_time": "2 分钟",
     "comparison_row2_accuracy": "差（破坏页边距）",
     "comparison_row2_cost": "免费",
-
     "comparison_row3_method": "NoteOCR 扫描引擎",
     "comparison_row3_time": "20 秒",
     "comparison_row3_accuracy": "保留段落和列表",
     "comparison_row3_cost": "免费试用",
-
     "features_title": "专为扫描介质构建",
     "features_subtitle": "高级功能可处理硬件扫描仪带来的怪异问题。",
-
     "feature_1_title": "纠偏和自动旋转",
     "feature_1_desc": "将纸张稍微有些歪斜地送入扫描仪了？我们的引擎会在提取文本之前自动拉直歪斜的扫描件。",
-
     "feature_2_title": "去除斑点和噪点",
     "feature_2_desc": "旧扫描仪通常会在图像上留下黑点或线条。我们的 AI 可清理扫描背景，确保完美的文本识别。",
-
     "feature_3_title": "保留文档结构",
     "feature_3_desc": "在将文本迁移到 Microsoft Word 时，保留纸质文档的标题、项目符号点和段落缩进。",
-
     "tech_title": "我们如何处理扫描文档",
     "tech_intro": "当您上传扫描图像时，NoteOCR 会利用专门的文档布局分析 (DLA)。不同于盲目从左向右读取的基础工具，我们的引擎了解纸质页面的结构层次。",
-
     "tech_detect_title": "我们的 OCR 引擎检测的内容",
     "tech_detect_1": "标准印刷排版和字体",
     "tech_detect_2": "多栏布局和侧边栏",
     "tech_detect_3": "斜体、粗体和下划线格式",
     "tech_detect_4": "打印表单上的手写签名",
     "tech_detect_5": "编号列表和项目符号",
-
     "tech_tips_title": "扫描硬件提示",
     "tech_tips_1": "将扫描仪设置为至少 300 DPI",
     "tech_tips_2": "将扫描件保存为高质量的 PNG 或 JPG 文件",
     "tech_tips_3": "擦拭扫描仪玻璃以避免污迹",
     "tech_tips_4": "将厚书平压在玻璃上",
     "tech_tips_5": "使用“黑白”模式获取最清晰的文本",
-
     "related_tools_title": "探索更多文档工具",
-
     "related_tool_1_name": "图像转 Excel",
     "related_tool_1_desc": "将数据表格从图像提取到电子表格",
-
     "related_tool_2_name": "照片转 Word",
     "related_tool_2_desc": "将相机照片直接转换为 Word",
-
     "related_tool_3_name": "手写转文本",
     "related_tool_3_desc": "连笔字和笔记的专业转录",
-
     "related_tool_4_name": "在线编辑器",
     "related_tool_4_desc": "在浏览器中安全地编辑您的文档",
-
     "faq_title": "关于扫描文档的常见问题",
-
     "cta_title": "准备好数字化您的文书工作了吗？",
     "cta_subtitle": "今天就把那些物理扫描件变成可操作的 Word 文件吧。",
     "cta_button": "立即上传扫描件",
-
     "footer_text": "NoteOCR // 专业的扫描数字化",
-
     "tool_upload_title": "上传您的扫描文件",
     "tool_upload_desc": "上传由您的平板扫描仪或移动扫描应用生成的图像文件（JPG、PNG）。",
     "tool_upload_button": "选择扫描图像",
     "tool_upload_check_1": "支持高分辨率",
     "tool_upload_check_2": "最大 25MB",
     "tool_upload_check_3": "商业机密保护",
-
     "tool_processing_title": "正在处理扫描文档...",
     "tool_processing_desc": "正在增强对比度并进行布局分析",
-
     "tool_complete_title": "扫描件已转换！",
     "tool_complete_desc": "您的纸质扫描件现在是一个数字化的、可编辑的文档。请在下方下载。",
     "tool_complete_file_type": "Word 文档 (.docx)",
     "tool_complete_status": "已就绪",
     "tool_download_button": "下载 Word",
     "tool_new_button": "转换下一个扫描件",
-
     "tool_info_1_title": "完全可编辑的文本",
     "tool_info_1_desc": "更新条款，修复拼写错误，并自由格式化",
-
     "tool_info_2_title": "布局完好无损",
     "tool_info_2_desc": "标题和列表延续到 Word 中",
-
     "tool_info_3_title": "安全处理",
     "tool_info_3_desc": "您的扫描件绝不会被存储或共享",
-
     "tool_tip_label": "扫描提示：",
     "tool_tip_text": "为获得最准确的转换结果，请将您的硬件扫描仪配置为 300 DPI（每英寸点数）或更高。较低的分辨率可能会导致像 'c' 和 'e' 这样的字母模糊在一起。",
-
     "toast_success": "扫描件数字化成功！",
     "toast_error_type": "请上传有效的扫描图像文件",
     "toast_error_size": "扫描文件大小必须在 25MB 以下",
     "toast_error_conversion": "转换失败。请尝试对比度更高的扫描件。",
     "toast_download_success": "Word 文档已下载！",
     "toast_download_error": "下载失败。",
-
     "FAQ": {
       "items": {
         "how_to_convert_scan": {
@@ -3218,146 +2955,110 @@
   "PhotoToWord": {
     "meta_title": "将照片转换为 Word 文档 | 从图片中提取文本",
     "meta_desc": "拍张照片并将其转换为文本。我们的 AI 将白板、书籍和屏幕的照片中的文本直接提取为可编辑的 Word 文档。",
-
     "hero_pill": "相机转文本 OCR",
     "hero_title": "将任何照片转换为 Word 文档",
     "hero_subtitle": "将智能手机照片转换为可编辑文本。上传课本、白板或演示文稿幻灯片的照片，让我们的 AI 在几秒钟内生成格式化的 Microsoft Word (.docx) 文件。",
-
     "trust_ssl": "私密安全上传",
     "trust_processing": "智能相机 AI",
     "trust_accuracy": "可读取倾斜照片",
-
     "before_after_title": "从相机相册到 Word 文件",
     "before_after_desc": "了解我们如何处理具有相机眩光和背景杂乱的真实世界照片。",
     "before_label": "之前：智能手机照片",
     "before_placeholder": "",
     "after_label": "之后：可编辑 Word 文档",
     "after_placeholder": "",
-
     "use_cases_title": "您可以转换哪些照片？",
     "use_cases_subtitle": "非常适合在旅途中拍摄的日常照片。",
-
     "use_case_1_title": "白板会议",
     "use_case_1_desc": "头脑风暴后拍了白板的照片？将记号笔手写内容直接转换为 Word 中的会议纪要。",
-
     "use_case_2_title": "课本页面",
     "use_case_2_desc": "停止为论文逐字输入引文。拍下课本的照片，即刻提取您所需的确切段落。",
-
     "use_case_3_title": "演示幻灯片",
     "use_case_3_desc": "坐在观众席拍摄了 PowerPoint 幻灯片？将屏幕照片上的文本拉入可编辑的文档中。",
-
     "use_case_4_title": "食谱和杂志",
     "use_case_4_desc": "拍张照片将其变成可搜索的文本文件，以保存纸质食谱或有趣的杂志文章。",
-
     "comparison_title": "照片文本提取对比",
     "comparison_subtitle": "为什么 NoteOCR 胜过在小手机键盘上打字。",
     "comparison_col_method": "方法",
     "comparison_col_time": "时间",
     "comparison_col_accuracy": "处理不良光线？",
     "comparison_col_cost": "成本",
-
     "comparison_row1_method": "手机上打字",
     "comparison_row1_time": "10-20 分钟",
     "comparison_row1_accuracy": "N/A",
     "comparison_row1_cost": "您的时间",
-
     "comparison_row2_method": "基础照片转换器",
     "comparison_row2_time": "1 分钟",
     "comparison_row2_accuracy": "遇相机眩光则失败",
     "comparison_row2_cost": "通常需付费",
-
     "comparison_row3_method": "NoteOCR 图像引擎",
     "comparison_row3_time": "15 秒",
     "comparison_row3_accuracy": "自动增强光线",
     "comparison_row3_cost": "免费试用",
-
     "features_title": "专为真实世界照片打造",
     "features_subtitle": "智能手机的照片并不完美。我们的 AI 正是为了处理这些情况而构建的。",
-
     "feature_1_title": "视角校正",
     "feature_1_desc": "如果您以奇怪的角度拍摄了书页，我们的引擎会在读取文本之前自动展平图像并校正视角。",
-
     "feature_2_title": "消除眩光和阴影",
     "feature_2_desc": "智能手机的闪光灯和房间阴影会掩盖文本。我们的 AI 会平衡照片中的光线，以确保高精度的字符识别。",
-
     "feature_3_title": "忽略杂乱背景",
     "feature_3_desc": "照片中拍到了您的桌子或手？我们的系统能智能裁剪掉非文本背景，只专注于文档。",
-
     "tech_title": "我们如何读取您的照片",
     "tech_intro": "从智能手机照片中提取文本比读取平面数字扫描件困难得多。NoteOCR 使用智能视觉 AI（Vision AI）理解您照片的几何结构，然后再将字符转换为 Word 文档。",
-
     "tech_detect_title": "我们的相机 AI 处理的内容",
     "tech_detect_1": "厚书的弯曲页面",
     "tech_detect_2": "拍摄计算机屏幕的照片（抗摩尔纹）",
     "tech_detect_3": "白板记号笔手写字",
     "tech_detect_4": "弱光或光线昏暗的房间照片",
     "tech_detect_5": "同一张照片中包含不同的字体和文本大小",
-
     "tech_tips_title": "拍出更好照片的技巧",
     "tech_tips_1": "轻触手机屏幕使相机对焦",
     "tech_tips_2": "尽量稳住手机",
     "tech_tips_3": "尽量避免强烈的顶光阴影",
     "tech_tips_4": "让文本填满大部分照片画面",
     "tech_tips_5": "如果拍摄光面纸，请关闭闪光灯",
-
     "related_tools_title": "其他文档工具",
-
     "related_tool_1_name": "图像转 Excel",
     "related_tool_1_desc": "将数据表格从图像提取到电子表格",
-
     "related_tool_2_name": "照片转 Word",
     "related_tool_2_desc": "将相机照片直接转换为 Word",
-
     "related_tool_3_name": "手写转文本",
     "related_tool_3_desc": "连笔字和笔记的专业转录",
-
     "related_tool_4_name": "在线编辑器",
     "related_tool_4_desc": "在浏览器中安全地编辑您的文档",
-
     "faq_title": "关于照片转换的常见问题",
-
     "cta_title": "准备好从您的照片中提取文本了吗？",
     "cta_subtitle": "直接从手机或电脑上传照片。",
     "cta_button": "立即上传照片",
-
     "footer_text": "NoteOCR // 视觉 AI 处理",
-
     "tool_upload_title": "上传您的照片",
     "tool_upload_desc": "从您的相机相册或计算机中选择一张照片。我们将提取文本并生成格式化的 Word 文件。",
     "tool_upload_button": "选择照片",
     "tool_upload_check_1": "支持手机照片",
     "tool_upload_check_2": "最大 25MB",
     "tool_upload_check_3": "24小时后自动删除",
-
     "tool_processing_title": "正在分析照片...",
     "tool_processing_desc": "正在校正相机角度并提取文本",
-
     "tool_complete_title": "照片已转换！",
     "tool_complete_desc": "您照片中的文本已成功提取。请在下方下载可编辑文件。",
     "tool_complete_file_type": "Word 文档 (.docx)",
     "tool_complete_status": "已就绪",
     "tool_download_button": "下载 Word",
     "tool_new_button": "转换另一张照片",
-
     "tool_info_1_title": "完全可编辑",
     "tool_info_1_desc": "文本是被提取出来，而不仅仅是作为图片粘贴",
-
     "tool_info_2_title": "智能格式化",
     "tool_info_2_desc": "段落和换行符被重新创建",
-
     "tool_info_3_title": "通用 DOCX",
     "tool_info_3_desc": "可在 MS Word, Google Docs 和 Pages 中打开",
-
     "tool_tip_label": "摄影提示：",
     "tool_tip_text": "如果您正在拍摄光面杂志或课本，请关闭智能手机的闪光灯。巨大的白色眩光点会隐藏文字并降低 OCR 准确率。",
-
     "toast_success": "照片转换成功！",
     "toast_error_type": "请上传有效的照片文件（JPG, PNG）",
     "toast_error_size": "照片文件大小必须在 25MB 以下",
     "toast_error_conversion": "转换失败。照片可能太模糊。",
     "toast_download_success": "Word 文档已下载！",
     "toast_download_error": "下载失败。",
-
     "FAQ": {
       "items": {
         "how_to_convert_photo": {
@@ -3406,146 +3107,110 @@
   "HandwrittenInvoice": {
     "meta_title": "将手写发票转换为 Excel | 收据数据提取",
     "meta_desc": "自动化您的记账。将手写发票和收据中的行项目、价格和日期直接提取到格式化的 Excel 电子表格中。",
-
     "hero_pill": "财务数据 OCR",
     "hero_title": "将手写发票转换为 Excel",
     "hero_subtitle": "停止手动输入供应商收据和采购订单。我们的 AI 可将手写发票中的行项目、数量和价格准确提取到整洁、可编辑的 .xlsx 电子表格中。",
-
     "trust_ssl": "安全财务上传",
     "trust_processing": "自动提取行项目",
     "trust_accuracy": "99% 数字准确率",
-
     "before_after_title": "从纸质收据到数字电子表格",
     "before_after_desc": "看我们的 AI 如何完美地将杂乱的手写行项目映射到整洁的 Excel 行中。",
     "before_label": "之前：手写发票",
     "before_placeholder": "",
     "after_label": "之后：Excel 行项目",
     "after_placeholder": "",
-
     "use_cases_title": "谁在使用 NoteOCR 自动化发票？",
     "use_cases_subtitle": "为重视时间的财务专业人士打造。",
-
     "use_case_1_title": "记账员与会计师",
     "use_case_1_desc": "在月底只需几分钟（而不是几小时）即可处理完客户成箱的手写收据和纸质发票。",
-
     "use_case_2_title": "小企业主",
     "use_case_2_desc": "数字化潦草的供应商发票、承包商账单和手写采购订单，以准确跟踪您的开支。",
-
     "use_case_3_title": "费用追踪",
     "use_case_3_desc": "将手写餐厅收据或外勤开支转换为结构化的 CSV 文件，以轻松上传至您公司的费用管理软件。",
-
     "use_case_4_title": "税务准备",
     "use_case_4_desc": "为纳税季快速将纸质、手写的捐赠收据或商业费用汇总成干净的 Excel 账本。",
-
     "comparison_title": "发票数据录入方式对比",
     "comparison_subtitle": "为什么手动记账正在烧掉您的利润率。",
     "comparison_col_method": "方法",
     "comparison_col_time": "每张发票耗时",
     "comparison_col_accuracy": "财务准确性",
     "comparison_col_cost": "人工成本",
-
     "comparison_row1_method": "手动数据录入",
     "comparison_row1_time": "3-5 分钟",
     "comparison_row1_accuracy": "容易出现打字错误",
     "comparison_row1_cost": "$20+/小时",
-
     "comparison_row2_method": "标准 OCR 应用程序",
     "comparison_row2_time": "1 分钟",
     "comparison_row2_accuracy": "容易混淆列",
     "comparison_row2_cost": "各种价格",
-
     "comparison_row3_method": "NoteOCR 发票引擎",
     "comparison_row3_time": "15 秒",
     "comparison_row3_accuracy": "完美的行对齐",
     "comparison_row3_cost": "免费试用",
-
     "features_title": "高级发票提取",
     "features_subtitle": "专门针对财务文档和杂乱数字进行了训练。",
-
     "feature_1_title": "行项目检测",
     "feature_1_desc": "我们的 AI 可自动将描述、数量、单价和总计分离到各自独立的 Excel 列中。",
-
     "feature_2_title": "极高的数字准确性",
     "feature_2_desc": "标准 OCR 在处理手写数字时很吃力。我们使用专门的神经网络，以确保完美读取 4、9、小数点和货币符号。",
-
     "feature_3_title": "支持杂乱的手写",
     "feature_3_desc": "承包商和供应商的字迹通常很糟糕。我们的引擎旨在破译物理收据上潦草的连笔字和凌乱的印刷体。",
-
     "tech_title": "我们如何处理财务文档",
     "tech_intro": "发票由于包含浮动数据（如顶部的日期和发票号）和表格数据（中间的行项目），处理起来非常复杂。NoteOCR 完美映射了这种空间关系。",
-
     "tech_detect_title": "我们的 AI 提取的内容",
     "tech_detect_1": "项目描述和 SKU",
     "tech_detect_2": "数量和定价列",
     "tech_detect_3": "小计、税行和总计",
     "tech_detect_4": "手写日期和发票号",
     "tech_detect_5": "货币符号 (￥, $, €, £)",
-
     "tech_tips_title": "给记账员的建议",
     "tech_tips_1": "拍照前将揉皱的收据展平",
     "tech_tips_2": "确保光线不会在总计上投下阴影",
     "tech_tips_3": "保持相机正对发票上方",
     "tech_tips_4": "确保照片中的小数点清晰可见",
     "tech_tips_5": "在 Excel 中核对最终总计，以确保一致",
-
     "related_tools_title": "更多财务 OCR 工具",
-
     "related_tool_1_name": "发票转 Excel",
     "related_tool_1_desc": "从手写收据中提取行项目",
-
     "related_tool_2_name": "盘点表转 Excel",
     "related_tool_2_desc": "将手写库存盘点数据转化为表格",
-
     "related_tool_3_name": "扫描件转 Word",
     "related_tool_3_desc": "数字化打印的 HR 政策和手册",
-
     "related_tool_4_name": "手写转文本",
     "related_tool_4_desc": "转录手写会议笔记",
-
     "faq_title": "关于发票转换的常见问题",
-
     "cta_title": "停止打字录入发票。",
     "cta_subtitle": "让 AI 为您录入数据。立即上传您的第一张手写发票。",
     "cta_button": "将发票转换为 Excel",
-
     "footer_text": "NoteOCR // 智能财务数据提取",
-
     "tool_upload_title": "上传手写发票",
     "tool_upload_desc": "支持手写发票、收据和采购订单的照片和扫描件。我们将把行项目提取到 Excel 中。",
     "tool_upload_button": "选择发票图像",
     "tool_upload_check_1": "支持 JPG, PNG",
     "tool_upload_check_2": "最大 25MB",
     "tool_upload_check_3": "银行级加密",
-
     "tool_processing_title": "正在提取行项目...",
     "tool_processing_desc": "正在检测价格、数量和描述",
-
     "tool_complete_title": "发票提取完毕！",
     "tool_complete_desc": "您的行项目已转换为 Excel 电子表格。请在下方下载。",
     "tool_complete_file_type": "Excel 电子表格 (.xlsx)",
     "tool_complete_status": "已就绪",
     "tool_download_button": "下载 Excel",
     "tool_new_button": "处理下一张发票",
-
     "tool_info_1_title": "列已对齐",
     "tool_info_1_desc": "价格和描述清晰分开",
-
     "tool_info_2_title": "数字准确",
     "tool_info_2_desc": "高精度的小数和数字识别",
-
     "tool_info_3_title": "准备导入",
     "tool_info_3_desc": "轻松上传到 QuickBooks 或 Xero",
-
     "tool_tip_label": "会计提示：",
     "tool_tip_text": "如果您打算将这些数据导入像 QuickBooks 这样的会计软件，请打开下载的 Excel 文件并将其保存为 .CSV（逗号分隔值）格式以实现无缝上传。",
-
     "toast_success": "发票提取成功！",
     "toast_error_type": "请上传有效的图像文件",
     "toast_error_size": "文件大小必须在 25MB 以下",
     "toast_error_extraction": "提取失败。手写字迹可能太淡。",
     "toast_download_success": "Excel 账本已下载！",
     "toast_download_error": "下载失败。",
-
     "FAQ": {
       "items": {
         "how_to_convert_invoice": {
@@ -3594,146 +3259,110 @@
   "InventoryToExcel": {
     "meta_title": "将手写盘点表转换为 Excel | 库存盘点 OCR",
     "meta_desc": "停止手动输入仓库盘点数据。将手写库存记录、写字板和理货单的照片直接转换为可编辑的 Excel 电子表格。",
-
     "hero_pill": "库存与盘点 OCR",
     "hero_title": "将写字板上的盘点数据转换为 Excel 表格",
     "hero_subtitle": "在几秒钟内转换您的物理库存审计数据。拍下您手写库存表的照片，我们的 AI 会将 SKU、项目名称和数量直接提取到格式化的 .xlsx 文件中。",
-
     "trust_ssl": "私密数据处理",
     "trust_processing": "批量 SKU 识别",
     "trust_accuracy": "99% 数量准确率",
-
     "before_after_title": "从物理写字板到数字追踪器",
     "before_after_desc": "看我们如何将凌乱的仓库理货单转换为结构化的 Excel 行。",
     "before_label": "之前：手写库存表",
     "before_placeholder": "",
     "after_label": "之后：Excel 库存列表",
     "after_placeholder": "",
-
     "use_cases_title": "谁在使用 NoteOCR 自动化盘点？",
     "use_cases_subtitle": "专为进行物理库存审计的企业打造。",
-
     "use_case_1_title": "仓库经理",
     "use_case_1_desc": "立即将多页手写仓库日志和循环盘点数据转换为 Excel，保持您的供应链运转。",
-
     "use_case_2_title": "零售店主",
     "use_case_2_desc": "拍下月末零售盘点的照片并上传，以便通过 CSV 更新您的 POS 系统或 Shopify 商店。",
-
     "use_case_3_title": "餐厅与酒吧员工",
     "use_case_3_desc": "停止重新输入每周的食品和酒水库存。将厨房写字板上的数据直接数字化到食品成本电子表格中。",
-
     "use_case_4_title": "设备追踪",
     "use_case_4_desc": "轻松将现场的手写签出表、工具日志和资产追踪记录转换为可搜索的数字数据库。",
-
     "comparison_title": "盘点：手工录入 vs. NoteOCR",
     "comparison_subtitle": "为什么手工录入库存数据正在消耗您企业的资金。",
     "comparison_col_method": "方法",
     "comparison_col_time": "每页时间",
     "comparison_col_accuracy": "SKU 准确率",
     "comparison_col_cost": "成本",
-
     "comparison_row1_method": "手动打字",
     "comparison_row1_time": "15-30 分钟",
     "comparison_row1_accuracy": "容易出现人为错误",
     "comparison_row1_cost": "$20/小时 人工费",
-
     "comparison_row2_method": "标准移动扫描仪",
     "comparison_row2_time": "2 分钟",
     "comparison_row2_accuracy": "仅生成平面图像",
     "comparison_row2_cost": "免费",
-
     "comparison_row3_method": "NoteOCR 库存 AI",
     "comparison_row3_time": "20 秒",
     "comparison_row3_accuracy": "将数据格式化为行",
     "comparison_row3_cost": "免费试用",
-
     "features_title": "专为凌乱的仓库手写字迹打造",
     "features_subtitle": "我们知道物理盘点通常是在匆忙中完成的。我们的 AI 能适应这种情况。",
-
     "feature_1_title": "字母数字 SKU 识别",
     "feature_1_desc": "商品代码是字母和数字的复杂混合。我们的神经网络经过训练，能够区分手写 SKU 中的“0”和“O”，以及“1”和“l”。",
-
     "feature_2_title": "列格式化",
     "feature_2_desc": "无论您是在纸上画线还是只留了空格，NoteOCR 都能将您的商品名称、SKU 和数量分隔到它们各自独立的 Excel 列中。",
-
     "feature_3_title": "导出为 CSV 供 POS 系统使用",
     "feature_3_desc": "将数据下载为 Excel 文件，或导出为 CSV，以无缝地将更新后的库存上传到 Shopify、Square 或 QuickBooks。",
-
     "tech_title": "我们如何处理物理盘点表",
     "tech_intro": "盘点表因糟糕的字迹和污迹而臭名昭著。NoteOCR 使用专门的表格结构识别 (TSR) 来重建写字板上的网格。",
-
     "tech_detect_title": "我们的 AI 提取的内容",
     "tech_detect_1": "长序列号和 SKU",
     "tech_detect_2": "数量、重量和测量值",
     "tech_detect_3": "划掉的项目和更正",
     "tech_detect_4": "多列写字板布局",
     "tech_detect_5": "日期、位置和过道编号",
-
     "tech_tips_title": "加快审计速度的提示",
     "tech_tips_1": "拍照时确保仓库光线明亮",
     "tech_tips_2": "尽可能清晰地书写 SKU",
     "tech_tips_3": "在空白纸上保持列大致对齐",
     "tech_tips_4": "从正上方拍摄写字板的照片",
     "tech_tips_5": "将最终的 Excel 数量与货架进行复核",
-
     "related_tools_title": "其他业务数据工具",
-
     "related_tool_1_name": "发票转 Excel",
     "related_tool_1_desc": "从手写收据中提取行项目",
-
     "related_tool_2_name": "盘点表转 Excel",
     "related_tool_2_desc": "将手写库存盘点数据转化为表格",
-
     "related_tool_3_name": "扫描件转 Word",
     "related_tool_3_desc": "数字化打印的 HR 政策和手册",
-
     "related_tool_4_name": "手写转文本",
     "related_tool_4_desc": "转录手写会议笔记",
-
     "faq_title": "关于库存盘点 OCR 的常见问题",
-
     "cta_title": "停止打字录入您的盘点数据。",
     "cta_subtitle": "拍下您写字板的照片，让 NoteOCR 构建您的电子表格。",
     "cta_button": "立即转换库存",
-
     "footer_text": "NoteOCR // 工业数据提取",
-
     "tool_upload_title": "上传手写盘点清单",
     "tool_upload_desc": "支持写字板、盘点单和理货单的照片。我们将把数据提取到可编辑的 Excel 网格中。",
     "tool_upload_button": "选择盘点照片",
     "tool_upload_check_1": "支持 JPG, PNG",
     "tool_upload_check_2": "最大 25MB",
     "tool_upload_check_3": "24小时后删除",
-
     "tool_processing_title": "正在提取盘点数量...",
     "tool_processing_desc": "正在检测 SKU、项目和数量",
-
     "tool_complete_title": "盘点数据提取完毕！",
     "tool_complete_desc": "您的盘点数据现在是 Excel 电子表格了。请在下方下载。",
     "tool_complete_file_type": "Excel 电子表格 (.xlsx)",
     "tool_complete_status": "已就绪",
     "tool_download_button": "下载 Excel",
     "tool_new_button": "处理下一页",
-
     "tool_info_1_title": "保留网格",
     "tool_info_1_desc": "SKU 和数量分在不同的列",
-
     "tool_info_2_title": "高准确率",
     "tool_info_2_desc": "在凌乱、匆忙的手写字迹上进行过训练",
-
     "tool_info_3_title": "兼容 CSV",
     "tool_info_3_desc": "准备上传到您的 POS 系统",
-
     "tool_tip_label": "仓库提示：",
     "tool_tip_text": "如果您在写字板上使用横格纸或印刷的网格纸，我们的 AI 将使用这些线条在 Excel 中完美地分离您的列，结构准确率接近 100%。",
-
     "toast_success": "库存提取成功！",
     "toast_error_type": "请上传有效的图像文件",
     "toast_error_size": "文件大小必须在 25MB 以下",
     "toast_error_extraction": "提取失败。照片可能太模糊。",
     "toast_download_success": "Excel 电子表格已下载！",
     "toast_download_error": "下载失败。",
-
     "FAQ": {
       "items": {
         "how_to_convert_inventory": {
@@ -3782,146 +3411,110 @@
   "HandwrittenTimesheet": {
     "meta_title": "将手写考勤表转换为 Excel | 薪资 OCR 工具",
     "meta_desc": "停止手动输入员工工时。将手写考勤表、班组日志和纸质考勤卡的图片直接转换为 Excel 电子表格，以供计算薪资。",
-
     "hero_pill": "薪资数据自动化",
     "hero_title": "将手写考勤表自动导入 Excel",
     "hero_subtitle": "加快薪资结算速度。拍下团队手写考勤卡或轮班日志的照片，我们的 AI 会将员工姓名、日期和工时直接提取到格式化的 .xlsx 电子表格中。",
-
     "trust_ssl": "保护人力资源数据安全",
     "trust_processing": "快速考勤 OCR",
     "trust_accuracy": "99% 数字准确率",
-
     "before_after_title": "从纸质考勤卡到数字薪资单",
     "before_after_desc": "看我们的 AI 如何完美地将杂乱的手写工时映射到整洁的 Excel 行中。",
     "before_label": "之前：手写班组日志",
     "before_placeholder": "",
     "after_label": "之后：Excel 薪资数据",
     "after_placeholder": "",
-
     "use_cases_title": "谁在使用 NoteOCR 自动化考勤表？",
     "use_cases_subtitle": "专为依赖实体纸张打卡的行业打造。",
-
     "use_case_1_title": "建筑与贸易",
     "use_case_1_desc": "数字化从施工现场带回的脏污、手写班组表。将员工姓名和每日工时提取到 Excel 中，然后再发送给财务。",
-
     "use_case_2_title": "餐厅与酒店",
     "use_case_2_desc": "为总经理将每周纸质排班表、换班记录和手写的服务员打卡记录转换为干净的数字格式。",
-
     "use_case_3_title": "景观美化与现场服务",
     "use_case_3_desc": "停止尝试辨认现场工人的潦草字迹。拍下他们每周日志的照片并立即将其格式化用于薪资计算。",
-
     "use_case_4_title": "医疗与护理",
     "use_case_4_desc": "轻松将来自不同医院病房的手写签到表和物理加班日志转换为可搜索的数字数据库。",
-
     "comparison_title": "薪资数据录入对比",
     "comparison_subtitle": "为什么手动录入考勤对您的企业有风险。",
     "comparison_col_method": "方法",
     "comparison_col_time": "耗时",
     "comparison_col_accuracy": "薪资错误",
     "comparison_col_cost": "成本",
-
     "comparison_row1_method": "手动录入",
     "comparison_row1_time": "周五 2 小时以上",
     "comparison_row1_accuracy": "打字错误风险高",
     "comparison_row1_cost": "$25/小时 行政人工",
-
     "comparison_row2_method": "标准 OCR 扫描仪",
     "comparison_row2_time": "5 分钟",
     "comparison_row2_accuracy": "打乱列结构",
     "comparison_row2_cost": "免费",
-
     "comparison_row3_method": "NoteOCR 考勤 AI",
     "comparison_row3_time": "30 秒",
     "comparison_row3_accuracy": "完美的行对齐",
     "comparison_row3_cost": "免费试用",
-
     "features_title": "高级薪资提取",
     "features_subtitle": "专门针对准确读取姓名、日期和工时进行了训练。",
-
     "feature_1_title": "时间格式识别",
     "feature_1_desc": "我们的 AI 经过训练，能够理解各种时间格式，无论您的员工写的是 8:00 AM、24小时制的 0800 还是简单的 8.5 小时。",
-
     "feature_2_title": "列对齐",
     "feature_2_desc": "即使您的员工写到了线外，NoteOCR 也会将员工姓名、日期、上班打卡、下班打卡和总工时分离到不同的 Excel 列中。",
-
     "feature_3_title": "导出 CSV 给薪资软件",
     "feature_3_desc": "将您的考勤表数据下载为 Excel 文件，或导出为 CSV，以便将工时无缝上传到您首选的薪资软件，如 QuickBooks、Gusto 或 ADP。",
-
     "tech_title": "我们如何处理纸质考勤卡",
     "tech_intro": "阅读带有污迹的纸张上手写的姓名和数字需要高级的光学字符识别。NoteOCR 使用智能的布局分析以确保将正确的工时分配给正确的员工。",
-
     "tech_detect_title": "我们的 AI 提取的内容",
     "tech_detect_1": "连笔字和印刷体的员工姓名",
     "tech_detect_2": "上班打卡和下班打卡时间",
     "tech_detect_3": "小数（例如，7.5 小时）和分数",
     "tech_detect_4": "手写日期和星期几",
     "tech_detect_5": "签名和主管批准",
-
     "tech_tips_title": "给人力资源经理的建议",
     "tech_tips_1": "拍照前将折叠的考勤表展平",
     "tech_tips_2": "确保光线充足，以便能看到小数点",
     "tech_tips_3": "保持相机正对签到表上方",
     "tech_tips_4": "告诉员工清晰地书写数字",
     "tech_tips_5": "在计算薪资前，务必进行快速的目视检查",
-
     "related_tools_title": "更多业务自动化工具",
-
     "related_tool_1_name": "发票转 Excel",
     "related_tool_1_desc": "从手写收据中提取行项目",
-
     "related_tool_2_name": "盘点表转 Excel",
     "related_tool_2_desc": "将手写库存盘点数据转化为表格",
-
     "related_tool_3_name": "扫描件转 Word",
     "related_tool_3_desc": "数字化打印的 HR 政策和手册",
-
     "related_tool_4_name": "手写转文本",
     "related_tool_4_desc": "转录手写会议笔记",
-
     "faq_title": "关于考勤表 OCR 的常见问题",
-
     "cta_title": "停止打字录入员工工时。",
     "cta_subtitle": "让 AI 来做您周五的数据录入。立即上传您的第一张考勤表。",
     "cta_button": "将考勤表转换为 Excel",
-
     "footer_text": "NoteOCR // 智能薪资提取",
-
     "tool_upload_title": "上传手写考勤表",
     "tool_upload_desc": "支持班组日志、签到表和纸质考勤卡的照片。我们将把所有数据准确地提取到干净的 Excel 表格中。",
     "tool_upload_button": "选择考勤表图像",
     "tool_upload_check_1": "支持 JPG, PNG",
     "tool_upload_check_2": "最大 25MB",
     "tool_upload_check_3": "银行级加密",
-
     "tool_processing_title": "正在提取员工工时...",
     "tool_processing_desc": "正在检测姓名、日期和打卡时间",
-
     "tool_complete_title": "考勤表已提取！",
     "tool_complete_desc": "您的薪资数据现在是 Excel 电子表格了。请在下方下载。",
     "tool_complete_file_type": "Excel 电子表格 (.xlsx)",
     "tool_complete_status": "已就绪",
     "tool_download_button": "下载 Excel",
     "tool_new_button": "处理下一张考勤表",
-
     "tool_info_1_title": "保留网格",
     "tool_info_1_desc": "整齐地排列在行和列中",
-
     "tool_info_2_title": "高准确率",
     "tool_info_2_desc": "在凌乱、匆忙的手写字迹上进行过训练",
-
     "tool_info_3_title": "兼容 CSV",
     "tool_info_3_desc": "准备上传到您的薪资系统",
-
     "tool_tip_label": "薪资计算提示：",
     "tool_tip_text": "如果您打算将这些数据导入像 QuickBooks 或 Gusto 这样的薪资软件，请打开下载的 Excel 文件并将其保存为 .CSV（逗号分隔值）格式以实现无缝上传。",
-
     "toast_success": "考勤表提取成功！",
     "toast_error_type": "请上传有效的图像文件",
     "toast_error_size": "文件大小必须在 25MB 以下",
     "toast_error_extraction": "提取失败。照片可能太模糊。",
     "toast_download_success": "Excel 电子表格已下载！",
     "toast_download_error": "下载失败。",
-
     "FAQ": {
       "items": {
         "how_to_convert_timesheet": {

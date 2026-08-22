@@ -14,7 +14,6 @@
     "meta_title": "Käsiala tekstiksi -muunnin | AI Kaunokirjoituksen OCR | NoteOCR",
     "meta_desc": "Muunna käsinkirjoitetut kaunokirjoitusmuistiinpanot heti muokattavaksi digitaaliseksi tekstiksi. Maailman tarkin tekoälypohjainen käsialan OCR."
   },
-
   "Features": {
     "section_label": "Ekosysteemi",
     "main_title_1": "Kaikki mitä tarvitset asiakirjojen",
@@ -61,7 +60,6 @@
     "step_3_desc": "Asiakirja rakennetaan uudelleen Word-, Excel- tai Notion-muodossa, valmiina muokattavaksi.",
     "processing": "Käsitellään..."
   },
-
   "Why": {
     "label": "MIKSI VALITA MEIDÄT",
     "title_main": "Lopeta huonon",
@@ -111,7 +109,6 @@
       }
     }
   },
-
   "FAQ": {
     "title_main": "Usein Kysytyt",
     "title_highlight": "Kysymykset",
@@ -234,150 +231,113 @@
       }
     }
   },
-
   "WordPage": {
     "meta_title": "Muunna käsinkirjoitetut muistiinpanot Wordiksi (DOCX) | NoteOCR",
     "meta_desc": "Lopeta uudelleenkirjoittaminen. Muunna käsinkirjoitetut muistiinpanot muokattaviksi Word-asiakirjoiksi tekoälyn avulla. Säilyttää luettelot, otsikot ja asettelurakenteen automaattisesti.",
-
     "hero_pill": "Älykäs asiakirjojen tunnistus",
     "hero_title": "Muunna käsinkirjoitetut muistiinpanot Word-asiakirjoiksi",
     "hero_subtitle": "Lopeta muistiinpanojen uudelleenkirjoittaminen. Tekoälymme muuntaa käsinkirjoitetut sivut muokattaviksi .docx-tiedostoiksi ja säilyttää luettelot, otsikot, marginaalit ja alkuperäisen asettelurakenteen.",
-
     "trust_ssl": "SSL-SALATTU",
     "trust_processing": "30 SEKUNNIN KÄSITTELY",
     "trust_accuracy": "95 % TEKSTIN TARKKUUS",
-
     "before_after_title": "Näe ero",
     "before_after_desc": "Todellinen muunnos, joka näyttää säilytetyn rakenteen ja muotoilun",
     "before_label": "Ennen: Käsinkirjoitetut muistiinpanot",
     "before_placeholder": "[Lataa käsinkirjoitetut muistiinpanosi nähdäksesi tulokset tässä]",
     "after_label": "Jälkeen: Word-asiakirja",
     "after_placeholder": "[Muotoillun Word-asiakirjan esikatselu]",
-
     "use_cases_title": "Kuka muuntaa käsinkirjoitettuja muistiinpanoja Wordiksi?",
     "use_cases_subtitle": "Opiskelijoista ammattilaisiin, tuhannet digitoivat käsinkirjoitettuja muistiinpanoja päivittäin",
-
     "use_case_1_title": "Opiskelijat ja tutkijat",
     "use_case_1_desc": "Muunna luentomuistiinpanot, tutkimuspäiväkirjat ja oppimateriaalit sökettäviksi Word-asiakirjoiksi esseiden kirjoittamista ja viitteiden hallintaa varten.",
-
     "use_case_2_title": "Liike-elämän ammattilaiset",
     "use_case_2_desc": "Digitoi kokousmuistiot, valkotaulusessiot ja konferenssimuistiinpanot muotoilluiksi asiakirjoiksi tiimin jakamista ja raportteja varten.",
-
     "use_case_3_title": "Kirjailijat ja toimittajat",
     "use_case_3_desc": "Muunna käsinkirjoitetut luonnokset, tarinoiden hahmotelmat ja haastattelumuistiinpanot muokattaviksi käsikirjoituksiksi, jotka ovat valmiina editointia ja julkaisua varten.",
-
     "use_case_4_title": "Arkistonhoitajat ja historioitsijat",
     "use_case_4_desc": "Muunna historialliset asiakirjat, henkilökohtaiset kirjeet ja päiväkirjamerkinnät digitaalisiksi arkistoiksi säilyttämistä ja tutkimusta varten.",
-
     "comparison_title": "Käsinkirjoitetut muistiinpanot Wordiksi: Menetelmien vertailu",
     "comparison_subtitle": "Miksi NoteOCR säästää tunteja verrattuna manuaaliseen kirjoittamiseen",
     "comparison_col_method": "Menetelmä",
     "comparison_col_time": "Aika",
     "comparison_col_accuracy": "Tarkkuus",
     "comparison_col_cost": "Kustannus",
-
     "comparison_row1_method": "Manuaalinen kirjoittaminen",
     "comparison_row1_time": "60 minuuttia/sivu",
     "comparison_row1_accuracy": "98 % (hidas, työläs)",
     "comparison_row1_cost": "Ilmainen (sinun aikasi)",
-
     "comparison_row2_method": "Perus OCR-työkalut",
     "comparison_row2_time": "10 minuuttia",
     "comparison_row2_accuracy": "70 % (menettää muotoilun)",
     "comparison_row2_cost": "Ilmainen-$15",
-
     "comparison_row3_method": "NoteOCR Word-muunnin",
     "comparison_row3_time": "30 sekuntia",
     "comparison_row3_accuracy": "95 % ja asettelu säilyy",
     "comparison_row3_cost": "8 $/100 sivua",
-
     "features_title": "Miksi meidän käsialan OCR on erilainen",
     "features_subtitle": "Erikoisrakennettu käsinkirjoitettujen muistiinpanojen muuntamiseen Wordiksi",
-
     "feature_1_title": "Asettelun säilyttäminen",
     "feature_1_desc": "Toisin kuin perus-OCR, joka tuottaa vain pelkkää tekstiä, tekoälymme tunnistaa luettelot, otsikot, kappaleet ja marginaalit. Word-asiakirjasi vastaa muistikirjasi alkuperäistä rakennetta ja muotoilua.",
-
     "feature_2_title": "Kaunokirjoituksen ja tekstauksen tunnistus",
     "feature_2_desc": "Edistyneet neuroverkot on koulutettu miljoonilla käsialanäytteillä. Käsittelee sottaista mustetta, kaunokirjoitusta, sekatyylejä ja jopa yliviivauksia suurella tarkkuudella.",
-
     "feature_3_title": "Yksityisyys edellä -käsittely",
     "feature_3_desc": "Muistiinpanosi salataan latauksen aikana, käsitellään eristetyissä säiliöissä ja poistetaan pysyvästi muunnoksen jälkeen. Emme koskaan tallenna tai jaa käsinkirjoitettua sisältöäsi.",
-
     "tech_title": "Miten käsialan tunnistusteknologia toimii",
     "tech_intro": "Standardi OCR-työkalut käsittelevät käsinkirjoitettua tekstiä kuin kirjoitettuja merkkejä, mikä tuhoaa alkuperäisen muotoilusi. NoteOCR:n erikoistunut tekoäly analysoi kynänvetoja, välistyskuvioita ja asiakirjan rakennetta luodakseen muistiinpanosi uudelleen oikein muotoiltuna Word-asiakirjana, säilyttäen luettelot, sisennykset ja kappaleenvaihdot juuri sellaisina kuin ne kirjoitit.",
-
     "tech_detect_title": "Mitä me tunnistamme",
     "tech_detect_1": "Kappaleet, luettelot ja otsikot",
     "tech_detect_2": "Kaunokirjoitus ja tekstaus",
     "tech_detect_3": "Yliviivattu teksti ja korjaukset",
     "tech_detect_4": "Marginaalit ja sisennykset",
     "tech_detect_5": "Muistikirjat ja irtopaperit",
-
     "tech_tips_title": "Vinkkejä parhaisiin tuloksiin",
     "tech_tips_1": "Käytä hyvää valaistusta valokuvatessasi",
     "tech_tips_2": "Pidä kamera samansuuntaisena sivun kanssa",
     "tech_tips_3": "300 DPI skannatuille asiakirjoille",
     "tech_tips_4": "Varmista musteen ja paperin välinen kontrasti",
     "tech_tips_5": "Tarkista tuloste ennen viimeistelyä",
-
     "related_tools_title": "Aiheeseen liittyvät OCR-työkalut",
-
     "related_tool_1_name": "Kuva Wordiksi",
     "related_tool_1_desc": "Muunna käsinkirjoitettu teksti muotoilluiksi asiakirjoiksi",
-
     "related_tool_2_name": "Muokkaa PDF:ää verkossa (ei asennusta)",
     "related_tool_2_desc": "Lataa ja muokkaa PDF-asiakirjoja verkossa mistä tahansa",
-
     "related_tool_3_name": "Online-asiakirjaeditori",
     "related_tool_3_desc": "Muokkaa MS Word- tai Excel-asiakirjoja verkossa ilmaiseksi",
-
     "related_tool_4_name": "Kuva tekstiksi",
     "related_tool_4_desc": "Muunna kuvassa oleva kaunokirjoitus muotoilluksi muokattavaksi tekstiksi",
-
     "faq_title": "Usein Kysytyt Kysymykset Käsiala-Word-muunnoksesta",
-
     "cta_title": "Oletko valmis digitoimaan käsinkirjoitetut muistiinpanosi?",
     "cta_subtitle": "Liity yli 50 000 opiskelijan ja ammattilaisen joukkoon, jotka ovat muuntaneet muistiinpanojaan NoteOCR:llä",
     "cta_button": "Muunna muistiinpanosi nyt",
-
     "footer_text": "NoteOCR // Älykäs asiakirjojen käsittely",
-
     "tool_upload_title": "Lataa käsinkirjoitetut muistiinpanosi",
     "tool_upload_desc": "Tukee luentomuistiinpanoja, kokouspöytäkirjoja, päiväkirjoja ja tutkimuspapereita. Toimii kaunokirjoituksen, tekstauksen ja sekatyylien kanssa.",
     "tool_upload_button": "Valitse kuva",
     "tool_upload_check_1": "JPG, PNG, PDF",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "SSL-suojattu",
-
     "tool_processing_title": "Analysoidaan käsialaa...",
     "tool_processing_desc": "Tekoäly tunnistaa merkit ja säilyttää asettelun",
-
     "tool_complete_title": "Muunnos on valmis!",
     "tool_complete_desc": "Word-asiakirjasi on valmis. Lataa ja muokkaa Microsoft Wordissa tai Google Docsissa.",
     "tool_complete_file_type": "Word-asiakirja (.docx)",
     "tool_complete_status": "VALMIS",
     "tool_download_button": "Lataa Word",
     "tool_new_button": "Uusi asiakirja",
-
     "tool_info_1_title": "Asettelu säilytetty",
     "tool_info_1_desc": "Luettelot, otsikot ja kappaleet pysyvät koskemattomina",
-
     "tool_info_2_title": "95 % Tarkkuus",
     "tool_info_2_desc": "Optimoitu kaunokirjoitukselle ja tekstaukselle",
-
     "tool_info_3_title": "DOCX-muoto",
     "tool_info_3_desc": "Yhteensopiva Wordin, Docsin ja Pagesin kanssa",
-
     "tool_tip_label": "Ammattilaisen vinkki:",
     "tool_tip_text": "Parhaiden tulosten saamiseksi kuvaa muistiinpanosi hyvässä valaistuksessa ja pidä kamera samansuuntaisena sivun kanssa. Varmista riittävä kontrasti musteen ja paperin välillä optimaalisen merkkientunnistuksen saavuttamiseksi.",
-
     "toast_success": "Transkriptio valmis!",
     "toast_error_type": "Lataa kelvollinen kuva- (JPG, PNG, WEBP) tai PDF-tiedosto",
     "toast_error_size": "Tiedostokoon on oltava alle 25 MB",
     "toast_error_conversion": "Muunnos epäonnistui.",
     "toast_download_success": "Word-asiakirja ladattu!",
     "toast_download_error": "Lataus epäonnistui.",
-
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -463,153 +423,112 @@
       }
     }
   },
-
   "PdfPage": {
     "meta_title": "Muokkaa skannattuja PDF-tiedostoja verkossa OCR:n avulla | Ilmainen PDF-muokkain | NoteOCR",
     "meta_desc": "Selainpohjainen PDF-editori skannatuille asiakirjoille. Pura käsinkirjoitettua tekstiä AI OCR:n avulla, lisää allekirjoituksia, muokkaa sisältöä, ohjelmistoa ei tarvita.",
-
     "hero_pill": "Ammatillinen PDF-työtila",
     "hero_title": "Muokkaa skannattuja PDF-tiedostoja verkossa AI OCR:n avulla",
     "hero_subtitle": "Ainoa selainpohjainen PDF-editori, joka on rakennettu skannatuille asiakirjoille. Lataa käsinkirjoitettuja PDF-tiedostoja, pura tekstiä OCR:n avulla, lisää allekirjoituksia tai luo uusia asiakirjoja, kaikki ilman asennettavia ohjelmistoja.",
-
     "trust_ssl": "SSL-SALATTU",
     "trust_processing": "VÄLITÖN KÄSITTELY",
     "trust_accuracy": "KÄSIALAN OCR",
-
     "workspace_title": "Täydellinen online-asiakirjatyötila",
     "workspace_subtitle": "Enemmän kuin pelkkä OCR. Lataa asiakirjasi turvalliseen ympäristöön, jossa voit muokata, hakea ja hallita tiedostojasi täysin pilvessä.",
-
     "workspace_feature_1_title": "Reaaliaikainen tekstin muokkaus",
     "workspace_feature_1_desc": "Muokkaa purettua tekstiä suoraan selaimessasi. Korjaa kirjoitusvirheitä, muotoile kappaleita uudelleen ja päivitä tietoja ennen vientiä.",
-
     "workspace_feature_2_title": "Yksityisyys edellä",
     "workspace_feature_2_desc": "Asiakirjasi salataan ja käsitellään turvallisessa hiekkalaatikossa. Emme koskaan tallenna arkaluonteisia tietojasi ilman lupaa.",
-
     "workspace_feature_3_title": "Välitön vienti",
     "workspace_feature_3_desc": "Oletko valmis muokkauksessa? Lataa puhdistettu asiakirjasi haettavana PDF:nä, Word-asiakirjana tai Excel-laskentataulukkona välittömästi.",
-
     "use_cases_title": "Kuka muokkaa skannattuja PDF-tiedostoja verkossa?",
     "use_cases_subtitle": "Lakitoimistoista terveydenhuoltoon, tuhannet muokkaavat skannattuja asiakirjoja päivittäin",
-
     "use_case_1_title": "Lain ammattilaiset",
     "use_case_1_desc": "Muokkaa skannattuja sopimuksia, allekirjoita oikeudellisia asiakirjoja digitaalisesti, peitä arkaluonteisia tietoja ja valmistele tapauskansioita. Täydellinen asianajajille, jotka käsittelevät skannattuja oikeuden asiakirjoja.",
-
     "use_case_2_title": "Pienyritykset",
     "use_case_2_desc": "Täytä skannattuja lomakkeita, lisää yrityksen allekirjoituksia laskuihin, yhdistä PDF-tiedostoja raporteiksi ja kommentoi ehdotuksia ilman kalliita Adobe-tilauksia.",
-
     "use_case_3_title": "Opiskelijat ja opettajat",
     "use_case_3_desc": "Tee merkintöjä skannattuihin oppikirjoihin, yhdistä luentomuistiinpanoja opinto-oppaiksi, täytä apurahalomaikkeita ja muunna käsinkirjoitettuja tehtäviä haettaviksi PDF-tiedostoiksi.",
-
     "use_case_4_title": "Terveydenhuollon tarjoajat",
     "use_case_4_desc": "Muokkaa potilaiden vastaanottolomakkeita, digitoi käsinkirjoitettuja potilastietoja, lisää HIPAA/GDPR-yhteensopivia allekirjoituksia ja järjestä skannattuja sairauskertomuksia.",
-
     "comparison_title": "PDF-muokkaus: Työpöytä vs. verkkotyökalut",
     "comparison_subtitle": "Miksi selainpohjainen muokkaus päihittää työpöytäohjelmistot",
     "comparison_col_tool": "Työkalu",
     "comparison_col_access": "Pääsy",
     "comparison_col_features": "Ominaisuudet",
     "comparison_col_cost": "Kustannus",
-
     "comparison_row1_tool": "Adobe Acrobat Pro",
     "comparison_row1_access": "Vaatii asennuksen ja päivitykset",
     "comparison_row1_features": "Täysi, ei käsialan OCR:ää",
     "comparison_row1_cost": "n. 20 €/kk",
-
     "comparison_row2_tool": "Perustason verkkoeditorit",
     "comparison_row2_access": "Verkkopohjainen",
     "comparison_row2_features": "Rajoitettu OCR, ei käsialaa",
     "comparison_row2_cost": "Ilmainen - 10 €",
-
     "comparison_row3_tool": "NoteOCR PDF Editori",
     "comparison_row3_access": "Välitön, selainpohjainen",
     "comparison_row3_features": "OCR + käsiala + täysi asiakirjaeditori",
     "comparison_row3_cost": "Ilmainen - 8 €",
-
     "features_title": "Miksi skannattu PDF-editorimme on erilainen",
     "features_subtitle": "Erikoisrakennettu skannattujen ja käsinkirjoitettujen PDF-tiedostojen muokkaamiseen",
-
     "feature_1_title": "OCR skannatuille PDF-tiedostoille",
     "feature_1_desc": "Muunna skannatut asiakirjat ja käsinkirjoitetut PDF-tiedostot haettavaksi ja muokattavaksi tekstiksi. Tekoälymme tunnistaa käsialan, kirjoitetun tekstin ja taulukkorakenteet säilyttäen alkuperäisen asettelusi.",
-
     "feature_2_title": "Täydellinen muokkausohjelmisto",
     "feature_2_desc": "Lisää tekstiä, piirrä allekirjoituksia, lisää kuvia, korosta osioita ja järjestä sivuja uudelleen. Kaikki standardit PDF-muokkaustyökalut ammattimaisessa verkkotyötilassa, ilman työpöytäohjelmistoja.",
-
     "feature_3_title": "Selainpohjainen turvallisuus",
     "feature_3_desc": "Pankkitason salaus latauksille. PDF-tiedostosi käsitellään mahdollisuuksien mukaan paikallisesti selaimessasi, ja palvelinkäsittely tapahtuu eristetyissä säiliöissä. Poistetaan automaattisesti 24 tunnin kuluttua.",
-
     "tech_title": "Miten selainpohjainen PDF OCR toimii",
     "tech_intro": "Perinteiset PDF-editorit toimivat vain digitaalisen tekstin kanssa. NoteOCR yhdistää edistyneen OCR:n (Optical Character Recognition) ja asetteluanalyysin käsitelläkseen skannattuja asiakirjoja, käsinkirjoitettuja lomakkeita ja kuvapohjaisia PDF-tiedostoja kokonaan selaimessasi. Tunnistamme tekstin sijainnin, säilytämme muotoilun ja teemme koko asiakirjastasi haettavan ja muokattavan ilman ohjelmiston asennusta.",
-
     "tech_support_title": "Mitä me tuemme",
     "tech_support_1": "Käsinkirjoitetut asiakirjat ja lomakkeet",
     "tech_support_2": "Skannatut sopimukset ja oikeudelliset tiedostot",
     "tech_support_3": "Kuvapohjaiset PDF-tiedostot ilman tekstikerrosta",
     "tech_support_4": "Digitaaliset allekirjoitukset ja merkinnät",
     "tech_support_5": "Monisivuiset PDF-asiakirjat",
-
     "tech_tips_title": "Vinkkejä parhaisiin tuloksiin",
     "tech_tips_1": "Skannaa vähintään 300 DPI:n resoluutiolla",
     "tech_tips_2": "Varmista hyvä valaistus ja kontrasti",
     "tech_tips_3": "Pidä sivut litteinä ilman ryppyjä",
     "tech_tips_4": "Käytä väriä/harmaasävyä käsialalle",
     "tech_tips_5": "Lataa suoraan skannerista aina kun mahdollista",
-
     "related_tools_title": "Aiheeseen liittyvät OCR-työkalut",
-
     "related_tool_1_name": "Kuva Wordiksi",
     "related_tool_1_desc": "Muunna käsinkirjoitettu teksti muotoilluiksi asiakirjoiksi",
-
     "related_tool_2_name": "Muokkaa PDF:ää verkossa (ei asennusta)",
     "related_tool_2_desc": "Lataa ja muokkaa PDF-asiakirjoja verkossa mistä tahansa",
-
     "related_tool_3_name": "Online-asiakirjaeditori",
     "related_tool_3_desc": "Muokkaa MS Word- tai Excel-asiakirjoja verkossa ilmaiseksi",
-
     "related_tool_4_name": "Kuva tekstiksi",
     "related_tool_4_desc": "Muunna kuvassa oleva kaunokirjoitus muotoilluksi muokattavaksi tekstiksi",
-
     "faq_title": "Usein kysytyt kysymykset skannattujen PDF-tiedostojen muokkaamisesta",
-
     "cta_title": "Oletko valmis muokkaamaan skannattuja PDF-tiedostoja verkossa?",
     "cta_subtitle": "Liity yli 100 000 käyttäjän joukkoon, jotka ovat muokanneet skannattuja asiakirjoja NoteOCR:n selainpohjaisella PDF-editorilla",
     "cta_button": "Aloita muokkaus nyt",
-
     "tool_main_title": "Ammatillinen PDF-työtila",
     "tool_main_desc": "Lataa skannattuja PDF-tiedostoja käsialalla OCR:ää varten, tai aloita tyhjästä asiakirjasta luodaksesi aivan uuden.",
     "tool_upload_button": "Lataa skannattu PDF",
     "tool_new_button": "Aloita tyhjästä",
-
     "tool_upload_check_1": "Vain PDF",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "SSL-suojattu",
-
     "tool_info_1_title": "Käsialan OCR",
     "tool_info_1_desc": "Pura teksti skannatuista käsinkirjoitetuista asiakirjoista",
-
     "tool_info_2_title": "Täysi editoripaketti",
     "tool_info_2_desc": "Lisää tekstiä, allekirjoituksia, merkintöjä ja muuta",
-
     "tool_info_3_title": "Selainpohjainen",
     "tool_info_3_desc": "Ei vaadi ohjelmistolatausta, toimii välittömästi",
-
     "tool_tip_label": "Ammattilaisen vinkki:",
     "tool_tip_text": "Parhaiden OCR-tulosten saamiseksi skannatuista PDF-tiedostoista varmista, että asiakirjat on skannattu 300 DPI:llä hyvällä kontrastilla. Käsinkirjoitetut lomakkeet toimivat parhaiten, kun ne on valokuvattu tasaisella valaistuksella.",
-
     "modal_new_title": "Luo uusi PDF",
     "modal_new_desc": "Aloita tyhjältä kankaalta ja rakenna asiakirjasi alusta alkaen.",
     "modal_new_button": "Luo tyhjä PDF",
-
     "modal_upload_title": "Lataa skannattu PDF",
     "modal_upload_desc": "Tuo skannattu PDF purkaaksesi tekstiä OCR:n avulla, lisätäksesi allekirjoituksia tai muokataksesi sisältöä.",
     "modal_upload_placeholder": "Napsauta tai vedä PDF tähän",
     "modal_upload_info": "Max tiedostokoko: 25MB • Skannattuja ja käsinkirjoitettuja PDF-tiedostoja tuetaan",
-
     "modal_processing_new": "Luodaan työtilaa...",
     "modal_processing_upload": "Käsitellään PDF-tiedostoa...",
     "modal_processing_desc": "Asennetaan turvallista PDF-ympäristöäsi",
-
     "modal_security_badge": "Pankkitason salaus",
-
     "toast_success_create": "PDF-työtila valmis!",
     "toast_success_upload": "PDF ladattu onnistuneesti!",
     "toast_error_type": "Valitse kelvollinen PDF-tiedosto",
@@ -617,7 +536,6 @@
     "toast_error_create": "PDF:n luominen epäonnistui.",
     "toast_error_upload": "PDF:n lataaminen epäonnistui",
     "toast_error_drop": "Pudota kelvollinen PDF-tiedosto",
-
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {
@@ -706,15 +624,12 @@
     "router_title": "Millainen asiakirja sinulla on?",
     "router_subtitle": "Ohjaamme sinut oikeaan työkaluun, jotta saat parhaan tuloksen.",
     "router_back_button": "Takaisin asiakirjatyyppiin",
-
     "router_type_standard_label": "Tavallinen / Digitaalinen PDF",
     "router_type_standard_desc": "Kirjoitetut sopimukset, lomakkeet tai mikä tahansa PDF, jossa on valittavaa tekstiä. Minun täytyy muokata, kommentoida tai allekirjoittaa se.",
     "router_type_standard_cta": "Jatka PDF-editoriin",
-
     "router_type_handwritten_label": "Käsin kirjoitetut muistiinpanot tai asiakirjat",
     "router_type_handwritten_desc": "Lataa valokuva tai skannaus käsin kirjoitetuista muistiinpanoista, kirjeistä tai asiakirjoista. Muunnamme ne täydellisesti muotoilluksi, muokattavaksi Word-tiedostoksi — säilyttäen rakenteen, välit ja asettelun.",
     "router_type_handwritten_cta": "Muunna käsiala Wordiksi →",
-
     "router_type_table_label": "Käsin kirjoitetut lokit, taulukot tai data",
     "router_type_table_desc": "Lataa valokuva tai skannaus käsin kirjoitetuista ruudukoista, tilikirjoista, varastoluetteloista tai muista rakenteellisista tiedoista. Muunnamme ne siistiksi, ammattimaisesti muotoilluksi Excel-taulukoksi.",
     "router_type_table_cta": "Muunna käsiala Exceliksi →"
@@ -913,144 +828,109 @@
   "ExcelPage": {
     "meta_title": "Muunna käsinkirjoitetut taulukot Exceliksi (XLSX) | NoteOCR",
     "meta_desc": "Automatisoi tiedonsyöttö. Muunna käsinkirjoitetut ruudukot, taloustaulukot ja aikataulut välittömästi muokattaviksi Excel-laskentataulukoiksi tekoälyn avulla.",
-
     "hero_pill": "Taulukkorakenteen tunnistus",
     "hero_title": "Muunna käsinkirjoitetut taulukot Excel-laskentataulukoiksi",
     "hero_subtitle": "Lopeta tietojen manuaalinen kirjoittaminen. Tekoälymme havaitsee rivit, sarakkeet ja solujen rajat käsinkirjoitetuista muistiinpanoistasi, jopa ilman piirrettyjä viivoja, ja vie muotoillut .xlsx-laskentataulukot.",
-
     "trust_ssl": "SSL-SALATTU",
     "trust_processing": "2 MINUUTIN KÄSITTELY",
     "trust_accuracy": "98 % NUMEERINEN TARKKUUS",
-
     "before_after_title": "Näe ero",
     "before_after_desc": "Todellinen muunnos, joka näyttää säilytetyn rakenteen ja numeerisen tarkkuuden",
     "before_label": "Ennen: Käsinkirjoitettu tilikirja",
     "before_placeholder": "[Lataa käsinkirjoitettu taulukkosi nähdäksesi tulokset tässä]",
     "after_label": "Jälkeen: Excel-tuloste",
     "after_placeholder": "[Muotoillun laskentataulukon esikatselu]",
-
     "use_cases_title": "Kuka käyttää Käsiala Exceliksi -muunnosta?",
     "use_cases_subtitle": "Tilitoimistoista opettajiin, tuhannet muuntavat käsinkirjoitettuja taulukoita päivittäin",
-
     "use_case_1_title": "Kirjanpito ja laskentatoimi",
     "use_case_1_desc": "Muunna käsinkirjoitetut talouskirjat, kuluraportit ja kuitit lajiteltaviksi Excel-tiedostoiksi verovalmisteluja ja tilintarkastuksia varten.",
-
     "use_case_2_title": "Varastonhallinta",
     "use_case_2_desc": "Digitoi varastolaskennat, tuotelistat ja varastolokit. Täydellinen pienyrityksille, jotka seuraavat varastoa paperilla.",
-
     "use_case_3_title": "Opettajat ja arvostelu",
     "use_case_3_desc": "Muuta käsinkirjoitetut arvosanakirjat ja oppilasluettelot muotoilluiksi laskentataulukoiksi todistuksia ja edistymisen seurantaa varten.",
-
     "use_case_4_title": "Tutkimus ja tiedonkeruu",
     "use_case_4_desc": "Muunna kenttämuistiinpanot, kyselyvastaukset ja laboratoriodatan taulukot analysoitaviksi tietoaineistoiksi tilasto-ohjelmistoja varten.",
-
     "comparison_title": "Käsinkirjoitettu taulukko Exceliksi: Menetelmien vertailu",
     "comparison_subtitle": "Miksi NoteOCR säästää tunteja verrattuna manuaaliseen syöttöön",
     "comparison_col_method": "Menetelmä",
     "comparison_col_time": "Aika",
     "comparison_col_accuracy": "Tarkkuus",
     "comparison_col_cost": "Kustannus",
-
     "comparison_row1_method": "Manuaalinen kirjoittaminen",
     "comparison_row1_time": "45 minuuttia",
     "comparison_row1_accuracy": "95 % (inhimillinen virhe)",
     "comparison_row1_cost": "15 €/tunti työkulu",
-
     "comparison_row2_method": "Yleinen OCR",
     "comparison_row2_time": "10 minuuttia",
     "comparison_row2_accuracy": "50 % (menettää rakenteen)",
     "comparison_row2_cost": "Ilmainen-20 €",
-
     "comparison_row3_method": "NoteOCR Taulukot",
     "comparison_row3_time": "2 minuuttia",
     "comparison_row3_accuracy": "98 % rakenne säilytetty",
     "comparison_row3_cost": "8 €/100 sivua",
-
     "features_title": "Miksi meidän taulukko-OCR on erilainen",
     "features_subtitle": "Erikoisrakennettu käsinkirjoitettuja datataulukoita varten",
-
     "feature_1_title": "Älykäs ruudukon tunnistus",
     "feature_1_desc": "Tekoälymme tunnistaa taulukon rakenteen jopa ilman näkyviä reunoja. Se tunnistaa implisiittiset sarakkeet, tasatun tekstin ja hierarkkiset suhteet käsinkirjoitetuissa asetteluissa.",
-
     "feature_2_title": "Optimoitu numeroille",
     "feature_2_desc": "Täydellinen tarkkuus taloustiedoille. Muunna käsinkirjoitetut kirjanpitokirjat, laskut, varastolaskennat, arvosanakirjat ja kuluraportit säilyttäen samalla numeerisen muotoilun.",
-
     "feature_3_title": "Vie Exceliin tai CSV:hen",
     "feature_3_desc": "Lataa tietosi Microsoft Excelinä (.xlsx) asianmukaisella solumuotoilulla, tai vie CSV:nä tuodaksesi ne Google Sheetsiin, tietokantoihin tai kirjanpito-ohjelmistoihin.",
-
     "tech_title": "Miten ruudukon tunnistusteknologia toimii",
     "tech_intro": "Useimmat OCR-työkalut käsittelevät taulukoita pelkkänä tekstinä, mikä tuhoaa solujen suhteet. NoteOCR:n erikoistunut tekoäly analysoi spatiaalista sijaintia, tekstin tasauskuvioita ja visuaalisia erottimia rakentaakseen taulukkosi tarkan rakenteen uudelleen — säilyttäen otsikot, kaavat ja yhdistetyt solut.",
-
     "tech_detect_title": "Mitä me tunnistamme",
     "tech_detect_1": "Solujen rajat ilman piirrettyjä viivoja",
     "tech_detect_2": "Sarakkeiden otsikot ja hierarkiat",
     "tech_detect_3": "Yhdistetyt solut, jotka kattavat useita sarakkeita",
     "tech_detect_4": "Valuuttasymbolit ja desimaalit",
     "tech_detect_5": "Ruutupaperin ja tyhjän paperin taulukot",
-
     "tech_tips_title": "Vinkkejä parhaisiin tuloksiin",
     "tech_tips_1": "Käytä hyvää valaistusta valokuvatessasi",
     "tech_tips_2": "Pidä kamera samansuuntaisena sivun kanssa",
     "tech_tips_3": "300 DPI skannatuille asiakirjoille",
     "tech_tips_4": "Ota kuva koko taulukosta kerralla",
     "tech_tips_5": "Tarkista tuloste ennen kriittistä käyttöä",
-
     "related_tools_title": "Aiheeseen liittyvät OCR-työkalut",
-
     "related_tool_1_name": "Kuva Wordiksi",
     "related_tool_1_desc": "Muunna käsinkirjoitettu teksti muotoilluiksi asiakirjoiksi",
-
     "related_tool_2_name": "Muokkaa PDF:ää verkossa (ei asennusta)",
     "related_tool_2_desc": "Lataa ja muokkaa PDF-asiakirjoja verkossa mistä tahansa",
-
     "related_tool_3_name": "Online-asiakirjaeditori",
     "related_tool_3_desc": "Muokkaa MS Word- tai Excel-asiakirjoja verkossa ilmaiseksi",
-
     "related_tool_4_name": "Kuva tekstiksi",
     "related_tool_4_desc": "Muunna kuvassa oleva kaunokirjoitus muotoilluksi muokattavaksi tekstiksi",
-
     "faq_title": "Usein Kysytyt Kysymykset Taulukosta Exceliksi -muunnoksesta",
-
     "cta_title": "Oletko valmis lopettamaan manuaalisen tiedonsyötön?",
     "cta_subtitle": "Liity yli 10 000 käyttäjän joukkoon, jotka ovat digitoineet käsinkirjoitettuja taulukoita NoteOCR:n avulla",
     "cta_button": "Muunna taulukkosi nyt",
-
     "tool_upload_title": "Lataa käsinkirjoitettu taulukkosi",
     "tool_upload_desc": "Tukee käsinkirjoitettuja tilikirjoja, varastoluetteloita, arvosanakirjoja ja datataulukoita. Toimii piirretyillä reunoilla tai ilman.",
     "tool_upload_button": "Valitse kuva",
     "tool_upload_check_1": "JPG, PNG, JPEG",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "SSL-suojattu",
-
     "tool_processing_title": "Tunnistetaan taulukon rakennetta...",
     "tool_processing_desc": "Tekoäly analysoi rivejä, sarakkeita ja solujen rajoja",
-
     "tool_complete_title": "Taulukko purettu onnistuneesti!",
     "tool_complete_desc": "Laskentataulukkosi on valmis. Lataa Excel (.xlsx) tai CSV-muodossa.",
     "tool_complete_file_type": "Excel-laskentataulukko",
     "tool_complete_status": "VALMIS",
     "tool_download_button": "Lataa Excel",
     "tool_new_button": "Uusi taulukko",
-
     "tool_info_1_title": "Älykäs tunnistus",
     "tool_info_1_desc": "Toimii taulukoissa, joissa ei ole piirrettyjä viivoja",
-
     "tool_info_2_title": "99 % Tarkkuus",
     "tool_info_2_desc": "Optimoitu numeroille ja taloustiedoille",
-
     "tool_info_3_title": "Excel-muoto",
     "tool_info_3_desc": "Yhteensopiva Excelin, Sheetsin ja tietokantojen kanssa",
-
     "tool_tip_label": "Ammattilaisen vinkki:",
     "tool_tip_text": "Parhaiden tulosten saamiseksi valokuvaa taulukkosi hyvässä valaistuksessa ja pidä kamera samansuuntaisena sivun kanssa. 300 DPI:n skannaukset toimivat paremmin kuin heikkoresoluutioiset valokuvat.",
-
     "toast_success": "Taulukko purettu onnistuneesti!",
     "toast_error_type": "Lataa kelvollinen kuva- (JPG, PNG, WEBP) tai PDF-tiedosto",
     "toast_error_size": "Tiedostokoon on oltava alle 25 MB",
     "toast_error_extraction": "Purku epäonnistui.",
     "toast_download_success": "Excel-tiedosto ladattu!",
     "toast_download_error": "Lataus epäonnistui.",
-
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1116,7 +996,6 @@
       }
     }
   },
-
   "nav": {
     "product": "Tuote",
     "solutions": "Ratkaisut",
@@ -1139,7 +1018,6 @@
     "login": "Kirjaudu sisään",
     "get_started": "Aloita tästä"
   },
-
   "Footer": {
     "description": "Muunna käsinkirjoitetut muistiinpanot siisteiksi, muokattaviksi asiakirjoiksi välittömästi. Turvallinen, nopea ja rakennettu moderneille tiimeille.",
     "stay_updated": "Pysy ajan tasalla",
@@ -1281,57 +1159,112 @@
       "rows": [
         {
           "name": "Tekstauksen OCR",
-          "values": [true, true, true, true],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Kaunokirjoituksen moottori",
-          "values": ["Standardi", "Korkea", "Ultra", "Ultra"],
+          "values": [
+            "Standardi",
+            "Korkea",
+            "Ultra",
+            "Ultra"
+          ],
           "group": "core"
         },
         {
           "name": "Taulukon ruudukon tunnistus (Excel)",
-          "values": [false, false, true, true],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Asettelun säilyttäminen (Word)",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Matemaattiset kaavat",
-          "values": [false, false, "Perus", "Edistynyt"],
+          "values": [
+            false,
+            false,
+            "Perus",
+            "Edistynyt"
+          ],
           "group": "core"
         },
         {
           "name": "Sottaisen musteen korjaus",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Vientimuodot",
-          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Kaikki muodot"],
+          "values": [
+            "TXT",
+            "DOCX, TXT",
+            "XLSX, DOCX, PDF",
+            "Kaikki muodot"
+          ],
           "group": "formats"
         },
         {
           "name": "Erälatauksen raja",
-          "values": ["1 tiedosto", "5 tiedostoa", "10 tiedostoa", "Rajaton"],
+          "values": [
+            "1 tiedosto",
+            "5 tiedostoa",
+            "10 tiedostoa",
+            "Rajaton"
+          ],
           "group": "formats"
         },
         {
           "name": "Pilvitallennuksen kesto",
-          "values": ["24 Tuntia", "30 Päivää", "Ikuisesti", "Ikuisesti"],
+          "values": [
+            "24 Tuntia",
+            "30 Päivää",
+            "Ikuisesti",
+            "Ikuisesti"
+          ],
           "group": "system"
         },
         {
           "name": "Salaustaso",
-          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "values": [
+            "AES-256",
+            "AES-256",
+            "AES-256",
+            "AES-256"
+          ],
           "group": "system"
         },
         {
           "name": "Käsittelyn prioriteetti",
-          "values": ["Standardi", "Standardi", "Korkea", "Reaaliaikainen"],
+          "values": [
+            "Standardi",
+            "Standardi",
+            "Korkea",
+            "Reaaliaikainen"
+          ],
           "group": "system"
         }
       ]
@@ -1454,8 +1387,8 @@
       "loading": "Käsitellään..."
     },
     "sidebar": {
-      "hq_title": "Zürichin pääkonttori",
-      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zürich\nSveitsi",
+      "hq_title": "Pääkonttori",
+      "hq_address": "NoteOCR\n11 Boyo Road, Sapele, Delta State\nNigeria",
       "timezone": "Keski-Euroopan aika (CET)",
       "support": "Yleinen tuki",
       "sales": "Yritysmyynti",
@@ -1520,7 +1453,6 @@
   "EducationPage": {
     "meta_title": "Käsiala tekstiksi opiskelijoille | Muistiinpanot Notioniin, Obsidianiin ja Ankiin",
     "meta_desc": "Muunna käsinkirjoitetut luentomuistiinpanot, valkotaulut ja tutkimuspäiväkirjat haettavaksi ja muokattavaksi tekstiksi. Rakennettu opiskelijoille, nopea, tarkka ja ilmainen aloittaa.",
-
     "hero": {
       "badge": "Akateeminen painos",
       "title_start": "Käsialasi,",
@@ -1763,25 +1695,18 @@
     "last_updated": "Viimeksi päivitetty",
     "date": "Tammikuu 2026",
     "welcome_text": "Tervetuloa NoteOCR:ään. Nämä käyttöehdot muodostavat oikeudellisesti sitovan sopimuksen sinun (Käyttäjä, sinä, sinun) ja NoteOCR Inc.:n (NoteOCR, me, meitä, meidän) välillä, joka ohjaa pääsyäsi ja käyttöäsi verkkosivustollamme, verkkosovelluksessamme, API:ssa ja kaikissa niihin liittyvissä palveluissa (yhdessä \"Palvelut\"). Luomalla tilin, ostamalla sivukrediittejä tai muutoin käyttämällä Palveluita vahvistat, että olet lukenut, ymmärtänyt ja hyväksynyt nämä ehdot sekä tietosuojakäytäntömme.",
-
     "s1_t": "Hyväksyminen ja kelpoisuus",
     "s1_c": "Sinun on oltava vähintään 13-vuotias käyttääksesi NoteOCR:ää. Jos käytät Palveluita yrityksen, koulun tai muun oikeushenkilön puolesta, vakuutat, että sinulla on valtuudet sitoa kyseinen yhteisö näihin ehtoihin, jolloin \"sinä\" viittaa kyseiseen yhteisöön. Alle 18-vuotiailla käyttäjillä on oltava vanhempien tai huoltajan suostumus. Pidätämme oikeuden evätä pääsyn miltä tahansa henkilöltä tai yhteisöltä oman harkintamme mukaan. Jatkamalla Palveluidemme käyttöä näiden ehtojen päivitysten jälkeen hyväksyt muutetut ehdot kokonaisuudessaan.",
-
     "s2_t": "Palveluiden kuvaus",
     "s2_c": "NoteOCR tarjoaa tekoälypohjaisen asiakirjojen digitointialustan, joka muuntaa käsinkirjoitetut muistiinpanot, skannatut PDF-lomakkeet, valkotaulujen valokuvat ja muun analogisen materiaalin muokattaviin digitaalisiin muotoihin, mukaan lukien Microsoft Word (.docx), Excel (.xlsx) ja PDF. Palveluihin kuuluvat muun muassa: AI-käsialantunnistus (99,2 % tarkkuus), älykäs asettelun ja muotoilun uudelleenrakentaminen, selainpohjainen asiakirjaeditori, pilviasiakirjojen tallennus, monikielinen tuki yli 30 kirjoitusjärjestelmälle, taulukosta laskentataulukkoon poiminta sekä kehittäjä-API. Ominaisuuksia voidaan muuttaa, lisätä tai poistaa milloin tahansa. Emme takaa mitään tiettyä tulostusmuotoa, tarkkuustasoa tai käsittelyaikaa sen yli, mitä dokumentaatiossamme nimenomaisesti todetaan.",
-
     "s3_t": "Tilin rekisteröinti",
     "s3_c": "Päästäksesi useimpiin ominaisuuksiin sinun on rekisteröitävä tili antamalla kelvollinen sähköpostiosoite ja turvallinen salasana, tai tunnistautumalla tuetun OAuth-palveluntarjoajan (esim. Google) kautta. Suostut antamaan tarkat, ajantasaiset ja täydelliset rekisteröintitiedot ja pitämään ne ajan tasalla. Olet yksin vastuussa tilisi tunnistetietojen luottamuksellisuuden ylläpitämisestä. Sinun on ilmoitettava meille välittömästi osoitteeseen support@noteocr.com, jos epäilet tilisi luvatonta käyttöä. NoteOCR ei ole vastuussa mistään menetyksistä, jotka johtuvat tilin luvattomasta käytöstä, joka on aiheutunut siitä, ettet ole turvannut tunnistetietojasi. Jokainen tili on yhdelle käyttäjälle; tilien jakaminen useiden henkilöiden kesken ei ole sallittua, ellet ole organisaatiosuunnitelmassa.",
-
     "s4_t": "Käyttäjän sisältö ja lisenssi",
     "s4_c": "Säilytät täyden omistusoikeuden kaikkiin asiakirjoihin, kuviin, tiedostoihin ja muuhun materiaaliin, jotka lataat NoteOCR:ään (Käyttäjän sisältö). Lataamalla Käyttäjän sisältöä myönnät NoteOCR:lle rajoitetun, ei-yksinomaisen, rojaltivapaan, maailmanlaajuisen lisenssin käyttää, käsitellä, tallentaa ja jäljentää Käyttäjän sisältöäsi yksinomaan Palveluiden toimittamista, parantamista ja ylläpitoa varten. Tämä lisenssi päättyy, kun poistat sisältösi tai suljet tilisi. Vakuutat ja takaat, että omistat tai sinulla on kaikki tarvittavat oikeudet lataamaasi Käyttäjän sisältöön, ja että sen tekeminen ei loukkaa minkään kolmannen osapuolen immateriaalioikeuksia tai yksityisyydensuojaa. NoteOCR ei vaadi omistusoikeutta asiakirjoihisi eikä koskaan käytä Käyttäjän sisältöäsi tekoälyn tai koneoppimismallien kouluttamiseen.",
-
     "s5_t": "Immateriaalioikeudet",
     "s5_c": "Kaikki NoteOCR-alustan taustalla oleva teknologia, ohjelmisto, lähdekoodi, algoritmit, rajapinnat, mallit, tavaramerkit, logot, kauppanimet ja omat metodologiat — mukaan lukien NoteOCR Engine V2 ja kaikki tulevat versiot — ovat NoteOCR Inc.:n yksinomaista immateriaaliomaisuutta, ja niitä suojaavat sovellettavat tekijänoikeus-, tavaramerkki- ja liikesalaisuuslait. Mikään näissä ehdoissa ei siirrä mitään NoteOCR:n immateriaaliomaisuuden omistusoikeutta sinulle. Sinulle myönnetään rajoitettu, ei-siirrettävä, ei-alilisensoitava, peruutettavissa oleva lisenssi käyttää ja hyödyntää Palveluita omiin laillisiin tarkoituksiin tilisi voimassaoloaikana. Et saa kopioida, muokata, purkaa, takaisinmallintaa, hajottaa tai luoda johdannaisteoksia mistään Palveluiden osasta ilman ennakkokirjallista suostumustamme.",
-
     "s6_t": "Maksut ja sivukrediitit",
     "s6_c": "NoteOCR toimii kertamaksumallilla. Toistuvia tilauksia ei ole. Ostat sivukrediittejä paketeissa, joiden arvo on 8–25 dollaria, ja krediittejä vähennetään käsiteltyä sivua kohti. Krediitit eivät vanhene ja siirtyvät eteenpäin toistaiseksi. Kaikki maksut käsitellään turvallisesti kolmannen osapuolen maksupalveluntarjoajien (kuten Stripe) kautta ja niihin sovelletaan heidän ehtojaan. Kaikki hinnat on ilmoitettu Yhdysvaltain dollareissa (USD) ja ne sisältävät sovellettavat verot, ellei toisin mainita. Ostoja ei palauteta, kun sivun käsittely on alkanut. Jos uskot veloituksen olevan virheellinen, ota yhteyttä osoitteeseen support@noteocr.com 14 päivän kuluessa tapahtumasta. NoteOCR pidättää oikeuden muuttaa hinnoittelua kohtuullisella varoitusajalla. Palveluiden jatkuva käyttö hinnanmuutoksen jälkeen muodostaa uuden hinnoittelun hyväksymisen.",
-
     "s7_t": "Kielletyt toiminnot",
     "prohibited_intro": "Suostut olemaan käyttämättä NoteOCR:ää suoraan tai epäsuorasti mihinkään seuraavista toimista. Tämän osion rikkominen voi johtaa tilin välittömään sulkemiseen ilman hyvitystä.",
     "prohibited_item_1": "NoteOCR-alustan lähdekoodin, algoritmien tai taustamallien takaisinmallinnus, purkaminen, hajottaminen tai niiden johtamisyritykset.",
@@ -1790,37 +1715,27 @@
     "prohibited_item_4": "NoteOCR:n palvelimien, verkkojen tai turvajärjestelmien häiritseminen, keskeyttäminen tai niihin luvattoman pääsyn yrittäminen.",
     "prohibited_item_5": "Automatisoitujen komentosarjojen, bottien tai indeksoijien käyttö Palveluiden käyttämiseen tavalla, joka ylittää kohtuullisen käytön, ilman nimenomaista kirjallista suostumustamme.",
     "prohibited_item_6": "Palveluiden tai tulosteiden jälleenmyynti, alilisensointi tai kaupallinen uudelleenjakelu ilman erillisen jälleenmyyntisopimuksen tekemistä NoteOCR Inc.:n kanssa.",
-
     "s8_t": "Tietosuoja ja turvallisuus",
     "s8_c": "NoteOCR ottaa tietoturvan vakavasti. Kaikki ladatut asiakirjat salataan siirron aikana käyttäen TLS 1.3:a ja levossa käyttäen AES-256-salausta. Tiedostosi käsitellään eristetyissä laskentaympäristöissä ja ne poistetaan automaattisesti käsittelypalvelimiltamme, kun muunnos on valmis. Tallennetut asiakirjat henkilökohtaisessa kirjastossasi säilytetään, kunnes poistat ne tai suljet tilisi. NoteOCR on GDPR-yhteensopiva eikä myy, jaa tai luovuta Käyttäjän sisältöäsi kolmansille osapuolille mihinkään muuhun tarkoitukseen kuin Palveluiden toimittamiseen. Emme käytä asiakirjojasi kouluttaaksemme tai hienosäätääksemme tekoäly- tai koneoppimismalleja. Tarkat tiedot siitä, miten keräämme, käsittelemme ja suojaamme henkilötietojasi, löydät tietosuojakäytännöstämme osoitteessa noteocr.com/privacy.",
-
     "s9_t": "Vastuuvapauslausekkeet ja takuut",
     "s9_c": "Palvelut tarjotaan 'sellaisenaan' ja 'saatavuuden mukaan' ilman minkäänlaisia, nimenomaisia tai oletettuja, takuita, mukaan lukien mutta ei rajoittuen oletettuihin takuisiin myyntikelpoisuudesta, sopivuudesta tiettyyn tarkoitukseen ja loukkaamattomuudesta. NoteOCR ei takaa, että: (a) Palvelut ovat keskeytymättömiä, virheettömiä tai vapaita viruksista tai haitallisista komponenteista; (b) OCR-tulosteen tarkkuus täyttää mitään tiettyä kynnysarvoa millekään tietylle asiakirjalle; tai (c) Palveluissa olevat viat korjataan. OCR-tarkkuus voi vaihdella käsialan laadun, kuvan resoluution ja asiakirjan monimutkaisuuden perusteella. Otat täyden vastuun muunnettujen asiakirjojen tarkkuuden varmistamisesta ennen niiden käyttöä ammatillisiin, oikeudellisiin, lääketieteellisiin tai taloudellisiin tarkoituksiin.",
-
     "s10_t": "Vastuunrajoitus",
     "s10_c": "Sovellettavan lain sallimissa rajoissa NoteOCR Inc., sen toimihenkilöt, johtajat, työntekijät ja edustajat eivät ole vastuussa mistään epäsuorista, satunnaisista, erityisistä, välillisistä tai rangaistusluonteisista vahingoista, mukaan lukien mutta ei rajoittuen tulonmenetykseen, tietojen menetykseen, liiketoiminnan keskeytymiseen tai mainehaittoihin, jotka johtuvat tai liittyvät Palveluiden käyttöönsi — tai kyvyttömyyteen käyttää niitä —, vaikka NoteOCR:lle olisi ilmoitettu tällaisten vahinkojen mahdollisuudesta. Missään tapauksessa NoteOCR:n kokonaisvastuu sinulle kaikista näiden ehtojen nojalla nousevista vaatimuksista ei ylitä kokonaissummaa, jonka olet maksanut NoteOCR:lle vaatimuksen perusteena olevaa tapahtumaa edeltävien kahdentoista (12) kuukauden aikana. Mikään näissä ehdoissa ei rajoita vastuuta, jota ei voida sulkea pois sovellettavan Sveitsin lain tai EU-oikeuden mukaan.",
-
     "s11_t": "Vahingonkorvaus",
     "s11_c": "Suostut korvaamaan, puolustamaan ja pitämään NoteOCR Inc.:n ja sen toimihenkilöt, johtajat, työntekijät, urakoitsijat ja kumppanit vahingoittumattomina kaikilta vaatimuksilta, vastuita, vahingoilta, tuomioilta, korvauksilta, tappioilta, kustannuksilta ja kuluilta (mukaan lukien kohtuulliset asianajopalkkiot), jotka johtuvat tai liittyvät: (a) näiden ehtojen rikkomiseesi; (b) Käyttäjän sisältöösi; (c) Palveluiden käyttöön tavalla, jota nämä ehdot eivät salli; tai (d) minkä tahansa kolmannen osapuolen immateriaalioikeuksien, yksityisyyden tai muiden oikeuksien loukkaamiseen.",
-
     "s12_t": "Irtisanominen",
     "s12_c": "Kumpikin osapuoli voi irtisanoa tämän sopimuksen milloin tahansa. Voit poistaa tilisi milloin tahansa tiliasetuksistasi, mikä poistaa pysyvästi tallennetut asiakirjasi. NoteOCR voi jäädyttää tai sulkea tilisi välittömästi ja ilman ennakkoilmoitusta, jos katsomme oman harkintamme mukaan, että olet rikkonut näitä ehtoja, osallistunut vilpilliseen toimintaan tai aiheuttanut riskin alustamme turvallisuudelle tai eheydelle. Irtisanomisen yhteydessä lisenssisi käyttää Palveluita päättyy välittömästi. Käyttämättömiä sivukrediittejä ei hyvitetä vapaaehtoisen tilin sulkemisen yhteydessä. Immateriaalioikeuksia, vahingonkorvausta, vastuunrajoitusta ja sovellettavaa lakia koskevat osiot jäävät voimaan irtisanomisen jälkeen.",
-
     "s13_t": "Muutokset näihin ehtoihin",
     "s13_c": "NoteOCR pidättää oikeuden päivittää tai muuttaa näitä ehtoja milloin tahansa oman harkintansa mukaan. Kun teemme olennaisia muutoksia, ilmoitamme siitä rekisteröityneille käyttäjille sähköpostitse ja päivitämme (Viimeksi päivitetty) -päivämäärän tämän sivun yläosaan. Voimme myös näyttää ilmoituksen alustan sisällä. Palveluiden jatkuva käyttösi mahdollisten tarkistettujen ehtojen voimaantulopäivän jälkeen muodostaa hyväksymisesi näille muutoksille. Jos et hyväksy päivitettyjä ehtoja, sinun on lopetettava Palveluiden käyttö ja voit sulkea tilisi.",
-
     "s14_t": "Sovellettava laki ja riidat",
     "s14_c": "Näitä ehtoja ja niistä tai Palveluista johtuvia tai niihin liittyviä riitoja säädellään yksinomaan Sveitsin lailla, ottamatta huomioon sen lainvalintaa koskevia sääntöjä. Kaikki riidat, joita ei voida ratkaista epävirallisesti, alistetaan Zugissa, Sveitsissä sijaitsevien tuomioistuinten yksinomaiseen toimivaltaan. Ennen muodollisten menettelyjen aloittamista molemmat osapuolet sitoutuvat yrittämään vilpittömässä mielessä ratkaista riidan 30 päivän kuluessa ottamalla yhteyttä osoitteeseen support@noteocr.com. Mikään tässä osiossa ei estä NoteOCR:ää hakemasta kieltotuomiota tai muuta kohtuullista oikeussuojaa missä tahansa toimivaltaisessa tuomioistuimessa immateriaalioikeuksiensa suojaamiseksi.",
-
     "s15_t": "Sekalaista",
     "s15_c": "Nämä ehdot yhdessä tietosuojakäytäntömme kanssa muodostavat koko sopimuksen sinun ja NoteOCR:n välillä ja korvaavat kaikki aikaisemmat sopimukset, vakuutukset ja yhteisymmärrykset. Jos jokin näiden ehtojen ehto todetaan täytäntöönpanokelvottomaksi, loput ehdot pysyvät täysimääräisesti voimassa. NoteOCR:n epäonnistumista valvoa jotakin näiden ehtojen oikeutta tai säännöstä ei katsota kyseisestä oikeudesta luopumiseksi. Et saa siirtää näiden ehtojen mukaisia oikeuksiasi tai velvollisuuksiasi ilman NoteOCR:n ennakkokirjallista suostumusta. NoteOCR voi siirtää oikeutensa vapaasti osana fuusiota, yritysostoa tai omaisuuden myyntiä. Nämä ehdot eivät luo kumppanuutta, yhteisyritystä tai työsuhdetta sinun ja NoteOCR:n välille.",
-
     "contact_t": "Onko sinulla kysyttävää näistä ehdoista?",
     "contact_d": "Laki- ja tukitiimimme on käytettävissä selventämään kaikkia näiden käyttöehtojen tai alustamme käytäntöjen näkökohtia. Vastaamme yleensä yhden työpäivän kuluessa.",
     "contact_email_label": "Lähetä sähköpostia lakitiimillemme",
     "contact_response": "Tyypillinen vastausaika: 1 työpäivä"
   },
-
   "PrivacyPage": {
     "meta_title": "Tietosuojakäytäntö – NoteOCR | Kuinka käsittelemme tietojasi",
     "meta_desc": "Lue, kuinka NoteOCR kerää, käyttää, tallentaa ja suojaa henkilötietojasi. Olemme täysin GDPR-yhteensopivia emmekä koskaan käytä asiakirjojasi tekoälymallien kouluttamiseen.",
@@ -1829,46 +1744,32 @@
     "last_updated": "Viimeksi päivitetty",
     "date": "Tammikuu 2026",
     "welcome_text": "NoteOCR Inc. ('NoteOCR', 'me', 'meitä', 'meidän') on sitoutunut suojaamaan henkilötietojasi. Tämä tietosuojakäytäntö selittää, kuinka keräämme, käytämme, luovutamme ja suojaamme tietoja, kun vierailet verkkosivustollamme noteocr.com tai käytät alustaamme, API:amme ja niihin liittyviä palveluita (yhdessä 'Palvelut'). Tämä käytäntö on yleisen tietosuoja-asetuksen (GDPR), Sveitsin liittovaltion tietosuojalain (nFADP) ja muiden sovellettavien tietosuojalakien mukainen. Käyttämällä NoteOCR:ää hyväksyt tässä tietosuojakäytännössä kuvatut käytännöt.",
-
     "s1_t": "Keitä olemme ja rekisterinpitäjä",
     "s1_c": "NoteOCR Inc. on rekisterinpitäjä, joka on vastuussa henkilötiedoistasi. Olemme Sveitsin lakien alaisuudessa toimiva teknologiayritys, jonka pääkonttori sijaitsee Zugissa, Sveitsissä. Palveluihimme kuuluu tekoälypohjainen käsialan OCR-alusta, pilvipohjainen asiakirjaeditori ja kehittäjä-API. Jos sinulla on kysyttävää siitä, miten käsittelemme henkilötietojasi, voit ottaa yhteyttä tietosuoja-yhteyshenkilöömme osoitteessa support@noteocr.com. Olemme sitoutuneet käsittelemään tietojasi avoimesti, laillisesti ja niiden ansaitsemalla huolellisuudella.",
-
     "s2_t": "Mitä tietoja keräämme",
     "s2_c": "Keräämme vähimmäismäärän tietoja, joita tarvitaan Palveluidemme tarjoamiseen ja parantamiseen. Keräämiämme tietokategorioita ovat: (a) Tilitiedot, nimesi, sähköpostiosoitteesi ja tiivistetty salasanasi, kun rekisteröidyt, tai perustason profiilitiedot, jotka OAuth-palveluntarjoajat kuten Google antavat; (b) Käyttötiedot, käsitellyt sivut, krediittisaldo, muunnoshistoria, istunnon toiminta ja ominaisuuksien vuorovaikutukset tilisi tukemiseksi ja tarkkuuden parantamiseksi; (c) Laite- ja tekniset tiedot, IP-osoite, selaimen tyyppi ja versio, käyttöjärjestelmä, viittaava URL-osoite ja yleinen maantieteellinen alue (maa- tai kaupunkitaso), jotka kerätään automaattisesti palvelinlokien ja evästeiden kautta; (d) Maksutiedot, laskutustiedot ja tapahtumatiedot, jotka käsittelee yksinomaan kolmannen osapuolen maksujenkäsittelijämme (Stripe). NoteOCR ei koskaan tallenna kokonaisia kortin numeroita tai CVV-koodeja; (e) Viestintä, viestit, jotka lähetät meille sähköpostitse tai tukilomakkeiden kautta, säilytetään kyselyidesi ratkaisemiseksi; (f) Ladattu sisältö, asiakirjat, kuvat ja tiedostot, jotka lataat OCR-käsittelyä varten, ja joihin sovelletaan osiossa 4 kuvattuja tiukkoja käsittelysääntöjä.",
-
     "s3_t": "Kuinka käytämme tietojasi",
     "s3_c": "Käytämme henkilötietojasi vain niihin tarkoituksiin, joita varten ne on kerätty, seuraavilla oikeusperustoilla: (a) Sopimuksen täytäntöönpano, tilisi luomiseen ja hallintaan, sivukrediittiesi käsittelyyn, asiakirjojen muunnosten suorittamiseen ja ostamiesi Palveluiden toimittamiseen; (b) Oikeutetut edut, petosten estämiseen, alustan turvallisuuden ylläpitämiseen, teknisten ongelmien ratkaisemiseen ja aggregoitujen analyysien luomiseen, jotka auttavat meitä parantamaan tuotetta; (c) Lakisääteinen velvoite, sovellettavien vero-, kirjanpito- ja sääntelyvaatimusten noudattamiseen Sveitsissä ja EU:ssa; (d) Suostumus, valinnaisten tuotepäivitysten ja ominaisuusjulkistusten lähettämiseen sähköpostitse, minkä voit peruuttaa milloin tahansa. Emme koskaan myy henkilötietojasi tai käytä niitä mainontatarkoituksiin. Emme jaa tietojasi datavälittäjien, mainosverkostojen tai muiden kolmansien osapuolien kanssa kaupallista profilointia varten.",
-
     "s4_t": "Ladatut asiakirjasi",
     "s4_c": "Lataamiasi asiakirjoja käsitellään korkeimmalla luottamuksellisuudella ja niihin sovelletaan tiukkoja teknisiä kontrolleja. Kaikki ladatut tiedostot salataan siirron aikana käyttämällä TLS 1.3:a ja levossa käyttämällä AES-256:ta. Tiedostot käsitellään eristetyissä laskentaympäristöissä, eikä mitään asiakirjaa sekoiteta toisen käyttäjän tietoihin käsittelyn aikana. Kun muunnostyö on valmis, lähdetiedosto poistetaan automaattisesti käsittelypalvelimiltamme. Jos tallennat muunnettuja asiakirjoja NoteOCR-kirjastoosi, ne säilytetään, kunnes poistat ne manuaalisesti tai suljet tilisi. Emme avaa, lue, kommentoi tai analysoi asiakirjojesi sisältöä mihinkään muuhun tarkoitukseen kuin pyytämäsi muunnoksen suorittamiseen. Kriittisesti on huomioitava, että NoteOCR ei KOSKAAN käytä lataamiesi asiakirjojen sisältöä kouluttaakseen, hienosäätääkseen, arvioidakseen tai parantaakseen mitään tekoäly- tai koneoppimismallia.",
-
     "s5_t": "Evästeet ja seuranta",
     "s5_c": "Käytämme minimaalista määrää evästeitä ja vastaavia teknologioita Palveluidemme käyttämiseen ja parantamiseen. Välttämättömät evästeet ovat välttämättömiä istuntosi todentamiseksi ja sisäänkirjautumisesi pitämiseksi, näitä ei voi poistaa käytöstä. Toiminnalliset evästeet muistavat asetuksesi, kuten kielen ja teeman. Analytiikkaevästeet (valinnaiset) auttavat meitä ymmärtämään, miten sivuja käytetään aggregaattitasolla, jotta voimme parantaa tuotetta. Käytämme yksityisyyttä kunnioittavaa analytiikkaa emmekä käytä kolmansien osapuolien mainosevästeitä tai minkäänlaisia sivustojen välisiä seurantapikseleitä. Voit hallita evästeasetuksiasi milloin tahansa selaimesi asetusten tai alustamme sisäisen evästebannerin kautta. Valinnaisten evästeiden poistaminen käytöstä ei vaikuta kykyysi käyttää ydinpalveluita.",
-
     "s6_t": "Tietojen jakaminen ja kolmannet osapuolet",
     "s6_c": "Jaamme henkilötietoja rajoitetun joukon luotettavia palveluntarjoajia kanssa, jotka auttavat meitä alustamme käytössä, ja vain tarpeellisessa laajuudessa. Näitä ovat: (a) Stripe, maksujen käsittely, PCI-DSS-yhteensopivuuden alaisena; (b) Google OAuth, valinnainen sisäänkirjautumisen todennus; (c) Pilvi-infrastruktuurin tarjoajat, salattu palvelintallennus ja laskenta, saatavilla US-East (N. Virginia), EU (Frankfurt) ja APAC (Singapore) -alueilla; (d) Sähköpostin toimitus, tapahtuma- ja ilmoitussähköpostipalvelut. Kaikki kolmannen osapuolen käsittelijät ovat sidottuja tietojenkäsittelysopimuksiin (DPA), jotka kieltävät heitä käyttämästä tietojasi muuhun tarkoitukseen kuin palveluun, jonka he meille tarjoavat. Emme siirrä henkilötietoja kolmansille osapuolille markkinointia, profilointia tai muuta kaupallista tarkoitusta varten Palveluiden käytön ulkopuolella.",
-
     "s7_t": "Kansainväliset tiedonsiirrot",
     "s7_c": "NoteOCR:n pääkonttori sijaitsee Sveitsissä, jonka Euroopan komissio on tunnustanut tarjoavan riittävän tietosuojan tason. Jos siirrämme henkilötietoja ETA-alueen tai Sveitsin ulkopuolella toimiville palveluntarjoajille (esimerkiksi pilvi-infrastruktuuriin Yhdysvalloissa tai APAC-alueella), luotamme Euroopan komission mallisopimuslausekkeisiin (SCC) tai vastaaviin siirtomekanismeihin varmistaaksemme, että tietosi saavat saman tason suojan kuin ETA-alueella. Voit valita haluamasi tietojenkäsittelyalueen (EU, Yhdysvallat tai APAC) tilisi asetuksista. Oletusarvoisesti uudet tilit määritetään EU:n (Frankfurt) alueelle.",
-
     "s8_t": "Tietojen säilyttäminen",
     "s8_c": "Säilytämme henkilötietojasi vain niin kauan kuin on tarpeen tässä käytännössä kuvattujen tarkoitusten täyttämiseksi. Tilitiedot säilytetään tilisi keston ajan ja enintään 90 päivää tilin sulkemisen jälkeen palauttamisen tai riitojen ratkaisemisen mahdollistamiseksi, minkä jälkeen ne poistetaan pysyvästi. Käsitellyt lähdetiedostot poistetaan automaattisesti muunnoksen valmistuttua. NoteOCR-kirjastoosi tallennetut asiakirjat säilytetään, kunnes poistat ne tai suljet tilisi. Maksu- ja tapahtumatiedot säilytetään 7 vuotta Sveitsin ja EU:n verosäännösten mukaisesti. Tukiviestintä säilytetään enintään 3 vuotta. Anonymisoidut ja aggregoidut analyysitiedot voidaan säilyttää määräämättömän ajan, koska niistä ei voida tunnistaa ketään henkilöä.",
-
     "s9_t": "Yksityisyydensuojaoikeutesi",
     "s9_c": "Sijainnistasi riippuen sinulla voi olla seuraavat oikeudet henkilötietoihisi liittyen: Oikeus pääsyyn tietoihin, pyydä kopio kaikista henkilötiedoista, joita meillä on sinusta; Oikeus tietojen oikaisemiseen, pyydä epätarkkojen tai puutteellisten tietojen korjaamista; Oikeus tietojen poistamiseen (oikeus tulla unohdetuksi), pyydä henkilötietojesi poistamista, kun niiden säilyttämiselle ei ole pätevää laillista perustetta; Oikeus käsittelyn rajoittamiseen, pyydä meitä rajoittamaan sitä, miten käsittelemme tietojasi riidanratkaisun aikana; Oikeus siirtää tiedot järjestelmästä toiseen, vastaanota tietosi jäsennellyssä, koneellisesti luettavassa muodossa; Vastustamisoikeus, vastusta oikeutettuihin etuihin perustuvaa käsittelyä, mukaan lukien profilointi; Oikeus peruuttaa suostumus, peruuta suostumus sähköpostiviestintään milloin tahansa vaikuttamatta aiempaan käsittelyyn. Voidaksesi käyttää mitä tahansa näistä oikeuksista, lähetä sähköpostia osoitteeseen support@noteocr.com otsikolla 'Privacy Request'. Vastaamme 30 päivän kuluessa. Sinulla on myös oikeus tehdä valitus paikalliselle tietosuojaviranomaisellesi (esim. Tietosuojavaltuutetun toimisto Suomessa).",
-
     "s10_t": "Turvatoimet",
     "s10_c": "Toteutamme teknisiä ja organisatorisia turvatoimia, jotka on suunniteltu suojaamaan henkilötietojasi luvattomalta pääsyltä, muuttamiselta, paljastamiselta tai tuhoamiselta. Näihin toimenpiteisiin kuuluvat: AES-256-salaus levossa kaikille tallennetuille tiedostoille ja tilitiedoille; TLS 1.3 -salaus kaikelle tiedolle siirron aikana; eristetyt laskentaympäristöt jokaiselle asiakirjan käsittelytehtävälle; roolipohjaiset pääsynhallinnat, jotka rajoittavat sisäisen pääsyn henkilötietoihin tiukalla tarve tietää -periaatteella; säännölliset turvallisuusauditoinnit ja tunkeutumistestaukset; sekä lähdetiedostojen automaattinen poistaminen käsittelyn päätyttyä. Näistä toimenpiteistä huolimatta mikään tiedonsiirtomenetelmä internetin ylitse tai elektroninen tallennus ei ole 100-prosenttisen turvallinen. Jos saamme tietoomme henkilötietojen tietoturvaloukkauksen, joka aiheuttaa riskin oikeuksillesi ja vapauksillesi, ilmoitamme asiasta sinulle ja asianomaiselle valvontaviranomaiselle 72 tunnin kuluessa GDPR:n edellyttämällä tavalla.",
-
     "s11_t": "Lasten yksityisyys",
     "s11_c": "NoteOCR ei ole suunnattu alle 13-vuotiaille lapsille, emmekä tietoisesti kerää henkilötietoja alle 13-vuotiailta lapsilta. 13-18-vuotiailla käyttäjillä on oltava vanhempien tai huoltajan suostumus ennen Palveluidemme käyttöä, kuten käyttöehdoissamme todetaan. Jos olet vanhempi tai huoltaja ja uskot, että lapsesi on antanut henkilötietoja NoteOCR:lle ilman suostumustasi, ota meihin yhteyttä osoitteeseen support@noteocr.com. Tutkimme asian välittömästi ja poistamme tällaiset tiedot. Emme tietoisesti tarjoa henkilökohtaista sisältöä tai mainontaa alaikäisille.",
-
     "s12_t": "Muutokset tähän käytäntöön",
     "s12_c": "Voimme päivittää tätä tietosuojakäytäntöä aika ajoin heijastaaksemme muutoksia käytännöissämme, teknologiassa, lainsäädännön vaatimuksissa tai muista toiminnallisista syistä. Kun teemme olennaisia muutoksia, ilmoitamme rekisteröityneille käyttäjille sähköpostitse ja päivitämme 'Viimeksi päivitetty' -päivämäärän tämän sivun yläosaan. Voimme myös näyttää bannerin alustan sisällä kiinnittääksemme huomiota merkittäviin muutoksiin. Palveluiden jatkuva käyttösi mahdollisten tarkistettujen tietosuojakäytäntöjen voimaantulopäivän jälkeen muodostaa hyväksymisesi näille muutoksille. Kannustamme sinua tarkistamaan tämän käytännön säännöllisesti. Aiemmat versiot tästä käytännöstä ovat saatavilla pyynnöstä.",
-
     "s13_t": "Yhteystiedot ja tietosuojavastaava (DPO)",
     "s13_c": "Jos sinulla on kysymyksiä, huolenaiheita tai pyyntöjä koskien tätä tietosuojakäytäntöä tai tapaa, jolla käsittelemme henkilötietojasi, ota meihin yhteyttä. Olemme sitoutuneet ratkaisemaan kaikki tietosuojaan liittyvät tiedustelut nopeasti ja vilpittömässä mielessä. Sinulla on myös oikeus viedä ratkaisemattomat huolenaiheet valvontaviranomaiselle. Suomessa tämä on Tietosuojavaltuutetun toimisto.",
-
     "rights_title": "Oikeutesi yhdellä silmäyksellä",
     "right_access": "Pääsy tietoihisi",
     "right_rectify": "Korjaa epätarkkuudet",
@@ -1877,7 +1778,6 @@
     "right_portability": "Vie tietosi",
     "right_object": "Vastusta profilointia",
     "right_consent": "Peruuta suostumus",
-
     "data_table_title": "Keräämämme tiedot",
     "data_col_type": "Tietotyyppi",
     "data_col_purpose": "Tarkoitus",
@@ -1903,7 +1803,6 @@
     "data_row5_purpose": "Tuen ratkaisu",
     "data_row5_basis": "Oikeutettu etu",
     "data_row5_retention": "3 vuotta",
-
     "security_title": "Turvallisuussitoumukset",
     "security_badge1": "AES-256 levossa",
     "security_badge2": "TLS 1.3 siirrossa",
@@ -1913,9 +1812,7 @@
     "security_badge6": "Säännöllinen tunkeutumistestaus",
     "security_badge7": "Ei mallien koulutusta tiedoilla",
     "security_badge8": "GDPR-yhteensopiva",
-
     "welcome_text_short": "Lue tämä käytäntö huolellisesti. Se kuvaa selkeällä kielellä, kuinka NoteOCR käsittelee henkilötietojasi.",
-
     "contact_t": "Tietosuojakysymyksiä tai tietopyyntöjä?",
     "contact_d": "Tiimimme käsittelee kaikki tietosuojatiedustelut henkilökohtaisesti. Halusitpa sitten päästä käsiksi, korjata tai poistaa tietojasi tai sinulla on vain kysymys — vastaamme 30 päivän kuluessa GDPR:n edellyttämällä tavalla.",
     "contact_email_label": "Lähetä sähköpostia tietosuojatiimillemme",
@@ -1926,7 +1823,6 @@
       "title": "Dokumentaatio | NoteOCR - Käsialan OCR ja asiakirjaälykkyys",
       "description": "Lue, kuinka muunnat käsialan tekstiksi, purat taulukoita Exceliin ja automatisoit asiakirjojen työnkulut NoteOCR:n kattavien oppaiden avulla."
     },
-
     "sidebar": {
       "external_links": "Ulkoiset linkit",
       "api_reference": "API-viite",
@@ -2082,144 +1978,109 @@
   "pic-to-excel": {
     "meta_title": "Muunna kuva Exceliksi verkossa | Kuva Exceliksi AI-muunnin",
     "meta_desc": "Tee mistä tahansa kuvasta laskentataulukko. Muunna JPG, PNG tai kuvakaappaukset muokattavaksi Exceliksi (.xlsx) välittömästi. Paras tekoäly datataulukoille, laskuille ja käsialalle.",
-
     "hero_pill": "AI Kuva-taulukoksi -teknologia",
     "hero_title": "Muunna kuva Exceliksi AI-taulukontunnistuksella",
     "hero_subtitle": "Muuta valokuvat, kuvakaappaukset ja käsinkirjoitetut muistiinpanot muokattaviksi Excel-laskentataulukoiksi. Ei manuaalista syöttöä. Tuki JPG:lle ja PNG:lle.",
-
     "trust_ssl": "SSL-SALATTU",
     "trust_processing": "VÄLITÖN MUUNNOS",
     "trust_accuracy": "99 % TAULUKON TARKKUUS",
-
     "before_after_title": "Kuvasta laskentataulukoksi",
     "before_after_desc": "Katso, kuinka tekoälymme poimii tiedot staattisista kuvista muokattaviin soluihin",
     "before_label": "Ennen: Kuva / Kuvakaappaus",
     "before_placeholder": "[Lataa mikä tahansa kuva, jossa on taulukko]",
     "after_label": "Jälkeen: Muokattava Excel",
     "after_placeholder": "[Muotoiltu .xlsx esikatselu]",
-
     "use_cases_title": "Kuka tarvitsee kuva-Excel-muunninta?",
     "use_cases_subtitle": "Tiedonsyöttäjistä yritysten omistajiin, automatisoimme tylsän työn",
-
     "use_case_1_title": "Digitoi laskut ja kuitit",
     "use_case_1_desc": "Ota kuva paperilaskuista. Tekoälymme poimii rivitiedot, määrät ja hinnat suoraan sarakkeisiin kirjanpito-ohjelmistoasi varten.",
-
     "use_case_2_title": "Kuvakaappaus Exceliksi",
     "use_case_2_desc": "Onko sinulla PDF tai verkkosivuston taulukko, jota et voi kopioida ja liittää? Ota kuvakaappaus ja lataa se. Rakennamme ruudukon uudelleen välittömästi.",
-
     "use_case_3_title": "Käsinkirjoitetut lokit",
     "use_case_3_desc": "Ainoa työkalu, joka käsittelee sottaista käsialaa. Muunna varaston varastolokit ja kenttäpäiväkirjat digitaalisiksi laskentataulukoiksi.",
-
     "use_case_4_title": "Tilinpäätökset",
     "use_case_4_desc": "Muunna valokuvat tiliotteista tai tulostetuista pääkirjoista. Säilytämme desimaalipisteet ja valuuttamuotoilut 100 % tiedon eheyden takaamiseksi.",
-
     "comparison_title": "Kuva Exceliksi: Miksi NoteOCR voittaa",
     "comparison_subtitle": "Älä taistele yleisten PDF-muuntimien kanssa",
     "comparison_col_method": "Menetelmä",
     "comparison_col_time": "Aika",
     "comparison_col_accuracy": "Taulukon rakenne",
     "comparison_col_cost": "Vaiva",
-
     "comparison_row1_method": "Manuaalinen tiedonsyöttö",
     "comparison_row1_time": "1 tunti/sivu",
     "comparison_row1_accuracy": "Korkea kirjoitusvirheriski",
     "comparison_row1_cost": "Korkea (Tylsä)",
-
     "comparison_row2_method": "Yleiset PDF-työkalut",
     "comparison_row2_time": "5 minuuttia",
     "comparison_row2_accuracy": "Hajoaa kuvien kanssa",
     "comparison_row2_cost": "Turhauttava",
-
     "comparison_row3_method": "NoteOCR AI",
     "comparison_row3_time": "60 sekuntia",
     "comparison_row3_accuracy": "Täydellinen ruudukon säilytys",
     "comparison_row3_cost": "Automatisoitu",
-
     "features_title": "Paras tapa muuntaa kuvat taulukoiksi",
     "features_subtitle": "Suunniteltu JPG-, PNG- ja mobiilikuville",
-
     "feature_1_title": "Formaatista riippumaton",
     "feature_1_desc": "Eikö sinulla ole PDF:ää? Ei hätää. Olemme erikoistuneet raakakuvamuotoihin (JPG, JPEG, PNG), jotka muut muuntimet hylkäävät.",
-
     "feature_2_title": "Älykäs ruudukon uudelleenrakentaminen",
     "feature_2_desc": "Tekoälymme ei vain lue tekstiä; se 'näkee' ruudukon. Se kohdistaa leijuvan datan riveihin ja sarakkeisiin, vaikka kuva olisi otettu vinosti.",
-
     "feature_3_title": "Mobiili edellä -käsittely",
     "feature_3_desc": "Rakennettu 'Kuvaa ja jatka' -työnkulkuun. Ota kuva asiakirjasta pöydälläsi ja saat Excel-tiedoston laitteellesi sekunneissa.",
-
     "tech_title": "Kuinka Kuva Exceliksi -tekoäly toimii",
     "tech_intro": "'Litteän' kuvan muuntaminen dynaamiseksi laskentataulukoksi on monimutkaista. NoteOCR käyttää konenäköä havaitsemaan taulukon visuaaliset (tai oletetut) viivat. Se jakaa kuvan ruudukkokoordinaatistoon, suorittaa OCR:n jokaiselle 'solulle' erikseen ja kokoaa sitten tiedot uudelleen yhteensopivaksi .xlsx-tiedostoksi.",
-
     "tech_detect_title": "Mitä me poimimme",
     "tech_detect_1": "Taulukkorakenteet kuvakaappauksista",
     "tech_detect_2": "Tiedot vinoista/kulmikkaista kuvista",
     "tech_detect_3": "Käsinkirjoitetut ja painetut numerot",
     "tech_detect_4": "Monisarakkeiset asettelut",
     "tech_detect_5": "Ylä- ja alatunnisteet",
-
     "tech_tips_title": "Vinkkejä täydellisiin muunnoksiin",
     "tech_tips_1": "Varmista, että kuva on tarkennettu (ei epäselvä)",
     "tech_tips_2": "Vältä varjoja datataulukon päällä",
     "tech_tips_3": "Rajaa kuva olennaiseen taulukkoalueeseen",
     "tech_tips_4": "Käytä korkearesoluutioisia (HD) asetuksia",
     "tech_tips_5": "Tarkista vakiomuodot kuten JPG tai PNG",
-
     "related_tools_title": "Lisää muunnostyökaluja",
-
     "related_tool_1_name": "Kuva Wordiksi",
     "related_tool_1_desc": "Muunna käsinkirjoitettu teksti muotoilluiksi asiakirjoiksi",
-
     "related_tool_2_name": "Muokkaa PDF:ää verkossa (ei asennusta)",
     "related_tool_2_desc": "Lataa ja muokkaa PDF-asiakirjoja verkossa mistä tahansa",
-
     "related_tool_3_name": "Online-asiakirjaeditori",
     "related_tool_3_desc": "Muokkaa MS Word- tai Excel-asiakirjoja verkossa ilmaiseksi",
-
     "related_tool_4_name": "Kuva tekstiksi",
     "related_tool_4_desc": "Muunna kuvassa oleva kaunokirjoitus muotoilluksi muokattavaksi tekstiksi",
-
     "faq_title": "FAQ: Kuvien muuntaminen Exceliksi",
-
     "cta_title": "Muuta tuo kuva laskentataulukoksi",
     "cta_subtitle": "Lopeta kirjoittaminen. Aloita skannaus. Liity yli 10 000 käyttäjän joukkoon, jotka säästävät tunteja tiedonsyötössä.",
     "cta_button": "Muunna kuva nyt",
-
     "tool_upload_title": "Lataa muunnettava kuva",
     "tool_upload_desc": "Tukee JPG-, PNG-, WEBP-muotoja. Toimii kuvakaappauksissa, valokuvissa ja skannatuissa asiakirjoissa.",
     "tool_upload_button": "Valitse kuva",
     "tool_upload_check_1": "JPG / PNG tuki",
     "tool_upload_check_2": "Ei vaadi rekisteröitymistä",
     "tool_upload_check_3": "Turvallinen käsittely",
-
     "tool_processing_title": "Analysoidaan kuvaa...",
     "tool_processing_desc": "Tunnistetaan taulukon rakennetta ja poimitaan tietoja",
-
     "tool_complete_title": "Excel-tiedosto valmis!",
     "tool_complete_desc": "Kuvasi on muunnettu. Lataa laskentataulukkosi alta.",
     "tool_complete_file_type": "Microsoft Excel (.xlsx)",
     "tool_complete_status": "ONNISTUI",
     "tool_download_button": "Lataa Excel",
     "tool_new_button": "Muunna toinen",
-
     "tool_info_1_title": "Mikä tahansa kuva",
     "tool_info_1_desc": "JPG, PNG, kuvakaappaukset tuettu",
-
     "tool_info_2_title": "Taulukko-tekoäly",
     "tool_info_2_desc": "Säilyttää rivit ja sarakkeet automaattisesti",
-
     "tool_info_3_title": "Muokattava",
     "tool_info_3_desc": "Täysi Excel (.xlsx) -tuloste",
-
     "tool_tip_label": "Skannausvinkki:",
     "tool_tip_text": "Jos muunnat pitkää asiakirjaa, ota useita valokuvia lähempää paperia mieluummin kuin yksi kaukaa otettu kuva. Parempi selkeys tarkoittaa parempaa tarkkuutta.",
-
     "toast_success": "Kuva muunnettu onnistuneesti!",
     "toast_error_type": "Lataa kelvollinen kuvatiedosto (JPG, PNG)",
     "toast_error_size": "Tiedostokoon on oltava alle 25 MB",
     "toast_error_extraction": "Taulukkoa ei havaittu.",
     "toast_download_success": "Laskentataulukko tallennettu laitteelle!",
     "toast_download_error": "Lataus epäonnistui.",
-
     "FAQ": {
       "items": {
         "pic_to_excel_how": {
@@ -2288,146 +2149,110 @@
   "JpgToWord": {
     "meta_title": "Muunna JPG Word-asiakirjaksi | Pura tekstiä JPEG:stä DOCX:iin",
     "meta_desc": "Muunna JPG- ja JPEG-kuvat välittömästi muokattaviksi Word-asiakirjoiksi. Edistynyt OCR poimii tekstin valokuvista, kuvakaappauksista ja skannauksista säilyttäen samalla muotoilun.",
-
     "hero_pill": "Nopea Kuva-tekstiksi OCR",
     "hero_title": "Muunna JPG Word-asiakirjoiksi välittömästi",
     "hero_subtitle": "Lopeta tekstin uudelleenkirjoittaminen kuvista. Lataa mikä tahansa JPG, JPEG tai valokuva, ja edistynyt tekoälymme poimii tekstin tarkasti täysin muokattavaksi Microsoft Word (.docx) -tiedostoksi.",
-
     "trust_ssl": "256-BITTINEN TURVALLINEN LATAUS",
     "trust_processing": "NOPEA JPEG-KÄSITTELY",
     "trust_accuracy": "KORKEATARKKUUKSINEN OCR",
-
     "before_after_title": "Litteästä kuvasta muokattavaan tekstiin",
     "before_after_desc": "Katso kuinka poimimme lukitun tekstin täydellisesti JPG-kuvasta muokattavaan muotoon.",
     "before_label": "Ennen: Alkuperäinen JPG-kuva",
     "before_placeholder": "",
     "after_label": "Jälkeen: Muokattava Word-asiakirja",
     "after_placeholder": "",
-
     "use_cases_title": "Miksi muuntaa JPG Wordiksi?",
     "use_cases_subtitle": "Helpoin tapa tehdä kuviin vangitusta tekstistä täysin muokattavaa.",
-
     "use_case_1_title": "Skannatut asiakirjat",
     "use_case_1_desc": "Muuta skannatut JPEG-kuvat sopimuksista, laskuista ja virallisista kirjeistä muokattavaksi tekstiksi säilyttäen samalla kappaleet ja asettelun.",
-
     "use_case_2_title": "Kuvakaappaukset ja verkkoleikkeet",
     "use_case_2_desc": "Muunna JPG-kuvakaappaukset verkkosivustoista, rajoitetuista PDF-tiedostoista tai sovelluksista tekstiksi, jonka voit heti kopioida, muokata ja muotoilla Wordissa.",
-
     "use_case_3_title": "Kuvat painetuista sivuista",
     "use_case_3_desc": "Otitko kuvan kirjasta, ohjekirjasta tai lehdestä? Pura teksti tarkasti ilman, että sinun tarvitsee kirjoittaa sanaakaan.",
-
     "use_case_4_title": "Kuvat, joissa on käsialaa",
     "use_case_4_desc": "Toisin kuin perusmuuntimet, moottorimme pystyy myös lukemaan ja muuntamaan JPG-kuvia, jotka sisältävät käsinkirjoitettuja muistiinpanoja tai valkotaulusessioita.",
-
     "comparison_title": "JPG Wordiksi: Miksi tiedostomuuntimet epäonnistuvat",
     "comparison_subtitle": "Useimmat työkalut liittävät kuvasi vain Word-tiedostoon. NoteOCR todella poimii tekstin.",
     "comparison_col_method": "Menetelmä",
     "comparison_col_time": "Aika",
     "comparison_col_accuracy": "Tekstin poiminta",
     "comparison_col_cost": "Kustannus",
-
     "comparison_row1_method": "Manuaalinen kirjoittaminen",
     "comparison_row1_time": "15-30 minuuttia",
     "comparison_row1_accuracy": "Korkea (mutta työläs)",
     "comparison_row1_cost": "Oma aikasi",
-
     "comparison_row2_method": "Standardit tiedostomuuntimet",
     "comparison_row2_time": "1 minuutti",
     "comparison_row2_accuracy": "0 % (Liittää vain kuvan)",
     "comparison_row2_cost": "Usein maksullinen",
-
     "comparison_row3_method": "NoteOCR (AI Poiminta)",
     "comparison_row3_time": "15 sekuntia",
     "comparison_row3_accuracy": "98%+ Muokattava teksti",
     "comparison_row3_cost": "Ilmainen testata",
-
     "features_title": "Edistynyt JPG Tekstin Poiminta",
     "features_subtitle": "Rakennettu erityisesti tarkan tekstin vetämiseen kuvatiedostoista.",
-
     "feature_1_title": "Hyväksyy JPG ja JPEG -muodot",
     "feature_1_desc": "Päättyipä tiedostosi sitten .jpg tai .jpeg, järjestelmämme käsittelee standardit verkko-kuvat, puhelimen valokuvat ja korkearesoluutioiset kameraotokset täydellisesti.",
-
     "feature_2_title": "Asettelun ja kappaleiden säilyttäminen",
     "feature_2_desc": "Emme vain dumppaa pelkkää tekstiä. Meidän OCR havaitsee rivinvaihdot, kappaleet ja luettelorakenteet, joten ladattu Word-asiakirjasi näyttää alkuperäiseltä kuvalta.",
-
     "feature_3_title": "Monikielinen tuki",
     "feature_3_desc": "Pura tekstiä JPEG-kuvista englanniksi, espanjaksi, ranskaksi, saksaksi, suomeksi ja kymmenillä muilla kielillä erikoistuneen merkkientunnistuksen avulla.",
-
     "tech_title": "Miten Kuva-Word -moottorimme toimii",
     "tech_intro": "JPG-tiedoston muuntaminen muokattavaksi Word-asiakirjaksi vaatii optista hahmontunnistusta (OCR). NoteOCR analysoi kuvasi pikselit, tunnistaa yksittäiset kirjaimet ja sanat, kartoittaa asiakirjan rakenteen ja luo natiivin Microsoft Word -tiedoston, jota voit muokata heti.",
-
     "tech_detect_title": "Mitä moottori käsittelee",
     "tech_detect_1": "Vakio painettu teksti ja typografia",
     "tech_detect_2": "Kaunokirjoitus ja käsinkirjoitettu teksti kuvan sisällä",
     "tech_detect_3": "Kappaleiden välistys ja rivinvaihdot",
     "tech_detect_4": "Kuvan kontrastin ja taustamelun poisto",
     "tech_detect_5": "Automaattinen suunnan korjaus",
-
     "tech_tips_title": "Vinkkejä parhaaseen muunnokseen",
     "tech_tips_1": "Varmista, ettei kuva ole epäselvä",
     "tech_tips_2": "Vältä voimakkaita varjoja tekstin päällä",
     "tech_tips_3": "Pidä teksti samansuuntaisena kameran kanssa",
     "tech_tips_4": "Korkearesoluutioiset JPEG-kuvat tuottavat parempia tuloksia",
     "tech_tips_5": "Rajaa tarpeettomat taustat pois, jos mahdollista",
-
     "related_tools_title": "Muita muunnostyökaluja",
-
     "related_tool_1_name": "Kuva Exceliksi",
     "related_tool_1_desc": "Pura datataulukoita kuvista laskentataulukoihin",
-
     "related_tool_2_name": "Valokuva Wordiksi",
     "related_tool_2_desc": "Muunna kameran valokuvat suoraan Wordiksi",
-
     "related_tool_3_name": "Käsiala tekstiksi",
     "related_tool_3_desc": "Erikoistunut kaunokirjoituksen ja muistiinpanojen transkriptio",
-
     "related_tool_4_name": "Online Editor",
     "related_tool_4_desc": "Muokkaa asiakirjojasi turvallisesti selaimessa",
-
     "faq_title": "Usein Kysytyt Kysymykset JPG:stä Wordiksi",
-
     "cta_title": "Oletko valmis poimimaan tekstin JPG-kuvastasi?",
     "cta_subtitle": "Lopeta kirjoittaminen ja aloita muokkaaminen sekunneissa.",
     "cta_button": "Lataa JPG nyt",
-
     "footer_text": "NoteOCR // Älykäs kuvankäsittely",
-
     "tool_upload_title": "Lataa JPG-kuvasi",
     "tool_upload_desc": "Tukee standardivalokuvia, kuvakaappauksia ja skannattuja kuvia. Poimimme tekstin ja annamme sinulle muotoillun Word-asiakirjan.",
     "tool_upload_button": "Valitse JPG / JPEG",
     "tool_upload_check_1": "JPG, JPEG, PNG",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Poistetaan automaattisesti 24h kuluttua",
-
     "tool_processing_title": "Poimitaan tekstiä kuvasta...",
     "tool_processing_desc": "Suoritetaan OCR ja muotoillaan Word-asiakirjasi",
-
     "tool_complete_title": "Poiminta valmis!",
     "tool_complete_desc": "Tekstisi on poimittu onnistuneesti. Lataa muokattava tiedostosi alta.",
     "tool_complete_file_type": "Word-asiakirja (.docx)",
     "tool_complete_status": "VALMIS",
     "tool_download_button": "Lataa Word",
     "tool_new_button": "Muunna toinen JPG",
-
     "tool_info_1_title": "Täysin muokattava",
     "tool_info_1_desc": "Teksti poimitaan, ei vain liitetä kuvana",
-
     "tool_info_2_title": "Asettelu säilyy",
     "tool_info_2_desc": "Kappaleet ja rivinvaihdot säilytetään",
-
     "tool_info_3_title": "Universaali DOCX",
     "tool_info_3_desc": "Avautuu MS Wordissa, Google Docsissa ja Pagesissa",
-
     "tool_tip_label": "Ammattilaisen vinkki:",
     "tool_tip_text": "Jos JPG-kuvasi on erittäin tumma tai siinä on alhainen kontrasti, yritä lisätä laitteesi kirkkautta hieman ennen lataamista parhaan mahdollisen OCR-tarkkuuden saavuttamiseksi.",
-
     "toast_success": "Kuva muunnettu onnistuneesti!",
     "toast_error_type": "Lataa kelvollinen kuvatiedosto (JPG, JPEG, PNG)",
     "toast_error_size": "Tiedostokoon on oltava alle 25 MB",
     "toast_error_conversion": "Muunnos epäonnistui. Yritä selkeämmällä kuvalla.",
     "toast_download_success": "Word-asiakirja ladattu!",
     "toast_download_error": "Lataus epäonnistui.",
-
     "FAQ": {
       "items": {
         "how_to_convert": {
@@ -2476,146 +2301,110 @@
   "ScanToWord": {
     "meta_title": "Skannerista Wordiin | Muunna skannatut asiakirjat muokattavaksi tekstiksi",
     "meta_desc": "Muunna skannatut asiakirjat tasoskannerista tai mobiilisovelluksesta suoraan muokattaviksi Microsoft Word -tiedostoiksi ammattilaistason OCR:n avulla.",
-
     "hero_pill": "Ammatillinen asiakirja OCR",
     "hero_title": "Muunna skannaukset Word-asiakirjoiksi",
     "hero_subtitle": "Digitoi paperityösi välittömästi. Lataa skannattuja kuvia sopimuksista, kirjoista tai fyysisistä asiakirjoista, ja tekoälymme rakentaa ne uudelleen täysin muokattaviksi Microsoft Word (.docx) -tiedostoiksi.",
-
     "trust_ssl": "YRITYSTASON TURVALLISUUS",
     "trust_processing": "KORKEAN VOLYYMIN KAPASITEETTI",
     "trust_accuracy": "99 % PAINOTUOTTEEN TARKKUUS",
-
     "before_after_title": "Fyysisestä paperista digitaaliseksi asiakirjaksi",
     "before_after_desc": "Katso kuinka muunnamme litteän digitaalisen skannauksen täysin työstettäväksi tekstiasiakirjaksi.",
     "before_label": "Ennen: Skannattu paperikuva",
     "before_placeholder": "",
     "after_label": "Jälkeen: Muokattava Word-asiakirja",
     "after_placeholder": "",
-
     "use_cases_title": "Kuka käyttää Scanner to Word -työkaluamme?",
     "use_cases_subtitle": "Rakennettu ammattilaisille, jotka käsittelevät raskasta paperityötä.",
-
     "use_case_1_title": "Lakiala ja kiinteistöt",
     "use_case_1_desc": "Skannaa allekirjoitetut fyysiset sopimukset, vuokrasopimukset ja kauppakirjat, ja muunna ne sitten Wordiksi muokataksesi lausekkeita tai päivittääksesi ehtoja helposti.",
-
     "use_case_2_title": "Toimistohallinto",
     "use_case_2_desc": "Lopeta painettujen muistioiden, toimittajien laskujen ja fyysisen postin manuaalinen uudelleenkirjoittaminen. Skannaa ja muunna ne muokattavaksi tekstiksi sekunneissa.",
-
     "use_case_3_title": "Kirjailijat ja julkaisijat",
     "use_case_3_desc": "Digitoi vanhat painosta poistuneet kirjat, painetut käsikirjoitukset tai lehtiartikkelit tasoskannerin avulla luodaksesi muokattavia digitaalisia arkistoja.",
-
     "use_case_4_title": "Akateeminen tutkimus",
     "use_case_4_desc": "Skannaa sivuja hakuteoksista tai kirjastoarkistoista ja muunna ne Word-asiakirjoiksi helppoa lainaamista, korostamista ja hakemista varten.",
-
     "comparison_title": "Skannausten digitointi: Paras lähestymistapa",
     "comparison_subtitle": "Miksi manuaalinen transkriptio on menneisyyttä skannatuille asiakirjoille.",
     "comparison_col_method": "Menetelmä",
     "comparison_col_time": "Aika",
     "comparison_col_accuracy": "Asettelun säilyttäminen",
     "comparison_col_cost": "Kustannus",
-
     "comparison_row1_method": "Manuaalinen tiedonsyöttö",
     "comparison_row1_time": "1 tunti per 5 sivua",
     "comparison_row1_accuracy": "Menettää alkuperäisen asettelun",
     "comparison_row1_cost": "Korkea työkustannus",
-
     "comparison_row2_method": "Ilmaiset online-muuntimet",
     "comparison_row2_time": "2 minuuttia",
     "comparison_row2_accuracy": "Huono (Sotkee marginaalit)",
     "comparison_row2_cost": "Ilmainen",
-
     "comparison_row3_method": "NoteOCR Skannausmoottori",
     "comparison_row3_time": "20 sekuntia",
     "comparison_row3_accuracy": "Säilyttää kappaleet ja luettelot",
     "comparison_row3_cost": "Ilmainen testata",
-
     "features_title": "Rakennettu skannatulle medialle",
     "features_subtitle": "Edistyneitä ominaisuuksia laiteskannereiden erikoisuuksien käsittelemiseen.",
-
     "feature_1_title": "Suoristus ja automaattinen kierto",
     "feature_1_desc": "Syötitkö paperin skanneriin hieman vinossa? Moottorimme suoristaa vinot skannaukset automaattisesti ennen tekstin poimimista.",
-
     "feature_2_title": "Täplien ja kohinan poisto",
     "feature_2_desc": "Vanhat skannerit jättävät usein mustia pisteitä tai viivoja kuvaan. Tekoälymme puhdistaa skannatun taustan varmistaakseen täydellisen tekstintunnistuksen.",
-
     "feature_3_title": "Säilyttää asiakirjan rakenteen",
     "feature_3_desc": "Säilyttää fyysisen asiakirjan otsikot, luettelomerkit ja kappaleiden sisennykset, kun teksti siirretään Microsoft Wordiin.",
-
     "tech_title": "Kuinka käsittelemme skannattuja asiakirjoja",
     "tech_intro": "Kun lataat skannatun kuvan, NoteOCR käyttää erikoistunutta Document Layout Analysis (DLA) -tekniikkaa. Toisin kuin perustyökalut, jotka lukevat sokeasti vasemmalta oikealle, moottorimme ymmärtää fyysisen sivun rakenteellisen hierarkian.",
-
     "tech_detect_title": "Mitä meidän OCR-moottori tunnistaa",
     "tech_detect_1": "Standardi painettu typografia ja fontit",
     "tech_detect_2": "Monisarakkeiset asettelut ja sivupalkit",
     "tech_detect_3": "Kursivointi, lihavoitu teksti ja alleviivausmuotoilu",
     "tech_detect_4": "Käsinkirjoitetut allekirjoitukset painetuilla lomakkeilla",
     "tech_detect_5": "Numeroidut luettelot ja luettelomerkit",
-
     "tech_tips_title": "Vinkkejä skannauslaitteistoille",
     "tech_tips_1": "Aseta skannerisi vähintään 300 DPI:hin",
     "tech_tips_2": "Tallenna skannaukset korkealaatuisina PNG- tai JPG-tiedostoina",
     "tech_tips_3": "Pyyhi skannerin lasi tahrojen välttämiseksi",
     "tech_tips_4": "Paina paksut kirjat litteiksi lasia vasten",
     "tech_tips_5": "Käytä 'Mustavalkoinen'-tilaa terävimmän tekstin saamiseksi",
-
     "related_tools_title": "Tutustu muihin asiakirjatyökaluihin",
-
     "related_tool_1_name": "Kuva Exceliksi",
     "related_tool_1_desc": "Pura datataulukoita kuvista laskentataulukoihin",
-
     "related_tool_2_name": "Valokuva Wordiksi",
     "related_tool_2_desc": "Muunna kameran valokuvat suoraan Wordiksi",
-
     "related_tool_3_name": "Käsiala tekstiksi",
     "related_tool_3_desc": "Erikoistunut kaunokirjoituksen ja muistiinpanojen transkriptio",
-
     "related_tool_4_name": "Online Editor",
     "related_tool_4_desc": "Muokkaa asiakirjojasi turvallisesti selaimessa",
-
     "faq_title": "Usein Kysytyt Kysymykset Skannatuista Asiakirjoista",
-
     "cta_title": "Oletko valmis digitoimaan paperityösi?",
     "cta_subtitle": "Muuta nuo fyysiset skannaukset toimiviksi Word-tiedostoiksi tänään.",
     "cta_button": "Lataa skannaus nyt",
-
     "footer_text": "NoteOCR // Ammatillinen skannausten digitointi",
-
     "tool_upload_title": "Lataa skannattu tiedosto",
     "tool_upload_desc": "Lataa tasoskannerisi tai mobiiliskannaussovelluksesi luomia kuvatiedostoja (JPG, PNG).",
     "tool_upload_button": "Valitse skannattu kuva",
     "tool_upload_check_1": "Korkearesoluutio tuettu",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Liikesalaisuus",
-
     "tool_processing_title": "Käsitellään skannattua asiakirjaa...",
     "tool_processing_desc": "Parannetaan kontrastia ja suoritetaan asetteluanalyysiä",
-
     "tool_complete_title": "Skannaus muunnettu!",
     "tool_complete_desc": "Fyysinen skannauksesi on nyt digitaalinen, muokattava asiakirja. Lataa se alta.",
     "tool_complete_file_type": "Word-asiakirja (.docx)",
     "tool_complete_status": "VALMIS",
     "tool_download_button": "Lataa Word",
     "tool_new_button": "Muunna seuraava skannaus",
-
     "tool_info_1_title": "Täysin muokattava teksti",
     "tool_info_1_desc": "Päivitä lausekkeita, korjaa kirjoitusvirheitä ja muotoile vapaasti",
-
     "tool_info_2_title": "Asettelu ennallaan",
     "tool_info_2_desc": "Otsikot ja luettelot siirtyvät Wordiin",
-
     "tool_info_3_title": "Turvallinen käsittely",
     "tool_info_3_desc": "Skannauksiasi ei koskaan tallenneta tai jaeta",
-
     "tool_tip_label": "Skannausvinkki:",
     "tool_tip_text": "Tarkimman muunnoksen saamiseksi määritä fyysinen skannerisi 300 DPI (Dots Per Inch) -tarkkuuteen tai korkeammalle. Alhaisemmat resoluutiot voivat saada 'c' ja 'e' -kirjaimet sulautumaan yhteen.",
-
     "toast_success": "Skannaus digitoitu onnistuneesti!",
     "toast_error_type": "Lataa kelvollinen skannattu kuvatiedosto",
     "toast_error_size": "Skannaustiedoston koon on oltava alle 25 MB",
     "toast_error_conversion": "Muunnos epäonnistui. Yritä skannausta korkeammalla kontrastilla.",
     "toast_download_success": "Word-asiakirja ladattu!",
     "toast_download_error": "Lataus epäonnistui.",
-
     "FAQ": {
       "items": {
         "how_to_convert_scan": {
@@ -2664,146 +2453,110 @@
   "PhotoToWord": {
     "meta_title": "Muunna valokuva Word-asiakirjaksi | Pura tekstiä kuvista",
     "meta_desc": "Ota kuva ja muunna se tekstiksi. Tekoälymme poimii tekstin valkotaulujen, kirjojen ja näyttöjen valokuvista suoraan muokattaviksi Word-asiakirjoiksi.",
-
     "hero_pill": "Kamerasta tekstiksi OCR",
     "hero_title": "Muunna mikä tahansa valokuva Word-asiakirjaksi",
     "hero_subtitle": "Muuta älypuhelimesi kuvat muokattavaksi tekstiksi. Lataa valokuva oppikirjasta, valkotaulusta tai esityskalvosta, ja anna tekoälymme luoda muotoiltu Microsoft Word (.docx) -tiedosto sekunneissa.",
-
     "trust_ssl": "YKSITYINEN TURVALLINEN LATAUS",
     "trust_processing": "ÄLYKÄS KAMERA AI",
     "trust_accuracy": "LUKEE VINOJA KUVIA",
-
     "before_after_title": "Kameran rullalta Word-tiedostoksi",
     "before_after_desc": "Katso, kuinka käsittelemme tosielämän valokuvia, joissa on kameran heijastuksia ja taustamelua.",
     "before_label": "Ennen: Älypuhelimen kuva",
     "before_placeholder": "",
     "after_label": "Jälkeen: Muokattava Word-asiakirja",
     "after_placeholder": "",
-
     "use_cases_title": "Mitä kuvia voit muuntaa?",
     "use_cases_subtitle": "Täydellinen arkipäiväisille valokuville, jotka on otettu lennossa.",
-
     "use_case_1_title": "Valkotaulu-kokoukset",
     "use_case_1_desc": "Otitko kuvan valkotaulusta aivoriihen jälkeen? Muunna tussilla tehty käsiala suoraan kokousmuistioiksi Wordiin.",
-
     "use_case_2_title": "Oppikirjan sivut",
     "use_case_2_desc": "Lopeta lainausten kirjoittaminen esseetäsi varten. Ota kuva oppikirjastasi ja pura tarvitsemasi kappaleet välittömästi.",
-
     "use_case_3_title": "Esityskalvot",
     "use_case_3_desc": "Istutko yleisössä ja otit kuvan PowerPoint-diasta? Vedä teksti näyttökuvasta muokattavaan asiakirjaan.",
-
     "use_case_4_title": "Reseptit ja lehdet",
     "use_case_4_desc": "Tallenna fyysinen resepti tai mielenkiintoinen lehtiartikkeli ottamalla siitä kuva ja muuttamalla se haettavaksi tekstitiedostoksi.",
-
     "comparison_title": "Valokuvan tekstinpoiminnan vertailu",
     "comparison_subtitle": "Miksi NoteOCR voittaa manuaalisen kirjoittamisen pienellä puhelimen näppäimistöllä.",
     "comparison_col_method": "Menetelmä",
     "comparison_col_time": "Aika",
     "comparison_col_accuracy": "Käsitteleekö huonoa valaistusta?",
     "comparison_col_cost": "Kustannus",
-
     "comparison_row1_method": "Puhelimella kirjoittaminen",
     "comparison_row1_time": "10-20 minuuttia",
     "comparison_row1_accuracy": "N/A",
     "comparison_row1_cost": "Oma aikasi",
-
     "comparison_row2_method": "Perus valokuvamuuntimet",
     "comparison_row2_time": "1 minuutti",
     "comparison_row2_accuracy": "Epäonnistuu kameran heijastuksissa",
     "comparison_row2_cost": "Usein maksullinen",
-
     "comparison_row3_method": "NoteOCR Kuvamoottori",
     "comparison_row3_time": "15 sekuntia",
     "comparison_row3_accuracy": "Parantaa automaattisesti valaistusta",
     "comparison_row3_cost": "Ilmainen testata",
-
     "features_title": "Rakennettu tosielämän valokuville",
     "features_subtitle": "Älypuhelimen kuvat eivät ole täydellisiä. Meidän tekoälymme on rakennettu käsittelemään sitä.",
-
     "feature_1_title": "Perspektiivin korjaus",
     "feature_1_desc": "Jos otit kuvan kirjan sivusta oudossa kulmassa, moottorimme litistää ja korjaa perspektiivin automaattisesti ennen tekstin lukemista.",
-
     "feature_2_title": "Heijastusten ja varjojen poisto",
     "feature_2_desc": "Älypuhelimen salamat ja huoneen varjot voivat piilottaa tekstiä. Tekoälymme tasapainottaa kuvan valaistuksen varmistaakseen korkean tarkkuuden merkkientunnistuksessa.",
-
     "feature_3_title": "Sivuuttaa taustan häiriöt",
     "feature_3_desc": "Kuvassitko työpöytäsi tai kätesi kuvaan? Järjestelmämme rajaa älykkäästi pois ei-tekstitaustat keskittyäkseen vain asiakirjaan.",
-
     "tech_title": "Kuinka luemme kuviasi",
     "tech_intro": "Tekstin poimiminen älypuhelimen valokuvasta on paljon vaikeampaa kuin litteän digitaalisen skannauksen lukeminen. NoteOCR käyttää älykästä Vision AI:tä ymmärtääkseen kuvasi geometrian ennen merkkien muuntamista Word-asiakirjaksi.",
-
     "tech_detect_title": "Mitä kamera-AI:mme käsittelee",
     "tech_detect_1": "Käyrät sivut paksuista kirjoista",
     "tech_detect_2": "Tietokoneen näytöiltä otetut valokuvat (anti-moire)",
     "tech_detect_3": "Valkotaulutussin käsiala",
     "tech_detect_4": "Heikossa valaistuksessa tai hämärissä huoneissa otetut kuvat",
     "tech_detect_5": "Erilaiset fontit ja tekstikoot yhdessä kuvassa",
-
     "tech_tips_title": "Vinkkejä parempien valokuvien ottamiseen",
     "tech_tips_1": "Napauta puhelimesi näyttöä tarkentaaksesi kameran",
     "tech_tips_2": "Pidä puhelintasi mahdollisimman vakaana",
     "tech_tips_3": "Yritä välttää voimakkaita ylhäältä tulevia varjoja",
     "tech_tips_4": "Pidä teksti täyttämässä suurin osa kuvaruudusta",
     "tech_tips_5": "Sammuta salama, jos valokuvaat kiiltävää sivua",
-
     "related_tools_title": "Muut asiakirjatyökalut",
-
     "related_tool_1_name": "Kuva Exceliksi",
     "related_tool_1_desc": "Pura datataulukoita kuvista laskentataulukoihin",
-
     "related_tool_2_name": "Valokuva Wordiksi",
     "related_tool_2_desc": "Muunna kameran valokuvat suoraan Wordiksi",
-
     "related_tool_3_name": "Käsiala tekstiksi",
     "related_tool_3_desc": "Erikoistunut kaunokirjoituksen ja muistiinpanojen transkriptio",
-
     "related_tool_4_name": "Online Editor",
     "related_tool_4_desc": "Muokkaa asiakirjojasi turvallisesti selaimessa",
-
     "faq_title": "Usein Kysytyt Kysymykset Valokuvien Muuntamisesta",
-
     "cta_title": "Oletko valmis poimimaan tekstin kuvastasi?",
     "cta_subtitle": "Lataa valokuvasi suoraan puhelimestasi tai tietokoneeltasi.",
     "cta_button": "Lataa valokuva nyt",
-
     "footer_text": "NoteOCR // Vision AI Käsittely",
-
     "tool_upload_title": "Lataa kuvasi",
     "tool_upload_desc": "Valitse valokuva kameran rullasta tai tietokoneelta. Poimimme tekstin ja luomme muotoillun Word-tiedoston.",
     "tool_upload_button": "Valitse kuva",
     "tool_upload_check_1": "Tukee puhelimen valokuvia",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Poistetaan automaattisesti 24h kuluttua",
-
     "tool_processing_title": "Analysoidaan kuvaa...",
     "tool_processing_desc": "Korjataan kameran kulmia ja poimitaan tekstiä",
-
     "tool_complete_title": "Kuva muunnettu!",
     "tool_complete_desc": "Teksti valokuvastasi on poimittu onnistuneesti. Lataa muokattava tiedostosi alta.",
     "tool_complete_file_type": "Word-asiakirja (.docx)",
     "tool_complete_status": "VALMIS",
     "tool_download_button": "Lataa Word",
     "tool_new_button": "Muunna toinen valokuva",
-
     "tool_info_1_title": "Täysin muokattava",
     "tool_info_1_desc": "Teksti poimitaan, ei vain liitetä kuvana",
-
     "tool_info_2_title": "Älykäs muotoilu",
     "tool_info_2_desc": "Kappaleet ja rivinvaihdot luodaan uudelleen",
-
     "tool_info_3_title": "Universaali DOCX",
     "tool_info_3_desc": "Avautuu MS Wordissa, Google Docsissa ja Pagesissa",
-
     "tool_tip_label": "Kameravinkki:",
     "tool_tip_text": "Jos otat kuvaa kiiltävästä aikakauslehdestä tai oppikirjasta, sammuta älypuhelimesi salama. Massiivinen valkoinen häikäisyläiskä voi piilottaa sanat ja alentaa OCR:n tarkkuutta.",
-
     "toast_success": "Kuva muunnettu onnistuneesti!",
     "toast_error_type": "Lataa kelvollinen valokuvatiedosto (JPG, PNG)",
     "toast_error_size": "Kuvatiedoston koon on oltava alle 25 MB",
     "toast_error_conversion": "Muunnos epäonnistui. Kuva saattaa olla liian epäselvä.",
     "toast_download_success": "Word-asiakirja ladattu!",
     "toast_download_error": "Lataus epäonnistui.",
-
     "FAQ": {
       "items": {
         "how_to_convert_photo": {
@@ -2852,146 +2605,110 @@
   "HandwrittenInvoice": {
     "meta_title": "Muunna käsinkirjoitetut laskut Exceliksi | Kuittien tiedonpoiminta",
     "meta_desc": "Automatisoi kirjanpitosi. Pura rivitiedot, hinnat ja päivämäärät käsinkirjoitetuista laskuista ja kuiteista suoraan muotoiltuihin Excel-laskentataulukoihin.",
-
     "hero_pill": "Talousdatan OCR",
     "hero_title": "Muunna käsinkirjoitetut laskut Exceliksi",
     "hero_subtitle": "Lopeta myyjien kuittien ja ostotilausten manuaalinen kirjoittaminen. Tekoälymme poimii tarkasti rivitiedot, määrät ja hinnat käsinkirjoitetuista laskuista puhtaisiin, muokattaviin .xlsx-laskentataulukoihin.",
-
     "trust_ssl": "TURVALLINEN TALOUDEN LATAUS",
     "trust_processing": "AUTOMAATTISET RIVITIEDOT",
     "trust_accuracy": "99 % NUMEERINEN TARKKUUS",
-
     "before_after_title": "Paperikuitista digitaaliseksi laskentataulukoksi",
     "before_after_desc": "Katso kuinka tekoälymme kartoittaa sotkuiset käsinkirjoitetut rivitiedot täydellisesti siisteiksi Excel-riveiksi.",
     "before_label": "Ennen: Käsinkirjoitettu lasku",
     "before_placeholder": "",
     "after_label": "Jälkeen: Excelin rivitiedot",
     "after_placeholder": "",
-
     "use_cases_title": "Kuka automatisoi laskuja NoteOCR:llä?",
     "use_cases_subtitle": "Rakennettu taloushallinnon ammattilaisille, jotka arvostavat aikaansa.",
-
     "use_case_1_title": "Kirjanpitäjät ja tilintarkastajat",
     "use_case_1_desc": "Käsittele asiakkaiden kenkälaatikot, jotka ovat täynnä käsinkirjoitettuja kuitteja ja paperilaskuja minuuteissa tuntien sijaan kuun lopussa.",
-
     "use_case_2_title": "Pienyritysten omistajat",
     "use_case_2_desc": "Digitoi sutatut myyjien laskut, urakoitsijoiden laskut ja käsinkirjoitetut ostotilaukset seurataksesi kulujasi tarkasti.",
-
     "use_case_3_title": "Kuluseuranta",
     "use_case_3_desc": "Muunna käsinkirjoitetut ravintolakuitit tai kenttäkulut jäsennellyiksi CSV-tiedostoiksi helppoa lataamista varten yrityksesi kuluohjelmistoon.",
-
     "use_case_4_title": "Verovalmistelu",
     "use_case_4_desc": "Laske nopeasti fyysiset, käsinkirjoitetut lahjoituskuitit tai yrityskulut siistiksi Excel-kirjanpidoksi verokautta varten.",
-
     "comparison_title": "Laskutustietojen syötön vertailu",
     "comparison_subtitle": "Miksi manuaalinen kirjanpito polttaa voittomarginaalejasi.",
     "comparison_col_method": "Menetelmä",
     "comparison_col_time": "Aika laskua kohden",
     "comparison_col_accuracy": "Taloudellinen tarkkuus",
     "comparison_col_cost": "Työkustannus",
-
     "comparison_row1_method": "Manuaalinen tiedonsyöttö",
     "comparison_row1_time": "3-5 minuuttia",
     "comparison_row1_accuracy": "Altis kirjoitusvirheille",
     "comparison_row1_cost": "20+ €/tunti",
-
     "comparison_row2_method": "Standardit OCR-sovellukset",
     "comparison_row2_time": "1 minuutti",
     "comparison_row2_accuracy": "Sekoittaa sarakkeet",
     "comparison_row2_cost": "Vaihtelee",
-
     "comparison_row3_method": "NoteOCR Laskumoottori",
     "comparison_row3_time": "15 sekuntia",
     "comparison_row3_accuracy": "Täydellinen rivikohdistus",
     "comparison_row3_cost": "Ilmainen testata",
-
     "features_title": "Edistynyt laskujen poiminta",
     "features_subtitle": "Koulutettu erityisesti talousasiakirjoihin ja sotkuisiin numeroihin.",
-
     "feature_1_title": "Rivitietojen tunnistus",
     "feature_1_desc": "Tekoälymme erottaa kuvaukset, määrät, yksikköhinnat ja loppusummat omiin erillisiin Excel-sarakkeisiinsa automaattisesti.",
-
     "feature_2_title": "Korkea numeerinen tarkkuus",
     "feature_2_desc": "Standardi OCR kamppailee käsinkirjoitettujen numeroiden kanssa. Käytämme erikoistuneita neuroverkkoja varmistaaksemme, että neloset, ysit, desimaalit ja valuuttasymbolit luetaan täydellisesti.",
-
     "feature_3_title": "Sottaisen käsialan tuki",
     "feature_3_desc": "Urakoitsijoilla ja myyjillä on usein surkea käsiala. Moottorimme on rakennettu purkamaan hoputettu kaunokirjoitus ja huolimaton tekstaus fyysisiltä kuiteilta.",
-
     "tech_title": "Kuinka käsittelemme talousasiakirjoja",
     "tech_intro": "Laskut ovat monimutkaisia, koska ne sisältävät leijuvaa dataa (kuten päivämäärä ja laskun numero ylhäällä) ja taulukkotietoja (rivitiedot keskellä). NoteOCR kartoittaa tämän spatiaalisen suhteen täydellisesti.",
-
     "tech_detect_title": "Mitä tekoälymme poimii",
     "tech_detect_1": "Tuotekuvaukset ja SKU:t",
     "tech_detect_2": "Määrä- ja hintasarakkeet",
     "tech_detect_3": "Välisummat, verorivit ja loppusummat",
     "tech_detect_4": "Käsinkirjoitetut päivämäärät ja laskunumerot",
     "tech_detect_5": "Valuuttasymbolit (€, $, £)",
-
     "tech_tips_title": "Vinkkejä kirjanpitäjille",
     "tech_tips_1": "Suorista rypistyneet kuitit ennen valokuvan ottamista",
     "tech_tips_2": "Varmista, ettei valaistus heitä varjoja loppusumman päälle",
     "tech_tips_3": "Pidä kamera suoraan laskun yläpuolella",
     "tech_tips_4": "Varmista, että desimaalipilkut/-pisteet näkyvät kuvassa",
     "tech_tips_5": "Tarkista loppusummat Excelissä varmistaaksesi vastaavuuden",
-
     "related_tools_title": "Lisää talous-OCR-työkaluja",
-
     "related_tool_1_name": "Lasku Exceliksi",
     "related_tool_1_desc": "Pura rivitiedot käsinkirjoitetuista kuiteista",
-
     "related_tool_2_name": "Varasto Exceliksi",
     "related_tool_2_desc": "Muunna käsinkirjoitetut varastolaskennat dataksi",
-
     "related_tool_3_name": "Skannaus Wordiksi",
     "related_tool_3_desc": "Digitoi painetut HR-käytännöt ja ohjekirjat",
-
     "related_tool_4_name": "Käsiala tekstiksi",
     "related_tool_4_desc": "Transkriptoi käsinkirjoitetut kokousmuistiot",
-
     "faq_title": "Usein Kysytyt Kysymykset Laskujen Muuntamisesta",
-
     "cta_title": "Lopeta laskujen kirjoittaminen.",
     "cta_subtitle": "Anna tekoälyn hoitaa tiedonsyöttösi. Lataa ensimmäinen käsinkirjoitettu laskusi nyt.",
     "cta_button": "Muunna lasku Exceliksi",
-
     "footer_text": "NoteOCR // Älykäs taloustiedon poiminta",
-
     "tool_upload_title": "Lataa käsinkirjoitettu lasku",
     "tool_upload_desc": "Tukee valokuvia ja skannauksia käsinkirjoitetuista laskuista, kuiteista ja ostotilauksista. Poimimme rivitiedot Exceliin.",
     "tool_upload_button": "Valitse laskun kuva",
     "tool_upload_check_1": "JPG, PNG tuettu",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Pankkitason salaus",
-
     "tool_processing_title": "Poimitaan rivitietoja...",
     "tool_processing_desc": "Havaitaan hinnat, määrät ja kuvaukset",
-
     "tool_complete_title": "Lasku poimittu!",
     "tool_complete_desc": "Rivitietosi on muunnettu Excel-laskentataulukoksi. Lataa se alta.",
     "tool_complete_file_type": "Excel-laskentataulukko (.xlsx)",
     "tool_complete_status": "VALMIS",
     "tool_download_button": "Lataa Excel",
     "tool_new_button": "Käsittele seuraava lasku",
-
     "tool_info_1_title": "Sarakkeet kohdistettu",
     "tool_info_1_desc": "Hinnat ja kuvaukset erotettu siististi",
-
     "tool_info_2_title": "Numeroiden tarkkuus",
     "tool_info_2_desc": "Erittäin tarkka desimaali- ja numerotunnistus",
-
     "tool_info_3_title": "Valmiina tuotavaksi",
     "tool_info_3_desc": "Helppo ladata Procountoriin tai Netvisoriin",
-
     "tool_tip_label": "Kirjanpitovinkki:",
     "tool_tip_text": "Jos aiot tuoda nämä tiedot kirjanpito-ohjelmistoon kuten Procountor tai Netvisor, avaa ladattu Excel-tiedosto ja tallenna se .CSV (Comma Separated Values) -muodossa saumatonta latausta varten.",
-
     "toast_success": "Lasku poimittu onnistuneesti!",
     "toast_error_type": "Lataa kelvollinen kuvatiedosto",
     "toast_error_size": "Tiedostokoon on oltava alle 25 MB",
     "toast_error_extraction": "Poiminta epäonnistui. Käsiala saattaa olla liian haalistunut.",
     "toast_download_success": "Excel-kirjanpito ladattu!",
     "toast_download_error": "Lataus epäonnistui.",
-
     "FAQ": {
       "items": {
         "how_to_convert_invoice": {
@@ -3040,146 +2757,110 @@
   "InventoryToExcel": {
     "meta_title": "Muunna käsinkirjoitettu varastoluettelo Exceliksi | Varastolaskennan OCR",
     "meta_desc": "Lopeta varastosaldon manuaalinen kirjoittaminen. Muunna valokuvat käsinkirjoitetuista varastolokeista, leikepöydistä ja laskentalehdistä suoraan muokattaviksi Excel-laskentataulukoiksi.",
-
     "hero_pill": "Varaston ja inventaarion OCR",
     "hero_title": "Muuta leikepöydän varastolaskennat Excel-laskentataulukoiksi",
     "hero_subtitle": "Muunna fyysiset varastotarkastukset sekunneissa. Ota kuva käsinkirjoitetuista varastolistoistasi, ja tekoälymme poimii SKU:t, tuotenimet ja määrät suoraan muotoiltuun .xlsx-tiedostoon.",
-
     "trust_ssl": "YKSITYISEN DATAN KÄSITTELY",
     "trust_processing": "MASSA-SKU-TUNNISTUS",
     "trust_accuracy": "99 % MÄÄRÄTARKKUUS",
-
     "before_after_title": "Fyysisestä leikepöydästä digitaaliseksi seurantalaitteeksi",
     "before_after_desc": "Katso, kuinka muunnamme sottaiset varastolaskennat jäsennellyiksi Excel-riveiksi.",
     "before_label": "Ennen: Käsinkirjoitettu varastolista",
     "before_placeholder": "",
     "after_label": "Jälkeen: Excel-varastoluettelo",
     "after_placeholder": "",
-
     "use_cases_title": "Kuka automatisoi varastoa NoteOCR:llä?",
     "use_cases_subtitle": "Rakennettu yrityksille, jotka tekevät fyysisiä varastotarkastuksia.",
-
     "use_case_1_title": "Varastopäälliköt",
     "use_case_1_desc": "Muunna monisivuiset käsinkirjoitetut varastolokit ja jaksottaiset laskennat Exceliin välittömästi, pitäen toimitusketjusi liikkeessä.",
-
     "use_case_2_title": "Vähittäiskaupan omistajat",
     "use_case_2_desc": "Ota kuvia kuun lopun vähittäiskaupan varastolaskennoistasi ja lataa ne päivittääksesi kassajärjestelmäsi tai Shopify-kauppasi CSV:n kautta.",
-
     "use_case_3_title": "Ravintolan ja baarin henkilökunta",
     "use_case_3_desc": "Lopeta viikoittaisen ruoka- ja juomavaraston uudelleenkirjoittaminen. Digitoi keittiön leikepöytäsi suoraan ruokakustannuslaskentataulukoihisi.",
-
     "use_case_4_title": "Laitteiston seuranta",
     "use_case_4_desc": "Muunna helposti käsinkirjoitetut kuittauslistat, työkalulokit ja laiteseurantalistat kentältä haettaviksi digitaalisiksi tietokannoiksi.",
-
     "comparison_title": "Varastonlaskenta: Manuaalinen vs. NoteOCR",
     "comparison_subtitle": "Miksi manuaalinen varastotiedon syöttö maksaa yrityksellesi rahaa.",
     "comparison_col_method": "Menetelmä",
     "comparison_col_time": "Aika per sivu",
     "comparison_col_accuracy": "SKU-tarkkuus",
     "comparison_col_cost": "Kustannus",
-
     "comparison_row1_method": "Manuaalinen kirjoittaminen",
     "comparison_row1_time": "15-30 minuuttia",
     "comparison_row1_accuracy": "Altis inhimillisille virheille",
     "comparison_row1_cost": "20 €/tunti työ",
-
     "comparison_row2_method": "Standardit mobiiliskannerit",
     "comparison_row2_time": "2 minuuttia",
     "comparison_row2_accuracy": "Tuottaa litteitä kuvia",
     "comparison_row2_cost": "Ilmainen",
-
     "comparison_row3_method": "NoteOCR Varasto-AI",
     "comparison_row3_time": "20 sekuntia",
     "comparison_row3_accuracy": "Muotoilee datan riveille",
     "comparison_row3_cost": "Ilmainen testata",
-
     "features_title": "Rakennettu sotkuiselle varastokäsialalle",
     "features_subtitle": "Tiedämme, että fyysiset varastolaskennat tehdään kiireessä. Tekoälymme mukautuu siihen.",
-
     "feature_1_title": "Alfanumeerinen SKU-tunnistus",
     "feature_1_desc": "Tuotekoodit ovat monimutkaisia kirjainten ja numeroiden sekoituksia. Neuroverkkomme on koulutettu erottamaan '0' O-kirjaimesta ja '1' l-kirjaimesta käsinkirjoitetuissa SKU:issa.",
-
     "feature_2_title": "Sarakkeiden muotoilu",
     "feature_2_desc": "Olitpa sitten piirtänyt viivoja paperillesi tai vain jättänyt välejä, NoteOCR erottaa tuotenimet, SKU:t ja määrät omiin erillisiin Excel-sarakkeisiinsa.",
-
     "feature_3_title": "Vienti CSV:nä POS-järjestelmille",
     "feature_3_desc": "Lataa tietosi Excel-tiedostona tai vie se CSV:nä, jotta voit ladata päivitetyt varastosaldot saumattomasti Shopifyhin, Squareen tai Procountoriin.",
-
     "tech_title": "Kuinka käsittelemme fyysisiä varastolistoja",
     "tech_intro": "Varastolistat ovat pahamaineisia huonosta käsialasta ja suttuisesta musteesta. NoteOCR käyttää erikoistunutta Table Structure Recognition (TSR) -tekniikkaa leikepöytäsi ruudukon uudelleenrakentamiseen.",
-
     "tech_detect_title": "Mitä tekoälymme poimii",
     "tech_detect_1": "Pitkät sarjanumerot ja SKU:t",
     "tech_detect_2": "Määrät, painot ja mitat",
     "tech_detect_3": "Yliviivatut kohteet ja korjaukset",
     "tech_detect_4": "Monisarakkeiset leikepöytä-asettelut",
     "tech_detect_5": "Päivämäärät, sijainnit ja käytävänumerot",
-
     "tech_tips_title": "Vinkkejä nopeampiin tarkastuksiin",
     "tech_tips_1": "Varmista, että varaston valaistus on kirkas, kun otat kuvaa",
     "tech_tips_2": "Kirjoita SKU:t mahdollisimman selkeästi",
     "tech_tips_3": "Pidä sarakkeet jokseenkin kohdistettuina tyhjällä paperilla",
     "tech_tips_4": "Ota kuvat leikepöydästä suoraan ylhäältä päin",
     "tech_tips_5": "Tarkista lopulliset Excel-määrät hyllyjäsi vasten",
-
     "related_tools_title": "Muita yritystiedon työkaluja",
-
     "related_tool_1_name": "Lasku Exceliksi",
     "related_tool_1_desc": "Pura rivitiedot käsinkirjoitetuista kuiteista",
-
     "related_tool_2_name": "Varasto Exceliksi",
     "related_tool_2_desc": "Muunna käsinkirjoitetut varastolaskennat dataksi",
-
     "related_tool_3_name": "Skannaus Wordiksi",
     "related_tool_3_desc": "Digitoi painetut HR-käytännöt ja ohjekirjat",
-
     "related_tool_4_name": "Käsiala tekstiksi",
     "related_tool_4_desc": "Transkriptoi käsinkirjoitetut kokousmuistiot",
-
     "faq_title": "Usein Kysytyt Kysymykset Varaston OCR:stä",
-
     "cta_title": "Lopeta varastosaldojen kirjoittaminen.",
     "cta_subtitle": "Ota kuva leikepöydästäsi ja anna NoteOCR:n rakentaa laskentataulukkosi.",
     "cta_button": "Muunna varasto nyt",
-
     "footer_text": "NoteOCR // Teollinen tiedonpoiminta",
-
     "tool_upload_title": "Lataa käsinkirjoitettu varastoluettelo",
     "tool_upload_desc": "Tukee valokuvia leikepöydistä, varastolaskennoista ja laskentalehdistä. Poimimme tiedot muokattavaan Excel-ruudukkoon.",
     "tool_upload_button": "Valitse varastokuva",
     "tool_upload_check_1": "JPG, PNG tuettu",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Poistetaan 24h kuluttua",
-
     "tool_processing_title": "Poimitaan varastolaskentoja...",
     "tool_processing_desc": "Havaitaan SKU:t, nimikkeet ja määrät",
-
     "tool_complete_title": "Varasto poimittu!",
     "tool_complete_desc": "Varastolaskentasi on nyt Excel-laskentataulukko. Lataa se alta.",
     "tool_complete_file_type": "Excel-laskentataulukko (.xlsx)",
     "tool_complete_status": "VALMIS",
     "tool_download_button": "Lataa Excel",
     "tool_new_button": "Käsittele seuraava sivu",
-
     "tool_info_1_title": "Ruudukko säilytetty",
     "tool_info_1_desc": "SKU:t ja määrät omissa sarakkeissaan",
-
     "tool_info_2_title": "Korkea tarkkuus",
     "tool_info_2_desc": "Koulutettu sottaiseen, kiireiseen käsialaan",
-
     "tool_info_3_title": "CSV-yhteensopiva",
     "tool_info_3_desc": "Valmiina ladattavaksi POS-järjestelmääsi",
-
     "tool_tip_label": "Varastovinkki:",
     "tool_tip_text": "Jos käytät viivoitettua paperia tai tulostettuja ruudukkosivuja leikepöydälläsi, tekoälymme käyttää näitä viivoja erottamaan sarakkeesi Excelissä täydellisesti lähes 100 % rakenteellisella tarkkuudella.",
-
     "toast_success": "Varasto poimittu onnistuneesti!",
     "toast_error_type": "Lataa kelvollinen kuvatiedosto",
     "toast_error_size": "Tiedostokoon on oltava alle 25 MB",
     "toast_error_extraction": "Poiminta epäonnistui. Valokuva saattaa olla liian epäselvä.",
     "toast_download_success": "Excel-laskentataulukko ladattu!",
     "toast_download_error": "Lataus epäonnistui.",
-
     "FAQ": {
       "items": {
         "how_to_convert_inventory": {
@@ -3228,146 +2909,110 @@
   "HandwrittenTimesheet": {
     "meta_title": "Muunna käsinkirjoitetut tuntilaput Exceliksi | Palkanlaskennan OCR-työkalu",
     "meta_desc": "Lopeta työntekijöiden tuntien manuaalinen kirjoittaminen. Muunna valokuvat käsinkirjoitetuista tuntilapuista, työvuorolokeista ja paperisista kellokorteista suoraan Excel-laskentataulukoiksi palkanlaskentaa varten.",
-
     "hero_pill": "Palkanlaskentatiedon automaatio",
     "hero_title": "Automatisoi käsinkirjoitetut tuntilaput Exceliin",
     "hero_subtitle": "Aja palkanlaskenta nopeammin. Ota kuva miehistösi käsinkirjoitetuista kellokorteista tai työvuorolokeista, ja tekoälymme poimii työntekijöiden nimet, päivämäärät ja tunnit suoraan muotoiltuun .xlsx-laskentataulukkoon.",
-
     "trust_ssl": "TURVALLINEN HR-TIETO",
     "trust_processing": "NOPEA TUNTILAPPujen OCR",
     "trust_accuracy": "99 % NUMEROIDEN TARKKUUS",
-
     "before_after_title": "Paperisesta kellokortista digitaaliseen palkanlaskentaan",
     "before_after_desc": "Katso kuinka tekoälymme kartoittaa sottaiset käsinkirjoitetut tunnit täydellisesti siisteihin Excel-riveihin.",
     "before_label": "Ennen: Käsinkirjoitettu työvuoroloki",
     "before_placeholder": "",
     "after_label": "Jälkeen: Excelin palkanlaskentadata",
     "after_placeholder": "",
-
     "use_cases_title": "Kuka automatisoi tuntilaput NoteOCR:llä?",
     "use_cases_subtitle": "Rakennettu toimialoille, jotka luottavat fyysiseen paperiin leimauksessa.",
-
     "use_case_1_title": "Rakennus- ja kunnossapitoala",
     "use_case_1_desc": "Digitoi likaiset, käsinkirjoitetut tuntilaput työmaalta. Pura työntekijöiden nimet ja päivittäiset tunnit Exceliin ennen niiden lähettämistä kirjanpitoon.",
-
     "use_case_2_title": "Ravintolat ja vieraanvaraisuus",
     "use_case_2_desc": "Muunna viikoittaiset paperiaikataulut, vuoronvaihdot ja tarjoilijoiden käsinkirjoitetut sisäänkirjautumiset siistiin digitaaliseen muotoon ravintolapäällikölle.",
-
     "use_case_3_title": "Maisemointi ja kenttäpalvelut",
     "use_case_3_desc": "Lopeta kenttätyöntekijöiden sottaisen käsialan purkaminen. Ota kuva heidän viikoittaisesta lokistaan ja muotoile se välittömästi palkanlaskentaa varten.",
-
     "use_case_4_title": "Terveydenhuolto ja sairaanhoito",
     "use_case_4_desc": "Muunna käsinkirjoitetut sisäänkirjautumislistat ja fyysiset ylityölokit eri sairaalaosastoilta helposti haettaviksi digitaalisiksi tietokannoiksi.",
-
     "comparison_title": "Palkanlaskentatiedon syötön vertailu",
     "comparison_subtitle": "Miksi manuaalinen tuntilappujen syöttö on riski yrityksellesi.",
     "comparison_col_method": "Menetelmä",
     "comparison_col_time": "Käytetty aika",
     "comparison_col_accuracy": "Palkanlaskentavirheet",
     "comparison_col_cost": "Kustannus",
-
     "comparison_row1_method": "Manuaalinen kirjoittaminen",
     "comparison_row1_time": "2+ tuntia perjantaisin",
     "comparison_row1_accuracy": "Korkea kirjoitusvirheriski",
     "comparison_row1_cost": "25 €/tunti hallintotyö",
-
     "comparison_row2_method": "Standardit OCR-skannerit",
     "comparison_row2_time": "5 minuuttia",
     "comparison_row2_accuracy": "Sekoittaa sarakkeet",
     "comparison_row2_cost": "Ilmainen",
-
     "comparison_row3_method": "NoteOCR Tuntilappu-AI",
     "comparison_row3_time": "30 sekuntia",
     "comparison_row3_accuracy": "Täydellinen rivikohdistus",
     "comparison_row3_cost": "Ilmainen testata",
-
     "features_title": "Edistynyt palkanlaskennan poiminta",
     "features_subtitle": "Koulutettu nimenomaan lukemaan nimiä, päivämääriä ja tunteja tarkasti.",
-
     "feature_1_title": "Aikamuotojen tunnistus",
     "feature_1_desc": "Tekoälymme on koulutettu ymmärtämään erilaisia aikamuotoja, riippumatta siitä kirjoittavatko työntekijäsi 8:00 AM, 0800 sotilasaikaa tai yksinkertaisesti 8,5 tuntia.",
-
     "feature_2_title": "Sarakkeiden kohdistus",
     "feature_2_desc": "Vaikka työntekijäsi kirjoittaisivat viivojen ulkopuolelle, NoteOCR erottaa työntekijän nimen, päivämäärän, sisäänkirjautumisen, uloskirjautumisen ja kokonaistunnit erillisiin Excel-sarakkeisiin.",
-
     "feature_3_title": "CSV-vienti Netvisorille & Procountorille",
     "feature_3_desc": "Lataa tuntilapputietosi Excel-tiedostona tai vie ne CSV-muodossa ladataksesi tunnit saumattomasti haluamaasi palkanlaskentaohjelmistoon, kuten Netvisoriin, Procountoriin tai Mepcoon.",
-
     "tech_title": "Kuinka käsittelemme paperisia kellokortteja",
     "tech_intro": "Käsinkirjoitettujen nimien ja numeroiden lukeminen tahriintuneelta paperinpalalta vaatii edistynyttä optista hahmontunnistusta. NoteOCR käyttää älykästä asetteluanalyysiä varmistaakseen, että oikeat tunnit kohdistetaan oikealle työntekijälle.",
-
     "tech_detect_title": "Mitä tekoälymme poimii",
     "tech_detect_1": "Työntekijöiden nimet kaunokirjoituksella ja tekstauksella",
     "tech_detect_2": "Sisään- ja ulosleimausajat",
     "tech_detect_3": "Desimaalit (esim. 7,5 tuntia) ja murtoluvut",
     "tech_detect_4": "Käsinkirjoitetut päivämäärät ja viikonpäivät",
     "tech_detect_5": "Allekirjoitukset ja esimiesten hyväksynnät",
-
     "tech_tips_title": "Vinkkejä HR-päälliköille",
     "tech_tips_1": "Suorista taitetut tuntilaput ennen valokuvan ottamista",
     "tech_tips_2": "Varmista hyvä valaistus, jotta desimaalipilkut/-pisteet näkyvät",
     "tech_tips_3": "Pidä kamera suoraan allekirjoituslistan yläpuolella",
     "tech_tips_4": "Käske työntekijöitä kirjoittamaan numeronsa selkeästi",
     "tech_tips_5": "Tee aina nopea visuaalinen tarkistus ennen palkanlaskennan ajamista",
-
     "related_tools_title": "Lisää liiketoiminnan automaatiotyökaluja",
-
     "related_tool_1_name": "Lasku Exceliksi",
     "related_tool_1_desc": "Pura rivitiedot käsinkirjoitetuista kuiteista",
-
     "related_tool_2_name": "Varasto Exceliksi",
     "related_tool_2_desc": "Muunna käsinkirjoitetut varastolaskennat dataksi",
-
     "related_tool_3_name": "Skannaus Wordiksi",
     "related_tool_3_desc": "Digitoi painetut HR-käytännöt ja ohjekirjat",
-
     "related_tool_4_name": "Käsiala tekstiksi",
     "related_tool_4_desc": "Transkriptoi käsinkirjoitetut kokousmuistiot",
-
     "faq_title": "Usein Kysytyt Kysymykset Tuntilappujen OCR:stä",
-
     "cta_title": "Lopeta työntekijöiden tuntien kirjoittaminen.",
     "cta_subtitle": "Anna tekoälyn hoitaa perjantain tiedonsyöttösi. Lataa ensimmäinen tuntilappusi nyt.",
     "cta_button": "Muunna tuntilappu Exceliksi",
-
     "footer_text": "NoteOCR // Älykäs palkanlaskennan poiminta",
-
     "tool_upload_title": "Lataa käsinkirjoitettu tuntilappu",
     "tool_upload_desc": "Tukee valokuvia työvuorolokeista, sisäänkirjautumislistoista ja paperisista kellokorteista. Poimimme kaikki tiedot tarkasti siistiin Excel-taulukkoon.",
     "tool_upload_button": "Valitse tuntilapun kuva",
     "tool_upload_check_1": "JPG, PNG tuettu",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Pankkitason salaus",
-
     "tool_processing_title": "Poimitaan työntekijöiden tunteja...",
     "tool_processing_desc": "Havaitaan nimet, päivämäärät ja sisäänkirjautumisajat",
-
     "tool_complete_title": "Tuntilappu poimittu!",
     "tool_complete_desc": "Palkanlaskentatietosi on nyt Excel-laskentataulukko. Lataa se alta.",
     "tool_complete_file_type": "Excel-laskentataulukko (.xlsx)",
     "tool_complete_status": "VALMIS",
     "tool_download_button": "Lataa Excel",
     "tool_new_button": "Käsittele seuraava tuntilappu",
-
     "tool_info_1_title": "Ruudukko säilytetty",
     "tool_info_1_desc": "Hienosti järjestetty riveihin ja sarakkeisiin",
-
     "tool_info_2_title": "Korkea tarkkuus",
     "tool_info_2_desc": "Koulutettu sottaiseen, kiireiseen käsialaan",
-
     "tool_info_3_title": "CSV-yhteensopiva",
     "tool_info_3_desc": "Valmiina ladattavaksi palkanlaskentajärjestelmääsi",
-
     "tool_tip_label": "Palkanlaskentavinkki:",
     "tool_tip_text": "Jos aiot tuoda nämä tiedot palkanlaskentaohjelmistoon, kuten Netvisoriin tai Procountoriin, avaa ladattu Excel-tiedosto ja tallenna se .CSV (Comma Separated Values) -muodossa saumatonta latausta varten.",
-
     "toast_success": "Tuntilappu poimittu onnistuneesti!",
     "toast_error_type": "Lataa kelvollinen kuvatiedosto",
     "toast_error_size": "Tiedostokoon on oltava alle 25 MB",
     "toast_error_extraction": "Poiminta epäonnistui. Valokuva saattaa olla liian epäselvä.",
     "toast_download_success": "Excel-laskentataulukko ladattu!",
     "toast_download_error": "Lataus epäonnistui.",
-
     "FAQ": {
       "items": {
         "how_to_convert_timesheet": {
@@ -3416,35 +3061,26 @@
   "HandwritingRecognitionPage": {
     "meta_title": "Käsialan tunnistus verkossa | NoteOCR",
     "meta_desc": "Lataa mikä tahansa käsinkirjoitettu kuva, niin tekoälymme tunnistaa sen ja muuntaa sen muotoilluksi tekstiksi välittömästi. Ilmainen käsialan tunnistus verkossa.",
-
     "hero_pill": "AI Käsialan tunnistus",
     "hero_title": "Käsialan tunnistus, joka oikeasti toimii.",
     "hero_subtitle": "Lataa valokuva mistä tahansa käsinkirjoitetuista muistiinpanoista, lomakkeista tai asiakirjoista. Tekoälymme lukee käsialan, mukaan lukien sottaiset kaunokirjoitukset, ja muuntaa sen muokattavaksi muotoilluksi tekstiksi sekunneissa.",
-
     "trust_ssl": "SSL-salattu",
     "trust_processing": "30 sekunnin käsittely",
     "trust_accuracy": "99 % Tunnistustarkkuus",
-
     "before_after_title": "Näe tunnistus toiminnassa",
     "before_after_desc": "Aito käsialanäyte, joka näyttää, mitä tekoälymme lukee verrattuna siihen, mitä se tuottaa.",
     "before_label": "Ennen: Käsinkirjoitettu kuva",
     "after_label": "Jälkeen: Tunnistettu digitaalinen teksti",
-
     "use_cases_title": "Kuka käyttää käsialan tunnistusta?",
     "use_cases_subtitle": "Opiskelijoista, jotka digitoivat muistiinpanoja, yrityksiin, jotka käsittelevät lomakkeita, käsialan tunnistus säästää tunteja joka päivä.",
-
     "use_case_1_title": "Opiskelijat ja luentomuistiinpanot",
     "use_case_1_desc": "Valokuvaa muistikirjasi tunnin jälkeen ja saat täysin haettavan, muokattavan tekstin sekunneissa. Ei enää luentomuistiinpanojen sivujen uudelleenkirjoittamista ennen tenttejä.",
-
     "use_case_2_title": "Sottainen ja kaunokirjoitus käsiala",
     "use_case_2_desc": "Tekoälymme on koulutettu erityisesti vaikealle käsialalle: hätäiset suttaukset, yhtenäinen kaunokirjoitus ja sekoitetut tekstaus/kaunokirjoitustyylit tunnistetaan kaikki suurella tarkkuudella.",
-
     "use_case_3_title": "Käsinkirjoitetut lomakkeet ja asiakirjat",
     "use_case_3_desc": "Digitoi potilaiden vastaanottolomakkeet, kenttäraportit, laskut ja HR-tietueet puhelimen valokuvasta. Skanneria ei tarvita, kamerasi riittää.",
-
     "use_case_4_title": "Vanhat kirjeet ja päiväkirjat",
     "use_case_4_desc": "Säilytä käsinkirjoitetut perhekirjeet, henkilökohtaiset päiväkirjat ja historialliset asiakirjat muuntamalla ne haettavaksi digitaaliseksi tekstiksi, jota voit jakaa ja arkistoida.",
-
     "comparison_title": "Käsialan tunnistus: Menetelmien vertailu",
     "comparison_subtitle": "Miksi tarkoitukseen rakennettu tekoäly päihittää yleiset työkalut joka kerta.",
     "comparison_col_method": "Menetelmä",
@@ -3463,36 +3099,28 @@
     "comparison_row3_time": "Alle 30 sekuntia",
     "comparison_row3_accuracy": "95–99 % mukaan lukien kaunokirjoitus",
     "comparison_row3_cost": "Ilmainen kokeilla",
-
     "features_title": "Miksi meidän käsialan tunnistus on erilainen",
     "features_subtitle": "Rakennettu erityisesti käsialaa varten, ei mukautettu painetun tekstin työkalusta.",
-
     "feature_1_title": "Koulutettu käsialalla, ei fonteilla",
     "feature_1_desc": "Yleinen OCR oppii painetuista fonteista. Meidän tekoälymme koulutettiin yksinomaan miljoonilla aidoilla käsialanäytteillä: tekstaus, kaunokirjoitus, sekatyylit, hätäiset muistiinpanot ja kaikkea siltä väliltä.",
-
     "feature_2_title": "Lukee sottaista ja kaunokirjoitusta",
     "feature_2_desc": "Yhdistetyt kirjaimet, vaihteleva kallistus, epäjohdonmukainen koko - juuri ne asiat, jotka rikkovat standardi-OCR:n. Neuroverkkomme käsittelee niitä samalla tavalla kuin ihmislukija: käyttämällä kontekstia aukkojen täyttämiseen.",
-
     "feature_3_title": "Tulosteet, joita voit oikeasti käyttää",
     "feature_3_desc": "Tunnistettua tekstiä ei vain dumpata pelkkänä kappaleena. Me rekonstruoimme asettelun, säilytämme luettelot ja otsikot ja viemme Wordiin, Exceliin tai pelkkään tekstiin riippuen siitä, mitä tarvitset.",
-
     "tech_title": "Miten käsialan tunnistus toimii",
     "tech_intro": "Standardi OCR-tekniikka rakennettiin painetulle tekstille: yhtenäisille fonteille, joissa on ennustettavat kirjainmuodot. Käsiala rikkoo jokaista oletusta, joka saa standardi-OCR:n toimimaan. Jokainen ihminen kirjoittaa eri tavalla. Kirjaimet yhdistyvät, menevät päällekkäin, vaihtelevat kooltaan ja kallistukseltaan. Tekoälymme käyttää täysin erilaista lähestymistapaa: neuroverkkoja, jotka on koulutettu miljoonilla käsialanäytteillä ja jotka oppivat lukemaan kuten ihminen — tunnistamalla kuvioita kokonaisista sanoista ja riveistä, ei yksittäisistä merkeistä.",
-
     "tech_detect_title": "Mitä tekoälymme tunnistaa",
     "tech_detect_1": "Tekstauksen ja kaunokirjoituksen, mukaan lukien yhdistetyt ja päällekkäiset kirjaimet",
     "tech_detect_2": "Sotkuiset, hätäiset ja epäjohdonmukaiset kirjoitustyylit",
     "tech_detect_3": "Sekoitetun tekstauksen ja kaunokirjoituksen samalla sivulla",
     "tech_detect_4": "Yliviivatut sanat ja korjaukset",
     "tech_detect_5": "Asiakirjan rakenteen: otsikot, luettelot, kappaleet ja taulukkorivit",
-
     "tech_tips_title": "Vinkkejä parhaisiin tuloksiin",
     "tech_tips_1": "Valokuvaa hyvässä luonnonvalossa, vältä salamaa suoraan sivulle",
     "tech_tips_2": "Pidä puhelinta samansuuntaisena paperin kanssa, ei kulmassa",
     "tech_tips_3": "Varmista, että muste erottuu selvästi paperin taustasta",
     "tech_tips_4": "300 DPI tai korkeampi skannatuille asiakirjoille",
     "tech_tips_5": "Tarkista tuloste: jopa 95 % tarkkuus tarkoittaa satunnaisia korjaustarpeita",
-
     "related_tools_title": "Aiheeseen liittyvät työkalut",
     "related_tool_1_name": "Käsiala Wordiksi",
     "related_tool_1_desc": "Muunna muistiinpanot muotoilluksi .docx:ksi",
@@ -3502,9 +3130,7 @@
     "related_tool_3_desc": "Erikoistunut kaunokirjoituksen OCR-työkalu",
     "related_tool_4_name": "Skannaa käsiala tekstiksi",
     "related_tool_4_desc": "Puhelimen valokuvasta tai PDF-skannauksesta",
-
     "faq_title": "Usein kysytyt kysymykset käsialan tunnistuksesta",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3589,11 +3215,9 @@
         }
       }
     },
-
     "cta_title": "Oletko valmis tunnistamaan käsialasi?",
     "cta_subtitle": "Liity yli 10 000 opiskelijan, tutkijan ja yrityksen joukkoon, jotka ovat lopettaneet käsinkirjoitetun sisällön uudelleenkirjoittamisen.",
     "cta_button": "Kokeile käsialan tunnistusta ilmaiseksi",
-
     "tool_info_1_title": "Ei tarvita sovellusta",
     "tool_info_1_desc": "Toimii selaimessasi. Ei latausta, ei rekisteröitymistä kokeilemista varten.",
     "tool_info_2_title": "Kaunokirjoitus ja sottainen teksti",
@@ -3601,39 +3225,29 @@
     "tool_info_3_title": "Vienti Wordiin, Exceliin ja tekstiksi",
     "tool_info_3_desc": "Saat tunnistetun tekstin siinä muodossa, jota todella tarvitset."
   },
-
   "CursiveToTextPage": {
     "meta_title": "Kaunokirjoitus tekstiksi -muunnin verkossa | NoteOCR",
     "meta_desc": "Muunna kaunokirjoitus kirjoitetuksi tekstiksi välittömästi. Tekoälymme lukee yhtenäisen kirjoituksen, virtaavat silmukat ja yhteenliitetyt kirjaimet yli 95 % tarkkuudella. Ilmainen kaunokirjoituksen OCR verkossa.",
-
     "hero_pill": "Kaunokirjoituksen OCR",
     "hero_title": "Muunna kaunokirjoitus tekstiksi sekunneissa.",
     "hero_subtitle": "Lataa valokuva mistä tahansa kaunokirjoitetuista muistiinpanoista, kirjeistä, päiväkirjoista tai lomakkeista. Tekoälymme purkaa yhtenäisen kirjoituksen ja virtaavat silmukat, joihin yleiset OCR-työkalut eivät pysty koskemaan. Ei sovellusta. Ei rekisteröitymistä. Tulokset alle 30 sekunnissa.",
-
     "trust_ssl": "SSL-salattu",
     "trust_processing": "Alle 30 sekunnissa",
     "trust_accuracy": "95%+ Kaunokirjoituksen tarkkuus",
-
     "before_after_title": "Kaunokirjoitus sisään. Puhdas digitaalinen teksti ulos.",
     "before_after_desc": "Aito kaunokirjoitusnäyte: katso tarkalleen, kuinka tekoälymme käsittelee yhtenäistä, virtaavaa kirjoitusta.",
     "before_label": "Ennen: Kaunokirjoitus",
     "after_label": "Jälkeen: Muunnettu digitaalinen teksti",
-
     "use_cases_title": "Kuka muuntaa kaunokirjoitusta tekstiksi?",
     "use_cases_subtitle": "Sukuhistorioitsijoista, jotka digitoivat vanhoja kirjeitä, opiskelijoihin, jotka puhtaaksikirjoittavat muistiinpanoja – kaunokirjoituksen muuntaminen säästää tunteja manuaalista uudelleenkirjoittamista joka viikko.",
-
     "use_case_1_title": "Vanhat kirjeet ja perhedokumentit",
     "use_case_1_desc": "Muunna isovanhempien käsinkirjoitetut kirjeet, vanhat päiväkirjat ja henkilökohtaiset muistelmat haettavaksi digitaaliseksi tekstiksi. Säilytä sukuhistoria maksamatta ammattimaiselle puhtaaksikirjoittajalle.",
-
     "use_case_2_title": "Opiskelijoiden kaunokirjoitusmuistiinpanot",
     "use_case_2_desc": "Monet opiskelijat kirjoittavat edelleen luento- ja kertausmuistiinpanot kaunokirjoituksella. Valokuvaa muistikirjasi ja saat täysin muokattavan, haettavan tekstin sekunneissa, valmiina kertausasiakirjoja ja esseitä varten.",
-
     "use_case_3_title": "Historialliset ja arkistoasiakirjat",
     "use_case_3_desc": "Digitoi kaunokirjoituksella kirjoitetut rekisterit, perukirjat, seurakuntien rekisterit ja oikeudelliset paperit. Tekoälymme käsittelee vanhempia kaunokirjoitustyylejä, mukaan lukien viktoriaaninen käsiala ja varhaisen 1900-luvun kirjoitus.",
-
     "use_case_4_title": "Ammatilliset kaunokirjoituslomakkeet",
     "use_case_4_desc": "Kenttäraportit, allekirjoitetut vastaanottolomakkeet, käsinkirjoitetut laskut ja potilasmuistiinpanot, jotka on kirjoitettu kaunokirjoituksella – muunna ne muokattavaksi Wordiksi tai Exceliksi yhdessä vaiheessa.",
-
     "comparison_title": "Kaunokirjoituksen OCR: Miten menetelmät vertautuvat",
     "comparison_subtitle": "Kaunokirjoitus on kohta, jossa yleiset työkalut romahtavat. Tässä on syy, miksi tarkoitukseen rakennettu tekoäly on ainoa luotettava vaihtoehto.",
     "comparison_col_method": "Menetelmä",
@@ -3652,36 +3266,28 @@
     "comparison_row3_time": "Alle 30 sekuntia",
     "comparison_row3_accuracy": "90–98 % kaunokirjoituksessa",
     "comparison_row3_cost": "Ilmainen kokeilla",
-
     "features_title": "Miksi kaunokirjoitusmuuntimemme on erilainen",
     "features_subtitle": "Kaunokirjoitus edellä -tekoäly, ei painetun tekstin OCR-työkalu, johon on pultattu kiinni kaunokirjoituskorjaus.",
-
     "feature_1_title": "Lukee yhtenäisiä kirjaimia natiivisti",
     "feature_1_desc": "Standardi OCR segmentoi yksittäiset merkit ennen niiden lukemista. Kaunokirjoitus rikkoo tämän täysin: kirjaimet yhdistyvät ja menevät päällekkäin. Tekoälymme lukee kokonaisia sanoja ja rivejä kerralla, aivan kuten ihmissilmä tekee, mikä tekee yhtenäisestä kirjoituksesta luettavaa siellä, missä muut työkalut luovuttavat.",
-
     "feature_2_title": "Käsittelee silmukoita, kallistusta ja vaihtelua",
     "feature_2_desc": "Jokaisen ihmisen kaunokirjoitus on ainutlaatuinen: eri kokoiset silmukat, kallistuskulmat ja kirjainvälit. Neuroverkkomme on koulutettu miljoonilla aidoilla kaunokirjoitusnäytteillä kymmenien eri kirjoitustyylien yli, joten se yleistää käsialaan, jota se ei ole koskaan ennen nähnyt.",
-
     "feature_3_title": "Vienti Wordiin, Exceliin ja tekstiksi",
     "feature_3_desc": "Muunnettua kaunokirjoitusta ei dumpata muotoilemattomana kappaleena. Me rekonstruoimme asiakirjan asettelun, kappaleet, luettelot, taulukot ja viemme suoraan .docx-, .xlsx- tai pelkkään .txt-muotoon riippuen siitä, mitä tarvitset.",
-
     "tech_title": "Miksi kaunokirjoitus on niin vaikeaa OCR:lle, ja miten ratkaisemme sen",
     "tech_intro": "Standardi OCR suunniteltiin painetulle tekstille. Jokainen sen tekemä oletus — yhtenäiset merkkien muodot, selkeät välit kirjainten välillä, johdonmukainen välistys — rikkoutuu täysin kaunokirjoituksessa. Kaunokirjoituksen kirjaimet sulautuvat yhteen. Sama kirjain näyttää täysin erilaiselta riippuen siitä, mitä sen edellä ja jäljessä on. Kallistus vaihtelee riveittäin. Silmukat ja hännät risteävät muiden kirjainten kanssa. Tekoälymme käyttää pohjimmiltaan erilaista lähestymistapaa: sen sijaan, että se yrittäisi eristää yksittäisiä merkkejä, se lukee kokonaisia sanoja ja rivejä visuaalisina kuvioina — sama strategia, jota sujuvasti lukeva ihminen käyttää kohdatessaan yhtenäistä tekstiä, jota hän ei ole koskaan ennen nähnyt.",
-
     "tech_detect_title": "Mitä tekoälymme käsittelee",
     "tech_detect_1": "Täysin yhtenäinen kaunokirjoitus, jossa kirjaimet eivät ole erillään",
     "tech_detect_2": "Sekoitettu kaunokirjoitus ja tekstaus samalla sivulla",
     "tech_detect_3": "Vaihteleva kallistus: oikealle kallellaan, vasemmalle kallellaan ja pystysuora",
     "tech_detect_4": "Koristeelliset ja yksilölliset kirjainmuodot",
     "tech_detect_5": "Vanhemmat viktoriaaniset ja varhaisen 1900-luvun kaunokirjoitustyylit",
-
     "tech_tips_title": "Vinkkejä parhaaseen kaunokirjoituksen muuntamiseen",
     "tech_tips_1": "Käytä luonnollista päivänvaloa, vältä salamaa, joka litistää musteen kontrastin",
     "tech_tips_2": "Pidä kamera litteänä sivun yläpuolella, ei kulmassa",
     "tech_tips_3": "Varmista tumma muste vaalealla paperilla, vältä varjoja tekstin päällä",
     "tech_tips_4": "Hyvin vanhojen asiakirjojen kohdalla lisää kontrastia valokuvaeditorissa ensin",
     "tech_tips_5": "Tarkista aina tuloste: jopa 95 % tarkkuus tarkoittaa satunnaisia korjauksia pidemmillä sivuilla",
-
     "related_tools_title": "Aiheeseen liittyvät työkalut",
     "related_tool_1_name": "Käsiala Wordiksi",
     "related_tool_1_desc": "Muunna muistiinpanot muotoilluksi .docx:ksi",
@@ -3691,9 +3297,7 @@
     "related_tool_3_desc": "Kaikki käsialatyylit: tekstaus, kaunokirjoitus, sekoitettu",
     "related_tool_4_name": "Skannaa käsiala tekstiksi",
     "related_tool_4_desc": "Puhelimen valokuvasta tai PDF-skannauksesta",
-
     "faq_title": "Usein Kysytyt Kysymykset Kaunokirjoituksen Muuntamisesta Tekstiksi",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3778,11 +3382,9 @@
         }
       }
     },
-
     "cta_title": "Oletko valmis muuntamaan kaunokirjoituksesi?",
     "cta_subtitle": "Lataa mikä tahansa kaunokirjoituskuva, kirje, päiväkirja, muistiinpano tai lomake ja saat puhtaan, muokattavan tekstin alle 30 sekunnissa.",
     "cta_button": "Kokeile kaunokirjoitus tekstiksi ilmaiseksi",
-
     "tool_info_1_title": "Ei tarvita sovellusta",
     "tool_info_1_desc": "Toimii selaimessasi. Ei latausta, ei rekisteröitymistä kokeilemista varten.",
     "tool_info_2_title": "Yhtenäisen kirjoituksen tekoäly",
@@ -3790,39 +3392,29 @@
     "tool_info_3_title": "Vienti Wordiin, Exceliin ja tekstiksi",
     "tool_info_3_desc": "Saat muunnetun tekstisi siinä muodossa, jota todella tarvitset."
   },
-
   "ScanHandwritingToText": {
     "meta_title": "Skannaa käsiala tekstiksi verkossa | NoteOCR",
     "meta_desc": "Skannaa käsinkirjoitetut muistiinpanot tekstiksi välittömästi selaimessasi. Ei sovelluksen latausta. Lataa puhelimen valokuva tai skannerikuva ja saat muokattavan digitaalisen tekstin alle 30 sekunnissa.",
-
     "hero_pill": "Online käsialaskanneri",
     "hero_title": "Skannaa käsiala tekstiksi. Ei vaadi sovellusta.",
     "hero_subtitle": "Ota kuva mistä tahansa käsinkirjoitetusta sivusta puhelimellasi, tai lataa skannaus, ja tekoälymme muuntaa sen puhtaaksi, muokattavaksi tekstiksi alle 30 sekunnissa. Ei ladattavaa sovellusta. Toimii missä tahansa selaimessa millä tahansa laitteella.",
-
     "trust_ssl": "SSL-salattu",
     "trust_processing": "Alle 30 sekunnissa",
     "trust_accuracy": "95%+ Skannaustarkkuus",
-
     "before_after_title": "Skannattu käsiala sisään. Muokattava digitaalinen teksti ulos.",
     "before_after_desc": "Aito skannaustulos näyttää tarkalleen, kuinka tekoälymme käsittelee puhelimella otetun kuvan käsinkirjoitetuista muistiinpanoista.",
     "before_label": "Ennen: Skannattu käsinkirjoitettu sivu",
     "after_label": "Jälkeen: Puhdas muokattava teksti",
-
     "use_cases_title": "Kuka käyttää käsialaskanneria verkossa?",
     "use_cases_subtitle": "Kaikki, joilla on fyysisiä käsinkirjoitettuja sivuja, jotka heidän on digitoitava nopeasti, käyttävät tätä. Skannerilaitteistoa ei tarvita, puhelimesi kamera riittää.",
-
     "use_case_1_title": "Opiskelijat, jotka skannaavat luentomuistiinpanoja",
     "use_case_1_desc": "Valokuvaa kokonaisia muistikirjan sivuja tunnin jälkeen ja saat täysin haettavan, muokattavan tekstin sekunneissa. Lopeta sivujen uudelleenkirjoittaminen ennen tenttejä ja aloita sen sijaan todellinen kertaaminen.",
-
     "use_case_2_title": "Kenttämuistiinpanot ja työmaaraportit",
     "use_case_2_desc": "Insinöörit, maanmittaajat, tarkastajat ja kenttätyöntekijät skannaavat käsinkirjoitetut työmaamuistiinpanot suoraan puhelimestaan ja saavat ne jaettavassa digitaalisessa muodossa ennen kuin edes poistuvat työmaalta.",
-
     "use_case_3_title": "Paperiasiakirjojen ja lomakkeiden digitointi",
     "use_case_3_desc": "Käsin kirjoitetut potilaiden vastaanottolomakkeet, toimituskuitit, tuntilapputietueet, tarkastuslistat - skannaa ne ja saat jäsennellyn muokattavan tekstin valmiina kopioitavaksi tai vietäväksi yhdessä vaiheessa.",
-
     "use_case_4_title": "Henkilökohtaiset päiväkirjat ja muistikirjat",
     "use_case_4_desc": "Digitoi henkilökohtaiset päiväkirjat, reseptikirjat, aivoriihisivut ja käsinkirjoitetut kalenterit yhdellä puhelimen valokuvalla. Säilytä vuosien fyysiset muistikirjat haettavana digitaalisena tekstinä, jota voit käyttää missä tahansa.",
-
     "comparison_title": "Online käsialaskanneri: Vaihtoehtojen vertailu",
     "comparison_subtitle": "Useimmat skannaustyökalut pakottavat sinut asentamaan sovelluksen tai sitovat sinut tilaukseen ennen kuin saat mitään hyödyllistä. NoteOCR ei toimi niin.",
     "comparison_col_method": "Menetelmä",
@@ -3841,36 +3433,28 @@
     "comparison_row3_time": "Alle 30 sekuntia",
     "comparison_row3_accuracy": "95%+ skannatulla käsialalla",
     "comparison_row3_cost": "Ilmainen testata, ei sovellusta, kertamaksu",
-
     "features_title": "Miksi NoteOCR on parempi online käsialaskanneri",
     "features_subtitle": "Erikoisrakennettu käsinkirjoitettujen sivujen skannaamiseen, ei asiakirjaskanneri, joka yrittää käsitellä käsialaa jälkikäteen.",
-
     "feature_1_title": "Puhelimesi on skanneri",
     "feature_1_desc": "Et tarvitse tasoskanneria tai mitään laitteistoa. Ota kuva mistä tahansa käsinkirjoitetusta sivusta puhelimesi kameralla ja lataa se. Tekoälymme korjaa perspektiivin, säätää valaistusta ja poistaa varjot automaattisesti, joten saat puhtaat tulokset epätäydellisestä valokuvasta.",
-
     "feature_2_title": "Lukee sen, mitä tasoskannerit eivät voi",
     "feature_2_desc": "Standardit asiakirjaskannerit ja yleiset OCR-työkalut tuottavat siansaksaa käsialassa, koska ne on rakennettu painetuille fonteille. Neuroverkkomme koulutettiin erityisesti skannatuilla käsialanäytteillä jokaisessa kirjoitustyylissä, joten se lukee sen, mitä muut eivät voi.",
-
     "feature_3_title": "Ei sovellusta. Ei tiliä. Ei odottelua.",
     "feature_3_desc": "Avaa sivu missä tahansa selaimessa, lataa skannattu kuvasi ja saat muokattavan tekstin takaisin. Ei sovelluskauppaa, ei asennusta, ei tilin luomista, ei vahvistussähköpostien odottelua. Toimii täsmälleen samalla tavalla iPhonessa, Androidissa, Macissa, Windowsissa ja Chromebookissa.",
-
     "tech_title": "Miten käsialan skannaus tekstiksi oikeasti toimii",
     "tech_intro": "Kun lataat skannatun käsialakuvan, olipa kyseessä puhelimen valokuva tai tasoskannaus, tekoälymme suorittaa kolme vaihetta automaattisesti. Ensin se esikäsittelee kuvan: korjaa vinouden ja käännön, parantaa kontrastia, poistaa kohinan ja varjot sekä terävöittää musteen paperia vasten. Toiseksi se suorittaa asetteluanalyysin tunnistaakseen, missä tekstirivit, kappaleet ja rakenteelliset elementit sijaitsevat sivulla. Kolmanneksi käsialantunnistusmoottori lukee jokaisen rivin visuaalisena sekvenssinä - ei merkki kerrallaan kuten standardi-OCR, vaan sana ja lauseke kerrallaan käyttäen ympäröivää kontekstia tulkitsemaan epäselviä kirjaimia. Tuloste on jäsenneltyä tekstiä, joka säilyttää alkuperäiset kappaleen- ja rivinvaihdot.",
-
     "tech_detect_title": "Mitä skannerimme käsittelee",
     "tech_detect_1": "Puhelimen kamerakuvat, jotka on otettu pienessä kulmassa - perspektiivi korjataan automaattisesti",
     "tech_detect_2": "Heikossa valossa ja salaman pilaamat kuvat automaattisella kontrastin parannuksella",
     "tech_detect_3": "Tasoskannerin ja asiakirjaskannerin tulosteet 150 DPI:stä ylöspäin",
     "tech_detect_4": "Sekoitetut käsialatyylit samalla skannatulla sivulla",
     "tech_detect_5": "Yliviivatut sanat, nuolet, annotaatiot ja reunahuomautukset",
-
     "tech_tips_title": "Skannausvinkkejä parhaisiin tuloksiin",
     "tech_tips_1": "Pidä puhelintasi suoraan sivun yläpuolella, samansuuntaisena paperin kanssa, ei kulmassa",
     "tech_tips_2": "Käytä luonnollista päivänvaloa missä mahdollista - vältä salamaa, joka litistää musteen kontrastin",
     "tech_tips_3": "Varmista, että koko sivu on kuvakehyksen sisällä ennen kuvan ottamista",
     "tech_tips_4": "Tasoskannauksissa 300 DPI tuottaa huomattavasti parempia tuloksia kuin 150 DPI",
     "tech_tips_5": "Jos muste on haalistunut tai paperi on vanhaa, lisää kontrastia valokuvaeditorissa ennen lataamista",
-
     "related_tools_title": "Aiheeseen liittyvät työkalut",
     "related_tool_1_name": "Käsialan tunnistus",
     "related_tool_1_desc": "Laaja tekoälytunnistus kaikille käsialatyyleille",
@@ -3880,9 +3464,7 @@
     "related_tool_3_desc": "Erikoisskanneri yhtenäiselle kaunokirjoitukselle",
     "related_tool_4_name": "Käsiala Exceliksi",
     "related_tool_4_desc": "Skannaa käsinkirjoitetut taulukot laskentataulukoiksi",
-
     "faq_title": "Usein Kysytyt Kysymykset Käsialan Skannaamisesta Tekstiksi",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3971,11 +3553,9 @@
         }
       }
     },
-
     "cta_title": "Oletko valmis skannaamaan käsialasi tekstiksi?",
     "cta_subtitle": "Lataa mikä tahansa puhelimen valokuva tai skannerin kuva käsinkirjoitetuista muistiinpanoista ja saat muokattavan tekstin takaisin alle 30 sekunnissa. Ei sovellusta. Ei vaadi tiliä.",
     "cta_button": "Skannaa käsiala tekstiksi ilmaiseksi",
-
     "tool_info_1_title": "Ei tarvita sovellusta",
     "tool_info_1_desc": "Toimii selaimessasi millä tahansa laitteella. Ei latausta, ei rekisteröitymistä kokeilemista varten.",
     "tool_info_2_title": "Puhelimen kamera valmiina",

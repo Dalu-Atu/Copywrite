@@ -14,7 +14,6 @@
     "meta_title": "Conversor de Caligrafia para Texto | OCR de Letra Cursiva | NoteOCR",
     "meta_desc": "Converta notas manuscritas em texto digital editável instantaneamente. O OCR de caligrafia com IA mais preciso do mundo."
   },
-
   "Features": {
     "section_label": "O Ecossistema",
     "main_title_1": "Tudo o que você precisa para",
@@ -61,7 +60,6 @@
     "step_3_desc": "O documento é reconstruído em Word, Excel ou Notion, pronto para edição.",
     "processing": "Processando..."
   },
-
   "Why": {
     "label": "POR QUE ESCOLHER-NOS",
     "title_main": "Pare de corrigir",
@@ -111,7 +109,6 @@
       }
     }
   },
-
   "FAQ": {
     "title_main": "Perguntas",
     "title_highlight": "Frequentes",
@@ -234,150 +231,113 @@
       }
     }
   },
-
   "WordPage": {
     "meta_title": "Converter Caligrafia em Word (DOCX) | NoteOCR",
     "meta_desc": "Pare de digitar tudo de novo. Converta notas manuscritas em documentos editáveis do Word com IA. Preserva listas, cabeçalhos e layout automaticamente.",
-
     "hero_pill": "Reconhecimento Inteligente de Documentos",
     "hero_title": "Converta Notas Manuscritas em Documentos do Word",
     "hero_subtitle": "Chega de transcrever seus apontamentos. Nossa IA converte páginas manuscritas em arquivos .docx editáveis, preservando listas, cabeçalhos, margens e a estrutura original do seu layout.",
-
     "trust_ssl": "CRIPTOGRAFIA SSL",
     "trust_processing": "PROCESSAMENTO EM 30 SEGUNDOS",
     "trust_accuracy": "95% DE PRECISÃO NO TEXTO",
-
     "before_after_title": "Veja a Diferença",
     "before_after_desc": "Conversão real mostrando a estrutura e formatação preservadas",
     "before_label": "Antes: Notas Manuscritas",
     "before_placeholder": "[Faça upload das suas notas para ver os resultados aqui]",
     "after_label": "Depois: Documento do Word",
     "after_placeholder": "[Prévia do documento Word formatado]",
-
     "use_cases_title": "Quem usa a conversão de manuscritos para Word?",
     "use_cases_subtitle": "De estudantes a profissionais, milhares digitalizam notas manuscritas diariamente",
-
     "use_case_1_title": "Estudantes e Pesquisadores",
     "use_case_1_desc": "Converta notas de aulas, diários de pesquisa e materiais de estudo em documentos Word pesquisáveis para redação de artigos e gestão de citações.",
-
     "use_case_2_title": "Profissionais de Negócios",
     "use_case_2_desc": "Digitalize atas de reuniões, sessões de brainstorming em quadros brancos e notas de conferências em documentos formatados para relatórios.",
-
     "use_case_3_title": "Autores e Jornalistas",
     "use_case_3_desc": "Transforme rascunhos feitos à mão, roteiros e notas de entrevistas em manuscritos editáveis prontos para edição e publicação.",
-
     "use_case_4_title": "Arquivistas e Historiadores",
     "use_case_4_desc": "Converta documentos históricos, cartas pessoais e diários em arquivos digitais para preservação e pesquisa facilitada.",
-
     "comparison_title": "Notas à Mão vs. Word: Comparação de Métodos",
     "comparison_subtitle": "Por que o NoteOCR economiza horas em comparação à digitação manual",
     "comparison_col_method": "Método",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Precisão",
     "comparison_col_cost": "Custo",
-
     "comparison_row1_method": "Digitação Manual",
     "comparison_row1_time": "60 min / página",
     "comparison_row1_accuracy": "98% (lento e cansativo)",
     "comparison_row1_cost": "Grátis (seu tempo)",
-
     "comparison_row2_method": "Ferramentas OCR Básicas",
     "comparison_row2_time": "10 minutos",
     "comparison_row2_accuracy": "70% (perde a formatação)",
     "comparison_row2_cost": "Grátis a R$ 80",
-
     "comparison_row3_method": "Conversor NoteOCR",
     "comparison_row3_time": "30 segundos",
     "comparison_row3_accuracy": "95% (layout preservado)",
     "comparison_row3_cost": "R$ 45 / 100 páginas",
-
     "features_title": "Por que nosso OCR de caligrafia é diferente",
     "features_subtitle": "Desenvolvido especificamente para converter letra de mão para Word",
-
     "feature_1_title": "Preservação de Layout",
     "feature_1_desc": "Ao contrário do OCR básico que apenas extrai o texto, nossa IA detecta listas, cabeçalhos e parágrafos. Seu documento Word refletirá a estrutura original do seu caderno.",
-
     "feature_2_title": "Reconhecimento de Letra Cursiva e de Forma",
     "feature_2_desc": "Redes neurais avançadas treinadas em milhões de amostras. Lida com letras difíceis, escrita cursiva, estilos mistos e até rasuras com alta precisão.",
-
     "feature_3_title": "Privacidade em Primeiro Lugar",
     "feature_3_desc": "Suas notas são criptografadas durante o upload e excluídas permanentemente após a conversão. Nunca armazenamos ou compartilhamos seu conteúdo manuscrito.",
-
     "tech_title": "Como funciona a tecnologia de reconhecimento de caligrafia",
     "tech_intro": "Ferramentas de OCR padrão tratam manuscritos como texto impresso, destruindo a formatação. O NoteOCR analisa os traços da caneta e a estrutura para recriar suas notas como um documento Word formatado — mantendo listas e recuos exatamente como você escreveu.",
-
     "tech_detect_title": "O que nós detectamos",
     "tech_detect_1": "Parágrafos, listas e cabeçalhos",
     "tech_detect_2": "Letra cursiva e de forma",
     "tech_detect_3": "Textos riscados e correções",
     "tech_detect_4": "Margens e recuos (indents)",
     "tech_detect_5": "Cadernos e folhas soltas",
-
     "tech_tips_title": "Dicas para melhores resultados",
     "tech_tips_1": "Use boa iluminação ao fotografar",
     "tech_tips_2": "Mantenha a câmera paralela à página",
     "tech_tips_3": "300 DPI para documentos escaneados",
     "tech_tips_4": "Garanta contraste entre tinta e papel",
     "tech_tips_5": "Revise o resultado antes de finalizar",
-
     "related_tools_title": "Ferramentas OCR Relacionadas",
-
     "related_tool_1_name": "Imagem para Word",
     "related_tool_1_desc": "Converta textos manuscritos em documentos formatados",
-
     "related_tool_2_name": "Editar PDF online",
     "related_tool_2_desc": "Envie e edite documentos PDF online de qualquer lugar",
-
     "related_tool_3_name": "Editor de documentos online",
     "related_tool_3_desc": "Edite MS Word ou Excel online gratuitamente",
-
     "related_tool_4_name": "Imagem para Texto",
     "related_tool_4_desc": "Converta letra cursiva em imagens para texto editável",
-
     "faq_title": "Perguntas Frequentes sobre a conversão de Caligrafia para Word",
-
     "cta_title": "Pronto para digitalizar suas notas?",
     "cta_subtitle": "Junte-se a mais de 50.000 usuários que já converteram notas com o NoteOCR",
     "cta_button": "Converter minhas notas agora",
-
     "footer_text": "NoteOCR // Processamento Inteligente de Documentos",
-
     "tool_upload_title": "Envie suas notas manuscritas",
     "tool_upload_desc": "Suporta notas de aula, atas de reunião e diários. Funciona com letra cursiva, de forma e mista.",
     "tool_upload_button": "Selecionar Imagem",
     "tool_upload_check_1": "JPG, PNG, PDF",
     "tool_upload_check_2": "Máx 25MB",
     "tool_upload_check_3": "SSL Seguro",
-
     "tool_processing_title": "Analisando caligrafia...",
     "tool_processing_desc": "IA reconhecendo caracteres e preservando o layout",
-
     "tool_complete_title": "Conversão concluída!",
     "tool_complete_desc": "Seu documento Word está pronto. Baixe e edite no Word ou Google Docs.",
     "tool_complete_file_type": "Documento Word (.docx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Baixar Word",
     "tool_new_button": "Novo Documento",
-
     "tool_info_1_title": "Layout Preservado",
     "tool_info_1_desc": "Listas, cabeçalhos e parágrafos permanecem intactos",
-
     "tool_info_2_title": "95% de Precisão",
     "tool_info_2_desc": "Otimizado para letra cursiva e de forma",
-
     "tool_info_3_title": "Formato DOCX",
     "tool_info_3_desc": "Compatível com Word, Docs e Pages",
-
     "tool_tip_label": "Dica Pro:",
     "tool_tip_text": "Para melhores resultados, fotografe suas notas com boa luz e mantenha a câmera reta. Garanta contraste entre a tinta e o papel.",
-
     "toast_success": "Transcrição concluída!",
     "toast_error_type": "Por favor, envie uma imagem válida (JPG, PNG, WEBP) ou PDF",
     "toast_error_size": "O arquivo deve ter menos de 25MB",
     "toast_error_conversion": "A conversão falhou.",
     "toast_download_success": "Documento Word baixado!",
     "toast_download_error": "Falha no download.",
-
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -463,153 +423,112 @@
       }
     }
   },
-
   "PdfPage": {
     "meta_title": "Editar PDF Escaneado Online com OCR | Editor de PDF Grátis | NoteOCR",
     "meta_desc": "Editor de PDF no navegador para documentos digitalizados. Extraia texto manuscrito com IA OCR, adicione assinaturas e edite conteúdo — sem instalação.",
-
     "hero_pill": "Espaço de Trabalho PDF Profissional",
     "hero_title": "Edite PDFs Escaneados Online com IA OCR",
     "hero_subtitle": "O único editor de PDF via navegador feito para documentos escaneados. Carregue PDFs manuscritos, extraia texto com OCR, adicione assinaturas ou crie novos documentos, tudo sem software.",
-
     "trust_ssl": "CRIPTOGRAFIA SSL",
     "trust_processing": "PROCESSAMENTO INSTANTÂNEO",
     "trust_accuracy": "OCR DE MANUSCRITOS",
-
     "workspace_title": "Um Espaço de Trabalho Digital Completo",
     "workspace_subtitle": "Além de um simples OCR. Carregue seus documentos em um ambiente seguro onde você pode editar, pesquisar e gerenciar seus arquivos totalmente na nuvem.",
-
     "workspace_feature_1_title": "Edição de Texto ao Vivo",
     "workspace_feature_1_desc": "Modifique o texto extraído diretamente no seu navegador. Corrija erros, reformate parágrafos e atualize dados antes de exportar.",
-
     "workspace_feature_2_title": "Privacidade em Primeiro Lugar",
     "workspace_feature_2_desc": "Seus documentos são criptografados e processados em um ambiente seguro. Nunca armazenamos seus dados sensíveis sem permissão.",
-
     "workspace_feature_3_title": "Exportação Instantânea",
     "workspace_feature_3_desc": "Terminou de editar? Baixe seu documento limpo como PDF pesquisável, Word ou Excel instantaneamente.",
-
     "use_cases_title": "Quem edita PDFs escaneados online?",
     "use_cases_subtitle": "De escritórios de advocacia ao setor de saúde, milhares editam documentos digitalizados diariamente",
-
     "use_case_1_title": "Profissionais Jurídicos",
     "use_case_1_desc": "Edite contratos escaneados, assine documentos digitalmente, oculte informações sensíveis e prepare processos. Ideal para advogados lidando com arquivos judiciais digitalizados.",
-
     "use_case_2_title": "Pequenas Empresas",
     "use_case_2_desc": "Preencha formulários escaneados, adicione assinaturas da empresa em faturas, combine PDFs em relatórios e anote propostas sem assinaturas caras de Adobe.",
-
     "use_case_3_title": "Estudantes e Educadores",
     "use_case_3_desc": "Anote livros escaneados, combine notas de aula em guias de estudo, preencha formulários de bolsas e converta trabalhos manuais em PDFs pesquisáveis.",
-
     "use_case_4_title": "Profissionais de Saúde",
     "use_case_4_desc": "Edite formulários de pacientes, digitalize prontuários manuscritos, adicione assinaturas em conformidade com as normas e organize prontuários médicos escaneados.",
-
     "comparison_title": "Edição de PDF: Desktop vs. Online",
     "comparison_subtitle": "Por que a edição no navegador vence o software de desktop",
     "comparison_col_tool": "Ferramenta",
     "comparison_col_access": "Acesso",
     "comparison_col_features": "Recursos",
     "comparison_col_cost": "Custo",
-
     "comparison_row1_tool": "Adobe Acrobat Pro",
     "comparison_row1_access": "Exige instalação e atualizações",
     "comparison_row1_features": "Completo, mas sem OCR de manuscritos",
     "comparison_row1_cost": "R$ 90+/mês",
-
     "comparison_row2_tool": "Editores Online Básicos",
     "comparison_row2_access": "Baseado na Web",
     "comparison_row2_features": "OCR limitado, sem manuscritos",
     "comparison_row2_cost": "Grátis a R$ 50",
-
     "comparison_row3_tool": "Editor PDF NoteOCR",
     "comparison_row3_access": "Instantâneo, no navegador",
     "comparison_row3_features": "OCR + Manuscritos + Editor completo",
     "comparison_row3_cost": "Grátis a R$ 40",
-
     "features_title": "Por que nosso editor de PDF escaneado é diferente",
     "features_subtitle": "Desenvolvido especificamente para editar PDFs digitalizados e manuscritos",
-
     "feature_1_title": "OCR para PDFs Escaneados",
     "feature_1_desc": "Converta documentos escaneados e PDFs manuscritos em texto pesquisável e editável. Nossa IA reconhece letra de mão, texto impresso e tabelas mantendo o layout original.",
-
     "feature_2_title": "Suite de Edição Completa",
     "feature_2_desc": "Adicione texto, desenhe assinaturas, insira imagens, destaque seções e organize páginas. Todas as ferramentas profissionais num navegador — sem software de desktop.",
-
     "feature_3_title": "Segurança no Navegador",
     "feature_3_desc": "Criptografia de nível bancário nos uploads. Seus PDFs são processados em containers isolados e excluídos automaticamente após 24 horas.",
-
     "tech_title": "Como funciona o OCR de PDF no navegador",
     "tech_intro": "Editores de PDF tradicionais funcionam apenas com texto digital. O NoteOCR combina OCR avançado com análise de layout para lidar com documentos escaneados e formulários manuscritos — tudo no seu navegador. Detectamos a posição do texto e tornamos seu documento totalmente editável.",
-
     "tech_support_title": "O que suportamos",
     "tech_support_1": "Documentos e formulários manuscritos",
     "tech_support_2": "Contratos e arquivos jurídicos escaneados",
     "tech_support_3": "PDFs baseados em imagem sem camada de texto",
     "tech_support_4": "Assinaturas digitais e anotações",
     "tech_support_5": "Documentos PDF de múltiplas páginas",
-
     "tech_tips_title": "Dicas para melhores resultados",
     "tech_tips_1": "Escaneie em 300 DPI ou superior",
     "tech_tips_2": "Garanta boa iluminação e contraste",
     "tech_tips_3": "Mantenha as páginas planas sem rugas",
     "tech_tips_4": "Use cor/tons de cinza para manuscritos",
     "tech_tips_5": "Carregue diretamente do scanner quando possível",
-
     "related_tools_title": "Ferramentas OCR Relacionadas",
-
     "related_tool_1_name": "Imagem para Word",
     "related_tool_1_desc": "Converta texto manuscrito em documentos formatados",
-
     "related_tool_2_name": "Editar PDF online (sem instalação)",
     "related_tool_2_desc": "Carregue e edite documentos PDF online de qualquer lugar",
-
     "related_tool_3_name": "Editor de documentos online",
     "related_tool_3_desc": "Edite Word ou Excel online gratuitamente",
-
     "related_tool_4_name": "Imagem para Texto",
     "related_tool_4_desc": "Converta letra cursiva em imagem para texto editável",
-
     "faq_title": "Perguntas Frequentes sobre Edição de PDFs Escaneados",
-
     "cta_title": "Pronto para editar PDFs escaneados online?",
     "cta_subtitle": "Junte-se a mais de 100.000 usuários que já editaram documentos com o NoteOCR",
     "cta_button": "Começar a editar agora",
-
     "tool_main_title": "Espaço de Trabalho PDF Profissional",
     "tool_main_desc": "Carregue PDFs escaneados para OCR ou inicie um documento em branco do zero.",
     "tool_upload_button": "Carregar PDF Escaneado",
     "tool_new_button": "Começar do Zero",
-
     "tool_upload_check_1": "Apenas PDF",
     "tool_upload_check_2": "Máx 25MB",
     "tool_upload_check_3": "SSL Seguro",
-
     "tool_info_1_title": "OCR de Manuscritos",
     "tool_info_1_desc": "Extraia texto de documentos escaneados à mão",
-
     "tool_info_2_title": "Suite de Editor Completa",
     "tool_info_2_desc": "Adicione texto, assinaturas, anotações e mais",
-
     "tool_info_3_title": "Baseado no Navegador",
     "tool_info_3_desc": "Sem download de software, funciona instantaneamente",
-
     "tool_tip_label": "Dica Pro:",
     "tool_tip_text": "Para melhores resultados de OCR em PDFs escaneados, use 300 DPI. Formulários manuscritos funcionam melhor com iluminação uniforme.",
-
     "modal_new_title": "Criar Novo PDF",
     "modal_new_desc": "Comece com uma tela em branco e construa seu documento do zero.",
     "modal_new_button": "Criar PDF em Branco",
-
     "modal_upload_title": "Carregar PDF Escaneado",
     "modal_upload_desc": "Importe seu PDF para extrair texto com OCR, adicionar assinaturas ou editar conteúdo.",
     "modal_upload_placeholder": "Clique ou arraste o PDF aqui",
     "modal_upload_info": "Tamanho máx: 25MB • Suporta PDFs escaneados e manuscritos",
-
     "modal_processing_new": "Criando Espaço de Trabalho...",
     "modal_processing_upload": "Processando PDF...",
     "modal_processing_desc": "Configurando seu ambiente seguro de PDF",
-
     "modal_security_badge": "Criptografia de Nível Bancário",
-
     "toast_success_create": "Espaço PDF Pronto!",
     "toast_success_upload": "PDF carregado com sucesso!",
     "toast_error_type": "Por favor, selecione um arquivo PDF válido",
@@ -617,7 +536,6 @@
     "toast_error_create": "Falha ao criar PDF.",
     "toast_error_upload": "Falha ao carregar PDF",
     "toast_error_drop": "Por favor, solte um arquivo PDF válido",
-
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {
@@ -706,20 +624,16 @@
     "router_title": "Que tipo de documento você tem?",
     "router_subtitle": "Nós o direcionaremos para a ferramenta certa para que você obtenha o melhor resultado.",
     "router_back_button": "Voltar ao tipo de documento",
-
     "router_type_standard_label": "PDF Padrão / Digital",
     "router_type_standard_desc": "Contratos digitados, formulários ou qualquer PDF com texto selecionável. Preciso editá-lo, anotá-lo ou assiná-lo.",
     "router_type_standard_cta": "Continuar para o Editor de PDF",
-
     "router_type_handwritten_label": "Notas ou Documentos Manuscritos",
     "router_type_handwritten_desc": "Envie uma foto ou digitalização de anotações, cartas ou documentos manuscritos. Nós os converteremos em um arquivo Word perfeitamente formatado e editável — preservando a estrutura, o espaçamento e o layout.",
     "router_type_handwritten_cta": "Converter Manuscrito em Word →",
-
     "router_type_table_label": "Registros, Tabelas ou Dados Manuscritos",
     "router_type_table_desc": "Envie uma foto ou digitalização de grades, livros-caixa, listas de inventário ou quaisquer registros estruturados manuscritos. Nós os converteremos em uma planilha Excel limpa e com formato profissional.",
     "router_type_table_cta": "Converter Manuscrito em Excel →"
   },
-
   "EditorPage": {
     "meta_title": "Editar Documentos do Office Online Grátis - Editor de Word, Excel e PowerPoint no Navegador",
     "meta_desc": "Editor de documentos online profissional. Crie e edite arquivos Word (DOCX), Excel (XLSX) e PowerPoint (PPTX) diretamente no seu navegador sem o Microsoft Office.",
@@ -914,144 +828,109 @@
   "ExcelPage": {
     "meta_title": "Converter Tabelas Manuscritas para Excel (XLSX) | NoteOCR",
     "meta_desc": "Automatize a entrada de dados. Converta grades manuscritas, tabelas financeiras e cronogramas em planilhas editáveis do Excel instantaneamente com IA.",
-
     "hero_pill": "Reconhecimento de Estrutura de Tabelas",
     "hero_title": "Converta Tabelas Feitas à Mão em Planilhas de Excel",
     "hero_subtitle": "Pare de digitar dados manualmente. Nossa IA detecta linhas, colunas e limites de células em suas notas, mesmo sem linhas desenhadas, e exporta planilhas .xlsx formatadas.",
-
     "trust_ssl": "CRIPTOGRAFIA SSL",
     "trust_processing": "PROCESSAMENTO EM 2 MIN",
     "trust_accuracy": "98% DE PRECISÃO NUMÉRICA",
-
     "before_after_title": "Veja a Diferença",
     "before_after_desc": "Conversão real mostrando a estrutura preservada e a precisão dos dados",
     "before_label": "Antes: Livro Caixa Manuscrito",
     "before_placeholder": "[Faça upload da sua tabela para ver os resultados aqui]",
     "after_label": "Depois: Resultado no Excel",
     "after_placeholder": "[Prévia da planilha formatada]",
-
     "use_cases_title": "Quem utiliza a conversão de manuscrito para Excel?",
     "use_cases_subtitle": "De escritórios de contabilidade a professores, milhares convertem tabelas diariamente",
-
     "use_case_1_title": "Contabilidade e Livro Caixa",
     "use_case_1_desc": "Converta livros contábeis, relatórios de despesas e recibos manuscritos em arquivos Excel para preparação de impostos e auditorias.",
-
     "use_case_2_title": "Gestão de Estoque",
     "use_case_2_desc": "Digitalize contagens de estoque, listas de produtos e registros de armazém. Perfeito para pequenas empresas que controlam o estoque no papel.",
-
     "use_case_3_title": "Professores e Notas",
     "use_case_3_desc": "Transforme cadernetas de notas e listas de alunos em planilhas formatadas para boletins e acompanhamento de progresso.",
-
     "use_case_4_title": "Pesquisa e Coleta de Dados",
     "use_case_4_desc": "Converta notas de campo, respostas de questionários e tabelas de laboratório em conjuntos de dados para softwares estatísticos.",
-
     "comparison_title": "Tabela Manuscrita para Excel: Comparação de Métodos",
     "comparison_subtitle": "Por que o NoteOCR economiza horas em comparação à digitação manual",
     "comparison_col_method": "Método",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Precisão",
     "comparison_col_cost": "Custo",
-
     "comparison_row1_method": "Digitação Manual",
     "comparison_row1_time": "45 minutos",
     "comparison_row1_accuracy": "95% (erro humano)",
     "comparison_row1_cost": "Custo de mão de obra",
-
     "comparison_row2_method": "OCR Genérico",
     "comparison_row2_time": "10 minutos",
     "comparison_row2_accuracy": "50% (perde a estrutura)",
     "comparison_row2_cost": "Grátis - R$ 100",
-
     "comparison_row3_method": "NoteOCR Tables",
     "comparison_row3_time": "2 minutos",
     "comparison_row3_accuracy": "98% estrutura preservada",
     "comparison_row3_cost": "Preço acessível por página",
-
     "features_title": "Por que nosso OCR de Tabelas é diferente",
     "features_subtitle": "Desenvolvido especificamente para tabelas de dados manuscritas",
-
     "feature_1_title": "Detecção Inteligente de Grade",
     "feature_1_desc": "Nossa IA identifica a estrutura da tabela mesmo sem bordas visíveis. Ela reconhece colunas implícitas e alinhamentos de texto.",
-
     "feature_2_title": "Otimizado para Números",
     "feature_2_desc": "Precisão perfeita para dados financeiros. Converta faturas, inventários e balanços preservando a formatação numérica.",
-
     "feature_3_title": "Exportar para Excel ou CSV",
     "feature_3_desc": "Baixe seus dados como Microsoft Excel (.xlsx) com formatação de célula correta ou exporte como CSV para Google Sheets.",
-
     "tech_title": "Como funciona a tecnologia de detecção de grade",
     "tech_intro": "A maioria das ferramentas de OCR trata tabelas como texto simples, destruindo as relações entre as células. A IA do NoteOCR reconstrói a estrutura exata — preservando cabeçalhos e células mescladas.",
-
     "tech_detect_title": "O que detectamos",
     "tech_detect_1": "Limites de células sem linhas desenhadas",
     "tech_detect_2": "Cabeçalhos de coluna e hierarquias",
     "tech_detect_3": "Células mescladas entre colunas",
     "tech_detect_4": "Símbolos de moeda e decimais",
     "tech_detect_5": "Papel quadriculado ou papel em branco",
-
     "tech_tips_title": "Dicas para melhores resultados",
     "tech_tips_1": "Use boa iluminação ao fotografar",
     "tech_tips_2": "Mantenha a câmera paralela à página",
     "tech_tips_3": "300 DPI para documentos escaneados",
     "tech_tips_4": "Capture a tabela inteira em uma única imagem",
     "tech_tips_5": "Revise o resultado antes do uso crítico",
-
     "related_tools_title": "Ferramentas OCR Relacionadas",
-
     "related_tool_1_name": "Imagem para Word",
     "related_tool_1_desc": "Converta texto manuscrito em documentos formatados",
-
     "related_tool_2_name": "Editar PDF online",
     "related_tool_2_desc": "Faça upload e edite PDFs online sem instalação",
-
     "related_tool_3_name": "Editor de documentos online",
     "related_tool_3_desc": "Edite arquivos Word ou Excel online gratuitamente",
-
     "related_tool_4_name": "Imagem para Texto",
     "related_tool_4_desc": "Converta letra cursiva em imagem para texto editável",
-
     "faq_title": "Perguntas Frequentes sobre Conversão de Tabela para Excel",
-
     "cta_title": "Pronto para parar com a digitação manual?",
     "cta_subtitle": "Junte-se a mais de 10.000 usuários que já digitalizam tabelas com o NoteOCR",
     "cta_button": "Converter minha tabela agora",
-
     "tool_upload_title": "Envie sua Tabela Manuscrita",
     "tool_upload_desc": "Suporta livros caixa, folhas de inventário e listas de notas. Funciona com ou sem bordas desenhadas.",
     "tool_upload_button": "Selecionar Imagem",
     "tool_upload_check_1": "JPG, PNG, JPEG",
     "tool_upload_check_2": "Máx 25MB",
     "tool_upload_check_3": "SSL Seguro",
-
     "tool_processing_title": "Detectando estrutura da tabela...",
     "tool_processing_desc": "IA analisando linhas, colunas e limites de células",
-
     "tool_complete_title": "Tabela extraída com sucesso!",
     "tool_complete_desc": "Sua planilha está pronta. Baixe em formato Excel (.xlsx) ou CSV.",
     "tool_complete_file_type": "Planilha Excel",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Baixar Excel",
     "tool_new_button": "Nova Tabela",
-
     "tool_info_1_title": "Detecção Inteligente",
     "tool_info_1_desc": "Funciona com tabelas que não possuem linhas desenhadas",
-
     "tool_info_2_title": "99% de Precisão",
     "tool_info_2_desc": "Otimizado para números e dados financeiros",
-
     "tool_info_3_title": "Formato Excel",
     "tool_info_3_desc": "Compatível com Excel, Google Sheets e bancos de dados",
-
     "tool_tip_label": "Dica Pro:",
     "tool_tip_text": "Para melhores resultados, fotografe a tabela com boa luz e mantenha a câmera nivelada. Scans de 300 DPI funcionam melhor que fotos de baixa resolução.",
-
     "toast_success": "Tabela extraída com sucesso!",
     "toast_error_type": "Por favor, envie uma imagem válida (JPG, PNG, WEBP) ou PDF",
     "toast_error_size": "O arquivo deve ter menos de 25MB",
     "toast_error_extraction": "Falha na extração.",
     "toast_download_success": "Arquivo Excel baixado!",
     "toast_download_error": "Falha no download.",
-
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1265,7 +1144,13 @@
     "comparison": {
       "title": "Especificações Técnicas Detalhadas",
       "subtitle": "Por que o NoteOCR supera scanners genéricos.",
-      "headers": ["Recurso", "Hobby", "Student", "Professional", "Power User"],
+      "headers": [
+        "Recurso",
+        "Hobby",
+        "Student",
+        "Professional",
+        "Power User"
+      ],
       "groups": {
         "core": "Inteligência de Reconhecimento",
         "formats": "Exportação e Tipos de Arquivo",
@@ -1274,32 +1159,62 @@
       "rows": [
         {
           "name": "OCR de Letra de Forma",
-          "values": [true, true, true, true],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Motor de Letra Cursiva",
-          "values": ["Padrão", "Alto", "Ultra", "Ultra"],
+          "values": [
+            "Padrão",
+            "Alto",
+            "Ultra",
+            "Ultra"
+          ],
           "group": "core"
         },
         {
           "name": "Detecção de Tabelas (Excel)",
-          "values": [false, false, true, true],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Preservação de Layout (Word)",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Fórmulas Matemáticas",
-          "values": [false, false, "Básico", "Avançado"],
+          "values": [
+            false,
+            false,
+            "Básico",
+            "Avançado"
+          ],
           "group": "core"
         },
         {
           "name": "Correção de Traços Difíceis",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
@@ -1314,22 +1229,42 @@
         },
         {
           "name": "Limite de Upload em Lote",
-          "values": ["1 Arquivo", "5 Arquivos", "10 Arquivos", "Ilimitado"],
+          "values": [
+            "1 Arquivo",
+            "5 Arquivos",
+            "10 Arquivos",
+            "Ilimitado"
+          ],
           "group": "formats"
         },
         {
           "name": "Duração no Armazenamento",
-          "values": ["24 Horas", "30 Dias", "Para sempre", "Para sempre"],
+          "values": [
+            "24 Horas",
+            "30 Dias",
+            "Para sempre",
+            "Para sempre"
+          ],
           "group": "system"
         },
         {
           "name": "Nível de Criptografia",
-          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "values": [
+            "AES-256",
+            "AES-256",
+            "AES-256",
+            "AES-256"
+          ],
           "group": "system"
         },
         {
           "name": "Prioridade de Processamento",
-          "values": ["Padrão", "Padrão", "Alta", "Tempo Real"],
+          "values": [
+            "Padrão",
+            "Padrão",
+            "Alta",
+            "Tempo Real"
+          ],
           "group": "system"
         }
       ]
@@ -1448,8 +1383,8 @@
       "loading": "A processar..."
     },
     "sidebar": {
-      "hq_title": "Sede em Zurique",
-      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zurique\nSuíça",
+      "hq_title": "Sede",
+      "hq_address": "NoteOCR\n11 Boyo Road, Sapele, Delta State\nNigeria",
       "timezone": "Hora da Europa Central (GMT+1)",
       "support": "Suporte Geral",
       "sales": "Vendas Corporativas",
@@ -1636,7 +1571,6 @@
       "cta": "Comece a Converter Hoje"
     }
   },
-
   "CareersPage": {
     "meta": {
       "title": "Carreiras - NoteOCR | Construa o Futuro da Documentação",
@@ -1910,144 +1844,109 @@
   "pic-to-excel": {
     "meta_title": "Converter Imagem em Excel Online | Conversor de Foto para Excel com IA",
     "meta_desc": "Transforme qualquer foto em uma planilha. Converta JPG, PNG ou prints em Excel (.xlsx) editável instantaneamente. A melhor IA para tabelas, faturas e manuscritos.",
-
     "hero_pill": "Tecnologia de IA de Imagem para Tabela",
     "hero_title": "Converta Foto em Excel com Reconhecimento de Tabela por IA",
     "hero_subtitle": "Transforme fotos, capturas de tela e notas manuscritas em planilhas Excel editáveis. Sem digitação manual. Suporte para JPG e PNG.",
-
     "trust_ssl": "CRIPTOGRAFIA SSL",
     "trust_processing": "CONVERSÃO INSTANTÂNEA",
     "trust_accuracy": "99% DE PRECISÃO EM TABELAS",
-
     "before_after_title": "De Imagem para Planilha",
     "before_after_desc": "Veja como nossa IA extrai dados de imagens estáticas para células editáveis",
     "before_label": "Antes: Imagem / Print",
     "before_placeholder": "[Faça upload de qualquer imagem com uma tabela]",
     "after_label": "Depois: Excel Editável",
     "after_placeholder": "[Visualização do .xlsx formatado]",
-
     "use_cases_title": "Quem precisa de um conversor de Imagem para Excel?",
     "use_cases_subtitle": "De auxiliares de dados a donos de empresas, nós automatizamos o trabalho chato",
-
     "use_case_1_title": "Digitalizar Faturas e Recibos",
     "use_case_1_desc": "Tire uma foto de faturas em papel. Nossa IA extrai os itens, quantidades e preços diretamente em colunas para o seu software de contabilidade.",
-
     "use_case_2_title": "Print de Tela para Excel",
     "use_case_2_desc": "Tem uma tabela em um PDF ou site que não permite copiar e colar? Tire um print e envie. Reconstruímos a grade instantaneamente.",
-
     "use_case_3_title": "Registros Manuscritos",
     "use_case_3_desc": "A única ferramenta que entende escrita à mão. Converta registros de estoque e diários de campo em planilhas digitais.",
-
     "use_case_4_title": "Extratos Financeiros",
     "use_case_4_desc": "Converta fotos de extratos bancários ou livros contábeis. Preservamos pontos decimais e símbolos de moeda para 100% de integridade dos dados.",
-
     "comparison_title": "Imagem para Excel: Por que o NoteOCR vence?",
     "comparison_subtitle": "Não sofra com conversores de PDF genéricos",
     "comparison_col_method": "Método",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Estrutura da Tabela",
     "comparison_col_cost": "Esforço",
-
     "comparison_row1_method": "Digitação Manual",
     "comparison_row1_time": "1 hora/página",
     "comparison_row1_accuracy": "Alto Risco de Erros",
     "comparison_row1_cost": "Alto (Cansativo)",
-
     "comparison_row2_method": "Ferramentas PDF Comuns",
     "comparison_row2_time": "5 minutos",
     "comparison_row2_accuracy": "Falha com Imagens",
     "comparison_row2_cost": "Frustrante",
-
     "comparison_row3_method": "NoteOCR AI",
     "comparison_row3_time": "60 Segundos",
     "comparison_row3_accuracy": "Retenção Perfeita da Grade",
     "comparison_row3_cost": "Automatizado",
-
     "features_title": "A melhor forma de converter fotos em tabelas",
     "features_subtitle": "Projetado para JPGs, PNGs e fotos de celular",
-
     "feature_1_title": "Agnóstico a Formatos",
     "feature_1_desc": "Não tem um PDF? Sem problemas. Somos especialistas em formatos de imagem bruta (JPG, JPEG, PNG) que outros conversores rejeitam.",
-
     "feature_2_title": "Reconstrução Inteligente de Grade",
     "feature_2_desc": "Nossa IA não apenas lê o texto; ela 'enxerga' a grade. Ela alinha dados flutuantes em linhas e colunas, mesmo que a foto esteja inclinada.",
-
     "feature_3_title": "Processamento Mobile-First",
     "feature_3_desc": "Feito para o fluxo 'Tirar Foto e Ir'. Fotografe um documento na sua mesa e receba um arquivo Excel no seu dispositivo em segundos.",
-
     "tech_title": "Como funciona a IA de Imagem para Excel",
     "tech_intro": "Converter uma imagem 'estática' em uma planilha dinâmica é complexo. O NoteOCR usa Visão Computacional para detectar as linhas visuais (ou implícitas) de uma tabela. Ele separa a imagem em um sistema de coordenadas, executa o OCR em cada 'célula' individualmente e remonta os dados em um arquivo .xlsx compatível.",
-
     "tech_detect_title": "O que nós extraímos",
     "tech_detect_1": "Estruturas de tabelas de prints",
     "tech_detect_2": "Dados de fotos tortas ou em ângulo",
     "tech_detect_3": "Números impressos e manuscritos",
     "tech_detect_4": "Layouts de múltiplas colunas",
     "tech_detect_5": "Cabeçalhos e rodapés",
-
     "tech_tips_title": "Dicas para conversões perfeitas",
     "tech_tips_1": "Garanta que a imagem esteja em foco (sem borrão)",
     "tech_tips_2": "Evite sombras sobre a tabela de dados",
     "tech_tips_3": "Corte a imagem apenas na área da tabela relevante",
     "tech_tips_4": "Use configurações de alta resolução (HD)",
     "tech_tips_5": "Use formatos padrão como JPG ou PNG",
-
     "related_tools_title": "Mais Ferramentas de Conversão",
-
     "related_tool_1_name": "Imagem para Word",
     "related_tool_1_desc": "Converta textos manuscritos em documentos formatados",
-
     "related_tool_2_name": "Editar PDF Online",
     "related_tool_2_desc": "Suba e edite documentos PDF de qualquer lugar sem instalar nada",
-
     "related_tool_3_name": "Editor de Documentos Online",
     "related_tool_3_desc": "Edite documentos MS Word ou Excel online gratuitamente",
-
     "related_tool_4_name": "Imagem para Texto",
     "related_tool_4_desc": "Converta texto em imagem para texto editável formatado",
-
     "faq_title": "FAQ: Convertendo Imagens em Excel",
-
     "cta_title": "Transforme essa foto em uma planilha",
     "cta_subtitle": "Pare de digitar. Comece a escanear. Junte-se a mais de 10.000 usuários economizando horas.",
     "cta_button": "Converter Imagem Agora",
-
     "tool_upload_title": "Upload de Imagem para Converter",
     "tool_upload_desc": "Suporta JPG, PNG, WEBP. Funciona com prints, fotos e documentos escaneados.",
     "tool_upload_button": "Selecionar Foto",
     "tool_upload_check_1": "Suporte JPG / PNG",
     "tool_upload_check_2": "Sem Registro Necessário",
     "tool_upload_check_3": "Processamento Seguro",
-
     "tool_processing_title": "Analisando Imagem...",
     "tool_processing_desc": "Identificando estrutura da tabela e extraindo dados",
-
     "tool_complete_title": "Arquivo Excel Pronto!",
     "tool_complete_desc": "Sua imagem foi convertida. Baixe sua planilha abaixo.",
     "tool_complete_file_type": "Microsoft Excel (.xlsx)",
     "tool_complete_status": "SUCESSO",
     "tool_download_button": "Baixar Excel",
     "tool_new_button": "Converter Outra",
-
     "tool_info_1_title": "Qualquer Imagem",
     "tool_info_1_desc": "JPG, PNG e Prints suportados",
-
     "tool_info_2_title": "IA de Tabela",
     "tool_info_2_desc": "Preserva linhas e colunas automaticamente",
-
     "tool_info_3_title": "Editável",
     "tool_info_3_desc": "Saída completa em Excel (.xlsx)",
-
     "tool_tip_label": "Dica de Escaneamento:",
     "tool_tip_text": "Ao converter um documento longo, tire várias fotos de perto em vez de uma foto de longe. Mais clareza é igual a mais precisão.",
-
     "toast_success": "Imagem convertida com sucesso!",
     "toast_error_type": "Por favor, suba um arquivo de imagem válido (JPG, PNG)",
     "toast_error_size": "O arquivo deve ter menos de 25MB",
     "toast_error_extraction": "Não foi possível detectar uma tabela.",
     "toast_download_success": "Planilha salva no dispositivo!",
     "toast_download_error": "Falha no download.",
-
     "FAQ": {
       "items": {
         "pic_to_excel_how": {
@@ -2113,39 +2012,29 @@
       }
     }
   },
-
   "HandwritingRecognitionPage": {
     "meta_title": "Reconhecimento de Escrita à Mão Online | NoteOCR",
     "meta_desc": "Faça o upload de qualquer imagem manuscrita e nossa IA a reconhece e converte em texto formatado instantaneamente. Reconhecimento de escrita à mão grátis online.",
-
     "hero_pill": "Reconhecimento de Caligrafia por IA",
     "hero_title": "Reconhecimento de Escrita à Mão que Realmente Funciona.",
     "hero_subtitle": "Envie uma foto de anotações, formulários ou documentos manuscritos. Nossa IA lê a caligrafia, incluindo letras cursivas difíceis, e as converte em texto formatado e editável em segundos.",
-
     "trust_ssl": "Criptografia SSL",
     "trust_processing": "Processamento em 30 Segundos",
     "trust_accuracy": "99% de Precisão no Reconhecimento",
-
     "before_after_title": "Veja o Reconhecimento em Ação",
     "before_after_desc": "Amostra real de escrita à mão mostrando o que nossa IA lê versus o resultado gerado.",
     "before_label": "Antes: Imagem Manuscrita",
     "after_label": "Depois: Texto Digital Reconhecido",
-
     "use_cases_title": "Quem Usa o Reconhecimento de Escrita à Mão?",
     "use_cases_subtitle": "De estudantes digitalizando anotações a empresas processando formulários, o reconhecimento de caligrafia economiza horas todos os dias.",
-
     "use_case_1_title": "Estudantes e Anotações de Aulas",
     "use_case_1_desc": "Fotografe seu caderno após a aula e obtenha um texto totalmente pesquisável e editável em segundos. Chega de redigitar páginas de anotações antes das provas.",
-
     "use_case_2_title": "Letra Cursiva e \"Letra Feia\"",
     "use_case_2_desc": "Nossa IA é treinada especificamente para caligrafias difíceis. Rabiscos apressados, letras cursivas conectadas e estilos mistos de forma/cursiva são todos reconhecidos com alta precisão.",
-
     "use_case_3_title": "Formulários e Documentos Manuscritos",
     "use_case_3_desc": "Digitalize fichas de pacientes, relatórios de campo, faturas e registros de RH a partir da foto de um celular. Não é necessário scanner, sua câmera é suficiente.",
-
     "use_case_4_title": "Cartas Antigas e Diários",
     "use_case_4_desc": "Preserve cartas de família escritas à mão, diários pessoais e documentos históricos convertendo-os em texto digital pesquisável que você pode compartilhar e arquivar.",
-
     "comparison_title": "Reconhecimento de Caligrafia: Métodos Comparados",
     "comparison_subtitle": "Por que uma IA desenvolvida para esse fim supera as ferramentas genéricas todas as vezes.",
     "comparison_col_method": "Método",
@@ -2164,36 +2053,28 @@
     "comparison_row3_time": "Menos de 30 segundos",
     "comparison_row3_accuracy": "95–99% incluindo letra cursiva",
     "comparison_row3_cost": "Teste grátis",
-
     "features_title": "Por Que Nosso Reconhecimento de Escrita à Mão é Diferente",
     "features_subtitle": "Construído especificamente para escrita à mão, não adaptado de uma ferramenta de texto impresso.",
-
     "feature_1_title": "Treinada com Caligrafia, Não com Fontes",
     "feature_1_desc": "O OCR genérico aprende com fontes impressas. Nossa IA foi treinada exclusivamente com milhões de amostras reais de escrita à mão: letra de forma, cursiva, estilos mistos, anotações apressadas e tudo mais.",
-
     "feature_2_title": "Lê Letra Cursiva e Letra Feia",
     "feature_2_desc": "Letras conectadas, inclinação variável, tamanhos inconsistentes: exatamente as coisas que quebram o OCR padrão. Nossa rede neural lida com elas da mesma maneira que um leitor humano: usando o contexto para preencher as lacunas.",
-
     "feature_3_title": "Resultados Que Você Realmente Pode Usar",
     "feature_3_desc": "O texto reconhecido não é simplesmente jogado como um parágrafo sem formatação. Nós reconstruímos o layout, preservamos listas e cabeçalhos, e exportamos para Word, Excel ou texto simples, dependendo do que você precisa.",
-
     "tech_title": "Como Funciona o Reconhecimento de Escrita à Mão",
     "tech_intro": "A tecnologia OCR padrão foi criada para texto impresso: fontes uniformes com formas de letras previsíveis. A escrita à mão quebra todas as regras que fazem o OCR padrão funcionar. Cada pessoa escreve de forma diferente. As letras se conectam, se sobrepõem, variam em tamanho e inclinação. Nossa IA usa uma abordagem completamente diferente: redes neurais treinadas em milhões de amostras de escrita à mão que aprendem a ler como um humano: reconhecendo padrões em palavras e linhas inteiras, não em caracteres individuais.",
-
     "tech_detect_title": "O Que Nossa IA Detecta",
     "tech_detect_1": "Escrita de forma e cursiva, incluindo letras conectadas e sobrepostas",
     "tech_detect_2": "Estilos de escrita desordenados, apressados e inconsistentes",
     "tech_detect_3": "Mistura de letra de forma e cursiva na mesma página",
     "tech_detect_4": "Palavras riscadas, rasuras e correções",
     "tech_detect_5": "Estrutura do documento: cabeçalhos, listas, parágrafos e linhas de tabelas",
-
     "tech_tips_title": "Dicas para Melhores Resultados",
     "tech_tips_1": "Fotografe com boa luz natural, evite flash diretamente na página",
     "tech_tips_2": "Segure o celular paralelo ao papel, não inclinado",
     "tech_tips_3": "Certifique-se de que a tinta contraste claramente com o fundo do papel",
     "tech_tips_4": "300 DPI ou mais para documentos escaneados",
     "tech_tips_5": "Revise o resultado: mesmo 95% de precisão significa que pequenas correções podem ser necessárias",
-
     "related_tools_title": "Ferramentas Relacionadas",
     "related_tool_1_name": "Manuscrito para Word",
     "related_tool_1_desc": "Converta anotações em .docx formatado",
@@ -2203,9 +2084,7 @@
     "related_tool_3_desc": "Ferramenta OCR especializada em letra cursiva",
     "related_tool_4_name": "Escanear Manuscrito para Texto",
     "related_tool_4_desc": "A partir de foto do celular ou PDF escaneado",
-
     "faq_title": "Perguntas Frequentes Sobre o Reconhecimento de Escrita à Mão",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2290,11 +2169,9 @@
         }
       }
     },
-
     "cta_title": "Pronto para Reconhecer sua Escrita à Mão?",
     "cta_subtitle": "Junte-se a mais de 10.000 estudantes, pesquisadores e empresas que pararam de redigitar conteúdos manuscritos.",
     "cta_button": "Testar Reconhecimento de Escrita à Mão Grátis",
-
     "tool_info_1_title": "Não Precisa de App",
     "tool_info_1_desc": "Funciona no seu navegador. Sem download e sem necessidade de cadastro para testar.",
     "tool_info_2_title": "Letra Cursiva e Garranchos",
@@ -2302,39 +2179,29 @@
     "tool_info_3_title": "Exportação para Word, Excel e Texto",
     "tool_info_3_desc": "Obtenha seu texto reconhecido no formato que você realmente precisa."
   },
-
   "CursiveToTextPage": {
     "meta_title": "Conversor de Letra Cursiva para Texto Online | NoteOCR",
     "meta_desc": "Converta letra cursiva e de mão em texto digital instantaneamente. Nossa IA lê escrita à mão e letras emendadas com +95% de precisão. OCR cursivo grátis online.",
-
     "hero_pill": "OCR para Letra Cursiva e Manuscritos",
     "hero_title": "Converta Letra Cursiva em Texto em Segundos.",
     "hero_subtitle": "Envie uma foto de anotações, cartas, diários ou formulários escritos em letra cursiva (letra de mão). Nossa IA decifra letras emendadas e traços que ferramentas OCR genéricas não conseguem ler. Sem aplicativo. Sem cadastro. Resultados em menos de 30 segundos.",
-
     "trust_ssl": "Criptografia SSL (Seguro)",
     "trust_processing": "Em Menos de 30 Segundos",
     "trust_accuracy": "Precisão de +95% em Cursiva",
-
     "before_after_title": "Letra Cursiva Entra. Texto Digital Limpo Sai.",
     "before_after_desc": "Exemplo real de letra cursiva: veja exatamente como nossa IA lida com a escrita contínua e emendada.",
     "before_label": "Antes: Letra Cursiva (Escrita à mão)",
     "after_label": "Depois: Texto Digital Convertido",
-
     "use_cases_title": "Quem converte Letra Cursiva para Texto?",
     "use_cases_subtitle": "Desde historiadores da família que digitalizam cartas antigas até estudantes transcrevendo anotações de aula, a conversão da letra cursiva economiza horas de digitação manual toda semana.",
-
     "use_case_1_title": "Cartas Antigas e Documentos Familiares",
     "use_case_1_desc": "Converta cartas escritas à mão pelos seus avós, diários antigos e anotações pessoais em texto digital pesquisável. Preserve a história da família sem precisar pagar um transcritor profissional.",
-
     "use_case_2_title": "Anotações de Estudantes em Letra Cursiva",
     "use_case_2_desc": "Muitos estudantes ainda fazem anotações de aulas e resumos com letra de mão. Fotografe seu caderno e obtenha um texto totalmente editável e pesquisável em segundos, pronto para seus trabalhos e resumos.",
-
     "use_case_3_title": "Documentos Históricos e de Arquivo",
     "use_case_3_desc": "Digitalize registros escritos em cursiva, documentos de herança, registros paroquiais e papéis legais. Nossa IA processa estilos de cursiva mais antigos, incluindo caligrafia do século XIX e do início do século XX.",
-
     "use_case_4_title": "Formulários Profissionais",
     "use_case_4_desc": "Relatórios de campo, formulários de admissão assinados, faturas preenchidas à mão e anotações de pacientes escritas em letra cursiva: converta tudo para Word ou Excel editável em apenas um passo.",
-
     "comparison_title": "OCR para Cursiva: Comparativo de Métodos",
     "comparison_subtitle": "É na letra cursiva que as ferramentas genéricas falham. Veja por que uma IA especializada é a única opção confiável.",
     "comparison_col_method": "Método",
@@ -2353,36 +2220,28 @@
     "comparison_row3_time": "Menos de 30 segundos",
     "comparison_row3_accuracy": "90–98% em cursiva",
     "comparison_row3_cost": "Teste grátis",
-
     "features_title": "Por Que Nosso Conversor de Cursiva é Diferente",
     "features_subtitle": "Uma IA criada com foco na letra cursiva, e não uma ferramenta OCR de texto impresso com um remendo para tentar ler caligrafia.",
-
     "feature_1_title": "Lê Letras Conectadas Nativamente",
     "feature_1_desc": "O OCR padrão separa os caracteres individuais antes de lê-los. A letra cursiva quebra isso totalmente, pois as letras se conectam e se sobrepõem. Nossa IA lê palavras e linhas inteiras de uma vez, da mesma forma que o olho humano, tornando a escrita emendada legível onde outras ferramentas desistem.",
-
     "feature_2_title": "Lida com Laços, Inclinação e Variações",
     "feature_2_desc": "A letra cursiva de cada pessoa é única: diferentes tamanhos de laços, ângulos de inclinação e espaçamento entre letras. Nossa rede neural foi treinada com milhões de amostras reais de cursiva em dezenas de estilos de escrita, por isso ela se adapta a caligrafias que nunca viu antes.",
-
     "feature_3_title": "Exporta para Word, Excel e Texto",
     "feature_3_desc": "O texto cursivo convertido não é despejado como um parágrafo sem formatação. Nós reconstruímos o layout do documento, parágrafos, listas e tabelas, e exportamos diretamente para .docx, .xlsx ou texto simples (.txt), dependendo da sua necessidade.",
-
     "tech_title": "Por Que a Letra Cursiva é tão Difícil para o OCR, e Como Resolvemos Isso",
     "tech_intro": "O OCR padrão foi projetado para textos impressos. Todas as suas premissas (formas de caracteres uniformes, espaços claros entre as letras, espaçamento constante) desmoronam com a escrita cursiva. As letras na cursiva se fundem. A mesma letra parece completamente diferente dependendo do que vem antes e depois dela. A inclinação varia linha por linha. Laços e traços cruzam outras letras. Nossa IA adota uma abordagem fundamentalmente diferente: em vez de tentar isolar caracteres individuais, ela lê palavras e linhas inteiras como padrões visuais, a mesma estratégia que um leitor humano fluente usa ao encontrar uma letra de mão que nunca viu antes.",
-
     "tech_detect_title": "O Que a Nossa IA Consegue Processar",
     "tech_detect_1": "Letra cursiva totalmente conectada onde nenhuma letra é separada",
     "tech_detect_2": "Mistura de letra cursiva e letra de forma na mesma página",
     "tech_detect_3": "Inclinação variável: para a direita, para a esquerda e reta",
     "tech_detect_4": "Formas de letras decorativas e altamente personalizadas",
     "tech_detect_5": "Estilos antigos de cursiva do século XIX e início do século XX",
-
     "tech_tips_title": "Dicas para a Melhor Conversão de Letra Cursiva",
     "tech_tips_1": "Use luz natural do dia e evite o flash, que achata o contraste da tinta",
     "tech_tips_2": "Segure a câmera ou celular paralelamente (reto) sobre a página, não em um ângulo inclinado",
     "tech_tips_3": "Garanta tinta escura sobre papel claro e evite sombras sobre o texto",
     "tech_tips_4": "Para documentos muito antigos, aumente o contraste em qualquer editor de fotos antes",
     "tech_tips_5": "Sempre revise o resultado: mesmo com 95% de precisão, páginas longas podem precisar de pequenas correções",
-
     "related_tools_title": "Ferramentas Relacionadas",
     "related_tool_1_name": "Manuscrito para Word",
     "related_tool_1_desc": "Converta anotações para .docx formatado",
@@ -2392,9 +2251,7 @@
     "related_tool_3_desc": "Todos os estilos: letra de forma, cursiva, mista",
     "related_tool_4_name": "Escanear Escrita para Texto",
     "related_tool_4_desc": "A partir de uma foto de celular ou scan em PDF",
-
     "faq_title": "Perguntas Frequentes Sobre a Conversão de Letra Cursiva para Texto",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2479,11 +2336,9 @@
         }
       }
     },
-
     "cta_title": "Pronto para Converter a Sua Letra Cursiva?",
     "cta_subtitle": "Envie qualquer foto com letra cursiva, cartas, diários, anotações ou formulários, e obtenha o texto limpo e editável em menos de 30 segundos.",
     "cta_button": "Testar Cursiva para Texto Grátis",
-
     "tool_info_1_title": "Sem Precisar de App",
     "tool_info_1_desc": "Roda no seu navegador. Sem downloads e não precisa de cadastro para testar.",
     "tool_info_2_title": "IA para Letras Emendadas",
@@ -2491,39 +2346,29 @@
     "tool_info_3_title": "Exportação para Word, Excel e Texto",
     "tool_info_3_desc": "Receba seu texto convertido no formato que você realmente precisa."
   },
-
   "ScanHandwritingToText": {
     "meta_title": "Converter Caligrafia em Texto Online | NoteOCR",
     "meta_desc": "Transforme notas manuscritas em texto instantaneamente no seu navegador. Sem baixar aplicativos. Carregue uma foto do celular e obtenha texto digital editável em menos de 30 segundos.",
-
     "hero_pill": "Scanner de Caligrafia Online",
     "hero_title": "Converta Caligrafia em Texto. Sem Apps.",
     "hero_subtitle": "Tire uma foto de qualquer página manuscrita com seu celular, ou faça o upload de um arquivo, e nossa IA a converte em texto limpo e editável em menos de 30 segundos. Funciona em qualquer navegador e em qualquer dispositivo.",
-
     "trust_ssl": "Criptografia SSL",
     "trust_processing": "Em menos de 30 segundos",
     "trust_accuracy": "95%+ de Precisão no Escaneamento",
-
     "before_after_title": "Caligrafia Escaneada vira Texto Digital Editável.",
     "before_after_desc": "Resultado real mostrando exatamente como nossa IA processa uma foto de celular de notas manuscritas.",
     "before_label": "Antes: Página Manuscrita Escaneada",
     "after_label": "Depois: Texto Limpo e Editável",
-
     "use_cases_title": "Quem usa um Scanner de Caligrafia Online?",
     "use_cases_subtitle": "Qualquer pessoa com páginas físicas manuscritas que precise digitalizar rapidamente. Não é necessário um scanner físico, a câmera do seu celular é suficiente.",
-
     "use_case_1_title": "Estudantes Escaneando Notas de Aula",
     "use_case_1_desc": "Fotografe páginas inteiras de cadernos após a aula e obtenha textos totalmente pesquisáveis e editáveis em segundos. Pare de digitar tudo antes das provas e comece a estudar de verdade.",
-
     "use_case_2_title": "Notas de Campo e Relatórios de Visita",
     "use_case_2_desc": "Engenheiros, agrimensores, inspetores e trabalhadores de campo escaneiam notas manuscritas diretamente do celular e as têm em formato digital compartilhável antes mesmo de saírem do local de trabalho.",
-
     "use_case_3_title": "Digitalização de Registros e Formulários",
     "use_case_3_desc": "Fichas de pacientes, recibos de entrega, registros de ponto, checklists de inspeção feitos à mão — escaneie e obtenha texto estruturado pronto para copiar e colar em um único passo.",
-
     "use_case_4_title": "Diários e Cadernos Pessoais",
     "use_case_4_desc": "Digitalize diários pessoais, livros de receitas, brainstorms e planners com uma única foto. Preserve anos de cadernos físicos como texto digital pesquisável que você pode acessar em qualquer lugar.",
-
     "comparison_title": "Scanner de Caligrafia Online: Comparação de Opções",
     "comparison_subtitle": "A maioria das ferramentas obriga você a instalar um app ou assinar um plano antes de entregar algo útil. O NoteOCR não.",
     "comparison_col_method": "Método",
@@ -2542,36 +2387,28 @@
     "comparison_row3_time": "Menos de 30 segundos",
     "comparison_row3_accuracy": "95%+ em caligrafia escaneada",
     "comparison_row3_cost": "Grátis para testar, sem app, pagamento único",
-
     "features_title": "Por que o NoteOCR é o melhor Scanner de Caligrafia Online",
     "features_subtitle": "Criado especificamente para escanear páginas manuscritas, não um scanner de documentos comum que tenta ler caligrafia como um recurso secundário.",
-
     "feature_1_title": "Seu Celular é o Scanner",
     "feature_1_desc": "Você não precisa de um scanner de mesa ou hardware. Tire uma foto de qualquer página manuscrita com seu celular e envie. Nossa IA corrige a perspectiva, ajusta a iluminação e remove sombras automaticamente para garantir resultados limpos mesmo de fotos imperfeitas.",
-
     "feature_2_title": "Lê o que Scanners Comuns Não Conseguem",
     "feature_2_desc": "Scanners de documentos e ferramentas de OCR comuns geram códigos confusos com caligrafia porque foram feitos para fontes impressas. Nossa rede neural foi treinada especificamente em amostras de caligrafia de diversos estilos, lendo o que outros não conseguem.",
-
     "feature_3_title": "Sem App. Sem Conta. Sem Espera.",
     "feature_3_desc": "Abra a página em qualquer navegador, envie sua imagem e receba o texto editável. Sem loja de apps, sem instalação, sem criação de conta e sem e-mails de confirmação. Funciona perfeitamente em iPhone, Android, Mac, Windows e Chromebook.",
-
     "tech_title": "Como Funciona a Conversão de Caligrafia em Texto",
     "tech_intro": "Ao enviar uma imagem de caligrafia, seja foto de celular ou scanner, nossa IA executa três estágios automáticos. Primeiro, pré-processa a imagem: corrige inclinação, melhora o contraste e remove ruídos. Segundo, analisa o layout para identificar linhas e parágrafos. Terceiro, o motor de reconhecimento lê cada linha como uma sequência visual — não caractere por caractere, mas palavra por palavra, usando o contexto para interpretar letras ambíguas. O resultado é um texto estruturado que preserva seus parágrafos originais.",
-
     "tech_detect_title": "O que nosso Scanner suporta",
     "tech_detect_1": "Fotos de celular tiradas em ângulos leves — perspectiva corrigida automaticamente",
     "tech_detect_2": "Imagens com pouca luz ou excesso de flash com ajuste de contraste",
     "tech_detect_3": "Arquivos de scanners de mesa com 150 DPI ou superior",
     "tech_detect_4": "Estilos de caligrafia mistos na mesma página escaneada",
     "tech_detect_5": "Palavras riscadas, setas, anotações e notas de rodapé",
-
     "tech_tips_title": "Dicas para Melhores Resultados",
     "tech_tips_1": "Segure o celular diretamente acima da página, paralelo ao papel",
     "tech_tips_2": "Use luz natural sempre que possível — evite o flash que remove o contraste da tinta",
     "tech_tips_3": "Certifique-se de que a página inteira está dentro do quadro antes de capturar",
     "tech_tips_4": "Para scans profissionais, 300 DPI produz resultados significativamente melhores",
     "tech_tips_5": "Se a tinta estiver fraca, aumente o contraste em um editor de fotos antes do upload",
-
     "related_tools_title": "Ferramentas Relacionadas",
     "related_tool_1_name": "Reconhecimento de Caligrafia",
     "related_tool_1_desc": "Reconhecimento por IA para todos os estilos de letra",
@@ -2581,9 +2418,7 @@
     "related_tool_3_desc": "Scanner especializado para letra cursiva emendada",
     "related_tool_4_name": "Caligrafia para Excel",
     "related_tool_4_desc": "Escaneie tabelas feitas à mão para planilhas",
-
     "faq_title": "Perguntas Frequentes sobre Escanear Caligrafia para Texto",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2672,11 +2507,9 @@
         }
       }
     },
-
     "cta_title": "Pronto para converter sua caligrafia em texto?",
     "cta_subtitle": "Envie qualquer foto de celular ou scan de notas manuscritas e receba o texto editável em segundos. Sem apps. Sem necessidade de conta.",
     "cta_button": "Escanear Caligrafia Grátis",
-
     "tool_info_1_title": "Sem App Necessário",
     "tool_info_1_desc": "Funciona no navegador de qualquer dispositivo. Sem download, sem complicação.",
     "tool_info_2_title": "Pronto para Celular",
@@ -2684,7 +2517,6 @@
     "tool_info_3_title": "Exportação para Word, Excel e Texto",
     "tool_info_3_desc": "Obtenha seu texto no formato que você realmente precisa para trabalhar."
   },
-
   "TermsPage": {
     "meta_title": "Termos de Serviço – NoteOCR | Acordo do Usuário",
     "meta_desc": "Leia os termos e condições completos que regem o uso da plataforma OCR de caligrafia com IA do NoteOCR, incluindo termos de pagamento, dados, PI e responsabilidade.",
@@ -2693,25 +2525,18 @@
     "last_updated": "Última atualização",
     "date": "Janeiro de 2026",
     "welcome_text": "Bem-vindo ao NoteOCR (anteriormente Copywritee). Estes Termos de Serviço constituem um acordo legalmente vinculativo entre você ('Usuário', 'você', 'seu') e a NoteOCR Inc. ('NoteOCR', 'nós', 'nosso') regendo seu acesso e uso de nosso site, aplicativo da web, API e todos os serviços relacionados (coletivamente, os 'Serviços'). Ao criar uma conta, comprar créditos de página ou acessar os Serviços de qualquer outra forma, você reconhece que leu, entendeu e concorda em ficar vinculado a estes Termos e à nossa Política de Privacidade.",
-
     "s1_t": "Aceitação e Elegibilidade",
     "s1_c": "Você deve ter pelo menos 13 anos de idade para usar o NoteOCR. Se você estiver usando os Serviços em nome de uma empresa, escola ou outra entidade legal, você declara que tem autoridade para vincular essa entidade a estes Termos, caso em que 'você' se refere a essa entidade. Usuários menores de 18 anos devem ter o consentimento dos pais ou responsáveis. Reservamo-nos o direito de recusar o acesso a qualquer pessoa ou entidade a nosso exclusivo critério. Ao continuar a usar nossos Serviços após quaisquer atualizações nestes Termos, você aceita os Termos revisados na íntegra.",
-
     "s2_t": "Descrição dos Serviços",
     "s2_c": "O NoteOCR fornece uma plataforma de digitalização de documentos com tecnologia de IA que converte notas manuscritas, formulários em PDF digitalizados, fotos de quadros brancos e outros materiais analógicos em formatos digitais editáveis, incluindo Microsoft Word (.docx), Excel (.xlsx) e PDF. Os Serviços incluem, mas não se limitam a: reconhecimento de caligrafia por IA (99,2% de precisão), reconstrução inteligente de layout e formato, um editor de documentos baseado em navegador, armazenamento de documentos em nuvem, suporte multilíngue para mais de 30 alfabetos, extração de tabelas para planilhas e uma API para desenvolvedores. Os recursos estão sujeitos a alterações, adições ou remoções a qualquer momento. Não garantimos nenhum formato de saída específico, nível de precisão ou tempo de resposta além do que é expressamente declarado em nossa documentação.",
-
     "s3_t": "Registro de Conta",
     "s3_c": "Para acessar a maioria dos recursos, você deve registrar uma conta fornecendo um endereço de e-mail válido e uma senha segura, ou autenticando-se por meio de um provedor OAuth compatível (ex: Google). Você concorda em fornecer informações de registro precisas, atuais e completas e mantê-las atualizadas. Você é o único responsável por manter a confidencialidade das credenciais da sua conta. Você deve nos notificar imediatamente em support@noteocr.com se suspeitar de qualquer acesso não autorizado à sua conta. O NoteOCR não será responsável por quaisquer perdas decorrentes de acesso não autorizado à conta causado por sua falha em proteger suas credenciais. Cada conta é para um único usuário; o compartilhamento de contas entre vários indivíduos não é permitido, a menos que você esteja em um plano organizacional.",
-
     "s4_t": "Conteúdo do Usuário e Licença",
     "s4_c": "Você retém a propriedade total de todos os documentos, imagens, arquivos e outros materiais que enviar para o NoteOCR ('Conteúdo do Usuário'). Ao enviar o Conteúdo do Usuário, você concede ao NoteOCR uma licença limitada, não exclusiva, isenta de royalties e mundial para acessar, processar, armazenar e reproduzir seu Conteúdo do Usuário exclusivamente com o propósito de fornecer, melhorar e manter os Serviços. Esta licença termina quando você exclui seu conteúdo ou encerra sua conta. Você declara e garante que possui ou tem todos os direitos necessários sobre o Conteúdo do Usuário que envia, e que fazê-lo não infringe a propriedade intelectual ou os direitos de privacidade de terceiros. O NoteOCR não reivindica propriedade sobre seus documentos e nunca usará seu Conteúdo do Usuário para treinar modelos de IA ou aprendizado de máquina.",
-
     "s5_t": "Propriedade Intelectual",
     "s5_c": "Toda a tecnologia, software, código-fonte, algoritmos, interfaces, designs, marcas registradas, logotipos, nomes comerciais e metodologias proprietárias subjacentes à plataforma NoteOCR — incluindo o NoteOCR Engine V2 e todas as versões futuras — são propriedade intelectual exclusiva da NoteOCR Inc. e são protegidos pelas leis aplicáveis de direitos autorais, marcas registradas e segredos comerciais. Nada nestes Termos transfere qualquer propriedade da propriedade intelectual do NoteOCR para você. É concedida a você uma licença limitada, intransferível, não sublicenciável e revogável para acessar e usar os Serviços para seus próprios fins legais durante a vigência de sua conta. Você não pode copiar, modificar, descompilar, fazer engenharia reversa, desmontar ou criar trabalhos derivados de qualquer parte dos Serviços sem nosso consentimento prévio por escrito.",
-
     "s6_t": "Pagamentos e Créditos de Página",
     "s6_c": "O NoteOCR opera em um modelo de pagamento único. Não há assinaturas recorrentes. Você compra créditos de página em pacotes que variam de US$ 8 a US$ 25, e os créditos são deduzidos por página processada. Os créditos não expiram e são acumulativos indefinidamente. Todos os pagamentos são processados com segurança por meio de provedores de pagamento terceirizados e estão sujeitos aos seus termos. Todos os preços estão listados em USD e incluem os impostos aplicáveis, a menos que indicado de outra forma. As compras não são reembolsáveis assim que o processamento da página for iniciado. Se você acredita que uma cobrança está incorreta, entre em contato com support@noteocr.com dentro de 14 dias após a transação. O NoteOCR reserva-se o direito de modificar os preços com aviso razoável. O uso contínuo dos Serviços após uma alteração de preço constitui a aceitação dos novos preços.",
-
     "s7_t": "Atividades Proibidas",
     "prohibited_intro": "Você concorda em não usar o NoteOCR, direta ou indiretamente, para qualquer uma das seguintes atividades. A violação desta seção pode resultar no encerramento imediato da conta sem reembolso.",
     "prohibited_item_1": "Fazer engenharia reversa, descompilar, desmontar ou tentar derivar o código-fonte, algoritmos ou modelos subjacentes da plataforma NoteOCR.",
@@ -2720,31 +2545,22 @@
     "prohibited_item_4": "Interferir, interromper ou tentar obter acesso não autorizado aos servidores, redes ou sistemas de segurança do NoteOCR.",
     "prohibited_item_5": "Usar scripts automatizados, bots ou rastreadores (crawlers) para acessar os Serviços de uma maneira que exceda o uso razoável, sem nosso consentimento expresso por escrito.",
     "prohibited_item_6": "Revender, sublicenciar ou redistribuir comercialmente os Serviços ou resultados sem celebrar um acordo de revenda separado com a NoteOCR Inc.",
-
     "s8_t": "Privacidade e Segurança de Dados",
     "s8_c": "O NoteOCR leva a segurança dos dados a sério. Todos os documentos enviados são criptografados em trânsito usando TLS 1.3 e em repouso usando criptografia AES-256. Seus arquivos são processados em ambientes de computação isolados e são excluídos automaticamente de nossos servidores de processamento após a conclusão da conversão. Os documentos armazenados em sua biblioteca pessoal são retidos até que você os exclua ou encerre sua conta. O NoteOCR é compatível com o GDPR/LGPD e não vende, compartilha ou divulga seu Conteúdo do Usuário a terceiros para qualquer finalidade que não seja a entrega dos Serviços. Não usamos seus documentos para treinar ou ajustar nenhum modelo de IA ou aprendizado de máquina. Para obter detalhes completos sobre como coletamos, processamos e protegemos seus dados pessoais, revise nossa Política de Privacidade em noteocr.com/privacy.",
-
     "s9_t": "Isenções de Responsabilidade e Garantias",
     "s9_c": "Os Serviços são fornecidos 'no estado em que se encontram' e 'conforme disponíveis', sem garantias de qualquer tipo, expressas ou implícitas, incluindo, mas não se limitando a, garantias implícitas de comercialização, adequação a uma finalidade específica e não violação. O NoteOCR não garante que: (a) os Serviços serão ininterruptos, livres de erros ou livres de vírus ou componentes prejudiciais; (b) a precisão da saída OCR atenderá a qualquer limite específico para qualquer documento em particular; ou (c) os defeitos nos Serviços serão corrigidos. A precisão do OCR pode variar com base na qualidade da caligrafia, resolução da imagem e complexidade do documento. Você assume total responsabilidade por verificar a precisão dos documentos convertidos antes de usá-los para fins profissionais, legais, médicos ou financeiros.",
-
     "s10_t": "Limitação de Responsabilidade",
     "s10_c": "Até a extensão máxima permitida pela lei aplicável, a NoteOCR Inc., seus diretores, conselheiros, funcionários e agentes não serão responsáveis por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo, mas não se limitando a, perda de receita, perda de dados, interrupção de negócios ou danos à reputação, decorrentes de ou relacionados ao seu uso — ou incapacidade de uso — dos Serviços, mesmo que o NoteOCR tenha sido avisado da possibilidade de tais danos. Em nenhum caso a responsabilidade agregada do NoteOCR perante você por todas as reivindicações decorrentes destes Termos excederá o valor total pago por você ao NoteOCR nos doze (12) meses anteriores ao evento que deu origem à reivindicação. Nada nestes Termos limita a responsabilidade que não pode ser excluída sob a lei suíça aplicável.",
-
     "s11_t": "Indenização",
     "s11_c": "Você concorda em indenizar, defender e isentar a NoteOCR Inc. e seus diretores, conselheiros, funcionários, contratados e parceiros de e contra quaisquer reivindicações, responsabilidades, danos, julgamentos, prêmios, perdas, custos e despesas (incluindo honorários advocatícios razoáveis) decorrentes de ou relacionados a: (a) sua violação destes Termos; (b) seu Conteúdo do Usuário; (c) seu uso dos Serviços de uma maneira não autorizada por estes Termos; ou (d) sua violação de qualquer propriedade intelectual, privacidade ou outros direitos de terceiros.",
-
     "s12_t": "Rescisão",
     "s12_c": "Qualquer uma das partes pode rescindir este contrato a qualquer momento. Você pode excluir sua conta a qualquer momento nas configurações da sua conta, o que removerá permanentemente seus documentos armazenados. O NoteOCR pode suspender ou encerrar sua conta imediatamente e sem aviso prévio se determinarmos, a nosso exclusivo critério, que você violou estes Termos, se envolveu em atividades fraudulentas ou representou um risco para a segurança ou integridade da nossa plataforma. Após o encerramento, sua licença para usar os Serviços cessa imediatamente. Os créditos de página não utilizados não são reembolsáveis no encerramento voluntário da conta. As seções relativas à propriedade intelectual, indenização, limitação de responsabilidade e lei aplicável sobreviverão à rescisão.",
-
     "s13_t": "Modificações a Estes Termos",
     "s13_c": "O NoteOCR reserva-se o direito de atualizar ou modificar estes Termos a qualquer momento, a nosso exclusivo critério. Quando fizermos alterações materiais, notificaremos os usuários registrados por e-mail e atualizaremos a data de 'Última atualização' na parte superior desta página. Também podemos exibir um aviso dentro da plataforma. O uso contínuo dos Serviços após a data de vigência de quaisquer Termos revisados constitui sua aceitação dessas alterações. Se você não concordar com os Termos atualizados, deverá parar de usar os Serviços e poderá encerrar sua conta.",
-
     "s14_t": "Lei Aplicável e Disputas",
     "s14_c": "Estes Termos e quaisquer disputas decorrentes de ou relacionadas a eles ou aos Serviços serão regidos exclusivamente pelas leis da Suíça, sem considerar suas regras de conflito de leis. Qualquer disputa que não possa ser resolvida informalmente será submetida à jurisdição exclusiva dos tribunais localizados em Zug, Suíça. Antes de iniciar procedimentos formais, ambas as partes concordam em tentar de boa fé resolver qualquer disputa no prazo de 30 dias entrando em contato com support@noteocr.com. Nada nesta seção impede o NoteOCR de buscar medidas cautelares ou outras medidas equitativas em qualquer tribunal de jurisdição competente para proteger seus direitos de propriedade intelectual.",
-
     "s15_t": "Disposições Gerais",
     "s15_c": "Estes Termos, juntamente com nossa Política de Privacidade, constituem o acordo integral entre você e o NoteOCR e substituem todos os acordos, representações e entendimentos anteriores. Se qualquer disposição destes Termos for considerada inexequível, as disposições restantes continuarão em pleno vigor e efeito. A falha do NoteOCR em fazer cumprir qualquer direito ou disposição destes Termos não será considerada uma renúncia a esse direito. Você não pode ceder ou transferir seus direitos ou obrigações sob estes Termos sem o consentimento prévio por escrito do NoteOCR. O NoteOCR pode ceder seus direitos livremente como parte de uma fusão, aquisição ou venda de ativos. Estes Termos não criam nenhuma parceria, joint venture ou relação de emprego entre você e o NoteOCR.",
-
     "contact_t": "Tem dúvidas sobre estes Termos?",
     "contact_d": "Nossa equipe jurídica e de suporte está disponível para esclarecer qualquer aspecto destes Termos de Serviço ou das políticas de nossa plataforma. Normalmente respondemos em até um dia útil.",
     "contact_email_label": "Envie um e-mail para nossa equipe jurídica",
@@ -2758,46 +2574,32 @@
     "last_updated": "Última atualização",
     "date": "Janeiro de 2026",
     "welcome_text": "A NoteOCR Inc. ('NoteOCR', 'nós', 'nosso') está comprometida em proteger seus dados pessoais. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos as informações quando você visita nosso site em noteocr.com ou usa nossa plataforma, API e serviços relacionados (coletivamente, os 'Serviços'). Esta política está em conformidade com o Regulamento Geral de Proteção de Dados (GDPR), a Lei Federal Suíça de Proteção de Dados (nFADP), a LGPD brasileira e outras leis de privacidade aplicáveis. Ao usar o NoteOCR, você concorda com as práticas descritas nesta Política de Privacidade.",
-
     "s1_t": "Quem Somos e Controlador de Dados",
     "s1_c": "A NoteOCR Inc. é o controlador de dados responsável por seus dados pessoais. Somos uma empresa de tecnologia constituída sob a lei suíça e sediada em Zug, Suíça. Nossos Serviços incluem uma plataforma OCR de caligrafia baseada em IA, um editor de documentos em nuvem e uma API para desenvolvedores. Se você tiver dúvidas sobre como lidamos com seus dados pessoais, pode entrar em contato com nosso ponto de contato de proteção de dados em support@noteocr.com. Estamos comprometidos em lidar com seus dados de forma transparente, legal e com o nível de cuidado que eles merecem.",
-
     "s2_t": "Quais Dados Coletamos",
     "s2_c": "Coletamos o mínimo de dados necessários para fornecer e melhorar nossos Serviços. As categorias de dados que coletamos incluem: (a) Informações da Conta, seu nome, endereço de e-mail e senha com hash quando você se registra, ou informações básicas de perfil fornecidas por provedores OAuth, como o Google; (b) Dados de Uso, páginas processadas, saldo de créditos, histórico de conversão, atividade da sessão e interações com recursos para dar suporte à sua conta e melhorar a precisão; (c) Dados de Dispositivos e Técnicos, endereço IP, tipo e versão do navegador, sistema operacional, URL de referência e região geográfica geral (nível de país ou cidade) coletados automaticamente via logs de servidor e cookies; (d) Dados de Pagamento, detalhes de faturamento e registros de transações, processados exclusivamente por nossos processadores de pagamento terceirizados (Stripe). O NoteOCR nunca armazena números de cartão completos ou códigos CVV; (e) Comunicações, mensagens que você nos envia por e-mail ou formulários de suporte, retidas para resolver suas dúvidas; (f) Conteúdo Enviado, documentos, imagens e arquivos que você faz upload para processamento OCR, sujeitos às rígidas regras de manuseio descritas na Seção 4.",
-
     "s3_t": "Como Usamos Seus Dados",
     "s3_c": "Usamos seus dados pessoais apenas para os fins para os quais foram coletados, com as seguintes bases legais: (a) Execução de Contrato, para criar e gerenciar sua conta, processar seus créditos de página, executar conversões de documentos e fornecer os Serviços que você comprou; (b) Interesses Legítimos, para prevenir fraudes, manter a segurança da plataforma, resolver problemas técnicos e gerar análises agregadas que nos ajudam a melhorar o produto; (c) Obrigação Legal, para cumprir com os requisitos fiscais, contábeis e regulatórios aplicáveis na Suíça e na UE; (d) Consentimento, para enviar atualizações opcionais de produtos e anúncios de recursos por e-mail, que você pode retirar a qualquer momento. Nunca vendemos seus dados pessoais ou os usamos para fins publicitários. Não compartilhamos seus dados com corretores de dados, redes de anúncios ou terceiros para perfis comerciais.",
-
     "s4_t": "Seus Documentos Enviados",
     "s4_c": "Os documentos que você envia são tratados com o mais alto nível de confidencialidade e estão sujeitos a rigorosos controles técnicos. Todos os arquivos enviados são criptografados em trânsito usando TLS 1.3 e em repouso usando AES-256. Os arquivos são processados em ambientes de computação isolados e nenhum documento é misturado com os dados de outro usuário durante o processamento. Depois que um trabalho de conversão for concluído, o arquivo de origem será automaticamente excluído de nossos servidores de processamento. Se você armazenar documentos convertidos em sua biblioteca NoteOCR, eles serão retidos até que você os exclua manualmente ou encerre sua conta. Não acessamos, lemos, anotamos ou analisamos o conteúdo de seus documentos para qualquer finalidade que não seja a execução da conversão que você solicitou. Criticamente, o NoteOCR nunca usa o conteúdo de seus documentos enviados para treinar, ajustar, avaliar ou melhorar qualquer modelo de IA ou aprendizado de máquina.",
-
     "s5_t": "Cookies e Rastreamento",
     "s5_c": "Usamos um conjunto mínimo de cookies e tecnologias semelhantes para operar e melhorar nossos Serviços. Os Cookies Estritamente Necessários são essenciais para autenticar sua sessão e mantê-lo conectado, e não podem ser desativados. Os Cookies Funcionais lembram suas preferências, como idioma e tema. Os Cookies de Análise (opcionais) nos ajudam a entender como as páginas são usadas em um nível agregado para que possamos melhorar o produto. Usamos análises que respeitam a privacidade e não implementamos cookies de publicidade de terceiros ou pixels de rastreamento entre sites de qualquer tipo. Você pode gerenciar suas preferências de cookies a qualquer momento nas configurações do seu navegador ou em nosso banner de cookies na plataforma. Desativar cookies opcionais não afetará sua capacidade de usar os Serviços principais.",
-
     "s6_t": "Compartilhamento de Dados e Terceiros",
     "s6_c": "Compartilhamos dados pessoais com um conjunto limitado de provedores de serviços confiáveis que nos auxiliam na operação de nossa plataforma, e apenas na medida do necessário. Eles incluem: (a) Stripe, processamento de pagamentos, sujeito à conformidade com PCI-DSS; (b) Google OAuth, autenticação de login opcional; (c) Provedores de Infraestrutura de Nuvem, armazenamento e computação de servidores criptografados, disponíveis nas regiões US-East (N. Virginia), EU (Frankfurt) e APAC (Cingapura); (d) Entrega de E-mail, serviços de e-mail transacional e de notificação. Todos os processadores de terceiros estão vinculados por acordos de processamento de dados (DPAs) que os proíbem de usar seus dados para qualquer finalidade que não seja o serviço que eles nos prestam. Não transferimos dados pessoais a terceiros para marketing, definição de perfis ou qualquer finalidade comercial além da operação dos Serviços.",
-
     "s7_t": "Transferências Internacionais de Dados",
     "s7_c": "O NoteOCR está sediado na Suíça, que a Comissão Europeia reconhece como fornecendo um nível adequado de proteção de dados. Quando transferimos dados pessoais para provedores de serviços operando fora do EEE ou da Suíça (por exemplo, infraestrutura de nuvem nos EUA ou APAC), contamos com as Cláusulas Contratuais Padrão (SCCs) da Comissão Europeia ou mecanismos de transferência equivalentes para garantir que seus dados recebam o mesmo nível de proteção que teriam no EEE. Você pode selecionar sua região de processamento de dados preferida (UE, EUA ou APAC) nas configurações da sua conta. Por padrão, as novas contas são atribuídas à região da UE (Frankfurt).",
-
     "s8_t": "Retenção de Dados",
     "s8_c": "Retemos seus dados pessoais apenas pelo tempo necessário para cumprir os propósitos descritos nesta política. As Informações da Conta são retidas pela duração de sua conta e por até 90 dias após o encerramento da conta para permitir a recuperação ou resolução de disputas, após o que são permanentemente excluídas. Os arquivos de origem processados são excluídos automaticamente após a conclusão da conversão. Os documentos armazenados em sua biblioteca NoteOCR são retidos até você excluí-los ou encerrar sua conta. Os registros de pagamentos e transações são retidos por 7 anos em conformidade com os regulamentos fiscais suíços e da UE. As comunicações de suporte são retidas por até 3 anos. Dados de análise anonimizados e agregados podem ser retidos indefinidamente, pois não identificam nenhum indivíduo.",
-
     "s9_t": "Seus Direitos de Privacidade",
     "s9_c": "Dependendo da sua localização, você pode ter os seguintes direitos em relação aos seus dados pessoais: Direito de Acesso, solicitar uma cópia de todos os dados pessoais que mantemos sobre você; Direito à Retificação, solicitar correção de dados imprecisos ou incompletos; Direito ao Apagamento, solicitar a exclusão de seus dados pessoais onde não houver base legal primordial para sua retenção; Direito à Restrição, solicitar que limitemos a forma como processamos seus dados enquanto uma disputa é resolvida; Direito à Portabilidade, receber seus dados em um formato estruturado e legível por máquina; Direito de Oposição, opor-se ao processamento com base em interesses legítimos, incluindo definição de perfis; Direito de Retirar o Consentimento, retirar o consentimento para comunicações por e-mail a qualquer momento sem afetar o processamento anterior. Para exercer qualquer um desses direitos, envie um e-mail para support@noteocr.com com o assunto 'Solicitação de Privacidade'. Responderemos dentro de 30 dias. Você também tem o direito de apresentar uma reclamação à autoridade local de proteção de dados (como a ANPD no Brasil).",
-
     "s10_t": "Medidas de Segurança",
     "s10_c": "Implementamos medidas de segurança técnicas e organizacionais projetadas para proteger seus dados pessoais contra acesso não autorizado, alteração, divulgação ou destruição. Essas medidas incluem: criptografia AES-256 em repouso para todos os arquivos armazenados e dados de conta; criptografia TLS 1.3 para todos os dados em trânsito; ambientes de computação isolados para cada trabalho de processamento de documento; controles de acesso baseados em funções limitando o acesso interno a dados pessoais com base na estrita necessidade de saber; auditorias regulares de segurança e testes de invasão; e exclusão automática de arquivos de origem após a conclusão do processamento. Apesar dessas medidas, nenhum método de transmissão pela Internet ou armazenamento eletrônico é 100% seguro. Se tomarmos conhecimento de uma violação de dados pessoais que represente um risco aos seus direitos e liberdades, notificaremos você e a autoridade supervisora relevante em até 72 horas, conforme exigido pelo GDPR.",
-
     "s11_t": "Privacidade de Crianças",
     "s11_c": "O NoteOCR não é direcionado a crianças menores de 13 anos e não coletamos intencionalmente dados pessoais de crianças menores de 13 anos. Usuários entre 13 e 18 anos devem ter o consentimento dos pais ou responsáveis antes de usar nossos Serviços, conforme declarado em nossos Termos de Serviço. Se você for pai/mãe ou responsável e acreditar que seu filho forneceu dados pessoais ao NoteOCR sem o seu consentimento, entre em contato conosco em support@noteocr.com. Iremos investigar e excluir imediatamente quaisquer dados do tipo. Não veiculamos intencionalmente conteúdo personalizado ou publicidade para menores.",
-
     "s12_t": "Alterações a Esta Política",
     "s12_c": "Podemos atualizar esta Política de Privacidade de tempos em tempos para refletir mudanças em nossas práticas, tecnologia, requisitos legais ou por outros motivos operacionais. Quando fizermos alterações materiais, notificaremos os usuários registrados por e-mail e atualizaremos a data de 'Última atualização' na parte superior desta página. Também podemos exibir um banner dentro da plataforma para chamar a atenção para mudanças significativas. O uso contínuo dos Serviços após a data de vigência de qualquer Política de Privacidade revisada constitui sua aceitação dessas alterações. Encorajamos você a revisar esta política periodicamente. Versões anteriores desta política estão disponíveis mediante solicitação.",
-
     "s13_t": "Contato e DPO",
     "s13_c": "Se você tiver dúvidas, preocupações ou solicitações em relação a esta Política de Privacidade ou à maneira como lidamos com seus dados pessoais, entre em contato conosco. Estamos comprometidos em resolver todas as dúvidas relacionadas à privacidade de forma rápida e de boa fé. Você também tem o direito de encaminhar preocupações não resolvidas a uma autoridade supervisora. Na Suíça, este é o Comissário Federal de Proteção de Dados e Informação (FDPIC). No Brasil, você pode contatar a Autoridade Nacional de Proteção de Dados (ANPD). Na UE, você pode entrar em contato com a autoridade de proteção de dados em seu estado membro.",
-
     "rights_title": "Seus Direitos em Resumo",
     "right_access": "Acessar seus dados",
     "right_rectify": "Corrigir imprecisões",
@@ -2806,7 +2608,6 @@
     "right_portability": "Exportar seus dados",
     "right_object": "Opor-se a perfis",
     "right_consent": "Retirar consentimento",
-
     "data_table_title": "Dados Que Coletamos",
     "data_col_type": "Tipo de Dado",
     "data_col_purpose": "Propósito",
@@ -2832,7 +2633,6 @@
     "data_row5_purpose": "Resolução de suporte",
     "data_row5_basis": "Interesse legítimo",
     "data_row5_retention": "3 anos",
-
     "security_title": "Compromissos de Segurança",
     "security_badge1": "AES-256 em Repouso",
     "security_badge2": "TLS 1.3 em Trânsito",
@@ -2842,158 +2642,119 @@
     "security_badge6": "Pen Tests Regulares",
     "security_badge7": "Zero Treinamento de IA",
     "security_badge8": "Compatível com GDPR",
-
     "welcome_text_short": "Por favor, leia esta política com atenção. Ela descreve como o NoteOCR lida com seus dados pessoais em linguagem simples.",
-
     "contact_t": "Dúvidas sobre privacidade ou solicitação de dados?",
     "contact_d": "Nossa equipe cuida pessoalmente de todas as dúvidas sobre privacidade. Quer você queira acessar, corrigir ou excluir seus dados, ou apenas fazer uma pergunta — respondemos em até 30 dias, conforme exigido pelo GDPR e pela LGPD.",
     "contact_email_label": "Envie um e-mail para a equipe de privacidade",
     "contact_response": "Resposta em até 30 dias (requisito GDPR/LGPD)"
   },
-
   "JpgToWord": {
     "meta_title": "Converter JPG para Word | Extrair Texto de JPEG para DOCX",
     "meta_desc": "Converta imagens JPG e JPEG em documentos do Word editáveis instantaneamente. Nosso OCR avançado extrai texto de fotos, capturas de tela e digitalizações preservando a formatação.",
-
     "hero_pill": "OCR Rápido de Imagem para Texto",
     "hero_title": "Converta Imagens JPG para Documentos Word Instantaneamente",
     "hero_subtitle": "Pare de digitar textos de imagens. Envie qualquer JPG, JPEG ou foto e nossa IA avançada extrairá o texto de forma precisa em um arquivo do Microsoft Word (.docx) totalmente editável.",
-
     "trust_ssl": "UPLOAD SEGURO DE 256 BITS",
     "trust_processing": "PROCESSAMENTO RÁPIDO DE JPEG",
     "trust_accuracy": "OCR DE ALTA FIDELIDADE",
-
     "before_after_title": "De Imagem Plana a Texto Editável",
     "before_after_desc": "Veja como extraímos perfeitamente o texto preso em um JPG para um formato editável.",
     "before_label": "Antes: Imagem JPG original",
     "before_placeholder": "",
     "after_label": "Depois: Documento Word editável",
     "after_placeholder": "",
-
     "use_cases_title": "Por que converter JPG para Word?",
     "use_cases_subtitle": "A maneira mais fácil de tornar o texto preso em imagens totalmente editável.",
-
     "use_case_1_title": "Documentos Digitalizados",
     "use_case_1_desc": "Transforme JPEGs digitalizados de contratos, faturas e cartas oficiais em texto editável preservando parágrafos e layout.",
-
     "use_case_2_title": "Capturas de Tela (Screenshots)",
     "use_case_2_desc": "Converta capturas de tela JPG de sites, PDFs restritos ou aplicativos em texto que você pode copiar, editar e formatar instantaneamente no Word.",
-
     "use_case_3_title": "Fotos de Páginas Impressas",
     "use_case_3_desc": "Tirou uma foto de um livro, manual ou revista? Extraia o texto com precisão sem ter que digitar uma única palavra.",
-
     "use_case_4_title": "Imagens com Caligrafia",
     "use_case_4_desc": "Ao contrário de conversores básicos, nosso mecanismo também pode ler e converter fotos JPG contendo notas manuscritas ou sessões de quadro branco.",
-
     "comparison_title": "JPG para Word: Por que outros conversores falham",
     "comparison_subtitle": "A maioria das ferramentas apenas cola sua imagem em um arquivo do Word. O NoteOCR realmente extrai o texto.",
     "comparison_col_method": "Método",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Extração de Texto",
     "comparison_col_cost": "Custo",
-
     "comparison_row1_method": "Digitação Manual",
     "comparison_row1_time": "15-30 minutos",
     "comparison_row1_accuracy": "Alta (mas tediosa)",
     "comparison_row1_cost": "Seu tempo",
-
     "comparison_row2_method": "Conversores Padrão",
     "comparison_row2_time": "1 minuto",
     "comparison_row2_accuracy": "0% (Só cola a imagem)",
     "comparison_row2_cost": "Geralmente pago",
-
     "comparison_row3_method": "NoteOCR (Extração com IA)",
     "comparison_row3_time": "15 Segundos",
     "comparison_row3_accuracy": "98%+ Texto Editável",
     "comparison_row3_cost": "Teste Grátis",
-
     "features_title": "Extração Avançada de Texto em JPG",
     "features_subtitle": "Criado especificamente para extrair texto preciso de arquivos de imagem.",
-
     "feature_1_title": "Aceita Formatos JPG e JPEG",
     "feature_1_desc": "Seja seu arquivo terminado em .jpg ou .jpeg, nosso sistema lida perfeitamente com imagens padrão da web, fotos de telefone e capturas de câmera de alta resolução.",
-
     "feature_2_title": "Preservação de Layout e Parágrafos",
     "feature_2_desc": "Nós não apenas jogamos um texto sem formatação. Nosso OCR detecta quebras de linha, parágrafos e estruturas de lista para que o documento Word baixado fique parecido com a imagem original.",
-
     "feature_3_title": "Suporte Multilíngue",
     "feature_3_desc": "Extraia texto de JPEGs em português, inglês, espanhol, francês, alemão e dezenas de outros idiomas com reconhecimento de caracteres especializado.",
-
     "tech_title": "Como Funciona Nosso Mecanismo de Imagem para Word",
     "tech_intro": "Converter um arquivo JPG em um documento Word editável requer Reconhecimento Óptico de Caracteres (OCR). O NoteOCR analisa os pixels da sua imagem, identifica letras e palavras individuais, mapeia a estrutura do documento e gera um arquivo Microsoft Word nativo que você pode editar imediatamente.",
-
     "tech_detect_title": "O que o Mecanismo Processa",
     "tech_detect_1": "Texto impresso padrão e tipografia",
     "tech_detect_2": "Texto em cursivo e manuscrito na imagem",
     "tech_detect_3": "Espaçamento de parágrafos e quebras de linha",
     "tech_detect_4": "Ajuste de contraste e remoção de ruído de fundo da imagem",
     "tech_detect_5": "Correção automática de orientação",
-
     "tech_tips_title": "Dicas para a Melhor Conversão",
     "tech_tips_1": "Garanta que a imagem não esteja borrada",
     "tech_tips_2": "Evite sombras muito escuras sobre o texto",
     "tech_tips_3": "Mantenha o texto paralelo à câmera",
     "tech_tips_4": "JPEGs de resolução mais alta produzem resultados melhores",
     "tech_tips_5": "Corte fundos desnecessários, se possível",
-
     "related_tools_title": "Outras Ferramentas de Conversão",
-
     "related_tool_1_name": "Imagem para Excel",
     "related_tool_1_desc": "Extraia tabelas de dados de imagens para planilhas",
-
     "related_tool_2_name": "Foto para Word",
     "related_tool_2_desc": "Converta fotos de câmeras diretamente para o Word",
-
     "related_tool_3_name": "Caligrafia para Texto",
     "related_tool_3_desc": "Transcrição especializada de cursivo e anotações",
-
     "related_tool_4_name": "Editor Online",
     "related_tool_4_desc": "Edite seus documentos com segurança no navegador",
-
     "faq_title": "Perguntas Frequentes sobre JPG para Word",
-
     "cta_title": "Pronto para Extrair o Texto do seu JPG?",
     "cta_subtitle": "Pare de digitar e comece a editar em segundos.",
     "cta_button": "Fazer upload do JPG agora",
-
     "footer_text": "NoteOCR // Processamento Inteligente de Imagens",
-
     "tool_upload_title": "Faça Upload da sua Imagem JPG",
     "tool_upload_desc": "Suporta fotos padrão, capturas de tela e imagens digitalizadas. Extrairemos o texto e forneceremos um documento do Word formatado.",
     "tool_upload_button": "Selecionar JPG / JPEG",
     "tool_upload_check_1": "JPG, JPEG, PNG",
     "tool_upload_check_2": "Máx 25MB",
     "tool_upload_check_3": "Excluído após 24h",
-
     "tool_processing_title": "Extraindo Texto da Imagem...",
     "tool_processing_desc": "Executando OCR e formatando seu documento Word",
-
     "tool_complete_title": "Extração Concluída!",
     "tool_complete_desc": "Seu texto foi extraído com sucesso. Baixe seu arquivo editável abaixo.",
     "tool_complete_file_type": "Documento do Word (.docx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Baixar Word",
     "tool_new_button": "Converter Outro JPG",
-
     "tool_info_1_title": "Totalmente Editável",
     "tool_info_1_desc": "O texto é extraído, e não apenas colado como uma imagem",
-
     "tool_info_2_title": "Layout Mantido",
     "tool_info_2_desc": "Parágrafos e quebras de linha são preservados",
-
     "tool_info_3_title": "DOCX Universal",
     "tool_info_3_desc": "Abre no MS Word, Google Docs e Apple Pages",
-
     "tool_tip_label": "Dica de Especialista:",
     "tool_tip_text": "Se o seu JPG estiver muito escuro ou tiver baixo contraste, tente aumentar um pouco o brilho no seu dispositivo antes de fazer o upload para obter a melhor precisão de OCR absoluta.",
-
     "toast_success": "Imagem convertida com sucesso!",
     "toast_error_type": "Por favor, faça o upload de um arquivo de imagem válido (JPG, JPEG, PNG)",
     "toast_error_size": "O tamanho do arquivo deve ser inferior a 25 MB",
     "toast_error_conversion": "A conversão falhou. Tente uma imagem mais nítida.",
     "toast_download_success": "Documento do Word baixado!",
     "toast_download_error": "Falha no download.",
-
     "FAQ": {
       "items": {
         "how_to_convert": {
@@ -3042,146 +2803,110 @@
   "ScanToWord": {
     "meta_title": "Scanner para Word | Converter Documentos Digitalizados em Texto Editável",
     "meta_desc": "Converta documentos digitalizados do seu scanner de mesa ou aplicativo móvel diretamente em arquivos editáveis do Microsoft Word com OCR de nível profissional.",
-
     "hero_pill": "OCR Profissional de Documentos",
     "hero_title": "Converta Digitalizações em Documentos do Word",
     "hero_subtitle": "Digitalize sua papelada instantaneamente. Envie imagens digitalizadas de contratos, livros ou documentos físicos e nossa IA os reconstruirá como arquivos do Microsoft Word (.docx) totalmente editáveis.",
-
     "trust_ssl": "SEGURANÇA DE NÍVEL EMPRESARIAL",
     "trust_processing": "CAPAZ DE ALTOS VOLUMES",
     "trust_accuracy": "99% DE PRECISÃO DE IMPRESSÃO",
-
     "before_after_title": "Do Papel Físico para o Documento Digital",
     "before_after_desc": "Veja como convertemos uma digitalização plana em um documento de texto totalmente funcional.",
     "before_label": "Antes: Imagem de papel digitalizada",
     "before_placeholder": "",
     "after_label": "Depois: Documento Word editável",
     "after_placeholder": "",
-
     "use_cases_title": "Quem usa nossa ferramenta de Scanner para Word?",
     "use_cases_subtitle": "Construído para profissionais que lidam com muita papelada.",
-
     "use_case_1_title": "Jurídico e Imobiliário",
     "use_case_1_desc": "Digitalize contratos físicos assinados, contratos de aluguel e escrituras e, em seguida, converta-os para o Word para editar cláusulas ou atualizar termos facilmente.",
-
     "use_case_2_title": "Administração de Escritórios",
     "use_case_2_desc": "Pare de redigitar manualmente memorandos impressos, faturas de fornecedores e correspondências físicas. Digitalize e converta-os em texto editável em segundos.",
-
     "use_case_3_title": "Autores e Editoras",
     "use_case_3_desc": "Digitalize livros antigos esgotados, manuscritos impressos ou artigos de revistas usando um scanner de mesa para criar arquivos digitais editáveis.",
-
     "use_case_4_title": "Pesquisa Acadêmica",
     "use_case_4_desc": "Digitalize páginas de livros de referência ou arquivos de biblioteca e converta-as em documentos do Word para facilitar citação, destaque e pesquisa.",
-
     "comparison_title": "Digitalizando Documentos: A Melhor Abordagem",
     "comparison_subtitle": "Por que a transcrição manual é coisa do passado para documentos digitalizados.",
     "comparison_col_method": "Método",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Retenção de Layout",
     "comparison_col_cost": "Custo",
-
     "comparison_row1_method": "Entrada Manual de Dados",
     "comparison_row1_time": "1 hora a cada 5 páginas",
     "comparison_row1_accuracy": "Perde o layout original",
     "comparison_row1_cost": "Alto custo de mão de obra",
-
     "comparison_row2_method": "Conversores Online Gratuitos",
     "comparison_row2_time": "2 minutos",
     "comparison_row2_accuracy": "Ruim (Bagunça margens)",
     "comparison_row2_cost": "Grátis",
-
     "comparison_row3_method": "Mecanismo de Scanner NoteOCR",
     "comparison_row3_time": "20 Segundos",
     "comparison_row3_accuracy": "Mantém parágrafos e listas",
     "comparison_row3_cost": "Teste Grátis",
-
     "features_title": "Feito para Mídia Digitalizada",
     "features_subtitle": "Recursos avançados para lidar com as peculiaridades dos scanners de hardware.",
-
     "feature_1_title": "Alinhamento Automático e Rotação",
     "feature_1_desc": "Você colocou o papel no scanner um pouco torto? Nosso mecanismo endireita automaticamente as digitalizações inclinadas antes de extrair o texto.",
-
     "feature_2_title": "Remoção de Manchas e Ruídos",
     "feature_2_desc": "Scanners antigos geralmente deixam pontos ou linhas pretas na imagem. Nossa IA limpa o fundo digitalizado para garantir o reconhecimento de texto perfeito.",
-
     "feature_3_title": "Preserva a Estrutura do Documento",
     "feature_3_desc": "Mantém os cabeçalhos, marcadores e recuos de parágrafo do seu documento físico ao migrar o texto para o Microsoft Word.",
-
     "tech_title": "Como Processamos Documentos Digitalizados",
     "tech_intro": "Ao fazer upload de uma imagem digitalizada, o NoteOCR utiliza uma Análise de Layout de Documentos (DLA) especializada. Ao contrário de ferramentas básicas que leem cegamente da esquerda para a direita, nosso mecanismo entende a hierarquia estrutural de uma página física.",
-
     "tech_detect_title": "O que nosso Mecanismo de OCR Detecta",
     "tech_detect_1": "Tipografia impressa padrão e fontes",
     "tech_detect_2": "Layouts de várias colunas e barras laterais",
     "tech_detect_3": "Formatação em itálico, negrito e sublinhado",
     "tech_detect_4": "Assinaturas manuscritas em formulários impressos",
     "tech_detect_5": "Listas numeradas e com marcadores",
-
     "tech_tips_title": "Dicas de Hardware de Scanner",
     "tech_tips_1": "Configure seu scanner para pelo menos 300 DPI",
     "tech_tips_2": "Salve as digitalizações como arquivos PNG ou JPG de alta qualidade",
     "tech_tips_3": "Limpe o vidro do scanner para evitar manchas",
     "tech_tips_4": "Pressione livros grossos firmemente contra o vidro",
     "tech_tips_5": "Use o modo 'Preto e Branco' para obter o texto mais nítido",
-
     "related_tools_title": "Explore Mais Ferramentas de Documentos",
-
     "related_tool_1_name": "Imagem para Excel",
     "related_tool_1_desc": "Extraia tabelas de dados de imagens para planilhas",
-
     "related_tool_2_name": "Foto para Word",
     "related_tool_2_desc": "Converta fotos de câmeras diretamente para o Word",
-
     "related_tool_3_name": "Caligrafia para Texto",
     "related_tool_3_desc": "Transcrição especializada de cursivo e anotações",
-
     "related_tool_4_name": "Editor Online",
     "related_tool_4_desc": "Edite seus documentos com segurança no navegador",
-
     "faq_title": "Perguntas Frequentes sobre Documentos Digitalizados",
-
     "cta_title": "Pronto para Digitalizar sua Papelada?",
     "cta_subtitle": "Transforme essas digitalizações físicas em arquivos viáveis ​​do Word hoje mesmo.",
     "cta_button": "Fazer upload do Scanner agora",
-
     "footer_text": "NoteOCR // Digitalização de Documentos Profissional",
-
     "tool_upload_title": "Faça Upload do seu Arquivo Digitalizado",
     "tool_upload_desc": "Faça upload de arquivos de imagem (JPG, PNG) gerados pelo seu scanner de mesa ou aplicativo de scanner móvel.",
     "tool_upload_button": "Selecionar Imagem Digitalizada",
     "tool_upload_check_1": "Suporte a Alta Resolução",
     "tool_upload_check_2": "Máx 25MB",
     "tool_upload_check_3": "Confidencialidade Empresarial",
-
     "tool_processing_title": "Processando Documento Digitalizado...",
     "tool_processing_desc": "Melhorando o contraste e executando a análise de layout",
-
     "tool_complete_title": "Scanner Convertido!",
     "tool_complete_desc": "Sua digitalização física agora é um documento digital e editável. Baixe-o abaixo.",
     "tool_complete_file_type": "Documento do Word (.docx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Baixar Word",
     "tool_new_button": "Converter a Próxima Digitalização",
-
     "tool_info_1_title": "Texto Totalmente Editável",
     "tool_info_1_desc": "Atualize cláusulas, corrija erros e formate livremente",
-
     "tool_info_2_title": "Layout Intacto",
     "tool_info_2_desc": "Cabeçalhos e listas são transferidos para o Word",
-
     "tool_info_3_title": "Processamento Seguro",
     "tool_info_3_desc": "Suas digitalizações nunca são armazenadas ou compartilhadas",
-
     "tool_tip_label": "Dica de Scanner:",
     "tool_tip_text": "Para a conversão mais precisa, configure seu scanner físico para 300 DPI (Pontos por Polegada) ou mais. Resoluções mais baixas podem fazer com que letras como 'c' e 'e' se misturem.",
-
     "toast_success": "Documento digitalizado com sucesso!",
     "toast_error_type": "Por favor, faça upload de um arquivo de imagem digitalizada válido",
     "toast_error_size": "O tamanho do arquivo do scanner deve ter menos de 25 MB",
     "toast_error_conversion": "A conversão falhou. Tente uma digitalização com contraste maior.",
     "toast_download_success": "Documento do Word baixado!",
     "toast_download_error": "Falha no download.",
-
     "FAQ": {
       "items": {
         "how_to_convert_scan": {
@@ -3230,146 +2955,110 @@
   "PhotoToWord": {
     "meta_title": "Converter Foto para Word | Extrair Texto de Imagens",
     "meta_desc": "Tire uma foto e converta-a em texto. Nossa IA extrai texto de fotos de quadros brancos, livros e telas diretamente para documentos editáveis do Word.",
-
     "hero_pill": "OCR de Câmera para Texto",
     "hero_title": "Converta Qualquer Foto em um Documento do Word",
     "hero_subtitle": "Transforme as fotos do seu smartphone em texto editável. Faça o upload de uma foto de um livro didático, quadro branco ou slide de apresentação, e deixe nossa IA criar um arquivo do Microsoft Word (.docx) formatado em segundos.",
-
     "trust_ssl": "UPLOAD PRIVADO SEGURO",
     "trust_processing": "IA DE CÂMERA INTELIGENTE",
     "trust_accuracy": "LÊ FOTOS EM ÂNGULO",
-
     "before_after_title": "Do Rolo da Câmera ao Arquivo Word",
     "before_after_desc": "Veja como lidamos com fotos do mundo real com reflexos da câmera e fundos desordenados.",
     "before_label": "Antes: Foto do Smartphone",
     "before_placeholder": "",
     "after_label": "Depois: Documento Word Editável",
     "after_placeholder": "",
-
     "use_cases_title": "Quais Imagens Você Pode Converter?",
     "use_cases_subtitle": "Perfeito para fotos do dia a dia tiradas em movimento.",
-
     "use_case_1_title": "Reuniões no Quadro Branco",
     "use_case_1_desc": "Tirou uma foto do quadro branco após o brainstorming? Converta a escrita do marcador diretamente em notas de reunião no Word.",
-
     "use_case_2_title": "Páginas de Livros Didáticos",
     "use_case_2_desc": "Pare de digitar citações para sua redação. Tire uma foto do seu livro didático e extraia exatamente os parágrafos de que precisa instantaneamente.",
-
     "use_case_3_title": "Slides de Apresentação",
     "use_case_3_desc": "Sentado na plateia e fotografou um slide do PowerPoint? Puxe o texto da foto da tela para um documento editável.",
-
     "use_case_4_title": "Receitas e Revistas",
     "use_case_4_desc": "Salve uma receita física ou um artigo de revista interessante tirando uma foto e transformando-a em um arquivo de texto pesquisável.",
-
     "comparison_title": "Comparação de Extração de Texto de Fotos",
     "comparison_subtitle": "Por que o NoteOCR supera a digitação manual no pequeno teclado do celular.",
     "comparison_col_method": "Método",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Lida com má iluminação?",
     "comparison_col_cost": "Custo",
-
     "comparison_row1_method": "Digitando no Celular",
     "comparison_row1_time": "10-20 minutos",
     "comparison_row1_accuracy": "N/A",
     "comparison_row1_cost": "Seu Tempo",
-
     "comparison_row2_method": "Conversores de Foto Básicos",
     "comparison_row2_time": "1 minuto",
     "comparison_row2_accuracy": "Falha com reflexo da câmera",
     "comparison_row2_cost": "Geralmente Pago",
-
     "comparison_row3_method": "Mecanismo de Foto NoteOCR",
     "comparison_row3_time": "15 Segundos",
     "comparison_row3_accuracy": "Aprimora a luz automaticamente",
     "comparison_row3_cost": "Teste Grátis",
-
     "features_title": "Feito para Fotos do Mundo Real",
     "features_subtitle": "Fotos de smartphones não são perfeitas. Nossa IA é construída para lidar com isso.",
-
     "feature_1_title": "Correção de Perspectiva",
     "feature_1_desc": "Se você tirou uma foto da página de um livro em um ângulo estranho, nosso mecanismo nivela automaticamente e corrige a perspectiva antes de ler o texto.",
-
     "feature_2_title": "Remoção de Reflexos e Sombras",
     "feature_2_desc": "Flashes de smartphones e sombras da sala podem ocultar o texto. Nossa IA equilibra a iluminação na sua imagem para garantir um reconhecimento de caracteres de alta precisão.",
-
     "feature_3_title": "Ignora a Desordem do Fundo",
     "feature_3_desc": "Você capturou sua mesa ou sua mão na foto? Nosso sistema corta inteligentemente os fundos que não são de texto para focar apenas no documento.",
-
     "tech_title": "Como Lemos Suas Imagens",
     "tech_intro": "Extrair texto da foto de um smartphone é muito mais difícil do que ler uma digitalização digital plana. O NoteOCR usa uma Inteligência de Visão (Vision AI) inteligente para entender a geometria da sua imagem antes de converter os caracteres em um documento do Word.",
-
     "tech_detect_title": "O que nossa Câmera IA Lida",
     "tech_detect_1": "Páginas curvas de livros grossos",
     "tech_detect_2": "Fotos tiradas de telas de computador (anti-moiré)",
     "tech_detect_3": "Caligrafia de marcador de quadro branco",
     "tech_detect_4": "Fotos em locais com pouca luz ou mal iluminados",
     "tech_detect_5": "Fontes e tamanhos de texto diferentes em uma única imagem",
-
     "tech_tips_title": "Dicas para Tirar Fotos Melhores",
     "tech_tips_1": "Toque na tela do seu telefone para focar a câmera",
     "tech_tips_2": "Mantenha o celular o mais estável possível",
     "tech_tips_3": "Tente evitar sombras severas vindas de cima",
     "tech_tips_4": "Mantenha o texto preenchendo a maior parte do quadro da foto",
     "tech_tips_5": "Desligue o flash se estiver fotografando uma página brilhante",
-
     "related_tools_title": "Outras Ferramentas de Documentos",
-
     "related_tool_1_name": "Imagem para Excel",
     "related_tool_1_desc": "Extraia tabelas de dados de imagens para planilhas",
-
     "related_tool_2_name": "Foto para Word",
     "related_tool_2_desc": "Converta fotos de câmeras diretamente para o Word",
-
     "related_tool_3_name": "Caligrafia para Texto",
     "related_tool_3_desc": "Transcrição especializada de cursivo e anotações",
-
     "related_tool_4_name": "Editor Online",
     "related_tool_4_desc": "Edite seus documentos com segurança no navegador",
-
     "faq_title": "Perguntas Frequentes sobre Conversão de Fotos",
-
     "cta_title": "Pronto para Extrair o Texto da sua Foto?",
     "cta_subtitle": "Faça upload de sua foto diretamente de seu telefone ou computador.",
     "cta_button": "Fazer upload da foto agora",
-
     "footer_text": "NoteOCR // Processamento com Visão de IA",
-
     "tool_upload_title": "Faça Upload da sua Foto",
     "tool_upload_desc": "Selecione uma foto do rolo da sua câmera ou computador. Nós extrairemos o texto e geraremos um arquivo Word formatado.",
     "tool_upload_button": "Selecionar Imagem",
     "tool_upload_check_1": "Suporta Fotos de Celular",
     "tool_upload_check_2": "Máx 25MB",
     "tool_upload_check_3": "Excluído após 24h",
-
     "tool_processing_title": "Analisando a Foto...",
     "tool_processing_desc": "Corrigindo ângulos da câmera e extraindo texto",
-
     "tool_complete_title": "Foto Convertida!",
     "tool_complete_desc": "O texto da sua foto foi extraído com sucesso. Baixe seu arquivo editável abaixo.",
     "tool_complete_file_type": "Documento do Word (.docx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Baixar Word",
     "tool_new_button": "Converter Outra Foto",
-
     "tool_info_1_title": "Totalmente Editável",
     "tool_info_1_desc": "O texto é extraído, e não apenas colado como uma imagem",
-
     "tool_info_2_title": "Formatação Inteligente",
     "tool_info_2_desc": "Parágrafos e quebras de linha são recriados",
-
     "tool_info_3_title": "DOCX Universal",
     "tool_info_3_desc": "Abre no MS Word, Google Docs e Apple Pages",
-
     "tool_tip_label": "Dica de Câmera:",
     "tool_tip_text": "Se você estiver tirando foto de uma revista ou livro didático com páginas brilhantes, desligue o flash do seu smartphone. Uma grande mancha branca de brilho pode esconder as palavras e diminuir a precisão do OCR.",
-
     "toast_success": "Foto convertida com sucesso!",
     "toast_error_type": "Por favor, faça o upload de um arquivo de foto válido (JPG, PNG)",
     "toast_error_size": "O tamanho do arquivo da foto deve ser inferior a 25 MB",
     "toast_error_conversion": "A conversão falhou. A foto pode estar muito embaçada.",
     "toast_download_success": "Documento do Word baixado!",
     "toast_download_error": "Falha no download.",
-
     "FAQ": {
       "items": {
         "how_to_convert_photo": {
@@ -3418,146 +3107,110 @@
   "HandwrittenInvoice": {
     "meta_title": "Converter Faturas Manuscritas para Excel | Extração de Dados de Recibos",
     "meta_desc": "Automatize sua contabilidade. Extraia itens de linha, preços e datas de faturas e recibos manuscritos diretamente para planilhas do Excel formatadas.",
-
     "hero_pill": "OCR de Dados Financeiros",
     "hero_title": "Converter Faturas Manuscritas para Excel",
     "hero_subtitle": "Pare de digitar manualmente recibos de fornecedores e pedidos de compra. Nossa IA extrai com precisão itens de linha, quantidades e preços de faturas manuscritas para planilhas .xlsx limpas e editáveis.",
-
     "trust_ssl": "UPLOAD FINANCEIRO SEGURO",
     "trust_processing": "ITENS DE LINHA AUTOMATIZADOS",
     "trust_accuracy": "99% DE PRECISÃO NUMÉRICA",
-
     "before_after_title": "Do Recibo em Papel à Planilha Digital",
     "before_after_desc": "Veja como a nossa IA mapeia perfeitamente os itens de linha manuscritos bagunçados em linhas organizadas do Excel.",
     "before_label": "Antes: Fatura Manuscrita",
     "before_placeholder": "",
     "after_label": "Depois: Itens Faturados no Excel",
     "after_placeholder": "",
-
     "use_cases_title": "Quem Automatiza Faturas com o NoteOCR?",
     "use_cases_subtitle": "Construído para profissionais financeiros que valorizam seu tempo.",
-
     "use_case_1_title": "Guarda-livros e Contadores",
     "use_case_1_desc": "Processe as caixas de sapatos dos clientes cheias de recibos manuscritos e faturas de papel em minutos, em vez de horas no final do mês.",
-
     "use_case_2_title": "Proprietários de Pequenos Negócios",
     "use_case_2_desc": "Digitalize notas fiscais de fornecedores rabiscadas, contas de prestadores de serviços e ordens de compra manuscritas para rastrear suas despesas com precisão.",
-
     "use_case_3_title": "Rastreamento de Despesas",
     "use_case_3_desc": "Converta recibos de restaurantes manuscritos ou despesas de campo em arquivos CSV estruturados para fácil upload no software de despesas da sua empresa.",
-
     "use_case_4_title": "Preparação para o Imposto de Renda",
     "use_case_4_desc": "Calcule rapidamente os recibos de doação físicos e manuscritos ou despesas comerciais em um livro-razão limpo do Excel para a temporada de impostos.",
-
     "comparison_title": "Entrada de Dados de Fatura: Comparação",
     "comparison_subtitle": "Por que a contabilidade manual está queimando suas margens de lucro.",
     "comparison_col_method": "Método",
     "comparison_col_time": "Tempo por Fatura",
     "comparison_col_accuracy": "Precisão Financeira",
     "comparison_col_cost": "Custo de Mão de Obra",
-
     "comparison_row1_method": "Entrada de Dados Manual",
     "comparison_row1_time": "3-5 minutos",
     "comparison_row1_accuracy": "Propenso a erros de digitação",
     "comparison_row1_cost": "$20+/hora",
-
     "comparison_row2_method": "Apps de OCR Padrão",
     "comparison_row2_time": "1 minuto",
     "comparison_row2_accuracy": "Mistura as colunas",
     "comparison_row2_cost": "Variável",
-
     "comparison_row3_method": "Motor de Faturas NoteOCR",
     "comparison_row3_time": "15 segundos",
     "comparison_row3_accuracy": "Alinhamento perfeito de linha",
     "comparison_row3_cost": "Teste Grátis",
-
     "features_title": "Extração Avançada de Faturas",
     "features_subtitle": "Treinado especificamente em documentos financeiros e números bagunçados.",
-
     "feature_1_title": "Detecção de Itens de Linha",
     "feature_1_desc": "Nossa IA separa as descrições, as quantidades, os preços unitários e os totais em suas próprias colunas distintas do Excel de forma automática.",
-
     "feature_2_title": "Alta Precisão Numérica",
     "feature_2_desc": "O OCR padrão tem dificuldade com números escritos à mão. Usamos redes neurais especializadas para garantir que 4s, 9s, decimais e símbolos de moeda sejam lidos perfeitamente.",
-
     "feature_3_title": "Suporte a Caligrafia Confusa",
     "feature_3_desc": "Prestadores de serviços e fornecedores costumam ter uma letra péssima. Nosso mecanismo foi criado para decifrar a escrita cursiva apressada e as letras malfeitas em recibos físicos.",
-
     "tech_title": "Como Processamos Documentos Financeiros",
     "tech_intro": "As faturas são complexas porque contêm dados flutuantes (como a data e o número da fatura na parte superior) e dados tabulares (os itens de linha no meio). O NoteOCR mapeia essa relação espacial com perfeição.",
-
     "tech_detect_title": "O que nossa IA Extrai",
     "tech_detect_1": "Descrições de itens e SKUs",
     "tech_detect_2": "Colunas de quantidades e preços",
     "tech_detect_3": "Subtotais, linhas de impostos e totais gerais",
     "tech_detect_4": "Datas e números de notas fiscais manuscritos",
     "tech_detect_5": "Símbolos de moedas (R$, $, €, £)",
-
     "tech_tips_title": "Dicas para Contadores",
     "tech_tips_1": "Alise recibos amassados antes de tirar uma foto",
     "tech_tips_2": "Certifique-se de que a iluminação não crie sombras sobre o total",
     "tech_tips_3": "Mantenha a câmera diretamente acima da nota/recibo",
     "tech_tips_4": "Certifique-se de que as vírgulas e casas decimais estejam visíveis",
     "tech_tips_5": "Revise os totais finais no Excel para garantir a correspondência",
-
     "related_tools_title": "Mais Ferramentas de OCR Financeiro",
-
     "related_tool_1_name": "Fatura para Excel",
     "related_tool_1_desc": "Extraia itens de recibos manuscritos",
-
     "related_tool_2_name": "Inventário para Excel",
     "related_tool_2_desc": "Converta contagens de estoque manuscritas em dados",
-
     "related_tool_3_name": "Scanner para Word",
     "related_tool_3_desc": "Digitalize manuais e políticas de RH impressas",
-
     "related_tool_4_name": "Caligrafia para Texto",
     "related_tool_4_desc": "Transcreva as notas de reuniões manuscritas",
-
     "faq_title": "Perguntas Frequentes sobre Conversão de Faturas",
-
     "cta_title": "Pare de Digitar as Faturas.",
     "cta_subtitle": "Deixe a IA fazer sua entrada de dados. Faça o upload do seu primeiro recibo manuscrito agora.",
     "cta_button": "Converter Fatura para Excel",
-
     "footer_text": "NoteOCR // Extração Financeira Inteligente",
-
     "tool_upload_title": "Faça Upload da Fatura Manuscrita",
     "tool_upload_desc": "Suporta fotos e digitalizações de faturas manuscritas, recibos e pedidos de compra. Extrairemos os itens de linha para o Excel.",
     "tool_upload_button": "Selecionar Imagem da Fatura",
     "tool_upload_check_1": "Suporte a JPG, PNG",
     "tool_upload_check_2": "Máx 25MB",
     "tool_upload_check_3": "Criptografia de Nível Bancário",
-
     "tool_processing_title": "Extraindo Itens de Linha...",
     "tool_processing_desc": "Detectando preços, quantidades e descrições",
-
     "tool_complete_title": "Fatura Extraída!",
     "tool_complete_desc": "Seus itens de linha foram convertidos em uma planilha do Excel. Baixe-a abaixo.",
     "tool_complete_file_type": "Planilha do Excel (.xlsx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Baixar Excel",
     "tool_new_button": "Processar Próxima Fatura",
-
     "tool_info_1_title": "Colunas Alinhadas",
     "tool_info_1_desc": "Preços e descrições separados de forma limpa",
-
     "tool_info_2_title": "Precisão de Números",
     "tool_info_2_desc": "Reconhecimento de dígitos e decimais de alta precisão",
-
     "tool_info_3_title": "Pronto para Importar",
     "tool_info_3_desc": "Faça upload facilmente para QuickBooks ou Xero",
-
     "tool_tip_label": "Dica de Contabilidade:",
     "tool_tip_text": "Se você planeja importar esses dados para um software de contabilidade como Omie ou ContaAzul, abra o arquivo do Excel baixado e salve-o no formato .CSV (Valores Separados por Vírgula) para um upload contínuo.",
-
     "toast_success": "Fatura extraída com sucesso!",
     "toast_error_type": "Por favor, faça upload de um arquivo de imagem válido",
     "toast_error_size": "O tamanho do arquivo deve ser menor que 25 MB",
     "toast_error_extraction": "A extração falhou. A caligrafia pode estar muito apagada.",
     "toast_download_success": "Livro-razão do Excel baixado!",
     "toast_download_error": "Falha no download.",
-
     "FAQ": {
       "items": {
         "how_to_convert_invoice": {
@@ -3606,146 +3259,110 @@
   "InventoryToExcel": {
     "meta_title": "Converter Inventário Manuscrito para Excel | OCR de Contagem de Estoque",
     "meta_desc": "Pare de digitar manualmente as contagens de estoque do depósito. Converta fotos de registros de inventário manuscritos e pranchetas diretamente em planilhas editáveis do Excel.",
-
     "hero_pill": "OCR de Estoque e Inventário",
     "hero_title": "Transforme as Contagens da sua Prancheta em Planilhas do Excel",
     "hero_subtitle": "Converta suas auditorias de inventário físico em segundos. Tire uma foto de suas folhas de estoque manuscritas e nossa IA extrairá as SKUs, os nomes dos itens e as quantidades diretamente em um arquivo .xlsx formatado.",
-
     "trust_ssl": "PROCESSAMENTO PRIVADO DE DADOS",
     "trust_processing": "RECONHECIMENTO DE SKU EM MASSA",
     "trust_accuracy": "99% DE PRECISÃO DE QUANTIDADE",
-
     "before_after_title": "Da Prancheta Física ao Rastreador Digital",
     "before_after_desc": "Veja como convertemos registros de depósito desordenados em linhas estruturadas do Excel.",
     "before_label": "Antes: Folha de Estoque Manuscrita",
     "before_placeholder": "",
     "after_label": "Depois: Lista de Inventário no Excel",
     "after_placeholder": "",
-
     "use_cases_title": "Quem Automatiza o Inventário com o NoteOCR?",
     "use_cases_subtitle": "Feito para empresas que realizam auditorias físicas de estoque.",
-
     "use_case_1_title": "Gerentes de Armazém",
     "use_case_1_desc": "Converta registros de depósito manuscritos com várias páginas e contagens rotativas em Excel instantaneamente, mantendo sua cadeia de suprimentos em movimento.",
-
     "use_case_2_title": "Proprietários de Lojas de Varejo",
     "use_case_2_desc": "Tire fotos de suas contagens de estoque de varejo no final do mês e faça o upload para atualizar seu sistema POS (Ponto de Venda) ou loja da Shopify via CSV.",
-
     "use_case_3_title": "Equipe de Restaurantes e Bares",
     "use_case_3_desc": "Pare de redigitar o inventário semanal de alimentos e bebidas. Digitalize as pranchetas da sua cozinha diretamente nas suas planilhas de custo de alimentos.",
-
     "use_case_4_title": "Rastreamento de Equipamentos",
     "use_case_4_desc": "Converta facilmente folhas de saída manuscritas, registros de ferramentas e rastreadores de ativos trazidos de campo em bancos de dados digitais pesquisáveis.",
-
     "comparison_title": "Contagem de Estoque: Manual vs. NoteOCR",
     "comparison_subtitle": "Por que a entrada manual de dados de estoque está custando dinheiro ao seu negócio.",
     "comparison_col_method": "Método",
     "comparison_col_time": "Tempo por Página",
     "comparison_col_accuracy": "Precisão das SKUs",
     "comparison_col_cost": "Custo",
-
     "comparison_row1_method": "Digitação Manual",
     "comparison_row1_time": "15-30 minutos",
     "comparison_row1_accuracy": "Propenso a erros humanos",
     "comparison_row1_cost": "$20/hora de trabalho",
-
     "comparison_row2_method": "Scanners Móveis Padrão",
     "comparison_row2_time": "2 minutos",
     "comparison_row2_accuracy": "Produz imagens planas",
     "comparison_row2_cost": "Grátis",
-
     "comparison_row3_method": "IA de Inventário NoteOCR",
     "comparison_row3_time": "20 segundos",
     "comparison_row3_accuracy": "Formata dados em linhas",
     "comparison_row3_cost": "Teste Grátis",
-
     "features_title": "Construído para a Letra Bagunçada de Depósitos",
     "features_subtitle": "Sabemos que as contagens de inventário físico são apressadas. Nossa IA se adapta a isso.",
-
     "feature_1_title": "Reconhecimento de SKU Alfanumérico",
     "feature_1_desc": "Os códigos de itens são misturas complexas de letras e números. Nossas redes neurais são treinadas para distinguir um '0' de um 'O' e um '1' de um 'l' em SKUs manuscritas.",
-
     "feature_2_title": "Formatação de Colunas",
     "feature_2_desc": "Se você desenhou linhas no papel ou apenas deixou espaços, o NoteOCR separa os Nomes dos Itens, SKUs e Quantidades em suas próprias colunas distintas do Excel.",
-
     "feature_3_title": "Exportar como CSV para Sistemas POS",
     "feature_3_desc": "Faça o download dos seus dados em um arquivo Excel ou exporte como um CSV para enviar de forma contínua as contagens de estoque atualizadas para o Shopify, Square ou Tiny ERP.",
-
     "tech_title": "Como Processamos as Folhas de Estoque Físicas",
     "tech_intro": "As planilhas de inventário são notórias pela má caligrafia e pela tinta borrada. O NoteOCR utiliza o Reconhecimento Estrutural de Tabelas (TSR) especializado para reconstruir a grade da sua prancheta.",
-
     "tech_detect_title": "O que a Nossa IA Extrai",
     "tech_detect_1": "Números de série longos e SKUs",
     "tech_detect_2": "Quantidades, pesos e medidas",
     "tech_detect_3": "Itens riscados e correções",
     "tech_detect_4": "Layouts de pranchetas de várias colunas",
     "tech_detect_5": "Datas, locais e números de corredores",
-
     "tech_tips_title": "Dicas para Auditorias Mais Rápidas",
     "tech_tips_1": "Garanta que a iluminação do depósito esteja brilhante ao fotografar",
     "tech_tips_2": "Escreva as SKUs da forma mais clara possível",
     "tech_tips_3": "Mantenha as colunas um pouco alinhadas no papel em branco",
     "tech_tips_4": "Tire fotos da prancheta diretamente de cima",
     "tech_tips_5": "Revise as quantidades finais do Excel em comparação com suas prateleiras",
-
     "related_tools_title": "Outras Ferramentas de Dados Comerciais",
-
     "related_tool_1_name": "Fatura para Excel",
     "related_tool_1_desc": "Extraia itens de recibos manuscritos",
-
     "related_tool_2_name": "Inventário para Excel",
     "related_tool_2_desc": "Converta contagens de estoque manuscritas em dados",
-
     "related_tool_3_name": "Scanner para Word",
     "related_tool_3_desc": "Digitalize manuais e políticas de RH impressas",
-
     "related_tool_4_name": "Caligrafia para Texto",
     "related_tool_4_desc": "Transcreva as notas de reuniões manuscritas",
-
     "faq_title": "Perguntas Frequentes sobre OCR de Inventário",
-
     "cta_title": "Pare de Digitar as Suas Contagens de Estoque.",
     "cta_subtitle": "Tire uma foto da sua prancheta e deixe o NoteOCR construir a sua planilha.",
     "cta_button": "Converter Inventário Agora",
-
     "footer_text": "NoteOCR // Extração de Dados Industriais",
-
     "tool_upload_title": "Fazer Upload da Lista de Inventário Manuscrita",
     "tool_upload_desc": "Suporta fotos de pranchetas, contagens de estoque e folhas de apontamento. Extrairemos os dados para uma grade editável do Excel.",
     "tool_upload_button": "Selecionar Foto de Inventário",
     "tool_upload_check_1": "Suporte a JPG, PNG",
     "tool_upload_check_2": "Máx 25MB",
     "tool_upload_check_3": "Excluído Após 24h",
-
     "tool_processing_title": "Extraindo Contagens de Estoque...",
     "tool_processing_desc": "Detectando SKUs, itens e quantidades",
-
     "tool_complete_title": "Inventário Extraído!",
     "tool_complete_desc": "Sua contagem de estoque agora é uma planilha do Excel. Baixe-a abaixo.",
     "tool_complete_file_type": "Planilha do Excel (.xlsx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Baixar Excel",
     "tool_new_button": "Processar Próxima Página",
-
     "tool_info_1_title": "Grade Preservada",
     "tool_info_1_desc": "SKUs e Quantidades em colunas separadas",
-
     "tool_info_2_title": "Alta Precisão",
     "tool_info_2_desc": "Treinado em letras confusas e apressadas",
-
     "tool_info_3_title": "Compatível com CSV",
     "tool_info_3_desc": "Pronto para upload no seu sistema POS",
-
     "tool_tip_label": "Dica de Armazém:",
     "tool_tip_text": "Se você estiver usando papel pautado ou folhas de grade impressas em sua prancheta, nossa IA usará essas linhas para separar perfeitamente suas colunas no Excel com quase 100% de precisão estrutural.",
-
     "toast_success": "Inventário extraído com sucesso!",
     "toast_error_type": "Por favor, faça upload de um arquivo de imagem válido",
     "toast_error_size": "O tamanho do arquivo deve ser menor que 25 MB",
     "toast_error_extraction": "A extração falhou. A foto pode estar muito embaçada.",
     "toast_download_success": "Planilha do Excel baixada!",
     "toast_download_error": "Falha no download.",
-
     "FAQ": {
       "items": {
         "how_to_convert_inventory": {
@@ -3794,146 +3411,110 @@
   "HandwrittenTimesheet": {
     "meta_title": "Converter Folhas de Ponto Manuscritas para Excel | OCR para Folha de Pagamento",
     "meta_desc": "Pare de digitar manualmente as horas dos funcionários. Converta fotos de folhas de ponto manuscritas e registros de turnos diretamente em planilhas do Excel para a folha de pagamento.",
-
     "hero_pill": "Automação de Dados da Folha de Pagamento",
     "hero_title": "Automatize Folhas de Ponto Manuscritas para Excel",
     "hero_subtitle": "Feche a folha de pagamento mais rapidamente. Tire uma foto dos cartões de ponto ou registros de turnos manuscritos da sua equipe e nossa IA extrairá os nomes dos funcionários, as datas e as horas diretamente para uma planilha .xlsx formatada.",
-
     "trust_ssl": "DADOS DE RH SEGUROS",
     "trust_processing": "OCR DE FOLHA DE PONTO RÁPIDO",
     "trust_accuracy": "99% DE PRECISÃO NOS NÚMEROS",
-
     "before_after_title": "Do Cartão de Ponto de Papel para a Folha Digital",
     "before_after_desc": "Veja como a nossa IA mapeia perfeitamente as horas manuscritas confusas em linhas organizadas do Excel.",
     "before_label": "Antes: Registro de Equipe Manuscrito",
     "before_placeholder": "",
     "after_label": "Depois: Dados de Folha de Pagamento no Excel",
     "after_placeholder": "",
-
     "use_cases_title": "Quem Automatiza Folhas de Ponto com o NoteOCR?",
     "use_cases_subtitle": "Feito para setores que dependem do papel físico para o registro de horas.",
-
     "use_case_1_title": "Construção Civil e Ofícios",
     "use_case_1_desc": "Digitalize folhas de equipe sujas e manuscritas vindas do canteiro de obras. Extraia os nomes dos funcionários e as horas diárias no Excel antes de enviar para a contabilidade.",
-
     "use_case_2_title": "Restaurantes e Hotelaria",
     "use_case_2_desc": "Converta escalas de papel semanais, trocas de turnos e os registros de ponto manuscritos dos garçons em um formato digital limpo para o gerente geral.",
-
     "use_case_3_title": "Paisagismo e Serviços de Campo",
     "use_case_3_desc": "Pare de tentar decifrar a caligrafia bagunçada de seus trabalhadores de campo. Tire uma foto do registro semanal deles e formate-o instantaneamente para a folha de pagamento.",
-
     "use_case_4_title": "Saúde e Enfermagem",
     "use_case_4_desc": "Converta facilmente folhas de assinatura manuscritas e registros físicos de horas extras de diferentes alas de hospitais em bancos de dados digitais pesquisáveis.",
-
     "comparison_title": "Entrada de Dados de Folha de Pagamento: Comparação",
     "comparison_subtitle": "Por que a entrada manual de folhas de ponto é arriscada para os seus negócios.",
     "comparison_col_method": "Método",
     "comparison_col_time": "Tempo Gasto",
     "comparison_col_accuracy": "Erros na Folha de Pagamento",
     "comparison_col_cost": "Custo",
-
     "comparison_row1_method": "Digitação Manual",
     "comparison_row1_time": "Mais de 2 horas na sexta-feira",
     "comparison_row1_accuracy": "Alto risco de erros de digitação",
     "comparison_row1_cost": "$25/hora de trabalho administrativo",
-
     "comparison_row2_method": "Scanners de OCR Padrão",
     "comparison_row2_time": "5 minutos",
     "comparison_row2_accuracy": "Bagunça as colunas",
     "comparison_row2_cost": "Grátis",
-
     "comparison_row3_method": "IA de Ponto NoteOCR",
     "comparison_row3_time": "30 segundos",
     "comparison_row3_accuracy": "Alinhamento perfeito de linha",
     "comparison_row3_cost": "Teste Grátis",
-
     "features_title": "Extração Avançada de Folha de Pagamento",
     "features_subtitle": "Treinado especificamente para ler nomes, datas e horários com precisão.",
-
     "feature_1_title": "Reconhecimento de Formato de Hora",
     "feature_1_desc": "A nossa IA é treinada para entender vários formatos de hora, quer os seus funcionários escrevam 8:00 AM, horário militar 0800, ou simplesmente 8,5 horas.",
-
     "feature_2_title": "Alinhamento de Colunas",
     "feature_2_desc": "Mesmo se os seus funcionários escreverem fora das linhas, o NoteOCR separa o Nome do Funcionário, a Data, a Entrada, a Saída e o Total de Horas em colunas distintas do Excel.",
-
     "feature_3_title": "Exportação de CSV para Sistemas de RH",
     "feature_3_desc": "Baixe seus dados de folha de ponto como um arquivo do Excel ou exporte-o como um CSV para enviar perfeitamente as horas para seu software de folha de pagamento preferido.",
-
     "tech_title": "Como Processamos Cartões de Ponto em Papel",
     "tech_intro": "Ler nomes e números manuscritos em um pedaço de papel manchado requer Reconhecimento Óptico de Caracteres avançado. O NoteOCR usa análise de layout inteligente para garantir que as horas certas sejam atribuídas ao funcionário certo.",
-
     "tech_detect_title": "O que a Nossa IA Extrai",
     "tech_detect_1": "Nomes de funcionários em letras cursivas ou de forma",
     "tech_detect_2": "Horários de entrada e saída",
     "tech_detect_3": "Decimais (por exemplo, 7,5 horas) e frações",
     "tech_detect_4": "Datas e dias da semana escritos à mão",
     "tech_detect_5": "Assinaturas e aprovações do supervisor",
-
     "tech_tips_title": "Dicas para Gerentes de RH",
     "tech_tips_1": "Alise as folhas de ponto dobradas antes de tirar a foto",
     "tech_tips_2": "Garanta uma boa iluminação para que os pontos decimais fiquem visíveis",
     "tech_tips_3": "Mantenha a câmera diretamente acima da folha de assinatura",
     "tech_tips_4": "Diga aos funcionários para escreverem seus números claramente",
     "tech_tips_5": "Sempre faça uma rápida revisão visual antes de processar a folha",
-
     "related_tools_title": "Mais Ferramentas de Automação Empresarial",
-
     "related_tool_1_name": "Fatura para Excel",
     "related_tool_1_desc": "Extraia itens de recibos manuscritos",
-
     "related_tool_2_name": "Inventário para Excel",
     "related_tool_2_desc": "Converta contagens de estoque manuscritas em dados",
-
     "related_tool_3_name": "Scanner para Word",
     "related_tool_3_desc": "Digitalize manuais e políticas de RH impressas",
-
     "related_tool_4_name": "Caligrafia para Texto",
     "related_tool_4_desc": "Transcreva as notas de reuniões manuscritas",
-
     "faq_title": "Perguntas Frequentes sobre OCR de Folha de Ponto",
-
     "cta_title": "Pare de Digitar as Horas dos Funcionários.",
     "cta_subtitle": "Deixe a IA fazer a entrada de dados na sexta-feira. Faça o upload da sua primeira folha de ponto agora.",
     "cta_button": "Converter Folha de Ponto para Excel",
-
     "footer_text": "NoteOCR // Extração Inteligente de Folha de Pagamento",
-
     "tool_upload_title": "Fazer Upload da Folha de Ponto Manuscrita",
     "tool_upload_desc": "Suporta fotos de registros da equipe, folhas de assinatura e cartões de ponto em papel. Extrairemos todos os dados com precisão em uma planilha limpa do Excel.",
     "tool_upload_button": "Selecionar Imagem da Folha de Ponto",
     "tool_upload_check_1": "Suporte a JPG, PNG",
     "tool_upload_check_2": "Máx 25MB",
     "tool_upload_check_3": "Criptografia de Nível Bancário",
-
     "tool_processing_title": "Extraindo Horas dos Funcionários...",
     "tool_processing_desc": "Detectando nomes, datas e horários de entrada",
-
     "tool_complete_title": "Folha de Ponto Extraída!",
     "tool_complete_desc": "Seus dados da folha de pagamento agora são uma planilha do Excel. Baixe-a abaixo.",
     "tool_complete_file_type": "Planilha do Excel (.xlsx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Baixar Excel",
     "tool_new_button": "Processar Próxima Folha de Ponto",
-
     "tool_info_1_title": "Grade Preservada",
     "tool_info_1_desc": "Totalmente organizado em linhas e colunas",
-
     "tool_info_2_title": "Alta Precisão",
     "tool_info_2_desc": "Treinado em letras confusas e apressadas",
-
     "tool_info_3_title": "Compatível com CSV",
     "tool_info_3_desc": "Pronto para upload no seu sistema de ponto",
-
     "tool_tip_label": "Dica de Folha de Pagamento:",
     "tool_tip_text": "Se você planeja importar esses dados para um software de folha de pagamento, abra o arquivo do Excel baixado e salve-o no formato .CSV (Valores Separados por Vírgula) para um envio perfeito.",
-
     "toast_success": "Folha de ponto extraída com sucesso!",
     "toast_error_type": "Por favor, faça upload de um arquivo de imagem válido",
     "toast_error_size": "O tamanho do arquivo deve ser menor que 25 MB",
     "toast_error_extraction": "A extração falhou. A foto pode estar muito embaçada.",
     "toast_download_success": "Planilha do Excel baixada!",
     "toast_download_error": "Falha no download.",
-
     "FAQ": {
       "items": {
         "how_to_convert_timesheet": {

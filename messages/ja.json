@@ -1420,6 +1420,34 @@
       "copyright": "安全なログイン"
     }
   },
+  "ContactPage": {
+    "meta_title": "お問い合わせ | NoteOCR サポート＆ヘルプセンター",
+    "meta_desc": "手書き文字のテキスト変換について、迅速にサポートいたします。技術的なご質問、法人向けのお問い合わせ、ご意見・ご感想などお気軽にお問い合わせください。",
+    "hero": {
+      "badge": "お問い合わせ",
+      "title_start": "さあ、",
+      "title_highlight": "会話を始めましょう。",
+      "subtitle": "直接ご連絡ください。「送信」をクリックすると、お使いのメールアプリが開き、メッセージが安全にサポートチームへ届きます。"
+    },
+    "form": {
+      "first_name": "名",
+      "last_name": "姓",
+      "email": "勤務先メールアドレス",
+      "needs": "ご要望をお聞かせください",
+      "placeholder_msg": "ご相談したいことがあります...",
+      "submit_btn": "メールアプリで送信",
+      "success": "メールアプリを起動しています...",
+      "loading": "処理中..."
+    },
+    "sidebar": {
+      "hq_title": "本社",
+      "hq_address": "NoteOCR\n11 Boyo Road, Sapele, Delta State\nNigeria",
+      "timezone": "中央ヨーロッパ時間 (GMT+1)",
+      "support": "一般サポート",
+      "sales": "法人営業",
+      "press": "プレス・メディア"
+    }
+  },
   "EnterprisePage": {
     "meta_title": "エンタープライズ文書インテリジェンス | 法務・医療・ビジネス向けOCR",
     "meta_desc": "安全でSOC2準拠の文書処理。プライベートAIを活用し、法律事務所、医療機関、グローバル企業のワークフローを自動化します。",

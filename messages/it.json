@@ -14,7 +14,6 @@
     "meta_title": "Convertitore Scrittura a Mano in Testo | OCR Corsivo AI | NoteOCR",
     "meta_desc": "Converti istantaneamente gli appunti in corsivo in testo digitale modificabile. L'OCR AI per la scrittura a mano più accurato al mondo."
   },
-
   "Features": {
     "section_label": "L'Ecosistema",
     "main_title_1": "Tutto il necessario per digitalizzare",
@@ -61,7 +60,6 @@
     "step_3_desc": "Il documento viene ricostruito in Word, Excel o Notion, pronto per la modifica.",
     "processing": "Elaborazione in corso..."
   },
-
   "Why": {
     "label": "PERCHÉ SCEGLIERCI",
     "title_main": "Smetti di correggere",
@@ -111,7 +109,6 @@
       }
     }
   },
-
   "FAQ": {
     "title_main": "Domande",
     "title_highlight": "Frequenti",
@@ -234,150 +231,113 @@
       }
     }
   },
-
   "WordPage": {
     "meta_title": "Convertire Appunti Scritti a Mano in Word (DOCX) | NoteOCR",
     "meta_desc": "Smetti di digitare. Converti gli appunti in documenti Word modificabili con l'AI. Mantiene automaticamente elenchi, intestazioni e struttura del layout.",
-
     "hero_pill": "Riconoscimento Documenti Intelligente",
     "hero_title": "Converti gli Appunti Scritti a Mano in Documenti Word",
     "hero_subtitle": "Smetti di ricopiare i tuoi appunti. La nostra AI converte le pagine in file .docx modificabili mantenendo elenchi, intestazioni, margini e la struttura originale del layout.",
-
     "trust_ssl": "CRITTOGRAFIA SSL",
     "trust_processing": "ELABORAZIONE IN 30 SECONDI",
     "trust_accuracy": "PRECISIONE DEL 95%",
-
     "before_after_title": "Guarda la Differenza",
     "before_after_desc": "Conversione reale che mostra la struttura e la formattazione preservate",
     "before_label": "Prima: Appunti Scritti a Mano",
     "before_placeholder": "[Carica i tuoi appunti per vedere i risultati qui]",
     "after_label": "Dopo: Documento Word",
     "after_placeholder": "[Anteprima del documento Word formattato]",
-
     "use_cases_title": "Chi Converte Appunti Scritti a Mano in Word?",
     "use_cases_subtitle": "Dagli studenti ai professionisti, migliaia digitalizzano appunti ogni giorno",
-
     "use_case_1_title": "Studenti & Ricercatori",
     "use_case_1_desc": "Converti appunti di lezioni, diari di ricerca e materiali di studio in documenti Word ricercabili per la stesura di saggi e la gestione delle citazioni.",
-
     "use_case_2_title": "Professionisti",
     "use_case_2_desc": "Digitalizza note di riunioni, sessioni su lavagna e appunti di conferenze in documenti formattati per la condivisione in team e i report.",
-
     "use_case_3_title": "Autori & Giornalisti",
     "use_case_3_desc": "Trasforma bozze, schemi di storie e appunti di interviste in manoscritti modificabili pronti per l'editing e la pubblicazione.",
-
     "use_case_4_title": "Archivisti & Storici",
     "use_case_4_desc": "Converti documenti storici, lettere personali e voci di diario in archivi digitali per la conservazione e la ricerca.",
-
     "comparison_title": "Appunti in Word: Metodi a Confronto",
     "comparison_subtitle": "Perché NoteOCR fa risparmiare ore rispetto alla digitazione manuale",
     "comparison_col_method": "Metodo",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Precisione",
     "comparison_col_cost": "Costo",
-
     "comparison_row1_method": "Digitazione Manuale",
     "comparison_row1_time": "60 minuti/pagina",
     "comparison_row1_accuracy": "98% (lento, noioso)",
     "comparison_row1_cost": "Gratis (il tuo tempo)",
-
     "comparison_row2_method": "Strumenti OCR Base",
     "comparison_row2_time": "10 minuti",
     "comparison_row2_accuracy": "70% (perde la formattazione)",
     "comparison_row2_cost": "Gratis-15€",
-
     "comparison_row3_method": "NoteOCR Convertitore Word",
     "comparison_row3_time": "30 secondi",
     "comparison_row3_accuracy": "95% con layout mantenuto",
     "comparison_row3_cost": "8€/100 pagine",
-
     "features_title": "Perché il Nostro OCR è Diverso",
     "features_subtitle": "Creato appositamente per convertire gli appunti in Word",
-
     "feature_1_title": "Mantenimento del Layout",
     "feature_1_desc": "A differenza dell'OCR di base che scarica testo normale, la nostra AI rileva elenchi, intestazioni, paragrafi e margini. Il tuo documento Word corrisponde alla struttura originale.",
-
     "feature_2_title": "Riconoscimento Stampatello & Corsivo",
     "feature_2_desc": "Reti neurali avanzate addestrate su milioni di campioni. Gestisce inchiostro sbavato, scrittura corsiva, stili misti e persino cancellature con alta precisione.",
-
     "feature_3_title": "Elaborazione Privacy-First",
     "feature_3_desc": "I tuoi appunti sono crittografati durante il caricamento, elaborati in contenitori isolati e cancellati in modo permanente. Non archiviamo né condividiamo mai i tuoi contenuti.",
-
     "tech_title": "Come Funziona la Tecnologia",
     "tech_intro": "Gli strumenti OCR standard trattano il testo scritto a mano come caratteri digitati, distruggendo la formattazione. L'AI di NoteOCR analizza i tratti della penna, i modelli di spaziatura e la struttura del documento per ricreare i tuoi appunti come un documento Word formattato, preservando elenchi, rientri e interruzioni di paragrafo.",
-
     "tech_detect_title": "Cosa Rileviamo",
     "tech_detect_1": "Paragrafi, elenchi e intestazioni",
     "tech_detect_2": "Scrittura in corsivo e stampatello",
     "tech_detect_3": "Testo barrato e correzioni",
     "tech_detect_4": "Margini e rientri",
     "tech_detect_5": "Quaderni e fogli mobili",
-
     "tech_tips_title": "Suggerimenti per Risultati Migliori",
     "tech_tips_1": "Usa una buona illuminazione per fotografare",
     "tech_tips_2": "Mantieni la fotocamera parallela alla pagina",
     "tech_tips_3": "300 DPI per i documenti scansionati",
     "tech_tips_4": "Assicurati del contrasto inchiostro-carta",
     "tech_tips_5": "Rivedi l'output prima di finalizzare",
-
     "related_tools_title": "Strumenti OCR Correlati",
-
     "related_tool_1_name": "Immagine a Word",
     "related_tool_1_desc": "Converti il testo in documenti formattati",
-
     "related_tool_2_name": "Modifica Pdf online",
     "related_tool_2_desc": "Carica e modifica documenti pdf online",
-
     "related_tool_3_name": "Editor di Documenti Online",
     "related_tool_3_desc": "Modifica MS word o Excel online gratis",
-
     "related_tool_4_name": "Immagine a Testo",
     "related_tool_4_desc": "Converti il corsivo in testo modificabile",
-
     "faq_title": "Domande Frequenti sulla Conversione da Appunti a Word",
-
     "cta_title": "Pronto a Digitalizzare i tuoi Appunti?",
     "cta_subtitle": "Unisciti a oltre 50.000 studenti e professionisti che hanno convertito gli appunti con NoteOCR",
     "cta_button": "Converti i tuoi Appunti Ora",
-
     "footer_text": "NoteOCR // Elaborazione Intelligente dei Documenti",
-
     "tool_upload_title": "Carica i Tuoi Appunti Scritti a Mano",
     "tool_upload_desc": "Supporta appunti di lezioni, verbali di riunioni e documenti di ricerca. Funziona con corsivo, stampatello e grafia mista.",
     "tool_upload_button": "Seleziona Immagine",
     "tool_upload_check_1": "JPG, PNG, PDF",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Sicuro con SSL",
-
     "tool_processing_title": "Analisi della Scrittura...",
     "tool_processing_desc": "L'AI sta riconoscendo i caratteri e mantenendo il layout",
-
     "tool_complete_title": "Conversione Completata!",
     "tool_complete_desc": "Il tuo documento Word è pronto. Scaricalo e modificalo in Microsoft Word o Google Docs.",
     "tool_complete_file_type": "Documento Word (.docx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Scarica Word",
     "tool_new_button": "Nuovo Documento",
-
     "tool_info_1_title": "Layout Preservato",
     "tool_info_1_desc": "Elenchi, intestazioni e paragrafi rimangono intatti",
-
     "tool_info_2_title": "Precisione 95%",
     "tool_info_2_desc": "Ottimizzato per scrittura corsiva e in stampatello",
-
     "tool_info_3_title": "Formato DOCX",
     "tool_info_3_desc": "Compatibile con Word, Docs e Pages",
-
     "tool_tip_label": "Suggerimento:",
     "tool_tip_text": "Per risultati ottimali, fotografa i tuoi appunti con una buona illuminazione e mantieni la fotocamera parallela. Assicura un contrasto adeguato.",
-
     "toast_success": "Trascrizione completata!",
     "toast_error_type": "Carica un'immagine valida (JPG, PNG, WEBP) o un file PDF",
     "toast_error_size": "La dimensione del file deve essere inferiore a 25MB",
     "toast_error_conversion": "Conversione fallita.",
     "toast_download_success": "Documento Word scaricato!",
     "toast_download_error": "Download fallito.",
-
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -463,153 +423,112 @@
       }
     }
   },
-
   "PdfPage": {
     "meta_title": "Modifica PDF Scansionati Online con OCR | Editor PDF Gratis | NoteOCR",
     "meta_desc": "Editor PDF basato su browser per documenti scansionati. Estrai testo scritto a mano con AI OCR, aggiungi firme, modifica i contenuti, senza scaricare software.",
-
     "hero_pill": "Workspace PDF Professionale",
     "hero_title": "Modifica PDF Scansionati Online con AI OCR",
     "hero_subtitle": "L'unico editor PDF basato su browser creato per documenti scansionati. Carica PDF scritti a mano, estrai il testo con l'OCR, aggiungi firme o crea nuovi documenti, il tutto senza installare software.",
-
     "trust_ssl": "CRITTOGRAFIA SSL",
     "trust_processing": "ELABORAZIONE ISTANTANEA",
     "trust_accuracy": "OCR SCRITTURA A MANO",
-
     "workspace_title": "Uno Spazio di Lavoro Completo per i Documenti",
     "workspace_subtitle": "Oltre il semplice OCR. Carica i tuoi documenti in un ambiente sicuro dove puoi modificare, cercare e gestire i tuoi file interamente nel cloud.",
-
     "workspace_feature_1_title": "Modifica del Testo Live",
     "workspace_feature_1_desc": "Modifica il testo estratto direttamente nel tuo browser. Correggi errori di battitura, formatta paragrafi e aggiorna i dati prima di esportarli.",
-
     "workspace_feature_2_title": "Privacy First",
     "workspace_feature_2_desc": "I tuoi documenti vengono crittografati ed elaborati in una sandbox sicura. Non memorizziamo mai i tuoi dati sensibili senza autorizzazione.",
-
     "workspace_feature_3_title": "Esportazione Istantanea",
     "workspace_feature_3_desc": "Hai finito di modificare? Scarica il tuo documento pulito come PDF ricercabile, documento Word o foglio Excel all'istante.",
-
     "use_cases_title": "Chi Modifica i PDF Scansionati Online?",
     "use_cases_subtitle": "Dagli studi legali al settore sanitario, migliaia modificano documenti scansionati ogni giorno",
-
     "use_case_1_title": "Professionisti Legali",
     "use_case_1_desc": "Modifica contratti scansionati, firma documenti legalmente in digitale, oscura informazioni sensibili e prepara i file del caso.",
-
     "use_case_2_title": "Piccole Imprese",
     "use_case_2_desc": "Compila moduli scansionati, aggiungi firme aziendali alle fatture, combina i PDF in report e annota proposte senza costosi abbonamenti Adobe.",
-
     "use_case_3_title": "Studenti & Educatori",
     "use_case_3_desc": "Annota libri di testo scansionati, combina appunti in guide di studio e converti compiti scritti a mano in PDF ricercabili.",
-
     "use_case_4_title": "Operatori Sanitari",
     "use_case_4_desc": "Modifica moduli di anamnesi, digitalizza cartelle cliniche scritte a mano e organizza le cartelle in modo sicuro.",
-
     "comparison_title": "Modifica PDF: Desktop vs Strumenti Online",
     "comparison_subtitle": "Perché l'editing basato su browser batte il software desktop",
     "comparison_col_tool": "Strumento",
     "comparison_col_access": "Accesso",
     "comparison_col_features": "Funzionalità",
     "comparison_col_cost": "Costo",
-
     "comparison_row1_tool": "Adobe Acrobat Pro",
     "comparison_row1_access": "Richiede installazione e aggiornamenti",
     "comparison_row1_features": "Complete, ma nessun OCR per scrittura a mano",
     "comparison_row1_cost": "20€/mese",
-
     "comparison_row2_tool": "Editor Online di Base",
     "comparison_row2_access": "Basato sul Web",
     "comparison_row2_features": "OCR limitato, niente scrittura a mano",
     "comparison_row2_cost": "Gratis-10€",
-
     "comparison_row3_tool": "Editor PDF NoteOCR",
     "comparison_row3_access": "Istantaneo, basato su browser",
     "comparison_row3_features": "OCR + scrittura a mano + Editor documenti completo",
     "comparison_row3_cost": "Gratis-8€",
-
     "features_title": "Perché il Nostro Editor per PDF Scansionati è Diverso",
     "features_subtitle": "Appositamente creato per modificare PDF scansionati e scritti a mano",
-
     "feature_1_title": "OCR per PDF Scansionati",
     "feature_1_desc": "Converti documenti scansionati e PDF scritti a mano in testo ricercabile e modificabile. La nostra AI riconosce il corsivo, il testo digitato e le strutture delle tabelle, preservando il layout.",
-
     "feature_2_title": "Suite di Modifica Completa",
     "feature_2_desc": "Aggiungi testo, disegna firme, inserisci immagini, evidenzia sezioni e riorganizza le pagine. Tutti gli strumenti standard in un'area di lavoro web.",
-
     "feature_3_title": "Sicurezza Basata sul Browser",
     "feature_3_desc": "Crittografia di livello bancario per i caricamenti. I tuoi PDF vengono elaborati localmente o in contenitori isolati. Eliminazione automatica dopo 24 ore.",
-
     "tech_title": "Come Funziona l'OCR per PDF Basato su Browser",
     "tech_intro": "Gli editor PDF tradizionali funzionano solo con testo digitale. NoteOCR combina un OCR avanzato con l'analisi del layout per gestire documenti scansionati e moduli scritti a mano, tutto nel tuo browser.",
-
     "tech_support_title": "Cosa Supportiamo",
     "tech_support_1": "Documenti e moduli scritti a mano",
     "tech_support_2": "Contratti e file legali scansionati",
     "tech_support_3": "PDF basati su immagini senza livello di testo",
     "tech_support_4": "Firme digitali e annotazioni",
     "tech_support_5": "Documenti PDF multipagina",
-
     "tech_tips_title": "Suggerimenti per i Risultati Migliori",
     "tech_tips_1": "Esegui la scansione a 300 DPI o superiore",
     "tech_tips_2": "Assicura una buona illuminazione e contrasto",
     "tech_tips_3": "Mantieni le pagine piatte senza pieghe",
     "tech_tips_4": "Usa colore/scala di grigi per la scrittura a mano",
     "tech_tips_5": "Carica direttamente dallo scanner quando possibile",
-
     "related_tools_title": "Strumenti OCR Correlati",
-
     "related_tool_1_name": "Immagine a Word",
     "related_tool_1_desc": "Converti il testo scritto a mano in documenti formattati",
-
     "related_tool_2_name": "Modifica Pdf online",
     "related_tool_2_desc": "Carica e modifica documenti pdf online ovunque ti trovi",
-
     "related_tool_3_name": "Editor di Documenti Online",
     "related_tool_3_desc": "Modifica documenti MS word o Excel gratuitamente online",
-
     "related_tool_4_name": "Immagine a Testo",
     "related_tool_4_desc": "Converti il corsivo in un'immagine in testo modificabile",
-
     "faq_title": "Domande Frequenti sulla Modifica di PDF Scansionati",
-
     "cta_title": "Pronto a Modificare i tuoi PDF Scansionati Online?",
     "cta_subtitle": "Unisciti a oltre 100.000 utenti che hanno modificato documenti scansionati con NoteOCR",
     "cta_button": "Inizia a Modificare Ora",
-
     "tool_main_title": "Area di Lavoro PDF Professionale",
     "tool_main_desc": "Carica PDF scansionati con grafia per l'OCR, o inizia un documento vuoto per creare da zero.",
     "tool_upload_button": "Carica PDF Scansionato",
     "tool_new_button": "Inizia da Zero",
-
     "tool_upload_check_1": "Solo PDF",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Sicuro con SSL",
-
     "tool_info_1_title": "OCR Scrittura a Mano",
     "tool_info_1_desc": "Estrai testo da documenti scritti a mano scansionati",
-
     "tool_info_2_title": "Suite Editor Completa",
     "tool_info_2_desc": "Aggiungi testo, firme, annotazioni e altro",
-
     "tool_info_3_title": "Basato su Browser",
     "tool_info_3_desc": "Nessun download richiesto, funziona all'istante",
-
     "tool_tip_label": "Pro Tip:",
     "tool_tip_text": "Per i migliori risultati OCR sui PDF scansionati, assicurati che i documenti siano scansionati a 300 DPI con un buon contrasto.",
-
     "modal_new_title": "Crea Nuovo PDF",
     "modal_new_desc": "Inizia con una tela vuota e costruisci il tuo documento da zero.",
     "modal_new_button": "Crea PDF Vuoto",
-
     "modal_upload_title": "Carica PDF Scansionato",
     "modal_upload_desc": "Importa il tuo PDF scansionato per estrarre testo con OCR, aggiungere firme o modificare il contenuto.",
     "modal_upload_placeholder": "Clicca o trascina il PDF qui",
     "modal_upload_info": "Dimensione massima file: 25MB • Supporta PDF scansionati e scritti a mano",
-
     "modal_processing_new": "Creazione Area di Lavoro...",
     "modal_processing_upload": "Elaborazione PDF...",
     "modal_processing_desc": "Preparazione dell'ambiente PDF sicuro",
-
     "modal_security_badge": "Crittografia di Livello Bancario",
-
     "toast_success_create": "Workspace PDF Pronto!",
     "toast_success_upload": "PDF caricato con successo!",
     "toast_error_type": "Seleziona un file PDF valido",
@@ -617,7 +536,6 @@
     "toast_error_create": "Impossibile creare il PDF.",
     "toast_error_upload": "Impossibile caricare il PDF",
     "toast_error_drop": "Trascina un file PDF valido",
-
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {
@@ -706,20 +624,16 @@
     "router_title": "Che tipo di documento hai?",
     "router_subtitle": "Ti indirizzeremo allo strumento giusto per ottenere il miglior risultato.",
     "router_back_button": "Torna al tipo di documento",
-
     "router_type_standard_label": "PDF Standard / Digitale",
     "router_type_standard_desc": "Contratti digitati, moduli o qualsiasi PDF con testo selezionabile. Devo modificarlo, annotarlo o firmarlo.",
     "router_type_standard_cta": "Continua nell'Editor PDF",
-
     "router_type_handwritten_label": "Appunti o documenti scritti a mano",
     "router_type_handwritten_desc": "Carica una foto o una scansione di appunti, lettere o documenti scritti a mano. Li convertiremo in un file Word perfettamente formattato e modificabile, preservando la struttura, la spaziatura e il layout.",
     "router_type_handwritten_cta": "Converti scrittura a mano in Word →",
-
     "router_type_table_label": "Registri, tabelle o dati scritti a mano",
     "router_type_table_desc": "Carica una foto o una scansione di griglie, libri contabili, inventari o qualsiasi registrazione strutturata scritta a mano. Li convertiremo in un foglio di calcolo Excel pulito e formattato professionalmente.",
     "router_type_table_cta": "Converti scrittura a mano in Excel →"
   },
-
   "EditorPage": {
     "meta_title": "Modifica Documenti Office Online Gratis - Editor Web Word, Excel e PPT",
     "meta_desc": "Editor di documenti online professionale. Crea e modifica file Word (DOCX), Excel (XLSX) e PowerPoint (PPTX) direttamente nel tuo browser senza Microsoft Office.",
@@ -914,144 +828,109 @@
   "ExcelPage": {
     "meta_title": "Convertire Tabelle Scritte a Mano in Excel (XLSX) | NoteOCR",
     "meta_desc": "Automatizza l'inserimento dei dati. Converti istantaneamente griglie scritte a mano, tabelle finanziarie e schede in fogli di calcolo Excel modificabili utilizzando l'AI.",
-
     "hero_pill": "Riconoscimento Struttura Tabella",
     "hero_title": "Converti le Tabelle Scritte a Mano in Fogli di Calcolo Excel",
     "hero_subtitle": "Smetti di digitare i dati manualmente. La nostra AI rileva righe, colonne e bordi delle celle nei tuoi appunti, anche senza linee disegnate, ed esporta fogli di calcolo .xlsx formattati.",
-
     "trust_ssl": "CRITTOGRAFIA SSL",
     "trust_processing": "ELABORAZIONE IN 2 MINUTI",
     "trust_accuracy": "PRECISIONE NUMERICA DEL 98%",
-
     "before_after_title": "Guarda la Differenza",
     "before_after_desc": "Conversione reale che mostra la struttura preservata e l'accuratezza numerica",
     "before_label": "Prima: Registro Scritto a Mano",
     "before_placeholder": "[Carica la tua tabella per vedere i risultati qui]",
     "after_label": "Dopo: Output Excel",
     "after_placeholder": "[Anteprima foglio di calcolo formattato]",
-
     "use_cases_title": "Chi Usa la Conversione in Excel?",
     "use_cases_subtitle": "Dalle società di contabilità agli insegnanti, migliaia di persone convertono tabelle ogni giorno",
-
     "use_case_1_title": "Contabilità",
     "use_case_1_desc": "Converti registri finanziari, note spese e ricevute in file Excel ordinabili per la preparazione fiscale e gli audit.",
-
     "use_case_2_title": "Gestione Inventario",
     "use_case_2_desc": "Digitalizza conteggi di magazzino, elenchi di prodotti e registri. Perfetto per le piccole imprese che monitorano l'inventario su carta.",
-
     "use_case_3_title": "Insegnanti e Voti",
     "use_case_3_desc": "Trasforma registri dei voti scritti a mano in fogli di calcolo formattati per pagelle e monitoraggio dei progressi.",
-
     "use_case_4_title": "Ricerca e Raccolta Dati",
     "use_case_4_desc": "Converti appunti sul campo, risposte a sondaggi e tabelle di dati di laboratorio in set di dati analizzabili per software statistici.",
-
     "comparison_title": "Tabelle Scritte a Mano in Excel: Metodi a Confronto",
     "comparison_subtitle": "Perché NoteOCR fa risparmiare ore rispetto all'inserimento manuale",
     "comparison_col_method": "Metodo",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Precisione",
     "comparison_col_cost": "Costo",
-
     "comparison_row1_method": "Digitazione Manuale",
     "comparison_row1_time": "45 minuti",
     "comparison_row1_accuracy": "95% (errore umano)",
     "comparison_row1_cost": "15€/ora manodopera",
-
     "comparison_row2_method": "OCR Generico",
     "comparison_row2_time": "10 minuti",
     "comparison_row2_accuracy": "50% (perde la struttura)",
     "comparison_row2_cost": "Gratis-20€",
-
     "comparison_row3_method": "NoteOCR Tabelle",
     "comparison_row3_time": "2 minuti",
     "comparison_row3_accuracy": "98% struttura preservata",
     "comparison_row3_cost": "8€/100 pagine",
-
     "features_title": "Perché il Nostro OCR per Tabelle è Diverso",
     "features_subtitle": "Appositamente creato per tabelle di dati scritti a mano",
-
     "feature_1_title": "Rilevamento Griglia Intelligente",
     "feature_1_desc": "La nostra AI identifica la struttura della tabella anche senza bordi visibili. Riconosce colonne implicite, testo allineato e relazioni nei layout.",
-
     "feature_2_title": "Ottimizzato per i Numeri",
     "feature_2_desc": "Precisione perfetta per i dati finanziari. Converti registri contabili scritti a mano, fatture, conteggi di inventario e note spese preservando la formattazione.",
-
     "feature_3_title": "Esporta in Excel o CSV",
     "feature_3_desc": "Scarica i tuoi dati come Microsoft Excel (.xlsx) con un'adeguata formattazione delle celle, o esportali come CSV per l'importazione in Google Sheets o database.",
-
     "tech_title": "Come Funziona la Tecnologia di Rilevamento della Griglia",
     "tech_intro": "La maggior parte degli strumenti OCR tratta le tabelle come testo normale. L'AI specializzata di NoteOCR analizza il posizionamento spaziale per ricostruire la struttura esatta della tabella: preservando intestazioni, formule e celle unite.",
-
     "tech_detect_title": "Cosa Rileviamo",
     "tech_detect_1": "Bordi delle celle senza linee disegnate",
     "tech_detect_2": "Intestazioni di colonna e gerarchie",
     "tech_detect_3": "Celle unite che si estendono su più colonne",
     "tech_detect_4": "Simboli di valuta e decimali",
     "tech_detect_5": "Tabelle su carta millimetrata e carta bianca",
-
     "tech_tips_title": "Suggerimenti per Risultati Migliori",
     "tech_tips_1": "Usa una buona illuminazione per fotografare",
     "tech_tips_2": "Mantieni la fotocamera parallela alla pagina",
     "tech_tips_3": "300 DPI per i documenti scansionati",
     "tech_tips_4": "Cattura l'intera tabella in un'immagine",
     "tech_tips_5": "Rivedi l'output prima dell'uso critico",
-
     "related_tools_title": "Strumenti OCR Correlati",
-
     "related_tool_1_name": "Immagine a Word",
     "related_tool_1_desc": "Converti il testo in documenti formattati",
-
     "related_tool_2_name": "Modifica Pdf online",
     "related_tool_2_desc": "Carica e modifica documenti pdf online ovunque",
-
     "related_tool_3_name": "Editor di Documenti Online",
     "related_tool_3_desc": "Modifica documenti MS word o Excel gratuitamente online",
-
     "related_tool_4_name": "Immagine a Testo",
     "related_tool_4_desc": "Converti il testo corsivo nell'immagine in testo formattato",
-
     "faq_title": "Domande Frequenti sulla Conversione di Tabelle in Excel",
-
     "cta_title": "Pronto a Fermare l'Inserimento Manuale dei Dati?",
     "cta_subtitle": "Unisciti a oltre 10.000 utenti che hanno digitalizzato tabelle con NoteOCR",
     "cta_button": "Converti la Tua Tabella Ora",
-
     "tool_upload_title": "Carica la Tua Tabella Scritta a Mano",
     "tool_upload_desc": "Supporta registri, fogli di inventario, registri dei voti e tabelle di dati. Funziona con o senza bordi disegnati.",
     "tool_upload_button": "Seleziona Immagine",
     "tool_upload_check_1": "JPG, PNG, JPEG",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Sicuro con SSL",
-
     "tool_processing_title": "Rilevamento della Struttura della Tabella...",
     "tool_processing_desc": "L'AI analizza righe, colonne e bordi delle celle",
-
     "tool_complete_title": "Tabella Estratta con Successo!",
     "tool_complete_desc": "Il tuo foglio di calcolo è pronto. Scaricalo in formato Excel (.xlsx) o CSV.",
     "tool_complete_file_type": "Foglio di Calcolo Excel",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Scarica Excel",
     "tool_new_button": "Nuova Tabella",
-
     "tool_info_1_title": "Rilevamento Intelligente",
     "tool_info_1_desc": "Funziona con tabelle che non hanno linee disegnate",
-
     "tool_info_2_title": "Precisione 99%",
     "tool_info_2_desc": "Ottimizzato per numeri e dati finanziari",
-
     "tool_info_3_title": "Formato Excel",
     "tool_info_3_desc": "Compatibile con Excel, Fogli e database",
-
     "tool_tip_label": "Pro Tip:",
     "tool_tip_text": "Per ottenere i migliori risultati, fotografa la tua tabella con una buona illuminazione. Scansioni a 300 DPI funzionano meglio di foto a bassa risoluzione.",
-
     "toast_success": "Tabella estratta con successo!",
     "toast_error_type": "Carica un'immagine valida (JPG, PNG, WEBP) o un file PDF",
     "toast_error_size": "La dimensione del file deve essere inferiore a 25MB",
     "toast_error_extraction": "Estrazione fallita.",
     "toast_download_success": "File Excel scaricato!",
     "toast_download_error": "Download fallito.",
-
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1117,7 +996,6 @@
       }
     }
   },
-
   "nav": {
     "product": "Prodotto",
     "solutions": "Soluzioni",
@@ -1140,7 +1018,6 @@
     "login": "Accedi",
     "get_started": "Inizia Ora"
   },
-
   "Footer": {
     "description": "Trasforma appunti scritti a mano in documenti puliti e modificabili all'istante. Sicuro, veloce e costruito per i team moderni.",
     "stay_updated": "Rimani Aggiornato",
@@ -1282,57 +1159,112 @@
       "rows": [
         {
           "name": "OCR Scrittura Stampatello",
-          "values": [true, true, true, true],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Motore per Corsivo",
-          "values": ["Standard", "Alto", "Ultra", "Ultra"],
+          "values": [
+            "Standard",
+            "Alto",
+            "Ultra",
+            "Ultra"
+          ],
           "group": "core"
         },
         {
           "name": "Rilevamento Tabelle (Excel)",
-          "values": [false, false, true, true],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Mantenimento Layout (Word)",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Formule Matematiche",
-          "values": [false, false, "Base", "Avanzate"],
+          "values": [
+            false,
+            false,
+            "Base",
+            "Avanzate"
+          ],
           "group": "core"
         },
         {
           "name": "Correzione Inchiostro Sbavato",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Formati di Esportazione",
-          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Tutti i Formati"],
+          "values": [
+            "TXT",
+            "DOCX, TXT",
+            "XLSX, DOCX, PDF",
+            "Tutti i Formati"
+          ],
           "group": "formats"
         },
         {
           "name": "Limite Caricamento Batch",
-          "values": ["1 File", "5 File", "10 File", "Illimitato"],
+          "values": [
+            "1 File",
+            "5 File",
+            "10 File",
+            "Illimitato"
+          ],
           "group": "formats"
         },
         {
           "name": "Durata Archiviazione Cloud",
-          "values": ["24 Ore", "30 Giorni", "Per Sempre", "Per Sempre"],
+          "values": [
+            "24 Ore",
+            "30 Giorni",
+            "Per Sempre",
+            "Per Sempre"
+          ],
           "group": "system"
         },
         {
           "name": "Livello di Crittografia",
-          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "values": [
+            "AES-256",
+            "AES-256",
+            "AES-256",
+            "AES-256"
+          ],
           "group": "system"
         },
         {
           "name": "Priorità di Elaborazione",
-          "values": ["Standard", "Standard", "Alta", "Tempo Reale"],
+          "values": [
+            "Standard",
+            "Standard",
+            "Alta",
+            "Tempo Reale"
+          ],
           "group": "system"
         }
       ]
@@ -1455,8 +1387,8 @@
       "loading": "Elaborazione in corso..."
     },
     "sidebar": {
-      "hq_title": "Sede Centrale di Zurigo",
-      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zurigo\nSvizzera",
+      "hq_title": "Sede Centrale",
+      "hq_address": "NoteOCR\n11 Boyo Road, Sapele, Delta State\nNigeria",
       "timezone": "Central European Time (CET)",
       "support": "Supporto Generale",
       "sales": "Vendite Enterprise",
@@ -1521,7 +1453,6 @@
   "EducationPage": {
     "meta_title": "Scrittura a Mano in Testo per Studenti | Appunti in Notion e Obsidian",
     "meta_desc": "Converti appunti di lezioni, lavagne e diari in testo ricercabile e modificabile. Costruito per gli studenti, veloce, accurato e gratuito per iniziare.",
-
     "hero": {
       "badge": "Edizione Accademica",
       "title_start": "La tua scrittura a mano,",
@@ -1764,25 +1695,18 @@
     "last_updated": "Ultimo Aggiornamento",
     "date": "Gennaio 2026",
     "welcome_text": "Benvenuto in NoteOCR. Questi Termini di Servizio costituiscono un accordo legalmente vincolante tra te (Utente) e NoteOCR Inc. (NoteOCR, noi, nostro) che regola l'accesso e l'uso del nostro sito web, applicazione web, API e tutti i servizi correlati. Creando un account o acquistando crediti, riconosci di aver letto, compreso e accettato questi Termini e la nostra Informativa sulla Privacy.",
-
     "s1_t": "Accettazione ed Idoneità",
     "s1_c": "Devi avere almeno 13 anni per usare NoteOCR. Se utilizzi i Servizi per conto di un'azienda, dichiari di avere l'autorità per vincolare tale entità a questi Termini. Ci riserviamo il diritto di rifiutare l'accesso a nostra discrezione. Continuando a utilizzare i nostri Servizi dopo eventuali aggiornamenti, accetti integralmente i Termini rivisti.",
-
     "s2_t": "Descrizione dei Servizi",
     "s2_c": "NoteOCR fornisce una piattaforma di digitalizzazione dei documenti basata sull'intelligenza artificiale che converte appunti, moduli PDF e foto in formati digitali modificabili (Word, Excel e PDF). I Servizi includono il riconoscimento della grafia, un editor di documenti nel browser e un'API per sviluppatori. Non garantiamo alcun livello di precisione specifico oltre a quanto espressamente dichiarato nella nostra documentazione.",
-
     "s3_t": "Registrazione dell'Account",
     "s3_c": "Per accedere alla maggior parte delle funzionalità, devi registrare un account fornendo un'email e una password sicura. Accetti di fornire informazioni accurate. Sei l'unico responsabile del mantenimento della riservatezza delle tue credenziali. Ogni account è per un singolo utente.",
-
     "s4_t": "Contenuto dell'Utente e Licenza",
     "s4_c": "Mantieni la piena proprietà di tutti i documenti che carichi su NoteOCR (Contenuto dell'Utente). Caricando il Contenuto dell'Utente, concedi a NoteOCR una licenza limitata per elaborare i tuoi file al solo scopo di fornire i Servizi. NoteOCR non rivendica la proprietà sui tuoi documenti e non utilizzerà mai il tuo Contenuto per addestrare modelli di intelligenza artificiale.",
-
     "s5_t": "Proprietà Intellettuale",
     "s5_c": "Tutta la tecnologia, il software e gli algoritmi alla base della piattaforma NoteOCR sono proprietà intellettuale esclusiva di NoteOCR Inc. Non puoi copiare, modificare, decompilare o decodificare alcuna parte dei Servizi senza il nostro consenso scritto.",
-
     "s6_t": "Pagamenti e Crediti Pagina",
     "s6_c": "NoteOCR opera con un modello di pagamento una tantum. Non ci sono abbonamenti ricorrenti. Acquisti crediti in pacchetti da 8€ a 25€, e i crediti vengono detratti per pagina elaborata. I crediti non scadono. Tutti i pagamenti vengono elaborati in modo sicuro tramite Stripe. Gli acquisti non sono rimborsabili una volta iniziata l'elaborazione delle pagine.",
-
     "s7_t": "Attività Proibite",
     "prohibited_intro": "Accetti di non utilizzare NoteOCR per le seguenti attività. La violazione comporterà la chiusura dell'account.",
     "prohibited_item_1": "Decodificare o tentare di ricavare il codice sorgente o i modelli della piattaforma.",
@@ -1791,28 +1715,21 @@
     "prohibited_item_4": "Interferire o tentare di ottenere accesso non autorizzato ai server di NoteOCR.",
     "prohibited_item_5": "Usare script automatizzati per accedere ai Servizi senza consenso scritto.",
     "prohibited_item_6": "Rivendere o ridistribuire commercialmente i Servizi.",
-
     "s8_t": "Privacy dei Dati e Sicurezza",
     "s8_c": "NoteOCR prende sul serio la sicurezza dei dati. Tutti i documenti caricati sono crittografati in transito (TLS 1.3) e a riposo (AES-256). I tuoi file vengono elaborati in ambienti isolati ed eliminati automaticamente dai nostri server di elaborazione al termine della conversione. NoteOCR è conforme al GDPR.",
-
     "s9_t": "Limitazione di Responsabilità",
     "s9_c": "I Servizi sono forniti 'così come sono'. NoteOCR non garantisce che i Servizi saranno ininterrotti o privi di errori. In nessun caso la responsabilità complessiva di NoteOCR nei tuoi confronti supererà l'importo totale da te pagato nei dodici (12) mesi precedenti.",
-
     "s10_t": "Modifiche ai Termini",
     "s10_c": "NoteOCR si riserva il diritto di modificare questi Termini in qualsiasi momento. Ti informeremo di eventuali modifiche sostanziali.",
-
     "s14_t": "Legge Applicabile e Controversie",
     "s14_c": "Questi Termini saranno regolati esclusivamente dalle leggi della Svizzera. Qualsiasi controversia sarà sottoposta alla giurisdizione esclusiva dei tribunali di Zugo, Svizzera.",
-
     "s15_t": "Varie",
     "s15_c": "Questi Termini costituiscono l'intero accordo tra te e NoteOCR. Se una qualsiasi disposizione viene ritenuta inapplicabile, le restanti disposizioni continueranno ad avere pieno vigore.",
-
     "contact_t": "Hai domande su questi Termini?",
     "contact_d": "Il nostro team legale e di supporto è disponibile per chiarire qualsiasi aspetto di questi Termini di Servizio.",
     "contact_email_label": "Scrivi al nostro team legale",
     "contact_response": "Tempo di risposta tipico: 1 giorno lavorativo"
   },
-
   "PrivacyPage": {
     "meta_title": "Informativa sulla Privacy – NoteOCR | Come Gestiamo i Tuoi Dati",
     "meta_desc": "Scopri come NoteOCR raccoglie, utilizza e protegge i tuoi dati personali. Siamo pienamente conformi al GDPR e non usiamo mai i tuoi documenti per addestrare modelli AI.",
@@ -1821,34 +1738,24 @@
     "last_updated": "Ultimo Aggiornamento",
     "date": "Gennaio 2026",
     "welcome_text": "NoteOCR Inc. si impegna a proteggere i tuoi dati personali. Questa Informativa è conforme al Regolamento Generale sulla Protezione dei Dati (GDPR). Utilizzando NoteOCR, accetti le pratiche descritte in questa Informativa.",
-
     "s1_t": "Chi Siamo e Titolare del Trattamento",
     "s1_c": "NoteOCR Inc. è il titolare del trattamento dei tuoi dati personali. Siamo una società tecnologica con sede a Zugo, Svizzera.",
-
     "s2_t": "Quali Dati Raccogliamo",
     "s2_c": "Raccogliamo il minimo necessario: (a) Informazioni sull'Account (nome, email); (b) Dati di Utilizzo (pagine elaborate, sessioni); (c) Dati Tecnici (indirizzo IP, browser); (d) Dati di Pagamento (elaborati da Stripe, non conserviamo il numero della tua carta di credito); (e) Contenuto Caricato (soggetto alle rigide regole descritte di seguito).",
-
     "s3_t": "Come Usiamo i Tuoi Dati",
     "s3_c": "Utilizziamo i tuoi dati solo per: Fornire i Servizi, prevenire frodi e rispettare gli obblighi legali e fiscali nell'UE. Non vendiamo mai i tuoi dati personali.",
-
     "s4_t": "I Tuoi Documenti Caricati",
     "s4_c": "I file sono crittografati in transito con TLS 1.3 e a riposo con AES-256. Non accediamo, leggiamo o analizziamo il contenuto dei tuoi documenti. NoteOCR non usa MAI il contenuto dei tuoi documenti caricati per addestrare modelli AI.",
-
     "s5_t": "Cookie e Tracciamento",
     "s5_c": "Usiamo cookie essenziali per mantenerti connesso. Non utilizziamo pixel di tracciamento o cookie pubblicitari di terze parti.",
-
     "s6_t": "Condivisione dei Dati",
     "s6_c": "Condividiamo i dati personali con fornitori di servizi affidabili (es. Stripe per i pagamenti, e fornitori Cloud).",
-
     "s9_t": "I Tuoi Diritti sulla Privacy (GDPR)",
     "s9_c": "Hai il Diritto di Accesso, Rettifica, Cancellazione, Limitazione, Portabilità e Obiezione. Per esercitare questi diritti, invia un'email a support@noteocr.com. Risponderemo entro 30 giorni.",
-
     "s10_t": "Misure di Sicurezza",
     "s10_c": "Implementiamo rigorose misure di sicurezza (Crittografia AES-256, ambienti isolati). In caso di violazione dei dati, informeremo te e l'autorità competente entro 72 ore come richiesto dal GDPR.",
-
     "s13_t": "Contatti",
     "s13_c": "Se hai domande sulla privacy, contatta il nostro Data Protection Officer (DPO) scrivendo a support@noteocr.com.",
-
     "rights_title": "I Tuoi Diritti in Breve",
     "right_access": "Accedi ai tuoi dati",
     "right_rectify": "Correggi imprecisioni",
@@ -1857,7 +1764,6 @@
     "right_portability": "Esporta i tuoi dati",
     "right_object": "Obietta alla profilazione",
     "right_consent": "Revoca il consenso",
-
     "data_table_title": "Dati che Raccogliamo",
     "data_col_type": "Tipo di Dato",
     "data_col_purpose": "Scopo",
@@ -1883,7 +1789,6 @@
     "data_row5_purpose": "Supporto",
     "data_row5_basis": "Interesse Legittimo",
     "data_row5_retention": "3 anni",
-
     "security_title": "Impegni per la Sicurezza",
     "security_badge1": "AES-256 a riposo",
     "security_badge2": "TLS 1.3 in Transito",
@@ -1893,9 +1798,7 @@
     "security_badge6": "Pen Test Regolari",
     "security_badge7": "Zero Addestramento Modelli",
     "security_badge8": "Conforme al GDPR",
-
     "welcome_text_short": "Si prega di leggere attentamente questa politica. Descrive come NoteOCR gestisce i tuoi dati in un linguaggio semplice.",
-
     "contact_t": "Domande sulla privacy?",
     "contact_d": "Il nostro team gestisce tutte le richieste personalmente e risponde entro 30 giorni.",
     "contact_email_label": "Email al nostro team privacy",
@@ -1906,7 +1809,6 @@
       "title": "Documentazione | NoteOCR - OCR per Scrittura a Mano",
       "description": "Scopri come convertire la scrittura in testo, estrarre tabelle in Excel e automatizzare i tuoi flussi di lavoro con le guide complete di NoteOCR."
     },
-
     "sidebar": {
       "external_links": "Link Esterni",
       "api_reference": "Riferimento API",
@@ -2062,144 +1964,109 @@
   "pic-to-excel": {
     "meta_title": "Convertire Foto in Excel Online | Convertitore Immagini in Excel AI",
     "meta_desc": "Trasforma qualsiasi foto in un foglio di calcolo. Converti screenshot o immagini JPG/PNG in Excel (.xlsx) modificabili istantaneamente.",
-
     "hero_pill": "Tecnologia AI Immagine-a-Tabella",
     "hero_title": "Converti Foto in Excel con l'AI",
     "hero_subtitle": "Trasforma foto, screenshot e note scritte a mano in fogli di calcolo Excel modificabili. Nessun inserimento manuale. Supporto per JPG e PNG.",
-
     "trust_ssl": "CRITTOGRAFIA SSL",
     "trust_processing": "CONVERSIONE ISTANTANEA",
     "trust_accuracy": "PRECISIONE DEL 99%",
-
     "before_after_title": "Dall'Immagine al Foglio di Calcolo",
     "before_after_desc": "Scopri come la nostra AI estrae i dati in celle modificabili",
     "before_label": "Prima: Immagine / Screenshot",
     "before_placeholder": "[Carica qualsiasi immagine con una tabella]",
     "after_label": "Dopo: Excel Modificabile",
     "after_placeholder": "[Anteprima .xlsx formattata]",
-
     "use_cases_title": "Chi ha bisogno di un Convertitore Immagine a Excel?",
     "use_cases_subtitle": "Dagli impiegati ai proprietari di aziende, automatizziamo il lavoro noioso",
-
     "use_case_1_title": "Fatture & Ricevute",
     "use_case_1_desc": "Scatta una foto delle fatture cartacee. La nostra AI estrae le voci, le quantità e i prezzi direttamente in colonne.",
-
     "use_case_2_title": "Screenshot a Excel",
     "use_case_2_desc": "Hai una tabella in un PDF o sito web che non puoi copiare? Fai uno screenshot e caricalo. Ricostruiamo la griglia all'istante.",
-
     "use_case_3_title": "Registri Scritti a Mano",
     "use_case_3_desc": "L'unico strumento che gestisce la scrittura disordinata. Converti i registri di magazzino in fogli di calcolo digitali.",
-
     "use_case_4_title": "Rendiconti Finanziari",
     "use_case_4_desc": "Converti foto di estratti conto bancari preservando i punti decimali e la valuta.",
-
     "comparison_title": "Immagine in Excel: Perché NoteOCR Vince",
     "comparison_subtitle": "Non faticare con convertitori PDF generici",
     "comparison_col_method": "Metodo",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Struttura Tabella",
     "comparison_col_cost": "Sforzo",
-
     "comparison_row1_method": "Inserimento Dati Manuale",
     "comparison_row1_time": "1 ora/pagina",
     "comparison_row1_accuracy": "Alto Rischio di Errori",
     "comparison_row1_cost": "Alto (Noioso)",
-
     "comparison_row2_method": "Strumenti PDF Generici",
     "comparison_row2_time": "5 minuti",
     "comparison_row2_accuracy": "Si rompe con le Immagini",
     "comparison_row2_cost": "Frustrante",
-
     "comparison_row3_method": "NoteOCR AI",
     "comparison_row3_time": "60 Secondi",
     "comparison_row3_accuracy": "Perfetta Ritenzione",
     "comparison_row3_cost": "Automatizzato",
-
     "features_title": "Il Miglior Modo per Convertire Foto in Tabelle",
     "features_subtitle": "Progettato per foto da smartphone e screenshot",
-
     "feature_1_title": "Agnostico rispetto al Formato",
     "feature_1_desc": "Non hai un PDF? Nessun problema. Gestiamo JPG, JPEG e PNG che gli altri convertitori rifiutano.",
-
     "feature_2_title": "Ricostruzione Intelligente",
     "feature_2_desc": "Allinea i dati fluttuanti in righe e colonne, anche se la foto è stata scattata da un'angolazione sfavorevole.",
-
     "feature_3_title": "Elaborazione Mobile",
     "feature_3_desc": "Costruito per il flusso di lavoro 'Scatta e Vai'.",
-
     "tech_title": "Come Funziona",
     "tech_intro": "Convertire un'immagine in un foglio di calcolo dinamico è complesso. NoteOCR utilizza la Computer Vision per rilevare le linee della tabella e ricostruire le coordinate nel file Excel.",
-
     "tech_detect_title": "Cosa Estraiamo",
     "tech_detect_1": "Strutture di tabelle dagli screenshot",
     "tech_detect_2": "Dati da foto distorte/angolate",
     "tech_detect_3": "Numeri scritti a mano e stampati",
     "tech_detect_4": "Layout a più colonne",
     "tech_detect_5": "Intestazioni e piè di pagina",
-
     "tech_tips_title": "Suggerimenti per Conversioni Perfette",
     "tech_tips_1": "Assicurati che l'immagine sia a fuoco",
     "tech_tips_2": "Evita le ombre sulla tabella",
     "tech_tips_3": "Ritaglia l'immagine nell'area pertinente",
     "tech_tips_4": "Utilizza impostazioni ad alta risoluzione",
     "tech_tips_5": "Controlla i formati standard (JPG o PNG)",
-
     "related_tools_title": "Altri Strumenti di Conversione",
-
     "related_tool_1_name": "Immagine in Word",
     "related_tool_1_desc": "Converti il testo in documenti Word",
-
     "related_tool_2_name": "Modifica Pdf online",
     "related_tool_2_desc": "Editor per file scansionati",
-
     "related_tool_3_name": "Editor di Documenti Online",
     "related_tool_3_desc": "Modifica Excel senza software",
-
     "related_tool_4_name": "Immagine a Testo",
     "related_tool_4_desc": "Converti la foto in testo formattato",
-
     "faq_title": "FAQ: Convertire Immagini in Excel",
-
     "cta_title": "Trasforma Quella Foto in un Foglio di Calcolo",
     "cta_subtitle": "Smetti di digitare. Inizia a scansionare.",
     "cta_button": "Converti Immagine Ora",
-
     "tool_upload_title": "Carica Immagine da Convertire",
     "tool_upload_desc": "Supporta JPG, PNG, WEBP. Funziona su screenshot e foto.",
     "tool_upload_button": "Seleziona Foto",
     "tool_upload_check_1": "Supporto JPG / PNG",
     "tool_upload_check_2": "Nessuna Iscrizione Richiesta",
     "tool_upload_check_3": "Elaborazione Sicura",
-
     "tool_processing_title": "Analisi dell'Immagine...",
     "tool_processing_desc": "Identificazione della tabella in corso",
-
     "tool_complete_title": "File Excel Pronto!",
     "tool_complete_desc": "L'immagine è stata convertita. Scarica il foglio di calcolo qui sotto.",
     "tool_complete_file_type": "Microsoft Excel (.xlsx)",
     "tool_complete_status": "SUCCESSO",
     "tool_download_button": "Scarica Excel",
     "tool_new_button": "Converti un'altra",
-
     "tool_info_1_title": "Qualsiasi Immagine",
     "tool_info_1_desc": "JPG, PNG e Screenshot supportati",
-
     "tool_info_2_title": "AI per Tabelle",
     "tool_info_2_desc": "Mantiene automaticamente righe e colonne",
-
     "tool_info_3_title": "Modificabile",
     "tool_info_3_desc": "Output completo in Excel (.xlsx)",
-
     "tool_tip_label": "Suggerimento per la Scansione:",
     "tool_tip_text": "Se converti un documento lungo, scatta più foto ravvicinate invece di una sola da lontano.",
-
     "toast_success": "Immagine convertita con successo!",
     "toast_error_type": "Carica un file immagine valido (JPG, PNG)",
     "toast_error_size": "La dimensione del file deve essere inferiore a 25MB",
     "toast_error_extraction": "Impossibile rilevare una tabella.",
     "toast_download_success": "Foglio di calcolo salvato!",
     "toast_download_error": "Download fallito.",
-
     "FAQ": {
       "items": {
         "pic_to_excel_how": {
@@ -2268,146 +2135,110 @@
   "JpgToWord": {
     "meta_title": "Convertire JPG in Documento Word | Estrarre Testo da JPEG a DOCX",
     "meta_desc": "Converti istantaneamente le immagini JPG e JPEG in documenti Word modificabili. Il nostro OCR avanzato estrae il testo da foto e screenshot mantenendo la formattazione.",
-
     "hero_pill": "OCR Veloce Immagine-Testo",
     "hero_title": "Converti Immagini JPG in Documenti Word Istantaneamente",
     "hero_subtitle": "Smetti di ridigitare il testo dalle immagini. Carica qualsiasi JPG o JPEG e la nostra AI estrarrà accuratamente il testo in un file Microsoft Word (.docx) completamente modificabile.",
-
     "trust_ssl": "UPLOAD SICURO A 256-BIT",
     "trust_processing": "ELABORAZIONE VELOCE",
     "trust_accuracy": "OCR AD ALTA FEDELTÀ",
-
     "before_after_title": "Dall'Immagine Piatta al Testo Modificabile",
     "before_after_desc": "Scopri come estraiamo perfettamente il testo bloccato in un JPG.",
     "before_label": "Prima: Immagine JPG Originale",
     "before_placeholder": "",
     "after_label": "Dopo: Documento Word Modificabile",
     "after_placeholder": "",
-
     "use_cases_title": "Perché Convertire JPG in Word?",
     "use_cases_subtitle": "Il modo più semplice per rendere modificabile il testo intrappolato nelle immagini.",
-
     "use_case_1_title": "Documenti Scansionati",
     "use_case_1_desc": "Trasforma JPEG scansionati di contratti in testo modificabile.",
-
     "use_case_2_title": "Screenshot",
     "use_case_2_desc": "Converti gli screenshot JPG in testo che puoi formattare in Word.",
-
     "use_case_3_title": "Foto di Pagine Stampate",
     "use_case_3_desc": "Hai scattato una foto di un libro? Estrai il testo in modo accurato.",
-
     "use_case_4_title": "Immagini con Scrittura a Mano",
     "use_case_4_desc": "Il nostro motore può anche leggere e convertire foto JPG contenenti appunti scritti a mano.",
-
     "comparison_title": "JPG a Word: Perché i Convertitori Falliscono",
     "comparison_subtitle": "La maggior parte degli strumenti incolla semplicemente la tua immagine in un file Word. NoteOCR estrae effettivamente il testo.",
     "comparison_col_method": "Metodo",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Estrazione Testo",
     "comparison_col_cost": "Costo",
-
     "comparison_row1_method": "Digitazione Manuale",
     "comparison_row1_time": "15-30 minuti",
     "comparison_row1_accuracy": "Alta",
     "comparison_row1_cost": "Il Tuo Tempo",
-
     "comparison_row2_method": "Convertitori Standard",
     "comparison_row2_time": "1 minuto",
     "comparison_row2_accuracy": "0% (Solo un'immagine)",
     "comparison_row2_cost": "A Pagamento",
-
     "comparison_row3_method": "NoteOCR (Estrazione AI)",
     "comparison_row3_time": "15 Secondi",
     "comparison_row3_accuracy": "98%+ Testo Modificabile",
     "comparison_row3_cost": "Prova Gratuita",
-
     "features_title": "Estrazione Avanzata del Testo da JPG",
     "features_subtitle": "Costruito appositamente per estrarre testo accurato dai file immagine.",
-
     "feature_1_title": "Accetta Formati JPG e JPEG",
     "feature_1_desc": "Il nostro sistema gestisce perfettamente foto del telefono e scatti ad alta risoluzione.",
-
     "feature_2_title": "Mantenimento di Layout e Paragrafi",
     "feature_2_desc": "Non scarichiamo testo normale. Il nostro OCR rileva le interruzioni di riga e i paragrafi.",
-
     "feature_3_title": "Supporto Multilingua",
     "feature_3_desc": "Estrai testo da JPEG in italiano, inglese, spagnolo, francese, tedesco e molte altre.",
-
     "tech_title": "Come Funziona",
     "tech_intro": "Convertire un file JPG in un documento Word modificabile richiede il Riconoscimento Ottico dei Caratteri (OCR).",
-
     "tech_detect_title": "Cosa Elabora il Motore",
     "tech_detect_1": "Testo stampato standard e tipografia",
     "tech_detect_2": "Testo in corsivo e scritto a mano all'interno dell'immagine",
     "tech_detect_3": "Spaziatura dei paragrafi e interruzioni di riga",
     "tech_detect_4": "Miglioramento del contrasto",
     "tech_detect_5": "Correzione automatica dell'orientamento",
-
     "tech_tips_title": "Suggerimenti per la Migliore Conversione",
     "tech_tips_1": "Assicurati che l'immagine non sia sfocata",
     "tech_tips_2": "Evita ombre pesanti sul testo",
     "tech_tips_3": "Mantieni il testo parallelo alla fotocamera",
     "tech_tips_4": "I JPEG ad alta risoluzione producono risultati migliori",
     "tech_tips_5": "Ritaglia gli sfondi non necessari se possibile",
-
     "related_tools_title": "Altri Strumenti di Conversione",
-
     "related_tool_1_name": "Immagine a Excel",
     "related_tool_1_desc": "Estrai tabelle dalle immagini ai fogli di calcolo",
-
     "related_tool_2_name": "Foto a Word",
     "related_tool_2_desc": "Converti le foto della fotocamera direttamente in Word",
-
     "related_tool_3_name": "Grafia in Testo",
     "related_tool_3_desc": "Trascrizione specializzata di corsivo",
-
     "related_tool_4_name": "Editor Online",
     "related_tool_4_desc": "Modifica i tuoi documenti nel browser",
-
     "faq_title": "Domande Frequenti su JPG in Word",
-
     "cta_title": "Pronto per Estrarre Testo dal tuo JPG?",
     "cta_subtitle": "Smetti di digitare e inizia a modificare in pochi secondi.",
     "cta_button": "Carica JPG Ora",
-
     "footer_text": "NoteOCR // Elaborazione Intelligente delle Immagini",
-
     "tool_upload_title": "Carica la Tua Immagine JPG",
     "tool_upload_desc": "Supporta foto, screenshot e immagini scansionate. Estraiamo il testo e ti forniamo un documento Word.",
     "tool_upload_button": "Seleziona JPG / JPEG",
     "tool_upload_check_1": "JPG, JPEG, PNG",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Si auto-elimina dopo 24h",
-
     "tool_processing_title": "Estrazione del Testo dall'Immagine...",
     "tool_processing_desc": "Esecuzione dell'OCR e formattazione del documento Word",
-
     "tool_complete_title": "Estrazione Completata!",
     "tool_complete_desc": "Il tuo testo è stato estratto con successo. Scarica il file modificabile.",
     "tool_complete_file_type": "Documento Word (.docx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Scarica Word",
     "tool_new_button": "Converti un Altro JPG",
-
     "tool_info_1_title": "Completamente Modificabile",
     "tool_info_1_desc": "Il testo viene estratto, non incollato come immagine",
-
     "tool_info_2_title": "Layout Mantenuto",
     "tool_info_2_desc": "Paragrafi e interruzioni di riga sono preservati",
-
     "tool_info_3_title": "DOCX Universale",
     "tool_info_3_desc": "Si apre in MS Word e Google Docs",
-
     "tool_tip_label": "Suggerimento:",
     "tool_tip_text": "Se il tuo JPG ha un basso contrasto, prova ad aumentare leggermente la luminosità sul tuo dispositivo prima del caricamento.",
-
     "toast_success": "Immagine convertita con successo!",
     "toast_error_type": "Carica un file immagine valido (JPG, JPEG, PNG)",
     "toast_error_size": "La dimensione del file deve essere inferiore a 25MB",
     "toast_error_conversion": "Conversione fallita. Prova con un'immagine più chiara.",
     "toast_download_success": "Documento Word scaricato!",
     "toast_download_error": "Download fallito.",
-
     "FAQ": {
       "items": {
         "how_to_convert": {
@@ -2456,146 +2287,110 @@
   "ScanToWord": {
     "meta_title": "Da Scanner a Word | Convertire Documenti Scansionati in Testo Modificabile",
     "meta_desc": "Converti documenti scansionati direttamente in file Microsoft Word modificabili con un OCR di livello professionale.",
-
     "hero_pill": "OCR Documenti Professionale",
     "hero_title": "Converti Scansioni in Documenti Word",
     "hero_subtitle": "Digitalizza le tue scartoffie all'istante. Carica immagini scansionate di contratti, libri o documenti fisici e la nostra AI li ricostruirà come file Microsoft Word.",
-
     "trust_ssl": "SICUREZZA ENTERPRISE",
     "trust_processing": "ELABORAZIONE AD ALTO VOLUME",
     "trust_accuracy": "PRECISIONE DI STAMPA 99%",
-
     "before_after_title": "Dalla Carta Fisica al Documento Digitale",
     "before_after_desc": "Scopri come convertiamo una scansione digitale piatta in un documento di testo completamente lavorabile.",
     "before_label": "Prima: Immagine Scansionata",
     "before_placeholder": "",
     "after_label": "Dopo: Documento Word Modificabile",
     "after_placeholder": "",
-
     "use_cases_title": "Chi utilizza il nostro strumento Scanner to Word?",
     "use_cases_subtitle": "Creato per i professionisti che gestiscono pratiche pesanti.",
-
     "use_case_1_title": "Legale & Immobiliare",
     "use_case_1_desc": "Scansiona contratti e trasformali in Word per modificare clausole.",
-
     "use_case_2_title": "Amministrazione",
     "use_case_2_desc": "Smetti di ridigitare manualmente promemoria e fatture stampate.",
-
     "use_case_3_title": "Autori & Editori",
     "use_case_3_desc": "Digitalizza vecchi libri o manoscritti stampati.",
-
     "use_case_4_title": "Ricerca Accademica",
     "use_case_4_desc": "Scansiona le pagine dai libri di consultazione e convertile in documenti Word per una facile citazione.",
-
     "comparison_title": "Digitalizzare Scansioni: L'Approccio Migliore",
     "comparison_subtitle": "Perché la trascrizione manuale appartiene al passato.",
     "comparison_col_method": "Metodo",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Mantenimento Layout",
     "comparison_col_cost": "Costo",
-
     "comparison_row1_method": "Inserimento Dati Manuale",
     "comparison_row1_time": "1 ora ogni 5 pagine",
     "comparison_row1_accuracy": "Perde il layout originale",
     "comparison_row1_cost": "Alto costo",
-
     "comparison_row2_method": "Convertitori Gratuiti Online",
     "comparison_row2_time": "2 minuti",
     "comparison_row2_accuracy": "Scarso (Rovina i margini)",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "Motore di Scansione NoteOCR",
     "comparison_row3_time": "20 Secondi",
     "comparison_row3_accuracy": "Mantiene paragrafi ed elenchi",
     "comparison_row3_cost": "Prova Gratuita",
-
     "features_title": "Progettato per i Supporti Scansionati",
     "features_subtitle": "Funzionalità avanzate per gestire le particolarità degli scanner hardware.",
-
     "feature_1_title": "Raddrizzamento (Deskewing)",
     "feature_1_desc": "Hai inserito la carta un po' storta? Il nostro motore raddrizza automaticamente l'immagine.",
-
     "feature_2_title": "Rimozione Rumore",
     "feature_2_desc": "I vecchi scanner spesso lasciano punti neri. La nostra AI pulisce lo sfondo.",
-
     "feature_3_title": "Preserva la Struttura",
     "feature_3_desc": "Mantiene i titoli, gli elenchi puntati e i rientri del documento fisico.",
-
     "tech_title": "Come Elaboriamo i Documenti",
     "tech_intro": "Quando carichi un'immagine scansionata, il nostro motore comprende la gerarchia strutturale della pagina.",
-
     "tech_detect_title": "Cosa Rileva l'OCR",
     "tech_detect_1": "Tipografia e caratteri stampati",
     "tech_detect_2": "Layout a più colonne e barre laterali",
     "tech_detect_3": "Formattazione in corsivo, grassetto e sottolineato",
     "tech_detect_4": "Firme scritte a mano",
     "tech_detect_5": "Elenchi numerati",
-
     "tech_tips_title": "Suggerimenti per la Scansione",
     "tech_tips_1": "Imposta il tuo scanner ad almeno 300 DPI",
     "tech_tips_2": "Salva le scansioni come file PNG o JPG di alta qualità",
     "tech_tips_3": "Pulisci il vetro dello scanner per evitare macchie",
     "tech_tips_4": "Premi i libri contro il vetro",
     "tech_tips_5": "Utilizza la modalità 'Bianco e nero' per i testi più nitidi",
-
     "related_tools_title": "Esplora Altri Strumenti",
-
     "related_tool_1_name": "Immagine a Excel",
     "related_tool_1_desc": "Estrai le tabelle dalle immagini",
-
     "related_tool_2_name": "Foto a Word",
     "related_tool_2_desc": "Converti le foto della fotocamera",
-
     "related_tool_3_name": "Scrittura in Testo",
     "related_tool_3_desc": "Trascrizione specializzata",
-
     "related_tool_4_name": "Editor Online",
     "related_tool_4_desc": "Modifica i documenti in modo sicuro",
-
     "faq_title": "Domande Frequenti sui Documenti Scansionati",
-
     "cta_title": "Pronto a Digitalizzare i tuoi Documenti?",
     "cta_subtitle": "Trasforma oggi stesso le scansioni fisiche in file Word lavorabili.",
     "cta_button": "Carica Scansione Ora",
-
     "footer_text": "NoteOCR // Digitalizzazione Professionale",
-
     "tool_upload_title": "Carica il Tuo File Scansionato",
     "tool_upload_desc": "Carica file immagine (JPG, PNG) generati dal tuo scanner piano o app.",
     "tool_upload_button": "Seleziona Immagine Scansionata",
     "tool_upload_check_1": "Alta Risoluzione Supportata",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Riservatezza Aziendale",
-
     "tool_processing_title": "Elaborazione Documento Scansionato...",
     "tool_processing_desc": "Miglioramento del contrasto in corso",
-
     "tool_complete_title": "Scansione Convertita!",
     "tool_complete_desc": "La tua scansione è ora un documento modificabile. Scaricalo qui sotto.",
     "tool_complete_file_type": "Documento Word (.docx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Scarica Word",
     "tool_new_button": "Converti Prossima Scansione",
-
     "tool_info_1_title": "Testo Completamente Modificabile",
     "tool_info_1_desc": "Aggiorna clausole, correggi errori",
-
     "tool_info_2_title": "Layout Intatto",
     "tool_info_2_desc": "Intestazioni ed elenchi trasferiti in Word",
-
     "tool_info_3_title": "Elaborazione Sicura",
     "tool_info_3_desc": "Le tue scansioni non vengono mai archiviate",
-
     "tool_tip_label": "Suggerimento per la Scansione:",
     "tool_tip_text": "Per una conversione accurata, configura lo scanner fisico a 300 DPI.",
-
     "toast_success": "Scansione digitalizzata con successo!",
     "toast_error_type": "Carica un file immagine scansionato valido",
     "toast_error_size": "La dimensione del file scansionato deve essere inferiore a 25MB",
     "toast_error_conversion": "Conversione fallita. Prova una scansione con contrasto maggiore.",
     "toast_download_success": "Documento Word scaricato!",
     "toast_download_error": "Download fallito.",
-
     "FAQ": {
       "items": {
         "how_to_convert_scan": {
@@ -2644,146 +2439,110 @@
   "PhotoToWord": {
     "meta_title": "Convertire Foto in Documento Word | Estrarre Testo dalle Immagini",
     "meta_desc": "Scatta una foto e convertila in testo. L'AI estrae il testo dalle foto di lavagne e schermi direttamente in documenti Word modificabili.",
-
     "hero_pill": "OCR dalla Fotocamera al Testo",
     "hero_title": "Converti Qualsiasi Foto in un Documento Word",
     "hero_subtitle": "Trasforma le foto del tuo smartphone in testo modificabile. Carica la foto di un libro di testo o di una presentazione.",
-
     "trust_ssl": "UPLOAD PRIVATO E SICURO",
     "trust_processing": "SMART CAMERA AI",
     "trust_accuracy": "LEGGE FOTO ANGOLATE",
-
     "before_after_title": "Dal Rullino Fotografico al File Word",
     "before_after_desc": "Scopri come gestiamo le foto del mondo reale con il riflesso.",
     "before_label": "Prima: Immagine dello Smartphone",
     "before_placeholder": "",
     "after_label": "Dopo: Documento Word Modificabile",
     "after_placeholder": "",
-
     "use_cases_title": "Quali Immagini Puoi Convertire?",
     "use_cases_subtitle": "Perfetto per le foto di tutti i giorni scattate in movimento.",
-
     "use_case_1_title": "Riunioni alla Lavagna",
     "use_case_1_desc": "Hai scattato una foto alla lavagna? Converti gli appunti direttamente in Word.",
-
     "use_case_2_title": "Pagine di Libri di Testo",
     "use_case_2_desc": "Smetti di digitare le citazioni per il tuo saggio. Scatta una foto.",
-
     "use_case_3_title": "Diapositive di Presentazioni",
     "use_case_3_desc": "Estrai il testo dalla foto dello schermo in un documento modificabile.",
-
     "use_case_4_title": "Riviste e Ricette",
     "use_case_4_desc": "Salva una ricetta trasformandola in un file di testo ricercabile.",
-
     "comparison_title": "Estrazione del Testo Fotografico a Confronto",
     "comparison_subtitle": "Perché NoteOCR batte la digitazione manuale su un piccolo telefono.",
     "comparison_col_method": "Metodo",
     "comparison_col_time": "Tempo",
     "comparison_col_accuracy": "Gestisce la Cattiva Illuminazione?",
     "comparison_col_cost": "Costo",
-
     "comparison_row1_method": "Digitazione sul Telefono",
     "comparison_row1_time": "10-20 minuti",
     "comparison_row1_accuracy": "N/D",
     "comparison_row1_cost": "Il Tuo Tempo",
-
     "comparison_row2_method": "Convertitori Base",
     "comparison_row2_time": "1 minuto",
     "comparison_row2_accuracy": "Fallisce con i riflessi",
     "comparison_row2_cost": "Spesso a Pagamento",
-
     "comparison_row3_method": "Motore Foto NoteOCR",
     "comparison_row3_time": "15 Secondi",
     "comparison_row3_accuracy": "Auto-migliora",
     "comparison_row3_cost": "Prova Gratuita",
-
     "features_title": "Costruito per Foto Reali",
     "features_subtitle": "Le immagini degli smartphone non sono perfette. La nostra AI è in grado di gestirle.",
-
     "feature_1_title": "Correzione della Prospettiva",
     "feature_1_desc": "Appiattisce e corregge la prospettiva prima di leggere.",
-
     "feature_2_title": "Rimozione di Riflessi",
     "feature_2_desc": "La nostra AI bilancia l'illuminazione per garantire un alto riconoscimento.",
-
     "feature_3_title": "Ignora i Disturbi dello Sfondo",
     "feature_3_desc": "Ritaglia in modo intelligente gli sfondi non testuali.",
-
     "tech_title": "Come Leggiamo le Tue Immagini",
     "tech_intro": "Estrarre il testo dalla foto di uno smartphone è molto più difficile che leggere una scansione piatta.",
-
     "tech_detect_title": "Cosa Gestisce la Nostra AI",
     "tech_detect_1": "Pagine curve di libri spessi",
     "tech_detect_2": "Foto scattate a schermi di computer (anti-moiré)",
     "tech_detect_3": "Grafia da pennarello su lavagna",
     "tech_detect_4": "Foto in condizioni di scarsa illuminazione",
     "tech_detect_5": "Font e dimensioni del testo differenti",
-
     "tech_tips_title": "Suggerimenti per Scattare Foto Migliori",
     "tech_tips_1": "Tocca lo schermo del telefono per mettere a fuoco",
     "tech_tips_2": "Tieni il telefono il più fermo possibile",
     "tech_tips_3": "Cerca di evitare ombre dall'alto",
     "tech_tips_4": "Riempi la maggior parte dell'inquadratura con il testo",
     "tech_tips_5": "Spegni il flash se fotografi una pagina lucida",
-
     "related_tools_title": "Altri Strumenti per Documenti",
-
     "related_tool_1_name": "Immagine a Excel",
     "related_tool_1_desc": "Estrai tabelle di dati",
-
     "related_tool_2_name": "Foto a Word",
     "related_tool_2_desc": "Converti le foto",
-
     "related_tool_3_name": "Grafia in Testo",
     "related_tool_3_desc": "Trascrizione specializzata",
-
     "related_tool_4_name": "Editor Online",
     "related_tool_4_desc": "Modifica in sicurezza",
-
     "faq_title": "Domande Frequenti sulla Conversione delle Foto",
-
     "cta_title": "Pronto a Estrarre il Testo dalla tua Immagine?",
     "cta_subtitle": "Carica la tua foto direttamente dal telefono.",
     "cta_button": "Carica Foto Ora",
-
     "footer_text": "NoteOCR // Elaborazione AI Vision",
-
     "tool_upload_title": "Carica la Tua Immagine",
     "tool_upload_desc": "Seleziona una foto. Estrarremo il testo e genereremo un file Word formattato.",
     "tool_upload_button": "Seleziona Immagine",
     "tool_upload_check_1": "Supporta Foto da Telefono",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Auto-Eliminazione in 24h",
-
     "tool_processing_title": "Analisi dell'Immagine...",
     "tool_processing_desc": "Correzione delle angolazioni della fotocamera",
-
     "tool_complete_title": "Immagine Convertita!",
     "tool_complete_desc": "Il testo dalla tua foto è stato estratto. Scarica il file modificabile.",
     "tool_complete_file_type": "Documento Word (.docx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Scarica Word",
     "tool_new_button": "Converti un'altra Foto",
-
     "tool_info_1_title": "Modificabile",
     "tool_info_1_desc": "Il testo è estratto, non incollato come immagine",
-
     "tool_info_2_title": "Formattazione",
     "tool_info_2_desc": "I paragrafi vengono ricreati",
-
     "tool_info_3_title": "DOCX Universale",
     "tool_info_3_desc": "Apre in MS Word e Google Docs",
-
     "tool_tip_label": "Suggerimento per la Fotocamera:",
     "tool_tip_text": "Se stai scattando una foto a una rivista lucida, spegni il flash.",
-
     "toast_success": "Immagine convertita con successo!",
     "toast_error_type": "Carica un file immagine valido (JPG, PNG)",
     "toast_error_size": "La dimensione del file deve essere inferiore a 25MB",
     "toast_error_conversion": "La foto potrebbe essere troppo sfocata.",
     "toast_download_success": "Documento Word scaricato!",
     "toast_download_error": "Download fallito.",
-
     "FAQ": {
       "items": {
         "how_to_convert_photo": {
@@ -2832,146 +2591,110 @@
   "HandwrittenInvoice": {
     "meta_title": "Convertire Fatture Scritte a Mano in Excel | Estrazione Dati Ricevute",
     "meta_desc": "Automatizza la tua contabilità. Estrai voci, prezzi e date da fatture e ricevute scritte a mano direttamente in fogli di calcolo Excel.",
-
     "hero_pill": "OCR Dati Finanziari",
     "hero_title": "Converti Fatture Scritte a Mano in Excel",
     "hero_subtitle": "Smetti di digitare manualmente le ricevute. La nostra AI estrae voci, quantità e prezzi dalle fatture scritte a mano in fogli Excel modificabili.",
-
     "trust_ssl": "UPLOAD FINANZIARIO SICURO",
     "trust_processing": "VOCI AUTOMATIZZATE",
     "trust_accuracy": "PRECISIONE NUMERICA DEL 99%",
-
     "before_after_title": "Dalla Ricevuta Cartacea al Foglio di Calcolo Digitale",
     "before_after_desc": "Guarda la nostra AI mappare le voci scritte a mano in righe Excel.",
     "before_label": "Prima: Fattura Scritta a Mano",
     "before_placeholder": "",
     "after_label": "Dopo: Voci Excel",
     "after_placeholder": "",
-
     "use_cases_title": "Chi Automatizza le Fatture con NoteOCR?",
     "use_cases_subtitle": "Costruito per i professionisti finanziari che danno valore al loro tempo.",
-
     "use_case_1_title": "Contabili",
     "use_case_1_desc": "Elabora le ricevute dei clienti e le fatture cartacee in pochi minuti.",
-
     "use_case_2_title": "Proprietari di Piccole Imprese",
     "use_case_2_desc": "Digitalizza le fatture dei fornitori scritte a mano in fretta.",
-
     "use_case_3_title": "Tracciamento Spese",
     "use_case_3_desc": "Converti le ricevute dei ristoranti in file CSV.",
-
     "use_case_4_title": "Dichiarazione dei Redditi",
     "use_case_4_desc": "Conta le ricevute in un registro Excel pulito per la stagione fiscale.",
-
     "comparison_title": "Inserimento Dati delle Fatture a Confronto",
     "comparison_subtitle": "Perché la contabilità manuale brucia i tuoi margini.",
     "comparison_col_method": "Metodo",
     "comparison_col_time": "Tempo per Fattura",
     "comparison_col_accuracy": "Precisione",
     "comparison_col_cost": "Costo Lavoro",
-
     "comparison_row1_method": "Inserimento Manuale",
     "comparison_row1_time": "3-5 minuti",
     "comparison_row1_accuracy": "Soggetto a errori",
     "comparison_row1_cost": "Alto",
-
     "comparison_row2_method": "App OCR Standard",
     "comparison_row2_time": "1 minuto",
     "comparison_row2_accuracy": "Mischia le colonne",
     "comparison_row2_cost": "Varia",
-
     "comparison_row3_method": "Motore NoteOCR",
     "comparison_row3_time": "15 secondi",
     "comparison_row3_accuracy": "Allineamento perfetto",
     "comparison_row3_cost": "Prova Gratuita",
-
     "features_title": "Estrazione Fatture Avanzata",
     "features_subtitle": "Addestrato specificamente su documenti finanziari e numeri disordinati.",
-
     "feature_1_title": "Rilevamento delle Voci",
     "feature_1_desc": "Separa descrizioni, quantità e prezzi nelle proprie colonne.",
-
     "feature_2_title": "Alta Precisione Numerica",
     "feature_2_desc": "L'OCR standard fatica con i numeri scritti a mano. Noi garantiamo precisione sui decimali.",
-
     "feature_3_title": "Supporto Scrittura Disordinata",
     "feature_3_desc": "Decifra il corsivo affrettato sulle ricevute fisiche.",
-
     "tech_title": "Come Elaboriamo i Documenti Finanziari",
     "tech_intro": "Le fatture sono complesse. NoteOCR mappa la loro relazione spaziale in modo perfetto.",
-
     "tech_detect_title": "Cosa Estrae la Nostra AI",
     "tech_detect_1": "Descrizioni degli articoli e SKU",
     "tech_detect_2": "Colonne delle quantità e dei prezzi",
     "tech_detect_3": "Subtotali e totali",
     "tech_detect_4": "Date scritte a mano e numeri di fattura",
     "tech_detect_5": "Simboli di valuta (€, $)",
-
     "tech_tips_title": "Suggerimenti per i Contabili",
     "tech_tips_1": "Appiattisci le ricevute prima di fotografarle",
     "tech_tips_2": "L'illuminazione non deve proiettare ombre",
     "tech_tips_3": "Tieni la fotocamera direttamente sopra",
     "tech_tips_4": "Assicurati che i decimali siano visibili",
     "tech_tips_5": "Controlla i totali finali in Excel",
-
     "related_tools_title": "Altri Strumenti OCR",
-
     "related_tool_1_name": "Fattura in Excel",
     "related_tool_1_desc": "Estrai voci",
-
     "related_tool_2_name": "Inventario in Excel",
     "related_tool_2_desc": "Converti conteggi",
-
     "related_tool_3_name": "Scansione a Word",
     "related_tool_3_desc": "Digitalizza manuali",
-
     "related_tool_4_name": "Scrittura in Testo",
     "related_tool_4_desc": "Trascrivi riunioni",
-
     "faq_title": "Domande Frequenti sulla Conversione delle Fatture",
-
     "cta_title": "Smetti di Digitare le Fatture.",
     "cta_subtitle": "Lascia fare l'inserimento dati all'AI.",
     "cta_button": "Converti Fattura in Excel",
-
     "footer_text": "NoteOCR // Estrazione Finanziaria Intelligente",
-
     "tool_upload_title": "Carica Fattura Scritta a Mano",
     "tool_upload_desc": "Supporta foto e scansioni di fatture e ricevute. Estrarremo le voci in Excel.",
     "tool_upload_button": "Seleziona Immagine Fattura",
     "tool_upload_check_1": "JPG, PNG",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Crittografia di Livello Bancario",
-
     "tool_processing_title": "Estrazione delle Voci...",
     "tool_processing_desc": "Rilevamento di prezzi, quantità e descrizioni in corso",
-
     "tool_complete_title": "Fattura Estratta!",
     "tool_complete_desc": "Scarica il foglio di calcolo.",
     "tool_complete_file_type": "Foglio Excel (.xlsx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Scarica Excel",
     "tool_new_button": "Elabora Prossima Fattura",
-
     "tool_info_1_title": "Colonne Allineate",
     "tool_info_1_desc": "Prezzi e descrizioni separati",
-
     "tool_info_2_title": "Precisione Numerica",
     "tool_info_2_desc": "Alta accuratezza dei decimali",
-
     "tool_info_3_title": "Pronto per Import",
     "tool_info_3_desc": "Esporta come CSV per il tuo software contabile",
-
     "tool_tip_label": "Suggerimento per la Contabilità:",
     "tool_tip_text": "Se prevedi di importare questi dati in software, salva il file Excel scaricato nel formato .CSV.",
-
     "toast_success": "Fattura estratta con successo!",
     "toast_error_type": "Carica un file immagine valido",
     "toast_error_size": "Il file deve essere inferiore a 25MB",
     "toast_error_extraction": "Grafia potrebbe essere troppo sbiadita.",
     "toast_download_success": "Registro scaricato!",
     "toast_download_error": "Download fallito.",
-
     "FAQ": {
       "items": {
         "how_to_convert_invoice": {
@@ -3020,146 +2743,110 @@
   "InventoryToExcel": {
     "meta_title": "Convertire Inventario Scritto a Mano in Excel | OCR per Conteggio Scorte",
     "meta_desc": "Smetti di digitare manualmente i conteggi di magazzino. Converti le foto dei registri di inventario scritti a mano in fogli Excel.",
-
     "hero_pill": "OCR per Inventari e Scorte",
     "hero_title": "Trasforma i Conteggi di Inventario in Fogli di Calcolo",
     "hero_subtitle": "Converti i tuoi audit di magazzino fisici in pochi secondi. Scatta una foto ed estrai SKU e quantità direttamente in file .xlsx.",
-
     "trust_ssl": "ELABORAZIONE DATI PRIVATA",
     "trust_processing": "RICONOSCIMENTO SKU",
     "trust_accuracy": "PRECISIONE DELLE QUANTITÀ AL 99%",
-
     "before_after_title": "Dalla Lavagnetta Fisica al Tracker Digitale",
     "before_after_desc": "Guarda come convertiamo i disordinati conteggi di magazzino in righe Excel strutturate.",
     "before_label": "Prima: Foglio di Scorte Scritto a Mano",
     "before_placeholder": "",
     "after_label": "Dopo: Elenco Inventario Excel",
     "after_placeholder": "",
-
     "use_cases_title": "Chi Automatizza l'Inventario?",
     "use_cases_subtitle": "Costruito per le aziende che conducono audit fisici.",
-
     "use_case_1_title": "Gestori di Magazzino",
     "use_case_1_desc": "Converti istantaneamente log di magazzino in Excel.",
-
     "use_case_2_title": "Proprietari di Negozi",
     "use_case_2_desc": "Carica i conteggi di fine mese nel tuo sistema POS o Shopify tramite CSV.",
-
     "use_case_3_title": "Ristoranti e Bar",
     "use_case_3_desc": "Digitalizza i registri della cucina nei tuoi fogli di calcolo del food cost.",
-
     "use_case_4_title": "Tracciamento delle Attrezzature",
     "use_case_4_desc": "Converti facilmente i registri degli strumenti in database digitali ricercabili.",
-
     "comparison_title": "Inventario: Manuale vs. NoteOCR",
     "comparison_subtitle": "Perché l'inserimento dati dell'inventario sta costando denaro alla tua azienda.",
     "comparison_col_method": "Metodo",
     "comparison_col_time": "Tempo per Pagina",
     "comparison_col_accuracy": "Precisione SKU",
     "comparison_col_cost": "Costo",
-
     "comparison_row1_method": "Digitazione Manuale",
     "comparison_row1_time": "15-30 minuti",
     "comparison_row1_accuracy": "Soggetto a errore umano",
     "comparison_row1_cost": "Alto costo lavoro",
-
     "comparison_row2_method": "Scanner Mobili Standard",
     "comparison_row2_time": "2 minuti",
     "comparison_row2_accuracy": "Produce immagini piatte",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR Inventario",
     "comparison_row3_time": "20 secondi",
     "comparison_row3_accuracy": "Formatta in righe",
     "comparison_row3_cost": "Prova Gratuita",
-
     "features_title": "Costruito per la Calligrafia da Magazzino",
     "features_subtitle": "Sappiamo che l'inventario viene fatto in fretta.",
-
     "feature_1_title": "Riconoscimento Alfanumerico",
     "feature_1_desc": "Distingue uno '0' da una 'O' e un '1' da una 'l' negli SKU.",
-
     "feature_2_title": "Formattazione Colonna",
     "feature_2_desc": "Che tu abbia linee disegnate o solo spazi, separiamo le colonne.",
-
     "feature_3_title": "Esportazione CSV",
     "feature_3_desc": "Scarica come file Excel o CSV per caricare i conteggi in Shopify o nel tuo POS.",
-
     "tech_title": "Come Elaboriamo",
     "tech_intro": "NoteOCR utilizza il Riconoscimento della Struttura della Tabella (TSR).",
-
     "tech_detect_title": "Cosa Estrae la Nostra AI",
     "tech_detect_1": "Numeri seriali lunghi e SKU",
     "tech_detect_2": "Quantità, pesi e misure",
     "tech_detect_3": "Articoli cancellati",
     "tech_detect_4": "Layout a più colonne",
     "tech_detect_5": "Date, posizioni e corridoi",
-
     "tech_tips_title": "Suggerimenti per Audit più Rapidi",
     "tech_tips_1": "Assicurati che l'illuminazione sia buona",
     "tech_tips_2": "Scrivi gli SKU in modo chiaro",
     "tech_tips_3": "Mantieni le colonne allineate su fogli bianchi",
     "tech_tips_4": "Scatta dall'alto",
     "tech_tips_5": "Rivedi le quantità in Excel",
-
     "related_tools_title": "Altri Strumenti per Dati Aziendali",
-
     "related_tool_1_name": "Fattura a Excel",
     "related_tool_1_desc": "Estrai voci ricevute",
-
     "related_tool_2_name": "Inventario a Excel",
     "related_tool_2_desc": "Conteggi stock",
-
     "related_tool_3_name": "Scansione a Word",
     "related_tool_3_desc": "Digitalizza manuali",
-
     "related_tool_4_name": "Scrittura in Testo",
     "related_tool_4_desc": "Note riunione",
-
     "faq_title": "Domande Frequenti sull'OCR dell'Inventario",
-
     "cta_title": "Smetti di Digitare i tuoi Conteggi.",
     "cta_subtitle": "Scatta una foto.",
     "cta_button": "Converti Inventario Ora",
-
     "footer_text": "NoteOCR // Estrazione Dati Industriale",
-
     "tool_upload_title": "Carica Elenco Inventario Scritto a Mano",
     "tool_upload_desc": "Supporta foto di schede di conteggio. Estrarremo i dati in una griglia Excel.",
     "tool_upload_button": "Seleziona Foto Inventario",
     "tool_upload_check_1": "Supporta JPG, PNG",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Si elimina dopo 24h",
-
     "tool_processing_title": "Estrazione dei Conteggi...",
     "tool_processing_desc": "Rilevamento di SKU, articoli e quantità",
-
     "tool_complete_title": "Inventario Estratto!",
     "tool_complete_desc": "Il tuo conteggio è ora un foglio di calcolo. Scaricalo qui sotto.",
     "tool_complete_file_type": "Foglio Excel (.xlsx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Scarica Excel",
     "tool_new_button": "Elabora Prossima Pagina",
-
     "tool_info_1_title": "Griglia Preservata",
     "tool_info_1_desc": "SKU e Quantità in colonne separate",
-
     "tool_info_2_title": "Alta Precisione",
     "tool_info_2_desc": "Addestrato sulla grafia veloce",
-
     "tool_info_3_title": "Compatibile con CSV",
     "tool_info_3_desc": "Pronto per il tuo sistema POS",
-
     "tool_tip_label": "Suggerimento:",
     "tool_tip_text": "L'uso di carta a righe migliorerà la separazione delle colonne con una precisione strutturale vicina al 100%.",
-
     "toast_success": "Inventario estratto!",
     "toast_error_type": "Carica un file immagine valido",
     "toast_error_size": "Meno di 25MB",
     "toast_error_extraction": "Estrazione fallita. La foto potrebbe essere sfocata.",
     "toast_download_success": "Scaricato!",
     "toast_download_error": "Download fallito.",
-
     "FAQ": {
       "items": {
         "how_to_convert_inventory": {
@@ -3208,146 +2895,110 @@
   "HandwrittenTimesheet": {
     "meta_title": "Convertire Fogli Ore in Excel | OCR per Buste Paga",
     "meta_desc": "Smetti di digitare manualmente le ore dei dipendenti. Converti le foto dei registri presenze e dei fogli ore direttamente in Excel.",
-
     "hero_pill": "Automazione Dati Libro Paga",
     "hero_title": "Automatizza i Fogli Ore Scritti a Mano in Excel",
     "hero_subtitle": "Elabora le buste paga più velocemente. Estrai i nomi dei dipendenti, le date e gli orari in un foglio di calcolo .xlsx.",
-
     "trust_ssl": "DATI HR SICURI",
     "trust_processing": "OCR VELOCE",
     "trust_accuracy": "PRECISIONE DEL 99%",
-
     "before_after_title": "Dal Cartellino Cartaceo al Foglio Presenze Digitale",
     "before_after_desc": "Guarda la nostra AI mappare le ore disordinate in righe ordinate in Excel.",
     "before_label": "Prima: Registro Presenze",
     "before_placeholder": "",
     "after_label": "Dopo: Dati Excel",
     "after_placeholder": "",
-
     "use_cases_title": "Chi Automatizza i Fogli Ore con NoteOCR?",
     "use_cases_subtitle": "Costruito per i settori che si affidano alla carta per timbrare l'ingresso.",
-
     "use_case_1_title": "Edilizia",
     "use_case_1_desc": "Estrai i nomi e le ore giornaliere dei lavoratori dal cantiere.",
-
     "use_case_2_title": "Ristoranti e Ospitalità",
     "use_case_2_desc": "Converti gli orari cartacei e i turni del personale in formato digitale.",
-
     "use_case_3_title": "Servizi sul Campo",
     "use_case_3_desc": "Smetti di cercare di decifrare la pessima calligrafia dei tuoi lavoratori sul campo.",
-
     "use_case_4_title": "Sanità e Assistenza",
     "use_case_4_desc": "Converti facilmente i registri degli straordinari dai reparti ospedalieri.",
-
     "comparison_title": "Inserimento Dati Libro Paga a Confronto",
     "comparison_subtitle": "Perché l'inserimento manuale è rischioso.",
     "comparison_col_method": "Metodo",
     "comparison_col_time": "Tempo Speso",
     "comparison_col_accuracy": "Errori Retributivi",
     "comparison_col_cost": "Costo",
-
     "comparison_row1_method": "Digitazione Manuale",
     "comparison_row1_time": "2+ ore il venerdì",
     "comparison_row1_accuracy": "Alto rischio di errori",
     "comparison_row1_cost": "Alto",
-
     "comparison_row2_method": "Scanner OCR",
     "comparison_row2_time": "5 minuti",
     "comparison_row2_accuracy": "Scombina le colonne",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR Fogli Ore",
     "comparison_row3_time": "30 secondi",
     "comparison_row3_accuracy": "Allineamento perfetto",
     "comparison_row3_cost": "Prova Gratuita",
-
     "features_title": "Estrazione Avanzata per le Retribuzioni",
     "features_subtitle": "Addestrato specificamente per leggere nomi, date e orari.",
-
     "feature_1_title": "Riconoscimento Formato Ora",
     "feature_1_desc": "Riconosce 8:00 AM, l'orario militare 0800 o semplicemente 8,5 ore.",
-
     "feature_2_title": "Allineamento Colonne",
     "feature_2_desc": "Separa il Nome, la Data, l'Ingresso, l'Uscita e le Ore Totali in colonne distinte.",
-
     "feature_3_title": "Esportazione CSV per il Libro Paga",
     "feature_3_desc": "Scarica e importa le ore nel software di gestione stipendi.",
-
     "tech_title": "Come Elaboriamo",
     "tech_intro": "Leggere nomi e numeri scritti a mano richiede un OCR avanzato.",
-
     "tech_detect_title": "Cosa Estrae la Nostra AI",
     "tech_detect_1": "Nomi scritti a mano e in corsivo",
     "tech_detect_2": "Orari di ingresso e uscita",
     "tech_detect_3": "Decimali (es. 7,5 ore)",
     "tech_detect_4": "Date e giorni della settimana",
     "tech_detect_5": "Firme",
-
     "tech_tips_title": "Suggerimenti per i Responsabili HR",
     "tech_tips_1": "Appiattisci i fogli piegati prima di scattare la foto",
     "tech_tips_2": "Assicura una buona illuminazione per i punti decimali",
     "tech_tips_3": "Tieni la fotocamera direttamente sopra il foglio",
     "tech_tips_4": "Dì ai dipendenti di scrivere chiaramente",
     "tech_tips_5": "Fai sempre una rapida revisione visiva prima di pagare",
-
     "related_tools_title": "Altri Strumenti per le Risorse Umane",
-
     "related_tool_1_name": "Fattura in Excel",
     "related_tool_1_desc": "Estrai voci",
-
     "related_tool_2_name": "Inventario in Excel",
     "related_tool_2_desc": "Conteggi",
-
     "related_tool_3_name": "Scansione a Word",
     "related_tool_3_desc": "Digitalizza manuali",
-
     "related_tool_4_name": "Scrittura in Testo",
     "related_tool_4_desc": "Trascrivi appunti",
-
     "faq_title": "Domande Frequenti",
-
     "cta_title": "Smetti di Digitare le Ore.",
     "cta_subtitle": "Lascia che l'AI faccia il lavoro del venerdì.",
     "cta_button": "Converti Fogli Ore",
-
     "footer_text": "NoteOCR // Estrazione Presenze",
-
     "tool_upload_title": "Carica Foglio Presenze Scritto a Mano",
     "tool_upload_desc": "Supporta foto di registri di accesso e cartellini cartacei.",
     "tool_upload_button": "Seleziona Immagine",
     "tool_upload_check_1": "JPG, PNG Supportati",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Crittografia Sicura",
-
     "tool_processing_title": "Estrazione delle Ore...",
     "tool_processing_desc": "Rilevamento di nomi, date e orari",
-
     "tool_complete_title": "Dati Estratti!",
     "tool_complete_desc": "Il tuo foglio è pronto. Scarica il file Excel.",
     "tool_complete_file_type": "Foglio Excel (.xlsx)",
     "tool_complete_status": "PRONTO",
     "tool_download_button": "Scarica Excel",
     "tool_new_button": "Prossimo Foglio",
-
     "tool_info_1_title": "Griglia Preservata",
     "tool_info_1_desc": "Disposto in righe e colonne",
-
     "tool_info_2_title": "Alta Precisione",
     "tool_info_2_desc": "Addestrato su grafia frettolosa",
-
     "tool_info_3_title": "CSV Compatibile",
     "tool_info_3_desc": "Per il tuo sistema di gestione stipendi",
-
     "tool_tip_label": "Suggerimento per le Buste Paga:",
     "tool_tip_text": "Salva il file in .CSV per caricarlo senza problemi nel tuo gestionale.",
-
     "toast_success": "Foglio ore estratto!",
     "toast_error_type": "Carica un file immagine valido",
     "toast_error_size": "Max 25MB",
     "toast_error_extraction": "La foto potrebbe essere sfocata.",
     "toast_download_success": "Scaricato!",
     "toast_download_error": "Download fallito.",
-
     "FAQ": {
       "items": {
         "how_to_convert_timesheet": {
@@ -3396,35 +3047,26 @@
   "HandwritingRecognitionPage": {
     "meta_title": "Riconoscimento della Scrittura a Mano Online | NoteOCR",
     "meta_desc": "Carica qualsiasi immagine scritta a mano e la nostra AI la riconosce e la converte istantaneamente in testo formattato. Riconoscimento gratuito della scrittura a mano online.",
-
     "hero_pill": "Riconoscimento Scrittura AI",
     "hero_title": "Riconoscimento della Scrittura a Mano che Funziona Davvero.",
     "hero_subtitle": "Carica una foto di qualsiasi appunto, modulo o documento scritto a mano. La nostra AI legge la scrittura, compresi i corsivi disordinati, e la converte in testo formattato in pochi secondi.",
-
     "trust_ssl": "Crittografato SSL",
     "trust_processing": "Elaborazione in 30 secondi",
     "trust_accuracy": "Precisione del 99%",
-
     "before_after_title": "Guarda il Riconoscimento in Azione",
     "before_after_desc": "Campione reale che mostra cosa legge la nostra AI rispetto a ciò che produce.",
     "before_label": "Prima: Immagine Scritta a Mano",
     "after_label": "Dopo: Testo Digitale Riconosciuto",
-
     "use_cases_title": "Chi Usa il Riconoscimento della Scrittura?",
     "use_cases_subtitle": "Dagli studenti alle aziende, fa risparmiare ore di lavoro manuale ogni giorno.",
-
     "use_case_1_title": "Studenti & Appunti delle Lezioni",
     "use_case_1_desc": "Fotografa il tuo quaderno dopo le lezioni e ottieni un testo ricercabile e modificabile.",
-
     "use_case_2_title": "Scrittura Disordinata e Corsiva",
     "use_case_2_desc": "La nostra AI è addestrata in modo specifico su scritte disordinate e stili misti.",
-
     "use_case_3_title": "Moduli & Documenti",
     "use_case_3_desc": "Digitalizza i moduli di anamnesi, le fatture e le note con una foto.",
-
     "use_case_4_title": "Vecchie Lettere & Diari",
     "use_case_4_desc": "Conserva la storia della tua famiglia.",
-
     "comparison_title": "Metodi di Riconoscimento a Confronto",
     "comparison_subtitle": "Perché l'AI creata appositamente supera sempre gli strumenti generici.",
     "comparison_col_method": "Metodo",
@@ -3443,36 +3085,28 @@
     "comparison_row3_time": "Meno di 30 secondi",
     "comparison_row3_accuracy": "95–99% incluso il corsivo",
     "comparison_row3_cost": "Prova gratis",
-
     "features_title": "Perché il Nostro OCR è Diverso",
     "features_subtitle": "Creato specificamente per la scrittura a mano, non adattato da uno strumento per testi stampati.",
-
     "feature_1_title": "Addestrato sulla Grafia, non sui Font",
     "feature_1_desc": "L'OCR generico impara dai font. La nostra AI è stata addestrata esclusivamente su milioni di veri campioni di scrittura a mano.",
-
     "feature_2_title": "Legge il Corsivo Disordinato",
     "feature_2_desc": "Lettere collegate e dimensioni incoerenti: il nostro sistema usa il contesto per riempire i vuoti.",
-
     "feature_3_title": "Risultati Veramente Utilizzabili",
     "feature_3_desc": "Ricostruiamo il layout e l'intestazione, ed esportiamo in Word o Excel.",
-
     "tech_title": "Come Funziona",
     "tech_intro": "La grafia infrange ogni regola dell'OCR standard. Usiamo reti neurali per riconoscere modelli lungo le righe.",
-
     "tech_detect_title": "Cosa Rileviamo",
     "tech_detect_1": "Corsivo e stampatello con lettere collegate",
     "tech_detect_2": "Stili incoerenti e disordinati",
     "tech_detect_3": "Corsivo misto sulla stessa pagina",
     "tech_detect_4": "Parole barrate",
     "tech_detect_5": "Struttura del documento: intestazioni e liste",
-
     "tech_tips_title": "I Migliori Risultati",
     "tech_tips_1": "Fotografa con buona luce",
     "tech_tips_2": "Mantieni il telefono parallelo alla carta",
     "tech_tips_3": "Cerca un buon contrasto tra inchiostro e carta",
     "tech_tips_4": "Usa 300 DPI per gli scanner",
     "tech_tips_5": "Rivedi sempre l'output finale",
-
     "related_tools_title": "Strumenti Correlati",
     "related_tool_1_name": "Grafia in Word",
     "related_tool_1_desc": "Converti gli appunti in .docx",
@@ -3482,9 +3116,7 @@
     "related_tool_3_desc": "Strumento OCR specializzato per il corsivo",
     "related_tool_4_name": "Scansione a Testo",
     "related_tool_4_desc": "Da scansione o PDF",
-
     "faq_title": "Domande Frequenti",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3569,11 +3201,9 @@
         }
       }
     },
-
     "cta_title": "Pronto a Riconoscere la tua Grafia?",
     "cta_subtitle": "Unisciti a 10.000+ professionisti.",
     "cta_button": "Prova Gratis",
-
     "tool_info_1_title": "Nessuna App Necessaria",
     "tool_info_1_desc": "Funziona nel tuo browser.",
     "tool_info_2_title": "Grafia Disordinata",
@@ -3581,39 +3211,29 @@
     "tool_info_3_title": "Esportazione Completa",
     "tool_info_3_desc": "Esporta in Word, Excel o Testo."
   },
-
   "CursiveToTextPage": {
     "meta_title": "Convertitore da Corsivo a Testo Online | NoteOCR",
     "meta_desc": "Converti istantaneamente la scrittura a mano corsiva in testo digitato con la nostra AI. Più del 95% di precisione. OCR corsivo gratuito online.",
-
     "hero_pill": "OCR Scrittura Corsiva",
     "hero_title": "Converti il Corsivo in Testo in Pochi Secondi.",
     "hero_subtitle": "Carica una foto di note, lettere e diari in corsivo. La nostra AI decodifica script collegati e lettere curve meglio degli strumenti generici.",
-
     "trust_ssl": "Crittografia SSL",
     "trust_processing": "Sotto i 30 Secondi",
     "trust_accuracy": "Precisione del 95%+",
-
     "before_after_title": "Corsivo in Entrata. Testo Digitale Pulito in Uscita.",
     "before_after_desc": "Guarda l'esempio reale.",
     "before_label": "Prima: Corsivo Scritto a Mano",
     "after_label": "Dopo: Testo Digitale",
-
     "use_cases_title": "Chi Usa il Convertitore di Corsivo?",
     "use_cases_subtitle": "Dagli storici che digitalizzano vecchie lettere agli studenti.",
-
     "use_case_1_title": "Vecchie Lettere",
     "use_case_1_desc": "Converti i diari dei tuoi nonni in formato digitale ricercabile.",
-
     "use_case_2_title": "Appunti Studenteschi",
     "use_case_2_desc": "Molti studenti scrivono ancora in corsivo. Ottieni appunti pronti per gli esami.",
-
     "use_case_3_title": "Documenti Storici",
     "use_case_3_desc": "L'AI gestisce stili di corsivo più antichi dei documenti archivistici.",
-
     "use_case_4_title": "Moduli Professionali",
     "use_case_4_desc": "Rapporti e fatture scritte in corsivo convertite in Word.",
-
     "comparison_title": "OCR Corsivo: I Metodi a Confronto",
     "comparison_subtitle": "Perché l'AI creata appositamente è l'unica opzione.",
     "comparison_col_method": "Metodo",
@@ -3632,36 +3252,28 @@
     "comparison_row3_time": "Sotto i 30 secondi",
     "comparison_row3_accuracy": "90–98% sul corsivo",
     "comparison_row3_cost": "Prova gratis",
-
     "features_title": "Perché il Nostro Convertitore è Diverso",
     "features_subtitle": "Costruito per il corsivo.",
-
     "feature_1_title": "Legge Lettere Collegate",
     "feature_1_desc": "La nostra AI legge parole e linee intere in una volta sola.",
-
     "feature_2_title": "Gestisce Inclinazione e Variazioni",
     "feature_2_desc": "La rete neurale è stata addestrata su innumerevoli varianti.",
-
     "feature_3_title": "Esporta in Word ed Excel",
     "feature_3_desc": "Esportiamo la tua struttura.",
-
     "tech_title": "Perché il Corsivo è Così Difficile per l'OCR",
     "tech_intro": "Le lettere in corsivo si fondono insieme e cambiano forma.",
-
     "tech_detect_title": "Cosa Gestisce la Nostra AI",
     "tech_detect_1": "Corsivo completamente collegato",
     "tech_detect_2": "Corsivo misto a stampatello",
     "tech_detect_3": "Inclinazione variabile",
     "tech_detect_4": "Lettere decorative",
     "tech_detect_5": "Stili del XIX e XX secolo",
-
     "tech_tips_title": "Suggerimenti per la Conversione",
     "tech_tips_1": "Usa la luce diurna",
     "tech_tips_2": "Fotocamera piatta sopra il foglio",
     "tech_tips_3": "Ottimo contrasto inchiostro-carta",
     "tech_tips_4": "Per i documenti antichi, aumenta il contrasto nella foto",
     "tech_tips_5": "Rivedi sempre l'output",
-
     "related_tools_title": "Strumenti Correlati",
     "related_tool_1_name": "Grafia a Word",
     "related_tool_1_desc": "Converti note in .docx",
@@ -3671,9 +3283,7 @@
     "related_tool_3_desc": "Tutti gli stili",
     "related_tool_4_name": "Scansione a Testo",
     "related_tool_4_desc": "Da foto telefono o PDF",
-
     "faq_title": "Domande Frequenti sul Convertitore",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3758,11 +3368,9 @@
         }
       }
     },
-
     "cta_title": "Pronto a Convertire il Tuo Corsivo?",
     "cta_subtitle": "Carica qualsiasi immagine di lettere o diari e ottieni il testo in 30 secondi.",
     "cta_button": "Prova il Convertitore Gratis",
-
     "tool_info_1_title": "Nessuna App",
     "tool_info_1_desc": "Funziona nel browser.",
     "tool_info_2_title": "AI Specializzata",
@@ -3770,39 +3378,29 @@
     "tool_info_3_title": "Esportazione Semplice",
     "tool_info_3_desc": "Ottieni i file in Word o Excel."
   },
-
   "ScanHandwritingToText": {
     "meta_title": "Scansionare Scrittura a Mano in Testo Online | NoteOCR",
     "meta_desc": "Scansiona note in testo direttamente nel tuo browser. Carica la foto dal cellulare o dallo scanner e ottieni il testo digitale in meno di 30 secondi.",
-
     "hero_pill": "Scanner Online di Scrittura",
     "hero_title": "Scansiona Grafia in Testo. Senza App.",
     "hero_subtitle": "Scatta una foto di qualsiasi pagina scritta a mano, caricala e la nostra AI la converte in testo modificabile e pulito.",
-
     "trust_ssl": "Crittografia SSL",
     "trust_processing": "Sotto i 30 Secondi",
     "trust_accuracy": "95%+ Precisione",
-
     "before_after_title": "Scrittura Scansionata in Entrata. Testo Modificabile in Uscita.",
     "before_after_desc": "Risultato reale che mostra esattamente l'output della foto.",
     "before_label": "Prima: Pagina Scansionata",
     "after_label": "Dopo: Testo Pulito e Modificabile",
-
     "use_cases_title": "Chi usa lo Scanner Online?",
     "use_cases_subtitle": "Chiunque abbia pagine scritte a mano da digitalizzare velocemente.",
-
     "use_case_1_title": "Studenti",
     "use_case_1_desc": "Fotografa quaderni e ottieni un testo ricercabile per preparare gli esami.",
-
     "use_case_2_title": "Note sul Campo",
     "use_case_2_desc": "Ispettori e ingegneri scansionano note scritte direttamente dai cantieri.",
-
     "use_case_3_title": "Archivi e Moduli Cartacei",
     "use_case_3_desc": "Moduli per l'accettazione e questionari digitalizzati per l'inserimento in database.",
-
     "use_case_4_title": "Agende Personali",
     "use_case_4_desc": "Preserva i tuoi quaderni come testo digitale da cercare e conservare.",
-
     "comparison_title": "Scanner Online: Le Opzioni",
     "comparison_subtitle": "La maggior parte ti obbliga a scaricare app e pagare un abbonamento. Noi no.",
     "comparison_col_method": "Metodo",
@@ -3821,36 +3419,28 @@
     "comparison_row3_time": "Sotto i 30 secondi",
     "comparison_row3_accuracy": "95%+ su grafia",
     "comparison_row3_cost": "Pagamento una tantum, No App",
-
     "features_title": "Perché NoteOCR è lo Scanner Migliore",
     "features_subtitle": "Creato per la grafia, non adattato per i documenti stampati.",
-
     "feature_1_title": "Il tuo Telefono è lo Scanner",
     "feature_1_desc": "Scatta una foto dal telefono. L'AI rimuoverà le ombre e bilancerà la luce.",
-
     "feature_2_title": "Legge ciò che gli Scanner Piatti non Possono",
     "feature_2_desc": "Capisce i documenti non perfetti grazie alle reti neurali avanzate.",
-
     "feature_3_title": "Nessuna App. Nessun Attesa.",
     "feature_3_desc": "Apri il sito su Chrome, Firefox o Safari e procedi in pochi secondi.",
-
     "tech_title": "Come Funziona Davvero",
     "tech_intro": "L'AI pulisce l'immagine, esamina il layout, ed esegue l'OCR basandosi sui pattern delle parole.",
-
     "tech_detect_title": "Cosa Gestisce il nostro Scanner",
     "tech_detect_1": "Foto scattate in diagonale (correzione prospettiva)",
     "tech_detect_2": "Bassa luminosità",
     "tech_detect_3": "Output di scanner da 150 DPI in su",
     "tech_detect_4": "Stili di scrittura misti",
     "tech_detect_5": "Parole barrate, frecce e note",
-
     "tech_tips_title": "Suggerimenti di Scansione",
     "tech_tips_1": "Mantieni il telefono direttamente sopra",
     "tech_tips_2": "Luce diurna naturale",
     "tech_tips_3": "Tutta la pagina nell'inquadratura",
     "tech_tips_4": "Per scanner piani, usa 300 DPI",
     "tech_tips_5": "Se la carta è vecchia, aumenta il contrasto",
-
     "related_tools_title": "Strumenti Correlati",
     "related_tool_1_name": "Riconoscimento Grafia",
     "related_tool_1_desc": "Motore AI per ogni stile",
@@ -3860,9 +3450,7 @@
     "related_tool_3_desc": "Specializzato per il corsivo",
     "related_tool_4_name": "Grafia in Excel",
     "related_tool_4_desc": "Scansiona le tabelle",
-
     "faq_title": "Domande Frequenti sulla Scansione della Scrittura a Mano",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3951,11 +3539,9 @@
         }
       }
     },
-
     "cta_title": "Pronto a Scansionare?",
     "cta_subtitle": "Carica le tue foto e ottieni testo digitale. Senza registrazione.",
     "cta_button": "Scansiona Gratis",
-
     "tool_info_1_title": "Nessuna App",
     "tool_info_1_desc": "Lavora da PC o Telefono.",
     "tool_info_2_title": "Dalla Fotocamera",

@@ -14,7 +14,6 @@
     "meta_title": "Handschrift in Text umwandeln | KI-Schreibschrift-OCR | NoteOCR",
     "meta_desc": "Wandeln Sie handschriftliche Notizen sofort in editierbaren digitalen Text um. Die weltweit präziseste KI-Handschrifterkennung (OCR)."
   },
-
   "Features": {
     "section_label": "Das Ökosystem",
     "main_title_1": "Alles, was Sie zur Digitalisierung",
@@ -61,7 +60,6 @@
     "step_3_desc": "Das Dokument wird in Word, Excel oder Notion rekonstruiert und ist bereit zur Bearbeitung.",
     "processing": "Verarbeitung..."
   },
-
   "Why": {
     "label": "WARUM WIR?",
     "title_main": "Hören Sie auf,",
@@ -111,7 +109,6 @@
       }
     }
   },
-
   "FAQ": {
     "title_main": "Häufig gestellte",
     "title_highlight": "Fragen",
@@ -234,150 +231,113 @@
       }
     }
   },
-
   "WordPage": {
     "meta_title": "Handschrift in Word (DOCX) umwandeln | NoteOCR",
     "meta_desc": "Schluss mit dem Abtippen. Konvertieren Sie handschriftliche Notizen mit KI in editierbare Word-Dokumente. Listen, Überschriften und Layouts werden automatisch übernommen.",
-
     "hero_pill": "Intelligente Dokumentenerkennung",
     "hero_title": "Handschriftliche Notizen in Word-Dokumente umwandeln",
     "hero_subtitle": "Sparen Sie sich das mühsame Abtippen. Unsere KI verwandelt handschriftliche Seiten in editierbare .docx-Dateien – inklusive Listen, Überschriften und Ihrer ursprünglichen Layoutstruktur.",
-
     "trust_ssl": "SSL-VERSCHLÜSSELT",
     "trust_processing": "30 SEKUNDEN VERARBEITUNG",
     "trust_accuracy": "95% TEXTGENAUIGKEIT",
-
     "before_after_title": "Überzeugen Sie sich selbst",
     "before_after_desc": "Echte Konvertierung mit beibehaltenem Layout und Formatierung",
     "before_label": "Vorher: Handschriftliche Notizen",
     "before_placeholder": "[Laden Sie Ihre Notizen hoch, um das Ergebnis zu sehen]",
     "after_label": "Nachher: Word-Dokument",
     "after_placeholder": "[Vorschau des formatierten Word-Dokuments]",
-
     "use_cases_title": "Wer nutzt die Umwandlung von Handschrift in Word?",
     "use_cases_subtitle": "Vom Studenten bis zum Profi – Tausende digitalisieren täglich ihre Notizen",
-
     "use_case_1_title": "Studenten & Forscher",
     "use_case_1_desc": "Wandeln Sie Vorlesungsmitschriften und Forschungsjournale in durchsuchbare Word-Dokumente für Hausarbeiten und Zitationsmanagement um.",
-
     "use_case_2_title": "Geschäftsleute",
     "use_case_2_desc": "Digitalisieren Sie Besprechungsnotizen und Whiteboard-Sessions in formatierte Dokumente für Berichte und zum Teilen im Team.",
-
     "use_case_3_title": "Autoren & Journalisten",
     "use_case_3_desc": "Verwandeln Sie handschriftliche Entwürfe und Interviewnotizen in editierbare Manuskripte, bereit für die Veröffentlichung.",
-
     "use_case_4_title": "Archivare & Historiker",
     "use_case_4_desc": "Konvertieren Sie historische Dokumente, Briefe und Tagebucheinträge in digitale Archive für Forschung und Erhaltung.",
-
     "comparison_title": "Handschrift zu Word: Methoden im Vergleich",
     "comparison_subtitle": "Warum NoteOCR im Vergleich zum manuellen Tippen Stunden spart",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Zeitaufwand",
     "comparison_col_accuracy": "Genauigkeit",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Manuelles Abtippen",
     "comparison_row1_time": "60 Min./Seite",
     "comparison_row1_accuracy": "98% (langsam & mühsam)",
     "comparison_row1_cost": "Kostenlos (Ihre Zeit)",
-
     "comparison_row2_method": "Standard OCR-Tools",
     "comparison_row2_time": "10 Minuten",
     "comparison_row2_accuracy": "70% (Layout geht verloren)",
     "comparison_row2_cost": "Kostenlos bis 15 €",
-
     "comparison_row3_method": "NoteOCR Word-Konverter",
     "comparison_row3_time": "30 Sekunden",
     "comparison_row3_accuracy": "95% (Layout bleibt erhalten)",
     "comparison_row3_cost": "8 € / 100 Seiten",
-
     "features_title": "Warum unsere Handschrift-OCR anders ist",
     "features_subtitle": "Speziell für die Konvertierung von Handschrift in Word entwickelt",
-
     "feature_1_title": "Layout-Erhaltung",
     "feature_1_desc": "Im Gegensatz zu einfacher OCR, die nur Text ausgibt, erkennt unsere KI Listen, Header und Absätze. Ihr Word-Dokument entspricht der Struktur Ihres Notizbuchs.",
-
     "feature_2_title": "Schreib- & Blockschrift",
     "feature_2_desc": "Fortschrittliche neuronale Netze, trainiert mit Millionen Proben. Erkennt unordentliche Tinte, Schreibschrift und sogar Korrekturen mit hoher Präzision.",
-
     "feature_3_title": "Datenschutz an erster Stelle",
     "feature_3_desc": "Ihre Notizen werden verschlüsselt hochgeladen und nach der Konvertierung dauerhaft gelöscht. Wir speichern oder teilen Ihre persönlichen Inhalte niemals.",
-
     "tech_title": "Wie die Handschrifterkennung funktioniert",
     "tech_intro": "Standard-Tools behandeln Handschrift wie gedruckten Text, was die Formatierung zerstört. Die KI von NoteOCR analysiert Federstriche und Struktur, um Ihre Notizen als korrekt formatiertes Word-Dokument wiederherzustellen – exakt so, wie Sie sie geschrieben haben.",
-
     "tech_detect_title": "Was wir erkennen",
     "tech_detect_1": "Absätze, Listen und Überschriften",
     "tech_detect_2": "Schreibschrift und Druckschrift",
     "tech_detect_3": "Durchgestrichener Text und Korrekturen",
     "tech_detect_4": "Seitenränder und Einrückungen",
     "tech_detect_5": "Notizbuch- und loses Papier",
-
     "tech_tips_title": "Tipps für beste Ergebnisse",
     "tech_tips_1": "Gute Beleuchtung beim Fotografieren",
     "tech_tips_2": "Kamera parallel zur Seite halten",
     "tech_tips_3": "300 DPI für gescannte Dokumente",
     "tech_tips_4": "Hoher Kontrast zwischen Tinte und Papier",
     "tech_tips_5": "Ergebnis vor dem Speichern prüfen",
-
     "related_tools_title": "Verwandte OCR-Tools",
-
     "related_tool_1_name": "Bild zu Word",
     "related_tool_1_desc": "Handschrift in formatierte Dokumente umwandeln",
-
     "related_tool_2_name": "PDF online editieren",
     "related_tool_2_desc": "PDF-Dokumente ohne Installation online bearbeiten",
-
     "related_tool_3_name": "Online Dokument-Editor",
     "related_tool_3_desc": "MS Word oder Excel online kostenlos bearbeiten",
-
     "related_tool_4_name": "Bild zu Text",
     "related_tool_4_desc": "Schreibschrift in Bildern in editierbaren Text umwandeln",
-
     "faq_title": "Häufig gestellte Fragen zur Handschrift-zu-Word-Konvertierung",
-
     "cta_title": "Bereit, Ihre Notizen zu digitalisieren?",
     "cta_subtitle": "Schließen Sie sich über 50.000 Nutzern an, die NoteOCR vertrauen",
     "cta_button": "Jetzt Notizen konvertieren",
-
     "footer_text": "NoteOCR // Intelligente Dokumentenverarbeitung",
-
     "tool_upload_title": "Laden Sie Ihre Notizen hoch",
     "tool_upload_desc": "Unterstützt Vorlesungsskripte, Protokolle und Journale. Funktioniert mit Schreib- und Druckschrift.",
     "tool_upload_button": "Bild auswählen",
     "tool_upload_check_1": "JPG, PNG, PDF",
     "tool_upload_check_2": "Max. 25MB",
     "tool_upload_check_3": "SSL-gesichert",
-
     "tool_processing_title": "Analysiere Handschrift...",
     "tool_processing_desc": "KI erkennt Zeichen und bewahrt das Layout",
-
     "tool_complete_title": "Konvertierung abgeschlossen!",
     "tool_complete_desc": "Ihr Word-Dokument ist bereit. Downloaden und bearbeiten in Word oder Google Docs.",
     "tool_complete_file_type": "Word-Dokument (.docx)",
     "tool_complete_status": "BEREIT",
     "tool_download_button": "Word herunterladen",
     "tool_new_button": "Neues Dokument",
-
     "tool_info_1_title": "Layout erhalten",
     "tool_info_1_desc": "Listen und Absätze bleiben intakt",
-
     "tool_info_2_title": "95% Genauigkeit",
     "tool_info_2_desc": "Optimiert für alle Handschriftstile",
-
     "tool_info_3_title": "DOCX-Format",
     "tool_info_3_desc": "Kompatibel mit Word, Docs und Pages",
-
     "tool_tip_label": "Profi-Tipp:",
     "tool_tip_text": "Für beste Ergebnisse fotografieren Sie Ihre Notizen bei hellem Licht und halten Sie die Kamera parallel zur Seite.",
-
     "toast_success": "Transkription erfolgreich!",
     "toast_error_type": "Bitte laden Sie ein gültiges Bild (JPG, PNG, WEBP) oder PDF hoch",
     "toast_error_size": "Dateigröße muss unter 25MB liegen",
     "toast_error_conversion": "Konvertierung fehlgeschlagen.",
     "toast_download_success": "Word-Dokument heruntergeladen!",
     "toast_download_error": "Download fehlgeschlagen.",
-
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -463,153 +423,112 @@
       }
     }
   },
-
   "PdfPage": {
     "meta_title": "Gescannte PDFs online bearbeiten mit OCR | Kostenloser PDF-Editor | NoteOCR",
     "meta_desc": "Browserbasierter PDF-Editor für gescannte Dokumente. Handschriftlichen Text mit KI-OCR extrahieren, Unterschriften hinzufügen, Inhalte bearbeiten – keine Software erforderlich.",
-
     "hero_pill": "Professioneller PDF-Arbeitsbereich",
     "hero_title": "Gescannte PDFs online mit KI-OCR bearbeiten",
     "hero_subtitle": "Der einzige browserbasierte PDF-Editor, der speziell für gescannte Dokumente entwickelt wurde. Laden Sie handschriftliche PDFs hoch, extrahieren Sie Text mit OCR, fügen Sie Unterschriften hinzu oder erstellen Sie neue Dokumente – alles ohne Software-Installation.",
-
     "trust_ssl": "SSL-VERSCHLÜSSELT",
     "trust_processing": "SOFORTIGE VERARBEITUNG",
     "trust_accuracy": "HANDSCHRIFT-OCR",
-
     "workspace_title": "Ein kompletter Online-Arbeitsbereich für Dokumente",
     "workspace_subtitle": "Mehr als nur OCR. Laden Sie Ihre Dokumente in eine sichere Umgebung hoch, in der Sie Ihre Dateien vollständig in der Cloud bearbeiten, durchsuchen und verwalten können.",
-
     "workspace_feature_1_title": "Live-Textbearbeitung",
     "workspace_feature_1_desc": "Ändern Sie extrahierten Text direkt in Ihrem Browser. Korrigieren Sie Tippfehler, formatieren Sie Absätze neu und aktualisieren Sie Daten vor dem Export.",
-
     "workspace_feature_2_title": "Privatsphäre zuerst",
     "workspace_feature_2_desc": "Ihre Dokumente werden verschlüsselt und in einer sicheren Sandbox verarbeitet. Wir speichern Ihre sensiblen Daten niemals ohne Erlaubnis.",
-
     "workspace_feature_3_title": "Sofortiger Export",
     "workspace_feature_3_desc": "Fertig mit der Bearbeitung? Laden Sie Ihr bereinigtes Dokument sofort als durchsuchbares PDF, Word-Dokument oder Excel-Tabelle herunter.",
-
     "use_cases_title": "Wer bearbeitet gescannte PDFs online?",
     "use_cases_subtitle": "Von Anwaltskanzleien bis zum Gesundheitswesen – Tausende bearbeiten täglich gescannte Dokumente",
-
     "use_case_1_title": "Rechtsexperten",
     "use_case_1_desc": "Bearbeiten Sie gescannte Verträge, unterzeichnen Sie juristische Dokumente digital, schwärzen Sie sensible Informationen und bereiten Sie Fallakten vor. Ideal für Anwälte, die mit gescannten Gerichtsdokumenten arbeiten.",
-
     "use_case_2_title": "Kleine Unternehmen",
     "use_case_2_desc": "Füllen Sie gescannte Formulare aus, versehen Sie Rechnungen mit Firmenunterschriften, führen Sie PDFs zu Berichten zusammen und kommentieren Sie Angebote – ohne teure Adobe-Abos.",
-
     "use_case_3_title": "Studenten & Dozenten",
     "use_case_3_desc": "Annotieren Sie gescannte Lehrbücher, fassen Sie Kursnotizen zu Lernhilfen zusammen, füllen Sie Stipendienformulare aus und konvertieren Sie handschriftliche Aufgaben in durchsuchbare PDFs.",
-
     "use_case_4_title": "Gesundheitswesen",
     "use_case_4_desc": "Bearbeiten Sie Patientenformulare, digitalisieren Sie handschriftliche Krankenakten, fügen Sie rechtssichere Unterschriften hinzu und organisieren Sie gescannte Patientenakten.",
-
     "comparison_title": "PDF-Bearbeitung: Desktop- vs. Online-Tools",
     "comparison_subtitle": "Warum browserbasierte Bearbeitung Desktop-Software schlägt",
     "comparison_col_tool": "Tool",
     "comparison_col_access": "Zugriff",
     "comparison_col_features": "Funktionen",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_tool": "Adobe Acrobat Pro",
     "comparison_row1_access": "Erfordert Installation & Updates",
     "comparison_row1_features": "Vollständig, kein Handschrift-OCR",
     "comparison_row1_cost": "19,99 € / Monat",
-
     "comparison_row2_tool": "Einfache Online-Editoren",
     "comparison_row2_access": "Webbasiert",
     "comparison_row2_features": "Eingeschränktes OCR, keine Handschrift",
     "comparison_row2_cost": "Kostenlos bis 10 €",
-
     "comparison_row3_tool": "NoteOCR PDF-Editor",
     "comparison_row3_access": "Sofort, browserbasiert",
     "comparison_row3_features": "OCR + Handschrift + Vollständiger Editor",
     "comparison_row3_cost": "Kostenlos bis 8 €",
-
     "features_title": "Warum unser Editor für gescannte PDFs anders ist",
     "features_subtitle": "Speziell entwickelt für die Bearbeitung von gescannten und handschriftlichen PDFs",
-
     "feature_1_title": "OCR für gescannte PDFs",
     "feature_1_desc": "Konvertieren Sie gescannte Dokumente und handschriftliche PDFs in durchsuchbaren, bearbeitbaren Text. Unsere KI erkennt Handschrift, Drucktext und Tabellenstrukturen unter Beibehaltung Ihres ursprünglichen Layouts.",
-
     "feature_2_title": "Vollständige Bearbeitungssuite",
     "feature_2_desc": "Fügen Sie Text hinzu, zeichnen Sie Unterschriften, fügen Sie Bilder ein, markieren Sie Abschnitte und organisieren Sie Seiten neu. Alle Standard-PDF-Tools in einem professionellen Web-Arbeitsbereich – keine Software erforderlich.",
-
     "feature_3_title": "Browserbasierte Sicherheit",
     "feature_3_desc": "Verschlüsselung auf Bankenniveau für alle Uploads. Ihre PDFs werden nach Möglichkeit lokal in Ihrem Browser verarbeitet. Automatische Löschung nach 24 Stunden.",
-
     "tech_title": "Wie browserbasierte PDF-OCR funktioniert",
     "tech_intro": "Herkömmliche PDF-Editoren funktionieren nur mit digitalem Text. NoteOCR kombiniert fortschrittliche OCR (optische Zeichenerkennung) mit Layout-Analyse, um gescannte Dokumente, handschriftliche Formulare und bildbasierte PDFs zu verarbeiten – alles in Ihrem Browser. Wir erkennen die Textpositionierung, bewahren die Formatierung und machen Ihr gesamtes Dokument durchsuchbar.",
-
     "tech_support_title": "Was wir unterstützen",
     "tech_support_1": "Handschriftliche Dokumente und Formulare",
     "tech_support_2": "Gescannte Verträge und Rechtsakten",
     "tech_support_3": "Bildbasierte PDFs ohne Textebene",
     "tech_support_4": "Digitale Unterschriften und Annotationen",
     "tech_support_5": "Mehrseitige PDF-Dokumente",
-
     "tech_tips_title": "Tipps für beste Ergebnisse",
     "tech_tips_1": "Scannen Sie mit 300 DPI oder höher",
     "tech_tips_2": "Sorgen Sie für gute Beleuchtung und Kontrast",
     "tech_tips_3": "Seiten flach halten, ohne Falten",
     "tech_tips_4": "Farbe oder Graustufen für Handschriften nutzen",
     "tech_tips_5": "Direkt vom Scanner hochladen, wenn möglich",
-
     "related_tools_title": "Verwandte OCR-Tools",
-
     "related_tool_1_name": "Bild zu Word",
     "related_tool_1_desc": "Handschriftlichen Text in formatierte Dokumente umwandeln",
-
     "related_tool_2_name": "PDF online bearbeiten (ohne Installation)",
     "related_tool_2_desc": "PDF-Dokumente von überall online hochladen und bearbeiten",
-
     "related_tool_3_name": "Online-Dokumenteneditor",
     "related_tool_3_desc": "MS Word- oder Excel-Dokumente kostenlos online bearbeiten",
-
     "related_tool_4_name": "Bild zu Text",
     "related_tool_4_desc": "Schreibschrift in Bildern in formatierten, editierbaren Text umwandeln",
-
     "faq_title": "Häufig gestellte Fragen zur Bearbeitung gescannter PDFs",
-
     "cta_title": "Bereit, gescannte PDFs online zu bearbeiten?",
     "cta_subtitle": "Schließen Sie sich über 100.000 Nutzern an, die ihre Dokumente mit dem NoteOCR PDF-Editor bearbeiten",
     "cta_button": "Jetzt mit der Bearbeitung beginnen",
-
     "tool_main_title": "Professioneller PDF-Arbeitsbereich",
     "tool_main_desc": "Laden Sie gescannte PDFs mit Handschrift für OCR hoch oder starten Sie mit einem leeren Dokument.",
     "tool_upload_button": "Gescannte PDF hochladen",
     "tool_new_button": "Neu erstellen",
-
     "tool_upload_check_1": "Nur PDF",
     "tool_upload_check_2": "Max. 25MB",
     "tool_upload_check_3": "SSL-gesichert",
-
     "tool_info_1_title": "Handschrift-OCR",
     "tool_info_1_desc": "Text aus gescannten handschriftlichen Dokumenten extrahieren",
-
     "tool_info_2_title": "Vollständiger Editor",
     "tool_info_2_desc": "Text, Unterschriften und Annotationen hinzufügen",
-
     "tool_info_3_title": "Browserbasiert",
     "tool_info_3_desc": "Kein Software-Download, funktioniert sofort",
-
     "tool_tip_label": "Profi-Tipp:",
     "tool_tip_text": "Für beste OCR-Ergebnisse scannen Sie Dokumente mit 300 DPI. Handschriftliche Formulare gelingen am besten bei gleichmäßiger Ausleuchtung ohne Schatten.",
-
     "modal_new_title": "Neues PDF erstellen",
     "modal_new_desc": "Beginnen Sie mit einer leeren Seite und erstellen Sie Ihr Dokument von Grund auf neu.",
     "modal_new_button": "Leeres PDF erstellen",
-
     "modal_upload_title": "Gescannte PDF hochladen",
     "modal_upload_desc": "Importieren Sie Ihr PDF, um Text mit OCR zu extrahieren, Unterschriften hinzuzufügen oder Inhalte zu ändern.",
     "modal_upload_placeholder": "Klicken oder PDF hierher ziehen",
     "modal_upload_info": "Max. Dateigröße: 25MB • Gescannte & handschriftliche PDFs unterstützt",
-
     "modal_processing_new": "Arbeitsbereich wird erstellt...",
     "modal_processing_upload": "PDF wird verarbeitet...",
     "modal_processing_desc": "Ihre sichere PDF-Umgebung wird eingerichtet",
-
     "modal_security_badge": "Verschlüsselung auf Bankenniveau",
-
     "toast_success_create": "PDF-Arbeitsbereich bereit!",
     "toast_success_upload": "PDF erfolgreich hochgeladen!",
     "toast_error_type": "Bitte wählen Sie eine gültige PDF-Datei aus",
@@ -617,24 +536,19 @@
     "toast_error_create": "Fehler beim Erstellen der PDF.",
     "toast_error_upload": "Fehler beim Hochladen der PDF",
     "toast_error_drop": "Bitte legen Sie eine gültige PDF-Datei ab",
-
     "router_pre_title": "Bevor Sie hochladen",
     "router_title": "Welche Art von Dokument haben Sie?",
     "router_subtitle": "Wir leiten Sie zum richtigen Tool weiter, damit Sie das beste Ergebnis erzielen.",
     "router_back_button": "Zurück zum Dokumenttyp",
-
     "router_type_standard_label": "Standard / Digitales PDF",
     "router_type_standard_desc": "Getippte Verträge, Formulare oder jedes PDF mit markierbarem Text. Ich muss es bearbeiten, kommentieren oder unterschreiben.",
     "router_type_standard_cta": "Weiter zum PDF-Editor",
-
     "router_type_handwritten_label": "Handschriftliche Notizen oder Dokumente",
     "router_type_handwritten_desc": "Laden Sie ein Foto oder einen Scan von handschriftlichen Notizen, Briefen oder Dokumenten hoch. Wir konvertieren sie in eine perfekt formatierte, bearbeitbare Word-Datei – unter Beibehaltung von Struktur, Abständen und Layout.",
     "router_type_handwritten_cta": "Handschrift in Word umwandeln →",
-
     "router_type_table_label": "Handschriftliche Protokolle, Tabellen oder Daten",
     "router_type_table_desc": "Laden Sie ein Foto oder einen Scan von handschriftlichen Rastern, Kassenbüchern, Inventarlisten oder anderen strukturierten Aufzeichnungen hoch. Wir konvertieren sie in eine saubere, professionell formatierte Excel-Tabelle.",
     "router_type_table_cta": "Handschrift in Excel umwandeln →",
-
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {
@@ -720,7 +634,6 @@
       }
     }
   },
-
   "EditorPage": {
     "meta_title": "Office-Dokumente online kostenlos bearbeiten - Browserbasierter Word-, Excel- und PowerPoint-Editor",
     "meta_desc": "Professioneller Online-Dokumenteneditor. Erstellen und bearbeiten Sie Word- (DOCX), Excel- (XLSX) und PowerPoint-Dateien (PPTX) direkt im Browser ohne Microsoft Office.",
@@ -915,144 +828,109 @@
   "ExcelPage": {
     "meta_title": "Handschriftliche Tabellen in Excel (XLSX) umwandeln | NoteOCR",
     "meta_desc": "Automatisieren Sie die Dateneingabe. Konvertieren Sie handschriftliche Raster, Finanztabellen und Pläne sofort mit KI in editierbare Excel-Tabellen.",
-
     "hero_pill": "Tabellenstrukturerkennung",
     "hero_title": "Handschriftliche Tabellen in Excel-Tabellen umwandeln",
     "hero_subtitle": "Sparen Sie sich das manuelle Abtippen. Unsere KI erkennt Zeilen, Spalten und Zellgrenzen in Ihren handschriftlichen Notizen – auch ohne Linien – und exportiert formatierte .xlsx-Dateien.",
-
     "trust_ssl": "SSL-VERSCHLÜSSELT",
     "trust_processing": "2 MINUTEN VERARBEITUNG",
     "trust_accuracy": "98% NUMERISCHE GENAUIGKEIT",
-
     "before_after_title": "Überzeugen Sie sich selbst",
     "before_after_desc": "Echte Konvertierung mit erhaltener Struktur und hoher numerischer Präzision",
     "before_label": "Vorher: Handschriftliches Kassenbuch",
     "before_placeholder": "[Laden Sie Ihre Tabelle hoch, um Ergebnisse zu sehen]",
     "after_label": "Nachher: Excel-Ausgabe",
     "after_placeholder": "[Vorschau der formatierten Tabelle]",
-
     "use_cases_title": "Wer nutzt die Handschrift-zu-Excel-Konvertierung?",
     "use_cases_subtitle": "Von Steuerbüros bis hin zu Lehrkräften – täglich werden tausende Tabellen digitalisiert",
-
     "use_case_1_title": "Buchhaltung & Buchführung",
     "use_case_1_desc": "Wandeln Sie handschriftliche Kassenbücher, Spesenberichte und Belege in sortierbare Excel-Dateien für die Steuererklärung um.",
-
     "use_case_2_title": "Lagerverwaltung",
     "use_case_2_desc": "Digitalisieren Sie Bestandslisten, Produktlisten und Lagerprotokolle. Ideal für kleine Unternehmen mit Papierlisten.",
-
     "use_case_3_title": "Lehrkräfte & Notenverwaltung",
     "use_case_3_desc": "Verwandeln Sie handschriftliche Notenlisten und Klassenbücher in formatierte Tabellen für Zeugnisse und Fortschrittsberichte.",
-
     "use_case_4_title": "Forschung & Datenerfassung",
     "use_case_4_desc": "Konvertieren Sie Feldnotizen, Umfrageergebnisse und Labordaten in analysierbare Datensätze für Statistiksoftware.",
-
     "comparison_title": "Handschriftliche Tabelle zu Excel: Methoden im Vergleich",
     "comparison_subtitle": "Warum NoteOCR im Vergleich zur manuellen Eingabe Stunden spart",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Zeitaufwand",
     "comparison_col_accuracy": "Genauigkeit",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Manuelles Abtippen",
     "comparison_row1_time": "45 Minuten",
     "comparison_row1_accuracy": "95% (menschliche Fehler)",
     "comparison_row1_cost": "15 €/Std. Lohnkosten",
-
     "comparison_row2_method": "Standard-OCR",
     "comparison_row2_time": "10 Minuten",
     "comparison_row2_accuracy": "50% (Strukturverlust)",
     "comparison_row2_cost": "Kostenlos - 20 €",
-
     "comparison_row3_method": "NoteOCR Tabellen",
     "comparison_row3_time": "2 Minuten",
     "comparison_row3_accuracy": "98% Struktur erhalten",
     "comparison_row3_cost": "8 € / 100 Seiten",
-
     "features_title": "Warum unsere Tabellen-OCR anders ist",
     "features_subtitle": "Speziell für handschriftliche Datentabellen entwickelt",
-
     "feature_1_title": "Intelligente Rastererkennung",
     "feature_1_desc": "Unsere KI identifiziert Tabellenstrukturen auch ohne sichtbare Linien. Sie erkennt implizite Spalten, Textausrichtungen und Hierarchien.",
-
     "feature_2_title": "Optimiert für Zahlen",
     "feature_2_desc": "Höchste Genauigkeit für Finanzdaten. Konvertieren Sie Kassenbücher, Rechnungen und Inventuren unter Beibehaltung der Zahlenformate.",
-
     "feature_3_title": "Export nach Excel oder CSV",
     "feature_3_desc": "Laden Sie Ihre Daten als Microsoft Excel (.xlsx) mit Zellformatierung herunter oder exportieren Sie als CSV für Google Sheets und Datenbanken.",
-
     "tech_title": "Wie die Rastererkennung funktioniert",
     "tech_intro": "Die meisten OCR-Tools behandeln Tabellen als Fließtext, was Zellbeziehungen zerstört. Die KI von NoteOCR analysiert räumliche Positionen und Ausrichtungsmuster, um die exakte Struktur – einschließlich Header und verbundener Zellen – zu rekonstruieren.",
-
     "tech_detect_title": "Was wir erkennen",
     "tech_detect_1": "Zellgrenzen ohne gezeichnete Linien",
     "tech_detect_2": "Spaltenüberschriften und Hierarchien",
     "tech_detect_3": "Verbundene Zellen über mehrere Spalten",
     "tech_detect_4": "Währungssymbole und Dezimalstellen",
     "tech_detect_5": "Tabellen auf kariertem oder blanko Papier",
-
     "tech_tips_title": "Tipps für beste Ergebnisse",
     "tech_tips_1": "Gute Beleuchtung beim Fotografieren nutzen",
     "tech_tips_2": "Kamera parallel zur Seite halten",
     "tech_tips_3": "300 DPI bei Scans verwenden",
     "tech_tips_4": "Ganze Tabelle in einem Bild erfassen",
     "tech_tips_5": "Ergebnis vor kritischer Verwendung prüfen",
-
     "related_tools_title": "Verwandte OCR-Tools",
-
     "related_tool_1_name": "Bild zu Word",
     "related_tool_1_desc": "Handschrift in formatierte Dokumente umwandeln",
-
     "related_tool_2_name": "PDF online bearbeiten",
     "related_tool_2_desc": "PDFs ohne Installation überall online bearbeiten",
-
     "related_tool_3_name": "Online-Dokumenteneditor",
     "related_tool_3_desc": "Word- oder Excel-Dokumente kostenlos online bearbeiten",
-
     "related_tool_4_name": "Bild zu Text",
     "related_tool_4_desc": "Schreibschrift in Bildern in editierbaren Text umwandeln",
-
     "faq_title": "Häufig gestellte Fragen zur Tabelle-zu-Excel-Konvertierung",
-
     "cta_title": "Bereit, das manuelle Abtippen zu beenden?",
     "cta_subtitle": "Schließen Sie sich über 10.000 Nutzern an, die Tabellen mit NoteOCR digitalisieren",
     "cta_button": "Tabelle jetzt konvertieren",
-
     "tool_upload_title": "Laden Sie Ihre handschriftliche Tabelle hoch",
     "tool_upload_desc": "Unterstützt Kassenbücher, Inventarlisten und Notenbücher. Funktioniert mit und ohne Linien.",
     "tool_upload_button": "Bild auswählen",
     "tool_upload_check_1": "JPG, PNG, JPEG",
     "tool_upload_check_2": "Max. 25MB",
     "tool_upload_check_3": "SSL-gesichert",
-
     "tool_processing_title": "Erkenne Tabellenstruktur...",
     "tool_processing_desc": "KI analysiert Zeilen, Spalten und Zellgrenzen",
-
     "tool_complete_title": "Tabelle erfolgreich extrahiert!",
     "tool_complete_desc": "Ihre Tabelle ist fertig. Download als Excel (.xlsx) oder CSV möglich.",
     "tool_complete_file_type": "Excel-Tabelle",
     "tool_complete_status": "BEREIT",
     "tool_download_button": "Excel herunterladen",
     "tool_new_button": "Neue Tabelle",
-
     "tool_info_1_title": "Intelligente Erkennung",
     "tool_info_1_desc": "Funktioniert auch bei Tabellen ohne gezeichnete Linien",
-
     "tool_info_2_title": "99% Genauigkeit",
     "tool_info_2_desc": "Optimiert für Zahlen und Finanzdaten",
-
     "tool_info_3_title": "Excel-Format",
     "tool_info_3_desc": "Kompatibel mit Excel, Google Sheets und Datenbanken",
-
     "tool_tip_label": "Profi-Tipp:",
     "tool_tip_text": "Für beste Ergebnisse fotografieren Sie die Tabelle bei gutem Licht parallel zur Seite. 300 DPI Scans sind besser als Fotos.",
-
     "toast_success": "Tabelle erfolgreich extrahiert!",
     "toast_error_type": "Bitte laden Sie ein gültiges Bild (JPG, PNG, WEBP) oder PDF hoch",
     "toast_error_size": "Dateigröße muss unter 25MB liegen",
     "toast_error_extraction": "Extraktion fehlgeschlagen.",
     "toast_download_success": "Excel-Datei heruntergeladen!",
     "toast_download_error": "Download fehlgeschlagen.",
-
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1266,7 +1144,13 @@
     "comparison": {
       "title": "Technische Spezifikationen im Detail",
       "subtitle": "Warum NoteOCR besser abschneidet als herkömmliche Scanner.",
-      "headers": ["Feature", "Hobby", "Student", "Professional", "Power User"],
+      "headers": [
+        "Feature",
+        "Hobby",
+        "Student",
+        "Professional",
+        "Power User"
+      ],
       "groups": {
         "core": "Erkennungs-Intelligenz",
         "formats": "Export & Dateitypen",
@@ -1275,57 +1159,112 @@
       "rows": [
         {
           "name": "Druckschrift OCR",
-          "values": [true, true, true, true],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Kursivschrift-Engine",
-          "values": ["Standard", "Hoch", "Ultra", "Ultra"],
+          "values": [
+            "Standard",
+            "Hoch",
+            "Ultra",
+            "Ultra"
+          ],
           "group": "core"
         },
         {
           "name": "Tabellen-Erkennung (Excel)",
-          "values": [false, false, true, true],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Layouterhaltung (Word)",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Mathematische Formeln",
-          "values": [false, false, "Basis", "Erweitert"],
+          "values": [
+            false,
+            false,
+            "Basis",
+            "Erweitert"
+          ],
           "group": "core"
         },
         {
           "name": "Korrektur unsauberer Tinte",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Export-Formate",
-          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Alle Formate"],
+          "values": [
+            "TXT",
+            "DOCX, TXT",
+            "XLSX, DOCX, PDF",
+            "Alle Formate"
+          ],
           "group": "formats"
         },
         {
           "name": "Batch-Upload Limit",
-          "values": ["1 Datei", "5 Dateien", "10 Dateien", "Unbegrenzt"],
+          "values": [
+            "1 Datei",
+            "5 Dateien",
+            "10 Dateien",
+            "Unbegrenzt"
+          ],
           "group": "formats"
         },
         {
           "name": "Cloud-Speicherdauer",
-          "values": ["24 Stunden", "30 Tage", "Unbegrenzt", "Unbegrenzt"],
+          "values": [
+            "24 Stunden",
+            "30 Tage",
+            "Unbegrenzt",
+            "Unbegrenzt"
+          ],
           "group": "system"
         },
         {
           "name": "Verschlüsselung",
-          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "values": [
+            "AES-256",
+            "AES-256",
+            "AES-256",
+            "AES-256"
+          ],
           "group": "system"
         },
         {
           "name": "Priorität",
-          "values": ["Standard", "Standard", "Hoch", "Echtzeit"],
+          "values": [
+            "Standard",
+            "Standard",
+            "Hoch",
+            "Echtzeit"
+          ],
           "group": "system"
         }
       ]
@@ -1444,8 +1383,8 @@
       "loading": "Wird verarbeitet..."
     },
     "sidebar": {
-      "hq_title": "Hauptsitz Zürich",
-      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zürich\nSchweiz",
+      "hq_title": "Hauptsitz",
+      "hq_address": "NoteOCR\n11 Boyo Road, Sapele, Delta State\nNigeria",
       "timezone": "Mitteleuropäische Zeit (GMT+1)",
       "support": "Allgemeiner Support",
       "sales": "Unternehmensvertrieb",
@@ -1905,144 +1844,109 @@
   "pic-to-excel": {
     "meta_title": "Bild in Excel online umwandeln | KI-Konverter für Bilder in Excel",
     "meta_desc": "Verwandeln Sie jedes Bild in eine Tabelle. Konvertieren Sie JPG, PNG oder Screenshots sofort in bearbeitbare Excel-Dateien (.xlsx). Beste KI für Datentabellen und Rechnungen.",
-
     "hero_pill": "KI Bild-zu-Tabelle Technologie",
     "hero_title": "Bild in Excel umwandeln mit KI-Tabellenerkennung",
     "hero_subtitle": "Verwandeln Sie Fotos, Screenshots und handschriftliche Notizen in bearbeitbare Excel-Tabellen. Keine manuelle Eingabe. Unterstützung für JPG und PNG.",
-
     "trust_ssl": "SSL-VERSCHLÜSSELT",
     "trust_processing": "SOFORTIGE KONVERTIERUNG",
     "trust_accuracy": "99% TABELLENGENAUIGKEIT",
-
     "before_after_title": "Vom Bild zur Tabellenkalkulation",
     "before_after_desc": "Erleben Sie, wie unsere KI Daten aus statischen Bildern in bearbeitbare Zellen extrahiert",
     "before_label": "Vorher: Bild / Screenshot",
     "before_placeholder": "[Laden Sie ein Bild mit einer Tabelle hoch]",
     "after_label": "Nachher: Bearbeitbares Excel",
     "after_placeholder": "[Formatierte .xlsx Vorschau]",
-
     "use_cases_title": "Wer braucht einen Bild-zu-Excel-Konverter?",
     "use_cases_subtitle": "Von der Datenerfassung bis zum Unternehmertum – wir automatisieren die mühsame Arbeit",
-
     "use_case_1_title": "Rechnungen & Quittungen digitalisieren",
     "use_case_1_desc": "Fotografieren Sie Papierrechnungen. Unsere KI extrahiert Einzelposten, Mengen und Preise direkt in Spalten für Ihre Buchhaltungssoftware.",
-
     "use_case_2_title": "Screenshot zu Excel",
     "use_case_2_desc": "Haben Sie eine PDF- oder Web-Tabelle, die Sie nicht kopieren können? Machen Sie einen Screenshot und laden Sie ihn hoch. Wir rekonstruieren das Raster sofort.",
-
     "use_case_3_title": "Handschriftliche Protokolle",
     "use_case_3_desc": "Das einzige Tool, das auch unordentliche Handschrift beherrscht. Wandeln Sie Lagerprotokolle oder Feldjournale in digitale Tabellen um.",
-
     "use_case_4_title": "Finanzberichte",
     "use_case_4_desc": "Konvertieren Sie Fotos von Kontoauszügen oder gedruckten Kassenbüchern. Wir bewahren Dezimalstellen und Währungsformate für 100% Datenintegrität.",
-
     "comparison_title": "Bild zu Excel: Warum NoteOCR gewinnt",
     "comparison_subtitle": "Mühen Sie sich nicht mit herkömmlichen PDF-Konvertern ab",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Zeitaufwand",
     "comparison_col_accuracy": "Tabellenstruktur",
     "comparison_col_cost": "Aufwand",
-
     "comparison_row1_method": "Manuelle Dateneingabe",
     "comparison_row1_time": "1 Stunde/Seite",
     "comparison_row1_accuracy": "Hohes Tippfehler-Risiko",
     "comparison_row1_cost": "Hoch (Ermüdend)",
-
     "comparison_row2_method": "Standard-PDF-Tools",
     "comparison_row2_time": "5 Minuten",
     "comparison_row2_accuracy": "Scheitert an Bildern",
     "comparison_row2_cost": "Frustrierend",
-
     "comparison_row3_method": "NoteOCR KI",
     "comparison_row3_time": "60 Sekunden",
     "comparison_row3_accuracy": "Perfekter Rastererhalt",
     "comparison_row3_cost": "Automatisiert",
-
     "features_title": "Der beste Weg, Bilder in Tabellen umzuwandeln",
     "features_subtitle": "Optimiert für JPGs, PNGs und Handyfotos",
-
     "feature_1_title": "Formatunabhängig",
     "feature_1_desc": "Kein PDF vorhanden? Kein Problem. Wir sind auf Rohbildformate (JPG, JPEG, PNG) spezialisiert, die andere Konverter ablehnen.",
-
     "feature_2_title": "Intelligente Raster-Rekonstruktion",
     "feature_2_desc": "Unsere KI liest nicht nur Text; sie „sieht“ das Raster. Sie richtet Daten in Zeilen und Spalten aus, selbst wenn das Foto schräg aufgenommen wurde.",
-
     "feature_3_title": "Mobile-First Verarbeitung",
     "feature_3_desc": "Entwickelt für den schnellen Workflow. Fotografieren Sie ein Dokument auf Ihrem Schreibtisch und erhalten Sie in Sekunden eine Excel-Datei auf Ihr Gerät.",
-
     "tech_title": "Wie die Bild-zu-Excel-KI funktioniert",
     "tech_intro": "Ein „flaches“ Bild in eine dynamische Tabelle umzuwandeln ist komplex. NoteOCR nutzt Computer Vision, um visuelle (oder implizierte) Linien einer Tabelle zu erkennen. Es unterteilt das Bild in ein Raster-Koordinatensystem, führt OCR für jede einzelne „Zelle“ aus und setzt die Daten in einer konformen .xlsx-Datei wieder zusammen.",
-
     "tech_detect_title": "Was wir extrahieren",
     "tech_detect_1": "Tabellenstrukturen aus Screenshots",
     "tech_detect_2": "Daten aus verzerrten/schrägen Fotos",
     "tech_detect_3": "Handschriftliche und gedruckte Zahlen",
     "tech_detect_4": "Mehrspaltige Layouts",
     "tech_detect_5": "Kopf- und Fußzeilen",
-
     "tech_tips_title": "Tipps für perfekte Konvertierungen",
     "tech_tips_1": "Stellen Sie sicher, dass das Bild scharf ist (kein Fokusverlust)",
     "tech_tips_2": "Vermeiden Sie Schatten auf der Datentabelle",
     "tech_tips_3": "Schneiden Sie das Bild auf den relevanten Tabellenbereich zu",
     "tech_tips_4": "Verwenden Sie hohe Auflösungen (HD-Einstellungen)",
     "tech_tips_5": "Nutzen Sie Standardformate wie JPG oder PNG",
-
     "related_tools_title": "Weitere Konvertierungs-Tools",
-
     "related_tool_1_name": "Bild zu Word",
     "related_tool_1_desc": "Handschriftlichen Text in formatierte Dokumente umwandeln",
-
     "related_tool_2_name": "PDF online bearbeiten",
     "related_tool_2_desc": "PDF-Dokumente überall ohne Installation online bearbeiten",
-
     "related_tool_3_name": "Online-Dokumenteneditor",
     "related_tool_3_desc": "MS Word- oder Excel-Dokumente kostenlos online bearbeiten",
-
     "related_tool_4_name": "Bild zu Text",
     "related_tool_4_desc": "Schreibschrift in Bildern in formatierten, bearbeitbaren Text umwandeln",
-
     "faq_title": "FAQ: Bilder in Excel konvertieren",
-
     "cta_title": "Verwandeln Sie dieses Foto in eine Tabelle",
     "cta_subtitle": "Hören Sie auf zu tippen. Fangen Sie an zu scannen. Schließen Sie sich über 10.000 Nutzern an.",
     "cta_button": "Bild jetzt konvertieren",
-
     "tool_upload_title": "Bild zum Konvertieren hochladen",
     "tool_upload_desc": "Unterstützt JPG, PNG, WEBP. Funktioniert mit Screenshots, Fotos und Scans.",
     "tool_upload_button": "Bild auswählen",
     "tool_upload_check_1": "JPG / PNG Unterstützung",
     "tool_upload_check_2": "Keine Registrierung erforderlich",
     "tool_upload_check_3": "Sichere Verarbeitung",
-
     "tool_processing_title": "Bild wird analysiert...",
     "tool_processing_desc": "Tabellenstruktur wird erkannt und Daten extrahiert",
-
     "tool_complete_title": "Excel-Datei bereit!",
     "tool_complete_desc": "Ihr Bild wurde konvertiert. Laden Sie Ihre Tabelle unten herunter.",
     "tool_complete_file_type": "Microsoft Excel (.xlsx)",
     "tool_complete_status": "ERFOLGREICH",
     "tool_download_button": "Excel herunterladen",
     "tool_new_button": "Nächstes Bild konvertieren",
-
     "tool_info_1_title": "Jedes Bild",
     "tool_info_1_desc": "JPG, PNG, Screenshots unterstützt",
-
     "tool_info_2_title": "Tabellen-KI",
     "tool_info_2_desc": "Erhält Zeilen & Spalten automatisch",
-
     "tool_info_3_title": "Bearbeitbar",
     "tool_info_3_desc": "Vollständige Excel (.xlsx) Ausgabe",
-
     "tool_tip_label": "Scan-Tipp:",
     "tool_tip_text": "Machen Sie bei langen Dokumenten lieber mehrere Nahaufnahmen statt eines Fernschusses. Mehr Klarheit bedeutet bessere Genauigkeit.",
-
     "toast_success": "Bild erfolgreich konvertiert!",
     "toast_error_type": "Bitte laden Sie eine gültige Bilddatei hoch (JPG, PNG)",
     "toast_error_size": "Dateigröße muss unter 25 MB liegen",
     "toast_error_extraction": "Keine Tabelle erkannt.",
     "toast_download_success": "Tabelle auf Gerät gespeichert!",
     "toast_download_error": "Download fehlgeschlagen.",
-
     "FAQ": {
       "items": {
         "pic_to_excel_how": {
@@ -2111,35 +2015,26 @@
   "HandwritingRecognitionPage": {
     "meta_title": "Handschrifterkennung Online | NoteOCR",
     "meta_desc": "Laden Sie ein handschriftliches Bild hoch und unsere KI erkennt es und wandelt es sofort in formatierten Text um. Kostenlose Handschrifterkennung online.",
-
     "hero_pill": "KI-Handschrifterkennung",
     "hero_title": "Handschrifterkennung, die wirklich funktioniert.",
     "hero_subtitle": "Laden Sie ein Foto von handschriftlichen Notizen, Formularen oder Dokumenten hoch. Unsere KI liest die Handschrift, einschließlich unleserlicher Schreibschrift, und wandelt sie in Sekunden in bearbeitbaren, formatierten Text um.",
-
     "trust_ssl": "SSL-verschlüsselt",
     "trust_processing": "30-Sekunden-Verarbeitung",
     "trust_accuracy": "99 % Erkennungsgenauigkeit",
-
     "before_after_title": "Sehen Sie die Erkennung in Aktion",
     "before_after_desc": "Echtes Handschriftbeispiel, das zeigt, was unsere KI liest und welches Ergebnis sie liefert.",
     "before_label": "Vorher: Handschriftliches Bild",
     "after_label": "Nachher: Erkannter digitaler Text",
-
     "use_cases_title": "Wer nutzt Handschrifterkennung?",
     "use_cases_subtitle": "Von Studierenden, die Notizen digitalisieren, bis hin zu Unternehmen, die Formulare verarbeiten – Handschrifterkennung spart jeden Tag Stunden.",
-
     "use_case_1_title": "Studierende & Vorlesungsnotizen",
     "use_case_1_desc": "Fotografieren Sie Ihr Notizbuch nach dem Unterricht und erhalten Sie in Sekunden vollständig durchsuchbaren, bearbeitbaren Text. Kein Abtippen seitenlanger Vorlesungsnotizen vor Prüfungen mehr.",
-
     "use_case_2_title": "Unleserliche Schrift & Schreibschrift",
     "use_case_2_desc": "Unsere KI wurde speziell für schwierige Handschriften trainiert. Hastige Kritzeleien, verbundene Schreibschrift und gemischte Druck-/Schreibschriften werden mit hoher Genauigkeit erkannt.",
-
     "use_case_3_title": "Handschriftliche Formulare & Dokumente",
     "use_case_3_desc": "Digitalisieren Sie Patientenformulare, Feldberichte, Rechnungen und Personalakten über ein Handyfoto. Kein Scanner erforderlich – Ihre Kamera reicht völlig aus.",
-
     "use_case_4_title": "Alte Briefe & Tagebücher",
     "use_case_4_desc": "Bewahren Sie handgeschriebene Familienbriefe, persönliche Tagebücher und historische Dokumente, indem Sie sie in durchsuchbaren digitalen Text umwandeln, den Sie teilen und archivieren können.",
-
     "comparison_title": "Handschrifterkennung: Methoden im Vergleich",
     "comparison_subtitle": "Warum eine speziell entwickelte KI allgemeinen Tools stets überlegen ist.",
     "comparison_col_method": "Methode",
@@ -2158,36 +2053,28 @@
     "comparison_row3_time": "Unter 30 Sekunden",
     "comparison_row3_accuracy": "95–99 % inkl. Schreibschrift",
     "comparison_row3_cost": "Kostenlos testen",
-
     "features_title": "Warum unsere Handschrifterkennung anders ist",
     "features_subtitle": "Speziell für Handschrift entwickelt, nicht nur ein angepasstes Tool für gedruckten Text.",
-
     "feature_1_title": "Auf Handschrift trainiert, nicht auf Schriftarten",
     "feature_1_desc": "Standard-OCR lernt aus gedruckten Schriftarten. Unsere KI wurde exklusiv mit Millionen echter Handschriftbeispiele trainiert – Druckschrift, Schreibschrift, gemischte Stile, hastige Notizen und alles dazwischen.",
-
     "feature_2_title": "Liest unleserliche Schrift & Schreibschrift",
     "feature_2_desc": "Verbundene Buchstaben, wechselnde Neigung, unregelmäßige Größen – genau die Dinge, an denen Standard-OCR scheitert. Unser neuronales Netzwerk geht damit um wie ein menschlicher Leser: Es nutzt den Kontext, um Lücken zu füllen.",
-
     "feature_3_title": "Ergebnisse, die Sie wirklich nutzen können",
     "feature_3_desc": "Der erkannte Text wird nicht einfach als unformatierter Absatz ausgegeben. Wir rekonstruieren das Layout, behalten Listen und Überschriften bei und exportieren nach Word, Excel oder als einfachen Text, je nachdem, was Sie benötigen.",
-
     "tech_title": "Wie die Handschrifterkennung funktioniert",
     "tech_intro": "Die Standard-OCR-Technologie wurde für gedruckten Text entwickelt – einheitliche Schriftarten mit vorhersehbaren Buchstabenformen. Handschrift bricht mit allen Voraussetzungen, die Standard-OCR funktionieren lassen. Jeder Mensch schreibt anders. Buchstaben sind verbunden, überlappen sich, variieren in Größe und Neigung. Unsere KI nutzt einen völlig anderen Ansatz: Neuronale Netzwerke, die auf Millionen von Handschriftbeispielen trainiert wurden und lernen zu lesen wie ein Mensch – durch das Erkennen von Mustern über ganze Wörter und Zeilen hinweg, nicht nur bei einzelnen Zeichen.",
-
     "tech_detect_title": "Was unsere KI erkennt",
     "tech_detect_1": "Druck- und Schreibschrift, einschließlich verbundener und überlappender Buchstaben",
     "tech_detect_2": "Unleserliche, hastige und inkonsistente Schreibstile",
     "tech_detect_3": "Gemischte Druck- und Schreibschrift auf derselben Seite",
     "tech_detect_4": "Durchgestrichene Wörter und Korrekturen",
     "tech_detect_5": "Dokumentenstruktur – Überschriften, Listen, Absätze und Tabellenzeilen",
-
     "tech_tips_title": "Tipps für beste Ergebnisse",
     "tech_tips_1": "Bei gutem natürlichem Licht fotografieren, Blitzlicht direkt auf die Seite vermeiden",
     "tech_tips_2": "Halten Sie Ihr Handy parallel zum Papier, nicht schräg",
     "tech_tips_3": "Stellen Sie sicher, dass sich die Tinte deutlich vom Papierhintergrund abhebt",
     "tech_tips_4": "300 DPI oder höher für gescannte Dokumente",
     "tech_tips_5": "Überprüfen Sie das Ergebnis – selbst bei 95 % Genauigkeit sind gelegentliche Korrekturen nötig",
-
     "related_tools_title": "Ähnliche Tools",
     "related_tool_1_name": "Handschrift zu Word",
     "related_tool_1_desc": "Notizen in formatierte .docx umwandeln",
@@ -2197,9 +2084,7 @@
     "related_tool_3_desc": "Spezielles OCR-Tool für Schreibschrift",
     "related_tool_4_name": "Handschrift scannen in Text",
     "related_tool_4_desc": "Vom Handyfoto oder PDF-Scan",
-
     "faq_title": "Häufig gestellte Fragen zur Handschrifterkennung",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2284,11 +2169,9 @@
         }
       }
     },
-
     "cta_title": "Bereit, Ihre Handschrift erkennen zu lassen?",
     "cta_subtitle": "Schließen Sie sich über 10.000 Studierenden, Forschern und Unternehmen an, die aufgehört haben, handschriftliche Inhalte abzutippen.",
     "cta_button": "Handschrifterkennung kostenlos testen",
-
     "tool_info_1_title": "Keine App erforderlich",
     "tool_info_1_desc": "Funktioniert in Ihrem Browser. Kein Download, keine Anmeldung zum Testen erforderlich.",
     "tool_info_2_title": "Schreibschrift & unleserliche Schrift",
@@ -2299,35 +2182,26 @@
   "CursiveToTextPage": {
     "meta_title": "Schreibschrift in Text umwandeln Online | NoteOCR",
     "meta_desc": "Schreibschrift sofort in getippten Text umwandeln. Unsere KI liest verbundene Handschrift und Schnörkel mit 95%+ Genauigkeit. Kostenloses Schreibschrift-OCR online.",
-
     "hero_pill": "Schreibschrift OCR & Texterkennung",
     "hero_title": "Schreibschrift in Sekunden in Text umwandeln.",
     "hero_subtitle": "Laden Sie ein Foto von handschriftlichen Notizen, Briefen, Tagebüchern oder Formularen hoch. Unsere KI entschlüsselt verbundene Schriften und Schleifen, an denen normale OCR-Tools scheitern. Keine App. Keine Anmeldung. Ergebnisse in unter 30 Sekunden.",
-
     "trust_ssl": "SSL-verschlüsselt",
     "trust_processing": "Unter 30 Sekunden",
     "trust_accuracy": "95%+ Genauigkeit bei Schreibschrift",
-
     "before_after_title": "Schreibschrift rein. Sauberer digitaler Text raus.",
     "before_after_desc": "Echtes Schreibschrift-Beispiel: Sehen Sie genau, wie unsere KI mit fließender, verbundener Handschrift umgeht.",
     "before_label": "Vorher: Schreibschrift",
     "after_label": "Nachher: Konvertierter digitaler Text",
-
     "use_cases_title": "Wer wandelt Schreibschrift in Text um?",
     "use_cases_subtitle": "Von Ahnenforschern, die alte Briefe digitalisieren, bis hin zu Studenten, die Notizen transkribieren: Die Umwandlung von Schreibschrift spart jede Woche Stunden an manuellem Abtippen.",
-
     "use_case_1_title": "Alte Briefe & Familiendokumente",
     "use_case_1_desc": "Wandeln Sie die handgeschriebenen Briefe der Großeltern, alte Tagebücher und persönliche Aufzeichnungen in durchsuchbaren digitalen Text um. Bewahren Sie die Familiengeschichte, ohne professionelle Transkriptionisten bezahlen zu müssen.",
-
     "use_case_2_title": "Studentennotizen in Schreibschrift",
     "use_case_2_desc": "Viele Schüler und Studenten schreiben Vorlesungsnotizen immer noch in Schreibschrift. Fotografieren Sie Ihr Notizbuch und erhalten Sie in Sekundenschnelle vollständig bearbeitbaren, durchsuchbaren Text, bereit für Zusammenfassungen und Hausarbeiten.",
-
     "use_case_3_title": "Historische & Archivdokumente",
     "use_case_3_desc": "Digitalisieren Sie in Schreibschrift verfasste Aufzeichnungen, Nachlassdokumente, Kirchenbücher und juristische Papiere. Unsere KI beherrscht auch ältere Schriftstile wie Kurrentschrift, Sütterlin und Handschriften des frühen 20. Jahrhunderts.",
-
     "use_case_4_title": "Professionelle Formulare",
     "use_case_4_desc": "Feldberichte, unterschriebene Aufnahmeformulare, handgeschriebene Rechnungen und Patientennotizen in Schreibschrift – in einem Schritt in bearbeitbare Word- oder Excel-Dateien umwandeln.",
-
     "comparison_title": "Schreibschrift-OCR im Vergleich",
     "comparison_subtitle": "Bei Schreibschrift versagen herkömmliche Tools. Hier erfahren Sie, warum eine speziell entwickelte KI die einzige zuverlässige Option ist.",
     "comparison_col_method": "Methode",
@@ -2346,36 +2220,28 @@
     "comparison_row3_time": "Unter 30 Sekunden",
     "comparison_row3_accuracy": "90–98% bei Schreibschrift",
     "comparison_row3_cost": "Kostenlos testen",
-
     "features_title": "Warum unser Schreibschrift-Konverter anders ist",
     "features_subtitle": "Eine KI, die speziell für Schreibschrift entwickelt wurde, kein OCR-Tool für gedruckten Text mit einem notdürftigen Schreibschrift-Update.",
-
     "feature_1_title": "Liest verbundene Buchstaben nativ",
     "feature_1_desc": "Standard-OCR trennt einzelne Zeichen, bevor sie gelesen werden. Schreibschrift macht dies unmöglich, da Buchstaben verbunden sind und sich überlappen. Unsere KI liest ganze Wörter und Zeilen auf einmal – genau wie das menschliche Auge. So wird zusammenhängende Schrift lesbar, wo andere Tools aufgeben.",
-
     "feature_2_title": "Verarbeitet Schleifen, Neigungen & Variationen",
     "feature_2_desc": "Die Schreibschrift jedes Menschen ist einzigartig – unterschiedliche Schleifengrößen, Neigungswinkel und Buchstabenabstände. Unser neuronales Netz wurde mit Millionen echter Schreibschrift-Beispiele aus Dutzenden von Schreibstilen trainiert, sodass es auch Handschriften erkennt, die es noch nie zuvor gesehen hat.",
-
     "feature_3_title": "Exportiert in Word, Excel & Text",
     "feature_3_desc": "Konvertierte Schreibschrift wird nicht als unformatierter Absatz ausgegeben. Wir rekonstruieren das Layout des Dokuments, Absätze, Listen und Tabellen und exportieren direkt nach .docx, .xlsx oder als reinen .txt-Text – je nachdem, was Sie benötigen.",
-
     "tech_title": "Warum Schreibschrift für OCR so schwer ist und wie wir das Problem lösen",
     "tech_intro": "Standard-OCR wurde für gedruckten Text entwickelt. Jede Annahme, die es trifft – einheitliche Zeichenformen, klare Lücken zwischen den Buchstaben, konstante Abstände –, bricht bei der Schreibschrift völlig zusammen. Schreibschrift-Buchstaben verschmelzen miteinander. Derselbe Buchstabe sieht völlig anders aus, je nachdem, was davor und danach kommt. Die Neigung variiert von Zeile zu Zeile. Schleifen und Bögen kreuzen andere Buchstaben. Unsere KI wählt einen grundlegend anderen Ansatz: Anstatt zu versuchen, einzelne Zeichen zu isolieren, liest sie ganze Wörter und Zeilen als visuelle Muster – dieselbe Strategie, die ein fließend lesender Mensch anwendet, wenn er auf eine unbekannte verbundene Handschrift trifft.",
-
     "tech_detect_title": "Was unsere KI verarbeiten kann",
     "tech_detect_1": "Vollständig verbundene Schreibschrift, bei der keine Buchstaben getrennt sind",
     "tech_detect_2": "Gemischte Schreibschrift und Druckschrift auf derselben Seite",
     "tech_detect_3": "Variierende Neigungen: nach rechts, nach links und aufrecht",
     "tech_detect_4": "Dekorative und stark personalisierte Buchstabenformen",
     "tech_detect_5": "Ältere Schreibschriften wie Kurrent, Sütterlin und Stile des frühen 20. Jahrhunderts",
-
     "tech_tips_title": "Tipps für die beste Schreibschrift-Umwandlung",
     "tech_tips_1": "Nutzen Sie natürliches Tageslicht, vermeiden Sie Blitzlicht, das den Tintenkontrast abflacht",
     "tech_tips_2": "Halten Sie die Kamera flach über die Seite, nicht schräg",
     "tech_tips_3": "Achten Sie auf dunkle Tinte auf hellem Papier und vermeiden Sie Schatten über dem Text",
     "tech_tips_4": "Erhöhen Sie bei sehr alten Dokumenten zuerst den Kontrast in einem Bildbearbeitungsprogramm",
     "tech_tips_5": "Überprüfen Sie immer das Ergebnis – selbst bei 95% Genauigkeit sind bei längeren Texten gelegentliche Korrekturen nötig",
-
     "related_tools_title": "Ähnliche Tools",
     "related_tool_1_name": "Handschrift in Word",
     "related_tool_1_desc": "Notizen in formatierte .docx umwandeln",
@@ -2385,9 +2251,7 @@
     "related_tool_3_desc": "Alle Handschriftstile: Druckschrift, Schreibschrift, gemischt",
     "related_tool_4_name": "Handschrift scannen zu Text",
     "related_tool_4_desc": "Vom Handyfoto oder PDF-Scan",
-
     "faq_title": "Häufig gestellte Fragen zur Umwandlung von Schreibschrift in Text",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2472,11 +2336,9 @@
         }
       }
     },
-
     "cta_title": "Bereit, Ihre Schreibschrift in Text umzuwandeln?",
     "cta_subtitle": "Laden Sie ein beliebiges Schreibschrift-Bild, Briefe, Tagebücher, Notizen oder Formulare hoch und erhalten Sie in weniger als 30 Sekunden sauberen, bearbeitbaren Text.",
     "cta_button": "Schreibschrift in Text kostenlos testen",
-
     "tool_info_1_title": "Keine App erforderlich",
     "tool_info_1_desc": "Läuft in Ihrem Browser. Kein Download, keine Anmeldung erforderlich, um es zu testen.",
     "tool_info_2_title": "KI für verbundene Schrift",
@@ -2487,35 +2349,26 @@
   "ScanHandwritingToText": {
     "meta_title": "Handschrift scannen & in Text umwandeln Online | NoteOCR",
     "meta_desc": "Scannen Sie handgeschriebene Notizen sofort in Ihrem Browser in Text. Kein App-Download. Laden Sie ein Handyfoto oder Scanner-Bild hoch und erhalten Sie in unter 30 Sekunden bearbeitbaren Text.",
-
     "hero_pill": "Online Handschriften-Scanner",
     "hero_title": "Handschrift scannen und in Text umwandeln. Keine App erforderlich.",
     "hero_subtitle": "Fotografieren Sie eine handgeschriebene Seite mit dem Handy oder laden Sie einen Scan hoch. Unsere KI wandelt es in unter 30 Sekunden in sauberen, bearbeitbaren Text um. Kein App-Download. Funktioniert in jedem Browser auf jedem Gerät.",
-
     "trust_ssl": "SSL-verschlüsselt",
     "trust_processing": "Unter 30 Sekunden",
     "trust_accuracy": "95%+ Scan-Genauigkeit",
-
     "before_after_title": "Gescannte Handschrift rein. Bearbeitbarer Text raus.",
     "before_after_desc": "Echtes Scan-Ergebnis: Sehen Sie genau, wie unsere KI ein Handyfoto von handgeschriebenen Notizen verarbeitet.",
     "before_label": "Vorher: Gescannte handgeschriebene Seite",
     "after_label": "Nachher: Sauberer bearbeitbarer Text",
-
     "use_cases_title": "Wer nutzt einen Online-Scanner für Handschriften?",
     "use_cases_subtitle": "Jeder, der physische handgeschriebene Seiten schnell digitalisieren muss. Keine Scanner-Hardware erforderlich, Ihre Handykamera reicht aus.",
-
     "use_case_1_title": "Studenten scannen Vorlesungsnotizen",
     "use_case_1_desc": "Fotografieren Sie nach dem Unterricht ganze Notizbuchseiten und erhalten Sie in Sekundenschnelle vollständig durchsuchbaren, bearbeitbaren Text. Hören Sie auf, Seiten vor Prüfungen abzutippen, und fangen Sie stattdessen an, wirklich zu lernen.",
-
     "use_case_2_title": "Feldnotizen und Baustellenberichte",
     "use_case_2_desc": "Ingenieure, Gutachter, Inspektoren und Außendienstmitarbeiter scannen handgeschriebene Notizen vor Ort direkt mit dem Handy und haben sie in einem teilbaren digitalen Format, bevor sie die Baustelle verlassen.",
-
     "use_case_3_title": "Papierakten und Formulare digitalisieren",
     "use_case_3_desc": "Handgeschriebene Patientenaufnahmeformulare, Lieferbelege, Stundenzettel oder Inspektionschecklisten – scannen Sie diese und erhalten Sie in einem Schritt strukturierten, bearbeitbaren Text für Copy-Paste oder den direkten Export.",
-
     "use_case_4_title": "Persönliche Tagebücher und Notizbücher",
     "use_case_4_desc": "Digitalisieren Sie persönliche Tagebücher, Rezeptbücher, Brainstorming-Seiten und handgeschriebene Planer mit einem einzigen Handyfoto. Bewahren Sie jahrelange physische Notizbücher als durchsuchbaren digitalen Text auf, auf den Sie überall zugreifen können.",
-
     "comparison_title": "Online Handschriften-Scanner: Optionen im Vergleich",
     "comparison_subtitle": "Die meisten Scan-Tools zwingen Sie dazu, eine App zu installieren oder ein Abo abzuschließen, bevor Sie ein brauchbares Ergebnis erhalten. NoteOCR tut das nicht.",
     "comparison_col_method": "Methode",
@@ -2534,36 +2387,28 @@
     "comparison_row3_time": "Unter 30 Sekunden",
     "comparison_row3_accuracy": "95%+ bei gescannter Handschrift",
     "comparison_row3_cost": "Kostenlos testen, keine App, Einmalzahlung möglich",
-
     "features_title": "Warum NoteOCR der bessere Online-Handschriften-Scanner ist",
     "features_subtitle": "Speziell für das Scannen handgeschriebener Seiten entwickelt – kein Dokumentenscanner, der Handschrift nur als nachträgliches Extra behandelt.",
-
     "feature_1_title": "Ihr Smartphone ist der Scanner",
     "feature_1_desc": "Sie benötigen keinen Flachbettscanner oder zusätzliche Hardware. Machen Sie mit Ihrer Handykamera ein Foto von jeder beliebigen handgeschriebenen Seite und laden Sie es hoch. Unsere KI korrigiert automatisch die Perspektive, passt die Beleuchtung an und entfernt Schatten, damit Sie selbst aus unperfekten Fotos saubere Ergebnisse erhalten.",
-
     "feature_2_title": "Liest, was Flachbettscanner nicht können",
     "feature_2_desc": "Standard-Dokumentenscanner und allgemeine OCR-Tools produzieren bei Handschrift oft nur Kauderwelsch, da sie für gedruckte Schriften entwickelt wurden. Unser neuronales Netz wurde speziell mit gescannten Handschriftenmustern in allen möglichen Schreibstilen trainiert, sodass es liest, was andere nicht können.",
-
     "feature_3_title": "Keine App. Kein Konto. Keine Wartezeit.",
     "feature_3_desc": "Öffnen Sie die Seite in einem beliebigen Browser, laden Sie Ihr gescanntes Bild hoch und erhalten Sie bearbeitbaren Text zurück. Kein App Store, keine Installation, keine Kontoerstellung, kein Warten auf Bestätigungs-E-Mails. Funktioniert identisch auf iPhone, Android, Mac, Windows und Chromebook.",
-
     "tech_title": "Wie das Scannen von Handschrift zu Text wirklich funktioniert",
     "tech_intro": "Wenn Sie ein gescanntes Bild mit Handschrift hochladen – egal ob Handyfoto oder Flachbett-Scan – führt unsere KI automatisch drei Schritte aus. Erstens die Bildvorverarbeitung: Sie korrigiert Schieflagen und Drehungen, verbessert den Kontrast, entfernt Rauschen und Schatten und schärft die Tinte auf dem Papier. Zweitens führt sie eine Layout-Analyse durch, um zu erkennen, wo sich Textzeilen, Absätze und Strukturelemente auf der Seite befinden. Drittens liest die Handschrifterkennung jede Zeile als visuelle Sequenz – nicht Zeichen für Zeichen wie Standard-OCR, sondern Wort für Wort unter Einbeziehung des Kontexts, um mehrdeutige Buchstaben zu interpretieren. Das Ergebnis ist strukturierter Text, der Ihre ursprünglichen Absatz- und Zeilenumbrüche beibehält.",
-
     "tech_detect_title": "Was unser Scanner verarbeiten kann",
     "tech_detect_1": "Handyfotos aus leichtem Winkel – Perspektive wird automatisch korrigiert",
     "tech_detect_2": "Aufnahmen bei schlechtem Licht oder mit Blitz – automatische Kontrastverbesserung",
     "tech_detect_3": "Flachbett- und Dokumentenscanner-Ausgaben (ab 150 DPI)",
     "tech_detect_4": "Gemischte Handschriftstile auf derselben gescannten Seite",
     "tech_detect_5": "Durchgestrichene Wörter, Pfeile, Markierungen und Randnotizen",
-
     "tech_tips_title": "Tipps zum Scannen für beste Ergebnisse",
     "tech_tips_1": "Halten Sie das Handy direkt über die Seite, parallel zum Papier, nicht schräg",
     "tech_tips_2": "Nutzen Sie nach Möglichkeit natürliches Tageslicht – vermeiden Sie Blitzlicht, das den Tintenkontrast verringert",
     "tech_tips_3": "Stellen Sie sicher, dass die gesamte Seite im Bild ist, bevor Sie abdrücken",
     "tech_tips_4": "Bei Flachbettscannern liefert 300 DPI deutlich bessere Ergebnisse als 150 DPI",
     "tech_tips_5": "Bei verblasster Tinte oder altem Papier: Erhöhen Sie vor dem Upload den Kontrast im Foto-Editor",
-
     "related_tools_title": "Ähnliche Tools",
     "related_tool_1_name": "Handschrifterkennung",
     "related_tool_1_desc": "Umfassende KI-Erkennung für alle Handschriftstile",
@@ -2573,9 +2418,7 @@
     "related_tool_3_desc": "Spezialscanner für verbundene Schreibschrift",
     "related_tool_4_name": "Handschrift in Excel",
     "related_tool_4_desc": "Handgeschriebene Tabellen in Tabellenkalkulationen scannen",
-
     "faq_title": "Häufig gestellte Fragen zum Scannen von Handschrift zu Text",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -2664,11 +2507,9 @@
         }
       }
     },
-
     "cta_title": "Bereit, Ihre Handschrift zu Text zu scannen?",
     "cta_subtitle": "Laden Sie ein Handyfoto oder Scanner-Bild handgeschriebener Notizen hoch und erhalten Sie in unter 30 Sekunden bearbeitbaren Text zurück. Keine App. Kein Konto erforderlich.",
     "cta_button": "Handschrift kostenlos in Text scannen",
-
     "tool_info_1_title": "Keine App erforderlich",
     "tool_info_1_desc": "Funktioniert in Ihrem Browser auf jedem Gerät. Kein Download, keine Anmeldung zum Ausprobieren.",
     "tool_info_2_title": "Bereit für die Handykamera",
@@ -2676,7 +2517,6 @@
     "tool_info_3_title": "Word, Excel & Text Export",
     "tool_info_3_desc": "Erhalten Sie Ihren gescannten Text genau in dem Format, das Sie benötigen."
   },
-
   "TermsPage": {
     "meta_title": "Nutzungsbedingungen – NoteOCR | Nutzervereinbarung",
     "meta_desc": "Lesen Sie die vollständigen Bedingungen für die Nutzung der KI-Handschrift-OCR-Plattform von NoteOCR, einschließlich Zahlungs-, Daten-, IP- und Haftungsbestimmungen.",
@@ -2685,25 +2525,18 @@
     "last_updated": "Zuletzt aktualisiert",
     "date": "Januar 2026",
     "welcome_text": "Willkommen bei NoteOCR (ehemals Copywritee). Diese Nutzungsbedingungen stellen eine rechtsverbindliche Vereinbarung zwischen Ihnen (Nutzer, Sie, Ihr) und NoteOCR Inc. (NoteOCR, wir, uns, unser) dar und regeln Ihren Zugang zu und die Nutzung unserer Website, Web-Applikation, API und aller damit verbundenen Dienste (zusammenfassend die Dienste). Indem Sie ein Konto erstellen, Seitenguthaben erwerben oder anderweitig auf die Dienste zugreifen, bestätigen Sie, dass Sie diese Bedingungen und unsere Datenschutzerklärung gelesen und verstanden haben und an diese gebunden sind.",
-
     "s1_t": "Akzeptanz & Teilnahmeberechtigung",
     "s1_c": "Sie müssen mindestens 13 Jahre alt sein, um NoteOCR zu nutzen. Wenn Sie die Dienste im Namen eines Unternehmens, einer Schule oder einer anderen juristischen Person nutzen, erklären Sie, dass Sie befugt sind, diese juristische Person an diese Bedingungen zu binden (in diesem Fall bezieht sich „Sie“ auf diese juristische Person). Nutzer unter 18 Jahren benötigen die Zustimmung der Eltern oder Erziehungsberechtigten. Wir behalten uns das Recht vor, den Zugang nach unserem alleinigen Ermessen zu verweigern. Indem Sie unsere Dienste nach Aktualisierungen dieser Bedingungen weiterhin nutzen, akzeptieren Sie die geänderten Bedingungen in vollem Umfang.",
-
     "s2_t": "Beschreibung der Dienste",
     "s2_c": "NoteOCR bietet eine KI-gestützte Plattform zur Dokumentendigitalisierung, die handschriftliche Notizen, gescannte PDF-Formulare, Whiteboard-Fotos und andere analoge Materialien in bearbeitbare digitale Formate umwandelt, darunter Microsoft Word (.docx), Excel (.xlsx) und PDF. Die Dienste umfassen unter anderem: KI-Handschrifterkennung (99,2% Genauigkeit), intelligente Layout- und Formatrekonstruktion, einen browserbasierten Dokumenteneditor, Cloud-Dokumentenspeicher, mehrsprachige Unterstützung in über 30 Schriften, Tabellen-zu-Tabellenkalkulation-Extraktion und eine Entwickler-API. Funktionen können jederzeit geändert, hinzugefügt oder entfernt werden. Wir garantieren kein bestimmtes Ausgabeformat, Genauigkeitsniveau oder eine bestimmte Bearbeitungszeit über das hinaus, was ausdrücklich in unserer Dokumentation angegeben ist.",
-
     "s3_t": "Kontoregistrierung",
     "s3_c": "Um auf die meisten Funktionen zugreifen zu können, müssen Sie sich für ein Konto registrieren, indem Sie eine gültige E-Mail-Adresse und ein sicheres Passwort angeben oder sich über einen unterstützten OAuth-Anbieter (z.B. Google) authentifizieren. Sie stimmen zu, genaue, aktuelle und vollständige Registrierungsinformationen anzugeben und diese auf dem neuesten Stand zu halten. Sie sind allein verantwortlich für die Wahrung der Vertraulichkeit Ihrer Kontodaten. Sie müssen uns unverzüglich unter support@noteocr.com benachrichtigen, wenn Sie einen unbefugten Zugriff auf Ihr Konto vermuten. NoteOCR haftet nicht für Verluste, die aus einem unbefugten Kontozugriff entstehen, der durch Ihr Versäumnis beim Schutz Ihrer Zugangsdaten verursacht wurde. Jedes Konto ist für einen einzelnen Nutzer; das Teilen von Konten mit mehreren Personen ist nicht gestattet, es sei denn, Sie nutzen einen Organisationsplan.",
-
     "s4_t": "Nutzerinhalte & Lizenz",
     "s4_c": "Sie behalten das volle Eigentum an allen Dokumenten, Bildern, Dateien und anderen Materialien, die Sie bei NoteOCR hochladen (Nutzerinhalte). Durch das Hochladen von Nutzerinhalten gewähren Sie NoteOCR eine eingeschränkte, nicht-exklusive, lizenzgebührenfreie, weltweite Lizenz zum Zugriff, zur Verarbeitung, Speicherung und Vervielfältigung Ihrer Nutzerinhalte, und zwar ausschließlich zum Zweck der Bereitstellung, Verbesserung und Wartung der Dienste. Diese Lizenz endet, wenn Sie Ihre Inhalte löschen oder Ihr Konto schließen. Sie erklären und garantieren, dass Sie alle erforderlichen Rechte an den von Ihnen hochgeladenen Nutzerinhalten besitzen und dass das Hochladen nicht die Rechte an geistigem Eigentum oder die Datenschutzrechte Dritter verletzt. NoteOCR erhebt keinen Eigentumsanspruch auf Ihre Dokumente und wird Ihre Nutzerinhalte niemals zum Trainieren von KI- oder Machine-Learning-Modellen verwenden.",
-
     "s5_t": "Geistiges Eigentum",
     "s5_c": "Sämtliche Technologien, Software, Quellcodes, Algorithmen, Schnittstellen, Designs, Marken, Logos, Handelsnamen und proprietären Methoden, die der NoteOCR-Plattform zugrunde liegen – einschließlich der NoteOCR Engine V2 und aller zukünftigen Versionen – sind ausschließliches geistiges Eigentum von NoteOCR Inc. und durch geltende Urheber-, Marken- und Geschäftsgeheimnisgesetze geschützt. Nichts in diesen Bedingungen überträgt Eigentumsrechte an geistigem Eigentum von NoteOCR auf Sie. Es wird Ihnen eine eingeschränkte, nicht übertragbare, nicht unterlizenzierbare, widerrufliche Lizenz gewährt, die Dienste während der Laufzeit Ihres Kontos für Ihre eigenen rechtmäßigen Zwecke zuzugreifen und zu nutzen. Sie dürfen keinen Teil der Dienste ohne unsere vorherige schriftliche Zustimmung kopieren, ändern, dekompilieren, zurückentwickeln (Reverse Engineering), zerlegen oder abgeleitete Werke davon erstellen.",
-
     "s6_t": "Zahlungen & Seitenguthaben",
     "s6_c": "NoteOCR arbeitet mit einem Einmalzahlungsmodell. Es gibt keine wiederkehrenden Abonnements. Sie kaufen Seitenguthaben (Credits) in Paketen von 8 bis 25 US-Dollar, und Guthaben wird pro verarbeiteter Seite abgezogen. Credits verfallen nicht und werden unbefristet übertragen. Alle Zahlungen werden sicher über Drittanbieter von Zahlungsdiensten abgewickelt und unterliegen deren Bedingungen. Alle Preise sind in USD angegeben und enthalten, sofern nicht anders angegeben, die anfallenden Steuern. Käufe sind nicht erstattungsfähig, sobald die Seitenverarbeitung begonnen hat. Wenn Sie glauben, dass eine Abbuchung fehlerhaft ist, kontaktieren Sie support@noteocr.com innerhalb von 14 Tagen nach der Transaktion. NoteOCR behält sich das Recht vor, die Preise mit angemessener Frist zu ändern. Die weitere Nutzung der Dienste nach einer Preisänderung gilt als Zustimmung zu den neuen Preisen.",
-
     "s7_t": "Verbotene Aktivitäten",
     "prohibited_intro": "Sie stimmen zu, NoteOCR weder direkt noch indirekt für eine der folgenden Aktivitäten zu nutzen. Ein Verstoß gegen diesen Abschnitt kann zur sofortigen Kontokündigung ohne Rückerstattung führen.",
     "prohibited_item_1": "Den Quellcode, die Algorithmen oder die zugrunde liegenden Modelle der NoteOCR-Plattform zurückzuentwickeln (Reverse Engineering), zu dekompilieren, zu disassemblieren oder zu versuchen, diese abzuleiten.",
@@ -2712,31 +2545,22 @@
     "prohibited_item_4": "Die Server, Netzwerke oder Sicherheitssysteme von NoteOCR zu stören, zu unterbrechen oder zu versuchen, unbefugten Zugriff darauf zu erlangen.",
     "prohibited_item_5": "Automatisierte Skripte, Bots oder Crawler zu verwenden, um in einer Weise auf die Dienste zuzugreifen, die über eine angemessene Nutzung hinausgeht, ohne unsere ausdrückliche schriftliche Zustimmung.",
     "prohibited_item_6": "Die Dienste oder Ausgaben weiterzuverkaufen, zu unterlizenzieren oder kommerziell weiterzuverbreiten, ohne einen separaten Wiederverkäufervertrag mit NoteOCR Inc. abzuschließen.",
-
     "s8_t": "Datenschutz & Sicherheit",
     "s8_c": "NoteOCR nimmt Datensicherheit ernst. Alle hochgeladenen Dokumente werden während der Übertragung mit TLS 1.3 und im Ruhezustand mit AES-256-Verschlüsselung verschlüsselt. Ihre Dateien werden in isolierten Rechenumgebungen verarbeitet und nach Abschluss der Konvertierung automatisch von unseren Verarbeitungsservern gelöscht. Gespeicherte Dokumente in Ihrer persönlichen Bibliothek bleiben erhalten, bis Sie diese löschen oder Ihr Konto schließen. NoteOCR ist DSGVO-konform und verkauft, teilt oder offenbart Ihre Nutzerinhalte nicht an Dritte für andere Zwecke als die Erbringung der Dienste. Wir verwenden Ihre Dokumente nicht, um KI- oder Machine-Learning-Modelle zu trainieren oder zu optimieren. Ausführliche Informationen darüber, wie wir Ihre personenbezogenen Daten erfassen, verarbeiten und schützen, finden Sie in unserer Datenschutzerklärung unter noteocr.com/privacy.",
-
     "s9_t": "Haftungsausschlüsse & Garantien",
     "s9_c": "Die Dienste werden („wie besehen“ und „wie verfügbar“) ohne jegliche ausdrückliche oder stillschweigende Gewährleistung bereitgestellt, einschließlich, aber nicht beschränkt auf stillschweigende Gewährleistungen der Marktgängigkeit, Eignung für einen bestimmten Zweck und Nichtverletzung von Rechten Dritter. NoteOCR garantiert nicht, dass: (a) die Dienste ununterbrochen, fehlerfrei oder frei von Viren oder schädlichen Komponenten sind; (b) die Genauigkeit der OCR-Ausgabe einen bestimmten Schwellenwert für ein bestimmtes Dokument erfüllt; oder (c) Fehler in den Diensten korrigiert werden. Die OCR-Genauigkeit kann je nach Handschriftqualität, Bildauflösung und Dokumentenkomplexität variieren. Sie übernehmen die volle Verantwortung für die Überprüfung der Genauigkeit konvertierter Dokumente, bevor Sie diese für professionelle, rechtliche, medizinische oder finanzielle Zwecke verwenden.",
-
     "s10_t": "Haftungsbeschränkung",
     "s10_c": "Soweit nach geltendem Recht zulässig, haften NoteOCR Inc., seine leitenden Angestellten, Direktoren, Mitarbeiter und Vertreter nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich, aber nicht beschränkt auf Einnahmeverluste, Datenverlust, Betriebsunterbrechung oder Reputationsschäden, die aus oder im Zusammenhang mit Ihrer Nutzung der Dienste – oder der Unmöglichkeit der Nutzung – entstehen, selbst wenn NoteOCR auf die Möglichkeit solcher Schäden hingewiesen wurde. In keinem Fall übersteigt die Gesamthaftung von NoteOCR Ihnen gegenüber für alle Ansprüche im Rahmen dieser Bedingungen den Gesamtbetrag, den Sie NoteOCR in den zwölf (12) Monaten vor dem Ereignis, das zu dem Anspruch geführt hat, gezahlt haben. Nichts in diesen Bedingungen beschränkt die Haftung, die nach anwendbarem Schweizer Recht nicht ausgeschlossen werden kann.",
-
     "s11_t": "Freistellung",
     "s11_c": "Sie erklären sich damit einverstanden, NoteOCR Inc. und seine leitenden Angestellten, Direktoren, Mitarbeiter, Auftragnehmer und Partner freizustellen, zu verteidigen und schadlos zu halten von und gegen jegliche Ansprüche, Verbindlichkeiten, Schäden, Urteile, Auszeichnungen, Verluste, Kosten und Ausgaben (einschließlich angemessener Anwaltskosten), die sich ergeben aus oder im Zusammenhang stehen mit: (a) Ihrer Verletzung dieser Bedingungen; (b) Ihren Nutzerinhalten; (c) Ihrer Nutzung der Dienste in einer durch diese Bedingungen nicht autorisierten Weise; oder (d) Ihrer Verletzung geistigen Eigentums, Datenschutzes oder anderer Rechte Dritter.",
-
     "s12_t": "Kündigung",
     "s12_c": "Beide Parteien können diese Vereinbarung jederzeit kündigen. Sie können Ihr Konto jederzeit in Ihren Kontoeinstellungen löschen, wodurch Ihre gespeicherten Dokumente dauerhaft entfernt werden. NoteOCR kann Ihr Konto sofort und ohne vorherige Ankündigung sperren oder kündigen, wenn wir nach eigenem Ermessen feststellen, dass Sie gegen diese Bedingungen verstoßen haben, betrügerische Aktivitäten durchgeführt haben oder ein Risiko für die Sicherheit oder Integrität unserer Plattform darstellen. Nach der Kündigung erlischt Ihre Lizenz zur Nutzung der Dienste sofort. Ungenutztes Seitenguthaben ist bei freiwilliger Kontoschließung nicht erstattungsfähig. Abschnitte in Bezug auf geistiges Eigentum, Freistellung, Haftungsbeschränkung und anwendbares Recht bleiben nach der Kündigung bestehen.",
-
     "s13_t": "Änderungen dieser Bedingungen",
     "s13_c": "NoteOCR behält sich das Recht vor, diese Bedingungen jederzeit nach eigenem Ermessen zu aktualisieren oder zu ändern. Wenn wir wesentliche Änderungen vornehmen, werden wir registrierte Nutzer per E-Mail benachrichtigen und das Datum „Zuletzt aktualisiert“ oben auf dieser Seite aktualisieren. Wir können auch einen Hinweis innerhalb der Plattform anzeigen. Ihre fortgesetzte Nutzung der Dienste nach dem Datum des Inkrafttretens überarbeiteter Bedingungen stellt Ihre Annahme dieser Änderungen dar. Wenn Sie den aktualisierten Bedingungen nicht zustimmen, müssen Sie die Nutzung der Dienste einstellen und können Ihr Konto schließen.",
-
     "s14_t": "Anwendbares Recht & Streitigkeiten",
     "s14_c": "Diese Bedingungen und alle Streitigkeiten, die sich aus oder im Zusammenhang mit diesen oder den Diensten ergeben, unterliegen ausschließlich dem Recht der Schweiz, unter Ausschluss der Kollisionsnormen. Alle Streitigkeiten, die nicht informell beigelegt werden können, unterliegen der ausschließlichen Gerichtsbarkeit der Gerichte in Zug, Schweiz. Vor Einleitung formeller Verfahren vereinbaren beide Parteien, nach Treu und Glauben zu versuchen, Streitigkeiten innerhalb von 30 Tagen beizulegen, indem sie support@noteocr.com kontaktieren. Nichts in diesem Abschnitt hindert NoteOCR daran, Unterlassungsansprüche oder andere angemessene Rechtsbehelfe bei einem zuständigen Gericht geltend zu machen, um seine geistigen Eigentumsrechte zu schützen.",
-
     "s15_t": "Sonstiges",
     "s15_c": "Diese Bedingungen, zusammen mit unserer Datenschutzerklärung, stellen die gesamte Vereinbarung zwischen Ihnen und NoteOCR dar und ersetzen alle vorherigen Vereinbarungen, Zusicherungen und Absprachen. Sollte sich eine Bestimmung dieser Bedingungen als nicht durchsetzbar erweisen, bleiben die übrigen Bestimmungen in vollem Umfang in Kraft und wirksam. Das Versäumnis von NoteOCR, ein Recht oder eine Bestimmung dieser Bedingungen durchzusetzen, gilt nicht als Verzicht auf dieses Recht. Sie dürfen Ihre Rechte oder Pflichten aus diesen Bedingungen nicht ohne die vorherige schriftliche Zustimmung von NoteOCR abtreten oder übertragen. NoteOCR kann seine Rechte im Rahmen einer Fusion, Übernahme oder eines Verkaufs von Vermögenswerten frei abtreten. Diese Bedingungen begründen keine Partnerschaft, kein Joint Venture und kein Arbeitsverhältnis zwischen Ihnen und NoteOCR.",
-
     "contact_t": "Haben Sie Fragen zu diesen Bedingungen?",
     "contact_d": "Unser Rechts- und Support-Team steht zur Verfügung, um alle Aspekte dieser Nutzungsbedingungen oder unserer Plattformrichtlinien zu klären. Wir antworten in der Regel innerhalb eines Werktages.",
     "contact_email_label": "Kontaktieren Sie unser Rechtsteam",
@@ -2750,46 +2574,32 @@
     "last_updated": "Zuletzt aktualisiert",
     "date": "Januar 2026",
     "welcome_text": "NoteOCR Inc. ('NoteOCR', 'wir', 'uns', 'unser') verpflichtet sich zum Schutz Ihrer personenbezogenen Daten. Diese Datenschutzerklärung erklärt, wie wir Informationen sammeln, verwenden, offenlegen und schützen, wenn Sie unsere Website noteocr.com besuchen oder unsere Plattform, API und damit verbundene Dienste (zusammenfassend die 'Dienste') nutzen. Diese Richtlinie entspricht der Datenschutz-Grundverordnung (DSGVO), dem Schweizerischen Datenschutzgesetz (DSG) und anderen anwendbaren Datenschutzgesetzen. Durch die Nutzung von NoteOCR stimmen Sie den in dieser Datenschutzerklärung beschriebenen Praktiken zu.",
-
     "s1_t": "Wer wir sind & Verantwortlicher",
     "s1_c": "NoteOCR Inc. ist der für Ihre personenbezogenen Daten verantwortliche Datenverarbeiter (Controller). Wir sind ein Technologieunternehmen nach Schweizer Recht mit Hauptsitz in Zug, Schweiz. Unsere Dienste umfassen eine KI-gestützte Handschrift-OCR-Plattform, einen cloudbasierten Dokumenteneditor und eine Entwickler-API. Wenn Sie Fragen zum Umgang mit Ihren personenbezogenen Daten haben, können Sie sich unter support@noteocr.com an unseren Ansprechpartner für Datenschutz wenden. Wir verpflichten uns, Ihre Daten transparent, rechtmäßig und mit der gebotenen Sorgfalt zu behandeln.",
-
     "s2_t": "Welche Daten wir sammeln",
     "s2_c": "Wir erfassen nur die minimalen Daten, die zur Bereitstellung und Verbesserung unserer Dienste erforderlich sind. Zu den Kategorien von Daten, die wir erfassen, gehören: (a) Kontoinformationen, Ihr Name, Ihre E-Mail-Adresse und Ihr gehashtes Passwort bei der Registrierung oder grundlegende Profilinformationen, die von OAuth-Anbietern wie Google bereitgestellt werden; (b) Nutzungsdaten, verarbeitete Seiten, Guthabenstand, Konvertierungsverlauf, Sitzungsaktivitäten und Interaktionen mit Funktionen zur Unterstützung Ihres Kontos und zur Verbesserung der Genauigkeit; (c) Geräte- & technische Daten, IP-Adresse, Browsertyp und -version, Betriebssystem, Referrer-URL und allgemeine geografische Region (auf Länder- oder Stadtebene), die automatisch über Serverprotokolle und Cookies erfasst werden; (d) Zahlungsdaten, Abrechnungsdetails und Transaktionsaufzeichnungen, die ausschließlich von unseren Drittanbieter-Zahlungsabwicklern (Stripe) verarbeitet werden. NoteOCR speichert niemals vollständige Kartennummern oder CVV-Codes; (e) Kommunikation, Nachrichten, die Sie uns per E-Mail oder Support-Formular senden und die zur Klärung Ihrer Anfragen aufbewahrt werden; (f) Hochgeladene Inhalte, Dokumente, Bilder und Dateien, die Sie zur OCR-Verarbeitung hochladen, vorbehaltlich der in Abschnitt 4 beschriebenen strengen Handhabungsregeln.",
-
     "s3_t": "Wie wir Ihre Daten verwenden",
     "s3_c": "Wir verwenden Ihre personenbezogenen Daten nur für die Zwecke, für die sie erhoben wurden, auf Basis folgender Rechtsgrundlagen: (a) Vertragserfüllung, um Ihr Konto zu erstellen und zu verwalten, Ihr Seitenguthaben zu bearbeiten, Dokumentenkonvertierungen durchzuführen und die von Ihnen erworbenen Dienste bereitzustellen; (b) Berechtigte Interessen, um Betrug zu verhindern, die Plattform-Sicherheit aufrechtzuerhalten, technische Probleme zu lösen und aggregierte Analysen zu erstellen, die uns bei der Produktverbesserung helfen; (c) Rechtliche Verpflichtung, um anwendbare steuerliche, buchhalterische und regulatorische Anforderungen in der Schweiz und in der EU zu erfüllen; (d) Einwilligung, um optionale Produkt-Updates und Ankündigungen per E-Mail zu senden, die Sie jederzeit widerrufen können. Wir verkaufen Ihre personenbezogenen Daten niemals und verwenden sie nicht für Werbezwecke. Wir geben Ihre Daten nicht an Datenbroker, Werbenetzwerke oder Dritte zum Zwecke des kommerziellen Profilings weiter.",
-
     "s4_t": "Ihre hochgeladenen Dokumente",
     "s4_c": "Von Ihnen hochgeladene Dokumente werden streng vertraulich behandelt und unterliegen strengen technischen Kontrollen. Alle hochgeladenen Dateien werden während der Übertragung mit TLS 1.3 und im Ruhezustand mit AES-256 verschlüsselt. Dateien werden in isolierten Rechenumgebungen verarbeitet; kein Dokument wird während der Verarbeitung mit den Daten eines anderen Nutzers vermischt. Sobald ein Konvertierungsauftrag abgeschlossen ist, wird die Quelldatei automatisch von unseren Verarbeitungsservern gelöscht. Wenn Sie konvertierte Dokumente in Ihrer NoteOCR-Bibliothek speichern, bleiben diese erhalten, bis Sie sie manuell löschen oder Ihr Konto schließen. Wir greifen nicht auf den Inhalt Ihrer Dokumente zu, lesen, kommentieren oder analysieren ihn nicht für andere Zwecke als die Durchführung der von Ihnen angeforderten Konvertierung. Wichtig: NoteOCR verwendet den Inhalt Ihrer hochgeladenen Dokumente niemals zum Trainieren, Fine-Tuning, Auswerten oder Verbessern von KI- oder Machine-Learning-Modellen.",
-
     "s5_t": "Cookies & Tracking",
     "s5_c": "Wir verwenden eine minimale Anzahl an Cookies und ähnlichen Technologien, um unsere Dienste zu betreiben und zu verbessern. Streng notwendige Cookies sind unerlässlich, um Ihre Sitzung zu authentifizieren und Sie eingeloggt zu halten; diese können nicht deaktiviert werden. Funktionale Cookies merken sich Ihre Einstellungen wie Sprache und Design. Analyse-Cookies (optional) helfen uns auf aggregierter Ebene zu verstehen, wie Seiten genutzt werden, um das Produkt zu verbessern. Wir verwenden datenschutzfreundliche Analysen und setzen keine Werbecookies von Drittanbietern oder seitenübergreifende Tracking-Pixel jeglicher Art ein. Sie können Ihre Cookie-Einstellungen jederzeit über Ihre Browsereinstellungen oder unser Cookie-Banner auf der Plattform verwalten. Die Deaktivierung optionaler Cookies hat keinen Einfluss auf Ihre Fähigkeit, die Kerndienste zu nutzen.",
-
     "s6_t": "Datenweitergabe & Drittanbieter",
     "s6_c": "Wir teilen personenbezogene Daten mit einer begrenzten Anzahl vertrauenswürdiger Dienstleister, die uns beim Betrieb unserer Plattform unterstützen, und nur in dem erforderlichen Umfang. Dazu gehören: (a) Stripe, Zahlungsabwicklung, vorbehaltlich PCI-DSS-Compliance; (b) Google OAuth, optionale Login-Authentifizierung; (c) Cloud-Infrastruktur-Anbieter, verschlüsselter Serverspeicher und Rechenleistung, verfügbar in den Regionen US-East (N. Virginia), EU (Frankfurt) und APAC (Singapur); (d) E-Mail-Zustellung, Dienste für Transaktions- und Benachrichtigungs-E-Mails. Alle Drittanbieter sind an Auftragsverarbeitungsverträge (AVV) gebunden, die es ihnen untersagen, Ihre Daten für andere Zwecke als die Dienstleistung zu verwenden, die sie für uns erbringen. Wir übermitteln personenbezogene Daten nicht an Dritte für Marketing, Profiling oder kommerzielle Zwecke, die über den Betrieb der Dienste hinausgehen.",
-
     "s7_t": "Internationale Datenübermittlungen",
     "s7_c": "Der Hauptsitz von NoteOCR befindet sich in der Schweiz, die von der Europäischen Kommission als Land mit einem angemessenen Datenschutzniveau anerkannt ist. Wenn wir personenbezogene Daten an Dienstleister übermitteln, die außerhalb des EWR oder der Schweiz tätig sind (z. B. Cloud-Infrastruktur in den USA oder im APAC-Raum), stützen wir uns auf die Standardvertragsklauseln (SCCs) der Europäischen Kommission oder gleichwertige Übermittlungsmechanismen, um sicherzustellen, dass Ihre Daten denselben Schutz genießen wie innerhalb des EWR. Sie können in Ihren Kontoeinstellungen Ihre bevorzugte Datenverarbeitungsregion (EU, USA oder APAC) auswählen. Standardmäßig werden neue Konten der EU-Region (Frankfurt) zugewiesen.",
-
     "s8_t": "Datenspeicherung",
     "s8_c": "Wir bewahren Ihre personenbezogenen Daten nur so lange auf, wie es zur Erfüllung der in dieser Richtlinie beschriebenen Zwecke erforderlich ist. Kontoinformationen werden für die Dauer Ihres Kontos und bis zu 90 Tage nach Kontoschließung aufbewahrt, um eine Wiederherstellung oder Streitbeilegung zu ermöglichen, danach werden sie dauerhaft gelöscht. Verarbeitete Quelldateien werden nach Abschluss der Konvertierung automatisch gelöscht. In Ihrer NoteOCR-Bibliothek gespeicherte Dokumente werden aufbewahrt, bis Sie diese löschen oder Ihr Konto schließen. Zahlungs- und Transaktionsaufzeichnungen werden in Übereinstimmung mit schweizerischen und EU-Steuervorschriften für 7 Jahre aufbewahrt. Support-Kommunikationen werden bis zu 3 Jahre aufbewahrt. Anonymisierte und aggregierte Analysedaten können auf unbestimmte Zeit gespeichert werden, da sie keine Rückschlüsse auf Einzelpersonen zulassen.",
-
     "s9_t": "Ihre Datenschutzrechte",
     "s9_c": "Abhängig von Ihrem Standort haben Sie möglicherweise folgende Rechte bezüglich Ihrer personenbezogenen Daten: Auskunftsrecht, um eine Kopie aller personenbezogenen Daten anzufordern, die wir über Sie speichern; Recht auf Berichtigung, um die Korrektur ungenauer oder unvollständiger Daten anzufordern; Recht auf Löschung, um die Löschung Ihrer personenbezogenen Daten anzufordern, wenn keine vorrangige rechtliche Grundlage für deren Aufbewahrung besteht; Recht auf Einschränkung der Verarbeitung, um zu verlangen, dass wir die Verarbeitung Ihrer Daten einschränken, während eine Streitigkeit beigelegt wird; Recht auf Datenübertragbarkeit, um Ihre Daten in einem strukturierten, maschinenlesbaren Format zu erhalten; Widerspruchsrecht, um der Verarbeitung aufgrund berechtigter Interessen, einschließlich Profiling, zu widersprechen; Recht auf Widerruf der Einwilligung, um die Einwilligung für E-Mail-Kommunikation jederzeit zu widerrufen, ohne dass die vorherige Verarbeitung beeinträchtigt wird. Um eines dieser Rechte auszuüben, senden Sie eine E-Mail an support@noteocr.com mit dem Betreff 'Datenschutzanfrage'. Wir werden innerhalb von 30 Tagen antworten. Sie haben auch das Recht, eine Beschwerde bei Ihrer lokalen Datenschutzbehörde einzureichen.",
-
     "s10_t": "Sicherheitsmaßnahmen",
     "s10_c": "Wir setzen technische und organisatorische Sicherheitsmaßnahmen ein, die darauf ausgelegt sind, Ihre personenbezogenen Daten gegen unbefugten Zugriff, Veränderung, Offenlegung oder Zerstörung zu schützen. Diese Maßnahmen umfassen: AES-256-Verschlüsselung im Ruhezustand für alle gespeicherten Dateien und Kontodaten; TLS 1.3-Verschlüsselung für alle Daten während der Übertragung; isolierte Rechenumgebungen für jeden Dokumentenverarbeitungsauftrag; rollenbasierte Zugriffskontrollen, die den internen Zugriff auf personenbezogene Daten streng auf ein Need-to-know-Prinzip beschränken; regelmäßige Sicherheitsaudits und Penetrationstests; sowie das automatische Löschen von Quelldateien nach Abschluss der Verarbeitung. Trotz dieser Maßnahmen ist keine Übertragungsmethode über das Internet oder elektronische Speicherung zu 100% sicher. Sollten wir von einer Verletzung des Schutzes personenbezogener Daten erfahren, die ein Risiko für Ihre Rechte und Freiheiten darstellt, werden wir Sie und die zuständige Aufsichtsbehörde innerhalb von 72 Stunden benachrichtigen, wie es die DSGVO vorschreibt.",
-
     "s11_t": "Datenschutz bei Kindern",
     "s11_c": "NoteOCR richtet sich nicht an Kinder unter 13 Jahren, und wir erfassen wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Nutzer zwischen 13 und 18 Jahren benötigen die Zustimmung der Eltern oder Erziehungsberechtigten, bevor sie unsere Dienste nutzen, wie in unseren Nutzungsbedingungen festgelegt. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und glauben, dass Ihr Kind NoteOCR personenbezogene Daten ohne Ihre Zustimmung zur Verfügung gestellt hat, kontaktieren Sie uns bitte unter support@noteocr.com. Wir werden dies umgehend untersuchen und diese Daten löschen. Wir liefern wissentlich keine personalisierten Inhalte oder Werbung an Minderjährige aus.",
-
     "s12_t": "Änderungen dieser Richtlinie",
     "s12_c": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Änderungen an unseren Praktiken, Technologien, gesetzlichen Anforderungen oder aus anderen betrieblichen Gründen widerzuspiegeln. Wenn wir wesentliche Änderungen vornehmen, werden wir registrierte Nutzer per E-Mail benachrichtigen und das Datum 'Zuletzt aktualisiert' oben auf dieser Seite anpassen. Möglicherweise zeigen wir auch ein Banner innerhalb der Plattform an, um auf wichtige Änderungen aufmerksam zu machen. Ihre fortgesetzte Nutzung der Dienste nach dem Datum des Inkrafttretens einer überarbeiteten Datenschutzerklärung stellt Ihre Annahme dieser Änderungen dar. Wir empfehlen Ihnen, diese Richtlinie regelmäßig zu überprüfen. Frühere Versionen dieser Richtlinie sind auf Anfrage erhältlich.",
-
     "s13_t": "Kontakt & Datenschutzbeauftragter",
     "s13_c": "Wenn Sie Fragen, Bedenken oder Anfragen bezüglich dieser Datenschutzerklärung oder der Art und Weise haben, wie wir mit Ihren personenbezogenen Daten umgehen, kontaktieren Sie uns bitte. Wir verpflichten uns, alle datenschutzbezogenen Anfragen zeitnah und nach bestem Wissen zu klären. Sie haben auch das Recht, ungelöste Bedenken an eine Aufsichtsbehörde zu eskalieren. In der Schweiz ist dies der Eidgenössische Datenschutz- und Öffentlichkeitsbeauftragte (EDÖB). In der EU können Sie sich an die Datenschutzbehörde Ihres Mitgliedstaates wenden.",
-
     "rights_title": "Ihre Rechte auf einen Blick",
     "right_access": "Zugriff auf Ihre Daten",
     "right_rectify": "Ungenauigkeiten korrigieren",
@@ -2798,7 +2608,6 @@
     "right_portability": "Ihre Daten exportieren",
     "right_object": "Dem Profiling widersprechen",
     "right_consent": "Einwilligung widerrufen",
-
     "data_table_title": "Daten, die wir sammeln",
     "data_col_type": "Datentyp",
     "data_col_purpose": "Zweck",
@@ -2824,7 +2633,6 @@
     "data_row5_purpose": "Support-Lösung",
     "data_row5_basis": "Berechtigtes Interesse",
     "data_row5_retention": "3 Jahre",
-
     "security_title": "Sicherheitsverpflichtungen",
     "security_badge1": "AES-256 (Ruhend)",
     "security_badge2": "TLS 1.3 (Übertragung)",
@@ -2834,158 +2642,119 @@
     "security_badge6": "Regelmäßige Pen-Tests",
     "security_badge7": "Kein Modell-Training",
     "security_badge8": "DSGVO Konform",
-
     "welcome_text_short": "Bitte lesen Sie diese Richtlinie sorgfältig durch. Sie beschreibt in klarer Sprache, wie NoteOCR mit Ihren personenbezogenen Daten umgeht.",
-
     "contact_t": "Fragen zum Datenschutz oder Datenanfragen?",
     "contact_d": "Unser Team kümmert sich persönlich um alle Datenschutzanfragen. Egal, ob Sie auf Ihre Daten zugreifen, sie korrigieren oder löschen möchten oder einfach nur eine Frage haben – wir antworten innerhalb von 30 Tagen gemäß den DSGVO-Anforderungen.",
     "contact_email_label": "Kontaktieren Sie unser Datenschutz-Team",
     "contact_response": "Antwort innerhalb von 30 Tagen (DSGVO-Vorgabe)"
   },
-
   "JpgToWord": {
     "meta_title": "JPG in Word umwandeln | Text aus JPEG nach DOCX extrahieren",
     "meta_desc": "Wandeln Sie JPG- und JPEG-Bilder sofort in bearbeitbare Word-Dokumente um. Unsere fortschrittliche OCR extrahiert Text aus Fotos und Scans unter Beibehaltung der Formatierung.",
-
     "hero_pill": "Schnelle Bild-zu-Text OCR",
     "hero_title": "JPG sofort in Word-Dokumente umwandeln",
     "hero_subtitle": "Hören Sie auf, Text aus Bildern abzutippen. Laden Sie ein beliebiges JPG, JPEG oder Foto hoch, und unsere fortschrittliche KI extrahiert den Text präzise in eine vollständig bearbeitbare Microsoft Word (.docx)-Datei.",
-
     "trust_ssl": "256-BIT SICHERER UPLOAD",
     "trust_processing": "SCHNELLE JPEG-VERARBEITUNG",
     "trust_accuracy": "HOCHPRÄZISE OCR",
-
     "before_after_title": "Vom statischen Bild zum bearbeitbaren Text",
     "before_after_desc": "Sehen Sie, wie wir festen Text aus einem JPG perfekt in ein bearbeitbares Format extrahieren.",
     "before_label": "Vorher: Original-JPG-Bild",
     "before_placeholder": "",
     "after_label": "Nachher: Bearbeitbares Word-Dokument",
     "after_placeholder": "",
-
     "use_cases_title": "Warum JPG in Word umwandeln?",
     "use_cases_subtitle": "Der einfachste Weg, in Bildern gefangenen Text vollständig bearbeitbar zu machen.",
-
     "use_case_1_title": "Gescannte Dokumente",
     "use_case_1_desc": "Verwandeln Sie gescannte JPEGs von Verträgen, Rechnungen und offiziellen Briefen in bearbeitbaren Text und bewahren Sie dabei Absätze und Layout.",
-
     "use_case_2_title": "Screenshots & Web-Snippets",
     "use_case_2_desc": "Wandeln Sie JPG-Screenshots von Websites, geschützten PDFs oder Apps in Text um, den Sie in Word sofort kopieren, bearbeiten und formatieren können.",
-
     "use_case_3_title": "Fotos von gedruckten Seiten",
     "use_case_3_desc": "Haben Sie ein Buch, ein Handbuch oder ein Magazin fotografiert? Extrahieren Sie den Text präzise, ohne ein einziges Wort abtippen zu müssen.",
-
     "use_case_4_title": "Bilder mit Handschrift",
     "use_case_4_desc": "Im Gegensatz zu einfachen Konvertern kann unsere Engine auch JPG-Fotos lesen und umwandeln, die handschriftliche Notizen oder Whiteboard-Sitzungen enthalten.",
-
     "comparison_title": "JPG zu Word: Warum andere Konverter scheitern",
     "comparison_subtitle": "Die meisten Tools fügen nur Ihr Bild in eine Word-Datei ein. NoteOCR extrahiert tatsächlich den Text.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Zeit",
     "comparison_col_accuracy": "Text-Extraktion",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Manuelles Tippen",
     "comparison_row1_time": "15-30 Minuten",
     "comparison_row1_accuracy": "Hoch (aber mühsam)",
     "comparison_row1_cost": "Ihre Zeit",
-
     "comparison_row2_method": "Standard-Dateikonverter",
     "comparison_row2_time": "1 Minute",
     "comparison_row2_accuracy": "0% (fügt nur das Bild ein)",
     "comparison_row2_cost": "Oft kostenpflichtig",
-
     "comparison_row3_method": "NoteOCR (KI-Extraktion)",
     "comparison_row3_time": "15 Sekunden",
     "comparison_row3_accuracy": "98%+ Bearbeitbarer Text",
     "comparison_row3_cost": "Kostenlos testen",
-
     "features_title": "Fortschrittliche JPG-Textextraktion",
     "features_subtitle": "Speziell entwickelt, um präzisen Text aus Bilddateien zu gewinnen.",
-
     "feature_1_title": "Akzeptiert JPG & JPEG Formate",
     "feature_1_desc": "Egal ob Ihre Datei auf .jpg oder .jpeg endet, unser System verarbeitet Standard-Webbilder, Handyfotos und hochauflösende Kameraaufnahmen perfekt.",
-
     "feature_2_title": "Layout- & Absatzerhaltung",
     "feature_2_desc": "Wir liefern nicht nur einfachen Text. Unsere OCR erkennt Zeilenumbrüche, Absätze und Listenstrukturen, sodass Ihr heruntergeladenes Word-Dokument wie das Originalbild aussieht.",
-
     "feature_3_title": "Mehrsprachige Unterstützung",
     "feature_3_desc": "Extrahieren Sie Text aus JPEGs auf Deutsch, Englisch, Spanisch, Französisch und Dutzenden weiteren Sprachen mit spezialisierter Zeichenerkennung.",
-
     "tech_title": "Wie unsere Bild-zu-Word-Engine funktioniert",
     "tech_intro": "Die Umwandlung einer JPG-Datei in ein bearbeitbares Word-Dokument erfordert Optische Zeichenerkennung (OCR). NoteOCR analysiert die Pixel in Ihrem Bild, identifiziert einzelne Buchstaben und Wörter, kartiert die Dokumentstruktur und generiert eine native Microsoft Word-Datei, die Sie sofort bearbeiten können.",
-
     "tech_detect_title": "Was die Engine verarbeitet",
     "tech_detect_1": "Standard gedruckter Text und Typografie",
     "tech_detect_2": "Kursive und handschriftliche Texte im Bild",
     "tech_detect_3": "Absatzabstände und Zeilenumbrüche",
     "tech_detect_4": "Bildkontrast und Entfernung von Hintergrundrauschen",
     "tech_detect_5": "Automatische Ausrichtungskorrektur",
-
     "tech_tips_title": "Tipps für die beste Konvertierung",
     "tech_tips_1": "Stellen Sie sicher, dass das Bild nicht verschwommen ist",
     "tech_tips_2": "Vermeiden Sie starke Schatten über dem Text",
     "tech_tips_3": "Halten Sie den Text parallel zur Kamera",
     "tech_tips_4": "Höher auflösende JPEGs liefern bessere Ergebnisse",
     "tech_tips_5": "Schneiden Sie unnötige Hintergründe nach Möglichkeit weg",
-
     "related_tools_title": "Weitere Konvertierungstools",
-
     "related_tool_1_name": "Bild in Excel",
     "related_tool_1_desc": "Datentabellen aus Bildern in Tabellenkalkulationen extrahieren",
-
     "related_tool_2_name": "Foto in Word",
     "related_tool_2_desc": "Kamerafotos direkt in Word umwandeln",
-
     "related_tool_3_name": "Handschrift in Text",
     "related_tool_3_desc": "Spezialisierte Transkription von Schreibschrift und Notizen",
-
     "related_tool_4_name": "Online-Editor",
     "related_tool_4_desc": "Bearbeiten Sie Ihre Dokumente sicher im Browser",
-
     "faq_title": "Häufig gestellte Fragen (JPG zu Word)",
-
     "cta_title": "Bereit, Text aus Ihrem JPG zu extrahieren?",
     "cta_subtitle": "Hören Sie auf zu tippen und beginnen Sie in Sekunden mit dem Bearbeiten.",
     "cta_button": "JPG jetzt hochladen",
-
     "footer_text": "NoteOCR // Intelligente Bildverarbeitung",
-
     "tool_upload_title": "Laden Sie Ihr JPG-Bild hoch",
     "tool_upload_desc": "Unterstützt Standardfotos, Screenshots und gescannte Bilder. Wir extrahieren den Text und geben Ihnen ein formatiertes Word-Dokument.",
     "tool_upload_button": "JPG / JPEG auswählen",
     "tool_upload_check_1": "JPG, JPEG, PNG",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Auto-Löschung nach 24h",
-
     "tool_processing_title": "Text wird aus Bild extrahiert...",
     "tool_processing_desc": "OCR wird ausgeführt und Ihr Word-Dokument formatiert",
-
     "tool_complete_title": "Extraktion abgeschlossen!",
     "tool_complete_desc": "Ihr Text wurde erfolgreich extrahiert. Laden Sie Ihre bearbeitbare Datei unten herunter.",
     "tool_complete_file_type": "Word-Dokument (.docx)",
     "tool_complete_status": "BEREIT",
     "tool_download_button": "Word herunterladen",
     "tool_new_button": "Anderes JPG konvertieren",
-
     "tool_info_1_title": "Vollständig bearbeitbar",
     "tool_info_1_desc": "Text wird extrahiert, nicht nur als Bild eingefügt",
-
     "tool_info_2_title": "Layout beibehalten",
     "tool_info_2_desc": "Absätze und Zeilenumbrüche bleiben erhalten",
-
     "tool_info_3_title": "Universelles DOCX",
     "tool_info_3_desc": "Öffnet sich in MS Word, Google Docs & Pages",
-
     "tool_tip_label": "Pro-Tipp:",
     "tool_tip_text": "Wenn Ihr JPG sehr dunkel ist oder wenig Kontrast aufweist, versuchen Sie, die Helligkeit auf Ihrem Gerät vor dem Hochladen etwas zu erhöhen, um die absolut beste OCR-Genauigkeit zu erzielen.",
-
     "toast_success": "Bild erfolgreich umgewandelt!",
     "toast_error_type": "Bitte laden Sie eine gültige Bilddatei hoch (JPG, JPEG, PNG)",
     "toast_error_size": "Dateigröße muss unter 25 MB liegen",
     "toast_error_conversion": "Konvertierung fehlgeschlagen. Bitte versuchen Sie ein klareres Bild.",
     "toast_download_success": "Word-Dokument heruntergeladen!",
     "toast_download_error": "Download fehlgeschlagen.",
-
     "FAQ": {
       "items": {
         "how_to_convert": {
@@ -3034,146 +2803,110 @@
   "ScanToWord": {
     "meta_title": "Scanner zu Word | Gescannte Dokumente in bearbeitbaren Text umwandeln",
     "meta_desc": "Wandeln Sie gescannte Dokumente von Ihrem Flachbettscanner oder einer mobilen App direkt in bearbeitbare Microsoft Word-Dateien mit professioneller OCR um.",
-
     "hero_pill": "Professionelle Dokumenten-OCR",
     "hero_title": "Scans in Word-Dokumente umwandeln",
     "hero_subtitle": "Digitalisieren Sie Ihre Papiere sofort. Laden Sie gescannte Bilder von Verträgen, Büchern oder physischen Dokumenten hoch, und unsere KI rekonstruiert sie als vollständig bearbeitbare Microsoft Word (.docx)-Dateien.",
-
     "trust_ssl": "ENTERPRISE-SICHERHEIT",
     "trust_processing": "FÜR HOHE VOLUMEN GEEIGNET",
     "trust_accuracy": "99% DRUCK-GENAUIGKEIT",
-
     "before_after_title": "Vom physischen Papier zum digitalen Dokument",
     "before_after_desc": "Sehen Sie, wie wir einen flachen digitalen Scan in ein vollständig bearbeitbares Textdokument umwandeln.",
     "before_label": "Vorher: Gescannte Papierseite",
     "before_placeholder": "",
     "after_label": "Nachher: Bearbeitbares Word-Dokument",
     "after_placeholder": "",
-
     "use_cases_title": "Wer nutzt unser Scanner zu Word Tool?",
     "use_cases_subtitle": "Entwickelt für Profis, die mit viel Papierkram umgehen müssen.",
-
     "use_case_1_title": "Recht & Immobilien",
     "use_case_1_desc": "Scannen Sie unterschriebene physische Verträge, Mietverträge und Urkunden und wandeln Sie sie in Word um, um Klauseln einfach zu bearbeiten oder Bedingungen zu aktualisieren.",
-
     "use_case_2_title": "Büro & Verwaltung",
     "use_case_2_desc": "Hören Sie auf, gedruckte Memos, Lieferantenrechnungen und physische Post manuell abzutippen. Scannen und in Sekunden in bearbeitbaren Text umwandeln.",
-
     "use_case_3_title": "Autoren & Verlage",
     "use_case_3_desc": "Digitalisieren Sie alte, vergriffene Bücher, gedruckte Manuskripte oder Zeitschriftenartikel mit einem Flachbettscanner, um bearbeitbare digitale Archive zu erstellen.",
-
     "use_case_4_title": "Akademische Forschung",
     "use_case_4_desc": "Scannen Sie Seiten aus Nachschlagewerken oder Bibliotheksarchiven und wandeln Sie sie in Word-Dokumente um, um einfaches Zitieren, Markieren und Durchsuchen zu ermöglichen.",
-
     "comparison_title": "Scans digitalisieren: Der beste Ansatz",
     "comparison_subtitle": "Warum manuelle Transkription bei gescannten Dokumenten der Vergangenheit angehört.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Zeit",
     "comparison_col_accuracy": "Layouterhaltung",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Manuelle Dateneingabe",
     "comparison_row1_time": "1 Stunde pro 5 Seiten",
     "comparison_row1_accuracy": "Verliert Original-Layout",
     "comparison_row1_cost": "Hohe Arbeitskosten",
-
     "comparison_row2_method": "Kostenlose Online-Konverter",
     "comparison_row2_time": "2 Minuten",
     "comparison_row2_accuracy": "Schlecht (Zerstört Ränder)",
     "comparison_row2_cost": "Kostenlos",
-
     "comparison_row3_method": "NoteOCR Scan Engine",
     "comparison_row3_time": "20 Sekunden",
     "comparison_row3_accuracy": "Behält Absätze & Listen",
     "comparison_row3_cost": "Kostenlos testen",
-
     "features_title": "Gebaut für gescannte Medien",
     "features_subtitle": "Erweiterte Funktionen zur Bewältigung der Eigenheiten von Hardware-Scannern.",
-
     "feature_1_title": "Geraderücken & Auto-Rotation",
     "feature_1_desc": "Haben Sie das Papier etwas schief in den Scanner eingezogen? Unsere Engine richtet schiefe Scans automatisch aus, bevor der Text extrahiert wird.",
-
     "feature_2_title": "Fleck- & Rauschentfernung",
     "feature_2_desc": "Alte Scanner hinterlassen oft schwarze Punkte oder Linien auf dem Bild. Unsere KI bereinigt den gescannten Hintergrund, um eine perfekte Texterkennung zu gewährleisten.",
-
     "feature_3_title": "Bewahrt die Dokumentstruktur",
     "feature_3_desc": "Behält Überschriften, Aufzählungspunkte und Absatzeinzüge Ihres physischen Dokuments bei, wenn der Text nach Microsoft Word migriert wird.",
-
     "tech_title": "Wie wir gescannte Dokumente verarbeiten",
     "tech_intro": "Wenn Sie ein gescanntes Bild hochladen, verwendet NoteOCR spezialisierte Dokumentenlayout-Analyse (DLA). Im Gegensatz zu einfachen Tools, die blind von links nach rechts lesen, versteht unsere Engine die strukturelle Hierarchie einer physischen Seite.",
-
     "tech_detect_title": "Was unsere OCR-Engine erkennt",
     "tech_detect_1": "Standard gedruckte Typografie und Schriftarten",
     "tech_detect_2": "Mehrspaltige Layouts und Seitenleisten",
     "tech_detect_3": "Kursiv, Fettgedruckt und unterstrichene Formatierungen",
     "tech_detect_4": "Handschriftliche Unterschriften auf gedruckten Formularen",
     "tech_detect_5": "Nummerierte Listen und Aufzählungspunkte",
-
     "tech_tips_title": "Tipps für Scanning-Hardware",
     "tech_tips_1": "Stellen Sie Ihren Scanner auf mindestens 300 DPI ein",
     "tech_tips_2": "Speichern Sie Scans als hochwertige PNG- oder JPG-Dateien",
     "tech_tips_3": "Wischen Sie das Scannerglas ab, um Flecken zu vermeiden",
     "tech_tips_4": "Drücken Sie dicke Bücher flach auf das Glas",
     "tech_tips_5": "Verwenden Sie den 'Schwarz-Weiß'-Modus für schärfsten Text",
-
     "related_tools_title": "Entdecken Sie weitere Dokumententools",
-
     "related_tool_1_name": "Bild in Excel",
     "related_tool_1_desc": "Datentabellen aus Bildern in Tabellenkalkulationen extrahieren",
-
     "related_tool_2_name": "Foto in Word",
     "related_tool_2_desc": "Kamerafotos direkt in Word umwandeln",
-
     "related_tool_3_name": "Handschrift in Text",
     "related_tool_3_desc": "Spezialisierte Transkription von Schreibschrift und Notizen",
-
     "related_tool_4_name": "Online-Editor",
     "related_tool_4_desc": "Bearbeiten Sie Ihre Dokumente sicher im Browser",
-
     "faq_title": "Häufig gestellte Fragen zu gescannten Dokumenten",
-
     "cta_title": "Bereit, Ihre Dokumente zu digitalisieren?",
     "cta_subtitle": "Machen Sie diese physischen Scans noch heute zu bearbeitbaren Word-Dateien.",
     "cta_button": "Scan jetzt hochladen",
-
     "footer_text": "NoteOCR // Professionelle Scan-Digitalisierung",
-
     "tool_upload_title": "Laden Sie Ihre Scandatei hoch",
     "tool_upload_desc": "Laden Sie Bilddateien (JPG, PNG) hoch, die von Ihrem Flachbettscanner oder Ihrer mobilen Scan-App generiert wurden.",
     "tool_upload_button": "Scan-Bild auswählen",
     "tool_upload_check_1": "Hochauflösend unterstützt",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Geschäftlich Vertraulich",
-
     "tool_processing_title": "Gescanntes Dokument wird verarbeitet...",
     "tool_processing_desc": "Kontrast wird verbessert und Layoutanalyse ausgeführt",
-
     "tool_complete_title": "Scan konvertiert!",
     "tool_complete_desc": "Ihr physischer Scan ist jetzt ein digitales, bearbeitbares Dokument. Laden Sie es unten herunter.",
     "tool_complete_file_type": "Word-Dokument (.docx)",
     "tool_complete_status": "BEREIT",
     "tool_download_button": "Word herunterladen",
     "tool_new_button": "Nächsten Scan konvertieren",
-
     "tool_info_1_title": "Vollständig bearbeitbarer Text",
     "tool_info_1_desc": "Klauseln aktualisieren, Tippfehler beheben und frei formatieren",
-
     "tool_info_2_title": "Layout intakt",
     "tool_info_2_desc": "Überschriften und Listen werden in Word übernommen",
-
     "tool_info_3_title": "Sichere Verarbeitung",
     "tool_info_3_desc": "Ihre Scans werden niemals gespeichert oder geteilt",
-
     "tool_tip_label": "Scan-Tipp:",
     "tool_tip_text": "Für die genaueste Konvertierung konfigurieren Sie Ihren physischen Scanner auf 300 DPI (Dots Per Inch) oder höher. Niedrigere Auflösungen können dazu führen, dass Buchstaben wie 'c' und 'e' miteinander verschwimmen.",
-
     "toast_success": "Scan erfolgreich digitalisiert!",
     "toast_error_type": "Bitte laden Sie eine gültige gescannte Bilddatei hoch",
     "toast_error_size": "Scan-Dateigröße muss unter 25 MB liegen",
     "toast_error_conversion": "Konvertierung fehlgeschlagen. Bitte versuchen Sie einen Scan mit höherem Kontrast.",
     "toast_download_success": "Word-Dokument heruntergeladen!",
     "toast_download_error": "Download fehlgeschlagen.",
-
     "FAQ": {
       "items": {
         "how_to_convert_scan": {
@@ -3222,146 +2955,110 @@
   "PhotoToWord": {
     "meta_title": "Foto in Word umwandeln | Text aus Bildern extrahieren",
     "meta_desc": "Machen Sie ein Foto und wandeln Sie es in Text um. Unsere KI extrahiert Text aus Fotos von Whiteboards, Büchern und Bildschirmen direkt in bearbeitbare Word-Dokumente.",
-
     "hero_pill": "Kamera-zu-Text OCR",
     "hero_title": "Jedes Foto in ein Word-Dokument umwandeln",
     "hero_subtitle": "Verwandeln Sie Ihre Smartphone-Bilder in bearbeitbaren Text. Laden Sie ein Foto von einem Lehrbuch, Whiteboard oder einer Präsentationsfolie hoch und lassen Sie unsere KI in Sekundenschnelle eine formatierte Microsoft Word (.docx)-Datei erstellen.",
-
     "trust_ssl": "PRIVATER SICHERER UPLOAD",
     "trust_processing": "SMARTE KAMERA-KI",
     "trust_accuracy": "LIEST SCHRÄGE FOTOS",
-
     "before_after_title": "Von der Kamerarolle zur Word-Datei",
     "before_after_desc": "Sehen Sie, wie wir reale Fotos mit Kamerablendeffekten und unaufgeräumten Hintergründen handhaben.",
     "before_label": "Vorher: Smartphone-Foto",
     "before_placeholder": "",
     "after_label": "Nachher: Bearbeitbares Word-Dokument",
     "after_placeholder": "",
-
     "use_cases_title": "Welche Bilder können Sie konvertieren?",
     "use_cases_subtitle": "Perfekt für alltägliche Fotos, die unterwegs aufgenommen wurden.",
-
     "use_case_1_title": "Whiteboard-Meetings",
     "use_case_1_desc": "Haben Sie nach dem Brainstorming ein Foto vom Whiteboard gemacht? Wandeln Sie die Marker-Handschrift direkt in Meeting-Notizen in Word um.",
-
     "use_case_2_title": "Lehrbuch-Seiten",
     "use_case_2_desc": "Hören Sie auf, Zitate für Ihren Aufsatz abzutippen. Machen Sie ein Foto von Ihrem Lehrbuch und extrahieren Sie sofort genau die Absätze, die Sie brauchen.",
-
     "use_case_3_title": "Präsentationsfolien",
     "use_case_3_desc": "Sitzen Sie im Publikum und haben eine PowerPoint-Folie fotografiert? Ziehen Sie den Text vom Bildschirmfoto in ein bearbeitbares Dokument.",
-
     "use_case_4_title": "Rezepte & Magazine",
     "use_case_4_desc": "Speichern Sie ein physisches Rezept oder einen interessanten Zeitschriftenartikel, indem Sie ein Bild machen und es in eine durchsuchbare Textdatei umwandeln.",
-
     "comparison_title": "Foto-Textextraktion im Vergleich",
     "comparison_subtitle": "Warum NoteOCR besser ist als manuelles Tippen auf einer winzigen Handytastatur.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Zeit",
     "comparison_col_accuracy": "Kommt mit schlechtem Licht klar?",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Tippen auf dem Handy",
     "comparison_row1_time": "10-20 Minuten",
     "comparison_row1_accuracy": "N/A",
     "comparison_row1_cost": "Ihre Zeit",
-
     "comparison_row2_method": "Einfache Foto-Konverter",
     "comparison_row2_time": "1 Minute",
     "comparison_row2_accuracy": "Versagt bei Kamera-Blendung",
     "comparison_row2_cost": "Oft kostenpflichtig",
-
     "comparison_row3_method": "NoteOCR Bilder-Engine",
     "comparison_row3_time": "15 Sekunden",
     "comparison_row3_accuracy": "Verbessert automatisch die Beleuchtung",
     "comparison_row3_cost": "Kostenlos testen",
-
     "features_title": "Gebaut für reale Fotos",
     "features_subtitle": "Smartphone-Bilder sind nicht perfekt. Unsere KI ist darauf ausgelegt, damit umzugehen.",
-
     "feature_1_title": "Perspektivkorrektur",
     "feature_1_desc": "Wenn Sie ein Buch aus einem seltsamen Winkel fotografiert haben, glättet unsere Engine das Bild automatisch und korrigiert die Perspektive, bevor der Text gelesen wird.",
-
     "feature_2_title": "Blend- & Schattenentfernung",
     "feature_2_desc": "Smartphone-Blitze und Raumschatten können Text verbergen. Unsere KI gleicht die Beleuchtung in Ihrem Bild aus, um eine hochpräzise Zeichenerkennung zu gewährleisten.",
-
     "feature_3_title": "Ignoriert Hintergrundgewirr",
     "feature_3_desc": "Haben Sie Ihren Schreibtisch oder Ihre Hand mit auf dem Foto? Unser System schneidet Texte-Hintergründe intelligent weg und konzentriert sich nur auf das Dokument.",
-
     "tech_title": "Wie wir Ihre Bilder lesen",
     "tech_intro": "Das Extrahieren von Text aus einem Smartphone-Foto ist viel schwieriger als das Lesen eines flachen digitalen Scans. NoteOCR verwendet intelligente Vision AI, um die Geometrie Ihres Bildes zu verstehen, bevor die Zeichen in ein Word-Dokument umgewandelt werden.",
-
     "tech_detect_title": "Was unsere Kamera-KI bewältigt",
     "tech_detect_1": "Gekrümmte Seiten aus dicken Büchern",
     "tech_detect_2": "Fotos von Computerbildschirmen (Anti-Moiré)",
     "tech_detect_3": "Whiteboard-Marker-Handschrift",
     "tech_detect_4": "Schwach beleuchtete Fotos aus dunklen Räumen",
     "tech_detect_5": "Verschiedene Schriftarten und Textgrößen in einem Bild",
-
     "tech_tips_title": "Tipps für bessere Fotos",
     "tech_tips_1": "Tippen Sie auf Ihren Bildschirm, um die Kamera zu fokussieren",
     "tech_tips_2": "Halten Sie Ihr Telefon so ruhig wie möglich",
     "tech_tips_3": "Versuchen Sie, harte Schatten von oben zu vermeiden",
     "tech_tips_4": "Füllen Sie das Bildfenster möglichst vollständig mit dem Text",
     "tech_tips_5": "Schalten Sie den Blitz aus, wenn Sie eine glänzende Seite fotografieren",
-
     "related_tools_title": "Weitere Dokumententools",
-
     "related_tool_1_name": "Bild in Excel",
     "related_tool_1_desc": "Datentabellen aus Bildern in Tabellenkalkulationen extrahieren",
-
     "related_tool_2_name": "Foto in Word",
     "related_tool_2_desc": "Kamerafotos direkt in Word umwandeln",
-
     "related_tool_3_name": "Handschrift in Text",
     "related_tool_3_desc": "Spezialisierte Transkription von Schreibschrift und Notizen",
-
     "related_tool_4_name": "Online-Editor",
     "related_tool_4_desc": "Bearbeiten Sie Ihre Dokumente sicher im Browser",
-
     "faq_title": "Häufig gestellte Fragen (Foto zu Word)",
-
     "cta_title": "Bereit, Text aus Ihrem Bild zu extrahieren?",
     "cta_subtitle": "Laden Sie Ihr Foto direkt von Ihrem Telefon oder Computer hoch.",
     "cta_button": "Foto jetzt hochladen",
-
     "footer_text": "NoteOCR // Vision AI Verarbeitung",
-
     "tool_upload_title": "Laden Sie Ihr Bild hoch",
     "tool_upload_desc": "Wählen Sie ein Foto aus Ihrer Kamerarolle oder vom Computer. Wir extrahieren den Text und generieren eine formatierte Word-Datei.",
     "tool_upload_button": "Bild auswählen",
     "tool_upload_check_1": "Handy-Fotos unterstützt",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Auto-Löschung nach 24h",
-
     "tool_processing_title": "Bild wird analysiert...",
     "tool_processing_desc": "Kamerawinkel werden korrigiert und Text extrahiert",
-
     "tool_complete_title": "Bild konvertiert!",
     "tool_complete_desc": "Der Text aus Ihrem Foto wurde erfolgreich extrahiert. Laden Sie Ihre bearbeitbare Datei unten herunter.",
     "tool_complete_file_type": "Word-Dokument (.docx)",
     "tool_complete_status": "BEREIT",
     "tool_download_button": "Word herunterladen",
     "tool_new_button": "Anderes Foto konvertieren",
-
     "tool_info_1_title": "Vollständig bearbeitbar",
     "tool_info_1_desc": "Text wird extrahiert, nicht nur als Bild eingefügt",
-
     "tool_info_2_title": "Smarte Formatierung",
     "tool_info_2_desc": "Absätze und Zeilenumbrüche werden wiederhergestellt",
-
     "tool_info_3_title": "Universelles DOCX",
     "tool_info_3_desc": "Öffnet sich in MS Word, Google Docs & Pages",
-
     "tool_tip_label": "Kamera-Tipp:",
     "tool_tip_text": "Wenn Sie ein Bild von einem Hochglanzmagazin oder Lehrbuch machen, schalten Sie den Blitz Ihres Smartphones aus. Ein massiver weißer Blendfleck kann die Wörter verbergen und die OCR-Genauigkeit verringern.",
-
     "toast_success": "Bild erfolgreich konvertiert!",
     "toast_error_type": "Bitte laden Sie eine gültige Fotodatei hoch (JPG, PNG)",
     "toast_error_size": "Foto-Dateigröße muss unter 25 MB liegen",
     "toast_error_conversion": "Konvertierung fehlgeschlagen. Das Bild könnte zu verschwommen sein.",
     "toast_download_success": "Word-Dokument heruntergeladen!",
     "toast_download_error": "Download fehlgeschlagen.",
-
     "FAQ": {
       "items": {
         "how_to_convert_photo": {
@@ -3410,146 +3107,110 @@
   "HandwrittenInvoice": {
     "meta_title": "Handschriftliche Rechnungen in Excel umwandeln | Belegdaten-Extraktion",
     "meta_desc": "Automatisieren Sie Ihre Buchhaltung. Extrahieren Sie Positionen, Preise und Daten aus handschriftlichen Rechnungen und Belegen direkt in formatierte Excel-Tabellen.",
-
     "hero_pill": "Finanzdaten-OCR",
     "hero_title": "Handschriftliche Rechnungen in Excel umwandeln",
     "hero_subtitle": "Hören Sie auf, Lieferantenbelege und Bestellungen manuell abzutippen. Unsere KI extrahiert präzise Rechnungspositionen, Mengen und Preise aus handschriftlichen Rechnungen in saubere, bearbeitbare .xlsx-Tabellen.",
-
     "trust_ssl": "SICHERER FINANZ-UPLOAD",
     "trust_processing": "AUTOMATISIERTE POSITIONEN",
     "trust_accuracy": "99% ZAHLENGENAUIGKEIT",
-
     "before_after_title": "Vom Papierbeleg zur digitalen Excel-Tabelle",
     "before_after_desc": "Beobachten Sie, wie unsere KI unordentliche handschriftliche Positionen perfekt in saubere Excel-Zeilen zuordnet.",
     "before_label": "Vorher: Handschriftliche Rechnung",
     "before_placeholder": "",
     "after_label": "Nachher: Excel-Positionen",
     "after_placeholder": "",
-
     "use_cases_title": "Wer automatisiert Rechnungen mit NoteOCR?",
     "use_cases_subtitle": "Entwickelt für Finanzexperten, die ihre Zeit schätzen.",
-
     "use_case_1_title": "Buchhalter & Treuhänder",
     "use_case_1_desc": "Verarbeiten Sie Kunden-Schuhkartons voller handschriftlicher Belege und Papierrechnungen in Minuten statt Stunden am Ende des Monats.",
-
     "use_case_2_title": "Kleinunternehmer",
     "use_case_2_desc": "Digitalisieren Sie gekritzelte Lieferantenrechnungen, Handwerkerrechnungen und handschriftliche Bestellungen, um Ihre Ausgaben genau zu verfolgen.",
-
     "use_case_3_title": "Spesenverfolgung",
     "use_case_3_desc": "Wandeln Sie handschriftliche Restaurantbelege oder Feldspesen in strukturierte CSV-Dateien um, um sie einfach in die Spesensoftware Ihres Unternehmens hochzuladen.",
-
     "use_case_4_title": "Steuervorbereitung",
     "use_case_4_desc": "Rechnen Sie schnell physische, handschriftliche Spendenquittungen oder Geschäftsausgaben in einem sauberen Excel-Hauptbuch für die Steuersaison zusammen.",
-
     "comparison_title": "Rechnungsdateneingabe im Vergleich",
     "comparison_subtitle": "Warum die manuelle Buchhaltung Ihre Gewinnmargen verbrennt.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Zeit pro Rechnung",
     "comparison_col_accuracy": "Finanzielle Genauigkeit",
     "comparison_col_cost": "Arbeitskosten",
-
     "comparison_row1_method": "Manuelle Dateneingabe",
     "comparison_row1_time": "3-5 Minuten",
     "comparison_row1_accuracy": "Anfällig für Tippfehler",
     "comparison_row1_cost": "20€+/Stunde",
-
     "comparison_row2_method": "Standard-OCR-Apps",
     "comparison_row2_time": "1 Minute",
     "comparison_row2_accuracy": "Vertauscht oft Spalten",
     "comparison_row2_cost": "Variiert",
-
     "comparison_row3_method": "NoteOCR Rechnungs-Engine",
     "comparison_row3_time": "15 Sekunden",
     "comparison_row3_accuracy": "Perfekte Zeilenausrichtung",
     "comparison_row3_cost": "Kostenlos testen",
-
     "features_title": "Fortschrittliche Rechnungs-Extraktion",
     "features_subtitle": "Speziell auf Finanzdokumente und unordentliche Zahlen trainiert.",
-
     "feature_1_title": "Erkennung von Einzelpositionen",
     "feature_1_desc": "Unsere KI trennt Beschreibungen, Mengen, Einzelpreise und Gesamtbeträge automatisch in eigene, eindeutige Excel-Spalten.",
-
     "feature_2_title": "Hohe numerische Genauigkeit",
     "feature_2_desc": "Standard-OCR hat Probleme mit handschriftlichen Zahlen. Wir verwenden spezialisierte neuronale Netze, um sicherzustellen, dass 4en, 9en, Dezimalstellen und Währungssymbole perfekt gelesen werden.",
-
     "feature_3_title": "Unterstützt unordentliche Handschrift",
     "feature_3_desc": "Handwerker und Lieferanten haben oft eine schreckliche Handschrift. Unsere Engine ist darauf ausgelegt, eilige Schreibschrift und unordentliche Druckschrift auf physischen Belegen zu entziffern.",
-
     "tech_title": "Wie wir Finanzdokumente verarbeiten",
     "tech_intro": "Rechnungen sind komplex, da sie fließende Daten (wie Datum und Rechnungsnummer oben) und tabellarische Daten (die Positionen in der Mitte) enthalten. NoteOCR kartiert diese räumliche Beziehung perfekt.",
-
     "tech_detect_title": "Was unsere KI extrahiert",
     "tech_detect_1": "Artikelbeschreibungen und SKUs",
     "tech_detect_2": "Mengen und Preisspalten",
     "tech_detect_3": "Zwischensummen, Steuerzeilen und Gesamtsummen",
     "tech_detect_4": "Handschriftliche Daten und Rechnungsnummern",
     "tech_detect_5": "Währungssymbole (€, $, £)",
-
     "tech_tips_title": "Tipps für Buchhalter",
     "tech_tips_1": "Glätten Sie zerknitterte Belege vor dem Fotografieren",
     "tech_tips_2": "Stellen Sie sicher, dass das Licht keine Schatten auf die Summe wirft",
     "tech_tips_3": "Halten Sie die Kamera direkt über die Rechnung",
     "tech_tips_4": "Stellen Sie sicher, dass Dezimalpunkte auf dem Foto sichtbar sind",
     "tech_tips_5": "Überprüfen Sie die Endsummen in Excel, um Übereinstimmung sicherzustellen",
-
     "related_tools_title": "Weitere Finanz-OCR-Tools",
-
     "related_tool_1_name": "Rechnung in Excel",
     "related_tool_1_desc": "Positionen aus handschriftlichen Belegen extrahieren",
-
     "related_tool_2_name": "Inventur in Excel",
     "related_tool_2_desc": "Handschriftliche Bestandszählungen in Daten umwandeln",
-
     "related_tool_3_name": "Scan in Word",
     "related_tool_3_desc": "Gedruckte HR-Richtlinien und Handbücher digitalisieren",
-
     "related_tool_4_name": "Handschrift in Text",
     "related_tool_4_desc": "Handschriftliche Besprechungsnotizen transkribieren",
-
     "faq_title": "Häufig gestellte Fragen (Rechnungen zu Excel)",
-
     "cta_title": "Hören Sie auf, Rechnungen abzutippen.",
     "cta_subtitle": "Lassen Sie die KI Ihre Dateneingabe erledigen. Laden Sie jetzt Ihre erste handschriftliche Rechnung hoch.",
     "cta_button": "Rechnung in Excel umwandeln",
-
     "footer_text": "NoteOCR // Intelligente Finanzdaten-Extraktion",
-
     "tool_upload_title": "Handschriftliche Rechnung hochladen",
     "tool_upload_desc": "Unterstützt Fotos und Scans von handschriftlichen Rechnungen, Belegen und Bestellungen. Wir extrahieren die Positionen in Excel.",
     "tool_upload_button": "Rechnungsbild auswählen",
     "tool_upload_check_1": "JPG, PNG unterstützt",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Banken-Level Verschlüsselung",
-
     "tool_processing_title": "Positionen werden extrahiert...",
     "tool_processing_desc": "Preise, Mengen und Beschreibungen werden erkannt",
-
     "tool_complete_title": "Rechnung extrahiert!",
     "tool_complete_desc": "Ihre Positionen wurden in eine Excel-Tabelle umgewandelt. Laden Sie diese unten herunter.",
     "tool_complete_file_type": "Excel-Tabelle (.xlsx)",
     "tool_complete_status": "BEREIT",
     "tool_download_button": "Excel herunterladen",
     "tool_new_button": "Nächste Rechnung verarbeiten",
-
     "tool_info_1_title": "Spalten ausgerichtet",
     "tool_info_1_desc": "Preise und Beschreibungen sauber getrennt",
-
     "tool_info_2_title": "Zahlengenauigkeit",
     "tool_info_2_desc": "Hochpräzise Dezimal- und Ziffernerkennung",
-
     "tool_info_3_title": "Bereit zum Import",
     "tool_info_3_desc": "Einfacher Upload in DATEV oder Lexware",
-
     "tool_tip_label": "Buchhaltungs-Tipp:",
     "tool_tip_text": "Wenn Sie planen, diese Daten in eine Buchhaltungssoftware zu importieren, öffnen Sie die heruntergeladene Excel-Datei und speichern Sie sie als .CSV (Comma Separated Values)-Format für einen nahtlosen Upload.",
-
     "toast_success": "Rechnung erfolgreich extrahiert!",
     "toast_error_type": "Bitte laden Sie eine gültige Bilddatei hoch",
     "toast_error_size": "Dateigröße muss unter 25 MB liegen",
     "toast_error_extraction": "Extraktion fehlgeschlagen. Die Handschrift ist möglicherweise zu verblasst.",
     "toast_download_success": "Excel-Hauptbuch heruntergeladen!",
     "toast_download_error": "Download fehlgeschlagen.",
-
     "FAQ": {
       "items": {
         "how_to_convert_invoice": {
@@ -3598,146 +3259,110 @@
   "InventoryToExcel": {
     "meta_title": "Handschriftliche Inventur in Excel | Bestandszählung OCR",
     "meta_desc": "Hören Sie auf, Lagerbestände manuell abzutippen. Wandeln Sie Fotos von handschriftlichen Inventurlisten, Klemmbrettern und Strichlisten direkt in bearbeitbare Excel-Tabellen um.",
-
     "hero_pill": "Bestands- & Inventur-OCR",
     "hero_title": "Klemmbrett-Bestände in Excel-Tabellen umwandeln",
     "hero_subtitle": "Konvertieren Sie Ihre physischen Inventurprüfungen in Sekunden. Machen Sie ein Foto von Ihren handschriftlichen Bestandslisten, und unsere KI extrahiert SKUs, Artikelnamen und Mengen direkt in eine formatierte .xlsx-Datei.",
-
     "trust_ssl": "PRIVATE DATENVERARBEITUNG",
     "trust_processing": "MASSEN-SKU-ERKENNUNG",
     "trust_accuracy": "99% MENGENGENAUIGKEIT",
-
     "before_after_title": "Vom physischen Klemmbrett zum digitalen Tracker",
     "before_after_desc": "Sehen Sie, wie wir unordentliche Lagerzählungen in strukturierte Excel-Zeilen umwandeln.",
     "before_label": "Vorher: Handschriftliche Bestandsliste",
     "before_placeholder": "",
     "after_label": "Nachher: Excel-Inventarliste",
     "after_placeholder": "",
-
     "use_cases_title": "Wer automatisiert die Inventur mit NoteOCR?",
     "use_cases_subtitle": "Entwickelt für Unternehmen, die physische Bestandsprüfungen durchführen.",
-
     "use_case_1_title": "Lagerleiter",
     "use_case_1_desc": "Wandeln Sie mehrseitige handschriftliche Lagerprotokolle und zyklische Zählungen sofort in Excel um und halten Sie Ihre Lieferkette in Bewegung.",
-
     "use_case_2_title": "Einzelhandelsgeschäfte",
     "use_case_2_desc": "Machen Sie Fotos von Ihren monatlichen Einzelhandelsbestandsaufnahmen und laden Sie sie hoch, um Ihr POS-System oder Ihren Shopify-Store per CSV zu aktualisieren.",
-
     "use_case_3_title": "Restaurant- & Barpersonal",
     "use_case_3_desc": "Hören Sie auf, das wöchentliche Lebensmittel- und Getränkeinventar abzutippen. Digitalisieren Sie Ihre Küchenklemmbretter direkt in Ihre Wareneinsatz-Tabellen.",
-
     "use_case_4_title": "Geräteverfolgung",
     "use_case_4_desc": "Wandeln Sie handschriftliche Abmeldelisten, Werkzeugprotokolle und Asset-Tracker aus dem Außendienst problemlos in durchsuchbare digitale Datenbanken um.",
-
     "comparison_title": "Inventur: Manuell vs. NoteOCR",
     "comparison_subtitle": "Warum die manuelle Eingabe von Bestandsdaten Ihr Unternehmen Geld kostet.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Zeit pro Seite",
     "comparison_col_accuracy": "SKU-Genauigkeit",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Manuelles Tippen",
     "comparison_row1_time": "15-30 Minuten",
     "comparison_row1_accuracy": "Anfällig für menschliche Fehler",
     "comparison_row1_cost": "20€/Stunde Arbeitszeit",
-
     "comparison_row2_method": "Standard-Mobilscanner",
     "comparison_row2_time": "2 Minuten",
     "comparison_row2_accuracy": "Erzeugt flache Bilder",
     "comparison_row2_cost": "Kostenlos",
-
     "comparison_row3_method": "NoteOCR Inventur-KI",
     "comparison_row3_time": "20 Sekunden",
     "comparison_row3_accuracy": "Formatiert Daten in Zeilen",
     "comparison_row3_cost": "Kostenlos testen",
-
     "features_title": "Gebaut für unordentliche Lager-Handschriften",
     "features_subtitle": "Wir wissen, dass physische Inventurzählungen oft in Eile gemacht werden. Unsere KI passt sich an.",
-
     "feature_1_title": "Alphanumerische SKU-Erkennung",
     "feature_1_desc": "Artikelcodes sind komplexe Mischungen aus Buchstaben und Zahlen. Unsere neuronalen Netze sind darauf trainiert, eine '0' von einem 'O' und eine '1' von einem 'l' in handschriftlichen SKUs zu unterscheiden.",
-
     "feature_2_title": "Spaltenformatierung",
     "feature_2_desc": "Ob Sie Linien auf Ihr Papier gezeichnet oder einfach Platz gelassen haben, NoteOCR trennt Ihre Artikelnamen, SKUs und Mengen in eigene, eindeutige Excel-Spalten.",
-
     "feature_3_title": "Als CSV für POS-Systeme exportieren",
     "feature_3_desc": "Laden Sie Ihre Daten als Excel-Datei herunter oder exportieren Sie sie als CSV, um Ihre aktualisierten Bestandszählungen nahtlos in Shopify, Square oder JTL hochzuladen.",
-
     "tech_title": "Wie wir physische Bestandslisten verarbeiten",
     "tech_intro": "Inventurlisten sind berüchtigt für schlechte Handschrift und verschmierte Tinte. NoteOCR verwendet spezialisierte Table Structure Recognition (TSR), um das Raster Ihres Klemmbretts zu rekonstruieren.",
-
     "tech_detect_title": "Was unsere KI extrahiert",
     "tech_detect_1": "Lange Seriennummern und SKUs",
     "tech_detect_2": "Mengen, Gewichte und Maßeinheiten",
     "tech_detect_3": "Durchgestrichene Artikel und Korrekturen",
     "tech_detect_4": "Mehrspaltige Klemmbrett-Layouts",
     "tech_detect_5": "Daten, Standorte und Gangnummern",
-
     "tech_tips_title": "Tipps für schnellere Audits",
     "tech_tips_1": "Stellen Sie sicher, dass die Lagerbeleuchtung beim Fotografieren hell ist",
     "tech_tips_2": "Schreiben Sie SKUs so leserlich wie möglich",
     "tech_tips_3": "Halten Sie die Spalten auf leerem Papier einigermaßen ausgerichtet",
     "tech_tips_4": "Machen Sie Fotos vom Klemmbrett direkt von oben",
     "tech_tips_5": "Überprüfen Sie die endgültigen Excel-Mengen anhand Ihrer Regale",
-
     "related_tools_title": "Weitere Geschäftsdaten-Tools",
-
     "related_tool_1_name": "Rechnung in Excel",
     "related_tool_1_desc": "Positionen aus handschriftlichen Belegen extrahieren",
-
     "related_tool_2_name": "Inventur in Excel",
     "related_tool_2_desc": "Handschriftliche Bestandszählungen in Daten umwandeln",
-
     "related_tool_3_name": "Scan in Word",
     "related_tool_3_desc": "Gedruckte HR-Richtlinien und Handbücher digitalisieren",
-
     "related_tool_4_name": "Handschrift in Text",
     "related_tool_4_desc": "Handschriftliche Besprechungsnotizen transkribieren",
-
     "faq_title": "Häufig gestellte Fragen zur Inventur-OCR",
-
     "cta_title": "Hören Sie auf, Ihre Bestände abzutippen.",
     "cta_subtitle": "Machen Sie ein Foto von Ihrem Klemmbrett und lassen Sie NoteOCR Ihre Tabelle erstellen.",
     "cta_button": "Inventur jetzt konvertieren",
-
     "footer_text": "NoteOCR // Industrielle Datenextraktion",
-
     "tool_upload_title": "Handschriftliche Inventurliste hochladen",
     "tool_upload_desc": "Unterstützt Fotos von Klemmbrettern, Bestandszählungen und Strichlisten. Wir extrahieren die Daten in ein bearbeitbares Excel-Raster.",
     "tool_upload_button": "Inventur-Foto auswählen",
     "tool_upload_check_1": "JPG, PNG unterstützt",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Löscht nach 24h",
-
     "tool_processing_title": "Bestände werden extrahiert...",
     "tool_processing_desc": "SKUs, Artikel und Mengen werden erkannt",
-
     "tool_complete_title": "Inventur extrahiert!",
     "tool_complete_desc": "Ihre Bestandszählung ist jetzt eine Excel-Tabelle. Laden Sie sie unten herunter.",
     "tool_complete_file_type": "Excel-Tabelle (.xlsx)",
     "tool_complete_status": "BEREIT",
     "tool_download_button": "Excel herunterladen",
     "tool_new_button": "Nächste Seite verarbeiten",
-
     "tool_info_1_title": "Raster erhalten",
     "tool_info_1_desc": "SKUs und Mengen in separaten Spalten",
-
     "tool_info_2_title": "Hohe Genauigkeit",
     "tool_info_2_desc": "Trainiert auf unordentliche, eilige Handschrift",
-
     "tool_info_3_title": "CSV-kompatibel",
     "tool_info_3_desc": "Bereit für den Upload in Ihr POS-System",
-
     "tool_tip_label": "Lager-Tipp:",
     "tool_tip_text": "Wenn Sie liniertes Papier oder gedruckte Rasterbögen auf Ihrem Klemmbrett verwenden, nutzt unsere KI diese Linien, um Ihre Spalten in Excel mit nahezu 100%iger struktureller Genauigkeit perfekt zu trennen.",
-
     "toast_success": "Inventur erfolgreich extrahiert!",
     "toast_error_type": "Bitte laden Sie eine gültige Bilddatei hoch",
     "toast_error_size": "Dateigröße muss unter 25 MB liegen",
     "toast_error_extraction": "Extraktion fehlgeschlagen. Das Foto könnte zu unscharf sein.",
     "toast_download_success": "Excel-Tabelle heruntergeladen!",
     "toast_download_error": "Download fehlgeschlagen.",
-
     "FAQ": {
       "items": {
         "how_to_convert_inventory": {
@@ -3786,146 +3411,110 @@
   "HandwrittenTimesheet": {
     "meta_title": "Handschriftliche Stundenzettel in Excel umwandeln | Lohnabrechnung OCR",
     "meta_desc": "Hören Sie auf, Mitarbeiterstunden manuell einzugeben. Wandeln Sie Fotos von handschriftlichen Stundenzetteln, Schichtprotokollen und Stempelkarten direkt in Excel-Tabellen für die Gehaltsabrechnung um.",
-
     "hero_pill": "Lohn- & Gehaltsdaten-Automatisierung",
     "hero_title": "Handschriftliche Stundenzettel zu Excel automatisieren",
     "hero_subtitle": "Führen Sie Gehaltsabrechnungen schneller durch. Machen Sie ein Foto von den handschriftlichen Zeitkarten oder Schichtprotokollen Ihres Teams, und unsere KI extrahiert Mitarbeiternamen, Daten und Stunden direkt in eine formatierte .xlsx-Tabelle.",
-
     "trust_ssl": "SICHERE HR-DATEN",
     "trust_processing": "SCHNELLE STUNDENZETTEL-OCR",
     "trust_accuracy": "99% ZAHLENGENAUIGKEIT",
-
     "before_after_title": "Vom Papier-Stundenzettel zur digitalen Abrechnung",
     "before_after_desc": "Beobachten Sie, wie unsere KI unordentliche handschriftliche Stunden perfekt in saubere Excel-Zeilen zuordnet.",
     "before_label": "Vorher: Handschriftliches Team-Protokoll",
     "before_placeholder": "",
     "after_label": "Nachher: Excel Gehaltsdaten",
     "after_placeholder": "",
-
     "use_cases_title": "Wer automatisiert Stundenzettel mit NoteOCR?",
     "use_cases_subtitle": "Entwickelt für Branchen, die beim Einstempeln auf physisches Papier angewiesen sind.",
-
     "use_case_1_title": "Bau & Handwerk",
     "use_case_1_desc": "Digitalisieren Sie schmutzige, handschriftliche Teamlisten von der Baustelle. Extrahieren Sie Mitarbeiternamen und tägliche Stunden in Excel, bevor Sie sie an die Buchhaltung senden.",
-
     "use_case_2_title": "Gastronomie & Hotellerie",
     "use_case_2_desc": "Konvertieren Sie wöchentliche Papierpläne, Schichtwechsel und handschriftliche Kellner-Einstempelungen in ein sauberes digitales Format für den Geschäftsführer.",
-
     "use_case_3_title": "Landschaftsbau & Außendienst",
     "use_case_3_desc": "Hören Sie auf, unordentliche Handschriften Ihrer Außendienstmitarbeiter entziffern zu wollen. Machen Sie ein Foto vom Wochenprotokoll und formatieren Sie es sofort für die Gehaltsabrechnung.",
-
     "use_case_4_title": "Gesundheitswesen & Pflege",
     "use_case_4_desc": "Wandeln Sie handschriftliche Anwesenheitslisten und physische Überstundenprotokolle aus verschiedenen Krankenhausstationen problemlos in durchsuchbare digitale Datenbanken um.",
-
     "comparison_title": "Lohn-Dateneingabe im Vergleich",
     "comparison_subtitle": "Warum manuelle Stundenzettel-Eingabe ein Risiko für Ihr Unternehmen darstellt.",
     "comparison_col_method": "Methode",
     "comparison_col_time": "Aufgewendete Zeit",
     "comparison_col_accuracy": "Abrechnungsfehler",
     "comparison_col_cost": "Kosten",
-
     "comparison_row1_method": "Manuelles Tippen",
     "comparison_row1_time": "2+ Stunden am Freitag",
     "comparison_row1_accuracy": "Hohes Tippfehlerrisiko",
     "comparison_row1_cost": "25€/Stunde Verwaltung",
-
     "comparison_row2_method": "Standard-OCR-Scanner",
     "comparison_row2_time": "5 Minuten",
     "comparison_row2_accuracy": "Durcheinander in Spalten",
     "comparison_row2_cost": "Kostenlos",
-
     "comparison_row3_method": "NoteOCR Stundenzettel-KI",
     "comparison_row3_time": "30 Sekunden",
     "comparison_row3_accuracy": "Perfekte Zeilenausrichtung",
     "comparison_row3_cost": "Kostenlos testen",
-
     "features_title": "Fortschrittliche Lohn-Extraktion",
     "features_subtitle": "Speziell darauf trainiert, Namen, Daten und Stunden präzise zu lesen.",
-
     "feature_1_title": "Erkennung von Zeitformaten",
     "feature_1_desc": "Unsere KI versteht verschiedene Zeitformate, unabhängig davon, ob Ihre Mitarbeiter 08:00, 8:00 Uhr oder einfach 8,5 Stunden schreiben.",
-
     "feature_2_title": "Spaltenausrichtung",
     "feature_2_desc": "Auch wenn Ihre Mitarbeiter außerhalb der Linien schreiben, trennt NoteOCR Mitarbeitername, Datum, Kommen, Gehen und Gesamtstunden in getrennte Excel-Spalten.",
-
     "feature_3_title": "CSV-Export für DATEV & Lexware",
     "feature_3_desc": "Laden Sie Ihre Stundenzettel-Daten als Excel-Datei herunter oder exportieren Sie sie als CSV, um die Stunden nahtlos in Ihre bevorzugte Lohnsoftware hochzuladen.",
-
     "tech_title": "Wie wir Papier-Stundenzettel verarbeiten",
     "tech_intro": "Das Lesen von handschriftlichen Namen und Zahlen auf einem verschmierten Stück Papier erfordert fortschrittliche Optische Zeichenerkennung. NoteOCR verwendet eine intelligente Layout-Analyse, um sicherzustellen, dass die richtigen Stunden dem richtigen Mitarbeiter zugeordnet werden.",
-
     "tech_detect_title": "Was unsere KI extrahiert",
     "tech_detect_1": "Kursive und gedruckte Mitarbeiternamen",
     "tech_detect_2": "Kommen- und Gehen-Zeiten",
     "tech_detect_3": "Dezimalzahlen (z.B. 7,5 Stunden) und Brüche",
     "tech_detect_4": "Handschriftliche Daten und Wochentage",
     "tech_detect_5": "Unterschriften und Vorgesetzten-Genehmigungen",
-
     "tech_tips_title": "Tipps für HR-Manager",
     "tech_tips_1": "Glätten Sie gefaltete Stundenzettel vor dem Fotografieren",
     "tech_tips_2": "Sorgen Sie für gute Beleuchtung, damit Kommas sichtbar sind",
     "tech_tips_3": "Halten Sie die Kamera direkt über die Anwesenheitsliste",
     "tech_tips_4": "Bitten Sie Ihre Mitarbeiter, ihre Zahlen leserlich zu schreiben",
     "tech_tips_5": "Führen Sie immer eine kurze visuelle Überprüfung durch, bevor Sie die Löhne abrechnen",
-
     "related_tools_title": "Weitere Business-Automatisierungstools",
-
     "related_tool_1_name": "Rechnung in Excel",
     "related_tool_1_desc": "Positionen aus handschriftlichen Belegen extrahieren",
-
     "related_tool_2_name": "Inventur in Excel",
     "related_tool_2_desc": "Handschriftliche Bestandszählungen in Daten umwandeln",
-
     "related_tool_3_name": "Scan in Word",
     "related_tool_3_desc": "Gedruckte HR-Richtlinien und Handbücher digitalisieren",
-
     "related_tool_4_name": "Handschrift in Text",
     "related_tool_4_desc": "Handschriftliche Besprechungsnotizen transkribieren",
-
     "faq_title": "Häufig gestellte Fragen zu Stundenzettel-OCR",
-
     "cta_title": "Hören Sie auf, Mitarbeiterstunden abzutippen.",
     "cta_subtitle": "Lassen Sie KI Ihre Freitags-Dateneingabe erledigen. Laden Sie jetzt Ihren ersten Stundenzettel hoch.",
     "cta_button": "Stundenzettel in Excel umwandeln",
-
     "footer_text": "NoteOCR // Intelligente Lohn-Extraktion",
-
     "tool_upload_title": "Handschriftlichen Stundenzettel hochladen",
     "tool_upload_desc": "Unterstützt Fotos von Team-Protokollen, Anwesenheitslisten und Papier-Stundenzetteln. Wir extrahieren alle Daten präzise in eine saubere Excel-Tabelle.",
     "tool_upload_button": "Stundenzettel-Bild auswählen",
     "tool_upload_check_1": "JPG, PNG unterstützt",
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "Banken-Level Verschlüsselung",
-
     "tool_processing_title": "Mitarbeiterstunden werden extrahiert...",
     "tool_processing_desc": "Namen, Daten und Kommen-Zeiten werden erkannt",
-
     "tool_complete_title": "Stundenzettel extrahiert!",
     "tool_complete_desc": "Ihre Lohnabrechnungsdaten sind jetzt eine Excel-Tabelle. Laden Sie sie unten herunter.",
     "tool_complete_file_type": "Excel-Tabelle (.xlsx)",
     "tool_complete_status": "BEREIT",
     "tool_download_button": "Excel herunterladen",
     "tool_new_button": "Nächsten Stundenzettel verarbeiten",
-
     "tool_info_1_title": "Raster erhalten",
     "tool_info_1_desc": "Schön in Zeilen und Spalten angeordnet",
-
     "tool_info_2_title": "Hohe Genauigkeit",
     "tool_info_2_desc": "Trainiert auf unordentliche, eilige Handschrift",
-
     "tool_info_3_title": "CSV-kompatibel",
     "tool_info_3_desc": "Bereit für den Upload in Ihr Lohnabrechnungssystem",
-
     "tool_tip_label": "Lohn-Tipp:",
     "tool_tip_text": "Wenn Sie planen, diese Daten in eine Lohnsoftware zu importieren, öffnen Sie die heruntergeladene Excel-Datei und speichern Sie sie als .CSV (Comma Separated Values)-Format für einen nahtlosen Upload.",
-
     "toast_success": "Stundenzettel erfolgreich extrahiert!",
     "toast_error_type": "Bitte laden Sie eine gültige Bilddatei hoch",
     "toast_error_size": "Dateigröße muss unter 25 MB liegen",
     "toast_error_extraction": "Extraktion fehlgeschlagen. Das Foto könnte zu unscharf sein.",
     "toast_download_success": "Excel-Tabelle heruntergeladen!",
     "toast_download_error": "Download fehlgeschlagen.",
-
     "FAQ": {
       "items": {
         "how_to_convert_timesheet": {

@@ -14,7 +14,6 @@
     "meta_title": "Konverter håndskrift til tekst | KI OCR for skråskrift | NoteOCR",
     "meta_desc": "Konverter håndskrevne notater og skråskrift til redigerbar digital tekst umiddelbart. Verdens mest presise KI for håndskriftsgjenkjenning."
   },
-
   "Features": {
     "section_label": "Økosystemet",
     "main_title_1": "Alt du trenger for å digitalisere",
@@ -61,7 +60,6 @@
     "step_3_desc": "Dokumentet gjenoppbygges i Word, Excel eller Notion, klart for redigering.",
     "processing": "Behandler..."
   },
-
   "Why": {
     "label": "HVORFOR VELGE OSS",
     "title_main": "Slutt å fikse",
@@ -111,7 +109,6 @@
       }
     }
   },
-
   "FAQ": {
     "title_main": "Ofte stilte",
     "title_highlight": "spørsmål",
@@ -234,150 +231,113 @@
       }
     }
   },
-
   "WordPage": {
     "meta_title": "Konverter håndskrevne notater til Word (DOCX) | NoteOCR",
     "meta_desc": "Slutt å skrive inn på nytt. Konverter håndskrevne notater til redigerbare Word-dokumenter med KI. Bevarer lister, overskrifter og layoutstruktur automatisk.",
-
     "hero_pill": "Smart dokumentgjenkjenning",
     "hero_title": "Konverter håndskrevne notater til Word-dokumenter",
     "hero_subtitle": "Slutt å renskrive notatene dine. Vår KI konverterer håndskrevne sider til redigerbare .docx-filer og bevarer lister, overskrifter, marger og den opprinnelige layoutstrukturen.",
-
     "trust_ssl": "SSL-KRYPTERT",
     "trust_processing": "30-SEKUNDERS BEHANDLING",
     "trust_accuracy": "95 % TEKSTNØYAKTIGHET",
-
     "before_after_title": "Se forskjellen",
     "before_after_desc": "Ekte konvertering som viser bevart struktur og formatering",
     "before_label": "Før: Håndskrevne notater",
     "before_placeholder": "[Last opp de håndskrevne notatene dine for å se resultater her]",
     "after_label": "Etter: Word-dokument",
     "after_placeholder": "[Forhåndsvisning av formatert Word-dokument]",
-
     "use_cases_title": "Hvem konverterer håndskrevne notater til Word?",
     "use_cases_subtitle": "Fra studenter til profesjonelle, tusenvis digitaliserer håndskrevne notater daglig",
-
     "use_case_1_title": "Studenter og forskere",
     "use_case_1_desc": "Konverter forelesningsnotater, forskningsjournaler og studiematerialer til søkbare Word-dokumenter for essay-skriving og kildehenvisning.",
-
     "use_case_2_title": "Næringsliv",
     "use_case_2_desc": "Digitaliser møtenotater, whiteboard-økter og konferansenotater til formaterte dokumenter for teamdeling og rapporter.",
-
     "use_case_3_title": "Forfattere og journalister",
     "use_case_3_desc": "Gjør håndskrevne utkast, historieoppsett og intervjunotater om til redigerbare manuskripter klare for redigering og publisering.",
-
     "use_case_4_title": "Arkivarer og historikere",
     "use_case_4_desc": "Konverter historiske dokumenter, personlige brev og dagboknotater til digitale arkiver for bevaring og forskning.",
-
     "comparison_title": "Håndskrevne notater til Word: Metoder sammenlignet",
     "comparison_subtitle": "Hvorfor NoteOCR sparer timer sammenlignet med manuell inntasting",
     "comparison_col_method": "Metode",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Nøyaktighet",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuell inntasting",
     "comparison_row1_time": "60 minutter/side",
     "comparison_row1_accuracy": "98 % (tregt, kjedelig)",
     "comparison_row1_cost": "Gratis (din tid)",
-
     "comparison_row2_method": "Enkle OCR-verktøy",
     "comparison_row2_time": "10 minutter",
     "comparison_row2_accuracy": "70 % (mister formatering)",
     "comparison_row2_cost": "Gratis-$15",
-
     "comparison_row3_method": "NoteOCR Word Converter",
     "comparison_row3_time": "30 sekunder",
     "comparison_row3_accuracy": "95 % med layout bevart",
     "comparison_row3_cost": "$8/100 sider",
-
     "features_title": "Hvorfor vår håndskrift-OCR er annerledes",
     "features_subtitle": "Spesialbygd for å konvertere håndskrevne notater til Word",
-
     "feature_1_title": "Bevaring av layout",
     "feature_1_desc": "I motsetning til grunnleggende OCR som bare spytter ut ren tekst, oppdager vår KI lister, overskrifter, avsnitt og marger. Word-dokumentet ditt samsvarer med notatbokens opprinnelige struktur og formatering.",
-
     "feature_2_title": "Gjenkjenning av skråskrift og blokkbokstaver",
     "feature_2_desc": "Avanserte nevrale nettverk trent på millioner av håndskriftsprøver. Håndterer rotete blekk, skråskrift, blandede stiler og til og med overstrykninger med høy nøyaktighet.",
-
     "feature_3_title": "Personvern-først behandling",
     "feature_3_desc": "Notatene dine krypteres under opplasting, behandles i isolerte containere, og slettes permanent etter konvertering. Vi lagrer eller deler aldri ditt håndskrevne innhold.",
-
     "tech_title": "Hvordan håndskriftsgjenkjenning fungerer",
     "tech_intro": "Standard OCR-verktøy behandler håndskrevet tekst som maskinskrevet, noe som ødelegger den opprinnelige formateringen. NoteOCRs spesialiserte KI analyserer pennestrøk, avstandsmønstre og dokumentstruktur for å gjenskape notatene dine som et riktig formatert Word-dokument, og bevarer lister, innrykk og avsnittsskift nøyaktig slik du skrev dem.",
-
     "tech_detect_title": "Hva vi oppdager",
     "tech_detect_1": "Avsnitt, lister og overskrifter",
     "tech_detect_2": "Skråskrift og trykte bokstaver",
     "tech_detect_3": "Overstreket tekst og rettelser",
     "tech_detect_4": "Marger og innrykk",
     "tech_detect_5": "Notatbok og løse ark",
-
     "tech_tips_title": "Tips for beste resultater",
     "tech_tips_1": "Bruk god belysning når du fotograferer",
     "tech_tips_2": "Hold kameraet parallelt med siden",
     "tech_tips_3": "300 DPI for skannede dokumenter",
     "tech_tips_4": "Sørg for god kontrast mellom blekk og papir",
     "tech_tips_5": "Gå gjennom resultatet før ferdigstillelse",
-
     "related_tools_title": "Relaterte OCR-verktøy",
-
     "related_tool_1_name": "Bilde til Word",
     "related_tool_1_desc": "Konverter håndskrevet tekst til formaterte dokumenter",
-
     "related_tool_2_name": "Rediger PDF online (ingen installasjon)",
     "related_tool_2_desc": "Last opp og rediger PDF-dokumenter online fra hvor som helst",
-
     "related_tool_3_name": "Online dokumentredigering",
     "related_tool_3_desc": "Rediger MS Word- eller Excel-dokumenter på nett gratis",
-
     "related_tool_4_name": "Bilde til tekst",
     "related_tool_4_desc": "Konverter skråskrift i bilder til formatert redigerbar tekst",
-
     "faq_title": "Ofte stilte spørsmål om konvertering fra håndskrift til Word",
-
     "cta_title": "Klar for å digitalisere de håndskrevne notatene dine?",
     "cta_subtitle": "Bli med 50 000+ studenter og profesjonelle som har konvertert notater med NoteOCR",
     "cta_button": "Konverter notatene dine nå",
-
     "footer_text": "NoteOCR // Intelligent dokumentbehandling",
-
     "tool_upload_title": "Last opp håndskrevne notater",
     "tool_upload_desc": "Støtter forelesningsnotater, møtereferater, journaler og forskningsoppgaver. Fungerer med skråskrift, blokkbokstaver og blandet håndskrift.",
     "tool_upload_button": "Velg bilde",
     "tool_upload_check_1": "JPG, PNG, PDF",
     "tool_upload_check_2": "Maks 25 MB",
     "tool_upload_check_3": "SSL-sikker",
-
     "tool_processing_title": "Analyserer håndskrift...",
     "tool_processing_desc": "KI gjenkjenner tegn og bevarer layout",
-
     "tool_complete_title": "Konvertering fullført!",
     "tool_complete_desc": "Word-dokumentet ditt er klart. Last ned og rediger i Microsoft Word eller Google Docs.",
     "tool_complete_file_type": "Word-dokument (.docx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Last ned Word",
     "tool_new_button": "Nytt dokument",
-
     "tool_info_1_title": "Layout bevart",
     "tool_info_1_desc": "Lister, overskrifter og avsnitt forblir intakte",
-
     "tool_info_2_title": "95 % nøyaktighet",
     "tool_info_2_desc": "Optimalisert for skråskrift og trykte bokstaver",
-
     "tool_info_3_title": "DOCX-format",
     "tool_info_3_desc": "Kompatibel med Word, Docs og Pages",
-
     "tool_tip_label": "Pro-tips:",
     "tool_tip_text": "For best resultat, fotografer notatene dine med god belysning og hold kameraet parallelt med siden. Sørg for tilstrekkelig kontrast mellom blekk og papir for optimal tegngjenkjenning.",
-
     "toast_success": "Transkribering fullført!",
     "toast_error_type": "Vennligst last opp et gyldig bilde (JPG, PNG, WEBP) eller en PDF-fil",
     "toast_error_size": "Filstørrelsen må være under 25 MB",
     "toast_error_conversion": "Konvertering mislyktes.",
     "toast_download_success": "Word-dokument lastet ned!",
     "toast_download_error": "Nedlasting mislyktes.",
-
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -463,153 +423,112 @@
       }
     }
   },
-
   "PdfPage": {
     "meta_title": "Rediger skannede PDF-er på nett med OCR | Gratis PDF-editor | NoteOCR",
     "meta_desc": "Nettleserbasert PDF-editor for skannede dokumenter. Trekk ut håndskrevet tekst med KI OCR, legg til signaturer, rediger innhold, ingen programvare kreves.",
-
     "hero_pill": "Profesjonelt PDF-arbeidsområde",
     "hero_title": "Rediger skannede PDF-er på nett med KI OCR",
     "hero_subtitle": "Den eneste nettleserbaserte PDF-editoren bygget for skannede dokumenter. Last opp håndskrevne PDF-er, trekk ut tekst med OCR, legg til signaturer, eller lag nye dokumenter, alt uten programvare.",
-
     "trust_ssl": "SSL-KRYPTERT",
     "trust_processing": "UMIDDELBAR BEHANDLING",
     "trust_accuracy": "HÅNDSKRIFT OCR",
-
     "workspace_title": "Et komplett online dokument-arbeidsområde",
     "workspace_subtitle": "Mer enn bare OCR. Last opp dokumentene dine til et sikkert miljø hvor du kan redigere, søke og administrere filene dine helt i skyen.",
-
     "workspace_feature_1_title": "Live tekstredigering",
     "workspace_feature_1_desc": "Endre utvunnet tekst direkte i nettleseren din. Rett skrivefeil, omformater avsnitt og oppdater data før du eksporterer.",
-
     "workspace_feature_2_title": "Personvern først",
     "workspace_feature_2_desc": "Dokumentene dine er kryptert og behandles i en sikker sandkasse. Vi lagrer aldri sensitive data uten tillatelse.",
-
     "workspace_feature_3_title": "Umiddelbar eksport",
     "workspace_feature_3_desc": "Ferdig med å redigere? Last ned det oppryddede dokumentet ditt som en søkbar PDF, Word-dokument eller Excel-ark umiddelbart.",
-
     "use_cases_title": "Hvem redigerer skannede PDF-er på nett?",
     "use_cases_subtitle": "Fra advokatfirmaer til helsevesenet, tusenvis redigerer skannede dokumenter daglig",
-
     "use_case_1_title": "Juridisk profesjonelle",
     "use_case_1_desc": "Rediger skannede kontrakter, signer juridiske dokumenter digitalt, sladd sensitiv informasjon og forbered saksmapper. Perfekt for advokater som håndterer skannede rettsdokumenter.",
-
     "use_case_2_title": "Små bedrifter",
     "use_case_2_desc": "Fyll ut skannede skjemaer, legg til firmasignaturer på fakturaer, kombiner PDF-er til rapporter, og kommenter forslag uten dyre Adobe-abonnementer.",
-
     "use_case_3_title": "Studenter og lærere",
     "use_case_3_desc": "Kommenter i skannede lærebøker, kombiner klassenotater til studieguider, fyll ut stipendskjemaer og konverter håndskrevne oppgaver til søkbare PDF-er.",
-
     "use_case_4_title": "Helsepersonell",
     "use_case_4_desc": "Rediger inntaksskjemaer for pasienter, digitaliser håndskrevne medisinske journaler, legg til HIPAA-kompatible signaturer, og organiser skannede medisinske kart.",
-
     "comparison_title": "PDF-redigering: Desktop vs. Online verktøy",
     "comparison_subtitle": "Hvorfor nettleserbasert redigering slår desktop-programvare",
     "comparison_col_tool": "Verktøy",
     "comparison_col_access": "Tilgang",
     "comparison_col_features": "Funksjoner",
     "comparison_col_cost": "Pris",
-
     "comparison_row1_tool": "Adobe Acrobat Pro",
     "comparison_row1_access": "Krever installasjon og oppdateringer",
     "comparison_row1_features": "Full, ingen OCR for håndskrift",
     "comparison_row1_cost": "$19.99/måned",
-
     "comparison_row2_tool": "Grunnleggende nett-editorer",
     "comparison_row2_access": "Nettbasert",
     "comparison_row2_features": "Begrenset OCR, ingen håndskrift",
     "comparison_row2_cost": "Gratis-$10",
-
     "comparison_row3_tool": "NoteOCR PDF Editor",
     "comparison_row3_access": "Umiddelbar, nettleserbasert",
     "comparison_row3_features": "OCR + håndskrift + full dokumentredigering",
     "comparison_row3_cost": "Gratis-$8",
-
     "features_title": "Hvorfor vår editor for skannede PDF-er er annerledes",
     "features_subtitle": "Spesialbygd for redigering av skannede og håndskrevne PDF-er",
-
     "feature_1_title": "OCR for skannede PDF-er",
     "feature_1_desc": "Konverter skannede dokumenter og håndskrevne PDF-er til søkbar, redigerbar tekst. Vår KI gjenkjenner håndskrift, maskinskrevet tekst og tabellstrukturer mens den bevarer den opprinnelige layouten din.",
-
     "feature_2_title": "Full redigeringspakke",
     "feature_2_desc": "Legg til tekst, tegn signaturer, sett inn bilder, uthev seksjoner og omorganiser sider. Alle standard PDF-redigeringsverktøy i et profesjonelt nett-arbeidsområde, ingen desktop-programvare kreves.",
-
     "feature_3_title": "Nettleserbasert sikkerhet",
     "feature_3_desc": "Bankgrad-kryptering for opplastinger. PDF-ene dine behandles lokalt i nettleseren din når det er mulig, med serverbehandling i isolerte containere. Slettes automatisk etter 24 timer.",
-
     "tech_title": "Hvordan nettleserbasert PDF OCR fungerer",
     "tech_intro": "Tradisjonelle PDF-editorer fungerer bare med digital tekst. NoteOCR kombinerer avansert OCR (Optical Character Recognition) med layout-analyse for å håndtere skannede dokumenter, håndskrevne skjemaer og bildebaserte PDF-er, alt i nettleseren din. Vi oppdager tekstposisjonering, bevarer formatering og gjør hele dokumentet søkbart og redigerbart uten installasjon av programvare.",
-
     "tech_support_title": "Hva vi støtter",
     "tech_support_1": "Håndskrevne dokumenter og skjemaer",
     "tech_support_2": "Skannede kontrakter og juridiske filer",
     "tech_support_3": "Bildebaserte PDF-er uten tekstlag",
     "tech_support_4": "Digitale signaturer og merknader",
     "tech_support_5": "Flersidige PDF-dokumenter",
-
     "tech_tips_title": "Tips for beste resultater",
     "tech_tips_1": "Skann med 300 DPI eller høyere",
     "tech_tips_2": "Sørg for god belysning og kontrast",
     "tech_tips_3": "Hold sidene flate uten krøller",
     "tech_tips_4": "Bruk farger/gråtoner for håndskrift",
     "tech_tips_5": "Last opp direkte fra skanner når det er mulig",
-
     "related_tools_title": "Relaterte OCR-verktøy",
-
     "related_tool_1_name": "Bilde til Word",
     "related_tool_1_desc": "Konverter håndskrevet tekst til formaterte dokumenter",
-
     "related_tool_2_name": "Rediger PDF online (ingen installasjon)",
     "related_tool_2_desc": "Last opp og rediger PDF-dokumenter online fra hvor som helst",
-
     "related_tool_3_name": "Online dokumentredigering",
     "related_tool_3_desc": "Rediger MS Word- eller Excel-dokumenter på nett gratis",
-
     "related_tool_4_name": "Bilde til tekst",
     "related_tool_4_desc": "Konverter skråskrift i bilder til formatert redigerbar tekst",
-
     "faq_title": "Ofte stilte spørsmål om redigering av skannede PDF-er",
-
     "cta_title": "Klar til å redigere skannede PDF-er på nett?",
     "cta_subtitle": "Bli med 100 000+ brukere som har redigert skannede dokumenter med NoteOCRs nettleserbaserte PDF-editor",
     "cta_button": "Start redigeringen nå",
-
     "tool_main_title": "Profesjonelt PDF-arbeidsområde",
     "tool_main_desc": "Last opp skannede PDF-er med håndskrift for OCR, eller start et tomt dokument for å lage fra bunnen av.",
     "tool_upload_button": "Last opp skannet PDF",
     "tool_new_button": "Start fra bunnen",
-
     "tool_upload_check_1": "Kun PDF",
     "tool_upload_check_2": "Maks 25 MB",
     "tool_upload_check_3": "SSL-sikker",
-
     "tool_info_1_title": "Håndskrift OCR",
     "tool_info_1_desc": "Trekk ut tekst fra skannede håndskrevne dokumenter",
-
     "tool_info_2_title": "Full redigeringspakke",
     "tool_info_2_desc": "Legg til tekst, signaturer, kommentarer og mer",
-
     "tool_info_3_title": "Nettleserbasert",
     "tool_info_3_desc": "Ingen nedlasting av programvare kreves, fungerer umiddelbart",
-
     "tool_tip_label": "Pro-tips:",
     "tool_tip_text": "For best mulig OCR-resultat på skannede PDF-er, sørg for at dokumentene skannes med 300 DPI med god kontrast. Håndskrevne skjemaer fungerer best når de fotograferes med jevn belysning.",
-
     "modal_new_title": "Opprett ny PDF",
     "modal_new_desc": "Start med et blankt lerret og bygg dokumentet ditt fra bunnen av.",
     "modal_new_button": "Opprett blank PDF",
-
     "modal_upload_title": "Last opp skannet PDF",
     "modal_upload_desc": "Importer den skannede PDF-en for å trekke ut tekst med OCR, legge til signaturer eller redigere innhold.",
     "modal_upload_placeholder": "Klikk eller dra PDF hit",
     "modal_upload_info": "Maks filstørrelse: 25 MB • Skannede og håndskrevne PDF-er støttes",
-
     "modal_processing_new": "Oppretter arbeidsområde...",
     "modal_processing_upload": "Behandler PDF...",
     "modal_processing_desc": "Setter opp ditt sikre PDF-miljø",
-
     "modal_security_badge": "Bankgrad-kryptering",
-
     "toast_success_create": "PDF-arbeidsområde klart!",
     "toast_success_upload": "PDF lastet opp vellykket!",
     "toast_error_type": "Vennligst velg en gyldig PDF-fil",
@@ -617,7 +536,6 @@
     "toast_error_create": "Kunne ikke opprette PDF.",
     "toast_error_upload": "Kunne ikke laste opp PDF",
     "toast_error_drop": "Vennligst slipp en gyldig PDF-fil",
-
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {
@@ -706,20 +624,16 @@
     "router_title": "Hvilken type dokument har du?",
     "router_subtitle": "Vi sender deg til riktig verktøy slik at du får det beste resultatet.",
     "router_back_button": "Tilbake til dokumenttype",
-
     "router_type_standard_label": "Standard / Digital PDF",
     "router_type_standard_desc": "Innskrevne kontrakter, skjemaer eller en hvilken som helst PDF med valgbar tekst. Jeg må redigere, kommentere eller signere den.",
     "router_type_standard_cta": "Fortsett til PDF-redigerer",
-
     "router_type_handwritten_label": "Håndskrevne notater eller dokumenter",
     "router_type_handwritten_desc": "Last opp et bilde eller en skanning av håndskrevne notater, brev eller dokumenter. Vi konverterer dem til en perfekt formatert, redigerbar Word-fil — og bevarer struktur, avstand og layout.",
     "router_type_handwritten_cta": "Konverter håndskrift til Word →",
-
     "router_type_table_label": "Håndskrevne logger, tabeller eller data",
     "router_type_table_desc": "Last opp et bilde eller en skanning av håndskrevne rutenett, regnskapsbøker, inventarlister eller strukturerte opptegnelser. Vi konverterer dem til et rent, profesjonelt formatert Excel-regneark.",
     "router_type_table_cta": "Konverter håndskrift til Excel →"
   },
-
   "EditorPage": {
     "meta_title": "Rediger Office-dokumenter på nett gratis - Nettleserbasert Word, Excel & PowerPoint Editor",
     "meta_desc": "Profesjonell dokumentredigering på nett. Opprett og rediger Word (DOCX), Excel (XLSX) og PowerPoint (PPTX) filer direkte i nettleseren din uten Microsoft Office.",
@@ -914,144 +828,109 @@
   "ExcelPage": {
     "meta_title": "Konverter håndskrevne tabeller til Excel (XLSX) | NoteOCR",
     "meta_desc": "Automatiser dataregistrering. Konverter håndskrevne rutenett, økonomiske tabeller og timeplaner til redigerbare Excel-regneark umiddelbart ved hjelp av KI.",
-
     "hero_pill": "Gjenkjenning av tabellstruktur",
     "hero_title": "Konverter håndskrevne tabeller til Excel-regneark",
     "hero_subtitle": "Slutt å skrive inn data manuelt. Vår KI oppdager rader, kolonner og cellegrenser i de håndskrevne notatene dine, selv uten tegnede linjer, og eksporterer formaterte .xlsx-regneark.",
-
     "trust_ssl": "SSL-KRYPTERT",
     "trust_processing": "2-MINUTTERS BEHANDLING",
     "trust_accuracy": "98 % NUMERISK NØYAKTIGHET",
-
     "before_after_title": "Se forskjellen",
     "before_after_desc": "Ekte konvertering som viser bevart struktur og numerisk nøyaktighet",
     "before_label": "Før: Håndskrevet hovedbok/regnskap",
     "before_placeholder": "[Last opp den håndskrevne tabellen din for å se resultater her]",
     "after_label": "Etter: Excel-resultat",
     "after_placeholder": "[Forhåndsvisning av formatert regneark]",
-
     "use_cases_title": "Hvem bruker konvertering av håndskrift til Excel?",
     "use_cases_subtitle": "Fra regnskapsfirmaer til lærere, tusenvis konverterer håndskrevne tabeller daglig",
-
     "use_case_1_title": "Regnskap og bokføring",
     "use_case_1_desc": "Konverter håndskrevne økonomiske hovedbøker, utgiftsrapporter og kvitteringer til sorterbare Excel-filer for skatteforberedelser og revisjoner.",
-
     "use_case_2_title": "Lagerstyring",
     "use_case_2_desc": "Digitaliser lagertellinger, produktlister og lagerlogger. Perfekt for små bedrifter som sporer varelager på papir.",
-
     "use_case_3_title": "Lærere og karaktergiving",
     "use_case_3_desc": "Gjør håndskrevne karakterbøker og elevlister om til formaterte regneark for karakterutskrifter og fremdriftssporing.",
-
     "use_case_4_title": "Forskning og datainnsamling",
     "use_case_4_desc": "Konverter feltnotater, spørreundersøkelser og laboratoriedata til analyserbare datasett for statistikkprogramvare.",
-
     "comparison_title": "Håndskrevet tabell til Excel: Metoder sammenlignet",
     "comparison_subtitle": "Hvorfor NoteOCR sparer timer sammenlignet med manuell inntasting",
     "comparison_col_method": "Metode",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Nøyaktighet",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuell inntasting",
     "comparison_row1_time": "45 minutter",
     "comparison_row1_accuracy": "95 % (menneskelig feil)",
     "comparison_row1_cost": "Ca 200 kr/time arbeid",
-
     "comparison_row2_method": "Generisk OCR",
     "comparison_row2_time": "10 minutter",
     "comparison_row2_accuracy": "50 % (mister struktur)",
     "comparison_row2_cost": "Gratis-$20",
-
     "comparison_row3_method": "NoteOCR Tabeller",
     "comparison_row3_time": "2 minutter",
     "comparison_row3_accuracy": "98 % struktur bevart",
     "comparison_row3_cost": "$8/100 sider",
-
     "features_title": "Hvorfor vår Tabell OCR er annerledes",
     "features_subtitle": "Spesialbygd for håndskrevne datatabeller",
-
     "feature_1_title": "Smart gitterdeteksjon",
     "feature_1_desc": "Vår KI identifiserer tabellstrukturen selv uten synlige rammer. Den gjenkjenner implisitte kolonner, justert tekst og hierarkiske forhold i håndskrevne oppsett.",
-
     "feature_2_title": "Optimalisert for tall",
     "feature_2_desc": "Perfekt nøyaktighet for økonomiske data. Konverter håndskrevne regnskapsbøker, fakturaer, varetellinger, karakterbøker og utgiftsrapporter mens du bevarer numerisk formatering.",
-
     "feature_3_title": "Eksporter til Excel eller CSV",
     "feature_3_desc": "Last ned dataene dine som Microsoft Excel (.xlsx) med riktig celleformatering, eller eksporter som CSV for import til Google Sheets, databaser eller regnskapsprogrammer.",
-
     "tech_title": "Hvordan gitterdeteksjonsteknologi fungerer",
     "tech_intro": "De fleste OCR-verktøy behandler tabeller som ren tekst, noe som ødelegger celleforholdene. NoteOCRs spesialiserte KI analyserer romlig posisjonering, tekstjusteringsmønstre og visuelle skilletegn for å rekonstruere tabellens nøyaktige struktur – og bevarer overskrifter, formler og sammenslåtte celler.",
-
     "tech_detect_title": "Hva vi oppdager",
     "tech_detect_1": "Cellegrenser uten tegnede linjer",
     "tech_detect_2": "Kolonneoverskrifter og hierarkier",
     "tech_detect_3": "Sammenslåtte celler som spenner over kolonner",
     "tech_detect_4": "Valutasymboler og desimaler",
     "tech_detect_5": "Tabeller på ruteark og blankt papir",
-
     "tech_tips_title": "Tips for beste resultater",
     "tech_tips_1": "Bruk god belysning når du fotograferer",
     "tech_tips_2": "Hold kameraet parallelt med siden",
     "tech_tips_3": "300 DPI for skannede dokumenter",
     "tech_tips_4": "Fang hele tabellen i ett bilde",
     "tech_tips_5": "Sjekk resultatet før kritisk bruk",
-
     "related_tools_title": "Relaterte OCR-verktøy",
-
     "related_tool_1_name": "Bilde til Word",
     "related_tool_1_desc": "Konverter håndskrevet tekst til formaterte dokumenter",
-
     "related_tool_2_name": "Rediger PDF online (ingen installasjon)",
     "related_tool_2_desc": "Last opp og rediger PDF-dokumenter online fra hvor som helst",
-
     "related_tool_3_name": "Online dokumentredigering",
     "related_tool_3_desc": "Rediger MS Word- eller Excel-dokumenter på nett gratis",
-
     "related_tool_4_name": "Bilde til tekst",
     "related_tool_4_desc": "Konverter skråskrift i bilder til formatert redigerbar tekst",
-
     "faq_title": "Ofte stilte spørsmål om Tabell-til-Excel-konvertering",
-
     "cta_title": "Klar til å stoppe manuell dataregistrering?",
     "cta_subtitle": "Bli med 10 000+ brukere som har digitalisert håndskrevne tabeller med NoteOCR",
     "cta_button": "Konverter tabellen din nå",
-
     "tool_upload_title": "Last opp den håndskrevne tabellen",
     "tool_upload_desc": "Støtter håndskrevne hovedbøker, varelister, karakterbøker og datatabeller. Fungerer med eller uten tegnede rammer.",
     "tool_upload_button": "Velg bilde",
     "tool_upload_check_1": "JPG, PNG, JPEG",
     "tool_upload_check_2": "Maks 25 MB",
     "tool_upload_check_3": "SSL-sikker",
-
     "tool_processing_title": "Oppdager tabellstruktur...",
     "tool_processing_desc": "KI analyserer rader, kolonner og cellegrenser",
-
     "tool_complete_title": "Tabell trukket ut vellykket!",
     "tool_complete_desc": "Regnearket ditt er klart. Last ned som Excel (.xlsx) eller CSV-format.",
     "tool_complete_file_type": "Excel-regneark",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Last ned Excel",
     "tool_new_button": "Ny tabell",
-
     "tool_info_1_title": "Smart gjenkjenning",
     "tool_info_1_desc": "Fungerer med tabeller som ikke har tegnede linjer",
-
     "tool_info_2_title": "99 % nøyaktighet",
     "tool_info_2_desc": "Optimalisert for tall og økonomiske data",
-
     "tool_info_3_title": "Excel-format",
     "tool_info_3_desc": "Kompatibel med Excel, Sheets og databaser",
-
     "tool_tip_label": "Pro-tips:",
     "tool_tip_text": "For best resultat, ta bilde av tabellen din med god belysning og hold kameraet parallelt med siden. 300 DPI-skanninger fungerer bedre enn lavoppløselige bilder.",
-
     "toast_success": "Tabell hentet ut vellykket!",
     "toast_error_type": "Vennligst last opp et gyldig bilde (JPG, PNG, WEBP) eller en PDF-fil",
     "toast_error_size": "Filstørrelsen må være under 25 MB",
     "toast_error_extraction": "Utvinning mislyktes.",
     "toast_download_success": "Excel-fil lastet ned!",
     "toast_download_error": "Nedlasting mislyktes.",
-
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1117,7 +996,6 @@
       }
     }
   },
-
   "nav": {
     "product": "Produkt",
     "solutions": "Løsninger",
@@ -1140,7 +1018,6 @@
     "login": "Logg inn",
     "get_started": "Kom i gang"
   },
-
   "Footer": {
     "description": "Gjør håndskrevne notater til rene, redigerbare dokumenter umiddelbart. Sikkert, raskt og bygget for moderne team.",
     "stay_updated": "Hold deg oppdatert",
@@ -1282,57 +1159,112 @@
       "rows": [
         {
           "name": "OCR for trykte bokstaver",
-          "values": [true, true, true, true],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Motor for skråskrift",
-          "values": ["Standard", "Høy", "Ultra", "Ultra"],
+          "values": [
+            "Standard",
+            "Høy",
+            "Ultra",
+            "Ultra"
+          ],
           "group": "core"
         },
         {
           "name": "Deteksjon av tabellgitter (Excel)",
-          "values": [false, false, true, true],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Bevaring av layout (Word)",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Matematiske formler",
-          "values": [false, false, "Grunnleggende", "Avansert"],
+          "values": [
+            false,
+            false,
+            "Grunnleggende",
+            "Avansert"
+          ],
           "group": "core"
         },
         {
           "name": "Korreksjon av rotete blekk",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Eksportformater",
-          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Alle formater"],
+          "values": [
+            "TXT",
+            "DOCX, TXT",
+            "XLSX, DOCX, PDF",
+            "Alle formater"
+          ],
           "group": "formats"
         },
         {
           "name": "Grense for batch-opplasting",
-          "values": ["1 fil", "5 filer", "10 filer", "Ubegrenset"],
+          "values": [
+            "1 fil",
+            "5 filer",
+            "10 filer",
+            "Ubegrenset"
+          ],
           "group": "formats"
         },
         {
           "name": "Varighet på skylagring",
-          "values": ["24 timer", "30 dager", "For alltid", "For alltid"],
+          "values": [
+            "24 timer",
+            "30 dager",
+            "For alltid",
+            "For alltid"
+          ],
           "group": "system"
         },
         {
           "name": "Krypteringsnivå",
-          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "values": [
+            "AES-256",
+            "AES-256",
+            "AES-256",
+            "AES-256"
+          ],
           "group": "system"
         },
         {
           "name": "Behandlingsprioritet",
-          "values": ["Standard", "Standard", "Høy", "Sanntid"],
+          "values": [
+            "Standard",
+            "Standard",
+            "Høy",
+            "Sanntid"
+          ],
           "group": "system"
         }
       ]
@@ -1455,8 +1387,8 @@
       "loading": "Behandler..."
     },
     "sidebar": {
-      "hq_title": "Hovedkvarter i Zürich",
-      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zürich\nSveits",
+      "hq_title": "Hovedkontor",
+      "hq_address": "NoteOCR\n11 Boyo Road, Sapele, Delta State\nNigeria",
       "timezone": "Sentral-europeisk tid (CET)",
       "support": "Generell support",
       "sales": "Bedriftssalg",
@@ -1521,7 +1453,6 @@
   "EducationPage": {
     "meta_title": "Håndskrift til tekst for studenter | Notater til Notion, Obsidian og Anki",
     "meta_desc": "Konverter håndskrevne forelesningsnotater, whiteboards og forskningsjournaler til søkbar, redigerbar tekst. Bygget for studenter, raskt, nøyaktig og gratis å starte.",
-
     "hero": {
       "badge": "Akademisk utgave",
       "title_start": "Håndskriften din,",
@@ -1764,25 +1695,18 @@
     "last_updated": "Sist oppdatert",
     "date": "Januar 2026",
     "welcome_text": "Velkommen til NoteOCR. Disse tjenestevilkårene ('Vilkår') utgjør en juridisk bindende avtale mellom deg ('Bruker', 'du', 'din') og NoteOCR Inc. ('NoteOCR', 'vi', 'oss', 'vår') vedrørende din tilgang til og bruk av nettsiden vår, webapplikasjonen, API-et og alle relaterte tjenester (samlet 'Tjenestene'). Ved å opprette en konto, kjøpe sidekreditter, eller på annen måte få tilgang til Tjenestene, erkjenner du at du har lest, forstått og godtar å være bundet av disse Vilkårene og vår Personvernerklæring.",
-
     "s1_t": "Aksept og kvalifikasjon",
     "s1_c": "Du må være minst 13 år gammel for å bruke NoteOCR. Hvis du bruker Tjenestene på vegne av et selskap, skole eller annen juridisk enhet, erklærer du at du har myndighet til å binde den enheten til disse Vilkårene, i hvilket tilfelle 'du' refererer til den enheten. Brukere under 18 år må ha samtykke fra foreldre eller verge. Vi forbeholder oss retten til å nekte adgang for enhver person eller enhet etter eget skjønn. Ved å fortsette å bruke Tjenestene våre etter eventuelle oppdateringer av disse Vilkårene, godtar du de reviderte Vilkårene i sin helhet.",
-
     "s2_t": "Beskrivelse av tjenester",
     "s2_c": "NoteOCR leverer en KI-drevet plattform for dokumentdigitalisering som konverterer håndskrevne notater, skannede PDF-skjemaer, tavlebilder og andre analoge materialer til redigerbare digitale formater, inkludert Microsoft Word (.docx), Excel (.xlsx) og PDF. Tjenestene inkluderer, men er ikke begrenset til: KI-håndskriftsgjenkjenning (99,2 % nøyaktighet), intelligent rekonstruksjon av layout og format, en nettleserbasert dokumentredigerer, dokumentlagring i skyen, støtte for flere språk på tvers av 30+ skriftsystemer, tabell-til-regneark-uttrekking, og et utvikler-API. Funksjoner kan endres, legges til eller fjernes når som helst. Vi garanterer ikke noe spesifikt utdataformat, nøyaktighetsnivå eller behandlingstid utover det som uttrykkelig er oppgitt i dokumentasjonen vår.",
-
     "s3_t": "Kontoregistrering",
     "s3_c": "For å få tilgang til de fleste funksjonene, må du registrere deg for en konto ved å oppgi en gyldig e-postadresse og et sikkert passord, eller ved å autentisere via en støttet OAuth-leverandør (f.eks. Google). Du samtykker i å oppgi nøyaktig, gjeldende og fullstendig registreringsinformasjon og å holde den oppdatert. Du er eneansvarlig for å opprettholde konfidensialiteten til kontolegitimasjonen din. Du må varsle oss umiddelbart på support@noteocr.com hvis du mistenker uautorisert tilgang til kontoen din. NoteOCR vil ikke være ansvarlig for eventuelle tap som oppstår fra uautorisert kontotilgang forårsaket av din manglende evne til å beskytte legitimasjonen din. Hver konto er for én enkelt bruker; det er ikke tillatt å dele kontoer på tvers av flere personer med mindre du har en organisasjonsplan.",
-
     "s4_t": "Brukerinnhold og lisens",
     "s4_c": "Du beholder fullt eierskap til alle dokumenter, bilder, filer og annet materiale du laster opp til NoteOCR ('Brukerinnhold'). Ved å laste opp Brukerinnhold gir du NoteOCR en begrenset, ikke-eksklusiv, royaltyfri, verdensomspennende lisens til å få tilgang til, behandle, lagre og reprodusere ditt Brukerinnhold utelukkende for å levere, forbedre og vedlikeholde Tjenestene. Denne lisensen opphører når du sletter innholdet ditt eller stenger kontoen din. Du erklærer og garanterer at du eier eller har alle nødvendige rettigheter til Brukerinnholdet du laster opp, og at dette ikke krenker immaterielle rettigheter eller personvernsrettigheter til noen tredjepart. NoteOCR gjør ikke krav på eierskap over dokumentene dine og vil aldri bruke ditt Brukerinnhold til å trene KI eller maskinlæringsmodeller.",
-
     "s5_t": "Immaterielle rettigheter",
     "s5_c": "All teknologi, programvare, kildekode, algoritmer, grensesnitt, design, varemerker, logoer, handelsnavn og proprietære metoder som ligger til grunn for NoteOCR-plattformen — inkludert NoteOCR Engine V2 og alle fremtidige versjoner — er den eksklusive immaterielle eiendommen til NoteOCR Inc. og er beskyttet av gjeldende lover om opphavsrett, varemerker og forretningshemmeligheter. Ingenting i disse Vilkårene overfører noe eierskap til NoteOCRs immaterielle rettigheter til deg. Du gis en begrenset, ikke-overførbar, ikke-underlisensierbar, tilbakekallelig lisens til å få tilgang til og bruke Tjenestene til dine egne lovlige formål i den perioden kontoen din er aktiv. Du kan ikke kopiere, modifisere, dekompilere, reversere (reverse-engineer), demontere eller lage avledede verk av noen del av Tjenestene uten vårt skriftlige forhåndssamtykke.",
-
     "s6_t": "Betalinger og sidekreditter",
     "s6_c": "NoteOCR opererer med en engangsbetalingsmodell. Det er ingen løpende abonnementer. Du kjøper sidekreditter i pakker fra $8 til $25, og kreditter trekkes fra per behandlet side. Kreditter utløper ikke og overføres på ubestemt tid. Alle betalinger behandles sikkert gjennom tredjeparts betalingsleverandører og er underlagt deres vilkår. Alle priser er oppgitt i USD og er inkludert gjeldende skatter med mindre annet er oppgitt. Kjøp kan ikke refunderes når sidebehandlingen har startet. Hvis du mener et gebyr er feil, kontakt support@noteocr.com innen 14 dager etter transaksjonen. NoteOCR forbeholder seg retten til å endre priser med rimelig varsel. Fortsatt bruk av Tjenestene etter en prisendring utgjør aksept av den nye prisingen.",
-
     "s7_t": "Forbudte aktiviteter",
     "prohibited_intro": "Du samtykker i å ikke bruke NoteOCR, direkte eller indirekte, til noen av følgende aktiviteter. Brudd på denne delen kan føre til umiddelbar stenging av kontoen uten refusjon.",
     "prohibited_item_1": "Reversere, dekompilere, demontere eller forsøke å utlede kildekoden, algoritmene eller underliggende modeller av NoteOCR-plattformen.",
@@ -1791,37 +1715,27 @@
     "prohibited_item_4": "Forstyrre, avbryte eller forsøke å få uautorisert tilgang til NoteOCRs servere, nettverk eller sikkerhetssystemer.",
     "prohibited_item_5": "Bruke automatiserte skript, roboter (bots) eller crawlere for å få tilgang til Tjenestene på en måte som overstiger rimelig bruk, uten vårt uttrykkelige skriftlige samtykke.",
     "prohibited_item_6": "Videreselge, underlisensiere eller kommersielt videredistribuere Tjenestene eller utdataene uten å inngå en egen forhandleravtale med NoteOCR Inc.",
-
     "s8_t": "Personvern og datasikkerhet",
     "s8_c": "NoteOCR tar datasikkerhet på alvor. Alle opplastede dokumenter er kryptert under overføring ved hjelp av TLS 1.3 og under lagring ved hjelp av AES-256-kryptering. Filene dine behandles i isolerte datamiljøer og slettes automatisk fra våre behandlingsservere etter at konverteringen er fullført. Lagrede dokumenter i ditt personlige bibliotek beholdes til du sletter dem eller stenger kontoen din. NoteOCR er GDPR-kompatibel og selger, deler eller avslører ikke Brukerinnholdet ditt til tredjeparter for noe annet formål enn å levere Tjenestene. Vi bruker ikke dokumentene dine til å trene eller finjustere noen KI- eller maskinlæringsmodell. For fulle detaljer om hvordan vi samler inn, behandler og beskytter personopplysningene dine, vennligst les vår Personvernerklæring på noteocr.com/privacy.",
-
     "s9_t": "Ansvarsfraskrivelser og garantier",
     "s9_c": "Tjenestene leveres ('som de er' og 'som tilgjengelig') uten garantier av noe slag, verken uttrykt eller underforstått, inkludert, men ikke begrenset til, underforståtte garantier for salgbarhet, egnethet for et bestemt formål og ikke-krenkelse. NoteOCR garanterer ikke at: (a) Tjenestene vil være uavbrutt, feilfrie eller fri for virus eller skadelige komponenter; (b) nøyaktigheten til OCR-utdata vil oppfylle noen spesifikk terskel for noe bestemt dokument; eller (c) feil i Tjenestene vil bli rettet. OCR-nøyaktighet kan variere basert på håndskriftskvalitet, bildeoppløsning og dokumentkompleksitet. Du påtar deg det fulle ansvaret for å bekrefte nøyaktigheten av konverterte dokumenter før du bruker dem for profesjonelle, juridiske, medisinske eller økonomiske formål.",
-
     "s10_t": "Ansvarsbegrensning",
     "s10_c": "I den grad det er tillatt i henhold til gjeldende lov, skal NoteOCR Inc., dets ledere, styremedlemmer, ansatte og agenter ikke holdes ansvarlig for noen indirekte, tilfeldige, spesielle, følgeskader eller straffeerstatninger, inkludert, men ikke begrenset til, tap av inntekt, tap av data, driftsavbrudd eller tap av omdømme, som oppstår som følge av eller relatert til din bruk av — eller manglende evne til å bruke — Tjenestene, selv om NoteOCR har blitt informert om muligheten for slike skader. Under ingen omstendigheter skal NoteOCRs samlede ansvar overfor deg for alle krav som oppstår i henhold til disse Vilkårene overstige det totale beløpet du betalte til NoteOCR i løpet av de tolv (12) månedene før hendelsen som ga opphav til kravet. Ingenting i disse Vilkårene begrenser ansvar som ikke kan ekskluderes i henhold til gjeldende sveitsisk lov.",
-
     "s11_t": "Skadesløsholdelse",
     "s11_c": "Du samtykker i å holde skadesløs, forsvare og holde NoteOCR Inc. og dets ledere, styremedlemmer, ansatte, entreprenører og partnere ufarlige fra og mot ethvert krav, ansvar, skader, dommer, kjennelser, tap, kostnader og utgifter (inkludert rimelige advokatsalærer) som oppstår som følge av eller relatert til: (a) ditt brudd på disse Vilkårene; (b) ditt Brugerinnhold; (c) din bruk av Tjenestene på en måte som ikke er autorisert av disse Vilkårene; eller (d) din krenkelse av noen tredjeparts immaterielle, personvern- eller andre rettigheter.",
-
     "s12_t": "Oppsigelse",
     "s12_c": "Hver av partene kan si opp denne avtalen når som helst. Du kan slette kontoen din når som helst fra kontoinnstillingene dine, noe som permanent vil fjerne de lagrede dokumentene dine. NoteOCR kan suspendere eller avslutte kontoen din umiddelbart og uten forvarsel hvis vi etter eget skjønn fastslår at du har brutt disse Vilkårene, deltatt i uredelig aktivitet eller utgjort en risiko for sikkerheten eller integriteten til plattformen vår. Ved oppsigelse opphører lisensen din til å bruke Tjenestene umiddelbart. Ubrukte sidekreditter refunderes ikke ved frivillig stenging av konto. Deler relatert til immaterielle rettigheter, skadesløsholdelse, ansvarsbegrensning og gjeldende lov skal overleve oppsigelsen.",
-
     "s13_t": "Endringer i disse Vilkårene",
     "s13_c": "NoteOCR forbeholder seg retten til å oppdatere eller endre disse Vilkårene når som helst etter eget skjønn. Når vi gjør vesentlige endringer, vil vi varsle registrerte brukere via e-post og oppdatere ('Sist oppdatert')-datoen øverst på denne siden. Vi kan også vise en melding inne på plattformen. Din fortsatte bruk av Tjenestene etter ikrafttredelsesdatoen for eventuelle reviderte Vilkår utgjør din aksept av disse endringene. Hvis du ikke godtar de oppdaterte Vilkårene, må du slutte å bruke Tjenestene og kan stenge kontoen din.",
-
     "s14_t": "Gjeldende lov og tvister",
     "s14_c": "Disse Vilkårene og eventuelle tvister som oppstår fra eller er relatert til dem eller Tjenestene, skal utelukkende styres av lovene i Sveits, uten hensyn til dets lovkonfliktregler. Enhver tvist som ikke kan løses uformelt skal sendes til eksklusiv jurisdiksjon for domstolene i Zug, Sveits. Før man starter formelle forhandlinger, er begge parter enige om i god tro å forsøke å løse enhver tvist innen 30 dager ved å kontakte support@noteocr.com. Ingenting i denne delen forhindrer NoteOCR i å søke midlertidig forføyning eller andre rettslige skritt i noen domstol med kompetent jurisdiksjon for å beskytte sine immaterielle rettigheter.",
-
     "s15_t": "Diverse",
     "s15_c": "Disse Vilkårene, sammen med vår Personvernerklæring, utgjør hele avtalen mellom deg og NoteOCR og erstatter alle tidligere avtaler, representasjoner og forståelser. Hvis noen bestemmelse i disse Vilkårene blir funnet å ikke kunne håndheves, vil de gjenværende bestemmelsene fortsette å gjelde i full kraft. NoteOCRs unnlatelse av å håndheve noen rettighet eller bestemmelse i disse Vilkårene skal ikke anses som en fraskrivelse av den rettigheten. Du kan ikke tildele eller overføre rettighetene eller forpliktelsene dine i henhold til disse Vilkårene uten NoteOCRs skriftlige forhåndssamtykke. NoteOCR kan fritt tildele sine rettigheter som en del av en fusjon, et oppkjøp eller et salg av eiendeler. Disse Vilkårene skaper ikke noe partnerskap, joint venture eller ansettelsesforhold mellom deg og NoteOCR.",
-
     "contact_t": "Har du spørsmål om disse Vilkårene?",
     "contact_d": "Vårt juridiske og support-team er tilgjengelig for å avklare ethvert aspekt ved disse Tjenestevilkårene eller plattformens retningslinjer. Vi svarer vanligvis innen én virkedag.",
     "contact_email_label": "Send e-post til vårt juridiske team",
     "contact_response": "Typisk svartid: 1 virkedag"
   },
-
   "PrivacyPage": {
     "meta_title": "Personvernerklæring – NoteOCR | Hvordan vi håndterer dataene dine",
     "meta_desc": "Lær hvordan NoteOCR samler inn, bruker, lagrer og beskytter personopplysningene dine. Vi er fullstendig GDPR-kompatible og bruker aldri dokumentene dine til å trene KI-modeller.",
@@ -1830,46 +1744,32 @@
     "last_updated": "Sist oppdatert",
     "date": "Januar 2026",
     "welcome_text": "NoteOCR Inc. ('NoteOCR', 'vi', 'oss', 'vår') er forpliktet til å beskytte personopplysningene dine. Denne personvernerklæringen forklarer hvordan vi samler inn, bruker, avslører og beskytter informasjon når du besøker nettstedet vårt på noteocr.com eller bruker vår plattform, API og relaterte tjenester (samlet kalt 'Tjenestene'). Denne erklæringen er i samsvar med personvernforordningen (GDPR), den sveitsiske føderale loven om databeskyttelse (nFADP) og andre gjeldende personvernlover. Ved å bruke NoteOCR godtar du praksisene beskrevet i denne Personvernerklæringen.",
-
     "s1_t": "Hvem vi er og behandlingsansvarlig",
     "s1_c": "NoteOCR Inc. er behandlingsansvarlig for personopplysningene dine. Vi er et teknologiselskap innlemmet under sveitsisk lov og med hovedkontor i Zug, Sveits. Tjenestene våre inkluderer en KI-drevet plattform for håndskrifts-OCR, en skybasert dokumentredigerer og et utvikler-API. Hvis du har spørsmål om hvordan vi håndterer personopplysningene dine, kan du kontakte vårt personvernombud på support@noteocr.com. Vi er forpliktet til å håndtere dataene dine transparent, lovlig og med den graden av omsorg de fortjener.",
-
     "s2_t": "Hvilke data vi samler inn",
     "s2_c": "Vi samler inn et minimum av data som er nødvendig for å levere og forbedre Tjenestene våre. Kategoriene av data vi samler inn inkluderer: (a) Kontoinformasjon, ditt navn, e-postadresse og hashet passord når du registrerer deg, eller grunnleggende profilinformasjon fra OAuth-leverandører som Google; (b) Bruksdata, sider behandlet, kredittsaldo, konverteringshistorikk, øktaktivitet og funksjonsinteraksjoner for å støtte kontoen din og forbedre nøyaktigheten; (c) Enhets- og tekniske data, IP-adresse, nettlesertype og -versjon, operativsystem, henvisende URL og generell geografisk region (land eller bynivå) samlet inn automatisk via serverlogger og informasjonskapsler (cookies); (d) Betalingsdata, faktureringsdetaljer og transaksjonsoppføringer, behandlet eksklusivt av våre tredjeparts betalingsbehandlere (Stripe). NoteOCR lagrer aldri fulle kortnumre eller CVV-koder; (e) Kommunikasjon, meldinger du sender oss via e-post eller supportskjemaer, beholdes for å løse henvendelsene dine; (f) Opplastet innhold, dokumenter, bilder og filer du laster opp for OCR-behandling, underlagt de strenge håndteringsreglene beskrevet i del 4.",
-
     "s3_t": "Hvordan vi bruker dataene dine",
     "s3_c": "Vi bruker bare personopplysningene dine til formålene de ble samlet inn for, på følgende juridiske grunnlag: (a) Oppfyllelse av avtale, for å opprette og administrere kontoen din, behandle sidekredittene dine, utføre dokumentkonverteringer og levere tjenestene du har kjøpt; (b) Legitime interesser, for å forhindre svindel, opprettholde plattformsikkerhet, løse tekniske problemer og generere aggregert analyse som hjelper oss med å forbedre produktet; (c) Juridisk forpliktelse, for å overholde gjeldende skatte-, regnskaps- og regulatoriske krav i Sveits og EU; (d) Samtykke, for å sende valgfrie produktoppdateringer og funksjonskunngjøringer via e-post, som du kan trekke tilbake når som helst. Vi selger aldri personopplysningene dine eller bruker dem til annonseringsformål. Vi deler ikke dataene dine med datameglere, annonsenettverk eller noen tredjepart for kommersiell profilering.",
-
     "s4_t": "Dine opplastede dokumenter",
     "s4_c": "Dokumenter du laster opp behandles med høyeste grad av konfidensialitet og er underlagt strenge tekniske kontroller. Alle opplastede filer er kryptert under overføring med TLS 1.3 og lagret med AES-256. Filer behandles i isolerte datamiljøer, og ingen dokumenter blandes med en annen brukers data under behandlingen. Når en konverteringsjobb er fullført, slettes kildefilen automatisk fra behandlingsserverne våre. Hvis du lagrer konverterte dokumenter i NoteOCR-biblioteket ditt, beholdes de til du manuelt sletter dem eller stenger kontoen din. Vi verken får tilgang til, leser, noterer eller analyserer innholdet i dokumentene dine for noe annet formål enn å utføre konverteringen du ba om. Kritisk viktig: NoteOCR bruker aldri innholdet i dine opplastede dokumenter til å trene, finjustere, evaluere eller forbedre noen KI- eller maskinlæringsmodell.",
-
     "s5_t": "Informasjonskapsler (Cookies) og sporing",
     "s5_c": "Vi bruker et minimalt sett med informasjonskapsler og lignende teknologier for å drifte og forbedre tjenestene våre. Strengt nødvendige informasjonskapsler er avgjørende for å autentisere økten din og holde deg pålogget, disse kan ikke deaktiveres. Funksjonelle informasjonskapsler husker dine preferanser som språk og tema. Analyse-informasjonskapsler (valgfritt) hjelper oss med å forstå hvordan sidene brukes på et aggregert nivå slik at vi kan forbedre produktet. Vi bruker personvernvennlig analyse og implementerer ikke tredjeparts annonsekapsler eller sporing på tvers av nettsteder av noe slag. Du kan administrere informasjonskapselpreferansene dine når som helst gjennom nettleserinnstillingene eller informasjonskapselbanneret i plattformen. Deaktivering av valgfrie informasjonskapsler vil ikke påvirke din evne til å bruke kjernetjenestene.",
-
     "s6_t": "Datadeling og tredjeparter",
     "s6_c": "Vi deler personopplysninger med et begrenset sett med pålitelige tjenesteleverandører som bistår oss med å drive plattformen vår, og kun i den grad det er nødvendig. Disse inkluderer: (a) Stripe, betalingsbehandling, underlagt PCI-DSS-samsvar; (b) Google OAuth, valgfri påloggingsautentisering; (c) Skyleverandører, kryptert serverlagring og databehandling, tilgjengelig i US-East (N. Virginia), EU (Frankfurt) og APAC (Singapore) regioner; (d) E-postlevering, transaksjons- og varslings-e-posttjenester. Alle tredjeparts databehandlere er bundet av databehandleravtaler (DPA) som forbyr dem å bruke dataene dine til noe annet formål enn tjenesten de leverer til oss. Vi overfører ikke personopplysninger til tredjeparter for markedsføring, profilering eller kommersielle formål utover driften av tjenestene.",
-
     "s7_t": "Internasjonale dataoverføringer",
     "s7_c": "NoteOCR har hovedkvarter i Sveits, som EU-kommisjonen anerkjenner som å ha et tilstrekkelig databeskyttelsesnivå. Der vi overfører personopplysninger til tjenesteleverandører som opererer utenfor EØS eller Sveits (for eksempel skyinfrastruktur i USA eller APAC), benytter vi EU-kommisjonens standardkontraktsvilkår (SCC-er) eller tilsvarende overføringsmekanismer for å sikre at dataene dine får samme beskyttelsesnivå som de ville gjort innenfor EØS. Du kan velge din foretrukne databehandlingsregion (EU, USA eller APAC) i kontoinnstillingene dine. Som standard tildeles nye kontoer til EU (Frankfurt)-regionen.",
-
     "s8_t": "Datalagringstid",
     "s8_c": "Vi beholder bare personopplysningene dine så lenge det er nødvendig for å oppfylle formålene beskrevet i denne erklæringen. Kontoinformasjon beholdes i hele kontoens levetid og i opptil 90 dager etter kontostenging for å muliggjøre gjenoppretting eller tvisteløsning, før de slettes permanent. Behandlede kildefiler slettes automatisk ved fullført konvertering. Dokumenter lagret i NoteOCR-biblioteket ditt beholdes til du sletter dem eller lukker kontoen din. Betalings- og transaksjonsoppføringer beholdes i 7 år i samsvar med sveitsiske og EU-skatteregler. Supportkommunikasjon oppbevares i opptil 3 år. Anonymiserte og aggregerte analysedata kan beholdes på ubestemt tid ettersom de ikke identifiserer noen enkeltperson.",
-
     "s9_t": "Dine personvernrettigheter",
     "s9_c": "Avhengig av din beliggenhet, kan du ha følgende rettigheter angående personopplysningene dine: Rett til innsyn, be om en kopi av alle personopplysninger vi har om deg; Rett til retting, be om rettelse av unøyaktige eller ufullstendige data; Rett til sletting, be om sletting av personopplysningene dine der det ikke er noe overstyrende juridisk grunnlag for oppbevaring; Rett til begrensning, be om at vi begrenser hvordan vi behandler dataene dine mens en tvist løses; Rett til dataportabilitet, motta dataene dine i et strukturert, maskinlesbart format; Rett til å protestere, protestere mot behandling basert på legitime interesser, inkludert profilering; Rett til å trekke tilbake samtykke, trekke tilbake samtykke til e-postkommunikasjon når som helst uten at det påvirker tidligere behandling. For å utøve noen av disse rettighetene, send en e-post til support@noteocr.com med emnefeltet 'Personvernforespørsel' ('Privacy Request'). Vi vil svare innen 30 dager. Du har også rett til å sende inn en klage til ditt lokale datatilsyn.",
-
     "s10_t": "Sikkerhetstiltak",
     "s10_c": "Vi implementerer tekniske og organisatoriske sikkerhetstiltak utformet for å beskytte personopplysningene dine mot uautorisert tilgang, endring, utlevering eller ødeleggelse. Disse tiltakene inkluderer: AES-256-kryptering under lagring for alle lagrede filer og kontodata; TLS 1.3-kryptering for all data under overføring; isolerte datamiljøer for hver dokumentbehandlingsjobb; rollebasert tilgangskontroll som begrenser intern tilgang til personopplysninger på et strengt behov-for-å-vite-grunnlag; regelmessige sikkerhetsrevisjoner og penetrasjonstesting; og automatisk sletting av kildefiler ved fullført behandling. Til tross for disse tiltakene er ingen metode for overføring over internett eller elektronisk lagring 100 % sikker. Hvis vi blir oppmerksomme på et brudd på personopplysningssikkerheten som utgjør en risiko for dine rettigheter og friheter, vil vi varsle deg og relevant tilsynsmyndighet innen 72 timer som kreves av GDPR.",
-
     "s11_t": "Barns personvern",
     "s11_c": "NoteOCR retter seg ikke mot barn under 13 år, og vi samler ikke bevisst inn personopplysninger fra barn under 13 år. Brukere mellom 13 og 18 år må ha samtykke fra foreldre eller verge før de bruker tjenestene våre, som angitt i Tjenestevilkårene våre. Hvis du er en forelder eller verge og tror barnet ditt har gitt personopplysninger til NoteOCR uten ditt samtykke, vennligst kontakt oss på support@noteocr.com. Vi vil omgående undersøke saken og slette slike data. Vi viser ikke bevisst personlig innhold eller annonsering til mindreårige.",
-
     "s12_t": "Endringer i denne erklæringen",
     "s12_c": "Vi kan oppdatere denne personvernerklæringen fra tid til annen for å gjenspeile endringer i vår praksis, teknologi, juridiske krav eller av andre operasjonelle årsaker. Når vi gjør vesentlige endringer, vil vi varsle registrerte brukere via e-post og oppdatere 'Sist oppdatert'-datoen øverst på denne siden. Vi kan også vise et banner på plattformen for å trekke oppmerksomhet til betydelige endringer. Din fortsatte bruk av tjenestene etter ikrafttredelsesdatoen for en revidert personvernerklæring utgjør din aksept av disse endringene. Vi oppfordrer deg til å gå gjennom denne policyen med jevne mellomrom. Tidligere versjoner av denne policyen er tilgjengelige på forespørsel.",
-
     "s13_t": "Kontakt og Personvernombud",
     "s13_c": "Hvis du har spørsmål, bekymringer eller forespørsler angående denne Personvernerklæringen eller måten vi håndterer personopplysningene dine på, vennligst kontakt oss. Vi er forpliktet til å løse alle personvernrelaterte henvendelser raskt og i god tro. Du har også rett til å eskalere uløste bekymringer til en tilsynsmyndighet. I Sveits er dette Den føderale databeskyttelses- og informasjonskommissæren (FDPIC). I EU kan du kontakte datatilsynet i din medlemsstat (f.eks. Datatilsynet i Norge).",
-
     "rights_title": "Dine rettigheter på et øyeblikk",
     "right_access": "Få innsyn i dataene dine",
     "right_rectify": "Rett unøyaktigheter",
@@ -1878,7 +1778,6 @@
     "right_portability": "Eksporter dataene dine",
     "right_object": "Protester mot profilering",
     "right_consent": "Trekk tilbake samtykke",
-
     "data_table_title": "Data vi samler inn",
     "data_col_type": "Datatype",
     "data_col_purpose": "Formål",
@@ -1904,7 +1803,6 @@
     "data_row5_purpose": "Support-løsning",
     "data_row5_basis": "Legitim interesse",
     "data_row5_retention": "3 år",
-
     "security_title": "Sikkerhetsforpliktelser",
     "security_badge1": "AES-256 ved lagring",
     "security_badge2": "TLS 1.3 under overføring",
@@ -1914,9 +1812,7 @@
     "security_badge6": "Regelmessig Pen-testing",
     "security_badge7": "Ingen modelltrening",
     "security_badge8": "GDPR-kompatibel",
-
     "welcome_text_short": "Vennligst les denne erklæringen nøye. Den beskriver hvordan NoteOCR håndterer personopplysningene dine i et lettfattelig språk.",
-
     "contact_t": "Personvernspørsmål eller dataforespørsler?",
     "contact_d": "Teamet vårt håndterer alle personvernhenvendelser personlig. Enten du vil ha tilgang til, rette opp eller slette dataene dine, eller bare har et spørsmål — vi svarer innen 30 dager som kreves av GDPR.",
     "contact_email_label": "Send e-post til vårt personvernteam",
@@ -1927,7 +1823,6 @@
       "title": "Dokumentasjon | NoteOCR - Håndskrift OCR og Dokumentintelligens",
       "description": "Lær hvordan du konverterer håndskrift til tekst, trekker ut tabeller til Excel og automatiserer dokumentarbeidsflytene dine med NoteOCRs omfattende veiledninger."
     },
-
     "sidebar": {
       "external_links": "Eksterne lenker",
       "api_reference": "API-referanse",
@@ -2027,10 +1922,9 @@
     "billing": {
       "title": "Fakturering og Planer",
       "description": "NoteOCR tilbyr tre nivåer avhengig av dine volumbehov. Alle planer inkluderer vår kjerne-håndskriftsgjenkjenningsmotor, men er forskjellige i behandlingsgrenser, eksportformater og avansert arbeidsflytautomatisering.",
-      "free": "gratis",
+      "free": "Gratis",
       "pro": "Pro",
       "business": "Business",
-      "free": "Gratis",
       "mo": "/mnd",
       "popular": "POPULÆR",
       "limit_prefix": "Grense:",
@@ -2084,144 +1978,109 @@
   "pic-to-excel": {
     "meta_title": "Konverter bilde til Excel på nett | Bilde til Excel KI-konverterer",
     "meta_desc": "Gjør ethvert bilde om til et regneark. Konverter JPG, PNG eller skjermbilder til redigerbar Excel (.xlsx) umiddelbart. Beste KI for datatabeller, fakturaer og håndskrift.",
-
     "hero_pill": "KI Bilde-til-Tabell Teknologi",
     "hero_title": "Konverter bilde til Excel med KI tabellgjenkjenning",
     "hero_subtitle": "Gjør bilder, skjermbilder og håndskrevne notater om til redigerbare Excel-regneark. Ingen manuell inntasting. Støtte for JPG og PNG.",
-
     "trust_ssl": "SSL-KRYPTERT",
     "trust_processing": "UMIDDELBAR KONVERTERING",
     "trust_accuracy": "99 % TABELLNØYAKTIGHET",
-
     "before_after_title": "Fra bilde til regneark",
     "before_after_desc": "Se hvordan vår KI trekker ut data fra statiske bilder til redigerbare celler",
     "before_label": "Før: Bilde / Skjermbilde",
     "before_placeholder": "[Last opp ethvert bilde med en tabell]",
     "after_label": "Etter: Redigerbar Excel",
     "after_placeholder": "[Forhåndsvisning av formatert .xlsx]",
-
     "use_cases_title": "Hvem trenger en Bilde-til-Excel Konverterer?",
     "use_cases_subtitle": "Fra data-assistenter til bedriftseiere, vi automatiserer det kjedelige arbeidet",
-
     "use_case_1_title": "Digitaliser fakturaer og kvitteringer",
     "use_case_1_desc": "Ta bilde av papirfakturaer. Vår KI trekker ut varelinjer, mengder og priser direkte inn i kolonner for regnskapsprogrammet ditt.",
-
     "use_case_2_title": "Skjermbilde til Excel",
     "use_case_2_desc": "Har du en PDF- eller nettsidetabell du ikke kan kopiere-lime inn? Ta et skjermbilde og last det opp. Vi rekonstruerer rutenettet umiddelbart.",
-
     "use_case_3_title": "Håndskrevne logger",
     "use_case_3_desc": "Det eneste verktøyet som håndterer rotete håndskrift. Konverter varelister fra lager og feltjournaler til digitale regneark.",
-
     "use_case_4_title": "Finansielle utskrifter",
     "use_case_4_desc": "Konverter bilder av kontoutskrifter eller trykte hovedbøker. Vi bevarer desimaltegn og valutaformatering for 100 % dataintegritet.",
-
     "comparison_title": "Bilde til Excel: Hvorfor NoteOCR vinner",
     "comparison_subtitle": "Ikke slit med generiske PDF-konverterere",
     "comparison_col_method": "Metode",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Tabellstruktur",
     "comparison_col_cost": "Innsats",
-
     "comparison_row1_method": "Manuell datainntasting",
     "comparison_row1_time": "1 time/side",
     "comparison_row1_accuracy": "Høy risiko for skrivefeil",
     "comparison_row1_cost": "Høy (Kjedelig)",
-
     "comparison_row2_method": "Generiske PDF-verktøy",
     "comparison_row2_time": "5 minutter",
     "comparison_row2_accuracy": "Ødelegges med bilder",
     "comparison_row2_cost": "Frustrerende",
-
     "comparison_row3_method": "NoteOCR KI",
     "comparison_row3_time": "60 sekunder",
     "comparison_row3_accuracy": "Perfekt bevaring av rutenett",
     "comparison_row3_cost": "Automatisert",
-
     "features_title": "Den beste måten å konvertere bilder til tabeller",
     "features_subtitle": "Designet for JPG-er, PNG-er og mobilbilder",
-
     "feature_1_title": "Format-agnostisk",
     "feature_1_desc": "Har du ikke en PDF? Ikke noe problem. Vi spesialiserer oss på rå bildeformater (JPG, JPEG, PNG) som andre konvertere avviser.",
-
     "feature_2_title": "Intelligent rutenett-rekonstruksjon",
     "feature_2_desc": "Vår KI leser ikke bare tekst; den 'ser' rutenettet. Den justerer flytende data inn i rader og kolonner, selv om bildet ble tatt fra en vinkel.",
-
     "feature_3_title": "Mobilførst behandling",
     "feature_3_desc": "Bygget for 'Ta bilde og Gå'-arbeidsflyten. Ta bilde av et dokument på skrivebordet ditt og få en Excel-fil på enheten din på sekunder.",
-
     "tech_title": "Hvordan Bilde-til-Excel KI fungerer",
     "tech_intro": "Å konvertere et 'flatt' bilde til et dynamisk regneark er komplekst. NoteOCR bruker Datasyn (Computer Vision) for å oppdage de visuelle linjene (eller implisitte linjene) til en tabell. Det skiller bildet inn i et koordinatsystem med rutenett, kjører OCR på hver 'celle' individuelt, og setter deretter dataene sammen til en kompatibel .xlsx-fil.",
-
     "tech_detect_title": "Hva vi trekker ut",
     "tech_detect_1": "Tabellstrukturer fra skjermbilder",
     "tech_detect_2": "Data fra skjeve/vinklede bilder",
     "tech_detect_3": "Håndskrevne og maskinskrevne tall",
     "tech_detect_4": "Fler-kolonne oppsett",
     "tech_detect_5": "Topp- og bunntekster",
-
     "tech_tips_title": "Tips for perfekte konverteringer",
     "tech_tips_1": "Sørg for at bildet er i fokus (ikke uskarpt)",
     "tech_tips_2": "Unngå skygger over datatabellen",
     "tech_tips_3": "Beskjær bildet til det relevante tabellområdet",
     "tech_tips_4": "Bruk innstillinger med høy oppløsning (HD)",
     "tech_tips_5": "Sjekk standardformater som JPG eller PNG",
-
     "related_tools_title": "Flere konverteringsverktøy",
-
     "related_tool_1_name": "Bilde til Word",
     "related_tool_1_desc": "Konverter håndskrevet tekst til formaterte dokumenter",
-
     "related_tool_2_name": "Rediger PDF online (ingen installasjon)",
     "related_tool_2_desc": "Last opp og rediger PDF-dokumenter online fra hvor som helst",
-
     "related_tool_3_name": "Online dokumentredigering",
     "related_tool_3_desc": "Rediger MS Word- eller Excel-dokumenter på nett gratis",
-
     "related_tool_4_name": "Bilde til tekst",
     "related_tool_4_desc": "Konverter skråskrift i bilder til formatert redigerbar tekst",
-
     "faq_title": "FAQ: Konvertering av bilder til Excel",
-
     "cta_title": "Gjør bildet om til et regneark",
     "cta_subtitle": "Slutt å skrive inn. Begynn å skanne. Bli med 10 000+ brukere som sparer timer på dataregistrering.",
     "cta_button": "Konverter bilde nå",
-
     "tool_upload_title": "Last opp bilde for å konvertere",
     "tool_upload_desc": "Støtter JPG, PNG, WEBP. Fungerer på skjermbilder, bilder og skannede dokumenter.",
     "tool_upload_button": "Velg bilde",
     "tool_upload_check_1": "Støtter JPG / PNG",
     "tool_upload_check_2": "Ingen registrering kreves",
     "tool_upload_check_3": "Sikker behandling",
-
     "tool_processing_title": "Analyserer bilde...",
     "tool_processing_desc": "Identifiserer tabellstruktur og trekker ut data",
-
     "tool_complete_title": "Excel-fil klar!",
     "tool_complete_desc": "Bildet ditt er konvertert. Last ned regnearket ditt nedenfor.",
     "tool_complete_file_type": "Microsoft Excel (.xlsx)",
     "tool_complete_status": "VELLYKKET",
     "tool_download_button": "Last ned Excel",
     "tool_new_button": "Konverter et nytt",
-
     "tool_info_1_title": "Hvilket som helst bilde",
     "tool_info_1_desc": "JPG, PNG, Skjermbilder støttes",
-
     "tool_info_2_title": "Tabell-KI",
     "tool_info_2_desc": "Bevarer rader og kolonner automatisk",
-
     "tool_info_3_title": "Redigerbar",
     "tool_info_3_desc": "Fullt Excel (.xlsx) output",
-
     "tool_tip_label": "Skanne-tips:",
     "tool_tip_text": "Hvis du konverterer et langt dokument, ta flere bilder nærmere papiret i stedet for ett bilde langt unna. Høyere klarhet tilsvarer bedre nøyaktighet.",
-
     "toast_success": "Bilde konvertert vellykket!",
     "toast_error_type": "Vennligst last opp en gyldig bildefil (JPG, PNG)",
     "toast_error_size": "Filstørrelsen må være under 25 MB",
     "toast_error_extraction": "Kunne ikke oppdage en tabell.",
     "toast_download_success": "Regneark lagret på enheten!",
     "toast_download_error": "Nedlasting mislyktes.",
-
     "FAQ": {
       "items": {
         "pic_to_excel_how": {
@@ -2290,146 +2149,110 @@
   "JpgToWord": {
     "meta_title": "Konverter JPG til Word-dokument | Trekk ut tekst fra JPEG til DOCX",
     "meta_desc": "Konverter JPG- og JPEG-bilder til redigerbare Word-dokumenter umiddelbart. Vår avanserte OCR trekker ut tekst fra bilder, skjermbilder og skanninger mens formateringen bevares.",
-
     "hero_pill": "Rask Bilde-til-tekst OCR",
     "hero_title": "Konverter JPG til Word-dokumenter umiddelbart",
     "hero_subtitle": "Slutt å skrive tekst fra bilder på nytt. Last opp en hvilken som helst JPG, JPEG eller bilde, og vår avanserte KI vil nøyaktig trekke ut teksten til en fullt redigerbar Microsoft Word (.docx) fil.",
-
     "trust_ssl": "256-BIT SIKKER OPPLASTING",
     "trust_processing": "RASK JPEG-BEHANDLING",
     "trust_accuracy": "HØY KVALITET OCR",
-
     "before_after_title": "Fra flatt bilde til redigerbar tekst",
     "before_after_desc": "Se hvordan vi perfekt trekker ut låst tekst fra en JPG til et redigerbart format.",
     "before_label": "Før: Originalt JPG-bilde",
     "before_placeholder": "",
     "after_label": "Etter: Redigerbart Word-dokument",
     "after_placeholder": "",
-
     "use_cases_title": "Hvorfor konvertere JPG til Word?",
     "use_cases_subtitle": "Den enkleste måten å gjøre tekst fanget i bilder fullt redigerbar på.",
-
     "use_case_1_title": "Skannede dokumenter",
     "use_case_1_desc": "Gjør skannede JPEG-er av kontrakter, fakturaer og offisielle brev til redigerbar tekst mens du bevarer avsnitt og oppsett.",
-
     "use_case_2_title": "Skjermbilder og webutklipp",
     "use_case_2_desc": "Konverter JPG-skjermbilder av nettsteder, begrensede PDF-er eller apper til tekst du umiddelbart kan kopiere, redigere og formatere i Word.",
-
     "use_case_3_title": "Bilder av trykte sider",
     "use_case_3_desc": "Tatt et bilde av en bok, manual eller et magasin? Trekk ut teksten nøyaktig uten å måtte skrive et eneste ord.",
-
     "use_case_4_title": "Bilder med håndskrift",
     "use_case_4_desc": "I motsetning til enkle konverteringsverktøy, kan motoren vår også lese og konvertere JPG-bilder som inneholder håndskrevne notater eller whiteboard-økter.",
-
     "comparison_title": "JPG til Word: Hvorfor filkonverterere feiler",
     "comparison_subtitle": "De fleste verktøy limer bare bildet ditt inn i en Word-fil. NoteOCR trekker faktisk ut teksten.",
     "comparison_col_method": "Metode",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Tekstuttrekking",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuell inntasting",
     "comparison_row1_time": "15-30 minutter",
     "comparison_row1_accuracy": "Høy (men langtekkelig)",
     "comparison_row1_cost": "Din tid",
-
     "comparison_row2_method": "Standard filkonverterere",
     "comparison_row2_time": "1 minutt",
     "comparison_row2_accuracy": "0 % (Limer bare inn bildet)",
     "comparison_row2_cost": "Ofte betalt",
-
     "comparison_row3_method": "NoteOCR (KI Uttrekk)",
     "comparison_row3_time": "15 sekunder",
     "comparison_row3_accuracy": "98 %+ Redigerbar tekst",
     "comparison_row3_cost": "Gratis å prøve",
-
     "features_title": "Avansert uttrekk av tekst fra JPG",
     "features_subtitle": "Bygget spesifikt for å hente ut nøyaktig tekst fra bildefiler.",
-
     "feature_1_title": "Godtar JPG og JPEG-formater",
     "feature_1_desc": "Enten filen din slutter på .jpg eller .jpeg, håndterer systemet vårt standard web-bilder, mobilbilder og høyoppløselige kamerabilder perfekt.",
-
     "feature_2_title": "Bevaring av layout og avsnitt",
     "feature_2_desc": "Vi dumper ikke bare ren tekst. Vår OCR oppdager linjeskift, avsnitt og listestrukturer slik at det nedlastede Word-dokumentet ditt ser ut som det originale bildet.",
-
     "feature_3_title": "Flerspråklig støtte",
     "feature_3_desc": "Trekk ut tekst fra JPEG-er på norsk, engelsk, spansk, fransk, tysk og dusinvis av andre språk med spesialisert tegngjenkjenning.",
-
     "tech_title": "Hvordan vår Bilde-til-Word-motor fungerer",
     "tech_intro": "Å konvertere en JPG-fil til et redigerbart Word-dokument krever optisk tegngjenkjenning (OCR). NoteOCR analyserer pikslene i bildet ditt, identifiserer individuelle bokstaver og ord, kartlegger dokumentstrukturen og genererer en ekte Microsoft Word-fil du kan redigere umiddelbart.",
-
     "tech_detect_title": "Hva motoren behandler",
     "tech_detect_1": "Standard trykt tekst og typografi",
     "tech_detect_2": "Skråskrift og håndskrevet tekst i bildet",
     "tech_detect_3": "Avsnittsavstand og linjeskift",
     "tech_detect_4": "Bildekontrast og fjerning av bakgrunnsstøy",
     "tech_detect_5": "Automatisk korreksjon av retning",
-
     "tech_tips_title": "Tips for den beste konverteringen",
     "tech_tips_1": "Sørg for at bildet ikke er uskarpt",
     "tech_tips_2": "Unngå tunge skygger over teksten",
     "tech_tips_3": "Hold teksten parallelt med kameraet",
     "tech_tips_4": "JPEG-er med høyere oppløsning gir bedre resultater",
     "tech_tips_5": "Beskjær ut unødvendige bakgrunner hvis mulig",
-
     "related_tools_title": "Andre konverteringsverktøy",
-
     "related_tool_1_name": "Bilde til Excel",
     "related_tool_1_desc": "Trekk ut datatabeller fra bilder til regneark",
-
     "related_tool_2_name": "Foto til Word",
     "related_tool_2_desc": "Konverter kamerafoto direkte til Word",
-
     "related_tool_3_name": "Håndskrift til tekst",
     "related_tool_3_desc": "Spesialisert transkripsjon av skråskrift og notater",
-
     "related_tool_4_name": "Online Editor",
     "related_tool_4_desc": "Rediger dokumentene dine sikkert i nettleseren",
-
     "faq_title": "Ofte stilte spørsmål om JPG til Word",
-
     "cta_title": "Klar til å trekke ut tekst fra JPG-en din?",
     "cta_subtitle": "Slutt å skrive og begynn å redigere i løpet av sekunder.",
     "cta_button": "Last opp JPG nå",
-
     "footer_text": "NoteOCR // Intelligent Bildebehandling",
-
     "tool_upload_title": "Last opp JPG-bildet ditt",
     "tool_upload_desc": "Støtter standard bilder, skjermbilder og skannede bilder. Vi trekker ut teksten og gir deg et formatert Word-dokument.",
     "tool_upload_button": "Velg JPG / JPEG",
     "tool_upload_check_1": "JPG, JPEG, PNG",
     "tool_upload_check_2": "Maks 25 MB",
     "tool_upload_check_3": "Slettes automatisk etter 24t",
-
     "tool_processing_title": "Trekker ut tekst fra bilde...",
     "tool_processing_desc": "Kjører OCR og formaterer Word-dokumentet ditt",
-
     "tool_complete_title": "Uttrekk fullført!",
     "tool_complete_desc": "Teksten din har blitt trukket ut. Last ned den redigerbare filen din nedenfor.",
     "tool_complete_file_type": "Word-dokument (.docx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Last ned Word",
     "tool_new_button": "Konverter en annen JPG",
-
     "tool_info_1_title": "Fullt redigerbar",
     "tool_info_1_desc": "Teksten er trukket ut, ikke bare limt inn som et bilde",
-
     "tool_info_2_title": "Oppsett beholdt",
     "tool_info_2_desc": "Avsnitt og linjeskift bevares",
-
     "tool_info_3_title": "Universell DOCX",
     "tool_info_3_desc": "Åpnes i MS Word, Google Docs og Pages",
-
     "tool_tip_label": "Pro-tips:",
     "tool_tip_text": "Hvis JPG-en din er veldig mørk eller har lav kontrast, prøv å øke lysstyrken litt på enheten din før du laster opp for den absolutt beste OCR-nøyaktigheten.",
-
     "toast_success": "Bilde konvertert vellykket!",
     "toast_error_type": "Vennligst last opp en gyldig bildefil (JPG, JPEG, PNG)",
     "toast_error_size": "Filstørrelsen må være under 25 MB",
     "toast_error_conversion": "Konvertering mislyktes. Vennligst prøv et tydeligere bilde.",
     "toast_download_success": "Word-dokument lastet ned!",
     "toast_download_error": "Nedlasting mislyktes.",
-
     "FAQ": {
       "items": {
         "how_to_convert": {
@@ -2478,146 +2301,110 @@
   "ScanToWord": {
     "meta_title": "Skanner til Word | Konverter skannede dokumenter til redigerbar tekst",
     "meta_desc": "Konverter skannede dokumenter fra flatbedskanneren eller mobilappen din direkte til redigerbare Microsoft Word-filer med OCR i profesjonell grad.",
-
     "hero_pill": "Profesjonell Dokument OCR",
     "hero_title": "Konverter skanninger til Word-dokumenter",
     "hero_subtitle": "Digitaliser papirarbeidet ditt umiddelbart. Last opp skannede bilder av kontrakter, bøker eller fysiske dokumenter, og vår KI vil rekonstruere dem som fullt redigerbare Microsoft Word (.docx) filer.",
-
     "trust_ssl": "SIKKERHET PÅ BEDRIFTSNIVÅ",
     "trust_processing": "KAPASITET FOR HØYT VOLUM",
     "trust_accuracy": "99 % NØYAKTIGHET FOR TRYKK",
-
     "before_after_title": "Fra fysisk papir til digitalt dokument",
     "before_after_desc": "Se hvordan vi konverterer en flat digital skanning til et fullt bearbeidbart tekstdokument.",
     "before_label": "Før: Skannet papirbilde",
     "before_placeholder": "",
     "after_label": "Etter: Redigerbart Word-dokument",
     "after_placeholder": "",
-
     "use_cases_title": "Hvem bruker vårt Skanner til Word-verktøy?",
     "use_cases_subtitle": "Bygget for profesjonelle som håndterer mye papirarbeid.",
-
     "use_case_1_title": "Jus og Eiendom",
     "use_case_1_desc": "Skann signerte fysiske kontrakter, leieavtaler og skjøter, og konverter dem deretter til Word for enkelt å redigere klausuler eller oppdatere vilkår.",
-
     "use_case_2_title": "Kontoradministrasjon",
     "use_case_2_desc": "Slutt å skrive inn trykte notater, leverandørfakturaer og fysisk post på nytt. Skann og konverter dem til redigerbar tekst på sekunder.",
-
     "use_case_3_title": "Forfattere og utgivere",
     "use_case_3_desc": "Digitaliser gamle bøker som ikke lenger trykkes, trykte manuskripter eller magasinartikler ved hjelp av en flatbedskanner for å lage redigerbare digitale arkiver.",
-
     "use_case_4_title": "Akademisk forskning",
     "use_case_4_desc": "Skann sider fra oppslagsverk eller bibliotekarkiver og konverter dem til Word-dokumenter for enkel sitering, utheving og søkbarhet.",
-
     "comparison_title": "Digitalisere skanninger: Den beste tilnærmingen",
     "comparison_subtitle": "Hvorfor manuell transkripsjon tilhører fortiden for skannede dokumenter.",
     "comparison_col_method": "Metode",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Bevaring av layout",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuell datainntasting",
     "comparison_row1_time": "1 time per 5 sider",
     "comparison_row1_accuracy": "Mister originalt oppsett",
     "comparison_row1_cost": "Høy lønnskostnad",
-
     "comparison_row2_method": "Gratis online konverterere",
     "comparison_row2_time": "2 minutter",
     "comparison_row2_accuracy": "Dårlig (Roter til marger)",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR Skanne-motor",
     "comparison_row3_time": "20 sekunder",
     "comparison_row3_accuracy": "Opprettholder avsnitt og lister",
     "comparison_row3_cost": "Gratis å prøve",
-
     "features_title": "Bygget for skannede medier",
     "features_subtitle": "Avanserte funksjoner for å håndtere særhetene til maskinvareskannere.",
-
     "feature_1_title": "Skjevhetskorrigering (Deskew) og Auto-Rotasjon",
     "feature_1_desc": "Matet du papiret inn i skanneren litt skjevt? Vår motor retter automatisk opp skjeve skanninger før den trekker ut teksten.",
-
     "feature_2_title": "Fjerning av flekker og støy",
     "feature_2_desc": "Gamle skannere etterlater ofte svarte prikker eller linjer på bildet. Vår KI renser den skannede bakgrunnen for å sikre perfekt tekstgjenkjenning.",
-
     "feature_3_title": "Bevarer dokumentstruktur",
     "feature_3_desc": "Opprettholder det fysiske dokumentets overskrifter, kulepunkter og avsnittsinnrykk når teksten migreres til Microsoft Word.",
-
     "tech_title": "Hvordan vi behandler skannede dokumenter",
     "tech_intro": "Når du laster opp et skannet bilde, bruker NoteOCR spesialisert Document Layout Analysis (DLA). I motsetning til grunnleggende verktøy som leser blindt fra venstre til høyre, forstår vår motor det strukturelle hierarkiet til en fysisk side.",
-
     "tech_detect_title": "Hva vår OCR-motor oppdager",
     "tech_detect_1": "Standard trykt typografi og skrifttyper",
     "tech_detect_2": "Oppsett med flere kolonner og sidefelt",
     "tech_detect_3": "Kursiv, fet skrift og understreking",
     "tech_detect_4": "Håndskrevne signaturer på trykte skjemaer",
     "tech_detect_5": "Nummererte lister og kulepunkter",
-
     "tech_tips_title": "Tips for skanningsmaskinvare",
     "tech_tips_1": "Sett skanneren til minst 300 DPI",
     "tech_tips_2": "Lagre skanninger som høykvalitets PNG- eller JPG-filer",
     "tech_tips_3": "Tørk av skannerglasset for å unngå flekker",
     "tech_tips_4": "Press tykke bøger flatt mot glasset",
     "tech_tips_5": "Bruk 'Svart og hvitt'-modus for den skarpeste teksten",
-
     "related_tools_title": "Utforsk flere dokumentverktøy",
-
     "related_tool_1_name": "Bilde til Excel",
     "related_tool_1_desc": "Trekk ut datatabeller fra bilder til regneark",
-
     "related_tool_2_name": "Foto til Word",
     "related_tool_2_desc": "Konverter kamerafoto direkte til Word",
-
     "related_tool_3_name": "Håndskrift til tekst",
     "related_tool_3_desc": "Spesialisert transkripsjon av skråskrift og notater",
-
     "related_tool_4_name": "Online Editor",
     "related_tool_4_desc": "Rediger dokumentene dine sikkert i nettleseren",
-
     "faq_title": "Ofte stilte spørsmål om skannede dokumenter",
-
     "cta_title": "Klar til å digitalisere papirarbeidet ditt?",
     "cta_subtitle": "Gjør de fysiske skanningene om til brukbare Word-filer i dag.",
     "cta_button": "Last opp skanning nå",
-
     "footer_text": "NoteOCR // Profesjonell Skannedigitalisering",
-
     "tool_upload_title": "Last opp den skannede filen din",
     "tool_upload_desc": "Last opp bildefiler (JPG, PNG) generert av din flatbedskanner eller mobile skanne-app.",
     "tool_upload_button": "Velg skannet bilde",
     "tool_upload_check_1": "Høyoppløsning støttes",
     "tool_upload_check_2": "Maks 25 MB",
     "tool_upload_check_3": "Bedriftskonfidensielt",
-
     "tool_processing_title": "Behandler skannet dokument...",
     "tool_processing_desc": "Forbedrer kontrast og kjører layout-analyse",
-
     "tool_complete_title": "Skanning konvertert!",
     "tool_complete_desc": "Din fysiske skanning er nå et digitalt, redigerbart dokument. Last det ned nedenfor.",
     "tool_complete_file_type": "Word-dokument (.docx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Last ned Word",
     "tool_new_button": "Konverter neste skanning",
-
     "tool_info_1_title": "Fullt redigerbar tekst",
     "tool_info_1_desc": "Oppdater klausuler, fiks skrivefeil og formater fritt",
-
     "tool_info_2_title": "Layout intakt",
     "tool_info_2_desc": "Overskrifter og lister overføres til Word",
-
     "tool_info_3_title": "Sikker behandling",
     "tool_info_3_desc": "Skanningene dine blir aldri lagret eller delt",
-
     "tool_tip_label": "Skanne-tips:",
     "tool_tip_text": "For den mest nøyaktige konverteringen, konfigurer den fysiske skanneren til 300 DPI (Dots Per Inch) eller høyere. Lavere oppløsninger kan føre til at bokstaver som 'c' og 'e' flyter sammen.",
-
     "toast_success": "Skanning digitalisert vellykket!",
     "toast_error_type": "Vennligst last opp en gyldig skannet bildefil",
     "toast_error_size": "Skann-filstørrelsen må være under 25 MB",
     "toast_error_conversion": "Konvertering mislyktes. Prøv en skanning med høyere kontrast.",
     "toast_download_success": "Word-dokument lastet ned!",
     "toast_download_error": "Nedlasting mislyktes.",
-
     "FAQ": {
       "items": {
         "how_to_convert_scan": {
@@ -2666,146 +2453,110 @@
   "PhotoToWord": {
     "meta_title": "Konverter foto til Word-dokument | Trekk ut tekst fra bilder",
     "meta_desc": "Ta et bilde og konverter det til tekst. Vår KI trekker ut tekst fra bilder av whiteboards, bøker og skjermer direkte til redigerbare Word-dokumenter.",
-
     "hero_pill": "Kamera til Tekst OCR",
     "hero_title": "Konverter ethvert foto til et Word-dokument",
     "hero_subtitle": "Gjør smarttelefonbildene dine om til redigerbar tekst. Last opp et bilde av en lærebok, en whiteboard eller et presentasjonsbilde, og la vår KI lage en formatert Microsoft Word (.docx) fil på sekunder.",
-
     "trust_ssl": "PRIVAT SIKKER OPPLASTING",
     "trust_processing": "SMART KAMERA KI",
     "trust_accuracy": "LESER VINKLEDE BILDER",
-
     "before_after_title": "Fra kamerarull til Word-fil",
     "before_after_desc": "Se hvordan vi håndterer bilder fra den virkelige verden med kameraskinn og bakgrunnsrot.",
     "before_label": "Før: Smarttelefonbilde",
     "before_placeholder": "",
     "after_label": "Etter: Redigerbart Word-dokument",
     "after_placeholder": "",
-
     "use_cases_title": "Hvilke bilder kan du konvertere?",
     "use_cases_subtitle": "Perfekt for hverdagsbilder tatt på farten.",
-
     "use_case_1_title": "Whiteboard-møter",
     "use_case_1_desc": "Tatt et bilde av tavlen etter en idédugnad? Konverter tusjhåndskriften direkte til møtenotater i Word.",
-
     "use_case_2_title": "Sider i lærebøker",
     "use_case_2_desc": "Slutt å skrive ut sitater til oppgaven din. Ta et bilde av læreboken og trekk ut akkurat de avsnittene du trenger umiddelbart.",
-
     "use_case_3_title": "Presentasjonsbilder",
     "use_case_3_desc": "Sitter du i publikum og har fotografert en PowerPoint-presentasjon? Trekk teksten fra skjermbildet inn i et redigerbart dokument.",
-
     "use_case_4_title": "Oppskrifter og magasiner",
     "use_case_4_desc": "Lagre en fysisk oppskrift eller en interessant magasinartikkel ved å ta et bilde og gjøre det om til en søkbar tekstfil.",
-
     "comparison_title": "Foto-tekstuttrekk sammenlignet",
     "comparison_subtitle": "Hvorfor NoteOCR slår manuell inntasting på et lite mobiltastatur.",
     "comparison_col_method": "Metode",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Håndterer dårlig lys?",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Skriving på telefon",
     "comparison_row1_time": "10-20 minutter",
     "comparison_row1_accuracy": "N/A",
     "comparison_row1_cost": "Din tid",
-
     "comparison_row2_method": "Grunnleggende fotokonverterere",
     "comparison_row2_time": "1 minutt",
     "comparison_row2_accuracy": "Feiler med kameragjenskinn",
     "comparison_row2_cost": "Ofte betalt",
-
     "comparison_row3_method": "NoteOCR Bildemotor",
     "comparison_row3_time": "15 sekunder",
     "comparison_row3_accuracy": "Auto-forbedrer belysning",
     "comparison_row3_cost": "Gratis å prøve",
-
     "features_title": "Bygget for bilder i den virkelige verden",
     "features_subtitle": "Smarttelefonbilder er ikke perfekte. Vår KI er bygget for å håndtere det.",
-
     "feature_1_title": "Perspektivkorrigering",
     "feature_1_desc": "Hvis du tok et bilde av en bokside fra en merkelig vinkel, gjør vår motor automatisk bildet flatt og korrigerer perspektivet før den leser teksten.",
-
     "feature_2_title": "Fjerning av gjenskinn og skygge",
     "feature_2_desc": "Smarttelefonblits og skygger i rommet kan skjule tekst. Vår KI balanserer belysningen i bildet ditt for å sikre tegngjenkjenning med høy nøyaktighet.",
-
     "feature_3_title": "Ignorerer bakgrunnsrot",
     "feature_3_desc": "Fikk du med skrivebordet ditt eller hånden din på bildet? Vårt system beskjærer smart bort bakgrunner uten tekst for å kun fokusere på dokumentet.",
-
     "tech_title": "Hvordan vi leser bildene dine",
     "tech_intro": "Å trekke ut tekst fra et smarttelefonbilde er mye vanskeligere enn å lese en flat digital skanning. NoteOCR bruker intelligent Vision KI for å forstå geometrien til bildet ditt før tegnene konverteres til et Word-dokument.",
-
     "tech_detect_title": "Hva vår Kamera-KI håndterer",
     "tech_detect_1": "Buede sider fra tykke bøker",
     "tech_detect_2": "Bilder tatt av dataskjermer (anti-moiré)",
     "tech_detect_3": "Håndskrift fra whiteboard-tusj",
     "tech_detect_4": "Bilder tatt i svakt lys",
     "tech_detect_5": "Forskjellige skrifttyper og tekststørrelser i ett bilde",
-
     "tech_tips_title": "Tips for å ta bedre bilder",
     "tech_tips_1": "Trykk på telefonskjermen for å fokusere kameraet",
     "tech_tips_2": "Hold telefonen så stødig som mulig",
     "tech_tips_3": "Prøv å unngå harde skygger ovenfra",
     "tech_tips_4": "La teksten fylle mesteparten av bilderammen",
     "tech_tips_5": "Slå av blitsen hvis du fotograferer en blank side",
-
     "related_tools_title": "Andre dokumentverktøy",
-
     "related_tool_1_name": "Bilde til Excel",
     "related_tool_1_desc": "Trekk ut datatabeller fra bilder til regneark",
-
     "related_tool_2_name": "Foto til Word",
     "related_tool_2_desc": "Konverter kamerafoto direkte til Word",
-
     "related_tool_3_name": "Håndskrift til tekst",
     "related_tool_3_desc": "Spesialisert transkripsjon av skråskrift og notater",
-
     "related_tool_4_name": "Online Editor",
     "related_tool_4_desc": "Rediger dokumentene dine sikkert i nettleseren",
-
     "faq_title": "Ofte stilte spørsmål om fotokonvertering",
-
     "cta_title": "Klar til å trekke ut tekst fra bildet ditt?",
     "cta_subtitle": "Last opp bildet ditt direkte fra telefonen eller datamaskinen din.",
     "cta_button": "Last opp bilde nå",
-
     "footer_text": "NoteOCR // Vision KI Behandling",
-
     "tool_upload_title": "Last opp bildet ditt",
     "tool_upload_desc": "Velg et bilde fra kamerarullen eller datamaskinen din. Vi vil trekke ut teksten og generere en formatert Word-fil.",
     "tool_upload_button": "Velg bilde",
     "tool_upload_check_1": "Støtter mobilbilder",
     "tool_upload_check_2": "Maks 25 MB",
     "tool_upload_check_3": "Slettes automatisk etter 24t",
-
     "tool_processing_title": "Analyserer bilde...",
     "tool_processing_desc": "Korrigerer kameravinkler og trekker ut tekst",
-
     "tool_complete_title": "Bilde konvertert!",
     "tool_complete_desc": "Teksten fra bildet ditt er hentet ut. Last ned den redigerbare filen din nedenfor.",
     "tool_complete_file_type": "Word-dokument (.docx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Last ned Word",
     "tool_new_button": "Konverter et nytt bilde",
-
     "tool_info_1_title": "Fullt redigerbar",
     "tool_info_1_desc": "Teksten er trukket ut, ikke bare limt inn som et bilde",
-
     "tool_info_2_title": "Smart formatering",
     "tool_info_2_desc": "Avsnitt og linjeskift gjenskapes",
-
     "tool_info_3_title": "Universell DOCX",
     "tool_info_3_desc": "Åpnes i MS Word, Google Docs og Pages",
-
     "tool_tip_label": "Kamera-tips:",
     "tool_tip_text": "Hvis du tar et bilde av et blankt magasin eller en lærebok, slå av blitsen på smarttelefonen. En massiv hvit refleks kan skjule ordene og redusere OCR-nøyaktigheten.",
-
     "toast_success": "Bilde konvertert vellykket!",
     "toast_error_type": "Vennligst last opp en gyldig bildefil (JPG, PNG)",
     "toast_error_size": "Bildefilstørrelsen må være under 25 MB",
     "toast_error_conversion": "Konvertering mislyktes. Bildet kan være for uskarpt.",
     "toast_download_success": "Word-dokument lastet ned!",
     "toast_download_error": "Nedlasting mislyktes.",
-
     "FAQ": {
       "items": {
         "how_to_convert_photo": {
@@ -2854,146 +2605,110 @@
   "HandwrittenInvoice": {
     "meta_title": "Konverter Håndskrevne Fakturaer til Excel | Kvitteringsdata Uttrekk",
     "meta_desc": "Automatiser bokføringen din. Trekk ut varelinjer, priser og datoer fra håndskrevne fakturaer og kvitteringer direkte til formaterte Excel-regneark.",
-
     "hero_pill": "Finansiell Data OCR",
     "hero_title": "Konverter Håndskrevne Fakturaer til Excel",
     "hero_subtitle": "Slutt å manuelt skrive ut leverandørkvitteringer og innkjøpsordrer. Vår KI trekker nøyaktig ut varelinjer, mengder og priser fra håndskrevne fakturaer til rene, redigerbare .xlsx-regneark.",
-
     "trust_ssl": "SIKKER FINANSIELL OPPLASTING",
     "trust_processing": "AUTOMATISKE VARELINJER",
     "trust_accuracy": "99 % NUMERISK NØYAKTIGHET",
-
     "before_after_title": "Fra papirkvittering til digitalt regneark",
     "before_after_desc": "Se vår KI perfekt kartlegge rotete håndskrevne varelinjer i ryddige Excel-rader.",
     "before_label": "Før: Håndskrevet faktura",
     "before_placeholder": "",
     "after_label": "Etter: Excel varelinjer",
     "after_placeholder": "",
-
     "use_cases_title": "Hvem automatiserer fakturaer med NoteOCR?",
     "use_cases_subtitle": "Bygget for økonomifagfolk som verdsetter tiden sin.",
-
     "use_case_1_title": "Bokholdere og regnskapsførere",
     "use_case_1_desc": "Behandle kunders skoesker fulle av håndskrevne kvitteringer og papirfakturaer på minutter i stedet for timer på slutten av måneden.",
-
     "use_case_2_title": "Småbedriftseiere",
     "use_case_2_desc": "Digitaliser nedrablede leverandørfakturaer, håndverkerregninger og håndskrevne innkjøpsordrer for å spore utgiftene dine nøyaktig.",
-
     "use_case_3_title": "Utgiftssporing",
     "use_case_3_desc": "Konverter håndskrevne restaurantkvitteringer eller feltutgifter til strukturerte CSV-filer for enkel opplasting til bedriftens utgiftsprogramvare.",
-
     "use_case_4_title": "Skatteforberedelse",
     "use_case_4_desc": "Summer raskt fysiske, håndskrevne donasjonskvitteringer eller forretningsutgifter i en ren Excel-hovedbok for skattesesongen.",
-
     "comparison_title": "Fakturadataregistrering sammenlignet",
     "comparison_subtitle": "Hvorfor manuell bokføring brenner opp profittmarginene dine.",
     "comparison_col_method": "Metode",
     "comparison_col_time": "Tid per faktura",
     "comparison_col_accuracy": "Finansiell nøyaktighet",
     "comparison_col_cost": "Arbeidskostnad",
-
     "comparison_row1_method": "Manuell datainntasting",
     "comparison_row1_time": "3-5 minutter",
     "comparison_row1_accuracy": "Utsatt for skrivefeil",
     "comparison_row1_cost": "200+ kr/time",
-
     "comparison_row2_method": "Standard OCR-apper",
     "comparison_row2_time": "1 minutt",
     "comparison_row2_accuracy": "Blander kolonner",
     "comparison_row2_cost": "Varierer",
-
     "comparison_row3_method": "NoteOCR Fakturamotor",
     "comparison_row3_time": "15 sekunder",
     "comparison_row3_accuracy": "Perfekt radjustering",
     "comparison_row3_cost": "Gratis å prøve",
-
     "features_title": "Avansert fakturauttrekk",
     "features_subtitle": "Trent spesifikt på finansielle dokumenter og rotete tall.",
-
     "feature_1_title": "Varelinje-deteksjon",
     "feature_1_desc": "Vår KI skiller beskrivelser, mengder, enhetspriser og totaler i sine egne distinkte Excel-kolonner automatisk.",
-
     "feature_2_title": "Høy numerisk nøyaktighet",
     "feature_2_desc": "Standard OCR sliter med håndskrevne tall. Vi bruker spesialiserte nevrale nettverk for å sikre at 4-tall, 9-tall, desimaler og valutasymboler leses perfekt.",
-
     "feature_3_title": "Støtte for rotete håndskrift",
     "feature_3_desc": "Entreprenører og leverandører har ofte forferdelig håndskrift. Motoren vår er bygget for å tyde forhastet skråskrift og slurvete blokkbokstaver på fysiske kvitteringer.",
-
     "tech_title": "Hvordan vi behandler finansielle dokumenter",
     "tech_intro": "Fakturaer er komplekse fordi de inneholder flytende data (som dato og fakturanummer øverst) og tabelldata (varelinjene i midten). NoteOCR kartlegger dette romlige forholdet perfekt.",
-
     "tech_detect_title": "Hva vår KI trekker ut",
     "tech_detect_1": "Varebeskrivelser og varenummer (SKU-er)",
     "tech_detect_2": "Mengder og priskolonner",
     "tech_detect_3": "Delsummer, avgiftslinjer og totalsummer",
     "tech_detect_4": "Håndskrevne datoer og fakturanummer",
     "tech_detect_5": "Valutasymboler (kr, $, €, £)",
-
     "tech_tips_title": "Tips for bokholdere",
     "tech_tips_1": "Flat ut krøllete kvitteringer før du tar et bilde",
     "tech_tips_2": "Sørg for at belysningen ikke kaster skygger på totalen",
     "tech_tips_3": "Hold kameraet rett over fakturaen",
     "tech_tips_4": "Pass på at desimaltegn (komma/punktum) er synlige på bildet",
     "tech_tips_5": "Sjekk de endelige totalene i Excel for å sikre samsvar",
-
     "related_tools_title": "Flere finansielle OCR-verktøy",
-
     "related_tool_1_name": "Faktura til Excel",
     "related_tool_1_desc": "Trekk ut varelinjer fra håndskrevne kvitteringer",
-
     "related_tool_2_name": "Lager til Excel",
     "related_tool_2_desc": "Konverter håndskrevne lagertellinger til data",
-
     "related_tool_3_name": "Skann til Word",
     "related_tool_3_desc": "Digitaliser trykte HR-retningslinjer og manualer",
-
     "related_tool_4_name": "Håndskrift til tekst",
     "related_tool_4_desc": "Transkriber håndskrevne møtenotater",
-
     "faq_title": "Ofte stilte spørsmål om fakturakonvertering",
-
     "cta_title": "Slutt å skrive inn fakturaer.",
     "cta_subtitle": "La KI gjøre dataregistreringen din. Last opp din første håndskrevne faktura nå.",
     "cta_button": "Konverter faktura til Excel",
-
     "footer_text": "NoteOCR // Intelligent finansiell uttrekking",
-
     "tool_upload_title": "Last opp håndskrevet faktura",
     "tool_upload_desc": "Støtter bilder og skanninger av håndskrevne fakturaer, kvitteringer og innkjøpsordrer. Vi vil trekke ut varelinjene til Excel.",
     "tool_upload_button": "Velg fakturabilde",
     "tool_upload_check_1": "JPG, PNG støttes",
     "tool_upload_check_2": "Maks 25 MB",
     "tool_upload_check_3": "Kryptering på banknivå",
-
     "tool_processing_title": "Trekker ut varelinjer...",
     "tool_processing_desc": "Oppdager priser, mengder og beskrivelser",
-
     "tool_complete_title": "Faktura trukket ut!",
     "tool_complete_desc": "Varelinjene dine er konvertert til et Excel-regneark. Last det ned nedenfor.",
     "tool_complete_file_type": "Excel-regneark (.xlsx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Last ned Excel",
     "tool_new_button": "Behandle neste faktura",
-
     "tool_info_1_title": "Kolonner justert",
     "tool_info_1_desc": "Priser og beskrivelser separert rent",
-
     "tool_info_2_title": "Tall-nøyaktighet",
     "tool_info_2_desc": "Svært nøyaktig gjenkjenning av desimaler og sifre",
-
     "tool_info_3_title": "Klar for import",
     "tool_info_3_desc": "Enkel opplasting til Tripletex, Fiken eller Visma",
-
     "tool_tip_label": "Regnskapstips:",
     "tool_tip_text": "Hvis du planlegger å importere disse dataene til regnskapsprogramvare som Tripletex eller Fiken, åpne den nedlastede Excel-filen og lagre den som et .CSV (Kommaseparerte verdier) format for en sømløs opplasting.",
-
     "toast_success": "Faktura trukket ut vellykket!",
     "toast_error_type": "Vennligst last opp en gyldig bildefil",
     "toast_error_size": "Filstørrelsen må være under 25 MB",
     "toast_error_extraction": "Uttrekk mislyktes. Håndskriften kan være for falmet.",
     "toast_download_success": "Excel-hovedbok lastet ned!",
     "toast_download_error": "Nedlasting mislyktes.",
-
     "FAQ": {
       "items": {
         "how_to_convert_invoice": {
@@ -3042,146 +2757,110 @@
   "InventoryToExcel": {
     "meta_title": "Konverter Håndskrevet Varetelling til Excel | Lager OCR",
     "meta_desc": "Slutt å manuelt skrive inn lagertellinger. Konverter bilder av håndskrevne lagerlogger, utklippstavler og tellelister direkte til redigerbare Excel-regneark.",
-
     "hero_pill": "Lager & Varetelling OCR",
     "hero_title": "Gjør Utklippstavle-tellinger om til Excel-regneark",
     "hero_subtitle": "Konverter dine fysiske lagerrevisjoner på sekunder. Ta et bilde av de håndskrevne varetellingsarkene dine, og vår KI vil trekke ut varenummer (SKU), varenavn og mengder direkte til en formatert .xlsx-fil.",
-
     "trust_ssl": "PRIVAT DATABEHANDLING",
     "trust_processing": "MASSE-SKU GJENKJENNING",
     "trust_accuracy": "99 % MENGDENØYAKTIGHET",
-
     "before_after_title": "Fra fysisk utklippstavle til digital sporing",
     "before_after_desc": "Se hvordan vi konverterer rotete lagertellinger til strukturerte Excel-rader.",
     "before_label": "Før: Håndskrevet lagerark",
     "before_placeholder": "",
     "after_label": "Etter: Excel lagerliste",
     "after_placeholder": "",
-
     "use_cases_title": "Hvem automatiserer varetelling med NoteOCR?",
     "use_cases_subtitle": "Bygget for bedrifter som utfører fysiske lagerrevisjoner.",
-
     "use_case_1_title": "Lagersjefer",
     "use_case_1_desc": "Konverter flersidige håndskrevne lagerlogger og syklustellinger til Excel umiddelbart, og hold forsyningskjeden i bevegelse.",
-
     "use_case_2_title": "Detaljhandeleiere",
     "use_case_2_desc": "Ta bilder av dine detaljhandeltellinger ved slutten av måneden og last dem opp for å oppdatere POS-systemet ditt eller Shopify-butikken via CSV.",
-
     "use_case_3_title": "Restaurant- og baransatte",
     "use_case_3_desc": "Slutt å skrive inn ukentlige mat- og brennevinsbeholdninger på nytt. Digitaliser kjøkkenutklippstavlene dine direkte inn i varekostnads-regnearkene dine.",
-
     "use_case_4_title": "Utstyrssporing",
     "use_case_4_desc": "Konverter enkelt håndskrevne utlånsskjemaer, verktøylogger og utstyrssporinger fra felten til søkbare digitale databaser.",
-
     "comparison_title": "Varetelling: Manuell vs. NoteOCR",
     "comparison_subtitle": "Hvorfor manuell dataregistrering for varelager koster bedriften din penger.",
     "comparison_col_method": "Metode",
     "comparison_col_time": "Tid per side",
     "comparison_col_accuracy": "SKU Nøyaktighet",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuell inntasting",
     "comparison_row1_time": "15-30 minutter",
     "comparison_row1_accuracy": "Utsatt for menneskelige feil",
     "comparison_row1_cost": "200 kr/time arbeid",
-
     "comparison_row2_method": "Standard mobilskannere",
     "comparison_row2_time": "2 minutter",
     "comparison_row2_accuracy": "Produserer flate bilder",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR Lager-KI",
     "comparison_row3_time": "20 sekunder",
     "comparison_row3_accuracy": "Formaterer data i rader",
     "comparison_row3_cost": "Gratis å prøve",
-
     "features_title": "Bygget for rotete lager-håndskrift",
     "features_subtitle": "Vi vet at fysiske lagertellinger gjøres i full fart. Vår KI tilpasser seg det.",
-
     "feature_1_title": "Alfanumerisk SKU-gjenkjenning",
     "feature_1_desc": "Varenummer (SKU) er komplekse blandinger av bokstaver og tall. Våre nevrale nettverk er trent til å skille en '0' fra en 'O' og en '1' fra en 'l' i håndskrevne SKU-er.",
-
     "feature_2_title": "Kolonneformatering",
     "feature_2_desc": "Enten du tegnet linjer på papiret ditt eller bare la igjen mellomrom, skiller NoteOCR varenavn, SKU-er og mengder inn i sine egne distinkte Excel-kolonner.",
-
     "feature_3_title": "Eksporter som CSV for POS-systemer",
     "feature_3_desc": "Last ned dataene dine som en Excel-fil, eller eksporter den som CSV for å sømløst laste opp de oppdaterte lagertellingene dine til Shopify, Mystore eller Tripletex.",
-
     "tech_title": "Hvordan vi behandler fysiske lagerark",
     "tech_intro": "Lagerark er beryktet for dårlig håndskrift og utgnidd blekk. NoteOCR bruker spesialisert Tabellstruktur-gjenkjenning (TSR) for å rekonstruere rutenettet til utklippstavlen din.",
-
     "tech_detect_title": "Hva vår KI trekker ut",
     "tech_detect_1": "Lange serienumre og SKU-er",
     "tech_detect_2": "Mengder, vekter og mål",
     "tech_detect_3": "Overstregede elementer og rettelser",
     "tech_detect_4": "Oppsett med flere kolonner på utklippstavler",
     "tech_detect_5": "Datoer, steder og gangnummer",
-
     "tech_tips_title": "Tips for raskere revisjoner",
     "tech_tips_1": "Sørg for at lagerbelysningen er lys når du fotograferer",
     "tech_tips_2": "Skriv SKU-er så tydelig som mulig",
     "tech_tips_3": "Hold kolonner noenlunde på linje på blankt papir",
     "tech_tips_4": "Ta bilder av utklippstavlen rett ovenfra",
     "tech_tips_5": "Gå gjennom de endelige Excel-mengdene mot hyllene dine",
-
     "related_tools_title": "Andre forretningsdataverktøy",
-
     "related_tool_1_name": "Faktura til Excel",
     "related_tool_1_desc": "Trekk ut varelinjer fra håndskrevne kvitteringer",
-
     "related_tool_2_name": "Lager til Excel",
     "related_tool_2_desc": "Konverter håndskrevne lagertellinger til data",
-
     "related_tool_3_name": "Skann til Word",
     "related_tool_3_desc": "Digitaliser trykte HR-retningslinjer og manualer",
-
     "related_tool_4_name": "Håndskrift til tekst",
     "related_tool_4_desc": "Transkriber håndskrevne møtenotater",
-
     "faq_title": "Ofte stilte spørsmål om Lager OCR",
-
     "cta_title": "Slutt å skrive inn lagertellingene dine.",
     "cta_subtitle": "Ta et bilde av utklippstavlen din, og la NoteOCR bygge regnearket ditt.",
     "cta_button": "Konverter Varetelling Nå",
-
     "footer_text": "NoteOCR // Industriell Datauttrekking",
-
     "tool_upload_title": "Last opp håndskrevet lagerliste",
     "tool_upload_desc": "Støtter bilder av utklippstavler, varetellinger og telleark. Vi vil trekke ut dataene til et redigerbart Excel-rutenett.",
     "tool_upload_button": "Velg bilde av varetelling",
     "tool_upload_check_1": "JPG, PNG Støttes",
     "tool_upload_check_2": "Maks 25 MB",
     "tool_upload_check_3": "Slettes etter 24t",
-
     "tool_processing_title": "Trekker ut lagertellinger...",
     "tool_processing_desc": "Oppdager SKU-er, elementer og mengder",
-
     "tool_complete_title": "Lager trukket ut!",
     "tool_complete_desc": "Varetellingen din er nå et Excel-regneark. Last det ned nedenfor.",
     "tool_complete_file_type": "Excel-regneark (.xlsx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Last ned Excel",
     "tool_new_button": "Behandle neste side",
-
     "tool_info_1_title": "Rutenett bevart",
     "tool_info_1_desc": "SKU-er og mengder i separate kolonner",
-
     "tool_info_2_title": "Høy nøyaktighet",
     "tool_info_2_desc": "Trent på rotete, hastig håndskrift",
-
     "tool_info_3_title": "CSV-kompatibel",
     "tool_info_3_desc": "Klar for opplasting til ditt POS-system",
-
     "tool_tip_label": "Lagertips:",
     "tool_tip_text": "Hvis du bruker linjert papir eller trykte rutenettark på utklippstavlen, vil vår KI bruke disse linjene for å perfekt skille kolonnene dine i Excel med nesten 100 % strukturell nøyaktighet.",
-
     "toast_success": "Lager trukket ut vellykket!",
     "toast_error_type": "Vennligst last opp en gyldig bildefil",
     "toast_error_size": "Filstørrelsen må være under 25 MB",
     "toast_error_extraction": "Uttrekk mislyktes. Bildet kan være for uskarpt.",
     "toast_download_success": "Excel-regneark lastet ned!",
     "toast_download_error": "Nedlasting mislyktes.",
-
     "FAQ": {
       "items": {
         "how_to_convert_inventory": {
@@ -3230,146 +2909,110 @@
   "HandwrittenTimesheet": {
     "meta_title": "Konverter Håndskrevne Timelister til Excel | Lønn OCR Verktøy",
     "meta_desc": "Slutt å manuelt skrive inn ansattes timer. Konverter bilder av håndskrevne timelister, mannskapslogger og papirstemplingskort direkte til Excel-regneark for lønn.",
-
     "hero_pill": "Automatisering av lønnsdata",
     "hero_title": "Automatiser håndskrevne timelister til Excel",
     "hero_subtitle": "Kjør lønn raskere. Ta et bilde av mannskapets håndskrevne stemplingskort eller skiftlogger, og vår KI vil trekke ut ansattes navn, datoer og timer direkte til et formatert .xlsx-regneark.",
-
     "trust_ssl": "SIKRE HR-DATA",
     "trust_processing": "RASK TIMESEDDEL OCR",
     "trust_accuracy": "99 % TALLNØYAKTIGHET",
-
     "before_after_title": "Fra papirtimeliste til digital lønn",
     "before_after_desc": "Se vår KI perfekt kartlegge rotete håndskrevne timer i ryddige Excel-rader.",
     "before_label": "Før: Håndskrevet mannskapslogg",
     "before_placeholder": "",
     "after_label": "Etter: Excel lønnsdata",
     "after_placeholder": "",
-
     "use_cases_title": "Hvem automatiserer timelister med NoteOCR?",
     "use_cases_subtitle": "Bygget for bransjer som er avhengige av fysisk papir for innstempling.",
-
     "use_case_1_title": "Bygg og anlegg",
     "use_case_1_desc": "Digitaliser skitne, håndskrevne mannskapslister fra arbeidsplassen. Trekk ut ansattes navn og daglige timer til Excel før det sendes til regnskap.",
-
     "use_case_2_title": "Restauranter og uteliv",
     "use_case_2_desc": "Konverter ukentlige papirvaktlister, skiftbytter og håndskrevne innstemplinger for servitører til et rent digitalt format for daglig leder.",
-
     "use_case_3_title": "Gartner og felttjenester",
     "use_case_3_desc": "Slutt å prøve å tyde rotete håndskrift fra feltarbeiderne dine. Ta et bilde av den ukentlige loggen deres og formater det umiddelbart for lønn.",
-
     "use_case_4_title": "Helsevesen og sykepleie",
     "use_case_4_desc": "Konverter enkelt håndskrevne innloggingsskjemaer og fysiske overtidsskjemaer fra forskjellige sykehusavdelinger til søkbare digitale databaser.",
-
     "comparison_title": "Lønnsdataregistrering sammenlignet",
     "comparison_subtitle": "Hvorfor manuell inntasting av timelister er risikabelt for bedriften din.",
     "comparison_col_method": "Metode",
     "comparison_col_time": "Tid brukt",
     "comparison_col_accuracy": "Lønnsfeil",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuell inntasting",
     "comparison_row1_time": "2+ timer på fredag",
     "comparison_row1_accuracy": "Høy risiko for skrivefeil",
     "comparison_row1_cost": "250+ kr/time admin",
-
     "comparison_row2_method": "Standard OCR Skannere",
     "comparison_row2_time": "5 minutter",
     "comparison_row2_accuracy": "Roter til kolonner",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR Timeliste-KI",
     "comparison_row3_time": "30 sekunder",
     "comparison_row3_accuracy": "Perfekt radjustering",
     "comparison_row3_cost": "Gratis å prøve",
-
     "features_title": "Avansert lønnsuttrekk",
     "features_subtitle": "Trent spesifikt til å lese navn, datoer og timer nøyaktig.",
-
     "feature_1_title": "Gjenkjenning av tidsformat",
     "feature_1_desc": "Vår KI er trent til å forstå ulike tidsformater, enten de ansatte skriver 8:00 AM, 0800 militærtid eller bare 8,5 timer.",
-
     "feature_2_title": "Kolonnejustering",
     "feature_2_desc": "Selv om de ansatte skriver utenfor linjene, skiller NoteOCR den ansattes navn, dato, innstempling, utstempling og totale timer i distinkte Excel-kolonner.",
-
     "feature_3_title": "CSV-eksport for Tripletex og Visma",
     "feature_3_desc": "Last ned timelistedataene dine som en Excel-fil, eller eksporter dem som CSV for sømløst å laste opp timene i din foretrukne lønnsprogramvare som Tripletex, Visma eAccounting eller Dataløn.",
-
     "tech_title": "Hvordan vi behandler papirtimelister",
     "tech_intro": "Å lese håndskrevne navn og tall på et flekkete stykke papir krever avansert optisk tegngjenkjenning (OCR). NoteOCR bruker intelligent layout-analyse for å sikre at de riktige timene tildeles den riktige ansatte.",
-
     "tech_detect_title": "Hva vår KI trekker ut",
     "tech_detect_1": "Skråskrift og trykte ansattnavn",
     "tech_detect_2": "Innstempling og utstemplingstider",
     "tech_detect_3": "Desimaler (f.eks. 7,5 timer) og brøker",
     "tech_detect_4": "Håndskrevne datoer og ukedager",
     "tech_detect_5": "Signaturer og overordnet godkjenning",
-
     "tech_tips_title": "Tips for HR-ledere",
     "tech_tips_1": "Flat ut brettede timelister før du tar et bilde",
     "tech_tips_2": "Sørg for god belysning slik at desimaltegn er synlige",
     "tech_tips_3": "Hold kameraet rett over innloggingsarket",
     "tech_tips_4": "Be ansatte om å skrive tallene sine tydelig",
     "tech_tips_5": "Foreta alltid en rask visuell gjennomgang før du kjører lønn",
-
     "related_tools_title": "Flere forretningsautomatiseringsverktøy",
-
     "related_tool_1_name": "Faktura til Excel",
     "related_tool_1_desc": "Trekk ut varelinjer fra håndskrevne kvitteringer",
-
     "related_tool_2_name": "Lager til Excel",
     "related_tool_2_desc": "Konverter håndskrevne lagertellinger til data",
-
     "related_tool_3_name": "Skann til Word",
     "related_tool_3_desc": "Digitaliser trykte HR-retningslinjer og manualer",
-
     "related_tool_4_name": "Håndskrift til tekst",
     "related_tool_4_desc": "Transkriber håndskrevne møtenotater",
-
     "faq_title": "Ofte stilte spørsmål om Timeliste OCR",
-
     "cta_title": "Slutt å skrive inn ansattes timer.",
     "cta_subtitle": "La KI ta seg av dataregistreringen din på fredag. Last opp din første timeliste nå.",
     "cta_button": "Konverter timeliste til Excel",
-
     "footer_text": "NoteOCR // Intelligent Lønnsuttrekking",
-
     "tool_upload_title": "Last opp håndskrevet timeliste",
     "tool_upload_desc": "Støtter bilder av mannskapslogger, innloggingsskjemaer og papirtimelister. Vi vil trekke ut alle dataene nøyaktig til et rent Excel-ark.",
     "tool_upload_button": "Velg timeliste-bilde",
     "tool_upload_check_1": "JPG, PNG støttes",
     "tool_upload_check_2": "Maks 25 MB",
     "tool_upload_check_3": "Kryptering på banknivå",
-
     "tool_processing_title": "Trekker ut ansattes timer...",
     "tool_processing_desc": "Oppdager navn, datoer og innstemplingstider",
-
     "tool_complete_title": "Timeliste trukket ut!",
     "tool_complete_desc": "Lønnsdataene dine er nå et Excel-regneark. Last det ned nedenfor.",
     "tool_complete_file_type": "Excel-regneark (.xlsx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Last ned Excel",
     "tool_new_button": "Behandle neste timeliste",
-
     "tool_info_1_title": "Rutenett bevart",
     "tool_info_1_desc": "Pent ordnet i rader og kolonner",
-
     "tool_info_2_title": "Høy nøyaktighet",
     "tool_info_2_desc": "Trent på rotete, hastig håndskrift",
-
     "tool_info_3_title": "CSV-kompatibel",
     "tool_info_3_desc": "Klar for opplasting til lønnssystemet ditt",
-
     "tool_tip_label": "Lønnstips:",
     "tool_tip_text": "Hvis du planlegger å importere disse dataene til lønnsprogramvare som Tripletex eller Visma Lønn, åpne den nedlastede Excel-filen og lagre den i et .CSV (Kommaseparerte verdier) format for en sømløs opplasting.",
-
     "toast_success": "Timeliste trukket ut vellykket!",
     "toast_error_type": "Vennligst last opp en gyldig bildefil",
     "toast_error_size": "Filstørrelsen må være under 25 MB",
     "toast_error_extraction": "Uttrekk mislyktes. Bildet kan være for uskarpt.",
     "toast_download_success": "Excel-regneark lastet ned!",
     "toast_download_error": "Nedlasting mislyktes.",
-
     "FAQ": {
       "items": {
         "how_to_convert_timesheet": {
@@ -3418,35 +3061,26 @@
   "HandwritingRecognitionPage": {
     "meta_title": "Håndskriftsgjenkjenning på nett | NoteOCR",
     "meta_desc": "Last opp et håndskrevet bilde, og vår KI gjenkjenner og konverterer det til formatert tekst umiddelbart. Gratis håndskriftsgjenkjenning på nett.",
-
     "hero_pill": "KI Håndskriftsgjenkjenning",
     "hero_title": "Håndskriftsgjenkjenning som faktisk fungerer.",
     "hero_subtitle": "Last opp et bilde av håndskrevne notater, skjemaer eller dokumenter. Vår KI leser håndskriften, inkludert rotete skråskrift, og konverterer det til redigerbar formatert tekst på sekunder.",
-
     "trust_ssl": "SSL Kryptert",
     "trust_processing": "30-sekunders behandling",
     "trust_accuracy": "99 % gjenkjenningsnøyaktighet",
-
     "before_after_title": "Se gjenkjenningen i aksjon",
     "before_after_desc": "Ekte håndskriftseksempel som viser hva vår KI leser sammenlignet med hva som kommer ut.",
     "before_label": "Før: Håndskrevet bilde",
     "after_label": "Etter: Gjenkjent digital tekst",
-
     "use_cases_title": "Hvem bruker håndskriftsgjenkjenning?",
     "use_cases_subtitle": "Fra studenter som digitaliserer notater til bedrifter som behandler skjemaer, håndskriftsgjenkjenning sparer timer hver dag.",
-
     "use_case_1_title": "Studenter og forelesningsnotater",
     "use_case_1_desc": "Fotografer notatboken din etter timen og få fullt søkbar, redigerbar tekst på sekunder. Ikke mer inntasting av sider med forelesningsnotater før eksamen.",
-
     "use_case_2_title": "Rotete og skråstilt håndskrift",
     "use_case_2_desc": "Vår KI er trent spesifikt på vanskelig håndskrift – forhastede kruseduller, sammenhengende skråskrift og blandede trykk/skråskrift-stiler, alt gjenkjent med høy nøyaktighet.",
-
     "use_case_3_title": "Håndskrevne skjemaer og dokumenter",
     "use_case_3_desc": "Digitaliser pasientinntaksskjemaer, feltrapporter, fakturaer og HR-registre fra et mobilbilde. Ingen skanner nødvendig – kameraet ditt er nok.",
-
     "use_case_4_title": "Gamle brev og dagbøker",
     "use_case_4_desc": "Bevar håndskrevne familiebrev, personlige dagbøker og historiske dokumenter ved å konvertere dem til søkbar digital tekst du kan dele og arkivere.",
-
     "comparison_title": "Håndskriftsgjenkjenning: Metoder sammenlignet",
     "comparison_subtitle": "Hvorfor spesialbygd KI utkonkurrerer generelle verktøy hver gang.",
     "comparison_col_method": "Metode",
@@ -3465,36 +3099,28 @@
     "comparison_row3_time": "Under 30 sekunder",
     "comparison_row3_accuracy": "95–99 % inkludert skråskrift",
     "comparison_row3_cost": "Gratis å prøve",
-
     "features_title": "Hvorfor vår håndskriftsgjenkjenning er annerledes",
     "features_subtitle": "Bygget spesielt for håndskrift – ikke tilpasset fra et verktøy for trykt tekst.",
-
     "feature_1_title": "Trent på håndskrift, ikke skrifttyper",
     "feature_1_desc": "Generisk OCR lærer fra trykte skrifttyper. Vår KI ble utelukkende trent på millioner av ekte håndskriftsprøver – blokkbokstaver, skråskrift, blandede stiler, forhastede notater og alt i mellom.",
-
     "feature_2_title": "Leser rotete og skråstilt skrift",
     "feature_2_desc": "Sammenhengende bokstaver, varierende skråning, inkonsekvent størrelse – akkurat de tingene som ødelegger standard OCR. Vårt nevrale nettverk håndterer dem på samme måte som en menneskelig leser gjør: ved å bruke kontekst for å fylle hullene.",
-
     "feature_3_title": "Utdata du faktisk kan bruke",
     "feature_3_desc": "Gjenkjent tekst blir ikke bare dumpet som et uformatert avsnitt. Vi rekonstruerer layout, bevarer lister og overskrifter, og eksporterer til Word, Excel eller ren tekst, avhengig av hva du trenger.",
-
     "tech_title": "Hvordan håndskriftsgjenkjenning fungerer",
     "tech_intro": "Standard OCR-teknologi ble bygget for trykt tekst – ensartede skrifttyper med forutsigbare bokstavformer. Håndskrift bryter alle antakelser som får standard OCR til å fungere. Hver person skriver ulikt. Bokstaver kobles sammen, overlapper hverandre, varierer i størrelse og helling. Vår KI bruker en helt annen tilnærming: nevrale nettverk trent på millioner av håndskriftsprøver som lærer å lese slik et menneske gjør – ved å gjenkjenne mønstre på tvers av hele ord og linjer, ikke individuelle tegn.",
-
     "tech_detect_title": "Hva vår KI oppdager",
     "tech_detect_1": "Blokkbokstaver og skråskrift – inkludert sammenkoblede og overlappende bokstaver",
     "tech_detect_2": "Rotete, forhastede og inkonsekvente skrivestiler",
     "tech_detect_3": "Blandet trykk og skråskrift på samme side",
     "tech_detect_4": "Overstregede ord og rettelser",
     "tech_detect_5": "Dokumentstruktur – overskrifter, lister, avsnitt og tabellrader",
-
     "tech_tips_title": "Tips for beste resultater",
     "tech_tips_1": "Fotografer i godt naturlig lys – unngå blits direkte på siden",
     "tech_tips_2": "Hold telefonen parallelt med papiret, ikke på skrå",
     "tech_tips_3": "Sørg for at blekket står tydelig i kontrast til papirbakgrunnen",
     "tech_tips_4": "300 DPI eller høyere for skannede dokumenter",
     "tech_tips_5": "Gå gjennom utdataene – selv 95 % nøyaktighet betyr at sporadiske rettelser er nødvendig",
-
     "related_tools_title": "Relaterte verktøy",
     "related_tool_1_name": "Håndskrift til Word",
     "related_tool_1_desc": "Konverter notater til formatert .docx",
@@ -3504,9 +3130,7 @@
     "related_tool_3_desc": "Spesialisert OCR-verktøy for skråskrift",
     "related_tool_4_name": "Skann håndskrift til tekst",
     "related_tool_4_desc": "Fra mobilbilde eller PDF-skanning",
-
     "faq_title": "Ofte stilte spørsmål om håndskriftsgjenkjenning",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3591,11 +3215,9 @@
         }
       }
     },
-
     "cta_title": "Klar til å gjenkjenne håndskriften din?",
     "cta_subtitle": "Bli med over 10 000 studenter, forskere og bedrifter som har sluttet å skrive inn håndskrevet innhold på nytt.",
     "cta_button": "Prøv håndskriftsgjenkjenning gratis",
-
     "tool_info_1_title": "Ingen app nødvendig",
     "tool_info_1_desc": "Fungerer i nettleseren din. Ingen nedlasting, ingen registrering kreves for å prøve.",
     "tool_info_2_title": "Skråskrift og rotete skrift",
@@ -3603,39 +3225,29 @@
     "tool_info_3_title": "Word, Excel og teksteksport",
     "tool_info_3_desc": "Få den gjenkjente teksten din i formatet du faktisk trenger."
   },
-
   "CursiveToTextPage": {
     "meta_title": "Konverterer Skråskrift til Tekst på Nett | NoteOCR",
     "meta_desc": "Konverter skråskrift (løkkeskrift) til maskinskrevet tekst umiddelbart. Vår KI leser sammenhengende skrift, flytende løkker og sammenbundne bokstaver med 95 %+ nøyaktighet. Gratis OCR for skråskrift på nett.",
-
     "hero_pill": "Skråskrift OCR",
     "hero_title": "Konverter Skråskrift til Tekst på Sekunder.",
     "hero_subtitle": "Last opp et bilde av alle typer skråskriftnotater, brev, journaler, skjemaer. Vår KI avkoder sammenhengende skrift og flytende løkker som generiske OCR-verktøy ikke takler. Ingen app. Ingen registrering. Resultater på under 30 sekunder.",
-
     "trust_ssl": "SSL-kryptert",
     "trust_processing": "Under 30 Sekunder",
     "trust_accuracy": "95 %+ Skråskrift-nøyaktighet",
-
     "before_after_title": "Skråskrift inn. Ren digital tekst ut.",
     "before_after_desc": "Ekte skråskriftsprøve, se nøyaktig hvordan vår KI håndterer sammenhengende, flytende skrift.",
     "before_label": "Før: Skråskrift",
     "after_label": "Etter: Konvertert digital tekst",
-
     "use_cases_title": "Hvem konverterer skråskrift til tekst?",
     "use_cases_subtitle": "Fra slektsforskere som digitaliserer gamle brev til studenter som transkriberer notater, sparer skråskrift-konvertering timer med manuell inntasting hver uke.",
-
     "use_case_1_title": "Gamle brev og familiedokumenter",
     "use_case_1_desc": "Konverter besteforeldres håndskrevne brev, gamle dagbøker og personlige journaler til søkbar digital tekst. Bevar slektshistorien uten å betale en profesjonell transkribent.",
-
     "use_case_2_title": "Studenters skråskriftnotater",
     "use_case_2_desc": "Mange studenter skriver fortsatt forelesnings- og revisjonsnotater i skråskrift. Ta bilde av notatboken din og få fullt redigerbar, søkbar tekst i løpet av sekunder, klar for repetisjon og essays.",
-
     "use_case_3_title": "Historiske og arkivdokumenter",
     "use_case_3_desc": "Digitaliser skråskrevne poster, eiendomsdokumenter, kirkebøker og juridiske papirer. Vår KI håndterer eldre skråskriftsstiler, inkludert viktoriansk løkkeskrift og manuskript fra tidlig 1900-tall.",
-
     "use_case_4_title": "Profesjonelle skråskriftskjemaer",
     "use_case_4_desc": "Feltrapporter, signerte inntaksskjemaer, håndskrevne fakturaer og pasientnotater skrevet i skråskrift – konverter dem til redigerbar Word eller Excel i ett trinn.",
-
     "comparison_title": "Skråskrift OCR: Hvordan metodene måler seg",
     "comparison_subtitle": "Skråskrift er der generiske verktøy kollapser. Her er grunnen til at spesialbygd KI er det eneste pålitelige alternativet.",
     "comparison_col_method": "Metode",
@@ -3654,36 +3266,28 @@
     "comparison_row3_time": "Under 30 sekunder",
     "comparison_row3_accuracy": "90–98 % på skråskrift",
     "comparison_row3_cost": "Gratis å prøve",
-
     "features_title": "Hvorfor vår Skråskrift-konverterer er annerledes",
     "features_subtitle": "KI bygget primært for skråskrift, ikke et OCR-verktøy for trykt tekst med en påklistret skråskrifts-oppdatering.",
-
     "feature_1_title": "Leser sammenkoblede bokstaver naturlig",
     "feature_1_desc": "Standard OCR segmenterer individuelle tegn før de leses. Skråskrift ødelegger dette fullstendig; bokstaver kobles sammen og overlapper. Vår KI leser hele ord og linjer på en gang, på samme måte som et menneskelig øye gjør, noe som gjør sammenhengende skrift lesbar der andre verktøy gir opp.",
-
     "feature_2_title": "Håndterer løkker, helling og variasjon",
     "feature_2_desc": "Hver persons skråskrift er unik – forskjellige løkkestørrelser, hellingsvinkler og bokstavavstander. Vårt nevrale nettverk ble trent på millioner av ekte skråskriftsprøver på tvers av dusinvis av skrivestiler, slik at det generaliserer til håndskrift det aldri har sett før.",
-
     "feature_3_title": "Eksporterer til Word, Excel og ren tekst",
     "feature_3_desc": "Konvertert skråskrift dumpes ikke som et uformatert avsnitt. Vi rekonstruerer dokumentoppsett, avsnitt, lister, tabeller og eksporterer direkte til .docx, .xlsx eller ren .txt, avhengig av hva du trenger.",
-
     "tech_title": "Hvorfor skråskrift er så vanskelig for OCR, og hvordan vi løser det",
     "tech_intro": "Standard OCR ble konstruert for trykt tekst. Hver antakelse den gjør – ensartede bokstavformer, klare mellomrom mellom bokstavene, konsekvent avstand – bryter fullstendig sammen med skråskrift. Skråskrift-bokstaver glir over i hverandre. Den samme bokstaven ser helt annerledes ut avhengig av hva som kommer før og etter den. Hellingen varierer fra linje til linje. Løkker og haler krysser andre bokstaver. Vår KI har en fundamentalt annen tilnærming: I stedet for å prøve å isolere individuelle tegn, leser den hele ord og linjer som visuelle mønstre, den samme strategien en flytende menneskelig leser bruker når de møter sammenhengende skrift de aldri har sett før.",
-
     "tech_detect_title": "Hva vår KI håndterer",
     "tech_detect_1": "Fullt sammenhengende skråskrift hvor ingen bokstaver er atskilt",
     "tech_detect_2": "Blandet skråskrift og blokkbokstaver på samme side",
     "tech_detect_3": "Varierende helling – heller mot høyre, venstre og oppreist",
     "tech_detect_4": "Dekorative og personlige bokstavformer",
     "tech_detect_5": "Eldre viktorianske og tidlig 1900-talls skråskriftsstiler",
-
     "tech_tips_title": "Tips for den beste skråskriftskonverteringen",
     "tech_tips_1": "Bruk naturlig dagslys, unngå blits som flater ut blekkkontrasten",
     "tech_tips_2": "Hold kameraet flatt over siden, ikke i en vinkel",
     "tech_tips_3": "Sørg for mørkt blekk på lyst papir, unngå skygger over teksten",
     "tech_tips_4": "For veldig gamle dokumenter, øk kontrasten i et hvilket som helst fotoredigeringsprogram først",
     "tech_tips_5": "Gå alltid gjennom resultatet; selv 95 % nøyaktighet betyr at sporadiske korreksjoner er nødvendig på lengre sider",
-
     "related_tools_title": "Relaterte verktøy",
     "related_tool_1_name": "Håndskrift til Word",
     "related_tool_1_desc": "Konverter notater til formatert .docx",
@@ -3693,9 +3297,7 @@
     "related_tool_3_desc": "Alle håndskriftsstiler, trykte bokstaver, skråskrift, blandet",
     "related_tool_4_name": "Skann håndskrift til tekst",
     "related_tool_4_desc": "Fra mobilbilde eller PDF-skanning",
-
     "faq_title": "Ofte stilte spørsmål om konvertering av skråskrift til tekst",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3780,11 +3382,9 @@
         }
       }
     },
-
     "cta_title": "Klar til å konvertere skråskriften din?",
     "cta_subtitle": "Last opp et hvilket som helst bilde med skråskrift – brev, dagbøger, notater, skjemaer – og få ren, redigerbar tekst på under 30 sekunder.",
     "cta_button": "Prøv Skråskrift til Tekst gratis",
-
     "tool_info_1_title": "Ingen app nødvendig",
     "tool_info_1_desc": "Kjører i nettleseren din. Ingen nedlasting, ingen registrering kreves for å prøve.",
     "tool_info_2_title": "KI for sammenhengende skrift",
@@ -3792,39 +3392,29 @@
     "tool_info_3_title": "Word, Excel og teksteksport",
     "tool_info_3_desc": "Få den konverterte teksten din i formatet du faktisk trenger."
   },
-
   "ScanHandwritingToText": {
     "meta_title": "Skann Håndskrift til Tekst på Nett | NoteOCR",
     "meta_desc": "Skann håndskrevne notater til tekst umiddelbart i nettleseren din. Ingen app-nedlasting. Last opp et mobilbilde eller et skannet bilde og få redigerbar digital tekst på under 30 sekunder.",
-
     "hero_pill": "Online Håndskriftskanner",
     "hero_title": "Skann håndskrift til tekst. Ingen app nødvendig.",
     "hero_subtitle": "Ta et bilde av en hvilken som helst håndskrevet side med telefonen din, eller last opp en skanning, og vår KI konverterer den til ren redigerbar tekst på under 30 sekunder. Ingen app å laste ned. Fungerer i alle nettlesere på alle enheter.",
-
     "trust_ssl": "SSL-kryptert",
     "trust_processing": "Under 30 sekunder",
     "trust_accuracy": "95 %+ Skanne-nøyaktighet",
-
     "before_after_title": "Skannet håndskrift inn. Redigerbar digital tekst ut.",
     "before_after_desc": "Ekte skanneresultat som viser nøyaktig hvordan vår KI behandler et mobilbilde av håndskrevne notater.",
     "before_label": "Før: Skannet håndskrevet side",
     "after_label": "Etter: Ren redigerbar tekst",
-
     "use_cases_title": "Hvem bruker en online håndskriftskanner?",
     "use_cases_subtitle": "Alle med fysiske håndskrevne sider de trenger å digitalisere raskt, bruker dette. Ingen skannermaskinvare kreves, mobilkameraet ditt er nok.",
-
     "use_case_1_title": "Studenter skanner forelesningsnotater",
     "use_case_1_desc": "Fotografer hele notatboksider etter timen og få fullt søkbar, redigerbar tekst i løpet av sekunder. Slutt å skrive sider på nytt før eksamen, og begynn å faktisk repetere i stedet.",
-
     "use_case_2_title": "Feltnotater og stedsrapporter",
     "use_case_2_desc": "Ingeniører, landmålere, inspektører og feltarbeidere skanner håndskrevne feltnotater direkte fra telefonen sin og har dem i et delbart digitalt format før de forlater arbeidsplassen.",
-
     "use_case_3_title": "Digitalisering av papirjournaler og skjemaer",
     "use_case_3_desc": "Pasientinntaksskjemaer, leveringskvitteringer, timelister, inspeksjonssjekklister skrevet for hånd – skann dem og få strukturert, redigerbar tekst klar for kopier-lim inn eller eksport i ett enkelt trinn.",
-
     "use_case_4_title": "Personlige dagbøker og notatbøker",
     "use_case_4_desc": "Digitaliser personlige dagbøker, oppskriftsbøker, idédugnadsider og håndskrevne planleggere med ett enkelt mobilbilde. Bevar årevis med fysiske notatbøker som søkbar digital tekst du kan få tilgang til hvor som helst.",
-
     "comparison_title": "Online Håndskriftskanner: Alternativer sammenlignet",
     "comparison_subtitle": "De fleste skanneverktøy tvinger deg til å installere en app eller binde deg til et abonnement før du får noe nyttig. NoteOCR gjør ikke det.",
     "comparison_col_method": "Metode",
@@ -3843,36 +3433,28 @@
     "comparison_row3_time": "Under 30 sekunder",
     "comparison_row3_accuracy": "95 %+ på skannet håndskrift",
     "comparison_row3_cost": "Gratis å prøve, ingen app, engangsbetaling",
-
     "features_title": "Hvorfor NoteOCR er en bedre online håndskriftskanner",
     "features_subtitle": "Spesialbygget for å skanne håndskrevne sider, ikke en dokumentskanner som prøver å håndtere håndskrift som en ettertanke.",
-
     "feature_1_title": "Telefonen din er skanneren",
     "feature_1_desc": "Du trenger ikke en flatbedskanner eller noen maskinvare. Ta et bilde av en hvilken som helst håndskrevet side med mobilkameraet ditt og last det opp. Vår KI korrigerer perspektivet, justerer belysningen og fjerner skygger automatisk, slik at du får rene resultater fra et uperfekt bilde.",
-
     "feature_2_title": "Leser det som flatbedskannere ikke kan",
     "feature_2_desc": "Standard dokumentskannere og generelle OCR-verktøy produserer volapyk på håndskrift fordi de ble bygget for trykte skrifttyper. Vårt nevrale nettverk ble trent spesifikt på skannede håndskriftsprøver på tvers av alle skrivestiler, slik at det leser det andre ikke kan.",
-
     "feature_3_title": "Ingen App. Ingen Konto. Ingen Venting.",
     "feature_3_desc": "Åpne siden i hvilken som helst nettleser, last opp det skannede bildet ditt, og få redigerbar tekst tilbake. Ingen App Store, ingen installasjon, ingen kontoopprettelse, ingen venting på bekreftelses-e-poster. Fungerer identisk på iPhone, Android, Mac, Windows og Chromebook.",
-
     "tech_title": "Hvordan skanning av håndskrift til tekst faktisk fungerer",
     "tech_intro": "Når du laster opp et skannet håndskriftsbilde, enten det er et mobilbilde eller en flatbed-skanning, kjører vår KI tre stadier automatisk. Først forhåndsbehandles bildet: korrigerer skjevhet og rotasjon, forbedrer kontrasten, fjerner støy og skygger, og gjør blekket skarpere mot papiret. For det andre kjører den layout-analyse for å identifisere hvor tekstlinjer, avsnitt og strukturelle elementer sitter på siden. For det tredje leser håndskriftsgjenkjenningsmotoren hver linje som en visuell sekvens – ikke tegn for tegn som standard OCR, men ord og uttrykk om gangen ved å bruke omgivende kontekst for å tolke tvetydige bokstaver. Resultatet er strukturert tekst som bevarer dine opprinnelige avsnitt og linjeskift.",
-
     "tech_detect_title": "Hva vår skanner håndterer",
     "tech_detect_1": "Bilder fra mobilkamera tatt i små vinkler - perspektiv korrigeres automatisk",
     "tech_detect_2": "Bilder tatt i svakt lys og utvasket av blits, med automatisk kontrastforbedring",
     "tech_detect_3": "Output fra flatbed- og dokumentskannere ved 150 DPI og over",
     "tech_detect_4": "Blandede håndskriftsstiler på samme skannede side",
     "tech_detect_5": "Overstregede ord, piler, merknader og margnotater",
-
     "tech_tips_title": "Skannetips for best resultat",
     "tech_tips_1": "Hold telefonen direkte over siden, parallelt med papiret, ikke i en vinkel",
     "tech_tips_2": "Bruk naturlig dagslys der det er mulig - unngå blits som flater ut blekkkontrasten",
     "tech_tips_3": "Sørg for at hele siden er innenfor rammen før du tar bilde",
     "tech_tips_4": "For flatbedskanninger gir 300 DPI betydelig bedre resultater enn 150 DPI",
     "tech_tips_5": "Hvis blekket er falmet eller papiret er gammelt, øk kontrasten i en fotoredigerer før du laster opp",
-
     "related_tools_title": "Relaterte verktøy",
     "related_tool_1_name": "Håndskriftsgjenkjenning",
     "related_tool_1_desc": "Bred KI-gjenkjenning for alle håndskriftsstiler",
@@ -3882,9 +3464,7 @@
     "related_tool_3_desc": "Spesialistskanner for sammenhengende skråskrift",
     "related_tool_4_name": "Håndskrift til Excel",
     "related_tool_4_desc": "Skann håndskrevne tabeller til regneark",
-
     "faq_title": "Ofte stilte spørsmål om å skanne håndskrift til tekst",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3973,11 +3553,9 @@
         }
       }
     },
-
     "cta_title": "Klar til å skanne håndskriften din til tekst?",
     "cta_subtitle": "Last opp et hvilket som helst mobilbilde eller skannet bilde av håndskrevne notater, og få redigerbar tekst tilbake på under 30 sekunder. Ingen app. Ingen konto kreves.",
     "cta_button": "Skann håndskrift til tekst gratis",
-
     "tool_info_1_title": "Ingen app nødvendig",
     "tool_info_1_desc": "Fungerer i nettleseren din på hvilken som helst enhet. Ingen nedlasting, ingen registrering for å prøve.",
     "tool_info_2_title": "Klar for mobilkamera",

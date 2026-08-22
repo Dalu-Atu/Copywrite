@@ -14,7 +14,6 @@
     "meta_title": "Handskrift till text-konverterare | AI Skrivstils-OCR | NoteOCR",
     "meta_desc": "Konvertera handskrivna anteckningar i skrivstil till redigerbar digital text direkt. Världens mest exakta AI för OCR av handskrift."
   },
-
   "Features": {
     "section_label": "Ekosystemet",
     "main_title_1": "Allt du behöver för att digitalisera",
@@ -61,7 +60,6 @@
     "step_3_desc": "Dokumentet rekonstrueras i Word, Excel eller Notion, redo för redigering.",
     "processing": "Bearbetar..."
   },
-
   "Why": {
     "label": "VARFÖR VÄLJA OSS",
     "title_main": "Sluta korrigera",
@@ -111,7 +109,6 @@
       }
     }
   },
-
   "FAQ": {
     "title_main": "Vanliga",
     "title_highlight": "frågor",
@@ -234,150 +231,113 @@
       }
     }
   },
-
   "WordPage": {
     "meta_title": "Konvertera handskrivna anteckningar till Word (DOCX) | NoteOCR",
     "meta_desc": "Sluta skriva om allt. Konvertera handskrivna anteckningar till redigerbara Word-dokument med AI. Bevarar listor, rubriker och layoutstruktur automatiskt.",
-
     "hero_pill": "Smart dokumentigenkänning",
     "hero_title": "Konvertera handskrivna anteckningar till Word-dokument",
     "hero_subtitle": "Sluta skriva om dina anteckningar manuellt. Vår AI konverterar handskrivna sidor till redigerbara .docx-filer och bevarar listor, rubriker, marginaler och din ursprungliga layout.",
-
     "trust_ssl": "SSL-KRYPTERAT",
     "trust_processing": "30 SEKUNDERS BEARBETNING",
     "trust_accuracy": "95 % TEXTNOGGRANNHET",
-
     "before_after_title": "Se skillnaden",
     "before_after_desc": "Verklig konvertering som visar bevarad struktur och formatering",
     "before_label": "Före: Handskrivna anteckningar",
     "before_placeholder": "[Ladda upp dina handskrivna anteckningar för att se resultat här]",
     "after_label": "Efter: Word-dokument",
     "after_placeholder": "[Förhandsgranskning av formaterat Word-dokument]",
-
     "use_cases_title": "Vem konverterar handskrivna anteckningar till Word?",
     "use_cases_subtitle": "Från studenter till yrkesverksamma, tusentals digitaliserar handskrivna anteckningar dagligen",
-
     "use_case_1_title": "Studenter & Forskare",
     "use_case_1_desc": "Konvertera föreläsningsanteckningar, forskningsdagböcker och studiematerial till sökbara Word-dokument för uppsatsskrivande och referenshantering.",
-
     "use_case_2_title": "Företag & Yrkesverksamma",
     "use_case_2_desc": "Digitalisera mötesanteckningar, whiteboardsessioner och konferensanteckningar till formaterade dokument för teamdelning och rapporter.",
-
     "use_case_3_title": "Författare & Journalister",
     "use_case_3_desc": "Omvandla handskrivna utkast, berättelsekonturer och intervjuanteckningar till redigerbara manuskript redo för redigering och publicering.",
-
     "use_case_4_title": "Arkivarier & Historiker",
     "use_case_4_desc": "Konvertera historiska dokument, personliga brev och dagboksanteckningar till digitala arkiv för bevarande och forskning.",
-
     "comparison_title": "Handskrivna anteckningar till Word: Jämförelse av metoder",
     "comparison_subtitle": "Varför NoteOCR sparar timmar jämfört med att skriva in manuellt",
     "comparison_col_method": "Metod",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Noggrannhet",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuellt skrivande",
     "comparison_row1_time": "60 minuter/sida",
     "comparison_row1_accuracy": "98 % (långsamt, tråkigt)",
     "comparison_row1_cost": "Gratis (din tid)",
-
     "comparison_row2_method": "Grundläggande OCR-verktyg",
     "comparison_row2_time": "10 minuter",
     "comparison_row2_accuracy": "70 % (förlorar formatering)",
     "comparison_row2_cost": "Gratis - 150 kr",
-
     "comparison_row3_method": "NoteOCR Word-konverterare",
     "comparison_row3_time": "30 sekunder",
     "comparison_row3_accuracy": "95 % med bevarad layout",
     "comparison_row3_cost": "80 kr / 100 sidor",
-
     "features_title": "Varför vår handskrifts-OCR är annorlunda",
     "features_subtitle": "Specialbyggd för att konvertera handskrivna anteckningar till Word",
-
     "feature_1_title": "Bevarar layouten",
     "feature_1_desc": "Till skillnad från enkel OCR som dumpar vanlig text, upptäcker vår AI listor, rubriker, stycken och marginaler. Ditt Word-dokument matchar anteckningsbokens ursprungliga struktur.",
-
     "feature_2_title": "Skrivstils- och tryckstilsigenkänning",
     "feature_2_desc": "Avancerade neurala nätverk tränade på miljontals handskriftsprover. Hanterar rörigt bläck, skrivstil, blandade stilar och till och med överstrykningar med hög precision.",
-
     "feature_3_title": "Sekretess i första hand",
     "feature_3_desc": "Dina anteckningar krypteras under uppladdning, bearbetas i isolerade behållare och raderas permanent efter konvertering. Vi varken sparar eller delar ditt handskrivna innehåll.",
-
     "tech_title": "Hur tekniken för handskriftsigenkänning fungerar",
     "tech_intro": "Standard-OCR-verktyg behandlar handskriven text som inmatade tecken, vilket förstör din ursprungliga formatering. NoteOCRs specialiserade AI analyserar pennstreck, avståndsmönster och dokumentstruktur för att återskapa dina anteckningar som ett korrekt formaterat Word-dokument, och bevarar listor, indrag och styckebrytningar exakt som du skrev dem.",
-
     "tech_detect_title": "Vad vi upptäcker",
     "tech_detect_1": "Stycken, listor och rubriker",
     "tech_detect_2": "Skrivstil och tryckbokstäver",
     "tech_detect_3": "Överstruken text och korrigeringar",
     "tech_detect_4": "Marginaler och indrag",
     "tech_detect_5": "Anteckningsböcker och lösa papper",
-
     "tech_tips_title": "Tips för bästa resultat",
     "tech_tips_1": "Använd bra belysning när du fotograferar",
     "tech_tips_2": "Håll kameran parallellt med sidan",
     "tech_tips_3": "300 DPI för inskannade dokument",
     "tech_tips_4": "Se till att det finns bra kontrast mellan bläck och papper",
     "tech_tips_5": "Granska resultatet innan du färdigställer",
-
     "related_tools_title": "Relaterade OCR-verktyg",
-
     "related_tool_1_name": "Bild till Word",
     "related_tool_1_desc": "Konvertera handskriven text till formaterade dokument",
-
     "related_tool_2_name": "Redigera PDF online (ingen installation)",
     "related_tool_2_desc": "Ladda upp och redigera PDF-dokument online var som helst",
-
     "related_tool_3_name": "Online dokumentredigerare",
     "related_tool_3_desc": "Redigera MS Word- eller Excel-dokument online gratis",
-
     "related_tool_4_name": "Bild till text",
     "related_tool_4_desc": "Konvertera skrivstil i en bild till formaterad redigerbar text",
-
     "faq_title": "Vanliga frågor om konvertering från handskrift till Word",
-
     "cta_title": "Redo att digitalisera dina handskrivna anteckningar?",
     "cta_subtitle": "Gå med över 50 000 studenter och yrkesverksamma som har konverterat anteckningar med NoteOCR",
     "cta_button": "Konvertera dina anteckningar nu",
-
     "footer_text": "NoteOCR // Intelligent dokumentbehandling",
-
     "tool_upload_title": "Ladda upp dina handskrivna anteckningar",
     "tool_upload_desc": "Stöder föreläsningsanteckningar, mötesprotokoll, dagböcker och forskningspapper. Fungerar med skrivstil, tryckbokstäver och blandad handskrift.",
     "tool_upload_button": "Välj bild",
     "tool_upload_check_1": "JPG, PNG, PDF",
     "tool_upload_check_2": "Max 25 MB",
     "tool_upload_check_3": "SSL-säker",
-
     "tool_processing_title": "Analyserar handskrift...",
     "tool_processing_desc": "AI känner igen tecken och bevarar layouten",
-
     "tool_complete_title": "Konvertering slutförd!",
     "tool_complete_desc": "Ditt Word-dokument är klart. Ladda ner och redigera i Microsoft Word eller Google Docs.",
     "tool_complete_file_type": "Word-dokument (.docx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Ladda ner Word",
     "tool_new_button": "Nytt dokument",
-
     "tool_info_1_title": "Layout bevaras",
     "tool_info_1_desc": "Listor, rubriker och stycken förblir intakta",
-
     "tool_info_2_title": "95 % Noggrannhet",
     "tool_info_2_desc": "Optimerad för skrivstil och tryckbokstäver",
-
     "tool_info_3_title": "DOCX-format",
     "tool_info_3_desc": "Kompatibel med Word, Docs och Pages",
-
     "tool_tip_label": "Proffstips:",
     "tool_tip_text": "För bästa resultat, fota dina anteckningar med god belysning och håll kameran parallellt med sidan. Säkerställ tillräcklig kontrast mellan bläck och papper för optimal teckenigenkänning.",
-
     "toast_success": "Transkribering slutförd!",
     "toast_error_type": "Ladda upp en giltig bild (JPG, PNG, WEBP) eller PDF-fil",
     "toast_error_size": "Filstorleken måste vara under 25 MB",
     "toast_error_conversion": "Konverteringen misslyckades.",
     "toast_download_success": "Word-dokument nedladdat!",
     "toast_download_error": "Nedladdning misslyckades.",
-
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -463,153 +423,112 @@
       }
     }
   },
-
   "PdfPage": {
     "meta_title": "Redigera inskannade PDF-filer online med OCR | Gratis PDF-redigerare | NoteOCR",
     "meta_desc": "Webbläsarbaserad PDF-redigerare för inskannade dokument. Extrahera handskriven text med AI-OCR, lägg till signaturer, redigera innehåll, ingen programvara krävs.",
-
     "hero_pill": "Professionell PDF-arbetsyta",
     "hero_title": "Redigera inskannade PDF-filer online med AI-OCR",
     "hero_subtitle": "Den enda webbläsarbaserade PDF-redigeraren byggd för inskannade dokument. Ladda upp handskrivna PDF-filer, extrahera text med OCR, lägg till signaturer eller skapa nya dokument – helt utan programvara.",
-
     "trust_ssl": "SSL-KRYPTERAT",
     "trust_processing": "OMEDELBAR BEARBETNING",
     "trust_accuracy": "OCR FÖR HANDSKRIFT",
-
     "workspace_title": "En komplett online-arbetsyta för dokument",
     "workspace_subtitle": "Bortom bara OCR. Ladda upp dina dokument till en säker miljö där du kan redigera, söka och hantera dina filer helt i molnet.",
-
     "workspace_feature_1_title": "Live-redigering av text",
     "workspace_feature_1_desc": "Ändra extraherad text direkt i din webbläsare. Rätta stavfel, formatera om stycken och uppdatera data innan export.",
-
     "workspace_feature_2_title": "Integritet i fokus",
     "workspace_feature_2_desc": "Dina dokument krypteras och bearbetas i en säker sandlådemiljö. Vi lagrar aldrig din känsliga data utan tillstånd.",
-
     "workspace_feature_3_title": "Omedelbar export",
     "workspace_feature_3_desc": "Färdig med redigeringen? Ladda ner ditt uppstädade dokument som en sökbar PDF, ett Word-dokument eller ett Excel-kalkylblad direkt.",
-
     "use_cases_title": "Vem redigerar inskannade PDF-filer online?",
     "use_cases_subtitle": "Från advokatbyråer till sjukvården, tusentals redigerar skannade dokument dagligen",
-
     "use_case_1_title": "Jurister",
     "use_case_1_desc": "Redigera inskannade kontrakt, signera juridiska dokument digitalt, maskera känslig information och förbered ärendeakter. Perfekt för advokater som hanterar skannade domstolsdokument.",
-
     "use_case_2_title": "Småföretag",
     "use_case_2_desc": "Fyll i inskannade formulär, lägg till företagssignaturer på fakturor, kombinera PDF-filer till rapporter och lägg till kommentarer i förslag utan dyra Adobe-abonnemang.",
-
     "use_case_3_title": "Studenter & Lärare",
     "use_case_3_desc": "Antekna i inskannade läroböcker, kombinera klassanteckningar till studieguider, fyll i stipendieformulär och konvertera handskrivna inlämningar till sökbara PDF-filer.",
-
     "use_case_4_title": "Vårdgivare",
     "use_case_4_desc": "Redigera patientformulär, digitalisera handskrivna journaler, lägg till GDPR-kompatibla signaturer och organisera skannade medicinska diagram.",
-
     "comparison_title": "PDF-redigering: Desktop vs Online-verktyg",
     "comparison_subtitle": "Varför webbläsarbaserad redigering slår traditionell programvara",
     "comparison_col_tool": "Verktyg",
     "comparison_col_access": "Åtkomst",
     "comparison_col_features": "Funktioner",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_tool": "Adobe Acrobat Pro",
     "comparison_row1_access": "Kräver installation & uppdateringar",
     "comparison_row1_features": "Komplett, ingen handskrifts-OCR",
     "comparison_row1_cost": "200 kr/månad",
-
     "comparison_row2_tool": "Enkla Online-redigerare",
     "comparison_row2_access": "Webbaserad",
     "comparison_row2_features": "Begränsad OCR, ingen handskrift",
     "comparison_row2_cost": "Gratis - 100 kr",
-
     "comparison_row3_tool": "NoteOCR PDF-redigerare",
     "comparison_row3_access": "Omedelbar, webbläsarbaserad",
     "comparison_row3_features": "OCR + handskrift + fullständig dokumentredigerare",
     "comparison_row3_cost": "Gratis - 80 kr",
-
     "features_title": "Varför vår PDF-redigerare för skannade filer är annorlunda",
     "features_subtitle": "Specialbyggd för redigering av inskannade och handskrivna PDF-filer",
-
     "feature_1_title": "OCR för inskannade PDF-filer",
     "feature_1_desc": "Konvertera inskannade dokument och handskrivna PDF-filer till sökbar, redigerbar text. Vår AI känner igen handskrift, maskinskriven text och tabellstrukturer samtidigt som din ursprungliga layout bevaras.",
-
     "feature_2_title": "Fullständig redigeringssvit",
     "feature_2_desc": "Lägg till text, rita signaturer, infoga bilder, markera sektioner och omorganisera sidor. Alla standardverktyg för PDF-redigering i en professionell webbarbetsyta, ingen skrivbordsprogramvara krävs.",
-
     "feature_3_title": "Säkerhet i webbläsaren",
     "feature_3_desc": "Kryptering på banknivå för uppladdningar. Dina PDF-filer bearbetas lokalt i din webbläsare när det är möjligt, med serverbearbetning i isolerade behållare. Raderas automatiskt efter 24 timmar.",
-
     "tech_title": "Hur webbläsarbaserad PDF-OCR fungerar",
     "tech_intro": "Traditionella PDF-redigerare fungerar bara med digital text. NoteOCR kombinerar avancerad OCR (optisk teckenigenkänning) med layoutanalys för att hantera skannade dokument, handskrivna formulär och bildbaserade PDF-filer, allt i din webbläsare. Vi upptäcker textpositionering, bevarar formateringen och gör hela ditt dokument sökbart och redigerbart utan installation av programvara.",
-
     "tech_support_title": "Vad vi stöder",
     "tech_support_1": "Handskrivna dokument och formulär",
     "tech_support_2": "Inskannade kontrakt och juridiska filer",
     "tech_support_3": "Bildbaserade PDF-filer utan textlager",
     "tech_support_4": "Digitala signaturer och kommentarer",
     "tech_support_5": "Flerkors-PDF-dokument",
-
     "tech_tips_title": "Tips för bästa resultat",
     "tech_tips_1": "Skanna i 300 DPI eller högre",
     "tech_tips_2": "Säkerställ god belysning och kontrast",
     "tech_tips_3": "Håll sidorna platta utan rynkor",
     "tech_tips_4": "Använd färg/gråskala för handskrift",
     "tech_tips_5": "Ladda upp direkt från skannern när det är möjligt",
-
     "related_tools_title": "Relaterade OCR-verktyg",
-
     "related_tool_1_name": "Bild till Word",
     "related_tool_1_desc": "Konvertera handskriven text till formaterade dokument",
-
     "related_tool_2_name": "Redigera PDF online (ingen installation)",
     "related_tool_2_desc": "Ladda upp och redigera PDF-dokument online var som helst",
-
     "related_tool_3_name": "Online dokumentredigerare",
     "related_tool_3_desc": "Redigera MS Word- eller Excel-dokument online gratis",
-
     "related_tool_4_name": "Bild till text",
     "related_tool_4_desc": "Konvertera skrivstil i en bild till formaterad redigerbar text",
-
     "faq_title": "Vanliga frågor om att redigera inskannade PDF-filer",
-
     "cta_title": "Redo att redigera inskannade PDF-filer online?",
     "cta_subtitle": "Gå med över 100 000 användare som har redigerat skannade dokument med NoteOCRs webbläsarbaserade PDF-redigerare",
     "cta_button": "Börja redigera nu",
-
     "tool_main_title": "Professionell PDF-arbetsyta",
     "tool_main_desc": "Ladda upp inskannade PDF-filer med handskrift för OCR, eller börja med ett tomt dokument för att skapa från grunden.",
     "tool_upload_button": "Ladda upp inskannad PDF",
     "tool_new_button": "Börja från noll",
-
     "tool_upload_check_1": "Endast PDF",
     "tool_upload_check_2": "Max 25 MB",
     "tool_upload_check_3": "SSL-säker",
-
     "tool_info_1_title": "Handskrifts-OCR",
     "tool_info_1_desc": "Extrahera text från skannade handskrivna dokument",
-
     "tool_info_2_title": "Komplett redigeringssvit",
     "tool_info_2_desc": "Lägg till text, signaturer, kommentarer och mer",
-
     "tool_info_3_title": "Webbläsarbaserat",
     "tool_info_3_desc": "Ingen nedladdning av programvara krävs, fungerar direkt",
-
     "tool_tip_label": "Proffstips:",
     "tool_tip_text": "För bästa OCR-resultat på skannade PDF-filer, se till att dokumenten är skannade i 300 DPI med bra kontrast. Handskrivna formulär fungerar bäst när de fotograferas med jämn belysning.",
-
     "modal_new_title": "Skapa ny PDF",
     "modal_new_desc": "Börja med en tom duk och bygg ditt dokument från grunden.",
     "modal_new_button": "Skapa tom PDF",
-
     "modal_upload_title": "Ladda upp inskannad PDF",
     "modal_upload_desc": "Importera din inskannade PDF för att extrahera text med OCR, lägga till signaturer eller redigera innehåll.",
     "modal_upload_placeholder": "Klicka eller dra PDF hit",
     "modal_upload_info": "Max filstorlek: 25 MB • Stöder inskannade & handskrivna PDF-filer",
-
     "modal_processing_new": "Skapar arbetsyta...",
     "modal_processing_upload": "Bearbetar PDF...",
     "modal_processing_desc": "Konfigurerar din säkra PDF-miljö",
-
     "modal_security_badge": "Kryptering på banknivå",
-
     "toast_success_create": "PDF-arbetsyta redo!",
     "toast_success_upload": "PDF uppladdad med framgång!",
     "toast_error_type": "Välj en giltig PDF-fil",
@@ -617,7 +536,6 @@
     "toast_error_create": "Det gick inte att skapa PDF.",
     "toast_error_upload": "Det gick inte att ladda upp PDF",
     "toast_error_drop": "Vänligen dra och släpp en giltig PDF-fil",
-
     "FAQ": {
       "items": {
         "edit_scanned_pdf": {
@@ -706,20 +624,16 @@
     "router_title": "Vilken typ av dokument har du?",
     "router_subtitle": "Vi leder dig till rätt verktyg så att du får det bästa resultatet.",
     "router_back_button": "Tillbaka till dokumenttyp",
-
     "router_type_standard_label": "Standard / Digital PDF",
     "router_type_standard_desc": "Datorskrivna kontrakt, formulär eller någon PDF med markerbar text. Jag behöver redigera, kommentera eller signera den.",
     "router_type_standard_cta": "Fortsätt till PDF-redigeraren",
-
     "router_type_handwritten_label": "Handskrivna anteckningar eller dokument",
     "router_type_handwritten_desc": "Ladda upp ett foto eller en skanning av handskrivna anteckningar, brev eller dokument. Vi konverterar dem till en perfekt formaterad, redigerbar Word-fil — och bevarer struktur, avstånd och layout.",
     "router_type_handwritten_cta": "Konvertera handstil till Word →",
-
     "router_type_table_label": "Handskrivna loggar, tabeller eller data",
     "router_type_table_desc": "Ladda upp ett foto eller en skanning av handskrivna rutnät, kassaböcker, inventeringslistor eller andra strukturerade register. Vi konverterar dem till ett rent, professionellt formaterat Excel-kalkylblad.",
     "router_type_table_cta": "Konvertera handstil till Excel →"
   },
-
   "EditorPage": {
     "meta_title": "Redigera Office-dokument online gratis - Webbläsarbaserad Word-, Excel- & PowerPoint-redigerare",
     "meta_desc": "Professionell online-dokumentredigerare. Skapa och redigera Word- (DOCX), Excel- (XLSX) och PowerPoint-filer (PPTX) direkt i din webbläsare utan Microsoft Office.",
@@ -914,144 +828,109 @@
   "ExcelPage": {
     "meta_title": "Konvertera handskrivna tabeller till Excel (XLSX) | NoteOCR",
     "meta_desc": "Automatisera inmatning av data. Konvertera handskrivna rutnät, finansiella tabeller och scheman till redigerbara Excel-kalkylblad omedelbart med hjälp av AI.",
-
     "hero_pill": "Tabelldetektionsteknik",
     "hero_title": "Konvertera handskrivna tabeller till Excel-kalkylblad",
     "hero_subtitle": "Sluta skriva in data manuellt. Vår AI upptäcker rader, kolumner och cellgränser i dina handskrivna anteckningar, även utan ritade linjer, och exporterar formaterade .xlsx-kalkylblad.",
-
     "trust_ssl": "SSL-KRYPTERAT",
     "trust_processing": "BEARBETNING PÅ 2 MINUTER",
     "trust_accuracy": "98 % NUMERISK NOGGRANNHET",
-
     "before_after_title": "Se skillnaden",
     "before_after_desc": "Verklig konvertering som visar bevarad struktur och numerisk noggrannhet",
     "before_label": "Före: Handskriven kassabok",
     "before_placeholder": "[Ladda upp din handskrivna tabell för att se resultat här]",
     "after_label": "Efter: Excel-utdata",
     "after_placeholder": "[Förhandsgranskning av formaterat kalkylblad]",
-
     "use_cases_title": "Vem använder konvertering från handskrift till Excel?",
     "use_cases_subtitle": "Från redovisningsbyråer till lärare, tusentals konverterar handskrivna tabeller dagligen",
-
     "use_case_1_title": "Bokföring & Redovisning",
     "use_case_1_desc": "Konvertera handskrivna finansiella huvudböcker, utgiftsrapporter och kvitton till sorterbara Excel-filer för skatteförberedelser och revisioner.",
-
     "use_case_2_title": "Lagerhantering",
     "use_case_2_desc": "Digitalisera lagerinventering, produktlistor och lagerloggar. Perfekt för småföretag som spårar lager på papper.",
-
     "use_case_3_title": "Lärare & Betygsättning",
     "use_case_3_desc": "Gör om handskrivna betygsböcker och studentlistor till formaterade kalkylblad för betygskort och framstegsspårning.",
-
     "use_case_4_title": "Forskning & Datainsamling",
     "use_case_4_desc": "Konvertera fältanteckningar, enkätsvar och labbdatatabeller till analyserbara dataset för statistisk programvara.",
-
     "comparison_title": "Handskriven tabell till Excel: Metoder jämförda",
     "comparison_subtitle": "Varför NoteOCR sparar timmar jämfört med manuell inmatning",
     "comparison_col_method": "Metod",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Noggrannhet",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuellt skrivande",
     "comparison_row1_time": "45 minuter",
     "comparison_row1_accuracy": "95 % (mänskliga fel)",
     "comparison_row1_cost": "150 kr/timme arbete",
-
     "comparison_row2_method": "Generisk OCR",
     "comparison_row2_time": "10 minuter",
     "comparison_row2_accuracy": "50 % (förlorar struktur)",
     "comparison_row2_cost": "Gratis - 200 kr",
-
     "comparison_row3_method": "NoteOCR Tabeller",
     "comparison_row3_time": "2 minuter",
     "comparison_row3_accuracy": "98 % struktur bevarad",
     "comparison_row3_cost": "80 kr / 100 sidor",
-
     "features_title": "Varför vår tabell-OCR är annorlunda",
     "features_subtitle": "Specialbyggd för handskrivna datatabeller",
-
     "feature_1_title": "Smart identifiering av rutnät",
     "feature_1_desc": "Vår AI identifierar tabellstrukturen även utan synliga ramar. Den känner igen underförstådda kolumner, justerad text och hierarkiska relationer i handskrivna layouter.",
-
     "feature_2_title": "Optimerad för siffror",
     "feature_2_desc": "Perfekt noggrannhet för finansiell data. Konvertera handskrivna bokföringsböcker, fakturor, lagerräkningar, betygsböcker och utgiftsrapporter med bibehållen numerisk formatering.",
-
     "feature_3_title": "Exportera till Excel eller CSV",
     "feature_3_desc": "Ladda ner dina data som Microsoft Excel (.xlsx) med korrekt cellformatering, eller exportera som CSV för import till Google Kalkylark, databaser eller bokföringsprogram.",
-
     "tech_title": "Hur tekniken för rutnätsdetektion fungerar",
     "tech_intro": "De flesta OCR-verktyg behandlar tabeller som vanlig text, vilket förstör cellrelationer. NoteOCRs specialiserade AI analyserar rumslig positionering, mönster för textjustering och visuella separatorer för att rekonstruera din tabells exakta struktur – och bevarar rubriker, formler och sammanslagna celler.",
-
     "tech_detect_title": "Vad vi upptäcker",
     "tech_detect_1": "Cellgränser utan ritade linjer",
     "tech_detect_2": "Kolumnrubriker och hierarkier",
     "tech_detect_3": "Sammanslagna celler som sträcker sig över kolumner",
     "tech_detect_4": "Valutasymboler och decimaler",
     "tech_detect_5": "Tabeller på rutat papper och blankt papper",
-
     "tech_tips_title": "Tips för bästa resultat",
     "tech_tips_1": "Använd bra belysning vid fotografering",
     "tech_tips_2": "Håll kameran parallell med sidan",
     "tech_tips_3": "300 DPI för inskannade dokument",
     "tech_tips_4": "Fånga hela tabellen i en bild",
     "tech_tips_5": "Granska utskriften innan kritisk användning",
-
     "related_tools_title": "Relaterade OCR-verktyg",
-
     "related_tool_1_name": "Bild till Word",
     "related_tool_1_desc": "Konvertera handskriven text till formaterade dokument",
-
     "related_tool_2_name": "Redigera PDF online (ingen installation)",
     "related_tool_2_desc": "Ladda upp och redigera PDF-dokument online var som helst",
-
     "related_tool_3_name": "Online dokumentredigerare",
     "related_tool_3_desc": "Redigera MS Word- eller Excel-dokument online gratis",
-
     "related_tool_4_name": "Bild till text",
     "related_tool_4_desc": "Konvertera skrivstil i en bild till formaterad redigerbar text",
-
     "faq_title": "Vanliga frågor om konvertering från tabell till Excel",
-
     "cta_title": "Redo att sluta med manuell datainmatning?",
     "cta_subtitle": "Gå med över 10 000 användare som har digitaliserat handskrivna tabeller med NoteOCR",
     "cta_button": "Konvertera din tabell nu",
-
     "tool_upload_title": "Ladda upp din handskrivna tabell",
     "tool_upload_desc": "Stöder handskrivna loggböcker, inventeringsblad, betygsböcker och datatabeller. Fungerar med eller utan ritade ramar.",
     "tool_upload_button": "Välj bild",
     "tool_upload_check_1": "JPG, PNG, JPEG",
     "tool_upload_check_2": "Max 25 MB",
     "tool_upload_check_3": "SSL-säker",
-
     "tool_processing_title": "Upptäcker tabellstruktur...",
     "tool_processing_desc": "AI analyserar rader, kolumner och cellgränser",
-
     "tool_complete_title": "Tabellen extraherades framgångsrikt!",
     "tool_complete_desc": "Ditt kalkylblad är klart. Ladda ner i Excel- (.xlsx) eller CSV-format.",
     "tool_complete_file_type": "Excel-kalkylblad",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Ladda ner Excel",
     "tool_new_button": "Ny tabell",
-
     "tool_info_1_title": "Smart detektion",
     "tool_info_1_desc": "Fungerar med tabeller som inte har några ritade linjer",
-
     "tool_info_2_title": "99 % Noggrannhet",
     "tool_info_2_desc": "Optimerad för siffror och finansiell data",
-
     "tool_info_3_title": "Excel-format",
     "tool_info_3_desc": "Kompatibel med Excel, Kalkylark och databaser",
-
     "tool_tip_label": "Proffstips:",
     "tool_tip_text": "För bästa resultat, fotografera din tabell med god belysning och håll kameran parallell med sidan. 300 DPI-skanningar fungerar bättre än lågupplösta foton.",
-
     "toast_success": "Tabellen extraherad!",
     "toast_error_type": "Ladda upp en giltig bild (JPG, PNG, WEBP) eller PDF-fil",
     "toast_error_size": "Filstorleken måste vara under 25 MB",
     "toast_error_extraction": "Extrahering misslyckades.",
     "toast_download_success": "Excel-fil nedladdad!",
     "toast_download_error": "Nedladdning misslyckades.",
-
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1117,7 +996,6 @@
       }
     }
   },
-
   "nav": {
     "product": "Produkt",
     "solutions": "Lösningar",
@@ -1140,7 +1018,6 @@
     "login": "Logga in",
     "get_started": "Kom igång"
   },
-
   "Footer": {
     "description": "Förvandla handskrivna anteckningar till rena, redigerbara dokument direkt. Säkert, snabbt och byggt för moderna team.",
     "stay_updated": "Håll dig uppdaterad",
@@ -1282,57 +1159,112 @@
       "rows": [
         {
           "name": "OCR för textade bokstäver",
-          "values": [true, true, true, true],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Motor för skrivstil",
-          "values": ["Standard", "Hög", "Ultra", "Ultra"],
+          "values": [
+            "Standard",
+            "Hög",
+            "Ultra",
+            "Ultra"
+          ],
           "group": "core"
         },
         {
           "name": "Tabelldetektion (Excel)",
-          "values": [false, false, true, true],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Layoutbevarande (Word)",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Matematiska formler",
-          "values": [false, false, "Grundläggande", "Avancerad"],
+          "values": [
+            false,
+            false,
+            "Grundläggande",
+            "Avancerad"
+          ],
           "group": "core"
         },
         {
           "name": "Korrigering av rörigt bläck",
-          "values": [false, true, true, true],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ],
           "group": "core"
         },
         {
           "name": "Exportformat",
-          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Alla format"],
+          "values": [
+            "TXT",
+            "DOCX, TXT",
+            "XLSX, DOCX, PDF",
+            "Alla format"
+          ],
           "group": "formats"
         },
         {
           "name": "Gräns för batchuppladdning",
-          "values": ["1 fil", "5 filer", "10 filer", "Obegränsat"],
+          "values": [
+            "1 fil",
+            "5 filer",
+            "10 filer",
+            "Obegränsat"
+          ],
           "group": "formats"
         },
         {
           "name": "Varaktighet för molnlagring",
-          "values": ["24 timmar", "30 dagar", "För alltid", "För alltid"],
+          "values": [
+            "24 timmar",
+            "30 dagar",
+            "För alltid",
+            "För alltid"
+          ],
           "group": "system"
         },
         {
           "name": "Krypteringsnivå",
-          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
+          "values": [
+            "AES-256",
+            "AES-256",
+            "AES-256",
+            "AES-256"
+          ],
           "group": "system"
         },
         {
           "name": "Bearbetningsprioritet",
-          "values": ["Standard", "Standard", "Hög", "Realtid"],
+          "values": [
+            "Standard",
+            "Standard",
+            "Hög",
+            "Realtid"
+          ],
           "group": "system"
         }
       ]
@@ -1455,8 +1387,8 @@
       "loading": "Bearbetar..."
     },
     "sidebar": {
-      "hq_title": "Huvudkontor i Zürich",
-      "hq_address": "NoteOCR Technologies AG\nBahnhofstrasse 12, 8001 Zürich\nSchweiz",
+      "hq_title": "Huvudkontor",
+      "hq_address": "NoteOCR\n11 Boyo Road, Sapele, Delta State\nNigeria",
       "timezone": "Centraleuropeisk tid (CET)",
       "support": "Allmän Support",
       "sales": "Företagsförsäljning",
@@ -1521,7 +1453,6 @@
   "EducationPage": {
     "meta_title": "Handskrift till text för studenter | Anteckningar till Notion, Obsidian & Anki",
     "meta_desc": "Konvertera handskrivna föreläsningsanteckningar, whiteboards och forskningsdagböcker till sökbar, redigerbar text. Byggd för studenter, snabbt, exakt och gratis att starta.",
-
     "hero": {
       "badge": "Akademisk utgåva",
       "title_start": "Din handskrift,",
@@ -1764,25 +1695,18 @@
     "last_updated": "Senast uppdaterad",
     "date": "Januari 2026",
     "welcome_text": "Välkommen till NoteOCR. Dessa användarvillkor utgör ett juridiskt bindande avtal mellan dig (Användaren, du, din) och NoteOCR Inc. (NoteOCR, vi, oss, vår) och reglerar din åtkomst till och användning av vår webbplats, webbapplikation, API och alla relaterade tjänster (tillsammans \"Tjänsterna\"). Genom att skapa ett konto, köpa sidkrediter eller på annat sätt få åtkomst till Tjänsterna bekräftar du att du har läst, förstått och samtycker till att vara bunden av dessa Villkor och vår Integritetspolicy.",
-
     "s1_t": "Godkännande & Behörighet",
     "s1_c": "Du måste vara minst 13 år gammal för att använda NoteOCR. Om du använder Tjänsterna på uppdrag av ett företag, en skola eller annan juridisk person, intygar du att du har befogenhet att binda den personen till dessa Villkor, i vilket fall \"du\" hänvisar till den personen. Användare under 18 år måste ha en förälders eller vårdnadshavares samtycke. Vi förbehåller oss rätten att neka åtkomst till någon person eller entitet efter eget gottfinnande. Genom att fortsätta använda våra Tjänster efter eventuella uppdateringar av dessa Villkor accepterar du de reviderade Villkoren i sin helhet.",
-
     "s2_t": "Beskrivning av tjänster",
     "s2_c": "NoteOCR tillhandahåller en AI-driven plattform för dokumentdigitalisering som konverterar handskrivna anteckningar, inskannade PDF-formulär, whiteboardfoton och annat analogt material till redigerbara digitala format inklusive Microsoft Word (.docx), Excel (.xlsx) och PDF. Tjänsterna inkluderar, men är inte begränsade till: AI-handskriftsigenkänning (99,2 % noggrannhet), intelligent layout- och formateringsrekonstruktion, en webbläsarbaserad dokumentredigerare, molnlagring, flerspråkigt stöd och ett utvecklar-API. Funktioner kan ändras, läggas till eller tas bort när som helst. Vi garanterar inget specifikt utdataformat, noggrannhetsnivå eller handläggningstid utöver vad som uttryckligen anges i vår dokumentation.",
-
     "s3_t": "Kontoregistrering",
     "s3_c": "För att få tillgång till de flesta funktioner måste du registrera dig för ett konto genom att ange en giltig e-postadress och ett säkert lösenord, eller via en OAuth-leverantör (t.ex. Google). Du samtycker till att tillhandahålla korrekt registreringsinformation och att hålla den uppdaterad. Du är ensamt ansvarig för att upprätthålla sekretessen för dina inloggningsuppgifter. Du måste omedelbart meddela oss på support@noteocr.com om du misstänker obehörig åtkomst till ditt konto. Varje konto är för en enda användare; delning av konton är inte tillåtet om du inte har en företagsplan.",
-
     "s4_t": "Användarinnehåll & Licens",
     "s4_c": "Du behåller fullt ägande av alla dokument, bilder, filer och annat material du laddar upp till NoteOCR (Användarinnehåll). Genom att ladda upp Användarinnehåll ger du NoteOCR en begränsad, royaltyfri, världsomspännande licens att komma åt, bearbeta, lagra och reproducera ditt Användarinnehåll enbart i syfte att leverera, förbättra och underhålla Tjänsterna. Denna licens upphör när du tar bort ditt innehåll eller stänger ditt konto. NoteOCR gör inga anspråk på äganderätt över dina dokument och kommer aldrig att använda ditt Användarinnehåll för att träna AI- eller maskininlärningsmodeller.",
-
     "s5_t": "Immateriella rättigheter",
     "s5_c": "All teknik, programvara, källkod, algoritmer, gränssnitt, design, varumärken, logotyper och proprietära metoder som ligger till grund för NoteOCR-plattformen är NoteOCR Inc.:s exklusiva immateriella egendom. Ingenting i dessa Villkor överför något ägande av NoteOCRs immateriella egendom till dig. Du beviljas en begränsad, icke-överlåtbar licens för att komma åt och använda Tjänsterna för dina egna lagliga syften under kontots löptid.",
-
     "s6_t": "Betalningar & Sidkrediter",
     "s6_c": "NoteOCR drivs med en engångsbetalningsmodell. Det finns inga löpande prenumerationer. Du köper sidkrediter i buntar, och krediter dras av per bearbetad sida. Krediter förfaller inte. Alla betalningar behandlas säkert via tredjepartsbetalningsleverantörer. Köp återbetalas inte när sidbearbetning har påbörjats. Om du anser att en debitering är felaktig, kontakta support@noteocr.com inom 14 dagar.",
-
     "s7_t": "Förbjudna aktiviteter",
     "prohibited_intro": "Du samtycker till att inte använda NoteOCR, direkt eller indirekt, för någon av följande aktiviteter. Brott mot detta avsnitt kan resultera i omedelbar uppsägning av kontot utan återbetalning.",
     "prohibited_item_1": "Reverse engineera, dekompilera eller försöka härleda källkoden eller underliggande modeller för plattformen.",
@@ -1791,37 +1715,27 @@
     "prohibited_item_4": "Störa eller försöka få obehörig åtkomst till NoteOCRs servrar eller säkerhetssystem.",
     "prohibited_item_5": "Använda automatiserade skript eller bots för att komma åt Tjänsterna utan vårt skriftliga medgivande.",
     "prohibited_item_6": "Sälja vidare eller kommersiellt omdistribuera Tjänsterna utan ett separat återförsäljaravtal.",
-
     "s8_t": "Datasekretess & Säkerhet",
     "s8_c": "NoteOCR tar datasäkerhet på allvar. Alla uppladdade dokument krypteras under överföring med TLS 1.3 och i vila med AES-256-kryptering. Dina filer bearbetas i isolerade beräkningsmiljöer och raderas automatiskt från våra bearbetningsservrar efter att konverteringen är klar. NoteOCR är GDPR-kompatibelt och säljer, delar eller avslöjar inte ditt Användarinnehåll till tredje part för något annat syfte än att leverera Tjänsterna. Vi använder inte dina dokument för att träna AI. Läs vår integritetspolicy för fullständig information.",
-
     "s9_t": "Ansvarsfriskrivning",
     "s9_c": "Tjänsterna tillhandahålls 'i befintligt skick' utan garantier av något slag. NoteOCR garanterar inte att tjänsterna kommer att vara felfria eller att OCR-noggrannheten kommer att uppfylla ett specifikt tröskelvärde för något särskilt dokument. Du tar det fulla ansvaret för att verifiera noggrannheten i konverterade dokument innan du använder dem för professionella, juridiska eller finansiella ändamål.",
-
     "s10_t": "Ansvarsbegränsning",
     "s10_c": "NoteOCR Inc. ska inte vara ansvarigt för några indirekta, tillfälliga eller följdskador, inklusive förlust av data eller avbrott i verksamheten, till följd av din användning av Tjänsterna. Den totala ansvarsskyldigheten ska under inga omständigheter överstiga det belopp du har betalat till NoteOCR under de tolv månaderna som föregick händelsen.",
-
     "s11_t": "Skadeersättning",
     "s11_c": "Du samtycker till att hålla NoteOCR Inc. skadeslöst från alla krav och förluster som uppstår till följd av ditt brott mot dessa Villkor, ditt Användarinnehåll eller ditt intrång i tredje parts rättigheter.",
-
     "s12_t": "Uppsägning",
     "s12_c": "Du kan när som helst radera ditt konto, vilket permanent tar bort dina lagrade dokument. NoteOCR kan stänga av eller avsluta ditt konto om vi fastställer att du har brutit mot dessa Villkor. Oanvända krediter återbetalas inte vid stängning.",
-
     "s13_t": "Ändringar av dessa villkor",
     "s13_c": "NoteOCR förbehåller sig rätten att när som helst uppdatera dessa villkor. Vid väsentliga ändringar meddelar vi registrerade användare. Din fortsatta användning av tjänsterna utgör ditt godkännande av ändringarna.",
-
     "s14_t": "Gällande lag & Tvister",
     "s14_c": "Dessa Villkor ska styras uteslutande av lagarna i Schweiz. Eventuella tvister ska lösas i domstolarna i Zug, Schweiz.",
-
     "s15_t": "Övrigt",
     "s15_c": "Dessa Villkor utgör hela avtalet mellan dig och NoteOCR. Du får inte överlåta dina rättigheter utan skriftligt medgivande.",
-
     "contact_t": "Har du frågor om dessa villkor?",
     "contact_d": "Vårt juridiska team är tillgängligt för att förtydliga alla aspekter av dessa Användarvillkor. Vi svarar vanligtvis inom en arbetsdag.",
     "contact_email_label": "Mejla vårt juridiska team",
     "contact_response": "Typisk svarstid: 1 arbetsdag"
   },
-
   "PrivacyPage": {
     "meta_title": "Integritetspolicy – NoteOCR | Hur vi hanterar din data",
     "meta_desc": "Läs om hur NoteOCR samlar in, använder, lagrar och skyddar din personliga data. Vi är fullt GDPR-kompatibla och använder aldrig dina dokument för att träna AI-modeller.",
@@ -1830,46 +1744,32 @@
     "last_updated": "Senast uppdaterad",
     "date": "Januari 2026",
     "welcome_text": "NoteOCR Inc. ('NoteOCR', 'vi', 'oss', 'vår') har åtagit sig att skydda dina personuppgifter. Denna policy är förenlig med GDPR. Genom att använda NoteOCR godkänner du metoderna som beskrivs i denna policy.",
-
     "s1_t": "Vilka vi är",
     "s1_c": "NoteOCR Inc. är den personuppgiftsansvarige. Vi är ett teknikföretag med huvudkontor i Zug, Schweiz. Om du har frågor, kontakta support@noteocr.com.",
-
     "s2_t": "Vilken data vi samlar in",
     "s2_c": "Vi samlar in: (a) Kontoinformation (namn, e-post); (b) Användningsdata (sidkrediter, konverteringshistorik); (c) Teknisk data (IP-adress, webbläsare); (d) Betalningsdata (behandlas exklusivt av Stripe); (e) Geuppladdat innehåll (dokument och bilder) underkastat strikta regler i avsnitt 4.",
-
     "s3_t": "Hur vi använder din data",
     "s3_c": "Vi använder din data för att leverera Tjänsterna (Fullgörande av avtal), för att förhindra bedrägeri (Berättigat intresse), och för att följa skatteregler. Vi säljer aldrig din data.",
-
     "s4_t": "Dina uppladdade dokument",
     "s4_c": "Filer krypteras med TLS 1.3 och AES-256. Filer raderas automatiskt från våra bearbetningsservrar efter att konverteringen är klar. Vi använder ALDRIG dina uppladdade dokument för att träna AI-modeller.",
-
     "s5_t": "Cookies",
     "s5_c": "Vi använder minimalt med cookies för autentisering och inställningar. Vi använder inte spårningspixlar för annonser från tredje part.",
-
     "s6_t": "Datadelning & Tredje parter",
     "s6_c": "Vi delar data med Stripe (betalningar) och molninfrastrukturleverantörer. De är bundna av biträdesavtal (DPA).",
-
     "s7_t": "Internationella dataöverföringar",
     "s7_c": "NoteOCR är baserat i Schweiz (har adekvat skyddsnivå enligt EU). Överföringar utanför EES förlitar sig på Standardavtalsklausuler (SCC).",
-
     "s8_t": "Datalagring",
     "s8_c": "Kontoinformation behålls så länge kontot är aktivt. Uppladdade filer raderas direkt från bearbetningsservrarna. Transaktionsdata behålls i 7 år.",
-
     "s9_t": "Dina rättigheter (GDPR)",
     "s9_c": "Du har rätt till tillgång, rättelse, radering ('rätten att bli glömd'), begränsning, dataportabilitet och att invända. Kontakta oss på support@noteocr.com.",
-
     "s10_t": "Säkerhetsåtgärder",
     "s10_c": "Vi använder AES-256, TLS 1.3 och isolerade miljöer. Vid en dataläcka meddelar vi dig inom 72 timmar enligt GDPR.",
-
     "s11_t": "Barns integritet",
     "s11_c": "NoteOCR är inte riktat till barn under 13 år.",
-
     "s12_t": "Ändringar i denna policy",
     "s12_c": "Vi kan uppdatera denna policy och kommer att meddela användare vid väsentliga ändringar.",
-
     "s13_t": "Kontakt",
     "s13_c": "Vid frågor, kontakta vårt privacy-team på support@noteocr.com.",
-
     "rights_title": "Dina rättigheter i korthet",
     "right_access": "Få tillgång till din data",
     "right_rectify": "Rätta felaktigheter",
@@ -1878,7 +1778,6 @@
     "right_portability": "Exportera din data",
     "right_object": "Invänd mot profilering",
     "right_consent": "Dra tillbaka samtycke",
-
     "data_table_title": "Data vi samlar in",
     "data_col_type": "Datatyp",
     "data_col_purpose": "Syfte",
@@ -1904,7 +1803,6 @@
     "data_row5_purpose": "Support",
     "data_row5_basis": "Berättigat intresse",
     "data_row5_retention": "3 år",
-
     "security_title": "Våra säkerhetsåtaganden",
     "security_badge1": "AES-256-kryptering",
     "security_badge2": "TLS 1.3 i överföring",
@@ -1914,9 +1812,7 @@
     "security_badge6": "Regelbundna Pen-tester",
     "security_badge7": "Noll AI-träning på data",
     "security_badge8": "GDPR-kompatibel",
-
     "welcome_text_short": "Läs denna policy noggrant. Den beskriver på klarspråk hur NoteOCR hanterar dina personuppgifter.",
-
     "contact_t": "Sekretessfrågor?",
     "contact_d": "Vårt team hanterar alla frågor personligen och svarar inom 30 dagar enligt GDPR.",
     "contact_email_label": "Mejla vårt privacy-team",
@@ -1927,7 +1823,6 @@
       "title": "Dokumentation | NoteOCR - Handskrifts-OCR & Dokumentintelligens",
       "description": "Lär dig hur du konverterar handskrift till text, extraherar tabeller till Excel och automatiserar dina dokumentflöden med NoteOCRs omfattande guider."
     },
-
     "sidebar": {
       "external_links": "Externa Länkar",
       "api_reference": "API-referens",
@@ -2083,144 +1978,109 @@
   "pic-to-excel": {
     "meta_title": "Konvertera bild till Excel online | Bild till Excel AI-konverterare",
     "meta_desc": "Gör om valfri bild till ett kalkylblad. Konvertera JPG, PNG eller skärmdumpar till redigerbar Excel (.xlsx) omedelbart. Bästa AI för datatabeller och kvitton.",
-
     "hero_pill": "AI Bild-till-Tabell Teknologi",
     "hero_title": "Konvertera bild till Excel med AI-tabelligenkänning",
     "hero_subtitle": "Förvandla foton, skärmdumpar och handskrivna anteckningar till redigerbara Excel-kalkylblad. Ingen manuell inmatning.",
-
     "trust_ssl": "SSL-KRYPTERAT",
     "trust_processing": "OMEDELBAR KONVERTERING",
     "trust_accuracy": "99 % TABELLNOGGRANNHET",
-
     "before_after_title": "Från bild till kalkylblad",
     "before_after_desc": "Se hur vår AI extraherar data från statiska bilder till redigerbara celler",
     "before_label": "Före: Bild / Skärmdump",
     "before_placeholder": "[Ladda upp valfri bild med en tabell]",
     "after_label": "Efter: Redigerbar Excel",
     "after_placeholder": "[Förhandsgranskning av formaterad .xlsx]",
-
     "use_cases_title": "Vem behöver en bild-till-Excel-konverterare?",
     "use_cases_subtitle": "Från dataadministratörer till företagare",
-
     "use_case_1_title": "Digitalisera fakturor & kvitton",
     "use_case_1_desc": "Fota pappersfakturor. Vår AI extraherar rader, kvantiteter och priser direkt till kolumner för ditt bokföringsprogram.",
-
     "use_case_2_title": "Skärmdump till Excel",
     "use_case_2_desc": "Har du en tabell på en webbplats du inte kan kopiera? Ta en skärmdump. Vi rekonstruerar rutnätet direkt.",
-
     "use_case_3_title": "Handskrivna loggar",
     "use_case_3_desc": "Konvertera lagerloggar och fältjournaler till digitala kalkylblad.",
-
     "use_case_4_title": "Årsredovisningar",
     "use_case_4_desc": "Konvertera foton av kontoutdrag med bevarad valutaformatering.",
-
     "comparison_title": "Bild till Excel: Varför NoteOCR vinner",
     "comparison_subtitle": "Kämpa inte med generiska PDF-konverterare",
     "comparison_col_method": "Metod",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Tabellstruktur",
     "comparison_col_cost": "Ansträngning",
-
     "comparison_row1_method": "Manuell datainmatning",
     "comparison_row1_time": "1 timme/sida",
     "comparison_row1_accuracy": "Hög risk för felskrivning",
     "comparison_row1_cost": "Hög (Tråkigt)",
-
     "comparison_row2_method": "Generiska PDF-verktyg",
     "comparison_row2_time": "5 minuter",
     "comparison_row2_accuracy": "Går sönder vid bilder",
     "comparison_row2_cost": "Frustrerande",
-
     "comparison_row3_method": "NoteOCR AI",
     "comparison_row3_time": "60 sekunder",
     "comparison_row3_accuracy": "Perfekt bevarande",
     "comparison_row3_cost": "Automatiserat",
-
     "features_title": "Det bästa sättet att konvertera bilder till tabeller",
     "features_subtitle": "Designad för JPG, PNG och mobilfoton",
-
     "feature_1_title": "Obundet av format",
     "feature_1_desc": "Har du ingen PDF? Inga problem. Vi hanterar JPG, JPEG, PNG perfekt.",
-
     "feature_2_title": "Intelligent rutnätsrekonstruktion",
     "feature_2_desc": "Vår AI 'ser' rutnätet. Den justerar flytande data i rader och kolumner.",
-
     "feature_3_title": "Mobilanpassat",
     "feature_3_desc": "Ta en bild av ett dokument och få en Excel-fil direkt i mobilen.",
-
     "tech_title": "Hur Bild-till-Excel AI fungerar",
     "tech_intro": "NoteOCR använder Computer Vision för att upptäcka linjerna i en tabell och återskapa den som en .xlsx-fil.",
-
     "tech_detect_title": "Vad vi extraherar",
     "tech_detect_1": "Tabellstrukturer från skärmdumpar",
     "tech_detect_2": "Data från sneda foton",
     "tech_detect_3": "Handskrivna och tryckta siffror",
     "tech_detect_4": "Flerkolumnslayouter",
     "tech_detect_5": "Sidhuvuden och sidfötter",
-
     "tech_tips_title": "Tips för perfekta konverteringar",
     "tech_tips_1": "Se till att bilden är i fokus",
     "tech_tips_2": "Undvik skuggor",
     "tech_tips_3": "Beskär bilden",
     "tech_tips_4": "Använd hög upplösning",
     "tech_tips_5": "Kontrollera format (JPG/PNG)",
-
     "related_tools_title": "Fler konverteringsverktyg",
-
     "related_tool_1_name": "Bild till Word",
     "related_tool_1_desc": "Konvertera handskriven text till Word",
-
     "related_tool_2_name": "Redigera PDF online",
     "related_tool_2_desc": "Ladda upp och redigera",
-
     "related_tool_3_name": "Online dokumentredigerare",
     "related_tool_3_desc": "Redigera Word eller Excel online",
-
     "related_tool_4_name": "Bild till text",
     "related_tool_4_desc": "Konvertera skrivstil i en bild",
-
     "faq_title": "FAQ: Konvertera bilder till Excel",
-
     "cta_title": "Gör om bilden till ett kalkylblad",
     "cta_subtitle": "Sluta skriva. Börja skanna.",
     "cta_button": "Konvertera bild nu",
-
     "tool_upload_title": "Ladda upp bild att konvertera",
     "tool_upload_desc": "Stöder JPG, PNG. Fungerar på skärmdumpar.",
     "tool_upload_button": "Välj bild",
     "tool_upload_check_1": "JPG / PNG stöd",
     "tool_upload_check_2": "Ingen inloggning krävs",
     "tool_upload_check_3": "Säker bearbetning",
-
     "tool_processing_title": "Analyserar bild...",
     "tool_processing_desc": "Identifierar tabellstruktur",
-
     "tool_complete_title": "Excel-fil redo!",
     "tool_complete_desc": "Din bild har konverterats.",
     "tool_complete_file_type": "Microsoft Excel (.xlsx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Ladda ner Excel",
     "tool_new_button": "Konvertera en till",
-
     "tool_info_1_title": "Vilken bild som helst",
     "tool_info_1_desc": "JPG, PNG, Skärmdumpar",
-
     "tool_info_2_title": "Tabell AI",
     "tool_info_2_desc": "Bevarar rader & kolumner",
-
     "tool_info_3_title": "Redigerbar",
     "tool_info_3_desc": "Full Excel (.xlsx) output",
-
     "tool_tip_label": "Skanningstips:",
     "tool_tip_text": "För långa dokument, ta flera nära bilder istället för en bild långt ifrån.",
-
     "toast_success": "Bilden konverterad framgångsrikt!",
     "toast_error_type": "Ladda upp en giltig bildfil",
     "toast_error_size": "Filstorleken måste vara under 25 MB",
     "toast_error_extraction": "Kunde inte upptäcka en tabell.",
     "toast_download_success": "Kalkylblad sparat!",
     "toast_download_error": "Nedladdning misslyckades.",
-
     "FAQ": {
       "items": {
         "pic_to_excel_how": {
@@ -2289,146 +2149,110 @@
   "JpgToWord": {
     "meta_title": "Konvertera JPG till Word-dokument | Extrahera text från JPEG till DOCX",
     "meta_desc": "Konvertera JPG- och JPEG-bilder till redigerbara Word-dokument. Vår avancerade OCR extraherar text med bevarad formatering.",
-
     "hero_pill": "Snabb bild-till-text OCR",
     "hero_title": "Konvertera JPG till Word-dokument direkt",
     "hero_subtitle": "Sluta skriva in text från bilder. Ladda upp en JPG eller JPEG så extraherar vår AI texten till en Word-fil.",
-
     "trust_ssl": "256-BITARS SÄKER UPPLADDNING",
     "trust_processing": "SNABB BEARBETNING",
     "trust_accuracy": "HÖGPRECISIONS OCR",
-
     "before_after_title": "Från platt bild till redigerbar text",
     "before_after_desc": "Se hur vi extraherar låst text.",
     "before_label": "Före: JPG-bild",
     "before_placeholder": "",
     "after_label": "Efter: Redigerbart Word-dokument",
     "after_placeholder": "",
-
     "use_cases_title": "Varför konvertera JPG till Word?",
     "use_cases_subtitle": "Gör låst text redigerbar.",
-
     "use_case_1_title": "Skannade dokument",
     "use_case_1_desc": "Gör JPEG av kontrakt redigerbara.",
-
     "use_case_2_title": "Skärmdumpar",
     "use_case_2_desc": "Konvertera skärmdumpar till Word.",
-
     "use_case_3_title": "Foton av tryckta sidor",
     "use_case_3_desc": "Extrahera text ur böcker och tidningar.",
-
     "use_case_4_title": "Bilder med handskrift",
     "use_case_4_desc": "Vår motor kan även konvertera foton med handskrift.",
-
     "comparison_title": "JPG till Word: Jämförelse",
     "comparison_subtitle": "De flesta klistrar in bilden i Word. Vi extraherar texten.",
     "comparison_col_method": "Metod",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Textextraktion",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuellt",
     "comparison_row1_time": "15-30 min",
     "comparison_row1_accuracy": "Hög",
     "comparison_row1_cost": "Din tid",
-
     "comparison_row2_method": "Standardkonverterare",
     "comparison_row2_time": "1 min",
     "comparison_row2_accuracy": "0% (Bara en bild)",
     "comparison_row2_cost": "Ofta betald",
-
     "comparison_row3_method": "NoteOCR",
     "comparison_row3_time": "15 sekunder",
     "comparison_row3_accuracy": "98%+ Redigerbar Text",
     "comparison_row3_cost": "Gratis att testa",
-
     "features_title": "Avancerad JPG-textextraktion",
     "features_subtitle": "Specialbyggd för bilder.",
-
     "feature_1_title": "Accepterar JPG & JPEG",
     "feature_1_desc": "Hanterar standardbilder och högupplösta foton.",
-
     "feature_2_title": "Bevarar stycken",
     "feature_2_desc": "Vår OCR upptäcker radbrytningar och stycken.",
-
     "feature_3_title": "Flerspråkigt stöd",
     "feature_3_desc": "Fungerar på svenska, engelska, spanska med mera.",
-
     "tech_title": "Hur vår motor fungerar",
     "tech_intro": "NoteOCR använder OCR för att identifiera bokstäver i pixlarna.",
-
     "tech_detect_title": "Vad motorn bearbetar",
     "tech_detect_1": "Standardtryckt text",
     "tech_detect_2": "Skrivstil och handskrift",
     "tech_detect_3": "Styckeavstånd",
     "tech_detect_4": "Borttagning av bakgrundsbrus",
     "tech_detect_5": "Automatisk rotation",
-
     "tech_tips_title": "Tips för bästa konvertering",
     "tech_tips_1": "Se till att bilden inte är suddig",
     "tech_tips_2": "Undvik tunga skuggor",
     "tech_tips_3": "Håll kameran rak",
     "tech_tips_4": "Hög upplösning är bäst",
     "tech_tips_5": "Beskär bort onödig bakgrund",
-
     "related_tools_title": "Andra konverteringsverktyg",
-
     "related_tool_1_name": "Bild till Excel",
     "related_tool_1_desc": "Extrahera tabeller",
-
     "related_tool_2_name": "Foto till Word",
     "related_tool_2_desc": "Från kamera direkt till Word",
-
     "related_tool_3_name": "Handskrift till text",
     "related_tool_3_desc": "Transkribera anteckningar",
-
     "related_tool_4_name": "Online Redigerare",
     "related_tool_4_desc": "Redigera i webbläsaren",
-
     "faq_title": "Vanliga frågor om JPG till Word",
-
     "cta_title": "Redo att extrahera text?",
     "cta_subtitle": "Börja redigera på sekunder.",
     "cta_button": "Ladda upp JPG nu",
-
     "footer_text": "NoteOCR // Intelligent bildbehandling",
-
     "tool_upload_title": "Ladda upp din JPG-bild",
     "tool_upload_desc": "Stöder foton, skärmdumpar och skannade bilder.",
     "tool_upload_button": "Välj JPG / JPEG",
     "tool_upload_check_1": "JPG, JPEG, PNG",
     "tool_upload_check_2": "Max 25 MB",
     "tool_upload_check_3": "Raderas efter 24 timmar",
-
     "tool_processing_title": "Extraherar text...",
     "tool_processing_desc": "Kör OCR och formaterar",
-
     "tool_complete_title": "Extraktion klar!",
     "tool_complete_desc": "Ladda ner din redigerbara fil.",
     "tool_complete_file_type": "Word-dokument (.docx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Ladda ner Word",
     "tool_new_button": "Konvertera en till",
-
     "tool_info_1_title": "Helt redigerbar",
     "tool_info_1_desc": "Text extraheras, klistras inte bara in",
-
     "tool_info_2_title": "Layout behålls",
     "tool_info_2_desc": "Stycken bevaras",
-
     "tool_info_3_title": "Universell DOCX",
     "tool_info_3_desc": "Fungerar i MS Word och Google Docs",
-
     "tool_tip_label": "Proffstips:",
     "tool_tip_text": "Öka ljusstyrkan på bilden lite innan du laddar upp för bäst resultat.",
-
     "toast_success": "Bilden konverterad!",
     "toast_error_type": "Vänligen ladda upp en JPG/PNG",
     "toast_error_size": "Under 25 MB",
     "toast_error_conversion": "Konverteringen misslyckades.",
     "toast_download_success": "Word-dokument nedladdat!",
     "toast_download_error": "Nedladdning misslyckades.",
-
     "FAQ": {
       "items": {
         "how_to_convert": {
@@ -2477,146 +2301,110 @@
   "ScanToWord": {
     "meta_title": "Skanner till Word | Konvertera skannade dokument till redigerbar text",
     "meta_desc": "Konvertera skannade dokument från din skanner eller mobilapp direkt till redigerbara Microsoft Word-filer med OCR av professionell kvalitet.",
-
     "hero_pill": "Professionell dokument-OCR",
     "hero_title": "Konvertera skanningar till Word-dokument",
     "hero_subtitle": "Digitalisera ditt pappersarbete direkt. Ladda upp skannade bilder av kontrakt, böcker eller fysiska dokument.",
-
     "trust_ssl": "SÄKERHET I ENTERPRISEKLASS",
     "trust_processing": "HÖGVOLYMSKAPACITET",
     "trust_accuracy": "99 % NOGGRANNHET",
-
     "before_after_title": "Från papper till digitalt dokument",
     "before_after_desc": "Se hur vi konverterar en platt skanning.",
     "before_label": "Före: Skannad bild",
     "before_placeholder": "",
     "after_label": "Efter: Redigerbart Word-dokument",
     "after_placeholder": "",
-
     "use_cases_title": "Vem använder detta?",
     "use_cases_subtitle": "Byggt för yrkesverksamma.",
-
     "use_case_1_title": "Juridik & Fastighet",
     "use_case_1_desc": "Skanna signerade kontrakt och konvertera till Word.",
-
     "use_case_2_title": "Kontorsadministration",
     "use_case_2_desc": "Sluta skriva om pappersfakturor manuellt.",
-
     "use_case_3_title": "Författare & Förlag",
     "use_case_3_desc": "Digitalisera gamla böcker.",
-
     "use_case_4_title": "Akademisk forskning",
     "use_case_4_desc": "Skanna boksidor till redigerbar text.",
-
     "comparison_title": "Digitalisera skanningar",
     "comparison_subtitle": "Varför manuell transkribering är föråldrad.",
     "comparison_col_method": "Metod",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Layout",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuellt",
     "comparison_row1_time": "1 timme/5 sidor",
     "comparison_row1_accuracy": "Dålig",
     "comparison_row1_cost": "Hög",
-
     "comparison_row2_method": "Gratisverktyg",
     "comparison_row2_time": "2 min",
     "comparison_row2_accuracy": "Dålig",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR",
     "comparison_row3_time": "20 sekunder",
     "comparison_row3_accuracy": "Bibehålls",
     "comparison_row3_cost": "Testa gratis",
-
     "features_title": "Byggd för skannat media",
     "features_subtitle": "Hanterar skannerns egenheter.",
-
     "feature_1_title": "Korrigering av lutning",
     "feature_1_desc": "Rätar upp snett inmatade papper.",
-
     "feature_2_title": "Brusreducering",
     "feature_2_desc": "Rensar skanningsbakgrunden.",
-
     "feature_3_title": "Bevarar struktur",
     "feature_3_desc": "Bibehåller rubriker och listor.",
-
     "tech_title": "Hur vi bearbetar",
     "tech_intro": "Vi använder Document Layout Analysis.",
-
     "tech_detect_title": "Vad vår OCR upptäcker",
     "tech_detect_1": "Standardtryck",
     "tech_detect_2": "Flerkolumnslayouter",
     "tech_detect_3": "Kursivt och fetstilt",
     "tech_detect_4": "Handskrivna signaturer",
     "tech_detect_5": "Numrerade listor",
-
     "tech_tips_title": "Tips för skanning",
     "tech_tips_1": "Skanna i 300 DPI",
     "tech_tips_2": "Spara som PNG/JPG",
     "tech_tips_3": "Torka av skannerglaset",
     "tech_tips_4": "Pressa böcker platt",
     "tech_tips_5": "Använd svartvitt läge",
-
     "related_tools_title": "Fler verktyg",
-
     "related_tool_1_name": "Bild till Excel",
     "related_tool_1_desc": "Extrahera tabeller",
-
     "related_tool_2_name": "Foto till Word",
     "related_tool_2_desc": "Från kamera direkt till Word",
-
     "related_tool_3_name": "Handskrift till text",
     "related_tool_3_desc": "Transkribera anteckningar",
-
     "related_tool_4_name": "Online Redigerare",
     "related_tool_4_desc": "Redigera i webbläsaren",
-
     "faq_title": "Vanliga frågor om skannade dokument",
-
     "cta_title": "Redo att digitalisera?",
     "cta_subtitle": "Konvertera dina papper.",
     "cta_button": "Ladda upp skanning",
-
     "footer_text": "NoteOCR // Professionell digitalisering",
-
     "tool_upload_title": "Ladda upp skannad fil",
     "tool_upload_desc": "Ladda upp JPG eller PNG från din skanner.",
     "tool_upload_button": "Välj fil",
     "tool_upload_check_1": "Hög upplösning stöds",
     "tool_upload_check_2": "Max 25 MB",
     "tool_upload_check_3": "Konfidentiellt",
-
     "tool_processing_title": "Bearbetar skanning...",
     "tool_processing_desc": "Kör layoutanalys",
-
     "tool_complete_title": "Skanning konverterad!",
     "tool_complete_desc": "Ladda ner ditt Word-dokument nedan.",
     "tool_complete_file_type": "Word-dokument (.docx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Ladda ner Word",
     "tool_new_button": "Konvertera nästa",
-
     "tool_info_1_title": "Helt redigerbar",
     "tool_info_1_desc": "Uppdatera klausuler",
-
     "tool_info_2_title": "Layout intakt",
     "tool_info_2_desc": "Rubriker följer med",
-
     "tool_info_3_title": "Säker bearbetning",
     "tool_info_3_desc": "Långtidslagras aldrig",
-
     "tool_tip_label": "Skanningstips:",
     "tool_tip_text": "Använd 300 DPI för bästa resultat.",
-
     "toast_success": "Skanning digitaliserad!",
     "toast_error_type": "Vänligen ladda upp giltig fil",
     "toast_error_size": "Under 25 MB",
     "toast_error_conversion": "Konvertering misslyckades.",
     "toast_download_success": "Word-dokument nedladdat!",
     "toast_download_error": "Nedladdning misslyckades.",
-
     "FAQ": {
       "items": {
         "how_to_convert_scan": {
@@ -2665,146 +2453,110 @@
   "PhotoToWord": {
     "meta_title": "Konvertera foto till Word-dokument | Extrahera text från bilder",
     "meta_desc": "Ta en bild och konvertera den till text. Vår AI extraherar text från foton av whiteboards och böcker direkt till Word-dokument.",
-
     "hero_pill": "Kamera till text OCR",
     "hero_title": "Konvertera valfritt foto till ett Word-dokument",
     "hero_subtitle": "Förvandla dina smartphone-bilder till redigerbar text. Ladda upp ett foto av en kursbok eller whiteboard.",
-
     "trust_ssl": "PRIVAT SÄKER UPPLADDNING",
     "trust_processing": "SMART KAMERA-AI",
     "trust_accuracy": "LÄSER VINKLADE FOTON",
-
     "before_after_title": "Från kamerarulle till Word-fil",
     "before_after_desc": "Se hur vi hanterar riktiga foton med reflexer.",
     "before_label": "Före: Mobilfoto",
     "before_placeholder": "",
     "after_label": "Efter: Redigerbart Word-dokument",
     "after_placeholder": "",
-
     "use_cases_title": "Vilka bilder kan du konvertera?",
     "use_cases_subtitle": "Perfekt för bilder tagna i farten.",
-
     "use_case_1_title": "Möten",
     "use_case_1_desc": "Fota whiteboarden och få text i Word.",
-
     "use_case_2_title": "Läroböcker",
     "use_case_2_desc": "Sluta skriva av citat manuellt.",
-
     "use_case_3_title": "Presentationsbilder",
     "use_case_3_desc": "Fota PowerPointen.",
-
     "use_case_4_title": "Recept",
     "use_case_4_desc": "Spara recept som sökbar text.",
-
     "comparison_title": "Foto-textextraktion",
     "comparison_subtitle": "Varför NoteOCR slår det lilla mobiltangentbordet.",
     "comparison_col_method": "Metod",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Dålig belysning?",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Mobiltangentbord",
     "comparison_row1_time": "10-20 min",
     "comparison_row1_accuracy": "N/A",
     "comparison_row1_cost": "Din tid",
-
     "comparison_row2_method": "Enkla konverterare",
     "comparison_row2_time": "1 min",
     "comparison_row2_accuracy": "Faller på reflexer",
     "comparison_row2_cost": "Betald",
-
     "comparison_row3_method": "NoteOCR",
     "comparison_row3_time": "15 sekunder",
     "comparison_row3_accuracy": "Autoförbättrar",
     "comparison_row3_cost": "Testa gratis",
-
     "features_title": "Byggd för verkliga foton",
     "features_subtitle": "Mobilfoton är sällan perfekta. Vår AI löser det.",
-
     "feature_1_title": "Perspektivkorrigering",
     "feature_1_desc": "Plattar ut foton tagna i vinkel.",
-
     "feature_2_title": "Tar bort reflexer",
     "feature_2_desc": "Balanserar blixtljus.",
-
     "feature_3_title": "Ignorerar bakgrundsbrus",
     "feature_3_desc": "Beskär bort ditt skrivbord eller din hand.",
-
     "tech_title": "Hur vi läser dina bilder",
     "tech_intro": "Vi använder Vision AI.",
-
     "tech_detect_title": "Vad vår AI hanterar",
     "tech_detect_1": "Böjda sidor",
     "tech_detect_2": "Foton av datorskärmar",
     "tech_detect_3": "Whiteboard-handskrift",
     "tech_detect_4": "Foton i svagt ljus",
     "tech_detect_5": "Olika typsnitt",
-
     "tech_tips_title": "Fototips",
     "tech_tips_1": "Fokusera kameran",
     "tech_tips_2": "Håll mobilen stilla",
     "tech_tips_3": "Undvik skuggor",
     "tech_tips_4": "Fyll hela bilden med texten",
     "tech_tips_5": "Stäng av blixten vid blanka papper",
-
     "related_tools_title": "Andra verktyg",
-
     "related_tool_1_name": "Bild till Excel",
     "related_tool_1_desc": "Extrahera tabeller",
-
     "related_tool_2_name": "Foto till Word",
     "related_tool_2_desc": "Från kamera direkt till Word",
-
     "related_tool_3_name": "Handskrift till text",
     "related_tool_3_desc": "Transkribera anteckningar",
-
     "related_tool_4_name": "Online Redigerare",
     "related_tool_4_desc": "Redigera i webbläsaren",
-
     "faq_title": "Vanliga frågor om fotokonvertering",
-
     "cta_title": "Redo att extrahera text?",
     "cta_subtitle": "Ladda upp direkt från mobilen.",
     "cta_button": "Ladda upp foto nu",
-
     "footer_text": "NoteOCR // Vision AI-bearbetning",
-
     "tool_upload_title": "Ladda upp din bild",
     "tool_upload_desc": "Välj från kamerarullen.",
     "tool_upload_button": "Välj foto",
     "tool_upload_check_1": "Stöder mobilfoton",
     "tool_upload_check_2": "Max 25 MB",
     "tool_upload_check_3": "Raderas efter 24h",
-
     "tool_processing_title": "Analyserar foto...",
     "tool_processing_desc": "Korrigerar vinklar",
-
     "tool_complete_title": "Foto konverterat!",
     "tool_complete_desc": "Ladda ner ditt dokument nedan.",
     "tool_complete_file_type": "Word-dokument (.docx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Ladda ner Word",
     "tool_new_button": "Konvertera ett till",
-
     "tool_info_1_title": "Helt redigerbar",
     "tool_info_1_desc": "Texten extraheras ut",
-
     "tool_info_2_title": "Smart formatering",
     "tool_info_2_desc": "Stycken återskapas",
-
     "tool_info_3_title": "Universell DOCX",
     "tool_info_3_desc": "Fungerar överallt",
-
     "tool_tip_label": "Kameratips:",
     "tool_tip_text": "Stäng av blixten vid blankt papper för bättre OCR.",
-
     "toast_success": "Fotot konverterades!",
     "toast_error_type": "Välj giltigt foto (JPG/PNG)",
     "toast_error_size": "Under 25 MB",
     "toast_error_conversion": "För suddig bild.",
     "toast_download_success": "Nedladdat!",
     "toast_download_error": "Nedladdning misslyckades.",
-
     "FAQ": {
       "items": {
         "how_to_convert_photo": {
@@ -2853,146 +2605,110 @@
   "HandwrittenInvoice": {
     "meta_title": "Konvertera handskrivna fakturor till Excel | Kvittoextraktion",
     "meta_desc": "Automatisera bokföringen. Extrahera rader, priser och datum från handskrivna fakturor och kvitton direkt till formaterade Excel-ark.",
-
     "hero_pill": "Finansiell OCR",
     "hero_title": "Konvertera handskrivna fakturor till Excel",
     "hero_subtitle": "Sluta skriva av leverantörskvitton. Vår AI extraherar exakt antal och priser från handskrivna fakturor till rena .xlsx-kalkylblad.",
-
     "trust_ssl": "SÄKER UPPLADDNING",
     "trust_processing": "AUTOMATISKA RADER",
     "trust_accuracy": "99 % NUMERISK NOGGRANNHET",
-
     "before_after_title": "Från papperskvitto till digitalt kalkylblad",
     "before_after_desc": "Se vår AI kartlägga röriga handskrivna rader till Excel.",
     "before_label": "Före: Handskriven faktura",
     "before_placeholder": "",
     "after_label": "Efter: Excel-rader",
     "after_placeholder": "",
-
     "use_cases_title": "Vem automatiserar fakturor med NoteOCR?",
     "use_cases_subtitle": "Byggt för ekonomer som värderar sin tid.",
-
     "use_case_1_title": "Bokförare",
     "use_case_1_desc": "Bearbeta skokartonger med kvitton på minuter istället för timmar.",
-
     "use_case_2_title": "Småföretagare",
     "use_case_2_desc": "Digitalisera klottriga leverantörsfakturor.",
-
     "use_case_3_title": "Utgiftshantering",
     "use_case_3_desc": "Konvertera restaurangkvitton till CSV-filer.",
-
     "use_case_4_title": "Deklaration",
     "use_case_4_desc": "Sammanställ företagskvitton till ett Excel-ark inför deklarationen.",
-
     "comparison_title": "Jämförelse av inmatning",
     "comparison_subtitle": "Varför manuell bokföring bränner dina marginaler.",
     "comparison_col_method": "Metod",
     "comparison_col_time": "Tid per faktura",
     "comparison_col_accuracy": "Finansiell noggrannhet",
     "comparison_col_cost": "Arbetskostnad",
-
     "comparison_row1_method": "Manuellt",
     "comparison_row1_time": "3-5 minuter",
     "comparison_row1_accuracy": "Risk för slarvfel",
     "comparison_row1_cost": "Hög",
-
     "comparison_row2_method": "Standard OCR-appar",
     "comparison_row2_time": "1 min",
     "comparison_row2_accuracy": "Blandar ihop kolumner",
     "comparison_row2_cost": "Varierar",
-
     "comparison_row3_method": "NoteOCR",
     "comparison_row3_time": "15 sek",
     "comparison_row3_accuracy": "Perfekt justering",
     "comparison_row3_cost": "Testa gratis",
-
     "features_title": "Avancerad fakturaextraktion",
     "features_subtitle": "Tränad på röriga siffror.",
-
     "feature_1_title": "Artikeldetektion",
     "feature_1_desc": "Separerar beskrivning, pris och antal i Excel-kolumner.",
-
     "feature_2_title": "Hög numerisk precision",
     "feature_2_desc": "Läser av decimaler och valutasymboler perfekt.",
-
     "feature_3_title": "Stöd för rörig handskrift",
     "feature_3_desc": "Byggt för att dechiffrera klotter från leverantörer.",
-
     "tech_title": "Hur vi processar fakturor",
     "tech_intro": "NoteOCR kartlägger den rumsliga relationen i kvittot.",
-
     "tech_detect_title": "Vad vår AI extraherar",
     "tech_detect_1": "Beskrivningar och SKU:er",
     "tech_detect_2": "Kvantitets- och priskolumner",
     "tech_detect_3": "Subtotaler, moms och totalsumma",
     "tech_detect_4": "Handskrivna datum och fakturanummer",
     "tech_detect_5": "Valutasymboler (kr, $, €)",
-
     "tech_tips_title": "Tips för bokförare",
     "tech_tips_1": "Släta ut ihopknycklade kvitton",
     "tech_tips_2": "Undvik skuggor på totalsumman",
     "tech_tips_3": "Håll kameran direkt ovanför",
     "tech_tips_4": "Se till att decimaltecken syns",
     "tech_tips_5": "Granska totalsummorna i Excel",
-
     "related_tools_title": "Fler OCR-verktyg",
-
     "related_tool_1_name": "Bild till Excel",
     "related_tool_1_desc": "Extrahera tabeller",
-
     "related_tool_2_name": "Foto till Word",
     "related_tool_2_desc": "Från kamera direkt till Word",
-
     "related_tool_3_name": "Handskrift till text",
     "related_tool_3_desc": "Transkribera anteckningar",
-
     "related_tool_4_name": "Online Redigerare",
     "related_tool_4_desc": "Redigera i webbläsaren",
-
     "faq_title": "Vanliga frågor om fakturor",
-
     "cta_title": "Sluta skriva in fakturor manuellt.",
     "cta_subtitle": "Låt AI sköta datainmatningen.",
     "cta_button": "Konvertera faktura till Excel",
-
     "footer_text": "NoteOCR // Intelligent finansexraktion",
-
     "tool_upload_title": "Ladda upp handskriven faktura",
     "tool_upload_desc": "Stöder foton av handskrivna kvitton. Vi extraherar raderna till Excel.",
     "tool_upload_button": "Välj bild",
     "tool_upload_check_1": "JPG, PNG",
     "tool_upload_check_2": "Max 25 MB",
     "tool_upload_check_3": "Bankkryptering",
-
     "tool_processing_title": "Extraherar rader...",
     "tool_processing_desc": "Upptäcker priser och beskrivningar",
-
     "tool_complete_title": "Fakturan extraherad!",
     "tool_complete_desc": "Ladda ner ditt kalkylblad nedan.",
     "tool_complete_file_type": "Excel Spreadsheet (.xlsx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Ladda ner Excel",
     "tool_new_button": "Bearbeta nästa faktura",
-
     "tool_info_1_title": "Kolumner justerade",
     "tool_info_1_desc": "Priser och beskrivningar separerade",
-
     "tool_info_2_title": "Siffernoggrannhet",
     "tool_info_2_desc": "Hög precision för decimaler",
-
     "tool_info_3_title": "Redo för import",
     "tool_info_3_desc": "Exportera till Fortnox eller Visma",
-
     "tool_tip_label": "Bokföringstips:",
     "tool_tip_text": "Öppna Excel-filen och spara som .CSV för enkel import till Fortnox/Visma.",
-
     "toast_success": "Fakturan extraherades!",
     "toast_error_type": "Ladda upp giltig fil",
     "toast_error_size": "Under 25 MB",
     "toast_error_extraction": "För blek handskrift.",
     "toast_download_success": "Nedladdat!",
     "toast_download_error": "Nedladdning misslyckades.",
-
     "FAQ": {
       "items": {
         "how_to_convert_invoice": {
@@ -3041,146 +2757,110 @@
   "InventoryToExcel": {
     "meta_title": "Konvertera handskriven inventering till Excel | Lager-OCR",
     "meta_desc": "Konvertera foton av handskrivna inventeringslistor och klippbordsanteckningar direkt till redigerbara Excel-kalkylblad.",
-
     "hero_pill": "Lager & Inventering OCR",
     "hero_title": "Gör om inventeringslistor på papper till Excel",
     "hero_subtitle": "Konvertera din fysiska inventering på sekunder. Fota och vår AI extraherar SKU:er och kvantiteter till en formaterad .xlsx-fil.",
-
     "trust_ssl": "PRIVAT DATA",
     "trust_processing": "BULK SKU",
     "trust_accuracy": "99 % MÄNGDNOGGRANNHET",
-
     "before_after_title": "Från fysiskt klippbord till digital spårare",
     "before_after_desc": "Se hur vi konverterar lagersaldon.",
     "before_label": "Före: Handskriven lista",
     "before_placeholder": "",
     "after_label": "Efter: Excel-inventering",
     "after_placeholder": "",
-
     "use_cases_title": "Vem automatiserar inventeringen?",
     "use_cases_subtitle": "För företag som gör fysiska lagerräkningar.",
-
     "use_case_1_title": "Lagerchefer",
     "use_case_1_desc": "Konvertera loggböcker till Excel.",
-
     "use_case_2_title": "Butiksägare",
     "use_case_2_desc": "Uppdatera ert kassasystem (POS) via CSV.",
-
     "use_case_3_title": "Restaurangpersonal",
     "use_case_3_desc": "Digitalisera klippbordsräkningen av mat/dryck.",
-
     "use_case_4_title": "Utrustningsspårning",
     "use_case_4_desc": "Konvertera utlåningslistor av verktyg.",
-
     "comparison_title": "Inventering: Manuellt vs NoteOCR",
     "comparison_subtitle": "Varför manuell inmatning kostar pengar.",
     "comparison_col_method": "Metod",
     "comparison_col_time": "Tid/sida",
     "comparison_col_accuracy": "SKU Noggrannhet",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuellt",
     "comparison_row1_time": "15-30 min",
     "comparison_row1_accuracy": "Låg",
     "comparison_row1_cost": "Hög",
-
     "comparison_row2_method": "Standardskanners",
     "comparison_row2_time": "2 min",
     "comparison_row2_accuracy": "Bara bild",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR Inventerings-AI",
     "comparison_row3_time": "20 sekunder",
     "comparison_row3_accuracy": "Hög",
     "comparison_row3_cost": "Testa gratis",
-
     "features_title": "Byggt för rörigt lager-handschrift",
     "features_subtitle": "Vi vet att inventering sker i hast. Vår AI anpassar sig.",
-
     "feature_1_title": "SKU-igenkänning",
     "feature_1_desc": "Skiljer mellan '0' och 'O' i artikelkoder.",
-
     "feature_2_title": "Kolumnformatering",
     "feature_2_desc": "Separerar artikelnamn, SKU och antal.",
-
     "feature_3_title": "CSV för kassasystem",
     "feature_3_desc": "Exportera data till Shopify eller Fortnox.",
-
     "tech_title": "Hur vi bearbetar",
     "tech_intro": "Vi använder Table Structure Recognition (TSR).",
-
     "tech_detect_title": "Vad vår AI extraherar",
     "tech_detect_1": "Serienummer och SKU:er",
     "tech_detect_2": "Antal och vikter",
     "tech_detect_3": "Överstrukna varor",
     "tech_detect_4": "Flerkolumnslayouter",
     "tech_detect_5": "Datum och hyllnummer",
-
     "tech_tips_title": "Tips för snabbare audits",
     "tech_tips_1": "Använd bra belysning",
     "tech_tips_2": "Skriv SKU tydligt",
     "tech_tips_3": "Håll kolumner någorlunda raka",
     "tech_tips_4": "Fota rakt ovanifrån",
     "tech_tips_5": "Granska kvantiteterna",
-
     "related_tools_title": "Andra dataverktyg",
-
     "related_tool_1_name": "Faktura till Excel",
     "related_tool_1_desc": "Extrahera kvitton",
-
     "related_tool_2_name": "Tidrapport till Excel",
     "related_tool_2_desc": "Löneutdrag",
-
     "related_tool_3_name": "Bild till Excel",
     "related_tool_3_desc": "Tabeller till Excel",
-
     "related_tool_4_name": "Bild till text",
     "related_tool_4_desc": "För text",
-
     "faq_title": "Vanliga frågor om inventerings-OCR",
-
     "cta_title": "Sluta skriva inventeringen.",
     "cta_subtitle": "Fota klippbordet och låt NoteOCR bygga kalkylbladet.",
     "cta_button": "Konvertera inventering nu",
-
     "footer_text": "NoteOCR // Industriell Dataextraktion",
-
     "tool_upload_title": "Ladda upp handskriven lista",
     "tool_upload_desc": "Stöder foton av klippbord.",
     "tool_upload_button": "Välj foto",
     "tool_upload_check_1": "JPG, PNG",
     "tool_upload_check_2": "Max 25 MB",
     "tool_upload_check_3": "Raderas efter 24h",
-
     "tool_processing_title": "Extraherar lagersaldo...",
     "tool_processing_desc": "Detekterar SKU och antal",
-
     "tool_complete_title": "Inventeringen extraherad!",
     "tool_complete_desc": "Ladda ner ditt kalkylblad.",
     "tool_complete_file_type": "Excel Spreadsheet (.xlsx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Ladda ner Excel",
     "tool_new_button": "Nästa sida",
-
     "tool_info_1_title": "Rutnät bevaras",
     "tool_info_1_desc": "Separat SKU och antal",
-
     "tool_info_2_title": "Hög precision",
     "tool_info_2_desc": "För slarvig handskrift",
-
     "tool_info_3_title": "CSV kompatibel",
     "tool_info_3_desc": "För kassasystem",
-
     "tool_tip_label": "Lagertips:",
     "tool_tip_text": "Använd linjerat papper för bäst resultat.",
-
     "toast_success": "Inventeringen extraherades!",
     "toast_error_type": "Välj en giltig bildfil",
     "toast_error_size": "Under 25 MB",
     "toast_error_extraction": "Bilden kan vara för suddig.",
     "toast_download_success": "Nedladdat!",
     "toast_download_error": "Nedladdning misslyckades.",
-
     "FAQ": {
       "items": {
         "how_to_convert_inventory": {
@@ -3229,146 +2909,110 @@
   "HandwrittenTimesheet": {
     "meta_title": "Konvertera handskrivna tidrapporter till Excel | Löne-OCR",
     "meta_desc": "Sluta skriva in de anställdas arbetstimmar manuellt. Konvertera foton av handskrivna tidrapporter direkt till Excel-kalkylblad för löneadministration.",
-
     "hero_pill": "Automatisering av lönedata",
     "hero_title": "Automatisera handskrivna tidrapporter till Excel",
     "hero_subtitle": "Kör lönerna snabbare. Ta ett foto av teamets handskrivna tidkort, och vår AI extraherar namn, datum och timmar direkt till Excel.",
-
     "trust_ssl": "SÄKER HR-DATA",
     "trust_processing": "SNABB OCR",
     "trust_accuracy": "99 % SIFFERNOGGRANNHET",
-
     "before_after_title": "Från papper till lön",
     "before_after_desc": "Se vår AI kartlägga röriga timmar till Excel.",
     "before_label": "Före: Handskriven logg",
     "before_placeholder": "",
     "after_label": "Efter: Excel Löneuppgifter",
     "after_placeholder": "",
-
     "use_cases_title": "Vem använder detta?",
     "use_cases_subtitle": "Branscher som litar på papper för in- och utstämpling.",
-
     "use_case_1_title": "Bygg & Anläggning",
     "use_case_1_desc": "Digitalisera smutsiga tidrapporter från arbetsplatsen.",
-
     "use_case_2_title": "Restaurang",
     "use_case_2_desc": "Konvertera handskrivna scheman till Excel.",
-
     "use_case_3_title": "Trädgård & Fält",
     "use_case_3_desc": "Sluta dechiffrera fältarbetares röriga text.",
-
     "use_case_4_title": "Sjukvård",
     "use_case_4_desc": "Konvertera övertidsloggar från papper.",
-
     "comparison_title": "Lönejämförelse",
     "comparison_subtitle": "Varför manuell tidrapportering är riskabel.",
     "comparison_col_method": "Metod",
     "comparison_col_time": "Tid",
     "comparison_col_accuracy": "Lönefel",
     "comparison_col_cost": "Kostnad",
-
     "comparison_row1_method": "Manuellt",
     "comparison_row1_time": "2+ timmar",
     "comparison_row1_accuracy": "Hög risk",
     "comparison_row1_cost": "Dyr administratör",
-
     "comparison_row2_method": "Standard OCR",
     "comparison_row2_time": "5 min",
     "comparison_row2_accuracy": "Dålig struktur",
     "comparison_row2_cost": "Gratis",
-
     "comparison_row3_method": "NoteOCR Tidrapport-AI",
     "comparison_row3_time": "30 sekunder",
     "comparison_row3_accuracy": "Perfekt justering",
     "comparison_row3_cost": "Testa gratis",
-
     "features_title": "Avancerad löneextraktion",
     "features_subtitle": "Tränad att läsa namn och timmar.",
-
     "feature_1_title": "Igenkänning av tid",
     "feature_1_desc": "Oavsett om de skriver 08:00 eller 8.5 timmar.",
-
     "feature_2_title": "Kolumnjustering",
     "feature_2_desc": "Separerar Namn, Datum, In och Ut i Excel.",
-
     "feature_3_title": "CSV Export för Visma & Fortnox",
     "feature_3_desc": "Spara som CSV för enkel import i ditt löneprogram.",
-
     "tech_title": "Hur vi processar tidkort",
     "tech_intro": "Vi använder layoutanalys för att koppla rätt timmar till rätt person.",
-
     "tech_detect_title": "Vad vår AI extraherar",
     "tech_detect_1": "Handskrivna namn",
     "tech_detect_2": "In/utstämplingstider",
     "tech_detect_3": "Decimaler (7.5 timmar)",
     "tech_detect_4": "Datum och veckodagar",
     "tech_detect_5": "Signaturer från arbetsledare",
-
     "tech_tips_title": "Tips för HR",
     "tech_tips_1": "Släta ut pappret",
     "tech_tips_2": "Fota i bra ljus",
     "tech_tips_3": "Fota rakt uppifrån",
     "tech_tips_4": "Be personalen skriva tydligt",
     "tech_tips_5": "Gör en snabb visuell check i Excel",
-
     "related_tools_title": "Fler HR-verktyg",
-
     "related_tool_1_name": "Faktura till Excel",
     "related_tool_1_desc": "För kvitton",
-
     "related_tool_2_name": "Inventering till Excel",
     "related_tool_2_desc": "För lagret",
-
     "related_tool_3_name": "Scan till Word",
     "related_tool_3_desc": "Digitalisera papper",
-
     "related_tool_4_name": "Handskrift till text",
     "related_tool_4_desc": "Mötesanteckningar",
-
     "faq_title": "Vanliga frågor om tidrapporter",
-
     "cta_title": "Sluta knappa in tider.",
     "cta_subtitle": "Låt AI sköta fredagens datainmatning.",
     "cta_button": "Konvertera tidrapport till Excel",
-
     "footer_text": "NoteOCR // Lönedata",
-
     "tool_upload_title": "Ladda upp handskriven tidrapport",
     "tool_upload_desc": "Stöder foton av inloggningsblad.",
     "tool_upload_button": "Välj bild",
     "tool_upload_check_1": "JPG, PNG",
     "tool_upload_check_2": "Max 25 MB",
     "tool_upload_check_3": "Bankkryptering",
-
     "tool_processing_title": "Extraherar timmar...",
     "tool_processing_desc": "Läser av namn och datum",
-
     "tool_complete_title": "Tidrapporten extraherad!",
     "tool_complete_desc": "Ladda ner ditt löneunderlag i Excel.",
     "tool_complete_file_type": "Excel Spreadsheet (.xlsx)",
     "tool_complete_status": "KLAR",
     "tool_download_button": "Ladda ner Excel",
     "tool_new_button": "Nästa rapport",
-
     "tool_info_1_title": "Rutnät bevaras",
     "tool_info_1_desc": "Allt i rätt rad",
-
     "tool_info_2_title": "Hög noggrannhet",
     "tool_info_2_desc": "Byggt för rörig text",
-
     "tool_info_3_title": "CSV kompatibel",
     "tool_info_3_desc": "För löneprogram",
-
     "tool_tip_label": "Lönetips:",
     "tool_tip_text": "Öppna Excel och spara som CSV för import till Visma Lön eller Fortnox.",
-
     "toast_success": "Tidrapporten extraherad!",
     "toast_error_type": "Välj en giltig bild",
     "toast_error_size": "Max 25 MB",
     "toast_error_extraction": "För suddig bild.",
     "toast_download_success": "Nedladdat!",
     "toast_download_error": "Fel vid nedladdning.",
-
     "FAQ": {
       "items": {
         "how_to_convert_timesheet": {
@@ -3417,35 +3061,26 @@
   "HandwritingRecognitionPage": {
     "meta_title": "Handskriftsigenkänning Online | NoteOCR",
     "meta_desc": "Ladda upp en handskriven bild och vår AI känner igen den och konverterar den till formaterad text omedelbart. Gratis handskriftsigenkänning online.",
-
     "hero_pill": "AI Handskriftsigenkänning",
     "hero_title": "Handskriftsigenkänning som faktiskt fungerar.",
     "hero_subtitle": "Ladda upp ett foto av handskrivna anteckningar, formulär eller dokument. Vår AI läser handskriften, inklusive rörig skrivstil, och konverterar den till redigerbar formaterad text på några sekunder.",
-
     "trust_ssl": "SSL-Krypterat",
     "trust_processing": "30-sekunders bearbetning",
     "trust_accuracy": "99 % Noggrannhet",
-
     "before_after_title": "Se Igenkänningen i praktiken",
     "before_after_desc": "Verkligt prov på handskrift som visar vad vår AI läser kontra vad som kommer ut.",
     "before_label": "Före: Handskriven bild",
     "after_label": "Efter: Igenkänd digital text",
-
     "use_cases_title": "Vem använder handskriftsigenkänning?",
     "use_cases_subtitle": "Från studenter som digitaliserar anteckningar till företag som bearbetar formulär – handskriftsigenkänning sparar timmar varje dag.",
-
     "use_case_1_title": "Studenter & Föreläsningsanteckningar",
     "use_case_1_desc": "Fotografera din anteckningsbok efter lektionen och få helt sökbar, redigerbar text på sekunder. Sluta skriva in sidor av föreläsningsanteckningar inför tentor.",
-
     "use_case_2_title": "Rörigt & Kursivt handskrift",
     "use_case_2_desc": "Vår AI är specifikt tränad på svår handskrift – slarvigt klotter, sammanhängande skrivstil och blandade tryck/kursiv-stilar känns alla igen med hög noggrannhet.",
-
     "use_case_3_title": "Handskrivna formulär & dokument",
     "use_case_3_desc": "Digitalisera patientformulär, fältrapporter, fakturor och HR-register från ett mobilfoto. Ingen skanner behövs – din kamera räcker.",
-
     "use_case_4_title": "Gamla brev & Dagböcker",
     "use_case_4_desc": "Bevara handskrivna familjebrev, personliga dagböcker och historiska dokument genom att konvertera dem till sökbar digital text som du kan dela och arkivera.",
-
     "comparison_title": "Handskriftsigenkänning: Metoder jämförda",
     "comparison_subtitle": "Varför en specialbyggd AI överträffar allmänna verktyg varje gång.",
     "comparison_col_method": "Metod",
@@ -3464,36 +3099,28 @@
     "comparison_row3_time": "Under 30 sekunder",
     "comparison_row3_accuracy": "95–99 % inklusive skrivstil",
     "comparison_row3_cost": "Gratis att testa",
-
     "features_title": "Varför vår handskriftsigenkänning är annorlunda",
     "features_subtitle": "Byggt specifikt för handskrift, inte anpassat från ett verktyg för tryckt text.",
-
     "feature_1_title": "Tränad på handskrift, inte typsnitt",
     "feature_1_desc": "Generisk OCR lär sig från tryckta typsnitt. Vår AI tränades exklusivt på miljontals riktiga handskriftsprover – tryckbokstäver, skrivstil, blandade stilar, bråttom-anteckningar och allt däremellan.",
-
     "feature_2_title": "Läser rörig och kursiv skrift",
     "feature_2_desc": "Sammanhängande bokstäver, varierande lutning, inkonsekvent storlek – precis de saker som förstör standard-OCR. Vårt neurala nätverk hanterar dem på samma sätt som en mänsklig läsare: genom att använda sammanhanget för att fylla i luckor.",
-
     "feature_3_title": "Utskrift du faktiskt kan använda",
     "feature_3_desc": "Igenkänd text dumpas inte bara som en vanlig paragraf. Vi rekonstruerar layout, bevarar listor och rubriker, och exporterar till Word, Excel eller vanlig text beroende på vad du behöver.",
-
     "tech_title": "Hur handskriftsigenkänning fungerar",
     "tech_intro": "Standard OCR-teknik byggdes för tryckt text – enhetliga typsnitt med förutsägbara bokstavsformer. Handskrift bryter varje antagande som gör att standard-OCR fungerar. Varje person skriver annorlunda. Bokstäver ansluter, överlappar, varierar i storlek och lutning. Vår AI använder en helt annan metod: neurala nätverk tränade på miljontals handskriftsprover som lär sig att läsa på samma sätt som en människa – genom att känna igen mönster över hela ord och rader, inte enskilda tecken.",
-
     "tech_detect_title": "Vad vår AI upptäcker",
     "tech_detect_1": "Tryckbokstäver och skrivstil – inklusive sammanhängande och överlappande bokstäver",
     "tech_detect_2": "Röriga, stressade och inkonsekventa skrivstilar",
     "tech_detect_3": "Blandad tryck- och skrivstil på samma sida",
     "tech_detect_4": "Överstrukna ord och korrigeringar",
     "tech_detect_5": "Dokumentstruktur – rubriker, listor, stycken och tabellrader",
-
     "tech_tips_title": "Tips för bästa resultat",
     "tech_tips_1": "Fotografera i bra naturligt ljus – undvik blixt direkt på sidan",
     "tech_tips_2": "Håll din telefon parallellt med papperet, inte i vinkel",
     "tech_tips_3": "Säkerställ att bläcket kontrasterar tydligt mot pappersbakgrunden",
     "tech_tips_4": "300 DPI eller högre för inskannade dokument",
     "tech_tips_5": "Granska utskriften – även 95 % noggrannhet innebär att enstaka korrigeringar behövs",
-
     "related_tools_title": "Relaterade verktyg",
     "related_tool_1_name": "Handskrift till Word",
     "related_tool_1_desc": "Konvertera anteckningar till formaterad .docx",
@@ -3503,9 +3130,7 @@
     "related_tool_3_desc": "Specialiserat verktyg för skrivstils-OCR",
     "related_tool_4_name": "Skanna handskrift till text",
     "related_tool_4_desc": "Från mobilfoto eller PDF-skanning",
-
     "faq_title": "Vanliga frågor om handskriftsigenkänning",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3590,11 +3215,9 @@
         }
       }
     },
-
     "cta_title": "Redo att känna igen din handskrift?",
     "cta_subtitle": "Gå med över 10 000 studenter, forskare och företag som har slutat skriva om handskrivet innehåll.",
     "cta_button": "Testa handskriftsigenkänning gratis",
-
     "tool_info_1_title": "Ingen app behövs",
     "tool_info_1_desc": "Fungerar i din webbläsare. Ingen nedladdning, ingen registrering krävs för att testa.",
     "tool_info_2_title": "Skrivstil & rörig skrift",
@@ -3602,39 +3225,29 @@
     "tool_info_3_title": "Word, Excel & Textexport",
     "tool_info_3_desc": "Få din igenkända text i det format du faktiskt behöver."
   },
-
   "CursiveToTextPage": {
     "meta_title": "Konverterare för Skrivstil till Text Online | NoteOCR",
     "meta_desc": "Konvertera skrivstil till skriven text direkt. Vår AI läser sammanhängande skrift och flytande slingor med 95%+ noggrannhet. Gratis skrivstils-OCR online.",
-
     "hero_pill": "Skrivstils-OCR",
     "hero_title": "Konvertera Skrivstil till Text på sekunder.",
     "hero_subtitle": "Ladda upp ett foto av handskrivna anteckningar i skrivstil, brev, dagböcker, formulär. Vår AI avkodar sammanhängande skrift som generiska OCR-verktyg inte rör. Ingen app. Ingen registrering. Resultat på under 30 sekunder.",
-
     "trust_ssl": "SSL-krypterat",
     "trust_processing": "Under 30 sekunder",
     "trust_accuracy": "95%+ Noggrannhet för skrivstil",
-
     "before_after_title": "Skrivstil in. Ren digital text ut.",
     "before_after_desc": "Verkligt prov på skrivstil, se exakt hur vår AI hanterar sammanhängande, flytande skrift.",
     "before_label": "Före: Skrivstil",
     "after_label": "Efter: Konverterad digital text",
-
     "use_cases_title": "Vem konverterar skrivstil till text?",
     "use_cases_subtitle": "Från släktforskare som digitaliserar gamla brev till studenter som transkriberar anteckningar, skrivstilskonvertering sparar timmar av manuellt omtag varje vecka.",
-
     "use_case_1_title": "Gamla brev & Familjedokument",
     "use_case_1_desc": "Konvertera mor- och farföräldrars handskrivna brev, gamla dagböcker och personliga journaler till sökbar digital text. Bevara familjehistoria utan att betala en professionell transkriberare.",
-
     "use_case_2_title": "Studentanteckningar i skrivstil",
     "use_case_2_desc": "Många studenter skriver fortfarande föreläsnings- och revisionsanteckningar i skrivstil. Fotografera din anteckningsbok och få fullt redigerbar, sökbar text på några sekunder, redo för dokument och uppsatser.",
-
     "use_case_3_title": "Historiska & Arkivdokument",
     "use_case_3_desc": "Digitalisera dokument, bouppteckningar, församlingsregister och juridiska papper skrivna i skrivstil. Vår AI hanterar äldre skrivstilar, inklusive 1800-tals handskrift och tidigt 1900-talsskrift.",
-
     "use_case_4_title": "Professionella formulär",
     "use_case_4_desc": "Fältrapporter, signerade intagsformulär, handskrivna fakturor och patientanteckningar skrivna med skrivstil, konvertera dem till redigerbar Word eller Excel i ett steg.",
-
     "comparison_title": "Skrivstils-OCR: Så här står sig metoderna",
     "comparison_subtitle": "Skrivstil är där generiska verktyg kollapsar. Här är varför en specialbyggd AI är det enda tillförlitliga alternativet.",
     "comparison_col_method": "Metod",
@@ -3653,36 +3266,28 @@
     "comparison_row3_time": "Under 30 sekunder",
     "comparison_row3_accuracy": "90–98 % på skrivstil",
     "comparison_row3_cost": "Gratis att testa",
-
     "features_title": "Varför vår skrivstilskonverterare är annorlunda",
     "features_subtitle": "Skrivstilsfokuserad AI, inte ett OCR-verktyg för tryckt text med en skrivstils-patch påklistrad.",
-
     "feature_1_title": "Läser sammanhängande bokstäver direkt",
     "feature_1_desc": "Standard-OCR segmenterar enskilda tecken innan de läses. Skrivstil bryter det helt, bokstäver ansluter och överlappar. Vår AI läser hela ord och rader på en gång, på samma sätt som ett mänskligt öga gör, vilket gör sammanhängande skrift läslig där andra verktyg ger upp.",
-
     "feature_2_title": "Hanterar slingor, lutning & variation",
     "feature_2_desc": "Varje persons skrivstil är unik, olika öglestorlekar, lutningsvinklar och bokstavsavstånd. Vårt neurala nätverk tränades på miljontals verkliga skrivstilsprover över dussintals skrivstilar, så det generaliserar till handskrift det aldrig har sett förut.",
-
     "feature_3_title": "Exporterar till Word, Excel & Text",
     "feature_3_desc": "Konverterad skrivstil dumpas inte som ett oformaterat stycke. Vi rekonstruerar dokumentlayout, stycken, listor, tabeller och exporterar direkt till .docx, .xlsx eller vanlig .txt beroende på vad du behöver.",
-
     "tech_title": "Varför skrivstil är så svårt för OCR, och hur vi löser det",
     "tech_intro": "Standard-OCR konstruerades för tryckt text. Varje antagande den gör – enhetliga bokstavsformer, tydliga mellanrum mellan bokstäver, konsekvent avstånd – bryts fullständigt med skrivstil. Skrivstilsbokstäver smälter samman. Samma bokstav ser helt annorlunda ut beroende på vad som kommer före och efter den. Vår AI tar ett fundamentalt annorlunda tillvägagångssätt: istället för att försöka isolera enskilda tecken, läser den hela ord och rader som visuella mönster, samma strategi som en flytande mänsklig läsare använder när de möter sammanhängande skrift de aldrig har sett tidigare.",
-
     "tech_detect_title": "Vad vår AI hanterar",
     "tech_detect_1": "Fullt sammanhängande skrivstil där inga bokstäver är separerade",
     "tech_detect_2": "Blandad skrivstil och tryck på samma sida",
     "tech_detect_3": "Varierande lutning, högerlutande, vänsterlutande och upprätt",
     "tech_detect_4": "Dekorativa och personliga bokstavsformer",
     "tech_detect_5": "Äldre 1800-tals- och tidigt 1900-talsskrivstilar",
-
     "tech_tips_title": "Tips för bästa skrivstilskonvertering",
     "tech_tips_1": "Använd naturligt dagsljus, undvik blixt som plattar ut bläckkontrasten",
     "tech_tips_2": "Håll kameran platt ovanför sidan, inte i vinkel",
     "tech_tips_3": "Säkerställ mörkt bläck på ljust papper, undvik skuggor över texten",
     "tech_tips_4": "För mycket gamla dokument, öka kontrasten i en fotoredigerare först",
     "tech_tips_5": "Granska alltid utskriften, även 95 % noggrannhet innebär enstaka korrigeringar",
-
     "related_tools_title": "Relaterade verktyg",
     "related_tool_1_name": "Handskrift till Word",
     "related_tool_1_desc": "Konvertera anteckningar till formaterad .docx",
@@ -3692,9 +3297,7 @@
     "related_tool_3_desc": "Alla handskriftsstilar, tryck, skrivstil, blandat",
     "related_tool_4_name": "Skanna handskrift till text",
     "related_tool_4_desc": "Från mobilfoto eller PDF-skanning",
-
     "faq_title": "Vanliga frågor om konvertering från skrivstil till text",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3779,11 +3382,9 @@
         }
       }
     },
-
     "cta_title": "Redo att konvertera din skrivstil?",
     "cta_subtitle": "Ladda upp vilken bild med skrivstil som helst, brev, dagböcker, anteckningar, formulär och få ren, redigerbar text på under 30 sekunder.",
     "cta_button": "Testa Skrivstil till Text gratis",
-
     "tool_info_1_title": "Ingen app behövs",
     "tool_info_1_desc": "Körs i din webbläsare. Ingen nedladdning, ingen registrering krävs för att testa.",
     "tool_info_2_title": "AI för sammanhängande skrift",
@@ -3797,31 +3398,23 @@
     "hero_pill": "Online Handskriftsskanner",
     "hero_title": "Skanna Handskrift till Text. Ingen App Krävs.",
     "hero_subtitle": "Ta en bild av valfri handskriven sida med din telefon, eller ladda upp en skanning, och vår AI konverterar den till ren redigerbar text på under 30 sekunder. Ingen app att ladda ner. Fungerar i valfri webbläsare på valfri enhet.",
-
     "trust_ssl": "SSL-krypterat",
     "trust_processing": "Under 30 sekunder",
     "trust_accuracy": "95%+ Skanningsnoggrannhet",
-
     "before_after_title": "Skannad Handskrift in. Redigerbar Digital Text ut.",
     "before_after_desc": "Verkligt skanningsresultat som visar exakt hur vår AI bearbetar ett mobilfoto av handskrivna anteckningar.",
     "before_label": "Före: Skannad Handskriven Sida",
     "after_label": "Efter: Ren Redigerbar Text",
-
     "use_cases_title": "Vem använder en handskriftsskanner online?",
     "use_cases_subtitle": "Alla som har fysiska handskrivna sidor som de behöver digitalisera snabbt använder detta. Ingen skannerhårdvara krävs, din mobilkamera räcker.",
-
     "use_case_1_title": "Studenter skannar föreläsningsanteckningar",
     "use_case_1_desc": "Fotografera hela anteckningsbokssidor efter lektionen och få helt sökbar, redigerbar text inom några sekunder. Sluta skriva in sidor inför tentor och börja faktiskt repetera istället.",
-
     "use_case_2_title": "Fältanteckningar och platsrapporter",
     "use_case_2_desc": "Ingenjörer, lantmätare, inspektörer och fältarbetare skannar handskrivna platsanteckningar direkt från sin telefon och har dem i ett delbart digitalt format innan de ens lämnar arbetsplatsen.",
-
     "use_case_3_title": "Digitalisera pappersjournaler och formulär",
     "use_case_3_desc": "Patientintagsformulär, leveranskvitton, tidrapporter, inspektionschecklistor skrivna för hand - skanna dem och få strukturerad redigerbar text redo för copy-paste eller export i ett steg.",
-
     "use_case_4_title": "Personliga dagböcker och anteckningsböcker",
     "use_case_4_desc": "Digitalisera personliga dagböcker, receptböcker, brainstormsidor och handskrivna kalendrar med ett enda mobilfoto. Bevara år av fysiska anteckningsböcker som sökbar digital text du kan komma åt överallt.",
-
     "comparison_title": "Online Handskriftsskanner: Alternativ Jämförda",
     "comparison_subtitle": "De flesta skanningsverktyg tvingar dig att installera en app eller binder dig till en prenumeration innan du får något användbart. Det gör inte NoteOCR.",
     "comparison_col_method": "Metod",
@@ -3840,36 +3433,28 @@
     "comparison_row3_time": "Under 30 sekunder",
     "comparison_row3_accuracy": "95%+ på skannad handskrift",
     "comparison_row3_cost": "Gratis att testa, ingen app, engångsbetalning",
-
     "features_title": "Varför NoteOCR är den bättre handskriftsskannern online",
     "features_subtitle": "Specialbyggd för att skanna handskrivna sidor, inte en dokumentskanner som försöker hantera handskrift som en eftertanke.",
-
     "feature_1_title": "Din telefon är skannern",
     "feature_1_desc": "Du behöver inte en flatbäddsskanner eller någon hårdvara. Ta ett foto av valfri handskriven sida med din mobilkamera och ladda upp det. Vår AI korrigerar perspektiv, justerar belysning och tar bort skuggor automatiskt så att du får rena resultat från ett ofullkomligt foto.",
-
     "feature_2_title": "Läser vad flatbäddsskannrar inte kan",
     "feature_2_desc": "Standard dokumentskannrar och allmänna OCR-verktyg producerar rappakalja på handskrift eftersom de byggdes för tryckta typsnitt. Vårt neurala nätverk tränades specifikt på skannade handskriftsprover över varje skrivstil, så det läser vad andra inte kan.",
-
     "feature_3_title": "Ingen app. Inget konto. Ingen väntan.",
     "feature_3_desc": "Öppna sidan i vilken webbläsare som helst, ladda upp din skannade bild och få tillbaka redigerbar text. Ingen appbutik, ingen installation, inget kontoskapande, ingen väntan på bekräftelsemejl. Fungerar identiskt på iPhone, Android, Mac, Windows och Chromebook.",
-
     "tech_title": "Hur Skanning av Handskrift till Text faktiskt fungerar",
     "tech_intro": "När du laddar upp en skannad bild av handskrift, oavsett om det är ett mobilfoto eller en flatbäddsskanning, kör vår AI tre steg automatiskt. Först förbehandlas bilden: korrigerar skevhet och rotation, förbättrar kontrast, tar bort brus och skuggor och skärper bläcket mot papperet. För det andra körs layoutanalys för att identifiera var textrader, stycken och strukturella element sitter på sidan. För det tredje läser handskriftsigenkänningsmotorn varje rad som en visuell sekvens - inte tecken för tecken som standard-OCR, utan ord och fras i taget, och använder omgivande kontext för att tolka tvetydiga bokstäver. Utdata är strukturerad text som bevarar din ursprungliga stycke- och radbrytning.",
-
     "tech_detect_title": "Vad vår skanner hanterar",
     "tech_detect_1": "Mobilkamerafoton tagna i små vinklar - perspektivet korrigeras automatiskt",
     "tech_detect_2": "Lågt ljus och blixturtvättade bilder med automatisk kontrastförbättring",
     "tech_detect_3": "Flatbädds- och dokumentskannerutmatning på 150 DPI och över",
     "tech_detect_4": "Blandade handskriftsstilar på samma skannade sida",
     "tech_detect_5": "Överstrukna ord, pilar, annoteringar och marginalanteckningar",
-
     "tech_tips_title": "Skanningstips för bästa resultat",
     "tech_tips_1": "Håll din telefon rakt ovanför sidan, parallellt med papperet, inte i en vinkel",
     "tech_tips_2": "Använd naturligt dagsljus där det är möjligt - undvik blixt som plattar ut bläckkontrasten",
     "tech_tips_3": "Se till att hela sidan är inom ramen innan du fotar",
     "tech_tips_4": "För flatbäddsskanningar ger 300 DPI avsevärt bättre resultat än 150 DPI",
     "tech_tips_5": "Om bläcket är blekt eller papperet är gammalt, öka kontrasten i en fotoredigerare innan du laddar upp",
-
     "related_tools_title": "Relaterade verktyg",
     "related_tool_1_name": "Handskriftsigenkänning",
     "related_tool_1_desc": "Bred AI-igenkänning för alla handskriftsstilar",
@@ -3879,9 +3464,7 @@
     "related_tool_3_desc": "Specialiserad skanner för sammanhängande skrivstil",
     "related_tool_4_name": "Handskrift till Excel",
     "related_tool_4_desc": "Skanna handskrivna tabeller till kalkylblad",
-
     "faq_title": "Vanliga frågor om att skanna handskrift till text",
-
     "FAQ": {
       "items": {
         "what_is": {
@@ -3970,11 +3553,9 @@
         }
       }
     },
-
     "cta_title": "Redo att skanna din handskrift till text?",
     "cta_subtitle": "Ladda upp valfritt mobilfoto eller skannad bild av handskrivna anteckningar och få tillbaka redigerbar text på under 30 sekunder. Ingen app. Inget konto krävs.",
     "cta_button": "Skanna Handskrift till Text Gratis",
-
     "tool_info_1_title": "Ingen app behövs",
     "tool_info_1_desc": "Fungerar i din webbläsare på valfri enhet. Ingen nedladdning, ingen registrering för att testa.",
     "tool_info_2_title": "Mobilkamera redo",
