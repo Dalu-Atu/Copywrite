@@ -1,4 +1,712 @@
 {
+  "ClassNotesScannerPage": {
+    "meta_title": "Mitschriften-Scanner – Handschrift in Word umwandeln | NoteOCR",
+    "meta_desc": "Scannen Sie handschriftliche Mitschriften und Notizen aus Vorlesungen mit dem Smartphone und wandeln Sie sie sekundenschnell in bearbeitbare, durchsuchbare Word-Dokumente um.",
+    "nav_label": "Mitschriften-Scanner",
+
+    "hero_pill": "Für Studierende & Schüler",
+    "hero_title": "Verwandeln Sie handschriftliche Mitschriften nach jeder Vorlesung in durchsuchbare Word-Dokumente.",
+    "hero_subtitle": "Fotografieren Sie Ihre Heftseite mit der NoteOCR-App und erhalten Sie sauberen, bearbeitbaren Text – ideal zum Lernen, Durchsuchen oder Einfügen in Ihre Zusammenfassungen.",
+    "hero_image_alt": "Handschriftliche Mitschriften eines Studenten werden mit der NoteOCR-App gescannt und umgewandelt",
+
+    "trust_1": "SSL-verschlüsselt",
+    "trust_2": "Fertig in unter 2 Minuten",
+    "trust_3": "95–98 % Texterkennungsgenauigkeit",
+
+    "pain_eyebrow": "Ihre Notizen – endlich nutzbar",
+    "pain_title": "Verwandeln Sie handschriftliche Notizen in digitalen Text, den Sie wirklich nutzen können.",
+    "pain_desc": "Handschrift ist ideal, um schnell mitzuschreiben. Doch wenn es darum geht, Inhalte zu durchsuchen, zu bearbeiten, zu teilen oder eine Lernübersicht zu erstellen, steht Papier im Weg. NoteOCR wandelt handschriftliche Notizen in sauberen, bearbeitbaren digitalen Text um – ganz ohne mühsames Abtippen.",
+    "before_after_eyebrow": "In Aktion erleben",
+    "before_after_title": "Sehen Sie den Unterschied",
+    "before_after_desc": "Eine echte Heftseite mit Vorlesungsnotizen, umgewandelt in ein bearbeitbares Word-Dokument.",
+    "before_label": "Vorher: Notizbuchseite",
+    "before_alt": "Eine Seite handschriftlicher Mitschriften vor der Umwandlung",
+    "after_label": "Nachher: Word-Dokument",
+    "after_alt": "Dieselben Mitschriften, umgewandelt in ein durchsuchbares Word-Dokument",
+
+    "how_eyebrow": "So funktioniert's",
+    "how_title": "In drei Schritten vom Notizheft zum Lernskript.",
+    "how_subtitle": "Scannen Sie direkt nach der Vorlesung, solange der Stoff noch frisch ist.",
+    "step_1_title": "App öffnen & auf Scannen tippen",
+    "step_1_desc": "Fotografieren Sie Ihre Notizbuchseite direkt nach der Veranstaltung oder in der Pause.",
+    "step_2_title": "Automatischer Zuschnitt & Optimierung",
+    "step_2_desc": "Funktioniert auch bei gewölbten Heftseiten oder ungleichmäßigem Licht im Hörsaal.",
+    "step_3_title": "Als Word exportieren & lernen",
+    "step_3_desc": "Fügen Sie den Text in Ihr Skript ein oder speichern Sie ihn als durchsuchbare Datei.",
+
+    "who_title": "Wer scannt Mitschriften mit NoteOCR?",
+    "who_subtitle": "Alle, die handschriftlich mitschreiben, aber digitale Dokumente benötigen.",
+    "audience_1_title": "Studierende",
+    "audience_1_desc": "Vorlesungsmitschriften digitalisieren, um vor Klausuren durchsuchbare Lernunterlagen zu erstellen.",
+    "audience_2_title": "Schülerinnen & Schüler",
+    "audience_2_desc": "Unterrichtsnotizen in Text umwandeln, um sie in Hausarbeiten einzufügen oder mit Mitschülern zu teilen.",
+    "audience_3_title": "Lerngruppen",
+    "audience_3_desc": "Handschriftliche Notizen aller Gruppenmitglieder in einem gemeinsamen digitalen Dokument zusammenführen.",
+    "audience_4_title": "Barrierefreies Lernen",
+    "audience_4_desc": "Handschrift in Text verwandeln, der sich leichter lesen, vergrößern oder per Screenreader vorlesen lässt.",
+
+    "comparison_title": "Manuelles Abtippen vs. NoteOCR",
+    "comparison_subtitle": "Warum Scannen dem Abtippen eigener Notizen weit überlegen ist",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Zeitaufwand",
+    "comparison_col_accuracy": "Genauigkeit",
+    "comparison_col_cost": "Kosten",
+    "row1_method": "Notizen manuell abtippen",
+    "row1_time": "20–30 Minuten",
+    "row1_accuracy": "100 %, aber langsam",
+    "row1_cost": "Kostenlos (kostet Ihre Zeit)",
+    "row2_method": "Herkömmliche OCR-App",
+    "row2_time": "5 Minuten",
+    "row2_accuracy": "~65 % bei Handschrift",
+    "row2_cost": "Kostenlos bis 8 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Unter 2 Minuten",
+    "row3_accuracy": "95–98 %",
+    "row3_cost": "Kostenloser Einstieg",
+
+    "proof_title": "Basiert auf derselben Technologie, der bereits über 10.000 Nutzer vertrauen.",
+    "proof_desc": "Die Handschrifterkennung von NoteOCR wandelt bereits auf noteocr.com Notizen für über 10.000 Personen um. Die App bringt dieselbe Präzision direkt nach der Vorlesung auf Ihr Smartphone.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Jeden Monat über Web und App konvertierte Notizen",
+    "proof_quote": "Ich scanne meine Vorlesungsnotizen direkt nach Schluss – und bevor ich das Gebäude verlasse, sind sie schon durchsuchbar.",
+    "proof_quote_name": "Priya M.",
+    "proof_quote_role": "Studentin",
+
+    "faq_title": "Häufig gestellte Fragen zum Scannen von Vorlesungsnotizen",
+
+    "related_title": "Weitere Einsatzmöglichkeiten für NoteOCR",
+    "cta_title": "Hören Sie auf, Ihre Notizen mühsam abzutippen.",
+    "cta_subtitle": "Scannen Sie sie stattdessen direkt nach der Vorlesung in Word. Ab 21. September für iOS und Android verfügbar.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Wie wandle ich meine Mitschriften mit der App um?",
+          "a": "Öffnen Sie NoteOCR, tippen Sie auf Scannen und fotografieren Sie Ihre Heftseite. Die App konvertiert Ihre Handschrift in unter zwei Minuten in ein bearbeitbares Word-Dokument – bereit zum Einfügen in Ihre Lernunterlagen."
+        },
+        "messy_handwriting": {
+          "q": "Funktioniert die Erkennung auch bei unordentlicher Handschrift?",
+          "a": "Ja, in den meisten Fällen. NoteOCR ist auf unterschiedlichste Handschriften trainiert, einschließlich schneller, flüchtiger Notizen. Bei sehr hastiger oder überlappender Schrift können nach der Konvertierung kleine Korrekturen nötig sein."
+        },
+        "lecture_slides_mixed_notes": {
+          "q": "Werden Notizen mit Skizzen oder Folienverweisen unterstützt?",
+          "a": "NoteOCR extrahiert den handschriftlichen Text auf der Seite. Diagramme und Zeichnungen werden nicht in Text umgewandelt, aber der umgebende Text wird zuverlässig erkannt."
+        },
+        "study_from_converted_notes": {
+          "q": "Kann ich meine Notizen nach der Konvertierung durchsuchen oder markieren?",
+          "a": "Ja. Sobald Ihre Notizen als Word-Dokument vorliegen, sind sie vollständig durchsuchbar und bearbeitbar. Sie können Textstellen hervorheben, kommentieren oder für Prüfungen neu strukturieren."
+        },
+        "free_for_students": {
+          "q": "Ist die App für Studierende und Schüler kostenlos?",
+          "a": "Ja. Die App enthält ein monatliches Gratis-Seitenkontingent, das für die regelmäßige Digitalisierung von Notizen im Studium völlig ausreicht."
+        },
+        "multiple_languages": {
+          "q": "Werden auch andere Sprachen außer Englisch unterstützt?",
+          "a": "NoteOCR unterstützt mehrere Sprachen bei der Handschrifterkennung. Studierende können Mitschriften somit problemlos in ihrer Muttersprache digitalisieren."
+        },
+        "sync_across_devices": {
+          "q": "Kann ich von meinem Laptop aus auf gescannte Notizen zugreifen?",
+          "a": "Ja. Melden Sie sich einfach mit demselben NoteOCR-Konto an, und Ihre gescannten Notizen werden automatisch mit noteocr.com synchronisiert."
+        },
+        "accuracy": {
+          "q": "Wie genau ist die Handschrift-zu-Text-Erkennung bei Mitschriften?",
+          "a": "Bei lesbarer Schrift erreicht NoteOCR eine Genauigkeit von 95–98 %. Fachbegriffe, Eigennamen und mathematische Formeln sollten vor Prüfungen kurz überprüft werden."
+        }
+      }
+    }
+  },
+
+  "LetterScannerPage": {
+    "meta_title": "Alte handschriftliche Briefe in Word umwandeln | NoteOCR",
+    "meta_desc": "Scannen Sie alte handschriftliche Briefe, Postkarten und Tagebücher mit dem Smartphone und machen Sie daraus bearbeitbare, durchsuchbare Word-Dokumente für die Ewigkeit.",
+    "nav_label": "Brief-Scanner",
+
+    "hero_pill": "Für Familien & Archive",
+    "hero_title": "Verwandeln Sie handschriftliche Briefe in digitale Dokumente zum Bewahren, Bearbeiten und Teilen.",
+    "hero_subtitle": "Fotografieren Sie alte Briefe, Familienkarten oder Tagebuchseiten mit NoteOCR und wandeln Sie die Handschrift in sauberen Text oder Word-Dateien um – ganz ohne Abtippen.",
+    "hero_image_alt": "Ein alter handschriftlicher Brief wird von der NoteOCR-App gescannt und umgewandelt",
+
+    "trust_1": "SSL-verschlüsselt",
+    "trust_2": "Fertig in unter 2 Minuten",
+    "trust_3": "95–98 % Texterkennungsgenauigkeit",
+
+    "pain_eyebrow": "Bewahren, was wichtig ist",
+    "pain_title": "Alte handschriftliche Briefe sollten nicht mit dem Papier vergehen.",
+    "pain_desc": "Familienbriefe, Postkarten und Tagebücher erzählen Geschichten, die es wert sind, bewahrt zu werden. Doch Papier verblasst, reißt oder geht verloren. NoteOCR wandelt handschriftliche Dokumente in sauberen, editierbaren Text um – damit Erinnerungen durchsuchbar bleiben, geteilt und über Generationen weitergegeben werden können.",
+    "before_after_eyebrow": "In Aktion erleben",
+    "before_after_title": "Sehen Sie den Unterschied",
+    "before_after_desc": "Ein echter handschriftlicher Brief, umgewandelt in ein bearbeitbares Word-Dokument.",
+    "before_label": "Vorher: Handschriftlicher Brief",
+    "before_alt": "Ein alter handschriftlicher Brief vor der Umwandlung",
+    "after_label": "Nachher: Word-Dokument",
+    "after_alt": "Derselbe Brief, umgewandelt in ein durchsuchbares Word-Dokument",
+
+    "how_eyebrow": "So funktioniert's",
+    "how_title": "In drei Schritten von der Dachboden-Kiste zum digitalen Archiv.",
+    "how_subtitle": "Kein Spezialscanner erforderlich – Ihre Smartphone-Kamera genügt.",
+    "step_1_title": "App öffnen & auf Scannen tippen",
+    "step_1_desc": "Fotografieren Sie den flach liegenden Brief bei gutem Licht Seite für Seite ab.",
+    "step_2_title": "Automatischer Zuschnitt & Bildverbesserung",
+    "step_2_desc": "Funktioniert auch bei gealtertem, verblasstem oder leicht vergilbtem Papier.",
+    "step_3_title": "Als Word exportieren & archivieren",
+    "step_3_desc": "Speichern Sie den Text zusammen mit dem Originalfoto als dauerhafte digitale Akte.",
+
+    "who_title": "Wer digitalisiert Briefe mit NoteOCR?",
+    "who_subtitle": "Alle, die geschriebene Familiengeschichte und historische Dokumente bewahren möchten.",
+    "audience_1_title": "Familien",
+    "audience_1_desc": "Briefe der Großeltern in ein Dokument umwandeln, das alle Verwandten lesen und teilen können.",
+    "audience_2_title": "Ahnenforscher & Genealogen",
+    "audience_2_desc": "Korrespondenzen und Tagebücher als festen Bestandteil der Familienchronik digitalisieren.",
+    "audience_3_title": "Heimatforscher & Chronisten",
+    "audience_3_desc": "Handschriftliche Gemeindearchive, Chroniken oder historische Tagebücher in Volltext überführen.",
+    "audience_4_title": "Nachlassverwalter",
+    "audience_4_desc": "Handschriftliche Briefe und Unterlagen digital erfassen, bevor die Originale archiviert werden.",
+
+    "comparison_title": "Manuelles Abtippen vs. NoteOCR",
+    "comparison_subtitle": "Warum Scannen dem mühsamen Abtippen von Briefen überlegen ist",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Zeitaufwand",
+    "comparison_col_accuracy": "Genauigkeit",
+    "comparison_col_cost": "Kosten",
+    "row1_method": "Brief manuell abtippen",
+    "row1_time": "30–45 Minuten",
+    "row1_accuracy": "100 %, aber extrem langsam",
+    "row1_cost": "Kostenlos (kostet Ihre Zeit)",
+    "row2_method": "Herkömmliche OCR-App",
+    "row2_time": "5–8 Minuten",
+    "row2_accuracy": "~60 % bei Schreibschrift",
+    "row2_cost": "Kostenlos bis 10 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Unter 2 Minuten",
+    "row3_accuracy": "95–98 %",
+    "row3_cost": "Kostenloser Einstieg",
+
+    "proof_title": "Basiert auf derselben Technologie, der bereits über 10.000 Nutzer vertrauen.",
+    "proof_desc": "Die Handschrifterkennung von NoteOCR digitalisiert auf noteocr.com bereits Dokumente für über 10.000 Personen – einschließlich historischer Schreibschriften.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Digitalisierte und archivierte handschriftliche Seiten",
+    "proof_quote": "Ich habe die gesamte Briefsammlung meiner Großmutter an einem Nachmittag eingescannt. Jetzt kann unsere ganze Familie sie lesen.",
+    "proof_quote_name": "Daniel R.",
+    "proof_quote_role": "Familienchronist",
+
+    "faq_title": "Häufig gestellte Fragen zur Digitalisierung alter Briefe",
+
+    "related_title": "Weitere Einsatzmöglichkeiten für NoteOCR",
+    "cta_title": "Lassen Sie alte Briefe nicht verblassen.",
+    "cta_subtitle": "Sichern Sie wertvolle Erinnerungen in Word, bevor das Papier vergeht. Ab 21. September für iOS und Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Wie digitalisiere ich einen alten Brief mit der App?",
+          "a": "Öffnen Sie NoteOCR, tippen Sie auf Scannen und fotografieren Sie den Brief bei guter Ausleuchtung. Die App wandelt die Handschrift in unter zwei Minuten in ein bearbeitbares Word-Dokument um."
+        },
+        "old_faded_letters": {
+          "q": "Funktioniert die Erkennung auch bei alten oder verblassten Briefen?",
+          "a": "Die automatische Bildoptimierung von NoteOCR gleicht verblasste Tinte, Verfärbungen und ungleichmäßiges Licht aus. Sehr stark beschädigte oder kaum lesbare Textstellen sollten manuell geprüft werden."
+        },
+        "cursive_and_old_scripts": {
+          "q": "Kann die App historische Schreibschrift und Kurrent lesen?",
+          "a": "Ja, NoteOCR ist auf verschiedene Schreibschrift- und Kurrentstile trainiert. Sehr verschnörkelte oder unübliche Schriftzüge können vereinzelt manuelle Nachkorrekturen erfordern."
+        },
+        "preserve_originals": {
+          "q": "Wird das Original beim Konvertieren ersetzt?",
+          "a": "Nein. NoteOCR erstellt lediglich eine digitale Textkopie; der physische Brief bleibt völlig unberührt. Viele Nutzer speichern den Text gemeinsam mit dem Scan des Originals ab."
+        },
+        "batch_of_letters": {
+          "q": "Kann ich eine ganze Kiste voller Briefe scannen?",
+          "a": "Ja, Sie können Briefe nacheinander in der App scannen. Jeder Brief wird als eigenes Word-Dokument exportiert, sodass Sie komplette Sammlungen Seite für Seite erfassen können."
+        },
+        "family_archive_use": {
+          "q": "Eignet sich die App für den Aufbau eines Familienarchivs?",
+          "a": "Ja. Viele Familien nutzen NoteOCR, um Briefe, Tagebücher und Grußkarten in ein gemeinsames, leicht lesbares digitales Archiv zu überführen."
+        },
+        "accuracy": {
+          "q": "Wie hoch ist die Erkennungsrate bei handschriftlichen Briefen?",
+          "a": "Bei klarer Handschrift liegt die Trefferquote typischerweise bei 95–98 %. Bei älteren Schriften empfiehlt sich ein kurzer Abgleich von Namen, Daten und seltenen Begriffen."
+        },
+        "privacy_of_personal_letters": {
+          "q": "Bleiben meine gescannten Briefe privat und geschützt?",
+          "a": "Ja. Alle Uploads werden verschlüsselt übertragen. NoteOCR verkauft oder teilt Ihre Daten nicht. Persönliche Familiendokumente unterliegen denselben strengen Datenschutzstandards wie geschäftliche Dateien."
+        }
+      }
+    }
+  },
+
+  "InventoryCountScannerPage": {
+    "meta_title": "Inventurlisten-Scanner – Handschriftliche Zähllisten in Excel | NoteOCR",
+    "meta_desc": "Scannen Sie handschriftliche Inventurlisten mit dem Smartphone und erhalten Sie sofort eine strukturierte Excel-Tabelle. Nie wieder Zähllisten im Büro abtippen.",
+    "nav_label": "Inventurlisten-Scanner",
+
+    "hero_pill": "Für Lager & Mittelstand",
+    "hero_title": "Verwandeln Sie handschriftliche Inventurlisten in eine Excel-Tabelle – noch direkt am Regal.",
+    "hero_subtitle": "Fotografieren Sie Ihre Bestandserfassung mit der NoteOCR-App und erhalten Sie eine strukturierte .xlsx-Datei mit exakten Zeilen und Spalten für Ihr Warenwirtschaftssystem.",
+    "hero_image_alt": "Eine handschriftliche Inventurliste aus dem Lager wird mit der NoteOCR-App gescannt",
+
+    "trust_1": "SSL-verschlüsselt",
+    "trust_2": "Fertig in unter 2 Minuten",
+    "trust_3": "98 % numerische Genauigkeit",
+
+    "pain_eyebrow": "Für Inventur- & Lagerteams",
+    "pain_title": "Hören Sie auf, handschriftliche Bestandszahlen manuell in Excel einzutippen.",
+    "pain_desc": "Zähllisten auf Klemmbrettern sollten nicht nach Schichtende mühsam am Schreibtisch neu erfasst werden müssen. NoteOCR wandelt handschriftliche Inventurbögen in saubere, strukturierte Excel-Tabellen um – das spart Zeit und verhindert teure Tippfehler.",
+    "before_after_eyebrow": "In Aktion erleben",
+    "before_after_title": "Sehen Sie den Unterschied",
+    "before_after_desc": "Eine echte handschriftliche Inventurliste, umgewandelt in eine saubere Tabellenkalkulation.",
+    "before_label": "Vorher: Handschriftliche Zählliste",
+    "before_alt": "Eine handschriftliche Lager-Zählliste vor der Umwandlung",
+    "after_label": "Nachher: Excel-Tabelle",
+    "after_alt": "Dieselbe Inventurliste, umgewandelt in eine strukturierte Excel-Tabelle",
+
+    "how_eyebrow": "So funktioniert's",
+    "how_title": "In drei Schritten vom Klemmbrett zur fertigen Excel-Tabelle.",
+    "how_subtitle": "Bestände direkt auf der Lagerfläche erfassen, nicht erst am Schreibtisch.",
+    "step_1_title": "App öffnen & auf Scannen tippen",
+    "step_1_desc": "Fotografieren Sie die Zählliste ab, sobald ein Gang oder Regalabschnitt gezählt ist.",
+    "step_2_title": "Automatische Zeilen- & Spaltenerkennung",
+    "step_2_desc": "Funktioniert zuverlässig selbst auf Vordrucken ohne vorgezeichnete Gitternetzlinien.",
+    "step_3_title": "Als Excel exportieren & versenden",
+    "step_3_desc": "Laden Sie die .xlsx-Datei herunter und übermitteln Sie sie direkt an die Buchhaltung oder Disposition.",
+
+    "who_title": "Wer scannt Inventurlisten mit NoteOCR?",
+    "who_subtitle": "Alle, die Bestände handschriftlich erfassen, bevor sie in eine Tabelle übertragen werden.",
+    "audience_1_title": "Lagermitarbeiter & Logistiker",
+    "audience_1_desc": "Regalbestände in Excel erfassen, ohne ständig zum stationären Terminal laufen zu müssen.",
+    "audience_2_title": "Einzelhändler & Filialleiter",
+    "audience_2_desc": "Lagerbestände für Nachbestellungen digitalisieren, ohne Zahlen doppelt einzugeben.",
+    "audience_3_title": "Gastronomie- & Küchenleiter",
+    "audience_3_desc": "Handschriftliche Zähl- und Wiegebögen in Tabellen überführen, um Wareneinsatz und Schwund zu kontrollieren.",
+    "audience_4_title": "Wirtschaftsprüfer & Auditoren",
+    "audience_4_desc": "Stichproben vor Ort erfassen und noch am selben Tag eine fehlerfreie Tabelle übergeben.",
+
+    "comparison_title": "Manuelle Eingabe vs. NoteOCR",
+    "comparison_subtitle": "Warum Scannen dem Abtippen von Zähllisten haushoch überlegen ist",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Zeitaufwand",
+    "comparison_col_accuracy": "Genauigkeit",
+    "comparison_col_cost": "Kosten",
+    "row1_method": "Zahlen manuell in Excel eintippen",
+    "row1_time": "30–40 Minuten",
+    "row1_accuracy": "95 %, häufige Zahlendreher",
+    "row1_cost": "Arbeitszeit & Personalkosten",
+    "row2_method": "Herkömmliche OCR-App",
+    "row2_time": "8 Minuten",
+    "row2_accuracy": "~55 %, verliert Tabellenstruktur",
+    "row2_cost": "Kostenlos bis 15 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Unter 2 Minuten",
+    "row3_accuracy": "98 % numerische Genauigkeit",
+    "row3_cost": "Kostenloser Einstieg",
+
+    "proof_title": "Basiert auf derselben Technologie, der bereits über 10.000 Nutzer vertrauen.",
+    "proof_desc": "Die Tabellenerkennung von NoteOCR wandelt auf noteocr.com handschriftliche Daten für über 10.000 Anwender zuverlässig um – speziell optimiert für Inventur- und Finanzdaten.",
+    "proof_stat_number": "98 %",
+    "proof_stat_label": "Durchschnittliche Zahlengenauigkeit bei handschriftlichen Zählbögen",
+    "proof_quote": "Wir haben früher pro Schicht 20 Minuten mit dem Eintippen von Zählzetteln verloren. Jetzt ist alles erledigt, bevor wir die Halle verlassen.",
+    "proof_quote_name": "Marcus T.",
+    "proof_quote_role": "Lagerleiter",
+
+    "faq_title": "Häufig gestellte Fragen zum Scannen von Inventurlisten",
+
+    "related_title": "Weitere Einsatzmöglichkeiten für NoteOCR",
+    "cta_title": "Schluss mit dem Abtippen von Bestandslisten.",
+    "cta_subtitle": "Scannen Sie Zählbögen direkt in Excel. Ab 21. September für iOS und Android erhältlich.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Wie wandle ich eine Zählliste mit der App um?",
+          "a": "Öffnen Sie NoteOCR, tippen Sie auf Scannen und fotografieren Sie die Zählliste. Die App erkennt Zeilen und Spalten automatisch und exportiert in unter zwei Minuten eine strukturierte Excel-Datei."
+        },
+        "no_drawn_lines": {
+          "q": "Funktioniert das auch auf Zählbögen ohne Gitternetzlinien?",
+          "a": "Ja. NoteOCR erkennt die Tabellenstruktur anhand von Textausrichtung und Abständen. So lassen sich auch Listen auf liniertem oder blankem Papier ohne Raster präzise konvertieren."
+        },
+        "numeric_accuracy": {
+          "q": "Wie präzise werden Ziffern und Mengenangaben erkannt?",
+          "a": "Die Erkennungsrate bei Zahlen liegt bei rund 98 %, da unser Modell gezielt auf Mengen und Ziffernfolgen trainiert ist. Vor finalen Nachbestellungen empfiehlt sich ein kurzer Stichprobencheck."
+        },
+        "multiple_sheets_per_day": {
+          "q": "Kann ich während einer Schicht mehrere Zählbögen scannen?",
+          "a": "Ja, jedes Blatt wird separat erfasst und umgewandelt. Sie können beliebig viele Zählbögen im Verlauf einer Schicht nacheinander scannen."
+        },
+        "export_format": {
+          "q": "In welchem Dateiformat werden die Daten bereitgestellt?",
+          "a": "Sie erhalten eine downloadbare Excel-Datei (.xlsx) mit sauberen Zeilen und Spalten – sofort kompatibel mit Microsoft Excel, Google Tabellen und ERP-Systemen."
+        },
+        "team_use": {
+          "q": "Können mehrere Teammitglieder im selben Lager die App nutzen?",
+          "a": "Ja. Jedes Teammitglied scannt den eigenen Bereich mit dem Smartphone. Die exportierten Excel-Dateien lassen sich anschließend mühelos zusammenführen."
+        },
+        "offline_warehouse_use": {
+          "q": "Funktioniert die Erfassung in Lagerhallen ohne stabiles WLAN?",
+          "a": "Fotos können auch ohne Verbindung aufgenommen werden. Die Verarbeitung und Umwandlung startet automatisch, sobald wieder ein Netzsignal vorhanden ist."
+        },
+        "free_or_paid": {
+          "q": "Ist das Scannen von Inventurlisten kostenlos?",
+          "a": "Ja, ein monatliches Freikontingent ist enthalten. Für Unternehmen mit täglichem Zählbetrieb bieten wir flexible Tarife für höhere Volumen an."
+        }
+      }
+    }
+  },
+
+  "ReceiptToExcelScannerPage": {
+    "meta_title": "Beleg-Scanner – Quittungen & Belege in Excel umwandeln | NoteOCR",
+    "meta_desc": "Scannen Sie Papierbelege mit dem Smartphone und erhalten Sie sofort eine strukturierte Excel-Spesenabrechnung. Perfekt für Freelancer, Kleinunternehmer und die Steuererklärung.",
+    "nav_label": "Beleg-zu-Excel-Scanner",
+
+    "hero_pill": "Für Freelancer & Kleinunternehmen",
+    "hero_title": "Verwandeln Sie Ihren Schuhkarton voller Belege in eine fertige Excel-Spesenabrechnung.",
+    "hero_subtitle": "Fotografieren Sie Quittungen mit der NoteOCR-App: Datum, Betrag und Aussteller werden automatisch in eine übersichtliche Tabelle extrahiert – fertig für Buchhaltung und Steuer.",
+    "hero_image_alt": "Ein Papierbeleg wird gescannt und von der NoteOCR-App in eine Excel-Tabelle umgewandelt",
+
+    "trust_1": "SSL-verschlüsselt",
+    "trust_2": "Fertig in unter 2 Minuten",
+    "trust_3": "98 % numerische Genauigkeit",
+
+    "pain_eyebrow": "Vom Papier zur Tabelle",
+
+    "pain_title": "Belege sammeln sich an. Manuelle Datenerfassung muss nicht sein.",
+
+    "pain_desc": "Belege enthalten wichtige Angaben für Betriebsausgaben, Steuererklärungen und Reisekosten. Doch jedes Datum, jeden Händler und jede Summe einzeln in Excel einzutippen, raubt wertvolle Zeit. NoteOCR konvertiert Quittungen automatisch in editierbare Tabellenzeilen.",
+    "before_after_eyebrow": "In Aktion erleben",
+    "before_after_title": "Sehen Sie den Unterschied",
+    "before_after_desc": "Eine echte Quittung, umgewandelt in eine strukturierte Tabellenzeile für Ihre Ausgaben.",
+    "before_label": "Vorher: Papierbeleg",
+    "before_alt": "Ein Papierbeleg vor der Umwandlung",
+    "after_label": "Nachher: Excel-Zeile",
+    "after_alt": "Derselbe Beleg, umgewandelt in eine formatierte Excel-Tabellenzeile",
+
+    "how_eyebrow": "So funktioniert's",
+    "how_title": "In drei Schritten vom Kassenzettel zur Spesenabrechnung.",
+    "how_subtitle": "Erfassen Sie Belege sofort, bevor sie verblassen oder verloren gehen.",
+    "step_1_title": "App öffnen & auf Scannen tippen",
+    "step_1_desc": "Fotografieren Sie den Beleg direkt nach dem Einkauf ab, solange der Druck gut lesbar ist.",
+    "step_2_title": "Automatische Erkennung von Betrag & Datum",
+    "step_2_desc": "Währungssymbole, Gesamtsummen und Belegdaten werden präzise ausgelesen.",
+    "step_3_title": "Als Excel exportieren & abrechnen",
+    "step_3_desc": "Laden Sie die .xlsx-Datei herunter und leiten Sie sie an Ihren Steuerberater weiter.",
+
+    "who_title": "Wer scannt Belege mit NoteOCR?",
+    "who_subtitle": "Alle, die geschäftliche Ausgaben aus Papierbelegen strukturiert erfassen wollen.",
+    "audience_1_title": "Freelancer & Selbstständige",
+    "audience_1_desc": "Gesammelte Projektbelege in eine Abrechnungstabelle für Kunden umwandeln.",
+    "audience_2_title": "Kleinunternehmer",
+    "audience_2_desc": "Tägliche Kassenbons für die Buchhaltung digitalisieren – ohne manuellen Eingabeaufwand.",
+    "audience_3_title": "Buchhalter & Steuerberater",
+    "audience_3_desc": "Eingereichte Papierbelege von Mandanten in abstimmbare Excel-Dateien überführen.",
+    "audience_4_title": "Geschäftsreisende",
+    "audience_4_desc": "Reisebelege unterwegs scannen und den Reisekostenbericht fertig haben, noch bevor man wieder zu Hause ist.",
+
+    "comparison_title": "Manuelle Eingabe vs. NoteOCR",
+    "comparison_subtitle": "Warum Scannen dem zeitraubenden Abtippen von Quittungen überlegen ist",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Zeitaufwand",
+    "comparison_col_accuracy": "Genauigkeit",
+    "comparison_col_cost": "Kosten",
+    "row1_method": "Jeden Beleg einzeln abtippen",
+    "row1_time": "2–3 Minuten pro Beleg",
+    "row1_accuracy": "95 %, menschliche Tippfehler",
+    "row1_cost": "Kostenlos (kostet Ihre Zeit)",
+    "row2_method": "Herkömmliche OCR-App",
+    "row2_time": "1 Minute pro Beleg",
+    "row2_accuracy": "~70 % bei verblassten Belegen",
+    "row2_cost": "Kostenlos bis 10 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Unter 2 Minuten gesamt",
+    "row3_accuracy": "98 % numerische Genauigkeit",
+    "row3_cost": "Kostenloser Einstieg",
+
+    "proof_title": "Basiert auf derselben Technologie, der bereits über 10.000 Nutzer vertrauen.",
+    "proof_desc": "Die Texterkennung von NoteOCR verarbeitet auf noteocr.com bereits Finanzdokumente für über 10.000 Nutzer – mit besonderem Fokus auf Beträge und Währungen.",
+    "proof_stat_number": "98 %",
+    "proof_stat_label": "Zahlengenauigkeit bei gescannten Belegen und Quittungen",
+    "proof_quote": "Steuerzeit bedeutete früher einen Schuhkarton voller Belege. Heute scanne ich alles direkt ein und exportiere es nach Excel.",
+    "proof_quote_name": "Elena V.",
+    "proof_quote_role": "Freiberufliche Designerin",
+
+    "faq_title": "Häufig gestellte Fragen zum Scannen von Quittungen und Belegen",
+
+    "related_title": "Weitere Einsatzmöglichkeiten für NoteOCR",
+    "cta_title": "Hören Sie auf, Belege einzeln abzutippen.",
+    "cta_subtitle": "Scannen Sie Belege direkt in Excel. Ab 21. September für iOS und Android verfügbar.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Wie wandle ich einen Beleg mit der App um?",
+          "a": "Öffnen Sie NoteOCR, tippen Sie auf Scannen und fotografieren Sie die Quittung. Die App liest Beträge und Details aus und überträgt sie in unter zwei Minuten in eine strukturierte Excel-Zeile."
+        },
+        "faded_receipts": {
+          "q": "Funktioniert die Erkennung auch bei verblasstem Thermopapier?",
+          "a": "Die Bildverbesserung von NoteOCR korrigiert typische Thermopapier-Probleme wie verblassten Druck oder Lichtspiegelungen. Bei extrem ausgeblichenen Bons empfiehlt sich eine kurze Sichtprüfung der Summe."
+        },
+        "currency_symbols": {
+          "q": "Werden Währungssymbole und Dezimalstellen korrekt erfasst?",
+          "a": "Ja. Das Erkennungsmodell ist gezielt darauf ausgelegt, Währungszeichen, Kommastellen und Gesamtsummen zuverlässig zu unterscheiden – genau dort, wo Standard-OCR-Apps oft scheitern."
+        },
+        "batch_of_receipts": {
+          "q": "Kann ich mehrere Quittungen auf einmal scannen?",
+          "a": "Aktuell wird jeder Beleg einzeln erfasst, um maximale Auslesequalität zu garantieren. Für sehr große Belegmengen bieten wir eine API zur Massenverarbeitung an."
+        },
+        "tax_season_use": {
+          "q": "Eignet sich die App für die Vorbereitung der Steuererklärung?",
+          "a": "Ja. Viele Freiberufler und Gewerbetreibende nutzen NoteOCR, um ihre Ausgabenbelege vor Abgabe der Steuererklärung digital und strukturiert aufzubereiten."
+        },
+        "export_format": {
+          "q": "In welchem Format erhalte ich die erfassten Daten?",
+          "a": "Als herunterladbare Excel-Datei (.xlsx) mit sauberen Spalten für Betrag, Datum und Händler – sofort importierbar in Buchhaltungssoftware oder weiterleitbar an den Steuerberater."
+        },
+        "accuracy_on_numbers": {
+          "q": "Wie präzise werden Beträge und Summen erkannt?",
+          "a": "Die Erkennungsrate liegt bei ca. 98 %, da das System auf Zahlen und Währungsformate optimiert ist. Prüfen Sie Summen kurz gegen, bevor Sie Erstattungen oder Steuerunterlagen einreichen."
+        },
+        "privacy_of_financial_data": {
+          "q": "Sind meine Finanzdaten beim Scannen sicher?",
+          "a": "Ja. Sämtliche Übertragungen erfolgen verschlüsselt. NoteOCR speichert oder teilt Ihre Daten nicht über den eigentlichen Scan- und Konvertierungsvorgang hinaus."
+        }
+      }
+    }
+  },
+
+  "LogSheetScannerPage": {
+    "meta_title": "Protokoll-Scanner – Handschriftliche Protokolle in Excel | NoteOCR",
+    "meta_desc": "Scannen Sie handschriftliche Protokolle, Produktionslisten oder Prüfberichte mit dem Smartphone und erhalten Sie sekundenschnell eine strukturierte Excel-Tabelle.",
+    "nav_label": "Protokoll-Scanner",
+
+    "hero_pill": "Für Außendienst & Betriebsteams",
+    "hero_title": "Verwandeln Sie handschriftliche Protokolle in eine Excel-Datei – noch vor der Rückkehr ins Büro.",
+    "hero_subtitle": "Fotografieren Sie Einsatzprotokolle, Schichtberichte oder Prüflisten mit der NoteOCR-App und erhalten Sie eine formatierte Tabelle mit intakten Zeilen und Spalten.",
+    "hero_image_alt": "Ein handschriftliches Einsatzprotokoll wird von der NoteOCR-App gescannt und umgewandelt",
+
+    "trust_1": "SSL-verschlüsselt",
+    "trust_2": "Fertig in unter 2 Minuten",
+    "trust_3": "98 % numerische Genauigkeit",
+
+    "pain_eyebrow": "Papierkram im Außendienst digitalisieren",
+
+    "pain_title": "Schluss mit dem Abtippen handschriftlicher Wartungsprotokolle und Prüfberichte.",
+
+    "pain_desc": "Produktionsprotokolle, Wartungsberichte und Messlisten werden vor Ort meist per Hand ausgefüllt und später zeitraubend am PC abgetippt. NoteOCR wandelt handschriftliche Protokolle in sauberen, editierbaren Text um – damit Teams Betriebsdaten schneller erfassen und weiterverarbeiten können.",
+    "before_after_eyebrow": "In Aktion erleben",
+    "before_after_title": "Sehen Sie den Unterschied",
+    "before_after_desc": "Ein echtes handschriftliches Protokollblatt, umgewandelt in eine strukturierte Tabellenkalkulation.",
+    "before_label": "Vorher: Handschriftliches Protokoll",
+    "before_alt": "Ein handschriftliches Mess- und Prüfprotokoll vor der Umwandlung",
+    "after_label": "Nachher: Excel-Tabelle",
+    "after_alt": "Dasselbe Protokoll, umgewandelt in eine strukturierte Excel-Tabelle",
+
+    "how_eyebrow": "So funktioniert's",
+    "how_title": "In drei Schritten vom Klemmbrett zur fertigen Tabelle.",
+    "how_subtitle": "Protokolle direkt vor Ort erfassen – nicht erst nachträglich im Büro.",
+    "step_1_title": "App öffnen & auf Scannen tippen",
+    "step_1_desc": "Fotografieren Sie das Protokollblatt direkt ab, sobald es ausgefüllt ist.",
+    "step_2_title": "Automatische Zeilen- & Spaltenerkennung",
+    "step_2_desc": "Funktioniert auf liniertem, kariertem oder unliniertem Papier.",
+    "step_3_title": "Als Excel exportieren & berichten",
+    "step_3_desc": "Laden Sie die .xlsx-Datei herunter und übermitteln Sie sie direkt für das Tagesreporting.",
+
+    "who_title": "Wer scannt Protokolle mit NoteOCR?",
+    "who_subtitle": "Alle Fachkräfte, die Mess- oder Produktionsdaten handschriftlich erfassen.",
+    "audience_1_title": "Servicetechniker & Monteure",
+    "audience_1_desc": "Wartungs- und Prüfprotokolle ohne Laptop direkt vor Ort in Excel überführen.",
+    "audience_2_title": "Schicht- & Produktionsleiter",
+    "audience_2_desc": "Handschriftliche Schichtprotokolle für das tägliche Betriebsreporting digitalisieren.",
+    "audience_3_title": "Labor- & Forschungsteams",
+    "audience_3_desc": "Handschriftliche Labornotizen und Messreihen zur Auswertung in Tabellen übertragen.",
+    "audience_4_title": "Trainer & Schiedsrichter",
+    "audience_4_desc": "Handschriftliche Spielberichtsbögen oder Statistiklisten direkt nach dem Abpfiff erfassen.",
+
+    "comparison_title": "Manuelle Eingabe vs. NoteOCR",
+    "comparison_subtitle": "Warum Scannen dem manuellen Abtippen von Protokollen überlegen ist",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Zeitaufwand",
+    "comparison_col_accuracy": "Genauigkeit",
+    "comparison_col_cost": "Kosten",
+    "row1_method": "Protokolle manuell abtippen",
+    "row1_time": "20–30 Minuten",
+    "row1_accuracy": "95 %, menschliche Übertragungsfehler",
+    "row1_cost": "Arbeitszeit & Personalkosten",
+    "row2_method": "Herkömmliche OCR-App",
+    "row2_time": "8 Minuten",
+    "row2_accuracy": "~55 %, verliert Tabellenstruktur",
+    "row2_cost": "Kostenlos bis 15 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Unter 2 Minuten",
+    "row3_accuracy": "98 % numerische Genauigkeit",
+    "row3_cost": "Kostenloser Einstieg",
+
+    "proof_title": "Basiert auf derselben Technologie, der bereits über 10.000 Nutzer vertrauen.",
+    "proof_desc": "Die Tabellenerkennung von NoteOCR verarbeitet auf noteocr.com bereits handschriftliche Protokolle und Datenerfassungen für über 10.000 Fachkräfte.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Erfolgreich konvertierte Betriebs- und Prüfprotokolle",
+    "proof_quote": "Unsere Techniker füllen Prüfprotokolle vor Ort auf Papier aus. NoteOCR wandelt sie in Excel um, noch bevor sie wieder im Servicefahrzeug sitzen.",
+    "proof_quote_name": "Sam K.",
+    "proof_quote_role": "Leiter Technischer Außendienst",
+
+    "faq_title": "Häufig gestellte Fragen zum Scannen von Protokollen und Formularen",
+
+    "related_title": "Weitere Einsatzmöglichkeiten für NoteOCR",
+    "cta_title": "Hören Sie auf, Einsatzprotokolle abzutippen.",
+    "cta_subtitle": "Scannen Sie Prüfberichte direkt in Excel. Ab 21. September für iOS und Android verfügbar.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Wie wandle ich ein Protokollblatt mit der App um?",
+          "a": "Öffnen Sie NoteOCR, tippen Sie auf Scannen und fotografieren Sie das Protokoll ab. Die App analysiert die Tabellenstruktur und exportiert in unter zwei Minuten eine strukturierte Excel-Datei."
+        },
+        "field_conditions": {
+          "q": "Funktioniert die App auch bei schwierigen Lichtverhältnissen im Freien?",
+          "a": "Ja, die Bildoptimierung gleicht Blendlicht, Schatten und wechselnde Lichtverhältnisse aus. Bei extrem dunklen oder unscharfen Aufnahmen empfiehlt sich ein kurzes Wiederholungsfoto."
+        },
+        "no_drawn_lines": {
+          "q": "Werden Protokolle ohne vorgezeichnete Tabellenlinien unterstützt?",
+          "a": "Ja. NoteOCR erkennt Zeilen und Spalten anhand der Textausrichtung. Formulare auf liniertem oder weißem Papier werden auch ohne gedrucktes Raster präzise übertragen."
+        },
+        "multiple_columns": {
+          "q": "Können Protokolle mit vielen Spalten verarbeitet werden?",
+          "a": "Ja, NoteOCR ist speziell darauf ausgelegt, mehrspaltige Tabellenstrukturen beizubehalten, wie sie bei Inspektions- und Produktionsprotokollen üblich sind. Kopfzeilen bleiben exakt den Daten zugeordnet."
+        },
+        "daily_logs_batch": {
+          "q": "Kann ich täglich neue Protokollblätter scannen?",
+          "a": "Ja, es gibt keine Beschränkung der Scan-Frequenz. Jedes Protokollblatt wird eigenständig in eine separate Tabelle umgewandelt."
+        },
+        "export_format": {
+          "q": "In welchem Format stehen die erfassten Daten bereit?",
+          "a": "Als downloadbare Excel-Datei (.xlsx), in der Ihre Mess- und Protokolldaten in Zeilen und Spalten geordnet sind – optimal für Dokumentation und weitere Analysen."
+        },
+        "team_use": {
+          "q": "Können mehrere Außendienstmitarbeiter am selben Projekt arbeiten?",
+          "a": "Ja. Jedes Teammitglied kann eigene Protokolle per Smartphone erfassen. Die resultierenden Tabellen können im Innendienst problemlos konsolidiert werden."
+        },
+        "free_or_paid": {
+          "q": "Ist das Scannen von Protokollen kostenlos?",
+          "a": "Ja, ein monatliches Basiskontingent ist kostenlos enthalten. Für Teams mit täglichem, hohem Erfassungsaufwand stehen erweiterte Volumentarife zur Verfügung."
+        }
+      }
+    }
+  },
+  "AppPage": {
+    "meta_title": "NoteOCR Mobile-App – Handschrift scannen und in Text oder Excel umwandeln | iOS & Android",
+    "meta_desc": "Lade die NoteOCR-App für iOS und Android herunter. Scanne handschriftliche Notizen mit deiner Kamera und wandle sie sofort in Word, Excel oder PDF um.",
+
+    "nav_home": "Startseite",
+    "nav_features": "Funktionen",
+    "nav_pricing": "Preise",
+    "nav_download_button": "App herunterladen",
+
+    "hero_pill": "Start am 21. September für iOS & Android",
+    "hero_title": "Scannen. Umwandeln. Fertig. Jetzt in deiner Tasche.",
+    "hero_subtitle": "NoteOCR ist eine App, mit der du Handschrift in Text und Handschrift in Excel umwandeln kannst – für iOS und Android. Richte deine Kamera auf eine handschriftliche Notiz, ein Formular oder ein Whiteboard, und die OCR-Technologie von NoteOCR wandelt sie in ein bearbeitbares Word-, Excel- oder PDF-Dokument um, bevor du dein Smartphone wieder wegsteckst.",
+    "hero_image_alt": "Kamera-Scanbildschirm der NoteOCR-App, der eine handgeschriebene Seite auf einem Smartphone in Text umwandelt",
+
+    "store_apple_top": "Laden im",
+    "store_apple_bottom": "iOS App Store",
+    "store_google_top": "Jetzt bei",
+    "store_google_bottom": "Google Play",
+
+    "why_pill": "Warum die App",
+    "why_title": "Für die Momente entwickelt, in denen du nicht am Schreibtisch sitzt.",
+    "why_subtitle": "Die Web-App ist ideal, wenn du am Schreibtisch arbeitest. Die mobile NoteOCR-App ist eine Handschrift-Scanner-App für überall – vom Hörsaal über Kundentermine und Lagerhallen bis hin zu Archiven.",
+
+    "feature_1_title": "Sofort mit der Kamera scannen",
+    "feature_1_desc": "Zielen, aufnehmen und in einem Schritt umwandeln oder direkt ein Bild aus deiner Galerie hochladen",
+    "feature_2_title": "Sofort herunterladen",
+    "feature_2_desc": "Lade dein konvertiertes Dokument sofort herunter und teile es über alle Apps",
+    "feature_3_title": "Mit deinem Konto synchronisiert",
+    "feature_3_desc": "Jeder Scan erscheint sofort in deinem NoteOCR-Dashboard – dasselbe Konto, dieselben Dokumente, jedes Gerät.",
+    "feature_4_title": "Sofortige Benachrichtigungen",
+    "feature_4_desc": "Du wirst in dem Moment benachrichtigt, in dem dein Dokument fertig ist, damit du nicht warten musst.",
+
+    "how_title": "Vom Papier zum Dokument – mit drei Fingertipps.",
+    "how_subtitle": "Die NoteOCR-Scan-App verwandelt eine handgeschriebene Seite in drei Schritten in eine bearbeitbare Datei: scannen, automatisch zuschneiden und exportieren.",
+    "how_image_alt": "Bildschirm der NoteOCR-App zum automatischen Zuschneiden und Verbessern mit Exportoptionen",
+    "step_1_title": "App öffnen und auf Scannen tippen",
+    "step_1_desc": "Öffne NoteOCR und richte deine Kamera auf eine Seite, ein Whiteboard oder ein Formular.",
+    "step_2_title": "Automatisch zuschneiden und verbessern",
+    "step_2_desc": "Kanten werden automatisch erkannt und die Beleuchtung korrigiert – kein manuelles Zuschneiden erforderlich.",
+    "step_3_title": "Direkt nach Word, Excel oder PDF exportieren",
+    "step_3_desc": "Wähle ein Format und dein Dokument ist innerhalb von Sekunden bereit zum Teilen.",
+
+    "excel_title": "Handschrift in Excel umwandeln: Tabellen sofort in Tabellenkalkulationen verwandeln.",
+    "excel_desc": "Die Handschrift-zu-Excel-Konvertierung von NoteOCR fotografiert handschriftliche Protokolle, Tabellen oder Listen, erkennt automatisch Zeilen und Spalten und exportiert saubere, strukturierte .xlsx-Dateien, die für Formeln und Sortierungen bereit sind.",
+    "excel_before_label": "Vorher",
+    "excel_before_alt": "Handschriftliche Datentabelle vor der Konvertierung mit NoteOCR",
+    "excel_after_label": "Nachher",
+    "excel_after_alt": "Strukturiertes Excel-Tabellenblatt nach der NoteOCR-Konvertierung von Handschrift in Excel",
+
+    "text_title": "Handschrift in Text umwandeln: Schreibschrift, Druckschrift oder unleserliche Handschrift – präzise konvertiert.",
+    "text_desc": "NoteOCR wandelt Handschrift mit einer Genauigkeit von 95–98 % in Text um. Das OCR-Modell wurde sowohl mit Druck- als auch mit Schreibschrift trainiert, einschließlich schräger oder gemischter Handschrift.",
+    "text_image_alt": "Handschriftliche Notiz, die von NoteOCR in sauberen getippten Text umgewandelt wird",
+
+    "gallery_title": "NoteOCR in Aktion",
+    "screenshot_1_alt": "Kamera-Scanbildschirm der NoteOCR-App beim Erfassen einer handgeschriebenen Seite",
+    "screenshot_2_alt": "Vorschau der NoteOCR-App mit automatischem Zuschneiden und Verbessern",
+    "screenshot_3_alt": "Exportoptionen der NoteOCR-App für Word, Excel und PDF",
+    "screenshot_4_alt": "Dashboard der NoteOCR-App mit synchronisierten gescannten Dokumenten",
+    "screenshot_5_alt": "Ergebnis der Umwandlung einer handschriftlichen Tabelle in Excel mit der NoteOCR-App",
+
+    "faq_title": "Häufig gestellte Fragen",
+
+    "cta_title": "Beginne in wenigen Sekunden mit der Umwandlung von Handschrift.",
+    "cta_subtitle": "Start am 21. September für iOS und Android. Kostenloser Download.",
+
+    "modal_pill": "Demnächst bei {store}",
+    "modal_title": "NoteOCR startet am 21. September",
+    "modal_desc": "Wir geben der App gerade den letzten Schliff. Schau am Starttag wieder vorbei oder hinterlasse deine E-Mail-Adresse – wir benachrichtigen dich, sobald die App verfügbar ist.",
+    "modal_days": "Tage",
+    "modal_hrs": "Std.",
+    "modal_min": "Min.",
+    "modal_sec": "Sek.",
+    "modal_email_placeholder": "du@email.com",
+    "modal_email_aria": "E-Mail-Adresse",
+    "modal_notify_button": "Benachrichtige mich",
+    "modal_store_fallback": "den App-Stores",
+
+    "footer_copyright": "© {year} NoteOCR. Alle Rechte vorbehalten.",
+    "footer_privacy": "Datenschutz",
+    "footer_terms": "Nutzungsbedingungen",
+    "footer_contact": "Kontakt",
+
+    "FAQ": {
+      "items": {
+        "notes_to_word_phone": {
+          "q": "Kann ich handschriftliche Notizen auf meinem Smartphone in Word umwandeln?",
+          "a": "Ja. Öffne die NoteOCR-App, fotografiere deine handgeschriebene Seite und sie wird direkt in eine bearbeitbare .docx-Datei umgewandelt – ganz ohne Computer und ohne Upload über die Website."
+        },
+        "table_to_excel_camera": {
+          "q": "Wie kann ich eine handgeschriebene Tabelle mit meiner Kamera in eine Excel-Datei umwandeln?",
+          "a": "Richte die Kamera der NoteOCR-App auf die Tabelle, nimm sie auf, und dieselbe Technologie, die noteocr.com unterstützt, erkennt Zeilen und Spalten und erstellt eine formatierte .xlsx-Tabelle, die du auf deinem Smartphone herunterladen oder bearbeiten kannst."
+        },
+        "old_letters_journals": {
+          "q": "Kann die App alte handschriftliche Briefe oder Tagebücher digitalisieren?",
+          "a": "Ja. Fotografiere die Seite mit der NoteOCR-App, und der Text wird in einem bearbeitbaren Word-Dokument rekonstruiert. So kannst du alte Briefe, Tagebücher oder Archive Seite für Seite digitalisieren – unabhängig davon, wo sie aufbewahrt werden."
+        },
+        "logs_on_the_go": {
+          "q": "Kann ich unterwegs ein handschriftliches Protokoll oder eine Liste scannen und eine Tabellenkalkulation erhalten?",
+          "a": "Ja. Erfasse die Seite mit der Kamera deines Smartphones in der NoteOCR-App, und sie wird automatisch in eine strukturierte Excel-Datei umgewandelt. So müssen Feldnotizen, Protokolle und Listen nicht warten, bis du wieder am Schreibtisch bist."
+        },
+        "ios_android_app": {
+          "q": "Gibt es eine NoteOCR-App für iPhone und Android?",
+          "a": "Ja. Die NoteOCR-App ist sowohl für iOS als auch für Android verfügbar. Du kannst handschriftliche Notizen direkt auf deinem Smartphone scannen und umwandeln, anstatt dafür ausschließlich die Website zu verwenden."
+        },
+        "push_notifications": {
+          "q": "Benachrichtigt mich die App, wenn mein Scan fertig ist?",
+          "a": "Ja. Die NoteOCR-App sendet eine Push-Benachrichtigung, sobald ein Scan fertig konvertiert wurde. Du musst also nicht in der App warten."
+        },
+        "plan_sync": {
+          "q": "Werden mein NoteOCR-Tarif und meine Seitenlimits auch in der App übernommen?",
+          "a": "Ja. Die App verwendet dieselben kostenlosen und kostenpflichtigen Tarife wie noteocr.com. Dein monatliches Seitenkontingent sowie alle Pro- oder Business-Funktionen gelten unabhängig davon, ob du mit deinem Smartphone scannst oder Dokumente von deinem Computer hochlädst."
+        },
+        "free_download": {
+          "q": "Kann ich die NoteOCR-App kostenlos herunterladen?",
+          "a": "Ja, der Download der NoteOCR-App ist kostenlos. Mit dem kostenlosen Tarif kannst du sofort beginnen, handschriftliche Notizen umzuwandeln. Wenn du ein höheres monatliches Seitenlimit benötigst, kannst du direkt in der App upgraden."
+        }
+      }
+    }
+  },
+
   "HomePage": {
     "trust_pill": "V2.0 Handschrift-OCR: 99,2% Genauigkeit",
     "hero_title_1": "Handschrift in Text und editierbare",

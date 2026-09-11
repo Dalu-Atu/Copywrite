@@ -1,4 +1,713 @@
 {
+  "ClassNotesScannerPage": {
+    "meta_title": "Class Notes Scanner – Handwriting to Word | NoteOCR",
+    "meta_desc": "Scan your handwritten class or lecture notes with your phone and turn them into an editable, searchable Word document in seconds.",
+    "nav_label": "Class Notes Scanner",
+
+    "hero_pill": "For students",
+    "hero_title": "Turn your handwritten class notes into a searchable Word doc after every lecture.",
+    "hero_subtitle": "Photograph your notebook page with the NoteOCR app and get clean, editable text you can study from, search, or paste into your revision doc.",
+    "hero_image_alt": "A student's handwritten class notes being scanned and converted by the NoteOCR app",
+
+    "trust_1": "SSL encrypted",
+    "trust_2": "Ready in under 2 minutes",
+    "trust_3": "95–98% text accuracy",
+
+    "pain_eyebrow": "Your notes, finally usable",
+    "pain_title": "Turn handwritten notes into digital text you can actually use.",
+    "pain_desc": "Handwriting is great for taking notes quickly. But when it’s time to search, edit, share, or build a study guide, paper gets in the way. NoteOCR turns handwritten notes into clean, editable digital text, without retyping everything.",
+    "before_after_eyebrow": "See it in action",
+    "before_after_title": "See the difference",
+    "before_after_desc": "A real notebook page of class notes, converted into an editable Word document.",
+    "before_label": "Before: Notebook page",
+    "before_alt": "A page of handwritten class notes before conversion",
+    "after_label": "After: Word document",
+    "after_alt": "The same class notes converted into a searchable Word document",
+
+    "how_eyebrow": "How it works",
+    "how_title": "From notebook to study guide in three steps.",
+    "how_subtitle": "Scan right after class, while the material is still fresh.",
+    "step_1_title": "Open the app & tap Scan",
+    "step_1_desc": "Photograph your notebook page right after class or between lectures.",
+    "step_2_title": "Auto-crop & enhance",
+    "step_2_desc": "Works even on curled notebook pages or uneven lighting in a lecture hall.",
+    "step_3_title": "Export as Word & study",
+    "step_3_desc": "Paste the text into your revision doc or keep it as a searchable file.",
+
+    "who_title": "Who scans class notes with NoteOCR?",
+    "who_subtitle": "Students who take notes by hand but need them in digital form.",
+    "audience_1_title": "University students",
+    "audience_1_desc": "Digitize lecture notes to build a searchable study guide before exams.",
+    "audience_2_title": "High school students",
+    "audience_2_desc": "Convert class notes into text you can paste into assignments or share with classmates.",
+    "audience_3_title": "Study groups",
+    "audience_3_desc": "Combine everyone's handwritten notes into one shared digital document.",
+    "audience_4_title": "Accessible note-taking",
+    "audience_4_desc": "Turn handwritten notes into text that's easier to read, resize, or use with a screen reader.",
+
+    "comparison_title": "Retyping vs. NoteOCR",
+    "comparison_subtitle": "Why scanning beats retyping your own notes",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time",
+    "comparison_col_accuracy": "Accuracy",
+    "comparison_col_cost": "Cost",
+    "row1_method": "Retype notes by hand",
+    "row1_time": "20–30 minutes",
+    "row1_accuracy": "100%, but slow",
+    "row1_cost": "Free (your time)",
+    "row2_method": "Generic OCR app",
+    "row2_time": "5 minutes",
+    "row2_accuracy": "~65% on handwriting",
+    "row2_cost": "Free–$8",
+    "row3_method": "NoteOCR",
+    "row3_time": "Under 2 minutes",
+    "row3_accuracy": "95–98%",
+    "row3_cost": "Free to start",
+
+    "proof_title": "Built on the same engine already trusted by 10,000+ users.",
+    "proof_desc": "NoteOCR's handwriting engine already converts notes for over 10,000 people on noteocr.com. The app brings the same accuracy to your phone, right after class.",
+    "proof_stat_number": "10,000+",
+    "proof_stat_label": "Notes converted every month across web and mobile",
+    "proof_quote": "I scan my lecture notes the second class ends and they're searchable before I even leave the building.",
+    "proof_quote_name": "Priya M.",
+    "proof_quote_role": "University student",
+
+    "faq_title": "Frequently asked questions about scanning class notes",
+
+    "related_title": "More ways to use NoteOCR",
+    "cta_title": "Stop rewriting your own notes.",
+    "cta_subtitle": "Scan them into Word right after class instead. Launching September 21 on iOS and Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "How do I convert my class notes with the app?",
+          "a": "Open NoteOCR, tap Scan, and photograph your notebook page. The app converts your handwriting into an editable Word document in under two minutes, ready to paste into a study guide."
+        },
+        "messy_handwriting": {
+          "q": "Will it work if my handwriting is messy?",
+          "a": "Yes, in most cases. NoteOCR is trained on a wide range of handwriting styles, including fast, less-neat note-taking. Very rushed or overlapping writing may need small corrections after conversion."
+        },
+        "lecture_slides_mixed_notes": {
+          "q": "Can it handle notes mixed with diagrams or slide references?",
+          "a": "NoteOCR converts the handwritten text on the page. Diagrams and drawings won't be converted to text, but the surrounding written notes will be extracted accurately."
+        },
+        "study_from_converted_notes": {
+          "q": "Can I search or highlight my notes after converting them?",
+          "a": "Yes. Once your notes are a Word document, they're fully searchable and editable, so you can highlight, comment, or reorganize them for studying."
+        },
+        "free_for_students": {
+          "q": "Is the app free for students?",
+          "a": "Yes. The app includes a free monthly page allowance, enough for most students to digitize notes regularly without paying."
+        },
+        "multiple_languages": {
+          "q": "Does it work in languages other than English?",
+          "a": "NoteOCR supports multiple languages for handwriting recognition, so students taking notes in their native language can convert them too."
+        },
+        "sync_across_devices": {
+          "q": "Can I access my scanned notes from my laptop too?",
+          "a": "Yes. Sign in with the same NoteOCR account and your scanned notes sync automatically to noteocr.com."
+        },
+        "accuracy": {
+          "q": "How accurate is handwriting-to-text conversion for class notes?",
+          "a": "NoteOCR converts handwriting with 95–98% accuracy on legible writing. Review technical terms, names, and formulas before relying on them for exams."
+        }
+      }
+    }
+  },
+
+  "LetterScannerPage": {
+    "meta_title": "Convert Old Handwritten Letters to Word | NoteOCR",
+    "meta_desc": "Scan old handwritten letters, cards, and journals with your phone and turn them into an editable, searchable Word document you can keep forever.",
+    "nav_label": "Letter Scanner",
+
+    "hero_pill": "For families & archives",
+    "hero_title": "Turn handwritten letters into digital documents you can preserve, edit, and share.",
+    "hero_subtitle": "Photograph an old letter, family card, or journal page with NoteOCR and convert the handwriting into clean, editable text or a Word document — without retyping it.",
+    "hero_image_alt": "An old handwritten letter being scanned and converted by the NoteOCR app",
+
+    "trust_1": "SSL encrypted",
+    "trust_2": "Ready in under 2 minutes",
+    "trust_3": "95–98% text accuracy",
+
+    "pain_eyebrow": "Preserve what matters",
+    "pain_title": "Old handwritten letters shouldn't disappear with the paper.",
+    "pain_desc": "Family letters, postcards, and journal pages hold stories worth preserving. But paper fades, tears, and gets lost over time. NoteOCR turns handwritten documents into clean, editable digital text, so those words can be searched, shared, and kept for generations.",
+    "before_after_eyebrow": "See it in action",
+    "before_after_title": "See the difference",
+    "before_after_desc": "A real handwritten letter, converted into an editable Word document.",
+    "before_label": "Before: Handwritten letter",
+    "before_alt": "An old handwritten letter before conversion",
+    "after_label": "After: Word document",
+    "after_alt": "The same letter converted into a searchable Word document",
+
+    "how_eyebrow": "How it works",
+    "how_title": "From attic box to digital archive in three steps.",
+    "how_subtitle": "No special scanner needed — just your phone camera.",
+    "step_1_title": "Open the app & tap Scan",
+    "step_1_desc": "Photograph the letter flat, in good light, one page at a time.",
+    "step_2_title": "Auto-crop & enhance",
+    "step_2_desc": "Works on aged, faded, or slightly discolored paper.",
+    "step_3_title": "Export as Word & archive",
+    "step_3_desc": "Save the text alongside a photo of the original for a lasting digital record.",
+
+    "who_title": "Who digitizes letters with NoteOCR?",
+    "who_subtitle": "Anyone preserving handwritten history.",
+    "audience_1_title": "Families",
+    "audience_1_desc": "Turn a grandparent's letters into a document siblings can all read and share.",
+    "audience_2_title": "Genealogists",
+    "audience_2_desc": "Digitize correspondence and journals as part of building a family history.",
+    "audience_3_title": "Local historians",
+    "audience_3_desc": "Convert handwritten community records or diaries into searchable text.",
+    "audience_4_title": "Estate organizers",
+    "audience_4_desc": "Create a digital record of handwritten letters and cards before archiving the originals.",
+
+    "comparison_title": "Typing vs. NoteOCR",
+    "comparison_subtitle": "Why scanning beats retyping a letter by hand",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time",
+    "comparison_col_accuracy": "Accuracy",
+    "comparison_col_cost": "Cost",
+    "row1_method": "Retype the letter manually",
+    "row1_time": "30–45 minutes",
+    "row1_accuracy": "100%, but very slow",
+    "row1_cost": "Free (your time)",
+    "row2_method": "Generic OCR app",
+    "row2_time": "5–8 minutes",
+    "row2_accuracy": "~60% on cursive",
+    "row2_cost": "Free–$10",
+    "row3_method": "NoteOCR",
+    "row3_time": "Under 2 minutes",
+    "row3_accuracy": "95–98%",
+    "row3_cost": "Free to start",
+
+    "proof_title": "Built on the same engine already trusted by 10,000+ users.",
+    "proof_desc": "NoteOCR's handwriting engine already digitizes documents for over 10,000 people on noteocr.com, including old and cursive handwriting.",
+    "proof_stat_number": "10,000+",
+    "proof_stat_label": "Handwritten pages digitized and preserved",
+    "proof_quote": "I scanned my grandmother's entire letter collection in an afternoon. Now my whole family can read them.",
+    "proof_quote_name": "Daniel R.",
+    "proof_quote_role": "Family archivist",
+
+    "faq_title": "Frequently asked questions about digitizing letters",
+
+    "related_title": "More ways to use NoteOCR",
+    "cta_title": "Don't let old letters fade away.",
+    "cta_subtitle": "Digitize them into Word before the paper does. Launching September 21 on iOS and Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "How do I digitize an old letter with the app?",
+          "a": "Open NoteOCR, tap Scan, and photograph the letter in good lighting. The app converts the handwriting into an editable Word document in under two minutes."
+        },
+        "old_faded_letters": {
+          "q": "Will it work on old or faded letters?",
+          "a": "NoteOCR's auto-enhance corrects for faded ink, discoloration, and uneven lighting, but very badly faded or damaged text may still need manual review."
+        },
+        "cursive_and_old_scripts": {
+          "q": "Can it read old-fashioned cursive handwriting?",
+          "a": "Yes, NoteOCR is trained on a range of cursive styles, including older handwriting conventions, though very ornate or unusual scripts may need light correction."
+        },
+        "preserve_originals": {
+          "q": "Does converting a letter to text replace the original?",
+          "a": "No. NoteOCR only creates a text version; the physical letter isn't altered. Many users keep a photo of the original alongside the converted text."
+        },
+        "batch_of_letters": {
+          "q": "Can I scan a whole box of letters?",
+          "a": "Yes, you can scan letters one at a time in the app; each becomes its own Word document, so a full collection can be digitized page by page."
+        },
+        "family_archive_use": {
+          "q": "Is this good for building a family archive?",
+          "a": "Yes. Many families use NoteOCR to convert letters, journals, and cards into a shared digital archive that's easy to read and pass down."
+        },
+        "accuracy": {
+          "q": "How accurate is conversion for handwritten letters?",
+          "a": "Accuracy is typically 95–98% on clear handwriting. Older or more elaborate scripts may need review of names, dates, and unusual words."
+        },
+        "privacy_of_personal_letters": {
+          "q": "Is my scanned letter data private?",
+          "a": "Yes. Uploads are encrypted, and NoteOCR does not share or sell your data. Personal and family documents get the same privacy protections as any other file."
+        }
+      }
+    }
+  },
+
+  "InventoryCountScannerPage": {
+    "meta_title": "Inventory Count Sheet to Excel Scanner | NoteOCR",
+    "meta_desc": "Scan handwritten inventory counts with your phone and get a structured Excel spreadsheet instantly. No more retyping stock sheets back at the office.",
+    "nav_label": "Inventory Count Scanner",
+
+    "hero_pill": "For warehouses & small business",
+    "hero_title": "Turn handwritten inventory counts into an Excel sheet before you leave the floor.",
+    "hero_subtitle": "Photograph your stock count sheet with the NoteOCR app and get a structured .xlsx file with rows and columns intact, ready for the office.",
+    "hero_image_alt": "A handwritten warehouse inventory count sheet being scanned by the NoteOCR app",
+
+    "trust_1": "SSL encrypted",
+    "trust_2": "Ready in under 2 minutes",
+    "trust_3": "98% numeric accuracy",
+
+    "pain_eyebrow": "For inventory teams",
+    "pain_title": "Stop typing handwritten stock counts into Excel.",
+    "pain_desc": "Stock counts written on clipboards shouldn't have to be entered again at a desk. NoteOCR converts handwritten inventory sheets into clean, editable Excel data, helping your team save time and avoid errors from manual retyping.",
+    "before_after_eyebrow": "See it in action",
+    "before_after_title": "See the difference",
+    "before_after_desc": "A real handwritten stock count sheet, converted into a structured spreadsheet.",
+    "before_label": "Before: Handwritten count sheet",
+    "before_alt": "A handwritten warehouse inventory count sheet before conversion",
+    "after_label": "After: Excel spreadsheet",
+    "after_alt": "The same inventory count converted into a structured Excel spreadsheet",
+
+    "how_eyebrow": "How it works",
+    "how_title": "From clipboard to spreadsheet in three steps.",
+    "how_subtitle": "Convert counts on the floor, not back at a desk.",
+    "step_1_title": "Open the app & tap Scan",
+    "step_1_desc": "Photograph the count sheet as soon as a section is finished.",
+    "step_2_title": "Auto-detect rows & columns",
+    "step_2_desc": "Works even on sheets without drawn grid lines.",
+    "step_3_title": "Export as Excel & send",
+    "step_3_desc": "Download the .xlsx and share it with the office immediately.",
+
+    "who_title": "Who scans inventory counts with NoteOCR?",
+    "who_subtitle": "Anyone who counts stock on paper before it reaches a spreadsheet.",
+    "audience_1_title": "Warehouse staff",
+    "audience_1_desc": "Convert shelf counts into Excel without walking back to a shared terminal.",
+    "audience_2_title": "Small retail businesses",
+    "audience_2_desc": "Digitize stockroom counts for reordering without manual retyping.",
+    "audience_3_title": "Restaurant & kitchen managers",
+    "audience_3_desc": "Turn handwritten prep and stock sheets into spreadsheets for tracking waste and costs.",
+    "audience_4_title": "Field auditors",
+    "audience_4_desc": "Capture on-site counts and hand off a clean spreadsheet the same day.",
+
+    "comparison_title": "Manual entry vs. NoteOCR",
+    "comparison_subtitle": "Why scanning beats retyping stock counts",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time",
+    "comparison_col_accuracy": "Accuracy",
+    "comparison_col_cost": "Cost",
+    "row1_method": "Retype counts manually",
+    "row1_time": "30–40 minutes",
+    "row1_accuracy": "95%, transposed numbers common",
+    "row1_cost": "$15/hour labor",
+    "row2_method": "Generic OCR app",
+    "row2_time": "8 minutes",
+    "row2_accuracy": "~55%, loses table structure",
+    "row2_cost": "Free–$15",
+    "row3_method": "NoteOCR",
+    "row3_time": "Under 2 minutes",
+    "row3_accuracy": "98% numeric accuracy",
+    "row3_cost": "Free to start",
+
+    "proof_title": "Built on the same engine already trusted by 10,000+ users.",
+    "proof_desc": "NoteOCR's table-detection engine already converts handwritten data for over 10,000 people on noteocr.com, including inventory and financial sheets.",
+    "proof_stat_number": "98%",
+    "proof_stat_label": "Average numeric accuracy on handwritten counts",
+    "proof_quote": "We used to lose twenty minutes every shift retyping counts. Now it's done before we leave the floor.",
+    "proof_quote_name": "Marcus T.",
+    "proof_quote_role": "Warehouse supervisor",
+
+    "faq_title": "Frequently asked questions about scanning inventory counts",
+
+    "related_title": "More ways to use NoteOCR",
+    "cta_title": "Stop retyping stock counts.",
+    "cta_subtitle": "Scan them straight into Excel instead. Launching September 21 on iOS and Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "How do I convert a stock count sheet with the app?",
+          "a": "Open NoteOCR, tap Scan, and photograph the count sheet. The app detects rows and columns automatically and exports a structured Excel file in under two minutes."
+        },
+        "no_drawn_lines": {
+          "q": "Does it work on count sheets without drawn grid lines?",
+          "a": "Yes. NoteOCR detects table structure from text alignment and spacing, so sheets written on blank or lined paper without a drawn grid still convert correctly."
+        },
+        "numeric_accuracy": {
+          "q": "How accurate is it with numbers specifically?",
+          "a": "Numeric accuracy is around 98%, since the model is optimized for digits and quantities. Always spot-check totals before using counts for reordering decisions."
+        },
+        "multiple_sheets_per_day": {
+          "q": "Can I scan multiple count sheets in one shift?",
+          "a": "Yes, each sheet is scanned and converted individually, so you can process as many count sheets as you complete during a shift."
+        },
+        "export_format": {
+          "q": "What file format do I get?",
+          "a": "You'll get a downloadable Excel (.xlsx) file with your counts organized into rows and columns, ready to open in Excel, Google Sheets, or your inventory system."
+        },
+        "team_use": {
+          "q": "Can multiple people on my team use this for the same warehouse?",
+          "a": "Yes. Each team member can scan their section on their own phone, and all files can be combined in Excel afterward."
+        },
+        "offline_warehouse_use": {
+          "q": "Does it work in warehouses with poor WiFi signal?",
+          "a": "You can capture photos offline; the conversion happens once you're back in signal range, so poor warehouse connectivity won't stop you from scanning."
+        },
+        "free_or_paid": {
+          "q": "Is scanning inventory counts free?",
+          "a": "Yes, a free monthly page allowance is included. Businesses scanning counts daily can upgrade for higher volume."
+        }
+      }
+    }
+  },
+
+  "ReceiptToExcelScannerPage": {
+    "meta_title": "Receipt Scanner – Convert Receipts to Excel | NoteOCR",
+    "meta_desc": "Scan paper receipts with your phone and get a structured Excel spreadsheet of your expenses instantly. Built for freelancers, small business, and tax season.",
+    "nav_label": "Receipt to Excel Scanner",
+
+    "hero_pill": "For freelancers & small business",
+    "hero_title": "Turn a shoebox of receipts into an Excel expense sheet.",
+    "hero_subtitle": "Photograph each receipt with the NoteOCR app and get the date, amount, and vendor extracted into a structured spreadsheet, ready for bookkeeping or taxes.",
+    "hero_image_alt": "A paper receipt being scanned and converted into an Excel spreadsheet by the NoteOCR app",
+
+    "trust_1": "SSL encrypted",
+    "trust_2": "Ready in under 2 minutes",
+    "trust_3": "98% numeric accuracy",
+
+    "pain_eyebrow": "From paper to spreadsheet",
+
+    "pain_title": "Receipts pile up. Manual data entry shouldn't.",
+
+    "pain_desc": "Receipts contain the details you need for expenses, taxes, and reimbursement, but entering every date, merchant, and amount into Excel takes time. NoteOCR converts receipts into structured, editable spreadsheet data, so you can stop typing them in one by one.",
+    "before_after_eyebrow": "See it in action",
+    "before_after_title": "See the difference",
+    "before_after_desc": "A real paper receipt, converted into a structured expense row.",
+    "before_label": "Before: Paper receipt",
+    "before_alt": "A paper receipt before conversion",
+    "after_label": "After: Excel row",
+    "after_alt": "The same receipt converted into a structured Excel spreadsheet row",
+
+    "how_eyebrow": "How it works",
+    "how_title": "From receipt to spreadsheet in three steps.",
+    "how_subtitle": "Scan it before it fades or gets lost.",
+    "step_1_title": "Open the app & tap Scan",
+    "step_1_desc": "Photograph the receipt right after a purchase, before it fades.",
+    "step_2_title": "Auto-detect amounts & dates",
+    "step_2_desc": "Currency symbols, totals, and dates are recognized automatically.",
+    "step_3_title": "Export as Excel & track",
+    "step_3_desc": "Download the .xlsx and add it to your expense tracker or send to your accountant.",
+
+    "who_title": "Who scans receipts with NoteOCR?",
+    "who_subtitle": "Anyone tracking expenses from paper receipts.",
+    "audience_1_title": "Freelancers",
+    "audience_1_desc": "Turn a folder of client-expense receipts into a spreadsheet for invoicing.",
+    "audience_2_title": "Small business owners",
+    "audience_2_desc": "Digitize daily receipts for bookkeeping without manual data entry.",
+    "audience_3_title": "Bookkeepers & accountants",
+    "audience_3_desc": "Convert client-submitted paper receipts into spreadsheets ready for reconciliation.",
+    "audience_4_title": "Travelers",
+    "audience_4_desc": "Scan trip receipts on the go and build an expense report before you're even home.",
+
+    "comparison_title": "Manual entry vs. NoteOCR",
+    "comparison_subtitle": "Why scanning beats typing receipts one by one",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time",
+    "comparison_col_accuracy": "Accuracy",
+    "comparison_col_cost": "Cost",
+    "row1_method": "Type each receipt manually",
+    "row1_time": "2–3 minutes per receipt",
+    "row1_accuracy": "95%, human error",
+    "row1_cost": "Free (your time)",
+    "row2_method": "Generic OCR app",
+    "row2_time": "1 minute per receipt",
+    "row2_accuracy": "~70% on faded receipts",
+    "row2_cost": "Free–$10",
+    "row3_method": "NoteOCR",
+    "row3_time": "Under 2 minutes total",
+    "row3_accuracy": "98% numeric accuracy",
+    "row3_cost": "Free to start",
+
+    "proof_title": "Built on the same engine already trusted by 10,000+ users.",
+    "proof_desc": "NoteOCR's engine already converts financial documents for over 10,000 people on noteocr.com, tuned specifically for numbers and currency.",
+    "proof_stat_number": "98%",
+    "proof_stat_label": "Numeric accuracy on scanned receipts",
+    "proof_quote": "Tax season used to mean a shoebox of receipts. Now I scan them as they come in and export straight to Excel.",
+    "proof_quote_name": "Elena V.",
+    "proof_quote_role": "Freelance designer",
+
+    "faq_title": "Frequently asked questions about scanning receipts",
+
+    "related_title": "More ways to use NoteOCR",
+    "cta_title": "Stop typing receipts by hand.",
+    "cta_subtitle": "Scan them straight into Excel instead. Launching September 21 on iOS and Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "How do I convert a receipt with the app?",
+          "a": "Open NoteOCR, tap Scan, and photograph the receipt. The app extracts the amounts and details into a structured Excel row in under two minutes."
+        },
+        "faded_receipts": {
+          "q": "Will it work on faded thermal-paper receipts?",
+          "a": "NoteOCR's enhancement corrects for common thermal-receipt issues like faded print and glare, though very badly faded receipts may need manual review of totals."
+        },
+        "currency_symbols": {
+          "q": "Does it handle currency symbols and decimals correctly?",
+          "a": "Yes, the model is trained specifically to recognize currency symbols, decimals, and totals accurately, which is where most generic OCR tools struggle."
+        },
+        "batch_of_receipts": {
+          "q": "Can I scan a stack of receipts at once?",
+          "a": "Currently each receipt is scanned individually for the most accurate result; for large batches, consider our API for bulk processing."
+        },
+        "tax_season_use": {
+          "q": "Is this useful for organizing receipts for tax season?",
+          "a": "Yes. Many freelancers and small businesses use NoteOCR to build a digital expense record from paper receipts ahead of filing taxes."
+        },
+        "export_format": {
+          "q": "What format do I get the data in?",
+          "a": "A downloadable Excel (.xlsx) file with amount, date, and vendor organized into columns, ready for a bookkeeping tool or your accountant."
+        },
+        "accuracy_on_numbers": {
+          "q": "How accurate is it specifically for totals and amounts?",
+          "a": "Numeric accuracy is around 98%, since the model is optimized for digits and currency. Always confirm totals before submitting for reimbursement or taxes."
+        },
+        "privacy_of_financial_data": {
+          "q": "Is my financial data secure when I scan a receipt?",
+          "a": "Yes. Uploads are encrypted, and NoteOCR does not store or share your data beyond processing your scan."
+        }
+      }
+    }
+  },
+
+  "LogSheetScannerPage": {
+    "meta_title": "Log Sheet Scanner – Handwritten Logs to Excel | NoteOCR",
+    "meta_desc": "Scan handwritten log sheets, production logs, or field data sheets with your phone and get a structured Excel spreadsheet in seconds.",
+    "nav_label": "Log Sheet Scanner",
+
+    "hero_pill": "For field teams & operations",
+    "hero_title": "Turn a handwritten log sheet into an Excel file before you're back at the office.",
+    "hero_subtitle": "Photograph your field log, production log, or inspection sheet with the NoteOCR app and get a structured spreadsheet with rows and columns intact.",
+    "hero_image_alt": "A handwritten field log sheet being scanned and converted by the NoteOCR app",
+
+    "trust_1": "SSL encrypted",
+    "trust_2": "Ready in under 2 minutes",
+    "trust_3": "98% numeric accuracy",
+
+    "pain_eyebrow": "Digitize field paperwork",
+
+    "pain_title": "Stop retyping handwritten field logs and inspection sheets.",
+
+    "pain_desc": "Production logs, inspection forms, and field reports are often filled out by hand on-site, then manually entered into digital systems later. NoteOCR converts handwritten field documents into clean, editable digital text, helping teams capture and organize field data faster.",
+    "before_after_eyebrow": "See it in action",
+    "before_after_title": "See the difference",
+    "before_after_desc": "A real handwritten log sheet, converted into a structured spreadsheet.",
+    "before_label": "Before: Handwritten log sheet",
+    "before_alt": "A handwritten field log sheet before conversion",
+    "after_label": "After: Excel spreadsheet",
+    "after_alt": "The same log sheet converted into a structured Excel spreadsheet",
+
+    "how_eyebrow": "How it works",
+    "how_title": "From clipboard to spreadsheet in three steps.",
+    "how_subtitle": "Convert logs on-site, not after the fact.",
+    "step_1_title": "Open the app & tap Scan",
+    "step_1_desc": "Photograph the log sheet as soon as it's filled in.",
+    "step_2_title": "Auto-detect rows & columns",
+    "step_2_desc": "Works on ruled, grid, or blank paper logs.",
+    "step_3_title": "Export as Excel & report",
+    "step_3_desc": "Download the .xlsx and send it in for the day's reporting.",
+
+    "who_title": "Who scans log sheets with NoteOCR?",
+    "who_subtitle": "Anyone recording field or production data by hand.",
+    "audience_1_title": "Field technicians",
+    "audience_1_desc": "Convert inspection or maintenance logs into Excel without a laptop on-site.",
+    "audience_2_title": "Production supervisors",
+    "audience_2_desc": "Digitize shift production logs for daily reporting.",
+    "audience_3_title": "Lab & research teams",
+    "audience_3_desc": "Turn handwritten lab notebook data into a spreadsheet for analysis.",
+    "audience_4_title": "Coaches & scorekeepers",
+    "audience_4_desc": "Convert handwritten scoresheets or stat logs into a spreadsheet after the game.",
+
+    "comparison_title": "Manual entry vs. NoteOCR",
+    "comparison_subtitle": "Why scanning beats retyping field logs",
+    "comparison_col_method": "Method",
+    "comparison_col_time": "Time",
+    "comparison_col_accuracy": "Accuracy",
+    "comparison_col_cost": "Cost",
+    "row1_method": "Retype logs manually",
+    "row1_time": "20–30 minutes",
+    "row1_accuracy": "95%, human error",
+    "row1_cost": "$15/hour labor",
+    "row2_method": "Generic OCR app",
+    "row2_time": "8 minutes",
+    "row2_accuracy": "~55%, loses table structure",
+    "row2_cost": "Free–$15",
+    "row3_method": "NoteOCR",
+    "row3_time": "Under 2 minutes",
+    "row3_accuracy": "98% numeric accuracy",
+    "row3_cost": "Free to start",
+
+    "proof_title": "Built on the same engine already trusted by 10,000+ users.",
+    "proof_desc": "NoteOCR's table-detection engine already converts handwritten logs and data sheets for over 10,000 people on noteocr.com.",
+    "proof_stat_number": "10,000+",
+    "proof_stat_label": "Field and production logs converted",
+    "proof_quote": "Our techs fill out inspection sheets on paper in the field. NoteOCR turns them into Excel before they're back at the truck.",
+    "proof_quote_name": "Sam K.",
+    "proof_quote_role": "Field operations manager",
+
+    "faq_title": "Frequently asked questions about scanning log sheets",
+
+    "related_title": "More ways to use NoteOCR",
+    "cta_title": "Stop retyping field logs.",
+    "cta_subtitle": "Scan them straight into Excel instead. Launching September 21 on iOS and Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "How do I convert a log sheet with the app?",
+          "a": "Open NoteOCR, tap Scan, and photograph the log sheet. The app detects the table structure and exports a structured Excel file in under two minutes."
+        },
+        "field_conditions": {
+          "q": "Does it work with photos taken outdoors or in poor light?",
+          "a": "Yes, NoteOCR's auto-enhance corrects for common field conditions like glare, shadows, and uneven lighting, though very dim or blurry photos may need a retake."
+        },
+        "no_drawn_lines": {
+          "q": "Does it work on logs without drawn grid lines?",
+          "a": "Yes. NoteOCR detects rows and columns from text alignment, so ruled or blank-paper logs without a drawn grid still convert correctly."
+        },
+        "multiple_columns": {
+          "q": "Can it handle logs with many columns of data?",
+          "a": "Yes, NoteOCR is built to preserve multi-column table structure, common in production and inspection logs, so headers stay matched to their data."
+        },
+        "daily_logs_batch": {
+          "q": "Can I scan a new log sheet every day?",
+          "a": "Yes, there's no limit on how often you scan; each log is converted individually into its own spreadsheet."
+        },
+        "export_format": {
+          "q": "What format do I get the data in?",
+          "a": "A downloadable Excel (.xlsx) file with your log data organized into rows and columns, ready for reporting or further analysis."
+        },
+        "team_use": {
+          "q": "Can multiple field staff use this for the same project?",
+          "a": "Yes. Each team member can scan their own log sheet on their phone, and the resulting spreadsheets can be combined for reporting."
+        },
+        "free_or_paid": {
+          "q": "Is scanning log sheets free?",
+          "a": "Yes, a free monthly page allowance is included. Teams scanning logs daily can upgrade for higher-volume plans."
+        }
+      }
+    }
+  },
+  "AppPage": {
+    "explore_usecases_title": "Built for how you actually take notes.",
+    "explore_usecases_subtitle": "See how NoteOCR handles the specific kind of handwriting you're converting.",
+    "meta_title": "NoteOCR Mobile App – Scan & Convert Handwriting to Text or Excel | iOS & Android",
+    "meta_desc": "Download the NoteOCR app for iOS and Android. Scan handwritten notes with your camera and convert them to Word, Excel, or PDF instantly.",
+
+    "nav_home": "Home",
+    "nav_features": "Features",
+    "nav_pricing": "Pricing",
+    "nav_download_button": "Download App",
+
+    "hero_pill": "Now Available on iOS & Android",
+    "hero_title": "Scan. Convert. Done. Now in your pocket.",
+    "hero_subtitle": "NoteOCR is a handwriting to text and handwriting to Excel app for iOS and Android. Point your camera at any handwritten note, form, or whiteboard, and NoteOCR's OCR engine converts it into an editable Word, Excel, or PDF document before you put your phone away.",
+    "hero_image_alt": "NoteOCR app camera scan screen converting a handwritten page into text on a phone",
+
+    "store_apple_top": "Download for",
+    "store_apple_bottom": "iOS App Store",
+    "store_google_top": "Get it on",
+    "store_google_bottom": "Google Play",
+
+    "why_pill": "Why the app",
+    "why_title": "Built for the moment you're away from your desk.",
+    "why_subtitle": "The web app is great at your desk. The NoteOCR mobile app is a handwriting scanner app built for everywhere, from lecture halls, client meetings, warehouses, or archives.",
+
+    "feature_1_title": "Instant camera scan",
+    "feature_1_desc": "Point, capture, and convert in one motion or upload directly from your gallery",
+    "feature_2_title": "Download instantly",
+    "feature_2_desc": "Download and share your converted document instantly across all apps",
+    "feature_3_title": "Synced with your account",
+    "feature_3_desc": "Every scan appears instantly in your NoteOCR dashboard — same account, same documents, any device.",
+    "feature_4_title": "Instant notifications",
+    "feature_4_desc": "Get notified the second your document is ready, so you never have to sit and wait.",
+
+    "how_title": "From paper to document in three taps.",
+    "how_subtitle": "The NoteOCR scan app turns a handwritten page into an editable file in three steps: scan, auto-crop, and export.",
+    "how_image_alt": "NoteOCR app auto-crop and enhance screen with export options",
+    "step_1_title": "Open the app & tap Scan",
+    "step_1_desc": "Launch NoteOCR and point your camera at any page, whiteboard, or form.",
+    "step_2_title": "Auto-crop & enhance",
+    "step_2_desc": "Edges are detected and lighting corrected automatically — no manual cropping.",
+    "step_3_title": "Export straight to Word, Excel, or PDF",
+    "step_3_desc": "Choose a format and your document is ready to share in seconds.",
+
+    "excel_title": "Handwriting to Excel: turn tables into spreadsheets, instantly.",
+    "excel_desc": "NoteOCR's handwriting to Excel conversion photographs handwritten logs, tables, or lists and automatically detects rows and columns, exporting clean, structured .xlsx files ready for formulas and sorting.",
+    "excel_before_label": "Before",
+    "excel_before_alt": "Handwritten table of data before NoteOCR conversion",
+    "excel_after_label": "After",
+    "excel_after_alt": "Structured Excel spreadsheet after NoteOCR handwriting to Excel conversion",
+
+    "text_title": "Handwriting to text: cursive, print, or messy, converted accurately.",
+    "text_desc": "NoteOCR converts handwriting to text with 95–98% accuracy. Its OCR model is trained on both print and cursive handwriting styles, including slanted or mixed handwriting.",
+    "text_image_alt": "Handwritten note being converted into clean typed text by NoteOCR",
+
+    "gallery_title": "See NoteOCR in action",
+    "screenshot_1_alt": "NoteOCR app camera scan screen capturing a handwritten page",
+    "screenshot_2_alt": "NoteOCR app auto-crop and enhance preview screen",
+    "screenshot_3_alt": "NoteOCR app export options for Word, Excel, and PDF",
+    "screenshot_4_alt": "NoteOCR app dashboard showing synced scanned documents",
+    "screenshot_5_alt": "NoteOCR app handwriting to Excel table conversion result",
+
+    "faq_title": "Frequently asked questions",
+
+    "cta_title": "Start converting handwriting in seconds.",
+    "cta_subtitle": "Launching September 21 on iOS and Android. Free to download.",
+
+    "modal_pill": "Coming soon to {store}",
+    "modal_title": "NoteOCR launches September 21",
+    "modal_desc": "We're putting the finishing touches on the app. Check back on launch day, or leave your email and we'll notify you the moment it's live.",
+    "modal_days": "days",
+    "modal_hrs": "hrs",
+    "modal_min": "min",
+    "modal_sec": "sec",
+    "modal_email_placeholder": "you@email.com",
+    "modal_email_aria": "Email address",
+    "modal_notify_button": "Notify me",
+    "modal_store_fallback": "the app stores",
+
+    "footer_copyright": "© {year} NoteOCR. All rights reserved.",
+    "footer_privacy": "Privacy",
+    "footer_terms": "Terms",
+    "footer_contact": "Contact",
+
+    "FAQ": {
+      "items": {
+        "notes_to_word_phone": {
+          "q": "Can I convert handwritten notes to Word from my phone?",
+          "a": "Yes. Open the NoteOCR app, snap a photo of your handwritten page, and it converts straight into an editable .docx file, no need to be at a computer or upload through the website."
+        },
+        "table_to_excel_camera": {
+          "q": "How do I turn a handwritten table into an Excel file using my camera?",
+          "a": "Point the NoteOCR app's camera at the table, capture it, and the same engine that powers noteocr.com detects the rows and columns and builds a formatted .xlsx spreadsheet, ready to download or edit on your phone."
+        },
+        "old_letters_journals": {
+          "q": "Can the app digitize old handwritten letters or journals?",
+          "a": "Yes. Photograph the page in the NoteOCR app and it reconstructs the text into an editable Word document, making it easy to digitize old letters, journals, or archives one page at a time from wherever they're stored."
+        },
+        "logs_on_the_go": {
+          "q": "Can I scan a handwritten log or list on the go and get a spreadsheet?",
+          "a": "Yes. Capture the page with your phone's camera in the NoteOCR app and it's converted into a structured Excel file automatically, so field notes, logs, and lists don't have to wait until you're back at a desk."
+        },
+        "ios_android_app": {
+          "q": "Is there a NoteOCR app for iPhone and Android?",
+          "a": "Yes. The NoteOCR app is available for both iOS and Android, so you can scan and convert handwritten notes straight from your phone instead of only through the website."
+        },
+        "push_notifications": {
+          "q": "Will the app notify me when my scan is ready?",
+          "a": "Yes. The NoteOCR app sends a push notification as soon as a scan finishes converting, so you don't have to sit and wait for it in the app."
+        },
+        "plan_sync": {
+          "q": "Do my NoteOCR plan and page limits carry over to the app?",
+          "a": "Yes. The app uses the same free and paid plans as noteocr.com, so your monthly page allowance and any Pro or Business features apply whether you scan from your phone or upload from your desktop."
+        },
+        "free_download": {
+          "q": "Is the NoteOCR app free to download?",
+          "a": "Yes, downloading the NoteOCR app is free. You can start converting handwritten notes right away on the free plan, then upgrade in-app if you need a higher monthly page limit."
+        }
+      }
+    }
+  },
   "HomePage": {
     "trust_pill": "V2.0 Handwriting OCR: 99.2% Accuracy",
     "hero_title_1": "Convert Handwriting to Text and",

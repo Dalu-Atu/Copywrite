@@ -1,4 +1,705 @@
+
 {
+  "ClassNotesScannerPage": {
+    "meta_title": "Ders Notu Tarayıcı – El Yazısından Word'e | NoteOCR",
+    "meta_desc": "El yazısı ders notlarınızı akıllı telefonunuzla tarayın, saniyeler içinde düzenlenebilir ve aranabilir Word belgelerine dönüştürün.",
+    "nav_label": "Ders Notu Tarayıcı",
+    "hero_pill": "Öğrenciler İçin",
+    "hero_title": "El yazısı notlarınızı aranabilir Word belgelerine dönüştürün.",
+    "hero_subtitle": "NoteOCR uygulamasıyla defterinizin fotoğrafını çekin; daha verimli çalışmak, anahtar kelimeleri aramak ve özet çıkarmak için temiz, düzenlenebilir metinler elde edin.",
+    "hero_image_alt": "Bir öğrencinin NoteOCR uygulamasıyla taranmış ve dönüştürülmüş el yazısı ders notları",
+
+    "trust_1": "SSL Korumalı",
+    "trust_2": "2 Dakikadan Kısa Sürede Hazır",
+    "trust_3": "%95–98 OCR Doğruluğu",
+
+    "pain_eyebrow": "Daha Verimli Çalışın",
+    "pain_title": "El yazısı notlarınızı anında dijital metne dönüştürün.",
+    "pain_desc": "Ders sırasında notları elle tutmak öğrenmeyi kolaylaştırır. Ancak sınav döneminde anahtar kelimeleri aramak, metni düzenlemek veya arkadaşlarınızla özet paylaşmak istediğinizde kâğıt notlar engel oluşturabilir. NoteOCR, elle yazma zahmetine girmeden el yazınızı düzenlenebilir dijital metne çevirir.",
+    "before_after_eyebrow": "Nasıl Çalıştığını Görün",
+    "before_after_title": "Farkı Hissedin",
+    "before_after_desc": "Defterinizden bir sayfanın kusursuz, düzenlenebilir bir Word belgesine dönüşümü.",
+    "before_label": "Önce: Defter Sayfası",
+    "before_alt": "Dönüştürmeden önceki el yazısı ders notu sayfası",
+    "after_label": "Sonra: Word Belgesi",
+    "after_alt": "Aranabilir bir Word belgesine dönüştürülmüş notlar",
+
+    "how_eyebrow": "Nasıl Çalışır?",
+    "how_title": "Ders defterinden dijital özete 3 adımda geçin.",
+    "how_subtitle": "İçerik henüz zihninizde tazeyken, dersten hemen sonra tarayın.",
+    "step_1_title": "Uygulamayı Açın ve Tara'ya Basın",
+    "step_1_desc": "Dersten hemen sonra veya teneffüste notlarınızın fotoğrafını çekin.",
+    "step_2_title": "Otomatik Kırpma ve İyileştirme",
+    "step_2_desc": "Buruşuk kâğıtlarda veya yetersiz ışıkta bile sorunsuz çalışır.",
+    "step_3_title": "Word'e Aktarın ve Çalışmaya Başlayın",
+    "step_3_desc": "Metni çalışma özetinize yapıştırın veya aranabilir bir belge olarak kaydedin.",
+
+    "who_title": "Not Taramak İçin NoteOCR'ı Kimler Kullanıyor?",
+    "who_subtitle": "Elle yazmayı tercih eden ancak dijital çalışma araçlarının kolaylığından yararlanmak isteyen tüm öğrenciler.",
+    "audience_1_title": "Üniversite Öğrencileri",
+    "audience_1_desc": "Sınav döneminde ders materyallerinde kolayca arama yapmak için notlarınızı ders bazında dijitalleştirin.",
+    "audience_2_title": "Lise Öğrencileri",
+    "audience_2_desc": "Yazılı defterlerinizi ödevlerde kullanılabilecek veya arkadaşlarınızla paylaşılabilecek metinlere dönüştürün.",
+    "audience_3_title": "Çalışma Grupları",
+    "audience_3_desc": "Farklı arkadaşlarınızın tuttuğu el yazısı notları tek bir Word dosyasında toplayın.",
+    "audience_4_title": "Erişilebilirlik ve Sesli Okuma",
+    "audience_4_desc": "Okunması zor el yazılarını, kolayca büyütülebilen veya ekran okuyucularla dinlenebilen dijital metne çevirin.",
+
+    "comparison_title": "Elle Yazma vs. NoteOCR",
+    "comparison_subtitle": "Taramak neden metni elle yeniden yazmaktan katlarca daha hızlıdır?",
+    "comparison_col_method": "Yöntem",
+    "comparison_col_time": "Süre",
+    "comparison_col_accuracy": "Doğruluk",
+    "comparison_col_cost": "Maliyet",
+    "row1_method": "Notları Bilgisayarda Elle Yazmak",
+    "row1_time": "20–30 dk",
+    "row1_accuracy": "%100, ancak çok zaman alır",
+    "row1_cost": "Ücretsiz (değerli çalışma sürenizi harcar)",
+    "row2_method": "Standart OCR Uygulaması",
+    "row2_time": "5 dk",
+    "row2_accuracy": "El yazısında ~%65",
+    "row2_cost": "Ücretsiz – 300 TL",
+    "row3_method": "NoteOCR",
+    "row3_time": "2 dk'dan az",
+    "row3_accuracy": "%95–98",
+    "row3_cost": "Denemek Ücretsiz",
+
+    "proof_title": "10.000'den fazla kullanıcının güvendiği teknoloji altyapısı.",
+    "proof_desc": "NoteOCR'ın el yazısı tanıma teknolojisi, noteocr.com üzerinde her ay 10.000'den fazla kişinin notlarını dijitalleştiriyor. Mobil uygulama aynı hassasiyeti cebinize getiriyor.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Web ve mobilde dönüştürülen aylık sayfa sayısı",
+    "proof_quote": "Her dersten sonra notlarımı anında tarıyorum. Eve varana kadar tüm ders materyalim cebimde aranabilir hale geliyor.",
+    "proof_quote_name": "Selin A.",
+    "proof_quote_role": "Yüksek Lisans Öğrencisi",
+
+    "faq_title": "Ders Notu Tarama Hakkında Sıkça Sorulan Sorular",
+
+    "related_title": "NoteOCR'ın Diğer Kullanım Alanları",
+    "cta_title": "Notlarınızı elle bilgisayara aktarmayı bırakın.",
+    "cta_subtitle": "Dersten hemen sonra doğrudan Word'e tarayın. 21 Eylül'den itibaren iOS ve Android'de.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Ders notlarımı uygulama ile nasıl dönüştürebilirim?",
+          "a": "NoteOCR'ı açın, 'Tara' butonuna basın ve defterinizin fotoğrafını çekin. Uygulama, el yazınızı 2 dakika içinde düzenlenebilir bir Word belgesine çevirir."
+        },
+        "messy_handwriting": {
+          "q": "Hızlı veya düzensiz el yazılarında da çalışıyor mu?",
+          "a": "Evet, çoğu durumda çalışır. NoteOCR karmaşık ve hızlı tutulmuş el yazısı türleri üzerinde eğitilmiştir. Çok düzensiz yazılarda sadece küçük bir kontrol yapmanız yeterlidir."
+        },
+        "lecture_slides_mixed_notes": {
+          "q": "Çizim veya şema içeren notları işleyebilir mi?",
+          "a": "NoteOCR sayfadaki metinleri dönüştürmeye odaklanır. Çizimler vektöre dönüştürülmez ancak etrafındaki metinler yüksek doğrulukla tanınır."
+        },
+        "study_from_converted_notes": {
+          "q": "Dönüştürme sonrasında kelime araması yapabilir veya metni vurgulayabilir miyim?",
+          "a": "Kesinlikle. Word belgesi oluşturulduktan sonra metin tamamen aranabilir, düzenlenebilir ve ders çalışmaya hazır hale gelir."
+        },
+        "free_for_students": {
+          "q": "Uygulama öğrenciler için ücretsiz mi?",
+          "a": "Evet. Uygulama, çoğu öğrencinin ihtiyacını fazlasıyla karşılayan aylık ücretsiz bir sayfa kotası içerir."
+        },
+        "multiple_languages": {
+          "q": "Uygulama İngilizce veya Almanca gibi diğer dilleri destekliyor mu?",
+          "a": "Evet, NoteOCR Türkçe, İngilizce, Almanca ve Fransızca dahil onlarca dilde el yazısı tanıma desteği sunar."
+        },
+        "sync_across_devices": {
+          "q": "Tardığım notlara bilgisayardan da erişebilir miyim?",
+          "a": "Evet. NoteOCR hesabınızla giriş yaparak dönüştürülen belgelerinizi noteocr.com ile otomatik olarak senkronize edebilirsiniz."
+        },
+        "accuracy": {
+          "q": "El yazısı metin dönüştürmede doğruluk oranı nedir?",
+          "a": "Okunabilir el yazılarında %95–98 oranında doğruluk elde ediyoruz. Özel terimler veya formüller için hızlı bir göz gezdirmenizi öneririz."
+        }
+      }
+    }
+  },
+  "LetterScannerPage": {
+    "meta_title": "Eski Mektup Tarayıcı – El Yazısından Word'e | NoteOCR",
+    "meta_desc": "Eski mektupları, günlükleri ve kartpostalları akıllı telefonunuzla tarayın; sonsuza dek korumak için düzenlenebilir Word belgelerine dönüştürün.",
+    "nav_label": "Mektup Tarayıcı",
+    "hero_pill": "Soybilim & Arşiv İçin",
+    "hero_title": "El yazısı mektupları dijital belgelere dönüştürüp geleceğe taşıyın.",
+    "hero_subtitle": "NoteOCR ile eski mektupların veya günlük sayfalarının fotoğrafını çekin; elle yazmaya gerek kalmadan bunları düzenlenebilir metin veya Word dosyalarına çevirin.",
+    "hero_image_alt": "NoteOCR uygulamasıyla taranmış ve dönüştürülmüş tarihi el yazısı mektup",
+
+    "trust_1": "SSL Korumalı",
+    "trust_2": "2 Dakikadan Kısa Sürede Hazır",
+    "trust_3": "%95–98 OCR Doğruluğu",
+
+    "pain_eyebrow": "Değerli Anılarınızı Koruyun",
+    "pain_title": "Aile hafızanızın zamanla yıpranan kâğıtlarda kaybolmasına izin vermeyin.",
+    "pain_desc": "Tarihi mektuplar ve kişisel günlükler paha biçilmez anılar taşır; ancak kâğıtlar zamanla sararır ve yıpranır. NoteOCR, aile tarihinizi gelecek nesillere güvenle aktarmak için el yazısı belgeleri temiz dijital metne dönüştürür.",
+    "before_after_eyebrow": "Nasıl Çalıştığını Görün",
+    "before_after_title": "Farkı Hissedin",
+    "before_after_desc": "Orijinal bir eski mektubun düzenlenebilir bir Word belgesine dönüşümü.",
+    "before_label": "Önce: El Yazısı Tarihi Mektup",
+    "before_alt": "Dönüştürmeden önceki eski el yazısı mektup",
+    "after_label": "Sonra: Word Belgesi",
+    "after_alt": "Aranabilir bir Word belgesine dönüştürülmüş mektup",
+
+    "how_eyebrow": "Nasıl Çalışır?",
+    "how_title": "Aile arşivinizden dijital arşive 3 adımda geçin.",
+    "how_subtitle": "Pahalı tarayıcılara gerek yok: cep telefonunuzun kamerası fazlasıyla yeterli.",
+    "step_1_title": "Uygulamayı Açın ve Tara'ya Basın",
+    "step_1_desc": "Mektubu iyi ışık alan düz bir zemine yerleştirip fotoğrafını çekin.",
+    "step_2_title": "Otomatik Kırpma ve İyileştirme",
+    "step_2_desc": "Sararmış kâğıtlarda, lekelerde veya solmuş mürekkeplerde bile harika çalışır.",
+    "step_3_title": "Word'e Aktarın ve Sonsuza Dek Saklayın",
+    "step_3_desc": "Eksiksiz bir tarihi arşiv oluşturmak için dijital metni orijinal görselle birlikte kaydedin.",
+
+    "who_title": "Mektupları Dijitalleştirmek İçin NoteOCR'ı Kimler Kullanıyor?",
+    "who_subtitle": "Değerli anıları ve tarihi yazıları korumak isteyen herkes.",
+    "audience_1_title": "Soybilimciler ve Aile Tarihi Araştırmacıları",
+    "audience_1_desc": "Aile büyüklerinizin mektuplarını tüm aileyle kolayca paylaşılabilecek okunabilir bir dijital formata çevirin.",
+    "audience_2_title": "Yerel Tarihçiler ve Arşivciler",
+    "audience_2_desc": "Tarihi araştırmaları ve anlatıları zenginleştirmek için eski yazışmaları ve günlükleri dijitalleştirin.",
+    "audience_3_title": "Koleksiyoncular ve Tarih Araştırmacıları",
+    "audience_3_desc": "Tarihi belgeleri ve yerel arşivleri aranabilir dijital metinlere dönüştürün.",
+    "audience_4_title": "Müze Çalışanları ve İnceleme Uzmanları",
+    "audience_4_desc": "Orijinal el yazmaları arşive kaldırılmadan önce hızlıca dijital çalışma kopyaları oluşturun.",
+
+    "comparison_title": "Elle Transkripsiyon vs. NoteOCR",
+    "comparison_subtitle": "Eski mektupları taramak neden elle metne dökmekten çok daha verimlidir?",
+    "comparison_col_method": "Yöntem",
+    "comparison_col_time": "Süre",
+    "comparison_col_accuracy": "Doğruluk",
+    "comparison_col_cost": "Maliyet",
+    "row1_method": "Mektubu Elle Metne Dökmek",
+    "row1_time": "30–45 dk",
+    "row1_accuracy": "%100, ancak çok yorucu",
+    "row1_cost": "Ücretsiz (saatler süren emek gerektirir)",
+    "row2_method": "Standart OCR Uygulaması",
+    "row2_time": "5–8 dk",
+    "row2_accuracy": "Eski el yazısında ~%60",
+    "row2_cost": "Ücretsiz – 350 TL",
+    "row3_method": "NoteOCR",
+    "row3_time": "2 dk'dan az",
+    "row3_accuracy": "%95–98",
+    "row3_cost": "Denemek Ücretsiz",
+
+    "proof_title": "10.000'den fazla kişinin kullandığı teknoloji altyapısı.",
+    "proof_desc": "NoteOCR'ın özel teknolojisi, noteocr.com üzerinde 10.000'den fazla kullanıcı için tarihi el yazısı ve süslü yazıları dijitalleştiriyor.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Dijitalleştirilen ve güvenle korunan tarihi mektup sayfası",
+    "proof_quote": "Anneannemin mektup koleksiyonunun tamamını tek bir öğleden sonra dijitalleştirdim. Artık tüm ailemiz bunları rahatça okuyabiliyor.",
+    "proof_quote_name": "Murat R.",
+    "proof_quote_role": "Soybilim Araştırmacısı",
+
+    "faq_title": "Eski Mektupları Tarama Hakkında Sıkça Sorulan Sorular",
+
+    "related_title": "NoteOCR'ın Diğer Kullanım Alanları",
+    "cta_title": "Zamanın değerli mektuplarınızı yıpratmasına izin vermeyin.",
+    "cta_subtitle": "Kâğıt daha fazla bozulmadan önce Word'e kaydedin. 21 Eylül'den itibaren iOS ve Android'de.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Uygulama ile eski bir mektubu nasıl tarayabilirim?",
+          "a": "NoteOCR'ı açın, 'Tara'yı seçin ve mektubu iyi bir ışık altında fotoğraflayın. Uygulama, el yazısını 2 dakika içinde düzenlenebilir bir Word belgesine çevirir."
+        },
+        "old_faded_letters": {
+          "q": "Çok eski veya mürekkebi solmuş mektuplarda çalışıyor mu?",
+          "a": "NoteOCR'ın görüntü işleme algoritması, soluk mürekkepleri daha okunabilir kılmak için kontrastı artırır. Çok hasarlı sayfalarda hızlı bir kontrol yapmanız yeterli olabilir."
+        },
+        "cursive_and_old_scripts": {
+          "q": "Uygulama bitişik el yazısını ve eski yazı tarzlarını tanıyabilir mi?",
+          "a": "Evet, NoteOCR klasik el yazısı ve eski yazı stillerini tanımak üzere özel olarak eğitilmiştir."
+        },
+        "preserve_originals": {
+          "q": "Tarama işlemi orijinal belgeye zarar verir mi?",
+          "a": "Kesinlikle hayır. NoteOCR yalnızca dijital bir fotoğraf çeker, bu nedenle orijinal kâğıt tamamen dokunulmadan kalır."
+        },
+        "batch_of_letters": {
+          "q": "Birden fazla sayfadan oluşan bir mektubu sırayla tarayabilir miyim?",
+          "a": "Evet, uygulamada mektupları sayfa sayfa çekebilir ve hepsini tek bir dijital dosyada toplayabilirsiniz."
+        },
+        "family_archive_use": {
+          "q": "Bu yöntem dijital bir aile arşivi oluşturmak için uygun mu?",
+          "a": "Kesinlikle. Kullanıcılarımızın birçoğu NoteOCR'ı günlükleri, yazışmaları ve aile miraslarını dijitalleştirmek için kullanıyor."
+        },
+        "accuracy": {
+          "q": "El yazısı mektuplardaki doğruluk oranı nedir?",
+          "a": "İyi korunmuş mektuplarda %95–98 doğruluk elde ediyoruz. İsimleri ve tarihleri hızlıca kontrol etmenizi tavsiye ederiz."
+        },
+        "privacy_of_personal_letters": {
+          "q": "Kişisel mektuplarım gizli ve güvende kalıyor mu?",
+          "a": "Evet. Tüm yüklemeler şifreleme ile korunur ve NoteOCR özel belgelerinizi asla paylaşmaz veya görüntülemez."
+        }
+      }
+    }
+  },
+  "InventoryCountScannerPage": {
+    "meta_title": "Sayım Listesi Tarayıcı – Excel'e Aktarma | NoteOCR",
+    "meta_desc": "El yazısı envanter ve sayım listelerini akıllı telefonunuzla tarayın, doğrudan Excel tablolarına dönüştürün. Depoda elle veri girişine son verin.",
+    "nav_label": "Sayım Tarayıcı",
+    "hero_pill": "Depo & Lojistik İçin",
+    "hero_title": "Depodan çıkmadan sayım listelerinizi Excel'e dönüştürün.",
+    "hero_subtitle": "NoteOCR uygulamasıyla sayım formlarınızın fotoğrafını çekin; düzgün satır ve sütunlara sahip bir .xlsx dosyası elde edin.",
+    "hero_image_alt": "NoteOCR uygulamasıyla taranmış bir depodaki el yazısı sayım listesi",
+
+    "trust_1": "SSL Korumalı",
+    "trust_2": "2 Dakikadan Kısa Sürede Hazır",
+    "trust_3": "Sayılar için %98 Doğruluk",
+
+    "pain_eyebrow": "Depo ve Lojistik Yönetimi İçin",
+    "pain_title": "Sayım verilerini kâğıttan bilgisayara elle aktarmayı bırakın.",
+    "pain_desc": "Masada oturup kâğıt listelerdeki sayıları bilgisayara tek tek girmek zaman kaybıdır. NoteOCR, sayım formlarınızı doğrudan Excel tablolarına dönüştürür; böylece veri girişi hataları ve gecikmeler geçmişte kalır.",
+    "before_after_eyebrow": "Nasıl Çalıştığını Görün",
+    "before_after_title": "Farkı Hissedin",
+    "before_after_desc": "El yazısı bir sayım formunun düzenli bir Excel tablosuna dönüşümü.",
+    "before_label": "Önce: El Yazısı Sayım Formu",
+    "before_alt": "Dönüştürmeden önceki sayım listesi",
+    "after_label": "Sonra: Excel Tablosu",
+    "after_alt": "Excel tablosunda düzenlenmiş sayım verileri",
+
+    "how_eyebrow": "Nasıl Çalışır?",
+    "how_title": "Sayım altlığından tabloya 3 kolay adımda geçin.",
+    "how_subtitle": "Ofise gidene kadar beklemeyin: verileri doğrudan sayımın yapıldığı yerde dönüştürün.",
+    "step_1_title": "Uygulamayı Açın ve Tara'ya Basın",
+    "step_1_desc": "Bir rafın veya bölümün sayımı biter bitmez formun fotoğrafını çekin.",
+    "step_2_title": "Satır ve Sütunları Otomatik Algılama",
+    "step_2_desc": "Kâğıtta çizili çizgiler olmasa bile özel şablonlarınızda mükemmel çalışır.",
+    "step_3_title": "Excel'e Aktarın ve Gönderin",
+    "step_3_desc": ".xlsx dosyasını indirin ve doğrudan satın alma veya muhasebe ekibiyle paylaşın.",
+
+    "who_title": "Sayım Taramak İçin NoteOCR'ı Kimler Kullanıyor?",
+    "who_subtitle": "Sistemler güncellenmeden önce stok verilerini kâğıda not eden tüm çalışanlar.",
+    "audience_1_title": "Depo ve Lojistik Yöneticileri",
+    "audience_1_desc": "Depo koridorlarında yapılan sayımları, ofise gidip gelmeye gerek kalmadan doğrudan Excel'e çevirin.",
+    "audience_2_title": "Mağaza Sahipleri ve Perakendeciler",
+    "audience_2_desc": "Tedarikçilere hızlıca iletmek için sipariş listelerini ve ürün sayımlarını anında dijitalleştirin.",
+    "audience_3_title": "Restoran ve Mutfak Şefleri",
+    "audience_3_desc": "Maliyet kontrolü için malzeme sayım listelerini düzenli tablolara dönüştürün.",
+    "audience_4_title": "Denetçiler ve Stok Kontrolörleri",
+    "audience_4_desc": "Saha denetim süreçlerini belgeleyin ve raporu aynı gün içinde dışa aktarın.",
+
+    "comparison_title": "Elle Veri Girişi vs. NoteOCR",
+    "comparison_subtitle": "Sayım listelerini taramak neden katlarca daha verimlidir?",
+    "comparison_col_method": "Yöntem",
+    "comparison_col_time": "Süre",
+    "comparison_col_accuracy": "Doğruluk",
+    "comparison_col_cost": "Maliyet",
+    "row1_method": "Verileri Bilgisayara Elle Girmek",
+    "row1_time": "30–40 dk",
+    "row1_accuracy": "%95, hatalı yazım riski",
+    "row1_cost": "Personel mesai maliyeti",
+    "row2_method": "Standart OCR Uygulaması",
+    "row2_time": "8 dk",
+    "row2_accuracy": "~%55, tablo düzeni bozulur",
+    "row2_cost": "Ücretsiz – 450 TL",
+    "row3_method": "NoteOCR",
+    "row3_time": "2 dk'dan az",
+    "row3_accuracy": "Sayılar için %98",
+    "row3_cost": "Denemek Ücretsiz",
+
+    "proof_title": "10.000'den fazla kişinin kullandığı teknoloji altyapısı.",
+    "proof_desc": "NoteOCR'ın tablo motoru, noteocr.com üzerinde her ay 10.000'den fazla kullanıcı için envanter ve şirket verilerini işliyor.",
+    "proof_stat_number": "%98",
+    "proof_stat_label": "El yazısı sayılarda ve adetlerde ortalama doğruluk",
+    "proof_quote": "Eskiden gün sonunda sayım kâğıtlarını girmek için 20 dakika harcardık. Şimdi ışıkları kapatmadan önce raporu göndermiş oluyoruz.",
+    "proof_quote_name": "Ahmet T.",
+    "proof_quote_role": "Depo Sorumlusu",
+
+    "faq_title": "Sayım Listesi Tarama Hakkında Sıkça Sorulan Sorular",
+
+    "related_title": "NoteOCR'ın Diğer Kullanım Alanları",
+    "cta_title": "Sayım verilerini elle girmeyi bırakın.",
+    "cta_subtitle": "Doğrudan Excel'e tarayın. 21 Eylül'den itibaren iOS ve Android'de.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Uygulama ile bir sayım formunu nasıl dönüştürebilirim?",
+          "a": "NoteOCR'ı açın, 'Tara'yı seçin ve sayım kâğıdının fotoğrafını çekin. Uygulama satır ve sütunları otomatik algılar ve 2 dakika içinde bir Excel dosyası oluşturur."
+        },
+        "no_drawn_lines": {
+          "q": "Çizgisiz, düz kâğıtlarda da çalışıyor mu?",
+          "a": "Evet. NoteOCR, kâğıt üzerinde çizgiler olmasa bile tablo yapısını doğru şekilde oluşturmak için metin ve sayıların konumlarını analiz eder."
+        },
+        "numeric_accuracy": {
+          "q": "Sayılar ne kadar doğru tanınıyor?",
+          "a": "Sayısal değerlerdeki doğruluk oranı %98 civarındadır. Verileri işlemeden önce toplamları hızlıca kontrol etmenizi öneririz."
+        },
+        "multiple_sheets_per_day": {
+          "q": "Aynı gün içinde birden fazla sayım kâğıdı tarayabilir miyim?",
+          "a": "Evet, ihtiyacınız olduğu kadar sayfa tarayabilirsiniz. Her form düzenli bir tabloya dönüştürülür."
+        },
+        "export_format": {
+          "q": "Hangi dosya formatında teslim alırım?",
+          "a": "Doğrudan Microsoft Excel, Google E-Tablolar ve çoğu ERP sisteminde açılabilen bir .xlsx dosyası alırsınız."
+        },
+        "team_use": {
+          "q": "Uygulama birden fazla çalışan tarafından aynı anda kullanılabilir mi?",
+          "a": "Evet. Her çalışan kendi telefonunda uygulamayı kullanarak sayımları tarayabilir ve ardından Excel dosyalarını birleştirebilir."
+        },
+        "offline_warehouse_use": {
+          "q": "İnternetin zayıf olduğu depolarda çalışır mı?",
+          "a": "Fotoğrafları çevrimdışı çekebilirsiniz. Cihazınız internete bağlandığı anda uygulama belgeleri dönüştürür."
+        },
+        "free_or_paid": {
+          "q": "Sayım formlarını taramak ücretsiz mi?",
+          "a": "Evet, uygulama aylık ücretsiz tarama kotası içerir. Yüksek hacimli depolar için Pro aboneliklerimiz mevcuttur."
+        }
+      }
+    }
+  },
+  "ReceiptToExcelScannerPage": {
+    "meta_title": "Fiş Tarayıcıdan Excel'e – Fişleri Dönüştürün | NoteOCR",
+    "meta_desc": "Fiş ve harcama belgelerinizi akıllı telefonunuzla tarayın; masraf takibi, muhasebe ve vergi işlemleri için düzenli Excel tablolarına çevirin.",
+    "nav_label": "Fiş Tarayıcıdan Excel'e",
+    "hero_pill": "Şahıs Şirketleri & KOBİ'ler İçin",
+    "hero_title": "Fiş yığınlarını düzenli bir Excel tablosuna dönüştürün.",
+    "hero_subtitle": "Her fişi NoteOCR ile fotoğraflayın; muhasebe için tarih, tutar ve satıcı bilgilerini otomatik olarak hazır bir Excel tablosuna aktarın.",
+    "hero_image_alt": "NoteOCR ile taranıp Excel tablosuna dönüştürülmüş alışveriş fişi",
+
+    "trust_1": "SSL Korumalı",
+    "trust_2": "2 Dakikadan Kısa Sürede Hazır",
+    "trust_3": "Sayılar için %98 Doğruluk",
+
+    "pain_eyebrow": "Kâğıttan Tabloya",
+
+    "pain_title": "Fişler hızla birikir. Elle kaydetmekle zaman kaybetmeyin.",
+
+    "pain_desc": "Fişler muhasebe ve vergi süreçleri için kritik bilgiler içerir; ancak her tutarı Excel'e tek tek girmek ciddi zaman alır. NoteOCR, kâğıt fişleri otomatik olarak düzenli veriye dönüştürür.",
+    "before_after_eyebrow": "Nasıl Çalıştığını Görün",
+    "before_after_title": "Farkı Hissedin",
+    "before_after_desc": "Bir kâğıt fişin Excel'de düzenli bir satıra dönüşümü.",
+    "before_label": "Önce: Kâğıt Fiş",
+    "before_alt": "Dönüştürmeden önceki kâğıt fiş",
+    "after_label": "Sonra: Excel Satırı",
+    "after_alt": "Fişteki verilerin Excel satırında düzenlenmiş hali",
+
+    "how_eyebrow": "Nasıl Çalışır?",
+    "how_title": "Fişten masraf raporuna 3 adımda geçin.",
+    "how_subtitle": "Yazılar solmadan veya kâğıt buruşmadan, alışverişten hemen sonra fişi tarayın.",
+    "step_1_title": "Uygulamayı Açın ve Tara'ya Basın",
+    "step_1_desc": "Harcamayı yaptıktan hemen sonra fişin net bir fotoğrafını çekin.",
+    "step_2_title": "Tutar ve Tarihlerin Otomatik Tespiti",
+    "step_2_desc": "Uygulama toplam tutarı, tarihi ve satıcı adını otomatik olarak belirler.",
+    "step_3_title": "Excel'e Aktarın ve Masraf Formunu Tamamlayın",
+    "step_3_desc": ".xlsx dosyasını indirin, muhasebe kaydına ekleyin veya mali müşavirinize gönderin.",
+
+    "who_title": "Fiş Taramak İçin NoteOCR'ı Kimler Kullanıyor?",
+    "who_subtitle": "Harcamalarını hızlıca belgelemek isteyen tüm işletme sahipleri ve çalışanlar.",
+    "audience_1_title": "Şahıs Şirketleri ve Serbest Çalışanlar (Freelancer)",
+    "audience_1_desc": "Fişleri KDV beyannamesine veya muhasebe programına doğrudan aktarılabilecek Excel listelerine dönüştürün.",
+    "audience_2_title": "Küçük ve Orta Ölçekli İşletmeler (KOBİ)",
+    "audience_2_desc": "Tutar girmekle uğraşmadan günlük harcamaları anında dijitalleştirin.",
+    "audience_3_title": "Mali Müşavirler ve Muhasebeciler",
+    "audience_3_desc": "Müşterilerden gelen fiş dolu kutuları kısa sürede düzenli Excel dosyalarına çevirin.",
+    "audience_4_title": "Saha ve Seyahat Çalışanları",
+    "audience_4_desc": "Saha harcamalarını ve yol fişlerini anında tarayın; masraf raporunuz ofise dönmeden hazır olsun.",
+
+    "comparison_title": "Elle Veri Girişi vs. NoteOCR",
+    "comparison_subtitle": "Fiş taramak neden elle yazmaktan çok daha hızlıdır?",
+    "comparison_col_method": "Yöntem",
+    "comparison_col_time": "Süre",
+    "comparison_col_accuracy": "Doğruluk",
+    "comparison_col_cost": "Maliyet",
+    "row1_method": "Her Fişi Elle Girmek",
+    "row1_time": "Fiş başı 2–3 dk",
+    "row1_accuracy": "%95, hatalı basım riski",
+    "row1_cost": "Ücretsiz (çok zaman alır)",
+    "row2_method": "Standart OCR Uygulaması",
+    "row2_time": "Fiş başı 1 dk",
+    "row2_accuracy": "Termal kâğıtta ~%70",
+    "row2_cost": "Ücretsiz – 300 TL",
+    "row3_method": "NoteOCR",
+    "row3_time": "Toplamda 2 dk'dan az",
+    "row3_accuracy": "Sayılar için %98",
+    "row3_cost": "Denemek Ücretsiz",
+
+    "proof_title": "10.000'den fazla kişinin kullandığı teknoloji altyapısı.",
+    "proof_desc": "NoteOCR teknolojisi, noteocr.com üzerinde 10.000'den fazla kullanıcı için harcama belgelerini ve muhasebe evraklarını işliyor.",
+    "proof_stat_number": "%98",
+    "proof_stat_label": "Taranan fişlerdeki sayısal değerlerin doğruluk oranı",
+    "proof_quote": "KDV dönemi fiş toplamak tam bir kâbus gibiydi. Şimdi anında tarıyorum ve her şey Excel'de düzenli şekilde birikiyor.",
+    "proof_quote_name": "Leyla V.",
+    "proof_quote_role": "Serbest Tasarımcı",
+
+    "faq_title": "Fiş Tarama Hakkında Sıkça Sorulan Sorular",
+
+    "related_title": "NoteOCR'ın Diğer Kullanım Alanları",
+    "cta_title": "Fişleri elle girmeyi bırakın.",
+    "cta_subtitle": "Doğrudan Excel'e tarayın. 21 Eylül'den itibaren iOS och Android'de.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Uygulama ile bir fişi nasıl dönüştürebilirim?",
+          "a": "NoteOCR'ı açın, 'Tara'yı seçin ve fişin fotoğrafını çekin. Uygulama toplam tutarı ve detayları algılar, 2 dakika içinde bir Excel satırı oluşturur."
+        },
+        "faded_receipts": {
+          "q": "Termal yazıcıdan çıkmış soluk fişlerde çalışıyor mu?",
+          "a": "NoteOCR algoritmaları silik metinleri belirginleştirmek için kontrastı artırır. Çok silinmiş fişlerde nadiren hızlı bir kontrol gerekebilir."
+        },
+        "currency_symbols": {
+          "q": "Uygulama para birimi simgelerini (₺, $, €) algılıyor mu?",
+          "a": "Evet, modelimiz farklı para birim simgelerini ve virgül/nokta kullanımını doğru şekilde tanımak üzere eğitilmiştir."
+        },
+        "batch_of_receipts": {
+          "q": "Aynı anda birden fazla fiş tarayabilir miyim?",
+          "a": "En yüksek doğruluğu elde etmek için her fiş tek tek fotoğraflanır. Çok sayıda belge için web sürümümüzü de kullanabilirsiniz."
+        },
+        "tax_season_use": {
+          "q": "Bu yöntem vergi ve muhasebe süreçleri için uygun mu?",
+          "a": "Evet. Birçok şahıs şirketi ve küçük işletme, verileri mali müşavirlerine göndermeden önce belgeleri dijitalleştirmek için NoteOCR kullanıyor."
+        },
+        "export_format": {
+          "q": "Verileri hangi dosya formatında alırım?",
+          "a": "Tarih, satıcı adı ve tutarların sütunlara ayrıldığı bir .xlsx dosyası alırsınız."
+        },
+        "accuracy_on_numbers": {
+          "q": "Toplam tutarın tespit edilme doğruluğu nedir?",
+          "a": "Sayısal değerlerdeki doğruluk oranı yaklaşık %98'dir. Tedbir amaçlı olarak toplam tutarları kontrol etmenizi öneririz."
+        },
+        "privacy_of_financial_data": {
+          "q": "Finansal verilerim ve fişlerim güvende mi?",
+          "a": "Evet. Gizliliğiniz önceliğimizdir: Tüm yüklemeler şifrelenir ve verileriniz asla üçüncü taraflarla paylaşılmaz."
+        }
+      }
+    }
+  },
+  "LogSheetScannerPage": {
+    "meta_title": "Servis Formu & İş Raporu Tarayıcıdan Excel'e | NoteOCR",
+    "meta_desc": "El yazısı iş raporlarını, puantaj cetvellerini ve kontrol formlarını akıllı telefonunuzla tarayın; düzenli Excel tablolarına dönüştürün.",
+    "nav_label": "İş Raporu Tarayıcı",
+    "hero_pill": "Saha Çalışanları & Teknikerler İçin",
+    "hero_title": "Saha raporlarını ofise dönmeden Excel'e dönüştürün.",
+    "hero_subtitle": "Puantaj cetvellerinin, günlük raporların veya kontrol formlarının NoteOCR ile fotoğrafını çekin; hazır Excel tabloları elde edin.",
+    "hero_image_alt": "NoteOCR uygulamasıyla sahada taranmış el yazısı iş raporu",
+
+    "trust_1": "SSL Korumalı",
+    "trust_2": "2 Dakikadan Kısa Sürede Hazır",
+    "trust_3": "Sayılar için %98 Doğruluk",
+
+    "pain_eyebrow": "Sahada Veri Dijitalleştirme",
+
+    "pain_title": "Saha raporlarını ve kontrol listelerini elle girmeye son verin.",
+
+    "pain_desc": "Servis formları, puantajlar ve teknik denetimler genellikle sahada elle doldurulur. NoteOCR, bu el yazısı kâğıtları doğrudan düzenlenebilir Excel dosyalarına çevirir.",
+    "before_after_eyebrow": "Nasıl Çalıştığını Görün",
+    "before_after_title": "Farkı Hissedin",
+    "before_after_desc": "El yazısı bir iş raporunun düzenli bir Excel tablosuna dönüşümü.",
+    "before_label": "Önce: El Yazısı İş Raporu",
+    "before_alt": "Dönüştürmeden önceki el yazısı servis formu",
+    "after_label": "Sonra: Excel Tablosu",
+    "after_alt": "İş raporundaki verilerin Excel tablosundaki hali",
+
+    "how_eyebrow": "Nasıl Çalışır?",
+    "how_title": "Kâğıt rapordan Excel'e 3 kolay adımda geçin.",
+    "how_subtitle": "Günün sonuna ertelemek yerine verileri doğrudan sahada dönüştürün.",
+    "step_1_title": "Uygulamayı Açın ve Tara'ya Basın",
+    "step_1_desc": "Form doldurulduktan hemen sonra raporun fotoğrafını çekin.",
+    "step_2_title": "Satır ve Sütunların Otomatik Algılanması",
+    "step_2_desc": "Hemen her kâğıt türündeki liste, tablo ve form yapısını destekler.",
+    "step_3_title": "Excel'e Aktarın ve Raporu Gönderin",
+    "step_3_desc": ".xlsx dosyasını indirin ve günlük proje veya finans güncellemesi için anında iletin.",
+
+    "who_title": "İş Raporu Taramak İçin NoteOCR'ı Kimler Kullanıyor?",
+    "who_subtitle": "Saha çalışmasında verileri elle kâğıda not eden tüm profesyoneller.",
+    "audience_1_title": "Servis Teknikerleri ve Montaj Ekipleri",
+    "audience_1_desc": "Gün içinde bilgisayara ihtiyaç duymadan servis formlarını Excel tablolarına çevirin.",
+    "audience_2_title": "Şantiye Şefleri ve İnşaat Çalışanları",
+    "audience_2_desc": "Günlük puantajları ve şantiye defterlerini doğrudan sahadan dijitalleştirin.",
+    "audience_3_title": "Araştırmacılar ve Laboratuvar Teknikerleri",
+    "audience_3_desc": "Detaylı veri analizi için el yazısı ölçüm değerlerini ve seyir defterlerini Excel'e aktarın.",
+    "audience_4_title": "Etkinlik Yöneticileri ve Spor Koordinatörleri",
+    "audience_4_desc": "El yazısı katılımcı listelerini, skor sayfalarını veya protokolleri düzenli tablolara çevirin.",
+
+    "comparison_title": "Elle Veri Girişi vs. NoteOCR",
+    "comparison_subtitle": "Saha raporlarını taramak neden devasa zaman tasarrufu sağlar?",
+    "comparison_col_method": "Yöntem",
+    "comparison_col_time": "Süre",
+    "comparison_col_accuracy": "Doğruluk",
+    "comparison_col_cost": "Maliyet",
+    "row1_method": "Raporları Bilgisayara Elle Girmek",
+    "row1_time": "20–30 dk",
+    "row1_accuracy": "%95, hatalı yazım riski",
+    "row1_cost": "Çalışma saati maliyeti",
+    "row2_method": "Standart OCR Uygulaması",
+    "row2_time": "8 dk",
+    "row2_accuracy": "~%55, biçimlendirme kaybolur",
+    "row2_cost": "Ücretsiz – 450 TL",
+    "row3_method": "NoteOCR",
+    "row3_time": "2 dk'dan az",
+    "row3_accuracy": "Sayılar için %98",
+    "row3_cost": "Denemek Ücretsiz",
+
+    "proof_title": "10.000'den fazla kişinin kullandığı teknoloji altyapısı.",
+    "proof_desc": "NoteOCR'ın tablo motoru, noteocr.com üzerinde 10.000'den fazla kullanıcı için günlük raporları ve iş formlarını işliyor.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Dijitalleştirilen ve dışa aktarılan iş raporu sayfası",
+    "proof_quote": "Teknikerlerimiz raporları sahada dolduruyor. NoteOCR ile daha arabayı çalıştırmadan raporları Excel'e çevirmiş oluyorlar.",
+    "proof_quote_name": "Serdar K.",
+    "proof_quote_role": "Operasyon Müdürü",
+
+    "faq_title": "İş Raporu Tarama Hakkında Sıkça Sorulan Sorular",
+
+    "related_title": "NoteOCR'ın Diğer Kullanım Alanları",
+    "cta_title": "Kâğıt raporları yeniden yazmayı bırakın.",
+    "cta_subtitle": "Doğrudan Excel'e tarayın. 21 Eylül'den itibaren iOS ve Android'de.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Uygulama ile bir iş raporunu nasıl dönüştürebilirim?",
+          "a": "NoteOCR'ı açın, 'Tara'ya basın ve belgenin fotoğrafını çekin. Uygulama tablo yapısını algılar ve 2 dakika içinde bir Excel dosyası oluşturur."
+        },
+        "field_conditions": {
+          "q": "Açık havada veya yetersiz ışıkta çekilen fotoğraflarda çalışıyor mu?",
+          "a": "Evet, NoteOCR gölgeleri ve düzensiz ışık koşullarını düzeltmek için otomatik görsel iyileştirmelerine sahiptir."
+        },
+        "no_drawn_lines": {
+          "q": "Çizgisiz formlarda da çalışıyor mu?",
+          "a": "Evet. Uygulama, bilgileri satır ve sütunlara doğru şekilde yerleştirmek için metin konumlarını analiz eder."
+        },
+        "multiple_columns": {
+          "q": "Uygulama çok sütunlu karmaşık raporları işleyebilir mi?",
+          "a": "Elbette, NoteOCR karmaşık ve yoğun içerikli belgelerde bile yapıyı koruyacak şekilde optimize edilmiştir."
+        },
+        "daily_logs_batch": {
+          "q": "Her gün düzenli olarak iş raporu tarayabilir miyim?",
+          "a": "Evet, ihtiyacınız olan sayıda raporu tarayabilirsiniz. Her belge Excel formatına dönüştürülür."
+        },
+        "export_format": {
+          "q": "Veriler hangi formatta dışa aktarılır?",
+          "a": "Tüm verilerin hücrelere düzgünce bölündüğü, indirilmeye hazır bir .xlsx dosyası alırsınız."
+        },
+        "team_use": {
+          "q": "Uygulama bir teknik ekip tarafından ortak kullanılabilir mi?",
+          "a": "Evet. Her tekniker taramaları kendi telefonundan yapabilir ve dosyaları doğrudan merkeze gönderebilir."
+        },
+        "free_or_paid": {
+          "q": "İş raporlarını taramak ücretsiz mi?",
+          "a": "Evet, uygulama aylık ücretsiz bir kota sunar. Yoğun saha kullanımı için Pro abonelik seçeneklerimiz mevcuttur."
+        }
+      }
+    }
+  }
+,
+  "AppPage": {
+    "meta_title": "NoteOCR Mobil Uygulaması – El Yazısını Metne veya Excel'e Dönüştür | iOS ve Android",
+    "meta_desc": "iOS ve Android için NoteOCR uygulamasını indirin. El yazısı notları kameranızla tarayın ve anında Word, Excel veya PDF'e dönüştürün.",
+
+    "nav_home": "Ana Sayfa",
+    "nav_features": "Özellikler",
+    "nav_pricing": "Fiyatlandırma",
+    "nav_download_button": "Uygulamayı İndir",
+
+    "hero_pill": "21 Eylül'de iOS ve Android'de kullanıma sunuluyor",
+    "hero_title": "Tara. Dönüştür. Bitti. Artık cebinizde.",
+    "hero_subtitle": "NoteOCR, iOS ve Android için el yazısını metne ve Excel'e dönüştüren bir uygulamadır. Kameranızı herhangi bir el yazısı nota, forma veya beyaz tahtaya doğrultun; NoteOCR'un OCR motoru, siz telefonunuzu cebinize koymadan önce içeriği düzenlenebilir bir Word, Excel veya PDF belgesine dönüştürsün.",
+    "hero_image_alt": "NoteOCR uygulamasında el yazısı bir sayfanın telefonda metne dönüştürüldüğü kamera tarama ekranı",
+
+    "store_apple_top": "Şuradan indirin",
+    "store_apple_bottom": "iOS App Store",
+    "store_google_top": "Şuradan edinin",
+    "store_google_bottom": "Google Play",
+
+    "why_pill": "Neden uygulama?",
+    "why_title": "Masanızdan uzakta olduğunuz anlar için tasarlandı.",
+    "why_subtitle": "Web uygulaması masa başında kullanım için harikadır. NoteOCR mobil uygulaması ise dersliklerden müşteri toplantılarına, depolardan arşivlere kadar her yerde kullanabileceğiniz bir el yazısı tarama uygulamasıdır.",
+
+    "feature_1_title": "Kamerayla anında tarayın",
+    "feature_1_desc": "Kamerayı doğrultun, çekin ve tek hareketle dönüştürün veya doğrudan galerinizden yükleyin",
+    "feature_2_title": "Anında indirin",
+    "feature_2_desc": "Dönüştürülen belgenizi anında indirin ve tüm uygulamalarınız üzerinden paylaşın",
+    "feature_3_title": "Hesabınızla senkronize",
+    "feature_3_desc": "Her tarama NoteOCR kontrol panelinizde anında görünür — aynı hesap, aynı belgeler, istediğiniz cihaz.",
+    "feature_4_title": "Anında bildirimler",
+    "feature_4_desc": "Belgeniz hazır olur olmaz bildirim alın; uygulamada beklemenize gerek kalmasın.",
+
+    "how_title": "Kağıttan belgeye üç dokunuşta.",
+    "how_subtitle": "NoteOCR tarama uygulaması, el yazısı bir sayfayı üç adımda düzenlenebilir bir dosyaya dönüştürür: tarayın, otomatik kırpın ve dışa aktarın.",
+    "how_image_alt": "Otomatik kırpma ve iyileştirme ekranı ile dışa aktarma seçeneklerini gösteren NoteOCR uygulaması",
+    "step_1_title": "Uygulamayı açın ve Tara'ya dokunun",
+    "step_1_desc": "NoteOCR'u açın ve kameranızı herhangi bir sayfaya, beyaz tahtaya veya forma doğrultun.",
+    "step_2_title": "Otomatik kırpın ve iyileştirin",
+    "step_2_desc": "Kenarlar otomatik olarak algılanır ve aydınlatma düzeltilir — manuel kırpma gerekmez.",
+    "step_3_title": "Doğrudan Word, Excel veya PDF'e aktarın",
+    "step_3_desc": "Bir format seçin; belgeniz saniyeler içinde paylaşmaya hazır olsun.",
+
+    "excel_title": "El yazısından Excel'e: tabloları anında elektronik tablolara dönüştürün.",
+    "excel_desc": "NoteOCR'un el yazısından Excel'e dönüştürme özelliği, el yazısıyla hazırlanmış kayıtları, tabloları veya listeleri fotoğraflar; satır ve sütunları otomatik olarak algılar ve formüller ile sıralama işlemlerine hazır, temiz ve düzenli .xlsx dosyaları olarak dışa aktarır.",
+    "excel_before_label": "Önce",
+    "excel_before_alt": "NoteOCR ile dönüştürülmeden önce el yazısıyla hazırlanmış veri tablosu",
+    "excel_after_label": "Sonra",
+    "excel_after_alt": "NoteOCR ile el yazısından Excel'e dönüştürüldükten sonra yapılandırılmış Excel elektronik tablosu",
+
+    "text_title": "El yazısından metne: el yazısı, blok harfler veya dağınık yazılar, doğru şekilde dönüştürülür.",
+    "text_desc": "NoteOCR, el yazısını %95–98 doğruluk oranıyla metne dönüştürür. OCR modeli; blok harfler ve el yazısı dahil olmak üzere farklı yazı stilleriyle, eğik veya karışık el yazıları da dahil, eğitilmiştir.",
+    "text_image_alt": "NoteOCR tarafından temiz ve daktilo edilmiş metne dönüştürülen el yazısı not",
+
+    "gallery_title": "NoteOCR'u iş başında görün",
+    "screenshot_1_alt": "El yazısı bir sayfayı yakalayan NoteOCR uygulaması kamera tarama ekranı",
+    "screenshot_2_alt": "Otomatik kırpma ve iyileştirme önizlemesini gösteren NoteOCR uygulaması ekranı",
+    "screenshot_3_alt": "Word, Excel ve PDF için dışa aktarma seçeneklerini gösteren NoteOCR uygulaması",
+    "screenshot_4_alt": "Senkronize edilmiş taranmış belgeleri gösteren NoteOCR uygulaması kontrol paneli",
+    "screenshot_5_alt": "NoteOCR uygulamasında el yazısı tablonun Excel'e dönüştürülmesi sonucu",
+
+    "faq_title": "Sık sorulan sorular",
+
+    "cta_title": "El yazısını saniyeler içinde dönüştürmeye başlayın.",
+    "cta_subtitle": "21 Eylül'de iOS ve Android'de kullanıma sunuluyor. Ücretsiz indirin.",
+
+    "modal_pill": "{store} için çok yakında",
+    "modal_title": "NoteOCR 21 Eylül'de kullanıma sunuluyor",
+    "modal_desc": "Uygulamanın son hazırlıklarını tamamlıyoruz. Lansman gününde tekrar ziyaret edin veya e-posta adresinizi bırakın; uygulama kullanıma sunulduğu anda sizi bilgilendirelim.",
+    "modal_days": "gün",
+    "modal_hrs": "sa",
+    "modal_min": "dk",
+    "modal_sec": "sn",
+    "modal_email_placeholder": "siz@email.com",
+    "modal_email_aria": "E-posta adresi",
+    "modal_notify_button": "Beni bilgilendir",
+    "modal_store_fallback": "uygulama mağazaları",
+
+    "footer_copyright": "© {year} NoteOCR. Tüm hakları saklıdır.",
+    "footer_privacy": "Gizlilik",
+    "footer_terms": "Koşullar",
+    "footer_contact": "İletişim",
+
+    "FAQ": {
+      "items": {
+        "notes_to_word_phone": {
+          "q": "El yazısı notları telefondan Word'e dönüştürebilir miyim?",
+          "a": "Evet. NoteOCR uygulamasını açın, el yazısı sayfanızın fotoğrafını çekin ve doğrudan düzenlenebilir bir .docx dosyasına dönüştürün. Bilgisayar başında olmanıza veya web sitesi üzerinden yükleme yapmanıza gerek yoktur."
+        },
+        "table_to_excel_camera": {
+          "q": "Kamerayı kullanarak el yazısı bir tabloyu Excel dosyasına nasıl dönüştürebilirim?",
+          "a": "NoteOCR uygulamasının kamerasını tabloya doğrultup fotoğrafını çekin. noteocr.com'a güç veren aynı motor, satır ve sütunları algılar ve telefonunuzdan indirilmeye veya düzenlenmeye hazır, biçimlendirilmiş bir .xlsx elektronik tablosu oluşturur."
+        },
+        "old_letters_journals": {
+          "q": "Uygulama eski el yazısı mektupları veya günlükleri dijitalleştirebilir mi?",
+          "a": "Evet. Sayfanın fotoğrafını NoteOCR uygulamasında çekin; metin düzenlenebilir bir Word belgesine dönüştürülür. Böylece eski mektupları, günlükleri veya arşivleri bulundukları yerden, her seferinde bir sayfa olacak şekilde kolayca dijitalleştirebilirsiniz."
+        },
+        "logs_on_the_go": {
+          "q": "Hareket halindeyken el yazısı bir kayıt veya listeyi tarayıp elektronik tabloya dönüştürebilir miyim?",
+          "a": "Evet. NoteOCR uygulamasında telefonunuzun kamerasıyla sayfanın fotoğrafını çekin; sayfa otomatik olarak yapılandırılmış bir Excel dosyasına dönüştürülür. Böylece saha notları, kayıtlar ve listeler masa başına dönmenizi beklemek zorunda kalmaz."
+        },
+        "ios_android_app": {
+          "q": "iPhone ve Android için NoteOCR uygulaması var mı?",
+          "a": "Evet. NoteOCR uygulaması hem iOS hem de Android için kullanılabilir. Böylece el yazısı notları yalnızca web sitesi üzerinden değil, doğrudan telefonunuzdan da tarayıp dönüştürebilirsiniz."
+        },
+        "push_notifications": {
+          "q": "Tarama işlemim hazır olduğunda uygulama bana bildirim gönderir mi?",
+          "a": "Evet. NoteOCR uygulaması, taramanın dönüştürülmesi tamamlandığı anda anlık bildirim gönderir. Böylece uygulamanın içinde beklemeniz gerekmez."
+        },
+        "plan_sync": {
+          "q": "NoteOCR planım ve sayfa limitlerim uygulamaya da aktarılır mı?",
+          "a": "Evet. Uygulama noteocr.com ile aynı ücretsiz ve ücretli planları kullanır. Bu nedenle aylık sayfa hakkınız ve Pro veya Business özellikleriniz, ister telefonunuzdan tarayın ister masaüstünüzden yükleyin, geçerliliğini korur."
+        },
+        "free_download": {
+          "q": "NoteOCR uygulamasını ücretsiz indirebilir miyim?",
+          "a": "Evet, NoteOCR uygulamasını ücretsiz indirebilirsiniz. Ücretsiz planla el yazısı notları hemen dönüştürmeye başlayabilir, daha yüksek bir aylık sayfa limitine ihtiyacınız varsa uygulama içinden planınızı yükseltebilirsiniz."
+        }
+      }
+    }
+  },
+
   "HomePage": {
     "trust_pill": "V2.0 El Yazısı OCR: %99.2 Doğruluk",
     "hero_title_1": "El Yazısını Metne ve Düzenlenebilir",

@@ -68,7 +68,6 @@ export default async function PdfToolsPage({ params }) {
   const t = await getTranslations({ locale, namespace: "PdfPage" });
   const localePath = locale === "en" ? "" : `/${locale}`;
 
-  
   const relatedTools = [
     {
       name: t("related_tool_1_name"),

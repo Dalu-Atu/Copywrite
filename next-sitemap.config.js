@@ -1,65 +1,78 @@
 /** @type {import('next-sitemap').IConfig} */
+
+// Use-case slugs from your app-usecases-config
+const usecaseSlugs = [
+  "class-notes-scanner",
+  "letter-scanner",
+  "inventory-count-scanner",
+  "receipt-to-excel-scanner",
+  "log-sheet-scanner",
+];
+
+const usecasePages = usecaseSlugs.map((slug) => `/app/${slug}`);
+
+const basePages = [
+  "",
+  "/about",
+  "/app",
+  ...usecasePages,
+  "/blog",
+  "/careers",
+  "/contact",
+  "/cursive-to-text",
+  "/docs",
+  "/edit-pdf",
+  "/handwriting-recognition",
+  "/handwriting-to-docx",
+  "/handwriting-to-excel",
+  "/handwritten-inventory-to-excel",
+  "/handwritten-invoice-to-excel",
+  "/handwritten-timesheet-to-excel",
+  "/jpg-to-word",
+  "/online-editor",
+  "/photo-to-word",
+  "/pic-to-excel",
+  "/pricing",
+  "/privacy",
+  "/scan-handwriting-to-text",
+  "/scan-to-word",
+  "/solutions",
+  "/terms",
+];
+
+const locales = [
+  "tr",
+  "es",
+  "zh",
+  "hi",
+  "fr",
+  "de",
+  "ja",
+  "pt-br",
+  "da",
+  "fi",
+  "it",
+  "nl",
+  "no",
+  "sv",
+]; // English lives at root
+
 const config = {
   siteUrl: "https://noteocr.com",
   generateRobotsTxt: true,
   exclude: [
     "/icon.ico",
-    "/icon.png", // 👈 add this
-    "/favicon.png", // 👈 add this
+    "/icon.png",
+    "/favicon.png",
     "/apple-icon.png",
-    "/logo.png", // 👈 add this
-    "/logo-white.png", // 👈 add this
+    "/logo.png",
+    "/logo-white.png",
   ],
   changefreq: "daily",
   priority: 0.7,
   outDir: "public",
 
   additionalPaths: async (config) => {
-    const locales = [
-      "tr",
-      "es",
-      "zh",
-      "hi",
-      "fr",
-      "de",
-      "ja",
-      "pt-br",
-      "da",
-      "fi",
-      "it",
-      "nl",
-      "no",
-      "sv",
-    ]; // 👈 English removed — it lives at root
-
-    const basePages = [
-      "",
-      "/about",
-      "/blog",
-      "/careers",
-      "/contact",
-      "/cursive-to-text",
-      "/docs",
-      "/edit-pdf",
-      "/handwriting-recognition",
-      "/handwriting-to-docx",
-      "/handwriting-to-excel",
-      "/handwritten-inventory-to-excel",
-      "/handwritten-invoice-to-excel",
-      "/handwritten-timesheet-to-excel",
-      "/jpg-to-word",
-      "/online-editor",
-      "/photo-to-word",
-      "/pic-to-excel",
-      "/pricing",
-      "/privacy",
-      "/scan-handwriting-to-text",
-      "/scan-to-word",
-      "/solutions",
-      ,
-      "/terms",
-    ];
-
     const result = [];
 
     // English pages at root (no locale prefix)
@@ -72,7 +85,7 @@ const config = {
       });
     });
 
-    // All other languages with prefix
+    // All other languages with locale prefix
     locales.forEach((locale) => {
       basePages.forEach((path) => {
         result.push({
@@ -88,24 +101,7 @@ const config = {
   },
 
   transform: async (config, path) => {
-    const locales = [
-      "tr",
-      "es",
-      "zh",
-      "hi",
-      "de",
-      "fr",
-      "ja",
-      "pt-br",
-      "da",
-      "fi",
-      "it",
-      "nl",
-      "no",
-      "sv",
-    ]; // 👈 English removed here too
-
-    // Strip any locale prefix to get the base path
+    // Strip locale prefix to resolve base canonical path
     const cleanPath = path.replace(
       /^\/(tr|es|zh|hi|de|fr|fi|it|nl|no|sv|da|ja|pt-br)(\/|$)/,
       "/",
@@ -121,11 +117,11 @@ const config = {
       alternateRefs: [
         {
           href: `${config.siteUrl}${normalizedPath || "/"}`,
-          hreflang: "x-default", // 👈 points to root, not /en/
+          hreflang: "x-default",
         },
         {
           href: `${config.siteUrl}${normalizedPath || "/"}`,
-          hreflang: "en", // 👈 English also points to root
+          hreflang: "en",
         },
         ...locales.map((locale) => ({
           href: `${config.siteUrl}/${locale}${normalizedPath}`,

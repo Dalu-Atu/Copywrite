@@ -1,4 +1,704 @@
 {
+  "ClassNotesScannerPage": {
+    "meta_title": "College-aantekeningen Scanner – Handgeschreven naar Word | NoteOCR",
+    "meta_desc": "Scan je handgeschreven college-aantekeningen met je telefoon en converteer ze binnen enkele seconden naar bewerkbare, doorzoekbare Word-documenten.",
+    "nav_label": "College-aantekeningen Scanner",
+    "hero_pill": "Voor Studenten",
+    "hero_title": "Zet je handgeschreven aantekeningen om in doorzoekbare Word-bestanden.",
+    "hero_subtitle": "Maak met de NoteOCR-app een foto van je schrift of losse bladen en ontvang heldere, bewerkbare tekst om slimmer te studeren, te zoeken of je samenvatting te maken.",
+    "hero_image_alt": "Handgeschreven college-aantekeningen van een student gescand en geconverteerd met de NoteOCR-app",
+
+    "trust_1": "SSL Beveiligd",
+    "trust_2": "Klaar in minder dan 2 min",
+    "trust_3": "95–98% OCR-nauwkeurigheid",
+
+    "pain_eyebrow": "Slimmer studeren",
+    "pain_title": "Maak van je handgeschreven aantekeningen direct bruikbare digitale tekst.",
+    "pain_desc": "Tijdens een college snel aantekeningen maken met de hand werkt het beste. Maar als je later wilt zoeken op trefwoorden, stukken wilt aanpassen of je samenvatting wilt delen, vormt papier een belemmering. NoteOCR zet je handschrift om in duidelijke, bewerkbare tekst zonder dat je alles opnieuw hoeft uit te typen.",
+    "before_after_eyebrow": "Bekijk hoe het werkt",
+    "before_after_title": "Ervaar het verschil",
+    "before_after_desc": "Een echte schriftpagina omgezet in een perfect bewerkbaar Word-document.",
+    "before_label": "Voor: Schriftpagina",
+    "before_alt": "Pagina met handgeschreven college-aantekeningen voor conversie",
+    "after_label": "Na: Word-document",
+    "after_alt": "Dezelfde aantekeningen geconverteerd naar een doorzoekbaar Word-document",
+
+    "how_eyebrow": "Hoe het werkt",
+    "how_title": "Van je collegeblok naar een digitale samenvatting in drie stappen.",
+    "how_subtitle": "Scan direct na het college, wanneer de stof nog vers in je geheugen zit.",
+    "step_1_title": "Open de app en tik op Scannen",
+    "step_1_desc": "Maak direct na het college of tijdens een pauze een foto van je aantekeningen.",
+    "step_2_title": "Automatisch bijsnijden en optimaliseren",
+    "step_2_desc": "Werkt ook nauwkeurig bij gekreukeld papier of minder goede belichting.",
+    "step_3_title": "Exporteer naar Word en begin met studeren",
+    "step_3_desc": "Plak de tekst in je samenvatting of sla het op als een doorzoekbaar document.",
+
+    "who_title": "Wie gebruikt NoteOCR voor het scannen van aantekeningen?",
+    "who_subtitle": "Alle studenten die graag met de hand schrijven, maar de voordelen van digitaal studeren willen benutten.",
+    "audience_1_title": "MBO, HBO en universitaire studenten",
+    "audience_1_desc": "Digitaliseer je aantekeningen per vak om gemakkelijk door de stof te zoeken voor je tentamens.",
+    "audience_2_title": "Middelbare scholieren",
+    "audience_2_desc": "Zet je geschreven schriften om in tekst om te gebruiken in werkstukken of te delen met klasgenoten.",
+    "audience_3_title": "Studiegroepen",
+    "audience_3_desc": "Voeg handgeschreven aantekeningen van verschillende groepsleden samen in één gedeeld Word-bestand.",
+    "audience_4_title": "Toegankelijkheid & Voorleessoftware",
+    "audience_4_desc": "Zet een moeilijk leesbaar handschrift om in digitale tekst die eenvoudig vergroot of voorgelezen kan worden.",
+
+    "comparison_title": "Handmatig uittypen vs. NoteOCR",
+    "comparison_subtitle": "Waarom scannen zoveel sneller is dan alles zelf typen",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Tijd",
+    "comparison_col_accuracy": "Nauwkeurigheid",
+    "comparison_col_cost": "Kosten",
+    "row1_method": "Aantekeningen handmatig uittypen",
+    "row1_time": "20–30 min",
+    "row1_accuracy": "100%, maar kost heel veel tijd",
+    "row1_cost": "Gratis (kost wel kostbare studietijd)",
+    "row2_method": "Standaard OCR-app",
+    "row2_time": "5 min",
+    "row2_accuracy": "~65% bij handschrift",
+    "row2_cost": "Gratis – €10",
+    "row3_method": "NoteOCR",
+    "row3_time": "Minder dan 2 min",
+    "row3_accuracy": "95–98%",
+    "row3_cost": "Gratis te proberen",
+
+    "proof_title": "Gebouwd op dezelfde technologie die door meer dan 10.000 gebruikers wordt vertrouwd.",
+    "proof_desc": "De handschriftherkenning van NoteOCR digitaliseert maandelijks al aantekeningen voor meer dan 10.000 mensen op noteocr.com. De app brengt dezelfde precisie naar je smartphone.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Geconverteerde pagina's per maand via web en mobiel",
+    "proof_quote": "Ik scan mijn aantekeningen direct na elk college. Nog voordat ik thuis ben, heb ik alle stof doorzoekbaar op mijn telefoon staan.",
+    "proof_quote_name": "Sanne v.D.",
+    "proof_quote_role": "WO-student",
+
+    "faq_title": "Veelgestelde vragen over het scannen van aantekeningen",
+
+    "related_title": "Andere manieren om NoteOCR te gebruiken",
+    "cta_title": "Stop met het handmatig uittypen van je aantekeningen.",
+    "cta_subtitle": "Scan ze direct naar Word na je college. Vanaf 21 september beschikbaar op iOS en Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Hoe converteer ik mijn college-aantekeningen met de app?",
+          "a": "Open NoteOCR, tik op 'Scannen' en maak een foto van je schrift. De app zet je handschrift binnen 2 minuten om in een bewerkbaar Word-document."
+        },
+        "messy_handwriting": {
+          "q": "Werkt het ook bij een snel of slordig handschrift?",
+          "a": "Ja, in de meeste gevallen wel. NoteOCR is getraind op een breed scala aan handschriften en snelle notities. Bij zeer moeilijk leesbare tekst is hooguit een korte correctie nodig."
+        },
+        "lecture_slides_mixed_notes": {
+          "q": "Kan de app omgaan met aantekeningen die ook schetsen of tekeningen bevatten?",
+          "a": "NoteOCR richt zich op het omzetten van de tekst op de pagina. Tekeningen worden niet omgezet in vectoren, maar de omringende tekst wordt nauwkeurig herkend."
+        },
+        "study_from_converted_notes": {
+          "q": "Kan ik na de conversie zoeken op woorden of tekst markeren?",
+          "a": "Absoluut. Zodra het Word-document is gegenereerd, is de tekst volledig doorzoekbaar, te bewerken en aan te passen voor je studie."
+        },
+        "free_for_students": {
+          "q": "Is de app gratis voor studenten?",
+          "a": "Ja. De app bevat een maandelijks gratis tegoed aan pagina's, wat ruim voldoende is voor de meeste studenten."
+        },
+        "multiple_languages": {
+          "q": "Ondersteunt de app ook andere talen zoals Engels of Duits?",
+          "a": "Ja, NoteOCR ondersteunt handschriftherkenning in tientallen talen, waaronder Nederlands, Engels, Duits en Frans."
+        },
+        "sync_across_devices": {
+          "q": "Kan ik mijn gescande aantekeningen ook op mijn laptop bekijken?",
+          "a": "Ja. Log simpelweg in met je NoteOCR-account om je geconverteerde documenten automatisch te synchroniseren met noteocr.com."
+        },
+        "accuracy": {
+          "q": "Hoe nauwkeurig is de conversie van handgeschreven tekst?",
+          "a": "Bij een goed leesbaar handschrift behalen we een nauwkeurigheid van 95–98%. We raden aan om vakjargon of ingewikkelde formules even kort te controleren."
+        }
+      }
+    }
+  },
+  "LetterScannerPage": {
+    "meta_title": "Oude Brieven Scanner – Handgeschreven naar Word | NoteOCR",
+    "meta_desc": "Scan oude brieven, dagboeken en ansichtkaarten met je telefoon en zet ze om naar bewerkbare Word-documenten om ze voor altijd te bewaren.",
+    "nav_label": "Brieven Scanner",
+    "hero_pill": "Voor Familiegeschiedenis & Archieven",
+    "hero_title": "Zet handgeschreven brieven om in digitale documenten om te bewaren en te delen.",
+    "hero_subtitle": "Fotografeer oude brieven of dagboekpagina's met NoteOCR om ze om te zetten in bewerkbare tekst of Word-bestanden, zonder ze over te hoeven typen.",
+    "hero_image_alt": "Oude handgeschreven brief gescand en geconverteerd met de NoteOCR-app",
+
+    "trust_1": "SSL Beveiligd",
+    "trust_2": "Klaar in minder dan 2 min",
+    "trust_3": "95–98% OCR-nauwkeurigheid",
+
+    "pain_eyebrow": "Bewaar wat waardevol is",
+    "pain_title": "Laat je familieherinneringen niet verloren gaan op vergaand papier.",
+    "pain_desc": "Historische brieven en persoonlijke dagboeken bevatten onbetaalbare herinneringen, maar papier vergeelt en vervaagt met de tijd. NoteOCR zet handgeschreven documenten om in duidelijke digitale tekst om je familiegeschiedenis veilig te stellen voor toekomstige generaties.",
+    "before_after_eyebrow": "Bekijk hoe het werkt",
+    "before_after_title": "Ervaar het verschil",
+    "before_after_desc": "Een authentieke oude brief omgezet in een bewerkbaar Word-document.",
+    "before_label": "Voor: Handgeschreven historische brief",
+    "before_alt": "Oude handgeschreven brief voor conversie",
+    "after_label": "Na: Word-document",
+    "after_alt": "Dezelfde brief geconverteerd naar een doorzoekbaar Word-document",
+
+    "how_eyebrow": "Hoe het werkt",
+    "how_title": "Van de zolder naar een digitaal archief in drie stappen.",
+    "how_subtitle": "Geen dure flatbedscanner nodig: de camera van je telefoon is meer dan genoeg.",
+    "step_1_title": "Open de app en tik op Scannen",
+    "step_1_desc": "Leg de brief op een vlakke ondergrond met voldoende licht en maak een foto.",
+    "step_2_title": "Automatisch bijsnijden en optimaliseren",
+    "step_2_desc": "Werkt ook uitstekend bij vergeeld papier, vlekken of licht vervaagde inkt.",
+    "step_3_title": "Exporteer naar Word en bewaar voor altijd",
+    "step_3_desc": "Sla de digitale tekst op naast de originele foto voor een compleet historisch archief.",
+
+    "who_title": "Wie gebruikt NoteOCR voor het digitaliseren van brieven?",
+    "who_subtitle": "Iedereen die dierbare herinneringen en historische geschriften wil bewaren.",
+    "audience_1_title": "Familiehistorici en stamboomonderzoekers",
+    "audience_1_desc": "Zet de brieven van je grootouders om in een digitaal formaat dat gemakkelijk te lezen en te delen is met de hele familie.",
+    "audience_2_title": "Genealogen",
+    "audience_2_desc": "Digitaliseer oude correspondentie en dagboeken om stambomen en verhalen te verrijken.",
+    "audience_3_title": "Historici en verzamelaars",
+    "audience_3_desc": "Transcribeer historische documenten en lokale archieven naar doorzoekbare digitale tekst.",
+    "audience_4_title": "Archivarissen en curatoren",
+    "audience_4_desc": "Maak een snelle digitale werkkopie van handschriften voordat ze worden opgeborgen in het archief.",
+
+    "comparison_title": "Handmatig overtypen vs. NoteOCR",
+    "comparison_subtitle": "Waarom scannen van oude brieven veel efficiënter is dan handmatige transcriptie",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Tijd",
+    "comparison_col_accuracy": "Nauwkeurigheid",
+    "comparison_col_cost": "Kosten",
+    "row1_method": "Brief handmatig overtypen",
+    "row1_time": "30–45 min",
+    "row1_accuracy": "100%, maar zeer intensief",
+    "row1_cost": "Gratis (kost uren werk)",
+    "row2_method": "Standaard OCR-app",
+    "row2_time": "5–8 min",
+    "row2_accuracy": "~60% bij oud schuinschrift",
+    "row2_cost": "Gratis – €12",
+    "row3_method": "NoteOCR",
+    "row3_time": "Minder dan 2 min",
+    "row3_accuracy": "95–98%",
+    "row3_cost": "Gratis te proberen",
+
+    "proof_title": "Gebouwd op dezelfde technologie die door meer dan 10.000 mensen wordt gebruikt.",
+    "proof_desc": "De gespecialiseerde technologie van NoteOCR digitaliseert historische handschriften en sierlijke schrijfstijlen voor ruim 10.000 gebruikers op noteocr.com.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Pagina's aan historische brieven gedigitaliseerd en veiliggesteld",
+    "proof_quote": "Ik heb de complete verzameling brieven van mijn oma in één middag gedigitaliseerd. Nu kan de hele familie ze eindelijk gemakkelijk lezen.",
+    "proof_quote_name": "Mark R.",
+    "proof_quote_role": "Stamboomonderzoeker",
+
+    "faq_title": "Veelgestelde vragen over het scannen van oude brieven",
+
+    "related_title": "Andere manieren om NoteOCR te gebruiken",
+    "cta_title": "Laat de tijd je dierbare brieven niet uitwissen.",
+    "cta_subtitle": "Sla ze op in Word voordat het papier verder achteruitgaat. Vanaf 21 september op iOS en Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Hoe scan ik een oude brief met de app?",
+          "a": "Open NoteOCR, kies 'Scannen' en fotografeer de brief bij goed licht. De app zet het handschrift binnen 2 minuten om in een bewerkbaar Word-bestand."
+        },
+        "old_faded_letters": {
+          "q": "Werkt het ook bij erg oude brieven of vervaagde inkt?",
+          "a": "Het beeldverwerkingssysteem van NoteOCR verhoogt het contrast om vervaagde inkt beter leesbaar te maken. Bij extreem beschadigde pagina's is hooguit een korte controle nodig."
+        },
+        "cursive_and_old_scripts": {
+          "q": "Kan de app ook oud schoon- of schuinschrift ontcijferen?",
+          "a": "Ja, NoteOCR is specifiek getraind op het herkennen van klassiek schuinschrift en traditionele schrijfstijlen."
+        },
+        "preserve_originals": {
+          "q": "Kan het scannen het originele document beschadigen?",
+          "a": "Absoluut niet. NoteOCR maakt alleen een digitale foto, waardoor het originele papier volledig onaangetast blijft."
+        },
+        "batch_of_letters": {
+          "q": "Kan ik een brief die uit meerdere pagina's bestaat achter elkaar scannen?",
+          "a": "Ja, je kunt brieven pagina voor pagina vastleggen in de app en ze samenvoegen tot één digitaal document."
+        },
+        "family_archive_use": {
+          "q": "Is dit geschikt voor het maken van een digitaal familie-archief?",
+          "a": "Zeker. Veel van onze gebruikers gebruiken NoteOCR om dagboeken, briefwisselingen en historische familiestukken digitaal te bewaren."
+        },
+        "accuracy": {
+          "q": "Wat is de nauwkeurigheid bij handgeschreven brieven?",
+          "a": "Bij goed bewaarde brieven behalen we een nauwkeurigheid van 95–98%. We adviseren om namen en datums even kort na te lopen."
+        },
+        "privacy_of_personal_letters": {
+          "q": "Blijven mijn persoonlijke brieven privé en veilig?",
+          "a": "Ja. Alle uploads worden beveiligd met encryptie en NoteOCR zal jouw persoonlijke documenten nooit delen of inzien."
+        }
+      }
+    }
+  },
+  "InventoryCountScannerPage": {
+    "meta_title": "Inventarisatielijsten Scanner naar Excel | NoteOCR",
+    "meta_desc": "Scan handgeschreven voorraadlijsten en tellingen met je telefoon en ontvang direct overzichtelijke Excel-tabellen. Voorkom handmatige invoer in het magazijn.",
+    "nav_label": "Inventaris Scanner",
+    "hero_pill": "Voor Magazijn & Logistiek",
+    "hero_title": "Zet je voorraadtelling om naar Excel nog voordat je het magazijn verlaat.",
+    "hero_subtitle": "Fotografeer je inventarisatielijsten met de NoteOCR-app en ontvang een .xlsx-bestand met strak georganiseerde rijen en kolommen.",
+    "hero_image_alt": "Handgeschreven inventarisatielijst in een magazijn gescand met de NoteOCR-app",
+
+    "trust_1": "SSL Beveiligd",
+    "trust_2": "Klaar in minder dan 2 min",
+    "trust_3": "98% Nauwkeurigheid op getallen",
+
+    "pain_eyebrow": "Voor magazijn- en voorraadbeheer",
+    "pain_title": "Geen handmatige overname van tellingen op de computer meer.",
+    "pain_desc": "Tijd doorbrengen achter het bureau om opgeschreven getallen van telbladen over te typen is zonde van de tijd. NoteOCR zet je handgeschreven inventarisatielijsten direct om in Excel-sheets, waardoor typefouten en vertragingen verleden tijd zijn.",
+    "before_after_eyebrow": "Bekijk hoe het werkt",
+    "before_after_title": "Ervaar het verschil",
+    "before_after_desc": "Een handgeschreven telblad omgezet in een georganiseerde Excel-tabel.",
+    "before_label": "Voor: Handgeschreven inventarisblad",
+    "before_alt": "Voorraadtellijst voor conversie",
+    "after_label": "Na: Excel-spreadsheet",
+    "after_alt": "Dezelfde inventarisgegevens gestructureerd in een Excel-tabel",
+
+    "how_eyebrow": "Hoe het werkt",
+    "how_title": "Van klembord naar spreadsheet in drie eenvoudige stappen.",
+    "how_subtitle": "Wacht niet tot je achter je bureau zit: converteer gegevens direct op de werkvloer.",
+    "step_1_title": "Open de app en tik op Scannen",
+    "step_1_desc": "Maak een foto van de tellijst zodra de telling van een vak of stelling is afgerond.",
+    "step_2_title": "Automatische herkenning van rijen en kolommen",
+    "step_2_desc": "Werkt uitstekend op eigen formulieren, ook als er geen strakke rasterlijnen zijn gedrukt.",
+    "step_3_title": "Exporteer naar Excel en verstuur",
+    "step_3_desc": "Download het .xlsx-bestand en deel het direct met inkoop of de administratie.",
+
+    "who_title": "Wie gebruikt NoteOCR voor het scannen van inventarisatielijsten?",
+    "who_subtitle": "Alle professionals die voorraden op papier noteren voordat ze het systeem bijwerken.",
+    "audience_1_title": "Magazijn- en logistiek managers",
+    "audience_1_desc": "Zet tellingen vanuit het gangpad direct om naar Excel, zonder op en neer te lopen naar kantoor.",
+    "audience_2_title": "Winkeliers en detailhandelaren",
+    "audience_2_desc": "Digitaliseer bestellijsten en voorraadopnames meteen om bestellingen snel naar leveranciers te sturen.",
+    "audience_3_title": "Horeca- en keukenmanagers",
+    "audience_3_desc": "Zet voorraadkaarten van ingrediënten en dranken om in duidelijke overzichten voor kostencontrole.",
+    "audience_4_title": "Auditors en voorraadinspecteurs",
+    "audience_4_desc": "Leg controle-intervallen vast op locatie en exporteer de rapportage nog dezelfde dag.",
+
+    "comparison_title": "Handmatige invoer vs. NoteOCR",
+    "comparison_subtitle": "Waarom het scannen van voorraadlijsten drastisch efficiënter is",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Tijd",
+    "comparison_col_accuracy": "Nauwkeurigheid",
+    "comparison_col_cost": "Kosten",
+    "row1_method": "Gegevens handmatig invoeren op PC",
+    "row1_time": "30–40 min",
+    "row1_accuracy": "95%, risico op typefouten",
+    "row1_cost": "Uurloon van personeel",
+    "row2_method": "Standaard OCR-app",
+    "row2_time": "8 min",
+    "row2_accuracy": "~55%, verliest tabelstructuur",
+    "row2_cost": "Gratis – €15",
+    "row3_method": "NoteOCR",
+    "row3_time": "Minder dan 2 min",
+    "row3_accuracy": "98% op getallen",
+    "row3_cost": "Gratis te proberen",
+
+    "proof_title": "Gebouwd op dezelfde technologie die door meer dan 10.000 mensen wordt gebruikt.",
+    "proof_desc": "De tabelherkenning van NoteOCR verwerkt maandelijks inventarissen en zakelijke gegevens voor ruim 10.000 gebruikers op noteocr.com.",
+    "proof_stat_number": "98%",
+    "proof_stat_label": "Gemiddelde nauwkeurigheid op handgeschreven cijfers en aantallen",
+    "proof_quote": "Vroeger waren we aan het einde van de dag nog 20 minuten bezig met het overtypen van tellijsten. Nu sluiten we het rapport af voordat we het licht uitdoen.",
+    "proof_quote_name": "Arjan T.",
+    "proof_quote_role": "Magazijnchef",
+
+    "faq_title": "Veelgestelde vragen over het scannen van inventarisatielijsten",
+
+    "related_title": "Andere manieren om NoteOCR te gebruiken",
+    "cta_title": "Stop met het handmatig overtypen van voorraadaantallen.",
+    "cta_subtitle": "Scan ze direct naar Excel. Vanaf 21 september beschikbaar op iOS en Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Hoe converteer ik een inventarisatielijst met de app?",
+          "a": "Open NoteOCR, kies 'Scannen' en maak een foto van de tellijst. De app herkent automatisch de rijen en kolommen en maakt binnen 2 minuten een Excel-bestand."
+        },
+        "no_drawn_lines": {
+          "q": "Werkt het ook op blanco papier zonder gedrukte lijnen?",
+          "a": "Ja. NoteOCR analyseert de uitlijning van de tekst en getallen om de tabelstructuur correct te reconstrueren, zelfs zonder getekende lijnen."
+        },
+        "numeric_accuracy": {
+          "q": "Hoe nauwkeurig is de herkenning van cijfers en getallen?",
+          "a": "De nauwkeurigheid op numerieke gegevens is ongeveer 98%. We raden aan om de totalen even kort te controleren voor verwerking."
+        },
+        "multiple_sheets_per_day": {
+          "q": "Kan ik meerdere inventarisbladen op één dag scannen?",
+          "a": "Ja, je kunt zoveel tellijsten scannen als je wilt. Elk blad wordt geconverteerd naar een kant-en-klare tabel."
+        },
+        "export_format": {
+          "q": "Welk bestandsformaat ontvang ik?",
+          "a": "Je ontvangt een .xlsx-bestand dat direct te openen is in Microsoft Excel, Google Sheets en de meeste ERP- systemen."
+        },
+        "team_use": {
+          "q": "Kan de app door meerdere medewerkers tegelijk worden gebruikt?",
+          "a": "Ja. Elk teamlid kan de app op zijn eigen telefoon gebruiken om tellingen te scannen en de Excel-bestanden vervolgens samen te voegen."
+        },
+        "offline_warehouse_use": {
+          "q": "Werkt de app ook in magazijnen zonder goed bereik?",
+          "a": "Je kunt de foto's ook offline maken. De app verwerkt de documenten zodra het apparaat weer verbinding heeft met internet."
+        },
+        "free_or_paid": {
+          "q": "Is het scannen van inventarisatielijsten gratis?",
+          "a": "Ja, de app bevat een maandelijks tegoed aan gratis scans. Voor zakelijke gebruikers met grote aantallen zijn er Pro-abonnementen."
+        }
+      }
+    }
+  },
+  "ReceiptToExcelScannerPage": {
+    "meta_title": "Bonnetjes Scanner naar Excel – Zet Kassa- & Tankbonnen om | NoteOCR",
+    "meta_desc": "Scan bonnetjes en kassabonnen met je telefoon en zet ze om naar overzichtelijke Excel-sheets voor je declaraties, boekhouding en belastingaangifte.",
+    "nav_label": "Bonnetjes Scanner naar Excel",
+    "hero_pill": "Voor ZZP'ers & MKB",
+    "hero_title": "Zet een stapel losse bonnetjes om in een strak georganiseerd Excel-overzicht.",
+    "hero_subtitle": "Fotografeer elk bonnetje met NoteOCR en haal automatisch datum, bedragen en leverancier op in een Excel-tabel die klaar is voor de boekhouding.",
+    "hero_image_alt": "Kassabon gescand met NoteOCR en geconverteerd naar een Excel-tabel",
+
+    "trust_1": "SSL Beveiligd",
+    "trust_2": "Klaar in minder dan 2 min",
+    "trust_3": "98% Nauwkeurigheid op getallen",
+
+    "pain_eyebrow": "Van papier naar spreadsheet",
+
+    "pain_title": "Bonnetjes stapelen zich snel op. Verspil geen tijd aan handmatige invoer.",
+
+    "pain_desc": "Kassabonnen bevatten essentiële informatie voor de belastingaangifte en administratie, maar elk bedrag handmatig overtypen in Excel kost veel tijd. NoteOCR zet papieren bonnetjes automatisch om in gestructureerde gegevens.",
+    "before_after_eyebrow": "Bekijk hoe het werkt",
+    "before_after_title": "Ervaar het verschil",
+    "before_after_desc": "Een papieren kassabon omgezet in een overzichtelijke regel in Excel.",
+    "before_label": "Voor: Papieren kassabon",
+    "before_alt": "Papieren bonnetje voor conversie",
+    "after_label": "Na: Excel-regel",
+    "after_alt": "De gegevens van het bonnetje gestructureerd in een Excel-regel",
+
+    "how_eyebrow": "Hoe het werkt",
+    "how_title": "Van bonnetje naar declaratieoverzicht in drie stappen.",
+    "how_subtitle": "Scan de bon direct na aankoop, voordat de thermische afdruk overstroomt of vervaagt.",
+    "step_1_title": "Open de app en tik op Scannen",
+    "step_1_desc": "Maak meteen na je aankoop of tankbeurt een scherpe foto van de bon.",
+    "step_2_title": "Automatische herkenning van bedrag en datum",
+    "step_2_desc": "De app herkent automatisch het totaalbedrag, de datum en de winkelnaam.",
+    "step_3_title": "Exporteer naar Excel en verwerk je uitgaven",
+    "step_3_desc": "Download het .xlsx-bestand, voeg het toe aan je administratie of stuur het door naar je boekhouder.",
+
+    "who_title": "Wie gebruikt NoteOCR voor het scannen van bonnetjes?",
+    "who_subtitle": "Alle ondernemers en werknemers die zakelijke uitgaven snel moeten verantwoorden.",
+    "audience_1_title": "ZZP'ers en freelancers",
+    "audience_1_desc": "Zet bonnetjes om in Excel-overzichten die je direct kunt toevoegen aan je kwartaalaangifte of boekhouding.",
+    "audience_2_title": "MKB-ondernemers",
+    "audience_2_desc": "Digitaliseer dagelijkse aankopen zonder dat je elk bedrag afzonderlijk hoeft in te voeren.",
+    "audience_3_title": "Boekhouders en accountantskantoren",
+    "audience_3_desc": "Zet schoendozen vol bonnetjes van klanten snel om in georganiseerde Excel-bestanden.",
+    "audience_4_title": "Medewerkers in de buitendienst",
+    "audience_4_desc": "Scan reiskosten en representatiekosten onderweg om je declaratie al klaar te hebben voor je terug bent.",
+
+    "comparison_title": "Handmatig typen vs. NoteOCR",
+    "comparison_subtitle": "Waarom het scannen van bonnetjes vele malen sneller is dan zelf invoeren",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Tijd",
+    "comparison_col_accuracy": "Nauwkeurigheid",
+    "comparison_col_cost": "Kosten",
+    "row1_method": "Elk bonnetje handmatig uittypen",
+    "row1_time": "2–3 min per bon",
+    "row1_accuracy": "95%, gevoelig voor menselijke fouten",
+    "row1_cost": "Gratis (kost wel veel tijd)",
+    "row2_method": "Standaard OCR-app",
+    "row2_time": "1 min per bon",
+    "row2_accuracy": "~70% bij thermisch papier",
+    "row2_cost": "Gratis – €10",
+    "row3_method": "NoteOCR",
+    "row3_time": "Minder dan 2 min totaal",
+    "row3_accuracy": "98% op getallen",
+    "row3_cost": "Gratis te proberen",
+
+    "proof_title": "Gebouwd op dezelfde technologie die door meer dan 10.000 mensen wordt gebruikt.",
+    "proof_desc": "De technologie van NoteOCR verwerkt administratieve documenten voor ruim 10.000 gebruikers op noteocr.com.",
+    "proof_stat_number": "98%",
+    "proof_stat_label": "Nauwkeurigheid op numerieke gegevens van gescande bonnetjes",
+    "proof_quote": "Het verzamelen van bonnetjes voor de Btw-aangifte was altijd een ramp. Nu scan ik ze meteen en staat alles direct netjes in Excel.",
+    "proof_quote_name": "Lotte V.",
+    "proof_quote_role": "Freelance Designer",
+
+    "faq_title": "Veelgestelde vragen over het scannen van bonnetjes",
+
+    "related_title": "Andere manieren om NoteOCR te gebruiken",
+    "cta_title": "Stop met het handmatig invoeren van je bonnetjes.",
+    "cta_subtitle": "Scan ze direct naar Excel. Vanaf 21 september beschikbaar op iOS en Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Hoe zet ik een bonnetje om met de app?",
+          "a": "Open NoteOCR, selecteer 'Scannen' en maak een foto van het bonnetje. De app haalt het totaalbedrag en de transactiedetails op en maakt binnen 2 minuten een Excel-regel."
+        },
+        "faded_receipts": {
+          "q": "Werkt het ook op vervaagde thermische kassabonnen?",
+          "a": "Het algoritme van NoteOCR optimaliseert het contrast om vervaagde tekst te herstellen. Bij vrijwel onleesbare bonnen is soms een kleine handmatige controle nodig."
+        },
+        "currency_symbols": {
+          "q": "Herkent de app valutasymbolen (€, $, £)?",
+          "a": "Ja, het model is getraind om verschillende valutasymbolen en de juiste scheiding van komma's en punten te herkennen."
+        },
+        "batch_of_receipts": {
+          "q": "Kan ik meerdere bonnetjes tegelijk scannen?",
+          "a": "Voor het hoogste nauwkeurigheidsniveau wordt elk bonnetje afzonderlijk gefotografeerd. Voor grote aantallen kun je ook onze web-versie gebruiken."
+        },
+        "tax_season_use": {
+          "q": "Is dit geschikt voor de belastingaangifte of de boekhouding?",
+          "a": "Jazeker. Veel ZZP'ers en MKB-bedrijven gebruiken NoteOCR om hun bonnetjes te digitaliseren voordat ze de gegevens naar de boekhouder sturen."
+        },
+        "export_format": {
+          "q": "In welk bestandsformaat ontvang ik de gegevens?",
+          "a": "Je ontvangt een .xlsx-bestand waarin datum, leverancier en bedrag overzichtelijk in kolommen zijn ingedeeld."
+        },
+        "accuracy_on_numbers": {
+          "q": "Hoe nauwkeurig wordt het totaalbedrag herkend?",
+          "a": "De nauwkeurigheid op cijfers is ongeveer 98%. We raden altijd aan om het eindtotaal voor de zekerheid even vluchtig te controleren."
+        },
+        "privacy_of_financial_data": {
+          "q": "Zijn mijn financiële gegevens en bonnetjes veilig?",
+          "a": "Ja. Je privacy staat voorop: alle uploads zijn beveiligd met encryptie en je gegevens worden nooit verkocht of gedeeld met derden."
+        }
+      }
+    }
+  },
+  "LogSheetScannerPage": {
+    "meta_title": "Werkbonnen & Dagrapporten Scanner naar Excel | NoteOCR",
+    "meta_desc": "Scan handgeschreven werkbonnen, urenregistraties en inspectieformulieren met je telefoon en converteer ze direct naar gestructureerde Excel-tabellen.",
+    "nav_label": "Werkbonnen Scanner",
+    "hero_pill": "Voor Buitendienst & Technici",
+    "hero_title": "Zet papieren werkbonnen om in Excel voordat je terug bent op kantoor.",
+    "hero_subtitle": "Fotografeer urenformulieren, dagrapporten of inspectielijsten met NoteOCR en ontvang strak geformatteerde Excel-tabellen.",
+    "hero_image_alt": "Handgeschreven werkbon op locatie gescand met de NoteOCR-app",
+
+    "trust_1": "SSL Beveiligd",
+    "trust_2": "Klaar in minder dan 2 min",
+    "trust_3": "98% Nauwkeurigheid op getallen",
+
+    "pain_eyebrow": "Digitaliseer gegevens op de werkvloer",
+
+    "pain_title": "Geen handmatig overtypen van werkbonnen en inspectielijsten meer.",
+
+    "pain_desc": "Servicerapporten, urenstaten en technische inspecties worden ter plaatse vaak met de hand ingevuld. NoteOCR zet deze handgeschreven papieren direct om in bewerkbare Excel-bestanden.",
+    "before_after_eyebrow": "Bekijk hoe het werkt",
+    "before_after_title": "Ervaar het verschil",
+    "before_after_desc": "Een handgeschreven werkbon omgezet in een overzichtelijke Excel-tabel.",
+    "before_label": "Voor: Handgeschreven werkbon",
+    "before_alt": "Handgeschreven servicerapport voor conversie",
+    "after_label": "Na: Excel-tabel",
+    "after_alt": "Dezelfde werkbongegevens gestructureerd in een Excel-tabel",
+
+    "how_eyebrow": "Hoe het werkt",
+    "how_title": "Van papieren werkbon naar Excel in drie eenvoudige stappen.",
+    "how_subtitle": "Zet gegevens direct op locatie om, zonder het uit te stellen tot het einde van de werkdag.",
+    "step_1_title": "Open de app en tik op Scannen",
+    "step_1_desc": "Maak een foto van de werkbon of het rapport direct nadat het is ingevuld.",
+    "step_2_title": "Automatische herkenning van rijen en kolommen",
+    "step_2_desc": "Ondersteunt lijsten, tabellen en formulieren op vrijwel elk type papier.",
+    "step_3_title": "Exporteer naar Excel en verstuur de rapportage",
+    "step_3_desc": "Download het .xlsx-bestand en stuur het meteen door voor de dagelijkse administratie.",
+
+    "who_title": "Wie gebruikt NoteOCR voor het scannen van werkbonnen?",
+    "who_subtitle": "Alle professionals die onderweg of op locatie gegevens met de hand noteren.",
+    "audience_1_title": "Servicetechnici en installateurs",
+    "audience_1_desc": "Zet werkbonnen en onderhoudsrapporten om in Excel-tabellen zonder dat je onderweg een laptop nodig hebt.",
+    "audience_2_title": "Uitvoerders en bouwopzichters",
+    "audience_2_desc": "Digitaliseer dagelijkse urenregistraties en voortgangsrapporten op de bouwplaats direct.",
+    "audience_3_title": "Onderzoekers en laboratoriumtechnici",
+    "audience_3_desc": "Zet handgeschreven meetwaarden en logboeken snel om in Excel voor verdere data-analyse.",
+    "audience_4_title": "Evenementencoördinatoren en sportcoaches",
+    "audience_4_desc": "Zet handgeschreven deelnemerslijsten, uitslagen of scoreregistraties om in heldere spreadsheets.",
+
+    "comparison_title": "Handmatige invoer vs. NoteOCR",
+    "comparison_subtitle": "Waarom het scannen van werkrapporten enorm veel tijd bespaart",
+    "comparison_col_method": "Methode",
+    "comparison_col_time": "Tijd",
+    "comparison_col_accuracy": "Nauwkeurigheid",
+    "comparison_col_cost": "Kosten",
+    "row1_method": "Rapporten handmatig op PC uittypen",
+    "row1_time": "20–30 min",
+    "row1_accuracy": "95%, kans op menselijke fouten",
+    "row1_cost": "Kosten van gewerkte uren",
+    "row2_method": "Standaard OCR-app",
+    "row2_time": "8 min",
+    "row2_accuracy": "~55%, verliest opmaak",
+    "row2_cost": "Gratis – €15",
+    "row3_method": "NoteOCR",
+    "row3_time": "Minder dan 2 min",
+    "row3_accuracy": "98% op getallen",
+    "row3_cost": "Gratis te proberen",
+
+    "proof_title": "Gebouwd op dezelfde technologie die door meer dan 10.000 mensen wordt gebruikt.",
+    "proof_desc": "De tabel-engine van NoteOCR verwerkt dagrapporten en werkbonnen voor ruim 10.000 gebruikers op noteocr.com.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Pagina's aan werkbonnen en rapporten gedigitaliseerd en geëxporteerd",
+    "proof_quote": "Onze technici vullen de bonnen op locatie in. Met NoteOCR zetten ze deze om naar Excel nog voordat ze terug in de bus stappen.",
+    "proof_quote_name": "Stefan K.",
+    "proof_quote_role": "Head of Operations",
+
+    "faq_title": "Veelgestelde vragen over het scannen van werkbonnen",
+
+    "related_title": "Andere manieren om NoteOCR te gebruiken",
+    "cta_title": "Stop met het overtypen van papieren werkbonnen.",
+    "cta_subtitle": "Scan ze direct naar Excel. Vanaf 21 september beschikbaar op iOS en Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Hoe converteer ik een werkbon met de app?",
+          "a": "Open NoteOCR, tik op 'Scannen' en maak een foto van de werkbon. De app herkent de tabelstructuur en genereert binnen 2 minuten een Excel-bestand."
+        },
+        "field_conditions": {
+          "q": "Werkt het ook bij foto's die buiten of bij slecht licht zijn genomen?",
+          "a": "Ja, NoteOCR bevat automatische instellingen om schaduwen en wisselende lichtomstandigheden te corrigeren."
+        },
+        "no_drawn_lines": {
+          "q": "Werkt het ook op formulieren zonder gedrukte scheidingslijnen?",
+          "a": "Ja. De app herkent de indeling van de tekst om de informatie correct in rijen en kolommen te plaatsen."
+        },
+        "multiple_columns": {
+          "q": "Kan de app omgaan met ingewikkelde werkbonnen met veel kolommen?",
+          "a": "Zeker, NoteOCR is geoptimaliseerd om ook de structuur van complexe en uitgebreide formulieren nauwkeurig te reconstrueren."
+        },
+        "daily_logs_batch": {
+          "q": "Kan ik dagelijks werkbonnen blijven scannen?",
+          "a": "Ja, je kunt zoveel werkbonnen en rapporten scannen als nodig is. Elk document wordt omgezet naar Excel-formaat."
+        },
+        "export_format": {
+          "q": "Welk bestandsformaat krijg ik geëxporteerd?",
+          "a": "Je ontvangt een .xlsx-bestand dat direct te downloaden is, waarin de gegevens netjes verdeeld zijn over de cellen."
+        },
+        "team_use": {
+          "q": "Kan het gebruik van de app worden gedeeld binnen een team van technici?",
+          "a": "Ja. Elke monteur of technicus kan de scans uitvoeren vanaf zijn eigen mobiele telefoon en de bestanden naar de centrale administratie sturen."
+        },
+        "free_or_paid": {
+          "q": "Is het scannen van werkbonnen gratis?",
+          "a": "Ja, de app bevat een gratis maandelijks tegoed. Voor intensief gebruik in de buitendienst zijn er Pro-abonnementen beschikbaar."
+        }
+      }
+    }
+  }
+,
+  "AppPage": {
+    "meta_title": "NoteOCR mobiele app – Handschrift scannen en omzetten naar tekst of Excel | iOS & Android",
+    "meta_desc": "Download de NoteOCR-app voor iOS en Android. Scan handgeschreven notities met je camera en zet ze direct om naar Word, Excel of PDF.",
+
+    "nav_home": "Home",
+    "nav_features": "Functies",
+    "nav_pricing": "Prijzen",
+    "nav_download_button": "App downloaden",
+
+    "hero_pill": "Lancering op 21 september voor iOS & Android",
+    "hero_title": "Scannen. Omzetten. Klaar. Nu in je broekzak.",
+    "hero_subtitle": "NoteOCR is een app voor handschrift naar tekst en handschrift naar Excel voor iOS en Android. Richt je camera op een handgeschreven notitie, formulier of whiteboard en de OCR-engine van NoteOCR zet deze om in een bewerkbaar Word-, Excel- of PDF-document voordat je je telefoon alweer weglegt.",
+    "hero_image_alt": "Camerascan-scherm van de NoteOCR-app waarop een handgeschreven pagina op een telefoon wordt omgezet naar tekst",
+
+    "store_apple_top": "Download voor",
+    "store_apple_bottom": "iOS App Store",
+    "store_google_top": "Download via",
+    "store_google_bottom": "Google Play",
+
+    "why_pill": "Waarom de app",
+    "why_title": "Gemaakt voor momenten waarop je niet achter je bureau zit.",
+    "why_subtitle": "De webapp is ideaal achter je bureau. De mobiele NoteOCR-app is een handschriftscanner voor overal: van collegezalen en klantafspraken tot magazijnen en archieven.",
+
+    "feature_1_title": "Direct scannen met je camera",
+    "feature_1_desc": "Richt je camera, maak een foto en zet hem direct om, of upload rechtstreeks vanuit je galerij",
+    "feature_2_title": "Direct downloaden",
+    "feature_2_desc": "Download en deel je geconverteerde document direct via al je apps",
+    "feature_3_title": "Gesynchroniseerd met je account",
+    "feature_3_desc": "Elke scan verschijnt direct in je NoteOCR-dashboard — hetzelfde account, dezelfde documenten, elk apparaat.",
+    "feature_4_title": "Directe meldingen",
+    "feature_4_desc": "Ontvang een melding zodra je document klaar is, zodat je niet in de app hoeft te blijven wachten.",
+
+    "how_title": "Van papier naar document in drie tikken.",
+    "how_subtitle": "De NoteOCR-scanapp zet een handgeschreven pagina in drie stappen om naar een bewerkbaar bestand: scannen, automatisch bijsnijden en exporteren.",
+    "how_image_alt": "Scherm van de NoteOCR-app voor automatisch bijsnijden en verbeteren met exportopties",
+    "step_1_title": "Open de app en tik op Scannen",
+    "step_1_desc": "Open NoteOCR en richt je camera op een pagina, whiteboard of formulier.",
+    "step_2_title": "Automatisch bijsnijden en verbeteren",
+    "step_2_desc": "Randen worden automatisch gedetecteerd en de belichting wordt gecorrigeerd — handmatig bijsnijden is niet nodig.",
+    "step_3_title": "Exporteer direct naar Word, Excel of PDF",
+    "step_3_desc": "Kies een formaat en je document is binnen enkele seconden klaar om te delen.",
+
+    "excel_title": "Handschrift naar Excel: zet tabellen direct om in spreadsheets.",
+    "excel_desc": "De handschrift-naar-Excel-conversie van NoteOCR fotografeert handgeschreven logboeken, tabellen of lijsten, detecteert automatisch rijen en kolommen en exporteert overzichtelijke, gestructureerde .xlsx-bestanden die klaar zijn voor formules en sorteren.",
+    "excel_before_label": "Voor",
+    "excel_before_alt": "Handgeschreven gegevenstabel vóór conversie met NoteOCR",
+    "excel_after_label": "Na",
+    "excel_after_alt": "Gestructureerd Excel-spreadsheet na conversie van handschrift naar Excel met NoteOCR",
+
+    "text_title": "Handschrift naar tekst: cursief, blokletters of rommelig — nauwkeurig omgezet.",
+    "text_desc": "NoteOCR zet handschrift om naar tekst met een nauwkeurigheid van 95–98%. Het OCR-model is getraind op zowel blokletters als cursief handschrift, inclusief schuin of gemengd handschrift.",
+    "text_image_alt": "Handgeschreven notitie die door NoteOCR wordt omgezet naar duidelijke getypte tekst",
+
+    "gallery_title": "Zie NoteOCR in actie",
+    "screenshot_1_alt": "Camerascan-scherm van de NoteOCR-app waarop een handgeschreven pagina wordt vastgelegd",
+    "screenshot_2_alt": "Voorbeeldscherm van de NoteOCR-app voor automatisch bijsnijden en verbeteren",
+    "screenshot_3_alt": "Exportopties van de NoteOCR-app voor Word, Excel en PDF",
+    "screenshot_4_alt": "Dashboard van de NoteOCR-app met gesynchroniseerde gescande documenten",
+    "screenshot_5_alt": "Resultaat van het omzetten van een handgeschreven tabel naar Excel in de NoteOCR-app",
+
+    "faq_title": "Veelgestelde vragen",
+
+    "cta_title": "Begin in enkele seconden met het omzetten van handschrift.",
+    "cta_subtitle": "Lancering op 21 september voor iOS en Android. Gratis te downloaden.",
+
+    "modal_pill": "Binnenkort beschikbaar in {store}",
+    "modal_title": "NoteOCR lanceert op 21 september",
+    "modal_desc": "We leggen de laatste hand aan de app. Kom op de lanceringsdag terug of laat je e-mailadres achter. We laten het je weten zodra de app beschikbaar is.",
+    "modal_days": "dagen",
+    "modal_hrs": "uur",
+    "modal_min": "min",
+    "modal_sec": "sec",
+    "modal_email_placeholder": "jij@email.com",
+    "modal_email_aria": "E-mailadres",
+    "modal_notify_button": "Houd mij op de hoogte",
+    "modal_store_fallback": "de appstores",
+
+    "footer_copyright": "© {year} NoteOCR. Alle rechten voorbehouden.",
+    "footer_privacy": "Privacy",
+    "footer_terms": "Voorwaarden",
+    "footer_contact": "Contact",
+
+    "FAQ": {
+      "items": {
+        "notes_to_word_phone": {
+          "q": "Kan ik handgeschreven notities vanaf mijn telefoon omzetten naar Word?",
+          "a": "Ja. Open de NoteOCR-app, maak een foto van je handgeschreven pagina en zet deze direct om naar een bewerkbaar .docx-bestand. Je hebt geen computer nodig en hoeft niets via de website te uploaden."
+        },
+        "table_to_excel_camera": {
+          "q": "Hoe zet ik met mijn camera een handgeschreven tabel om naar een Excel-bestand?",
+          "a": "Richt de camera van de NoteOCR-app op de tabel en maak een foto. Dezelfde engine die noteocr.com aandrijft, detecteert de rijen en kolommen en maakt een opgemaakt .xlsx-spreadsheet dat je op je telefoon kunt downloaden of bewerken."
+        },
+        "old_letters_journals": {
+          "q": "Kan de app oude handgeschreven brieven of dagboeken digitaliseren?",
+          "a": "Ja. Fotografeer de pagina in de NoteOCR-app en de tekst wordt gereconstrueerd in een bewerkbaar Word-document. Zo kun je oude brieven, dagboeken of archieven eenvoudig pagina voor pagina digitaliseren, waar ze ook worden bewaard."
+        },
+        "logs_on_the_go": {
+          "q": "Kan ik onderweg een handgeschreven logboek of lijst scannen en er een spreadsheet van maken?",
+          "a": "Ja. Maak met de camera van je telefoon in de NoteOCR-app een foto van de pagina en deze wordt automatisch omgezet naar een gestructureerd Excel-bestand. Zo hoeven veldnotities, logboeken en lijsten niet te wachten tot je weer achter je bureau zit."
+        },
+        "ios_android_app": {
+          "q": "Is er een NoteOCR-app voor iPhone en Android?",
+          "a": "Ja. De NoteOCR-app is beschikbaar voor zowel iOS als Android. Je kunt handgeschreven notities dus rechtstreeks vanaf je telefoon scannen en omzetten, in plaats van alleen via de website."
+        },
+        "push_notifications": {
+          "q": "Krijg ik een melding wanneer mijn scan klaar is?",
+          "a": "Ja. De NoteOCR-app stuurt een pushmelding zodra een scan klaar is met converteren, zodat je niet in de app hoeft te blijven wachten."
+        },
+        "plan_sync": {
+          "q": "Worden mijn NoteOCR-abonnement en paginalimieten ook in de app gebruikt?",
+          "a": "Ja. De app gebruikt dezelfde gratis en betaalde abonnementen als noteocr.com. Je maandelijkse paginalimiet en eventuele Pro- of Business-functies gelden dus zowel wanneer je vanaf je telefoon scant als wanneer je vanaf je desktop uploadt."
+        },
+        "free_download": {
+          "q": "Is de NoteOCR-app gratis te downloaden?",
+          "a": "Ja, de NoteOCR-app is gratis te downloaden. Je kunt direct beginnen met het omzetten van handgeschreven notities met het gratis abonnement en in de app upgraden als je een hogere maandelijkse paginalimiet nodig hebt."
+        }
+      }
+    }
+  },
+
   "HomePage": {
     "trust_pill": "V2.0 Handschrift OCR: 99,2% Nauwkeurigheid",
     "hero_title_1": "Zet Handschrift om naar Tekst en",

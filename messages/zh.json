@@ -1,4 +1,703 @@
 {
+  "ClassNotesScannerPage": {
+    "meta_title": "手写笔记扫描仪 – 手写转 Word | NoteOCR",
+    "meta_desc": "用智能手机扫描手写课堂笔记，几秒钟内即可转换为可编辑、可搜索的 Word 文档。",
+    "nav_label": "课堂笔记扫描仪",
+    "hero_pill": "学生专属",
+    "hero_title": "将手写笔记转换为可搜索的 Word 文档。",
+    "hero_subtitle": "使用 NoteOCR 拍下笔记本照片，即可获取清晰、可编辑的文本，轻松高效备考、搜索关键词及整理复习摘要。",
+    "hero_image_alt": "使用 NoteOCR 扫描并转换的手写课堂笔记",
+
+    "trust_1": "SSL 安全加密",
+    "trust_2": "2 分钟内极速生成",
+    "trust_3": "95%–98% OCR 识别准确率",
+
+    "pain_eyebrow": "让复习更高效",
+    "pain_title": "手写笔记，即刻化身数字文本。",
+    "pain_desc": "课堂上用纸笔记录有助于加深理解，但在期末复习、搜索关键词或与同学分享摘要时，纸质笔记往往不够方便。NoteOCR 助你免去手动打字的繁琐，直接将手写字转换为可编辑的电子文档。",
+    "before_after_eyebrow": "直观效果对比",
+    "before_after_title": "前所未有的转换体验",
+    "before_after_desc": "亲眼见证纸质笔记本完美转化为可编辑 Word 文档的过程。",
+    "before_label": "转换前：手写笔记本",
+    "before_alt": "转换前的手写课堂笔记页面",
+    "after_label": "转换后：Word 文档",
+    "after_alt": "已转换为可搜索 Word 文档的笔记",
+
+    "how_eyebrow": "使用流程",
+    "how_title": "简单 3 步，纸质笔记变电子摘要。",
+    "how_subtitle": "课后随手一拍，在知识记忆最清晰时完成归档。",
+    "step_1_title": "打开应用并点击扫描",
+    "step_1_desc": "下课后或休息时，拍摄笔记页面。",
+    "step_2_title": "自动裁剪与清晰度优化",
+    "step_2_desc": "即使纸张褶皱或光线不足，也能精准处理。",
+    "step_3_title": "导出至 Word，轻松复习",
+    "step_3_desc": "将文本直接粘贴至复习资料中，或保存为可搜索的电子文档。",
+
+    "who_title": "谁在使用 NoteOCR 扫描笔记？",
+    "who_subtitle": "所有习惯手写记录、同时希望享受数字化高效便捷的学习者。",
+    "audience_1_title": "高校学生",
+    "audience_1_desc": "按学科整理电子笔记，备考期间快速搜索关键知识点。",
+    "audience_2_title": "中学生",
+    "audience_2_desc": "将手写本转化为电子文本，方便完成作业或与同学分享。",
+    "audience_3_title": "学习小组",
+    "audience_3_desc": "轻松将多位同学的手写笔记整合到同一个 Word 文件中。",
+    "audience_4_title": "无障碍学习与语音朗读",
+    "audience_4_desc": "将潦草难认的手写字转化为规范电子文本，方便放大阅读或使用屏幕阅读器朗读。",
+
+    "comparison_title": "手动打字 vs NoteOCR",
+    "comparison_subtitle": "为什么直接扫描比手动抄录快上数倍？",
+    "comparison_col_method": "处理方式",
+    "comparison_col_time": "耗时",
+    "comparison_col_accuracy": "准确率",
+    "comparison_col_cost": "成本",
+    "row1_method": "在电脑上键盘敲录",
+    "row1_time": "20–30 分钟",
+    "row1_accuracy": "100%，但极其耗费时间",
+    "row1_cost": "免费（占用宝贵的复习时间）",
+    "row2_method": "普通 OCR 应用",
+    "row2_time": "5 分钟",
+    "row2_accuracy": "手写识别率仅约 65%",
+    "row2_cost": "免费 – 60 元",
+    "row3_method": "NoteOCR",
+    "row3_time": "不到 2 分钟",
+    "row3_accuracy": "95%–98%",
+    "row3_cost": "免费试用",
+
+    "proof_title": "超过 10,000 名用户信赖的技术支撑。",
+    "proof_desc": "NoteOCR 的手写识别技术每月在 noteocr.com 上为上万名用户数字化笔记，移动端应用将同样的精准体验带到你的掌心。",
+    "proof_stat_number": "10,000+",
+    "proof_stat_label": "网页与移动端每月转换页数",
+    "proof_quote": "每节课后我都会顺手扫描笔记。等回到宿舍，所有的复习资料就已经变成手机里随时可查的电子文档了。",
+    "proof_quote_name": "张同学",
+    "proof_quote_role": "研究生",
+
+    "faq_title": "课堂笔记扫描常见问题",
+
+    "related_title": "NoteOCR 的更多应用场景",
+    "cta_title": "告别繁重的手动打字。",
+    "cta_subtitle": "课后直接扫描导出为 Word。9 月 21 日起全面登陆 iOS 和 Android。",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "如何通过应用转换我的课堂笔记？",
+          "a": "打开 NoteOCR，点击“扫描”，拍下笔记本照片。应用会在 2 分钟内将手写内容转换为可编辑的 Word 文档。"
+        },
+        "messy_handwriting": {
+          "q": "字体潦草或书写飞扬能精准识别吗？",
+          "a": "绝大多数情况下都可以。NoteOCR 针对各类连笔和快速书写样式进行了深度模型训练。极度潦草的文字转换后只需简单核对即可。"
+        },
+        "lecture_slides_mixed_notes": {
+          "q": "包含涂鸦或示意图的笔记怎么处理？",
+          "a": "NoteOCR 专注于识别与提取页面中的文本。图画不会转化为矢量图，但图旁的所有文字都会被高精度识别。"
+        },
+        "study_from_converted_notes": {
+          "q": "转换后的文档可以搜索关键词和高亮标记吗？",
+          "a": "完全可以。生成的 Word 文档支持全文本搜索、编辑和高亮，非常适合备考复习。"
+        },
+        "free_for_students": {
+          "q": "这款应用对学生免费吗？",
+          "a": "是的。应用每月提供免费扫描额度，足以满足大多数学生的日常学习需求。"
+        },
+        "multiple_languages": {
+          "q": "应用支持英语、德语等其他语言吗？",
+          "a": "支持。NoteOCR 完美支持中文、英语、德语、法语等几十种语言的手写识别。"
+        },
+        "sync_across_devices": {
+          "q": "我在手机上扫描的笔记能在电脑上查看吗？",
+          "a": "可以。登录你的 NoteOCR 账号，转换后的文档会自动同步至 noteocr.com 网页端。"
+        },
+        "accuracy": {
+          "q": "手写文本转换的准确率有多高？",
+          "a": "对于字迹清晰的书写，识别准确率可达 95%–98%。针对专业术语或公式，建议进行快速浏览核对。"
+        }
+      }
+    }
+  },
+  "LetterScannerPage": {
+    "meta_title": "珍贵信件扫描仪 – 手写信转 Word | NoteOCR",
+    "meta_desc": "用智能手机扫描老信件、日记和明信片，转换为可编辑的 Word 文档，将珍贵记忆永久保存。",
+    "nav_label": "信件扫描仪",
+    "hero_pill": "家谱与档案数字存盘",
+    "hero_title": "将手写信件转化为电子文档，让回忆永存。",
+    "hero_subtitle": "使用 NoteOCR 拍摄老信件或日记，无需手动逐字抄录，即可生成可编辑的电子文本或 Word 文件。",
+    "hero_image_alt": "使用 NoteOCR 扫描转换的历史手写信件",
+
+    "trust_1": "SSL 安全加密",
+    "trust_2": "2 分钟内极速生成",
+    "trust_3": "95%–98% OCR 识别准确率",
+
+    "pain_eyebrow": "珍藏家族记忆",
+    "pain_title": "别让时光流逝损毁了泛黄纸张上的家族回忆。",
+    "pain_desc": "历史信件与私人日记承载着无价的情感与记忆，然而纸张会随着岁月发黄变脆。NoteOCR 将手写字迹转化为清晰的电子文本，让家族历史得以安全传承给下一代。",
+    "before_after_eyebrow": "直观效果对比",
+    "before_after_title": "前所未有的转换体验",
+    "before_after_desc": "亲眼见证历史手写信件完美转化为可编辑 Word 文档的过程。",
+    "before_label": "转换前：手写老信件",
+    "before_alt": "转换前的历史手写信件",
+    "after_label": "转换后：Word 文档",
+    "after_alt": "已转换为可搜索 Word 文档的信件",
+
+    "how_eyebrow": "使用流程",
+    "how_title": "简单 3 步，从纸质信件到数字归档。",
+    "how_subtitle": "无需昂贵的专业扫描仪，智能手机摄像头即可轻松胜任。",
+    "step_1_title": "打开应用并点击扫描",
+    "step_1_desc": "将信件平放在光线充足的地方并拍照。",
+    "step_2_title": "自动裁剪与清晰度优化",
+    "step_2_desc": "针对发黄纸张、污渍或退色墨迹进行了专门优化。",
+    "step_3_title": "导出至 Word，永久珍藏",
+    "step_3_desc": "将电子文本与原始图像一同保存，建立完整的数字家族档案。",
+
+    "who_title": "谁在使用 NoteOCR 扫描信件？",
+    "who_subtitle": "所有希望保护珍贵回忆、留存历史文字的人士。",
+    "audience_1_title": "家谱与家族史研究者",
+    "audience_1_desc": "将长辈的手写信件转换为清晰的电子格式，轻松与全家族分享。",
+    "audience_2_title": "地方史与档案学者",
+    "audience_2_desc": "数字化整理历史书信与日记，为学术研究与历史叙事提供素材。",
+    "audience_3_title": "收藏家与历史爱好者",
+    "audience_3_desc": "将手写文献与地方档案转化为可搜索的电子文本，方便整理。",
+    "audience_4_title": "博物馆与文博工作者",
+    "audience_4_desc": "在珍贵原件入库封存前，快速生成数字化工作副本。",
+
+    "comparison_title": "人工转录 vs NoteOCR",
+    "comparison_subtitle": "为什么扫描老信件比手动抄写效率高得多？",
+    "comparison_col_method": "处理方式",
+    "comparison_col_time": "耗时",
+    "comparison_col_accuracy": "准确率",
+    "comparison_col_cost": "成本",
+    "row1_method": "人工逐字转录信件",
+    "row1_time": "30–45 分钟",
+    "row1_accuracy": "100%，但极耗眼力与精力",
+    "row1_cost": "免费（需付出数小时劳力）",
+    "row2_method": "普通 OCR 应用",
+    "row2_time": "5–8 分钟",
+    "row2_accuracy": "老旧手写体识别率仅约 60%",
+    "row2_cost": "免费 – 70 元",
+    "row3_method": "NoteOCR",
+    "row3_time": "不到 2 分钟",
+    "row3_accuracy": "95%–98%",
+    "row3_cost": "免费试用",
+
+    "proof_title": "超过 10,000 名用户信赖的技术支撑。",
+    "proof_desc": "NoteOCR 的专属识别技术每月在 noteocr.com 上为万余名用户识别历史手写体与花体字。",
+    "proof_stat_number": "10,000+",
+    "proof_stat_label": "已数字化并安全珍藏的历史信件页数",
+    "proof_quote": "我用了一个下午就将外婆留下的信件全数数字化了。现在全家人都能随时在手机上阅读这些珍贵的故事。",
+    "proof_quote_name": "李先生",
+    "proof_quote_role": "家谱爱好者",
+
+    "faq_title": "老信件扫描常见问题",
+
+    "related_title": "NoteOCR 的更多应用场景",
+    "cta_title": "别让岁月侵蚀了珍贵的字迹。",
+    "cta_subtitle": "在纸张进一步损坏前将其保存至 Word。9 月 21 日起全面登陆 iOS 和 Android。",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "如何通过应用扫描老信件？",
+          "a": "打开 NoteOCR，选择“扫描”，在良好光线下拍摄信件。应用会在 2 分钟内将手写字转换为可编辑的 Word 文档。"
+        },
+        "old_faded_letters": {
+          "q": "年代久远或字迹退色的信件可以识别吗？",
+          "a": "NoteOCR 的图像处理算法会自动增强对比度，使退色的字迹更清晰。对于受损严重的页面，转换后只需稍作核对。"
+        },
+        "cursive_and_old_scripts": {
+          "q": "应用能识别连体字和老旧手写风格吗？",
+          "a": "能。NoteOCR 针对经典手写体与老式书写风格进行了专门的模型训练。"
+        },
+        "preserve_originals": {
+          "q": "扫描过程会损坏信件原件吗？",
+          "a": "完全不会。NoteOCR 仅拍摄数字照片，纸质原件不会受到任何物理接触或损伤。"
+        },
+        "batch_of_letters": {
+          "q": "可以连续扫描包含多页的信件吗？",
+          "a": "可以，应用支持逐页拍摄信件，并将所有页面合并导出至同一个电子文件中。"
+        },
+        "family_archive_use": {
+          "q": "这适合用来建立电子家族档案吗？",
+          "a": "非常适合。我们的许多用户都使用 NoteOCR 来数字化整理家族日记、往来书信及家传文献。"
+        },
+        "accuracy": {
+          "q": "手写信件的识别准确率如何？",
+          "a": "对于保存完好的信件，准确率可达 95%–98%。建议对人名、地名及日期进行快速核对。"
+        },
+        "privacy_of_personal_letters": {
+          "q": "私人信件的隐私和安全性有保障吗？",
+          "a": "保障。所有上传均采用加密传输，NoteOCR 绝不会泄露或查看您的个人私密文件。"
+        }
+      }
+    }
+  },
+  "InventoryCountScannerPage": {
+    "meta_title": "盘点单扫描仪 – 手写表单转 Excel | NoteOCR",
+    "meta_desc": "用智能手机扫描手写库存和盘点表，直接转换为 Excel 表格。告别仓库里繁重的手动数据录入。",
+    "nav_label": "盘点单扫描仪",
+    "hero_pill": "仓库与物流专属",
+    "hero_title": "无需离开仓库，盘点表即刻转为 Excel。",
+    "hero_subtitle": "使用 NoteOCR 拍下盘点表单，即可自动生成行列整齐的 .xlsx 文件。",
+    "hero_image_alt": "使用 NoteOCR 扫描的仓库手写盘点单",
+
+    "trust_1": "SSL 安全加密",
+    "trust_2": "2 分钟内极速生成",
+    "trust_3": "数字识别准确率达 98%",
+
+    "pain_eyebrow": "仓储与物流管理",
+    "pain_title": "告别将纸质盘点数据手动敲进电脑的时代。",
+    "pain_desc": "坐在桌前将纸质表单上的数字逐个敲入电脑既费时又容易出错。NoteOCR 将手写盘点表直接转化为电子表格，彻底消除数据录入延迟与人工错误。",
+    "before_after_eyebrow": "直观效果对比",
+    "before_after_title": "前所未有的转换体验",
+    "before_after_desc": "手写盘点表单完美转化为规整 Excel 表格的过程。",
+    "before_label": "转换前：手写盘点表",
+    "before_alt": "转换前的手写盘点单",
+    "after_label": "转换后：Excel 表格",
+    "after_alt": "在 Excel 中整理好的盘点数据",
+
+    "how_eyebrow": "使用流程",
+    "how_title": "简单 3 步，从盘点写字板到电子表格。",
+    "how_subtitle": "无需等待回到办公室，在盘点现场即可实时完成数据转换。",
+    "step_1_title": "打开应用并点击扫描",
+    "step_1_desc": "完成一个货架或区域的盘点后，立即拍摄表单。",
+    "step_2_title": "自动识别行列结构",
+    "step_2_desc": "即使纸张上没有预印表格线，也能精准识别自定义模版。",
+    "step_3_title": "导出 Excel 并发送",
+    "step_3_desc": "下载 .xlsx 文件，直接共享给采购或财务部门。",
+
+    "who_title": "谁在使用 NoteOCR 扫描盘点单？",
+    "who_subtitle": "所有在系统更新前需要先在纸上记录库存数据的从业人员。",
+    "audience_1_title": "仓库与物流主管",
+    "audience_1_desc": "在货架通道现场将盘点结果转化为 Excel，无需来回跑办公室。",
+    "audience_2_title": "门店店主与零售从业者",
+    "audience_2_desc": "快速数字化补货清单与商品盘点，第一时间提交给供应商。",
+    "audience_3_title": "餐厅与后厨管理者",
+    "audience_3_desc": "将手写食材盘点表转化为清晰表格，精准控制成本。",
+    "audience_4_title": "审计员与库存巡检员",
+    "audience_4_desc": "实时记录现场巡检数据，当天即可导出完整报告。",
+
+    "comparison_title": "手动录入 vs NoteOCR",
+    "comparison_subtitle": "为什么直接扫描盘点单效率要高得多？",
+    "comparison_col_method": "处理方式",
+    "comparison_col_time": "耗时",
+    "comparison_col_accuracy": "准确率",
+    "comparison_col_cost": "成本",
+    "row1_method": "手动敲入电脑",
+    "row1_time": "30–40 分钟",
+    "row1_accuracy": "95%，存在输错数字风险",
+    "row1_cost": "人员加班成本",
+    "row2_method": "普通 OCR 应用",
+    "row2_time": "8 分钟",
+    "row2_accuracy": "约 55%，表格排版容易错乱",
+    "row2_cost": "免费 – 90 元",
+    "row3_method": "NoteOCR",
+    "row3_time": "不到 2 分钟",
+    "row3_accuracy": "数字识别率 98%",
+    "row3_cost": "免费试用",
+
+    "proof_title": "超过 10,000 名用户信赖的技术支撑。",
+    "proof_desc": "NoteOCR 的表格提取引擎每月在 noteocr.com 上为万余名用户处理库存及企业表格数据。",
+    "proof_stat_number": "98%",
+    "proof_stat_label": "手写数字与数量识别的平均准确率",
+    "proof_quote": "以前每天下班前要花 20 分钟录入盘点表。现在下班锁门前，电子报告就已经发送出去了。",
+    "proof_quote_name": "王经理",
+    "proof_quote_role": "仓库负责人",
+
+    "faq_title": "盘点单扫描常见问题",
+
+    "related_title": "NoteOCR 的更多应用场景",
+    "cta_title": "告别手动录入盘点数据。",
+    "cta_subtitle": "直接扫描导出至 Excel。9 月 21 日起全面登陆 iOS 和 Android。",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "如何通过应用转换盘点表单？",
+          "a": "打开 NoteOCR，选择“扫描”并拍摄盘点纸。应用会自动识别行列，并在 2 分钟内生成 Excel 文件。"
+        },
+        "no_drawn_lines": {
+          "q": "在没有画表格线的白纸上也能工作吗？",
+          "a": "能。NoteOCR 会分析文本和数字的位置关系，即使纸上没有画线也能正确还原表格结构。"
+        },
+        "numeric_accuracy": {
+          "q": "数字识别的准确率有多高？",
+          "a": "数字识别准确率约为 98%。建议在提交前快速核对汇总数据。"
+        },
+        "multiple_sheets_per_day": {
+          "q": "一天内可以扫描多张盘点表吗？",
+          "a": "可以，您可以根据需求扫描任意数量的表单，每张表单都会被转为规整的表格。"
+        },
+        "export_format": {
+          "q": "导出的文件是什么格式？",
+          "a": "您将获得标准 .xlsx 文件，可直接在 Microsoft Excel、谷歌表格（Google Sheets）及主流 ERP 系统中打开。"
+        },
+        "team_use": {
+          "q": "团队多名员工可以同时使用吗？",
+          "a": "可以。每位员工可以在各自手机上使用该应用扫描盘点单，随后将导出的 Excel 文件汇总即可。"
+        },
+        "offline_warehouse_use": {
+          "q": "在信号较弱的地下仓库能使用吗？",
+          "a": "可以离线拍摄照片。当设备重新连接网络时，应用会自动完成转换处理。"
+        },
+        "free_or_paid": {
+          "q": "扫描盘点表单免费吗？",
+          "a": "是的，应用包含每月免费扫描额度。针对高频使用的仓库，我们提供 Pro 专业版订阅。"
+        }
+      }
+    }
+  },
+  "ReceiptToExcelScannerPage": {
+    "meta_title": "收据小票扫描仪 – 票据转 Excel | NoteOCR",
+    "meta_desc": "用智能手机扫描小票与报销凭证，转为规整的 Excel 表格，轻松应对报销、记账与税务申报。",
+    "nav_label": "小票转 Excel 扫描仪",
+    "hero_pill": "个体户与中小企业专属",
+    "hero_title": "将成堆的小票转化为清晰的 Excel 明细表。",
+    "hero_subtitle": "用 NoteOCR 拍摄每张小票，自动提取日期、金额与商家信息，直接生成可用于财务记账的 Excel 表格。",
+    "hero_image_alt": "使用 NoteOCR 扫描并转换为 Excel 表格的购物小票",
+
+    "trust_1": "SSL 安全加密",
+    "trust_2": "2 分钟内极速生成",
+    "trust_3": "数字识别准确率达 98%",
+
+    "pain_eyebrow": "纸质票据转表格",
+
+    "pain_title": "小票极易堆积，手动誊抄记账费时费力。",
+
+    "pain_desc": "收据小票是财务记账与报销的重要凭证，但将每笔金额挨个敲入表格极其繁琐。NoteOCR 助你自动将纸质小票转化为规整的数据明细。",
+    "before_after_eyebrow": "直观效果对比",
+    "before_after_title": "前所未有的转换体验",
+    "before_after_desc": "一张纸质小票完美转化为 Excel 中一行清晰数据的过程。",
+    "before_label": "转换前：纸质小票",
+    "before_alt": "转换前的纸质购物小票",
+    "after_label": "转换后：Excel 数据行",
+    "after_alt": "小票数据在 Excel 表格中的呈现",
+
+    "how_eyebrow": "使用流程",
+    "how_title": "简单 3 步，从小票到报销明细。",
+    "how_subtitle": "消费后即刻扫描，防止小票字迹退色或丢失。",
+    "step_1_title": "打开应用并点击扫描",
+    "step_1_desc": "消费完成后，立即拍下清晰的小票照片。",
+    "step_2_title": "自动识别金额与日期",
+    "step_2_desc": "应用会自动提取总金额、消费日期和商家名称。",
+    "step_3_title": "导出 Excel，轻松报销",
+    "step_3_desc": "下载 .xlsx 文件，直接附在报销单后或发送给财务团队。",
+
+    "who_title": "谁在使用 NoteOCR 扫描小票？",
+    "who_subtitle": "所有希望高效记录支出凭证的企业主与职场人士。",
+    "audience_1_title": "自由职业者与个体户",
+    "audience_1_desc": "将日常报销小票转化为可直接导入记账软件的 Excel 明细。",
+    "audience_2_title": "中小企业（SME）",
+    "audience_2_desc": "无需手动录入金额，即可快速完成每日营业支出归档。",
+    "audience_3_title": "财会人员与记账代理",
+    "audience_3_desc": "将客户送来的整盒小票快速整理为清晰规范的 Excel 账目。",
+    "audience_4_title": "出差员工与外勤人员",
+    "audience_4_desc": "出差途中即时扫描差旅小票，回到公司前报销明细已全部准备就绪。",
+
+    "comparison_title": "手动录入 vs NoteOCR",
+    "comparison_subtitle": "为什么扫描小票比手动敲字快得多？",
+    "comparison_col_method": "处理方式",
+    "comparison_col_time": "耗时",
+    "comparison_col_accuracy": "准确率",
+    "comparison_col_cost": "成本",
+    "row1_method": "手动录入每张小票",
+    "row1_time": "每张 2–3 分钟",
+    "row1_accuracy": "95%，字小易看错",
+    "row1_cost": "免费（耗费大量时间）",
+    "row2_method": "普通 OCR 应用",
+    "row2_time": "每张 1 分钟",
+    "row2_accuracy": "热敏纸识别率约 70%",
+    "row2_cost": "免费 – 60 元",
+    "row3_method": "NoteOCR",
+    "row3_time": "总计不到 2 分钟",
+    "row3_accuracy": "数字识别率 98%",
+    "row3_cost": "免费试用",
+
+    "proof_title": "超过 10,000 名用户信赖的技术支撑。",
+    "proof_desc": "NoteOCR 技术每月在 noteocr.com 上为上万名用户处理报销凭证与财务票据。",
+    "proof_stat_number": "98%",
+    "proof_stat_label": "扫描小票中数值提取的准确率",
+    "proof_quote": "以前每到月底整理报销小票就是一场噩梦。现在随手一拍，所有账目在 Excel 里一目了然。",
+    "proof_quote_name": "陈女士",
+    "proof_quote_role": "独立设计师",
+
+    "faq_title": "小票扫描常见问题",
+
+    "related_title": "NoteOCR 的更多应用场景",
+    "cta_title": "告别手动录入小票数据。",
+    "cta_subtitle": "直接扫描导出至 Excel。9 月 21 日起全面登陆 iOS 和 Android。",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "如何通过应用转换小票？",
+          "a": "打开 NoteOCR，选择“扫描”并拍下小票。应用会自动提取总额与明细，并在 2 分钟内生成 Excel 数据行。"
+        },
+        "faded_receipts": {
+          "q": "热敏纸打印的字迹变淡了还能识别吗？",
+          "a": "NoteOCR 的图像算法会自动增强对比度以突出淡化文本。对于极度退色的字迹，识别后只需快速核对即可。"
+        },
+        "currency_symbols": {
+          "q": "应用能识别不同货币符号（¥, $, €）吗？",
+          "a": "能。我们的模型经过训练，可精准识别多种货币符号以及不同的标准数字分隔格式。"
+        },
+        "batch_of_receipts": {
+          "q": "可以一次扫描多张小票吗？",
+          "a": "为确保最高识别精准度，建议逐张拍摄。如果您有海量票据需要处理，也可以使用我们的网页端。"
+        },
+        "tax_season_use": {
+          "q": "转换出的数据适合报税和财务记账吗？",
+          "a": "非常适合。许多个体户和企业都在使用 NoteOCR 数字化票据，以便将规范的数据提交给会计或财务人员。"
+        },
+        "export_format": {
+          "q": "导出的数据是什么格式？",
+          "a": "您将获得一个 .xlsx 文件，其中日期、商家名称及金额已分门别类排在对应的列中。"
+        },
+        "accuracy_on_numbers": {
+          "q": "总金额提取的准确率有多高？",
+          "a": "数字识别准确率约为 98%。为了稳妥起见，建议在提交财务前快速核对一遍总金额。"
+        },
+        "privacy_of_financial_data": {
+          "q": "我的财务数据和小票信息安全吗？",
+          "a": "绝对安全。您的隐私是我们的重中之重：所有上传内容均经过加密，且绝不会与第三方共享。"
+        }
+      }
+    }
+  },
+  "LogSheetScannerPage": {
+    "meta_title": "工作日志与服务单扫描仪 – 转 Excel | NoteOCR",
+    "meta_desc": "用智能手机扫描手写工作日志、考勤表和巡检单，一键转换为规整的 Excel 表格。",
+    "nav_label": "工作日志扫描仪",
+    "hero_pill": "外勤人员与技术员专属",
+    "hero_title": "无需返回办公室，外勤日志即刻转为 Excel。",
+    "hero_subtitle": "用 NoteOCR 拍下考勤签到表、每日工单或巡检表，即可生成排版整齐的 Excel 表格。",
+    "hero_image_alt": "使用 NoteOCR 应用在现场扫描的手写工作日志",
+
+    "trust_1": "SSL 安全加密",
+    "trust_2": "2 分钟内极速生成",
+    "trust_3": "数字识别准确率达 98%",
+
+    "pain_eyebrow": "外勤数据数字化",
+
+    "pain_title": "告别手动将外勤日志与巡检单抄入电脑。",
+
+    "pain_desc": "现场服务单、考勤表和技术巡检记录通常是在作业现场手写填写的。NoteOCR 能将这些手写纸张直接转化为可编辑的 Excel 文件。",
+    "before_after_eyebrow": "直观效果对比",
+    "before_after_title": "前所未有的转换体验",
+    "before_after_desc": "手写工作日志完美转化为规整 Excel 表格的过程。",
+    "before_label": "转换前：手写工作日志",
+    "before_alt": "转换前的手写现场服务单",
+    "after_label": "转换后：Excel 表格",
+    "after_alt": "日志数据在 Excel 表格中的呈现",
+
+    "how_eyebrow": "使用流程",
+    "how_title": "简单 3 步，从纸质日志到 Excel 报表。",
+    "how_subtitle": "无需拖到一天结束，在工作现场即可实时完成转换。",
+    "step_1_title": "打开应用并点击扫描",
+    "step_1_desc": "表单填写完成后，立即拍下日志照片。",
+    "step_2_title": "自动识别行列结构",
+    "step_2_desc": "完美支持各类纸质表格、清单及表单样式。",
+    "step_3_title": "导出 Excel 并提交",
+    "step_3_desc": "下载 .xlsx 文件，第一时间提交用于项目进度更新或结算。",
+
+    "who_title": "谁在使用 NoteOCR 扫描工作日志？",
+    "who_subtitle": "所有需要在作业现场手写记录数据的外勤专业人员。",
+    "audience_1_title": "现场服务技术员与安装工程人员",
+    "audience_1_desc": "在作业现场即可将服务工单转化为 Excel，无需携带电脑。",
+    "audience_2_title": "施工员与建筑工地管理者",
+    "audience_2_desc": "在施工现场直接将每日考勤表和施工日志数字化。",
+    "audience_3_title": "科研人员与实验室技术员",
+    "audience_3_desc": "将手写测量数据与实验日志导入 Excel，方便后续数据分析。",
+    "audience_4_title": "活动统筹与赛事调度员",
+    "audience_4_desc": "将手写签到表、计分表或工作流程单整理为清晰的电子表格。",
+
+    "comparison_title": "手动录入 vs NoteOCR",
+    "comparison_subtitle": "为什么扫描外勤日志能节省大量时间？",
+    "comparison_col_method": "处理方式",
+    "comparison_col_time": "耗时",
+    "comparison_col_accuracy": "准确率",
+    "comparison_col_cost": "成本",
+    "row1_method": "在电脑上手动录入日志",
+    "row1_time": "20–30 分钟",
+    "row1_accuracy": "95%，存在输错风险",
+    "row1_cost": "工时人力成本",
+    "row2_method": "普通 OCR 应用",
+    "row2_time": "8 分钟",
+    "row2_accuracy": "约 55%，格式易走样",
+    "row2_cost": "免费 – 90 元",
+    "row3_method": "NoteOCR",
+    "row3_time": "不到 2 分钟",
+    "row3_accuracy": "数字识别率 98%",
+    "row3_cost": "免费试用",
+
+    "proof_title": "超过 10,000 名用户信赖的技术支撑。",
+    "proof_desc": "NoteOCR 的表格识别引擎每月在 noteocr.com 上为万余名用户处理日常工作日志与施工表单。",
+    "proof_stat_number": "10,000+",
+    "proof_stat_label": "已数字化并导出的工作日志页数",
+    "proof_quote": "我们的技术员都在现场填写纸质单据。有了 NoteOCR，他们还没发动车子，工单就已经转换成 Excel 发回总部了。",
+    "proof_quote_name": "刘经理",
+    "proof_quote_role": "运营主管",
+
+    "faq_title": "工作日志扫描常见问题",
+
+    "related_title": "NoteOCR 的更多应用场景",
+    "cta_title": "告别手动重新抄录纸质日志。",
+    "cta_subtitle": "直接扫描导出至 Excel。9 月 21 日起全面登陆 iOS 和 Android。",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "如何通过应用转换工作日志？",
+          "a": "打开 NoteOCR，点击“扫描”并拍摄文档。应用会自动分析表格结构，并在 2 分钟内生成 Excel 文件。"
+        },
+        "field_conditions": {
+          "q": "在户外或光线不佳的环境下拍摄有效吗？",
+          "a": "有效。NoteOCR 具备自动图像增强功能，可自动去除阴影并修正不均匀的光线。"
+        },
+        "no_drawn_lines": {
+          "q": "在没有画格子的表单上也能识别吗？",
+          "a": "能。应用会分析文本位置关系，将信息准确对齐排列到对应的行和列中。"
+        },
+        "multiple_columns": {
+          "q": "应用能处理多列的复杂日志吗？",
+          "a": "当然可以。NoteOCR 经过专门优化，即使面对多列、信息密集的复杂表单也能保持结构准确。"
+        },
+        "daily_logs_batch": {
+          "q": "可以每天定期扫描工作日志吗？",
+          "a": "可以，您可以根据需要天天使用，每份表单都会被准确转换为 Excel 格式。"
+        },
+        "export_format": {
+          "q": "导出的数据是什么格式？",
+          "a": "您将收到可直接下载的 .xlsx 文件，所有数据已按单元格规范分列。"
+        },
+        "team_use": {
+          "q": "技术团队可以协同使用这款应用吗？",
+          "a": "可以。每位外勤人员可以在各自手机上完成扫描，并将生成的 Excel 表格统一发送回管理后台。"
+        },
+        "free_or_paid": {
+          "q": "扫描工作日志免费吗？",
+          "a": "是的，应用提供每月免费扫描额度。针对外勤使用频繁的企业，我们提供 Pro 专业版订阅。"
+        }
+      }
+    }
+  },
+  "AppPage": {
+    "meta_title": "NoteOCR 移动应用 – 扫描并将手写内容转换为文字或 Excel | iOS 和 Android",
+    "meta_desc": "下载适用于 iOS 和 Android 的 NoteOCR 应用。使用手机摄像头扫描手写笔记，并立即将其转换为 Word、Excel 或 PDF。",
+
+    "nav_home": "首页",
+    "nav_features": "功能",
+    "nav_pricing": "价格",
+    "nav_download_button": "下载应用",
+
+    "hero_pill": "9 月 21 日上线 iOS 和 Android",
+    "hero_title": "扫描。转换。完成。现在，随身携带。",
+    "hero_subtitle": "NoteOCR 是一款适用于 iOS 和 Android 的手写转文字及手写转 Excel 应用。只需将摄像头对准任何手写笔记、表格或白板，NoteOCR 的 OCR 引擎即可将内容转换为可编辑的 Word、Excel 或 PDF 文档，无需等到回到电脑前。",
+    "hero_image_alt": "NoteOCR 应用相机扫描界面，将手机中的手写页面转换为文字",
+
+    "store_apple_top": "下载自",
+    "store_apple_bottom": "iOS App Store",
+    "store_google_top": "前往",
+    "store_google_bottom": "Google Play",
+
+    "why_pill": "为什么选择应用",
+    "why_title": "专为离开办公桌后的场景打造。",
+    "why_subtitle": "网页版适合在办公桌前使用，而 NoteOCR 移动应用是一款随时随地都能使用的手写扫描应用，无论是在课堂、客户会议、仓库还是档案馆，都可以轻松扫描和转换。",
+
+    "feature_1_title": "即时相机扫描",
+    "feature_1_desc": "对准、拍摄、转换，一气呵成；也可以直接从手机图库上传",
+    "feature_2_title": "即时下载",
+    "feature_2_desc": "转换完成后立即下载，并可通过各种应用快速分享文档",
+    "feature_3_title": "与账户同步",
+    "feature_3_desc": "每次扫描都会立即出现在你的 NoteOCR 控制面板中——同一个账户、同一批文档、任意设备都能访问。",
+    "feature_4_title": "即时通知",
+    "feature_4_desc": "文档准备完成后立即收到通知，无需一直停留在应用中等待。",
+
+    "how_title": "三次点击，从纸张变成文档。",
+    "how_subtitle": "NoteOCR 扫描应用只需三个步骤，就能将手写页面转换为可编辑文件：扫描、自动裁剪、导出。",
+    "how_image_alt": "NoteOCR 应用自动裁剪和增强界面及导出选项",
+    "step_1_title": "打开应用并点击扫描",
+    "step_1_desc": "打开 NoteOCR，将摄像头对准任何页面、白板或表格。",
+    "step_2_title": "自动裁剪并增强",
+    "step_2_desc": "自动检测页面边缘并校正光线，无需手动裁剪。",
+    "step_3_title": "直接导出为 Word、Excel 或 PDF",
+    "step_3_desc": "选择所需格式，几秒钟即可生成可分享的文档。",
+
+    "excel_title": "手写转 Excel：立即将表格转换为电子表格。",
+    "excel_desc": "NoteOCR 的手写转 Excel 功能可以拍摄手写日志、表格或清单，并自动识别行和列，将内容导出为整洁、结构化的 .xlsx 文件，可直接进行公式计算和排序。",
+    "excel_before_label": "转换前",
+    "excel_before_alt": "NoteOCR 转换前的手写数据表格",
+    "excel_after_label": "转换后",
+    "excel_after_alt": "NoteOCR 手写转 Excel 后生成的结构化 Excel 电子表格",
+
+    "text_title": "手写转文字：无论连笔、印刷体还是潦草字迹，都能准确转换。",
+    "text_desc": "NoteOCR 可将手写内容转换为文字，准确率达到 95–98%。其 OCR 模型针对印刷体和连笔手写等多种书写风格进行训练，包括倾斜或混合书写。",
+    "text_image_alt": "NoteOCR 将手写笔记转换为整洁的电脑文字",
+
+    "gallery_title": "看看 NoteOCR 的实际效果",
+    "screenshot_1_alt": "NoteOCR 应用相机扫描界面，正在拍摄手写页面",
+    "screenshot_2_alt": "NoteOCR 应用自动裁剪和增强预览界面",
+    "screenshot_3_alt": "NoteOCR 应用 Word、Excel 和 PDF 导出选项",
+    "screenshot_4_alt": "NoteOCR 应用控制面板，显示已同步的扫描文档",
+    "screenshot_5_alt": "NoteOCR 应用手写转 Excel 表格转换结果",
+
+    "faq_title": "常见问题",
+
+    "cta_title": "几秒钟即可开始转换手写内容。",
+    "cta_subtitle": "9 月 21 日上线 iOS 和 Android。免费下载。",
+
+    "modal_pill": "即将登陆 {store}",
+    "modal_title": "NoteOCR 将于 9 月 21 日上线",
+    "modal_desc": "我们正在完成应用的最后准备工作。请在上线当天回来查看，或者留下你的邮箱，我们会在应用正式上线后第一时间通知你。",
+    "modal_days": "天",
+    "modal_hrs": "小时",
+    "modal_min": "分钟",
+    "modal_sec": "秒",
+    "modal_email_placeholder": "you@email.com",
+    "modal_email_aria": "电子邮箱地址",
+    "modal_notify_button": "通知我",
+    "modal_store_fallback": "应用商店",
+
+    "footer_copyright": "© {year} NoteOCR。保留所有权利。",
+    "footer_privacy": "隐私政策",
+    "footer_terms": "服务条款",
+    "footer_contact": "联系我们",
+
+    "FAQ": {
+      "items": {
+        "notes_to_word_phone": {
+          "q": "可以直接用手机将手写笔记转换为 Word 吗？",
+          "a": "可以。打开 NoteOCR 应用，拍摄手写页面，应用会直接将内容转换为可编辑的 .docx 文件，无需使用电脑，也不需要通过网站上传。"
+        },
+        "table_to_excel_camera": {
+          "q": "如何使用手机摄像头将手写表格转换为 Excel 文件？",
+          "a": "打开 NoteOCR 应用，将摄像头对准手写表格并拍照。与 noteocr.com 相同的 OCR 引擎会自动识别表格中的行和列，并生成格式化的 .xlsx 电子表格，可直接下载或在手机上编辑。"
+        },
+        "old_letters_journals": {
+          "q": "这个应用可以将旧手写信件或日记数字化吗？",
+          "a": "可以。在 NoteOCR 应用中拍摄页面照片，它会将内容还原为可编辑的 Word 文档，让你可以从存放地点直接逐页数字化旧信件、日记或档案资料。"
+        },
+        "logs_on_the_go": {
+          "q": "可以在外出时扫描手写日志或清单，并获得电子表格吗？",
+          "a": "可以。使用 NoteOCR 应用的手机摄像头拍摄页面，内容会自动转换为结构化 Excel 文件。因此，无论是现场笔记、日志还是清单，都不必等回到办公桌前才能处理。"
+        },
+        "ios_android_app": {
+          "q": "NoteOCR 有 iPhone 和 Android 应用吗？",
+          "a": "有。NoteOCR 应用同时支持 iOS 和 Android，你可以直接用手机扫描并转换手写笔记，而不必只能通过网站操作。"
+        },
+        "push_notifications": {
+          "q": "扫描完成后，应用会通知我吗？",
+          "a": "会。NoteOCR 应用会在扫描内容完成转换后立即发送推送通知，因此你不需要一直停留在应用中等待。"
+        },
+        "plan_sync": {
+          "q": "我的 NoteOCR 套餐和页面额度可以同步到应用吗？",
+          "a": "可以。应用使用与 noteocr.com 相同的免费和付费套餐，因此无论你是在手机上扫描还是从电脑上传，每月页面额度以及 Pro 或 Business 功能都会同步适用。"
+        },
+        "free_download": {
+          "q": "NoteOCR 应用可以免费下载吗？",
+          "a": "可以，NoteOCR 应用免费下载。使用免费套餐即可立即开始转换手写笔记；如果需要更高的每月页面额度，也可以直接在应用内升级。"
+        }
+      }
+    }
+  },
+
   "HomePage": {
     "trust_pill": "V2.0 手写文字识别: 99.2% 准确率",
     "hero_title_1": "将手写文字转换为文本和",

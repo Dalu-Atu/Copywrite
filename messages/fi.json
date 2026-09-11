@@ -1,4 +1,702 @@
 {
+  "ClassNotesScannerPage": {
+    "meta_title": "Luentomuistiinpanojen skanneri – Käsiala Wordiksi | NoteOCR",
+    "meta_desc": "Skannaa käsin kirjoitetut koulu- ja luentomuistiinpanot puhelimellasi ja muunna ne muokattavaksi, haettavaksi Word-asiakirjaksi sekunneissa.",
+    "nav_label": "Luentomuistiinpanojen skanneri",
+    "hero_pill": "Opiskelijoille",
+    "hero_title": "Muunna käsin kirjoitetut luentomuistiinpanot haettavaksi Word-tiedostoksi jokaisen luennon jälkeen.",
+    "hero_subtitle": "Valokuvaa vihkosi sivu NoteOCR-sovelluksella ja saat selkeää, muokattavaa tekstiä opiskelua, hakua tai muistiinpanojen yhdistämistä varten.",
+    "hero_image_alt": "Opiskelijan käsin kirjoitettuja luentomuistiinpanoja skannataan ja muunnetaan NoteOCR-sovelluksella",
+
+    "trust_1": "SSL-suojattu",
+    "trust_2": "Valmis alle 2 minuutissa",
+    "trust_3": "95–98 % tekstintunnistustarkkuus",
+
+    "pain_eyebrow": "Muistiinpanosi, vihdoin hyötykäytössä",
+    "pain_title": "Muuta käsin kirjoitetut muistiinpanot digitaaliseksi tekstiksi, jota voit todella käyttää.",
+    "pain_desc": "Käsin kirjoittaminen on erinomaista nopeatempoisella luennolla. Mutta kun haluat hakea, muokata, jakaa tai koota lukupaketin, paperi on tielläsi. NoteOCR muuntaa käsialan selkeäksi ja muokattavaksi digitaaliseksi tekstiksi ilman, että sinun täytyy kirjoittaa kaikkea uudelleen.",
+    "before_after_eyebrow": "Katso miten se toimii",
+    "before_after_title": "Huomaa ero",
+    "before_after_desc": "Aito vihkon sivu luentomuistiinpanoista muunrettuna muokattavaksi Word-asiakirjaksi.",
+    "before_label": "Ennen: Vihkon sivu",
+    "before_alt": "Sivu käsin kirjoitettuja luentomuistiinpanoja ennen muunnosta",
+    "after_label": "Jälkeen: Word-asiakirja",
+    "after_alt": "Samat muistiinpanot muunnettuna haettavaksi Word-asiakirjaksi",
+
+    "how_eyebrow": "Kuinka se toimii",
+    "how_title": "Vihkosta lukupaketiksi kolmessa vaiheessa.",
+    "how_subtitle": "Skannaa heti luennon jälkeen, kun asia on vielä tuoreena mielessä.",
+    "step_1_title": "Avaa sovellus ja napauta Skannaa",
+    "step_1_desc": "Valokuvaa vihkosi sivu heti luennon päätyttyä tai tauon aikana.",
+    "step_2_title": "Automaattinen rajaus ja parannus",
+    "step_2_desc": "Toimii myös taipuneilla vihkon sivuilla tai luentosalin epätasaisessa valaistuksessa.",
+    "step_3_title": "Vie Wordiin ja opiskele",
+    "step_3_desc": "Liitä teksti opiskelumateriaaliisi tai säilytä se haettavana tiedostona.",
+
+    "who_title": "Kuka skannaa luentomuistiinpanoja NoteOCR:llä?",
+    "who_subtitle": "Opiskelijat, jotka kirjoittavat muistiinpanot käsin, mutta tarvitsevat ne digitaalisessa muodossa.",
+    "audience_1_title": "Korkeakoulu- ja yliopisto-opiskelijat",
+    "audience_1_desc": "Digitoi luentomuistiinpanot ja rakenna haettava lukupaketti ennen tenttejä.",
+    "audience_2_title": "Lukiolaiset ja toisen asteen opiskelijat",
+    "audience_2_desc": "Muunna oppituntien muistiinpanot tekstiksi, jonka voit liittää tehtäviin tai jakaa luokkakavereille.",
+    "audience_3_title": "Opintoryhmät",
+    "audience_3_desc": "Yhdistä kaikkien käsin kirjoitetut muistiinpanot yhteen jaettuun digitaaliseen asiakirjaan.",
+    "audience_4_title": "Esteetön muistiinpanojen teko",
+    "audience_4_desc": "Muuta käsin kirjoitetut muistiinpanot tekstiksi, jota on helppo lukea, suurentaa tai käyttää ruudunlukuohjelmalla.",
+
+    "comparison_title": "Uudelleenkirjoitus vs. NoteOCR",
+    "comparison_subtitle": "Miksi skannaus voittaa muistiinpanojen käsin puhtaaksi kirjoittamisen",
+    "comparison_col_method": "Menetelmä",
+    "comparison_col_time": "Aika",
+    "comparison_col_accuracy": "Tarkkuus",
+    "comparison_col_cost": "Hinta",
+    "row1_method": "Kirjoita muistiinpanot uudelleen käsin",
+    "row1_time": "20–30 minuuttia",
+    "row1_accuracy": "100 %, mutta hidas",
+    "row1_cost": "Ilmainen (oma aikasi)",
+    "row2_method": "Tavallinen OCR-sovellus",
+    "row2_time": "5 minuuttia",
+    "row2_accuracy": "~65 % käsialalla",
+    "row2_cost": "Ilmainen – 8 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Alle 2 minuuttia",
+    "row3_accuracy": "95–98 %",
+    "row3_cost": "Ilmainen aloittaa",
+
+    "proof_title": "Rakennettu samalle teknologialle, johon jo yli 10 000 käyttäjää luottaa.",
+    "proof_desc": "NoteOCR:n käsialamoottori digitoi jo yli 10 000 ihmisen muistiinpanoja osoitteessa noteocr.com. Sovellus tuo saman tarkkuuden puhelimeesi heti luennon jälkeen.",
+    "proof_stat_number": "10 000+",
+    "proof_stat_label": "Muunnettua muistiinpanoa kuukaudessa verkossa ja mobiilissa",
+    "proof_quote": "Skannaan luentomuistiinpanoni heti tunnin päätyttyä, ja ne ovat haettavissa jo ennen kuin lähden rakennuksesta.",
+    "proof_quote_name": "Priya M.",
+    "proof_quote_role": "Yliopisto-opiskelija",
+
+    "faq_title": "Usein kysytyt kysymykset luentomuistiinpanojen skannauksesta",
+
+    "related_title": "Lisää tapoja käyttää NoteOCR-sovellusta",
+    "cta_title": "Lopeta omien muistiinpanojesi puhtaaksikirjoittaminen.",
+    "cta_subtitle": "Skannaa ne Wordiin heti luennon jälkeen. Julkaistaan 21. syyskuuta iOS:lle ja Androidille.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Miten muunnan luentomuistiinpanoni sovelluksella?",
+          "a": "Avaa NoteOCR, napauta Skannaa ja valokuvaa vihkosi sivu. Sovellus muuntaa käsialasi muokattavaksi Word-asiakirjaksi alle kahdessa minuutissa, valmiina liitettäväksi lukupakettiisi."
+        },
+        "messy_handwriting": {
+          "q": "Toimiiko tämä, jos käsialani on epäselvää?",
+          "a": "Kyllä, useimmissa tapauksissa. NoteOCR on koulutettu monenlaisilla käsialatyyleillä, mukaan lukien nopeasti kirjoitetut muistiinpanot. Erittäin hätäinen tai päällekkäinen kirjoitus saattaa vaatia pieniä korjauksia muunnoksen jälkeen."
+        },
+        "lecture_slides_mixed_notes": {
+          "q": "Pystyykö se käsittelemään tekstiä, jonka joukossa on kaavioita tai diojen viitteitä?",
+          "a": "NoteOCR muuntaa sivulla olevan käsin kirjoitetun tekstin. Kaavioita ja piirroksia ei muunneta tekstiksi, mutta niitä ympäröivä kirjoitettu teksti tunnistetaan tarkasti."
+        },
+        "study_from_converted_notes": {
+          "q": "Voinko hakea tai korostaa muistiinpanojani muunnoksen jälkeen?",
+          "a": "Kyllä. Kun muistiinpanosi ovat Word-asiakirjassa, ne ovat täysin haettavissa ja muokattavissa, joten voit korostaa, kommentoida tai järjestellä niitä opiskelua varten."
+        },
+        "free_for_students": {
+          "q": "Onko sovellus ilmainen opiskelijoille?",
+          "a": "Kyllä. Sovellus sisältää ilmaisen kuukausittaisen sivukiintiön, joka riittää useimmille opiskelijoille muistiinpanojen säännölliseen digitointiin ilman maksua."
+        },
+        "multiple_languages": {
+          "q": "Toimiiko se muilla kielillä kuin englanniksi?",
+          "a": "NoteOCR tukee useita kieliä käsialantunnistuksessa, joten omalla äidinkielellään muistiinpanoja tekevät opiskelijat voivat myös muuntaa ne tekstiksi."
+        },
+        "sync_across_devices": {
+          "q": "Pääsenkö skannattuihin muistiinpanoihini käsiksi myös kannettavalla tietokoneellani?",
+          "a": "Kyllä. Kirjaudu sisään samalla NoteOCR-tilillä, niin skannatut muistiinpanosi synkronoituvat automaattisesti noteocr.com-palveluun."
+        },
+        "accuracy": {
+          "q": "Kuinka tarkka käsialan muunnos on luentomuistiinpanoissa?",
+          "a": "NoteOCR muuntaa luettavan käsialan 95–98 % tarkkuudella. Tarkista tekniset termit, nimet ja kaavat ennen kuin tukeudut niihin tenteissä."
+        }
+      }
+    }
+  },
+  "LetterScannerPage": {
+    "meta_title": "Muunna vanhat käsinkirjoitetut kirjeet Wordiksi | NoteOCR",
+    "meta_desc": "Skannaa vanhat käsinkirjoitetut kirjeet, kortit ja päiväkirjat puhelimellasi ja muuta ne muokattavaksi, haettavaksi Word-asiakirjaksi ikuista säilytystä varten.",
+    "nav_label": "Kirjeiden skanneri",
+    "hero_pill": "Perheille ja arkistoille",
+    "hero_title": "Muuta käsinkirjoitetut kirjeet digitaalisiksi asiakirjoiksi, jotka voit säilyttää, muokata ja jakaa.",
+    "hero_subtitle": "Valokuvaa vanha kirje, sukukortti tai päiväkirjan sivu NoteOCR:llä ja muunna käsiala selkeäksi tekstiksi tai Word-tiedostoksi — ilman uudelleenkirjoittamista.",
+    "hero_image_alt": "Vanhaa käsinkirjoitettua kirjetta skannataan ja muunnetaan NoteOCR-sovelluksella",
+
+    "trust_1": "SSL-suojattu",
+    "trust_2": "Valmis alle 2 minuutissa",
+    "trust_3": "95–98 % tekstintunnistustarkkuus",
+
+    "pain_eyebrow": "Säilytä se mikä on tärkeää",
+    "pain_title": "Vanhojen käsinkirjoitettujen kirjeiden ei pitäisi kadota paperin mukana.",
+    "pain_desc": "Sukukirjeet, postikortit ja päiväkirjansivut sisältävät säilyttämisen arvoisia tarinoita. Mutta paperi haalistuu, repeää ja katoaa ajan myötä. NoteOCR muuttaa käsinkirjoitetut asiakirjat selkeäksi, muokattavaksi digitaaliseksi tekstiksi, jotta sanoja voidaan hakea, jakaa ja säilyttää sukupolvien ajan.",
+    "before_after_eyebrow": "Katso miten se toimii",
+    "before_after_title": "Huomaa ero",
+    "before_after_desc": "Aito käsinkirjoitettu kirje muunrettuna muokattavaksi Word-asiakirjaksi.",
+    "before_label": "Ennen: Käsinkirjoitettu kirje",
+    "before_alt": "Vanha käsinkirjoitettu kirje ennen muunnosta",
+    "after_label": "Jälkeen: Word-asiakirja",
+    "after_alt": "Sama kirje muunnettuna haettavaksi Word-asiakirjaksi",
+
+    "how_eyebrow": "Kuinka se toimii",
+    "how_title": "Vintin laatikosta digitaaliseen arkistoon kolmessa vaiheessa.",
+    "how_subtitle": "Erillistä skanneria ei tarvita — puhelimesi kamera riittää.",
+    "step_1_title": "Avaa sovellus ja napauta Skannaa",
+    "step_1_desc": "Valokuvaa kirje tasaisella alustalla hyvässä valaistuksessa, sivu kerrallaan.",
+    "step_2_title": "Automaattinen rajaus ja parannus",
+    "step_2_desc": "Toimii myös vanhentuneella, haalistuneella tai kellastuneella paperilla.",
+    "step_3_title": "Vie Wordiin ja arkistoi",
+    "step_3_desc": "Tallenna teksti alkuperäisen valokuvan rinnalle pitkäaikaiseksi digitaaliseksi tallenteeksi.",
+
+    "who_title": "Kuka digitoi kirjeitä NoteOCR:llä?",
+    "who_subtitle": "Jokainen, joka haluaa säilyttää käsinkirjoitettua historiaa.",
+    "audience_1_title": "Perheet ja suvut",
+    "audience_1_desc": "Muuta isovanhempien kirjeet asiakirjaksi, jota kaikki sisarukset ja sukulaiset voivat lukea ja jakaa.",
+    "audience_2_title": "Sukututkijat",
+    "audience_2_desc": "Digitoi kirjeenvaihto ja päiväkirjat osaksi suku- ja henkilöhistorian rakentamista.",
+    "audience_3_title": "Kotiseutututkijat ja historioitsijat",
+    "audience_3_desc": "Muunna käsinkirjoitetut paikallisarkistot tai päiväkirjat haettavaksi tekstiksi.",
+    "audience_4_title": "Kuolinpesien ja arkistojen järjestäjät",
+    "audience_4_desc": "Luo digitaalinen arkisto käsinkirjoitetuista kirjeistä ja korteista ennen alkuperäiskappaleiden säilöön panemista.",
+
+    "comparison_title": "Kirjoittaminen vs. NoteOCR",
+    "comparison_subtitle": "Miksi skannaus voittaa kirjeen puhtaaksikirjoittamisen käsin",
+    "comparison_col_method": "Menetelmä",
+    "comparison_col_time": "Aika",
+    "comparison_col_accuracy": "Tarkkuus",
+    "comparison_col_cost": "Hinta",
+    "row1_method": "Kirjoita kirje uudelleen käsin",
+    "row1_time": "30–45 minuuttia",
+    "row1_accuracy": "100 %, mutta erittäin hidas",
+    "row1_cost": "Ilmainen (oma aikasi)",
+    "row2_method": "Tavallinen OCR-sovellus",
+    "row2_time": "5–8 minuuttia",
+    "row2_accuracy": "~60 % kaunokirjoituksella",
+    "row2_cost": "Ilmainen – 10 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Alle 2 minuuttia",
+    "row3_accuracy": "95–98 %",
+    "row3_cost": "Ilmainen aloittaa",
+
+    "proof_title": "Rakennettu samalle teknologialle, johon jo yli 10 000 käyttäjää luottaa.",
+    "proof_desc": "NoteOCR:n käsialamoottori digitoi jo asiakirjoja yli 10 000 ihmiselle osoitteessa noteocr.com, mukaan lukien vanhat tekstit ja kaunokirjoituksen.",
+    "proof_stat_number": "10 000+",
+    "proof_stat_label": "Käsinkirjoitettua sivua digitoitu ja säilytetty",
+    "proof_quote": "Skannasin isoäitini koko kirjekokoelman yhdessä iltapäivässä. Nyt koko perheemme voi lukea niitä.",
+    "proof_quote_name": "Daniel R.",
+    "proof_quote_role": "Sukuarkiston hoitaja",
+
+    "faq_title": "Usein kysytyt kysymykset kirjeiden digitoinnista",
+
+    "related_title": "Lisää tapoja käyttää NoteOCR-sovellusta",
+    "cta_title": "Älä anna vanhojen kirjeiden haalistua pois.",
+    "cta_subtitle": "Digitoi ne Wordiin ennen kuin paperi haurastuu. Julkaistaan 21. syyskuuta iOS:lle ja Androidille.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Miten digitoin vanhan kirjeen sovelluksella?",
+          "a": "Avaa NoteOCR, napauta Skannaa ja valokuvaa kirje hyvässä valaistuksessa. Sovellus muuntaa käsialan muokattavaksi Word-asiakirjaksi alle kahdessa minuutissa."
+        },
+        "old_faded_letters": {
+          "q": "Toimiiko se vanhoissa tai haalistuneissa kirjeissä?",
+          "a": "NoteOCR:n automaattinen kuvanparannus korjaa haalistunutta mustetta, paperin värjäytymiä ja epätasasta valoa, mutta erittäin vaurioitunut teksti saattaa vaatia manuaalista tarkistusta."
+        },
+        "cursive_and_old_scripts": {
+          "q": "Pystyykö se lukemaan vanhanaikaista kaunokirjoitusta?",
+          "a": "Kyllä, NoteOCR on koulutettu tunnistamaan erilaisia kaunokirjoitustyylejä ja vanhempia käsialatyyppejä, vaikka erittäin koristeelliset tyylit saattavat vaatia pientä hienosäätöä."
+        },
+        "preserve_originals": {
+          "q": "Korvaako kirjeen muuntaminen tekstiksi alkuperäisen asiakirjan?",
+          "a": "Ei. NoteOCR luo vain tekstiversion; fyysistä kirjetta ei muuteta mitenkään. Monet käyttäjät säilyttävät kuvan alkuperäisestä kirjeestä muunnetun tekstin rinnalla."
+        },
+        "batch_of_letters": {
+          "q": "Voinko skannata koko laatikollisen kirjeitä?",
+          "a": "Kyllä, voit skannata kirjeet yksi kerrallaan sovelluksessa. Jokaisesta muodostuu oma Word-asiakirjansa, joten koko kokoelma on helppo digitoida sivu sivulta."
+        },
+        "family_archive_use": {
+          "q": "Sopiiko tämä sukuarkiston luomiseen?",
+          "a": "Kyllä. Monet perheet käyttävät NoteOCR-sovellusta kirjeiden, päiväkirjojen ja korttien muuntamiseen jaetuksi digitaaliseksi arkistoksi, jota on helppo lukea ja siirtää eteenpäin."
+        },
+        "accuracy": {
+          "q": "Kuinka tarkka muunnos on käsinkirjoitetuissa kirjeissä?",
+          "a": "Tarkkuus on yleensä 95–98 % selkeässä käsialassa. Vanhemmat tai monimutkaisemmat käsialat saattavat vaatia nimien, päivämäärien ja harvinaisten sanojen tarkistamista."
+        },
+        "privacy_of_personal_letters": {
+          "q": "Ovatko skannaamani kirjeiden tiedot yksityisiä?",
+          "a": "Kyllä. Lataukset ovat kryptattuja, eikä NoteOCR jaa tai myy tietojasi. Henkilökohtaisilla ja sukusi asiakirjoilla on samat tietosuojakäytännöt kuin muillakin tiedostoilla."
+        }
+      }
+    }
+  },
+  "InventoryCountScannerPage": {
+    "meta_title": "Inventaariolomakkeen skanneri Exceliin | NoteOCR",
+    "meta_desc": "Skannaa käsin kirjoitetut inventaariolistat puhelimellasi ja saat jäsennellyn Excel-taulukon välittömästi. Ei enää varastolistojen syöttämistä toimistolla.",
+    "nav_label": "Inventaarioskanneri",
+    "hero_pill": "Varastoille ja pienyrityksille",
+    "hero_title": "Muuta käsin kirjoitetut inventaariolaskelmat Excel-taulukoksi ennen kuin poistut varastosta.",
+    "hero_subtitle": "Valokuvaa inventaariolomakkeesi NoteOCR-sovelluksella ja saat valmiiksi jäsennellyn .xlsx-tiedoston riveineen ja sarakkeineen, valmiina toimistokäyttöön.",
+    "hero_image_alt": "Varaston käsin kirjoitettua inventaariolomaketta skannataan NoteOCR-sovelluksella",
+
+    "trust_1": "SSL-suojattu",
+    "trust_2": "Valmis alle 2 minuutissa",
+    "trust_3": "98 % numeerinen tarkkuus",
+
+    "pain_eyebrow": "Varastotiimeille",
+    "pain_title": "Lopeta käsin kirjoitettujen varastolaskelmien syöttäminen Exceliin.",
+    "pain_desc": "Kirjoitusalustalle kirjattuja inventaariolaskelmia ei pitäisi joutua syöttämään uudelleen tietokoneella. NoteOCR muuntaa käsin kirjoitetut inventaariolistat selkeäksi, muokattavaksi Excel-dataksi, mikä säästää tiimisi aikaa ja ehkäisee manuaalisen syötön virheitä.",
+    "before_after_eyebrow": "Katso miten se toimii",
+    "before_after_title": "Huomaa ero",
+    "before_after_desc": "Aito käsin kirjoitettu inventaariolomake muunrettuna jäsennellyksi taulukoksi.",
+    "before_label": "Ennen: Käsin kirjoitettu inventaariolomake",
+    "before_alt": "Varaston käsin kirjoitettu inventaariolomake ennen muunnosta",
+    "after_label": "Jälkeen: Excel-taulukko",
+    "after_alt": "Sama inventaariolaskelma muunnettuna jäsennellyksi Excel-taulukoksi",
+
+    "how_eyebrow": "Kuinka se toimii",
+    "how_title": "Kirjoitusalustalta taulukkolaskentaan kolmessa vaiheessa.",
+    "how_subtitle": "Muunna laskelmat heti varastotilassa, älä vasta työpöydän ääressä.",
+    "step_1_title": "Avaa sovellus ja napauta Skannaa",
+    "step_1_desc": "Valokuvaa inventaariolomake heti, kun osio on laskettu.",
+    "step_2_title": "Tunnista rivit ja sarakkeet automaattisesti",
+    "step_2_desc": "Toimii myös lomakkeilla, joissa ei ole valmiita ruudukkoviivoja.",
+    "step_3_title": "Vie Exceliin ja lähetä",
+    "step_3_desc": "Lataa .xlsx-tiedosto ja jaa se välittömästi toimistolle.",
+
+    "who_title": "Kuka skannaa inventaarioita NoteOCR:llä?",
+    "who_subtitle": "Kaikki, jotka laskevat varastoa paperille ennen sen siirtämistä taulukkolaskentaan.",
+    "audience_1_title": "Varastotyöntekijät",
+    "audience_1_desc": "Muunna hyllylaskelmat Exceliksi kävelemättä takaisin yhteiselle tietokonepisteelle.",
+    "audience_2_title": "Pienet vähittäiskaupat",
+    "audience_2_desc": "Digitoi varastolaskelmat täydennystilauksia varten ilman manuaalista uudelleenkirjoitusta.",
+    "audience_3_title": "Ravintola- ja keittiöpäälliköt",
+    "audience_3_desc": "Muuta käsin kirjoitetut raaka-aine- ja varastolistat taulukoiksi hävikin ja kustannusten seurantaa varten.",
+    "audience_4_title": "Kenttäauditoijat",
+    "audience_4_desc": "Taltioi paikan päällä tehdyt laskelmat ja toimita valmis taulukko vielä saman päivän aikana.",
+
+    "comparison_title": "Manuaalinen syöttö vs. NoteOCR",
+    "comparison_subtitle": "Miksi skannaus voittaa varastolaskelmien käsin syöttämisen",
+    "comparison_col_method": "Menetelmä",
+    "comparison_col_time": "Aika",
+    "comparison_col_accuracy": "Tarkkuus",
+    "comparison_col_cost": "Hinta",
+    "row1_method": "Syötä laskelmat käsin tietokoneelle",
+    "row1_time": "30–40 minuuttia",
+    "row1_accuracy": "95 %, numerovirheet tavallisia",
+    "row1_cost": "15 €/h työvoimakustannus",
+    "row2_method": "Tavallinen OCR-sovellus",
+    "row2_time": "8 minuuttia",
+    "row2_accuracy": "~55 %, hävittää taulukkorakenteen",
+    "row2_cost": "Ilmainen – 15 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Alle 2 minuuttia",
+    "row3_accuracy": "98 % numeerinen tarkkuus",
+    "row3_cost": "Ilmainen aloittaa",
+
+    "proof_title": "Rakennettu samalle teknologialle, johon jo yli 10 000 käyttäjää luottaa.",
+    "proof_desc": "NoteOCR:n taulukoidentunnistusmoottori digitoi jo käsin kirjoitettua dataa yli 10 000 ihmiselle osoitteessa noteocr.com, mukaan lukien inventaario- ja talouslomakkeet.",
+    "proof_stat_number": "98 %",
+    "proof_stat_label": "Keskimääräinen numeerinen tarkkuus käsin kirjoitetuissa laskelmissa",
+    "proof_quote": "Ennen meiltä meni 20 minuuttia joka vuorossa laskelmien naputteluun koneelle. Nyt se on tehty ennen kuin poistumme varastosta.",
+    "proof_quote_name": "Marcus T.",
+    "proof_quote_role": "Varastoesimies",
+
+    "faq_title": "Usein kysytyt kysymykset inventaariolaskelmien skannauksesta",
+
+    "related_title": "Lisää tapoja käyttää NoteOCR-sovellusta",
+    "cta_title": "Lopeta varastolaskelmien naputtelu koneelle.",
+    "cta_subtitle": "Skannaa ne suoraan Exceliin. Julkaistaan 21. syyskuuta iOS:lle ja Androidille.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Miten muunnan inventaariolomakkeen sovelluksella?",
+          "a": "Avaa NoteOCR, napauta Skannaa ja valokuvaa laskentalomake. Sovellus tunnistaa rivit ja sarakkeet automaattisesti ja vie jäsennellyn Excel-tiedoston alle kahdessa minuutissa."
+        },
+        "no_drawn_lines": {
+          "q": "Toimiiko se inventaariolistoissa, joissa ei ole piirrettyjä ruudukkoviivoja?",
+          "a": "Kyllä. NoteOCR tunnistaa taulukkorakenteen tekstin ryhmittelystä ja väleistä, joten tyhjälle tai viivoitetulle paperille kirjoitetut listat muuntuvat oikein ilman valmista ruudukkoa."
+        },
+        "numeric_accuracy": {
+          "q": "Kuinka tarkka se on erityisesti numeroiden osalta?",
+          "a": "Numeerinen tarkkuus on noin 98 %, sillä malli on optimoitu numeroille ja määrille. Tarkista aina loppusummat ennen tilauksien tekemistä."
+        },
+        "multiple_sheets_per_day": {
+          "q": "Voinko skannata useita inventaariolomakkeita saman vuoron aikana?",
+          "a": "Kyllä, jokainen lomake skannataan ja muunnetaan erikseen, joten voit käsitellä niin monta lomaketta kuin ehdit vuoron aikana täyttää."
+        },
+        "export_format": {
+          "q": "Minkä tiedostomuodon saan käyttööni?",
+          "a": "Saat ladattavan Excel-tiedoston (.xlsx), jossa laskelmat on järjestetty riveihin ja sarakkeisiin, valmiina avattavaksi Excelissä, Google Sheetsissä tai toiminnanohjausjärjestelmässäsi."
+        },
+        "team_use": {
+          "q": "Voivatko useat tiimini jäsenet käyttää tätä samassa varastossa?",
+          "a": "Kyllä. Jokainen tiimin jäsen voi skannata oman osionsa puhelimellaan, ja kaikki tiedostot voidaan yhdistää Excelissä jälkikäteen."
+        },
+        "offline_warehouse_use": {
+          "q": "Toimiiko se varastoissa, joissa on huono WiFi- tai verkkoyhteys?",
+          "a": "Voit ottaa valokuvat ilman verkkoyhteyttä. Muunnos tapahtuu heti, kun palaat verkon kantama-alueelle, joten katvealueet eivät estä työntekoa."
+        },
+        "free_or_paid": {
+          "q": "Onko inventaarioiden skannaus ilmaista?",
+          "a": "Kyllä, mukana tulee ilmainen kuukausittainen sivukiintiö. Yritykset, jotka skannaavat laskelmia päivittäin, voivat päivittää suuremman volyymin tilaukseen."
+        }
+      }
+    }
+  },
+  "ReceiptToExcelScannerPage": {
+    "meta_title": "Kuittiskanneri – Muunna kuitit Exceliksi | NoteOCR",
+    "meta_desc": "Skannaa paperikuitit puhelimellasi ja saat jäsennellyn Excel-taulukon kuluistasi välittömästi. Suunniteltu freelancerit, pienyritykset ja veroilmoituksia varten.",
+    "nav_label": "Kuitista Exceliksi -skanneri",
+    "hero_pill": "Freelancereille ja pienyrityksille",
+    "hero_title": "Muuta kenkälaatikollinen kuitteja Excel-kuluerittelyksi.",
+    "hero_subtitle": "Valokuvaa jokainen kuitti NoteOCR-sovelluksella ja saat päivämäärän, summan ja myyjän poimittuna valmiiseen taulukkoon kirjanpitoa tai verotusta varten.",
+    "hero_image_alt": "Paperikuittia skannataan ja muunnetaan Excel-taulukoksi NoteOCR-sovelluksella",
+
+    "trust_1": "SSL-suojattu",
+    "trust_2": "Valmis alle 2 minuutissa",
+    "trust_3": "98 % numeerinen tarkkuus",
+
+    "pain_eyebrow": "Paperista taulukkolaskentaan",
+
+    "pain_title": "Kuitit kasaantuvat. Manuaalisen syötön ei pitäisi.",
+
+    "pain_desc": "Kuitit sisältävät tarvitsemasi tiedot kuluja, verotusta ja korvauksia varten, mutta jokaisen päivämäärän, kaupan ja summan naputtelu Exceliin vie aikaa. NoteOCR muuttaa kuitit jäsennellyksi, muokattavaksi taulukkomuotoiseksi dataksi, jotta sinun ei tarvitse syöttää niitä yksi kerrallaan.",
+    "before_after_eyebrow": "Katso miten se toimii",
+    "before_after_title": "Huomaa ero",
+    "before_after_desc": "Aito paperikuitti muunrettuna jäsennellyksi kuluriviksi.",
+    "before_label": "Ennen: Paperikuitti",
+    "before_alt": "Paperikuitti ennen muunnosta",
+    "after_label": "Jälkeen: Excel-rivi",
+    "after_alt": "Sama kuitti muunnettuna jäsennellyksi riviksi Excel-taulukossa",
+
+    "how_eyebrow": "Kuinka se toimii",
+    "how_title": "Kuitista taulukkoon kolmessa vaiheessa.",
+    "how_subtitle": "Skannaa kuitti ennen kuin se haalistuu tai katoaa.",
+    "step_1_title": "Avaa sovellus ja napauta Skannaa",
+    "step_1_desc": "Valokuvaa kuitti heti ostoksen jälkeen, ennen kuin teksti haalistuu.",
+    "step_2_title": "Tunnista summat ja päivämäärät automaattisesti",
+    "step_2_desc": "Valuuttasymbolit, loppusummat ja päivämäärät tunnistetaan automaattisesti.",
+    "step_3_title": "Vie Exceliin ja seuraa kuluja",
+    "step_3_desc": "Lataa .xlsx-tiedosto, lisää se kuluseurantaasi tai lähetä se kirjanpitäjällesi.",
+
+    "who_title": "Kuka skannaa kuitteja NoteOCR:llä?",
+    "who_subtitle": "Kaikki, jotka seuraavat kuluja paperikuiteista.",
+    "audience_1_title": "Freelancerit ja ammatinharjoittajat",
+    "audience_1_desc": "Muuta asiakaskulujen kuittinippu taulukoksi laskutusta varten.",
+    "audience_2_title": "Pienyrittäjät",
+    "audience_2_desc": "Digitoi päivittäiset kuitit kirjanpitoa varten ilman tietojen syöttämistä käsin.",
+    "audience_3_title": "Kirjanpitäjät ja tilitoimistot",
+    "audience_3_desc": "Muunna asiakkaiden toimittamat paperikuitit valmiiksi taulukoiksi täsmäytystä varten.",
+    "audience_4_title": "Matkustavat työntekijät",
+    "audience_4_desc": "Skannaa matkakuitit tien päällä ja rakenna kuluraportti valmiiksi ennen kotiinpaluuta.",
+
+    "comparison_title": "Manuaalinen syöttö vs. NoteOCR",
+    "comparison_subtitle": "Miksi skannaus voittaa kuittien naputtelun yksi kerrallaan",
+    "comparison_col_method": "Menetelmä",
+    "comparison_col_time": "Aika",
+    "comparison_col_accuracy": "Tarkkuus",
+    "comparison_col_cost": "Hinta",
+    "row1_method": "Kirjoita jokainen kuitti käsin koneelle",
+    "row1_time": "2–3 minuuttia / kuitti",
+    "row1_accuracy": "95 %, inhimillisiä virheitä",
+    "row1_cost": "Ilmainen (oma aikasi)",
+    "row2_method": "Tavallinen OCR-sovellus",
+    "row2_time": "1 minuutti / kuitti",
+    "row2_accuracy": "~70 % haalistuneilla kuiteilla",
+    "row2_cost": "Ilmainen – 10 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Alle 2 minuuttia yhteensä",
+    "row3_accuracy": "98 % numeerinen tarkkuus",
+    "row3_cost": "Ilmainen aloittaa",
+
+    "proof_title": "Rakennettu samalle teknologialle, johon jo yli 10 000 käyttäjää luottaa.",
+    "proof_desc": "NoteOCR:n teknologia muuntaa jo talousasiakirjoja yli 10 000 ihmiselle osoitteessa noteocr.com, optimoituna erityisesti numeroille ja valuutoille.",
+    "proof_stat_number": "98 %",
+    "proof_stat_label": "Numeerinen tarkkuus skannatuissa kuiteissa",
+    "proof_quote": "Veroilmoitusaika tarkoitti ennen kenkälaatikollista kuitteja. Nyt skannaan ne heti saatuani ja vien suoraan Exceliin.",
+    "proof_quote_name": "Elena V.",
+    "proof_quote_role": "Freelance-muotoilija",
+
+    "faq_title": "Usein kysytyt kysymykset kuittien skannauksesta",
+
+    "related_title": "Lisää tapoja käyttää NoteOCR-sovellusta",
+    "cta_title": "Lopeta kuittien syöttäminen käsin.",
+    "cta_subtitle": "Skannaa ne suoraan Exceliin. Julkaistaan 21. syyskuuta iOS:lle ja Androidille.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Miten muunnan kuitin sovelluksella?",
+          "a": "Avaa NoteOCR, napauta Skannaa ja valokuvaa kuitti. Sovellus poimii summat ja tiedot jäsennellyksi Excel-riviksi alle kahdessa minuutissa."
+        },
+        "faded_receipts": {
+          "q": "Toimiiko se haalistuneilla lämpöpaperikuiteilla?",
+          "a": "NoteOCR:n kuvanparannus korjaa tyypillisiä lämpökuittien ongelmia, kuten haalistunutta tekstiä ja heijastuksia. Erittäin huonokuntoiset kuitit voivat kuitenkin vaatia manuaalista tarkistusta."
+        },
+        "currency_symbols": {
+          "q": "Tunnistaako se valuuttasymbolit ja desimaalit oikein?",
+          "a": "Kyllä, malli on koulutettu tunnistamaan valuuttasymbolit, desimaalit ja loppusummat tarkasti — alue, jossa monet yleiset OCR-työkalut epäonnistuvat."
+        },
+        "batch_of_receipts": {
+          "q": "Voinko skannata nipullisen kuitteja kerralla?",
+          "a": "Tällä hetkellä jokainen kuitti skannataan erikseen parhaan tarkkuuden saavuttamiseksi. Suuria kuittimääriä varten voit hyödyntää API-rajapintaamme massakäsittelyyn."
+        },
+        "tax_season_use": {
+          "q": "Onko tämä hyödyllinen kuitteja järjesteltäessä veroilmoitusta varten?",
+          "a": "Kyllä. Monet freelancerit ja pienyritykset käyttävät NoteOCR-sovellusta digitaalisen kuluarkiston rakentamiseen paperikuiteista ennen veroilmoituksen jättämistä."
+        },
+        "export_format": {
+          "q": "Mmissä muodossa saan kuitin tiedot?",
+          "a": "Ladattavana Excel-tiedostona (.xlsx), jossa summa, päivämäärä ja ostopaikka on järjestetty sarakkeisiin, valmiina kirjanpito-ohjelmaasi tai tilitoimistollesi."
+        },
+        "accuracy_on_numbers": {
+          "q": "Kuinka tarkka se on erityisesti loppusummien kohdalla?",
+          "a": "Numeerinen tarkkuus on noin 98 %, sillä malli on optimoitu numeroille ja valuutoille. Varmista aina summat ennen kulukorvausten tai veroilmoituksen lähettämistä."
+        },
+        "privacy_of_financial_data": {
+          "q": "Ovatko taloustietoni turvassa, kun skannaan kuitin?",
+          "a": "Kyllä. Lataukset ovat kryptattuja, eikä NoteOCR tallenna tai jaa tietojasi skannauksen käsittelyn ulkopuolelle."
+        }
+      }
+    }
+  },
+  "LogSheetScannerPage": {
+    "meta_title": "Lokikirja- ja päiväkirjaskanneri – Exceliin | NoteOCR",
+    "meta_desc": "Skannaa käsin kirjoitetut lokikirjat, tuotantopäiväkirjat tai kenttätaulukot puhelimellasi ja saat jäsennellyn Excel-taulukon sekunneissa.",
+    "nav_label": "Lokikirjojen skanneri",
+    "hero_pill": "Kenttätiimeille ja operatiiviseen työhön",
+    "hero_title": "Muuta käsin kirjoitettu lokikirja Excel-tiedostoksi ennen kuin palaat toimistolle.",
+    "hero_subtitle": "Valokuvaa kentälokisi, tuotantopäiväkirjasi tai tarkastuskorttisi NoteOCR-sovelluksella ja saat jäsennellyn taulukon rivit ja sarakkeet säilyttäen.",
+    "hero_image_alt": "Käsin kirjoitettua kenttätyön lokikirjaa skannataan ja muunnetaan NoteOCR-sovelluksella",
+
+    "trust_1": "SSL-suojattu",
+    "trust_2": "Valmis alle 2 minuutissa",
+    "trust_3": "98 % numeerinen tarkkuus",
+
+    "pain_eyebrow": "Digitoi kenttätyön paperit",
+
+    "pain_title": "Lopeta käsin kirjoitettujen lokien ja tarkastuslomakkeiden naputtelu koneelle.",
+
+    "pain_desc": "Tuotantolokeja, tarkastuslomakkeita ja kenttäraportteja täytetään usein käsin paikan päällä, ja ne syötetään myöhemmin manuaalisesti järjestelmiin. NoteOCR muuttaa käsin kirjoitetut kenttäasiakirjat selkeäksi, muokattavaksi tekstiksi, auttaen tiimejä taltioimaan ja järjestämään kenttädataa nopeammin.",
+    "before_after_eyebrow": "Katso miten se toimii",
+    "before_after_title": "Huomaa ero",
+    "before_after_desc": "Aito käsin kirjoitettu lokikirjan sivu muunrettuna jäsennellyksi taulukoksi.",
+    "before_label": "Ennen: Käsin kirjoitettu lokisivu",
+    "before_alt": "Käsin kirjoitettu kenttätyön lokisivu ennen muunnosta",
+    "after_label": "Jälkeen: Excel-taulukko",
+    "after_alt": "Sama lokisivu muunnettuna jäsennellyksi Excel-taulukoksi",
+
+    "how_eyebrow": "Kuinka se toimii",
+    "how_title": "Kirjoitusalustalta taulukkolaskentaan kolmessa vaiheessa.",
+    "how_subtitle": "Muunna lokitiedot paikan päällä, älä vasta jälkikäteen.",
+    "step_1_title": "Avaa sovellus ja napauta Skannaa",
+    "step_1_desc": "Valokuvaa lokisivu heti, kun se on täytetty.",
+    "step_2_title": "Tunnista rivit ja sarakkeet automaattisesti",
+    "step_2_desc": "Toimii viivoitetuilla, ruudutetuilla tai tyhjillä paperilokeilla.",
+    "step_3_title": "Vie Exceliin ja raportoi",
+    "step_3_desc": "Lataa .xlsx-tiedosto ja lähetä se päivän raportointia varten.",
+
+    "who_title": "Kuka skannaa lokikirjoja NoteOCR:llä?",
+    "who_subtitle": "Jokainen, joka kirjaa kenttä- tai tuotantotietoja käsin.",
+    "audience_1_title": "Kenttäteknikot ja huoltajat",
+    "audience_1_desc": "Muunna tarkastus- tai huoltolokit Exceliksi ilman, että tarvitset kannettavaa tietokonetta paikan päällä.",
+    "audience_2_title": "Tuotantoesimiehet",
+    "audience_2_desc": "Digitoi työvuorojen tuotantolokit päivittäistä raportointia varten.",
+    "audience_3_title": "Laboratorio- ja tutkimustiimit",
+    "audience_3_desc": "Muuta laboratorio-osioiden käsin kirjoitetut muistiinpanot taulukoksi analysointia varten.",
+    "audience_4_title": "Valmentajat ja toimitsijat",
+    "audience_4_desc": "Muunna käsin kirjoitetut pöytäkirjat tai tilastomerkinnät taulukkolaskentaan ottelun jälkeen.",
+
+    "comparison_title": "Manuaalinen syöttö vs. NoteOCR",
+    "comparison_subtitle": "Miksi skannaus voittaa kenttälokien syöttämisen käsin",
+    "comparison_col_method": "Menetelmä",
+    "comparison_col_time": "Aika",
+    "comparison_col_accuracy": "Tarkkuus",
+    "comparison_col_cost": "Hinta",
+    "row1_method": "Kirjoita lokitiedot käsin tietokoneelle",
+    "row1_time": "20–30 minuuttia",
+    "row1_accuracy": "95 %, inhimillisiä virheitä",
+    "row1_cost": "15 €/h työvoimakustannus",
+    "row2_method": "Tavallinen OCR-sovellus",
+    "row2_time": "8 minuuttia",
+    "row2_accuracy": "~55 %, hävittää taulukkorakenteen",
+    "row2_cost": "Ilmainen – 15 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Alle 2 minuuttia",
+    "row3_accuracy": "98 % numeerinen tarkkuus",
+    "row3_cost": "Ilmainen aloittaa",
+
+    "proof_title": "Rakennettu samalle teknologialle, johon jo yli 10 000 käyttäjää luottaa.",
+    "proof_desc": "NoteOCR:n taulukkomoottori digitoi jo käsin kirjoitettuja lokeja ja mittauspöytäkirjoja yli 10 000 ihmiselle osoitteessa noteocr.com.",
+    "proof_stat_number": "10 000+",
+    "proof_stat_label": "Kenttä- ja tuotantolokia muunrettu",
+    "proof_quote": "Teknikkomme täyttävät tarkastuslomakkeet paperille kentällä. NoteOCR muuttaa ne Exceliksi ennen kuin he palaavat huoltoautolle.",
+    "proof_quote_name": "Sam K.",
+    "proof_quote_role": "Kenttätoimintojen päällikkö",
+
+    "faq_title": "Usein kysytyt kysymykset lokikirjojen skannauksesta",
+
+    "related_title": "Lisää tapoja käyttää NoteOCR-sovellusta",
+    "cta_title": "Lopeta kenttälokien uudelleenkirjoittaminen.",
+    "cta_subtitle": "Skannaa ne suoraan Exceliin. Julkaistaan 21. syyskuuta iOS:lle ja Androidille.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Miten muunnan lokisivun sovelluksella?",
+          "a": "Avaa NoteOCR, napauta Skannaa ja valokuvaa lokisivu. Sovellus tunnistaa taulukkorakenteen ja vie jäsennellyn Excel-tiedoston alle kahdessa minuutissa."
+        },
+        "field_conditions": {
+          "q": "Toimiiko se ulkona tai huonossa valaistuksessa otetuissa kuvissa?",
+          "a": "Kyllä, NoteOCR:n automaattinen kuvanparannus korjaa tyypillisiä kenttäolosuhteita, kuten heijastuksia, varjoja ja epätasaista valoa. Erittäin hämärät tai sumeat kuvat saattavat vaatia uuden otoksen."
+        },
+        "no_drawn_lines": {
+          "q": "Toimiiko se lokeissa, joissa ei ole piirrettyjä ruudukkoviivoja?",
+          "a": "Kyllä. NoteOCR tunnistaa rivit ja sarakkeet tekstin ryhmittelystä, joten viivoitetut tai puhtaat paperilokit ilman ruudukkoa muuntuvat oikein."
+        },
+        "multiple_columns": {
+          "q": "Pystyykö se käsittelemään monisarakkeisia lokisivuja?",
+          "a": "Kyllä, NoteOCR on rakennettu säilyttämään monisarakkeiset taulukkorakenteet, joita käytetään usein tuotanto- ja tarkastuslokeissa, pitäen otsikot kohdistettuina oikeaan dataan."
+        },
+        "daily_logs_batch": {
+          "q": "Voinko skannata uuden lokisivun joka päivä?",
+          "a": "Kyllä, skannauskerroilla ei ole rajoitusta. Jokainen lokisivu muunnetaan erikseen omaksi taulukokseen."
+        },
+        "export_format": {
+          "q": "Mmissä muodossa saan tiedot käyttööni?",
+          "a": "Ladattavana Excel-tiedostona (.xlsx), jossa lokitiedot on järjestetty riveihin ja sarakkeisiin, valmiina raportointia tai jatkoanalyysia varten."
+        },
+        "team_use": {
+          "q": "Voivatko useat kenttätyöntekijät käyttää tätä samaan projektiin?",
+          "a": "Kyllä. Jokainen tiimin jäsen voi skannata oman lokisivunsa puhelimellaan, ja muodostuneet taulukot voidaan yhdistää raportointia varten."
+        },
+        "free_or_paid": {
+          "q": "Onko lokikirjojen skannaus ilmaista?",
+          "a": "Kyllä, mukana tulee ilmainen kuukausittainen sivukiintiö. Tiimit, jotka skannaavat lokeja päivittäin, voivat päivittää suuremman volyymin tilauksiin."
+        }
+      }
+    }
+  },
+  "AppPage": {
+    "meta_title": "NoteOCR-mobiilisovellus – Skannaa ja muunna käsinkirjoitus tekstiksi tai Exceliksi | iOS ja Android",
+    "meta_desc": "Lataa NoteOCR-sovellus iOS- ja Android-laitteille. Skannaa käsinkirjoitetut muistiinpanot kameralla ja muunna ne hetkessä Word-, Excel- tai PDF-tiedostoiksi.",
+    "nav_home": "Etusivu",
+    "nav_features": "Ominaisuudet",
+    "nav_pricing": "Hinnat",
+    "nav_download_button": "Lataa sovellus",
+
+    "hero_pill": "Julkaistaan 21. syyskuuta iOS:lle ja Androidille",
+    "hero_title": "Skannaa. Muunna. Valmis. Nyt taskussasi.",
+    "hero_subtitle": "NoteOCR on iOS- ja Android-sovellus, jolla voit muuntaa käsinkirjoituksen tekstiksi ja Exceliksi. Osoita kameralla mitä tahansa käsinkirjoitettua muistiinpanoa, lomaketta tai valkotaulua, ja NoteOCR:n OCR-moottori muuntaa sen muokattavaksi Word-, Excel- tai PDF-dokumentiksi ennen kuin laitat puhelimen takaisin taskuun.",
+    "hero_image_alt": "NoteOCR-sovelluksen kameraskannauksen näkymä, jossa käsinkirjoitettu sivu muunnetaan tekstiksi puhelimella",
+
+    "store_apple_top": "Lataa",
+    "store_apple_bottom": "iOS App Storesta",
+    "store_google_top": "Lataa",
+    "store_google_bottom": "Google Playsta",
+
+    "why_pill": "Miksi sovellus",
+    "why_title": "Suunniteltu hetkiin, jolloin et ole työpöytäsi ääressä.",
+    "why_subtitle": "Verkkosovellus on erinomainen työpöydällä. NoteOCR-mobiilisovellus on käsinkirjoituksen skannaussovellus, joka on suunniteltu käytettäväksi missä tahansa – luentosaleissa, asiakastapaamisissa, varastoissa tai arkistoissa.",
+
+    "feature_1_title": "Skannaa kameralla heti",
+    "feature_1_desc": "Osoita, kuvaa ja muunna yhdellä liikkeellä tai lataa kuva suoraan galleriastasi",
+    "feature_2_title": "Lataa heti",
+    "feature_2_desc": "Lataa ja jaa muunnettu dokumenttisi heti kaikissa sovelluksissa",
+    "feature_3_title": "Synkronoitu tilisi kanssa",
+    "feature_3_desc": "Jokainen skannaus näkyy heti NoteOCR-hallintapaneelissasi – sama tili, samat dokumentit, mikä tahansa laite.",
+    "feature_4_title": "Välittömät ilmoitukset",
+    "feature_4_desc": "Saat ilmoituksen heti, kun dokumenttisi on valmis, joten sinun ei tarvitse jäädä odottamaan.",
+
+    "how_title": "Paperista dokumentiksi kolmella napautuksella.",
+    "how_subtitle": "NoteOCR-skannaussovellus muuntaa käsinkirjoitetun sivun muokattavaksi tiedostoksi kolmessa vaiheessa: skannaa, rajaa automaattisesti ja vie tiedosto.",
+    "how_image_alt": "NoteOCR-sovelluksen automaattisen rajauksen ja parannuksen näkymä sekä vientivaihtoehdot",
+    "step_1_title": "Avaa sovellus ja napauta Skannaa",
+    "step_1_desc": "Avaa NoteOCR ja osoita kameralla sivua, valkotaulua tai lomaketta.",
+    "step_2_title": "Rajaa ja paranna automaattisesti",
+    "step_2_desc": "Reunat tunnistetaan ja valaistus korjataan automaattisesti – manuaalista rajaamista ei tarvita.",
+    "step_3_title": "Vie suoraan Wordiin, Exceliin tai PDF:ksi",
+    "step_3_desc": "Valitse tiedostomuoto, ja dokumenttisi on valmis jaettavaksi muutamassa sekunnissa.",
+
+    "excel_title": "Käsinkirjoituksesta Exceliksi: muuta taulukot laskentataulukoiksi hetkessä.",
+    "excel_desc": "NoteOCR:n käsinkirjoitus Exceliksi -muunnos kuvaa käsinkirjoitettuja lokitietoja, taulukoita tai luetteloita, tunnistaa automaattisesti rivit ja sarakkeet ja vie siistit, rakenteiset .xlsx-tiedostot, jotka ovat valmiita kaavoja ja lajittelua varten.",
+    "excel_before_label": "Ennen",
+    "excel_before_alt": "Käsinkirjoitettu tietotaulukko ennen NoteOCR-muunnosta",
+    "excel_after_label": "Jälkeen",
+    "excel_after_alt": "Rakenteinen Excel-laskentataulukko NoteOCR:n käsinkirjoituksesta Exceliksi -muunnoksen jälkeen",
+
+    "text_title": "Käsinkirjoituksesta tekstiksi: kaunokirjoitus, tekstikirjoitus tai epäselvä käsiala – tarkasti muunnettuna.",
+    "text_desc": "NoteOCR muuntaa käsinkirjoituksen tekstiksi 95–98 %:n tarkkuudella. Sen OCR-malli on koulutettu sekä tekstaus- että kaunokirjoitukseen, mukaan lukien vinot ja sekamuotoiset käsialat.",
+    "text_image_alt": "Käsinkirjoitettu muistiinpano, jonka NoteOCR muuntaa selkeäksi koneella kirjoitetuksi tekstiksi",
+
+    "gallery_title": "Katso NoteOCR toiminnassa",
+    "screenshot_1_alt": "NoteOCR-sovelluksen kameraskannauksen näkymä, jossa kuvataan käsinkirjoitettua sivua",
+    "screenshot_2_alt": "NoteOCR-sovelluksen esikatselu automaattisella rajauksella ja kuvan parannuksella",
+    "screenshot_3_alt": "NoteOCR-sovelluksen vientivaihtoehdot Word-, Excel- ja PDF-tiedostoille",
+    "screenshot_4_alt": "NoteOCR-sovelluksen hallintapaneeli, jossa näkyvät synkronoidut skannatut dokumentit",
+    "screenshot_5_alt": "NoteOCR-sovelluksen tulos käsinkirjoitetun taulukon muuntamisesta Exceliksi",
+
+    "faq_title": "Usein kysytyt kysymykset",
+
+    "cta_title": "Aloita käsinkirjoituksen muuntaminen sekunneissa.",
+    "cta_subtitle": "Julkaistaan 21. syyskuuta iOS:lle ja Androidille. Ilmainen lataus.",
+
+    "modal_pill": "Tulossa pian: {store}",
+    "modal_title": "NoteOCR julkaistaan 21. syyskuuta",
+    "modal_desc": "Viimeistelemme parhaillaan sovellusta. Palaa julkaisupäivänä tai jätä sähköpostiosoitteesi, niin ilmoitamme heti, kun sovellus on saatavilla.",
+    "modal_days": "päivää",
+    "modal_hrs": "t",
+    "modal_min": "min",
+    "modal_sec": "s",
+    "modal_email_placeholder": "sinä@email.com",
+    "modal_email_aria": "Sähköpostiosoite",
+    "modal_notify_button": "Ilmoita minulle",
+    "modal_store_fallback": "sovelluskauppoihin",
+
+    "footer_copyright": "© {year} NoteOCR. Kaikki oikeudet pidätetään.",
+    "footer_privacy": "Tietosuoja",
+    "footer_terms": "Käyttöehdot",
+    "footer_contact": "Yhteystiedot",
+
+    "FAQ": {
+      "items": {
+        "notes_to_word_phone": {
+          "q": "Voinko muuntaa käsinkirjoitetut muistiinpanot Wordiksi puhelimella?",
+          "a": "Kyllä. Avaa NoteOCR-sovellus, ota kuva käsinkirjoitetusta sivustasi, ja se muunnetaan suoraan muokattavaksi .docx-tiedostoksi – tietokonetta tai verkkosivuston kautta tehtävää latausta ei tarvita."
+        },
+        "table_to_excel_camera": {
+          "q": "Miten voin muuntaa käsinkirjoitetun taulukon Excel-tiedostoksi kameran avulla?",
+          "a": "Osoita NoteOCR-sovelluksen kameralla taulukkoa, ota kuva, ja sama noteocr.com-palvelua käyttävä moottori tunnistaa rivit ja sarakkeet sekä luo muotoillun .xlsx-laskentataulukon, jonka voit ladata tai jota voit muokata puhelimellasi."
+        },
+        "old_letters_journals": {
+          "q": "Voiko sovellus digitoida vanhoja käsinkirjoitettuja kirjeitä tai päiväkirjoja?",
+          "a": "Kyllä. Ota sivusta kuva NoteOCR-sovelluksella, ja se muodostaa tekstin muokattavaksi Word-dokumentiksi. Näin voit digitoida vanhoja kirjeitä, päiväkirjoja tai arkistoja sivu kerrallaan riippumatta siitä, missä niitä säilytetään."
+        },
+        "logs_on_the_go": {
+          "q": "Voinko skannata käsinkirjoitetun lokin tai luettelon liikkeellä ollessani ja saada siitä laskentataulukon?",
+          "a": "Kyllä. Kuvaa sivu puhelimesi kameralla NoteOCR-sovelluksessa, ja se muunnetaan automaattisesti rakenteiseksi Excel-tiedostoksi. Näin kenttämuistiinpanojen, lokien ja luetteloiden ei tarvitse odottaa siihen asti, että palaat työpöytäsi ääreen."
+        },
+        "ios_android_app": {
+          "q": "Onko NoteOCR-sovellusta iPhonelle ja Androidille?",
+          "a": "Kyllä. NoteOCR-sovellus on saatavilla sekä iOS:lle että Androidille, joten voit skannata ja muuntaa käsinkirjoitettuja muistiinpanoja suoraan puhelimellasi sen sijaan, että käyttäisit vain verkkosivustoa."
+        },
+        "push_notifications": {
+          "q": "Ilmoittaako sovellus, kun skannaukseni on valmis?",
+          "a": "Kyllä. NoteOCR-sovellus lähettää push-ilmoituksen heti, kun skannaus on muunnettu, joten sinun ei tarvitse jäädä odottamaan sovellukseen."
+        },
+        "plan_sync": {
+          "q": "Siirtyvätkö NoteOCR-tilaukseni ja sivurajani myös sovellukseen?",
+          "a": "Kyllä. Sovellus käyttää samoja ilmaisia ja maksullisia tilauksia kuin noteocr.com, joten kuukausittainen sivukiintiösi sekä mahdolliset Pro- tai Business-ominaisuudet ovat käytettävissä riippumatta siitä, skannaatko puhelimella vai lataatko dokumentteja tietokoneeltasi."
+        },
+        "free_download": {
+          "q": "Onko NoteOCR-sovelluksen lataaminen ilmaista?",
+          "a": "Kyllä, NoteOCR-sovelluksen lataaminen on ilmaista. Voit aloittaa käsinkirjoitettujen muistiinpanojen muuntamisen heti ilmaisella tilauksella ja päivittää sovelluksessa maksulliseen tilaukseen, jos tarvitset suuremman kuukausittaisen sivurajan."
+        }
+      }
+    }
+  },
+
   "HomePage": {
     "trust_pill": "V2.0 Käsialan OCR: 99,2 % Tarkkuus",
     "hero_title_1": "Muunna käsiala tekstiksi ja",

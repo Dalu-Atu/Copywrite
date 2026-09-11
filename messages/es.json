@@ -1,4 +1,704 @@
-{
+
+  {
+  "ClassNotesScannerPage": {
+    "meta_title": "Escáner de Apuntes de Clase – Manuscrito a Word | NoteOCR",
+    "meta_desc": "Escanea tus apuntes de clase manuscritos con el móvil y conviértelos en un documento de Word editable y buscable en segundos.",
+    "nav_label": "Escáner de Apuntes de Clase",
+    "hero_pill": "Para estudiantes",
+    "hero_title": "Convierte tus apuntes manuscritos en un documento de Word buscable tras cada clase.",
+    "hero_subtitle": "Fotografía tu libreta con la app de NoteOCR y obtén texto limpio y editable para estudiar, buscar o pegar en tus resúmenes.",
+    "hero_image_alt": "Apuntes manuscritos de un estudiante siendo escaneados y convertidos por la app NoteOCR",
+
+    "trust_1": "Encriptación SSL",
+    "trust_2": "Listo en menos de 2 minutos",
+    "trust_3": "95–98% de precisión de texto",
+
+    "pain_eyebrow": "Tus apuntes, por fin útiles",
+    "pain_title": "Convierte notas manuscritas en texto digital realmente útil.",
+    "pain_desc": "Escribir a mano es perfecto para tomar notas rápido. Pero al buscar, editar, compartir o crear una guía de estudio, el papel es una limitación. NoteOCR convierte tus apuntes manuscritos en texto digital limpio y editable sin pasar horas reescribiéndolos.",
+    "before_after_eyebrow": "Míralo en acción",
+    "before_after_title": "Compara la diferencia",
+    "before_after_desc": "Una página real de libreta con apuntes de clase, convertida en un documento de Word editable.",
+    "before_label": "Antes: Página de libreta",
+    "before_alt": "Página con apuntes de clase manuscritos antes de la conversión",
+    "after_label": "Después: Documento de Word",
+    "after_alt": "Los mismos apuntes convertidos en un documento de Word buscable",
+
+    "how_eyebrow": "Cómo funciona",
+    "how_title": "De la libreta a tu guía de estudio en tres pasos.",
+    "how_subtitle": "Escanea justo después de clase, mientras el tema está fresco.",
+    "step_1_title": "Abre la app y toca Escanear",
+    "step_1_desc": "Fotografía la página de tu libreta al terminar la clase o entre lecturas.",
+    "step_2_title": "Recorte automático y mejora",
+    "step_2_desc": "Funciona incluso en páginas curvadas o con iluminación irregular en el aula.",
+    "step_3_title": "Exporta a Word y estudia",
+    "step_3_desc": "Pega el texto en tus documentos de repaso o guárdalo como archivo buscable.",
+
+    "who_title": "¿Quién escanea apuntes de clase con NoteOCR?",
+    "who_subtitle": "Estudiantes que toman notas a mano pero las necesitan en formato digital.",
+    "audience_1_title": "Estudiantes universitarios",
+    "audience_1_desc": "Digitaliza apuntes de clases para crear guías de estudio buscables antes de los exámenes.",
+    "audience_2_title": "Estudiantes de secundaria y bachillerato",
+    "audience_2_desc": "Convierte apuntes en texto para pegarlos en tareas o compartirlos con tus compañeros.",
+    "audience_3_title": "Grupos de estudio",
+    "audience_3_desc": "Combina las notas manuscritas de todo el grupo en un solo documento digital compartido.",
+    "audience_4_title": "Tomar notas accesibles",
+    "audience_4_desc": "Convierte apuntes a mano en texto más fácil de leer, ampliar o usar con lectores de pantalla.",
+
+    "comparison_title": "Reescribir a mano vs. NoteOCR",
+    "comparison_subtitle": "Por qué escanear es mucho mejor que reescribir tus apuntes",
+    "comparison_col_method": "Método",
+    "comparison_col_time": "Tiempo",
+    "comparison_col_accuracy": "Precisión",
+    "comparison_col_cost": "Coste",
+    "row1_method": "Reescribir notas a mano",
+    "row1_time": "20–30 minutos",
+    "row1_accuracy": "100%, pero lento",
+    "row1_cost": "Gratis (tu tiempo)",
+    "row2_method": "App OCR genérica",
+    "row2_time": "5 minutos",
+    "row2_accuracy": "~65% en letra manuscrita",
+    "row2_cost": "Gratis – 8 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Menos de 2 minutos",
+    "row3_accuracy": "95–98%",
+    "row3_cost": "Gratis para empezar",
+
+    "proof_title": "Basado en el mismo motor en el que confían más de 10.000 usuarios.",
+    "proof_desc": "El motor de reconocimiento de manuscritos de NoteOCR ya convierte notas para más de 10.000 personas en noteocr.com. La app lleva la misma precisión a tu móvil, justo al terminar la clase.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Apuntes convertidos cada mes en web y móvil",
+    "proof_quote": "Escaneo mis apuntes en cuanto termina la clase y ya puedo buscarlos en el móvil antes de salir del edificio.",
+    "proof_quote_name": "Priya M.",
+    "proof_quote_role": "Estudiante universitaria",
+
+    "faq_title": "Preguntas frecuentes sobre cómo escanear apuntes de clase",
+
+    "related_title": "Más formas de usar NoteOCR",
+    "cta_title": "Deja de pasar a limpio tus propios apuntes.",
+    "cta_subtitle": "Escanéalos directamente a Word al terminar la clase. Lanzamiento el 21 de septiembre en iOS y Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "¿Cómo convierto mis apuntes de clase con la aplicación?",
+          "a": "Abre NoteOCR, toca en Escanear y fotografia la página de tu libreta. La app convierte tu letra manuscrita en un documento de Word editable en menos de dos minutos, listo para pegar en tu guía de estudio."
+        },
+        "messy_handwriting": {
+          "q": "¿Funciona si tengo la letra fea o desordenada?",
+          "a": "Sí, en la mayoría de los casos. NoteOCR está entrenado con una gran variedad de estilos de letra manuscrita, incluyendo notas rápidas e irregulares. Si la letra es muy apresurada o hay trazos superpuestos, podría requerir pequeñas correcciones tras la conversión."
+        },
+        "lecture_slides_mixed_notes": {
+          "q": "¿Puede procesar notas mezcladas con diagramas o diapositivas?",
+          "a": "NoteOCR convierte el texto manuscrito de la página. Los diagramas y dibujos no se convertirán en texto, pero el texto escrito alrededor se extraerá con precisión."
+        },
+        "study_from_converted_notes": {
+          "q": "¿Puedo buscar o resaltar texto en mis notas después de convertirlas?",
+          "a": "Sí. Una vez que tus apuntes están en un documento de Word, son totalmente buscables y editables, por lo que puedes resaltar, comentar o reorganizar el contenido para estudiar."
+        },
+        "free_for_students": {
+          "q": "¿La aplicación es gratuita para estudiantes?",
+          "a": "Sí. La app incluye un cupo de páginas gratuitas al mes, suficiente para que la mayoría de estudiantes digitalicen sus apuntes de forma habitual sin pagar."
+        },
+        "multiple_languages": {
+          "q": "¿Funciona en idiomas distintos al inglés?",
+          "a": "NoteOCR admite múltiples idiomas para el reconocimiento de escritura a mano, por lo que los estudiantes que toman notas en su idioma nativo también pueden convertirlas."
+        },
+        "sync_across_devices": {
+          "q": "¿Puedo acceder a mis apuntes escaneados desde mi portátil?",
+          "a": "Sí. Inicia sesión con la misma cuenta de NoteOCR y tus apuntes escaneados se sincronizarán automáticamente con noteocr.com."
+        },
+        "accuracy": {
+          "q": "¿Qué tan precisa es la conversión de letra manuscrita a texto en apuntes de clase?",
+          "a": "NoteOCR convierte la escritura a mano con una precisión del 95–98% en textos legibles. Te recomendamos revisar términos técnicos, nombres y fórmulas antes de usarlos para repasar exámenes."
+        }
+      }
+    }
+  },
+  "LetterScannerPage": {
+    "meta_title": "Convertir Cartas Manuscritas Antiguas a Word | NoteOCR",
+    "meta_desc": "Escanea cartas antiguas, postales y diarios manuscritos con tu móvil y conviértelos en un documento de Word editable y buscable para siempre.",
+    "nav_label": "Escáner de Cartas",
+    "hero_pill": "Para familias y archivos",
+    "hero_title": "Convierte cartas manuscritas en documentos digitales para conservar, editar y compartir.",
+    "hero_subtitle": "Fotografía una carta antigua, una tarjeta familiar o una página de diario con NoteOCR y convierte la letra manuscrita en texto digital limpio o en Word, sin reescribir nada.",
+    "hero_image_alt": "Una carta manuscrita antigua siendo escaneada y convertida por la app NoteOCR",
+
+    "trust_1": "Encriptación SSL",
+    "trust_2": "Listo en menos de 2 minutos",
+    "trust_3": "95–98% de precisión de texto",
+
+    "pain_eyebrow": "Conserva lo que importa",
+    "pain_title": "Las cartas manuscritas antiguas no deberían desaparecer con el papel.",
+    "pain_desc": "Las cartas familiares, postales y diarios guardan historias que vale la pena conservar. Pero con el tiempo, el papel se deteriora, se rompe o se pierde. NoteOCR convierte documentos manuscritos en texto digital limpio y editable para que esas palabras se puedan buscar, compartir y guardar durante generaciones.",
+    "before_after_eyebrow": "Míralo en acción",
+    "before_after_title": "Compara la diferencia",
+    "before_after_desc": "Una carta manuscrita real, convertida en un documento de Word editable.",
+    "before_label": "Antes: Carta manuscrita",
+    "before_alt": "Una carta manuscrita antigua antes de la conversión",
+    "after_label": "Después: Documento de Word",
+    "after_alt": "La misma carta convertida en un documento de Word buscable",
+
+    "how_eyebrow": "Cómo funciona",
+    "how_title": "Del baúl del desván al archivo digital en tres pasos.",
+    "how_subtitle": "Sin necesidad de un escáner especial: solo con la cámara de tu móvil.",
+    "step_1_title": "Abre la app y toca Escanear",
+    "step_1_desc": "Fotografía la carta sobre una superficie plana, con buena luz y página por página.",
+    "step_2_title": "Recorte automático y mejora",
+    "step_2_desc": "Funciona en papel antiguo, amarillento o ligeramente descolorido.",
+    "step_3_title": "Exporta a Word y archiva",
+    "step_3_desc": "Guarda el texto junto con una foto del original para tener un registro digital duradero.",
+
+    "who_title": "¿Quién digitaliza cartas con NoteOCR?",
+    "who_subtitle": "Cualquier persona que desee preservar la historia manuscrita.",
+    "audience_1_title": "Familias",
+    "audience_1_desc": "Convierte las cartas de los abuelos en un documento que todos los hermanos puedan leer y compartir.",
+    "audience_2_title": "Genealogistas",
+    "audience_2_desc": "Digitaliza correspondencia y diarios como parte de la construcción del árbol genealógico e historia familiar.",
+    "audience_3_title": "Historiadores locales",
+    "audience_3_desc": "Convierte registros comunitarios o diarios manuscritos en texto digital consultable.",
+    "audience_4_title": "Organizadores de patrimonios",
+    "audience_4_desc": "Crea un registro digital de cartas y tarjetas manuscritas antes de archivar los originales.",
+
+    "comparison_title": "Escribir a mano vs. NoteOCR",
+    "comparison_subtitle": "Por qué escanear supera a reescribir una carta manualmente",
+    "comparison_col_method": "Método",
+    "comparison_col_time": "Tiempo",
+    "comparison_col_accuracy": "Precisión",
+    "comparison_col_cost": "Coste",
+    "row1_method": "Reescribir la carta manualmente",
+    "row1_time": "30–45 minutos",
+    "row1_accuracy": "100%, pero muy lento",
+    "row1_cost": "Gratis (tu tiempo)",
+    "row2_method": "App OCR genérica",
+    "row2_time": "5–8 minutos",
+    "row2_accuracy": "~60% en letra cursiva",
+    "row2_cost": "Gratis – 10 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Menos de 2 minutos",
+    "row3_accuracy": "95–98%",
+    "row3_cost": "Gratis para empezar",
+
+    "proof_title": "Basado en el mismo motor en el que confían más de 10.000 usuarios.",
+    "proof_desc": "El motor de reconocimiento manuscrito de NoteOCR ya digitaliza documentos para más de 10.000 personas en noteocr.com, incluyendo caligrafía antigua y letra cursiva.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Páginas manuscritas digitalizadas y conservadas",
+    "proof_quote": "Escaneé la colección completa de cartas de mi abuela en una tarde. Ahora toda mi familia puede leerlas.",
+    "proof_quote_name": "Daniel R.",
+    "proof_quote_role": "Archivero familiar",
+
+    "faq_title": "Preguntas frecuentes sobre la digitalización de cartas",
+
+    "related_title": "Más formas de usar NoteOCR",
+    "cta_title": "No dejes que las cartas antiguas se desvanezcan.",
+    "cta_subtitle": "Digitalízalas a Word antes de que el papel se deteriore. Lanzamiento el 21 de septiembre en iOS y Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "¿Cómo digitalizo una carta antigua con la aplicación?",
+          "a": "Abre NoteOCR, toca en Escanear y fotografía la carta con buena iluminación. La app convierte la letra manuscrita en un documento de Word editable en menos de dos minutos."
+        },
+        "old_faded_letters": {
+          "q": "¿Funciona con cartas antiguas o descoloridas?",
+          "a": "La mejora automática de NoteOCR corrige la tinta descolorida, las manchas del papel y la iluminación desigual, aunque los textos muy deteriorados pueden requerir una revisión manual."
+        },
+        "cursive_and_old_scripts": {
+          "q": "¿Puede leer caligrafía cursiva o letra antigua?",
+          "a": "Sí, NoteOCR está entrenado en diversos estilos de cursiva y caligrafía antigua, aunque los trazos muy ornamentados o inusuales pueden requerir pequeñas correcciones."
+        },
+        "preserve_originals": {
+          "q": "¿Convertir una carta a texto reemplaza el documento original?",
+          "a": "No. NoteOCR solo crea una versión en texto; la carta física no se modifica en absoluto. Muchos usuarios guardan una foto del original junto con el texto convertido."
+        },
+        "batch_of_letters": {
+          "q": "¿Puedo escanear una caja entera de cartas?",
+          "a": "Sí, puedes escanear las cartas una a una en la app; cada una se convierte en su propio documento de Word, por lo que es muy fácil digitalizar colecciones completas página a página."
+        },
+        "family_archive_use": {
+          "q": "¿Es adecuado para crear un archivo familiar?",
+          "a": "Sí. Muchas familias utilizan NoteOCR para convertir cartas, diarios y tarjetas en un archivo digital compartido, fácil de leer y transmitir de generación en generación."
+        },
+        "accuracy": {
+          "q": "¿Qué tan precisa es la conversión de cartas manuscritas?",
+          "a": "La precisión suele ser del 95–98% en manuscritos claros. Las caligrafías más antiguas o complejas pueden requerir la revisión de nombres, fechas y palabras poco comunes."
+        },
+        "privacy_of_personal_letters": {
+          "q": "¿Es privada la información de mis cartas escaneadas?",
+          "a": "Sí. Las cargas están encriptadas y NoteOCR no comparte ni vende tus datos. Tus documentos personales y familiares cuentan con las mismas garantías de privacidad que cualquier otro archivo."
+        }
+      }
+    }
+  },
+  "InventoryCountScannerPage": {
+    "meta_title": "Escáner de Hojas de Inventario a Excel | NoteOCR",
+    "meta_desc": "Escanea conteos de inventario manuscritos con tu móvil y obtén una plantilla de Excel estructurada al instante. Olvídate de pasar datos en la oficina.",
+    "nav_label": "Escáner de Inventarios",
+    "hero_pill": "Para almacenes y PYMES",
+    "hero_title": "Convierte conteos de inventario manuscritos en tablas de Excel antes de salir del almacén.",
+    "hero_subtitle": "Fotografía tu hoja de inventario con la app NoteOCR y obtén un archivo .xlsx estructurado con filas y columnas intactas, listo para la oficina.",
+    "hero_image_alt": "Una hoja manuscrita de recuento de inventario de almacén siendo escaneada por la app NoteOCR",
+
+    "trust_1": "Encriptación SSL",
+    "trust_2": "Listo en menos de 2 minutos",
+    "trust_3": "98% de precisión numérica",
+
+    "pain_eyebrow": "Para equipos de inventario",
+    "pain_title": "Deja de pasar datos de inventarios manuscritos a Excel.",
+    "pain_desc": "Los conteos anotados en portapapeles no deberían tener que reescribirse a mano en un ordenador. NoteOCR convierte hojas de recuento manuscritas en datos limpios y editables en Excel, ayudando a tu equipo a ahorrar tiempo y evitar errores de transcripción.",
+    "before_after_eyebrow": "Míralo en acción",
+    "before_after_title": "Compara la diferencia",
+    "before_after_desc": "Una hoja real de recuento de stock manuscrita, convertida en una hoja de cálculo estructurada.",
+    "before_label": "Antes: Hoja de recuento manuscrita",
+    "before_alt": "Una hoja de recuento de inventario de almacén manuscrita antes de la conversión",
+    "after_label": "Después: Hoja de cálculo de Excel",
+    "after_alt": "El mismo recuento de inventario convertido en una hoja de cálculo estructurada de Excel",
+
+    "how_eyebrow": "Cómo funciona",
+    "how_title": "Del portapapeles a la hoja de cálculo en tres pasos.",
+    "how_subtitle": "Procesa los datos en la propia planta, no al volver al despacho.",
+    "step_1_title": "Abre la app y toca Escanear",
+    "step_1_desc": "Fotografía la hoja de conteo tan pronto como completes una sección.",
+    "step_2_title": "Detección automática de filas y columnas",
+    "step_2_desc": "Funciona incluso en hojas sin líneas de cuadrícula impresas.",
+    "step_3_title": "Exporta a Excel y envía",
+    "step_3_desc": "Descarga el archivo .xlsx y compártelo inmediatamente con la oficina.",
+
+    "who_title": "¿Quién escanea inventarios con NoteOCR?",
+    "who_subtitle": "Cualquiera que cuente stock en papel antes de pasarlo a una hoja de cálculo.",
+    "audience_1_title": "Personal de almacén",
+    "audience_1_desc": "Convierte los conteos de estanterías a Excel sin tener que ir a un ordenador compartido.",
+    "audience_2_title": "Pequeños comercios y tiendas",
+    "audience_2_desc": "Digitaliza el inventario del almacén para reponer stock sin reescribir datos manualmente.",
+    "audience_3_title": "Encargados de restaurantes y cocinas",
+    "audience_3_desc": "Convierte hojas de preparación y stock manuscritas en tablas para controlar mermas y costes.",
+    "audience_4_title": "Auditores de campo",
+    "audience_4_desc": "Registra conteos en las instalaciones e introduce la hoja de cálculo limpia el mismo día.",
+
+    "comparison_title": "Entrada manual vs. NoteOCR",
+    "comparison_subtitle": "Por qué escanear supera a reescribir los recuentos de stock",
+    "comparison_col_method": "Método",
+    "comparison_col_time": "Tiempo",
+    "comparison_col_accuracy": "Precisión",
+    "comparison_col_cost": "Coste",
+    "row1_method": "Reescribir recuentos a mano",
+    "row1_time": "30–40 minutos",
+    "row1_accuracy": "95%, confusión de dígitos frecuente",
+    "row1_cost": "15 €/hora de mano de obra",
+    "row2_method": "App OCR genérica",
+    "row2_time": "8 minutos",
+    "row2_accuracy": "~55%, pierde la estructura de tabla",
+    "row2_cost": "Gratis – 15 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Menos de 2 minutos",
+    "row3_accuracy": "98% de precisión numérica",
+    "row3_cost": "Gratis para empezar",
+
+    "proof_title": "Basado en el mismo motor en el que confían más de 10.000 usuarios.",
+    "proof_desc": "El motor de detección de tablas de NoteOCR ya convierte datos manuscritos para más de 10.000 personas en noteocr.com, incluyendo planillas de inventario y balances financieros.",
+    "proof_stat_number": "98%",
+    "proof_stat_label": "Precisión numérica media en recuentos manuscritos",
+    "proof_quote": "Antes perdíamos veinte minutos por turno pasando recuentos a ordenador. Ahora está listo antes de salir del almacén.",
+    "proof_quote_name": "Marcus T.",
+    "proof_quote_role": "Supervisor de almacén",
+
+    "faq_title": "Preguntas frecuentes sobre la digitalización de inventarios",
+
+    "related_title": "Más formas de usar NoteOCR",
+    "cta_title": "Deja de reescribir inventarios a mano.",
+    "cta_subtitle": "Escanéalos directamente a Excel. Lanzamiento el 21 de septiembre en iOS y Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "¿Cómo convierto una hoja de inventario con la aplicación?",
+          "a": "Abre NoteOCR, toca en Escanear y fotografia la hoja de conteo. La app detecta automáticamente las filas y columnas y exporta un archivo de Excel estructurado en menos de dos minutos."
+        },
+        "no_drawn_lines": {
+          "q": "¿Funciona en hojas de conteo que no tienen líneas de cuadrícula?",
+          "a": "Sí. NoteOCR detecta la estructura de la tabla mediante la alineación y el espaciado del texto, por lo que las hojas escritas en papel en blanco o rayado sin cuadrícula dibujada se convierten correctamente."
+        },
+        "numeric_accuracy": {
+          "q": "¿Qué tan precisa es con los números específicamente?",
+          "a": "La precisión numérica ronda el 98%, ya que el modelo está optimizado para dígitos y cantidades. Se recomienda revisar los totales antes de tomar decisiones de reposición."
+        },
+        "multiple_sheets_per_day": {
+          "q": "¿Puedo escanear varias hojas de recuento en un mismo turno?",
+          "a": "Sí, cada hoja se escanea y convierte de forma individual, por lo que puedes procesar todas las hojas que completes durante tu jornada."
+        },
+        "export_format": {
+          "q": "¿En qué formato de archivo obtendré los datos?",
+          "a": "Obtendrás un archivo descargable de Excel (.xlsx) con los datos organizados en filas y columnas, listo para abrir en Excel, Google Sheets o tu sistema de gestión de inventario."
+        },
+        "team_use": {
+          "q": "¿Pueden varias personas de mi equipo usar esto para el mismo almacén?",
+          "a": "Sí. Cada miembro del equipo puede escanear su sección desde su propio móvil y combinar todos los archivos en Excel posteriormente."
+        },
+        "offline_warehouse_use": {
+          "q": "¿Funciona en almacenes con mala cobertura o sin WiFi?",
+          "a": "Puedes capturar las fotos sin conexión a internet; la conversión se realizará una vez recuperes la señal, por lo que la mala cobertura no te impedirá trabajar."
+        },
+        "free_or_paid": {
+          "q": "¿Escanear hojas de inventario es gratis?",
+          "a": "Sí, incluye un cupo de páginas mensuales gratuitas. Las empresas que escanean inventarios a diario pueden suscribirse a planes de mayor volumen."
+        }
+      }
+    }
+  },
+  "ReceiptToExcelScannerPage": {
+    "meta_title": "Escáner de Tiques y Facturas a Excel | NoteOCR",
+    "meta_desc": "Escanea recibos en papel con tu teléfono y obtén una plantilla de Excel con tus gastos al instante. Ideal para autónomos, PYMES y la gestión de impuestos.",
+    "nav_label": "Escáner de Recibos a Excel",
+    "hero_pill": "Para autónomos y PYMES",
+    "hero_title": "Convierte una caja llena de recibos en una hoja de gastos de Excel.",
+    "hero_subtitle": "Fotografía cada tique con la app NoteOCR y extrae fecha, importe y proveedor en una hoja de cálculo estructurada, lista para tu contabilidad o impuestos.",
+    "hero_image_alt": "Un recibo de papel siendo escaneado y convertido a una hoja de Excel por la app NoteOCR",
+
+    "trust_1": "Encriptación SSL",
+    "trust_2": "Listo en menos de 2 minutos",
+    "trust_3": "98% de precisión numérica",
+
+    "pain_eyebrow": "Del papel a la hoja de cálculo",
+
+    "pain_title": "Los recibos se acumulan. Pasar datos a mano no debería ser necesario.",
+
+    "pain_desc": "Los recibos contienen la información que necesitas para gastos, impuestos y reembolsos, pero introducir cada fecha, proveedor e importe en Excel requiere mucho tiempo. NoteOCR convierte los tiques en datos de hoja de cálculo estructurados y editables para que no tengas que escribir uno por uno.",
+    "before_after_eyebrow": "Míralo en acción",
+    "before_after_title": "Compara la diferencia",
+    "before_after_desc": "Un recibo impreso real, convertido en una fila de gastos estructurada.",
+    "before_label": "Antes: Recibo impreso",
+    "before_alt": "Un recibo de papel antes de la conversión",
+    "after_label": "Después: Fila de Excel",
+    "after_alt": "El mismo recibo convertido en una fila estructurada dentro de Excel",
+
+    "how_eyebrow": "Cómo funciona",
+    "how_title": "Del tique a la hoja de cálculo en tres pasos.",
+    "how_subtitle": "Escanéalo antes de que la tinta borrable se desvanezca o el tique se pierda.",
+    "step_1_title": "Abre la app y toca Escanear",
+    "step_1_desc": "Fotografía el tique justo después de la compra, antes de que se borre.",
+    "step_2_title": "Detección automática de importes y fechas",
+    "step_2_desc": "Los símbolos de moneda, totales y fechas se reconocen automáticamente.",
+    "step_3_title": "Exporta a Excel y controla tus gastos",
+    "step_3_desc": "Descarga el archivo .xlsx e intégralo en tu registro de gastos o envíalo a tu gestor.",
+
+    "who_title": "¿Quién escanea recibos y tiques con NoteOCR?",
+    "who_subtitle": "Cualquier persona que gestione contabilidad o gastos desde recibos en papel.",
+    "audience_1_title": "Autónomos y freelancers",
+    "audience_1_desc": "Convierte una carpeta de gastos de clientes en una tabla estructurada para facturar.",
+    "audience_2_title": "Propietarios de PYMES",
+    "audience_2_desc": "Digitaliza recibos diarios para la contabilidad sin necesidad de picar datos a mano.",
+    "audience_3_title": "Gestores y contables",
+    "audience_3_desc": "Convierte los tiques entregados por clientes en hojas de cálculo listas para conciliar.",
+    "audience_4_title": "Viajeros de negocios",
+    "audience_4_desc": "Escanea gastos de viaje sobre la marcha y prepara tu informe de gastos antes de volver a casa.",
+
+    "comparison_title": "Entrada manual vs. NoteOCR",
+    "comparison_subtitle": "Por qué escanear es infinitamente más rápido que escribir tique por tique",
+    "comparison_col_method": "Método",
+    "comparison_col_time": "Tiempo",
+    "comparison_col_accuracy": "Precisión",
+    "comparison_col_cost": "Coste",
+    "row1_method": "Escribir cada tique manualmente",
+    "row1_time": "2–3 minutos por tique",
+    "row1_accuracy": "95%, propenso a errores",
+    "row1_cost": "Gratis (tu tiempo)",
+    "row2_method": "App OCR genérica",
+    "row2_time": "1 minuto por tique",
+    "row2_accuracy": "~70% en tiques borrosos",
+    "row2_cost": "Gratis – 10 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Menos de 2 minutos en total",
+    "row3_accuracy": "98% de precisión numérica",
+    "row3_cost": "Gratis para empezar",
+
+    "proof_title": "Basado en el mismo motor en el que confían más de 10.000 usuarios.",
+    "proof_desc": "El motor de NoteOCR ya procesa documentos financieros para más de 10.000 personas en noteocr.com, optimizado específicamente para números y divisas.",
+    "proof_stat_number": "98%",
+    "proof_stat_label": "Precisión numérica en recibos y tiques escaneados",
+    "proof_quote": "La época de impuestos antes significaba una caja llena de tiques. Ahora los escaneo según llegan y exporto a Excel.",
+    "proof_quote_name": "Elena V.",
+    "proof_quote_role": "Diseñadora freelance",
+
+    "faq_title": "Preguntas frecuentes sobre el escaneo de tiques y recibos",
+
+    "related_title": "Más formas de usar NoteOCR",
+    "cta_title": "Deja de transcribir recibos a mano.",
+    "cta_subtitle": "Escanéalos directamente a Excel. Lanzamiento el 21 de septiembre en iOS y Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "¿Cómo convierto un tique o recibo con la aplicación?",
+          "a": "Abre NoteOCR, toca en Escanear y fotografía el recibo. La app extrae los importes y los detalles en una fila estructurada de Excel en menos de dos minutos."
+        },
+        "faded_receipts": {
+          "q": "¿Funciona con tiques térmicos borrosos o descoloridos?",
+          "a": "La mejora de imagen de NoteOCR corrige problemas habituales de la impresión térmica, como zonas borrosas y reflejos, aunque recibos extremádamente desgastados pueden requerir una comprobación manual."
+        },
+        "currency_symbols": {
+          "q": "¿Reconoce correctamente los símbolos de moneda y decimales?",
+          "a": "Sí, el modelo está entrenado específicamente para reconocer símbolos de divisas, decimales e importes totales con gran exactitud, que es donde falla la mayoría de herramientas OCR genéricas."
+        },
+        "batch_of_receipts": {
+          "q": "¿Puedo escanear varios tiques de una sola vez?",
+          "a": "Actualmente cada tique se escanea de forma individual para garantizar el resultado más preciso. Para grandes volúmenes, puedes consultar nuestra API de procesamiento por lotes."
+        },
+        "tax_season_use": {
+          "q": "¿Es útil para organizar gastos de cara a la declaración de impuestos?",
+          "a": "Sí. Muchos autónomos y PYMES usan NoteOCR para crear un archivo digital estructurado de sus facturas y recibos antes de presentar impuestos."
+        },
+        "export_format": {
+          "q": "¿En qué formato se reciben los datos?",
+          "a": "Obtendrás un archivo descargable de Excel (.xlsx) con los importes, fechas y establecimientos organizados en columnas, listos para tu programa de contabilidad o gestoría."
+        },
+        "accuracy_on_numbers": {
+          "q": "¿Qué precisión tiene específicamente con los importes totales?",
+          "a": "La precisión numérica es de alrededor del 98%, ya que el modelo está optimizado para dígitos y cifras monetarias. Verifica siempre los totales antes de solicitar devoluciones o liquidar impuestos."
+        },
+        "privacy_of_financial_data": {
+          "q": "¿Están seguros mis datos financieros al escanear un tique?",
+          "a": "Sí. Las cargas están encriptadas y NoteOCR no almacena ni comparte tus datos más allá de procesar tu escaneo."
+        }
+      }
+    }
+  },
+  "LogSheetScannerPage": {
+    "meta_title": "Escáner de Hojas de Registro – Planillas a Excel | NoteOCR",
+    "meta_desc": "Escanea planillas de registro manuscritas, partes de producción o fichas de campo con tu móvil y obtén una tabla de Excel estructurada en segundos.",
+    "nav_label": "Escáner de Hojas de Registro",
+    "hero_pill": "Para equipos de campo y operaciones",
+    "hero_title": "Convierte hojas de registro manuscritas en Excel antes de volver a la oficina.",
+    "hero_subtitle": "Fotografía tu parte de trabajo, planilla de producción o ficha de inspección con NoteOCR y obtén una hoja de cálculo estructurada con filas y columnas intactas.",
+    "hero_image_alt": "Una planilla de registro de campo manuscrita siendo escaneada y convertida por la app NoteOCR",
+
+    "trust_1": "Encriptación SSL",
+    "trust_2": "Listo en menos de 2 minutos",
+    "trust_3": "98% de precisión numérica",
+
+    "pain_eyebrow": "Digitaliza el papeleo de campo",
+
+    "pain_title": "Deja de reescribir hojas de registro manuscritas y partes de inspección.",
+
+    "pain_desc": "Los partes de producción, formularios de inspección e informes de campo suelen rellenarse a mano sobre el terreno para luego introducirse manualmente en sistemas digitales. NoteOCR convierte documentos de campo manuscritos en texto digital limpio y editable, ayudando a los equipos a recopilar y organizar datos con rapidez.",
+    "before_after_eyebrow": "Míralo en acción",
+    "before_after_title": "Compara la diferencia",
+    "before_after_desc": "Una hoja de registro manuscrita real, convertida en una hoja de cálculo estructurada.",
+    "before_label": "Antes: Hoja de registro manuscrita",
+    "before_alt": "Una planilla de trabajo manuscrita antes de la conversión",
+    "after_label": "Después: Hoja de cálculo de Excel",
+    "after_alt": "La misma planilla convertida en una hoja de cálculo de Excel estructurada",
+
+    "how_eyebrow": "Cómo funciona",
+    "how_title": "Del portapapeles a la hoja de cálculo en tres pasos.",
+    "how_subtitle": "Convierte tus registros sobre el terreno, no horas después.",
+    "step_1_title": "Abre la app y toca Escanear",
+    "step_1_desc": "Fotografía la hoja de registro en cuanto termines de rellenarla.",
+    "step_2_title": "Detección automática de filas y columnas",
+    "step_2_desc": "Funciona en planillas pautadas, con cuadrícula o en papel en blanco.",
+    "step_3_title": "Exporta a Excel y envía el informe",
+    "step_3_desc": "Descarga el archivo .xlsx y envíalo inmediatamente para el informe del día.",
+
+    "who_title": "¿Quién escanea hojas de registro con NoteOCR?",
+    "who_subtitle": "Cualquiera que registre datos de campo o producción a mano.",
+    "audience_1_title": "Técnicos de campo",
+    "audience_1_desc": "Convierte informes de inspección o mantenimiento a Excel sin necesidad de llevar un portátil.",
+    "audience_2_title": "Supervisores de producción",
+    "audience_2_desc": "Digitaliza registros de turnos de fabricación para partes diarios.",
+    "audience_3_title": "Laboratorios y equipos de investigación",
+    "audience_3_desc": "Convierte anotaciones manuscritas del cuaderno de laboratorio en tablas para análisis.",
+    "audience_4_title": "Entrenadores y anotadores deportivos",
+    "audience_4_desc": "Convierte planillas de puntos o registros estadísticos en hojas de cálculo tras el partido.",
+
+    "comparison_title": "Entrada manual vs. NoteOCR",
+    "comparison_subtitle": "Por qué escanear supera a reescribir planillas de trabajo",
+    "comparison_col_method": "Método",
+    "comparison_col_time": "Tiempo",
+    "comparison_col_accuracy": "Precisión",
+    "comparison_col_cost": "Coste",
+    "row1_method": "Reescribir registros manualmente",
+    "row1_time": "20–30 minutos",
+    "row1_accuracy": "95%, propenso a errores",
+    "row1_cost": "15 €/hora de mano de obra",
+    "row2_method": "App OCR genérica",
+    "row2_time": "8 minutos",
+    "row2_accuracy": "~55%, pierde la estructura de tabla",
+    "row2_cost": "Gratis – 15 €",
+    "row3_method": "NoteOCR",
+    "row3_time": "Menos de 2 minutos",
+    "row3_accuracy": "98% de precisión numérica",
+    "row3_cost": "Gratis para empezar",
+
+    "proof_title": "Basado en el mismo motor en el que confían más de 10.000 usuarios.",
+    "proof_desc": "El motor de tablas de NoteOCR ya convierte planillas manuscritas y hojas de datos para más de 10.000 personas en noteocr.com.",
+    "proof_stat_number": "10.000+",
+    "proof_stat_label": "Hojas de trabajo y registro de campo convertidas",
+    "proof_quote": "Nuestros técnicos rellenan fichas de inspección en papel sobre el terreno. NoteOCR las pasa a Excel antes de que vuelvan al vehículo.",
+    "proof_quote_name": "Sam K.",
+    "proof_quote_role": "Director de operaciones de campo",
+
+    "faq_title": "Preguntas frecuentes sobre el escaneo de planillas de registro",
+
+    "related_title": "Más formas de usar NoteOCR",
+    "cta_title": "Deja de reescribir hojas de registro.",
+    "cta_subtitle": "Escanéalas directamente a Excel. Lanzamiento el 21 de septiembre en iOS y Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "¿Cómo convierto una hoja de registro con la aplicación?",
+          "a": "Abre NoteOCR, toca en Escanear y fotografía la planilla. La app detecta la estructura de la tabla y exporta un archivo de Excel ordenado en menos de dos minutos."
+        },
+        "field_conditions": {
+          "q": "¿Funciona con fotos tomadas al aire libre o con poca luz?",
+          "a": "Sí, el ajuste automático de NoteOCR corrige reflejos, sombras e iluminación desigual en el exterior, aunque si la foto está muy oscura o borrosa convendrá repetir la toma."
+        },
+        "no_drawn_lines": {
+          "q": "¿Funciona en hojas que no tienen cuadrículas dibujadas?",
+          "a": "Sí. NoteOCR detecta filas y columnas analizando la alineación del texto, por lo que las planillas en papel pautado o en blanco se convierten correctamente."
+        },
+        "multiple_columns": {
+          "q": "¿Puede procesar planillas con muchas columnas de datos?",
+          "a": "Sí, NoteOCR está diseñado para mantener tablas de múltiples columnas habituales en inspecciones y producción, asegurando que los encabezados coincidan con sus datos."
+        },
+        "daily_logs_batch": {
+          "q": "¿Puedo escanear una nueva hoja de registro cada día?",
+          "a": "Sí, no hay límite en la frecuencia con la que escaneas; cada planilla se convierte individualmente en su propia hoja de cálculo."
+        },
+        "export_format": {
+          "q": "¿En qué formato se descargan los datos?",
+          "a": "En un archivo descargable de Excel (.xlsx) con los datos organizados en filas y columnas, listo para usar en informes o análisis."
+        },
+        "team_use": {
+          "q": "¿Pueden varios miembros del equipo usar la app para el mismo proyecto?",
+          "a": "Sí. Cada integrante del equipo puede escanear su propia planilla desde su móvil y las hojas de cálculo resultantes pueden combinarse para consolidar informes."
+        },
+        "free_or_paid": {
+          "q": "¿Escanear hojas de registro es gratis?",
+          "a": "Sí, se incluye un volumen mensual de páginas gratuitas. Los equipos que escanean registros a diario pueden pasar a un plan de mayor capacidad."
+        }
+      }
+    }
+  },
+
+  "AppPage": {
+    "meta_title": "App móvil NoteOCR – Escanea y convierte escritura manuscrita a texto o Excel | iOS y Android",
+    "meta_desc": "Descarga la app NoteOCR para iOS y Android. Escanea notas manuscritas con la cámara y conviértelas al instante en Word, Excel o PDF.",
+    "nav_home": "Inicio",
+    "nav_features": "Funciones",
+    "nav_pricing": "Precios",
+    "nav_download_button": "Descargar app",
+
+    "hero_pill": "Lanzamiento el 21 de septiembre en iOS y Android",
+    "hero_title": "Escanea. Convierte. Listo. Ahora en tu bolsillo.",
+    "hero_subtitle": "NoteOCR es una app para convertir escritura manuscrita a texto y escritura manuscrita a Excel en iOS y Android. Apunta con la cámara a cualquier nota manuscrita, formulario o pizarra, y el motor OCR de NoteOCR la convierte en un documento editable de Word, Excel o PDF antes de que guardes el teléfono.",
+    "hero_image_alt": "Pantalla de escaneo con cámara de la app NoteOCR convirtiendo una página manuscrita en texto en un teléfono",
+
+    "store_apple_top": "Descargar en",
+    "store_apple_bottom": "App Store de iOS",
+    "store_google_top": "Disponible en",
+    "store_google_bottom": "Google Play",
+
+    "why_pill": "Por qué la app",
+    "why_title": "Creada para cuando estás lejos del escritorio.",
+    "why_subtitle": "La aplicación web es perfecta cuando estás frente al escritorio. La app móvil NoteOCR es un escáner de escritura manuscrita diseñado para usarla en cualquier lugar: desde aulas universitarias y reuniones con clientes hasta almacenes o archivos.",
+
+    "feature_1_title": "Escaneo instantáneo con la cámara",
+    "feature_1_desc": "Apunta, captura y convierte en un solo movimiento, o sube directamente una imagen desde tu galería",
+    "feature_2_title": "Descarga al instante",
+    "feature_2_desc": "Descarga y comparte al instante tu documento convertido desde cualquier app",
+    "feature_3_title": "Sincronizada con tu cuenta",
+    "feature_3_desc": "Cada escaneo aparece al instante en tu panel de NoteOCR: misma cuenta, mismos documentos, cualquier dispositivo.",
+    "feature_4_title": "Notificaciones instantáneas",
+    "feature_4_desc": "Recibe una notificación en cuanto tu documento esté listo, para que nunca tengas que quedarte esperando.",
+
+    "how_title": "Del papel al documento en tres toques.",
+    "how_subtitle": "La app de escaneo de NoteOCR convierte una página manuscrita en un archivo editable en tres pasos: escanear, recortar automáticamente y exportar.",
+    "how_image_alt": "Pantalla de recorte y mejora automática de la app NoteOCR con opciones de exportación",
+    "step_1_title": "Abre la app y toca Escanear",
+    "step_1_desc": "Abre NoteOCR y apunta con la cámara a cualquier página, pizarra o formulario.",
+    "step_2_title": "Recorta y mejora automáticamente",
+    "step_2_desc": "Los bordes se detectan y la iluminación se corrige automáticamente, sin necesidad de recortar manualmente.",
+    "step_3_title": "Exporta directamente a Word, Excel o PDF",
+    "step_3_desc": "Elige un formato y tu documento estará listo para compartir en cuestión de segundos.",
+
+    "excel_title": "De escritura manuscrita a Excel: convierte tablas en hojas de cálculo al instante.",
+    "excel_desc": "La función de conversión de escritura manuscrita a Excel de NoteOCR fotografía registros, tablas o listas manuscritas, detecta automáticamente filas y columnas y exporta archivos .xlsx limpios y estructurados, listos para usar con fórmulas y ordenar datos.",
+    "excel_before_label": "Antes",
+    "excel_before_alt": "Tabla de datos manuscrita antes de convertirla con NoteOCR",
+    "excel_after_label": "Después",
+    "excel_after_alt": "Hoja de cálculo de Excel estructurada después de convertir escritura manuscrita a Excel con NoteOCR",
+
+    "text_title": "De escritura manuscrita a texto: cursiva, letra de imprenta o escritura desordenada, convertida con precisión.",
+    "text_desc": "NoteOCR convierte escritura manuscrita a texto con una precisión del 95–98 %. Su modelo OCR está entrenado con estilos de escritura tanto de imprenta como cursiva, incluida la escritura inclinada o mixta.",
+    "text_image_alt": "Nota manuscrita convertida en texto limpio y escrito a máquina por NoteOCR",
+
+    "gallery_title": "Descubre NoteOCR en acción",
+    "screenshot_1_alt": "Pantalla de escaneo con cámara de la app NoteOCR capturando una página manuscrita",
+    "screenshot_2_alt": "Pantalla de vista previa de recorte y mejora automática de la app NoteOCR",
+    "screenshot_3_alt": "Opciones de exportación de la app NoteOCR para Word, Excel y PDF",
+    "screenshot_4_alt": "Panel de la app NoteOCR mostrando documentos escaneados sincronizados",
+    "screenshot_5_alt": "Resultado de conversión de una tabla manuscrita a Excel en la app NoteOCR",
+
+    "faq_title": "Preguntas frecuentes",
+
+    "cta_title": "Empieza a convertir escritura manuscrita en segundos.",
+    "cta_subtitle": "Lanzamiento el 21 de septiembre en iOS y Android. Descarga gratuita.",
+
+    "modal_pill": "Próximamente en {store}",
+    "modal_title": "NoteOCR se lanza el 21 de septiembre",
+    "modal_desc": "Estamos dando los últimos retoques a la app. Vuelve el día del lanzamiento o deja tu correo electrónico y te avisaremos en cuanto esté disponible.",
+    "modal_days": "días",
+    "modal_hrs": "h",
+    "modal_min": "min",
+    "modal_sec": "s",
+    "modal_email_placeholder": "tu@email.com",
+    "modal_email_aria": "Dirección de correo electrónico",
+    "modal_notify_button": "Avísame",
+    "modal_store_fallback": "las tiendas de aplicaciones",
+
+    "footer_copyright": "© {year} NoteOCR. Todos los derechos reservados.",
+    "footer_privacy": "Privacidad",
+    "footer_terms": "Términos",
+    "footer_contact": "Contacto",
+
+    "FAQ": {
+      "items": {
+        "notes_to_word_phone": {
+          "q": "¿Puedo convertir notas manuscritas a Word desde mi teléfono?",
+          "a": "Sí. Abre la app NoteOCR, toma una foto de tu página manuscrita y la convierte directamente en un archivo .docx editable, sin necesidad de estar frente a un ordenador ni de subirla a través del sitio web."
+        },
+        "table_to_excel_camera": {
+          "q": "¿Cómo puedo convertir una tabla manuscrita en un archivo Excel usando la cámara?",
+          "a": "Apunta con la cámara de la app NoteOCR a la tabla, captúrala y el mismo motor que impulsa noteocr.com detectará las filas y columnas para crear una hoja de cálculo .xlsx con formato, lista para descargar o editar desde tu teléfono."
+        },
+        "old_letters_journals": {
+          "q": "¿Puede la app digitalizar cartas o diarios manuscritos antiguos?",
+          "a": "Sí. Fotografía la página con la app NoteOCR y reconstruirá el texto en un documento Word editable, lo que facilita digitalizar cartas antiguas, diarios o archivos, una página a la vez y desde cualquier lugar donde estén almacenados."
+        },
+        "logs_on_the_go": {
+          "q": "¿Puedo escanear un registro o una lista manuscrita mientras estoy fuera y obtener una hoja de cálculo?",
+          "a": "Sí. Captura la página con la cámara de tu teléfono en la app NoteOCR y se convertirá automáticamente en un archivo Excel estructurado, para que las notas de campo, registros y listas no tengan que esperar hasta que vuelvas al escritorio."
+        },
+        "ios_android_app": {
+          "q": "¿Existe una app de NoteOCR para iPhone y Android?",
+          "a": "Sí. La app NoteOCR está disponible tanto para iOS como para Android, por lo que puedes escanear y convertir notas manuscritas directamente desde tu teléfono en lugar de hacerlo únicamente a través del sitio web."
+        },
+        "push_notifications": {
+          "q": "¿La app me avisará cuando mi escaneo esté listo?",
+          "a": "Sí. La app NoteOCR envía una notificación push en cuanto termina de convertir un escaneo, para que no tengas que quedarte esperando dentro de la app."
+        },
+        "plan_sync": {
+          "q": "¿Mi plan de NoteOCR y los límites de páginas se mantienen en la app?",
+          "a": "Sí. La app utiliza los mismos planes gratuitos y de pago que noteocr.com, por lo que tu límite mensual de páginas y cualquier función Pro o Business se aplican tanto si escaneas desde el teléfono como si subes documentos desde el ordenador."
+        },
+        "free_download": {
+          "q": "¿La app NoteOCR se puede descargar gratis?",
+          "a": "Sí, descargar la app NoteOCR es gratis. Puedes empezar a convertir notas manuscritas de inmediato con el plan gratuito y pasar a un plan superior desde la app si necesitas un límite mensual de páginas más alto."
+        }
+      }
+    }
+  },
+
   "HomePage": {
     "trust_pill": "OCR de Escritura V2.0: 99.2% de Precisión",
     "hero_title_1": "Convierta Letra de Mano en Texto y",

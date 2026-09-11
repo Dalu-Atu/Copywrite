@@ -1,4 +1,704 @@
 {
+  "ClassNotesScannerPage": {
+    "meta_title": "Forelesningsnotat Scanner – Håndskrevet til Word | NoteOCR",
+    "meta_desc": "Skann dine håndskrevne forelesningsnotater med mobilen og konverter dem til redigerbare, søkbare Word-dokumenter på få sekunder.",
+    "nav_label": "Forelesningsnotat Scanner",
+    "hero_pill": "For Studenter",
+    "hero_title": "Gjør om dine håndskrevne notater til søkbare Word-filer.",
+    "hero_subtitle": "Ta et bilde av skriveboken eller blokken din med NoteOCR-appen, og få klar, redigerbar tekst for å studere smartere, søke i stoffet eller lage sammendrag.",
+    "hero_image_alt": "Håndskrevne forelesningsnotater fra en student skannet og konvertert med NoteOCR-appen",
+
+    "trust_1": "SSL-sikret",
+    "trust_2": "Klar på under 2 min",
+    "trust_3": "95–98% OCR-nøyaktighet",
+
+    "pain_eyebrow": "Studer smartere",
+    "pain_title": "Gjør håndskrevne notater om til digital tekst på et øyeblikk.",
+    "pain_desc": "Det å skrive for hånd under forelesning er ofte best for læringen. Men når du senere vil søke etter nøkkelord, redigere tekst eller dele sammendrag med medstudenter, blir papir en hindring. NoteOCR gjør håndskriften din om til klar, redigerbar tekst uten at du må skrive inn alt på nytt.",
+    "before_after_eyebrow": "Se hvordan det fungerer",
+    "before_after_title": "Opplev forskjellen",
+    "before_after_desc": "En ekte side fra skriveboken omgjort til et perfekt redigerbart Word-dokument.",
+    "before_label": "Før: Side fra skrivebok",
+    "before_alt": "Side med håndskrevne forelesningsnotater før konvertering",
+    "after_label": "Etter: Word-dokument",
+    "after_alt": "De samme notatene konvertert til et søkbart Word-dokument",
+
+    "how_eyebrow": "Slik fungerer det",
+    "how_title": "Fra skriveblokk til digitalt sammendrag på tre trinn.",
+    "how_subtitle": "Skann rett etter forelesningen, mens stoffet ennå er friskt i minnet.",
+    "step_1_title": "Åpne appen og trykk på Skann",
+    "step_1_desc": "Ta et bilde av notatene dine rett etter forelesningen eller i en pause.",
+    "step_2_title": "Automatisk beskjæring og optimalisering",
+    "step_2_desc": "Fungerer presist selv med krøllete papir eller vanskelige lysforhold.",
+    "step_3_title": "Eksporter til Word og start studiene",
+    "step_3_desc": "Lim teksten inn i sammendraget ditt eller lagre den som et søkbart dokument.",
+
+    "who_title": "Hvem bruker NoteOCR til å skanne notater?",
+    "who_subtitle": "Alle studenter som foretrekker å skrive for hånd, men som vil ha fordelene med digitale studieverktøy.",
+    "audience_1_title": "Høyskole- og universitetsstudenter",
+    "audience_1_desc": "Digitaliser notatene dine per emne for enkelt å søke i pensum før eksamen.",
+    "audience_2_title": "Elever i videregående skole",
+    "audience_2_desc": "Gjør om skrevne skrivebøker til tekst som kan brukes i oppgaver eller deles med medelever.",
+    "audience_3_title": "Puggagrupper og kollokvier",
+    "audience_3_desc": "Samle håndskrevne notater fra ulike gruppemedlemmer i én felles Word-fil.",
+    "audience_4_title": "Tilrettelagt læring & Opplesing",
+    "audience_4_desc": "Konverter vanskelig lesbar håndskrift til digital tekst som enkelt kan forstørres eller leses opp.",
+
+    "comparison_title": "Manuell inntasting vs. NoteOCR",
+    "comparison_subtitle": "Hvorfor skanning er så mye raskere enn å skrive alt selv",
+    "comparison_col_method": "Metode",
+    "comparison_col_time": "Tid",
+    "comparison_col_accuracy": "Nøyaktighet",
+    "comparison_col_cost": "Kostnad",
+    "row1_method": "Skrive inn notatene manuelt",
+    "row1_time": "20–30 min",
+    "row1_accuracy": "100 %, men tar veldig lang tid",
+    "row1_cost": "Gratis (koster verdifull studietid)",
+    "row2_method": "Standard OCR-app",
+    "row2_time": "5 min",
+    "row2_accuracy": "~65 % på håndskrift",
+    "row2_cost": "Gratis – 100 kr",
+    "row3_method": "NoteOCR",
+    "row3_time": "Under 2 min",
+    "row3_accuracy": "95–98 %",
+    "row3_cost": "Gratis å prøve",
+
+    "proof_title": "Bygget på samme teknologi som stoles på av over 10 000 brukere.",
+    "proof_desc": "NoteOCRs håndskriftgjenkjenning digitaliserer allerede notater for over 10 000 mennesker hver måned på noteocr.com. Appen bringer den samme presisjonen til mobilen din.",
+    "proof_stat_number": "10 000+",
+    "proof_stat_label": "Konverterte sider per måned via web og mobil",
+    "proof_quote": "Jeg skanner notatene mine rett etter hver forelesning. Før jeg kommer hjem, har jeg alt stoffet søkbart på telefonen.",
+    "proof_quote_name": "Sanne V.",
+    "proof_quote_role": "Masterstudent",
+
+    "faq_title": "Ofte stilte spørsmål om skanning av notater",
+
+    "related_title": "Andre måter å bruke NoteOCR på",
+    "cta_title": "Slutt å skrive inn notatene dine manuelt.",
+    "cta_subtitle": "Skann dem rett til Word etter forelesningen. Tilgjengelig fra 21. september på iOS og Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Hvordan konverterer jeg forelesningsnotatene mine med appen?",
+          "a": "Åpne NoteOCR, trykk 'Skann' og ta et bilde av skriveboken din. Appen gjør håndskriften om til et redigerbart Word-dokument innen 2 minutter."
+        },
+        "messy_handwriting": {
+          "q": "Fungerer det også med rask eller slurvete håndskrift?",
+          "a": "Ja, i de fleste tilfeller. NoteOCR er trent på et bredt spekter av håndskrifter og raske notater. Ved svært vanskelig lesbar tekst kreves det som regel bare en kort korrektur."
+        },
+        "lecture_slides_mixed_notes": {
+          "q": "Kan appen håndtere notater som også inneholder skisser eller tegninger?",
+          "a": "NoteOCR fokuserer på å konvertere teksten på siden. Tegninger blir ikke gjort om til vektorer, men teksten rundt blir nøyaktig gjenkjent."
+        },
+        "study_from_converted_notes": {
+          "q": "Kan jeg søke etter ord eller markere tekst etter konverteringen?",
+          "a": "Absolutt. Så snart Word-dokumentet er opprettet, er teksten fullstendig søkbar, redigerbar og klar til bruk i studiene."
+        },
+        "free_for_students": {
+          "q": "Er appen gratis for studenter?",
+          "a": "Ja. Appen inkluderer en månedlig kvote med gratissider, noe som er mer enn nok for de fleste studenter."
+        },
+        "multiple_languages": {
+          "q": "Støtter appen også andre språk som engelsk eller tysk?",
+          "a": "Ja, NoteOCR støtter håndskriftgjenkjenning på titalls språk, inkludert norsk, engelsk, tysk og fransk."
+        },
+        "sync_across_devices": {
+          "q": "Kan jeg også se de skannede notatene mine på datamaskinen?",
+          "a": "Ja. Logg inn med NoteOCR-kontoen din for å automatisk synkronisere de konverterte dokumentene dine med noteocr.com."
+        },
+        "accuracy": {
+          "q": "Hvor nøyaktig er konverteringen av håndskrevet tekst?",
+          "a": "Ved godt lesbar håndskrift oppnår vi en nøyaktighet på 95–98 %. Vi anbefaler at du går over faguttrykk eller formler en ekstra gang."
+        }
+      }
+    }
+  },
+  "LetterScannerPage": {
+    "meta_title": "Gamle Brev Scanner – Håndskrevet til Word | NoteOCR",
+    "meta_desc": "Skann gamle brev, dagbøker og postkort med mobilen og konverter dem til redigerbare Word-dokumenter for å bevare dem for alltid.",
+    "nav_label": "Brev Scanner",
+    "hero_pill": "For Slektshistorie & Arkiv",
+    "hero_title": "Gjør om håndskrevne brev til digitale dokumenter for å bevare og dele.",
+    "hero_subtitle": "Fotografer gamle brev eller dagboksider med NoteOCR for å konvertere dem til redigerbar tekst eller Word-filer, uten å måtte skrive dem inn manuelt.",
+    "hero_image_alt": "Gammelt håndskrevet brev skannet og konvertert med NoteOCR-appen",
+
+    "trust_1": "SSL-sikret",
+    "trust_2": "Klar på under 2 min",
+    "trust_3": "95–98% OCR-nøyaktighet",
+
+    "pain_eyebrow": "Bevart det som er verdifullt",
+    "pain_title": "Ikke la familieminnene gå tapt på papir som smuldrer opp.",
+    "pain_desc": "Historiske brev og personlige dagbøker inneholder uvurderlige minner, men papir gulner og falmer over tid. NoteOCR konverterer håndskrevne dokumenter til klar digital tekst for å sikre slektshistorien din for fremtidige generasjoner.",
+    "before_after_eyebrow": "Se hvordan det fungerer",
+    "before_after_title": "Opplev forskjellen",
+    "before_after_desc": "Et autentisk gammelt brev omgjort til et redigerbart Word-dokument.",
+    "before_label": "Før: Håndskrevet historisk brev",
+    "before_alt": "Gammelt håndskrevet brev før konvertering",
+    "after_label": "Etter: Word-dokument",
+    "after_alt": "Det samme brevet konvertert til et søkbart Word-dokument",
+
+    "how_eyebrow": "Slik fungerer det",
+    "how_title": "Fra loftet til et digitalt arkiv på tre trinn.",
+    "how_subtitle": "Ingen dyr skanner nødvendig: mobilkameraet ditt er mer enn godt nok.",
+    "step_1_title": "Åpne appen og trykk på Skann",
+    "step_1_desc": "Legg brevet på en flat overflate med godt lys og ta et bilde.",
+    "step_2_title": "Automatisk beskjæring og optimalisering",
+    "step_2_desc": "Fungerer utmerket også på gult papir, flekker eller delvis falmet blekk.",
+    "step_3_title": "Eksporter til Word og bevar for alltid",
+    "step_3_desc": "Lagre den digitale teksten ved siden av det originale bildet for et komplett historisk arkiv.",
+
+    "who_title": "Hvem bruker NoteOCR til å digitalisere brev?",
+    "who_subtitle": "Alle som ønsker å bevare kjære minner og historiske skrifter.",
+    "audience_1_title": "Slektsforskere og familiehistorikere",
+    "audience_1_desc": "Gjør om besteforeldrenes brev til et digitalt format som er enkelt å lese og dele med hele familien.",
+    "audience_2_title": "Lokalhistorikere og arkivarer",
+    "audience_2_desc": "Digitaliser gammel korrespondanse og dagbøker for å berike historiske oversikter og fortellinger.",
+    "audience_3_title": "Samlere og historieforskere",
+    "audience_3_desc": "Transkriber historiske dokumenter og lokale arkiver til søkbar digital tekst.",
+    "audience_4_title": "Kuratorer og museumskonsulenter",
+    "audience_4_desc": "Lag raske digitale arbeidskopier av håndskrift før originalene legges bort i arkivet.",
+
+    "comparison_title": "Manuell transkripsjon vs. NoteOCR",
+    "comparison_subtitle": "Hvorfor skanning av gamle brev er vesentlig mer effektivt enn å skrive av for hånd",
+    "comparison_col_method": "Metode",
+    "comparison_col_time": "Tid",
+    "comparison_col_accuracy": "Nøyaktighet",
+    "comparison_col_cost": "Kostnad",
+    "row1_method": "Skrive av brevet manuelt",
+    "row1_time": "30–45 min",
+    "row1_accuracy": "100 %, men veldig krevende",
+    "row1_cost": "Gratis (tar mange timer arbeid)",
+    "row2_method": "Standard OCR-app",
+    "row2_time": "5–8 min",
+    "row2_accuracy": "~60 % på gammel løkkeskrift",
+    "row2_cost": "Gratis – 120 kr",
+    "row3_method": "NoteOCR",
+    "row3_time": "Under 2 min",
+    "row3_accuracy": "95–98 %",
+    "row3_cost": "Gratis å prøve",
+
+    "proof_title": "Bygget på samme teknologi som brukes av over 10 000 mennesker.",
+    "proof_desc": "NoteOCRs spesialiserte teknologi digitaliserer historisk håndskrift og stilfull skriveskrift for over 10 000 brukere på noteocr.com.",
+    "proof_stat_number": "10 000+",
+    "proof_stat_label": "Sider med historiske brev digitalisert og trygt bevart",
+    "proof_quote": "Jeg digitaliserte hele samlingen av bestemors brev på én ettermiddag. Nå kan hele familien endelig lese dem uten problemer.",
+    "proof_quote_name": "Markus R.",
+    "proof_quote_role": "Slektsgransker",
+
+    "faq_title": "Ofte stilte spørsmål om skanning av gamle brev",
+
+    "related_title": "Andre måter å bruke NoteOCR på",
+    "cta_title": "Ikke la tiden viske ut de dyrebare brevene dine.",
+    "cta_subtitle": "Lagre dem i Word før papiret forringes ytterligere. Fra 21. september på iOS og Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Hvordan skanner jeg et gammelt brev med appen?",
+          "a": "Åpne NoteOCR, velg 'Skann' og fotografer brevet i godt lys. Appen konverterer håndskriften til et redigerbart Word-dokument innen 2 minutter."
+        },
+        "old_faded_letters": {
+          "q": "Fungerer det på veldig gamle brev eller falmet blekk?",
+          "a": "Bildebehandlingssystemet til NoteOCR øker kontrasten for å gjøre falmet blekk mer lesbart. Ved svært skadede sider kreves det som regel bare en kort kontroll."
+        },
+        "cursive_and_old_scripts": {
+          "q": "Kan appen tyde skråskrift og eldre skrivemåter?",
+          "a": "Ja, NoteOCR er spesialtrent på å gjenkjenne klassisk løkkeskrift og eldre håndskriftstiler."
+        },
+        "preserve_originals": {
+          "q": "Kan skanningen skade det originale dokumentet?",
+          "a": "Absolutt ikke. NoteOCR tar bare et digitalt bilde, slik at det originale papiret forblir helt urørt."
+        },
+        "batch_of_letters": {
+          "q": "Kan jeg skanne et brev som består av flere sider etter hverandre?",
+          "a": "Ja, du kan ta bilde av brev side for side i appen og samle dem i én enkelt digital fil."
+        },
+        "family_archive_use": {
+          "q": "Er dette egnet for å opprette et digitalt familiearkiv?",
+          "a": "Definitivt. Mange av brukerne våre bruker NoteOCR til å ta vare på dagbøker, korrespondanse og historiske skatter digitalt."
+        },
+        "accuracy": {
+          "q": "Hvor stor er nøyaktigheten på håndskrevne brev?",
+          "a": "På godt bevarte brev oppnår vi en nøyaktighet på 95–98 %. Vi anbefaler at du sjekker navn og datoer litt ekstra."
+        },
+        "privacy_of_personal_letters": {
+          "q": "Forblir de personlige brevene mine private og trygge?",
+          "a": "Ja. Alle opplastinger beskyttes med kryptering, og NoteOCR vil aldri dele eller se på dine private dokumenter."
+        }
+      }
+    }
+  },
+  "InventoryCountScannerPage": {
+    "meta_title": "Varetellingskjema Scanner til Excel | NoteOCR",
+    "meta_desc": "Skann håndskrevne varetellingslister og lagerrapporter med mobilen, og få ferdige Excel-tabeller med en gang. Unngå manuell tasting på lageret.",
+    "nav_label": "Varetelling Scanner",
+    "hero_pill": "For Lager & Logistikk",
+    "hero_title": "Gjør varetellingen om til Excel før du forlater lageret.",
+    "hero_subtitle": "Fotografer varetellingsskjemaene dine med NoteOCR-appen, og motta en .xlsx-fil med ryddige rader og kolonner.",
+    "hero_image_alt": "Håndskrevet varetellingsliste på et lager skannet med NoteOCR-appen",
+
+    "trust_1": "SSL-sikret",
+    "trust_2": "Klar på under 2 min",
+    "trust_3": "98% Nøyaktighet på tall",
+
+    "pain_eyebrow": "For lager- og logistikkstyring",
+    "pain_title": "Slutt å overføre telledata fra papir til datamaskin manuelt.",
+    "pain_desc": "Å bruke tid ved skrivebordet på å taste inn håndskrevne tall fra tellelister er sløsing med tid. NoteOCR konverterer varetellingsskjemaene dine direkte til Excel-ark, slik at inntastingsfeil og forsinkelser blir historie.",
+    "before_after_eyebrow": "Se hvordan det fungerer",
+    "before_after_title": "Opplev forskjellen",
+    "before_after_desc": "Et håndskrevet telleskjema omgjort til en strukturert Excel-tabell.",
+    "before_label": "Før: Håndskrevet varetellingsskjema",
+    "before_alt": "Varetellingsliste før konvertering",
+    "after_label": "Etter: Excel-regneark",
+    "after_alt": "De samme varetellingsdataene strukturert i en Excel-tabell",
+
+    "how_eyebrow": "Slik fungerer det",
+    "how_title": "Fra skrivebrett til regneark på tre enkle trinn.",
+    "how_subtitle": "Ikke vent til du sitter på kontoret: konverter dataene rett der opptellingen skjer.",
+    "step_1_title": "Åpne appen og trykk på Skann",
+    "step_1_desc": "Ta et bilde av telleskjemaet så snart opptellingen av en hylle eller reol er ferdig.",
+    "step_2_title": "Automatisk gjenkjenning av rader og kolonner",
+    "step_2_desc": "Fungerer utmerket på egne skjemaer, selv om det ikke er trykte rutelinjer på papiret.",
+    "step_3_title": "Eksporter til Excel og send videre",
+    "step_3_desc": "Last ned .xlsx-filen og del den umiddelbart med innkjøp eller regnskap.",
+
+    "who_title": "Hvem bruker NoteOCR til å skanne varetellinger?",
+    "who_subtitle": "Alle fagfolk som noterer lagerbeholdning på papir før systemene oppdateres.",
+    "audience_1_title": "Lager- og logistikkledere",
+    "audience_1_desc": "Konverter opptellinger direkte fra lagergangene til Excel uten å gå frem og tilbake til kontoret.",
+    "audience_2_title": "Butikkeiere og detaljhandlere",
+    "audience_2_desc": "Digitaliser bestillingslister og vareopptellinger umiddelbart for rask overføring til leverandører.",
+    "audience_3_title": "Restaurant- og kjøkkensjefer",
+    "audience_3_desc": "Gjør om varetellingsskjemaer for råvarer og drikkevarer til oversiktlige ark for kostnadskontroll.",
+    "audience_4_title": "Revisorer og lagerkontrollører",
+    "audience_4_desc": "Dokumenter kontrollrutiner på stedet og eksporter rapporten samme dag.",
+
+    "comparison_title": "Manuell inntasting vs. NoteOCR",
+    "comparison_subtitle": "Hvorfor skanning av varetellinger er dramatisk mer effektivt",
+    "comparison_col_method": "Metode",
+    "comparison_col_time": "Tid",
+    "comparison_col_accuracy": "Nøyaktighet",
+    "comparison_col_cost": "Kostnad",
+    "row1_method": "Taste inn data manuelt på PC",
+    "row1_time": "30–40 min",
+    "row1_accuracy": "95 %, risiko for tastefeil",
+    "row1_cost": "Lønnskostnad for personalet",
+    "row2_method": "Standard OCR-app",
+    "row2_time": "8 min",
+    "row2_accuracy": "~55 %, mister tabellstruktur",
+    "row2_cost": "Gratis – 150 kr",
+    "row3_method": "NoteOCR",
+    "row3_time": "Under 2 min",
+    "row3_accuracy": "98 % på tall",
+    "row3_cost": "Gratis å prøve",
+
+    "proof_title": "Bygget på samme teknologi som brukes av over 10 000 mennesker.",
+    "proof_desc": "NoteOCRs tabellmotor behandler varetellinger og bedriftsdata for over 10 000 brukere hver måned på noteocr.com.",
+    "proof_stat_number": "98%",
+    "proof_stat_label": "Gjennomsnittlig nøyaktighet på håndskrevne tall og mengder",
+    "proof_quote": "Tidligere brukte vi 20 minutter på slutten av dagen på å taste inn telleskjemaer. Nå sender vi rapporten før vi slår av lyset.",
+    "proof_quote_name": "Arne T.",
+    "proof_quote_role": "Lagersjef",
+
+    "faq_title": "Ofte stilte spørsmål om skanning av varetellinger",
+
+    "related_title": "Andre måter å bruke NoteOCR på",
+    "cta_title": "Slutt å taste inn varetellinger manuelt.",
+    "cta_subtitle": "Skann dem rett til Excel. Tilgjengelig fra 21. september på iOS og Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Hvordan konverterer jeg et varetellingsskjema med appen?",
+          "a": "Åpne NoteOCR, velg 'Skann' og ta et bilde av telleskjemaet. Appen gjenkjenner automatisk rader og kolonner og lager en Excel-fil innen 2 minutter."
+        },
+        "no_drawn_lines": {
+          "q": "Fungerer det på blankt papir uten trykte linjer?",
+          "a": "Ja. NoteOCR analyserer plasseringen av tekst og tall for å gjenskape tabellstrukturen korrekt, selv uten trykte rutelinjer."
+        },
+        "numeric_accuracy": {
+          "q": "Hvor nøyaktig gjenkjennes siffer og tall?",
+          "a": "Nøyaktigheten på tallverdier er rundt 98 %. Vi anbefaler at du tar en rask kontroll av totalsummene før behandling."
+        },
+        "multiple_sheets_per_day": {
+          "q": "Kan jeg skanne flere telleskjemaer på én dag?",
+          "a": "Ja, du kan skanne så mange telleskjemaer du vil. Hvert skjema konverteres til en klar tabell."
+        },
+        "export_format": {
+          "q": "Hvilket filformat får jeg levert?",
+          "a": "Du får en .xlsx-fil som kan åpnes direkte i Microsoft Excel, Google Sheets og de fleste ERP-systemer."
+        },
+        "team_use": {
+          "q": "Kan appen brukes av flere ansatte samtidig?",
+          "a": "Ja. Hver medarbeider kan bruke appen på sin egen mobil til å skanne varetellinger, og deretter samle Excel-filene."
+        },
+        "offline_warehouse_use": {
+          "q": "Fungerer appen i lagre med dårlig dekning?",
+          "a": "Du kan ta bildene offline. Appen konverterer dokumentene så snart enheten kobler seg til internett igjen."
+        },
+        "free_or_paid": {
+          "q": "Er det gratis å skanne varetellingsskjemaer?",
+          "a": "Ja, appen inneholder en månedlig kvote med gratisskanninger. For bedrifter med store volum finnes det Pro-abonnementer."
+        }
+      }
+    }
+  },
+  "ReceiptToExcelScannerPage": {
+    "meta_title": "Kvittering Scanner til Excel – Gjør om Kvitteringer | NoteOCR",
+    "meta_desc": "Skann kvitteringer og kjøpsbilag med mobilen og konverter dem til strukturerte Excel-ark for utlegg, regnskap og skatt.",
+    "nav_label": "Kvittering Scanner til Excel",
+    "hero_pill": "For Enkeltpersonforetak & Småbedrifter",
+    "hero_title": "Gjør om en bunke løse kvitteringer til en ryddig Excel-oversikt.",
+    "hero_subtitle": "Fotografer hver kvittering med NoteOCR og hent automatisk ut dato, beløp og utsteder til en ferdig Excel-tabell for regnskapet.",
+    "hero_image_alt": "Butikkvittering skannet med NoteOCR og konvertert til en Excel-tabell",
+
+    "trust_1": "SSL-sikret",
+    "trust_2": "Klar på under 2 min",
+    "trust_3": "98% Nøyaktighet på tall",
+
+    "pain_eyebrow": "Fra papir til regneark",
+
+    "pain_title": "Kvitteringer hoper seg fort opp. Ikke kast bort tid på manuell registrering.",
+
+    "pain_desc": "Kvitteringer inneholder avgjørende informasjon for regnskap og skatt, men å taste inn hvert enkelt beløp i Excel tar mye tid. NoteOCR konverterer papirkvitteringer automatisk til strukturerte data.",
+    "before_after_eyebrow": "Se hvordan det fungerer",
+    "before_after_title": "Opplev forskjellen",
+    "before_after_desc": "En papirkvittering omgjort til en overskuelig rad i Excel.",
+    "before_label": "Før: Papirkvittering",
+    "before_alt": "Papirkvittering før konvertering",
+    "after_label": "Etter: Excel-rad",
+    "after_alt": "Dataene fra kvitteringen strukturert i en rad i Excel",
+
+    "how_eyebrow": "Slik fungerer det",
+    "how_title": "Fra kvittering til utleggsrapport på tre trinn.",
+    "how_subtitle": "Skann kvitteringen rett etter kjøpet, før utskriften falmer eller krølles.",
+    "step_1_title": "Åpne appen og trykk på Skann",
+    "step_1_desc": "Ta et skarpt bilde av kvitteringen umiddelbart etter kjøpet.",
+    "step_2_title": "Automatisk gjenkjenning av beløp og dato",
+    "step_2_desc": "Appen gjenkjenner automatisk totalbeløp, dato og utsteders navn.",
+    "step_3_title": "Eksporter til Excel og fullfør utleggene",
+    "step_3_desc": "Last ned .xlsx-filen, legg den ved regnskapet eller send den til regnskapsføreren.",
+
+    "who_title": "Hvem bruker NoteOCR til å skanne kvitteringer?",
+    "who_subtitle": "Alle næringsdrivende og ansatte som raskt må dokumentere utlegg.",
+    "audience_1_title": "Enkeltpersonforetak og frilansere",
+    "audience_1_desc": "Gjør kvitteringer om til Excel-oversikter som kan legges rett inn i MVA-meldingen eller regnskapet.",
+    "audience_2_title": "Små og mellomstore bedrifter",
+    "audience_2_desc": "Digitaliser daglige innkjøp uten å måtte taste inn hvert beløp manuelt.",
+    "audience_3_title": "Regnskapsførere og revisorer",
+    "audience_3_desc": "Gjør om skoesker fulle av kundekvitteringer til strukturerte Excel-filer på kort tid.",
+    "audience_4_title": "Ansatte på reise og farta",
+    "audience_4_desc": "Skann reiseutgifter og kvitteringer underveis, slik at utleggsrapporten er klar før du er tilbake.",
+
+    "comparison_title": "Manuell inntasting vs. NoteOCR",
+    "comparison_subtitle": "Hvorfor skanning av kvitteringer er så mye raskere enn å skrive inn selv",
+    "comparison_col_method": "Metode",
+    "comparison_col_time": "Tid",
+    "comparison_col_accuracy": "Nøyaktighet",
+    "comparison_col_cost": "Kostnad",
+    "row1_method": "Taste inn hver kvittering manuelt",
+    "row1_time": "2–3 min per kvittering",
+    "row1_accuracy": "95 %, utsatt for skrivefeil",
+    "row1_cost": "Gratis (tar mye tid)",
+    "row2_method": "Standard OCR-app",
+    "row2_time": "1 min per kvittering",
+    "row2_accuracy": "~70 % på termopapir",
+    "row2_cost": "Gratis – 100 kr",
+    "row3_method": "NoteOCR",
+    "row3_time": "Under 2 min totalt",
+    "row3_accuracy": "98 % på tall",
+    "row3_cost": "Gratis å prøve",
+
+    "proof_title": "Bygget på samme teknologi som brukes av over 10 000 mennesker.",
+    "proof_desc": "NoteOCRs teknologi behandler bilag og regnskapsdokumenter for over 10 000 brukere på noteocr.com.",
+    "proof_stat_number": "98%",
+    "proof_stat_label": "Nøyaktighet på tallverdier fra skannede kvitteringer",
+    "proof_quote": "Å samle kvitteringer til MVA-oppgjøret var alltid et mareritt. Nå skanner jeg dem med en gang, og alt havner ryddig i Excel.",
+    "proof_quote_name": "Lotte V.",
+    "proof_quote_role": "Frilans designer",
+
+    "faq_title": "Ofte stilte spørsmål om skanning av kvitteringer",
+
+    "related_title": "Andre måter å bruke NoteOCR på",
+    "cta_title": "Slutt å taste inn kvitteringer manuelt.",
+    "cta_subtitle": "Skann dem rett til Excel. Tilgjengelig fra 21. september på iOS og Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Hvordan konverterer jeg en kvittering med appen?",
+          "a": "Åpne NoteOCR, velg 'Skann' og ta et bilde av kvitteringen. Appen henter ut totalbeløp og transaksjonsdetaljer og oppretter en Excel-rad innen 2 minutter."
+        },
+        "faded_receipts": {
+          "q": "Fungerer det på falmede kvitteringer fra termoskrivere?",
+          "a": "NoteOCRs algoritme forbedrer kontrasten for å gjenopprette svak tekst. Ved nesten uleselige kvitteringer kan det i enkelte tilfeller trengs en rask kontroll."
+        },
+        "currency_symbols": {
+          "q": "Gjenkjenner appen valutasymboler (kr, €, $)?",
+          "a": "Ja, modellen er trent til å gjenkjenne ulike valutasymboler og riktig bruk av komma og punktum i beløp."
+        },
+        "batch_of_receipts": {
+          "q": "Kan jeg skanne flere kvitteringer samtidig?",
+          "a": "For å oppnå høyest mulig nøyaktighet fotograferes hver kvittering for seg. For store mengder bilag kan du også benytte web-versjonen vår."
+        },
+        "tax_season_use": {
+          "q": "Er dette egnet for skattemeldingen eller regnskapet?",
+          "a": "Ja. Mange enkeltpersonforetak og småbedrifter bruker NoteOCR til å digitalisere bilag før dataene sendes til regnskapsfører."
+        },
+        "export_format": {
+          "q": "Hvilket filformat får jeg dataene i?",
+          "a": "Du får en .xlsx-fil der dato, utsteder og beløp er ryddig sortert i kolonner."
+        },
+        "accuracy_on_numbers": {
+          "q": "Hvor nøyaktig gjenkjennes totalbeløpet?",
+          "a": "Nøyaktigheten på tall er ca. 98 %. Vi anbefaler alltid at du tar en kikk på totalsummen for sikkerhets skyld."
+        },
+        "privacy_of_financial_data": {
+          "q": "Er mine økonomiske data og kvitteringer trygge?",
+          "a": "Ja. Ditt personvern prioriteres høyt: alle opplastinger er kryptert, og dataene dine selges eller deles aldri med tredjeparter."
+        }
+      }
+    }
+  },
+  "LogSheetScannerPage": {
+    "meta_title": "Arbeidsskjema & Timelister Scanner til Excel | NoteOCR",
+    "meta_desc": "Skann håndskrevne arbeidsskjemaer, timelister og inspeksjonsrapporter med mobilen og konverter dem til strukturerte Excel-tabeller.",
+    "nav_label": "Arbeidsskjema Scanner",
+    "hero_pill": "For Feltarbeid & Teknikere",
+    "hero_title": "Gjør om papirskjemaer til Excel før du er tilbake på kontoret.",
+    "hero_subtitle": "Fotografer timelister, dagsrapporter eller kontrollskjemaer med NoteOCR og motta ferdig formaterte Excel-tabeller.",
+    "hero_image_alt": "Håndskrevet arbeidsskjema skannet ute i felt med NoteOCR-appen",
+
+    "trust_1": "SSL-sikret",
+    "trust_2": "Klar på under 2 min",
+    "trust_3": "98% Nøyaktighet på tall",
+
+    "pain_eyebrow": "Digitaliser data ute i felt",
+
+    "pain_title": "Slutt å skrive inn arbeidsskjemaer og inspeksjonslister manuelt.",
+
+    "pain_desc": "Serviceraporter, timelister og tekniske inspeksjoner fylles ofte ut for hånd på stedet. NoteOCR konverterer disse håndskrevne papirene direkte til redigerbare Excel-filer.",
+    "before_after_eyebrow": "Se hvordan det fungerer",
+    "before_after_title": "Opplev forskjellen",
+    "before_after_desc": "Et håndskrevet arbeidsskjema omgjort til en oversiktlig Excel-tabell.",
+    "before_label": "Før: Håndskrevet arbeidsskjema",
+    "before_alt": "Håndskrevet servicerapport før konvertering",
+    "after_label": "Etter: Excel-tabell",
+    "after_alt": "Dataene fra arbeidsskjemaet strukturert i en Excel-tabell",
+
+    "how_eyebrow": "Slik fungerer det",
+    "how_title": "Fra papirskjema til Excel på tre enkle trinn.",
+    "how_subtitle": "Konverter dataene rett på stedet, i stedet for å utsette det til arbeidsdagens slutt.",
+    "step_1_title": "Åpne appen og trykk på Skann",
+    "step_1_desc": "Ta et bilde av skjemaet eller rapporten umiddelbart etter at det er utfylt.",
+    "step_2_title": "Automatisk gjenkjenning av rader og kolonner",
+    "step_2_desc": "Støtter lister, tabeller og skjemaer på praktisk talt alle typer papir.",
+    "step_3_title": "Eksporter til Excel og send rapporten",
+    "step_3_desc": "Last ned .xlsx-filen og send den videre med en gang for daglig oppdatering av regnskap eller styring.",
+
+    "who_title": "Hvem bruker NoteOCR til å skanne arbeidsskjemaer?",
+    "who_subtitle": "Alle fagfolk som noterer data for hånd på farta eller ute i felt.",
+    "audience_1_title": "Serviceteknikere og montører",
+    "audience_1_desc": "Gjør om servicerapporter og montørskjemaer til Excel-tabeller uten å trenge en datamaskin underveis.",
+    "audience_2_title": "Byggeledere og anleggsarbeidere",
+    "audience_2_desc": "Digitaliser daglige timelister og framdriftsrapporter rett fra byggeplassen.",
+    "audience_3_title": "Forskere og laboratorieteknikere",
+    "audience_3_desc": "Gjør om håndskrevne måleverdier og loggbøker til Excel for videre dataanalyse.",
+    "audience_4_title": "Arrangementsansvarlige og idrettsledere",
+    "audience_4_desc": "Konverter håndskrevne deltakerlister, resultatark eller scoreregistreringer til ryddige regneark.",
+
+    "comparison_title": "Manuell inntasting vs. NoteOCR",
+    "comparison_subtitle": "Hvorfor skanning av feltrapporter sparer enormt med tid",
+    "comparison_col_method": "Metode",
+    "comparison_col_time": "Tid",
+    "comparison_col_accuracy": "Nøyaktighet",
+    "comparison_col_cost": "Kostnad",
+    "row1_method": "Skrive inn rapporter på PC manuelt",
+    "row1_time": "20–30 min",
+    "row1_accuracy": "95 %, sjanse for skrivefeil",
+    "row1_cost": "Kostnad for arbeidstimer",
+    "row2_method": "Standard OCR-app",
+    "row2_time": "8 min",
+    "row2_accuracy": "~55 %, mister formatering",
+    "row2_cost": "Gratis – 150 kr",
+    "row3_method": "NoteOCR",
+    "row3_time": "Under 2 min",
+    "row3_accuracy": "98 % på tall",
+    "row3_cost": "Gratis å prøve",
+
+    "proof_title": "Bygget på samme teknologi som brukes av over 10 000 mennesker.",
+    "proof_desc": "NoteOCRs tabellmotor behandler dagsrapporter og arbeidsskjemaer for over 10 000 brukere på noteocr.com.",
+    "proof_stat_number": "10 000+",
+    "proof_stat_label": "Sider med arbeidsskjemaer og rapporter digitalisert og eksportert",
+    "proof_quote": "Teknikerne våre fyller ut skjemaene på stedet. Med NoteOCR gjør de dem om til Excel før de i det hele tatt kjører videre.",
+    "proof_quote_name": "Stefan K.",
+    "proof_quote_role": "Driftssjef",
+
+    "faq_title": "Ofte stilte spørsmål om skanning av arbeidsskjemaer",
+
+    "related_title": "Andre måter å bruke NoteOCR på",
+    "cta_title": "Slutt å skrive inn papirskjemaer på nytt.",
+    "cta_subtitle": "Skann dem rett til Excel. Tilgjengelig fra 21. september på iOS og Android.",
+
+    "FAQ": {
+      "items": {
+        "how_it_works": {
+          "q": "Hvordan konverterer jeg et arbeidsskjema med appen?",
+          "a": "Åpne NoteOCR, trykk 'Skann' og ta et bilde av skjemaet. Appen gjenkjenner tabellstrukturen og genererer en Excel-fil innen 2 minutter."
+        },
+        "field_conditions": {
+          "q": "Fungerer det på bilder tatt utendørs eller i dårlig lys?",
+          "a": "Ja, NoteOCR har automatiske bildejusteringer for å korrigere skygger og ujevne lysforhold."
+        },
+        "no_drawn_lines": {
+          "q": "Fungerer det også på skjemaer uten trykte skillelinjer?",
+          "a": "Ja. Appen analyserer plasseringen av teksten for å plassere informasjonen korrekt i rader og kolonner."
+        },
+        "multiple_columns": {
+          "q": "Kan appen håndtere avanserte skjemaer med mange kolonner?",
+          "a": "Sagtens, NoteOCR er optimalisert for å gjenskape strukturen selv i komplekse og innholdsrike skjemaer."
+        },
+        "daily_logs_batch": {
+          "q": "Kan jeg fortsette å skanne arbeidsskjemaer daglig?",
+          "a": "Ja, du kan skanne så mange skjemaer og rapporter som du har behov for. Hvert dokument konverteres til Excel-format."
+        },
+        "export_format": {
+          "q": "Hvilket filformat eksporteres dataene til?",
+          "a": "Du får en .xlsx-fil som er klar til nedlasting, der dataene er ryddig fordelt i cellene."
+        },
+        "team_use": {
+          "q": "Kan appen deles og brukes av et helt team med teknikere?",
+          "a": "Ja. Hver montør eller tekniker kan utføre skanningene fra sin egen mobil og sende filene direkte til kontoret."
+        },
+        "free_or_paid": {
+          "q": "Er det gratis å skanne arbeidsskjemaer?",
+          "a": "Ja, appen inneholder en månedlig gratiskvote. For intensiv bruk ute i felt tilbyr vi Pro-abonnementer."
+        }
+      }
+    }
+  }
+,
+  "AppPage": {
+    "meta_title": "NoteOCR-mobilapp – Skann og konverter håndskrift til tekst eller Excel | iOS og Android",
+    "meta_desc": "Last ned NoteOCR-appen for iOS og Android. Skann håndskrevne notater med kameraet og konverter dem umiddelbart til Word, Excel eller PDF.",
+
+    "nav_home": "Hjem",
+    "nav_features": "Funksjoner",
+    "nav_pricing": "Priser",
+    "nav_download_button": "Last ned appen",
+
+    "hero_pill": "Lanseres 21. september på iOS og Android",
+    "hero_title": "Skann. Konverter. Ferdig. Nå i lomma.",
+    "hero_subtitle": "NoteOCR er en app for å konvertere håndskrift til tekst og håndskrift til Excel på iOS og Android. Rett kameraet mot et håndskrevet notat, skjema eller en tavle, så konverterer NoteOCRs OCR-motor det til et redigerbart Word-, Excel- eller PDF-dokument før du rekker å legge bort telefonen.",
+    "hero_image_alt": "Kameraskjerm i NoteOCR-appen som skanner en håndskrevet side og konverterer den til tekst på en telefon",
+
+    "store_apple_top": "Last ned fra",
+    "store_apple_bottom": "iOS App Store",
+    "store_google_top": "Last ned fra",
+    "store_google_bottom": "Google Play",
+
+    "why_pill": "Hvorfor appen",
+    "why_title": "Laget for øyeblikkene når du er borte fra skrivebordet.",
+    "why_subtitle": "Nettappen er perfekt når du sitter ved skrivebordet. NoteOCR-mobilappen er en håndskriftskanner laget for bruk overalt – fra forelesningssaler og kundemøter til lager og arkiver.",
+
+    "feature_1_title": "Skann direkte med kameraet",
+    "feature_1_desc": "Rett kameraet mot siden, ta et bilde og konverter i én bevegelse, eller last opp direkte fra galleriet",
+    "feature_2_title": "Last ned umiddelbart",
+    "feature_2_desc": "Last ned og del det konverterte dokumentet umiddelbart på tvers av alle appene dine",
+    "feature_3_title": "Synkronisert med kontoen din",
+    "feature_3_desc": "Hver skanning vises umiddelbart i NoteOCR-dashbordet ditt – samme konto, samme dokumenter, hvilken som helst enhet.",
+    "feature_4_title": "Umiddelbare varsler",
+    "feature_4_desc": "Få beskjed så snart dokumentet er klart, slik at du aldri trenger å sitte og vente.",
+
+    "how_title": "Fra papir til dokument med tre trykk.",
+    "how_subtitle": "NoteOCR-appen for skanning gjør en håndskrevet side om til en redigerbar fil i tre trinn: skann, beskjær automatisk og eksporter.",
+    "how_image_alt": "NoteOCR-appens skjerm for automatisk beskjæring og forbedring med eksportalternativer",
+    "step_1_title": "Åpne appen og trykk på Skann",
+    "step_1_desc": "Start NoteOCR og rett kameraet mot en side, tavle eller et skjema.",
+    "step_2_title": "Beskjær og forbedre automatisk",
+    "step_2_desc": "Kanter oppdages og belysningen korrigeres automatisk – ingen manuell beskjæring nødvendig.",
+    "step_3_title": "Eksporter direkte til Word, Excel eller PDF",
+    "step_3_desc": "Velg format, så er dokumentet klart til deling på få sekunder.",
+
+    "excel_title": "Håndskrift til Excel: gjør tabeller om til regneark umiddelbart.",
+    "excel_desc": "NoteOCRs konvertering fra håndskrift til Excel fotograferer håndskrevne logger, tabeller eller lister, oppdager automatisk rader og kolonner og eksporterer ryddige, strukturerte .xlsx-filer som er klare for formler og sortering.",
+    "excel_before_label": "Før",
+    "excel_before_alt": "Håndskrevet datatabell før konvertering med NoteOCR",
+    "excel_after_label": "Etter",
+    "excel_after_alt": "Strukturert Excel-regneark etter konvertering av håndskrift til Excel med NoteOCR",
+
+    "text_title": "Håndskrift til tekst: kursiv, blokkbokstaver eller uleselig skrift – konvertert nøyaktig.",
+    "text_desc": "NoteOCR konverterer håndskrift til tekst med 95–98 % nøyaktighet. OCR-modellen er trent på både blokkbokstaver og kursiv håndskrift, inkludert skrå eller blandet håndskrift.",
+    "text_image_alt": "Håndskrevet notat som konverteres til ren, maskinskrevet tekst av NoteOCR",
+
+    "gallery_title": "Se NoteOCR i bruk",
+    "screenshot_1_alt": "Kameraskjerm i NoteOCR-appen som tar bilde av en håndskrevet side",
+    "screenshot_2_alt": "Forhåndsvisning i NoteOCR-appen med automatisk beskjæring og forbedring",
+    "screenshot_3_alt": "Eksportalternativer i NoteOCR-appen for Word, Excel og PDF",
+    "screenshot_4_alt": "NoteOCR-appens dashbord med synkroniserte skannede dokumenter",
+    "screenshot_5_alt": "Resultat av konvertering fra håndskrevet tabell til Excel i NoteOCR-appen",
+
+    "faq_title": "Vanlige spørsmål",
+
+    "cta_title": "Begynn å konvertere håndskrift på få sekunder.",
+    "cta_subtitle": "Lanseres 21. september på iOS og Android. Gratis å laste ned.",
+
+    "modal_pill": "Kommer snart til {store}",
+    "modal_title": "NoteOCR lanseres 21. september",
+    "modal_desc": "Vi gjør de siste justeringene av appen. Kom tilbake på lanseringsdagen, eller legg igjen e-postadressen din, så varsler vi deg så snart appen er tilgjengelig.",
+    "modal_days": "dager",
+    "modal_hrs": "timer",
+    "modal_min": "min",
+    "modal_sec": "sek",
+    "modal_email_placeholder": "du@epost.no",
+    "modal_email_aria": "E-postadresse",
+    "modal_notify_button": "Varsle meg",
+    "modal_store_fallback": "appbutikkene",
+
+    "footer_copyright": "© {year} NoteOCR. Alle rettigheter forbeholdt.",
+    "footer_privacy": "Personvern",
+    "footer_terms": "Vilkår",
+    "footer_contact": "Kontakt",
+
+    "FAQ": {
+      "items": {
+        "notes_to_word_phone": {
+          "q": "Kan jeg konvertere håndskrevne notater til Word fra telefonen?",
+          "a": "Ja. Åpne NoteOCR-appen, ta et bilde av den håndskrevne siden, og den konverteres direkte til en redigerbar .docx-fil. Du trenger ikke være ved en datamaskin eller laste opp via nettstedet."
+        },
+        "table_to_excel_camera": {
+          "q": "Hvordan gjør jeg en håndskrevet tabell om til en Excel-fil med kameraet?",
+          "a": "Rett kameraet i NoteOCR-appen mot tabellen og ta et bilde. Den samme motoren som driver noteocr.com, oppdager rader og kolonner og lager et formatert .xlsx-regneark som er klart til å lastes ned eller redigeres på telefonen."
+        },
+        "old_letters_journals": {
+          "q": "Kan appen digitalisere gamle håndskrevne brev eller dagbøker?",
+          "a": "Ja. Ta bilde av siden i NoteOCR-appen, så gjenskapes teksten i et redigerbart Word-dokument. Det gjør det enkelt å digitalisere gamle brev, dagbøker eller arkiver, én side om gangen, uansett hvor de oppbevares."
+        },
+        "logs_on_the_go": {
+          "q": "Kan jeg skanne en håndskrevet logg eller liste mens jeg er på farten og få et regneark?",
+          "a": "Ja. Ta bilde av siden med telefonkameraet i NoteOCR-appen, så konverteres den automatisk til en strukturert Excel-fil. Dermed trenger ikke feltnotater, logger og lister å vente til du er tilbake ved skrivebordet."
+        },
+        "ios_android_app": {
+          "q": "Finnes NoteOCR-appen for iPhone og Android?",
+          "a": "Ja. NoteOCR-appen er tilgjengelig for både iOS og Android, slik at du kan skanne og konvertere håndskrevne notater direkte fra telefonen i stedet for å måtte bruke nettstedet."
+        },
+        "push_notifications": {
+          "q": "Varsler appen meg når skanningen er klar?",
+          "a": "Ja. NoteOCR-appen sender et pushvarsel så snart en skanning er ferdig konvertert, slik at du ikke trenger å sitte og vente i appen."
+        },
+        "plan_sync": {
+          "q": "Følger NoteOCR-abonnementet og sidegrensene mine med over til appen?",
+          "a": "Ja. Appen bruker de samme gratis- og betalingsplanene som noteocr.com, så den månedlige sidekvoten din og eventuelle Pro- eller Business-funksjoner gjelder enten du skanner fra telefonen eller laster opp fra datamaskinen."
+        },
+        "free_download": {
+          "q": "Er NoteOCR-appen gratis å laste ned?",
+          "a": "Ja, NoteOCR-appen er gratis å laste ned. Du kan begynne å konvertere håndskrevne notater med gratisplanen med en gang, og oppgradere i appen hvis du trenger en høyere månedlig sidegrense."
+        }
+      }
+    }
+  },
+
   "HomePage": {
     "trust_pill": "V2.0 Håndskrift-OCR: 99,2 % nøyaktighet",
     "hero_title_1": "Konverter håndskrift til tekst og",
