@@ -10,7 +10,8 @@
     "lint": "next lint",
     "analyze": "ANALYZE=true next build",
     "sitemap": "next-sitemap",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
