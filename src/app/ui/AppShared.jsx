@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 export const STORE_LINKS = {
   apple:
     "https://apps.apple.com/ng/app/noteocr-handwriting-to-text/id6803424702",
-  google: "",
+  google: "https://play.google.com/store/apps/details?id=com.noteocr.app",
 };
 
 /* Official launch date shown in the countdown modal. */
