@@ -577,8 +577,7 @@
         }
       }
     }
-  }
-,
+  },
   "AppPage": {
     "meta_title": "NoteOCR mobiele app – Handschrift scannen en omzetten naar tekst of Excel | iOS & Android",
     "meta_desc": "Download de NoteOCR-app voor iOS en Android. Scan handgeschreven notities met je camera en zet ze direct om naar Word, Excel of PDF.",
@@ -1038,6 +1037,31 @@
     "toast_error_conversion": "Conversie mislukt.",
     "toast_download_success": "Word-document gedownload!",
     "toast_download_error": "Download mislukt.",
+    "viewer_preview_only": "Alleen voorbeeld",
+    "viewer_close": "Sluiten",
+    "viewer_preview_badge": "Voorbeeld",
+    "viewer_page_of": "Pagina {current} / {total}",
+    "viewer_loading": "Je geconverteerde voorbeeld wordt voorbereid…",
+    "viewer_error": "Het geconverteerde voorbeeld kon niet worden geladen. Probeer het opnieuw.",
+
+    "paywall_title": "Je document is klaar",
+    "paywall_desc": "Je hebt het geconverteerde resultaat gezien. Ga verder naar NoteOCR om je document te downloaden, te bewerken en te exporteren.",
+    "paywall_subtext": "Met één betaling krijg je 100 pagina's voor toekomstige conversies.",
+    "paywall_price": "$12 / 100 pagina's",
+    "paywall_price_suffix": "eenmalig",
+    "paywall_button": "Mijn document ontgrendelen →",
+    "paywall_footer": "100 pagina's · Verloopt nooit · Geen abonnement",
+
+    "tool_view_preview": "Voorbeeld bekijken",
+    "tool_upload_hint": "Eén afbeelding per gratis conversie",
+
+    "toast_title_error": "Fout",
+    "toast_title_one_image": "Eén afbeelding tegelijk",
+    "toast_msg_one_image": "Het gratis voorbeeld converteert één afbeelding tegelijk. Ontgrendel een betaald abonnement voor batchverwerking.",
+    "toast_title_invalid_file": "Ongeldig bestand",
+    "toast_title_file_too_large": "Bestand te groot",
+    "toast_title_processing_error": "Verwerkingsfout",
+    "toast_msg_processing_error": "Je bestand kon niet worden voorbereid voor upload.",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1631,6 +1655,31 @@
     "toast_error_extraction": "Extractie mislukt.",
     "toast_download_success": "Excel bestand gedownload!",
     "toast_download_error": "Download mislukt.",
+    "viewer_preview_only": "Alleen voorbeeld",
+    "viewer_close": "Sluiten",
+    "viewer_preview_badge": "Voorbeeld",
+    "viewer_page_of": "Pagina {current} / {total}",
+    "viewer_loading": "Je geconverteerde voorbeeld wordt voorbereid…",
+    "viewer_error": "Het geconverteerde voorbeeld kon niet worden geladen. Probeer het opnieuw.",
+
+    "paywall_title": "Je spreadsheet is klaar",
+    "paywall_desc": "Je hebt het geconverteerde resultaat gezien. Ga verder naar NoteOCR om je spreadsheet te downloaden, te bewerken en te exporteren.",
+    "paywall_subtext": "Met één betaling krijg je 100 pagina's voor toekomstige conversies.",
+    "paywall_price": "$12 / 100 pagina's",
+    "paywall_price_suffix": "eenmalig",
+    "paywall_button": "Mijn spreadsheet ontgrendelen →",
+    "paywall_footer": "100 pagina's · Verloopt nooit · Geen abonnement",
+
+    "tool_view_preview": "Voorbeeld bekijken",
+    "tool_upload_hint": "Eén afbeelding per gratis conversie",
+
+    "toast_title_error": "Fout",
+    "toast_title_one_image": "Eén afbeelding tegelijk",
+    "toast_msg_one_image": "Het gratis voorbeeld converteert één afbeelding tegelijk. Ontgrendel een betaald abonnement voor batchverwerking.",
+    "toast_title_invalid_file": "Ongeldig bestand",
+    "toast_title_file_too_large": "Bestand te groot",
+    "toast_title_processing_error": "Verwerkingsfout",
+    "toast_msg_processing_error": "Je bestand kon niet worden voorbereid voor upload.",
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1844,13 +1893,7 @@
     "comparison": {
       "title": "Specificaties en Technische Details",
       "subtitle": "Waarom NoteOCR beter presteert dan generieke scanners.",
-      "headers": [
-        "Functie",
-        "Gratis",
-        "Student",
-        "Professional",
-        "Power User"
-      ],
+      "headers": ["Functie", "Gratis", "Student", "Professional", "Power User"],
       "groups": {
         "core": "Herkenningsintelligentie",
         "formats": "Export & Bestandstypen",
@@ -1859,112 +1902,57 @@
       "rows": [
         {
           "name": "Blokletter Handschrift OCR",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "Cursief Schrift Engine",
-          "values": [
-            "Standaard",
-            "Hoog",
-            "Ultra",
-            "Ultra"
-          ],
+          "values": ["Standaard", "Hoog", "Ultra", "Ultra"],
           "group": "core"
         },
         {
           "name": "Tabel Raster Detectie (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "Lay-out Behoud (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Wiskundige Formules",
-          "values": [
-            false,
-            false,
-            "Basis",
-            "Geavanceerd"
-          ],
+          "values": [false, false, "Basis", "Geavanceerd"],
           "group": "core"
         },
         {
           "name": "Rommelige Inkt Correctie",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Export Formaten",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "Alle Formaten"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Alle Formaten"],
           "group": "formats"
         },
         {
           "name": "Batch Upload Limiet",
-          "values": [
-            "1 Bestand",
-            "5 Bestanden",
-            "10 Bestanden",
-            "Onbeperkt"
-          ],
+          "values": ["1 Bestand", "5 Bestanden", "10 Bestanden", "Onbeperkt"],
           "group": "formats"
         },
         {
           "name": "Cloudopslag Duur",
-          "values": [
-            "24 Uur",
-            "30 Dagen",
-            "Voor Altijd",
-            "Voor Altijd"
-          ],
+          "values": ["24 Uur", "30 Dagen", "Voor Altijd", "Voor Altijd"],
           "group": "system"
         },
         {
           "name": "Versleutelingsniveau",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "Verwerkingsprioriteit",
-          "values": [
-            "Standaard",
-            "Standaard",
-            "Hoog",
-            "Real-Time"
-          ],
+          "values": ["Standaard", "Standaard", "Hoog", "Real-Time"],
           "group": "system"
         }
       ]

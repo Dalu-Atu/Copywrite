@@ -1037,6 +1037,31 @@
     "toast_error_conversion": "La conversion a échoué.",
     "toast_download_success": "Document Word téléchargé !",
     "toast_download_error": "Échec du téléchargement.",
+    "viewer_preview_only": "Aperçu uniquement",
+    "viewer_close": "Fermer",
+    "viewer_preview_badge": "Aperçu",
+    "viewer_page_of": "Page {current} / {total}",
+    "viewer_loading": "Préparation de votre aperçu converti…",
+    "viewer_error": "Impossible de charger l'aperçu converti. Veuillez réessayer.",
+
+    "paywall_title": "Votre document est prêt",
+    "paywall_desc": "Vous avez vu le résultat converti. Continuez sur NoteOCR pour télécharger, modifier et exporter votre document.",
+    "paywall_subtext": "Un seul paiement vous donne 100 pages à utiliser pour vos futures conversions.",
+    "paywall_price": "12 $ / 100 pages",
+    "paywall_price_suffix": "paiement unique",
+    "paywall_button": "Débloquer mon document →",
+    "paywall_footer": "100 pages · N'expire jamais · Sans abonnement",
+
+    "tool_view_preview": "Voir l'aperçu",
+    "tool_upload_hint": "Une image par conversion gratuite",
+
+    "toast_title_error": "Erreur",
+    "toast_title_one_image": "Une image à la fois",
+    "toast_msg_one_image": "L'aperçu gratuit convertit une image à la fois. Passez à une offre payante pour le traitement par lot.",
+    "toast_title_invalid_file": "Fichier invalide",
+    "toast_title_file_too_large": "Fichier trop volumineux",
+    "toast_title_processing_error": "Erreur de traitement",
+    "toast_msg_processing_error": "Impossible de préparer votre fichier pour l'envoi.",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1630,6 +1655,31 @@
     "toast_error_extraction": "Extraction échouée.",
     "toast_download_success": "Excel téléchargé !",
     "toast_download_error": "Échec téléchargement.",
+    "viewer_preview_only": "Aperçu uniquement",
+    "viewer_close": "Fermer",
+    "viewer_preview_badge": "Aperçu",
+    "viewer_page_of": "Page {current} / {total}",
+    "viewer_loading": "Préparation de votre aperçu converti…",
+    "viewer_error": "Impossible de charger l'aperçu converti. Veuillez réessayer.",
+
+    "paywall_title": "Votre feuille de calcul est prête",
+    "paywall_desc": "Vous avez vu le résultat converti. Continuez sur NoteOCR pour télécharger, modifier et exporter votre feuille de calcul.",
+    "paywall_subtext": "Un seul paiement vous donne 100 pages à utiliser pour vos futures conversions.",
+    "paywall_price": "12 $ / 100 pages",
+    "paywall_price_suffix": "paiement unique",
+    "paywall_button": "Débloquer ma feuille de calcul →",
+    "paywall_footer": "100 pages · N'expire jamais · Sans abonnement",
+
+    "tool_view_preview": "Voir l'aperçu",
+    "tool_upload_hint": "Une image par conversion gratuite",
+
+    "toast_title_error": "Erreur",
+    "toast_title_one_image": "Une image à la fois",
+    "toast_msg_one_image": "L'aperçu gratuit convertit une image à la fois. Passez à une offre payante pour le traitement par lot.",
+    "toast_title_invalid_file": "Fichier invalide",
+    "toast_title_file_too_large": "Fichier trop volumineux",
+    "toast_title_processing_error": "Erreur de traitement",
+    "toast_msg_processing_error": "Impossible de préparer votre fichier pour l'envoi.",
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1858,112 +1908,57 @@
       "rows": [
         {
           "name": "OCR Manuscrit Imprimé",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "Moteur Script Cursif",
-          "values": [
-            "Standard",
-            "Haut",
-            "Ultra",
-            "Ultra"
-          ],
+          "values": ["Standard", "Haut", "Ultra", "Ultra"],
           "group": "core"
         },
         {
           "name": "Détection Grille Tableau (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "Préservation Mise en Page (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Formules Mathématiques",
-          "values": [
-            false,
-            false,
-            "Basique",
-            "Avancé"
-          ],
+          "values": [false, false, "Basique", "Avancé"],
           "group": "core"
         },
         {
           "name": "Correction Encre Désordonnée",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Formats d'Export",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "Tous Formats"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Tous Formats"],
           "group": "formats"
         },
         {
           "name": "Limite Upload Lots",
-          "values": [
-            "1 Fichier",
-            "5 Fichiers",
-            "10 Fichiers",
-            "Illimité"
-          ],
+          "values": ["1 Fichier", "5 Fichiers", "10 Fichiers", "Illimité"],
           "group": "formats"
         },
         {
           "name": "Durée Stockage Cloud",
-          "values": [
-            "24 Heures",
-            "30 Jours",
-            "Toujours",
-            "Toujours"
-          ],
+          "values": ["24 Heures", "30 Jours", "Toujours", "Toujours"],
           "group": "system"
         },
         {
           "name": "Niveau Chiffrement",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "Priorité Traitement",
-          "values": [
-            "Standard",
-            "Standard",
-            "Haute",
-            "Temps Réel"
-          ],
+          "values": ["Standard", "Standard", "Haute", "Temps Réel"],
           "group": "system"
         }
       ]

@@ -1046,6 +1046,31 @@
     "toast_error_conversion": "Konvertierung fehlgeschlagen.",
     "toast_download_success": "Word-Dokument heruntergeladen!",
     "toast_download_error": "Download fehlgeschlagen.",
+    "viewer_preview_only": "Nur Vorschau",
+    "viewer_close": "Schließen",
+    "viewer_preview_badge": "Vorschau",
+    "viewer_page_of": "Seite {current} / {total}",
+    "viewer_loading": "Deine konvertierte Vorschau wird vorbereitet…",
+    "viewer_error": "Die konvertierte Vorschau konnte nicht geladen werden. Bitte versuche es erneut.",
+
+    "paywall_title": "Dein Dokument ist fertig",
+    "paywall_desc": "Du hast das konvertierte Ergebnis gesehen. Weiter zu NoteOCR, um dein Dokument herunterzuladen, zu bearbeiten und zu exportieren.",
+    "paywall_subtext": "Mit einer einmaligen Zahlung erhältst du 100 Seiten für zukünftige Konvertierungen.",
+    "paywall_price": "$12 / 100 Seiten",
+    "paywall_price_suffix": "einmalig",
+    "paywall_button": "Mein Dokument freischalten →",
+    "paywall_footer": "100 Seiten · Läuft nie ab · Kein Abo",
+
+    "tool_view_preview": "Vorschau ansehen",
+    "tool_upload_hint": "Ein Bild pro kostenloser Konvertierung",
+
+    "toast_title_error": "Fehler",
+    "toast_title_one_image": "Ein Bild nach dem anderen",
+    "toast_msg_one_image": "Die kostenlose Vorschau konvertiert jeweils ein Bild. Schalte einen kostenpflichtigen Tarif frei, um mehrere Bilder zu verarbeiten.",
+    "toast_title_invalid_file": "Ungültige Datei",
+    "toast_title_file_too_large": "Datei zu groß",
+    "toast_title_processing_error": "Verarbeitungsfehler",
+    "toast_msg_processing_error": "Deine Datei konnte nicht für den Upload vorbereitet werden.",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1639,6 +1664,31 @@
     "toast_error_extraction": "Extraktion fehlgeschlagen.",
     "toast_download_success": "Excel-Datei heruntergeladen!",
     "toast_download_error": "Download fehlgeschlagen.",
+    "viewer_preview_only": "Nur Vorschau",
+    "viewer_close": "Schließen",
+    "viewer_preview_badge": "Vorschau",
+    "viewer_page_of": "Seite {current} / {total}",
+    "viewer_loading": "Deine konvertierte Vorschau wird vorbereitet…",
+    "viewer_error": "Die konvertierte Vorschau konnte nicht geladen werden. Bitte versuche es erneut.",
+
+    "paywall_title": "Deine Tabelle ist fertig",
+    "paywall_desc": "Du hast das konvertierte Ergebnis gesehen. Weiter zu NoteOCR, um deine Tabelle herunterzuladen, zu bearbeiten und zu exportieren.",
+    "paywall_subtext": "Mit einer einmaligen Zahlung erhältst du 100 Seiten für zukünftige Konvertierungen.",
+    "paywall_price": "$12 / 100 Seiten",
+    "paywall_price_suffix": "einmalig",
+    "paywall_button": "Meine Tabelle freischalten →",
+    "paywall_footer": "100 Seiten · Läuft nie ab · Kein Abo",
+
+    "tool_view_preview": "Vorschau ansehen",
+    "tool_upload_hint": "Ein Bild pro kostenloser Konvertierung",
+
+    "toast_title_error": "Fehler",
+    "toast_title_one_image": "Ein Bild nach dem anderen",
+    "toast_msg_one_image": "Die kostenlose Vorschau konvertiert jeweils ein Bild. Schalte einen kostenpflichtigen Tarif frei, um mehrere Bilder zu verarbeiten.",
+    "toast_title_invalid_file": "Ungültige Datei",
+    "toast_title_file_too_large": "Datei zu groß",
+    "toast_title_processing_error": "Verarbeitungsfehler",
+    "toast_msg_processing_error": "Deine Datei konnte nicht für den Upload vorbereitet werden.",
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1852,13 +1902,7 @@
     "comparison": {
       "title": "Technische Spezifikationen im Detail",
       "subtitle": "Warum NoteOCR besser abschneidet als herkömmliche Scanner.",
-      "headers": [
-        "Feature",
-        "Hobby",
-        "Student",
-        "Professional",
-        "Power User"
-      ],
+      "headers": ["Feature", "Hobby", "Student", "Professional", "Power User"],
       "groups": {
         "core": "Erkennungs-Intelligenz",
         "formats": "Export & Dateitypen",
@@ -1867,112 +1911,57 @@
       "rows": [
         {
           "name": "Druckschrift OCR",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "Kursivschrift-Engine",
-          "values": [
-            "Standard",
-            "Hoch",
-            "Ultra",
-            "Ultra"
-          ],
+          "values": ["Standard", "Hoch", "Ultra", "Ultra"],
           "group": "core"
         },
         {
           "name": "Tabellen-Erkennung (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "Layouterhaltung (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Mathematische Formeln",
-          "values": [
-            false,
-            false,
-            "Basis",
-            "Erweitert"
-          ],
+          "values": [false, false, "Basis", "Erweitert"],
           "group": "core"
         },
         {
           "name": "Korrektur unsauberer Tinte",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Export-Formate",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "Alle Formate"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Alle Formate"],
           "group": "formats"
         },
         {
           "name": "Batch-Upload Limit",
-          "values": [
-            "1 Datei",
-            "5 Dateien",
-            "10 Dateien",
-            "Unbegrenzt"
-          ],
+          "values": ["1 Datei", "5 Dateien", "10 Dateien", "Unbegrenzt"],
           "group": "formats"
         },
         {
           "name": "Cloud-Speicherdauer",
-          "values": [
-            "24 Stunden",
-            "30 Tage",
-            "Unbegrenzt",
-            "Unbegrenzt"
-          ],
+          "values": ["24 Stunden", "30 Tage", "Unbegrenzt", "Unbegrenzt"],
           "group": "system"
         },
         {
           "name": "Verschlüsselung",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "Priorität",
-          "values": [
-            "Standard",
-            "Standard",
-            "Hoch",
-            "Echtzeit"
-          ],
+          "values": ["Standard", "Standard", "Hoch", "Echtzeit"],
           "group": "system"
         }
       ]

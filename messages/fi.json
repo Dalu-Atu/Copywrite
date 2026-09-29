@@ -1036,6 +1036,31 @@
     "toast_error_conversion": "Muunnos epäonnistui.",
     "toast_download_success": "Word-asiakirja ladattu!",
     "toast_download_error": "Lataus epäonnistui.",
+    "viewer_preview_only": "Vain esikatselu",
+    "viewer_close": "Sulje",
+    "viewer_preview_badge": "Esikatselu",
+    "viewer_page_of": "Sivu {current} / {total}",
+    "viewer_loading": "Valmistellaan muunnettua esikatselua…",
+    "viewer_error": "Muunnetun esikatselun lataaminen epäonnistui. Yritä uudelleen.",
+
+    "paywall_title": "Asiakirjasi on valmis",
+    "paywall_desc": "Olet nähnyt muunnetun tuloksen. Jatka NoteOCR:ään ladataksesi, muokataksesi ja viedäksesi asiakirjasi.",
+    "paywall_subtext": "Yhdellä maksulla saat 100 sivua tulevia muunnoksia varten.",
+    "paywall_price": "$12 / 100 sivua",
+    "paywall_price_suffix": "kertamaksu",
+    "paywall_button": "Avaa asiakirjani →",
+    "paywall_footer": "100 sivua · Ei vanhene · Ei tilausta",
+
+    "tool_view_preview": "Näytä esikatselu",
+    "tool_upload_hint": "Yksi kuva ilmaista muunnosta kohden",
+
+    "toast_title_error": "Virhe",
+    "toast_title_one_image": "Yksi kuva kerrallaan",
+    "toast_msg_one_image": "Ilmainen esikatselu muuntaa yhden kuvan kerrallaan. Avaa maksullinen paketti käsitelläksesi useita kuvia.",
+    "toast_title_invalid_file": "Virheellinen tiedosto",
+    "toast_title_file_too_large": "Tiedosto on liian suuri",
+    "toast_title_processing_error": "Käsittelyvirhe",
+    "toast_msg_processing_error": "Tiedoston valmistelu lähetystä varten epäonnistui.",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1629,6 +1654,31 @@
     "toast_error_extraction": "Purku epäonnistui.",
     "toast_download_success": "Excel-tiedosto ladattu!",
     "toast_download_error": "Lataus epäonnistui.",
+    "viewer_preview_only": "Vain esikatselu",
+    "viewer_close": "Sulje",
+    "viewer_preview_badge": "Esikatselu",
+    "viewer_page_of": "Sivu {current} / {total}",
+    "viewer_loading": "Valmistellaan muunnettua esikatselua…",
+    "viewer_error": "Muunnetun esikatselun lataaminen epäonnistui. Yritä uudelleen.",
+
+    "paywall_title": "Taulukkosi on valmis",
+    "paywall_desc": "Olet nähnyt muunnetun tuloksen. Jatka NoteOCR:ään ladataksesi, muokataksesi ja viedäksesi taulukkosi.",
+    "paywall_subtext": "Yhdellä maksulla saat 100 sivua tulevia muunnoksia varten.",
+    "paywall_price": "$12 / 100 sivua",
+    "paywall_price_suffix": "kertamaksu",
+    "paywall_button": "Avaa taulukkoni →",
+    "paywall_footer": "100 sivua · Ei vanhene · Ei tilausta",
+
+    "tool_view_preview": "Näytä esikatselu",
+    "tool_upload_hint": "Yksi kuva ilmaista muunnosta kohden",
+
+    "toast_title_error": "Virhe",
+    "toast_title_one_image": "Yksi kuva kerrallaan",
+    "toast_msg_one_image": "Ilmainen esikatselu muuntaa yhden kuvan kerrallaan. Avaa maksullinen paketti käsitelläksesi useita kuvia.",
+    "toast_title_invalid_file": "Virheellinen tiedosto",
+    "toast_title_file_too_large": "Tiedosto on liian suuri",
+    "toast_title_processing_error": "Käsittelyvirhe",
+    "toast_msg_processing_error": "Tiedoston valmistelu lähetystä varten epäonnistui.",
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1857,112 +1907,57 @@
       "rows": [
         {
           "name": "Tekstauksen OCR",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "Kaunokirjoituksen moottori",
-          "values": [
-            "Standardi",
-            "Korkea",
-            "Ultra",
-            "Ultra"
-          ],
+          "values": ["Standardi", "Korkea", "Ultra", "Ultra"],
           "group": "core"
         },
         {
           "name": "Taulukon ruudukon tunnistus (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "Asettelun säilyttäminen (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Matemaattiset kaavat",
-          "values": [
-            false,
-            false,
-            "Perus",
-            "Edistynyt"
-          ],
+          "values": [false, false, "Perus", "Edistynyt"],
           "group": "core"
         },
         {
           "name": "Sottaisen musteen korjaus",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Vientimuodot",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "Kaikki muodot"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Kaikki muodot"],
           "group": "formats"
         },
         {
           "name": "Erälatauksen raja",
-          "values": [
-            "1 tiedosto",
-            "5 tiedostoa",
-            "10 tiedostoa",
-            "Rajaton"
-          ],
+          "values": ["1 tiedosto", "5 tiedostoa", "10 tiedostoa", "Rajaton"],
           "group": "formats"
         },
         {
           "name": "Pilvitallennuksen kesto",
-          "values": [
-            "24 Tuntia",
-            "30 Päivää",
-            "Ikuisesti",
-            "Ikuisesti"
-          ],
+          "values": ["24 Tuntia", "30 Päivää", "Ikuisesti", "Ikuisesti"],
           "group": "system"
         },
         {
           "name": "Salaustaso",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "Käsittelyn prioriteetti",
-          "values": [
-            "Standardi",
-            "Standardi",
-            "Korkea",
-            "Reaaliaikainen"
-          ],
+          "values": ["Standardi", "Standardi", "Korkea", "Reaaliaikainen"],
           "group": "system"
         }
       ]

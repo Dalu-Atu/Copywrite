@@ -1037,6 +1037,31 @@
     "toast_error_conversion": "Konverteringen misslyckades.",
     "toast_download_success": "Word-dokument nedladdat!",
     "toast_download_error": "Nedladdning misslyckades.",
+    "viewer_preview_only": "Endast förhandsvisning",
+    "viewer_close": "Stäng",
+    "viewer_preview_badge": "Förhandsvisning",
+    "viewer_page_of": "Sida {current} / {total}",
+    "viewer_loading": "Förbereder din konverterade förhandsvisning…",
+    "viewer_error": "Det gick inte att läsa in den konverterade förhandsvisningen. Försök igen.",
+
+    "paywall_title": "Ditt dokument är klart",
+    "paywall_desc": "Du har sett det konverterade resultatet. Fortsätt till NoteOCR för att ladda ner, redigera och exportera ditt dokument.",
+    "paywall_subtext": "En enda betalning ger dig 100 sidor att använda i framtida konverteringar.",
+    "paywall_price": "$12 / 100 sidor",
+    "paywall_price_suffix": "engångsbetalning",
+    "paywall_button": "Lås upp mitt dokument →",
+    "paywall_footer": "100 sidor · Går aldrig ut · Ingen prenumeration",
+
+    "tool_view_preview": "Visa förhandsvisning",
+    "tool_upload_hint": "En bild per gratis konvertering",
+
+    "toast_title_error": "Fel",
+    "toast_title_one_image": "En bild i taget",
+    "toast_msg_one_image": "Den gratis förhandsvisningen konverterar en bild i taget. Lås upp en betald plan för batchbearbetning.",
+    "toast_title_invalid_file": "Ogiltig fil",
+    "toast_title_file_too_large": "Filen är för stor",
+    "toast_title_processing_error": "Bearbetningsfel",
+    "toast_msg_processing_error": "Det gick inte att förbereda filen för uppladdning.",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1630,6 +1655,31 @@
     "toast_error_extraction": "Extrahering misslyckades.",
     "toast_download_success": "Excel-fil nedladdad!",
     "toast_download_error": "Nedladdning misslyckades.",
+    "viewer_preview_only": "Endast förhandsvisning",
+    "viewer_close": "Stäng",
+    "viewer_preview_badge": "Förhandsvisning",
+    "viewer_page_of": "Sida {current} / {total}",
+    "viewer_loading": "Förbereder din konverterade förhandsvisning…",
+    "viewer_error": "Det gick inte att läsa in den konverterade förhandsvisningen. Försök igen.",
+
+    "paywall_title": "Ditt kalkylblad är klart",
+    "paywall_desc": "Du har sett det konverterade resultatet. Fortsätt till NoteOCR för att ladda ner, redigera och exportera ditt kalkylblad.",
+    "paywall_subtext": "En enda betalning ger dig 100 sidor att använda i framtida konverteringar.",
+    "paywall_price": "$12 / 100 sidor",
+    "paywall_price_suffix": "engångsbetalning",
+    "paywall_button": "Lås upp mitt kalkylblad →",
+    "paywall_footer": "100 sidor · Går aldrig ut · Ingen prenumeration",
+
+    "tool_view_preview": "Visa förhandsvisning",
+    "tool_upload_hint": "En bild per gratis konvertering",
+
+    "toast_title_error": "Fel",
+    "toast_title_one_image": "En bild i taget",
+    "toast_msg_one_image": "Den gratis förhandsvisningen konverterar en bild i taget. Lås upp en betald plan för batchbearbetning.",
+    "toast_title_invalid_file": "Ogiltig fil",
+    "toast_title_file_too_large": "Filen är för stor",
+    "toast_title_processing_error": "Bearbetningsfel",
+    "toast_msg_processing_error": "Det gick inte att förbereda filen för uppladdning.",
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1858,112 +1908,57 @@
       "rows": [
         {
           "name": "OCR för textade bokstäver",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "Motor för skrivstil",
-          "values": [
-            "Standard",
-            "Hög",
-            "Ultra",
-            "Ultra"
-          ],
+          "values": ["Standard", "Hög", "Ultra", "Ultra"],
           "group": "core"
         },
         {
           "name": "Tabelldetektion (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "Layoutbevarande (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Matematiska formler",
-          "values": [
-            false,
-            false,
-            "Grundläggande",
-            "Avancerad"
-          ],
+          "values": [false, false, "Grundläggande", "Avancerad"],
           "group": "core"
         },
         {
           "name": "Korrigering av rörigt bläck",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Exportformat",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "Alla format"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Alla format"],
           "group": "formats"
         },
         {
           "name": "Gräns för batchuppladdning",
-          "values": [
-            "1 fil",
-            "5 filer",
-            "10 filer",
-            "Obegränsat"
-          ],
+          "values": ["1 fil", "5 filer", "10 filer", "Obegränsat"],
           "group": "formats"
         },
         {
           "name": "Varaktighet för molnlagring",
-          "values": [
-            "24 timmar",
-            "30 dagar",
-            "För alltid",
-            "För alltid"
-          ],
+          "values": ["24 timmar", "30 dagar", "För alltid", "För alltid"],
           "group": "system"
         },
         {
           "name": "Krypteringsnivå",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "Bearbetningsprioritet",
-          "values": [
-            "Standard",
-            "Standard",
-            "Hög",
-            "Realtid"
-          ],
+          "values": ["Standard", "Standard", "Hög", "Realtid"],
           "group": "system"
         }
       ]

@@ -1046,6 +1046,31 @@
     "toast_error_conversion": "Konvertering mislykkedes.",
     "toast_download_success": "Word-dokument downloadet!",
     "toast_download_error": "Download mislykkedes.",
+    "viewer_preview_only": "Kun forhåndsvisning",
+    "viewer_close": "Luk",
+    "viewer_preview_badge": "Forhåndsvisning",
+    "viewer_page_of": "Side {current} / {total}",
+    "viewer_loading": "Forbereder din konverterede forhåndsvisning…",
+    "viewer_error": "Kunne ikke indlæse den konverterede forhåndsvisning. Prøv igen.",
+
+    "paywall_title": "Dit dokument er klar",
+    "paywall_desc": "Du har set det konverterede resultat. Fortsæt til NoteOCR for at downloade, redigere og eksportere dit dokument.",
+    "paywall_subtext": "Én betaling giver dig 100 sider til brug i fremtidige konverteringer.",
+    "paywall_price": "$12 / 100 sider",
+    "paywall_price_suffix": "engangsbetaling",
+    "paywall_button": "Lås mit dokument op →",
+    "paywall_footer": "100 sider · Udløber aldrig · Intet abonnement",
+
+    "tool_view_preview": "Se forhåndsvisning",
+    "tool_upload_hint": "Ét billede pr. gratis konvertering",
+
+    "toast_title_error": "Fejl",
+    "toast_title_one_image": "Ét billede ad gangen",
+    "toast_msg_one_image": "Den gratis forhåndsvisning konverterer ét billede ad gangen. Opgrader til en betalt plan for at behandle flere billeder.",
+    "toast_title_invalid_file": "Ugyldig fil",
+    "toast_title_file_too_large": "Filen er for stor",
+    "toast_title_processing_error": "Behandlingsfejl",
+    "toast_msg_processing_error": "Din fil kunne ikke klargøres til upload.",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1639,6 +1664,31 @@
     "toast_error_extraction": "Udtrækning mislykkedes.",
     "toast_download_success": "Excel-fil downloadet!",
     "toast_download_error": "Download mislykkedes.",
+    "viewer_preview_only": "Kun forhåndsvisning",
+    "viewer_close": "Luk",
+    "viewer_preview_badge": "Forhåndsvisning",
+    "viewer_page_of": "Side {current} / {total}",
+    "viewer_loading": "Forbereder din konverterede forhåndsvisning…",
+    "viewer_error": "Kunne ikke indlæse den konverterede forhåndsvisning. Prøv igen.",
+
+    "paywall_title": "Dit regneark er klar",
+    "paywall_desc": "Du har set det konverterede resultat. Fortsæt til NoteOCR for at downloade, redigere og eksportere dit regneark.",
+    "paywall_subtext": "Én betaling giver dig 100 sider til brug i fremtidige konverteringer.",
+    "paywall_price": "$12 / 100 sider",
+    "paywall_price_suffix": "engangsbetaling",
+    "paywall_button": "Lås mit regneark op →",
+    "paywall_footer": "100 sider · Udløber aldrig · Intet abonnement",
+
+    "tool_view_preview": "Se forhåndsvisning",
+    "tool_upload_hint": "Ét billede pr. gratis konvertering",
+
+    "toast_title_error": "Fejl",
+    "toast_title_one_image": "Ét billede ad gangen",
+    "toast_msg_one_image": "Den gratis forhåndsvisning konverterer ét billede ad gangen. Opgrader til en betalt plan for at behandle flere billeder.",
+    "toast_title_invalid_file": "Ugyldig fil",
+    "toast_title_file_too_large": "Filen er for stor",
+    "toast_title_processing_error": "Behandlingsfejl",
+    "toast_msg_processing_error": "Din fil kunne ikke klargøres til upload.",
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1867,112 +1917,57 @@
       "rows": [
         {
           "name": "Trykt Håndskrift OCR",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "Skråskrift Motor",
-          "values": [
-            "Standard",
-            "Høj",
-            "Ultra",
-            "Ultra"
-          ],
+          "values": ["Standard", "Høj", "Ultra", "Ultra"],
           "group": "core"
         },
         {
           "name": "Tabel Gitter-detektion (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "Layout-bevarelse (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Matematiske Formler",
-          "values": [
-            false,
-            false,
-            "Basis",
-            "Avanceret"
-          ],
+          "values": [false, false, "Basis", "Avanceret"],
           "group": "core"
         },
         {
           "name": "Korrektion af Rodet Blæk",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Eksportformater",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "Alle Formater"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Alle Formater"],
           "group": "formats"
         },
         {
           "name": "Begrænsning for Batch-upload",
-          "values": [
-            "1 Fil",
-            "5 Filer",
-            "10 Filer",
-            "Ubegrænset"
-          ],
+          "values": ["1 Fil", "5 Filer", "10 Filer", "Ubegrænset"],
           "group": "formats"
         },
         {
           "name": "Varighed af Cloud-lagring",
-          "values": [
-            "24 Timer",
-            "30 Dage",
-            "For Altid",
-            "For Altid"
-          ],
+          "values": ["24 Timer", "30 Dage", "For Altid", "For Altid"],
           "group": "system"
         },
         {
           "name": "Krypteringsniveau",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "Behandlingsprioritet",
-          "values": [
-            "Standard",
-            "Standard",
-            "Høj",
-            "Realtid"
-          ],
+          "values": ["Standard", "Standard", "Høj", "Realtid"],
           "group": "system"
         }
       ]

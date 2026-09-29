@@ -1073,7 +1073,31 @@
     "toast_error_conversion": "変換に失敗しました。",
     "toast_download_success": "Wordファイルをダウンロードしました！",
     "toast_download_error": "ダウンロードに失敗しました。",
+    "viewer_preview_only": "プレビューのみ",
+    "viewer_close": "閉じる",
+    "viewer_preview_badge": "プレビュー",
+    "viewer_page_of": "{current} / {total} ページ",
+    "viewer_loading": "変換結果のプレビューを準備しています…",
+    "viewer_error": "変換結果のプレビューを読み込めませんでした。もう一度お試しください。",
 
+    "paywall_title": "ドキュメントの準備ができました",
+    "paywall_desc": "変換結果をご確認いただきました。NoteOCR に進むと、ドキュメントのダウンロード、編集、エクスポートができます。",
+    "paywall_subtext": "1回のお支払いで、今後の変換に使える100ページが手に入ります。",
+    "paywall_price": "$12 / 100ページ",
+    "paywall_price_suffix": "買い切り",
+    "paywall_button": "ドキュメントをアンロック →",
+    "paywall_footer": "100ページ · 有効期限なし · サブスクリプション不要",
+
+    "tool_view_preview": "プレビューを見る",
+    "tool_upload_hint": "無料変換は1回につき画像1枚",
+
+    "toast_title_error": "エラー",
+    "toast_title_one_image": "画像は1枚ずつ",
+    "toast_msg_one_image": "無料プレビューでは一度に1枚の画像のみ変換できます。一括処理は有料プランでご利用いただけます。",
+    "toast_title_invalid_file": "無効なファイル",
+    "toast_title_file_too_large": "ファイルが大きすぎます",
+    "toast_title_processing_error": "処理エラー",
+    "toast_msg_processing_error": "アップロード用のファイルを準備できませんでした。",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1747,6 +1771,32 @@
     "toast_error_extraction": "抽出に失敗しました。",
     "toast_download_success": "Excelファイルをダウンロードしました！",
     "toast_download_error": "ダウンロードに失敗しました。",
+    "viewer_preview_only": "プレビューのみ",
+  "viewer_close": "閉じる",
+  "viewer_preview_badge": "プレビュー",
+  "viewer_page_of": "{current} / {total} ページ",
+  "viewer_loading": "変換結果のプレビューを準備しています…",
+  "viewer_error": "変換結果のプレビューを読み込めませんでした。もう一度お試しください。",
+
+  "paywall_title": "スプレッドシートの準備ができました",
+  "paywall_desc": "変換結果をご確認いただきました。NoteOCR に進むと、スプレッドシートのダウンロード、編集、エクスポートができます。",
+  "paywall_subtext": "1回のお支払いで、今後の変換に使える100ページが手に入ります。",
+  "paywall_price": "$12 / 100ページ",
+  "paywall_price_suffix": "買い切り",
+  "paywall_button": "スプレッドシートをアンロック →",
+  "paywall_footer": "100ページ · 有効期限なし · サブスクリプション不要",
+
+  "tool_view_preview": "プレビューを見る",
+  "tool_upload_hint": "無料変換は1回につき画像1枚",
+
+  "toast_title_error": "エラー",
+  "toast_title_one_image": "画像は1枚ずつ",
+  "toast_msg_one_image": "無料プレビューでは一度に1枚の画像のみ変換できます。一括処理は有料プランでご利用いただけます。",
+  "toast_title_invalid_file": "無効なファイル",
+  "toast_title_file_too_large": "ファイルが大きすぎます",
+  "toast_title_processing_error": "処理エラー",
+  "toast_msg_processing_error": "アップロード用のファイルを準備できませんでした。"
+,
 
     "FAQ": {
       "items": {

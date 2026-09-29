@@ -32,8 +32,7 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "WordPage" });
-   const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
-
+  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
 
   return {
     title: t("meta_title"),

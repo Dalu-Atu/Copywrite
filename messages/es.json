@@ -1,5 +1,4 @@
-
-  {
+{
   "ClassNotesScannerPage": {
     "meta_title": "Escáner de Apuntes de Clase – Manuscrito a Word | NoteOCR",
     "meta_desc": "Escanea tus apuntes de clase manuscritos con el móvil y conviértelos en un documento de Word editable y buscable en segundos.",
@@ -1038,6 +1037,32 @@
     "toast_error_conversion": "Error en la conversión.",
     "toast_download_success": "¡Word descargado!",
     "toast_download_error": "Error en la descarga.",
+
+    "viewer_preview_only": "Solo vista previa",
+    "viewer_close": "Cerrar",
+    "viewer_preview_badge": "Vista previa",
+    "viewer_page_of": "Página {current} / {total}",
+    "viewer_loading": "Preparando la vista previa de tu conversión…",
+    "viewer_error": "No se pudo cargar la vista previa. Inténtalo de nuevo.",
+
+    "paywall_title": "Tu documento está listo",
+    "paywall_desc": "Ya viste el resultado convertido. Continúa en NoteOCR para descargar, editar y exportar tu documento.",
+    "paywall_subtext": "Un solo pago te da 100 páginas para usar en futuras conversiones.",
+    "paywall_price": "$12 / 100 páginas",
+    "paywall_price_suffix": "pago único",
+    "paywall_button": "Desbloquear mi documento →",
+    "paywall_footer": "100 páginas · Sin caducidad · Sin suscripción",
+
+    "tool_view_preview": "Ver vista previa",
+    "tool_upload_hint": "Una imagen por conversión gratuita",
+
+    "toast_title_error": "Error",
+    "toast_title_one_image": "Una imagen a la vez",
+    "toast_msg_one_image": "La vista previa gratuita convierte una imagen a la vez. Desbloquea un plan de pago para procesar varias.",
+    "toast_title_invalid_file": "Archivo no válido",
+    "toast_title_file_too_large": "Archivo demasiado grande",
+    "toast_title_processing_error": "Error de procesamiento",
+    "toast_msg_processing_error": "No se pudo preparar tu archivo para subirlo.",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1859,112 +1884,57 @@
       "rows": [
         {
           "name": "OCR de letra de imprenta",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "Motor de letra cursiva",
-          "values": [
-            "Estándar",
-            "Alto",
-            "Ultra",
-            "Ultra"
-          ],
+          "values": ["Estándar", "Alto", "Ultra", "Ultra"],
           "group": "core"
         },
         {
           "name": "Detección de tablas (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "Preservación de diseño (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Fórmulas matemáticas",
-          "values": [
-            false,
-            false,
-            "Básico",
-            "Avanzado"
-          ],
+          "values": [false, false, "Básico", "Avanzado"],
           "group": "core"
         },
         {
           "name": "Corrección de trazos difíciles",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Formatos de exportación",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "Todos"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Todos"],
           "group": "formats"
         },
         {
           "name": "Límite de subida por lotes",
-          "values": [
-            "1 Archivo",
-            "5 Archivos",
-            "10 Archivos",
-            "Ilimitado"
-          ],
+          "values": ["1 Archivo", "5 Archivos", "10 Archivos", "Ilimitado"],
           "group": "formats"
         },
         {
           "name": "Duración en la nube",
-          "values": [
-            "24 Horas",
-            "30 Días",
-            "Para siempre",
-            "Para siempre"
-          ],
+          "values": ["24 Horas", "30 Días", "Para siempre", "Para siempre"],
           "group": "system"
         },
         {
           "name": "Nivel de cifrado",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "Prioridad de procesamiento",
-          "values": [
-            "Estándar",
-            "Estándar",
-            "Alta",
-            "Tiempo Real"
-          ],
+          "values": ["Estándar", "Estándar", "Alta", "Tiempo Real"],
           "group": "system"
         }
       ]

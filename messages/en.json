@@ -1047,6 +1047,32 @@
     "toast_error_conversion": "Conversion failed.",
     "toast_download_success": "Word document downloaded!",
     "toast_download_error": "Download failed.",
+
+    "viewer_preview_only": "Preview only",
+    "viewer_close": "Close",
+    "viewer_preview_badge": "Preview",
+    "viewer_page_of": "Page {current} / {total}",
+    "viewer_loading": "Preparing your converted preview…",
+    "viewer_error": "Couldn't load the converted preview. Please try again.",
+
+    "paywall_title": "Your document is ready",
+    "paywall_desc": "You've seen the converted result. Continue to NoteOCR to download, edit, and export your document.",
+    "paywall_subtext": "One payment gives you 100 pages to use across future conversions.",
+    "paywall_price": "$12 / 100 pages",
+    "paywall_price_suffix": "one-time",
+    "paywall_button": "Unlock My Document →",
+    "paywall_footer": "100 pages · Never expires · No subscription",
+
+    "tool_view_preview": "View preview",
+    "tool_upload_hint": "One image per free conversion",
+
+    "toast_title_error": "Error",
+    "toast_title_one_image": "One Image at a Time",
+    "toast_msg_one_image": "The free preview converts one image at a time. Unlock a paid plan for batch processing.",
+    "toast_title_invalid_file": "Invalid File",
+    "toast_title_file_too_large": "File Too Large",
+    "toast_title_processing_error": "Processing Error",
+    "toast_msg_processing_error": "Failed to compile your file for upload.",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1640,6 +1666,33 @@
     "toast_error_extraction": "Extraction failed.",
     "toast_download_success": "Excel file downloaded!",
     "toast_download_error": "Download failed.",
+
+    "viewer_preview_only": "Preview only",
+    "viewer_close": "Close",
+    "viewer_preview_badge": "Preview",
+    "viewer_page_of": "Page {current} / {total}",
+    "viewer_loading": "Preparing your converted preview…",
+    "viewer_error": "Couldn't load the converted preview. Please try again.",
+
+    "paywall_title": "Your document is ready",
+    "paywall_desc": "You've seen the converted result. Continue to NoteOCR to download, edit, and export your document.",
+    "paywall_subtext": "One payment gives you 100 pages to use across future conversions.",
+    "paywall_price": "$12 / 100 pages",
+    "paywall_price_suffix": "one-time",
+    "paywall_button": "Unlock My Document →",
+    "paywall_footer": "100 pages · Never expires · No subscription",
+
+    "tool_view_preview": "View preview",
+    "tool_upload_hint": "One image per free conversion",
+
+    "toast_title_error": "Error",
+    "toast_title_one_image": "One Image at a Time",
+    "toast_msg_one_image": "The free preview converts one image at a time. Unlock a paid plan for batch processing.",
+    "toast_title_invalid_file": "Invalid File",
+    "toast_title_file_too_large": "File Too Large",
+    "toast_title_processing_error": "Processing Error",
+    "toast_msg_processing_error": "Failed to compile your file for upload.",
+
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1853,13 +1906,7 @@
     "comparison": {
       "title": "Technical Specification Breakdown",
       "subtitle": "Why NoteOCR outperforms generic scanners.",
-      "headers": [
-        "Feature",
-        "Free",
-        "Student",
-        "Professional",
-        "Power User"
-      ],
+      "headers": ["Feature", "Free", "Student", "Professional", "Power User"],
       "groups": {
         "core": "Recognition Intelligence",
         "formats": "Export & File Types",
@@ -1868,112 +1915,57 @@
       "rows": [
         {
           "name": "Print Handwriting OCR",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "Cursive Script Engine",
-          "values": [
-            "Standard",
-            "High",
-            "Ultra",
-            "Ultra"
-          ],
+          "values": ["Standard", "High", "Ultra", "Ultra"],
           "group": "core"
         },
         {
           "name": "Table Grid Detection (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "Layout Preservation (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Mathematical Formulas",
-          "values": [
-            false,
-            false,
-            "Basic",
-            "Advanced"
-          ],
+          "values": [false, false, "Basic", "Advanced"],
           "group": "core"
         },
         {
           "name": "Messy Ink Correction",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Export Formats",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "All Formats"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "All Formats"],
           "group": "formats"
         },
         {
           "name": "Batch Upload Limit",
-          "values": [
-            "1 File",
-            "5 Files",
-            "10 Files",
-            "Unlimited"
-          ],
+          "values": ["1 File", "5 Files", "10 Files", "Unlimited"],
           "group": "formats"
         },
         {
           "name": "Cloud Storage Duration",
-          "values": [
-            "24 Hours",
-            "30 Days",
-            "Forever",
-            "Forever"
-          ],
+          "values": ["24 Hours", "30 Days", "Forever", "Forever"],
           "group": "system"
         },
         {
           "name": "Encryption Level",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "Processing Priority",
-          "values": [
-            "Standard",
-            "Standard",
-            "High",
-            "Real-Time"
-          ],
+          "values": ["Standard", "Standard", "High", "Real-Time"],
           "group": "system"
         }
       ]

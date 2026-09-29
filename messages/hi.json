@@ -1037,6 +1037,31 @@
     "toast_error_conversion": "कन्वर्जन विफल रहा।",
     "toast_download_success": "वर्ड डॉक्यूमेंट डाउनलोड हो गया!",
     "toast_download_error": "डाउनलोड विफल रहा।",
+    "viewer_preview_only": "केवल पूर्वावलोकन",
+    "viewer_close": "बंद करें",
+    "viewer_preview_badge": "पूर्वावलोकन",
+    "viewer_page_of": "पृष्ठ {current} / {total}",
+    "viewer_loading": "आपका परिवर्तित पूर्वावलोकन तैयार किया जा रहा है…",
+    "viewer_error": "परिवर्तित पूर्वावलोकन लोड नहीं हो सका। कृपया पुनः प्रयास करें।",
+
+    "paywall_title": "आपका दस्तावेज़ तैयार है",
+    "paywall_desc": "आपने परिवर्तित परिणाम देख लिया है। अपने दस्तावेज़ को डाउनलोड, संपादित और एक्सपोर्ट करने के लिए NoteOCR पर आगे बढ़ें।",
+    "paywall_subtext": "एक बार भुगतान करने पर आपको भविष्य के रूपांतरणों के लिए 100 पृष्ठ मिलते हैं।",
+    "paywall_price": "$12 / 100 पृष्ठ",
+    "paywall_price_suffix": "एकमुश्त",
+    "paywall_button": "मेरा दस्तावेज़ अनलॉक करें →",
+    "paywall_footer": "100 पृष्ठ · कभी समाप्त नहीं · कोई सब्सक्रिप्शन नहीं",
+
+    "tool_view_preview": "पूर्वावलोकन देखें",
+    "tool_upload_hint": "प्रति निःशुल्क रूपांतरण एक छवि",
+
+    "toast_title_error": "त्रुटि",
+    "toast_title_one_image": "एक बार में एक छवि",
+    "toast_msg_one_image": "निःशुल्क पूर्वावलोकन एक बार में एक छवि परिवर्तित करता है। बैच प्रोसेसिंग के लिए सशुल्क प्लान अनलॉक करें।",
+    "toast_title_invalid_file": "अमान्य फ़ाइल",
+    "toast_title_file_too_large": "फ़ाइल बहुत बड़ी है",
+    "toast_title_processing_error": "प्रोसेसिंग त्रुटि",
+    "toast_msg_processing_error": "आपकी फ़ाइल को अपलोड के लिए तैयार करने में विफल।",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1630,6 +1655,32 @@
     "toast_error_extraction": "एक्सट्रैक्शन विफल रहा।",
     "toast_download_success": "Excel फाइल डाउनलोड हो गई!",
     "toast_download_error": "डाउनलोड विफल रहा।",
+     "viewer_preview_only": "केवल पूर्वावलोकन",
+  "viewer_close": "बंद करें",
+  "viewer_preview_badge": "पूर्वावलोकन",
+  "viewer_page_of": "पृष्ठ {current} / {total}",
+  "viewer_loading": "आपका परिवर्तित पूर्वावलोकन तैयार किया जा रहा है…",
+  "viewer_error": "परिवर्तित पूर्वावलोकन लोड नहीं हो सका। कृपया पुनः प्रयास करें।",
+
+  "paywall_title": "आपकी स्प्रेडशीट तैयार है",
+  "paywall_desc": "आपने परिवर्तित परिणाम देख लिया है। अपनी स्प्रेडशीट को डाउनलोड, संपादित और एक्सपोर्ट करने के लिए NoteOCR पर आगे बढ़ें।",
+  "paywall_subtext": "एक बार भुगतान करने पर आपको भविष्य के रूपांतरणों के लिए 100 पृष्ठ मिलते हैं।",
+  "paywall_price": "$12 / 100 पृष्ठ",
+  "paywall_price_suffix": "एकमुश्त",
+  "paywall_button": "मेरी स्प्रेडशीट अनलॉक करें →",
+  "paywall_footer": "100 पृष्ठ · कभी समाप्त नहीं · कोई सब्सक्रिप्शन नहीं",
+
+  "tool_view_preview": "पूर्वावलोकन देखें",
+  "tool_upload_hint": "प्रति निःशुल्क रूपांतरण एक छवि",
+
+  "toast_title_error": "त्रुटि",
+  "toast_title_one_image": "एक बार में एक छवि",
+  "toast_msg_one_image": "निःशुल्क पूर्वावलोकन एक बार में एक छवि परिवर्तित करता है। बैच प्रोसेसिंग के लिए सशुल्क प्लान अनलॉक करें।",
+  "toast_title_invalid_file": "अमान्य फ़ाइल",
+  "toast_title_file_too_large": "फ़ाइल बहुत बड़ी है",
+  "toast_title_processing_error": "प्रोसेसिंग त्रुटि",
+  "toast_msg_processing_error": "आपकी फ़ाइल को अपलोड के लिए तैयार करने में विफल।"
+,
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1843,13 +1894,7 @@
     "comparison": {
       "title": "तकनीकी विशिष्टताओं का विवरण",
       "subtitle": "NoteOCR जेनेरिक स्कैनर्स से बेहतर क्यों है।",
-      "headers": [
-        "सुविधा",
-        "Hobby",
-        "Student",
-        "Professional",
-        "Power User"
-      ],
+      "headers": ["सुविधा", "Hobby", "Student", "Professional", "Power User"],
       "groups": {
         "core": "पहचान की बुद्धिमत्ता (AI)",
         "formats": "एक्सपोर्ट और फाइल प्रकार",
@@ -1858,112 +1903,57 @@
       "rows": [
         {
           "name": "प्रिंट हैंडराइटिंग OCR",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "कर्सिव स्क्रिप्ट इंजन",
-          "values": [
-            "स्टैंडर्ड",
-            "हाई",
-            "अल्ट्रा",
-            "अल्ट्रा"
-          ],
+          "values": ["स्टैंडर्ड", "हाई", "अल्ट्रा", "अल्ट्रा"],
           "group": "core"
         },
         {
           "name": "टेबल ग्रिड डिटेक्शन (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "लेआउट प्रिजर्वेशन (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "गणितीय सूत्र (Math Formulas)",
-          "values": [
-            false,
-            false,
-            "बेसिक",
-            "एडवांस"
-          ],
+          "values": [false, false, "बेसिक", "एडवांस"],
           "group": "core"
         },
         {
           "name": "खराब स्याही/लिखावट सुधार",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "एक्सपोर्ट फॉर्मेट",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "सभी फॉर्मेट"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "सभी फॉर्मेट"],
           "group": "formats"
         },
         {
           "name": "बैच अपलोड लिमिट",
-          "values": [
-            "1 फाइल",
-            "5 फाइलें",
-            "10 फाइलें",
-            "अनलिमिटेड"
-          ],
+          "values": ["1 फाइल", "5 फाइलें", "10 फाइलें", "अनलिमिटेड"],
           "group": "formats"
         },
         {
           "name": "क्लाउड स्टोरेज की अवधि",
-          "values": [
-            "24 घंटे",
-            "30 दिन",
-            "हमेशा",
-            "हमेशा"
-          ],
+          "values": ["24 घंटे", "30 दिन", "हमेशा", "हमेशा"],
           "group": "system"
         },
         {
           "name": "एन्क्रिप्शन लेवल",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "प्रोसेसिंग प्राथमिकता",
-          "values": [
-            "स्टैंडर्ड",
-            "स्टैंडर्ड",
-            "हाई",
-            "रियल-टाइम"
-          ],
+          "values": ["स्टैंडर्ड", "स्टैंडर्ड", "हाई", "रियल-टाइम"],
           "group": "system"
         }
       ]

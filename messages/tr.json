@@ -1,4 +1,3 @@
-
 {
   "ClassNotesScannerPage": {
     "meta_title": "Ders Notu Tarayıcı – El Yazısından Word'e | NoteOCR",
@@ -578,8 +577,7 @@
         }
       }
     }
-  }
-,
+  },
   "AppPage": {
     "meta_title": "NoteOCR Mobil Uygulaması – El Yazısını Metne veya Excel'e Dönüştür | iOS ve Android",
     "meta_desc": "iOS ve Android için NoteOCR uygulamasını indirin. El yazısı notları kameranızla tarayın ve anında Word, Excel veya PDF'e dönüştürün.",
@@ -1039,6 +1037,31 @@
     "toast_error_conversion": "Dönüştürme başarısız oldu.",
     "toast_download_success": "Word belgesi indirildi!",
     "toast_download_error": "İndirme başarısız.",
+    "viewer_preview_only": "Yalnızca önizleme",
+    "viewer_close": "Kapat",
+    "viewer_preview_badge": "Önizleme",
+    "viewer_page_of": "Sayfa {current} / {total}",
+    "viewer_loading": "Dönüştürülmüş önizlemeniz hazırlanıyor…",
+    "viewer_error": "Dönüştürülmüş önizleme yüklenemedi. Lütfen tekrar deneyin.",
+
+    "paywall_title": "Belgeniz hazır",
+    "paywall_desc": "Dönüştürülen sonucu gördünüz. Belgenizi indirmek, düzenlemek ve dışa aktarmak için NoteOCR'a devam edin.",
+    "paywall_subtext": "Tek bir ödeme, gelecekteki dönüşümlerde kullanabileceğiniz 100 sayfa sağlar.",
+    "paywall_price": "$12 / 100 sayfa",
+    "paywall_price_suffix": "tek seferlik",
+    "paywall_button": "Belgemin Kilidini Aç →",
+    "paywall_footer": "100 sayfa · Süresi dolmaz · Abonelik yok",
+
+    "tool_view_preview": "Önizlemeyi görüntüle",
+    "tool_upload_hint": "Ücretsiz dönüştürme başına bir görsel",
+
+    "toast_title_error": "Hata",
+    "toast_title_one_image": "Tek Seferde Bir Görsel",
+    "toast_msg_one_image": "Ücretsiz önizleme aynı anda yalnızca bir görseli dönüştürür. Toplu işlem için ücretli bir planın kilidini açın.",
+    "toast_title_invalid_file": "Geçersiz Dosya",
+    "toast_title_file_too_large": "Dosya Çok Büyük",
+    "toast_title_processing_error": "İşleme Hatası",
+    "toast_msg_processing_error": "Dosyanız yüklemeye hazırlanamadı.",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1632,6 +1655,31 @@
     "toast_error_extraction": "Çıkarma işlemi başarısız.",
     "toast_download_success": "Excel dosyası indirildi!",
     "toast_download_error": "İndirme başarısız.",
+    "viewer_preview_only": "Yalnızca önizleme",
+    "viewer_close": "Kapat",
+    "viewer_preview_badge": "Önizleme",
+    "viewer_page_of": "Sayfa {current} / {total}",
+    "viewer_loading": "Dönüştürülmüş önizlemeniz hazırlanıyor…",
+    "viewer_error": "Dönüştürülmüş önizleme yüklenemedi. Lütfen tekrar deneyin.",
+
+    "paywall_title": "Elektronik tablonuz hazır",
+    "paywall_desc": "Dönüştürülen sonucu gördünüz. Elektronik tablonuzu indirmek, düzenlemek ve dışa aktarmak için NoteOCR'a devam edin.",
+    "paywall_subtext": "Tek bir ödeme, gelecekteki dönüşümlerde kullanabileceğiniz 100 sayfa sağlar.",
+    "paywall_price": "$12 / 100 sayfa",
+    "paywall_price_suffix": "tek seferlik",
+    "paywall_button": "Tablomun Kilidini Aç →",
+    "paywall_footer": "100 sayfa · Süresi dolmaz · Abonelik yok",
+
+    "tool_view_preview": "Önizlemeyi görüntüle",
+    "tool_upload_hint": "Ücretsiz dönüştürme başına bir görsel",
+
+    "toast_title_error": "Hata",
+    "toast_title_one_image": "Tek Seferde Bir Görsel",
+    "toast_msg_one_image": "Ücretsiz önizleme aynı anda yalnızca bir görseli dönüştürür. Toplu işlem için ücretli bir planın kilidini açın.",
+    "toast_title_invalid_file": "Geçersiz Dosya",
+    "toast_title_file_too_large": "Dosya Çok Büyük",
+    "toast_title_processing_error": "İşleme Hatası",
+    "toast_msg_processing_error": "Dosyanız yüklemeye hazırlanamadı.",
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1860,112 +1908,57 @@
       "rows": [
         {
           "name": "Matbu El Yazısı OCR",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "Bitişik El Yazısı Motoru",
-          "values": [
-            "Standart",
-            "Yüksek",
-            "Ultra",
-            "Ultra"
-          ],
+          "values": ["Standart", "Yüksek", "Ultra", "Ultra"],
           "group": "core"
         },
         {
           "name": "Tablo Algılama (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "Düzen Koruma (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Matematiksel Formüller",
-          "values": [
-            false,
-            false,
-            "Temel",
-            "Gelişmiş"
-          ],
+          "values": [false, false, "Temel", "Gelişmiş"],
           "group": "core"
         },
         {
           "name": "Mürekkep Düzeltme",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Dışa Aktarma Formatları",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "Tüm Formatlar"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Tüm Formatlar"],
           "group": "formats"
         },
         {
           "name": "Toplu Yükleme Sınırı",
-          "values": [
-            "1 Dosya",
-            "5 Dosya",
-            "10 Dosya",
-            "Sınırsız"
-          ],
+          "values": ["1 Dosya", "5 Dosya", "10 Dosya", "Sınırsız"],
           "group": "formats"
         },
         {
           "name": "Bulut Depolama Süresi",
-          "values": [
-            "24 Saat",
-            "30 Gün",
-            "Süresiz",
-            "Süresiz"
-          ],
+          "values": ["24 Saat", "30 Gün", "Süresiz", "Süresiz"],
           "group": "system"
         },
         {
           "name": "Şifreleme Seviyesi",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "İşleme Önceliği",
-          "values": [
-            "Standart",
-            "Standart",
-            "Yüksek",
-            "Gerçek Zamanlı"
-          ],
+          "values": ["Standart", "Standart", "Yüksek", "Gerçek Zamanlı"],
           "group": "system"
         }
       ]

@@ -1037,6 +1037,31 @@
     "toast_error_conversion": "转换失败，请重试。",
     "toast_download_success": "Word文档已成功下载！",
     "toast_download_error": "下载失败。",
+    "viewer_preview_only": "仅供预览",
+    "viewer_close": "关闭",
+    "viewer_preview_badge": "预览",
+    "viewer_page_of": "第 {current} / {total} 页",
+    "viewer_loading": "正在准备转换后的预览…",
+    "viewer_error": "无法加载转换后的预览，请重试。",
+
+    "paywall_title": "您的文档已准备就绪",
+    "paywall_desc": "您已查看转换结果。请继续前往 NoteOCR 下载、编辑并导出您的文档。",
+    "paywall_subtext": "一次付款即可获得 100 页，可用于今后的转换。",
+    "paywall_price": "$12 / 100 页",
+    "paywall_price_suffix": "一次性",
+    "paywall_button": "解锁我的文档 →",
+    "paywall_footer": "100 页 · 永不过期 · 无需订阅",
+
+    "tool_view_preview": "查看预览",
+    "tool_upload_hint": "每次免费转换仅限一张图片",
+
+    "toast_title_error": "错误",
+    "toast_title_one_image": "一次一张图片",
+    "toast_msg_one_image": "免费预览一次只能转换一张图片。升级付费方案即可批量处理。",
+    "toast_title_invalid_file": "文件无效",
+    "toast_title_file_too_large": "文件过大",
+    "toast_title_processing_error": "处理错误",
+    "toast_msg_processing_error": "无法准备您的文件用于上传。",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1630,6 +1655,31 @@
     "toast_error_extraction": "提取失败。",
     "toast_download_success": "Excel 文件已下载！",
     "toast_download_error": "下载失败。",
+    "viewer_preview_only": "仅供预览",
+    "viewer_close": "关闭",
+    "viewer_preview_badge": "预览",
+    "viewer_page_of": "第 {current} / {total} 页",
+    "viewer_loading": "正在准备转换后的预览…",
+    "viewer_error": "无法加载转换后的预览，请重试。",
+
+    "paywall_title": "您的电子表格已准备就绪",
+    "paywall_desc": "您已查看转换结果。请继续前往 NoteOCR 下载、编辑并导出您的电子表格。",
+    "paywall_subtext": "一次付款即可获得 100 页，可用于今后的转换。",
+    "paywall_price": "$12 / 100 页",
+    "paywall_price_suffix": "一次性",
+    "paywall_button": "解锁我的电子表格 →",
+    "paywall_footer": "100 页 · 永不过期 · 无需订阅",
+
+    "tool_view_preview": "查看预览",
+    "tool_upload_hint": "每次免费转换仅限一张图片",
+
+    "toast_title_error": "错误",
+    "toast_title_one_image": "一次一张图片",
+    "toast_msg_one_image": "免费预览一次只能转换一张图片。升级付费方案即可批量处理。",
+    "toast_title_invalid_file": "文件无效",
+    "toast_title_file_too_large": "文件过大",
+    "toast_title_processing_error": "处理错误",
+    "toast_msg_processing_error": "无法准备您的文件用于上传。",
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1843,13 +1893,7 @@
     "comparison": {
       "title": "技术规格详解",
       "subtitle": "为什么 NoteOCR 优于普通的扫描软件。",
-      "headers": [
-        "功能",
-        "入门级",
-        "学生版",
-        "专业版",
-        "高级用户"
-      ],
+      "headers": ["功能", "入门级", "学生版", "专业版", "高级用户"],
       "groups": {
         "core": "识别智能",
         "formats": "导出与文件格式",
@@ -1858,112 +1902,57 @@
       "rows": [
         {
           "name": "印刷体手写 OCR",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "连笔/草书识别引擎",
-          "values": [
-            "标准",
-            "高",
-            "超清",
-            "超清"
-          ],
+          "values": ["标准", "高", "超清", "超清"],
           "group": "core"
         },
         {
           "name": "表格识别 (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "版式还原 (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "数学公式识别",
-          "values": [
-            false,
-            false,
-            "基础",
-            "高级"
-          ],
+          "values": [false, false, "基础", "高级"],
           "group": "core"
         },
         {
           "name": "字迹瑕疵修正",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "导出格式",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "所有格式"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "所有格式"],
           "group": "formats"
         },
         {
           "name": "批量上传限制",
-          "values": [
-            "1 个文件",
-            "5 个文件",
-            "10 个文件",
-            "无限制"
-          ],
+          "values": ["1 个文件", "5 个文件", "10 个文件", "无限制"],
           "group": "formats"
         },
         {
           "name": "云端存储时长",
-          "values": [
-            "24 小时",
-            "30 天",
-            "永久",
-            "永久"
-          ],
+          "values": ["24 小时", "30 天", "永久", "永久"],
           "group": "system"
         },
         {
           "name": "加密级别",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "处理优先级",
-          "values": [
-            "标准",
-            "标准",
-            "高",
-            "实时"
-          ],
+          "values": ["标准", "标准", "高", "实时"],
           "group": "system"
         }
       ]

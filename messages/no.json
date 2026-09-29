@@ -577,8 +577,7 @@
         }
       }
     }
-  }
-,
+  },
   "AppPage": {
     "meta_title": "NoteOCR-mobilapp – Skann og konverter håndskrift til tekst eller Excel | iOS og Android",
     "meta_desc": "Last ned NoteOCR-appen for iOS og Android. Skann håndskrevne notater med kameraet og konverter dem umiddelbart til Word, Excel eller PDF.",
@@ -1038,6 +1037,31 @@
     "toast_error_conversion": "Konvertering mislyktes.",
     "toast_download_success": "Word-dokument lastet ned!",
     "toast_download_error": "Nedlasting mislyktes.",
+    "viewer_preview_only": "Kun forhåndsvisning",
+    "viewer_close": "Lukk",
+    "viewer_preview_badge": "Forhåndsvisning",
+    "viewer_page_of": "Side {current} / {total}",
+    "viewer_loading": "Forbereder den konverterte forhåndsvisningen din…",
+    "viewer_error": "Kunne ikke laste inn den konverterte forhåndsvisningen. Prøv igjen.",
+
+    "paywall_title": "Dokumentet ditt er klart",
+    "paywall_desc": "Du har sett det konverterte resultatet. Fortsett til NoteOCR for å laste ned, redigere og eksportere dokumentet ditt.",
+    "paywall_subtext": "Én betaling gir deg 100 sider til bruk i fremtidige konverteringer.",
+    "paywall_price": "$12 / 100 sider",
+    "paywall_price_suffix": "engangsbetaling",
+    "paywall_button": "Lås opp dokumentet mitt →",
+    "paywall_footer": "100 sider · Utløper aldri · Ingen abonnement",
+
+    "tool_view_preview": "Se forhåndsvisning",
+    "tool_upload_hint": "Ett bilde per gratis konvertering",
+
+    "toast_title_error": "Feil",
+    "toast_title_one_image": "Ett bilde om gangen",
+    "toast_msg_one_image": "Den gratis forhåndsvisningen konverterer ett bilde om gangen. Lås opp en betalt plan for gruppebehandling.",
+    "toast_title_invalid_file": "Ugyldig fil",
+    "toast_title_file_too_large": "Filen er for stor",
+    "toast_title_processing_error": "Behandlingsfeil",
+    "toast_msg_processing_error": "Kunne ikke klargjøre filen din for opplasting.",
     "FAQ": {
       "items": {
         "handwriting_to_word": {
@@ -1631,6 +1655,31 @@
     "toast_error_extraction": "Utvinning mislyktes.",
     "toast_download_success": "Excel-fil lastet ned!",
     "toast_download_error": "Nedlasting mislyktes.",
+    "viewer_preview_only": "Kun forhåndsvisning",
+    "viewer_close": "Lukk",
+    "viewer_preview_badge": "Forhåndsvisning",
+    "viewer_page_of": "Side {current} / {total}",
+    "viewer_loading": "Forbereder den konverterte forhåndsvisningen din…",
+    "viewer_error": "Kunne ikke laste inn den konverterte forhåndsvisningen. Prøv igjen.",
+
+    "paywall_title": "Regnearket ditt er klart",
+    "paywall_desc": "Du har sett det konverterte resultatet. Fortsett til NoteOCR for å laste ned, redigere og eksportere regnearket ditt.",
+    "paywall_subtext": "Én betaling gir deg 100 sider til bruk i fremtidige konverteringer.",
+    "paywall_price": "$12 / 100 sider",
+    "paywall_price_suffix": "engangsbetaling",
+    "paywall_button": "Lås opp regnearket mitt →",
+    "paywall_footer": "100 sider · Utløper aldri · Ingen abonnement",
+
+    "tool_view_preview": "Se forhåndsvisning",
+    "tool_upload_hint": "Ett bilde per gratis konvertering",
+
+    "toast_title_error": "Feil",
+    "toast_title_one_image": "Ett bilde om gangen",
+    "toast_msg_one_image": "Den gratis forhåndsvisningen konverterer ett bilde om gangen. Lås opp en betalt plan for gruppebehandling.",
+    "toast_title_invalid_file": "Ugyldig fil",
+    "toast_title_file_too_large": "Filen er for stor",
+    "toast_title_processing_error": "Behandlingsfeil",
+    "toast_msg_processing_error": "Kunne ikke klargjøre filen din for opplasting.",
     "FAQ": {
       "items": {
         "table_to_excel": {
@@ -1859,112 +1908,57 @@
       "rows": [
         {
           "name": "OCR for trykte bokstaver",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ],
+          "values": [true, true, true, true],
           "group": "core"
         },
         {
           "name": "Motor for skråskrift",
-          "values": [
-            "Standard",
-            "Høy",
-            "Ultra",
-            "Ultra"
-          ],
+          "values": ["Standard", "Høy", "Ultra", "Ultra"],
           "group": "core"
         },
         {
           "name": "Deteksjon av tabellgitter (Excel)",
-          "values": [
-            false,
-            false,
-            true,
-            true
-          ],
+          "values": [false, false, true, true],
           "group": "core"
         },
         {
           "name": "Bevaring av layout (Word)",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Matematiske formler",
-          "values": [
-            false,
-            false,
-            "Grunnleggende",
-            "Avansert"
-          ],
+          "values": [false, false, "Grunnleggende", "Avansert"],
           "group": "core"
         },
         {
           "name": "Korreksjon av rotete blekk",
-          "values": [
-            false,
-            true,
-            true,
-            true
-          ],
+          "values": [false, true, true, true],
           "group": "core"
         },
         {
           "name": "Eksportformater",
-          "values": [
-            "TXT",
-            "DOCX, TXT",
-            "XLSX, DOCX, PDF",
-            "Alle formater"
-          ],
+          "values": ["TXT", "DOCX, TXT", "XLSX, DOCX, PDF", "Alle formater"],
           "group": "formats"
         },
         {
           "name": "Grense for batch-opplasting",
-          "values": [
-            "1 fil",
-            "5 filer",
-            "10 filer",
-            "Ubegrenset"
-          ],
+          "values": ["1 fil", "5 filer", "10 filer", "Ubegrenset"],
           "group": "formats"
         },
         {
           "name": "Varighet på skylagring",
-          "values": [
-            "24 timer",
-            "30 dager",
-            "For alltid",
-            "For alltid"
-          ],
+          "values": ["24 timer", "30 dager", "For alltid", "For alltid"],
           "group": "system"
         },
         {
           "name": "Krypteringsnivå",
-          "values": [
-            "AES-256",
-            "AES-256",
-            "AES-256",
-            "AES-256"
-          ],
+          "values": ["AES-256", "AES-256", "AES-256", "AES-256"],
           "group": "system"
         },
         {
           "name": "Behandlingsprioritet",
-          "values": [
-            "Standard",
-            "Standard",
-            "Høy",
-            "Sanntid"
-          ],
+          "values": ["Standard", "Standard", "Høy", "Sanntid"],
           "group": "system"
         }
       ]
