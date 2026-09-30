@@ -359,20 +359,20 @@ function DocumentViewer({
                           {t("paywall_desc")}
                         </p>
 
-                        <p className="mt-1.5 text-[11px] sm:text-xs font-medium text-neutral-500">
+                        {/* <p className="mt-1.5 text-[11px] sm:text-xs font-medium text-neutral-500">
                           {t("paywall_subtext")}
-                        </p>
+                        </p> */}
                       </div>
 
                       <div className="shrink-0 text-center sm:text-right">
                         <div className="mb-2">
-                          <span className="text-lg font-extrabold text-neutral-900">
+                          {/* <span className="text-lg font-extrabold text-neutral-900">
                             {t("paywall_price")}
-                          </span>
+                          </span> */}
 
-                          <span className="text-[11px] font-medium text-neutral-500 ml-1">
+                          {/* <span className="text-[11px] font-medium text-neutral-500 ml-1">
                             {t("paywall_price_suffix")}
-                          </span>
+                          </span> */}
                         </div>
 
                         {ctaHref && (

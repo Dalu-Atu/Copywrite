@@ -1060,8 +1060,8 @@
     "paywall_subtext": "One payment gives you 100 pages to use across future conversions.",
     "paywall_price": "$12 / 100 pages",
     "paywall_price_suffix": "one-time",
-    "paywall_button": "Unlock My Document →",
-    "paywall_footer": "100 pages · Never expires · No subscription",
+    "paywall_button": "Create Free Account →",
+    "paywall_footer": " pages never expires · No reccuring subscription",
 
     "tool_view_preview": "View preview",
     "tool_upload_hint": "One image per free conversion",
