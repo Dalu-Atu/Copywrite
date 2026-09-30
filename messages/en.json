@@ -1060,7 +1060,7 @@
     "paywall_subtext": "One payment gives you 100 pages to use across future conversions.",
     "paywall_price": "$12 / 100 pages",
     "paywall_price_suffix": "one-time",
-    "paywall_button": "Create Free Account →",
+    "paywall_button": "Create Account →",
     "paywall_footer": " pages never expires · No reccuring subscription",
 
     "tool_view_preview": "View preview",
