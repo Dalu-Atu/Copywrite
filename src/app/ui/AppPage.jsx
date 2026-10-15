@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { APP_FAQ_KEYS } from "./app-faq-keys";
 import ExploreByUseCase from "./ExploreByUseCase";
 import { LaunchModal, StoreButton, STORE_LINKS } from "./AppShared";
+import AppQrCode from "./AppQrCode";
 
 const LAUNCH_DATE = new Date("2026-09-21T00:00:00");
 
@@ -314,6 +315,7 @@ export default function AppPage({ locale }) {
                   onUnavailable={setModalStore}
                 />{" "}
               </div>
+              <AppQrCode />
             </Reveal>
 
             <Reveal

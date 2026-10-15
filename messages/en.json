@@ -588,6 +588,8 @@
     }
   },
   "AppPage": {
+    "qr_title": "Scan to download",
+    "qr_hint": "Point your phone camera here to get the app.",
     "explore_usecases_title": "Built for how you actually take notes.",
     "explore_usecases_subtitle": "See how NoteOCR handles the specific kind of handwriting you're converting.",
     "meta_title": "NoteOCR Mobile App – Scan & Convert Handwriting to Text or Excel | iOS & Android",
