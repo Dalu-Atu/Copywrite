@@ -12,6 +12,7 @@ import {
   CheckIcon,
 } from "./AppShared";
 import { USE_CASES } from "./app-usecases-config";
+import AppQrCode from "./AppQrCode";
 
 const TRUST_KEYS = ["trust_1", "trust_2", "trust_3"];
 const STEP_KEYS = ["step_1", "step_2", "step_3"];
@@ -236,6 +237,7 @@ export default function UseCaseLandingPage({ useCase, locale }) {
                   onUnavailable={setModalStore}
                 />
               </div>
+                <AppQrCode />
             </div>
 
             <ScanDemo
