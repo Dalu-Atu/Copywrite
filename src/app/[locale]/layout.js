@@ -23,9 +23,9 @@ export default async function RootLayout({ children, params }) {
       className={`${GeistSans.variable} ${GeistMono.variable}`}
     >
       <head>
-        <link rel="icon" type="image/png" href="/icon.png" />
-        <link rel="shortcut icon" href="/icon.png" />
-        <link rel="apple-touch-icon" href="/icon.png" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/icon.png" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
 
         <meta
           name="theme-color"
