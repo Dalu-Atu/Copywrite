@@ -4,7 +4,6 @@ import React, { useState, useRef } from "react";
 import {
   FileSearch,
   ShieldCheck,
-  Zap,
   ArrowRight,
   Upload,
   X,
@@ -18,151 +17,333 @@ import {
   Plus,
   PenLine,
   Table2,
-  FileEdit,
-  ChevronRight,
 } from "lucide-react";
-import { useTranslations, useLocale } from "next-intl";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { useTranslations } from "next-intl";
+import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import { toast } from "react-hot-toast";
+import { DocumentViewer } from "../ui/ToolInterface";
 
+// ───────────────────────── config ─────────────────────────
+const TRIAL_PAGES = 1; // pages converted free for the preview (raise carefully: each costs OCR)
+const MAX_FILE_BYTES = 25 * 1024 * 1024;
+const MAX_IMAGE_SIDE = 2000; // px, longest side sent to the OCR endpoint
+const TEXT_CHARS_PER_PAGE = 40; // below this average => treat the PDF as scanned
+const API = process.env.NEXT_PUBLIC_API_URL;
+
+// ───────────────────────── helpers ─────────────────────────
+const track = (name, params = {}) => {
+  try {
+    window.gtag?.("event", name, { source: "edit_pdf", ...params });
+  } catch {
+    /* never let analytics break the flow */
+  }
+};
+
+const randomString = (length) => {
+  const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  return Array.from(
+    { length },
+    () => chars[Math.floor(Math.random() * chars.length)],
+  ).join("");
+};
+
+// All visitors share one account, so two people uploading "contract.pdf"
+// would collide. A random prefix keeps each file name unique.
+const uniqueName = (name) =>
+  `${randomString(6)}_${name.replace(/[#?%/\\\s]+/g, "_")}`;
+
+const PDFJS_VERSION = "3.11.174";
+let pdfjsPromise = null;
+
+// Loaded from the CDN at runtime so the bundler never sees pdf.js
+// (this also removes the need for the `canvas` alias in next.config.mjs)
+function loadPdfjs() {
+  if (typeof window === "undefined") return Promise.reject();
+  const ready = (lib) => {
+    lib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${PDFJS_VERSION}/pdf.worker.min.js`;
+    return lib;
+  };
+  if (window.pdfjsLib) return Promise.resolve(ready(window.pdfjsLib));
+  if (!pdfjsPromise) {
+    pdfjsPromise = new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${PDFJS_VERSION}/pdf.min.js`;
+      s.onload = () => resolve(ready(window.pdfjsLib));
+      s.onerror = () => {
+        pdfjsPromise = null;
+        reject(new Error("Failed to load pdf.js"));
+      };
+      document.head.appendChild(s);
+    });
+  }
+  return pdfjsPromise;
+}
+
+async function openPdf(file) {
+  const pdfjs = await loadPdfjs();
+  const data = new Uint8Array(await file.arrayBuffer());
+  return pdfjs.getDocument({ data }).promise;
+}
+
+// Does the PDF contain real, selectable text? (checks the first 3 pages)
+async function inspectPdf(file) {
+  const pdf = await openPdf(file);
+  const pages = pdf.numPages;
+  const check = Math.min(pages, 3);
+  let chars = 0;
+  for (let i = 1; i <= check; i++) {
+    const page = await pdf.getPage(i);
+    const content = await page.getTextContent();
+    chars += content.items.reduce(
+      (sum, item) => sum + (item.str?.trim().length || 0),
+      0,
+    );
+  }
+  pdf.destroy?.();
+  return { pages, isScanned: chars / check < TEXT_CHARS_PER_PAGE };
+}
+
+// Render the first `count` pages to JPEG data URLs
+async function pdfToImages(file, count) {
+  const pdf = await openPdf(file);
+  const total = Math.min(pdf.numPages, count);
+  const images = [];
+  for (let i = 1; i <= total; i++) {
+    const page = await pdf.getPage(i);
+    const base = page.getViewport({ scale: 1 });
+    const scale = Math.min(
+      2.5,
+      MAX_IMAGE_SIDE / Math.max(base.width, base.height),
+    );
+    const viewport = page.getViewport({ scale });
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.floor(viewport.width);
+    canvas.height = Math.floor(viewport.height);
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#fff"; // JPEG has no transparency
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    await page.render({ canvasContext: ctx, viewport }).promise;
+    images.push(canvas.toDataURL("image/jpeg", 0.85));
+    page.cleanup?.();
+  }
+  pdf.destroy?.();
+  return images;
+}
+
+// Downscale a phone photo to something the OCR endpoint handles well
+function imageToDataUrl(file) {
+  return new Promise((resolve, reject) => {
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onload = () => {
+      const scale = Math.min(
+        1,
+        MAX_IMAGE_SIDE / Math.max(img.width, img.height),
+      );
+      const canvas = document.createElement("canvas");
+      canvas.width = Math.floor(img.width * scale);
+      canvas.height = Math.floor(img.height * scale);
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = "#fff";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      URL.revokeObjectURL(url);
+      resolve(canvas.toDataURL("image/jpeg", 0.85));
+    };
+    img.onerror = () => {
+      URL.revokeObjectURL(url);
+      reject(new Error("Could not read image"));
+    };
+    img.src = url;
+  });
+}
+
+// ───────────────────────── component ─────────────────────────
 export default function PdfClientContent({ locale }) {
   const t = useTranslations("PdfPage");
-  const queryClient = useQueryClient();
+  // Viewer and paywall strings already exist in the WordPage namespace
+  const tViewer = useTranslations("WordPage");
   const fileInputRef = useRef(null);
+  const [result, setResult] = useState(null); // converted document, if any
+  const [viewerOpen, setViewerOpen] = useState(false);
 
   const [modalOpen, setModalOpen] = useState(false);
-  const [actionType, setActionType] = useState("");
-  // "router" = smart routing step | "upload" = actual file drop | "new" = blank doc
-  const [modalStep, setModalStep] = useState("router");
-  const [selectedType, setSelectedType] = useState("standard");
+  // "upload" = drop a file | "scanned" = scan detected, pick Word/Excel | "new" = blank doc
+  const [modalStep, setModalStep] = useState("upload");
+  const [pending, setPending] = useState(null); // { file, kind: "pdf" | "image", pages? }
+  const [isChecking, setIsChecking] = useState(false);
   const [dragActive, setDragActive] = useState(false);
   const userId = "67b746ab6256a6bdb691b18a";
 
   const getAppUrl = (path) => {
     const base = `https://app.noteocr.com${path}`;
-    return locale && locale !== "en" ? `${base}?lng=${locale}` : base;
+    if (!locale || locale === "en") return base;
+    return `${base}${path.includes("?") ? "&" : "?"}lng=${locale}`;
   };
 
-  // ─── Smart routing options moved INSIDE the component to use t() ───
-  const DOCUMENT_TYPES = [
-    {
-      id: "standard",
-      icon: FileEdit,
-      label: t("router_type_standard_label"),
-      desc: t("router_type_standard_desc"),
-      color: "rose",
-      cta: t("router_type_standard_cta"),
-      route: null, // stays on this page
-    },
-    {
-      id: "handwritten",
-      icon: PenLine,
-      label: t("router_type_handwritten_label"),
-      desc: t("router_type_handwritten_desc"),
-      color: "emerald",
-      cta: t("router_type_handwritten_cta"),
-      route: getAppUrl("/upload-image"),
-    },
-    {
-      id: "table",
-      icon: Table2,
-      label: t("router_type_table_label"),
-      desc: t("router_type_table_desc"),
-      color: "blue",
-      cta: t("router_type_table_cta"),
-      route: getAppUrl("/upload-image"),
-    },
-  ];
+  // Same preview endpoint the /handwriting-to-docx page uses
+  const getPreviewUrl = (doc) => {
+    if (!doc) return null;
+    if (doc.previewUrl) return doc.previewUrl;
+    return `${API}/users/preview-document/${doc.userId || userId}/${encodeURIComponent(
+      doc.folder || "Personal",
+    )}/${encodeURIComponent(doc.name)}`;
+  };
 
+  const goToTrialEditor = (folder, name) => {
+    window.location.href = getAppUrl(
+      `/trial-editor/${encodeURIComponent(folder)}/${encodeURIComponent(name)}`,
+    );
+  };
+
+  // ── Blank document ──
   const { mutate: createBlankPdf, isPending: isCreating } = useMutation({
     mutationFn: async (data) => {
-      const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_URL}/users/create-document`,
-        data,
-      );
+      const response = await axios.post(`${API}/users/create-document`, data);
       return response.data;
     },
     onSuccess: (data) => {
-      queryClient.invalidateQueries(["user"]);
       toast.success(t("toast_success_create"));
-      const { document } = data;
-      window.location.href = getAppUrl(
-        `/trial-editor/${document.folder}/${document.name}`,
-      );
+      track("editpdf_blank_doc_created");
+      goToTrialEditor(data.document.folder, data.document.name);
     },
     onError: (error) => {
       toast.error(error?.response?.data?.message || t("toast_error_create"));
     },
   });
 
+  // ── Digital PDF -> editor (unchanged behaviour) ──
   const { mutate: importFile, isPending: isImporting } = useMutation({
     mutationFn: async (formData) => {
-      const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_URL}/users/upload`,
-        formData,
-        { headers: { "Content-Type": "multipart/form-data" } },
-      );
+      const response = await axios.post(`${API}/users/upload`, formData, {
+        headers: { "Content-Type": "multipart/form-data" },
+      });
       return response.data;
     },
     onSuccess: (data) => {
-      queryClient.invalidateQueries(["user"]);
       toast.success(t("toast_success_upload"));
-      const { document } = data;
-      window.location.href = getAppUrl(
-        `/trial-editor/${document.dest}/${document.name}`,
-      );
+      track("editpdf_editor_opened");
+      goToTrialEditor(data.document.dest, data.document.name);
     },
     onError: (error) => {
       toast.error(error.response?.data?.message || t("toast_error_upload"));
     },
   });
 
-  const generateProfessionalName = () => {
-    const prefixes = [
-      "Document",
-      "Contract",
-      "Agreement",
-      "Proposal",
-      "Draft",
-      "Review",
-      "Analysis",
-    ];
-    const randomPrefix = prefixes[Math.floor(Math.random() * prefixes.length)];
-    const date = new Date()
-      .toLocaleDateString("en-GB", { day: "2-digit", month: "2-digit" })
-      .replace(/\//g, "");
-    const randomID = Math.floor(1000 + Math.random() * 9000);
-    return `${randomPrefix}_${date}_${randomID}.pdf`;
-  };
+  // ── Scanned PDF / photo -> free converted preview (existing trial pipeline) ──
+  const { mutate: convert, isPending: isConverting } = useMutation({
+    mutationFn: async ({ file, kind, format }) => {
+      const images =
+        kind === "pdf"
+          ? await pdfToImages(file, TRIAL_PAGES)
+          : [await imageToDataUrl(file)];
 
-  const handleStartScratch = () => {
-    if (isCreating) return;
-    createBlankPdf({
-      userId,
-      folderName: "Personal",
-      documentName: generateProfessionalName(),
-      fileType: "pdf",
+      const response = await axios.post(
+        `${API}/transcribe/process-image`,
+        {
+          images,
+          userId,
+          conversionType: format === "word" ? "imageToWord" : "imageToExcel",
+          documentName: randomString(7),
+          folder: "Personal",
+          updating: false,
+        },
+        { headers: { "Content-Type": "application/json" }, timeout: 240000 },
+      );
+      return response.data;
+    },
+    onSuccess: (data, vars) => {
+      if (data?.success && data.document) {
+        track("editpdf_conversion_done", {
+          format: vars.format,
+          kind: vars.kind,
+        });
+        track(`editpdf_${vars.format}_conversion_done`, { kind: vars.kind });
+        setResult(data.document);
+        setPending(null);
+        setModalOpen(false);
+        setViewerOpen(true);
+      } else {
+        toast.error(t("toast_error_convert"));
+      }
+    },
+    onError: (error, vars) => {
+      track("editpdf_conversion_failed", {
+        format: vars?.format,
+        kind: vars?.kind,
+      });
+      toast.error(
+        error?.response?.data?.message ||
+          error?.response?.data?.error ||
+          t("toast_error_convert"),
+      );
+    },
+  });
+
+  const uploadToEditor = (file) => {
+    const renamed = new File([file], uniqueName(file.name), {
+      type: file.type,
     });
-  };
-
-  const handleFileChange = (e) => {
-    const selectedFile = e.target.files[0];
-    if (!selectedFile) return;
-    if (selectedFile.type !== "application/pdf") {
-      toast.error(t("toast_error_type"));
-      return;
-    }
-    const maxSize = 25 * 1024 * 1024;
-    if (selectedFile.size > maxSize) {
-      toast.error(t("toast_error_size"));
-      return;
-    }
     const formData = new FormData();
-    formData.append("file", selectedFile);
+    formData.append("file", renamed);
     formData.append("userId", userId);
     formData.append("folderName", "Personal");
     importFile(formData);
+  };
+
+  const handleFile = async (file) => {
+    if (!file) return;
+
+    const isPdf = file.type === "application/pdf" || /\.pdf$/i.test(file.name);
+    const isImage = file.type.startsWith("image/");
+
+    if (!isPdf && !isImage) {
+      toast.error(t("toast_error_type"));
+      return;
+    }
+    if (file.size > MAX_FILE_BYTES) {
+      toast.error(t("toast_error_size"));
+      return;
+    }
+
+    track("editpdf_file_chosen", { kind: isPdf ? "pdf" : "image" });
+
+    // Photos are always "scans": go straight to the Word/Excel choice
+    if (isImage) {
+      setPending({ file, kind: "image" });
+      setModalStep("scanned");
+      return;
+    }
+
+    setIsChecking(true);
+    try {
+      const { pages, isScanned } = await inspectPdf(file);
+      track(
+        isScanned
+          ? "editpdf_scanned_pdf_detected"
+          : "editpdf_digital_pdf_detected",
+        { pages },
+      );
+      if (isScanned) {
+        setPending({ file, kind: "pdf", pages });
+        setModalStep("scanned");
+      } else {
+        uploadToEditor(file);
+      }
+    } catch (err) {
+      // Encrypted or unreadable in the browser: fall back to the editor
+      track("editpdf_pdf_check_failed");
+      uploadToEditor(file);
+    } finally {
+      setIsChecking(false);
+    }
+  };
+
+  const handleFileChange = (e) => {
+    const file = e.target.files?.[0];
+    e.target.value = ""; // allow picking the same file again
+    handleFile(file);
   };
 
   const handleDrag = (e) => {
@@ -175,62 +356,60 @@ export default function PdfClientContent({ locale }) {
     e.preventDefault();
     e.stopPropagation();
     setDragActive(false);
-    if (e.dataTransfer.files?.[0]) {
-      const file = e.dataTransfer.files[0];
-      if (file.type === "application/pdf") {
-        handleFileChange({ target: { files: [file] } });
-      } else {
-        toast.error(t("toast_error_drop"));
-      }
-    }
+    handleFile(e.dataTransfer.files?.[0]);
+  };
+
+  const handleStartScratch = () => {
+    if (isCreating) return;
+    const prefixes = ["Document", "Contract", "Agreement", "Proposal", "Draft"];
+    const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
+    createBlankPdf({
+      userId,
+      folderName: "Personal",
+      documentName: `${prefix}_${Math.floor(1000 + Math.random() * 9000)}`,
+      fileType: "pdf",
+    });
+  };
+
+  const handleConvert = (format) => {
+    if (!pending) return;
+    track("editpdf_convert_button_clicked", { format, kind: pending.kind });
+    track(`editpdf_${format}_button_clicked`, { kind: pending.kind });
+    convert({ ...pending, format });
   };
 
   const openModal = (type) => {
-    setActionType(type);
-    // Upload flow shows the smart router first; "new" skips straight through
-    setModalStep(type === "upload" ? "router" : "new");
-    setSelectedType("standard");
+    track(
+      type === "upload"
+        ? "editpdf_upload_window_opened"
+        : "editpdf_blank_window_opened",
+    );
+    setPending(null);
+    setModalStep(type === "upload" ? "upload" : "new");
     setModalOpen(true);
   };
 
-  const handleRouterContinue = () => {
-    const chosen = DOCUMENT_TYPES.find((d) => d.id === selectedType);
+  const isGlobalLoading =
+    isCreating || isImporting || isChecking || isConverting;
 
-    window.gtag("event", "edit_pdf_route_selected", {
-      document_type: chosen.id, // "standard" | "handwritten" | etc.
-      label: chosen.label, // human-readable name
-    });
-
-    if (chosen.route) {
-      window.location.href = chosen.route;
-    } else {
-      setModalStep("upload");
-    }
+  const closeModal = () => {
+    if (isGlobalLoading) return;
+    setModalOpen(false);
+    setPending(null);
   };
 
-  const isGlobalLoading = isCreating || isImporting;
-
-  // ── colour helpers ──
-  const colorMap = {
-    rose: {
-      ring: "border-rose-500/50 bg-rose-500/5",
-      icon: "bg-rose-500/10 border-rose-500/20",
-      text: "text-rose-400",
-      dot: "bg-rose-500",
-    },
-    emerald: {
-      ring: "border-emerald-500/50 bg-emerald-500/5",
-      icon: "bg-emerald-500/10 border-emerald-500/20",
-      text: "text-emerald-400",
-      dot: "bg-emerald-500",
-    },
-    blue: {
-      ring: "border-blue-500/50 bg-blue-500/5",
-      icon: "bg-blue-500/10 border-blue-500/20",
-      text: "text-blue-400",
-      dot: "bg-blue-500",
-    },
-  };
+  const loadingTitle = isChecking
+    ? t("modal_analyzing_title")
+    : isConverting
+      ? t("modal_converting_title")
+      : isImporting
+        ? t("modal_processing_upload")
+        : t("modal_processing_new");
+  const loadingDesc = isChecking
+    ? t("modal_analyzing_desc")
+    : isConverting
+      ? t("modal_converting_desc")
+      : t("modal_processing_desc");
 
   return (
     <div className="w-full max-w-3xl mx-auto">
@@ -286,12 +465,37 @@ export default function PdfClientContent({ locale }) {
         </div>
       </div>
 
+      {/* ── Converted preview (scanned PDFs / photos) ── */}
+      {result && !viewerOpen && (
+        <button
+          onClick={() => {
+            track("editpdf_preview_reopened");
+            setViewerOpen(true);
+          }}
+          className="mt-4 w-full flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-lg shadow-lg active:scale-[0.98] transition-all"
+        >
+          {tViewer("tool_view_preview")}
+        </button>
+      )}
+
+      {result && viewerOpen && (
+        <DocumentViewer
+          t={tViewer}
+          fileUrl={getPreviewUrl(result)}
+          title={result.name}
+          onClose={() => setViewerOpen(false)}
+          maxPages={TRIAL_PAGES}
+          ctaHref={getAppUrl("/signup?source=edit-pdf-preview")}
+          onCtaClick={() => track("editpdf_signup_button_clicked")}
+        />
+      )}
+
       {/* ── Info Cards ── */}
       <div className="grid md:grid-cols-3 gap-4 mt-6">
         {[
-          { Icon: FileSearch, key: "1", color: "rose" },
-          { Icon: Sparkles, key: "2", color: "rose" },
-          { Icon: Lock, key: "3", color: "rose" },
+          { Icon: FileSearch, key: "1" },
+          { Icon: Sparkles, key: "2" },
+          { Icon: Lock, key: "3" },
         ].map(({ Icon, key }) => (
           <div
             key={key}
@@ -323,14 +527,12 @@ export default function PdfClientContent({ locale }) {
         </div>
       </div>
 
-      {/* ══════════════════════════════════════════
-          MODAL
-      ══════════════════════════════════════════ */}
+      {/* ══════════════════ MODAL ══════════════════ */}
       {modalOpen && (
         <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center sm:p-6">
           <div
             className="absolute inset-0 bg-black/80 backdrop-blur-md"
-            onClick={() => !isGlobalLoading && setModalOpen(false)}
+            onClick={closeModal}
           />
 
           <div className="relative bg-[#0a0a0a] border-2 border-white/10 rounded-t-2xl sm:rounded-2xl overflow-hidden w-full sm:max-w-xl shadow-2xl">
@@ -339,19 +541,14 @@ export default function PdfClientContent({ locale }) {
               <div className="absolute inset-0 z-50 bg-black/90 flex flex-col items-center justify-center text-center p-6">
                 <Loader2 className="w-12 h-12 text-rose-500 animate-spin mb-4" />
                 <h4 className="text-xl font-bold text-white tracking-tight">
-                  {isImporting
-                    ? t("modal_processing_upload")
-                    : t("modal_processing_new")}
+                  {loadingTitle}
                 </h4>
-                <p className="text-gray-500 text-sm mt-2">
-                  {t("modal_processing_desc")}
-                </p>
+                <p className="text-gray-500 text-sm mt-2">{loadingDesc}</p>
               </div>
             )}
 
             <div className="h-1 w-full bg-gradient-to-r from-rose-500 via-pink-500 to-orange-500" />
 
-            {/* Drag handle on mobile */}
             <div className="sm:hidden flex justify-center pt-3">
               <div className="w-9 h-1 rounded-full bg-zinc-700" />
             </div>
@@ -361,96 +558,12 @@ export default function PdfClientContent({ locale }) {
               style={{ maxHeight: "90dvh" }}
             >
               <button
-                onClick={() => !isGlobalLoading && setModalOpen(false)}
+                onClick={closeModal}
                 disabled={isGlobalLoading}
                 className="absolute top-5 right-5 p-2 hover:bg-white/10 rounded-full transition-all"
               >
                 <X className="w-5 h-5 text-gray-400" />
               </button>
-
-              {/* ══ STEP: SMART ROUTER ══ */}
-              {modalStep === "router" && (
-                <div>
-                  <div className="mb-6">
-                    <p className="text-[10px] font-black uppercase tracking-[0.2em] text-rose-400 mb-1">
-                      {t("router_pre_title")}
-                    </p>
-                    <h3 className="text-xl sm:text-2xl font-bold text-white leading-snug">
-                      {t("router_title")}
-                    </h3>
-                    <p className="text-gray-500 text-sm mt-1.5 leading-relaxed">
-                      {t("router_subtitle")}
-                    </p>
-                  </div>
-
-                  <div className="space-y-3 mb-7">
-                    {DOCUMENT_TYPES.map((opt) => {
-                      const c = colorMap[opt.color];
-                      const isSelected = selectedType === opt.id;
-                      return (
-                        <button
-                          key={opt.id}
-                          onClick={() => setSelectedType(opt.id)}
-                          className={`w-full flex items-start gap-4 p-4 rounded-xl border text-left transition-all duration-150 ${
-                            isSelected
-                              ? c.ring
-                              : "border-white/[0.08] bg-white/[0.02] hover:border-white/15"
-                          }`}
-                        >
-                          {/* Radio */}
-                          <div
-                            className={`w-4 h-4 rounded-full border-2 shrink-0 mt-0.5 flex items-center justify-center transition-colors ${
-                              isSelected
-                                ? `border-current ${c.text}`
-                                : "border-zinc-700"
-                            }`}
-                          >
-                            {isSelected && (
-                              <div
-                                className={`w-2 h-2 rounded-full ${c.dot}`}
-                              />
-                            )}
-                          </div>
-
-                          {/* Icon */}
-                          <div
-                            className={`w-9 h-9 rounded-lg border flex items-center justify-center shrink-0 ${c.icon}`}
-                          >
-                            <opt.icon className={`w-4 h-4 ${c.text}`} />
-                          </div>
-
-                          {/* Text */}
-                          <div className="min-w-0">
-                            <p className="text-sm font-bold text-white mb-0.5">
-                              {opt.label}
-                            </p>
-                            <p className="text-[11px] text-zinc-500 leading-snug">
-                              {opt.desc}
-                            </p>
-                          </div>
-                        </button>
-                      );
-                    })}
-                  </div>
-
-                  {/* Dynamic CTA */}
-                  <button
-                    onClick={handleRouterContinue}
-                    className={`w-full flex items-center justify-between px-5 py-4 rounded-xl font-black text-[15px] transition-all active:scale-[0.98] shadow-xl group ${
-                      selectedType === "standard"
-                        ? "bg-white text-black hover:bg-zinc-100"
-                        : selectedType === "handwritten"
-                          ? "bg-emerald-600 text-white hover:bg-emerald-500"
-                          : "bg-blue-600 text-white hover:bg-blue-500"
-                    }`}
-                  >
-                    <span>
-                      {DOCUMENT_TYPES.find((d) => d.id === selectedType)?.cta}
-                    </span>
-                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                  </button>
-                </div>
-              )}
 
               {/* ══ STEP: FILE UPLOAD ══ */}
               {modalStep === "upload" && (
@@ -484,7 +597,7 @@ export default function PdfClientContent({ locale }) {
                       ref={fileInputRef}
                       onChange={handleFileChange}
                       className="hidden"
-                      accept=".pdf"
+                      accept=".pdf,application/pdf,image/*"
                       disabled={isGlobalLoading}
                     />
                     <Upload className="w-10 h-10 text-gray-600 mx-auto mb-4" />
@@ -496,17 +609,100 @@ export default function PdfClientContent({ locale }) {
                     </span>
                   </div>
 
-                  <button
-                    onClick={() => setModalStep("router")}
-                    className="mt-4 text-[11px] text-zinc-600 hover:text-zinc-400 transition-colors flex items-center gap-1 mx-auto"
-                  >
-                    ← {t("router_back_button")}
-                  </button>
-
                   <p className="text-[10px] text-gray-600 font-bold uppercase tracking-widest mt-6 flex items-center justify-center gap-2">
                     <ShieldCheck className="w-3.5 h-3.5" />{" "}
                     {t("modal_security_badge")}
                   </p>
+                </div>
+              )}
+
+              {/* ══ STEP: SCAN DETECTED -> CONVERT ══ */}
+              {modalStep === "scanned" && pending && (
+                <div>
+                  <div className="text-center mb-7">
+                    <div className="w-16 h-16 bg-emerald-500/10 border border-emerald-500/20 rounded-2xl flex items-center justify-center mx-auto mb-5">
+                      <PenLine className="w-8 h-8 text-emerald-400" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white mb-2 tracking-tight">
+                      {t("scanned_title")}
+                    </h3>
+                    <p className="text-gray-400 text-sm leading-relaxed">
+                      {t("scanned_desc")}
+                    </p>
+                    <p className="text-[11px] text-zinc-500 mt-3 truncate">
+                      {pending.file.name}
+                      {pending.kind === "pdf" && pending.pages
+                        ? ` · ${pending.pages} ${pending.pages === 1 ? "page" : "pages"}`
+                        : ""}
+                    </p>
+                  </div>
+
+                  <div className="space-y-3 mb-3">
+                    <button
+                      onClick={() => handleConvert("word")}
+                      className="w-full flex items-center justify-between px-5 py-4 rounded-xl bg-emerald-600 text-white hover:bg-emerald-500 transition-all active:scale-[0.98] shadow-xl group text-left"
+                    >
+                      <span className="flex items-center gap-3">
+                        <FileText className="w-5 h-5 shrink-0" />
+                        <span>
+                          <span className="block font-black text-[15px]">
+                            {t("scanned_word")}
+                          </span>
+                          <span className="block text-[11px] text-emerald-100/80">
+                            {t("scanned_word_desc")}
+                          </span>
+                        </span>
+                      </span>
+                      <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    </button>
+
+                    <button
+                      onClick={() => handleConvert("excel")}
+                      className="w-full flex items-center justify-between px-5 py-4 rounded-xl bg-blue-600 text-white hover:bg-blue-500 transition-all active:scale-[0.98] shadow-xl group text-left"
+                    >
+                      <span className="flex items-center gap-3">
+                        <Table2 className="w-5 h-5 shrink-0" />
+                        <span>
+                          <span className="block font-black text-[15px]">
+                            {t("scanned_excel")}
+                          </span>
+                          <span className="block text-[11px] text-blue-100/80">
+                            {t("scanned_excel_desc")}
+                          </span>
+                        </span>
+                      </span>
+                      <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    </button>
+                  </div>
+
+                  {pending.kind === "pdf" && pending.pages > TRIAL_PAGES && (
+                    <p className="text-[11px] text-zinc-500 text-center mb-3">
+                      {t("scanned_pages_note", { count: TRIAL_PAGES })}
+                    </p>
+                  )}
+
+                  <div className="flex flex-col items-center gap-2 mt-4">
+                    {pending.kind === "pdf" && (
+                      <button
+                        onClick={() => {
+                          track("editpdf_chose_editor_instead");
+                          uploadToEditor(pending.file);
+                        }}
+                        className="text-[12px] text-zinc-400 hover:text-white underline underline-offset-4 transition-colors"
+                      >
+                        {t("scanned_open_editor")}
+                      </button>
+                    )}
+                    <button
+                      onClick={() => {
+                        setPending(null);
+                        setModalStep("upload");
+                      }}
+                      className="text-[11px] text-zinc-600 hover:text-zinc-400 transition-colors"
+                    >
+                      ← {t("scanned_back")}
+                    </button>
+                  </div>
                 </div>
               )}
 

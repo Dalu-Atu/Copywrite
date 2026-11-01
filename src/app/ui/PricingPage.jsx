@@ -30,11 +30,11 @@ export default function PricingPage() {
   const deepDiveCards = t.raw("deep_dive.cards");
   const faqs = t.raw("faqs.items");
   const locale = useLocale();
-  const getAppUrl = (path) => {
-    const base = `https://app.noteocr.com${path}`;
-    return locale && locale !== "en" ? `${base}&lng=${locale}` : base;
-  };
-
+const getAppUrl = (path) => {
+  const base = `https://app.noteocr.com${path}`;
+  if (!locale || locale === "en") return base;
+  return `${base}${path.includes("?") ? "&" : "?"}lng=${locale}`;
+};
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",

@@ -126,7 +126,7 @@ function PdfPage({ pdf, pageNum, width, root }) {
 /* Full-screen document viewer                                         */
 /* ------------------------------------------------------------------ */
 
-function DocumentViewer({
+export function DocumentViewer({
   t,
   fileUrl,
   token,
