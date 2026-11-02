@@ -29,7 +29,7 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "ExcelPage" });
-  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
+  const localePath = locale === "en" ? "" : `/${locale}`;
 
   return {
     title: t("meta_title"),
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }) {
         ja: "https://noteocr.com/ja/handwriting-to-excel",
         fr: "https://noteocr.com/fr/handwriting-to-excel",
         "pt-br": "https://noteocr.com/pt-br/handwriting-to-excel",
-        da: "https://noteocr.com/da",
+        da: "https://noteocr.com/da/handwriting-to-excel", // Fixed canonical path
         fi: "https://noteocr.com/fi/handwriting-to-excel",
         it: "https://noteocr.com/it/handwriting-to-excel",
         nl: "https://noteocr.com/nl/handwriting-to-excel",
