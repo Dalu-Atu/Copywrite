@@ -698,19 +698,314 @@
   },
 
   "HomePage": {
-    "trust_pill": "V2.0 Käsialan OCR: 99,2 % Tarkkuus",
-    "hero_title_1": "Muunna käsiala tekstiksi ja",
-    "hero_title_2": "muokattaviksi asiakirjoiksi.",
-    "hero_subtitle": "Lataa käsinkirjoitettuja muistiinpanoja, skannattuja PDF-lomakkeita tai valokuvia valkotauluista. Moottorimme muuntaa ne muokattaviksi Word-, Excel- ja PDF-tiedostoiksi sekunneissa.",
-    "check_1": "Ei vaadi luottokorttia",
-    "check_2": "Yli 10 000 kuvaa muunnettu asiakirjoiksi",
-    "rating_text": "4.9/5 yli 10 000 käyttäjältä",
-    "cta_start": "Aloita ilmaiseksi",
-    "cta_upload": "Lataa kuva",
-    "stat_time": "Käsittelyaika",
-    "stat_accuracy": "OCR-tarkkuus",
-    "meta_title": "Käsiala tekstiksi -muunnin | AI Kaunokirjoituksen OCR | NoteOCR",
-    "meta_desc": "Muunna käsinkirjoitetut kaunokirjoitusmuistiinpanot heti muokattavaksi digitaaliseksi tekstiksi. Maailman tarkin tekoälypohjainen käsialan OCR."
+    "meta_title": "NoteOCR: Muunna käsiala tekstiksi, Wordiksi ja Exceliksi",
+    "meta_desc": "Muunna käsinkirjoitetut muistiinpanot, taulukot, laskut ja tuntilistat kuvasta tai PDF:stä Wordiksi ja Exceliksi. Kokeile ilmaiseksi ilman rekisteröitymistä.",
+
+    "h1": "Muunna käsinkirjoitetut muistiinpanot muokattaviksi Word- ja Excel-tiedostoiksi",
+    "subtitle": "Lataa kuva tai skannaus käsinkirjoitetuista muistiinpanoista, taulukoista, laskuista tai tuntilistoista. NoteOCR tunnistaa käsialan ja luo rakenteen uudelleen muokattavana asiakirjana.",
+    "cta_try": "Kokeile ilmaista muunnosta",
+    "cta_pricing": "Katso hinnat",
+    "trust_line": "Kokeile muunnosta ilman rekisteröitymistä. Tarkista tulos ennen kuin valitset maksullisen paketin.",
+
+    "demo_title": "Kokeile omalla käsialallasi",
+    "demo_desc": "Lataa kuva ja katso, miten NoteOCR muuntaa sen. Voit esikatsella tulosta luomatta tiliä.",
+    "demo_drop": "Pudota kuva tähän tai lataa napsauttamalla",
+    "demo_formats": "JPG, PNG tai WebP, enintään 10 Mt",
+    "demo_busy": "Tunnistetaan käsialaasi …",
+    "demo_err_type": "Tätä tiedostotyyppiä ei tueta. Lataa JPG-, PNG- tai WebP-kuva.",
+    "demo_err_size": "Kuva ylittää 10 Mt:n rajan. Lataa pienempi kuva.",
+    "demo_err_generic": "Muunnos epäonnistui. Yritä uudelleen tai lataa tarkempi ja paremmin valaistu kuva.",
+    "demo_locked_title": "Muunnettu tulos on valmis",
+    "demo_locked_desc": "Word- tai Excel-tiedoston muokkaamiseen ja lataamiseen tarvitset maksullisen tilin.",
+    "demo_unlock": "Katso saatavilla olevat paketit",
+    "demo_again": "Muunna toinen kuva",
+
+    "samples_title": "Katso, miten käsinkirjoitetut asiakirjat muuntuvat",
+    "samples_desc": "Tutustu esimerkkeihin käsinkirjoitetuista asiakirjoista, jotka on muunnettu NoteOCR:llä. Tulokset voivat vaihdella käsialan ja kuvanlaadun mukaan.",
+    "before": "Alkuperäinen asiakirja",
+    "samples": [
+      {
+        "title": "Käsinkirjoitetut muistiinpanot Wordiksi",
+        "caption": "Muunna käsinkirjoitetut kappaleet, otsikot ja luettelot muokattavaksi Word-asiakirjaksi.",
+        "before": "/images/noteocr-word-before.png",
+        "before_alt": "Valokuva käsinkirjoitetuista kokousmuistiinpanoista",
+        "after": "/images/noteocr-word-after.png",
+        "after_alt": "Samat käsinkirjoitetut muistiinpanot muunnettuna muokattavaksi Word-asiakirjaksi",
+        "after_label": "Muunnettu Wordiksi välittömästi (ei kirjoittamista)"
+      },
+      {
+        "title": "Käsinkirjoitettu taulukko Exceliksi",
+        "caption": "Muuta käsinkirjoitetut rivit ja sarakkeet laskentataulukon soluiksi, joita voit muokata ja järjestellä.",
+        "before": "/images/noteocr-excel-before.png",
+        "before_alt": "Valokuva käsinkirjoitetusta lukuja sisältävästä taulukosta",
+        "after": "/images/noteocr-excel-after.png",
+        "after_alt": "Sama käsinkirjoitettu taulukko muunnettuna muokattavaksi Excel-laskentataulukoksi",
+        "after_label": "Muunnettu Exceliksi välittömästi (ei kirjoittamista)"
+      }
+    ],
+
+    "video_label": "Katso NoteOCR-muunnos",
+    "video_alt": "Esittely siitä, miten NoteOCR muuntaa käsinkirjoitetun muistiinpanon muokattavaksi asiakirjaksi",
+
+    "cases_title": "Valitse, mitä haluat muuntaa",
+    "cases_desc": "Tutustu käsialan muuntamiseen tarkoitettuihin työkaluihin ja oppaisiin eri asiakirjatyypeille.",
+
+    "use_cases": [
+      {
+        "href": "/handwriting-recognition",
+        "title": "Käsiala tekstiksi",
+        "desc": "Muunna käsinkirjoitetut muistiinpanot, kirjeet ja päiväkirjat muokattavaksi digitaaliseksi tekstiksi."
+      },
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Käsiala Wordiksi",
+        "desc": "Muuta käsinkirjoitetut sivut muokattaviksi Word-asiakirjoiksi, joissa on kappaleet, otsikot ja luettelot."
+      },
+      {
+        "href": "/handwriting-to-excel",
+        "title": "Käsiala Exceliksi",
+        "desc": "Muunna käsinkirjoitetut taulukot, kirjaukset ja lokit muokattaviksi Excel-laskentataulukoiksi."
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Käsinkirjoitettu lasku Exceliksi",
+        "desc": "Siirrä käsinkirjoitetun laskun tiedot, määrät ja summat laskentataulukkoon."
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Käsinkirjoitettu tuntilista Exceliksi",
+        "desc": "Muunna käsinkirjoitetut työtunnit ja läsnäolokirjaukset laskentataulukon tiedoiksi."
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Käsinkirjoitettu inventaario Exceliksi",
+        "desc": "Siirrä käsinkirjoitetut varastolaskennat ja inventaariotiedot muokattavaan laskentataulukkoon."
+      }
+    ],
+
+    "how_title": "Näin NoteOCR toimii",
+    "steps": [
+      {
+        "title": "Lataa asiakirjasi",
+        "desc": "Valitse kuva, skannaus tai PDF, jossa on käsinkirjoitettua sisältöä. Tuetut kuvat valmistellaan tunnistusta varten automaattisesti."
+      },
+      {
+        "title": "Tunnista ja luo uudelleen",
+        "desc": "NoteOCR lukee käsialan ja tunnistaa asiakirjan osat, kuten kappaleet, otsikot, luettelot ja taulukot."
+      },
+      {
+        "title": "Muokkaa ja vie",
+        "desc": "Tarkista ja korjaa muunnettu sisältö editorissa ja vie se sitten Wordiin, Exceliin tai PDF-muotoon."
+      }
+    ],
+
+    "scope_title": "Mihin NoteOCR pystyy ja mihin ei",
+    "scope_desc": "Kun tiedät, mikä vaikuttaa käsialan tunnistukseen, saat parempia muunnostuloksia.",
+    "audience_title": "Ketkä käyttävät NoteOCR:ää",
+    "audience_desc": "Ihmiset, jotka työskentelevät käsinkirjoitetun tekstin parissa päivittäin, säästävät NoteOCR:n avulla aikaa käsin kirjoittamiselta.",
+
+    "audiences": [
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Opiskelijat ja opettajat",
+        "desc": "Muuta käsinkirjoitetut luentomuistiinpanot, opetussuunnitelmat ja tehtävät muokattaviksi asiakirjoiksi.",
+        "cta": "Muunna muistiinpanot Wordiksi"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Pienyritykset",
+        "desc": "Siirrä käsinkirjoitetut laskut, kuitit ja myyntikirjaukset laskentataulukoihin.",
+        "cta": "Muunna laskut Exceliksi"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Esihenkilöt ja HR-tiimit",
+        "desc": "Digitoi käsinkirjoitetut tuntilistat ja läsnäololistat palkanlaskentaa ja raportointia varten.",
+        "cta": "Muunna tuntilistat Exceliksi"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Varastot ja kaupat",
+        "desc": "Muuta käsinkirjoitetut varastolaskennat ja inventaariolistat järjestelmällisiksi laskentataulukoiksi.",
+        "cta": "Muunna inventaario Exceliksi"
+      }
+    ],
+    "drop_overlay": "Pudota kuva muunnettavaksi",
+    "languages_title": "Tuetut kielet",
+    "languages_list": [
+      "English",
+      "Español",
+      "Français",
+      "Deutsch",
+      "Italiano",
+      "Português (Brasil)",
+      "Nederlands",
+      "Dansk",
+      "Norsk",
+      "Svenska",
+      "Suomi",
+      "Türkçe",
+      "हिन्दी",
+      "日本語",
+      "中文",
+      "ja monia muita"
+    ],
+    "proof_desc": "Palautetta ihmisiltä, jotka käyttävät NoteOCR:ää käsialan muuntamiseen.",
+    "case_cta": "Lue lisää",
+    "compare_noteocr": "NoteOCR",
+    "aria_features": "NoteOCR:n ominaisuudet",
+    "aria_privacy_pricing": "Tietoa yksityisyydestä ja hinnoittelusta",
+
+    "how_detail": "NoteOCR on tehty käsialalle, ei vain painetulle tekstille. Kun olet ladannut kuvan, skannauksen tai PDF-tiedoston, se lukee tekstin ja selvittää, onko kukin osa kappale, otsikko, luettelo vai taulukko. Käsinkirjoitetuista taulukoista tulee Excelissä rivejä ja sarakkeita, ja muistiinpanoista muotoiltua tekstiä Wordissa. Voit korjata virheet editorissa ennen lataamista. Parhaat tulokset saat tarkalla ja hyvin valaistulla kuvalla. Tarkista nimet, päivämäärät ja luvut vielä erikseen.",
+    "pricing_from": "Paketit alkaen 12 $ / 100 sivua.",
+    "retention_note": "",
+    "store_rating": "1 000 sivua muunnetaan päivittäin",
+    "scope_can_title": "Mitä NoteOCR tukee",
+    "scope_can": [
+      "Tekstaus ja kaunokirjoitus",
+      "Käsinkirjoitetut taulukot, laskut, tuntilistat ja luettelot",
+      "Useita kieliä, mukaan lukien latinalaista kirjaimistoa käyttävät kielet ja muita",
+      "Vanhat käsinkirjoitetut kirjeet",
+      "Valokuvat, skannatut asiakirjat ja tuetut PDF-tiedostot",
+      "Muunnos muokattaviksi Word-, Excel- ja PDF-tiedostoiksi"
+    ],
+
+    "scope_cannot_title": "Nykyiset rajoitukset",
+    "scope_cannot": [
+      "Hyvin haalistuneet, epätarkat tai voimakkaasti varjostuneet kuvat voivat tuottaa huonoja tuloksia",
+      "Muistiinpanot, joissa on epäselviä kaavioita",
+      "Yli 10 Mt:n kuvat ilmaisessa demossa"
+    ],
+
+    "accuracy_note": "Tunnistuksen laatu riippuu käsialan selkeydestä, kuvan resoluutiosta, valaistuksesta ja asiakirjan kunnosta. Selkeä käsiala tuottaa yleensä parempia tuloksia. Tarkista tärkeät nimet, päivämäärät ja luvut aina muunnoksen jälkeen.",
+
+    "compare_title": "Miten NoteOCR eroaa perinteisestä OCR:stä",
+    "compare_desc": "Monet yleiskäyttöiset OCR-työkalut keskittyvät tekstin poimimiseen. NoteOCR on suunniteltu tunnistamaan käsiala ja luomaan asiakirjan rakenne uudelleen muokattavina tiedostoina.",
+
+    "compare_feature": "Ominaisuus",
+    "compare_traditional": "Yleiskäyttöiset OCR-työkalut",
+
+    "compare_rows": [
+      {
+        "feature": "Käsiala",
+        "traditional": "Käsialan tuki vaihtelee työkalusta toiseen",
+        "noteocr": "Suunniteltu käsinkirjoitetulle tekstille, myös kaunokirjoitukselle ja sotkuiselle käsialalle"
+      },
+      {
+        "feature": "Taulukot",
+        "traditional": "Taulukon rakenne voi vaatia manuaalista korjausta",
+        "noteocr": "Tunnistaa taulukoiden asettelun ja järjestää tiedot Excel-soluihin"
+      },
+      {
+        "feature": "Tulos",
+        "traditional": "Tuottaa usein poimittua tekstiä, joka on vielä muotoiltava",
+        "noteocr": "Luo muokattavia Word-, Excel- ja PDF-asiakirjoja"
+      },
+      {
+        "feature": "Muokkaus",
+        "traditional": "Sisältö voi joutua kopioimaan toiseen sovellukseen",
+        "noteocr": "Sisältää editorin, jossa on Word- ja Excel-tyylinen työkalupalkki"
+      }
+    ],
+
+    "privacy_title": "Asiakirjasi pysyvät sinun",
+    "privacy_desc": "Asiakirjasi voivat sisältää henkilökohtaisia tai liiketoimintaan liittyviä tietoja. Emme käytä asiakirjojasi mallien kouluttamiseen. Tiedostot salataan siirron aikana ja levossa, ja voit poistaa ne tililtäsi milloin tahansa. Lisätietoja tietojen käsittelystä ja säilytyksestä on tietosuojakäytännössämme.",
+    "privacy_link": "Lue tietosuojakäytäntömme",
+
+    "pricing_title": "Esikatsele ilmaiseksi, muokkaa ja vie sen jälkeen",
+    "pricing_desc": "Kokeile muunnosta ja tarkista tulos ennen maksamista. Maksullinen paketti avaa asiakirjojen muokkauksen sekä Word-, Excel- ja PDF-lataukset.",
+    "pricing_cta": "Vertaile paketteja",
+
+    "proof_title": "Käyttäjien kokemuksia",
+    "testimonials": [
+      {
+        "name": "ORJI CHARLES",
+        "role": "Ohjaaja, Sapele Vocational Centre",
+        "quote": "Käsinkirjoitettujen sivujen muuntaminen muokattaviksi Word-asiakirjoiksi säästää minulta tunteja joka viikko.",
+        "photo": "/"
+      },
+      {
+        "name": "VICTOR EREWA",
+        "role": "Opiskelija, University of Benin (UNIBEN)",
+        "quote": "NoteOCR säästää arvokasta aikaa muuntamalla käsinkirjoitetut muistiinpanoni muokattaviksi asiakirjoiksi, mikä helpottaa opintojani huomattavasti.",
+        "photo": "/"
+      },
+      {
+        "name": "REMY GBENEDION",
+        "role": "Excelin käyttäjä",
+        "quote": "Minun ei enää tarvitse kirjoittaa käsinkirjoitettuja taulukoita Exceliin käsin. NoteOCR muuntaa piirtämäni taulukot tarkasti oikein muotoilluiksi laskentataulukoiksi ja säästää tuntikausia tietojen syöttämisestä.",
+        "photo": "/"
+      }
+    ],
+
+    "faq_title": "Usein kysytyt kysymykset",
+    "faq_items": [
+      {
+        "q": "Mikä NoteOCR on?",
+        "a": "NoteOCR on käsialan tunnistukseen ja asiakirjojen muuntamiseen tarkoitettu palvelu. Se muuntaa käsinkirjoitetut muistiinpanot, taulukot, laskut ja tuntilistat kuvista, skannauksista ja tuetuista PDF-tiedostoista muokattaviksi Word-, Excel- ja PDF-tiedostoiksi."
+      },
+      {
+        "q": "Kuinka tarkka NoteOCR:n käsialantunnistus on?",
+        "a": "Tunnistuksen laatu riippuu käsialan selkeydestä, kuvan resoluutiosta, valaistuksesta ja asiakirjan kunnosta. Selkeä käsiala tuottaa yleensä parempia tuloksia, kun taas sotkuinen kirjoitus ja heikkolaatuiset kuvat voivat heikentää tunnistusta. Tarkista tärkeät nimet, päivämäärät ja luvut aina muunnoksen jälkeen."
+      },
+      {
+        "q": "Tunnistaako NoteOCR kaunokirjoitusta?",
+        "a": "Kyllä. NoteOCR tukee sekä tekstausta että kaunokirjoitusta, myös yhteen kirjoitettua ja kallistunutta käsialaa. Tulos riippuu siitä, kuinka selkeästi teksti on kirjoitettu ja millainen ladattu kuva on."
+      },
+      {
+        "q": "Voinko kokeilla NoteOCR:ää ilman tiliä?",
+        "a": "Kyllä. Voit ladata kuvan ja esikatsella muunnettua tulosta rekisteröitymättä. Muunnetun Word- tai Excel-tiedoston muokkaaminen ja lataaminen vaatii maksullisen tilin."
+      },
+      {
+        "q": "Voiko NoteOCR muuntaa käsinkirjoitetut taulukot Exceliksi?",
+        "a": "Kyllä. NoteOCR tunnistaa käsinkirjoitetut taulukot ja järjestää niiden rivit ja sarakkeet muokattavaksi Excel-laskentataulukoksi. Voit käyttää sitä taulukoihin, laskuihin, tuntilistoihin ja inventaariotietoihin."
+      },
+      {
+        "q": "Mitä kieliä NoteOCR tukee?",
+        "a": "NoteOCR tukee useita kieliä. Ajantasaisen luettelon tuetuista kielistä löydät käsialantunnistussivulta."
+      },
+      {
+        "q": "Mitä tiedostomuotoja voin ladata?",
+        "a": "NoteOCR tukee kuvatiedostoja, kuten JPG, PNG ja WebP, sekä tuettuja PDF-asiakirjoja. Ilmainen demo hyväksyy enintään 10 Mt:n kuvat."
+      },
+      {
+        "q": "Ovatko lataamani asiakirjat yksityisiä?",
+        "a": "Emme käytä asiakirjojasi mallien kouluttamiseen, ja tiedostot salataan siirron aikana ja levossa. Tietosuojakäytännöstämme saat tietoa asiakirjojen käsittelystä ja tiedostojen säilytyksestä."
+      },
+      {
+        "q": "Onko NoteOCR:stä mobiilisovellus?",
+        "a": "Kyllä. NoteOCR on saatavilla iPhonelle ja Androidille. Voit valokuvata käsinkirjoitettuja asiakirjoja ja muuntaa ne mobiilisovelluksella. Sovelluksessa on sama ilmainen esikatselu kuin verkkosivustolla, mutta muunnettujen tiedostojen muokkaaminen ja lataaminen vaatii maksullisen tilin."
+      }
+    ],
+
+    "final_title": "Katso, miten NoteOCR lukee käsialasi",
+    "final_desc": "Lataa käsinkirjoitettu sivu ja esikatsele muunnettua tulosta itse.",
+    "final_signup": "Luo tili",
+
+    "app_line": "Saatavilla myös",
+    "app_ios": "iPhone",
+    "app_android": "Android",
+
+    "app_title": "Muunna käsiala puhelimellasi",
+    "app_desc": "Ota NoteOCR mukaasi. Sovellus on ladattavissa iPhonelle ja Androidille, ja sen avulla voit valokuvata käsinkirjoitettuja asiakirjoja, esikatsella niiden muunnosta ja muokata niitä missä tahansa.",
+
+    "app_points": [
+      "Kuvaa käsinkirjoitetut muistiinpanot, taulukot ja lomakkeet puhelimen kameralla",
+      "Esikatsele muunnettuja tuloksia samalla ilmaisella vaihtoehdolla kuin verkossa",
+      "Muokkaa ja lataa Word- ja Excel-asiakirjoja maksullisella tilillä"
+    ],
+
+    "app_ios_cta": "Lataa App Storesta",
+    "app_android_cta": "Hanki Google Playsta",
+    "app_more": "Lue lisää mobiilisovelluksesta",
+
+    "fact_1": "Tunnistaa tekstauksen ja kaunokirjoituksen",
+    "fact_2": "Vienti Wordiin, Exceliin ja PDF-muotoon",
+    "fact_3": "Saatavilla verkossa, iPhonella ja Androidilla",
+    "fact_4": "Ilmainen esikatselu ilman rekisteröitymistä",
+
+    "watch_title": "Katso, miten käsinkirjoitetusta sivusta tulee asiakirja",
+    "watch_desc": "Katso, miten NoteOCR tunnistaa käsinkirjoitetun sisällön ja muuntaa sen muokattavaksi digitaaliseksi asiakirjaksi."
   },
   "Features": {
     "section_label": "Ekosysteemi",

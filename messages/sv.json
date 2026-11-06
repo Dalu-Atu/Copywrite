@@ -699,19 +699,314 @@
   },
 
   "HomePage": {
-    "trust_pill": "V2.0 Handskrifts-OCR: 99,2 % Noggrannhet",
-    "hero_title_1": "Konvertera handskrift till text och",
-    "hero_title_2": "redigerbara dokument.",
-    "hero_subtitle": "Ladda upp handskrivna anteckningar, inskannade PDF-formulär eller foton av whiteboards. Vår motor konverterar dem till redigerbara Word-, Excel- och PDF-filer på några sekunder.",
-    "check_1": "Inget kreditkort krävs",
-    "check_2": "10 000+ bilder konverterade till dokument",
-    "rating_text": "4,9/5 från 10 000+ användare",
-    "cta_start": "Starta gratis",
-    "cta_upload": "Ladda upp bild",
-    "stat_time": "Behandlingstid",
-    "stat_accuracy": "OCR-noggrannhet",
-    "meta_title": "Handskrift till text-konverterare | AI Skrivstils-OCR | NoteOCR",
-    "meta_desc": "Konvertera handskrivna anteckningar i skrivstil till redigerbar digital text direkt. Världens mest exakta AI för OCR av handskrift."
+    "meta_title": "NoteOCR: Omvandla handskrift till text, Word och Excel",
+    "meta_desc": "Omvandla handskrivna anteckningar, tabeller, fakturor och tidrapporter från foto, skanning eller PDF till redigerbara Word- och Excel-filer. Testa gratis utan konto.",
+
+    "h1": "Omvandla handskrivna anteckningar till redigerbara Word- och Excel-filer",
+    "subtitle": "Ladda upp ett foto eller en skanning av handskrivna anteckningar, tabeller, fakturor eller tidrapporter. NoteOCR känner igen handskriften och återskapar strukturen som ett redigerbart dokument.",
+    "cta_try": "Testa en gratis omvandling",
+    "cta_pricing": "Se priser",
+    "trust_line": "Testa en omvandling utan att registrera dig. Granska resultatet innan du väljer en betald plan.",
+
+    "demo_title": "Testa med din egen handstil",
+    "demo_desc": "Ladda upp en bild och se hur NoteOCR omvandlar den. Du kan förhandsgranska resultatet utan att skapa ett konto.",
+    "demo_drop": "Släpp en bild här eller klicka för att ladda upp",
+    "demo_formats": "JPG, PNG eller WebP, upp till 10 MB",
+    "demo_busy": "Din handskrift tolkas …",
+    "demo_err_type": "Den här filtypen stöds inte. Ladda upp en JPG-, PNG- eller WebP-bild.",
+    "demo_err_size": "Bilden överskrider gränsen på 10 MB. Ladda upp en mindre bild.",
+    "demo_err_generic": "Omvandlingen misslyckades. Försök igen eller ladda upp en skarpare och bättre belyst bild.",
+    "demo_locked_title": "Ditt omvandlade resultat är klart",
+    "demo_locked_desc": "För att redigera och ladda ner din Word- eller Excel-fil behöver du ett betalt konto.",
+    "demo_unlock": "Se tillgängliga planer",
+    "demo_again": "Omvandla en ny bild",
+
+    "samples_title": "Se hur handskrivna dokument omvandlas",
+    "samples_desc": "Utforska exempel på handskrivna dokument som omvandlats med NoteOCR. Resultaten kan variera beroende på handstil och bildkvalitet.",
+    "before": "Originaldokument",
+    "samples": [
+      {
+        "title": "Handskrivna anteckningar till Word",
+        "caption": "Omvandla handskrivna stycken, rubriker och listor till ett redigerbart Word-dokument.",
+        "before": "/images/noteocr-word-before.png",
+        "before_alt": "Foto av handskrivna mötesanteckningar",
+        "after": "/images/noteocr-word-after.png",
+        "after_alt": "Samma handskrivna anteckningar omvandlade till ett redigerbart Word-dokument",
+        "after_label": "Omvandlat till Word direkt (utan att skriva)"
+      },
+      {
+        "title": "Handskriven tabell till Excel",
+        "caption": "Förvandla handskrivna rader och kolumner till kalkylbladsceller som du kan redigera och organisera.",
+        "before": "/images/noteocr-excel-before.png",
+        "before_alt": "Foto av en handskriven tabell med siffror",
+        "after": "/images/noteocr-excel-after.png",
+        "after_alt": "Samma handskrivna tabell omvandlad till ett redigerbart Excel-kalkylblad",
+        "after_label": "Omvandlat till Excel direkt (utan att skriva)"
+      }
+    ],
+
+    "video_label": "Se en omvandling med NoteOCR",
+    "video_alt": "Demonstration av hur NoteOCR omvandlar en handskriven anteckning till ett redigerbart dokument",
+
+    "cases_title": "Välj vad du vill omvandla",
+    "cases_desc": "Utforska specifika verktyg och guider för att omvandla handskrift för olika typer av dokument.",
+
+    "use_cases": [
+      {
+        "href": "/handwriting-recognition",
+        "title": "Handskrift till text",
+        "desc": "Omvandla handskrivna anteckningar, brev och dagböcker till redigerbar digital text."
+      },
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Handskrift till Word",
+        "desc": "Förvandla handskrivna sidor till redigerbara Word-dokument med stycken, rubriker och listor."
+      },
+      {
+        "href": "/handwriting-to-excel",
+        "title": "Handskrift till Excel",
+        "desc": "Omvandla handskrivna tabeller, register och loggar till redigerbara Excel-kalkylblad."
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Handskriven faktura till Excel",
+        "desc": "Hämta uppgifter, antal och summor från handskrivna fakturor till ett kalkylblad."
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Handskriven tidrapport till Excel",
+        "desc": "Omvandla handskrivna arbetstimmar och närvaroregister till kalkylbladsdata."
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Handskriven lagerlista till Excel",
+        "desc": "Flytta handskrivna lagerräkningar och inventeringslistor till ett redigerbart kalkylblad."
+      }
+    ],
+
+    "how_title": "Så fungerar NoteOCR",
+    "steps": [
+      {
+        "title": "Ladda upp ditt dokument",
+        "desc": "Välj ett foto, en skanning eller en PDF med handskrivet innehåll. Bilder som stöds förbereds automatiskt för igenkänning."
+      },
+      {
+        "title": "Känn igen och återskapa",
+        "desc": "NoteOCR läser handskriften och identifierar dokumentelement som stycken, rubriker, listor och tabeller."
+      },
+      {
+        "title": "Redigera och exportera",
+        "desc": "Granska och rätta det omvandlade innehållet i redigeraren och exportera det sedan till Word, Excel eller PDF."
+      }
+    ],
+
+    "scope_title": "Vad NoteOCR kan och inte kan hantera",
+    "scope_desc": "Genom att förstå vad som påverkar handskriftsigenkänningen får du bättre omvandlingsresultat.",
+    "audience_title": "Vem använder NoteOCR",
+    "audience_desc": "Människor som arbetar med handskrift varje dag använder NoteOCR för att spara tid på manuell inmatning.",
+
+    "audiences": [
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Studenter och lärare",
+        "desc": "Förvandla handskrivna föreläsningsanteckningar, lektionsplaner och uppgifter till redigerbara dokument.",
+        "cta": "Omvandla anteckningar till Word"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Småföretag",
+        "desc": "Flytta handskrivna fakturor, kvitton och försäljningsregister till kalkylblad.",
+        "cta": "Omvandla fakturor till Excel"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Chefer och HR-team",
+        "desc": "Digitalisera handskrivna tidrapporter och närvarolistor för löneadministration och rapportering.",
+        "cta": "Omvandla tidrapporter till Excel"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Lager och butiker",
+        "desc": "Förvandla handskrivna lagerräkningar och inventeringslistor till överskådliga kalkylblad.",
+        "cta": "Omvandla lagerlistor till Excel"
+      }
+    ],
+    "drop_overlay": "Släpp bilden för att omvandla den",
+    "languages_title": "Språk som stöds",
+    "languages_list": [
+      "English",
+      "Español",
+      "Français",
+      "Deutsch",
+      "Italiano",
+      "Português (Brasil)",
+      "Nederlands",
+      "Dansk",
+      "Norsk",
+      "Svenska",
+      "Suomi",
+      "Türkçe",
+      "हिन्दी",
+      "日本語",
+      "中文",
+      "och många fler"
+    ],
+    "proof_desc": "Omdömen från människor som använder NoteOCR för att omvandla handskrift.",
+    "case_cta": "Läs mer",
+    "compare_noteocr": "NoteOCR",
+    "aria_features": "Funktioner i NoteOCR",
+    "aria_privacy_pricing": "Information om integritet och priser",
+
+    "how_detail": "NoteOCR är byggt för handskrift, inte bara för tryckt text. När du har laddat upp ett foto, en skanning eller en PDF läser det texten och avgör om varje del är ett stycke, en rubrik, en lista eller en tabell. Handskrivna tabeller blir rader och kolumner i Excel, och anteckningar blir formaterad text i Word. Innan du laddar ner kan du rätta eventuella fel i redigeraren. För bästa resultat använder du en skarp och väl belyst bild och dubbelkollar namn, datum och siffror.",
+    "pricing_from": "Planer från 12 $ för 100 sidor.",
+    "retention_note": "",
+    "store_rating": "1 000 sidor omvandlas varje dag",
+    "scope_can_title": "Vad NoteOCR stöder",
+    "scope_can": [
+      "Tryckbokstäver och skrivstil",
+      "Handskrivna tabeller, fakturor, tidrapporter och listor",
+      "Flera språk, bland annat språk med latinskt alfabet och fler därtill",
+      "Gamla handskrivna brev",
+      "Foton, skannade dokument och PDF-filer som stöds",
+      "Omvandling till redigerbara Word-, Excel- och PDF-filer"
+    ],
+
+    "scope_cannot_title": "Nuvarande begränsningar",
+    "scope_cannot": [
+      "Mycket bleka, suddiga eller kraftigt skuggade bilder kan ge dåliga resultat",
+      "Anteckningar med otydliga diagram",
+      "Bilder över 10 MB i den kostnadsfria demon"
+    ],
+
+    "accuracy_note": "Igenkänningens kvalitet beror på hur tydlig handstilen är, bildens upplösning, belysningen och dokumentets skick. Tydlig handstil ger i allmänhet bättre resultat. Kontrollera alltid viktiga namn, datum och siffror efter omvandlingen.",
+
+    "compare_title": "Så skiljer sig NoteOCR från traditionell OCR",
+    "compare_desc": "Många allmänna OCR-verktyg fokuserar på att extrahera text. NoteOCR är utformat för att känna igen handskrift och återskapa dokumentstrukturer som redigerbara filer.",
+
+    "compare_feature": "Funktion",
+    "compare_traditional": "Allmänna OCR-verktyg",
+
+    "compare_rows": [
+      {
+        "feature": "Handskrift",
+        "traditional": "Stödet för handskrift varierar mellan verktyg",
+        "noteocr": "Utformat för handskriven text, även skrivstil och slarvig handstil"
+      },
+      {
+        "feature": "Tabeller",
+        "traditional": "Tabellstrukturen kan behöva rättas manuellt",
+        "noteocr": "Känner igen tabellayouter och ordnar data i Excel-celler"
+      },
+      {
+        "feature": "Resultat",
+        "traditional": "Ger ofta extraherad text som behöver formateras vidare",
+        "noteocr": "Skapar redigerbara Word-, Excel- och PDF-dokument"
+      },
+      {
+        "feature": "Redigering",
+        "traditional": "Kan kräva att du kopierar innehållet till ett annat program",
+        "noteocr": "Har en redigerare med verktygsfält i Word-/Excel-stil"
+      }
+    ],
+
+    "privacy_title": "Dina dokument förblir dina",
+    "privacy_desc": "Dina dokument kan innehålla personlig eller affärsmässig information. Vi använder inte dina dokument för att träna modeller. Filer krypteras under överföring och i vila, och du kan när som helst radera dem från ditt konto. Läs vår integritetspolicy för mer information om datahantering och lagring.",
+    "privacy_link": "Läs vår integritetspolicy",
+
+    "pricing_title": "Förhandsgranska gratis, redigera och exportera sedan",
+    "pricing_desc": "Testa en omvandling och granska resultatet innan du betalar. En betald plan ger tillgång till redigering av dokument samt nedladdning som Word, Excel och PDF.",
+    "pricing_cta": "Jämför planer",
+
+    "proof_title": "Det här säger användarna",
+    "testimonials": [
+      {
+        "name": "ORJI CHARLES",
+        "role": "Handledare, Sapele Vocational Centre",
+        "quote": "Att omvandla handskrivna sidor till redigerbara Word-dokument sparar mig timmar varje vecka.",
+        "photo": "/"
+      },
+      {
+        "name": "VICTOR EREWA",
+        "role": "Student, University of Benin (UNIBEN)",
+        "quote": "NoteOCR sparar mig värdefull tid genom att förvandla mina handskrivna anteckningar till redigerbara dokument, vilket gör mitt studiearbete mycket enklare.",
+        "photo": "/"
+      },
+      {
+        "name": "REMY GBENEDION",
+        "role": "Excel-användare",
+        "quote": "Jag behöver inte längre skriva in handskrivna tabeller i Excel för hand. NoteOCR omvandlar mina handritade tabeller korrekt till välformaterade kalkylblad och sparar mig timmar av datainmatning.",
+        "photo": "/"
+      }
+    ],
+
+    "faq_title": "Vanliga frågor",
+    "faq_items": [
+      {
+        "q": "Vad är NoteOCR?",
+        "a": "NoteOCR är en plattform för handskriftsigenkänning och dokumentomvandling. Den omvandlar handskrivna anteckningar, tabeller, fakturor och tidrapporter från foton, skanningar och PDF-filer som stöds till redigerbara Word-, Excel- och PDF-filer."
+      },
+      {
+        "q": "Hur exakt är NoteOCR:s handskriftsigenkänning?",
+        "a": "Igenkänningens kvalitet beror på hur tydlig handstilen är, bildens upplösning, belysningen och dokumentets skick. Tydlig handstil ger i allmänhet bättre resultat, medan slarvig handstil och bilder av dålig kvalitet kan påverka igenkänningen. Kontrollera alltid viktiga namn, datum och siffror efter omvandlingen."
+      },
+      {
+        "q": "Kan NoteOCR känna igen skrivstil?",
+        "a": "Ja. NoteOCR stöder både tryckbokstäver och skrivstil, även sammanhängande och lutande handstil. Resultatet beror på hur tydligt det är skrivet och på kvaliteten på bilden du laddar upp."
+      },
+      {
+        "q": "Kan jag testa NoteOCR utan att skapa ett konto?",
+        "a": "Ja. Du kan ladda upp en bild och förhandsgranska det omvandlade resultatet utan att registrera dig. För att redigera och ladda ner den omvandlade Word- eller Excel-filen krävs ett betalt konto."
+      },
+      {
+        "q": "Kan NoteOCR omvandla handskrivna tabeller till Excel?",
+        "a": "Ja. NoteOCR kan känna igen handskrivna tabeller och ordna deras rader och kolumner i ett redigerbart Excel-kalkylblad. Du kan använda det för tabeller, fakturor, tidrapporter och lagerlistor."
+      },
+      {
+        "q": "Vilka språk stöder NoteOCR?",
+        "a": "NoteOCR stöder flera språk. Se sidan om handskriftsigenkänning för den aktuella listan över språk som stöds."
+      },
+      {
+        "q": "Vilka filformat kan jag ladda upp?",
+        "a": "NoteOCR stöder bilduppladdningar som JPG, PNG och WebP, samt PDF-dokument som stöds. Den kostnadsfria demon accepterar bilder på upp till 10 MB."
+      },
+      {
+        "q": "Är mina uppladdade dokument privata?",
+        "a": "Vi använder inte dina dokument för att träna modeller, och filer krypteras under överföring och i vila. I vår integritetspolicy kan du läsa om hur dokument hanteras och hur länge filer lagras."
+      },
+      {
+        "q": "Har NoteOCR en mobilapp?",
+        "a": "Ja. NoteOCR finns för iPhone och Android. Du kan fotografera handskrivna dokument och omvandla dem i mobilappen. Appen erbjuder samma kostnadsfria förhandsgranskning som webbplatsen, medan redigering och nedladdning av omvandlade filer kräver ett betalt konto."
+      }
+    ],
+
+    "final_title": "Se hur NoteOCR läser din handskrift",
+    "final_desc": "Ladda upp en handskriven sida och förhandsgranska det omvandlade resultatet själv.",
+    "final_signup": "Skapa ett konto",
+
+    "app_line": "Finns även för",
+    "app_ios": "iPhone",
+    "app_android": "Android",
+
+    "app_title": "Omvandla handskrift med mobilen",
+    "app_desc": "Ta med dig NoteOCR. Appen kan laddas ner till iPhone och Android, så att du kan fotografera handskrivna dokument, förhandsgranska omvandlingen och redigera dem varhelst du är.",
+
+    "app_points": [
+      "Fotografera handskrivna anteckningar, tabeller och formulär med mobilkameran",
+      "Förhandsgranska omvandlade resultat med samma kostnadsfria alternativ som på webben",
+      "Redigera och ladda ner Word- och Excel-dokument med ett betalt konto"
+    ],
+
+    "app_ios_cta": "Ladda ner från App Store",
+    "app_android_cta": "Hämta den på Google Play",
+    "app_more": "Läs mer om mobilappen",
+
+    "fact_1": "Känner igen tryckbokstäver och skrivstil",
+    "fact_2": "Exporterar till Word, Excel och PDF",
+    "fact_3": "Finns på webben, iPhone och Android",
+    "fact_4": "Gratis förhandsgranskning utan registrering",
+
+    "watch_title": "Se hur en handskriven sida blir ett dokument",
+    "watch_desc": "Se hur NoteOCR känner igen handskrivet innehåll och förvandlar det till ett redigerbart digitalt dokument."
   },
   "Features": {
     "section_label": "Ekosystemet",

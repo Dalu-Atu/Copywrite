@@ -699,19 +699,314 @@
   },
 
   "HomePage": {
-    "trust_pill": "V2.0 手書きOCR: 99.2% の認識精度",
-    "hero_title_1": "手書き文字をテキストや",
-    "hero_title_2": "編集可能な文書に変換。",
-    "hero_subtitle": "手書きのノート、スキャンしたPDF、ホワイトボードの写真をアップロードするだけ。数秒でWord、Excel、PDFに変換します。",
-    "check_1": "クレジットカード不要",
-    "check_2": "毎月50回まで無料変換",
-    "rating_text": "1万人以上のユーザーから4.9/5の高評価",
-    "cta_start": "無料で始める",
-    "cta_upload": "画像をアップロード",
-    "stat_time": "処理時間",
-    "stat_accuracy": "OCR精度",
-    "meta_title": "手書き文字起こし・テキスト変換 | AI手書きOCR | NoteOCR",
-    "meta_desc": "手書きのノートや書類を瞬時にデジタルテキストへ変換。世界最高水準のAI手書き文字認識（OCR）ツール。"
+    "meta_title": "NoteOCR:手書きをテキスト・Word・Excelに変換",
+    "meta_desc": "手書きのメモ・表・請求書・タイムシートを、写真・スキャン・PDFから編集できるWord・Excelファイルに変換。登録不要で無料でお試しいただけます。",
+
+    "h1": "手書きのメモを、編集できるWord・Excelファイルに変換",
+    "subtitle": "手書きのメモ、表、請求書、タイムシートの写真やスキャンをアップロードしてください。NoteOCRが手書き文字を認識し、元のレイアウトを編集可能なドキュメントとして再現します。",
+    "cta_try": "無料で変換を試す",
+    "cta_pricing": "料金を見る",
+    "trust_line": "登録なしで変換をお試しいただけます。有料プランを選ぶ前に、結果をご確認ください。",
+
+    "demo_title": "あなたの手書き文字で試してみましょう",
+    "demo_desc": "画像をアップロードして、NoteOCRがどのように変換するかをご覧ください。アカウントを作成しなくても、結果をプレビューできます。",
+    "demo_drop": "ここに画像をドロップするか、クリックしてアップロード",
+    "demo_formats": "JPG、PNG、WebP(10MBまで)",
+    "demo_busy": "手書き文字を認識しています…",
+    "demo_err_type": "このファイル形式には対応していません。JPG、PNG、WebPのいずれかの画像をアップロードしてください。",
+    "demo_err_size": "画像が10MBの上限を超えています。サイズの小さい画像をアップロードしてください。",
+    "demo_err_generic": "変換に失敗しました。もう一度お試しいただくか、より鮮明で明るい画像をアップロードしてください。",
+    "demo_locked_title": "変換結果の準備ができました",
+    "demo_locked_desc": "WordまたはExcelファイルの編集とダウンロードには、有料アカウントが必要です。",
+    "demo_unlock": "利用可能なプランを見る",
+    "demo_again": "別の画像を変換する",
+
+    "samples_title": "手書きの書類がこう変わります",
+    "samples_desc": "NoteOCRで変換した手書き書類の例をご覧ください。結果は、筆跡や画像の品質によって異なる場合があります。",
+    "before": "元の書類",
+    "samples": [
+      {
+        "title": "手書きメモをWordに",
+        "caption": "手書きの段落、見出し、リストを、編集できるWordドキュメントに変換します。",
+        "before": "/images/noteocr-word-before.png",
+        "before_alt": "手書きの会議メモの写真",
+        "after": "/images/noteocr-word-after.png",
+        "after_alt": "同じ手書きメモを編集可能なWordドキュメントに変換したもの",
+        "after_label": "一瞬でWordに変換(入力不要)"
+      },
+      {
+        "title": "手書きの表をExcelに",
+        "caption": "手書きの行と列を、編集・整理できるスプレッドシートのセルに変換します。",
+        "before": "/images/noteocr-excel-before.png",
+        "before_alt": "数字が書かれた手書きの表の写真",
+        "after": "/images/noteocr-excel-after.png",
+        "after_alt": "同じ手書きの表を編集可能なExcelスプレッドシートに変換したもの",
+        "after_label": "一瞬でExcelに変換(入力不要)"
+      }
+    ],
+
+    "video_label": "NoteOCRの変換を動画で見る",
+    "video_alt": "NoteOCRが手書きのメモを編集可能なドキュメントに変換するデモ",
+
+    "cases_title": "変換したいものを選ぶ",
+    "cases_desc": "書類の種類に合わせた、手書き変換ツールとガイドをご紹介します。",
+
+    "use_cases": [
+      {
+        "href": "/handwriting-recognition",
+        "title": "手書きをテキストに",
+        "desc": "手書きのメモ、手紙、日記を、編集できるデジタルテキストに変換します。"
+      },
+      {
+        "href": "/handwriting-to-docx",
+        "title": "手書きをWordに",
+        "desc": "手書きのページを、段落・見出し・リストを備えた編集可能なWordドキュメントに変換します。"
+      },
+      {
+        "href": "/handwriting-to-excel",
+        "title": "手書きをExcelに",
+        "desc": "手書きの表、記録、ログを、編集できるExcelスプレッドシートに変換します。"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "手書きの請求書をExcelに",
+        "desc": "手書きの請求書の明細、数量、合計金額をスプレッドシートに取り込みます。"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "手書きのタイムシートをExcelに",
+        "desc": "手書きの勤務時間や出勤記録を、スプレッドシートのデータに変換します。"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "手書きの在庫表をExcelに",
+        "desc": "手書きの在庫数や棚卸の記録を、編集できるスプレッドシートに移します。"
+      }
+    ],
+
+    "how_title": "NoteOCRの使い方",
+    "steps": [
+      {
+        "title": "書類をアップロード",
+        "desc": "手書きの内容を含む写真、スキャン、PDFを選択します。対応している画像は、認識用に自動で補正されます。"
+      },
+      {
+        "title": "認識してレイアウトを再現",
+        "desc": "NoteOCRが手書き文字を読み取り、段落、見出し、リスト、表などの要素を識別します。"
+      },
+      {
+        "title": "編集してエクスポート",
+        "desc": "変換された内容をエディターで確認・修正し、Word、Excel、PDFにエクスポートします。"
+      }
+    ],
+
+    "scope_title": "NoteOCRにできることと、できないこと",
+    "scope_desc": "手書き文字の認識精度に影響する要素を知っておくと、より良い変換結果が得られます。",
+    "audience_title": "NoteOCRを使っている方",
+    "audience_desc": "日常的に手書きの書類を扱う方々が、手入力の手間を省くためにNoteOCRを活用しています。",
+
+    "audiences": [
+      {
+        "href": "/handwriting-to-docx",
+        "title": "学生・教師",
+        "desc": "手書きの講義ノート、授業計画、課題を、編集できるドキュメントに変換します。",
+        "cta": "ノートをWordに変換"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "小規模事業者",
+        "desc": "手書きの請求書、領収書、売上記録をスプレッドシートに取り込みます。",
+        "cta": "請求書をExcelに変換"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "管理職・人事チーム",
+        "desc": "手書きのタイムシートや出勤表をデジタル化し、給与計算やレポートに活用できます。",
+        "cta": "タイムシートをExcelに変換"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "倉庫・店舗",
+        "desc": "手書きの在庫数や棚卸記録を、整理されたスプレッドシートに変換します。",
+        "cta": "在庫表をExcelに変換"
+      }
+    ],
+    "drop_overlay": "画像をドロップして変換",
+    "languages_title": "対応言語",
+    "languages_list": [
+      "English",
+      "Español",
+      "Français",
+      "Deutsch",
+      "Italiano",
+      "Português (Brasil)",
+      "Nederlands",
+      "Dansk",
+      "Norsk",
+      "Svenska",
+      "Suomi",
+      "Türkçe",
+      "हिन्दी",
+      "日本語",
+      "中文",
+      "その他多数"
+    ],
+    "proof_desc": "手書き文字の変換にNoteOCRをご利用の方々からの声。",
+    "case_cta": "詳しく見る",
+    "compare_noteocr": "NoteOCR",
+    "aria_features": "NoteOCRの機能",
+    "aria_privacy_pricing": "プライバシーと料金に関する情報",
+
+    "how_detail": "NoteOCRは、印刷された文字だけでなく手書き文字のために作られています。写真、スキャン、PDFをアップロードすると、文字を読み取り、各部分が段落、見出し、リスト、表のどれにあたるかを判断します。手書きの表はExcelの行と列に、メモはWordの書式付きテキストになります。ダウンロードの前に、エディターで間違いを修正できます。より良い結果を得るには、明るく鮮明な画像を使い、名前、日付、数値をもう一度確認してください。",
+    "pricing_from": "100ページ12ドルからのプランをご用意しています。",
+    "retention_note": "",
+    "store_rating": "毎日1,000ページを変換",
+    "scope_can_title": "NoteOCRが対応しているもの",
+    "scope_can": [
+      "活字体(ブロック体)の手書きと、続け字(筆記体)",
+      "手書きの表、請求書、タイムシート、リスト",
+      "ラテン文字の言語をはじめとする多言語",
+      "古い手書きの手紙",
+      "写真、スキャンした書類、対応するPDFファイル",
+      "編集可能なWord・Excel・PDFファイルへの変換"
+    ],
+
+    "scope_cannot_title": "現在の制限事項",
+    "scope_cannot": [
+      "ひどく色あせた画像、ぼやけた画像、影が濃い画像では、結果が良くない場合があります",
+      "内容が判別しにくい図が含まれるメモ",
+      "無料デモでは10MBを超える画像"
+    ],
+
+    "accuracy_note": "認識の品質は、筆跡の読みやすさ、画像の解像度、明るさ、書類の状態によって左右されます。読みやすい文字ほど、良い結果が得られやすくなります。変換後は、重要な名前、日付、数値を必ずご確認ください。",
+
+    "compare_title": "NoteOCRと従来のOCRの違い",
+    "compare_desc": "多くの汎用OCRツールは、テキストの抽出が中心です。NoteOCRは手書き文字を認識し、書類の構造を編集可能なファイルとして再現するように設計されています。",
+
+    "compare_feature": "項目",
+    "compare_traditional": "汎用OCRツール",
+
+    "compare_rows": [
+      {
+        "feature": "手書き文字",
+        "traditional": "手書きへの対応はツールによって異なります",
+        "noteocr": "続け字や乱雑な筆跡を含む、手書きテキスト向けに設計"
+      },
+      {
+        "feature": "表",
+        "traditional": "表の構造を手作業で直す必要がある場合があります",
+        "noteocr": "表のレイアウトを認識し、データをExcelのセルに整理"
+      },
+      {
+        "feature": "出力",
+        "traditional": "抽出したテキストを出力するだけで、整形が別途必要なことが多い",
+        "noteocr": "編集可能なWord、Excel、PDFドキュメントを作成"
+      },
+      {
+        "feature": "編集",
+        "traditional": "内容を別のアプリにコピーする必要がある場合があります",
+        "noteocr": "Word/Excelのようなツールバーを備えたエディターを搭載"
+      }
+    ],
+
+    "privacy_title": "あなたの書類は、あなたのものです",
+    "privacy_desc": "書類には個人情報や業務上の情報が含まれている場合があります。お預かりした書類をモデルの学習に使用することはありません。ファイルは通信中も保存時も暗号化され、アカウントからいつでも削除できます。データの取り扱いと保存期間については、プライバシーポリシーをご覧ください。",
+    "privacy_link": "プライバシーポリシーを読む",
+
+    "pricing_title": "まず無料でプレビュー、その後に編集・エクスポート",
+    "pricing_desc": "お支払いの前に、変換を試して結果をご確認いただけます。有料プランでは、ドキュメントの編集と、Word・Excel・PDFでのダウンロードが可能になります。",
+    "pricing_cta": "プランを比較する",
+
+    "proof_title": "ユーザーの声",
+    "testimonials": [
+      {
+        "name": "ORJI CHARLES",
+        "role": "チューター、Sapele Vocational Centre",
+        "quote": "手書きのページを編集できるWordドキュメントに変換できるので、毎週何時間も節約できています。",
+        "photo": "/"
+      },
+      {
+        "name": "VICTOR EREWA",
+        "role": "学生、University of Benin(UNIBEN)",
+        "quote": "NoteOCRは手書きのノートを編集できるドキュメントに変換してくれるので、貴重な時間を節約でき、勉強がぐっと楽になりました。",
+        "photo": "/"
+      },
+      {
+        "name": "REMY GBENEDION",
+        "role": "Excelユーザー",
+        "quote": "手書きの表をExcelに手入力する必要がなくなりました。NoteOCRは手描きの表を正確に、きちんと整ったスプレッドシートに変換してくれるので、データ入力にかかる何時間もの手間が省けます。",
+        "photo": "/"
+      }
+    ],
+
+    "faq_title": "よくある質問",
+    "faq_items": [
+      {
+        "q": "NoteOCRとは何ですか?",
+        "a": "NoteOCRは、手書き文字認識とドキュメント変換のプラットフォームです。写真、スキャン、対応するPDFから、手書きのメモ、表、請求書、タイムシートを、編集可能なWord、Excel、PDFファイルに変換します。"
+      },
+      {
+        "q": "NoteOCRの手書き文字認識は、どのくらい正確ですか?",
+        "a": "認識の品質は、筆跡の読みやすさ、画像の解像度、明るさ、書類の状態によって左右されます。読みやすい文字ほど良い結果が得られやすく、乱雑な筆跡や画質の悪い画像では認識に影響が出る場合があります。変換後は、重要な名前、日付、数値を必ずご確認ください。"
+      },
+      {
+        "q": "NoteOCRは続け字(筆記体)を認識できますか?",
+        "a": "はい。NoteOCRは活字体の手書きと続け字の両方に対応しており、文字がつながった書き方や斜めに傾いた書き方も認識できます。結果は、文字の読みやすさとアップロードした画像の品質によって異なります。"
+      },
+      {
+        "q": "アカウントを作成せずにNoteOCRを試せますか?",
+        "a": "はい。登録なしで画像をアップロードし、変換結果をプレビューできます。変換したWordまたはExcelファイルの編集とダウンロードには、有料アカウントが必要です。"
+      },
+      {
+        "q": "NoteOCRは手書きの表をExcelに変換できますか?",
+        "a": "はい。NoteOCRは手書きの表を認識し、行と列を編集可能なExcelスプレッドシートに整理できます。表、請求書、タイムシート、在庫記録などにご利用いただけます。"
+      },
+      {
+        "q": "NoteOCRはどの言語に対応していますか?",
+        "a": "NoteOCRは複数の言語に対応しています。対応言語の最新リストは、手書き文字認識のページでご確認ください。"
+      },
+      {
+        "q": "どのファイル形式をアップロードできますか?",
+        "a": "NoteOCRは、JPG、PNG、WebPなどの画像と、対応するPDFドキュメントのアップロードに対応しています。無料デモでは10MBまでの画像を受け付けます。"
+      },
+      {
+        "q": "アップロードした書類はプライベートに保たれますか?",
+        "a": "お預かりした書類をモデルの学習に使用することはなく、ファイルは通信中も保存時も暗号化されます。書類の取り扱いとファイルの保存期間については、プライバシーポリシーをご覧ください。"
+      },
+      {
+        "q": "NoteOCRにはモバイルアプリがありますか?",
+        "a": "はい。NoteOCRはiPhoneとAndroidでご利用いただけます。モバイルアプリで手書きの書類を撮影して変換できます。アプリでもウェブサイトと同じ無料プレビューをご利用いただけます。変換したファイルの編集とダウンロードには、有料アカウントが必要です。"
+      }
+    ],
+
+    "final_title": "NoteOCRがあなたの手書きをどう読み取るか、確かめてみましょう",
+    "final_desc": "手書きのページをアップロードして、変換結果をご自身でプレビューしてください。",
+    "final_signup": "アカウントを作成",
+
+    "app_line": "こちらでもご利用いただけます",
+    "app_ios": "iPhone",
+    "app_android": "Android",
+
+    "app_title": "スマートフォンで手書きを変換",
+    "app_desc": "NoteOCRを持ち歩きましょう。アプリはiPhoneとAndroid向けに配信中で、手書きの書類を撮影し、変換結果をプレビューして、どこでも編集できます。",
+
+    "app_points": [
+      "スマートフォンのカメラで、手書きのメモ、表、書式を撮影",
+      "ウェブと同じ無料オプションで、変換結果をプレビュー",
+      "有料アカウントで、WordとExcelのドキュメントを編集・ダウンロード"
+    ],
+
+    "app_ios_cta": "App Storeでダウンロード",
+    "app_android_cta": "Google Playで手に入れよう",
+    "app_more": "モバイルアプリについて詳しく見る",
+
+    "fact_1": "活字体も続け字も認識",
+    "fact_2": "Word・Excel・PDFにエクスポート",
+    "fact_3": "ウェブ、iPhone、Androidで利用可能",
+    "fact_4": "登録不要の無料プレビュー",
+
+    "watch_title": "手書きのページがドキュメントに変わる様子をご覧ください",
+    "watch_desc": "NoteOCRが手書きの内容を認識し、編集可能なデジタルドキュメントに変換する様子をご覧ください。"
   },
   "Features": {
     "section_label": "エコシステム",
@@ -1772,32 +2067,30 @@
     "toast_download_success": "Excelファイルをダウンロードしました！",
     "toast_download_error": "ダウンロードに失敗しました。",
     "viewer_preview_only": "プレビューのみ",
-  "viewer_close": "閉じる",
-  "viewer_preview_badge": "プレビュー",
-  "viewer_page_of": "{current} / {total} ページ",
-  "viewer_loading": "変換結果のプレビューを準備しています…",
-  "viewer_error": "変換結果のプレビューを読み込めませんでした。もう一度お試しください。",
+    "viewer_close": "閉じる",
+    "viewer_preview_badge": "プレビュー",
+    "viewer_page_of": "{current} / {total} ページ",
+    "viewer_loading": "変換結果のプレビューを準備しています…",
+    "viewer_error": "変換結果のプレビューを読み込めませんでした。もう一度お試しください。",
 
-  "paywall_title": "スプレッドシートの準備ができました",
-  "paywall_desc": "変換結果をご確認いただきました。NoteOCR に進むと、スプレッドシートのダウンロード、編集、エクスポートができます。",
-  "paywall_subtext": "1回のお支払いで、今後の変換に使える100ページが手に入ります。",
-  "paywall_price": "$12 / 100ページ",
-  "paywall_price_suffix": "買い切り",
-  "paywall_button": "スプレッドシートをアンロック →",
-  "paywall_footer": "100ページ · 有効期限なし · サブスクリプション不要",
+    "paywall_title": "スプレッドシートの準備ができました",
+    "paywall_desc": "変換結果をご確認いただきました。NoteOCR に進むと、スプレッドシートのダウンロード、編集、エクスポートができます。",
+    "paywall_subtext": "1回のお支払いで、今後の変換に使える100ページが手に入ります。",
+    "paywall_price": "$12 / 100ページ",
+    "paywall_price_suffix": "買い切り",
+    "paywall_button": "スプレッドシートをアンロック →",
+    "paywall_footer": "100ページ · 有効期限なし · サブスクリプション不要",
 
-  "tool_view_preview": "プレビューを見る",
-  "tool_upload_hint": "無料変換は1回につき画像1枚",
+    "tool_view_preview": "プレビューを見る",
+    "tool_upload_hint": "無料変換は1回につき画像1枚",
 
-  "toast_title_error": "エラー",
-  "toast_title_one_image": "画像は1枚ずつ",
-  "toast_msg_one_image": "無料プレビューでは一度に1枚の画像のみ変換できます。一括処理は有料プランでご利用いただけます。",
-  "toast_title_invalid_file": "無効なファイル",
-  "toast_title_file_too_large": "ファイルが大きすぎます",
-  "toast_title_processing_error": "処理エラー",
-  "toast_msg_processing_error": "アップロード用のファイルを準備できませんでした。"
-,
-
+    "toast_title_error": "エラー",
+    "toast_title_one_image": "画像は1枚ずつ",
+    "toast_msg_one_image": "無料プレビューでは一度に1枚の画像のみ変換できます。一括処理は有料プランでご利用いただけます。",
+    "toast_title_invalid_file": "無効なファイル",
+    "toast_title_file_too_large": "ファイルが大きすぎます",
+    "toast_title_processing_error": "処理エラー",
+    "toast_msg_processing_error": "アップロード用のファイルを準備できませんでした。",
     "FAQ": {
       "items": {
         "table_to_excel": {

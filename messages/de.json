@@ -708,19 +708,314 @@
   },
 
   "HomePage": {
-    "trust_pill": "V2.0 Handschrift-OCR: 99,2% Genauigkeit",
-    "hero_title_1": "Handschrift in Text und editierbare",
-    "hero_title_2": "Dokumente umwandeln.",
-    "hero_subtitle": "Laden Sie handschriftliche Notizen, gescannte PDF-Formulare oder Whiteboard-Fotos hoch. Unsere Engine wandelt sie in Sekundenschnelle in editierbare Word-, Excel- und PDF-Dateien um.",
-    "check_1": "Keine Kreditkarte erforderlich",
-    "check_2": "10 kostenlose Konvertierungen",
-    "rating_text": "4,9/5 von über 10.000 Nutzern",
-    "cta_start": "Kostenlos starten",
-    "cta_upload": "Bild hochladen",
-    "stat_time": "Bearbeitungszeit",
-    "stat_accuracy": "OCR-Genauigkeit",
-    "meta_title": "Handschrift in Text umwandeln | KI-Schreibschrift-OCR | NoteOCR",
-    "meta_desc": "Wandeln Sie handschriftliche Notizen sofort in editierbaren digitalen Text um. Die weltweit präziseste KI-Handschrifterkennung (OCR)."
+    "meta_title": "NoteOCR: Handschrift in Text, Word & Excel umwandeln",
+    "meta_desc": "Wandeln Sie handschriftliche Notizen, Tabellen, Rechnungen und Stundenzettel aus Foto, Scan oder PDF in Word und Excel um. Kostenlos testen, ohne Anmeldung.",
+
+    "h1": "Handschriftliche Notizen in bearbeitbare Word- und Excel-Dateien umwandeln",
+    "subtitle": "Laden Sie ein Foto oder einen Scan handschriftlicher Notizen, Tabellen, Rechnungen oder Stundenzettel hoch. NoteOCR erkennt die Handschrift und baut die Struktur als bearbeitbares Dokument nach.",
+    "cta_try": "Kostenlos testen",
+    "cta_pricing": "Preise ansehen",
+    "trust_line": "Testen Sie die Umwandlung ohne Anmeldung. Prüfen Sie das Ergebnis, bevor Sie sich für einen kostenpflichtigen Tarif entscheiden.",
+
+    "demo_title": "Testen Sie es mit Ihrer eigenen Handschrift",
+    "demo_desc": "Laden Sie ein Bild hoch und sehen Sie, wie NoteOCR es umwandelt. Die Vorschau des Ergebnisses ist ohne Konto möglich.",
+    "demo_drop": "Bild hierher ziehen oder zum Hochladen klicken",
+    "demo_formats": "JPG, PNG oder WebP, bis zu 10 MB",
+    "demo_busy": "Ihre Handschrift wird erkannt …",
+    "demo_err_type": "Dieser Dateityp wird nicht unterstützt. Bitte laden Sie ein JPG-, PNG- oder WebP-Bild hoch.",
+    "demo_err_size": "Dieses Bild überschreitet das Limit von 10 MB. Bitte laden Sie ein kleineres Bild hoch.",
+    "demo_err_generic": "Die Umwandlung ist fehlgeschlagen. Bitte versuchen Sie es erneut oder laden Sie ein schärferes, besser beleuchtetes Bild hoch.",
+    "demo_locked_title": "Ihr umgewandeltes Ergebnis ist fertig",
+    "demo_locked_desc": "Um Ihre Word- oder Excel-Datei zu bearbeiten und herunterzuladen, benötigen Sie ein kostenpflichtiges Konto.",
+    "demo_unlock": "Verfügbare Tarife ansehen",
+    "demo_again": "Weiteres Bild umwandeln",
+
+    "samples_title": "So werden handschriftliche Dokumente umgewandelt",
+    "samples_desc": "Sehen Sie Beispiele handschriftlicher Dokumente, die mit NoteOCR umgewandelt wurden. Die Ergebnisse können je nach Handschrift und Bildqualität variieren.",
+    "before": "Originaldokument",
+    "samples": [
+      {
+        "title": "Handschriftliche Notizen in Word",
+        "caption": "Wandeln Sie handschriftliche Absätze, Überschriften und Listen in ein bearbeitbares Word-Dokument um.",
+        "before": "/images/noteocr-word-before.png",
+        "before_alt": "Foto handschriftlicher Besprechungsnotizen",
+        "after": "/images/noteocr-word-after.png",
+        "after_alt": "Dieselben handschriftlichen Notizen als bearbeitbares Word-Dokument",
+        "after_label": "Sofort in Word umgewandelt (ohne Abtippen)"
+      },
+      {
+        "title": "Handschriftliche Tabelle in Excel",
+        "caption": "Verwandeln Sie handschriftliche Zeilen und Spalten in Tabellenzellen, die Sie bearbeiten und ordnen können.",
+        "before": "/images/noteocr-excel-before.png",
+        "before_alt": "Foto einer handschriftlichen Tabelle mit Zahlen",
+        "after": "/images/noteocr-excel-after.png",
+        "after_alt": "Dieselbe handschriftliche Tabelle als bearbeitbare Excel-Tabelle",
+        "after_label": "Sofort in Excel umgewandelt (ohne Abtippen)"
+      }
+    ],
+
+    "video_label": "Sehen Sie eine NoteOCR-Umwandlung",
+    "video_alt": "Demonstration, wie NoteOCR eine handschriftliche Notiz in ein bearbeitbares Dokument umwandelt",
+
+    "cases_title": "Wählen Sie, was Sie umwandeln möchten",
+    "cases_desc": "Entdecken Sie spezielle Werkzeuge und Anleitungen zur Handschriftumwandlung für verschiedene Dokumenttypen.",
+
+    "use_cases": [
+      {
+        "href": "/handwriting-recognition",
+        "title": "Handschrift in Text",
+        "desc": "Wandeln Sie handschriftliche Notizen, Briefe und Tagebücher in bearbeitbaren digitalen Text um."
+      },
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Handschrift in Word",
+        "desc": "Verwandeln Sie handgeschriebene Seiten in bearbeitbare Word-Dokumente mit Absätzen, Überschriften und Listen."
+      },
+      {
+        "href": "/handwriting-to-excel",
+        "title": "Handschrift in Excel",
+        "desc": "Wandeln Sie handschriftliche Tabellen, Aufzeichnungen und Protokolle in bearbeitbare Excel-Tabellen um."
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Handschriftliche Rechnung in Excel",
+        "desc": "Übertragen Sie handschriftliche Rechnungsdaten, Mengen und Summen in eine Tabelle."
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Handschriftlicher Stundenzettel in Excel",
+        "desc": "Wandeln Sie handschriftliche Arbeitszeiten und Anwesenheitslisten in Tabellendaten um."
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Handschriftliche Inventurliste in Excel",
+        "desc": "Übertragen Sie handschriftliche Bestandszählungen und Inventarlisten in eine bearbeitbare Tabelle."
+      }
+    ],
+
+    "how_title": "So funktioniert NoteOCR",
+    "steps": [
+      {
+        "title": "Dokument hochladen",
+        "desc": "Wählen Sie ein Foto, einen Scan oder ein PDF mit handschriftlichem Inhalt. Unterstützte Bilder werden automatisch für die Erkennung aufbereitet."
+      },
+      {
+        "title": "Erkennen und nachbauen",
+        "desc": "NoteOCR liest die Handschrift und erkennt Dokumentelemente wie Absätze, Überschriften, Listen und Tabellen."
+      },
+      {
+        "title": "Bearbeiten und exportieren",
+        "desc": "Prüfen und korrigieren Sie den umgewandelten Inhalt im Editor und exportieren Sie ihn anschließend als Word-, Excel- oder PDF-Datei."
+      }
+    ],
+
+    "scope_title": "Was NoteOCR kann und was nicht",
+    "scope_desc": "Wenn Sie wissen, was die Handschrifterkennung beeinflusst, erzielen Sie bessere Ergebnisse.",
+    "audience_title": "Wer NoteOCR nutzt",
+    "audience_desc": "Menschen, die täglich mit Handschrift arbeiten, sparen mit NoteOCR Zeit beim Abtippen.",
+
+    "audiences": [
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Schüler, Studierende und Lehrkräfte",
+        "desc": "Wandeln Sie handschriftliche Vorlesungsmitschriften, Unterrichtsplanungen und Aufgaben in bearbeitbare Dokumente um.",
+        "cta": "Notizen in Word umwandeln"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Kleine Unternehmen",
+        "desc": "Übertragen Sie handschriftliche Rechnungen, Belege und Verkaufsaufzeichnungen in Tabellen.",
+        "cta": "Rechnungen in Excel umwandeln"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Führungskräfte und Personalabteilungen",
+        "desc": "Digitalisieren Sie handschriftliche Stundenzettel und Anwesenheitslisten für Lohnabrechnung und Reporting.",
+        "cta": "Stundenzettel in Excel umwandeln"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Lager und Geschäfte",
+        "desc": "Verwandeln Sie handschriftliche Bestandszählungen und Inventarprotokolle in übersichtliche Tabellen.",
+        "cta": "Inventar in Excel umwandeln"
+      }
+    ],
+    "drop_overlay": "Bild hier ablegen, um es umzuwandeln",
+    "languages_title": "Unterstützte Sprachen",
+    "languages_list": [
+      "English",
+      "Español",
+      "Français",
+      "Deutsch",
+      "Italiano",
+      "Português (Brasil)",
+      "Nederlands",
+      "Dansk",
+      "Norsk",
+      "Svenska",
+      "Suomi",
+      "Türkçe",
+      "हिन्दी",
+      "日本語",
+      "中文",
+      "und viele weitere"
+    ],
+    "proof_desc": "Rückmeldungen von Menschen, die NoteOCR zur Umwandlung von Handschrift nutzen.",
+    "case_cta": "Mehr erfahren",
+    "compare_noteocr": "NoteOCR",
+    "aria_features": "NoteOCR-Funktionen",
+    "aria_privacy_pricing": "Informationen zu Datenschutz und Preisen",
+
+    "how_detail": "NoteOCR wurde für Handschrift entwickelt, nicht nur für gedruckten Text. Nach dem Hochladen eines Fotos, Scans oder PDFs liest es die Schrift und erkennt, ob es sich bei einem Bereich um einen Absatz, eine Überschrift, eine Liste oder eine Tabelle handelt. Handschriftliche Tabellen werden zu Zeilen und Spalten in Excel, Notizen zu formatiertem Text in Word. Vor dem Download können Sie im Editor alles korrigieren, was nicht stimmt. Für beste Ergebnisse verwenden Sie ein gut beleuchtetes, scharfes Bild und prüfen Namen, Datumsangaben und Zahlen noch einmal.",
+    "pricing_from": "Tarife ab 12 $ für 100 Seiten.",
+    "retention_note": "",
+    "store_rating": "1.000 Seiten täglich umgewandelt",
+    "scope_can_title": "Was NoteOCR unterstützt",
+    "scope_can": [
+      "Druckschrift und Schreibschrift",
+      "Handschriftliche Tabellen, Rechnungen, Stundenzettel und Listen",
+      "Mehrere Sprachen, darunter Sprachen mit lateinischer Schrift und weitere",
+      "Alte handschriftliche Briefe",
+      "Fotos, gescannte Dokumente und unterstützte PDF-Dateien",
+      "Umwandlung in bearbeitbare Word-, Excel- und PDF-Dateien"
+    ],
+
+    "scope_cannot_title": "Aktuelle Einschränkungen",
+    "scope_cannot": [
+      "Stark verblasste, unscharfe oder stark verschattete Bilder können zu schlechten Ergebnissen führen",
+      "Notizen mit unklaren Diagrammen",
+      "Bilder über 10 MB in der kostenlosen Demo"
+    ],
+
+    "accuracy_note": "Die Erkennungsqualität hängt von der Lesbarkeit der Handschrift, der Bildauflösung, der Beleuchtung und dem Zustand des Dokuments ab. Deutliche Handschrift führt in der Regel zu besseren Ergebnissen. Prüfen Sie wichtige Namen, Datumsangaben und Zahlen nach der Umwandlung immer noch einmal.",
+
+    "compare_title": "Wie sich NoteOCR von herkömmlicher OCR unterscheidet",
+    "compare_desc": "Viele allgemeine OCR-Tools konzentrieren sich auf die Textextraktion. NoteOCR ist darauf ausgelegt, Handschrift zu erkennen und Dokumentstrukturen als bearbeitbare Dateien nachzubauen.",
+
+    "compare_feature": "Merkmal",
+    "compare_traditional": "Allgemeine OCR-Tools",
+
+    "compare_rows": [
+      {
+        "feature": "Handschrift",
+        "traditional": "Die Unterstützung für Handschrift unterscheidet sich je nach Tool",
+        "noteocr": "Entwickelt für handschriftlichen Text, auch Schreibschrift und unleserliche Handschrift"
+      },
+      {
+        "feature": "Tabellen",
+        "traditional": "Die Tabellenstruktur muss möglicherweise manuell korrigiert werden",
+        "noteocr": "Erkennt Tabellenlayouts und ordnet die Daten in Excel-Zellen an"
+      },
+      {
+        "feature": "Ausgabe",
+        "traditional": "Liefert oft extrahierten Text, der noch formatiert werden muss",
+        "noteocr": "Erstellt bearbeitbare Word-, Excel- und PDF-Dokumente"
+      },
+      {
+        "feature": "Bearbeitung",
+        "traditional": "Der Inhalt muss eventuell in eine andere Anwendung kopiert werden",
+        "noteocr": "Enthält einen Editor mit Symbolleiste im Word-/Excel-Stil"
+      }
+    ],
+
+    "privacy_title": "Ihre Dokumente bleiben Ihre",
+    "privacy_desc": "Ihre Dokumente können persönliche oder geschäftliche Informationen enthalten. Wir verwenden Ihre Dokumente nicht zum Trainieren von Modellen. Dateien werden bei der Übertragung und im Ruhezustand verschlüsselt, und Sie können sie jederzeit aus Ihrem Konto löschen. Details zur Datenverarbeitung und Aufbewahrung finden Sie in unserer Datenschutzerklärung.",
+    "privacy_link": "Datenschutzerklärung lesen",
+
+    "pricing_title": "Kostenlos Vorschau ansehen, dann bearbeiten und exportieren",
+    "pricing_desc": "Testen Sie eine Umwandlung und prüfen Sie das Ergebnis, bevor Sie bezahlen. Ein kostenpflichtiger Tarif schaltet die Dokumentbearbeitung sowie den Download als Word-, Excel- und PDF-Datei frei.",
+    "pricing_cta": "Tarife vergleichen",
+
+    "proof_title": "Das sagen unsere Nutzer",
+    "testimonials": [
+      {
+        "name": "ORJI CHARLES",
+        "role": "Tutor, Sapele Vocational Centre",
+        "quote": "Handschriftliche Seiten in bearbeitbare Word-Dokumente umzuwandeln, spart mir jede Woche Stunden.",
+        "photo": "/"
+      },
+      {
+        "name": "VICTOR EREWA",
+        "role": "Student, University of Benin (UNIBEN)",
+        "quote": "NoteOCR spart mir wertvolle Zeit, indem es meine handschriftlichen Notizen in bearbeitbare Dokumente umwandelt. Das erleichtert meine Arbeit im Studium enorm.",
+        "photo": "/"
+      },
+      {
+        "name": "REMY GBENEDION",
+        "role": "Excel-Nutzer",
+        "quote": "Ich muss handschriftliche Tabellen nicht mehr von Hand in Excel eintippen. NoteOCR wandelt meine gezeichneten Tabellen präzise in sauber formatierte Tabellenblätter um und erspart mir stundenlange Dateneingabe.",
+        "photo": "/"
+      }
+    ],
+
+    "faq_title": "Häufig gestellte Fragen",
+    "faq_items": [
+      {
+        "q": "Was ist NoteOCR?",
+        "a": "NoteOCR ist eine Plattform zur Handschrifterkennung und Dokumentumwandlung. Sie wandelt handschriftliche Notizen, Tabellen, Rechnungen und Stundenzettel aus Fotos, Scans und unterstützten PDFs in bearbeitbare Word-, Excel- und PDF-Dateien um."
+      },
+      {
+        "q": "Wie genau ist die Handschrifterkennung von NoteOCR?",
+        "a": "Die Erkennungsqualität hängt von der Lesbarkeit der Handschrift, der Bildauflösung, der Beleuchtung und dem Zustand des Dokuments ab. Deutliche Handschrift führt in der Regel zu besseren Ergebnissen, während unleserliche Schrift und schlechte Bildqualität die Erkennung beeinträchtigen können. Prüfen Sie wichtige Namen, Datumsangaben und Zahlen nach der Umwandlung immer noch einmal."
+      },
+      {
+        "q": "Kann NoteOCR Schreibschrift erkennen?",
+        "a": "Ja. NoteOCR unterstützt Druckschrift und Schreibschrift, auch verbundene und schräge Handschrift. Das Ergebnis hängt davon ab, wie deutlich geschrieben wurde und wie gut das hochgeladene Bild ist."
+      },
+      {
+        "q": "Kann ich NoteOCR ohne Konto ausprobieren?",
+        "a": "Ja. Sie können ein Bild hochladen und sich das umgewandelte Ergebnis ohne Anmeldung als Vorschau ansehen. Zum Bearbeiten und Herunterladen der umgewandelten Word- oder Excel-Datei ist ein kostenpflichtiges Konto erforderlich."
+      },
+      {
+        "q": "Kann NoteOCR handschriftliche Tabellen in Excel umwandeln?",
+        "a": "Ja. NoteOCR erkennt handschriftliche Tabellen und ordnet deren Zeilen und Spalten in einer bearbeitbaren Excel-Tabelle an. Sie können es für Tabellen, Rechnungen, Stundenzettel und Inventarlisten nutzen."
+      },
+      {
+        "q": "Welche Sprachen unterstützt NoteOCR?",
+        "a": "NoteOCR unterstützt mehrere Sprachen. Die aktuelle Liste finden Sie auf der Seite zur Handschrifterkennung."
+      },
+      {
+        "q": "Welche Dateiformate kann ich hochladen?",
+        "a": "NoteOCR unterstützt Bild-Uploads wie JPG, PNG und WebP sowie unterstützte PDF-Dokumente. Die kostenlose Demo akzeptiert Bilder bis 10 MB."
+      },
+      {
+        "q": "Sind meine hochgeladenen Dokumente privat?",
+        "a": "Wir verwenden Ihre Dokumente nicht zum Trainieren von Modellen, und Dateien werden bei der Übertragung und im Ruhezustand verschlüsselt. Informationen zum Umgang mit Dokumenten und zur Aufbewahrung finden Sie in unserer Datenschutzerklärung."
+      },
+      {
+        "q": "Gibt es eine mobile App von NoteOCR?",
+        "a": "Ja. NoteOCR ist für iPhone und Android verfügbar. Sie können handschriftliche Dokumente fotografieren und mit der mobilen App umwandeln. Die App bietet dieselbe kostenlose Vorschau wie die Website, zum Bearbeiten und Herunterladen umgewandelter Dateien ist ein kostenpflichtiges Konto erforderlich."
+      }
+    ],
+
+    "final_title": "Sehen Sie, wie NoteOCR Ihre Handschrift liest",
+    "final_desc": "Laden Sie eine handschriftliche Seite hoch und sehen Sie sich das umgewandelte Ergebnis selbst an.",
+    "final_signup": "Konto erstellen",
+
+    "app_line": "Auch verfügbar für",
+    "app_ios": "iPhone",
+    "app_android": "Android",
+
+    "app_title": "Handschrift mit dem Smartphone umwandeln",
+    "app_desc": "Nehmen Sie NoteOCR überallhin mit. Die App ist für iPhone und Android verfügbar. Fotografieren Sie handschriftliche Dokumente, sehen Sie sich die Umwandlung in der Vorschau an und bearbeiten Sie sie, wo immer Sie sind.",
+
+    "app_points": [
+      "Handschriftliche Notizen, Tabellen und Formulare mit der Smartphone-Kamera erfassen",
+      "Umgewandelte Ergebnisse in der Vorschau ansehen, mit derselben kostenlosen Option wie im Web",
+      "Word- und Excel-Dokumente mit einem kostenpflichtigen Konto bearbeiten und herunterladen"
+    ],
+
+    "app_ios_cta": "Laden im App Store",
+    "app_android_cta": "Jetzt bei Google Play",
+    "app_more": "Mehr über die mobile App erfahren",
+
+    "fact_1": "Erkennt Druck- und Schreibschrift",
+    "fact_2": "Export nach Word, Excel und PDF",
+    "fact_3": "Verfügbar im Web, auf iPhone und Android",
+    "fact_4": "Kostenlose Vorschau ohne Anmeldung",
+
+    "watch_title": "Sehen Sie, wie aus einer handschriftlichen Seite ein Dokument wird",
+    "watch_desc": "Sehen Sie, wie NoteOCR handschriftliche Inhalte erkennt und in ein bearbeitbares digitales Dokument umwandelt."
   },
   "Features": {
     "section_label": "Das Ökosystem",

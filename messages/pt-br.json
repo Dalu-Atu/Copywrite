@@ -697,21 +697,315 @@
       }
     }
   },
-
   "HomePage": {
-    "trust_pill": "OCR de Escrita V2.0: 99.2% de Precisão",
-    "hero_title_1": "Converta Caligrafia em Texto e",
-    "hero_title_2": "Documentos Editáveis.",
-    "hero_subtitle": "Faça upload de notas manuscritas, formulários PDF digitalizados ou fotos de quadros brancos. Nosso mecanismo os converte em arquivos Word, Excel e PDF editáveis em segundos.",
-    "check_1": "Não requer cartão de crédito",
-    "check_2": "10 Conversões grátis/mês",
-    "rating_text": "4.9/5 de mais de 10 mil usuários",
-    "cta_start": "Começar Grátis",
-    "cta_upload": "Enviar Imagem",
-    "stat_time": "Tempo de Processamento",
-    "stat_accuracy": "Precisão do OCR",
-    "meta_title": "Conversor de Caligrafia para Texto | OCR de Letra Cursiva | NoteOCR",
-    "meta_desc": "Converta notas manuscritas em texto digital editável instantaneamente. O OCR de caligrafia com IA mais preciso do mundo."
+    "meta_title": "NoteOCR: converta escrita à mão em texto, Word e Excel",
+    "meta_desc": "Converta anotações, tabelas, faturas e folhas de ponto manuscritas de fotos, digitalizações ou PDF em arquivos Word e Excel editáveis. Teste grátis sem cadastro.",
+
+    "h1": "Converta anotações manuscritas em arquivos Word e Excel editáveis",
+    "subtitle": "Envie uma foto ou digitalização de anotações, tabelas, faturas ou folhas de ponto manuscritas. O NoteOCR reconhece a escrita à mão e reconstrói a estrutura como um documento editável.",
+    "cta_try": "Teste uma conversão grátis",
+    "cta_pricing": "Ver preços",
+    "trust_line": "Teste uma conversão sem se cadastrar. Confira o resultado antes de escolher um plano pago.",
+
+    "demo_title": "Teste com a sua própria letra",
+    "demo_desc": "Envie uma imagem e veja como o NoteOCR a converte. Você pode ver uma prévia do resultado sem criar uma conta.",
+    "demo_drop": "Solte uma imagem aqui ou clique para enviar",
+    "demo_formats": "JPG, PNG ou WebP, até 10 MB",
+    "demo_busy": "Reconhecendo a sua escrita à mão...",
+    "demo_err_type": "Este tipo de arquivo não é compatível. Envie uma imagem JPG, PNG ou WebP.",
+    "demo_err_size": "Esta imagem excede o limite de 10 MB. Envie uma imagem menor.",
+    "demo_err_generic": "Falha na conversão. Tente novamente ou envie uma imagem mais nítida e bem iluminada.",
+    "demo_locked_title": "O resultado da conversão está pronto",
+    "demo_locked_desc": "Para editar e baixar o seu arquivo Word ou Excel, você precisa de uma conta paga.",
+    "demo_unlock": "Ver planos disponíveis",
+    "demo_again": "Converter outra imagem",
+
+    "samples_title": "Veja documentos manuscritos sendo transformados",
+    "samples_desc": "Confira exemplos de documentos manuscritos convertidos com o NoteOCR. Os resultados podem variar conforme a letra e a qualidade da imagem.",
+    "before": "Documento original",
+    "samples": [
+      {
+        "title": "Anotações manuscritas para Word",
+        "caption": "Converta parágrafos, títulos e listas manuscritos em um documento Word editável.",
+        "before": "/images/noteocr-word-before.png",
+        "before_alt": "Foto de anotações de reunião escritas à mão",
+        "after": "/images/noteocr-word-after.png",
+        "after_alt": "As mesmas anotações manuscritas convertidas em um documento Word editável",
+        "after_label": "Convertido para Word instantaneamente (sem digitar)"
+      },
+      {
+        "title": "Tabela manuscrita para Excel",
+        "caption": "Transforme linhas e colunas manuscritas em células de planilha que você pode editar e organizar.",
+        "before": "/images/noteocr-excel-before.png",
+        "before_alt": "Foto de uma tabela manuscrita com números",
+        "after": "/images/noteocr-excel-after.png",
+        "after_alt": "A mesma tabela manuscrita convertida em uma planilha Excel editável",
+        "after_label": "Convertido para Excel instantaneamente (sem digitar)"
+      }
+    ],
+
+    "video_label": "Assista a uma conversão do NoteOCR",
+    "video_alt": "Demonstração do NoteOCR convertendo uma anotação manuscrita em um documento editável",
+
+    "cases_title": "Escolha o que você quer converter",
+    "cases_desc": "Conheça ferramentas e guias específicos de conversão de escrita à mão para diferentes tipos de documento.",
+
+    "use_cases": [
+      {
+        "href": "/handwriting-recognition",
+        "title": "Escrita à mão para texto",
+        "desc": "Converta anotações, cartas e diários manuscritos em texto digital editável."
+      },
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Escrita à mão para Word",
+        "desc": "Transforme páginas manuscritas em documentos Word editáveis, com parágrafos, títulos e listas."
+      },
+      {
+        "href": "/handwriting-to-excel",
+        "title": "Escrita à mão para Excel",
+        "desc": "Converta tabelas, registros e controles manuscritos em planilhas Excel editáveis."
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Fatura manuscrita para Excel",
+        "desc": "Extraia dados, quantidades e totais de faturas manuscritas para uma planilha."
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Folha de ponto manuscrita para Excel",
+        "desc": "Converta horas trabalhadas e registros de presença manuscritos em dados de planilha."
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Inventário manuscrito para Excel",
+        "desc": "Passe contagens de estoque e registros de inventário manuscritos para uma planilha editável."
+      }
+    ],
+
+    "how_title": "Como o NoteOCR funciona",
+    "steps": [
+      {
+        "title": "Envie o seu documento",
+        "desc": "Escolha uma foto, digitalização ou PDF com conteúdo manuscrito. As imagens compatíveis são preparadas automaticamente para o reconhecimento."
+      },
+      {
+        "title": "Reconheça e reconstrua",
+        "desc": "O NoteOCR lê a escrita à mão e identifica elementos do documento, como parágrafos, títulos, listas e tabelas."
+      },
+      {
+        "title": "Edite e exporte",
+        "desc": "Revise e corrija o conteúdo convertido no editor e depois exporte para Word, Excel ou PDF."
+      }
+    ],
+
+    "scope_title": "O que o NoteOCR consegue e não consegue processar",
+    "scope_desc": "Entender o que afeta o reconhecimento de escrita à mão ajuda você a obter melhores resultados na conversão.",
+    "audience_title": "Quem usa o NoteOCR",
+    "audience_desc": "Quem trabalha com escrita à mão todos os dias usa o NoteOCR para economizar tempo de digitação manual.",
+
+    "audiences": [
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Estudantes e professores",
+        "desc": "Transforme anotações de aula, planos de aula e trabalhos manuscritos em documentos editáveis.",
+        "cta": "Converter anotações para Word"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Pequenas empresas",
+        "desc": "Passe faturas, recibos e registros de vendas manuscritos para planilhas.",
+        "cta": "Converter faturas para Excel"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Gestores e equipes de RH",
+        "desc": "Digitalize folhas de ponto e listas de presença manuscritas para folha de pagamento e relatórios.",
+        "cta": "Converter folhas de ponto para Excel"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Depósitos e lojas",
+        "desc": "Transforme contagens de estoque e registros de inventário manuscritos em planilhas organizadas.",
+        "cta": "Converter inventário para Excel"
+      }
+    ],
+    "drop_overlay": "Solte a imagem para convertê-la",
+    "languages_title": "Idiomas compatíveis",
+    "languages_list": [
+      "English",
+      "Español",
+      "Français",
+      "Deutsch",
+      "Italiano",
+      "Português (Brasil)",
+      "Nederlands",
+      "Dansk",
+      "Norsk",
+      "Svenska",
+      "Suomi",
+      "Türkçe",
+      "हिन्दी",
+      "日本語",
+      "中文",
+      "e muitos outros"
+    ],
+    "proof_desc": "Depoimentos de pessoas que usam o NoteOCR para converter escrita à mão.",
+    "case_cta": "Saiba mais",
+    "compare_noteocr": "NoteOCR",
+    "aria_features": "Recursos do NoteOCR",
+    "aria_privacy_pricing": "Informações sobre privacidade e preços",
+
+    "how_detail": "O NoteOCR foi criado para escrita à mão, e não apenas para texto impresso. Depois que você envia uma foto, digitalização ou PDF, ele lê a escrita e identifica se cada parte é um parágrafo, um título, uma lista ou uma tabela. Tabelas manuscritas viram linhas e colunas no Excel, e anotações viram texto formatado no Word. Antes de baixar, você pode corrigir qualquer erro no editor. Para obter os melhores resultados, use uma imagem nítida e bem iluminada e confira novamente nomes, datas e valores.",
+    "pricing_from": "Planos a partir de US$ 12 por 100 páginas.",
+    "retention_note": "",
+    "store_rating": "1.000 páginas convertidas por dia",
+    "scope_can_title": "O que o NoteOCR suporta",
+    "scope_can": [
+      "Letra de forma e letra cursiva",
+      "Tabelas, faturas, folhas de ponto e listas manuscritas",
+      "Vários idiomas, incluindo idiomas com alfabeto latino e outros",
+      "Cartas antigas escritas à mão",
+      "Fotos, documentos digitalizados e arquivos PDF compatíveis",
+      "Conversão para arquivos Word, Excel e PDF editáveis"
+    ],
+
+    "scope_cannot_title": "Limitações atuais",
+    "scope_cannot": [
+      "Imagens muito desbotadas, desfocadas ou com muita sombra podem gerar resultados ruins",
+      "Anotações com diagramas pouco claros",
+      "Imagens maiores que 10 MB na demonstração gratuita"
+    ],
+
+    "accuracy_note": "A qualidade do reconhecimento depende da clareza da letra, da resolução da imagem, da iluminação e do estado do documento. Uma letra clara geralmente gera resultados melhores. Sempre confira nomes, datas e valores importantes depois da conversão.",
+
+    "compare_title": "Como o NoteOCR se diferencia do OCR tradicional",
+    "compare_desc": "Muitas ferramentas de OCR genéricas se concentram em extrair texto. O NoteOCR foi projetado para reconhecer escrita à mão e reconstruir a estrutura do documento em arquivos editáveis.",
+
+    "compare_feature": "Recurso",
+    "compare_traditional": "Ferramentas de OCR genéricas",
+
+    "compare_rows": [
+      {
+        "feature": "Escrita à mão",
+        "traditional": "O suporte a escrita à mão varia de uma ferramenta para outra",
+        "noteocr": "Projetado para texto manuscrito, incluindo letra cursiva e letra bagunçada"
+      },
+      {
+        "feature": "Tabelas",
+        "traditional": "A estrutura da tabela pode precisar de correção manual",
+        "noteocr": "Reconhece o layout das tabelas e organiza os dados em células do Excel"
+      },
+      {
+        "feature": "Resultado",
+        "traditional": "Geralmente entrega texto extraído que ainda precisa ser formatado",
+        "noteocr": "Cria documentos Word, Excel e PDF editáveis"
+      },
+      {
+        "feature": "Edição",
+        "traditional": "Pode ser necessário copiar o conteúdo para outro aplicativo",
+        "noteocr": "Inclui um editor com barra de ferramentas no estilo Word/Excel"
+      }
+    ],
+
+    "privacy_title": "Seus documentos continuam sendo seus",
+    "privacy_desc": "Seus documentos podem conter informações pessoais ou empresariais. Não usamos seus documentos para treinar modelos. Os arquivos são criptografados em trânsito e em repouso, e você pode excluí-los da sua conta a qualquer momento. Consulte nossa política de privacidade para saber mais sobre o tratamento e a retenção de dados.",
+    "privacy_link": "Leia nossa política de privacidade",
+
+    "pricing_title": "Veja uma prévia grátis e depois edite e exporte",
+    "pricing_desc": "Teste uma conversão e confira o resultado antes de pagar. Um plano pago libera a edição de documentos e o download em Word, Excel e PDF.",
+    "pricing_cta": "Comparar planos",
+
+    "proof_title": "O que os usuários dizem",
+    "testimonials": [
+      {
+        "name": "ORJI CHARLES",
+        "role": "Tutor, Sapele Vocational Centre",
+        "quote": "Converter páginas manuscritas em documentos Word editáveis me poupa horas toda semana.",
+        "photo": "/"
+      },
+      {
+        "name": "VICTOR EREWA",
+        "role": "Estudante, University of Benin (UNIBEN)",
+        "quote": "O NoteOCR me poupa um tempo valioso ao transformar minhas anotações manuscritas em documentos editáveis, o que facilita muito o meu trabalho acadêmico.",
+        "photo": "/"
+      },
+      {
+        "name": "REMY GBENEDION",
+        "role": "Usuário de Excel",
+        "quote": "Não preciso mais digitar tabelas manuscritas no Excel manualmente. O NoteOCR converte com precisão as minhas tabelas desenhadas em planilhas bem formatadas, poupando horas de entrada de dados.",
+        "photo": "/"
+      }
+    ],
+
+    "faq_title": "Perguntas frequentes",
+    "faq_items": [
+      {
+        "q": "O que é o NoteOCR?",
+        "a": "O NoteOCR é uma plataforma de reconhecimento de escrita à mão e conversão de documentos. Ele converte anotações, tabelas, faturas e folhas de ponto manuscritas, a partir de fotos, digitalizações e PDFs compatíveis, em arquivos Word, Excel e PDF editáveis."
+      },
+      {
+        "q": "Qual é a precisão do reconhecimento de escrita à mão do NoteOCR?",
+        "a": "A qualidade do reconhecimento depende da clareza da letra, da resolução da imagem, da iluminação e do estado do documento. Uma letra clara geralmente gera resultados melhores, enquanto letra bagunçada e imagens de baixa qualidade podem prejudicar o reconhecimento. Sempre confira nomes, datas e valores importantes depois de converter."
+      },
+      {
+        "q": "O NoteOCR reconhece letra cursiva?",
+        "a": "Sim. O NoteOCR suporta letra de forma e cursiva, inclusive escrita emendada e inclinada. Os resultados dependem da clareza da letra e da qualidade da imagem enviada."
+      },
+      {
+        "q": "Posso testar o NoteOCR sem criar uma conta?",
+        "a": "Sim. Você pode enviar uma imagem e ver uma prévia do resultado convertido sem se cadastrar. Para editar e baixar o arquivo Word ou Excel convertido, é necessária uma conta paga."
+      },
+      {
+        "q": "O NoteOCR consegue converter tabelas manuscritas para Excel?",
+        "a": "Sim. O NoteOCR reconhece tabelas manuscritas e organiza suas linhas e colunas em uma planilha Excel editável. Você pode usá-lo para tabelas, faturas, folhas de ponto e registros de inventário."
+      },
+      {
+        "q": "Quais idiomas o NoteOCR suporta?",
+        "a": "O NoteOCR suporta vários idiomas. Acesse a página de reconhecimento de escrita à mão para ver a lista atual de idiomas compatíveis."
+      },
+      {
+        "q": "Quais formatos de arquivo posso enviar?",
+        "a": "O NoteOCR suporta o envio de imagens como JPG, PNG e WebP, além de documentos PDF compatíveis. A demonstração gratuita aceita imagens de até 10 MB."
+      },
+      {
+        "q": "Os documentos que eu envio ficam privados?",
+        "a": "Não usamos seus documentos para treinar modelos, e os arquivos são criptografados em trânsito e em repouso. Você pode consultar nossa política de privacidade para saber como os documentos são tratados e por quanto tempo os arquivos são retidos."
+      },
+      {
+        "q": "O NoteOCR tem aplicativo para celular?",
+        "a": "Sim. O NoteOCR está disponível para iPhone e Android. Você pode fotografar documentos manuscritos e convertê-los pelo aplicativo. O aplicativo oferece a mesma prévia gratuita do site, enquanto a edição e o download dos arquivos convertidos exigem uma conta paga."
+      }
+    ],
+
+    "final_title": "Veja como o NoteOCR lê a sua escrita à mão",
+    "final_desc": "Envie uma página manuscrita e veja você mesmo a prévia do resultado convertido.",
+    "final_signup": "Criar uma conta",
+
+    "app_line": "Também disponível para",
+    "app_ios": "iPhone",
+    "app_android": "Android",
+
+    "app_title": "Converta escrita à mão com o seu celular",
+    "app_desc": "Leve o NoteOCR com você. O aplicativo está disponível para download no iPhone e no Android e permite fotografar documentos manuscritos, ver a prévia da conversão e editá-los onde você estiver.",
+
+    "app_points": [
+      "Capture anotações, tabelas e formulários manuscritos com a câmera do celular",
+      "Veja a prévia dos resultados convertidos com a mesma opção gratuita da versão web",
+      "Edite e baixe documentos Word e Excel com uma conta paga"
+    ],
+
+    "app_ios_cta": "Baixar na App Store",
+    "app_android_cta": "Disponível no Google Play",
+    "app_more": "Saiba mais sobre o aplicativo",
+
+    "fact_1": "Reconhece letra de forma e cursiva",
+    "fact_2": "Exporta para Word, Excel e PDF",
+    "fact_3": "Disponível na web, no iPhone e no Android",
+    "fact_4": "Prévia grátis sem cadastro",
+
+    "watch_title": "Veja uma página manuscrita virar um documento",
+    "watch_desc": "Veja como o NoteOCR reconhece conteúdo manuscrito e o transforma em um documento digital editável."
   },
   "Features": {
     "section_label": "O Ecossistema",

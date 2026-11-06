@@ -710,20 +710,316 @@
       }
     }
   },
+
   "HomePage": {
-    "trust_pill": "V2.0 Handwriting OCR: 99.2% Accuracy",
-    "hero_title_1": "Convert Handwriting to Text and",
-    "hero_title_2": "Editable Documents.",
-    "hero_subtitle": "Upload handwritten notes, scanned PDF forms, or whiteboard photos. Our Engine converts them into editable Word, Excel, and PDF files in seconds.",
-    "check_1": "No credit card required",
-    "check_2": "10,000+ images converted to document",
-    "rating_text": "4.9/5 from 10k+ users",
-    "cta_start": "Start for Free",
-    "cta_upload": "Upload Image",
-    "stat_time": "Processing Time",
-    "stat_accuracy": "OCR Accuracy",
-    "meta_title": "Handwriting to Word & Excel Converter | NoteOCR",
-    "meta_desc": "Convert handwritten notes, invoices, and timesheets into editable Word and Excel files. AI-powered layout reconstruction with instant preview."
+    "meta_title": "NoteOCR: Convert Handwriting to Text, Word & Excel",
+    "meta_desc": "Convert handwritten notes, tables, invoices and timesheets from photos, scans or PDFs into editable Word and Excel files. Try a free conversion without signing up.",
+
+    "h1": "Convert handwritten notes into editable Word and Excel files",
+    "subtitle": "Upload a photo or scan of handwritten notes, tables, invoices or timesheets. NoteOCR recognizes the writing and rebuilds its structure as an editable document.",
+    "cta_try": "Try a free conversion",
+    "cta_pricing": "View pricing",
+    "trust_line": "Try a conversion without signing up. Review your result before choosing a paid plan.",
+
+    "demo_title": "Try it with your own handwriting",
+    "demo_desc": "Upload an image and see how NoteOCR converts it. You can preview the result without creating an account.",
+    "demo_drop": "Drop an image here or click to upload",
+    "demo_formats": "JPG, PNG or WebP, up to 10 MB",
+    "demo_busy": "Recognizing your handwriting...",
+    "demo_err_type": "This file type isn't supported. Please upload a JPG, PNG or WebP image.",
+    "demo_err_size": "This image exceeds the 10 MB limit. Please upload a smaller image.",
+    "demo_err_generic": "Conversion failed. Please try again or upload a clearer, better-lit image.",
+    "demo_locked_title": "Your converted result is ready",
+    "demo_locked_desc": "To edit and download your Word or Excel file, you'll need a paid account.",
+    "demo_unlock": "View available plans",
+    "demo_again": "Convert another image",
+
+    "samples_title": "See handwritten documents transformed",
+    "samples_desc": "Explore examples of handwritten documents converted with NoteOCR. Results can vary depending on handwriting and image quality.",
+    "before": "Original document",
+    "samples": [
+      {
+        "title": "Handwritten notes to Word",
+        "caption": "Convert handwritten paragraphs, headings and lists into an editable Word document.",
+        "before": "/images/noteocr-word-before.png",
+        "before_alt": "Photo of handwritten meeting notes",
+        "after": "/images/noteocr-word-after.png",
+        "after_alt": "The same handwritten notes converted into an editable Word document",
+        "after_label": "Converted to Word Instantly (No Typing)"
+      },
+      {
+        "title": "Handwritten table to Excel",
+        "caption": "Turn handwritten rows and columns into spreadsheet cells you can edit and organize.",
+        "before": "/images/noteocr-excel-before.png",
+        "before_alt": "Photo of a handwritten table containing figures",
+        "after": "/images/noteocr-excel-after.png",
+        "after_alt": "The same handwritten table converted into an editable Excel spreadsheet",
+        "after_label": "Converted to Excel Instantly (No Typing)"
+      }
+    ],
+
+    "video_label": "Watch a NoteOCR conversion",
+    "video_alt": "Demonstration of NoteOCR converting a handwritten note into an editable document",
+
+    "cases_title": "Choose what you want to convert",
+    "cases_desc": "Explore specific handwriting conversion tools and guides for different document types.",
+
+    "use_cases": [
+      {
+        "href": "/handwriting-recognition",
+        "title": "Handwriting to text",
+        "desc": "Convert handwritten notes, letters and journals into editable digital text."
+      },
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Handwriting to Word",
+        "desc": "Turn handwritten pages into editable Word documents with paragraphs, headings and lists."
+      },
+      {
+        "href": "/handwriting-to-excel",
+        "title": "Handwriting to Excel",
+        "desc": "Convert handwritten tables, records and logs into editable Excel spreadsheets."
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Handwritten invoice to Excel",
+        "desc": "Extract handwritten invoice details, quantities and totals into a spreadsheet."
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Handwritten timesheet to Excel",
+        "desc": "Convert handwritten work hours and attendance records into spreadsheet data."
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Handwritten inventory to Excel",
+        "desc": "Move handwritten stock counts and inventory records into an editable spreadsheet."
+      }
+    ],
+
+    "how_title": "How NoteOCR works",
+    "steps": [
+      {
+        "title": "Upload your document",
+        "desc": "Choose a photo, scan or PDF containing handwritten content. Supported images are automatically prepared for recognition."
+      },
+      {
+        "title": "Recognize and rebuild",
+        "desc": "NoteOCR reads the handwriting and identifies document elements such as paragraphs, headings, lists and tables."
+      },
+      {
+        "title": "Edit and export",
+        "desc": "Review and correct the converted content in the editor, then export it to Word, Excel or PDF."
+      }
+    ],
+
+    "scope_title": "What NoteOCR can and cannot handle",
+    "scope_desc": "Understanding what affects handwriting recognition helps you get better conversion results.",
+    "audience_title": "Who uses NoteOCR",
+    "audience_desc": "People who work with handwriting every day use NoteOCR to save time on manual typing.",
+
+    "audiences": [
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Students and teachers",
+        "desc": "Turn handwritten lecture notes, lesson plans and assignments into editable documents.",
+        "cta": "Convert notes to Word"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Small businesses",
+        "desc": "Move handwritten invoices, receipts and sales records into spreadsheets.",
+        "cta": "Convert invoices to Excel"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Managers and HR teams",
+        "desc": "Digitize handwritten timesheets and attendance sheets for payroll and reporting.",
+        "cta": "Convert timesheets to Excel"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Warehouses and shops",
+        "desc": "Turn handwritten stock counts and inventory logs into organized spreadsheets.",
+        "cta": "Convert inventory to Excel"
+      }
+    ],
+    "drop_overlay": "Drop your image to convert it",
+    "languages_title": "Supported languages",
+    "languages_list": [
+      "English",
+      "Español",
+      "Français",
+      "Deutsch",
+      "Italiano",
+      "Português (Brasil)",
+      "Nederlands",
+      "Dansk",
+      "Norsk",
+      "Svenska",
+      "Suomi",
+      "Türkçe",
+      "हिन्दी",
+      "日本語",
+      "中文",
+      "And many more"
+    ],
+    "proof_desc": "Feedback from people using NoteOCR to convert handwriting.",
+    "case_cta": "Learn more",
+    "compare_noteocr": "NoteOCR",
+    "aria_features": "NoteOCR features",
+    "aria_privacy_pricing": "Privacy and pricing information",
+
+    "how_detail": "NoteOCR is built for handwriting rather than just printed text. After you upload a photo, scan or PDF, it reads the writing and works out whether each part is a paragraph, heading, list or table. Handwritten tables become rows and columns in Excel, and notes become formatted text in Word. You can then fix anything it got wrong in the editor before you download. For best results, use a well-lit, sharp image and double-check names, dates and figures.",
+    "pricing_from": "Plans start at $12 for 100 pages.",
+    "retention_note": "",
+    "store_rating": "1,000 pages converted daily",
+    "scope_can_title": "What NoteOCR supports",
+    "scope_can": [
+      "Printed and cursive handwriting",
+      "Handwritten tables, invoices, timesheets and lists",
+      "Multiple languages, including Latin-script languages and more",
+      "Old handwritten letters.",
+      "Photos, scanned documents and supported PDF files",
+      "Conversion into editable Word, Excel and PDF files"
+    ],
+
+    "scope_cannot_title": "Current limitations",
+    "scope_cannot": [
+      "Very faded, blurred or heavily shadowed images may produce poor results",
+      "Notes that contains unclear diagrams",
+      "Images larger than 10 MB in the free demo"
+    ],
+
+    "accuracy_note": "Recognition quality depends on handwriting clarity, image resolution, lighting and document condition. Clear handwriting generally produces better results. Always review important names, dates and figures after conversion.",
+
+    "compare_title": "How NoteOCR differs from traditional OCR",
+    "compare_desc": "Many general OCR tools focus on extracting text. NoteOCR is designed to recognize handwriting and help rebuild document structures into editable files.",
+
+    "compare_feature": "Feature",
+    "compare_traditional": "General OCR tools",
+
+    "compare_rows": [
+      {
+        "feature": "Handwriting",
+        "traditional": "Handwriting support varies between tools",
+        "noteocr": "Designed for handwritten text, including cursive and messy handwriting"
+      },
+      {
+        "feature": "Tables",
+        "traditional": "Table structure may need manual correction",
+        "noteocr": "Recognizes table layouts and organizes data into Excel cells"
+      },
+      {
+        "feature": "Output",
+        "traditional": "Often provides extracted text that needs further formatting",
+        "noteocr": "Creates editable Word, Excel and PDF documents"
+      },
+      {
+        "feature": "Editing",
+        "traditional": "May require copying content into another application",
+        "noteocr": "Includes an editor with a Word/Excel style toolbar"
+      }
+    ],
+
+    "privacy_title": "Your documents stay yours",
+    "privacy_desc": "Your documents may contain personal or business information. We don't use your documents to train models. Files are encrypted in transit and at rest, and you can delete them from your account at any time. See our privacy policy for details about data handling and retention.",
+    "privacy_link": "Read our privacy policy",
+
+    "pricing_title": "Preview for free, then edit and export",
+    "pricing_desc": "Try a conversion and review the result before paying. A paid plan unlocks document editing and Word, Excel and PDF downloads.",
+    "pricing_cta": "Compare plans",
+
+    "proof_title": "What users say",
+    "testimonials": [
+      {
+        "name": "ORJI CHARLES",
+        "role": "Tutor, Sapele Vocational Centre",
+        "quote": "Converting handwritten pages into editable Word documents saves me hours every week.",
+        "photo": "/"
+      },
+      {
+        "name": "VICTOR EREWA",
+        "role": "Student, University of Benin (UNIBEN)",
+        "quote": "NoteOCR saves me valuable time by turning my handwritten notes into editable documents, making my academic work much easier.",
+        "photo": "/"
+      },
+      {
+        "name": "REMY GBENEDION",
+        "role": "Excel User",
+        "quote": "I no longer have to manually type handwritten tables into Excel. NoteOCR accurately converts my drawn tables into properly formatted spreadsheets, saving me hours of data entry.",
+        "photo": "/"
+      }
+    ],
+
+    "faq_title": "Frequently asked questions",
+    "faq_items": [
+      {
+        "q": "What is NoteOCR?",
+        "a": "NoteOCR is a handwriting and document conversion platform. It converts handwritten notes, tables, invoices and timesheets from photos, scans and supported PDFs into editable Word, Excel and PDF files."
+      },
+      {
+        "q": "How accurate is NoteOCR's handwriting recognition?",
+        "a": "Recognition quality depends on handwriting clarity, image resolution, lighting and document condition. Clear handwriting generally produces better results, while messy writing and poor-quality images can affect recognition. Always review important names, dates and figures after converting."
+      },
+      {
+        "q": "Can NoteOCR recognize cursive handwriting?",
+        "a": "Yes. NoteOCR supports printed and cursive handwriting, including joined-up and slanted writing. Results depend on how clearly the handwriting is written and the quality of the uploaded image."
+      },
+      {
+        "q": "Can I try NoteOCR without creating an account?",
+        "a": "Yes. You can upload an image and preview the converted result without signing up. Editing and downloading the converted Word or Excel file requires a paid account."
+      },
+      {
+        "q": "Can NoteOCR convert handwritten tables to Excel?",
+        "a": "Yes. NoteOCR can recognize handwritten tables and organize their rows and columns into an editable Excel spreadsheet. You can use it for tables, invoices, timesheets and inventory records."
+      },
+      {
+        "q": "Which languages does NoteOCR support?",
+        "a": "NoteOCR supports multiple languages. Visit the handwriting recognition page for the current list of supported languages."
+      },
+      {
+        "q": "Which file formats can I upload?",
+        "a": "NoteOCR supports image uploads such as JPG, PNG and WebP, as well as supported PDF documents. The free demo accepts images up to 10 MB."
+      },
+      {
+        "q": "Are my uploaded documents private?",
+        "a": "We don't use your documents to train models, and files are encrypted in transit and at rest. You can review our privacy policy for information about document handling and file retention."
+      },
+      {
+        "q": "Does NoteOCR have a mobile app?",
+        "a": "Yes. NoteOCR is available on iPhone and Android. You can photograph handwritten documents and convert them using the mobile app. The app offers the same free preview as the website, while editing and downloading converted files requires a paid account."
+      }
+    ],
+
+    "final_title": "See how NoteOCR reads your handwriting",
+    "final_desc": "Upload a handwritten page and preview the converted result for yourself.",
+    "final_signup": "Create an account",
+
+    "app_line": "Also available on",
+    "app_ios": "iPhone",
+    "app_android": "Android",
+
+    "app_title": "Convert handwriting with your phone",
+    "app_desc": "Take NoteOCR with you. The app is available to download on iPhone and Android, letting you photograph handwritten documents, preview their conversion and edit them wherever you are.",
+
+    "app_points": [
+      "Capture handwritten notes, tables and forms with your phone camera",
+      "Preview converted results with the same free option available on the web",
+      "Edit and download Word and Excel documents with a paid account"
+    ],
+
+    "app_ios_cta": "Download on the App Store",
+    "app_android_cta": "Get it on Google Play",
+    "app_more": "Learn more about the mobile app",
+
+    "fact_1": "Recognizes printed and cursive writing",
+    "fact_2": "Exports to Word, Excel and PDF",
+    "fact_3": "Available on web, iPhone and Android",
+    "fact_4": "Free preview without signup",
+
+    "watch_title": "See a handwritten page become a document",
+    "watch_desc": "Watch how NoteOCR recognizes handwritten content and turns it into an editable digital document."
   },
   "Features": {
     "section_label": "The Ecosystem",
@@ -943,6 +1239,7 @@
     }
   },
   "WordPage": {
+    "drop_overlay": "Drop your image to convert it",
     "meta_title": "Convert Handwritten Notes to Word (DOCX) | NoteOCR",
     "meta_desc": "Stop retyping. Convert handwritten notes to editable Word documents with AI. Preserves lists, headers, and layout structure automatically.",
     "hero_pill": "Smart Document Recognition",
@@ -1028,7 +1325,7 @@
     "tool_upload_check_2": "Max 25MB",
     "tool_upload_check_3": "SSL Secure",
     "tool_processing_title": "Analyzing Handwriting...",
-    "tool_processing_desc": "AI recognizing characters and preserving layout",
+    "tool_processing_desc": " Recognizing characters and preserving layout",
     "tool_complete_title": "Conversion Complete!",
     "tool_complete_desc": "Your Word document is ready. Download and edit in Microsoft Word or Google Docs.",
     "tool_complete_file_type": "Word Document (.docx)",

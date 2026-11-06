@@ -697,21 +697,315 @@
       }
     }
   },
-
   "HomePage": {
-    "trust_pill": "V2.0 El Yazısı OCR: %99.2 Doğruluk",
-    "hero_title_1": "El Yazısını Metne ve Düzenlenebilir",
-    "hero_title_2": "Belgelere Dönüştürün.",
-    "hero_subtitle": "El yazısı notları, taranmış PDF formlarını veya beyaz tahta fotoğraflarını yükleyin. Motorumuz bunları saniyeler içinde düzenlenebilir Word, Excel ve PDF dosyalarına dönüştürür.",
-    "check_1": "Kredi kartı gerekmez",
-    "check_2": "Ayda 50 Ücretsiz dönüşüm",
-    "rating_text": "10 binden fazla kullanıcıdan 4.9/5 puan",
-    "cta_start": "Ücretsiz Başla",
-    "cta_upload": "Görsel Yükle",
-    "stat_time": "İşlem Süresi",
-    "stat_accuracy": "OCR Doğruluğu",
-    "meta_title": "El Yazısını Metne Dönüştürme | Yapay Zeka El Yazısı OCR | NoteOCR",
-    "meta_desc": "El yazısı notları anında düzenlenebilir dijital metne dönüştürün. Dünyanın en doğru yapay zeka destekli el yazısı OCR aracı."
+    "meta_title": "NoteOCR: El Yazısını Metne, Word ve Excel'e Dönüştürün",
+    "meta_desc": "El yazısı notları, tabloları, faturaları ve puantajları fotoğraf, tarama veya PDF'ten düzenlenebilir Word ve Excel dosyalarına dönüştürün. Kayıt olmadan ücretsiz deneyin.",
+
+    "h1": "El yazısı notları düzenlenebilir Word ve Excel dosyalarına dönüştürün",
+    "subtitle": "El yazısı notların, tabloların, faturaların veya puantaj çizelgelerinin fotoğrafını ya da taramasını yükleyin. NoteOCR el yazısını tanır ve yapısını düzenlenebilir bir belge olarak yeniden oluşturur.",
+    "cta_try": "Ücretsiz dönüştürmeyi deneyin",
+    "cta_pricing": "Fiyatları görün",
+    "trust_line": "Kayıt olmadan bir dönüştürme deneyin. Ücretli bir plan seçmeden önce sonucu inceleyin.",
+
+    "demo_title": "Kendi el yazınızla deneyin",
+    "demo_desc": "Bir görsel yükleyin ve NoteOCR'ın onu nasıl dönüştürdüğünü görün. Hesap oluşturmadan sonucun önizlemesini görebilirsiniz.",
+    "demo_drop": "Bir görseli buraya bırakın veya yüklemek için tıklayın",
+    "demo_formats": "JPG, PNG veya WebP, en fazla 10 MB",
+    "demo_busy": "El yazınız tanınıyor...",
+    "demo_err_type": "Bu dosya türü desteklenmiyor. Lütfen JPG, PNG veya WebP biçiminde bir görsel yükleyin.",
+    "demo_err_size": "Bu görsel 10 MB sınırını aşıyor. Lütfen daha küçük bir görsel yükleyin.",
+    "demo_err_generic": "Dönüştürme başarısız oldu. Lütfen tekrar deneyin veya daha net ve daha iyi aydınlatılmış bir görsel yükleyin.",
+    "demo_locked_title": "Dönüştürülen sonucunuz hazır",
+    "demo_locked_desc": "Word veya Excel dosyanızı düzenlemek ve indirmek için ücretli bir hesaba ihtiyacınız var.",
+    "demo_unlock": "Mevcut planları görün",
+    "demo_again": "Başka bir görseli dönüştürün",
+
+    "samples_title": "El yazısı belgelerin nasıl dönüştüğünü görün",
+    "samples_desc": "NoteOCR ile dönüştürülmüş el yazısı belge örneklerini inceleyin. Sonuçlar el yazısına ve görsel kalitesine göre değişebilir.",
+    "before": "Orijinal belge",
+    "samples": [
+      {
+        "title": "El yazısı notlardan Word'e",
+        "caption": "El yazısı paragrafları, başlıkları ve listeleri düzenlenebilir bir Word belgesine dönüştürün.",
+        "before": "/images/noteocr-word-before.png",
+        "before_alt": "El yazısı toplantı notlarının fotoğrafı",
+        "after": "/images/noteocr-word-after.png",
+        "after_alt": "Aynı el yazısı notların düzenlenebilir bir Word belgesine dönüştürülmüş hâli",
+        "after_label": "Anında Word'e dönüştürüldü (yazmaya gerek yok)"
+      },
+      {
+        "title": "El yazısı tablodan Excel'e",
+        "caption": "El yazısı satır ve sütunları, değiştirip düzenleyebileceğiniz elektronik tablo hücrelerine dönüştürün.",
+        "before": "/images/noteocr-excel-before.png",
+        "before_alt": "Rakamlar içeren el yazısı bir tablonun fotoğrafı",
+        "after": "/images/noteocr-excel-after.png",
+        "after_alt": "Aynı el yazısı tablonun düzenlenebilir bir Excel elektronik tablosuna dönüştürülmüş hâli",
+        "after_label": "Anında Excel'e dönüştürüldü (yazmaya gerek yok)"
+      }
+    ],
+
+    "video_label": "Bir NoteOCR dönüştürmesini izleyin",
+    "video_alt": "NoteOCR'ın el yazısı bir notu düzenlenebilir belgeye dönüştürmesinin gösterimi",
+
+    "cases_title": "Neyi dönüştürmek istediğinizi seçin",
+    "cases_desc": "Farklı belge türleri için el yazısı dönüştürme araçlarını ve kılavuzlarını keşfedin.",
+
+    "use_cases": [
+      {
+        "href": "/handwriting-recognition",
+        "title": "El yazısından metne",
+        "desc": "El yazısı notları, mektupları ve günlükleri düzenlenebilir dijital metne dönüştürün."
+      },
+      {
+        "href": "/handwriting-to-docx",
+        "title": "El yazısından Word'e",
+        "desc": "El yazısı sayfaları paragraf, başlık ve listeler içeren düzenlenebilir Word belgelerine dönüştürün."
+      },
+      {
+        "href": "/handwriting-to-excel",
+        "title": "El yazısından Excel'e",
+        "desc": "El yazısı tabloları, kayıtları ve günlükleri düzenlenebilir Excel elektronik tablolarına dönüştürün."
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "El yazısı faturadan Excel'e",
+        "desc": "El yazısı faturadaki bilgileri, miktarları ve toplamları bir elektronik tabloya aktarın."
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "El yazısı puantajdan Excel'e",
+        "desc": "El yazısı çalışma saatlerini ve devam kayıtlarını elektronik tablo verisine dönüştürün."
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "El yazısı envanterden Excel'e",
+        "desc": "El yazısı stok sayımlarını ve envanter kayıtlarını düzenlenebilir bir elektronik tabloya taşıyın."
+      }
+    ],
+
+    "how_title": "NoteOCR nasıl çalışır",
+    "steps": [
+      {
+        "title": "Belgenizi yükleyin",
+        "desc": "El yazısı içerik barındıran bir fotoğraf, tarama veya PDF seçin. Desteklenen görseller tanıma için otomatik olarak hazırlanır."
+      },
+      {
+        "title": "Tanıyın ve yeniden oluşturun",
+        "desc": "NoteOCR el yazısını okur; paragraf, başlık, liste ve tablo gibi belge öğelerini belirler."
+      },
+      {
+        "title": "Düzenleyin ve dışa aktarın",
+        "desc": "Dönüştürülen içeriği düzenleyicide inceleyip düzeltin, ardından Word, Excel veya PDF olarak dışa aktarın."
+      }
+    ],
+
+    "scope_title": "NoteOCR neleri yapabilir, neleri yapamaz",
+    "scope_desc": "El yazısı tanımayı nelerin etkilediğini bilmek, daha iyi dönüştürme sonuçları almanıza yardımcı olur.",
+    "audience_title": "NoteOCR'ı kimler kullanıyor",
+    "audience_desc": "Her gün el yazısıyla çalışan insanlar, elle yazma işinden zaman kazanmak için NoteOCR'ı kullanıyor.",
+
+    "audiences": [
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Öğrenciler ve öğretmenler",
+        "desc": "El yazısı ders notlarını, ders planlarını ve ödevleri düzenlenebilir belgelere dönüştürün.",
+        "cta": "Notları Word'e dönüştürün"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Küçük işletmeler",
+        "desc": "El yazısı faturaları, fişleri ve satış kayıtlarını elektronik tablolara aktarın.",
+        "cta": "Faturaları Excel'e dönüştürün"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Yöneticiler ve İK ekipleri",
+        "desc": "Bordro ve raporlama için el yazısı puantajları ve devam çizelgelerini dijitalleştirin.",
+        "cta": "Puantajları Excel'e dönüştürün"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Depolar ve mağazalar",
+        "desc": "El yazısı stok sayımlarını ve envanter kayıtlarını düzenli elektronik tablolara dönüştürün.",
+        "cta": "Envanteri Excel'e dönüştürün"
+      }
+    ],
+    "drop_overlay": "Dönüştürmek için görselinizi bırakın",
+    "languages_title": "Desteklenen diller",
+    "languages_list": [
+      "English",
+      "Español",
+      "Français",
+      "Deutsch",
+      "Italiano",
+      "Português (Brasil)",
+      "Nederlands",
+      "Dansk",
+      "Norsk",
+      "Svenska",
+      "Suomi",
+      "Türkçe",
+      "हिन्दी",
+      "日本語",
+      "中文",
+      "ve çok daha fazlası"
+    ],
+    "proof_desc": "El yazısını dönüştürmek için NoteOCR'ı kullanan kişilerin geri bildirimleri.",
+    "case_cta": "Daha fazla bilgi",
+    "compare_noteocr": "NoteOCR",
+    "aria_features": "NoteOCR özellikleri",
+    "aria_privacy_pricing": "Gizlilik ve fiyatlandırma bilgileri",
+
+    "how_detail": "NoteOCR yalnızca basılı metin için değil, el yazısı için geliştirildi. Bir fotoğraf, tarama veya PDF yüklediğinizde yazıyı okur ve her bölümün paragraf, başlık, liste ya da tablo olduğunu belirler. El yazısı tablolar Excel'de satır ve sütunlara, notlar ise Word'de biçimlendirilmiş metne dönüşür. İndirmeden önce düzenleyicide hatalı gördüğünüz her şeyi düzeltebilirsiniz. En iyi sonuç için iyi aydınlatılmış, net bir görsel kullanın ve isimleri, tarihleri ve rakamları bir kez daha kontrol edin.",
+    "pricing_from": "Planlar 100 sayfa için 12 $'dan başlar.",
+    "retention_note": "",
+    "store_rating": "Günde 1.000 sayfa dönüştürülüyor",
+    "scope_can_title": "NoteOCR neleri destekler",
+    "scope_can": [
+      "Basılı harflerle ve bitişik el yazısı",
+      "El yazısı tablolar, faturalar, puantajlar ve listeler",
+      "Latin alfabesini kullanan diller dahil birçok dil",
+      "Eski el yazısı mektuplar",
+      "Fotoğraflar, taranmış belgeler ve desteklenen PDF dosyaları",
+      "Düzenlenebilir Word, Excel ve PDF dosyalarına dönüştürme"
+    ],
+
+    "scope_cannot_title": "Mevcut sınırlamalar",
+    "scope_cannot": [
+      "Çok soluk, bulanık veya yoğun gölgeli görseller zayıf sonuçlar verebilir",
+      "Belirsiz diyagramlar içeren notlar",
+      "Ücretsiz demoda 10 MB'tan büyük görseller"
+    ],
+
+    "accuracy_note": "Tanıma kalitesi; el yazısının okunaklılığına, görsel çözünürlüğüne, aydınlatmaya ve belgenin durumuna bağlıdır. Okunaklı el yazısı genellikle daha iyi sonuç verir. Dönüştürmeden sonra önemli isimleri, tarihleri ve rakamları her zaman kontrol edin.",
+
+    "compare_title": "NoteOCR geleneksel OCR'dan nasıl ayrılır",
+    "compare_desc": "Birçok genel amaçlı OCR aracı metin çıkarmaya odaklanır. NoteOCR ise el yazısını tanımak ve belge yapısını düzenlenebilir dosyalar olarak yeniden oluşturmak için tasarlanmıştır.",
+
+    "compare_feature": "Özellik",
+    "compare_traditional": "Genel amaçlı OCR araçları",
+
+    "compare_rows": [
+      {
+        "feature": "El yazısı",
+        "traditional": "El yazısı desteği araçlar arasında farklılık gösterir",
+        "noteocr": "Bitişik ve düzensiz el yazısı dahil, el yazısı metinler için tasarlandı"
+      },
+      {
+        "feature": "Tablolar",
+        "traditional": "Tablo yapısının elle düzeltilmesi gerekebilir",
+        "noteocr": "Tablo düzenlerini tanır ve verileri Excel hücrelerine yerleştirir"
+      },
+      {
+        "feature": "Çıktı",
+        "traditional": "Genellikle ayrıca biçimlendirilmesi gereken çıkarılmış metin sunar",
+        "noteocr": "Düzenlenebilir Word, Excel ve PDF belgeleri oluşturur"
+      },
+      {
+        "feature": "Düzenleme",
+        "traditional": "İçeriği başka bir uygulamaya kopyalamanız gerekebilir",
+        "noteocr": "Word/Excel tarzı araç çubuğuna sahip bir düzenleyici içerir"
+      }
+    ],
+
+    "privacy_title": "Belgeleriniz size ait kalır",
+    "privacy_desc": "Belgeleriniz kişisel veya ticari bilgiler içerebilir. Belgelerinizi modelleri eğitmek için kullanmıyoruz. Dosyalar iletim sırasında ve depolanırken şifrelenir; dilediğiniz zaman hesabınızdan silebilirsiniz. Verilerin işlenmesi ve saklanması hakkında ayrıntılar için gizlilik politikamıza bakın.",
+    "privacy_link": "Gizlilik politikamızı okuyun",
+
+    "pricing_title": "Ücretsiz önizleyin, sonra düzenleyin ve dışa aktarın",
+    "pricing_desc": "Ödeme yapmadan önce bir dönüştürme deneyin ve sonucu inceleyin. Ücretli plan, belge düzenlemeyi ve Word, Excel ile PDF olarak indirmeyi açar.",
+    "pricing_cta": "Planları karşılaştırın",
+
+    "proof_title": "Kullanıcılar ne diyor",
+    "testimonials": [
+      {
+        "name": "ORJI CHARLES",
+        "role": "Eğitmen, Sapele Vocational Centre",
+        "quote": "El yazısı sayfaları düzenlenebilir Word belgelerine dönüştürmek bana her hafta saatler kazandırıyor.",
+        "photo": "/"
+      },
+      {
+        "name": "VICTOR EREWA",
+        "role": "Öğrenci, University of Benin (UNIBEN)",
+        "quote": "NoteOCR, el yazısı notlarımı düzenlenebilir belgelere dönüştürerek bana değerli zaman kazandırıyor ve akademik çalışmalarımı çok daha kolay hâle getiriyor.",
+        "photo": "/"
+      },
+      {
+        "name": "REMY GBENEDION",
+        "role": "Excel Kullanıcısı",
+        "quote": "Artık el yazısı tabloları Excel'e elle yazmak zorunda değilim. NoteOCR çizdiğim tabloları doğru şekilde düzgün biçimlendirilmiş elektronik tablolara dönüştürüyor ve beni saatler süren veri girişinden kurtarıyor.",
+        "photo": "/"
+      }
+    ],
+
+    "faq_title": "Sık sorulan sorular",
+    "faq_items": [
+      {
+        "q": "NoteOCR nedir?",
+        "a": "NoteOCR, bir el yazısı tanıma ve belge dönüştürme platformudur. Fotoğraflardan, taramalardan ve desteklenen PDF'lerden el yazısı notları, tabloları, faturaları ve puantajları düzenlenebilir Word, Excel ve PDF dosyalarına dönüştürür."
+      },
+      {
+        "q": "NoteOCR'ın el yazısı tanıması ne kadar doğru?",
+        "a": "Tanıma kalitesi; el yazısının okunaklılığına, görsel çözünürlüğüne, aydınlatmaya ve belgenin durumuna bağlıdır. Okunaklı el yazısı genellikle daha iyi sonuç verirken, düzensiz yazı ve düşük kaliteli görseller tanımayı etkileyebilir. Dönüştürdükten sonra önemli isimleri, tarihleri ve rakamları her zaman kontrol edin."
+      },
+      {
+        "q": "NoteOCR bitişik el yazısını tanıyabilir mi?",
+        "a": "Evet. NoteOCR hem basılı harflerle yazılmış hem de bitişik el yazısını destekler; harfleri birbirine bağlanan ve eğik yazıları da tanır. Sonuçlar, yazının ne kadar okunaklı olduğuna ve yüklenen görselin kalitesine bağlıdır."
+      },
+      {
+        "q": "NoteOCR'ı hesap oluşturmadan deneyebilir miyim?",
+        "a": "Evet. Kayıt olmadan bir görsel yükleyip dönüştürülen sonucun önizlemesini görebilirsiniz. Dönüştürülen Word veya Excel dosyasını düzenlemek ve indirmek için ücretli bir hesap gerekir."
+      },
+      {
+        "q": "NoteOCR el yazısı tabloları Excel'e dönüştürebilir mi?",
+        "a": "Evet. NoteOCR el yazısı tabloları tanıyabilir ve satır ile sütunlarını düzenlenebilir bir Excel elektronik tablosunda düzenleyebilir. Bunu tablolar, faturalar, puantajlar ve envanter kayıtları için kullanabilirsiniz."
+      },
+      {
+        "q": "NoteOCR hangi dilleri destekliyor?",
+        "a": "NoteOCR birden fazla dili destekler. Desteklenen dillerin güncel listesi için el yazısı tanıma sayfasını ziyaret edin."
+      },
+      {
+        "q": "Hangi dosya biçimlerini yükleyebilirim?",
+        "a": "NoteOCR, JPG, PNG ve WebP gibi görsel yüklemelerinin yanı sıra desteklenen PDF belgelerini de destekler. Ücretsiz demo 10 MB'a kadar görselleri kabul eder."
+      },
+      {
+        "q": "Yüklediğim belgeler gizli mi kalıyor?",
+        "a": "Belgelerinizi modelleri eğitmek için kullanmıyoruz ve dosyalar iletim sırasında ve depolanırken şifrelenir. Belgelerin işlenmesi ve dosyaların saklanması hakkında bilgi için gizlilik politikamıza göz atabilirsiniz."
+      },
+      {
+        "q": "NoteOCR'ın mobil uygulaması var mı?",
+        "a": "Evet. NoteOCR iPhone ve Android'de kullanılabilir. El yazısı belgelerin fotoğrafını çekip mobil uygulamayla dönüştürebilirsiniz. Uygulama, web sitesindeki ücretsiz önizlemenin aynısını sunar; dönüştürülen dosyaları düzenlemek ve indirmek için ise ücretli bir hesap gerekir."
+      }
+    ],
+
+    "final_title": "NoteOCR'ın el yazınızı nasıl okuduğunu görün",
+    "final_desc": "El yazısı bir sayfa yükleyin ve dönüştürülen sonucun önizlemesini kendiniz görün.",
+    "final_signup": "Hesap oluşturun",
+
+    "app_line": "Şurada da mevcut",
+    "app_ios": "iPhone",
+    "app_android": "Android",
+
+    "app_title": "El yazısını telefonunuzla dönüştürün",
+    "app_desc": "NoteOCR'ı yanınızda taşıyın. Uygulama iPhone ve Android için indirilebilir; el yazısı belgelerin fotoğrafını çekebilir, dönüştürmenin önizlemesini görebilir ve nerede olursanız olun düzenleyebilirsiniz.",
+
+    "app_points": [
+      "El yazısı notları, tabloları ve formları telefonunuzun kamerasıyla yakalayın",
+      "Dönüştürülen sonuçları webdekiyle aynı ücretsiz seçenekle önizleyin",
+      "Ücretli bir hesapla Word ve Excel belgelerini düzenleyin ve indirin"
+    ],
+
+    "app_ios_cta": "App Store'dan indirin",
+    "app_android_cta": "Google Play'den edinin",
+    "app_more": "Mobil uygulama hakkında daha fazla bilgi edinin",
+
+    "fact_1": "Basılı harfli ve bitişik yazıyı tanır",
+    "fact_2": "Word, Excel ve PDF olarak dışa aktarır",
+    "fact_3": "Web, iPhone ve Android'de kullanılabilir",
+    "fact_4": "Kayıt gerektirmeyen ücretsiz önizleme",
+
+    "watch_title": "El yazısı bir sayfanın belgeye dönüşümünü izleyin",
+    "watch_desc": "NoteOCR'ın el yazısı içeriği nasıl tanıdığını ve düzenlenebilir dijital bir belgeye dönüştürdüğünü izleyin."
   },
   "Features": {
     "section_label": "Ekosistem",

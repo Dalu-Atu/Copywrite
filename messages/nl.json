@@ -699,19 +699,314 @@
   },
 
   "HomePage": {
-    "trust_pill": "V2.0 Handschrift OCR: 99,2% Nauwkeurigheid",
-    "hero_title_1": "Zet Handschrift om naar Tekst en",
-    "hero_title_2": "Bewerkbare Documenten.",
-    "hero_subtitle": "Upload handgeschreven notities, gescande PDF-formulieren of whiteboard-foto's. Onze Engine zet ze in enkele seconden om in bewerkbare Word-, Excel- en PDF-bestanden.",
-    "check_1": "Geen creditcard vereist",
-    "check_2": "10.000+ afbeeldingen omgezet naar documenten",
-    "rating_text": "4,9/5 van 10.000+ gebruikers",
-    "cta_start": "Start Gratis",
-    "cta_upload": "Afbeelding Uploaden",
-    "stat_time": "Verwerkingstijd",
-    "stat_accuracy": "OCR Nauwkeurigheid",
-    "meta_title": "Handschrift naar Tekst Converter | AI Cursief OCR | NoteOCR",
-    "meta_desc": "Zet aan elkaar geschreven (cursieve) notities direct om in bewerkbare digitale tekst. 's Werelds meest nauwkeurige AI-handschrift OCR."
+    "meta_title": "NoteOCR: handschrift omzetten naar tekst, Word en Excel",
+    "meta_desc": "Zet handgeschreven notities, tabellen, facturen en urenstaten van foto, scan of pdf om naar bewerkbare Word- en Excel-bestanden. Probeer gratis zonder account.",
+
+    "h1": "Zet handgeschreven notities om naar bewerkbare Word- en Excel-bestanden",
+    "subtitle": "Upload een foto of scan van handgeschreven notities, tabellen, facturen of urenstaten. NoteOCR herkent het handschrift en bouwt de structuur opnieuw op als bewerkbaar document.",
+    "cta_try": "Probeer een gratis conversie",
+    "cta_pricing": "Bekijk de prijzen",
+    "trust_line": "Probeer een conversie zonder je aan te melden. Bekijk het resultaat voordat je een betaald abonnement kiest.",
+
+    "demo_title": "Probeer het met je eigen handschrift",
+    "demo_desc": "Upload een afbeelding en bekijk hoe NoteOCR die omzet. Je kunt een voorbeeld van het resultaat bekijken zonder account.",
+    "demo_drop": "Sleep een afbeelding hierheen of klik om te uploaden",
+    "demo_formats": "JPG, PNG of WebP, tot 10 MB",
+    "demo_busy": "Je handschrift wordt herkend...",
+    "demo_err_type": "Dit bestandstype wordt niet ondersteund. Upload een JPG-, PNG- of WebP-afbeelding.",
+    "demo_err_size": "Deze afbeelding is groter dan de limiet van 10 MB. Upload een kleinere afbeelding.",
+    "demo_err_generic": "De conversie is mislukt. Probeer het opnieuw of upload een scherpere, beter verlichte afbeelding.",
+    "demo_locked_title": "Je omgezette resultaat is klaar",
+    "demo_locked_desc": "Om je Word- of Excel-bestand te bewerken en te downloaden heb je een betaald account nodig.",
+    "demo_unlock": "Bekijk de beschikbare abonnementen",
+    "demo_again": "Nog een afbeelding omzetten",
+
+    "samples_title": "Zie hoe handgeschreven documenten worden omgezet",
+    "samples_desc": "Bekijk voorbeelden van handgeschreven documenten die met NoteOCR zijn omgezet. De resultaten kunnen verschillen, afhankelijk van het handschrift en de beeldkwaliteit.",
+    "before": "Originele document",
+    "samples": [
+      {
+        "title": "Handgeschreven notities naar Word",
+        "caption": "Zet handgeschreven alinea's, koppen en lijsten om naar een bewerkbaar Word-document.",
+        "before": "/images/noteocr-word-before.png",
+        "before_alt": "Foto van handgeschreven vergadernotities",
+        "after": "/images/noteocr-word-after.png",
+        "after_alt": "Dezelfde handgeschreven notities omgezet naar een bewerkbaar Word-document",
+        "after_label": "Direct omgezet naar Word (zonder typen)"
+      },
+      {
+        "title": "Handgeschreven tabel naar Excel",
+        "caption": "Maak van handgeschreven rijen en kolommen spreadsheetcellen die je kunt bewerken en ordenen.",
+        "before": "/images/noteocr-excel-before.png",
+        "before_alt": "Foto van een handgeschreven tabel met cijfers",
+        "after": "/images/noteocr-excel-after.png",
+        "after_alt": "Dezelfde handgeschreven tabel omgezet naar een bewerkbare Excel-spreadsheet",
+        "after_label": "Direct omgezet naar Excel (zonder typen)"
+      }
+    ],
+
+    "video_label": "Bekijk een conversie met NoteOCR",
+    "video_alt": "Demonstratie van NoteOCR die een handgeschreven notitie omzet naar een bewerkbaar document",
+
+    "cases_title": "Kies wat je wilt omzetten",
+    "cases_desc": "Ontdek specifieke tools en handleidingen voor het omzetten van handschrift voor verschillende soorten documenten.",
+
+    "use_cases": [
+      {
+        "href": "/handwriting-recognition",
+        "title": "Handschrift naar tekst",
+        "desc": "Zet handgeschreven notities, brieven en dagboeken om naar bewerkbare digitale tekst."
+      },
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Handschrift naar Word",
+        "desc": "Maak van handgeschreven pagina's bewerkbare Word-documenten met alinea's, koppen en lijsten."
+      },
+      {
+        "href": "/handwriting-to-excel",
+        "title": "Handschrift naar Excel",
+        "desc": "Zet handgeschreven tabellen, registraties en logboeken om naar bewerkbare Excel-spreadsheets."
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Handgeschreven factuur naar Excel",
+        "desc": "Haal gegevens, aantallen en totalen uit handgeschreven facturen naar een spreadsheet."
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Handgeschreven urenstaat naar Excel",
+        "desc": "Zet handgeschreven werkuren en aanwezigheidsregistraties om naar spreadsheetgegevens."
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Handgeschreven voorraadlijst naar Excel",
+        "desc": "Breng handgeschreven voorraadtellingen en inventarisgegevens over naar een bewerkbare spreadsheet."
+      }
+    ],
+
+    "how_title": "Zo werkt NoteOCR",
+    "steps": [
+      {
+        "title": "Upload je document",
+        "desc": "Kies een foto, scan of pdf met handgeschreven inhoud. Ondersteunde afbeeldingen worden automatisch voorbereid op herkenning."
+      },
+      {
+        "title": "Herkennen en opnieuw opbouwen",
+        "desc": "NoteOCR leest het handschrift en herkent documentelementen zoals alinea's, koppen, lijsten en tabellen."
+      },
+      {
+        "title": "Bewerken en exporteren",
+        "desc": "Controleer en corrigeer de omgezette inhoud in de editor en exporteer die daarna naar Word, Excel of pdf."
+      }
+    ],
+
+    "scope_title": "Wat NoteOCR wel en niet aankan",
+    "scope_desc": "Als je weet wat de herkenning van handschrift beïnvloedt, krijg je betere resultaten.",
+    "audience_title": "Wie gebruikt NoteOCR",
+    "audience_desc": "Mensen die dagelijks met handschrift werken, gebruiken NoteOCR om tijd te besparen op handmatig overtypen.",
+
+    "audiences": [
+      {
+        "href": "/handwriting-to-docx",
+        "title": "Studenten en docenten",
+        "desc": "Zet handgeschreven collegeaantekeningen, lesplannen en opdrachten om naar bewerkbare documenten.",
+        "cta": "Zet notities om naar Word"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "Kleine bedrijven",
+        "desc": "Breng handgeschreven facturen, bonnen en verkoopregistraties over naar spreadsheets.",
+        "cta": "Zet facturen om naar Excel"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "Managers en hr-teams",
+        "desc": "Digitaliseer handgeschreven urenstaten en aanwezigheidslijsten voor de salarisadministratie en rapportages.",
+        "cta": "Zet urenstaten om naar Excel"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "Magazijnen en winkels",
+        "desc": "Maak van handgeschreven voorraadtellingen en inventarislijsten overzichtelijke spreadsheets.",
+        "cta": "Zet voorraadlijsten om naar Excel"
+      }
+    ],
+    "drop_overlay": "Sleep je afbeelding hierheen om hem om te zetten",
+    "languages_title": "Ondersteunde talen",
+    "languages_list": [
+      "English",
+      "Español",
+      "Français",
+      "Deutsch",
+      "Italiano",
+      "Português (Brasil)",
+      "Nederlands",
+      "Dansk",
+      "Norsk",
+      "Svenska",
+      "Suomi",
+      "Türkçe",
+      "हिन्दी",
+      "日本語",
+      "中文",
+      "en nog veel meer"
+    ],
+    "proof_desc": "Ervaringen van mensen die NoteOCR gebruiken om handschrift om te zetten.",
+    "case_cta": "Meer informatie",
+    "compare_noteocr": "NoteOCR",
+    "aria_features": "Functies van NoteOCR",
+    "aria_privacy_pricing": "Informatie over privacy en prijzen",
+
+    "how_detail": "NoteOCR is gebouwd voor handschrift, niet alleen voor gedrukte tekst. Nadat je een foto, scan of pdf hebt geüpload, leest het de tekst en bepaalt het of elk deel een alinea, kop, lijst of tabel is. Handgeschreven tabellen worden rijen en kolommen in Excel en notities worden opgemaakte tekst in Word. Voordat je downloadt, kun je in de editor alles corrigeren wat niet klopt. Gebruik voor het beste resultaat een scherpe, goed verlichte afbeelding en controleer namen, data en cijfers nog een keer.",
+    "pricing_from": "Abonnementen vanaf $12 voor 100 pagina's.",
+    "retention_note": "",
+    "store_rating": "1.000 pagina's per dag omgezet",
+    "scope_can_title": "Wat NoteOCR ondersteunt",
+    "scope_can": [
+      "Blokletters en schrijfletters",
+      "Handgeschreven tabellen, facturen, urenstaten en lijsten",
+      "Meerdere talen, waaronder talen met het Latijnse alfabet en meer",
+      "Oude handgeschreven brieven",
+      "Foto's, gescande documenten en ondersteunde pdf-bestanden",
+      "Omzetting naar bewerkbare Word-, Excel- en pdf-bestanden"
+    ],
+
+    "scope_cannot_title": "Huidige beperkingen",
+    "scope_cannot": [
+      "Zeer vage, onscherpe of sterk beschaduwde afbeeldingen kunnen een slecht resultaat geven",
+      "Notities met onduidelijke diagrammen",
+      "Afbeeldingen groter dan 10 MB in de gratis demo"
+    ],
+
+    "accuracy_note": "De kwaliteit van de herkenning hangt af van hoe duidelijk het handschrift is, de resolutie van de afbeelding, de verlichting en de staat van het document. Duidelijk handschrift levert doorgaans betere resultaten op. Controleer belangrijke namen, data en cijfers na de omzetting altijd.",
+
+    "compare_title": "Hoe NoteOCR verschilt van traditionele OCR",
+    "compare_desc": "Veel algemene OCR-tools richten zich op het uitlezen van tekst. NoteOCR is ontworpen om handschrift te herkennen en documentstructuren opnieuw op te bouwen als bewerkbare bestanden.",
+
+    "compare_feature": "Functie",
+    "compare_traditional": "Algemene OCR-tools",
+
+    "compare_rows": [
+      {
+        "feature": "Handschrift",
+        "traditional": "De ondersteuning voor handschrift verschilt per tool",
+        "noteocr": "Ontworpen voor handgeschreven tekst, ook schrijfschrift en slordig handschrift"
+      },
+      {
+        "feature": "Tabellen",
+        "traditional": "De tabelstructuur moet mogelijk handmatig worden gecorrigeerd",
+        "noteocr": "Herkent tabelindelingen en ordent de gegevens in Excel-cellen"
+      },
+      {
+        "feature": "Resultaat",
+        "traditional": "Levert vaak uitgelezen tekst op die nog opgemaakt moet worden",
+        "noteocr": "Maakt bewerkbare Word-, Excel- en pdf-documenten"
+      },
+      {
+        "feature": "Bewerken",
+        "traditional": "Mogelijk moet je de inhoud naar een andere toepassing kopiëren",
+        "noteocr": "Bevat een editor met een werkbalk in Word-/Excel-stijl"
+      }
+    ],
+
+    "privacy_title": "Je documenten blijven van jou",
+    "privacy_desc": "Je documenten kunnen persoonlijke of zakelijke gegevens bevatten. Wij gebruiken je documenten niet om modellen te trainen. Bestanden worden tijdens verzending en opslag versleuteld en je kunt ze op elk moment uit je account verwijderen. Lees ons privacybeleid voor meer informatie over gegevensverwerking en bewaartermijnen.",
+    "privacy_link": "Lees ons privacybeleid",
+
+    "pricing_title": "Bekijk gratis een voorbeeld, bewerk en exporteer daarna",
+    "pricing_desc": "Probeer een conversie en bekijk het resultaat voordat je betaalt. Met een betaald abonnement kun je documenten bewerken en downloaden als Word-, Excel- en pdf-bestand.",
+    "pricing_cta": "Vergelijk abonnementen",
+
+    "proof_title": "Wat gebruikers zeggen",
+    "testimonials": [
+      {
+        "name": "ORJI CHARLES",
+        "role": "Tutor, Sapele Vocational Centre",
+        "quote": "Handgeschreven pagina's omzetten naar bewerkbare Word-documenten scheelt me elke week uren.",
+        "photo": "/"
+      },
+      {
+        "name": "VICTOR EREWA",
+        "role": "Student, University of Benin (UNIBEN)",
+        "quote": "NoteOCR bespaart me kostbare tijd door mijn handgeschreven aantekeningen om te zetten naar bewerkbare documenten, waardoor mijn studiewerk een stuk gemakkelijker wordt.",
+        "photo": "/"
+      },
+      {
+        "name": "REMY GBENEDION",
+        "role": "Excel-gebruiker",
+        "quote": "Ik hoef handgeschreven tabellen niet meer handmatig in Excel te typen. NoteOCR zet mijn getekende tabellen nauwkeurig om naar netjes opgemaakte spreadsheets en bespaart me uren aan data-invoer.",
+        "photo": "/"
+      }
+    ],
+
+    "faq_title": "Veelgestelde vragen",
+    "faq_items": [
+      {
+        "q": "Wat is NoteOCR?",
+        "a": "NoteOCR is een platform voor handschriftherkenning en documentconversie. Het zet handgeschreven notities, tabellen, facturen en urenstaten van foto's, scans en ondersteunde pdf's om naar bewerkbare Word-, Excel- en pdf-bestanden."
+      },
+      {
+        "q": "Hoe nauwkeurig is de handschriftherkenning van NoteOCR?",
+        "a": "De kwaliteit van de herkenning hangt af van hoe duidelijk het handschrift is, de resolutie van de afbeelding, de verlichting en de staat van het document. Duidelijk handschrift levert doorgaans betere resultaten op, terwijl slordig handschrift en afbeeldingen van lage kwaliteit de herkenning kunnen beïnvloeden. Controleer belangrijke namen, data en cijfers na het omzetten altijd."
+      },
+      {
+        "q": "Kan NoteOCR schrijfschrift herkennen?",
+        "a": "Ja. NoteOCR ondersteunt blokletters en schrijfschrift, ook aaneengeschreven en schuin handschrift. De resultaten hangen af van hoe duidelijk er geschreven is en van de kwaliteit van de geüploade afbeelding."
+      },
+      {
+        "q": "Kan ik NoteOCR proberen zonder account?",
+        "a": "Ja. Je kunt een afbeelding uploaden en een voorbeeld van het omgezette resultaat bekijken zonder je aan te melden. Voor het bewerken en downloaden van het omgezette Word- of Excel-bestand is een betaald account nodig."
+      },
+      {
+        "q": "Kan NoteOCR handgeschreven tabellen omzetten naar Excel?",
+        "a": "Ja. NoteOCR herkent handgeschreven tabellen en ordent de rijen en kolommen in een bewerkbare Excel-spreadsheet. Je kunt het gebruiken voor tabellen, facturen, urenstaten en voorraadlijsten."
+      },
+      {
+        "q": "Welke talen ondersteunt NoteOCR?",
+        "a": "NoteOCR ondersteunt meerdere talen. Bekijk de pagina over handschriftherkenning voor de actuele lijst met ondersteunde talen."
+      },
+      {
+        "q": "Welke bestandsformaten kan ik uploaden?",
+        "a": "NoteOCR ondersteunt afbeeldingen zoals JPG, PNG en WebP, en ondersteunde pdf-documenten. De gratis demo accepteert afbeeldingen tot 10 MB."
+      },
+      {
+        "q": "Zijn mijn geüploade documenten privé?",
+        "a": "Wij gebruiken je documenten niet om modellen te trainen en bestanden worden tijdens verzending en opslag versleuteld. In ons privacybeleid lees je hoe we met documenten omgaan en hoe lang bestanden worden bewaard."
+      },
+      {
+        "q": "Heeft NoteOCR een mobiele app?",
+        "a": "Ja. NoteOCR is beschikbaar voor iPhone en Android. Je kunt handgeschreven documenten fotograferen en omzetten met de mobiele app. De app biedt hetzelfde gratis voorbeeld als de website, terwijl je voor het bewerken en downloaden van omgezette bestanden een betaald account nodig hebt."
+      }
+    ],
+
+    "final_title": "Zie hoe NoteOCR jouw handschrift leest",
+    "final_desc": "Upload een handgeschreven pagina en bekijk zelf een voorbeeld van het omgezette resultaat.",
+    "final_signup": "Account aanmaken",
+
+    "app_line": "Ook beschikbaar voor",
+    "app_ios": "iPhone",
+    "app_android": "Android",
+
+    "app_title": "Zet handschrift om met je telefoon",
+    "app_desc": "Neem NoteOCR overal mee naartoe. De app is beschikbaar voor iPhone en Android, zodat je handgeschreven documenten kunt fotograferen, een voorbeeld van de conversie kunt bekijken en ze overal kunt bewerken.",
+
+    "app_points": [
+      "Leg handgeschreven notities, tabellen en formulieren vast met de camera van je telefoon",
+      "Bekijk een voorbeeld van de omgezette resultaten met dezelfde gratis optie als op het web",
+      "Bewerk en download Word- en Excel-documenten met een betaald account"
+    ],
+
+    "app_ios_cta": "Download in de App Store",
+    "app_android_cta": "Ontdek het op Google Play",
+    "app_more": "Meer informatie over de mobiele app",
+
+    "fact_1": "Herkent blokletters en schrijfschrift",
+    "fact_2": "Exporteert naar Word, Excel en pdf",
+    "fact_3": "Beschikbaar op web, iPhone en Android",
+    "fact_4": "Gratis voorbeeld zonder aanmelding",
+
+    "watch_title": "Zie hoe een handgeschreven pagina een document wordt",
+    "watch_desc": "Bekijk hoe NoteOCR handgeschreven inhoud herkent en omzet naar een bewerkbaar digitaal document."
   },
   "Features": {
     "section_label": "Het Ecosysteem",

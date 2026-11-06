@@ -699,19 +699,314 @@
   },
 
   "HomePage": {
-    "trust_pill": "V2.0 手写文字识别: 99.2% 准确率",
-    "hero_title_1": "将手写文字转换为文本和",
-    "hero_title_2": "可编辑文档。",
-    "hero_subtitle": "上传手写笔记、扫描版PDF或白板照片。我们的AI引擎可在几秒钟内将其转换为Word、Excel和PDF。",
-    "check_1": "无需信用卡",
-    "check_2": "每月50次免费识别",
-    "rating_text": "超过1万名用户的4.9/5好评",
-    "cta_start": "免费开始使用",
-    "cta_upload": "上传图片",
-    "stat_time": "处理速度",
-    "stat_accuracy": "识别准确率",
-    "meta_title": "手写转文字识别器 | AI手写OCR | NoteOCR",
-    "meta_desc": "立即将手写笔记转换为可编辑的数字文本。全球领先的高精度AI手写OCR识别工具。"
+    "meta_title": "NoteOCR：手写文字转文本、Word和Excel",
+    "meta_desc": "将手写笔记、表格、发票和工时表，从照片、扫描件或PDF转换为可编辑的Word和Excel文件。无需注册，免费试用。",
+
+    "h1": "将手写笔记转换为可编辑的Word和Excel文件",
+    "subtitle": "上传手写笔记、表格、发票或工时表的照片或扫描件，NoteOCR会识别手写文字，并将其结构还原为可编辑的文档。",
+    "cta_try": "免费试用转换",
+    "cta_pricing": "查看价格",
+    "trust_line": "无需注册即可试用转换。确认效果后，再选择付费套餐。",
+
+    "demo_title": "用你自己的手写字试一试",
+    "demo_desc": "上传一张图片，看看NoteOCR如何转换。无需创建账户，即可预览转换结果。",
+    "demo_drop": "将图片拖放到此处，或点击上传",
+    "demo_formats": "JPG、PNG或WebP格式，最大10MB",
+    "demo_busy": "正在识别你的手写内容……",
+    "demo_err_type": "不支持此文件类型。请上传JPG、PNG或WebP格式的图片。",
+    "demo_err_size": "此图片超过10MB的大小限制。请上传较小的图片。",
+    "demo_err_generic": "转换失败。请重试，或上传更清晰、光线更好的图片。",
+    "demo_locked_title": "你的转换结果已准备就绪",
+    "demo_locked_desc": "如需编辑和下载Word或Excel文件，你需要付费账户。",
+    "demo_unlock": "查看可选套餐",
+    "demo_again": "转换另一张图片",
+
+    "samples_title": "看看手写文档如何变身",
+    "samples_desc": "浏览使用NoteOCR转换的手写文档示例。转换效果可能因字迹和图片质量而异。",
+    "before": "原始文档",
+    "samples": [
+      {
+        "title": "手写笔记转Word",
+        "caption": "将手写的段落、标题和列表转换为可编辑的Word文档。",
+        "before": "/images/noteocr-word-before.png",
+        "before_alt": "手写会议笔记的照片",
+        "after": "/images/noteocr-word-after.png",
+        "after_alt": "同一份手写笔记转换成的可编辑Word文档",
+        "after_label": "瞬间转换为Word（无需手动输入）"
+      },
+      {
+        "title": "手写表格转Excel",
+        "caption": "将手写的行和列转换为可编辑、可整理的电子表格单元格。",
+        "before": "/images/noteocr-excel-before.png",
+        "before_alt": "含有数字的手写表格的照片",
+        "after": "/images/noteocr-excel-after.png",
+        "after_alt": "同一份手写表格转换成的可编辑Excel电子表格",
+        "after_label": "瞬间转换为Excel（无需手动输入）"
+      }
+    ],
+
+    "video_label": "观看NoteOCR转换演示",
+    "video_alt": "NoteOCR将手写笔记转换为可编辑文档的演示",
+
+    "cases_title": "选择你要转换的内容",
+    "cases_desc": "了解针对不同文档类型的手写转换工具和指南。",
+
+    "use_cases": [
+      {
+        "href": "/handwriting-recognition",
+        "title": "手写转文字",
+        "desc": "将手写笔记、信件和日记转换为可编辑的电子文本。"
+      },
+      {
+        "href": "/handwriting-to-docx",
+        "title": "手写转Word",
+        "desc": "将手写页面转换为包含段落、标题和列表的可编辑Word文档。"
+      },
+      {
+        "href": "/handwriting-to-excel",
+        "title": "手写转Excel",
+        "desc": "将手写的表格、记录和日志转换为可编辑的Excel电子表格。"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "手写发票转Excel",
+        "desc": "将手写发票上的明细、数量和合计金额提取到电子表格中。"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "手写工时表转Excel",
+        "desc": "将手写的工作时长和考勤记录转换为电子表格数据。"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "手写库存表转Excel",
+        "desc": "将手写的库存盘点和存货记录录入可编辑的电子表格。"
+      }
+    ],
+
+    "how_title": "NoteOCR的使用方法",
+    "steps": [
+      {
+        "title": "上传文档",
+        "desc": "选择包含手写内容的照片、扫描件或PDF。支持的图片会自动进行识别前处理。"
+      },
+      {
+        "title": "识别并还原",
+        "desc": "NoteOCR读取手写文字，并识别段落、标题、列表和表格等文档元素。"
+      },
+      {
+        "title": "编辑并导出",
+        "desc": "在编辑器中检查并修正转换后的内容，然后导出为Word、Excel或PDF。"
+      }
+    ],
+
+    "scope_title": "NoteOCR能做什么，不能做什么",
+    "scope_desc": "了解哪些因素会影响手写识别效果，有助于你获得更好的转换结果。",
+    "audience_title": "谁在使用NoteOCR",
+    "audience_desc": "每天都要处理手写内容的人们，借助NoteOCR节省了大量手动录入的时间。",
+
+    "audiences": [
+      {
+        "href": "/handwriting-to-docx",
+        "title": "学生和教师",
+        "desc": "将手写的课堂笔记、教案和作业转换为可编辑的文档。",
+        "cta": "将笔记转换为Word"
+      },
+      {
+        "href": "/handwritten-invoice-to-excel",
+        "title": "小微企业",
+        "desc": "将手写的发票、收据和销售记录录入电子表格。",
+        "cta": "将发票转换为Excel"
+      },
+      {
+        "href": "/handwritten-timesheet-to-excel",
+        "title": "管理人员和人事团队",
+        "desc": "将手写工时表和考勤表数字化，用于工资核算和报表。",
+        "cta": "将工时表转换为Excel"
+      },
+      {
+        "href": "/handwritten-inventory-to-excel",
+        "title": "仓库和门店",
+        "desc": "将手写的库存盘点和存货记录整理成条理清晰的电子表格。",
+        "cta": "将库存表转换为Excel"
+      }
+    ],
+    "drop_overlay": "放下图片即可转换",
+    "languages_title": "支持的语言",
+    "languages_list": [
+      "English",
+      "Español",
+      "Français",
+      "Deutsch",
+      "Italiano",
+      "Português (Brasil)",
+      "Nederlands",
+      "Dansk",
+      "Norsk",
+      "Svenska",
+      "Suomi",
+      "Türkçe",
+      "हिन्दी",
+      "日本語",
+      "中文",
+      "以及更多语言"
+    ],
+    "proof_desc": "来自使用NoteOCR转换手写内容的用户的反馈。",
+    "case_cta": "了解更多",
+    "compare_noteocr": "NoteOCR",
+    "aria_features": "NoteOCR功能",
+    "aria_privacy_pricing": "隐私与价格信息",
+
+    "how_detail": "NoteOCR专为手写内容而打造，而不只是印刷体文字。上传照片、扫描件或PDF后，它会读取笔迹，并判断每个部分是段落、标题、列表还是表格。手写表格会变成Excel中的行和列，笔记则变成Word中带格式的文本。下载之前，你可以在编辑器中修正任何识别有误的地方。为获得最佳效果，请使用光线充足、清晰的图片，并再次核对姓名、日期和数字。",
+    "pricing_from": "套餐起价：100页12美元。",
+    "retention_note": "",
+    "store_rating": "每天转换1,000页",
+    "scope_can_title": "NoteOCR支持的内容",
+    "scope_can": [
+      "印刷体式手写和连笔草书",
+      "手写表格、发票、工时表和列表",
+      "多种语言，包括使用拉丁字母的语言及更多语言",
+      "旧的手写信件",
+      "照片、扫描文档和受支持的PDF文件",
+      "转换为可编辑的Word、Excel和PDF文件"
+    ],
+
+    "scope_cannot_title": "当前的限制",
+    "scope_cannot": [
+      "严重褪色、模糊或阴影过重的图片可能导致识别效果不佳",
+      "含有难以辨认的图表的笔记",
+      "免费演示中超过10MB的图片"
+    ],
+
+    "accuracy_note": "识别质量取决于字迹清晰度、图片分辨率、光线和文档状况。字迹清晰通常能带来更好的结果。转换后，请务必核对重要的姓名、日期和数字。",
+
+    "compare_title": "NoteOCR与传统OCR有何不同",
+    "compare_desc": "许多通用OCR工具侧重于提取文字。NoteOCR则专为识别手写内容而设计，并能将文档结构还原为可编辑的文件。",
+
+    "compare_feature": "功能",
+    "compare_traditional": "通用OCR工具",
+
+    "compare_rows": [
+      {
+        "feature": "手写识别",
+        "traditional": "不同工具对手写的支持程度不一",
+        "noteocr": "专为手写文字设计，包括连笔和潦草的字迹"
+      },
+      {
+        "feature": "表格",
+        "traditional": "表格结构可能需要手动校正",
+        "noteocr": "识别表格版式，并将数据整理到Excel单元格中"
+      },
+      {
+        "feature": "输出",
+        "traditional": "通常只提供提取出的文字，还需要进一步排版",
+        "noteocr": "生成可编辑的Word、Excel和PDF文档"
+      },
+      {
+        "feature": "编辑",
+        "traditional": "可能需要将内容复制到其他应用中",
+        "noteocr": "内置编辑器，配有Word/Excel风格的工具栏"
+      }
+    ],
+
+    "privacy_title": "你的文档始终属于你",
+    "privacy_desc": "你的文档可能包含个人或商业信息。我们不会使用你的文档来训练模型。文件在传输和存储过程中均经过加密，你也可以随时从账户中删除。有关数据处理和保留的详情，请参阅我们的隐私政策。",
+    "privacy_link": "阅读我们的隐私政策",
+
+    "pricing_title": "先免费预览，再编辑和导出",
+    "pricing_desc": "付费之前，先试用转换并查看结果。付费套餐可解锁文档编辑功能，并支持下载Word、Excel和PDF文件。",
+    "pricing_cta": "比较套餐",
+
+    "proof_title": "用户评价",
+    "testimonials": [
+      {
+        "name": "ORJI CHARLES",
+        "role": "导师，Sapele Vocational Centre",
+        "quote": "把手写页面转换成可编辑的Word文档，每周都能为我节省好几个小时。",
+        "photo": "/"
+      },
+      {
+        "name": "VICTOR EREWA",
+        "role": "学生，University of Benin（UNIBEN）",
+        "quote": "NoteOCR把我的手写笔记变成可编辑的文档，为我节省了宝贵的时间，让我的学业轻松了许多。",
+        "photo": "/"
+      },
+      {
+        "name": "REMY GBENEDION",
+        "role": "Excel用户",
+        "quote": "我再也不用把手写表格一格一格地敲进Excel了。NoteOCR能准确地把我画的表格转换成格式规范的电子表格，省去了好几个小时的数据录入。",
+        "photo": "/"
+      }
+    ],
+
+    "faq_title": "常见问题",
+    "faq_items": [
+      {
+        "q": "NoteOCR是什么？",
+        "a": "NoteOCR是一个手写识别和文档转换平台。它可以将照片、扫描件和受支持的PDF中的手写笔记、表格、发票和工时表，转换为可编辑的Word、Excel和PDF文件。"
+      },
+      {
+        "q": "NoteOCR的手写识别准确度如何？",
+        "a": "识别质量取决于字迹清晰度、图片分辨率、光线和文档状况。字迹清晰通常能带来更好的结果，而潦草的字迹和质量较差的图片可能会影响识别。转换后，请务必核对重要的姓名、日期和数字。"
+      },
+      {
+        "q": "NoteOCR能识别连笔草书吗？",
+        "a": "可以。NoteOCR支持印刷体式手写和连笔草书，包括连写和倾斜的字迹。识别效果取决于字迹的清晰程度以及上传图片的质量。"
+      },
+      {
+        "q": "不创建账户也能试用NoteOCR吗？",
+        "a": "可以。无需注册，你就可以上传图片并预览转换结果。编辑和下载转换后的Word或Excel文件需要付费账户。"
+      },
+      {
+        "q": "NoteOCR能把手写表格转换成Excel吗？",
+        "a": "可以。NoteOCR能识别手写表格，并将其行和列整理成可编辑的Excel电子表格。你可以将其用于表格、发票、工时表和库存记录。"
+      },
+      {
+        "q": "NoteOCR支持哪些语言？",
+        "a": "NoteOCR支持多种语言。请访问手写识别页面，查看当前支持的语言列表。"
+      },
+      {
+        "q": "可以上传哪些文件格式？",
+        "a": "NoteOCR支持上传JPG、PNG和WebP等图片，以及受支持的PDF文档。免费演示最大接受10MB的图片。"
+      },
+      {
+        "q": "我上传的文档是私密的吗？",
+        "a": "我们不会使用你的文档来训练模型，文件在传输和存储过程中均经过加密。有关文档处理和文件保留的信息，请参阅我们的隐私政策。"
+      },
+      {
+        "q": "NoteOCR有移动应用吗？",
+        "a": "有。NoteOCR提供iPhone和Android版本。你可以用移动应用拍摄手写文档并进行转换。应用提供与网站相同的免费预览，而编辑和下载转换后的文件需要付费账户。"
+      }
+    ],
+
+    "final_title": "看看NoteOCR如何读懂你的手写字",
+    "final_desc": "上传一页手写内容，亲自预览转换结果。",
+    "final_signup": "创建账户",
+
+    "app_line": "同时提供",
+    "app_ios": "iPhone",
+    "app_android": "Android",
+
+    "app_title": "用手机转换手写内容",
+    "app_desc": "随身携带NoteOCR。应用现已在iPhone和Android上提供下载，你可以随时随地拍摄手写文档、预览转换结果并进行编辑。",
+
+    "app_points": [
+      "用手机相机拍摄手写笔记、表格和表单",
+      "使用与网页版相同的免费选项预览转换结果",
+      "使用付费账户编辑并下载Word和Excel文档"
+    ],
+
+    "app_ios_cta": "在App Store下载",
+    "app_android_cta": "前往Google Play获取",
+    "app_more": "了解更多关于移动应用的信息",
+
+    "fact_1": "识别印刷体式手写和连笔草书",
+    "fact_2": "可导出为Word、Excel和PDF",
+    "fact_3": "支持网页、iPhone和Android",
+    "fact_4": "无需注册即可免费预览",
+
+    "watch_title": "看手写页面如何变成文档",
+    "watch_desc": "观看NoteOCR如何识别手写内容，并将其转换为可编辑的电子文档。"
   },
   "Features": {
     "section_label": "生态系统",
