@@ -117,6 +117,7 @@ export function DocumentViewer({
   onClose,
   maxPages,
   ctaHref,
+  onCtaClick,
 }) {
   const scrollRef = useRef(null);
   const closeRef = useRef(onClose);
@@ -347,6 +348,7 @@ export function DocumentViewer({
                         {ctaHref && (
                           <a
                             href={ctaHref}
+                            onClick={onCtaClick}
                             className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-bold py-3 px-6 rounded-lg shadow-lg shadow-blue-600/20 transition-colors"
                           >
                             {t("paywall_button")}

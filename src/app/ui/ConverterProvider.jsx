@@ -7,229 +7,411 @@ import { Loader2, Upload, FileWarning, Check, X } from "lucide-react";
 import { uploadAndTranscribe } from "../lib/api-service";
 import { DocumentViewer } from "./DocumentViewer";
 
+/* -------------------------------------------------------------------------- */
+/* Constants                                                                  */
+/* -------------------------------------------------------------------------- */
+
 const TRIAL_MAX_PAGES = 1;
-const VALID_TYPES = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
-const MAX_SIZE = 25 * 1024 * 1024;
+const ACCEPTED_IMAGE_MIME_TYPES = [
+  "image/jpeg",
+  "image/jpg",
+  "image/png",
+  "image/webp",
+];
+const MAX_FILE_SIZE_IN_BYTES = 25 * 1024 * 1024;
+const TOAST_VISIBLE_DURATION_MS = 6000;
+const TRIAL_USER_ID = "67b746ab6256a6bdb691b18a";
+const SIGNUP_CTA_SOURCE = "ocr-preview";
+
+/* -------------------------------------------------------------------------- */
+/* Google Analytics                                                           */
+/* -------------------------------------------------------------------------- */
+
+const ANALYTICS_EVENTS = {
+  UPLOAD_BUTTON_CLICKED: "convert_upload_button_clicked",
+  FILE_DROPPED: "convert_file_dropped",
+  CONVERSION_STARTED: "convert_started",
+  FILE_VALIDATION_FAILED: "convert_file_validation_failed",
+  CONVERSION_SUCCEEDED: "convert_succeeded",
+  CONVERSION_FAILED: "convert_failed",
+  RESULT_VIEWER_OPENED: "convert_result_viewer_opened",
+  SIGNUP_CTA_CLICKED: "convert_signup_cta_clicked",
+};
+
+/**
+ * Sends a custom event to Google Analytics 4 (gtag).
+ * Falls back to Google Tag Manager's dataLayer if gtag isn't available.
+ * Never throws, so analytics problems can't break the converter.
+ */
+function sendAnalyticsEvent(eventName, eventParameters = {}) {
+  if (typeof window === "undefined") return;
+
+  try {
+    if (typeof window.gtag === "function") {
+      window.gtag("event", eventName, eventParameters);
+    } else if (Array.isArray(window.dataLayer)) {
+      window.dataLayer.push({ event: eventName, ...eventParameters });
+    }
+  } catch {
+    // Ignore analytics errors on purpose.
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Context                                                                    */
+/* -------------------------------------------------------------------------- */
 
 const ConverterContext = createContext(null);
 
 export function useConverter() {
-  const ctx = useContext(ConverterContext);
-  if (!ctx)
+  const converterContextValue = useContext(ConverterContext);
+  if (!converterContextValue) {
     throw new Error("useConverter must be used inside <ConverterProvider>");
-  return ctx;
+  }
+  return converterContextValue;
 }
+
+/* -------------------------------------------------------------------------- */
+/* Provider                                                                   */
+/* -------------------------------------------------------------------------- */
 
 export function ConverterProvider({
   children,
   locale,
   authToken,
   conversionType = "imageToWord",
-  translation = "WordPage", // namespace that holds the tool_/toast_/viewer_ keys
+  translationNamespace = "WordPage", // namespace that holds the tool_/toast_/viewer_ keys
 }) {
-  const t = useTranslations(translation);
+  const translate = useTranslations(translationNamespace);
 
-  const [resultDoc, setResultDoc] = useState(null);
-  const [viewerOpen, setViewerOpen] = useState(false);
-  const [dragActive, setDragActive] = useState(false);
-  const [toast, setToast] = useState({
+  const [convertedDocument, setConvertedDocument] = useState(null);
+  const [isResultViewerOpen, setIsResultViewerOpen] = useState(false);
+  const [isDragActive, setIsDragActive] = useState(false);
+  const [toastState, setToastState] = useState({
     visible: false,
     title: "",
     message: "",
     type: "error",
   });
 
-  const inputRef = useRef(null);
-  const toastTimer = useRef(null);
-  const processRef = useRef(null);
+  const fileInputRef = useRef(null);
+  const toastTimerRef = useRef(null);
+  const latestProcessSelectedFilesRef = useRef(null);
 
-  const getAppUrl = (path) => {
-    const base = `https://app.noteocr.com${path}`;
-    if (!locale || locale === "en") return base;
-    return `${base}${path.includes("?") ? "&" : "?"}lng=${locale}`;
+  /* ------------------------------ URL helpers ------------------------------ */
+
+  const buildAppUrl = (path) => {
+    const baseUrl = `https://app.noteocr.com${path}`;
+    if (!locale || locale === "en") return baseUrl;
+    const querySeparator = path.includes("?") ? "&" : "?";
+    return `${baseUrl}${querySeparator}lng=${locale}`;
   };
 
+  const buildDocumentPreviewUrl = (document) => {
+    if (!document) return null;
+    if (document.previewUrl) return document.previewUrl;
+
+    const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL;
+    const documentOwnerId = document.userId || TRIAL_USER_ID;
+    const documentFolder = encodeURIComponent(document.folder || "Personal");
+    const documentName = encodeURIComponent(document.name);
+
+    return `${apiBaseUrl}/users/preview-document/${documentOwnerId}/${documentFolder}/${documentName}`;
+  };
+
+  /* -------------------------------- Toasts --------------------------------- */
+
   const showToast = (title, message, type = "error") => {
-    clearTimeout(toastTimer.current);
-    setToast({ visible: true, title, message, type });
-    toastTimer.current = setTimeout(
-      () => setToast((p) => ({ ...p, visible: false })),
-      6000,
+    clearTimeout(toastTimerRef.current);
+    setToastState({ visible: true, title, message, type });
+    toastTimerRef.current = setTimeout(
+      () => setToastState((previous) => ({ ...previous, visible: false })),
+      TOAST_VISIBLE_DURATION_MS,
     );
   };
 
-  const { mutate: handleUpload, isPending: isProcessing } = useMutation({
-    mutationFn: uploadAndTranscribe,
-    onSuccess: (data) => {
-      if (data.success) {
-        setResultDoc(data.document);
-        setViewerOpen(true);
-        showToast(t("tool_complete_status"), t("toast_success"), "success");
-      }
-    },
-    onError: (error) => {
-      const msg =
-        error?.response?.data?.error ||
-        error?.message ||
-        t("toast_error_conversion");
-      showToast(t("toast_title_error"), msg, "error");
-    },
-  });
+  const hideToast = () =>
+    setToastState((previous) => ({ ...previous, visible: false }));
 
-  const generateRandomDocName = (base = "noteocr_word") =>
-    `${base}_${Date.now()}_${Math.random().toString(36).substring(2, 8)}`;
+  /* ---------------------------- Upload mutation ---------------------------- */
 
-  const processFiles = async (selectedFiles) => {
-    if (!selectedFiles?.length || isProcessing) return;
-    if (inputRef.current) inputRef.current.value = "";
+  const { mutate: uploadImageForConversion, isPending: isConverting } =
+    useMutation({
+      mutationFn: uploadAndTranscribe,
+      onSuccess: (response) => {
+        if (response.success) {
+          sendAnalyticsEvent(ANALYTICS_EVENTS.CONVERSION_SUCCEEDED, {
+            conversion_type: conversionType,
+          });
+          setConvertedDocument(response.document);
+          setIsResultViewerOpen(true);
+          sendAnalyticsEvent(ANALYTICS_EVENTS.RESULT_VIEWER_OPENED, {
+            conversion_type: conversionType,
+          });
+          showToast(
+            translate("tool_complete_status"),
+            translate("toast_success"),
+            "success",
+          );
+        } else {
+          sendAnalyticsEvent(ANALYTICS_EVENTS.CONVERSION_FAILED, {
+            conversion_type: conversionType,
+            failure_reason: "server_returned_unsuccessful_response",
+          });
+        }
+      },
+      onError: (error) => {
+        const errorMessage =
+          error?.response?.data?.error ||
+          error?.message ||
+          translate("toast_error_conversion");
+
+        sendAnalyticsEvent(ANALYTICS_EVENTS.CONVERSION_FAILED, {
+          conversion_type: conversionType,
+          failure_reason: "request_error",
+          http_status: error?.response?.status,
+        });
+        showToast(translate("toast_title_error"), errorMessage, "error");
+      },
+    });
+
+  /* ------------------------------ File handling ---------------------------- */
+
+  const generateRandomDocumentName = (prefix = "noteocr_word") =>
+    `${prefix}_${Date.now()}_${Math.random().toString(36).substring(2, 8)}`;
+
+  const readFileAsBase64 = (file) =>
+    new Promise((resolve, reject) => {
+      const fileReader = new FileReader();
+      fileReader.readAsDataURL(file);
+      fileReader.onload = () => resolve(fileReader.result.split(",")[1]);
+      fileReader.onerror = reject;
+    });
+
+  /**
+   * @param {File[]} selectedFiles
+   * @param {"file_picker" | "drag_and_drop"} selectionMethod how the user provided the file
+   */
+  const processSelectedFiles = async (
+    selectedFiles,
+    selectionMethod = "file_picker",
+  ) => {
+    if (!selectedFiles?.length || isConverting) return;
+    if (fileInputRef.current) fileInputRef.current.value = "";
 
     if (selectedFiles.length > 1) {
-      return showToast(t("toast_title_one_image"), t("toast_msg_one_image"));
+      sendAnalyticsEvent(ANALYTICS_EVENTS.FILE_VALIDATION_FAILED, {
+        conversion_type: conversionType,
+        selection_method: selectionMethod,
+        failure_reason: "multiple_files",
+        files_count: selectedFiles.length,
+      });
+      return showToast(
+        translate("toast_title_one_image"),
+        translate("toast_msg_one_image"),
+      );
     }
 
-    const file = selectedFiles[0];
-    if (!VALID_TYPES.includes(file.type)) {
-      return showToast(t("toast_title_invalid_file"), t("toast_error_type"));
+    const selectedFile = selectedFiles[0];
+
+    if (!ACCEPTED_IMAGE_MIME_TYPES.includes(selectedFile.type)) {
+      sendAnalyticsEvent(ANALYTICS_EVENTS.FILE_VALIDATION_FAILED, {
+        conversion_type: conversionType,
+        selection_method: selectionMethod,
+        failure_reason: "invalid_file_type",
+        file_type: selectedFile.type || "unknown",
+      });
+      return showToast(
+        translate("toast_title_invalid_file"),
+        translate("toast_error_type"),
+      );
     }
-    if (file.size > MAX_SIZE) {
-      return showToast(t("toast_title_file_too_large"), t("toast_error_size"));
+
+    if (selectedFile.size > MAX_FILE_SIZE_IN_BYTES) {
+      sendAnalyticsEvent(ANALYTICS_EVENTS.FILE_VALIDATION_FAILED, {
+        conversion_type: conversionType,
+        selection_method: selectionMethod,
+        failure_reason: "file_too_large",
+        file_size_in_bytes: selectedFile.size,
+      });
+      return showToast(
+        translate("toast_title_file_too_large"),
+        translate("toast_error_size"),
+      );
     }
 
     try {
-      const base64 = await new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.readAsDataURL(file);
-        reader.onload = () => resolve(reader.result.split(",")[1]);
-        reader.onerror = reject;
+      const imageAsBase64 = await readFileAsBase64(selectedFile);
+
+      sendAnalyticsEvent(ANALYTICS_EVENTS.CONVERSION_STARTED, {
+        conversion_type: conversionType,
+        selection_method: selectionMethod,
+        file_type: selectedFile.type,
+        file_size_in_bytes: selectedFile.size,
       });
 
-      handleUpload({
-        images: [base64],
-        userId: "67b746ab6256a6bdb691b18a",
+      uploadImageForConversion({
+        images: [imageAsBase64],
+        userId: TRIAL_USER_ID,
         conversionType,
-        documentName: generateRandomDocName(),
+        documentName: generateRandomDocumentName(),
         folder: "Personal",
         updating: false,
       });
     } catch {
+      sendAnalyticsEvent(ANALYTICS_EVENTS.CONVERSION_FAILED, {
+        conversion_type: conversionType,
+        selection_method: selectionMethod,
+        failure_reason: "file_read_error",
+      });
       showToast(
-        t("toast_title_processing_error"),
-        t("toast_msg_processing_error"),
+        translate("toast_title_processing_error"),
+        translate("toast_msg_processing_error"),
       );
     }
   };
 
   // Always point at the latest closure so window listeners never go stale
-  processRef.current = processFiles;
+  latestProcessSelectedFilesRef.current = processSelectedFiles;
 
-  const openPicker = () => {
-    if (!isProcessing) inputRef.current?.click();
+  /* ------------------------------ Public actions --------------------------- */
+
+  const openFilePicker = () => {
+    if (isConverting) return;
+    sendAnalyticsEvent(ANALYTICS_EVENTS.UPLOAD_BUTTON_CLICKED, {
+      conversion_type: conversionType,
+    });
+    fileInputRef.current?.click();
   };
 
-  const resetTool = () => {
-    setResultDoc(null);
-    setViewerOpen(false);
+  const resetConverter = () => {
+    setConvertedDocument(null);
+    setIsResultViewerOpen(false);
   };
 
-  // Page-wide drag & drop
+  const reopenResultViewer = () => setIsResultViewerOpen(true);
+
+  const handleSignupCtaClick = () => {
+    sendAnalyticsEvent(ANALYTICS_EVENTS.SIGNUP_CTA_CLICKED, {
+      conversion_type: conversionType,
+      cta_location: "result_viewer",
+    });
+  };
+
+  /* --------------------------- Page-wide drag & drop ----------------------- */
+
   useEffect(() => {
-    let depth = 0;
-    const hasFiles = (e) =>
-      Array.from(e.dataTransfer?.types || []).includes("Files");
+    let dragEnterDepth = 0;
 
-    const onEnter = (e) => {
-      if (!hasFiles(e)) return;
-      e.preventDefault();
-      depth++;
-      setDragActive(true);
-    };
-    const onOver = (e) => {
-      if (hasFiles(e)) e.preventDefault(); // required, or the drop never fires
-    };
-    const onLeave = (e) => {
-      if (!hasFiles(e)) return;
-      depth = Math.max(0, depth - 1);
-      if (depth === 0) setDragActive(false);
-    };
-    const onDrop = (e) => {
-      if (!hasFiles(e)) return;
-      e.preventDefault(); // stops the browser from opening the image
-      depth = 0;
-      setDragActive(false);
-      processRef.current(Array.from(e.dataTransfer.files));
+    const eventContainsFiles = (dragEvent) =>
+      Array.from(dragEvent.dataTransfer?.types || []).includes("Files");
+
+    const handleDragEnter = (dragEvent) => {
+      if (!eventContainsFiles(dragEvent)) return;
+      dragEvent.preventDefault();
+      dragEnterDepth++;
+      setIsDragActive(true);
     };
 
-    window.addEventListener("dragenter", onEnter);
-    window.addEventListener("dragover", onOver);
-    window.addEventListener("dragleave", onLeave);
-    window.addEventListener("drop", onDrop);
+    const handleDragOver = (dragEvent) => {
+      // Required, or the drop event never fires
+      if (eventContainsFiles(dragEvent)) dragEvent.preventDefault();
+    };
+
+    const handleDragLeave = (dragEvent) => {
+      if (!eventContainsFiles(dragEvent)) return;
+      dragEnterDepth = Math.max(0, dragEnterDepth - 1);
+      if (dragEnterDepth === 0) setIsDragActive(false);
+    };
+
+    const handleDrop = (dragEvent) => {
+      if (!eventContainsFiles(dragEvent)) return;
+      dragEvent.preventDefault(); // stops the browser from opening the image
+      dragEnterDepth = 0;
+      setIsDragActive(false);
+
+      const droppedFiles = Array.from(dragEvent.dataTransfer.files);
+      sendAnalyticsEvent(ANALYTICS_EVENTS.FILE_DROPPED, {
+        conversion_type: conversionType,
+        files_count: droppedFiles.length,
+      });
+      latestProcessSelectedFilesRef.current(droppedFiles, "drag_and_drop");
+    };
+
+    window.addEventListener("dragenter", handleDragEnter);
+    window.addEventListener("dragover", handleDragOver);
+    window.addEventListener("dragleave", handleDragLeave);
+    window.addEventListener("drop", handleDrop);
+
     return () => {
-      window.removeEventListener("dragenter", onEnter);
-      window.removeEventListener("dragover", onOver);
-      window.removeEventListener("dragleave", onLeave);
-      window.removeEventListener("drop", onDrop);
+      window.removeEventListener("dragenter", handleDragEnter);
+      window.removeEventListener("dragover", handleDragOver);
+      window.removeEventListener("dragleave", handleDragLeave);
+      window.removeEventListener("drop", handleDrop);
     };
-  }, []);
+  }, [conversionType]);
 
-  const ctaHref = resultDoc ? getAppUrl("/signup?source=ocr-preview") : null;
+  // Clear any pending toast timer on unmount
+  useEffect(() => () => clearTimeout(toastTimerRef.current), []);
 
-  const getPreviewUrl = (doc) => {
-    if (!doc) return null;
-    if (doc.previewUrl) return doc.previewUrl;
-    const api = process.env.NEXT_PUBLIC_API_URL;
-    return `${api}/users/preview-document/${
-      doc.userId || "67b746ab6256a6bdb691b18a"
-    }/${encodeURIComponent(doc.folder || "Personal")}/${encodeURIComponent(doc.name)}`;
-  };
+  /* --------------------------------- Render -------------------------------- */
 
-  const value = {
-    openPicker,
-    processFiles,
-    isProcessing,
-    dragActive,
-    resultDoc,
-    resetTool,
-    reopenViewer: () => setViewerOpen(true),
+  const signupCtaHref = convertedDocument
+    ? buildAppUrl(`/signup?source=${SIGNUP_CTA_SOURCE}`)
+    : null;
+
+  const converterContextValue = {
+    openPicker: openFilePicker,
+    processFiles: processSelectedFiles,
+    isProcessing: isConverting,
+    dragActive: isDragActive,
+    resultDoc: convertedDocument,
+    resetTool: resetConverter,
+    reopenViewer: reopenResultViewer,
   };
 
   return (
-    <ConverterContext.Provider value={value}>
+    <ConverterContext.Provider value={converterContextValue}>
       {children}
 
       {/* The one and only file input on the page */}
       <input
-        ref={inputRef}
+        ref={fileInputRef}
         type="file"
-        accept={VALID_TYPES.join(",")}
+        accept={ACCEPTED_IMAGE_MIME_TYPES.join(",")}
         className="sr-only"
         tabIndex={-1}
-        onChange={(e) =>
-          e.target.files && processFiles(Array.from(e.target.files))
+        onChange={(changeEvent) =>
+          changeEvent.target.files &&
+          processSelectedFiles(
+            Array.from(changeEvent.target.files),
+            "file_picker",
+          )
         }
       />
 
       {/* Full-page drop overlay */}
-      {dragActive && !isProcessing && (
+      {isDragActive && !isConverting && (
         <div className="pointer-events-none fixed inset-0 z-[150] grid place-items-center bg-blue-600/20 backdrop-blur-sm">
           <div className="m-4 flex flex-col items-center gap-3 rounded-2xl border-2 border-dashed border-blue-500 bg-white px-10 py-12 shadow-2xl">
             <Upload className="h-10 w-10 text-blue-600" />
             <p className="text-lg font-bold text-neutral-900">
-              {t("drop_overlay")}
+              {translate("drop_overlay")}
             </p>
           </div>
         </div>
       )}
 
       {/* Processing overlay (buttons are all over the page, so this is global) */}
-      {isProcessing && (
+      {isConverting && (
         <div className="fixed inset-0 z-[180] grid place-items-center bg-black/50 px-4">
           <div className="flex w-full max-w-sm flex-col items-center gap-4 rounded-2xl bg-white p-8 text-center shadow-2xl">
             <Loader2 className="h-12 w-12 animate-spin text-blue-600" />
             <h3 className="text-lg font-bold text-neutral-900">
-              {t("tool_processing_title")}
+              {translate("tool_processing_title")}
             </h3>
             <p className="text-xs leading-relaxed text-neutral-600">
-              {t("tool_processing_desc")}
+              {translate("tool_processing_desc")}
             </p>
           </div>
         </div>
@@ -238,31 +420,33 @@ export function ConverterProvider({
       {/* Toast */}
       <div
         className={`fixed left-1/2 top-4 z-[300] -translate-x-1/2 transition-all duration-300 ${
-          toast.visible
+          toastState.visible
             ? "translate-y-0 opacity-100"
             : "pointer-events-none -translate-y-4 opacity-0"
         }`}
       >
         <div
           className={`flex w-[90vw] max-w-[400px] items-start gap-3 rounded-xl border bg-white p-4 shadow-2xl ${
-            toast.type === "error" ? "border-red-200" : "border-blue-200"
+            toastState.type === "error" ? "border-red-200" : "border-blue-200"
           }`}
         >
-          {toast.type === "error" ? (
+          {toastState.type === "error" ? (
             <FileWarning className="mt-0.5 h-5 w-5 shrink-0 text-red-500" />
           ) : (
             <Check className="mt-0.5 h-5 w-5 shrink-0 text-blue-500" />
           )}
           <div className="flex-1 text-left">
             <h4
-              className={`text-sm font-bold ${toast.type === "error" ? "text-red-600" : "text-blue-600"}`}
+              className={`text-sm font-bold ${
+                toastState.type === "error" ? "text-red-600" : "text-blue-600"
+              }`}
             >
-              {toast.title}
+              {toastState.title}
             </h4>
-            <p className="text-xs text-neutral-600">{toast.message}</p>
+            <p className="text-xs text-neutral-600">{toastState.message}</p>
           </div>
           <button
-            onClick={() => setToast((p) => ({ ...p, visible: false }))}
+            onClick={hideToast}
             className="text-neutral-400 hover:text-neutral-900"
             aria-label="Close"
           >
@@ -272,15 +456,16 @@ export function ConverterProvider({
       </div>
 
       {/* Result viewer */}
-      {resultDoc && viewerOpen && (
+      {convertedDocument && isResultViewerOpen && (
         <DocumentViewer
-          t={t}
-          fileUrl={getPreviewUrl(resultDoc)}
+          t={translate}
+          fileUrl={buildDocumentPreviewUrl(convertedDocument)}
           token={authToken}
-          title={resultDoc.name}
-          onClose={() => setViewerOpen(false)}
+          title={convertedDocument.name}
+          onClose={() => setIsResultViewerOpen(false)}
           maxPages={TRIAL_MAX_PAGES}
-          ctaHref={ctaHref}
+          ctaHref={signupCtaHref}
+          onCtaClick={handleSignupCtaClick}
         />
       )}
     </ConverterContext.Provider>

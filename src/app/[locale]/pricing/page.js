@@ -1,40 +1,80 @@
 import PricingPage from "../../ui/PricingPage";
 import { getTranslations } from "next-intl/server";
 
+const SITE_URL = "https://noteocr.com";
+const PRICING_REVALIDATE_SECONDS = 300; // re-fetch backend prices at most every 5 minutes
+
+// Locales that have a translated pricing page (URL prefix equals the locale code)
+const SUPPORTED_LOCALES = [
+  "en",
+  "es",
+  "tr",
+  "zh",
+  "hi",
+  "de",
+  "ja",
+  "fr",
+  "pt-br",
+  "da",
+  "fi",
+  "it",
+  "nl",
+  "no",
+  "sv",
+];
+
+const getLocalePath = (locale) => (locale === "en" ? "" : `/${locale}`);
+
+const buildPricingUrl = (locale) =>
+  `${SITE_URL}${getLocalePath(locale)}/pricing`;
+
+// hreflang map: one entry per locale, plus x-default pointing to English
+const buildLanguageAlternates = () => ({
+  "x-default": buildPricingUrl("en"),
+  ...Object.fromEntries(
+    SUPPORTED_LOCALES.map((supportedLocale) => [
+      supportedLocale,
+      buildPricingUrl(supportedLocale),
+    ]),
+  ),
+});
+
+/**
+ * Fetches plan prices from the backend on the server, so the correct prices are
+ * in the first HTML sent to users and search engines.
+ * Returns null on any failure; the page then falls back to the translation prices.
+ */
+async function fetchBackendPricing() {
+  const backendApiBaseUrl = process.env.NEXT_PUBLIC_API_URL;
+  if (!backendApiBaseUrl) return null;
+
+  try {
+    const pricingResponse = await fetch(`${backendApiBaseUrl}/users/pricing`, {
+      next: { revalidate: PRICING_REVALIDATE_SECONDS },
+    });
+    return pricingResponse.ok ? await pricingResponse.json() : null;
+  } catch {
+    return null;
+  }
+}
+
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Pricing" });
-  const localePath = locale === "en" ? "" : `/${locale}`; // 👈 same helper logic
+  const pricingUrl = buildPricingUrl(locale);
 
   return {
     title: t("meta_title"),
     description: t("meta_desc"),
     keywords: t("meta_keywords"),
     alternates: {
-      canonical: `https://noteocr.com${localePath}/pricing`,
-      languages: {
-        "x-default": "https://noteocr.com/pricing",
-        en: "https://noteocr.com/pricing",
-        es: "https://noteocr.com/es/pricing",
-        tr: "https://noteocr.com/tr/pricing",
-        zh: "https://noteocr.com/zh/pricing",
-        hi: "https://noteocr.com/hi/pricing",
-        de: "https://noteocr.com/de/pricing",
-        ja: "https://noteocr.com/ja/pricing",
-        fr: "https://noteocr.com/fr/pricing",
-        "pt-br": "https://noteocr.com/pt-br/pricing",
-        da: "https://noteocr.com/da/pricing",
-        fi: "https://noteocr.com/fi/pricing",
-        it: "https://noteocr.com/it/pricing",
-        nl: "https://noteocr.com/nl/pricing",
-        no: "https://noteocr.com/no/pricing",
-        sv: "https://noteocr.com/sv/pricing",
-      },
+      canonical: pricingUrl,
+      languages: buildLanguageAlternates(),
     },
     openGraph: {
       title: t("og_title"),
       description: t("og_desc"),
-      url: `https://noteocr.com${localePath}/pricing`,
+      url: pricingUrl,
       type: "website",
       images: [
         {
@@ -45,50 +85,14 @@ export async function generateMetadata({ params }) {
         },
       ],
     },
-    other: {
-      "application/ld+json": JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Product",
-        name: t("product_name"),
-        description: t("product_desc"),
-        brand: {
-          "@type": "Brand",
-          name: "NoteOCR",
-        },
-        offers: {
-          "@type": "AggregateOffer",
-          lowPrice: "0.00",
-          highPrice: "25.00",
-          priceCurrency: "USD",
-          offerCount: "3",
-          offers: [
-            {
-              "@type": "Offer",
-              name: t("plan_free"),
-              price: "0.00",
-              priceCurrency: "USD",
-            },
-            {
-              "@type": "Offer",
-              name: t("plan_pro"),
-              price: "8.00",
-              priceCurrency: "USD",
-            },
-            {
-              "@type": "Offer",
-              name: t("plan_biz"),
-              price: "25.00",
-              priceCurrency: "USD",
-            },
-          ],
-        },
-      }),
-    },
+    // The Product JSON-LD was removed from here: `other` renders a <meta> tag,
+    // which search engines ignore for structured data. PricingPage now outputs it
+    // as a real <script type="application/ld+json"> using the live backend prices.
   };
 }
 
-const Pricing = () => {
-  return <PricingPage />;
-};
+export default async function PricingRoutePage() {
+  const initialPricing = await fetchBackendPricing();
 
-export default Pricing;
+  return <PricingPage initialPricing={initialPricing} />;
+}
